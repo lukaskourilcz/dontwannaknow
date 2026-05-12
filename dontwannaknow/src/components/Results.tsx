@@ -9,6 +9,7 @@ import { CITY_COORDS } from "../data/cityCoords";
 import { lifeExpectancyFor } from "../data/lifeExpectancy";
 import { buildShareUrl } from "../lib/share";
 import { generatePdf } from "../lib/pdf";
+import { useLang } from "../i18n/useLang";
 
 type Props = {
   reports: PersonReport[];
@@ -47,6 +48,7 @@ function groupByCategory(facts: Fact[]) {
 type ViewMode = "essay" | "facts";
 
 export default function Results({ reports, people, onReset, onRegenerate }: Props) {
+  const { t } = useLang();
   const [view, setView] = useState<ViewMode>("essay");
   const [shareState, setShareState] = useState<"idle" | "copied">("idle");
   const skyRefs = useRef<Map<number, SVGSVGElement | null>>(new Map());
@@ -84,7 +86,7 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
   return (
     <div className="results">
       <div className="results-header">
-        <h2>Their world</h2>
+        <h2>{t("results.heading")}</h2>
         <div className="results-actions">
           <div className="view-toggle" role="tablist" aria-label="View mode">
             <button
@@ -94,7 +96,7 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
               className={view === "essay" ? "active" : ""}
               onClick={() => setView("essay")}
             >
-              Essay
+              {t("results.essay")}
             </button>
             <button
               type="button"
@@ -103,17 +105,17 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
               className={view === "facts" ? "active" : ""}
               onClick={() => setView("facts")}
             >
-              Facts
+              {t("results.facts")}
             </button>
           </div>
           <button className="secondary" type="button" onClick={onRegenerate}>
-            ↻ Shuffle
+            {t("results.shuffle")}
           </button>
           <button className="secondary" type="button" onClick={handleShare}>
-            {shareState === "copied" ? "✓ Link copied" : "⇪ Share"}
+            {shareState === "copied" ? t("results.share.copied") : t("results.share")}
           </button>
           <button className="secondary" type="button" onClick={onReset}>
-            Start over
+            {t("results.reset")}
           </button>
         </div>
       </div>
@@ -149,19 +151,19 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
                 <div>
                   <h3>{r.person.label}</h3>
                   <p className="person-sub">
-                    Born {r.person.birthYear} in{" "}
+                    {t("person.bornIn")} {r.person.birthYear} {t("person.bornInWord")}{" "}
                     {r.cityLabel ? `${r.cityLabel}, ${r.countryLabel}` : r.countryLabel}
                     {" · "}
-                    {r.ageNow} years on this planet
+                    {r.ageNow} {t("person.yearsOnPlanet")}
                   </p>
                 </div>
                 <button
                   type="button"
                   className="secondary download-btn"
                   onClick={() => handleDownload(i, r)}
-                  aria-label={`Download a PDF for ${r.person.label}`}
+                  aria-label={`PDF · ${r.person.label}`}
                 >
-                  ↓ PDF
+                  {t("results.pdf")}
                 </button>
               </div>
             </header>
@@ -234,12 +236,7 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
           </article>
         );
       })}
-      <p className="disclaimer">
-        Texture and numbers are rounded historical averages from public
-        datasets and standard histories. Hit "Shuffle" to re-roll the mix,
-        "Share" to copy a link to this exact report, or "↓ PDF" to download
-        each person's full essay as a printable booklet.
-      </p>
+      <p className="disclaimer">{t("results.disclaimer")}</p>
     </div>
   );
 }

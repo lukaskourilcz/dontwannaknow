@@ -1,11 +1,40 @@
 import { useEffect, useState } from "react";
-import PersonForm from "./components/PersonForm";
+import TypeformWizard from "./components/TypeformWizard";
 import Results from "./components/Results";
 import { reportFor, type Person, type PersonReport } from "./lib/facts";
 import { decodePeopleUrl } from "./lib/share";
+import { LangProvider } from "./i18n/LangContext";
+import { useLang } from "./i18n/useLang";
 import "./styles.css";
 
-export default function App() {
+function LangToggle() {
+  const { lang, setLang } = useLang();
+  return (
+    <div className="lang-toggle" role="tablist" aria-label="Language">
+      <button
+        type="button"
+        role="tab"
+        aria-selected={lang === "cs"}
+        className={lang === "cs" ? "active" : ""}
+        onClick={() => setLang("cs")}
+      >
+        CZ
+      </button>
+      <button
+        type="button"
+        role="tab"
+        aria-selected={lang === "en"}
+        className={lang === "en" ? "active" : ""}
+        onClick={() => setLang("en")}
+      >
+        EN
+      </button>
+    </div>
+  );
+}
+
+function AppInner() {
+  const { t } = useLang();
   const [people, setPeople] = useState<Person[] | null>(null);
   const [reports, setReports] = useState<PersonReport[] | null>(null);
 
@@ -13,7 +42,6 @@ export default function App() {
     setReports(list.map(reportFor));
   };
 
-  // On first load, see if there's a shareable URL hash and use it.
   useEffect(() => {
     if (typeof window === "undefined") return;
     const hash = window.location.hash;
@@ -46,18 +74,17 @@ export default function App() {
 
   return (
     <div className="page">
+      <div className="lang-bar">
+        <LangToggle />
+      </div>
       <header className="hero">
-        <p className="eyebrow">Don't wanna know · but you should</p>
-        <h1>The world your people lived through</h1>
-        <p className="lede">
-          Enter a birth year and birthplace for yourself, your parents, your
-          grandparents — and see the bizarre, the beautiful, and the everyday
-          details of the world they were born into.
-        </p>
+        <p className="eyebrow">{t("hero.eyebrow")}</p>
+        <h1>{t("hero.title")}</h1>
+        <p className="lede">{t("hero.lede")}</p>
       </header>
 
       <main>
-        {!reports && <PersonForm onSubmit={handleSubmit} />}
+        {!reports && <TypeformWizard onSubmit={handleSubmit} />}
         {reports && people && (
           <Results
             reports={reports}
@@ -69,8 +96,16 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <p>Made with curiosity. Facts compiled from public historical data.</p>
+        <p>{t("footer")}</p>
       </footer>
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <LangProvider>
+      <AppInner />
+    </LangProvider>
   );
 }

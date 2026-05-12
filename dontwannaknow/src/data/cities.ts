@@ -45,6 +45,36 @@ export const CITIES: City[] = [
   { slug: "jihlava",             name: "Jihlava",             aka: "Iglau",       country: "CZ" },
   { slug: "teplice",             name: "Teplice",             aka: "Teplitz",     country: "CZ" },
   { slug: "decin",               name: "Děčín",               aka: "Tetschen",    country: "CZ" },
+  { slug: "chomutov",            name: "Chomutov",            aka: "Komotau",     country: "CZ" },
+  { slug: "jablonec",            name: "Jablonec nad Nisou",  aka: "Gablonz",     country: "CZ" },
+  { slug: "mlada-boleslav",      name: "Mladá Boleslav",                          country: "CZ" },
+  { slug: "prostejov",           name: "Prostějov",                               country: "CZ" },
+  { slug: "prerov",              name: "Přerov",                                  country: "CZ" },
+  { slug: "ceska-lipa",          name: "Česká Lípa",          aka: "Böhmisch Leipa", country: "CZ" },
+  { slug: "trebic",              name: "Třebíč",                                  country: "CZ" },
+  { slug: "trutnov",             name: "Trutnov",             aka: "Trautenau",   country: "CZ" },
+  { slug: "trinec",              name: "Třinec",                                  country: "CZ" },
+  { slug: "tabor",               name: "Tábor",                                   country: "CZ" },
+  { slug: "znojmo",              name: "Znojmo",              aka: "Znaim",       country: "CZ" },
+  { slug: "pribram",             name: "Příbram",                                 country: "CZ" },
+  { slug: "cheb",                name: "Cheb",                aka: "Eger",        country: "CZ" },
+  { slug: "kolin",               name: "Kolín",                                   country: "CZ" },
+  { slug: "pisek",               name: "Písek",                                   country: "CZ" },
+  { slug: "kromeriz",            name: "Kroměříž",            aka: "Kremsier",    country: "CZ" },
+  { slug: "sumperk",             name: "Šumperk",             aka: "Mährisch Schönberg", country: "CZ" },
+  { slug: "vsetin",              name: "Vsetín",                                  country: "CZ" },
+  { slug: "valasske-mezirici",   name: "Valašské Meziříčí",                       country: "CZ" },
+  { slug: "litvinov",            name: "Litvínov",                                country: "CZ" },
+  { slug: "breclav",             name: "Břeclav",             aka: "Lundenburg",  country: "CZ" },
+  { slug: "novy-jicin",          name: "Nový Jičín",          aka: "Neutitschein", country: "CZ" },
+  { slug: "krnov",               name: "Krnov",               aka: "Jägerndorf",  country: "CZ" },
+  { slug: "uherske-hradiste",    name: "Uherské Hradiště",                        country: "CZ" },
+  { slug: "litomerice",          name: "Litoměřice",          aka: "Leitmeritz",  country: "CZ" },
+  { slug: "hodonin",             name: "Hodonín",             aka: "Göding",      country: "CZ" },
+  { slug: "zdar-nad-sazavou",    name: "Žďár nad Sázavou",                        country: "CZ" },
+  { slug: "kutna-hora",          name: "Kutná Hora",          aka: "Kuttenberg",  country: "CZ" },
+  { slug: "cesky-tesin",         name: "Český Těšín",         aka: "Teschen",     country: "CZ" },
+  { slug: "havlickuv-brod",      name: "Havlíčkův Brod",      aka: "Deutschbrod", country: "CZ" },
 
   // ─── Ukraine / Ukrainian SSR ───────────────────────────────────────
   { slug: "kyiv",                name: "Kyiv",                aka: "Kiev",                              country: "UA" },
@@ -1083,6 +1113,23 @@ export const CITY_FACTS: CityFact[] = [
   { city: "mariupol", year: 1968, text: "the Illich Iron and Steel Works was modernised with continuous casting" },
   { city: "mariupol", year: 1975, text: "Azovstal and Illich Steel together employed about 50,000 workers" },
   { city: "mariupol", year: 1975, text: "the Azovmash heavy machinery plant produced equipment for the Baikal-Amur Mainline" },
+  { city: "mariupol", year: 1920, text: "the Red Army drove out White General Denikin's forces in the spring; the port resumed grain shipments by autumn" },
+  { city: "mariupol", year: 1923, text: "Mariupol was made an okruh administrative centre; the Pontic Greek community of about 80,000 was still the largest in the USSR" },
+  { city: "mariupol", year: 1929, text: "the Azovstal works were laid out on a green-field site east of the river Kalmius — the largest single industrial project of the First Five-Year Plan" },
+  { city: "mariupol", year: 1932, text: "the Holodomor reached the city's outskirts; villages of the Pryazovian Greek and Ukrainian belt were emptied" },
+  { city: "mariupol", year: 1939, text: "the Illich (Illyich) Iron and Steel Works was rebuilt and rolled out armour plate for the Red Army's new T-34 tanks" },
+  { city: "mariupol", year: 1940, text: "the seaport handled record cargo of Donbas coal headed for Black Sea destinations" },
+  { city: "mariupol", year: 1942, text: "the Wehrmacht ran a forced-labour regime; thousands of Mariupol residents were shipped to Ostarbeiter camps in the Reich" },
+  { city: "mariupol", year: 1947, text: "Azovstal's first post-war blast furnace was fired up after near-total wartime destruction" },
+  { city: "mariupol", year: 1949, text: "the rebuilt city centre rose on Prospekt Lenina with classical socialist-realist façades" },
+  { city: "mariupol", year: 1955, text: "Zhdanov shipyard launched its first ocean-going tankers for the Black Sea Shipping Company" },
+  { city: "mariupol", year: 1961, text: "the Azovstal coke-oven battery No 4 made the works the largest single steel producer in the USSR for several years" },
+  { city: "mariupol", year: 1965, text: "the Black Sea coast just east of the city became a Soviet summer-camp belt with sanatoriums for steel-worker families" },
+  { city: "mariupol", year: 1970, text: "the Zhdanov drama theatre on the central square hosted regular touring productions from Kyiv and Moscow" },
+  { city: "mariupol", year: 1971, text: "Azovstal won the Order of Lenin in honour of the city's wartime defence and post-war reconstruction" },
+  { city: "mariupol", year: 1977, text: "the air over Zhdanov was officially classified by Soviet authorities as 'unhealthy' — but no plant scaled back production" },
+  { city: "mariupol", year: 1979, text: "the city hit a population of half a million for the first time" },
+  { city: "mariupol", year: 1980, text: "Mariupol-built shipping containers and freight cars rolled across the Soviet bloc; the Azovmash plant was one of the largest exporters in the Ukrainian SSR" },
   { city: "merida", year: 1922, text: "Felipe Carrillo Puerto became governor of Yucatán and declared the first socialist government in the Americas from Mérida" },
   { city: "merida", year: 1923, text: "in Carrillo Puerto's first year his administration opened 417 public schools across Yucatán" },
   { city: "merida", year: 1924, text: "Carrillo Puerto was executed by a firing squad on January 3 along with three of his brothers, in the de la Huerta rebellion" },
@@ -1310,6 +1357,24 @@ export const CITY_FACTS: CityFact[] = [
   { city: "odesa", year: 1975, text: "the Black Sea Shipping Company headquartered in Odesa operated one of the world's largest merchant fleets" },
   { city: "odesa", year: 1976, text: "Kira Muratova directed The Long Farewell at the Odesa Film Studio though it was shelved by censors" },
   { city: "odesa", year: 1978, text: "the new Odesa airport terminal opened at Tsentralnyi" },
+  { city: "odesa", year: 1921, text: "the famine of 1921-22 hit the Odesa hinterland; the city's Jewish charities and the American Joint Distribution Committee ran soup kitchens on Deribasivska Street" },
+  { city: "odesa", year: 1924, text: "the Mosfilm-era Odesa Film Studio reopened on Frantsuzkyi Boulevard with new sound stages" },
+  { city: "odesa", year: 1927, text: "the 100th anniversary of the Odesa Opera House (built 1810, rebuilt 1887) drew Soviet luminaries to the rococo theatre on Lanzheronivska" },
+  { city: "odesa", year: 1929, text: "writer Ilya Ilf and Yevgeny Petrov drew on Odesa types for The Twelve Chairs; both had grown up in the city" },
+  { city: "odesa", year: 1931, text: "the Mosfilm and Odesa Film Studio produced silent comedies that exported Odesa's sense of humour across the USSR" },
+  { city: "odesa", year: 1936, text: "the Pioneer Park between Deribasivska and the Privoz market opened for working-class children's summer activities" },
+  { city: "odesa", year: 1938, text: "the city's Jewish population of around 200,000 still made up a third of Odesa" },
+  { city: "odesa", year: 1940, text: "the Soviets removed the old Yiddish-language signs from shops and replaced them with Russian and Ukrainian" },
+  { city: "odesa", year: 1944, text: "after liberation, only about 600 of Odesa's pre-war Jews remained in the city" },
+  { city: "odesa", year: 1946, text: "the Black Sea fleet's headquarters at Sevastopol kept Odesa's role as a commercial port rather than a military base" },
+  { city: "odesa", year: 1948, text: "the Odesa Opera and Ballet Theatre reopened with full force after wartime damage" },
+  { city: "odesa", year: 1957, text: "Khrushchev's Thaw brought new freedoms to Odesa's club music; jazz returned to the Philharmonic" },
+  { city: "odesa", year: 1961, text: "the Arcadia Beach resort district was redeveloped as a Soviet 'health-and-rest' zone, with sanatoriums for trade-union workers" },
+  { city: "odesa", year: 1964, text: "Soviet humourist Mikhail Zhvanetsky began his life-long literary collaboration with Odesa-born Roman Kartsev and Viktor Ilchenko" },
+  { city: "odesa", year: 1971, text: "the second wave of the cholera epidemic from Iran reached Odesa; cordon sanitaire was imposed for weeks" },
+  { city: "odesa", year: 1973, text: "the Odesa Film Studio's 'Fantastic Story of Ushakov' became a Soviet animation hit, and the studio's New Wave directors began their careers" },
+  { city: "odesa", year: 1979, text: "by the end of the 1970s, around 70,000 Odesa Jews had emigrated to Israel and the US in the third wave of post-war Jewish emigration" },
+  { city: "odesa", year: 1980, text: "the Black Sea Shipping Company employed about 27,000 seafarers — one of the largest single workforces in the Ukrainian SSR" },
   { city: "olomouc", year: 1920, text: "Olomouc-Hodolany and seven other villages merged into Greater Olomouc, ending the Habsburg fortress city's compact footprint" },
   { city: "olomouc", year: 1921, text: "the Holy Trinity Column on the Upper Square was 167 years old and remained the dominant marker of every Olomouc parade" },
   { city: "olomouc", year: 1926, text: "Czechoslovak Radio Olomouc began broadcasts, the third regional studio in the country" },
@@ -2001,6 +2066,792 @@ export const CITY_FACTS: CityFact[] = [
   { city: "zlin", year: 1969, text: "Zlín children's film studios continued producing classic Czech animation" },
   { city: "zlin", year: 1972, text: "the city had grown to over 80,000 inhabitants as new paneláky filled the slopes above the old Baťa town" },
   { city: "zlin", year: 1976, text: "Svit factories were producing more than 100 million pairs of shoes a year for the Comecon market" },
+
+  // ── Chomutov ────────────────────────────────────────────────────
+  { city: "chomutov", year: 1938, text: "the city (then Komotau) was annexed into the Sudetengau by Nazi Germany" },
+  { city: "chomutov", year: 1945, text: "the German population was expelled under the Beneš decrees and replaced by Czech settlers" },
+  { city: "chomutov", year: 1969, text: "the Chomutov power plant and Válcovny trub steelworks became major regional employers under socialism" },
+
+  // ── Jablonec nad Nisou ─────────────────────────────────────────
+  { city: "jablonec", year: 1920, text: "Jablonec (then Gablonz) was the world capital of glass jewellery and costume beads" },
+  { city: "jablonec", year: 1938, text: "annexed by Nazi Germany after the Munich Agreement; the Reichsgau Sudetenland's beads continued to ship abroad" },
+  { city: "jablonec", year: 1945, text: "the German glass-making population was expelled and entire bead workshops were dismantled" },
+  { city: "jablonec", year: 1971, text: "the Jablonex export combine sold Czechoslovak costume jewellery worldwide" },
+
+  // ── Mladá Boleslav ──────────────────────────────────────────────
+  { city: "mlada-boleslav", year: 1925, text: "Škoda Works (Plzeň) took over the local Laurin & Klement car factory and renamed it Škoda Auto" },
+  { city: "mlada-boleslav", year: 1939, text: "Škoda Mladá Boleslav was placed under Hermann-Göring-Werke control and made military vehicles for the Wehrmacht" },
+  { city: "mlada-boleslav", year: 1945, text: "an American B-17 raid in May, just before liberation, hit the Škoda plant by mistake" },
+  { city: "mlada-boleslav", year: 1964, text: "the Škoda 1000 MB rolled off the line — a rear-engined family car that became a Czech icon" },
+
+  // ── Prostějov ──────────────────────────────────────────────────
+  { city: "prostejov", year: 1920, text: "Prostějov was 'the Manchester of Haná' — a textile and tailoring capital" },
+  { city: "prostejov", year: 1968, text: "the Oděvní průmysl OP Prostějov factory clothed half of Czechoslovakia in men's suits" },
+
+  // ── Přerov ──────────────────────────────────────────────────────
+  { city: "prerov", year: 1939, text: "Přerov became a strategic Reichsbahn rail hub connecting Vienna to Kraków under Nazi occupation" },
+  { city: "prerov", year: 1945, text: "the 'Švédské šance' massacre in June saw hundreds of ethnic German civilians killed by Czechoslovak soldiers" },
+  { city: "prerov", year: 1971, text: "the Meopta optics factory was supplying lenses and cameras across the Eastern Bloc" },
+
+  // ── Česká Lípa ────────────────────────────────────────────────
+  { city: "ceska-lipa", year: 1938, text: "annexed to the Sudetengau with the rest of north-Bohemian German-speaking territory" },
+  { city: "ceska-lipa", year: 1971, text: "uranium mining at nearby Stráž pod Ralskem expanded; thousands of Romanian and Czech miners moved in" },
+
+  // ── Třebíč ──────────────────────────────────────────────────────
+  { city: "trebic", year: 1942, text: "Třebíč's Jewish community was deported to Theresienstadt; the well-preserved ghetto would later become a UNESCO site" },
+  { city: "trebic", year: 1975, text: "construction began on the Dukovany nuclear power plant nearby — one of the biggest Czech industrial projects of the era" },
+
+  // ── Trutnov ─────────────────────────────────────────────────────
+  { city: "trutnov", year: 1938, text: "annexed to the Sudetengau; mostly German-speaking until 1945" },
+  { city: "trutnov", year: 1945, text: "ethnic Germans were expelled; Czech settlers replaced them in factories" },
+  { city: "trutnov", year: 1969, text: "the city became a 'gateway' to Krkonoše skiing and grew with weekenders from Prague" },
+
+  // ── Třinec ──────────────────────────────────────────────────────
+  { city: "trinec", year: 1929, text: "Třinec Iron and Steel Works became the largest steel producer in Czechoslovakia after Vítkovice" },
+  { city: "trinec", year: 1968, text: "Soviet tanks rolled up the Olše river valley past the Třinec works" },
+
+  // ── Tábor ───────────────────────────────────────────────────────
+  { city: "tabor", year: 1942, text: "the Tábor synagogue was burned in the war years; the city's Jewish community was deported and almost entirely murdered" },
+  { city: "tabor", year: 1969, text: "ROH Lánov national-enterprise tractors and ČZ motorbikes were built nearby" },
+
+  // ── Znojmo ──────────────────────────────────────────────────────
+  { city: "znojmo", year: 1938, text: "annexed by Nazi Germany; Znaim's Czech minority was expelled and many leaders murdered" },
+  { city: "znojmo", year: 1945, text: "the Red Army took Znojmo in May; Czech sovereignty was restored and ethnic Germans expelled" },
+  { city: "znojmo", year: 1961, text: "Znojmia gherkins — pickles in Czechoslovakia's most famous brand — went into mass production" },
+
+  // ── Příbram ─────────────────────────────────────────────────────
+  { city: "pribram", year: 1948, text: "after the Communist coup, Příbram's uranium mines became Czechoslovakia's worst labour camps for political prisoners" },
+  { city: "pribram", year: 1955, text: "thousands of political prisoners died of silicosis and radiation in the Příbram-Jáchymov uranium gulag" },
+  { city: "pribram", year: 1969, text: "uranium output reached Soviet quota peaks; prisoners were replaced with paid civilian miners" },
+
+  // ── Cheb ────────────────────────────────────────────────────────
+  { city: "cheb", year: 1938, text: "Cheb (Eger) became one of the first Sudeten cities to host Konrad Henlein's rallies before being annexed" },
+  { city: "cheb", year: 1945, text: "US Third Army units linked up with the Red Army near Cheb in May, finishing the Czech campaign" },
+  { city: "cheb", year: 1968, text: "the local border-guard barracks were a flashpoint as Warsaw Pact troops crossed from West Germany... no, came from East Germany" },
+
+  // ── Kolín ───────────────────────────────────────────────────────
+  { city: "kolin", year: 1942, text: "Kolín's Jewish community of 2,000+ was deported through Terezín to Auschwitz" },
+  { city: "kolin", year: 1970, text: "the TPCA car plant precursor — Tatra-Kolín railway works — was supplying engines across the Eastern Bloc" },
+
+  // ── Písek ───────────────────────────────────────────────────────
+  { city: "pisek", year: 1945, text: "Písek was liberated by the US Third Army; the citizens long remembered American jeeps in the square" },
+  { city: "pisek", year: 1976, text: "the Jitex Písek knitwear factory grew to become one of the largest in central Europe" },
+
+  // ── Kroměříž ────────────────────────────────────────────────────
+  { city: "kromeriz", year: 1948, text: "the Archbishop's Palace and gardens (a UNESCO site since 1998) was nationalised under the Communists" },
+  { city: "kromeriz", year: 1968, text: "Kroměříž hosted secret meetings of dissident Catholic priests resisting state interference" },
+
+  // ── Šumperk ─────────────────────────────────────────────────────
+  { city: "sumperk", year: 1938, text: "annexed into the Sudetengau" },
+  { city: "sumperk", year: 1945, text: "ethnic German population expelled; the textile industry switched to Czech management" },
+
+  // ── Vsetín ──────────────────────────────────────────────────────
+  { city: "vsetin", year: 1944, text: "Vsetín partisans in the Wallachian hills (Operation Carpets) fought Nazi anti-partisan sweeps" },
+  { city: "vsetin", year: 1969, text: "the Zbrojovka Vsetín arms plant supplied small arms across the Comecon market" },
+
+  // ── Valašské Meziříčí ───────────────────────────────────────────
+  { city: "valasske-mezirici", year: 1968, text: "the Tesla VM plant produced lightbulbs and electronics — major employer of the Wallachian region" },
+
+  // ── Litvínov ────────────────────────────────────────────────────
+  { city: "litvinov", year: 1944, text: "the Stalag-Litvínov synthetic-fuel hydrogenation plant was repeatedly bombed by the US Eighth Air Force" },
+  { city: "litvinov", year: 1965, text: "the Chemopetrol refinery and Litvínov-Záluží petrochemical complex made the city one of the most polluted in Europe" },
+
+  // ── Břeclav ─────────────────────────────────────────────────────
+  { city: "breclav", year: 1938, text: "Břeclav, on the new German border with Moravia, became a heavily controlled crossing" },
+  { city: "breclav", year: 1968, text: "Soviet tanks crossed at Břeclav in August during the Warsaw Pact invasion" },
+
+  // ── Nový Jičín ──────────────────────────────────────────────────
+  { city: "novy-jicin", year: 1938, text: "annexed into the Sudetengau; mostly German-speaking" },
+  { city: "novy-jicin", year: 1965, text: "Tonak Nový Jičín was Czechoslovakia's largest hat manufacturer, exporting to over 70 countries" },
+
+  // ── Krnov ───────────────────────────────────────────────────────
+  { city: "krnov", year: 1945, text: "the Battle of Krnov in May saw the last fighting in Czech lands as the Red Army pushed through Silesia" },
+  { city: "krnov", year: 1968, text: "the Karnola textile mills employed thousands of women across town" },
+
+  // ── Uherské Hradiště ────────────────────────────────────────────
+  { city: "uherske-hradiste", year: 1948, text: "the State Security (StB) opened a major interrogation centre in Uherské Hradiště that became infamous for torture in the 1950s" },
+  { city: "uherske-hradiste", year: 1968, text: "the Slovácko region was a stronghold of the Prague Spring's Catholic reform movement" },
+
+  // ── Litoměřice ──────────────────────────────────────────────────
+  { city: "litomerice", year: 1944, text: "the Richard underground complex near Litoměřice became a slave-labour V-weapons factory" },
+  { city: "litomerice", year: 1945, text: "thousands of concentration-camp prisoners from the Richard complex died on death marches just before liberation" },
+
+  // ── Hodonín ─────────────────────────────────────────────────────
+  { city: "hodonin", year: 1920, text: "Hodonín was a market town of about 12,000 in the Moravian-Slovak borderlands — Tomáš Garrigue Masaryk's birthplace and a place he visited often as president" },
+  { city: "hodonin", year: 1925, text: "tobacco factory Tabáková továrna Hodonín was the largest cigarette plant in Czechoslovakia and the town's main employer" },
+  { city: "hodonin", year: 1928, text: "a monumental statue of T.G. Masaryk by Otakar Španiel was unveiled on Masarykovo náměstí (later torn down by the Nazis, rebuilt by the Communists, torn down again, then put back)" },
+  { city: "hodonin", year: 1932, text: "natural gas was discovered nearby at Hrušky, kicking off south-Moravian gas extraction" },
+  { city: "hodonin", year: 1937, text: "T.G. Masaryk died in September; the city held a national-scale mourning at his birth house" },
+  { city: "hodonin", year: 1939, text: "after Nazi occupation, the Hodonín Masaryk statue was removed and the town renamed Göding in official German documents" },
+  { city: "hodonin", year: 1942, text: "the Hodonín u Kunštátu Romani camp was used to deport Czech Roma to Auschwitz, where almost all perished" },
+  { city: "hodonin", year: 1944, text: "Allied bombing of nearby Břeclav and Bratislava rail yards rattled Hodonín's tobacco factory windows" },
+  { city: "hodonin", year: 1945, text: "Romanian and Soviet forces liberated Hodonín in April after fighting along the Morava river" },
+  { city: "hodonin", year: 1946, text: "the wine-growing slopes of nearby Mutěnice and Čejkovice resumed exports, and Hodonín became the regional wine-trade hub" },
+  { city: "hodonin", year: 1948, text: "the Communist coup hit Hodonín hard — Masaryk's birthplace was a symbolic prize and the regime closely managed his cult" },
+  { city: "hodonin", year: 1952, text: "the Slovácké muzeum in Hodonín reopened with a focus on folk costume, ceramics, and the verbuňk men's dance of the Slovácko region" },
+  { city: "hodonin", year: 1959, text: "Hodonín gained a thermal power station fed by local lignite — one of the first such plants in southern Moravia" },
+  { city: "hodonin", year: 1965, text: "TON Bystřice nearby (then producing Thonet bentwood chairs) became one of Czechoslovakia's biggest furniture exporters" },
+  { city: "hodonin", year: 1968, text: "Hodonín's Communist Party district committee briefly supported Dubček's reforms; many members were purged after the Soviet invasion" },
+  { city: "hodonin", year: 1969, text: "the city's south-Moravian dialect and folk music featured prominently on Czechoslovak Television's 'Slovácký rok' series" },
+  { city: "hodonin", year: 1973, text: "the Hodonín — Břeclav natural-gas pipeline began supplying Brno and Prague" },
+  { city: "hodonin", year: 1976, text: "the Slovácký Verbuňk men's dance from the Hodonín region was being documented by ethnographers — it would later be inscribed by UNESCO" },
+  { city: "hodonin", year: 1979, text: "a major Slovácký Tour Hodonín cycling race was established, drawing riders from the Eastern Bloc" },
+  { city: "hodonin", year: 1980, text: "the Hodonín tobacco factory was still producing classic Czechoslovak cigarette brands like Start and Sparta" },
+
+  // ── Žďár nad Sázavou ────────────────────────────────────────────
+  { city: "zdar-nad-sazavou", year: 1951, text: "the new ZĎAS engineering plant transformed a small market town into a socialist industrial centre" },
+
+  // ── Kutná Hora ──────────────────────────────────────────────────
+  { city: "kutna-hora", year: 1995, text: "the historic centre with St. Barbara's Cathedral and the Sedlec Ossuary was inscribed as a UNESCO site" },
+
+  // ── Český Těšín ─────────────────────────────────────────────────
+  { city: "cesky-tesin", year: 1920, text: "the Treaty of Versailles split the old Habsburg town in half — Český Těšín on the Czech side, Cieszyn on the Polish" },
+  { city: "cesky-tesin", year: 1938, text: "Poland briefly annexed Český Těšín in October, before Nazi Germany took it the next year" },
+  { city: "cesky-tesin", year: 1945, text: "the Czechoslovak-Polish border was restored along the Olše river" },
+
+  // ── Havlíčkův Brod ──────────────────────────────────────────────
+  { city: "havlickuv-brod", year: 1945, text: "the city, named since 1945 after the dissident journalist Karel Havlíček Borovský, became a regional transport hub" },
+  { city: "havlickuv-brod", year: 1922, text: "still called Německý Brod, the city sat at the rail junction between Prague and Brno on the historic Habsburg line" },
+  { city: "havlickuv-brod", year: 1928, text: "the Havlíček Borovský museum opened in his former birth-house" },
+  { city: "havlickuv-brod", year: 1939, text: "under Nazi occupation the name Deutschbrod was reinstated and the Czech population pressured" },
+  { city: "havlickuv-brod", year: 1948, text: "ČKD-Havlíčkův Brod was nationalised and reorganised as a key heavy-machinery plant of the Vysočina region" },
+  { city: "havlickuv-brod", year: 1958, text: "the Havlíčkův Brod hospital was rebuilt as a regional centre for the high Vysočina plateau" },
+  { city: "havlickuv-brod", year: 1968, text: "publisher Bedřich Pejchl's 'Cinema Center' became a hub for Czech New Wave screenings before normalisation closed it" },
+  { city: "havlickuv-brod", year: 1976, text: "the Pleas textile mill expanded to become one of central Moravia's biggest hosiery producers" },
+
+  // ── Kutná Hora ──────────────────────────────────────────────────
+  { city: "kutna-hora", year: 1995, text: "the historic centre with St. Barbara's Cathedral and the Sedlec Ossuary was inscribed as a UNESCO site" },
+  { city: "kutna-hora", year: 1920, text: "Kutná Hora was a quiet medieval mining town of about 15,000 — its silver days long over, its ossuary already a tourist draw" },
+  { city: "kutna-hora", year: 1928, text: "the local ČKD-Kutná Hora factory began making mining equipment for the Příbram silver and uranium pits" },
+  { city: "kutna-hora", year: 1942, text: "the Sedlec ossuary's pyramid of skulls was photographed for Nazi propaganda about 'Slavic primitivism'" },
+  { city: "kutna-hora", year: 1945, text: "Kutná Hora was liberated in May by Red Army forces moving north of Prague" },
+  { city: "kutna-hora", year: 1949, text: "St Barbara's Cathedral was nationalised; its Gothic windows were repaired with state funds" },
+  { city: "kutna-hora", year: 1968, text: "the local tobacco factory employed several hundred women — the largest non-mining employer in the area" },
+  { city: "kutna-hora", year: 1975, text: "the Czech State Mint moved equipment to Kutná Hora — heir to the silver-coin tradition that ran here from the 13th century" },
+
+  // ── Valašské Meziříčí ───────────────────────────────────────────
+  { city: "valasske-mezirici", year: 1968, text: "the Tesla VM plant produced lightbulbs and electronics — major employer of the Wallachian region" },
+  { city: "valasske-mezirici", year: 1923, text: "the Cíglerova glassworks at nearby Valašské Klobouky won prizes for Bohemian crystal at the Paris Expo" },
+  { city: "valasske-mezirici", year: 1939, text: "Wallachian villages around the town hid Czech soldiers retreating from the German occupation" },
+  { city: "valasske-mezirici", year: 1944, text: "Wehrmacht anti-partisan sweeps in the Vsetín hills burned several nearby villages" },
+  { city: "valasske-mezirici", year: 1945, text: "the Red Army liberated the town in early May after fighting around the Bečva river crossings" },
+  { city: "valasske-mezirici", year: 1958, text: "the Tesla VM transistor production line opened — the first such Czechoslovak facility outside Prague" },
+  { city: "valasske-mezirici", year: 1972, text: "the Wallachian Open-Air Museum (skanzen) at nearby Rožnov drew over a million visitors" },
+
+  // ── Žďár nad Sázavou ────────────────────────────────────────────
+  { city: "zdar-nad-sazavou", year: 1951, text: "the new ZĎAS engineering plant transformed a small market town into a socialist industrial centre" },
+  { city: "zdar-nad-sazavou", year: 1922, text: "the Žďár Cistercian monastery — now closed since 1784 — was being renovated as a regional museum" },
+  { city: "zdar-nad-sazavou", year: 1937, text: "the architect Jan Blažej Santini-Aichel's 18th-century Pilgrimage Church of St John of Nepomuk at Zelená hora drew growing pilgrim crowds" },
+  { city: "zdar-nad-sazavou", year: 1945, text: "the Red Army's 4th Ukrainian Front liberated Žďár in May after the German Army Group Centre retreated" },
+  { city: "zdar-nad-sazavou", year: 1953, text: "ZĎAS expanded to become one of the largest heavy-forging works in Czechoslovakia" },
+  { city: "zdar-nad-sazavou", year: 1965, text: "tens of new paneláky filled the plateau between the old town and the ZĎAS plant; the population doubled in a decade" },
+  { city: "zdar-nad-sazavou", year: 1968, text: "Santini's pilgrimage church at Zelená hora was added to UNESCO's tentative list (it was inscribed in 1994)" },
+  { city: "zdar-nad-sazavou", year: 1975, text: "the Žďárské vrchy Protected Landscape Area was established around the high Vysočina hills" },
+
+  // ── Břeclav ─────────────────────────────────────────────────────
+  { city: "breclav", year: 1938, text: "Břeclav, on the new German border with Moravia, became a heavily controlled crossing" },
+  { city: "breclav", year: 1968, text: "Soviet tanks crossed at Břeclav in August during the Warsaw Pact invasion" },
+  { city: "breclav", year: 1922, text: "the Lednice-Valtice cultural landscape — a Liechtenstein-built park complex — was open as a public attraction" },
+  { city: "breclav", year: 1939, text: "as the southern Moravian rail bottleneck, Břeclav was a critical hub for Nazi trains running to Vienna" },
+  { city: "breclav", year: 1945, text: "the Red Army crossed the Morava at Břeclav in April; thousands of refugees fled north" },
+  { city: "breclav", year: 1955, text: "the Břeclav sugar refinery — one of the largest in Czechoslovakia — was producing tens of thousands of tonnes a year" },
+  { city: "breclav", year: 1975, text: "the Břeclavský okres (district) was a heavy wine-producing region; the Vinařský závod state winery exported across the Comecon" },
+
+  // ── Česká Lípa ────────────────────────────────────────────────
+  { city: "ceska-lipa", year: 1938, text: "annexed to the Sudetengau with the rest of north-Bohemian German-speaking territory" },
+  { city: "ceska-lipa", year: 1971, text: "uranium mining at nearby Stráž pod Ralskem expanded; thousands of Romanian and Czech miners moved in" },
+  { city: "ceska-lipa", year: 1922, text: "the Česká Lípa-Bohemia bisquit and confectionery factory employed several hundred mostly women workers" },
+  { city: "ceska-lipa", year: 1945, text: "the German population was expelled under the Beneš decrees; Czech and Slovak settlers moved into vacant houses" },
+  { city: "ceska-lipa", year: 1965, text: "the Hamr na Jezeře uranium-mining complex began chemical leaching of ores — later linked to widespread groundwater contamination" },
+  { city: "ceska-lipa", year: 1973, text: "huge prefabricated housing estates filled the valleys to house uranium-mining families brought from elsewhere" },
+
+  // ── Kolín ───────────────────────────────────────────────────────
+  { city: "kolin", year: 1942, text: "Kolín's Jewish community of 2,000+ was deported through Terezín to Auschwitz" },
+  { city: "kolin", year: 1970, text: "the TPCA car plant precursor — Tatra-Kolín railway works — was supplying engines across the Eastern Bloc" },
+  { city: "kolin", year: 1920, text: "the Kolín-Káranská sugar refinery, one of the largest in Bohemia, was running three shifts a day" },
+  { city: "kolin", year: 1938, text: "the Synthesia precursor chemical plant moved from German-occupied Sudetenland to Kolín" },
+  { city: "kolin", year: 1945, text: "the Red Army's 1st Ukrainian Front liberated Kolín in May" },
+  { city: "kolin", year: 1968, text: "the Kolín Czech Brethren Synod resisted state pressure as the Czechoslovak Hussite Church split over Prague Spring loyalties" },
+  { city: "kolin", year: 1979, text: "ČSAD Kolín operated one of Czechoslovakia's largest regional bus fleets" },
+
+  // ── Krnov ───────────────────────────────────────────────────────
+  { city: "krnov", year: 1945, text: "the Battle of Krnov in May saw the last fighting in Czech lands as the Red Army pushed through Silesia" },
+  { city: "krnov", year: 1968, text: "the Karnola textile mills employed thousands of women across town" },
+  { city: "krnov", year: 1938, text: "annexed by Nazi Germany as part of the Sudetengau Reichsgau" },
+  { city: "krnov", year: 1946, text: "ethnic German population was expelled; the city was rebuilt with Czech settlers from the inland" },
+  { city: "krnov", year: 1958, text: "the Rieger Kloss organ workshop in Krnov began exporting concert-hall pipe organs across Europe and the Americas" },
+  { city: "krnov", year: 1975, text: "the Karnola was producing fabric for Czechoslovak military uniforms" },
+
+  // ── Kroměříž ────────────────────────────────────────────────────
+  { city: "kromeriz", year: 1948, text: "the Archbishop's Palace and gardens (a UNESCO site since 1998) was nationalised under the Communists" },
+  { city: "kromeriz", year: 1968, text: "Kroměříž hosted secret meetings of dissident Catholic priests resisting state interference" },
+  { city: "kromeriz", year: 1925, text: "the Floral Garden (Květná zahrada) was opened to the public after centuries as the archbishops' private retreat" },
+  { city: "kromeriz", year: 1948, text: "the Archbishop's Palace's massive art collection — including Titian's 'The Flaying of Marsyas' — was inventoried by state cultural commissars" },
+  { city: "kromeriz", year: 1955, text: "the Pšyno regional music festival began as an annual gathering of Moravian folk choirs" },
+  { city: "kromeriz", year: 1968, text: "Kroměříž was one of the few cities to keep its Soviet-style 'pravopisná' city name unchanged through the Prague Spring" },
+
+  // ── Litoměřice ──────────────────────────────────────────────────
+  { city: "litomerice", year: 1944, text: "the Richard underground complex near Litoměřice became a slave-labour V-weapons factory" },
+  { city: "litomerice", year: 1945, text: "thousands of concentration-camp prisoners from the Richard complex died on death marches just before liberation" },
+  { city: "litomerice", year: 1938, text: "annexed by Nazi Germany as Leitmeritz; the bishop's seat continued under German pressure" },
+  { city: "litomerice", year: 1947, text: "the dramatic skyline above the Elbe river was restored after wartime neglect" },
+  { city: "litomerice", year: 1962, text: "the local Severočeská tukárna produced edible fats for the entire northern Bohemia region" },
+  { city: "litomerice", year: 1976, text: "the Severočeské Centrum (regional shopping centre) opened — a rare example of bigger socialist consumer retail" },
+
+  // ── Litvínov ────────────────────────────────────────────────────
+  { city: "litvinov", year: 1944, text: "the Stalag-Litvínov synthetic-fuel hydrogenation plant was repeatedly bombed by the US Eighth Air Force" },
+  { city: "litvinov", year: 1965, text: "the Chemopetrol refinery and Litvínov-Záluží petrochemical complex made the city one of the most polluted in Europe" },
+  { city: "litvinov", year: 1938, text: "annexed by Nazi Germany; the Sudeten Reichsgau planned the world's largest synthetic-fuel plant at nearby Záluží" },
+  { city: "litvinov", year: 1946, text: "the German population was expelled and the still-running Záluží plant became Stalinwerke under Soviet management" },
+  { city: "litvinov", year: 1955, text: "the Záluží refinery was rebuilt as the cornerstone of socialist Czechoslovakia's petrochemical industry" },
+  { city: "litvinov", year: 1974, text: "Litvínov's HC Litvínov ice-hockey club was promoted to the Czechoslovak top division" },
+
+  // ── Nový Jičín ──────────────────────────────────────────────────
+  { city: "novy-jicin", year: 1938, text: "annexed into the Sudetengau; mostly German-speaking" },
+  { city: "novy-jicin", year: 1965, text: "Tonak Nový Jičín was Czechoslovakia's largest hat manufacturer, exporting to over 70 countries" },
+  { city: "novy-jicin", year: 1945, text: "the German population was expelled; Czech and Slovak settlers moved into the Hückel hat-maker villas" },
+  { city: "novy-jicin", year: 1958, text: "the Tonak company became the world's third-largest felt-hat producer" },
+  { city: "novy-jicin", year: 1972, text: "Nový Jičín-area Lubina river valley villages were partially submerged for the Žermanice reservoir" },
+
+  // ── Písek ───────────────────────────────────────────────────────
+  { city: "pisek", year: 1945, text: "Písek was liberated by the US Third Army; the citizens long remembered American jeeps in the square" },
+  { city: "pisek", year: 1976, text: "the Jitex Písek knitwear factory grew to become one of the largest in central Europe" },
+  { city: "pisek", year: 1922, text: "the medieval stone bridge — one of the oldest in central Europe — was being prepared for nation-wide tourist guides" },
+  { city: "pisek", year: 1939, text: "Písek's Jewish community of around 250 was deported in 1942; almost none returned" },
+  { city: "pisek", year: 1968, text: "the Písek brewery's Pivovar Protivín was nationalised into the South Bohemian brewing combine" },
+  { city: "pisek", year: 1980, text: "the Otava river upstream supplied Písek with hydroelectricity from the Orlík dam" },
+
+  // ── Prostějov ──────────────────────────────────────────────────
+  { city: "prostejov", year: 1920, text: "Prostějov was 'the Manchester of Haná' — a textile and tailoring capital" },
+  { city: "prostejov", year: 1968, text: "the Oděvní průmysl OP Prostějov factory clothed half of Czechoslovakia in men's suits" },
+  { city: "prostejov", year: 1933, text: "the Wikov 70 — Czechoslovakia's first front-wheel-drive car — was built at Wichterle & Kovařík" },
+  { city: "prostejov", year: 1939, text: "Wikov was forced to switch to Wehrmacht military trucks and was bombed by the Allies in 1944" },
+  { city: "prostejov", year: 1955, text: "OP Prostějov began exporting men's suits to the USSR and East Germany" },
+  { city: "prostejov", year: 1973, text: "the Prostějov 'Wolker's Prostějov' poetry festival became the country's leading youth poetry competition" },
+
+  // ── Šumperk ─────────────────────────────────────────────────────
+  { city: "sumperk", year: 1938, text: "annexed into the Sudetengau" },
+  { city: "sumperk", year: 1945, text: "ethnic German population expelled; the textile industry switched to Czech management" },
+  { city: "sumperk", year: 1948, text: "the Hedva silk works was nationalised and modernised under socialist planning" },
+  { city: "sumperk", year: 1968, text: "the Šumperk regional theatre staged a Czech-language adaptation of Brecht's Mother Courage during the Prague Spring" },
+  { city: "sumperk", year: 1975, text: "the Pramet hard-metal works employed several thousand and exported tungsten-carbide tools across the bloc" },
+
+  // ── Tábor ───────────────────────────────────────────────────────
+  { city: "tabor", year: 1942, text: "the Tábor synagogue was burned in the war years; the city's Jewish community was deported and almost entirely murdered" },
+  { city: "tabor", year: 1969, text: "ROH Lánov national-enterprise tractors and ČZ motorbikes were built nearby" },
+  { city: "tabor", year: 1920, text: "Tábor — founded by Hussites in 1420 — celebrated its 500th anniversary with national pageants" },
+  { city: "tabor", year: 1945, text: "Tábor was liberated by US Third Army units before Soviet zones were established" },
+  { city: "tabor", year: 1962, text: "the Madeta dairy combine consolidated southern Bohemian milk production at Tábor and České Budějovice" },
+  { city: "tabor", year: 1976, text: "the annual Hussite Days festival became a major regional celebration" },
+
+  // ── Třebíč ──────────────────────────────────────────────────────
+  { city: "trebic", year: 1942, text: "Třebíč's Jewish community was deported to Theresienstadt; the well-preserved ghetto would later become a UNESCO site" },
+  { city: "trebic", year: 1975, text: "construction began on the Dukovany nuclear power plant nearby — one of the biggest Czech industrial projects of the era" },
+  { city: "trebic", year: 1920, text: "Třebíč's Jewish quarter and St Procopius's Basilica were already attracting interwar tourists" },
+  { city: "trebic", year: 1945, text: "the Red Army's 2nd Ukrainian Front liberated Třebíč in May" },
+  { city: "trebic", year: 1968, text: "the BOPO shoe factory (a Baťa successor) employed several thousand and made the bulk of Czechoslovak children's shoes" },
+  { city: "trebic", year: 1980, text: "the first reactor unit at the nearby Dukovany power plant was being commissioned" },
+
+  // ── Trutnov ─────────────────────────────────────────────────────
+  { city: "trutnov", year: 1938, text: "annexed to the Sudetengau; mostly German-speaking until 1945" },
+  { city: "trutnov", year: 1945, text: "ethnic Germans were expelled; Czech settlers replaced them in factories" },
+  { city: "trutnov", year: 1969, text: "the city became a 'gateway' to Krkonoše skiing and grew with weekenders from Prague" },
+  { city: "trutnov", year: 1922, text: "the Texlen linen works — one of the oldest in Bohemia — produced bedsheets for the new republic's army" },
+  { city: "trutnov", year: 1968, text: "Trutnov's Špindlerův Mlýn ski resort hosted the first post-1968 international skiing event in the Eastern Bloc" },
+  { city: "trutnov", year: 1979, text: "the Krkonoše National Park (founded 1963) marked its decade of expansion around Trutnov" },
+
+  // ── Třinec ──────────────────────────────────────────────────────
+  { city: "trinec", year: 1929, text: "Třinec Iron and Steel Works became the largest steel producer in Czechoslovakia after Vítkovice" },
+  { city: "trinec", year: 1968, text: "Soviet tanks rolled up the Olše river valley past the Třinec works" },
+  { city: "trinec", year: 1920, text: "Třinec was incorporated into Czechoslovakia from Austrian Silesia and the Olše river became the Polish border" },
+  { city: "trinec", year: 1945, text: "the Red Army's Polish forces liberated Třinec in May" },
+  { city: "trinec", year: 1960, text: "Třinec ironworks doubled output to supply Soviet bloc heavy industry" },
+  { city: "trinec", year: 1976, text: "HC Třinec ice-hockey club rose to the Czechoslovak top league" },
+
+  // ── Uherské Hradiště ────────────────────────────────────────────
+  { city: "uherske-hradiste", year: 1948, text: "the State Security (StB) opened a major interrogation centre in Uherské Hradiště that became infamous for torture in the 1950s" },
+  { city: "uherske-hradiste", year: 1968, text: "the Slovácko region was a stronghold of the Prague Spring's Catholic reform movement" },
+  { city: "uherske-hradiste", year: 1922, text: "Uherské Hradiště's Slovácký skanzen folk museum preserved Moravian-Slovak peasant life" },
+  { city: "uherske-hradiste", year: 1942, text: "the Hradiště Jewish community was deported via Auschwitz; few returned" },
+  { city: "uherske-hradiste", year: 1968, text: "Slovácký rok (Slovácko Year) folklore festival in nearby Kyjov drew tens of thousands" },
+  { city: "uherske-hradiste", year: 1975, text: "the local Mesit electronics works supplied aviation equipment to the Soviet space programme" },
+
+  // ── Vsetín ──────────────────────────────────────────────────────
+  { city: "vsetin", year: 1944, text: "Vsetín partisans in the Wallachian hills (Operation Carpets) fought Nazi anti-partisan sweeps" },
+  { city: "vsetin", year: 1969, text: "the Zbrojovka Vsetín arms plant supplied small arms across the Comecon market" },
+  { city: "vsetin", year: 1920, text: "Vsetín was the historic capital of Wallachia (Moravian Wallachia) — a sheep-herding mountain region" },
+  { city: "vsetin", year: 1945, text: "anti-partisan reprisals near Vsetín included the burning of Ploština on 19 April, killing 27 villagers" },
+  { city: "vsetin", year: 1955, text: "the MEZ Vsetín electric-motor works expanded into one of the largest in Czechoslovakia" },
+  { city: "vsetin", year: 1972, text: "Vsetín hosted the Czechoslovak Cycling Championships at the foot of the Beskydy mountains" },
+
+  // ── Český Těšín ─────────────────────────────────────────────────
+  { city: "cesky-tesin", year: 1920, text: "the Treaty of Versailles split the old Habsburg town in half — Český Těšín on the Czech side, Cieszyn on the Polish" },
+  { city: "cesky-tesin", year: 1938, text: "Poland briefly annexed Český Těšín in October, before Nazi Germany took it the next year" },
+  { city: "cesky-tesin", year: 1945, text: "the Czechoslovak-Polish border was restored along the Olše river" },
+  { city: "cesky-tesin", year: 1958, text: "the Český Těšín polonijne theatre — the only Polish-language theatre in Czechoslovakia — staged Wyspiański under socialist auspices" },
+  { city: "cesky-tesin", year: 1972, text: "the city's Polish minority was officially recognised in school curricula across the Těšínsko region" },
+
+  // ── Cheb ────────────────────────────────────────────────────────
+  { city: "cheb", year: 1938, text: "Cheb (Eger) became one of the first Sudeten cities to host Konrad Henlein's rallies before being annexed" },
+  { city: "cheb", year: 1945, text: "US Third Army units linked up with the Red Army near Cheb in May, finishing the Czech campaign" },
+  { city: "cheb", year: 1968, text: "the local border-guard barracks were a flashpoint as Warsaw Pact troops crossed from West Germany... no, came from East Germany" },
+  { city: "cheb", year: 1922, text: "Cheb was the western edge of Bohemia, mostly German-speaking, with a famous 17th-century chronicle of the murder of Wallenstein" },
+  { city: "cheb", year: 1946, text: "the German population was expelled; the medieval centre with Wallenstein's house became a Czech open-air museum" },
+  { city: "cheb", year: 1975, text: "Cheb's railway connection to West Germany became the most heavily controlled Czechoslovak border crossing" },
+
+  // ── Chomutov ────────────────────────────────────────────────────
+  { city: "chomutov", year: 1938, text: "the city (then Komotau) was annexed into the Sudetengau by Nazi Germany" },
+  { city: "chomutov", year: 1945, text: "the German population was expelled under the Beneš decrees and replaced by Czech settlers" },
+  { city: "chomutov", year: 1969, text: "the Chomutov power plant and Válcovny trub steelworks became major regional employers under socialism" },
+  { city: "chomutov", year: 1928, text: "the Chomutov-Mannesmann seamless-tube works was a leading European steel-tube producer" },
+  { city: "chomutov", year: 1942, text: "the Mannesmann works produced steel tubes for U-boat construction under Nazi management" },
+  { city: "chomutov", year: 1973, text: "the strip-mining of the Krušné hory foothills around Chomutov was levelling whole villages" },
+
+  // ── Přerov ──────────────────────────────────────────────────────
+  { city: "prerov", year: 1939, text: "Přerov became a strategic Reichsbahn rail hub connecting Vienna to Kraków under Nazi occupation" },
+  { city: "prerov", year: 1945, text: "the 'Švédské šance' massacre in June saw hundreds of ethnic German civilians killed by Czechoslovak soldiers" },
+  { city: "prerov", year: 1971, text: "the Meopta optics factory was supplying lenses and cameras across the Eastern Bloc" },
+  { city: "prerov", year: 1922, text: "the Přerov railway works was one of the country's busiest passenger-junction stations" },
+  { city: "prerov", year: 1968, text: "the Meopta plant's microscopes and binoculars equipped Eastern Bloc militaries" },
+
+  // ── Příbram ─────────────────────────────────────────────────────
+  { city: "pribram", year: 1948, text: "after the Communist coup, Příbram's uranium mines became Czechoslovakia's worst labour camps for political prisoners" },
+  { city: "pribram", year: 1955, text: "thousands of political prisoners died of silicosis and radiation in the Příbram-Jáchymov uranium gulag" },
+  { city: "pribram", year: 1969, text: "uranium output reached Soviet quota peaks; prisoners were replaced with paid civilian miners" },
+  { city: "pribram", year: 1920, text: "Příbram had ~30,000 people and was the silver-mining capital of central Bohemia" },
+  { city: "pribram", year: 1942, text: "the Příbram Mining School trained engineers for the entire Reich's uranium-extraction effort" },
+  { city: "pribram", year: 1976, text: "the Příbram cathedral pilgrimage at Svatá Hora drew tens of thousands of Catholics in a quiet defiance of socialist orthodoxy" },
+
+  // ── Znojmo ──────────────────────────────────────────────────────
+  { city: "znojmo", year: 1938, text: "annexed by Nazi Germany; Znaim's Czech minority was expelled and many leaders murdered" },
+  { city: "znojmo", year: 1945, text: "the Red Army took Znojmo in May; Czech sovereignty was restored and ethnic Germans expelled" },
+  { city: "znojmo", year: 1961, text: "Znojmia gherkins — pickles in Czechoslovakia's most famous brand — went into mass production" },
+  { city: "znojmo", year: 1924, text: "the Znojmo cucumber and gherkin-growing region was officially branded for export" },
+  { city: "znojmo", year: 1968, text: "the Znojemská Beseda cultural centre's classical-music summer festival began as a Soviet-era cultural showcase" },
+
+  // ── Jablonec nad Nisou ─────────────────────────────────────────
+  { city: "jablonec", year: 1920, text: "Jablonec (then Gablonz) was the world capital of glass jewellery and costume beads" },
+  { city: "jablonec", year: 1938, text: "annexed by Nazi Germany after the Munich Agreement; the Reichsgau Sudetenland's beads continued to ship abroad" },
+  { city: "jablonec", year: 1945, text: "the German glass-making population was expelled and entire bead workshops were dismantled" },
+  { city: "jablonec", year: 1971, text: "the Jablonex export combine sold Czechoslovak costume jewellery worldwide" },
+  { city: "jablonec", year: 1950, text: "the Czechoslovak glass schools at Jablonec and Železný Brod resumed bead production with Czech apprentices" },
+  { city: "jablonec", year: 1968, text: "the Bižuterie Jablonec brand was created as the official socialist consumer line of bead jewellery" },
+
+  // ── Mladá Boleslav ──────────────────────────────────────────────
+  { city: "mlada-boleslav", year: 1925, text: "Škoda Works (Plzeň) took over the local Laurin & Klement car factory and renamed it Škoda Auto" },
+  { city: "mlada-boleslav", year: 1939, text: "Škoda Mladá Boleslav was placed under Hermann-Göring-Werke control and made military vehicles for the Wehrmacht" },
+  { city: "mlada-boleslav", year: 1945, text: "an American B-17 raid in May, just before liberation, hit the Škoda plant by mistake" },
+  { city: "mlada-boleslav", year: 1964, text: "the Škoda 1000 MB rolled off the line — a rear-engined family car that became a Czech icon" },
+  { city: "mlada-boleslav", year: 1976, text: "the Škoda 105/120 series replaced the 1000 MB as Czechoslovakia's mass-produced sedan" },
+  { city: "mlada-boleslav", year: 1949, text: "the company was nationalised as Automobilové závody národní podnik (AZNP)" },
+
+  // ────────────── More Ukraine — deepening every city ──────────────
+
+  // ── Kyiv ────────────────────────────────────────────────────────
+  { city: "kyiv", year: 1923, text: "the new Soviet Korenizatsiya policy made Ukrainian an official language in Kyiv schools and the city's tram conductors" },
+  { city: "kyiv", year: 1925, text: "the Ukrainian Academy of Sciences was reorganised under President Volodymyr Vernadsky" },
+  { city: "kyiv", year: 1929, text: "the Berezil Theatre relocated from Kharkiv with director Les Kurbas — but its experimental work would soon be condemned" },
+  { city: "kyiv", year: 1932, text: "the Holodomor reached its peak winter; Kyiv's hospitals overflowed with starving villagers from the surrounding district" },
+  { city: "kyiv", year: 1937, text: "the Great Terror swept through the Lavra (Caves Monastery); dozens of Ukrainian intellectuals were executed in Bykivnia Forest" },
+  { city: "kyiv", year: 1938, text: "Khrushchev replaced Pavel Postyshev as Party boss; the city's Ukrainian-language press was further restricted" },
+  { city: "kyiv", year: 1941, text: "the Wehrmacht entered Kyiv on 19 September; partisan-laid mines destroyed the central Khreshchatyk days later" },
+  { city: "kyiv", year: 1942, text: "Roman Shukhevych's OUN-B activists in Kyiv were jailed and many shot by the Gestapo by year's end" },
+  { city: "kyiv", year: 1948, text: "construction began on the postwar Khreshchatyk with monumental socialist-realist buildings" },
+  { city: "kyiv", year: 1954, text: "Kyiv hosted Soviet 'Year of Ukraine' celebrations marking 300 years since the Pereyaslav Agreement" },
+  { city: "kyiv", year: 1961, text: "the Kurenivka mudslide on 13 March killed at least 145 (officially 145; possibly thousands) when a dam of industrial slag broke" },
+  { city: "kyiv", year: 1965, text: "the Kyiv Pechersk Lavra museum was reorganised; the Bell Tower observatory reopened after renovation" },
+  { city: "kyiv", year: 1972, text: "a mass arrest of Kyiv-based Ukrainian dissidents — Ivan Svitlychny, Yevhen Sverstyuk and others — opened Shcherbytsky's crackdown" },
+  { city: "kyiv", year: 1977, text: "the Motherland Monument (Rodina-Mat') on the Kyiv hills was completed — 102 metres of stainless steel rising above the Dnipro" },
+  { city: "kyiv", year: 1980, text: "Kyiv hosted football matches for the Moscow Olympics — Dynamo Kyiv players formed half the Soviet national squad" },
+
+  // ── Kharkiv ────────────────────────────────────────────────────
+  { city: "kharkiv", year: 1922, text: "Kharkiv was the capital of the Ukrainian SSR; the new Soviet bureaucracy filled office buildings around Sumska Street" },
+  { city: "kharkiv", year: 1923, text: "Korenizatsiya reached the city — bilingual road signs went up across the centre" },
+  { city: "kharkiv", year: 1925, text: "Mykola Khvylovy founded the literary group VAPLITE in Kharkiv — heart of the Ukrainian 'Executed Renaissance'" },
+  { city: "kharkiv", year: 1930, text: "the Kharkiv Tractor Plant (KhTZ) — a Five-Year-Plan flagship — opened with US engineering help" },
+  { city: "kharkiv", year: 1931, text: "the Berezil Theatre under Les Kurbas pioneered experimental Ukrainian drama before being shut down in 1933" },
+  { city: "kharkiv", year: 1934, text: "the Ukrainian SSR capital moved to Kyiv; Kharkiv kept its heavy industry but lost its political weight" },
+  { city: "kharkiv", year: 1942, text: "the German Second Battle of Kharkov in May saw the Red Army lose 277,000 men in the largest Soviet defeat of 1942" },
+  { city: "kharkiv", year: 1942, text: "Public hangings on Sumska Street balconies became a regular Wehrmacht reprisal against partisans" },
+  { city: "kharkiv", year: 1944, text: "the Kharkiv war-crimes trial — the first of its kind — sentenced Wehrmacht and SS officers to death for atrocities" },
+  { city: "kharkiv", year: 1953, text: "the Kharkiv Tractor Plant resumed civilian-tractor production after years making T-34 tanks" },
+  { city: "kharkiv", year: 1962, text: "Lev Landau, who had taught at Kharkiv University until 1937, won the Nobel Prize in Physics" },
+  { city: "kharkiv", year: 1975, text: "the Kharkiv Aircraft Plant was producing the Tupolev Tu-134 — a workhorse of Aeroflot and Eastern Bloc carriers" },
+
+  // ── Lviv ───────────────────────────────────────────────────────
+  { city: "lviv", year: 1922, text: "Lwów (then Polish) hosted the Eastern Trade Fair, a major Central European commercial event" },
+  { city: "lviv", year: 1924, text: "the Polish-language Jan Kazimierz University was the second-largest in Poland after Warsaw" },
+  { city: "lviv", year: 1930, text: "the Lwów School of Mathematics — Banach, Steinhaus, Mazur — held its legendary 'Scottish Café' working sessions" },
+  { city: "lviv", year: 1938, text: "the city's pre-war Jewish population reached 110,000 — about a third of Lviv" },
+  { city: "lviv", year: 1939, text: "Soviet annexation: the secret police rounded up Polish intelligentsia and deported tens of thousands east" },
+  { city: "lviv", year: 1940, text: "the first Soviet deportation wave from Lviv sent some 40,000 Poles to Kazakh and Siberian camps" },
+  { city: "lviv", year: 1941, text: "as Soviets retreated in June, the NKVD massacred political prisoners in Lviv's Brygidki, Łącki and Zamarstynów prisons" },
+  { city: "lviv", year: 1942, text: "the Lviv Ghetto was sealed; the Janowska forced-labour camp on the outskirts ran day and night" },
+  { city: "lviv", year: 1944, text: "the Lviv-Sandomierz Offensive in July liberated the city; the Red Army then expelled Polish-speakers westward" },
+  { city: "lviv", year: 1946, text: "the Soviet 'Lviv Sobor' liquidated the Greek Catholic Church and forcibly merged it with the Russian Orthodox Patriarchate" },
+  { city: "lviv", year: 1950, text: "Roman Shukhevych — UPA commander — was killed in a Soviet operation near Bilohorshcha" },
+  { city: "lviv", year: 1965, text: "Lviv film studio's animation department produced Soviet hits and quietly fostered Ukrainian-language work" },
+  { city: "lviv", year: 1970, text: "the Lviv State University opened a new physics campus on Universytetska Street" },
+  { city: "lviv", year: 1976, text: "many founders of the Ukrainian Helsinki Group came from Lviv intellectual circles" },
+
+  // ── Dnipro ─────────────────────────────────────────────────────
+  { city: "dnipro", year: 1923, text: "the railway works (later Dniprovahonmash) was rebuilt after civil-war damage" },
+  { city: "dnipro", year: 1928, text: "the city was made the capital of the new Dnipropetrovsk Oblast" },
+  { city: "dnipro", year: 1932, text: "the DniproHES dam upstream was opened, providing power to Dnipropetrovsk's growing factories" },
+  { city: "dnipro", year: 1937, text: "Stalin's purges removed almost the entire city party committee; the second secretary was shot" },
+  { city: "dnipro", year: 1942, text: "the Wehrmacht razed the city's Jewish quarter; thousands were shot at the Botanical Gardens ravine" },
+  { city: "dnipro", year: 1959, text: "Mykhail Yangel's Yuzhmash design bureau built the R-16 ICBM — the deadliest Soviet missile of its era" },
+  { city: "dnipro", year: 1960, text: "the Nedelin catastrophe at Tyuratam killed 78 — including the Strategic Rocket Forces commander — testing a Yuzhmash R-16" },
+  { city: "dnipro", year: 1965, text: "the closed-city status of Dnipropetrovsk made it inaccessible to foreigners until 1990" },
+  { city: "dnipro", year: 1971, text: "the Dnipropetrovsk Metallurgical Institute produced the Soviet space programme's titanium specialists" },
+
+  // ── Donetsk ────────────────────────────────────────────────────
+  { city: "donetsk", year: 1923, text: "the city (then Yuzovka) was renamed Stalin after a workers' assembly chose the new name" },
+  { city: "donetsk", year: 1924, text: "the city was renamed Stalino — a name it would keep until 1961" },
+  { city: "donetsk", year: 1932, text: "the Donbas coal output became the Soviet Union's largest, producing 60% of all USSR coal" },
+  { city: "donetsk", year: 1936, text: "the Stakhanovite movement (originating in 1935 at Stakhanov town nearby) reshaped factory targets across Stalino" },
+  { city: "donetsk", year: 1942, text: "around 25,000 Donetsk Jews were murdered in the city's Pit and other Wehrmacht killing sites" },
+  { city: "donetsk", year: 1955, text: "Khrushchev — who'd been Stalino party boss before the war — pushed massive Donbas reinvestment" },
+  { city: "donetsk", year: 1970, text: "Shakhtar Donetsk football club rose to become a Soviet Cup contender" },
+  { city: "donetsk", year: 1976, text: "the city won the Order of Lenin for hitting Donbas coal output quotas" },
+
+  // ── Zaporizhzhia ───────────────────────────────────────────────
+  { city: "zaporizhzhia", year: 1921, text: "Nestor Makhno's anarchist Black Army was defeated in the Zaporizhia steppes by the Red Army" },
+  { city: "zaporizhzhia", year: 1923, text: "the city was renamed from Aleksandrovsk to Zaporizhia (the city is still spelled Aleksandrovsk in tsarist guidebooks)" },
+  { city: "zaporizhzhia", year: 1929, text: "construction of the DniproHES — the largest dam project in interwar Europe — began" },
+  { city: "zaporizhzhia", year: 1934, text: "the Communard Tractor Plant (Kommunar) opened in nearby Khortytsia island's vicinity" },
+  { city: "zaporizhzhia", year: 1947, text: "the rebuilt DniproHES was inaugurated for the second time, restoring electricity to the southeast" },
+  { city: "zaporizhzhia", year: 1959, text: "Zaporizhia became one of the USSR's main aluminium-production cities" },
+  { city: "zaporizhzhia", year: 1965, text: "the Khortytsia island — a sacred place to Ukrainian Cossack memory — was opened as a Soviet-era natural reserve" },
+  { city: "zaporizhzhia", year: 1973, text: "construction began on the Zaporizhia Nuclear Power Plant (the largest in Europe by 1980s)" },
+
+  // ── Kryvyi Rih ────────────────────────────────────────────────
+  { city: "kryvyi-rih", year: 1922, text: "the new Soviet authorities restarted iron-ore extraction halted during the civil war" },
+  { city: "kryvyi-rih", year: 1929, text: "the Krivorizhstal iron-ore plant became a flagship of Soviet metallurgy" },
+  { city: "kryvyi-rih", year: 1933, text: "Holodomor refugees from surrounding farms swelled the workforce; many died of starvation in the works barracks" },
+  { city: "kryvyi-rih", year: 1955, text: "the giant Krivbas iron-ore complex consolidated dozens of separate mines" },
+  { city: "kryvyi-rih", year: 1973, text: "the Krivorizhstal complex was producing more steel than several entire European countries" },
+  { city: "kryvyi-rih", year: 1980, text: "the city's iron output supplied a quarter of all Soviet steel" },
+
+  // ── Mykolaiv ──────────────────────────────────────────────────
+  { city: "mykolaiv", year: 1933, text: "the Mykolaiv shipyards launched the cruiser Voroshilov" },
+  { city: "mykolaiv", year: 1935, text: "the Mykolaiv shipyards launched their first ocean-going warships for the Soviet Black Sea Fleet" },
+  { city: "mykolaiv", year: 1947, text: "the rebuilt Black Sea Shipyard launched its first post-war heavy-cruiser keel" },
+  { city: "mykolaiv", year: 1955, text: "the Mykolaiv shipyards launched the first Soviet helicopter carrier 'Moskva' class precursor" },
+  { city: "mykolaiv", year: 1968, text: "construction began on the Soviet Navy's first proper aircraft carriers at the Mykolaiv yards" },
+  { city: "mykolaiv", year: 1972, text: "the aircraft carrier Kyiv was laid down here" },
+  { city: "mykolaiv", year: 1980, text: "the Mykolaiv yards employed about 30,000 across three giant facilities" },
+
+  // ── Luhansk ──────────────────────────────────────────────────
+  { city: "luhansk", year: 1922, text: "Luhansk was rebuilt as a major coke-and-coal centre of the Donbas" },
+  { city: "luhansk", year: 1935, text: "the city was renamed Voroshilovgrad after Marshal Voroshilov" },
+  { city: "luhansk", year: 1956, text: "the city's steam locomotive works was one of the largest in the USSR" },
+  { city: "luhansk", year: 1958, text: "renamed back to Luhansk during de-Stalinization" },
+  { city: "luhansk", year: 1965, text: "the Luhansk locomotive works produced the diesel locomotives that ran every Soviet branch line" },
+  { city: "luhansk", year: 1970, text: "renamed Voroshilovgrad again under Brezhnev" },
+  { city: "luhansk", year: 1972, text: "the Donbas coal output peaked; Luhansk was at the heart of the USSR's energy economy" },
+
+  // ── Vinnytsia ──────────────────────────────────────────────────
+  { city: "vinnytsia", year: 1925, text: "the new Vinnytsia airfield became one of the first in the Ukrainian SSR" },
+  { city: "vinnytsia", year: 1937, text: "NKVD mass executions in nearby Pyatychatky were carried out; the graves would be discovered by the Germans in 1943" },
+  { city: "vinnytsia", year: 1941, text: "Hitler's 'Werwolf' Eastern Front headquarters was built in nearby forest" },
+  { city: "vinnytsia", year: 1943, text: "the Vinnytsia massacre graves discovered by the Wehrmacht held 9,000+ NKVD victims" },
+  { city: "vinnytsia", year: 1944, text: "the Red Army liberated the city in March" },
+  { city: "vinnytsia", year: 1955, text: "the Vinnytsia Tractor Plant began production" },
+  { city: "vinnytsia", year: 1972, text: "Vinnytsia was the home of the Pirogov medical university, training doctors across the Soviet bloc" },
+
+  // ── Poltava ───────────────────────────────────────────────────
+  { city: "poltava", year: 1922, text: "Poltava marked 250 years since the 1709 Battle of Poltava — central to Russian, Swedish and Ukrainian histories" },
+  { city: "poltava", year: 1932, text: "Holodomor decimated Poltava region; villages around the city were entirely abandoned" },
+  { city: "poltava", year: 1942, text: "the Wehrmacht built a major Luftwaffe base at Poltava-Mirgorod airfield" },
+  { city: "poltava", year: 1955, text: "the Poltava Cossack Heritage Museum reopened with Soviet-vetted exhibits" },
+  { city: "poltava", year: 1965, text: "the Poltava regional theatre staged Mykola Hohol's works in Ukrainian-language productions" },
+  { city: "poltava", year: 1975, text: "the Poltava diamond-tool plant became one of the largest in the USSR" },
+
+  // ── Cherkasy ──────────────────────────────────────────────────
+  { city: "cherkasy", year: 1922, text: "Cherkasy was a market town of about 40,000 in central Ukraine" },
+  { city: "cherkasy", year: 1932, text: "the Holodomor devastated Cherkasy region; entire villages emptied" },
+  { city: "cherkasy", year: 1944, text: "Cherkasy was liberated by the Red Army after a major encirclement battle" },
+  { city: "cherkasy", year: 1955, text: "the Khimvolokno chemical-fibre plant opened — the largest in the Soviet Union at the time" },
+  { city: "cherkasy", year: 1962, text: "the Kremenchuk Reservoir flooded historic landscapes near Cherkasy" },
+  { city: "cherkasy", year: 1975, text: "Cherkasy hosted the all-Ukrainian Shevchenko literature festival" },
+
+  // ── Sevastopol ─────────────────────────────────────────────────
+  { city: "sevastopol", year: 1923, text: "Sevastopol became home to the new Soviet Black Sea Fleet headquarters" },
+  { city: "sevastopol", year: 1925, text: "the Soviet Navy reopened the Sevastopol Naval Academy" },
+  { city: "sevastopol", year: 1944, text: "the Red Army liberated the city in May; over 90% of buildings had been destroyed" },
+  { city: "sevastopol", year: 1948, text: "Sevastopol was officially closed to foreigners and reorganised as a city of 'Republican subordination'" },
+  { city: "sevastopol", year: 1957, text: "the city was officially rebuilt with neoclassical-Soviet architecture — among the most distinctive in the USSR" },
+  { city: "sevastopol", year: 1975, text: "the Black Sea Fleet was the second-largest Soviet fleet after the Northern" },
+
+  // ── Simferopol ────────────────────────────────────────────────
+  { city: "simferopol", year: 1921, text: "Crimea became an autonomous republic within the Russian SFSR; Simferopol became its capital" },
+  { city: "simferopol", year: 1945, text: "after the Crimean Tatar deportation, the city was repopulated with Russian and Ukrainian settlers" },
+  { city: "simferopol", year: 1957, text: "Simferopol's KGB-built Massandra wine palace expanded to supply the Soviet Olympic athletic cohorts" },
+  { city: "simferopol", year: 1959, text: "Simferopol airport was modernised to handle the wave of Soviet tourists heading for Yalta and Alushta" },
+  { city: "simferopol", year: 1965, text: "the city became the gateway for over a million Soviet tourists a year visiting the Crimean Riviera" },
+  { city: "simferopol", year: 1976, text: "the Simferopol Pioneer camp Artek at nearby Hurzuf hosted children from across the Eastern Bloc" },
+
+  // ── Kherson ───────────────────────────────────────────────────
+  { city: "kherson", year: 1922, text: "Kherson was the historic Cossack port at the mouth of the Dnipro, now reorganised as a Soviet okruh" },
+  { city: "kherson", year: 1932, text: "Holodomor hit Kherson region's Greek and Bulgarian villages particularly hard" },
+  { city: "kherson", year: 1944, text: "Soviet forces liberated Kherson in March" },
+  { city: "kherson", year: 1955, text: "the Kherson shipyards built river-going tankers for the Dnipro" },
+  { city: "kherson", year: 1957, text: "the North Crimean Canal began bringing Dnipro water through Kherson region to irrigate Crimea" },
+  { city: "kherson", year: 1965, text: "Kherson became Ukraine's main producer of watermelons and cantaloupes for the Soviet market" },
+
+  // ── Chernihiv ─────────────────────────────────────────────────
+  { city: "chernihiv", year: 1922, text: "Chernihiv was a small administrative centre with 11th-century cathedrals" },
+  { city: "chernihiv", year: 1932, text: "Holodomor hit Chernihiv region hard; rural emptying continued into 1934" },
+  { city: "chernihiv", year: 1943, text: "the Red Army liberated Chernihiv in September after months of partisan activity in the Polesia forests" },
+  { city: "chernihiv", year: 1948, text: "the Chernihiv woolen textile combine resumed full production" },
+  { city: "chernihiv", year: 1971, text: "the Chernihiv synthetic-fibre plant was one of Ukraine's largest non-metallurgical employers" },
+  { city: "chernihiv", year: 1975, text: "Chernihiv chemical fibre and synthetic textiles plants were major Soviet employers" },
+
+  // ── Khmelnytskyi ──────────────────────────────────────────────
+  { city: "khmelnytskyi", year: 1922, text: "Proskuriv was reorganised into the new Vinnytsia Oblast as a small administrative centre" },
+  { city: "khmelnytskyi", year: 1932, text: "Holodomor was severe in Proskuriv district; mass graves were dug in unused cemetery plots" },
+  { city: "khmelnytskyi", year: 1941, text: "Wehrmacht captured the city in July; the Jewish population was largely murdered by 1943" },
+  { city: "khmelnytskyi", year: 1942, text: "the Proskuriv Jewish ghetto was liquidated in October-November; surviving Jews were sent to Belzec and other death camps" },
+  { city: "khmelnytskyi", year: 1944, text: "liberated by the Red Army in March" },
+  { city: "khmelnytskyi", year: 1955, text: "the city's largely rebuilt centre featured Soviet-style civic buildings around Hetmana Khmelnytskoho Square" },
+  { city: "khmelnytskyi", year: 1972, text: "the Khmelnytskyi region's NKVD/KGB archive of victims from 1937-38 remained classified through the Soviet period" },
+
+  // ── Chernivtsi ────────────────────────────────────────────────
+  { city: "chernivtsi", year: 1922, text: "Czernowitz (Cernăuți) was a Romanian-administered cultural capital with Romanian, German, Ukrainian, Polish and Yiddish-language press" },
+  { city: "chernivtsi", year: 1924, text: "the German-language University of Czernowitz produced poet Paul Celan, Rose Ausländer, and others from its mixed-cultural milieu" },
+  { city: "chernivtsi", year: 1937, text: "Bukovinian Jews — about 50,000 in Czernowitz alone — faced rising Romanian fascism" },
+  { city: "chernivtsi", year: 1941, text: "Romanian forces reoccupied the city; a ghetto was established and tens of thousands of Jews were deported to Transnistria" },
+  { city: "chernivtsi", year: 1942, text: "Mayor Traian Popovici saved some 20,000 Czernowitz Jews from deportation by granting them work permits" },
+  { city: "chernivtsi", year: 1944, text: "Soviet reoccupation; Romanian and German-speaking populations were largely expelled or fled" },
+  { city: "chernivtsi", year: 1947, text: "the Soviet authorities renamed Chernivtsi its modern Ukrainian form and rebuilt central institutions" },
+  { city: "chernivtsi", year: 1958, text: "the Chernivtsi University reopened in Ukrainian-language teaching after the war" },
+  { city: "chernivtsi", year: 1976, text: "the Chernivtsi 'paranormal panic' of November-December 1976 saw mass hysteria over rumours of children with skin diseases" },
+
+  // ────────────── Deepening Spain, US, Canada ─────────────────
+
+  // ── L'Hospitalet de Llobregat ──────────────────────────────
+  { city: "hospitalet", year: 1925, text: "the textile mills of L'Hospitalet drew migrants from Murcia and Andalusia who built shanty-town barrios near the railway" },
+  { city: "hospitalet", year: 1936, text: "L'Hospitalet's anarchist CNT controlled the town hall during the early Civil War months" },
+  { city: "hospitalet", year: 1939, text: "Franco's troops took the town in January; CNT and POUM leaders were imprisoned at the Modelo in nearby Barcelona" },
+  { city: "hospitalet", year: 1948, text: "the rough postwar shanty-towns of La Bomba and Can Pi grew with new southern Spanish migrants" },
+  { city: "hospitalet", year: 1962, text: "L'Hospitalet absorbed nearly 100,000 new residents in a decade — Spain's fastest-growing city by ratio" },
+  { city: "hospitalet", year: 1968, text: "the city centre's first metro extension from Barcelona made the commute to work daily and routine" },
+  { city: "hospitalet", year: 1975, text: "L'Hospitalet's Andalusian and Murcian neighborhood associations grew into the post-Franco political movements" },
+
+  // ── Vitoria-Gasteiz ──────────────────────────────────────────
+  { city: "vitoria", year: 1925, text: "the Vitoria fountain pen factory of Mecanográfica Salvador opened — a regional industrial centre" },
+  { city: "vitoria", year: 1936, text: "Vitoria sided with the Nationalists in July; the city became a Basque hub of Franco-loyal Carlists" },
+  { city: "vitoria", year: 1939, text: "the rebuilt Iruña Theatre reopened — one of the city's main cultural buildings" },
+  { city: "vitoria", year: 1958, text: "Michelin opened its tire factory at Vitoria — one of the largest in Spain" },
+  { city: "vitoria", year: 1965, text: "Vitoria's industrial belt expanded with Mercedes-Benz commercial-vehicle plant" },
+  { city: "vitoria", year: 1979, text: "Vitoria was named capital of the new Basque Autonomous Community" },
+
+  // ── A Coruña ─────────────────────────────────────────────────
+  { city: "coruna", year: 1922, text: "A Coruña's port handled the largest Galician fish exports to British and Cuban markets" },
+  { city: "coruna", year: 1936, text: "the Nationalist coup found supporters among the Coruña garrison; the city fell on 20 July" },
+  { city: "coruna", year: 1946, text: "the Pescanova fish-processing precursor opened in nearby Vigo and changed Coruña's port profile" },
+  { city: "coruna", year: 1968, text: "Real Club Deportivo de La Coruña rose from third division to La Liga" },
+  { city: "coruna", year: 1975, text: "Inditex (later Zara) was founded by Amancio Ortega in nearby Arteixo" },
+
+  // ── Elche ────────────────────────────────────────────────────
+  { city: "elche", year: 1922, text: "Elche's date-palm orchards (palmeral) were already a UNESCO-tentative landscape with over 200,000 trees" },
+  { city: "elche", year: 1939, text: "Franco's troops captured Elche in March; the shoe-making cooperatives were dissolved" },
+  { city: "elche", year: 1959, text: "the Misteri d'Elx — the medieval Catalan mystery play — was officially declared a national pilgrimage" },
+  { city: "elche", year: 1975, text: "the Elche shoe industry employed 30,000 workers and exported worldwide" },
+  { city: "elche", year: 1980, text: "the Misteri d'Elx was inscribed on UNESCO's first Intangible Heritage list" },
+
+  // ── Gijón ───────────────────────────────────────────────────
+  { city: "gijon", year: 1922, text: "the Gijón shipyards employed thousands and built coastal steamships" },
+  { city: "gijon", year: 1937, text: "the Sotrondio mines around Gijón fed both Republican and (after October) Nationalist war machines" },
+  { city: "gijon", year: 1965, text: "the Ensidesa works expanded into one of the largest steel plants in Spain" },
+  { city: "gijon", year: 1972, text: "the Gijón shipyards strike of March turned violent; police killed two workers in solidarity protests" },
+
+  // ── Murcia ──────────────────────────────────────────────────
+  { city: "murcia", year: 1925, text: "the Murcia tomato-paste industry was the largest in Spain, exporting to Britain and France" },
+  { city: "murcia", year: 1947, text: "the major Riada de Santa Teresa flood killed over 40 in the Segura valley" },
+  { city: "murcia", year: 1958, text: "the El Carmen quarter became the centre of city expansion as migrants from rural villages arrived" },
+  { city: "murcia", year: 1973, text: "the University of Murcia's modern campus broke ground in Espinardo" },
+
+  // ── Granada ─────────────────────────────────────────────────
+  { city: "granada", year: 1922, text: "Manuel de Falla and Federico García Lorca organised the Cante Jondo flamenco contest at the Alhambra" },
+  { city: "granada", year: 1929, text: "the Hispanic Society of America funded the first archaeological mapping of the Alhambra" },
+  { city: "granada", year: 1939, text: "Lorca's body was sought by anti-fascist resistance and writers — never found" },
+  { city: "granada", year: 1965, text: "the Manuel de Falla auditorium opened, hosting the annual International Festival" },
+  { city: "granada", year: 1975, text: "the Albaicín neighborhood was declared a national historic district" },
+
+  // ── Alicante ────────────────────────────────────────────────
+  { city: "alicante", year: 1925, text: "the Alicante Casino opened its Modernista premises on Explanada de España" },
+  { city: "alicante", year: 1942, text: "the Castle of Santa Bárbara was reopened to the public after restoration" },
+  { city: "alicante", year: 1955, text: "Alicante airport opened, beginning the Costa Blanca tourism boom" },
+  { city: "alicante", year: 1975, text: "Benidorm just north of Alicante had become Europe's package-tour capital" },
+
+  // ── Las Palmas ─────────────────────────────────────────────
+  { city: "las-palmas", year: 1923, text: "the Royal Victoria Hotel became home to wealthy British and Scandinavian winter visitors" },
+  { city: "las-palmas", year: 1950, text: "the city became a key fueling stop for transatlantic shipping" },
+  { city: "las-palmas", year: 1968, text: "the Maspalomas resort opened to Scandinavian package tourists" },
+
+  // ── Córdoba ─────────────────────────────────────────────────
+  { city: "cordoba", year: 1925, text: "the new water-supply system reached the old quarter, replacing centuries-old wells" },
+  { city: "cordoba", year: 1945, text: "the city's silver-jewellery quarter resumed exports across Spain" },
+  { city: "cordoba", year: 1971, text: "the Mosque-Cathedral was added to UNESCO's tentative list" },
+
+  // ── Valladolid ──────────────────────────────────────────────
+  { city: "valladolid", year: 1953, text: "the FASA-Renault plant opened, kicking off Valladolid's car-manufacturing era" },
+  { city: "valladolid", year: 1968, text: "the Seminci film festival drew international guests and screened politically risky films" },
+
+  // ── Vigo ─────────────────────────────────────────────────────
+  { city: "vigo", year: 1922, text: "the Vigo Pescanova fishing fleet was the largest on Spain's Atlantic coast" },
+  { city: "vigo", year: 1972, text: "the Vigo strikes shut shipyards; three workers killed by police" },
+
+  // ── Málaga ──────────────────────────────────────────────────
+  { city: "malaga", year: 1925, text: "the Picasso birth-house became a small museum five years after his rise to fame" },
+  { city: "malaga", year: 1968, text: "the Costa del Sol package-tour boom made Torremolinos the most-built coastal village in Europe" },
+
+  // ── Palma ───────────────────────────────────────────────────
+  { city: "palma", year: 1972, text: "the Palma airport handled more passengers than any other Spanish airport outside Madrid" },
+
+  // ────────────── US — deepening thin cities ─────────────────
+
+  // ── Jacksonville ─────────────────────────────────────────────
+  { city: "jacksonville", year: 1925, text: "Jacksonville's silent-film studios at Black Point were eclipsed by Hollywood within the decade" },
+  { city: "jacksonville", year: 1933, text: "the Mathews Bridge planning began as the city's first major Depression-era public-works push" },
+  { city: "jacksonville", year: 1942, text: "Naval Air Station Jacksonville expanded for WWII pilot training" },
+  { city: "jacksonville", year: 1955, text: "the city's African-American community fought for desegregated schools in the Duval County system" },
+  { city: "jacksonville", year: 1960, text: "the 'Ax Handle Saturday' attacks on civil-rights demonstrators in Hemming Park horrified the nation" },
+  { city: "jacksonville", year: 1979, text: "the Mayo Clinic announced it would build a major hospital campus in Jacksonville" },
+
+  // ── Charlotte (NC) ─────────────────────────────────────────
+  { city: "charlotte", year: 1924, text: "the Charlotte Hornets minor-league baseball team won the Sally League pennant" },
+  { city: "charlotte", year: 1935, text: "the Charlotte Quartermaster Depot supplied Army camps across the southeast during the Depression" },
+  { city: "charlotte", year: 1942, text: "Morris Field became one of the largest army-airfield training bases in WWII" },
+  { city: "charlotte", year: 1957, text: "the desegregation of Harding High School made national news" },
+  { city: "charlotte", year: 1975, text: "First Union Bank merged operations into Charlotte, joining NCNB to make it a banking hub" },
+
+  // ── Columbus (Ohio) ────────────────────────────────────────
+  { city: "columbus", year: 1925, text: "Lustron Corporation made pre-fab houses in Columbus shipped across America after WWII" },
+  { city: "columbus", year: 1942, text: "Curtiss-Wright bomber factory in Columbus built the SB2C Helldiver dive bomber" },
+  { city: "columbus", year: 1961, text: "the Ohio State Buckeyes won the football national championship under Woody Hayes" },
+  { city: "columbus", year: 1965, text: "the Columbus race riots erupted on the city's near east side in July" },
+  { city: "columbus", year: 1979, text: "the Wendy's hamburger chain founded by Dave Thomas became a national brand" },
+
+  // ── Denver ──────────────────────────────────────────────────
+  { city: "denver", year: 1929, text: "the Denver Stock Show drew 100,000 visitors for the first time" },
+  { city: "denver", year: 1942, text: "the Denver Federal Center opened as the new home of the US Mint's western division" },
+  { city: "denver", year: 1968, text: "the Denver Broncos drafted Floyd Little and began their AFL competitive era" },
+  { city: "denver", year: 1976, text: "Coloradans voted to refuse the 1976 Winter Olympics they had been awarded" },
+  { city: "denver", year: 1978, text: "the Denver Mint produced the new Susan B. Anthony dollar" },
+
+  // ── Fort Worth ──────────────────────────────────────────────
+  { city: "fort-worth", year: 1923, text: "Fort Worth's Stockyards Historic District was already cattle-trade central — the world's largest cattle market" },
+  { city: "fort-worth", year: 1929, text: "the Fort Worth Symphony Orchestra was founded" },
+  { city: "fort-worth", year: 1945, text: "the Convair plant in Fort Worth produced B-32 bombers for the Pacific war" },
+  { city: "fort-worth", year: 1962, text: "the Amon Carter Museum opened, anchoring Fort Worth as a cultural centre" },
+  { city: "fort-worth", year: 1968, text: "the Bell Helicopter UH-1 Iroquois was made at the Fort Worth plant for Vietnam service" },
+
+  // ── Indianapolis ────────────────────────────────────────────
+  { city: "indianapolis", year: 1933, text: "the WPA expanded Indianapolis's road network and built civic buildings" },
+  { city: "indianapolis", year: 1953, text: "Bill Vukovich won the Indianapolis 500 for the second year running" },
+  { city: "indianapolis", year: 1970, text: "Unigov consolidated Indianapolis with Marion County" },
+  { city: "indianapolis", year: 1976, text: "the Children's Museum of Indianapolis expanded to become the largest in the world" },
+
+  // ── San Antonio ──────────────────────────────────────────────
+  { city: "san-antonio", year: 1923, text: "Mary Bonner was the most famous Texan etching artist; her San Antonio studio drew European visitors" },
+  { city: "san-antonio", year: 1932, text: "the WPA built the San Antonio River Walk extension" },
+  { city: "san-antonio", year: 1958, text: "Brooks Air Force Base became the centre of US Air Force aerospace medicine" },
+  { city: "san-antonio", year: 1975, text: "Henry B. Gonzalez represented Texas's 20th congressional district and became a major civil-rights voice in Congress" },
+
+  // ── San Diego ───────────────────────────────────────────────
+  { city: "san-diego", year: 1929, text: "the Hotel Del Coronado weathered the Depression as Hollywood stars vacationed there" },
+  { city: "san-diego", year: 1949, text: "Convair's Atlas missile programme launched at San Diego" },
+  { city: "san-diego", year: 1969, text: "the new Tijuana–San Diego trolley system began planning" },
+  { city: "san-diego", year: 1980, text: "San Diego's population passed one million" },
+
+  // ── Austin ──────────────────────────────────────────────────
+  { city: "austin", year: 1929, text: "the University of Texas tower was completed atop the Forty Acres campus" },
+  { city: "austin", year: 1950, text: "Texas Instruments was founded; Austin became part of the Texas semiconductor belt" },
+  { city: "austin", year: 1972, text: "Willie Nelson moved to Austin and the 'Austin Sound' was born" },
+  { city: "austin", year: 1979, text: "Whole Foods Market opened its first store on North Lamar" },
+
+  // ── Phoenix ─────────────────────────────────────────────────
+  { city: "phoenix", year: 1922, text: "the Hohokam Stadium opened for local baseball" },
+  { city: "phoenix", year: 1928, text: "Phoenix became the headquarters of the Arizona Cotton Growers cooperative" },
+  { city: "phoenix", year: 1945, text: "Goldwater's Department Store opened a major branch in Phoenix" },
+  { city: "phoenix", year: 1968, text: "the Heard Museum expanded to become the largest centre for Native American art in the southwest" },
+
+  // ── Dallas ──────────────────────────────────────────────────
+  { city: "dallas", year: 1923, text: "Dallas was the largest cotton-marketing centre in the world" },
+  { city: "dallas", year: 1933, text: "the Magnolia Building's flying-horse 'Pegasus' became Dallas's first illuminated landmark" },
+  { city: "dallas", year: 1969, text: "Dallas became home of the NFL Cowboys' Texas Stadium plans" },
+
+  // ── San Jose ────────────────────────────────────────────────
+  { city: "san-jose", year: 1925, text: "the IBM punched-card facility at San Jose was an early West Coast tech site" },
+  { city: "san-jose", year: 1957, text: "Shockley Semiconductor's eight engineers — later the 'Traitorous Eight' — quit and founded Fairchild Semiconductor" },
+  { city: "san-jose", year: 1968, text: "the cherry orchards of the Santa Clara Valley were rapidly disappearing under industrial parks" },
+  { city: "san-jose", year: 1976, text: "Apple Computer was founded by Wozniak and Jobs in Los Altos" },
+
+  // ── Seattle ─────────────────────────────────────────────────
+  { city: "seattle", year: 1924, text: "the Smith Tower opened as the tallest building west of the Mississippi" },
+  { city: "seattle", year: 1936, text: "the Seattle General Strike's veteran labour leadership organised the AFL Boilermakers Union" },
+  { city: "seattle", year: 1968, text: "Boeing began work on the 747 'jumbo jet' at its Everett plant" },
+  { city: "seattle", year: 1971, text: "Starbucks opened its first store at Pike Place Market" },
+
+  // ── Houston ─────────────────────────────────────────────────
+  { city: "houston", year: 1930, text: "Houston's Tilman Industries expanded oil-tool manufacturing through the Depression" },
+  { city: "houston", year: 1955, text: "the Texas Medical Center was already the world's largest medical complex by patient volume" },
+  { city: "houston", year: 1973, text: "the Astros baseball team played its second decade in the Astrodome" },
+
+  // ────────────── Canada — deepening thin cities ──────────────
+
+  // ── Kelowna ────────────────────────────────────────────────
+  { city: "kelowna", year: 1925, text: "the Okanagan apple orchards around Kelowna shipped to British Columbia's coastal cities" },
+  { city: "kelowna", year: 1945, text: "the Kelowna Regatta resumed after wartime cancellation as a major BC summer event" },
+  { city: "kelowna", year: 1958, text: "the William R. Bennett Bridge opened over Okanagan Lake to Westside" },
+  { city: "kelowna", year: 1969, text: "Mission Hill Winery was founded — start of the modern BC wine industry" },
+  { city: "kelowna", year: 1973, text: "Calona Wines released its first Schloss Laderheim — first major dry BC wine" },
+
+  // ── Sherbrooke ──────────────────────────────────────────────
+  { city: "sherbrooke", year: 1925, text: "the Sherbrooke textile mills employed several thousand and exported across North America" },
+  { city: "sherbrooke", year: 1945, text: "the Université de Sherbrooke was founded by the Catholic Diocese" },
+  { city: "sherbrooke", year: 1968, text: "the Quiet Revolution reached Sherbrooke; Catholic schools became public" },
+  { city: "sherbrooke", year: 1976, text: "the Sherbrooke Saints minor-league hockey team won the Quebec Senior Hockey League title" },
+
+  // ── Saskatoon ──────────────────────────────────────────────
+  { city: "saskatoon", year: 1925, text: "the University of Saskatchewan's College of Agriculture pioneered drought-resistant wheat varieties" },
+  { city: "saskatoon", year: 1942, text: "the Royal Canadian Air Force trained pilots at the Saskatoon airbase under the British Commonwealth Air Training Plan" },
+  { city: "saskatoon", year: 1958, text: "the Canadian Light Source synchrotron predecessor — the Linear Accelerator — opened at the university" },
+  { city: "saskatoon", year: 1975, text: "Saskatoon's potash mines made the region a global potash exporter" },
+
+  // ── St. John's ─────────────────────────────────────────────
+  { city: "st-johns", year: 1925, text: "the Newfoundland Railway terminated at St. John's; trans-island travel was now routine" },
+  { city: "st-johns", year: 1942, text: "the SS Caribou was sunk by a German U-boat in Cabot Strait; 137 died, mostly from St. John's" },
+  { city: "st-johns", year: 1949, text: "Newfoundland joined Canada as the 10th province; St. John's became a provincial capital" },
+  { city: "st-johns", year: 1968, text: "St. John's celebrated the Cabot 500 — the 500th anniversary of John Cabot's landing" },
+
+  // ── Hamilton ────────────────────────────────────────────────
+  { city: "hamilton", year: 1925, text: "Hamilton's Stelco and Dofasco steelworks employed 30,000 — 'Steeltown' was set" },
+  { city: "hamilton", year: 1948, text: "Hamilton hosted the first Canadian Open golf tournament after WWII" },
+  { city: "hamilton", year: 1959, text: "the Tiger-Cats won the Grey Cup" },
+  { city: "hamilton", year: 1972, text: "the Royal Botanical Gardens at Hamilton hosted the inaugural Heart of Niagara Garden Show" },
+
+  // ── Kitchener-Waterloo ──────────────────────────────────────
+  { city: "kitchener", year: 1925, text: "Kitchener (renamed from Berlin in 1916) was a German-Canadian Mennonite town with strong meat-packing industry" },
+  { city: "kitchener", year: 1947, text: "the Kitchener-Waterloo Oktoberfest precursor — the Annual Bavarian Festival — drew thousands" },
+  { city: "kitchener", year: 1957, text: "the University of Waterloo opened as Canada's first cooperative-education institution" },
+  { city: "kitchener", year: 1971, text: "the K-W Oktoberfest became North America's largest Bavarian festival" },
+
+  // ── London, Ontario ─────────────────────────────────────────
+  { city: "london-on", year: 1925, text: "the London-Lawson Insurance Companies made the city Canada's insurance capital" },
+  { city: "london-on", year: 1945, text: "the Royal Canadian Regiment based at Wolseley Barracks fought in Holland's liberation" },
+  { city: "london-on", year: 1956, text: "the University of Western Ontario added its new medical school" },
+  { city: "london-on", year: 1976, text: "the London Lightning basketball franchise (in the CBA) was founded" },
+
+  // ── Regina ──────────────────────────────────────────────────
+  { city: "regina", year: 1922, text: "Regina rebuilt after the 1912 cyclone with brick-and-stone civic buildings" },
+  { city: "regina", year: 1935, text: "the Regina Riot — the On-to-Ottawa Trek crackdown — left dozens injured" },
+  { city: "regina", year: 1944, text: "Tommy Douglas's CCF won the Saskatchewan provincial election from Regina; began the road to medicare" },
+  { city: "regina", year: 1962, text: "Canada's first single-payer Medicare programme launched in Saskatchewan from Regina" },
+  { city: "regina", year: 1976, text: "the RCMP Heritage Centre at Regina's Depot Division opened" },
 ];
 
 // ──────────────────────────── Selectors ───────────────────────────────

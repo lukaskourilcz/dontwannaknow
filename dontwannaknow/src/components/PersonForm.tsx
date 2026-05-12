@@ -2,6 +2,7 @@ import { useState } from "react";
 import type { Person } from "../lib/facts";
 import { COUNTRY_LABELS, type Country } from "../data/countryDecades";
 import { citiesFor } from "../data/cities";
+import { useLang } from "../i18n/useLang";
 
 const CURRENT_YEAR = new Date().getFullYear();
 const MIN_YEAR = 1900;
@@ -52,6 +53,22 @@ function parseDate(input: string): ParsedDate | null {
     if (year < MIN_YEAR || year > CURRENT_YEAR) return null;
     return { year, month, day };
   }
+  // MM/YYYY or M/YYYY (month + year, no day).
+  const monthYear = trimmed.match(/^(0?[1-9]|1[0-2])[./-]((?:18|19|20)\d{2})$/);
+  if (monthYear) {
+    const month = Number(monthYear[1]);
+    const year = Number(monthYear[2]);
+    if (year < MIN_YEAR || year > CURRENT_YEAR) return null;
+    return { year, month };
+  }
+  // YYYY-MM (ISO without day).
+  const yearMonth = trimmed.match(/^((?:18|19|20)\d{2})-(0?[1-9]|1[0-2])$/);
+  if (yearMonth) {
+    const year = Number(yearMonth[1]);
+    const month = Number(yearMonth[2]);
+    if (year < MIN_YEAR || year > CURRENT_YEAR) return null;
+    return { year, month };
+  }
   // Year only.
   const yearOnly = trimmed.match(/\b(18|19|20)\d{2}\b/);
   if (yearOnly) {
@@ -63,6 +80,7 @@ function parseDate(input: string): ParsedDate | null {
 }
 
 export default function PersonForm({ onSubmit }: Props) {
+  const { t } = useLang();
   const [rows, setRows] = useState<Row[]>(DEFAULT_ROWS);
   const [error, setError] = useState<string | null>(null);
 
@@ -103,9 +121,7 @@ export default function PersonForm({ onSubmit }: Props) {
       if (!r.year.trim()) continue;
       const parsed = parseDate(r.year);
       if (parsed === null) {
-        setError(
-          `Couldn't read a date for "${r.label}". Try something like 1953 or 12/03/1953.`,
-        );
+        setError(t("form.err.date", { label: r.label }));
         return;
       }
       const meetingsPerYear = r.meetings.trim()
@@ -125,7 +141,7 @@ export default function PersonForm({ onSubmit }: Props) {
       });
     }
     if (people.length === 0) {
-      setError("Add at least one person with a birth year to see the facts.");
+      setError(t("form.err.empty"));
       return;
     }
     setError(null);
@@ -134,13 +150,10 @@ export default function PersonForm({ onSubmit }: Props) {
 
   return (
     <form className="person-form" onSubmit={handleSubmit}>
-      <p className="form-intro">
-        Enter a birth year (or full date — e.g. 1953-04-12 or 12/04/1953),
-        country, and city for each person. Adding a full date unlocks a
-        sky chart of the night they were born. The "visits/yr" field is
-        optional — if you fill it in, the report will tell you how many
-        meetings you've likely got left with them.
-      </p>
+      <p className="form-intro">{t("form.intro")}</p>
+      {t("form.note.english") && (
+        <p className="form-note">{t("form.note.english")}</p>
+      )}
       <div className="rows">
         {rows.map((r) => {
           const cityOptions = citiesFor(r.country);
@@ -151,16 +164,16 @@ export default function PersonForm({ onSubmit }: Props) {
                 type="text"
                 value={r.label}
                 onChange={(e) => update(r.id, { label: e.target.value })}
-                aria-label="Who"
+                aria-label={t("form.label")}
               />
               <input
                 className="year-input"
                 type="text"
                 inputMode="numeric"
-                placeholder="e.g. 1953"
+                placeholder={t("form.year")}
                 value={r.year}
                 onChange={(e) => update(r.id, { year: e.target.value })}
-                aria-label="Year of birth"
+                aria-label={t("form.year.help")}
               />
               <select
                 className="country-input"
@@ -168,7 +181,7 @@ export default function PersonForm({ onSubmit }: Props) {
                 onChange={(e) =>
                   update(r.id, { country: e.target.value as Country })
                 }
-                aria-label="Born in (country)"
+                aria-label={t("form.country")}
               >
                 {COUNTRY_ORDER.map((c) => (
                   <option key={c} value={c}>
@@ -181,23 +194,21 @@ export default function PersonForm({ onSubmit }: Props) {
                 type="number"
                 min={0}
                 max={365}
-                placeholder="visits/yr"
+                placeholder={t("form.meetings")}
                 value={r.meetings}
                 onChange={(e) => update(r.id, { meetings: e.target.value })}
-                aria-label="Times per year you see them"
-                title="Optional: how many times per year do you see this person?"
+                aria-label={t("form.meetings.help")}
+                title={t("form.meetings.help")}
               />
               <select
                 className="city-input"
                 value={r.citySlug}
                 onChange={(e) => update(r.id, { citySlug: e.target.value })}
-                aria-label="City"
+                aria-label={t("form.city")}
                 disabled={cityOptions.length === 0}
               >
                 <option value="">
-                  {cityOptions.length
-                    ? "Anywhere in the country"
-                    : "(no cities)"}
+                  {cityOptions.length ? t("form.city.any") : t("form.city.none")}
                 </option>
                 {cityOptions.map((c) => (
                   <option key={c.slug} value={c.slug}>
@@ -211,7 +222,7 @@ export default function PersonForm({ onSubmit }: Props) {
                   type="button"
                   className="remove"
                   onClick={() => removeRow(r.id)}
-                  aria-label={`Remove ${r.label}`}
+                  aria-label={`${t("form.remove")} ${r.label}`}
                 >
                   ×
                 </button>
@@ -222,10 +233,10 @@ export default function PersonForm({ onSubmit }: Props) {
       </div>
       <div className="form-actions">
         <button type="button" className="secondary" onClick={addRow}>
-          + Add someone
+          {t("form.add")}
         </button>
         <button type="submit" className="primary">
-          Show me their world
+          {t("form.submit")}
         </button>
       </div>
       {error && <p className="error">{error}</p>}

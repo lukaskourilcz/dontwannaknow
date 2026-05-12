@@ -22,6 +22,7 @@ import { deathsAround, deathsInRange } from "../data/notableDeaths";
 import { speciesAliveAtBirth } from "../data/extinctions";
 import { slangFor } from "../data/slang";
 import { worksAround, worksInRange } from "../data/culturalWorks";
+import { eventsInMonth, eventsInMonthLifetime, eventsAroundMonth } from "../data/monthlyEvents";
 
 export type EssayParagraph = {
   heading: string;
@@ -363,6 +364,46 @@ export function buildEssay(person: Person): EssayParagraph[] {
       heading: "Animals that walked the earth with them",
       text: capitalize(lines.join("; ")) + ".",
     });
+  }
+
+  // ── The month they arrived ───────────────────────────────────────
+  if (person.birthMonth) {
+    const sameMonth = eventsInMonth(birthYear, person.birthMonth);
+    const around = eventsAroundMonth(birthYear, person.birthMonth, 2);
+    const monthName = [
+      "January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December",
+    ][person.birthMonth - 1];
+    const lines: string[] = [];
+    if (sameMonth.length > 0) {
+      lines.push(
+        `In ${monthName} ${birthYear}, the same month they arrived: ${joinList(sameMonth.map((e) => e.text))}.`,
+      );
+    } else if (around.length > 0) {
+      const pick = pickN(around, Math.min(3, around.length)).sort(
+        (a, b) => a.year * 12 + a.month - (b.year * 12 + b.month),
+      );
+      lines.push(
+        `Around the month they arrived: ${joinList(pick.map((e) => `in ${monthName} ${e.year}, ${e.text}`))}.`,
+      );
+    }
+    // Same-month-throughout-lifetime — the calendar drumbeat.
+    const calendarBeats = eventsInMonthLifetime(birthYear, person.birthMonth, CURRENT_YEAR)
+      .filter((e) => e.year !== birthYear);
+    if (calendarBeats.length > 0) {
+      const picks = pickN(calendarBeats, Math.min(4, calendarBeats.length)).sort(
+        (a, b) => a.year - b.year,
+      );
+      lines.push(
+        `Other ${monthName}s in their lifetime brought their own headlines: ${joinList(picks.map((e) => `in ${e.year}, ${e.text}`))}.`,
+      );
+    }
+    if (lines.length > 0) {
+      out.push({
+        heading: `${monthName} ${birthYear} and the months that share its name`,
+        text: lines.join(" "),
+      });
+    }
   }
 
   // ── What was being made the year they arrived ────────────────────
