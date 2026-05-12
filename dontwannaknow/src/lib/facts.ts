@@ -20,8 +20,9 @@ export type Person = {
   birthYear: number;
   country: Country;
   citySlug?: string;
-  birthMonth?: number; // 1-12, optional
-  birthDay?: number;   // 1-31, optional
+  birthMonth?: number;     // 1-12, optional
+  birthDay?: number;       // 1-31, optional
+  meetingsPerYear?: number; // how often you see them; powers "meetings left"
 };
 
 export type Fact = {

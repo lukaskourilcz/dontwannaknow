@@ -11,7 +11,8 @@ type Row = {
   label: string;
   year: string;
   country: Country;
-  citySlug: string; // "" means "anywhere in this country"
+  citySlug: string;     // "" means "anywhere in this country"
+  meetings: string;     // optional, "see them X times a year"
 };
 
 type Props = {
@@ -21,9 +22,9 @@ type Props = {
 const COUNTRY_ORDER: Country[] = ["US", "CZ", "ES", "UA", "INTL"];
 
 const DEFAULT_ROWS: Row[] = [
-  { id: "you",         label: "You",                year: "", country: "US", citySlug: "" },
-  { id: "parent",      label: "Mom / Dad",          year: "", country: "US", citySlug: "" },
-  { id: "grandparent", label: "Grandma / Grandpa",  year: "", country: "US", citySlug: "" },
+  { id: "you",         label: "You",                year: "", country: "US", citySlug: "", meetings: "" },
+  { id: "parent",      label: "Mom / Dad",          year: "", country: "US", citySlug: "", meetings: "" },
+  { id: "grandparent", label: "Grandma / Grandpa",  year: "", country: "US", citySlug: "", meetings: "" },
 ];
 
 type ParsedDate = { year: number; month?: number; day?: number };
@@ -86,6 +87,7 @@ export default function PersonForm({ onSubmit }: Props) {
         year: "",
         country: "US",
         citySlug: "",
+        meetings: "",
       },
     ]);
   };
@@ -106,6 +108,9 @@ export default function PersonForm({ onSubmit }: Props) {
         );
         return;
       }
+      const meetingsPerYear = r.meetings.trim()
+        ? Number(r.meetings.trim())
+        : undefined;
       people.push({
         label: r.label.trim() || "Someone",
         birthYear: parsed.year,
@@ -113,6 +118,10 @@ export default function PersonForm({ onSubmit }: Props) {
         birthDay: parsed.day,
         country: r.country,
         citySlug: r.citySlug || undefined,
+        meetingsPerYear:
+          meetingsPerYear !== undefined && !Number.isNaN(meetingsPerYear) && meetingsPerYear > 0
+            ? meetingsPerYear
+            : undefined,
       });
     }
     if (people.length === 0) {
@@ -128,9 +137,9 @@ export default function PersonForm({ onSubmit }: Props) {
       <p className="form-intro">
         Enter a birth year (or full date — e.g. 1953-04-12 or 12/04/1953),
         country, and city for each person. Adding a full date unlocks a
-        sky chart of the night they were born. Coverage is the top 20
-        cities each of Czechia, Spain, Ukraine, the US, Canada and Mexico,
-        1920–1980.
+        sky chart of the night they were born. The "visits/yr" field is
+        optional — if you fill it in, the report will tell you how many
+        meetings you've likely got left with them.
       </p>
       <div className="rows">
         {rows.map((r) => {
@@ -167,6 +176,17 @@ export default function PersonForm({ onSubmit }: Props) {
                   </option>
                 ))}
               </select>
+              <input
+                className="meetings-input"
+                type="number"
+                min={0}
+                max={365}
+                placeholder="visits/yr"
+                value={r.meetings}
+                onChange={(e) => update(r.id, { meetings: e.target.value })}
+                aria-label="Times per year you see them"
+                title="Optional: how many times per year do you see this person?"
+              />
               <select
                 className="city-input"
                 value={r.citySlug}

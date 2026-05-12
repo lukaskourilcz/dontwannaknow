@@ -12,6 +12,9 @@ import { goneCountriesAlive } from "../data/countries";
 import { INVENTIONS } from "../data/inventions";
 import { statsForYear } from "../data/stats";
 import { cultureForDecade } from "../data/culture";
+import { generationFor } from "../data/generations";
+import { birthsAround } from "../data/famousBirths";
+import { lifeMathFor, lifeExpectancyFor } from "../data/lifeExpectancy";
 
 export type EssayParagraph = {
   heading: string;
@@ -130,6 +133,15 @@ export function buildEssay(person: Person): EssayParagraph[] {
 
   const out: EssayParagraph[] = [];
 
+  // ── Generation badge ──────────────────────────────────────────────
+  const generation = generationFor(birthYear);
+  if (generation) {
+    out.push({
+      heading: `${generation.label} (${generation.startYear}–${generation.endYear})`,
+      text: generation.blurb,
+    });
+  }
+
   // ── Opening paragraph ─────────────────────────────────────────────
   const stats = statsForYear(birthYear);
   const gone = goneCountriesAlive(birthYear);
@@ -188,6 +200,50 @@ export function buildEssay(person: Person): EssayParagraph[] {
       out.push({
         heading: "The texture of daily life",
         text: bits.join(" "),
+      });
+    }
+  }
+
+  // ── Birthday peers ─────────────────────────────────────────────────
+  const peers = birthsAround(birthYear, 1).filter(
+    (b) => !b.name.toLowerCase().includes(label.toLowerCase()),
+  );
+  if (peers.length > 0) {
+    const sample = pickN(peers, Math.min(5, peers.length));
+    const sameYear = sample.filter((p) => p.year === birthYear);
+    const others = sample.filter((p) => p.year !== birthYear);
+    const lines: string[] = [];
+    if (sameYear.length > 0) {
+      lines.push(
+        `Born the same year: ${joinList(sameYear.map((p) => `${p.name} (${p.role})`))}.`,
+      );
+    }
+    if (others.length > 0) {
+      lines.push(
+        `Born a year either side: ${joinList(
+          others.map((p) => `${p.name} (${p.role}, ${p.year})`),
+        )}.`,
+      );
+    }
+    out.push({ heading: "People who arrived around the same time", text: lines.join(" ") });
+  }
+
+  // ── Meetings remaining ─────────────────────────────────────────────
+  if (person.meetingsPerYear && person.meetingsPerYear > 0) {
+    const life = lifeMathFor(birthYear, person.country);
+    const lifeExp = lifeExpectancyFor(person.country);
+    if (life.alreadyPastExpectancy) {
+      out.push({
+        heading: "What's left",
+        text: `${label} is ${life.ageNow}, already past the rough country life-expectancy of ${lifeExp}. Every visit is a gift you can't count out.`,
+      });
+    } else {
+      const meetings = Math.round(
+        life.expectedRemainingYears * person.meetingsPerYear,
+      );
+      out.push({
+        heading: "What's left",
+        text: `If ${label.toLowerCase()} lives to the country's rough life expectancy of ${lifeExp}, that's about ${life.expectedRemainingYears} more years — and if you see them about ${person.meetingsPerYear} time${person.meetingsPerYear === 1 ? "" : "s"} a year, that's roughly ${meetings} more meeting${meetings === 1 ? "" : "s"}. Worth choosing well.`,
       });
     }
   }

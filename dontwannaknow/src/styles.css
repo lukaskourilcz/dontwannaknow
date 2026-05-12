@@ -92,7 +92,7 @@ body,
 
 .row {
   display: grid;
-  grid-template-columns: minmax(7rem, 1fr) 6rem 11rem 11rem 2rem;
+  grid-template-columns: minmax(6rem, 1fr) 5.5rem 9rem 4.5rem 10rem 2rem;
   gap: 0.5rem;
   align-items: center;
 }
@@ -506,8 +506,8 @@ button:active {
 
 @media (max-width: 900px) {
   .row {
-    grid-template-columns: minmax(6rem, 1fr) 5.5rem 9rem 9rem 1.5rem;
-    gap: 0.4rem;
+    grid-template-columns: minmax(5rem, 1fr) 5rem 8rem 4rem 8rem 1.5rem;
+    gap: 0.35rem;
   }
 }
 
@@ -518,7 +518,8 @@ button:active {
   }
   .row .label-input { grid-column: 1 / 2; }
   .row .year-input { grid-column: 2 / 3; }
-  .row .country-input { grid-column: 1 / -1; }
+  .row .country-input { grid-column: 1 / 2; }
+  .row .meetings-input { grid-column: 2 / 3; }
   .row .city-input { grid-column: 1 / -1; }
   .row .remove {
     position: absolute;
