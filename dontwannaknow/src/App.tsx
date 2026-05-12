@@ -1,5 +1,6 @@
 import { lazy, Suspense, useEffect, useState } from "react";
 import TypeformWizard from "./components/TypeformWizard";
+import ErrorBoundary from "./components/ErrorBoundary";
 import { reportFor, type Person, type PersonReport } from "./lib/facts";
 import { decodePeopleUrl } from "./lib/share";
 import { LangProvider } from "./i18n/LangContext";
@@ -108,8 +109,10 @@ function AppInner() {
 
 export default function App() {
   return (
-    <LangProvider>
-      <AppInner />
-    </LangProvider>
+    <ErrorBoundary>
+      <LangProvider>
+        <AppInner />
+      </LangProvider>
+    </ErrorBoundary>
   );
 }

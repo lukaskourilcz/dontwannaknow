@@ -2,6 +2,23 @@ import type { PersonReport } from "../lib/facts";
 import { generationFor } from "../data/generations";
 import { lifeExpectancyFor } from "../data/lifeExpectancy";
 import { useLang } from "../i18n/useLang";
+import { useCountUp } from "../lib/useCountUp";
+
+/**
+ * Renders a stat-card value with a tasteful count-up animation when the
+ * value parses as a number. Non-numeric strings (dates, generation
+ * names) render as-is.
+ */
+function StatValue({ value, locale }: { value: string; locale: string }) {
+  const raw = value.replace(/[,\s+~]/g, "");
+  const asNumber = Number(raw);
+  const isNumber = !Number.isNaN(asNumber) && /^\+?\d/.test(value.trim());
+  const animated = useCountUp(isNumber ? asNumber : value, 950);
+
+  if (!isNumber || typeof animated !== "number") return <>{value}</>;
+  const prefix = value.trim().startsWith("+") ? "+" : "";
+  return <>{prefix}{animated.toLocaleString(locale)}</>;
+}
 
 type Props = {
   report: PersonReport;
@@ -142,13 +159,15 @@ export default function HeroSummary({ report }: Props) {
     });
   }
 
+  const locale = lang === "cs" ? "cs-CZ" : "en-US";
+
   return (
     <div className="hero-summary" aria-label="Summary">
       {cards.map((c, i) => (
         <div key={i} className={`hero-stat${c.accent ? " accent" : ""}`}>
           <span className="hero-stat-label">{c.label}</span>
           <span className="hero-stat-value">
-            {c.value}
+            <StatValue value={c.value} locale={locale} />
             {c.unit && <span className="unit"> {c.unit}</span>}
           </span>
           {c.detail && <span className="hero-stat-detail">{c.detail}</span>}
