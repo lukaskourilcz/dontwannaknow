@@ -10,7 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@typeform/embed-react": "^4.6.0",
+    "astronomy-engine": "^2.1.19",
+    "jspdf": "^4.2.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

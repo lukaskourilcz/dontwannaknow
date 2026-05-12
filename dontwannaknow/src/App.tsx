@@ -1,73 +1,76 @@
-import { useState } from "react";
-import TypeformEmbed from "./components/TypeformEmbed";
-
-type Result = {
-  momMeetingsLeft: number;
-  grandmaMeetingsLeft: number;
-};
+import { useEffect, useState } from "react";
+import PersonForm from "./components/PersonForm";
+import Results from "./components/Results";
+import { reportFor, type Person, type PersonReport } from "./lib/facts";
+import { decodePeopleUrl } from "./lib/share";
+import "./styles.css";
 
 export default function App() {
-  const [result, setResult] = useState<Result | null>(null);
-  const [loading, setLoading] = useState(false);
+  const [people, setPeople] = useState<Person[] | null>(null);
+  const [reports, setReports] = useState<PersonReport[] | null>(null);
 
-  const fetchAndCalculate = async () => {
-    setLoading(true);
+  const generate = (list: Person[]) => {
+    setReports(list.map(reportFor));
+  };
 
-    const TOKEN = "your_pat_token";
-    const FORM_ID = "abc123";
-    const url = `https://api.typeform.com/forms/${FORM_ID}/responses?page_size=1`;
+  // On first load, see if there's a shareable URL hash and use it.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const hash = window.location.hash;
+    const match = hash.match(/[#&]d=([A-Za-z0-9_-]+)/);
+    if (!match) return;
+    const decoded = decodePeopleUrl(match[1]);
+    if (decoded && decoded.length > 0) {
+      setPeople(decoded);
+      generate(decoded);
+    }
+  }, []);
 
-    const res = await fetch(url, {
-      headers: {
-        Authorization: `Bearer ${TOKEN}`,
-      },
-    });
+  const handleSubmit = (list: Person[]) => {
+    setPeople(list);
+    generate(list);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
-    const data = await res.json();
+  const handleRegenerate = () => {
+    if (people) generate(people);
+  };
 
-    const answers = data.items[0].answers;
-
-    const userAge = Number(answers[0].text);
-    const momAge = Number(answers[1].text);
-    const grandmaAge = Number(answers[2].text);
-    const momFreq = Number(answers[3].text);
-    const grandmaFreq = Number(answers[4].text);
-
-    const avgLife = 82;
-
-    const momRemainingYears = avgLife - momAge;
-    const grandmaRemainingYears = avgLife - grandmaAge;
-
-    const momMeetingsLeft = momRemainingYears * momFreq;
-    const grandmaMeetingsLeft = grandmaRemainingYears * grandmaFreq;
-
-    setResult({ momMeetingsLeft, grandmaMeetingsLeft });
-    setLoading(false);
+  const handleReset = () => {
+    setPeople(null);
+    setReports(null);
+    if (typeof window !== "undefined" && window.location.hash) {
+      window.history.replaceState(null, "", window.location.pathname);
+    }
   };
 
   return (
-    <div>
-      <h1>How much time left?</h1>
-      <TypeformEmbed />
+    <div className="page">
+      <header className="hero">
+        <p className="eyebrow">Don't wanna know · but you should</p>
+        <h1>The world your people lived through</h1>
+        <p className="lede">
+          Enter a birth year and birthplace for yourself, your parents, your
+          grandparents — and see the bizarre, the beautiful, and the everyday
+          details of the world they were born into.
+        </p>
+      </header>
 
-      {!result && (
-        <button onClick={fetchAndCalculate} disabled={loading}>
-          {loading ? "Loading..." : "See Results"}
-        </button>
-      )}
+      <main>
+        {!reports && <PersonForm onSubmit={handleSubmit} />}
+        {reports && people && (
+          <Results
+            reports={reports}
+            people={people}
+            onReset={handleReset}
+            onRegenerate={handleRegenerate}
+          />
+        )}
+      </main>
 
-      {result && (
-        <div>
-          <p>
-            You will likely see your mom about{" "}
-            <strong>{result.momMeetingsLeft}</strong> more times.
-          </p>
-          <p>
-            You will likely see your grandma about{" "}
-            <strong>{result.grandmaMeetingsLeft}</strong> more times.
-          </p>
-        </div>
-      )}
+      <footer className="footer">
+        <p>Made with curiosity. Facts compiled from public historical data.</p>
+      </footer>
     </div>
   );
 }
