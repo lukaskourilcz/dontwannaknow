@@ -43,6 +43,7 @@ export default function LifeGrid({ ageNow, lifeExpectancy, label }: Props) {
 
   const livedCount = Math.min(ageNow, horizon);
   const remaining = Math.max(0, lifeExpectancy - ageNow);
+  const past = Math.max(0, ageNow - lifeExpectancy);
 
   return (
     <figure className="life-grid">
@@ -79,11 +80,18 @@ export default function LifeGrid({ ageNow, lifeExpectancy, label }: Props) {
       </svg>
       <figcaption>
         Each square is one year. {label} has lived {livedCount}{" "}
-        {livedCount === 1 ? "year" : "years"} — about{" "}
-        <strong>
-          {remaining} {remaining === 1 ? "year" : "years"}
-        </strong>{" "}
-        likely remaining if they reach the country's average life expectancy of {lifeExpectancy}.
+        {livedCount === 1 ? "year" : "years"}.{" "}
+        {past > 0 ? (
+          <>
+            That's <strong>{past} {past === 1 ? "year" : "years"}</strong>{" "}
+            already past the country's average life expectancy of {lifeExpectancy} — every year now is a bonus.
+          </>
+        ) : (
+          <>
+            About <strong>{remaining} {remaining === 1 ? "year" : "years"}</strong>{" "}
+            likely remaining if they reach the country's average life expectancy of {lifeExpectancy}.
+          </>
+        )}
       </figcaption>
     </figure>
   );

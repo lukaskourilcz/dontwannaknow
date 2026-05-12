@@ -45,6 +45,36 @@ export const CITIES: City[] = [
   { slug: "jihlava",             name: "Jihlava",             aka: "Iglau",       country: "CZ" },
   { slug: "teplice",             name: "Teplice",             aka: "Teplitz",     country: "CZ" },
   { slug: "decin",               name: "Děčín",               aka: "Tetschen",    country: "CZ" },
+  { slug: "chomutov",            name: "Chomutov",            aka: "Komotau",     country: "CZ" },
+  { slug: "jablonec",            name: "Jablonec nad Nisou",  aka: "Gablonz",     country: "CZ" },
+  { slug: "mlada-boleslav",      name: "Mladá Boleslav",                          country: "CZ" },
+  { slug: "prostejov",           name: "Prostějov",                               country: "CZ" },
+  { slug: "prerov",              name: "Přerov",                                  country: "CZ" },
+  { slug: "ceska-lipa",          name: "Česká Lípa",          aka: "Böhmisch Leipa", country: "CZ" },
+  { slug: "trebic",              name: "Třebíč",                                  country: "CZ" },
+  { slug: "trutnov",             name: "Trutnov",             aka: "Trautenau",   country: "CZ" },
+  { slug: "trinec",              name: "Třinec",                                  country: "CZ" },
+  { slug: "tabor",               name: "Tábor",                                   country: "CZ" },
+  { slug: "znojmo",              name: "Znojmo",              aka: "Znaim",       country: "CZ" },
+  { slug: "pribram",             name: "Příbram",                                 country: "CZ" },
+  { slug: "cheb",                name: "Cheb",                aka: "Eger",        country: "CZ" },
+  { slug: "kolin",               name: "Kolín",                                   country: "CZ" },
+  { slug: "pisek",               name: "Písek",                                   country: "CZ" },
+  { slug: "kromeriz",            name: "Kroměříž",            aka: "Kremsier",    country: "CZ" },
+  { slug: "sumperk",             name: "Šumperk",             aka: "Mährisch Schönberg", country: "CZ" },
+  { slug: "vsetin",              name: "Vsetín",                                  country: "CZ" },
+  { slug: "valasske-mezirici",   name: "Valašské Meziříčí",                       country: "CZ" },
+  { slug: "litvinov",            name: "Litvínov",                                country: "CZ" },
+  { slug: "breclav",             name: "Břeclav",             aka: "Lundenburg",  country: "CZ" },
+  { slug: "novy-jicin",          name: "Nový Jičín",          aka: "Neutitschein", country: "CZ" },
+  { slug: "krnov",               name: "Krnov",               aka: "Jägerndorf",  country: "CZ" },
+  { slug: "uherske-hradiste",    name: "Uherské Hradiště",                        country: "CZ" },
+  { slug: "litomerice",          name: "Litoměřice",          aka: "Leitmeritz",  country: "CZ" },
+  { slug: "hodonin",             name: "Hodonín",             aka: "Göding",      country: "CZ" },
+  { slug: "zdar-nad-sazavou",    name: "Žďár nad Sázavou",                        country: "CZ" },
+  { slug: "kutna-hora",          name: "Kutná Hora",          aka: "Kuttenberg",  country: "CZ" },
+  { slug: "cesky-tesin",         name: "Český Těšín",         aka: "Teschen",     country: "CZ" },
+  { slug: "havlickuv-brod",      name: "Havlíčkův Brod",      aka: "Deutschbrod", country: "CZ" },
 
   // ─── Ukraine / Ukrainian SSR ───────────────────────────────────────
   { slug: "kyiv",                name: "Kyiv",                aka: "Kiev",                              country: "UA" },
@@ -2001,6 +2031,132 @@ export const CITY_FACTS: CityFact[] = [
   { city: "zlin", year: 1969, text: "Zlín children's film studios continued producing classic Czech animation" },
   { city: "zlin", year: 1972, text: "the city had grown to over 80,000 inhabitants as new paneláky filled the slopes above the old Baťa town" },
   { city: "zlin", year: 1976, text: "Svit factories were producing more than 100 million pairs of shoes a year for the Comecon market" },
+
+  // ── Chomutov ────────────────────────────────────────────────────
+  { city: "chomutov", year: 1938, text: "the city (then Komotau) was annexed into the Sudetengau by Nazi Germany" },
+  { city: "chomutov", year: 1945, text: "the German population was expelled under the Beneš decrees and replaced by Czech settlers" },
+  { city: "chomutov", year: 1969, text: "the Chomutov power plant and Válcovny trub steelworks became major regional employers under socialism" },
+
+  // ── Jablonec nad Nisou ─────────────────────────────────────────
+  { city: "jablonec", year: 1920, text: "Jablonec (then Gablonz) was the world capital of glass jewellery and costume beads" },
+  { city: "jablonec", year: 1938, text: "annexed by Nazi Germany after the Munich Agreement; the Reichsgau Sudetenland's beads continued to ship abroad" },
+  { city: "jablonec", year: 1945, text: "the German glass-making population was expelled and entire bead workshops were dismantled" },
+  { city: "jablonec", year: 1971, text: "the Jablonex export combine sold Czechoslovak costume jewellery worldwide" },
+
+  // ── Mladá Boleslav ──────────────────────────────────────────────
+  { city: "mlada-boleslav", year: 1925, text: "Škoda Works (Plzeň) took over the local Laurin & Klement car factory and renamed it Škoda Auto" },
+  { city: "mlada-boleslav", year: 1939, text: "Škoda Mladá Boleslav was placed under Hermann-Göring-Werke control and made military vehicles for the Wehrmacht" },
+  { city: "mlada-boleslav", year: 1945, text: "an American B-17 raid in May, just before liberation, hit the Škoda plant by mistake" },
+  { city: "mlada-boleslav", year: 1964, text: "the Škoda 1000 MB rolled off the line — a rear-engined family car that became a Czech icon" },
+
+  // ── Prostějov ──────────────────────────────────────────────────
+  { city: "prostejov", year: 1920, text: "Prostějov was 'the Manchester of Haná' — a textile and tailoring capital" },
+  { city: "prostejov", year: 1968, text: "the Oděvní průmysl OP Prostějov factory clothed half of Czechoslovakia in men's suits" },
+
+  // ── Přerov ──────────────────────────────────────────────────────
+  { city: "prerov", year: 1939, text: "Přerov became a strategic Reichsbahn rail hub connecting Vienna to Kraków under Nazi occupation" },
+  { city: "prerov", year: 1945, text: "the 'Švédské šance' massacre in June saw hundreds of ethnic German civilians killed by Czechoslovak soldiers" },
+  { city: "prerov", year: 1971, text: "the Meopta optics factory was supplying lenses and cameras across the Eastern Bloc" },
+
+  // ── Česká Lípa ────────────────────────────────────────────────
+  { city: "ceska-lipa", year: 1938, text: "annexed to the Sudetengau with the rest of north-Bohemian German-speaking territory" },
+  { city: "ceska-lipa", year: 1971, text: "uranium mining at nearby Stráž pod Ralskem expanded; thousands of Romanian and Czech miners moved in" },
+
+  // ── Třebíč ──────────────────────────────────────────────────────
+  { city: "trebic", year: 1942, text: "Třebíč's Jewish community was deported to Theresienstadt; the well-preserved ghetto would later become a UNESCO site" },
+  { city: "trebic", year: 1975, text: "construction began on the Dukovany nuclear power plant nearby — one of the biggest Czech industrial projects of the era" },
+
+  // ── Trutnov ─────────────────────────────────────────────────────
+  { city: "trutnov", year: 1938, text: "annexed to the Sudetengau; mostly German-speaking until 1945" },
+  { city: "trutnov", year: 1945, text: "ethnic Germans were expelled; Czech settlers replaced them in factories" },
+  { city: "trutnov", year: 1969, text: "the city became a 'gateway' to Krkonoše skiing and grew with weekenders from Prague" },
+
+  // ── Třinec ──────────────────────────────────────────────────────
+  { city: "trinec", year: 1929, text: "Třinec Iron and Steel Works became the largest steel producer in Czechoslovakia after Vítkovice" },
+  { city: "trinec", year: 1968, text: "Soviet tanks rolled up the Olše river valley past the Třinec works" },
+
+  // ── Tábor ───────────────────────────────────────────────────────
+  { city: "tabor", year: 1942, text: "the Tábor synagogue was burned in the war years; the city's Jewish community was deported and almost entirely murdered" },
+  { city: "tabor", year: 1969, text: "ROH Lánov national-enterprise tractors and ČZ motorbikes were built nearby" },
+
+  // ── Znojmo ──────────────────────────────────────────────────────
+  { city: "znojmo", year: 1938, text: "annexed by Nazi Germany; Znaim's Czech minority was expelled and many leaders murdered" },
+  { city: "znojmo", year: 1945, text: "the Red Army took Znojmo in May; Czech sovereignty was restored and ethnic Germans expelled" },
+  { city: "znojmo", year: 1961, text: "Znojmia gherkins — pickles in Czechoslovakia's most famous brand — went into mass production" },
+
+  // ── Příbram ─────────────────────────────────────────────────────
+  { city: "pribram", year: 1948, text: "after the Communist coup, Příbram's uranium mines became Czechoslovakia's worst labour camps for political prisoners" },
+  { city: "pribram", year: 1955, text: "thousands of political prisoners died of silicosis and radiation in the Příbram-Jáchymov uranium gulag" },
+  { city: "pribram", year: 1969, text: "uranium output reached Soviet quota peaks; prisoners were replaced with paid civilian miners" },
+
+  // ── Cheb ────────────────────────────────────────────────────────
+  { city: "cheb", year: 1938, text: "Cheb (Eger) became one of the first Sudeten cities to host Konrad Henlein's rallies before being annexed" },
+  { city: "cheb", year: 1945, text: "US Third Army units linked up with the Red Army near Cheb in May, finishing the Czech campaign" },
+  { city: "cheb", year: 1968, text: "the local border-guard barracks were a flashpoint as Warsaw Pact troops crossed from West Germany... no, came from East Germany" },
+
+  // ── Kolín ───────────────────────────────────────────────────────
+  { city: "kolin", year: 1942, text: "Kolín's Jewish community of 2,000+ was deported through Terezín to Auschwitz" },
+  { city: "kolin", year: 1970, text: "the TPCA car plant precursor — Tatra-Kolín railway works — was supplying engines across the Eastern Bloc" },
+
+  // ── Písek ───────────────────────────────────────────────────────
+  { city: "pisek", year: 1945, text: "Písek was liberated by the US Third Army; the citizens long remembered American jeeps in the square" },
+  { city: "pisek", year: 1976, text: "the Jitex Písek knitwear factory grew to become one of the largest in central Europe" },
+
+  // ── Kroměříž ────────────────────────────────────────────────────
+  { city: "kromeriz", year: 1948, text: "the Archbishop's Palace and gardens (a UNESCO site since 1998) was nationalised under the Communists" },
+  { city: "kromeriz", year: 1968, text: "Kroměříž hosted secret meetings of dissident Catholic priests resisting state interference" },
+
+  // ── Šumperk ─────────────────────────────────────────────────────
+  { city: "sumperk", year: 1938, text: "annexed into the Sudetengau" },
+  { city: "sumperk", year: 1945, text: "ethnic German population expelled; the textile industry switched to Czech management" },
+
+  // ── Vsetín ──────────────────────────────────────────────────────
+  { city: "vsetin", year: 1944, text: "Vsetín partisans in the Wallachian hills (Operation Carpets) fought Nazi anti-partisan sweeps" },
+  { city: "vsetin", year: 1969, text: "the Zbrojovka Vsetín arms plant supplied small arms across the Comecon market" },
+
+  // ── Valašské Meziříčí ───────────────────────────────────────────
+  { city: "valasske-mezirici", year: 1968, text: "the Tesla VM plant produced lightbulbs and electronics — major employer of the Wallachian region" },
+
+  // ── Litvínov ────────────────────────────────────────────────────
+  { city: "litvinov", year: 1944, text: "the Stalag-Litvínov synthetic-fuel hydrogenation plant was repeatedly bombed by the US Eighth Air Force" },
+  { city: "litvinov", year: 1965, text: "the Chemopetrol refinery and Litvínov-Záluží petrochemical complex made the city one of the most polluted in Europe" },
+
+  // ── Břeclav ─────────────────────────────────────────────────────
+  { city: "breclav", year: 1938, text: "Břeclav, on the new German border with Moravia, became a heavily controlled crossing" },
+  { city: "breclav", year: 1968, text: "Soviet tanks crossed at Břeclav in August during the Warsaw Pact invasion" },
+
+  // ── Nový Jičín ──────────────────────────────────────────────────
+  { city: "novy-jicin", year: 1938, text: "annexed into the Sudetengau; mostly German-speaking" },
+  { city: "novy-jicin", year: 1965, text: "Tonak Nový Jičín was Czechoslovakia's largest hat manufacturer, exporting to over 70 countries" },
+
+  // ── Krnov ───────────────────────────────────────────────────────
+  { city: "krnov", year: 1945, text: "the Battle of Krnov in May saw the last fighting in Czech lands as the Red Army pushed through Silesia" },
+  { city: "krnov", year: 1968, text: "the Karnola textile mills employed thousands of women across town" },
+
+  // ── Uherské Hradiště ────────────────────────────────────────────
+  { city: "uherske-hradiste", year: 1948, text: "the State Security (StB) opened a major interrogation centre in Uherské Hradiště that became infamous for torture in the 1950s" },
+  { city: "uherske-hradiste", year: 1968, text: "the Slovácko region was a stronghold of the Prague Spring's Catholic reform movement" },
+
+  // ── Litoměřice ──────────────────────────────────────────────────
+  { city: "litomerice", year: 1944, text: "the Richard underground complex near Litoměřice became a slave-labour V-weapons factory" },
+  { city: "litomerice", year: 1945, text: "thousands of concentration-camp prisoners from the Richard complex died on death marches just before liberation" },
+
+  // ── Hodonín ─────────────────────────────────────────────────────
+  { city: "hodonin", year: 1942, text: "the Hodonín u Kunštátu Romani camp was used to deport Czech Roma to Auschwitz, where almost all perished" },
+
+  // ── Žďár nad Sázavou ────────────────────────────────────────────
+  { city: "zdar-nad-sazavou", year: 1951, text: "the new ZĎAS engineering plant transformed a small market town into a socialist industrial centre" },
+
+  // ── Kutná Hora ──────────────────────────────────────────────────
+  { city: "kutna-hora", year: 1995, text: "the historic centre with St. Barbara's Cathedral and the Sedlec Ossuary was inscribed as a UNESCO site" },
+
+  // ── Český Těšín ─────────────────────────────────────────────────
+  { city: "cesky-tesin", year: 1920, text: "the Treaty of Versailles split the old Habsburg town in half — Český Těšín on the Czech side, Cieszyn on the Polish" },
+  { city: "cesky-tesin", year: 1938, text: "Poland briefly annexed Český Těšín in October, before Nazi Germany took it the next year" },
+  { city: "cesky-tesin", year: 1945, text: "the Czechoslovak-Polish border was restored along the Olše river" },
+
+  // ── Havlíčkův Brod ──────────────────────────────────────────────
+  { city: "havlickuv-brod", year: 1945, text: "the city, named since 1945 after the dissident journalist Karel Havlíček Borovský, became a regional transport hub" },
 ];
 
 // ──────────────────────────── Selectors ───────────────────────────────
