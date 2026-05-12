@@ -3,8 +3,15 @@
 // be at least two pages — if the essay runs short, we pad with a
 // fact-appendix pulled from the same data.
 
-import jsPDF from "jspdf";
 import type { PersonReport } from "./facts";
+import type jsPDFType from "jspdf";
+
+// Lazy-load the jsPDF + html2canvas stack only when the user actually
+// clicks "Download PDF". Keeps the initial bundle small.
+async function loadJsPdf(): Promise<typeof jsPDFType> {
+  const mod = await import("jspdf");
+  return mod.default;
+}
 
 const PAGE_MARGIN = 50;
 const LINE_HEIGHT = 14;
@@ -42,7 +49,7 @@ async function svgToPng(
 }
 
 function ensureRoom(
-  doc: jsPDF,
+  doc: jsPDFType,
   cursorY: number,
   neededHeight: number,
   pageHeight: number,
@@ -55,7 +62,7 @@ function ensureRoom(
 }
 
 function writeParagraph(
-  doc: jsPDF,
+  doc: jsPDFType,
   heading: string,
   body: string,
   cursorY: number,
@@ -92,6 +99,7 @@ export async function generatePdf(
   report: PersonReport,
   skySvg: SVGSVGElement | null,
 ): Promise<void> {
+  const jsPDF = await loadJsPdf();
   const doc = new jsPDF({ unit: "pt", format: "a4" });
   const pageWidth = doc.internal.pageSize.getWidth();
   const pageHeight = doc.internal.pageSize.getHeight();

@@ -1,11 +1,13 @@
-import { useEffect, useState } from "react";
+import { lazy, Suspense, useEffect, useState } from "react";
 import TypeformWizard from "./components/TypeformWizard";
-import Results from "./components/Results";
 import { reportFor, type Person, type PersonReport } from "./lib/facts";
 import { decodePeopleUrl } from "./lib/share";
 import { LangProvider } from "./i18n/LangContext";
 import { useLang } from "./i18n/useLang";
 import "./styles.css";
+
+// Code-split the heavy result page so the wizard loads fast.
+const Results = lazy(() => import("./components/Results"));
 
 function LangToggle() {
   const { lang, setLang } = useLang();
@@ -86,12 +88,14 @@ function AppInner() {
       <main>
         {!reports && <TypeformWizard onSubmit={handleSubmit} />}
         {reports && people && (
-          <Results
-            reports={reports}
-            people={people}
-            onReset={handleReset}
-            onRegenerate={handleRegenerate}
-          />
+          <Suspense fallback={<div className="loading-fallback" role="status">Loading…</div>}>
+            <Results
+              reports={reports}
+              people={people}
+              onReset={handleReset}
+              onRegenerate={handleRegenerate}
+            />
+          </Suspense>
         )}
       </main>
 
