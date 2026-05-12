@@ -10,6 +10,18 @@ import { lifeExpectancyFor } from "../data/lifeExpectancy";
 import { buildShareUrl } from "../lib/share";
 import { generatePdf } from "../lib/pdf";
 import { useLang } from "../i18n/useLang";
+import HeroSummary from "./HeroSummary";
+
+type Divider = { label: string };
+function SectionDivider({ label }: Divider) {
+  return (
+    <div className="section-divider" role="separator">
+      <span className="section-divider-line" />
+      <span className="section-divider-label">{label}</span>
+      <span className="section-divider-line" />
+    </div>
+  );
+}
 
 type Props = {
   reports: PersonReport[];
@@ -48,7 +60,7 @@ function groupByCategory(facts: Fact[]) {
 type ViewMode = "essay" | "facts";
 
 export default function Results({ reports, people, onReset, onRegenerate }: Props) {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const [view, setView] = useState<ViewMode>("essay");
   const [shareState, setShareState] = useState<"idle" | "copied">("idle");
   const skyRefs = useRef<Map<number, SVGSVGElement | null>>(new Map());
@@ -151,10 +163,15 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
                 <div>
                   <h3>{r.person.label}</h3>
                   <p className="person-sub">
-                    {t("person.bornIn")} {r.person.birthYear} {t("person.bornInWord")}{" "}
-                    {r.cityLabel ? `${r.cityLabel}, ${r.countryLabel}` : r.countryLabel}
-                    {" · "}
-                    {r.ageNow} {t("person.yearsOnPlanet")}
+                    <span>{r.person.birthYear}</span>
+                    <span className="dot" />
+                    <span>
+                      {r.cityLabel ? `${r.cityLabel}, ${r.countryLabel}` : r.countryLabel}
+                    </span>
+                    <span className="dot" />
+                    <span>
+                      {r.ageNow} {t("person.yearsOnPlanet")}
+                    </span>
                   </p>
                 </div>
                 <button
@@ -168,10 +185,9 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
               </div>
             </header>
 
-            <Newspaper person={r.person} />
+            <HeroSummary report={r} />
 
-            <WorldMap birthYear={r.person.birthYear} />
-
+            <SectionDivider label={lang === "cs" ? "Život v letech" : "Life in years"} />
             <LifeGrid
               ageNow={r.ageNow}
               lifeExpectancy={lifeExpectancyFor(r.person.country)}
@@ -192,17 +208,34 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
                   ),
                 );
                 return (
-                  <SkyMap
-                    birthDate={date}
-                    lat={lat}
-                    lon={lon}
-                    cityName={r.cityLabel ?? r.countryLabel}
-                    svgRef={(el) => {
-                      skyRefs.current.set(i, el);
-                    }}
-                  />
+                  <>
+                    <SectionDivider label={lang === "cs" ? "Noční obloha" : "The night sky"} />
+                    <SkyMap
+                      birthDate={date}
+                      lat={lat}
+                      lon={lon}
+                      cityName={r.cityLabel ?? r.countryLabel}
+                      svgRef={(el) => {
+                        skyRefs.current.set(i, el);
+                      }}
+                    />
+                  </>
                 );
               })()}
+
+            <SectionDivider label={lang === "cs" ? "Svět" : "The world"} />
+            <WorldMap birthYear={r.person.birthYear} />
+
+            <SectionDivider label={lang === "cs" ? "Titulní strana" : "The front page"} />
+            <Newspaper person={r.person} />
+
+            <SectionDivider
+              label={
+                view === "essay"
+                  ? lang === "cs" ? "Příběh" : "The story"
+                  : lang === "cs" ? "Fakta" : "Facts"
+              }
+            />
 
             {view === "essay" && (
               <div className="essay">
