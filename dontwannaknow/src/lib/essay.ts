@@ -21,6 +21,7 @@ import { cosmicEventsIn } from "../data/cosmicEvents";
 import { deathsAround, deathsInRange } from "../data/notableDeaths";
 import { speciesAliveAtBirth } from "../data/extinctions";
 import { slangFor } from "../data/slang";
+import { worksAround, worksInRange } from "../data/culturalWorks";
 
 export type EssayParagraph = {
   heading: string;
@@ -362,6 +363,78 @@ export function buildEssay(person: Person): EssayParagraph[] {
       heading: "Animals that walked the earth with them",
       text: capitalize(lines.join("; ")) + ".",
     });
+  }
+
+  // ── What was being made the year they arrived ────────────────────
+  const worksAtBirth = worksAround(birthYear, 1);
+  const birthPicks: string[] = [];
+  if (worksAtBirth.books.length > 0) {
+    const b = pickN(worksAtBirth.books, Math.min(2, worksAtBirth.books.length));
+    birthPicks.push(`bookshops stocked ${joinList(b.map((w) => `${w.title} by ${w.creator}`))}`);
+  }
+  if (worksAtBirth.songs.length > 0) {
+    const s = pickN(worksAtBirth.songs, Math.min(2, worksAtBirth.songs.length));
+    birthPicks.push(`the radio was playing ${joinList(s.map((w) => `"${w.title}" by ${w.creator}`))}`);
+  }
+  if (worksAtBirth.paintings.length > 0) {
+    const p = pickN(worksAtBirth.paintings, Math.min(1, worksAtBirth.paintings.length));
+    birthPicks.push(`painters were finishing ${joinList(p.map((w) => `${w.title} (${w.creator})`))}`);
+  }
+  if (worksAtBirth.plays.length > 0) {
+    const pl = pickN(worksAtBirth.plays, Math.min(1, worksAtBirth.plays.length));
+    birthPicks.push(`the theatre was premiering ${joinList(pl.map((w) => `${w.title} by ${w.creator}`))}`);
+  }
+  if (worksAtBirth.sculptures.length > 0) {
+    const sc = pickN(worksAtBirth.sculptures, Math.min(1, worksAtBirth.sculptures.length));
+    birthPicks.push(`sculptors were unveiling ${joinList(sc.map((w) => `${w.title} (${w.creator})`))}`);
+  }
+  if (birthPicks.length > 0) {
+    out.push({
+      heading: "Art and music being made the year they arrived",
+      text: `In ${birthYear}, ${joinList(birthPicks)}.`,
+    });
+  }
+
+  // ── Cultural anchors of their teen / young-adult years ───────────
+  const teenStart = birthYear + 13;
+  const teenEnd = birthYear + 22;
+  if (teenStart <= CURRENT_YEAR) {
+    const w = worksInRange(teenStart, Math.min(teenEnd, CURRENT_YEAR));
+    const teenPicks: string[] = [];
+    if (w.songs.length > 0) {
+      teenPicks.push(
+        `songs that defined them — ${joinList(
+          pickN(w.songs, Math.min(3, w.songs.length)).map((s) => `"${s.title}" (${s.creator}, ${s.year})`),
+        )}`,
+      );
+    }
+    if (w.books.length > 0) {
+      teenPicks.push(
+        `books everyone was passing around — ${joinList(
+          pickN(w.books, Math.min(3, w.books.length)).map((b) => `${b.title} by ${b.creator} (${b.year})`),
+        )}`,
+      );
+    }
+    if (w.plays.length > 0) {
+      teenPicks.push(
+        `plays opening on stage — ${joinList(
+          pickN(w.plays, Math.min(2, w.plays.length)).map((p) => `${p.title} by ${p.creator} (${p.year})`),
+        )}`,
+      );
+    }
+    if (w.paintings.length > 0) {
+      teenPicks.push(
+        `paintings making news — ${joinList(
+          pickN(w.paintings, Math.min(2, w.paintings.length)).map((p) => `${p.title} by ${p.creator} (${p.year})`),
+        )}`,
+      );
+    }
+    if (teenPicks.length > 0) {
+      out.push({
+        heading: "What they were reading, listening to, and looking at",
+        text: `Through their teens and twenties: ${teenPicks.join("; ")}.`,
+      });
+    }
   }
 
   // ── The slang of their teen years ─────────────────────────────────
