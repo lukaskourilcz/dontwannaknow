@@ -18,6 +18,9 @@ import { lifeMathFor, lifeExpectancyFor } from "../data/lifeExpectancy";
 import { zodiacFor } from "../data/zodiac";
 import { namesFor } from "../data/babyNames";
 import { cosmicEventsIn } from "../data/cosmicEvents";
+import { deathsAround, deathsInRange } from "../data/notableDeaths";
+import { speciesAliveAtBirth } from "../data/extinctions";
+import { slangFor } from "../data/slang";
 
 export type EssayParagraph = {
   heading: string;
@@ -39,6 +42,10 @@ function shuffle<T>(arr: T[]): T[] {
 
 function pickN<T>(arr: T[], n: number): T[] {
   return shuffle(arr).slice(0, n);
+}
+
+function capitalize(s: string): string {
+  return s.length === 0 ? s : s[0].toUpperCase() + s.slice(1);
 }
 
 function gatherEvents(person: Person): Event[] {
@@ -310,6 +317,62 @@ export function buildEssay(person: Person): EssayParagraph[] {
     out.push({
       heading: "What the sky did while they were here",
       text: lines.join(". ") + ".",
+    });
+  }
+
+  // ── Who died the year they arrived ─────────────────────────────────
+  const deathsAtBirth = deathsAround(birthYear, 0);
+  if (deathsAtBirth.length > 0) {
+    const sample = pickN(deathsAtBirth, Math.min(5, deathsAtBirth.length));
+    const lines = sample.map((d) => `${d.name}, ${d.role}${d.note ? ` (${d.note})` : ""}`);
+    out.push({
+      heading: "Who left the world the year they entered it",
+      text: `${joinList(lines)}. ${label} arrived just as the lights went out on those lives.`,
+    });
+  }
+
+  // ── Famous deaths during their lifetime (a wider net) ─────────────
+  const livedDeaths = deathsInRange(
+    Math.max(birthYear + 1, 1900),
+    Math.min(CURRENT_YEAR, birthYear + 90),
+  );
+  if (livedDeaths.length > 0) {
+    const sample = pickN(livedDeaths, Math.min(5, livedDeaths.length)).sort(
+      (a, b) => a.year - b.year,
+    );
+    const lines = sample.map((d) => {
+      const age = d.year - birthYear;
+      return `${age <= 0 ? "before they remembered" : `aged ${age}`}, they were alive when ${d.name} (${d.role}) died in ${d.year}${d.note ? ` — ${d.note}` : ""}`;
+    });
+    out.push({
+      heading: "Lives that ended while theirs ran",
+      text: capitalize(lines.join("; ")) + ".",
+    });
+  }
+
+  // ── Species still walking the earth when they were born ───────────
+  const stillAlive = speciesAliveAtBirth(birthYear, CURRENT_YEAR);
+  if (stillAlive.length > 0) {
+    const picks = pickN(stillAlive, Math.min(3, stillAlive.length));
+    const lines = picks.map((s) => {
+      const age = s.declaredExtinctYear - birthYear;
+      return `the ${s.species} was still alive — it would not be officially gone until ${s.declaredExtinctYear}${age > 0 ? ` (when they were ${age})` : ""}, when ${s.note}`;
+    });
+    out.push({
+      heading: "Animals that walked the earth with them",
+      text: capitalize(lines.join("; ")) + ".",
+    });
+  }
+
+  // ── The slang of their teen years ─────────────────────────────────
+  const teenDecade = Math.floor((birthYear + 15) / 10) * 10;
+  const slang = slangFor(teenDecade);
+  if (slang && slang.expressions.length > 0) {
+    const picks = pickN(slang.expressions, Math.min(5, slang.expressions.length));
+    const lines = picks.map((s) => `"${s.phrase}" (${s.meaning})`);
+    out.push({
+      heading: `How teenagers actually talked in the ${teenDecade}s`,
+      text: `By the time ${label.toLowerCase()} was running with friends, the slang in their mouth ran: ${joinList(lines)}.`,
     });
   }
 
