@@ -15,6 +15,8 @@ import { cultureForDecade } from "../data/culture";
 import { generationFor } from "../data/generations";
 import { birthsAround } from "../data/famousBirths";
 import { lifeMathFor, lifeExpectancyFor } from "../data/lifeExpectancy";
+import { zodiacFor } from "../data/zodiac";
+import { namesFor } from "../data/babyNames";
 
 export type EssayParagraph = {
   heading: string;
@@ -136,9 +138,26 @@ export function buildEssay(person: Person): EssayParagraph[] {
   // ── Generation badge ──────────────────────────────────────────────
   const generation = generationFor(birthYear);
   if (generation) {
+    let badgeText = generation.blurb;
+    // ── Sun sign (only if exact date provided) ────────────────────
+    if (person.birthMonth && person.birthDay) {
+      const sign = zodiacFor(person.birthMonth, person.birthDay);
+      if (sign) {
+        badgeText += ` Born under ${sign.symbol} ${sign.name} (${sign.element}) — ${sign.blurb}.`;
+      }
+    }
     out.push({
       heading: `${generation.label} (${generation.startYear}–${generation.endYear})`,
-      text: generation.blurb,
+      text: badgeText,
+    });
+  }
+
+  // ── Top baby names of their decade ────────────────────────────────
+  const names = namesFor(person.country, birthYear);
+  if (names) {
+    out.push({
+      heading: "Names they grew up hearing in roll call",
+      text: `In the ${names.decadeStart}s, the most-given names in ${COUNTRY_LABELS[person.country]} ran: for boys ${joinList(names.boys.slice(0, 5))}; for girls ${joinList(names.girls.slice(0, 5))}.`,
     });
   }
 
@@ -281,6 +300,13 @@ export function buildEssay(person: Person): EssayParagraph[] {
   if (cultureBits.length > 0) {
     out.push({ heading: "What they grew up to", text: cultureBits.join(" ") });
   }
+
+  // ── Time-capsule prompt (closer) ─────────────────────────────────
+  const yearsLived = CURRENT_YEAR - birthYear;
+  const prompt = yearsLived > 0
+    ? `If you sat down with ${label.toLowerCase()} today, what one story from before you were born would you ask them to tell? They've been on the planet ${yearsLived} ${yearsLived === 1 ? "year" : "years"} — long enough to have seen most of the world above change shape.`
+    : `${label.toLowerCase()} is brand new. The world they're arriving in is the only one they'll ever know — and a hundred years from now, this paragraph will read like a love letter.`;
+  out.push({ heading: "A question worth asking", text: prompt });
 
   return out;
 }

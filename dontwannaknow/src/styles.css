@@ -311,6 +311,48 @@ button:active {
   letter-spacing: 0.02em;
 }
 
+.life-grid {
+  margin: 1.3rem auto 0;
+  padding: 0;
+  text-align: center;
+  max-width: 320px;
+}
+
+.life-grid svg {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.life-grid figcaption {
+  margin: 0.75rem 0 0;
+  font-size: 0.92rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.life-grid-cell.life-grid-lived {
+  fill: var(--accent);
+}
+
+.life-grid-cell.life-grid-future {
+  fill: none;
+  stroke: var(--accent-soft);
+  stroke-width: 1;
+}
+
+.life-grid-cell.life-grid-beyond {
+  fill: var(--rule);
+  opacity: 0.25;
+}
+
+.life-grid-row-label {
+  font-family: var(--sans);
+  font-size: 9px;
+  fill: var(--muted);
+}
+
 .sky-map {
   margin: 1.3rem 0 0;
   padding: 0;

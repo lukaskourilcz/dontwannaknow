@@ -3,7 +3,9 @@ import type { PersonReport, Fact } from "../lib/facts";
 import { pairReport } from "../lib/facts";
 import WorldMap from "./WorldMap";
 import SkyMap from "./SkyMap";
+import LifeGrid from "./LifeGrid";
 import { CITY_COORDS } from "../data/cityCoords";
+import { lifeExpectancyFor } from "../data/lifeExpectancy";
 
 type Props = {
   reports: PersonReport[];
@@ -118,6 +120,12 @@ export default function Results({ reports, onReset, onRegenerate }: Props) {
               </p>
             </header>
             <WorldMap birthYear={r.person.birthYear} />
+
+            <LifeGrid
+              ageNow={r.ageNow}
+              lifeExpectancy={lifeExpectancyFor(r.person.country)}
+              label={r.person.label}
+            />
 
             {r.person.birthMonth && r.person.birthDay && r.person.citySlug && CITY_COORDS[r.person.citySlug] && (() => {
               const [lat, lon] = CITY_COORDS[r.person.citySlug];
