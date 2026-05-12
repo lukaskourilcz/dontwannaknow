@@ -21,6 +21,7 @@ import { cosmicEventsIn } from "../data/cosmicEvents";
 import { deathsAround, deathsInRange } from "../data/notableDeaths";
 import { speciesAliveAtBirth } from "../data/extinctions";
 import { slangFor } from "../data/slang";
+import { educationFor } from "../data/education";
 import { worksAround, worksInRange } from "../data/culturalWorks";
 import { eventsInMonth, eventsInMonthLifetime, eventsAroundMonth } from "../data/monthlyEvents";
 
@@ -168,6 +169,31 @@ export function buildEssay(person: Person): EssayParagraph[] {
     out.push({
       heading: "Names they grew up hearing in roll call",
       text: `In the ${names.decadeStart}s, the most-given names in ${COUNTRY_LABELS[person.country]} ran: for boys ${joinList(names.boys.slice(0, 5))}; for girls ${joinList(names.girls.slice(0, 5))}.`,
+    });
+  }
+
+  // ── School, work, and what you'd study (using teen-decade snapshot)
+  const schoolYear = birthYear + 12;
+  const edu = educationFor(person.country, schoolYear) ?? educationFor(person.country, birthYear);
+  if (edu) {
+    const decadeWord = `${edu.decadeStart}s`;
+    const parts: string[] = [];
+    parts.push(
+      `School in the ${decadeWord} in ${COUNTRY_LABELS[person.country]}: compulsory until age ${edu.compulsoryEnd}, with the average adult having completed about ${edu.avgYearsSchooling} years of schooling. ${edu.literacyPct}% of adults could read and write.`,
+    );
+    parts.push(
+      `Roughly ${edu.highSchoolGradPct}% of their cohort finished upper secondary; about ${edu.universityPct}% of adults ever earned a university degree.`,
+    );
+    parts.push(
+      `Subjects on the timetable: ${joinList(edu.subjects)}. ${edu.classroom}`,
+    );
+    parts.push(
+      `The most common jobs in those years: ${joinList(edu.commonJobs)}.`,
+    );
+    if (edu.workNote) parts.push(edu.workNote);
+    out.push({
+      heading: "School, work, and what you'd study",
+      text: parts.join(" "),
     });
   }
 
