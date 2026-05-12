@@ -26,14 +26,39 @@ const DEFAULT_ROWS: Row[] = [
   { id: "grandparent", label: "Grandma / Grandpa",  year: "", country: "US", citySlug: "" },
 ];
 
-function parseYear(input: string): number | null {
+type ParsedDate = { year: number; month?: number; day?: number };
+
+function parseDate(input: string): ParsedDate | null {
   const trimmed = input.trim();
   if (!trimmed) return null;
-  const match = trimmed.match(/\b(18|19|20)\d{2}\b/);
-  if (!match) return null;
-  const year = Number(match[0]);
-  if (year < MIN_YEAR || year > CURRENT_YEAR) return null;
-  return year;
+  // ISO: 1953-04-12
+  const iso = trimmed.match(/\b(18|19|20)\d{2}-(0?[1-9]|1[0-2])-(0?[1-9]|[12]\d|3[01])\b/);
+  if (iso) {
+    const year = Number(iso[1] + iso[0].slice(2, 4));
+    const fullYear = Number(iso[0].slice(0, 4));
+    const month = Number(iso[2]);
+    const day = Number(iso[3]);
+    if (fullYear < MIN_YEAR || fullYear > CURRENT_YEAR) return null;
+    void year;
+    return { year: fullYear, month, day };
+  }
+  // DD/MM/YYYY or MM/DD/YYYY — assume DD/MM/YYYY (international common).
+  const slash = trimmed.match(/\b(0?[1-9]|[12]\d|3[01])[./](0?[1-9]|1[0-2])[./]((?:18|19|20)\d{2})\b/);
+  if (slash) {
+    const day = Number(slash[1]);
+    const month = Number(slash[2]);
+    const year = Number(slash[3]);
+    if (year < MIN_YEAR || year > CURRENT_YEAR) return null;
+    return { year, month, day };
+  }
+  // Year only.
+  const yearOnly = trimmed.match(/\b(18|19|20)\d{2}\b/);
+  if (yearOnly) {
+    const year = Number(yearOnly[0]);
+    if (year < MIN_YEAR || year > CURRENT_YEAR) return null;
+    return { year };
+  }
+  return null;
 }
 
 export default function PersonForm({ onSubmit }: Props) {
@@ -74,16 +99,18 @@ export default function PersonForm({ onSubmit }: Props) {
     const people: Person[] = [];
     for (const r of rows) {
       if (!r.year.trim()) continue;
-      const y = parseYear(r.year);
-      if (y === null) {
+      const parsed = parseDate(r.year);
+      if (parsed === null) {
         setError(
-          `Couldn't read a year for "${r.label}". Try something like 1953 or 12/03/1953.`,
+          `Couldn't read a date for "${r.label}". Try something like 1953 or 12/03/1953.`,
         );
         return;
       }
       people.push({
         label: r.label.trim() || "Someone",
-        birthYear: y,
+        birthYear: parsed.year,
+        birthMonth: parsed.month,
+        birthDay: parsed.day,
         country: r.country,
         citySlug: r.citySlug || undefined,
       });
@@ -99,9 +126,10 @@ export default function PersonForm({ onSubmit }: Props) {
   return (
     <form className="person-form" onSubmit={handleSubmit}>
       <p className="form-intro">
-        Enter a birth year (or full date), country, and city for each person —
-        you, your mom, your grandfather, anyone. City-specific facts cover the
-        top 20 cities of Czechia, Spain, Ukraine and the United States,
+        Enter a birth year (or full date — e.g. 1953-04-12 or 12/04/1953),
+        country, and city for each person. Adding a full date unlocks a
+        sky chart of the night they were born. Coverage is the top 20
+        cities each of Czechia, Spain, Ukraine, the US, Canada and Mexico,
         1920–1980.
       </p>
       <div className="rows">

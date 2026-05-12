@@ -2,6 +2,8 @@ import { useState } from "react";
 import type { PersonReport, Fact } from "../lib/facts";
 import { pairReport } from "../lib/facts";
 import WorldMap from "./WorldMap";
+import SkyMap from "./SkyMap";
+import { CITY_COORDS } from "../data/cityCoords";
 
 type Props = {
   reports: PersonReport[];
@@ -116,6 +118,23 @@ export default function Results({ reports, onReset, onRegenerate }: Props) {
               </p>
             </header>
             <WorldMap birthYear={r.person.birthYear} />
+
+            {r.person.birthMonth && r.person.birthDay && r.person.citySlug && CITY_COORDS[r.person.citySlug] && (() => {
+              const [lat, lon] = CITY_COORDS[r.person.citySlug];
+              const date = new Date(Date.UTC(
+                r.person.birthYear,
+                r.person.birthMonth - 1,
+                r.person.birthDay,
+              ));
+              return (
+                <SkyMap
+                  birthDate={date}
+                  lat={lat}
+                  lon={lon}
+                  cityName={r.cityLabel ?? r.countryLabel}
+                />
+              );
+            })()}
 
             {view === "essay" && (
               <div className="essay">

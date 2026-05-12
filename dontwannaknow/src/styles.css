@@ -311,6 +311,48 @@ button:active {
   letter-spacing: 0.02em;
 }
 
+.sky-map {
+  margin: 1.3rem 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+.sky-map svg {
+  display: block;
+  margin: 0 auto;
+  width: min(360px, 100%);
+  height: auto;
+  border-radius: 50%;
+}
+
+.sky-map figcaption {
+  margin: 0.75rem auto 0;
+  font-size: 0.92rem;
+  color: var(--muted);
+  line-height: 1.5;
+  max-width: 56ch;
+}
+
+.sky-map .card-label {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 600;
+  fill: #d7caa7;
+}
+
+.sky-map .star-label {
+  font-family: var(--sans);
+  font-size: 7.5px;
+  fill: #c8c3a4;
+}
+
+.sky-map .planet-label {
+  font-family: var(--sans);
+  font-size: 8.5px;
+  fill: #f4e8c3;
+  font-weight: 500;
+}
+
 .world-map {
   margin: 1.3rem 0 0;
   padding: 0;
