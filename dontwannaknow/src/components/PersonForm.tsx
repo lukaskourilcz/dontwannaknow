@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { Person } from "../lib/facts";
+import { COUNTRY_LABELS, type Country } from "../data/countryDecades";
 
 const CURRENT_YEAR = new Date().getFullYear();
 const MIN_YEAR = 1900;
@@ -8,22 +9,24 @@ type Row = {
   id: string;
   label: string;
   year: string;
+  country: Country;
 };
 
 type Props = {
   onSubmit: (people: Person[]) => void;
 };
 
+const COUNTRY_ORDER: Country[] = ["US", "CZ", "ES", "UA", "INTL"];
+
 const DEFAULT_ROWS: Row[] = [
-  { id: "you", label: "You", year: "" },
-  { id: "parent", label: "Mom / Dad", year: "" },
-  { id: "grandparent", label: "Grandma / Grandpa", year: "" },
+  { id: "you", label: "You", year: "", country: "US" },
+  { id: "parent", label: "Mom / Dad", year: "", country: "US" },
+  { id: "grandparent", label: "Grandma / Grandpa", year: "", country: "US" },
 ];
 
 function parseYear(input: string): number | null {
   const trimmed = input.trim();
   if (!trimmed) return null;
-  // Accept "1953", "12/03/1953", "1953-04-12", etc. — take any 4-digit run.
   const match = trimmed.match(/\b(18|19|20)\d{2}\b/);
   if (!match) return null;
   const year = Number(match[0]);
@@ -35,16 +38,19 @@ export default function PersonForm({ onSubmit }: Props) {
   const [rows, setRows] = useState<Row[]>(DEFAULT_ROWS);
   const [error, setError] = useState<string | null>(null);
 
-  const update = (id: string, label: string, year: string) => {
-    setRows((prev) =>
-      prev.map((r) => (r.id === id ? { ...r, label, year } : r)),
-    );
+  const update = (id: string, patch: Partial<Row>) => {
+    setRows((prev) => prev.map((r) => (r.id === id ? { ...r, ...patch } : r)));
   };
 
   const addRow = () => {
     setRows((prev) => [
       ...prev,
-      { id: `extra-${prev.length}`, label: "Another person", year: "" },
+      {
+        id: `extra-${prev.length}-${Date.now()}`,
+        label: "Another person",
+        year: "",
+        country: "US",
+      },
     ]);
   };
 
@@ -64,10 +70,14 @@ export default function PersonForm({ onSubmit }: Props) {
         );
         return;
       }
-      people.push({ label: r.label.trim() || "Someone", birthYear: y });
+      people.push({
+        label: r.label.trim() || "Someone",
+        birthYear: y,
+        country: r.country,
+      });
     }
     if (people.length === 0) {
-      setError("Add at least one birth year to see the facts.");
+      setError("Add at least one person with a birth year to see the facts.");
       return;
     }
     setError(null);
@@ -77,8 +87,9 @@ export default function PersonForm({ onSubmit }: Props) {
   return (
     <form className="person-form" onSubmit={handleSubmit}>
       <p className="form-intro">
-        Enter the birth year (or full date of birth) for yourself and the people
-        you'd like to learn about.
+        Enter a birth year (or full date) and birthplace for each person —
+        you, your mom, your grandfather, anyone. The country-specific facts
+        cover Czechia, Spain, the US and Ukraine, 1920–1980.
       </p>
       <div className="rows">
         {rows.map((r) => (
@@ -87,7 +98,7 @@ export default function PersonForm({ onSubmit }: Props) {
               className="label-input"
               type="text"
               value={r.label}
-              onChange={(e) => update(r.id, e.target.value, r.year)}
+              onChange={(e) => update(r.id, { label: e.target.value })}
               aria-label="Who"
             />
             <input
@@ -96,9 +107,23 @@ export default function PersonForm({ onSubmit }: Props) {
               inputMode="numeric"
               placeholder="e.g. 1953"
               value={r.year}
-              onChange={(e) => update(r.id, r.label, e.target.value)}
+              onChange={(e) => update(r.id, { year: e.target.value })}
               aria-label="Year of birth"
             />
+            <select
+              className="country-input"
+              value={r.country}
+              onChange={(e) =>
+                update(r.id, { country: e.target.value as Country })
+              }
+              aria-label="Born in"
+            >
+              {COUNTRY_ORDER.map((c) => (
+                <option key={c} value={c}>
+                  {COUNTRY_LABELS[c]}
+                </option>
+              ))}
+            </select>
             {rows.length > 1 && (
               <button
                 type="button"

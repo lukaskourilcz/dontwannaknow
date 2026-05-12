@@ -3,14 +3,36 @@ import { INVENTIONS } from "../data/inventions";
 import { goneCountriesAlive } from "../data/countries";
 import { statsForYear, type DecadeStats } from "../data/stats";
 import { cultureForDecade, type CultureSnapshot } from "../data/culture";
+import {
+  decadeFactsFor,
+  COUNTRY_LABELS,
+  type Country,
+  type CountryDecade,
+} from "../data/countryDecades";
+import { famousFor } from "../data/famousPeople";
+import { eventsForCountry } from "../data/countryEvents";
 
 export type Person = {
-  label: string; // "You", "Mom", "Grandpa", etc.
+  label: string;
   birthYear: number;
+  country: Country;
 };
 
 export type Fact = {
-  category: "bizarre" | "beautiful" | "everyday" | "world" | "youth";
+  category:
+    | "bizarre"
+    | "beautiful"
+    | "everyday"
+    | "world"
+    | "youth"
+    | "government"
+    | "clothes"
+    | "illness"
+    | "daily"
+    | "food"
+    | "money"
+    | "famous"
+    | "local";
   text: string;
 };
 
@@ -20,6 +42,7 @@ export type PersonReport = {
   birthDecade: number;
   birthStats: DecadeStats;
   youthCulture: CultureSnapshot;
+  countryLabel: string;
   facts: Fact[];
 };
 
@@ -29,8 +52,19 @@ function ageAt(birthYear: number, year: number): number {
   return year - birthYear;
 }
 
-// Pick events that happened while this person was alive, weighted toward
-// childhood/teen years (ages 5–20) — the years that shape us most.
+function shuffle<T>(arr: T[]): T[] {
+  const out = arr.slice();
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+
+function pickN<T>(arr: T[], n: number): T[] {
+  return shuffle(arr).slice(0, n);
+}
+
 function eventsLivedThrough(birthYear: number): typeof EVENTS {
   return EVENTS.filter(
     (e) => e.year >= birthYear && e.year <= CURRENT_YEAR && e.year - birthYear <= 90,
@@ -41,22 +75,19 @@ function eventsByMood(birthYear: number, mood: EventMood): typeof EVENTS {
   return eventsLivedThrough(birthYear).filter((e) => e.mood === mood);
 }
 
-function pickFormative(birthYear: number, max = 5): typeof EVENTS {
-  const lived = eventsLivedThrough(birthYear).slice().sort((a, b) => {
-    const ageA = a.year - birthYear;
-    const ageB = b.year - birthYear;
-    // Score by how close to age 12; lower score is more formative.
-    return Math.abs(ageA - 12) - Math.abs(ageB - 12);
-  });
+function pickFormative(birthYear: number, max = 4): typeof EVENTS {
+  const lived = eventsLivedThrough(birthYear)
+    .slice()
+    .sort((a, b) => {
+      const ageA = a.year - birthYear;
+      const ageB = b.year - birthYear;
+      return Math.abs(ageA - 12) - Math.abs(ageB - 12);
+    });
   return lived.slice(0, max).sort((a, b) => a.year - b.year);
 }
 
 function inventionsBornBefore(birthYear: number) {
   return INVENTIONS.filter((i) => i.year > birthYear);
-}
-
-function countriesAliveAtBirth(birthYear: number) {
-  return goneCountriesAlive(birthYear);
 }
 
 function fmtUsd(n: number): string {
@@ -65,8 +96,101 @@ function fmtUsd(n: number): string {
   return `$${n.toLocaleString("en-US", { maximumFractionDigits: 0 })}`;
 }
 
-function articleFor(word: string): string {
-  return /^[aeiou]/i.test(word) ? "an" : "a";
+function decadeWord(decadeStart: number): string {
+  return `${decadeStart}s`;
+}
+
+// Build country-specific facts from the per-decade snapshot. We pull from
+// both the person's birth decade and their teenage decade so the texture
+// covers "when you were born" and "while you were growing up".
+function countryFacts(person: Person): Fact[] {
+  const { country, birthYear } = person;
+  if (country === "INTL") return [];
+
+  const birthDecade = decadeFactsFor(country, birthYear);
+  const youthDecade = decadeFactsFor(country, birthYear + 15);
+
+  const facts: Fact[] = [];
+  const decades: { d: CountryDecade | null; when: string }[] = [
+    { d: birthDecade, when: `in the ${decadeWord(Math.floor(birthYear / 10) * 10)}` },
+  ];
+  if (
+    youthDecade &&
+    (!birthDecade || youthDecade.decadeStart !== birthDecade.decadeStart)
+  ) {
+    decades.push({
+      d: youthDecade,
+      when: `by the ${decadeWord(youthDecade.decadeStart)}, growing up`,
+    });
+  }
+
+  for (const { d, when } of decades) {
+    if (!d) continue;
+    // Pick a couple from each thematic bucket.
+    pickN(d.government, 1).forEach((t) =>
+      facts.push({ category: "government", text: `${capitalize(when)}, ${t}` }),
+    );
+    pickN(d.clothes, 1).forEach((t) =>
+      facts.push({ category: "clothes", text: t }),
+    );
+    pickN(d.illnesses, 1).forEach((t) =>
+      facts.push({ category: "illness", text: t }),
+    );
+    pickN(d.dailyLife, 1).forEach((t) =>
+      facts.push({ category: "daily", text: t }),
+    );
+    pickN(d.food, 1).forEach((t) =>
+      facts.push({ category: "food", text: t }),
+    );
+    pickN(d.money, 1).forEach((t) =>
+      facts.push({ category: "money", text: t }),
+    );
+    pickN(d.bizarre, 1).forEach((t) =>
+      facts.push({ category: "bizarre", text: t }),
+    );
+    pickN(d.beautiful, 1).forEach((t) =>
+      facts.push({ category: "beautiful", text: t }),
+    );
+  }
+
+  // Country-specific events during their lifetime — weight toward
+  // birth ± 25 years and pick 4.
+  const countryEvents = eventsForCountry(
+    country,
+    birthYear,
+    Math.min(CURRENT_YEAR, birthYear + 90),
+  );
+  pickN(countryEvents, 4).forEach((e) => {
+    const age = ageAt(birthYear, e.year);
+    const when =
+      age === 0 ? "the year of birth" : age < 0 ? `${-age} years before` : `age ${age}`;
+    facts.push({
+      category: "local",
+      text: `At ${when} (${e.year}), ${e.text}.`,
+    });
+  });
+
+  // Famous people from their birth decade and youth decade.
+  const famous = [
+    ...famousFor(country, birthYear),
+    ...famousFor(country, birthYear + 15),
+  ];
+  // Dedupe by name.
+  const uniqueFamous = Array.from(
+    new Map(famous.map((p) => [p.name, p])).values(),
+  );
+  pickN(uniqueFamous, 5).forEach((p) => {
+    facts.push({
+      category: "famous",
+      text: `${p.name} — ${p.role}${p.note ? `: ${p.note}` : ""}.`,
+    });
+  });
+
+  return facts;
+}
+
+function capitalize(s: string): string {
+  return s.length === 0 ? s : s[0].toUpperCase() + s.slice(1);
 }
 
 export function reportFor(person: Person): PersonReport {
@@ -74,20 +198,19 @@ export function reportFor(person: Person): PersonReport {
   const ageNow = CURRENT_YEAR - birthYear;
   const birthDecade = Math.floor(birthYear / 10) * 10;
   const birthStats = statsForYear(birthYear);
-  const youthStats = statsForYear(birthYear + 16);
   const youthCulture = cultureForDecade(birthYear + 15);
+  const countryLabel = COUNTRY_LABELS[person.country];
 
   const facts: Fact[] = [];
 
-  // ── Bizarre: "before X existed" ───────────────────────────────────────
+  // ── Bizarre: "before X existed" — pick 2 at random ───────────────────
   const beforeStuff = inventionsBornBefore(birthYear);
   if (beforeStuff.length > 0) {
-    // Cherry-pick a couple of striking ones.
     const big = beforeStuff.filter((i) =>
       ["the iPhone", "Google", "the World Wide Web", "television in most homes", "the personal computer", "sliced bread", "color TV", "the home microwave oven", "the Sony Walkman", "Facebook", "ChatGPT"].includes(i.name),
     );
-    const picks = (big.length >= 2 ? big : beforeStuff).slice(0, 3);
-    picks.forEach((inv) => {
+    const pool = big.length >= 2 ? big : beforeStuff;
+    pickN(pool, 2).forEach((inv) => {
       const phrase = inv.detail ?? `${inv.name} didn't exist yet`;
       facts.push({
         category: "bizarre",
@@ -97,7 +220,7 @@ export function reportFor(person: Person): PersonReport {
   }
 
   // ── Bizarre: vanished countries ───────────────────────────────────────
-  const gone = countriesAliveAtBirth(birthYear).slice(0, 3);
+  const gone = goneCountriesAlive(birthYear).slice(0, 2);
   gone.forEach((c) => {
     const verb = c.becameText ? ` — it later ${c.becameText}` : "";
     facts.push({
@@ -116,8 +239,7 @@ export function reportFor(person: Person): PersonReport {
     });
   });
 
-  // ── Beautiful: explicitly uplifting events ────────────────────────────
-  eventsByMood(birthYear, "beautiful").slice(0, 2).forEach((e) => {
+  pickN(eventsByMood(birthYear, "beautiful"), 1).forEach((e) => {
     const age = ageAt(birthYear, e.year);
     facts.push({
       category: "beautiful",
@@ -125,7 +247,7 @@ export function reportFor(person: Person): PersonReport {
     });
   });
 
-  // ── Everyday life: prices and population at birth ─────────────────────
+  // ── Everyday life ────────────────────────────────────────────────────
   facts.push({
     category: "everyday",
     text: `In the year ${label.toLowerCase()} was born, the world held about ${birthStats.worldPopulationBillions} billion people — today it's about 8.1 billion.`,
@@ -140,10 +262,10 @@ export function reportFor(person: Person): PersonReport {
   });
   facts.push({
     category: "everyday",
-    text: `Global life expectancy at the time was about ${birthStats.globalLifeExpectancy} years. Roughly ${birthStats.worldBirthsPerYearMillions} million babies were born that year worldwide — one of them was ${label.toLowerCase()}.`,
+    text: `Global life expectancy at the time was about ${birthStats.globalLifeExpectancy} years. Roughly ${birthStats.worldBirthsPerYearMillions} million babies were born that year worldwide.`,
   });
 
-  // ── Youth: what life looked like growing up ───────────────────────────
+  // ── Youth: cultural snapshot ──────────────────────────────────────────
   facts.push({
     category: "youth",
     text: `Growing up, ${label.toLowerCase()} probably wore ${youthCulture.fashion}.`,
@@ -171,7 +293,7 @@ export function reportFor(person: Person): PersonReport {
     });
   }
 
-  // ── Then-vs-now wage comparison (a bit bizarre) ──────────────────────
+  // ── Bizarre: wage comparison ────────────────────────────────────────
   const wageNow = statsForYear(CURRENT_YEAR).usAverageAnnualWageUsd;
   if (birthStats.usAverageAnnualWageUsd > 0) {
     const multiple = Math.round(wageNow / birthStats.usAverageAnnualWageUsd);
@@ -183,9 +305,8 @@ export function reportFor(person: Person): PersonReport {
     }
   }
 
-  // Avoid leaving an unused variable warning.
-  void youthStats;
-  void articleFor;
+  // ── Country-specific texture, famous people, and local events ───────
+  facts.push(...countryFacts(person));
 
   return {
     person,
@@ -193,6 +314,7 @@ export function reportFor(person: Person): PersonReport {
     birthDecade,
     birthStats,
     youthCulture,
+    countryLabel,
     facts,
   };
 }

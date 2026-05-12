@@ -92,12 +92,13 @@ body,
 
 .row {
   display: grid;
-  grid-template-columns: 1fr 9rem 2rem;
+  grid-template-columns: 1fr 7rem 12rem 2rem;
   gap: 0.5rem;
   align-items: center;
 }
 
-.row input {
+.row input,
+.row select {
   font: inherit;
   padding: 0.75rem 0.9rem;
   border: 1px solid var(--rule);
@@ -108,7 +109,17 @@ body,
   transition: border-color 0.15s, box-shadow 0.15s;
 }
 
-.row input:focus {
+.row select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path fill='%236e655a' d='M0 0l5 6 5-6z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  padding-right: 1.8rem;
+}
+
+.row input:focus,
+.row select:focus {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px var(--accent-soft);
 }
@@ -184,6 +195,14 @@ button:active {
   align-items: baseline;
   justify-content: space-between;
   margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.results-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .results-header h2 {
@@ -351,9 +370,43 @@ button:active {
   font-size: 0.85rem;
 }
 
+.facts-local h4,
+.facts-government h4,
+.facts-famous h4,
+.facts-clothes h4,
+.facts-illness h4,
+.facts-daily h4,
+.facts-food h4,
+.facts-money h4 {
+  color: var(--accent);
+}
+
+.facts-local li::before { content: "◉  "; color: var(--accent); }
+.facts-government li::before { content: "⚖  "; color: var(--muted); }
+.facts-famous li::before { content: "★  "; color: var(--accent); }
+.facts-clothes li::before { content: "✂  "; color: var(--muted); }
+.facts-illness li::before { content: "+  "; color: var(--muted); }
+.facts-daily li::before { content: "⌂  "; color: var(--muted); }
+.facts-food li::before { content: "🍽  "; color: var(--muted); }
+.facts-money li::before { content: "₵  "; color: var(--muted); }
+
+@media (max-width: 720px) {
+  .row {
+    grid-template-columns: 1fr 6rem 9rem 1.5rem;
+    gap: 0.4rem;
+  }
+}
+
 @media (max-width: 540px) {
   .row {
-    grid-template-columns: 1fr 7rem 1.5rem;
+    grid-template-columns: 1fr 1fr;
+  }
+  .row .country-input {
+    grid-column: 1 / -1;
+  }
+  .row .remove {
+    grid-column: 2;
+    justify-self: end;
   }
   .facts li {
     font-size: 1.05rem;
