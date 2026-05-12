@@ -13,6 +13,7 @@ type Props = {
   lat: number;
   lon: number;
   cityName: string;
+  svgRef?: React.Ref<SVGSVGElement>;
 };
 
 const SVG_SIZE = 320;
@@ -98,7 +99,7 @@ function moonPhaseLabel(angle: number): string {
   return "waning crescent";
 }
 
-export default function SkyMap({ birthDate, lat, lon, cityName }: Props) {
+export default function SkyMap({ birthDate, lat, lon, cityName, svgRef }: Props) {
   const { stars, planets, sun, moon, moonPhaseText, viewTimeLocal } = useMemo(() => {
     const time = localNightUTC(birthDate, lon);
     const observer = new Observer(lat, lon, 0);
@@ -154,7 +155,10 @@ export default function SkyMap({ birthDate, lat, lon, cityName }: Props) {
   return (
     <figure className="sky-map">
       <svg
+        ref={svgRef}
         viewBox={`0 0 ${SVG_SIZE} ${SVG_SIZE}`}
+        width={SVG_SIZE}
+        height={SVG_SIZE}
         xmlns="http://www.w3.org/2000/svg"
         role="img"
         aria-label={`Night sky over ${cityName} on ${dateStr} at local ${viewTimeLocal}`}

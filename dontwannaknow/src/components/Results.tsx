@@ -1,14 +1,18 @@
-import { useState } from "react";
-import type { PersonReport, Fact } from "../lib/facts";
+import { useRef, useState } from "react";
+import type { Person, PersonReport, Fact } from "../lib/facts";
 import { pairReport } from "../lib/facts";
 import WorldMap from "./WorldMap";
 import SkyMap from "./SkyMap";
 import LifeGrid from "./LifeGrid";
+import Newspaper from "./Newspaper";
 import { CITY_COORDS } from "../data/cityCoords";
 import { lifeExpectancyFor } from "../data/lifeExpectancy";
+import { buildShareUrl } from "../lib/share";
+import { generatePdf } from "../lib/pdf";
 
 type Props = {
   reports: PersonReport[];
+  people: Person[];
   onReset: () => void;
   onRegenerate: () => void;
 };
@@ -42,14 +46,40 @@ function groupByCategory(facts: Fact[]) {
 
 type ViewMode = "essay" | "facts";
 
-export default function Results({ reports, onReset, onRegenerate }: Props) {
+export default function Results({ reports, people, onReset, onRegenerate }: Props) {
   const [view, setView] = useState<ViewMode>("essay");
+  const [shareState, setShareState] = useState<"idle" | "copied">("idle");
+  const skyRefs = useRef<Map<number, SVGSVGElement | null>>(new Map());
 
   // Build pair comparison when 2+ people are submitted.
   const pair =
     reports.length >= 2
       ? pairReport(reports[0].person, reports[1].person)
       : null;
+
+  const handleShare = async () => {
+    const url = buildShareUrl(people);
+    try {
+      await navigator.clipboard.writeText(url);
+      setShareState("copied");
+      setTimeout(() => setShareState("idle"), 1800);
+    } catch {
+      // Fallback: stick it in the URL bar.
+      window.history.replaceState(null, "", `#d=${url.split("#d=")[1]}`);
+      setShareState("copied");
+      setTimeout(() => setShareState("idle"), 1800);
+    }
+  };
+
+  const handleDownload = async (i: number, report: PersonReport) => {
+    const svg = skyRefs.current.get(i) ?? null;
+    try {
+      await generatePdf(report, svg);
+    } catch (err) {
+      console.error("PDF generation failed:", err);
+      alert("Sorry — PDF generation failed. Try again, or check the console.");
+    }
+  };
 
   return (
     <div className="results">
@@ -79,11 +109,15 @@ export default function Results({ reports, onReset, onRegenerate }: Props) {
           <button className="secondary" type="button" onClick={onRegenerate}>
             ↻ Shuffle
           </button>
+          <button className="secondary" type="button" onClick={handleShare}>
+            {shareState === "copied" ? "✓ Link copied" : "⇪ Share"}
+          </button>
           <button className="secondary" type="button" onClick={onReset}>
             Start over
           </button>
         </div>
       </div>
+
       {pair && view === "essay" && (
         <article className="person-card pair-card">
           <header className="person-header">
@@ -103,22 +137,37 @@ export default function Results({ reports, onReset, onRegenerate }: Props) {
         </article>
       )}
 
-      {reports.map((r) => {
+      {reports.map((r, i) => {
         const grouped = groupByCategory(r.facts);
         return (
           <article
-            key={`${r.person.label}-${r.person.birthYear}-${r.person.country}-${r.person.citySlug ?? "x"}`}
+            key={`${r.person.label}-${r.person.birthYear}-${r.person.country}-${r.person.citySlug ?? "x"}-${i}`}
             className="person-card"
           >
             <header className="person-header">
-              <h3>{r.person.label}</h3>
-              <p className="person-sub">
-                Born {r.person.birthYear} in{" "}
-                {r.cityLabel ? `${r.cityLabel}, ${r.countryLabel}` : r.countryLabel}
-                {" · "}
-                {r.ageNow} years on this planet
-              </p>
+              <div className="person-header-row">
+                <div>
+                  <h3>{r.person.label}</h3>
+                  <p className="person-sub">
+                    Born {r.person.birthYear} in{" "}
+                    {r.cityLabel ? `${r.cityLabel}, ${r.countryLabel}` : r.countryLabel}
+                    {" · "}
+                    {r.ageNow} years on this planet
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  className="secondary download-btn"
+                  onClick={() => handleDownload(i, r)}
+                  aria-label={`Download a PDF for ${r.person.label}`}
+                >
+                  ↓ PDF
+                </button>
+              </div>
             </header>
+
+            <Newspaper person={r.person} />
+
             <WorldMap birthYear={r.person.birthYear} />
 
             <LifeGrid
@@ -127,27 +176,36 @@ export default function Results({ reports, onReset, onRegenerate }: Props) {
               label={r.person.label}
             />
 
-            {r.person.birthMonth && r.person.birthDay && r.person.citySlug && CITY_COORDS[r.person.citySlug] && (() => {
-              const [lat, lon] = CITY_COORDS[r.person.citySlug];
-              const date = new Date(Date.UTC(
-                r.person.birthYear,
-                r.person.birthMonth - 1,
-                r.person.birthDay,
-              ));
-              return (
-                <SkyMap
-                  birthDate={date}
-                  lat={lat}
-                  lon={lon}
-                  cityName={r.cityLabel ?? r.countryLabel}
-                />
-              );
-            })()}
+            {r.person.birthMonth &&
+              r.person.birthDay &&
+              r.person.citySlug &&
+              CITY_COORDS[r.person.citySlug] &&
+              (() => {
+                const [lat, lon] = CITY_COORDS[r.person.citySlug];
+                const date = new Date(
+                  Date.UTC(
+                    r.person.birthYear,
+                    r.person.birthMonth - 1,
+                    r.person.birthDay,
+                  ),
+                );
+                return (
+                  <SkyMap
+                    birthDate={date}
+                    lat={lat}
+                    lon={lon}
+                    cityName={r.cityLabel ?? r.countryLabel}
+                    svgRef={(el) => {
+                      skyRefs.current.set(i, el);
+                    }}
+                  />
+                );
+              })()}
 
             {view === "essay" && (
               <div className="essay">
-                {r.essay.map((p, i) => (
-                  <section key={i} className="essay-paragraph">
+                {r.essay.map((p, j) => (
+                  <section key={j} className="essay-paragraph">
                     <h4>{p.heading}</h4>
                     <p>{p.text}</p>
                   </section>
@@ -166,8 +224,8 @@ export default function Results({ reports, onReset, onRegenerate }: Props) {
                       {tone && <span className="tone"> · {tone}</span>}
                     </h4>
                     <ul>
-                      {items.map((t, i) => (
-                        <li key={i}>{t}</li>
+                      {items.map((t, k) => (
+                        <li key={k}>{t}</li>
                       ))}
                     </ul>
                   </section>
@@ -178,7 +236,9 @@ export default function Results({ reports, onReset, onRegenerate }: Props) {
       })}
       <p className="disclaimer">
         Texture and numbers are rounded historical averages from public
-        datasets and standard histories. Hit "Shuffle" to re-roll the mix.
+        datasets and standard histories. Hit "Shuffle" to re-roll the mix,
+        "Share" to copy a link to this exact report, or "↓ PDF" to download
+        each person's full essay as a printable booklet.
       </p>
     </div>
   );

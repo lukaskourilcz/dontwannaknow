@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import PersonForm from "./components/PersonForm";
 import Results from "./components/Results";
 import { reportFor, type Person, type PersonReport } from "./lib/facts";
+import { decodePeopleUrl } from "./lib/share";
 import "./styles.css";
 
 export default function App() {
@@ -11,6 +12,19 @@ export default function App() {
   const generate = (list: Person[]) => {
     setReports(list.map(reportFor));
   };
+
+  // On first load, see if there's a shareable URL hash and use it.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const hash = window.location.hash;
+    const match = hash.match(/[#&]d=([A-Za-z0-9_-]+)/);
+    if (!match) return;
+    const decoded = decodePeopleUrl(match[1]);
+    if (decoded && decoded.length > 0) {
+      setPeople(decoded);
+      generate(decoded);
+    }
+  }, []);
 
   const handleSubmit = (list: Person[]) => {
     setPeople(list);
@@ -25,6 +39,9 @@ export default function App() {
   const handleReset = () => {
     setPeople(null);
     setReports(null);
+    if (typeof window !== "undefined" && window.location.hash) {
+      window.history.replaceState(null, "", window.location.pathname);
+    }
   };
 
   return (
@@ -41,9 +58,10 @@ export default function App() {
 
       <main>
         {!reports && <PersonForm onSubmit={handleSubmit} />}
-        {reports && (
+        {reports && people && (
           <Results
             reports={reports}
+            people={people}
             onReset={handleReset}
             onRegenerate={handleRegenerate}
           />

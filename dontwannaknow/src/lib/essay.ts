@@ -17,6 +17,7 @@ import { birthsAround } from "../data/famousBirths";
 import { lifeMathFor, lifeExpectancyFor } from "../data/lifeExpectancy";
 import { zodiacFor } from "../data/zodiac";
 import { namesFor } from "../data/babyNames";
+import { cosmicEventsIn } from "../data/cosmicEvents";
 
 export type EssayParagraph = {
   heading: string;
@@ -299,6 +300,17 @@ export function buildEssay(person: Person): EssayParagraph[] {
   }
   if (cultureBits.length > 0) {
     out.push({ heading: "What they grew up to", text: cultureBits.join(" ") });
+  }
+
+  // ── Cosmic neighbours (eclipses, comets, supernovae in their lifetime) ─
+  const cosmic = cosmicEventsIn(birthYear, CURRENT_YEAR);
+  if (cosmic.length > 0) {
+    const picks = pickN(cosmic, Math.min(4, cosmic.length)).sort((a, b) => a.year - b.year);
+    const lines = picks.map((c) => `In ${c.year}, ${c.text}`);
+    out.push({
+      heading: "What the sky did while they were here",
+      text: lines.join(". ") + ".",
+    });
   }
 
   // ── Time-capsule prompt (closer) ─────────────────────────────────
