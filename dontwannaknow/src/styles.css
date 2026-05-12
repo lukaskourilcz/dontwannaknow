@@ -1230,3 +1230,192 @@ button:active {
     font-size: 1.05rem;
   }
 }
+
+/* ─────────────────────────────────────────────────────────────────
+   Error boundary
+   ───────────────────────────────────────────────────────────────── */
+
+.error-boundary {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--s-5);
+}
+
+.error-boundary-inner {
+  max-width: 32rem;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-lg);
+  padding: var(--s-6);
+  box-shadow: var(--shadow-md);
+  text-align: left;
+}
+
+.error-boundary-inner h2 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  margin: 0 0 var(--s-4);
+  letter-spacing: -0.02em;
+}
+
+.error-boundary-msg {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 0 0 var(--s-4);
+}
+
+.error-boundary-details {
+  margin: var(--s-3) 0 var(--s-5);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.error-boundary-details summary {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.error-boundary-details pre {
+  margin-top: var(--s-2);
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  background: var(--surface-warm);
+  padding: var(--s-3);
+  border-radius: var(--r-sm);
+  overflow-x: auto;
+}
+
+.error-boundary-actions {
+  display: flex;
+  gap: var(--s-3);
+  flex-wrap: wrap;
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   Print
+   ───────────────────────────────────────────────────────────────── */
+
+@media print {
+  :root {
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --surface-warm: #ffffff;
+    --shadow-sm: none;
+    --shadow-md: none;
+    --shadow-lg: none;
+  }
+  body { background: #ffffff; }
+  body::before, body::after { display: none !important; }
+
+  .lang-bar,
+  .results-header,
+  .download-btn,
+  .form-actions,
+  .wizard-back,
+  .wizard-progress,
+  .person-form,
+  .wizard,
+  button {
+    display: none !important;
+  }
+
+  .person-card {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 1.5cm;
+    padding: 0;
+    background: #ffffff;
+  }
+
+  .person-card::before { display: none; }
+
+  .hero-summary,
+  .section-divider,
+  .essay-paragraph {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .essay-paragraph p,
+  .facts li {
+    color: #15130f;
+  }
+
+  .hero-stat,
+  .hero-stat.accent {
+    background: #ffffff;
+    border: 1px solid #999;
+  }
+
+  /* Avoid hairline blur on print */
+  .section-divider-line {
+    background: #999;
+  }
+
+  /* Big serif headings */
+  .person-header h3,
+  .essay-paragraph h4,
+  .hero-stat-value {
+    color: #000;
+  }
+
+  a { text-decoration: none; color: inherit; }
+
+  /* Hide all the interactive SVG maps and keep only the still ones */
+  .sky-map {
+    page-break-inside: avoid;
+  }
+
+  /* Page footer with URL */
+  @page {
+    margin: 1.5cm;
+    @bottom-right {
+      content: "dontwannaknow.cz · " counter(page);
+      font-family: serif;
+      font-size: 9pt;
+      color: #999;
+    }
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   Mobile polish — make sure the new hero summary collapses well
+   ───────────────────────────────────────────────────────────────── */
+
+@media (max-width: 540px) {
+  .hero-summary {
+    grid-template-columns: 1fr;
+  }
+  .hero-stat {
+    padding: var(--s-4);
+  }
+  .hero-stat-value {
+    font-size: 1.8rem;
+  }
+  .person-header-row {
+    flex-direction: column;
+    gap: var(--s-3);
+  }
+  .person-header-row .download-btn {
+    align-self: flex-start;
+  }
+  .results-header {
+    padding: var(--s-3) var(--s-4);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .results-actions {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .section-divider {
+    margin: var(--s-5) 0 var(--s-3);
+  }
+}
