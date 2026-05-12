@@ -8,7 +8,7 @@ type Props = {
   onSubmit: (people: Person[]) => void;
 };
 
-const COUNTRY_ORDER: Country[] = ["CZ", "US", "ES", "UA", "INTL"];
+const COUNTRY_ORDER: Country[] = ["CZ", "US", "ES", "UA", "CA", "MX", "INTL"];
 
 type ParsedDate = { year: number; month?: number; day?: number };
 
