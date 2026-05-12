@@ -5,13 +5,15 @@
 //
 // Each entry is one sentence so we can shuffle them freely.
 
-export type Country = "CZ" | "ES" | "US" | "UA" | "INTL";
+export type Country = "CZ" | "ES" | "US" | "UA" | "CA" | "MX" | "INTL";
 
 export const COUNTRY_LABELS: Record<Country, string> = {
   CZ: "Czechia / Czechoslovakia",
   ES: "Spain",
   US: "United States",
   UA: "Ukraine / Ukrainian SSR",
+  CA: "Canada",
+  MX: "Mexico",
   INTL: "Anywhere (global facts only)",
 };
 
@@ -1028,6 +1030,502 @@ export const COUNTRY_DECADES: CountryDecade[] = [
     beautiful: [
       "Dynamo Kyiv won the Cup Winners' Cup in 1975 — the first Soviet club to win a European trophy.",
       "Ukrainian singer Sofia Rotaru became one of the biggest stars in the Soviet bloc.",
+    ],
+  },
+
+  // ───────────────────────────── Canada ────────────────────────────────
+  {
+    country: "CA", decadeStart: 1920,
+    government: [
+      "Mackenzie King's Liberals dominated federal politics for most of the decade.",
+      "Canada signed the 1923 Halibut Treaty alone — its first independent foreign-affairs act.",
+      "The Statute of Westminster was still a few years off; the British Privy Council was the final court of appeal.",
+    ],
+    clothes: [
+      "Flapper dresses, cloche hats and bobbed hair appeared in Toronto and Montreal.",
+      "Lumberjack plaid and Mackinaw coats remained everyday wear in the bush and prairie towns.",
+      "Eaton's mail-order catalogue dressed half the country, especially out west.",
+    ],
+    illnesses: [
+      "Frederick Banting and Charles Best isolated insulin in Toronto in 1921, transforming diabetes.",
+      "Tuberculosis sanatoriums in the Laurentians and the Rockies filled with patients.",
+      "The 1918 flu had killed more Canadians than the Great War — every village had its dead.",
+    ],
+    dailyLife: [
+      "The Group of Seven painted the Canadian Shield and Algonquin Park into the national imagination.",
+      "Sunday meant church and a roast; Saturday meant hockey on frozen ponds.",
+      "L. M. Montgomery's Anne of Green Gables sequels were the country's most read books.",
+    ],
+    food: [
+      "Tea, white bread and butter were the prairie meal; pork and beans on the lumber camps.",
+      "Sunday roast beef with Yorkshire pudding remained the urban Anglo-Canadian default.",
+      "Tourtière pies and pea soup defined Québécois winter kitchens.",
+    ],
+    money: [
+      "The average Canadian factory wage was about $1,100 a year.",
+      "Wheat prices boomed mid-decade; the Prairies built grain elevators in every village.",
+      "A Model T cost about $395 in 1924 and a brand-new house under $4,000.",
+    ],
+    bizarre: [
+      "Prohibition ended in most provinces by 1924 — but Canada kept exporting whisky to thirsty Americans.",
+      "The Bluenose schooner, launched in 1921 in Nova Scotia, swept international fishing races.",
+    ],
+    beautiful: [
+      "Banting and Macleod won the 1923 Nobel Prize in Medicine for insulin.",
+      "Emily Carr was painting the rainforests of the Pacific coast in Victoria.",
+    ],
+  },
+  {
+    country: "CA", decadeStart: 1930,
+    government: [
+      "R. B. Bennett's Conservatives ruled until 1935; Mackenzie King returned in October.",
+      "The Statute of Westminster in 1931 gave Canada legislative independence.",
+      "Quebec's Premier Maurice Duplessis took office in 1936 with the new Union Nationale.",
+    ],
+    clothes: [
+      "Made-over clothing, flour-sack dresses and patched men's suits were the prairie norm.",
+      "Slick city men still wore fedoras and double-breasted suits to the office.",
+      "RCMP red serge remained the most photographed uniform in Canada.",
+    ],
+    illnesses: [
+      "Polio outbreaks swept eastern Canada each summer in the late 30s.",
+      "Tuberculosis hit Indigenous and Inuit communities catastrophically.",
+      "Diphtheria toxoid vaccination drives reached most provincial schools by 1932.",
+    ],
+    dailyLife: [
+      "Prairie 'Dust Bowl' years drove families east to relief camps and Bennett buggies — cars towed by horses to save fuel.",
+      "Foster Hewitt called the Saturday Night Hockey games on CBC radio from Maple Leaf Gardens.",
+      "The On-to-Ottawa Trek of 1935 ended in the Regina Riot.",
+    ],
+    food: [
+      "Relief rations were potatoes, beans and bread; tea with milk and sugar got people through.",
+      "Bannock and dried meat sustained northern and Indigenous communities.",
+      "Quebec's pâté chinois and tourtière reigned in working-class neighbourhoods.",
+    ],
+    money: [
+      "Unemployment hit 30% at the low point of the Depression in 1933.",
+      "Wheat fell to under 40¢ a bushel from over $2 in the 1920s.",
+      "Relief payments averaged $20–25 a month for a family of five.",
+    ],
+    bizarre: [
+      "The Dionne quintuplets were born in Callander, Ontario, in 1934 and put on public display.",
+      "Premier Aberhart's Social Credit Alberta tried to print 'Prosperity Certificates' as money.",
+    ],
+    beautiful: [
+      "The CCF (later NDP) was founded in Regina in 1933 with the Regina Manifesto.",
+      "Glenn Gould was born in Toronto in 1932; Joni Mitchell, Leonard Cohen and Pierre Berton were already small children somewhere in the country.",
+    ],
+  },
+  {
+    country: "CA", decadeStart: 1940,
+    government: [
+      "Canada declared war on Germany on 10 September 1939 — independently, a week after Britain.",
+      "The 1942 plebiscite on conscription split English and French Canada bitterly.",
+      "Louis St. Laurent succeeded Mackenzie King in 1948.",
+    ],
+    clothes: [
+      "Wartime ration coupons covered shoes and clothing; women painted seams up the backs of their legs.",
+      "RCAF blue and army khaki were everywhere in the cities.",
+      "Postwar 'New Look' dresses arrived from Paris and Montreal couture houses.",
+    ],
+    illnesses: [
+      "Penicillin reached Canadian field hospitals by 1944 and transformed wartime medicine.",
+      "Polio epidemics worsened, peaking in 1953.",
+      "Iron lungs were a familiar sight in pediatric wards.",
+    ],
+    dailyLife: [
+      "Halifax was the Atlantic convoy port; tens of thousands of soldiers and sailors moved through.",
+      "Japanese Canadians on the BC coast were interned and dispossessed in 1942.",
+      "The CBC's Saturday Night Hockey reached every home with a radio.",
+    ],
+    food: [
+      "Butter, sugar, tea, coffee and meat were all rationed; victory gardens grew in backyards.",
+      "Spam, bully beef, and powdered milk were wartime staples.",
+      "Postwar, Kraft Dinner (launched 1937) became the student's stove staple.",
+    ],
+    money: [
+      "Average annual wage rose from $1,300 (1940) to about $2,600 by 1950.",
+      "Victory Bonds raised billions across nine campaigns.",
+      "The first family allowance ('baby bonus') went out in 1945 — $5–8 a month per child.",
+    ],
+    bizarre: [
+      "The 1947 Leduc oil strike in Alberta turned the Prairies into oil country overnight.",
+      "Canada was one of three countries to invade Normandy on D-Day, taking Juno Beach.",
+    ],
+    beautiful: [
+      "Canadian troops liberated much of the Netherlands in spring 1945 — and the Dutch royal family sent tulips every year afterwards.",
+      "The CBC launched its national network in 1944.",
+    ],
+  },
+  {
+    country: "CA", decadeStart: 1950,
+    government: [
+      "Louis St. Laurent (1948-57) then John Diefenbaker (1957-63) led Canada through the early Cold War.",
+      "The Avro Arrow CF-105 first flew in 1958 — and was cancelled in 1959.",
+      "Newfoundland joined Confederation in 1949 as Canada's 10th province.",
+    ],
+    clothes: [
+      "Crinolines, poodle skirts and pillbox hats arrived from American TV shows.",
+      "Men wore grey flannel suits and felt hats to the office in the new postwar suburbs.",
+      "Teenagers in Don Mills and the new ring suburbs adopted blue jeans and white T-shirts.",
+    ],
+    illnesses: [
+      "Salk's polio vaccine reached Canadian schoolchildren by 1955.",
+      "Saskatchewan introduced North America's first universal hospital insurance in 1947 — copied across Canada in the 1950s.",
+      "Tuberculosis hospitals in the North remained full of Indigenous patients.",
+    ],
+    dailyLife: [
+      "Tim Hortons hadn't been invented yet but Hot Stove League hockey talk dominated Saturday nights.",
+      "The St. Lawrence Seaway opened in 1959, bringing ocean shipping to the Great Lakes.",
+      "CBC Television began regular broadcasts in 1952; The Plouffe Family was the bilingual hit.",
+    ],
+    food: [
+      "Jell-O salads, butter tarts and Nanaimo bars dominated the church-basement potluck.",
+      "First Canadian fast food was the A&W root beer drive-in.",
+      "Five Roses flour from Quebec and Carnation evaporated milk were every cupboard's staples.",
+    ],
+    money: [
+      "Average wage hit $3,200 in 1950 and $5,300 by 1960.",
+      "A Chevy in 1955 went for about $2,200.",
+      "Tim Horton was still playing for the Maple Leafs.",
+    ],
+    bizarre: [
+      "Frank Schuster and Johnny Wayne (Wayne and Shuster) became regular guests on Ed Sullivan.",
+      "The CN Tower wasn't yet built, but Toronto's Bank of Commerce was the tallest in the Commonwealth.",
+    ],
+    beautiful: [
+      "Lester Pearson won the 1957 Nobel Peace Prize for creating UN peacekeeping.",
+      "Glenn Gould's 1955 Goldberg Variations recording made him a global star.",
+    ],
+  },
+  {
+    country: "CA", decadeStart: 1960,
+    government: [
+      "Lester Pearson's minority Liberals (1963-68) brought in medicare, the maple-leaf flag and the CPP.",
+      "Pierre Trudeau took over in 1968 with full Trudeaumania.",
+      "The Front de Libération du Québec began bombing mailboxes in 1963.",
+    ],
+    clothes: [
+      "Miniskirts, bell-bottoms and beads arrived in Yorkville and the Plateau.",
+      "RCMP red serge featured at Expo 67 and on every souvenir postcard.",
+      "Canadian Tire's plaid-clad mascot and red-cap toques were ubiquitous.",
+    ],
+    illnesses: [
+      "Saskatchewan's medicare battle (1962 doctors' strike) led to national medicare by 1968.",
+      "Thalidomide victims born in the early 60s became a lifelong public reminder.",
+      "The first lung-cancer warnings on cigarette packs were debated through the decade.",
+    ],
+    dailyLife: [
+      "Expo 67 brought the world to Montreal — 50 million visitors in six months.",
+      "The maple-leaf flag was adopted on 15 February 1965, replacing the Red Ensign.",
+      "Hockey Night in Canada in colour from 1966; The Forum, Maple Leaf Gardens and the Old Pacific Coliseum were the Saturday cathedrals.",
+    ],
+    food: [
+      "Poutine emerged from Drummondville and other Quebec roadside chip stands in the late 50s and early 60s.",
+      "Habitat 67 chefs in Montreal introduced French cuisine to the suburbs.",
+      "Tim Hortons opened its first store in Hamilton in 1964.",
+    ],
+    money: [
+      "Average annual wage grew from $5,600 to $9,000 across the decade.",
+      "The Trans-Canada Highway opened in 1962.",
+      "A new Mustang in 1965 cost about $2,400 in Canada.",
+    ],
+    bizarre: [
+      "Trudeau famously remarked 'the state has no business in the bedrooms of the nation' in 1967.",
+      "The Beatles played Maple Leaf Gardens in 1964 — twice in one day.",
+    ],
+    beautiful: [
+      "Centennial Year 1967 was a national love-in: Expo, the train, Bobby Gimby's 'Ca-na-da' song.",
+      "Joni Mitchell, Neil Young, Leonard Cohen, Gordon Lightfoot, Robbie Robertson — Canadian songwriters conquered the continent.",
+    ],
+  },
+  {
+    country: "CA", decadeStart: 1970,
+    government: [
+      "Pierre Trudeau ruled almost the entire decade with a brief Joe Clark interlude in 1979.",
+      "The October Crisis of 1970 saw the War Measures Act invoked after the FLQ kidnappings.",
+      "The Parti Québécois won Quebec in 1976 under René Lévesque.",
+    ],
+    clothes: [
+      "Polyester everything; flared jeans, platform shoes and disco glitter at Toronto's Studio 54-style clubs.",
+      "Down vests, lumberjack shirts and Cowichan sweaters defined west-coast cool.",
+      "The 'Trudeau scarf' — long, flowing — was imitated by men across the country.",
+    ],
+    illnesses: [
+      "Medicare expanded to cover every province by 1972.",
+      "Smoking declined sharply after the Surgeon General-style warnings.",
+      "Alcohol drinking ages were lowered to 18 or 19 in most provinces.",
+    ],
+    dailyLife: [
+      "Henderson scored — Paul Henderson's goal won the 1972 Summit Series against the Soviets.",
+      "Montreal hosted the 1976 Summer Olympics — over budget, over time.",
+      "The CN Tower opened in 1976, the world's tallest free-standing structure for 30 years.",
+    ],
+    food: [
+      "President's Choice and Loblaws began the modern grocery wars in the late 70s.",
+      "BeaverTails were invented in Killaloe, Ontario in 1978.",
+      "Habitant pea soup and Vachon cakes from Quebec went national.",
+    ],
+    money: [
+      "Average wage hit $14,000 by 1980; inflation around 11% squeezed budgets.",
+      "Petro-Canada was created in 1975 as the state oil company.",
+      "Mortgage rates approached 20% by the end of the decade.",
+    ],
+    bizarre: [
+      "Terry Fox started his Marathon of Hope in St. John's on 12 April 1980.",
+      "The Anik A satellites in 1972 made Canada the first nation with domestic satellite TV.",
+    ],
+    beautiful: [
+      "Wayne Gretzky played his first NHL season with the Edmonton Oilers in 1979-80.",
+      "Margaret Atwood's Surfacing and The Handmaid's Tale ideas were brewing; Robertson Davies's Deptford Trilogy was finishing up.",
+    ],
+  },
+
+  // ───────────────────────────── Mexico ────────────────────────────────
+  {
+    country: "MX", decadeStart: 1920,
+    government: [
+      "Álvaro Obregón consolidated the Revolution's gains as president from 1920.",
+      "Plutarco Elías Calles ruled from 1924 and ignited the Cristero War in 1926.",
+      "Obregón was assassinated in 1928 right after winning a second term.",
+    ],
+    clothes: [
+      "Charro suits, sombreros and china poblana dresses became national symbols.",
+      "Urban women in Mexico City adopted Parisian flapper styles.",
+      "Indigenous huipiles and rebozos remained everyday wear across the south.",
+    ],
+    illnesses: [
+      "The 1918 flu had killed an estimated 400,000 Mexicans.",
+      "Malaria, hookworm and tuberculosis were endemic in the countryside.",
+      "Tequila and pulque were doctors' prescriptions for everything from cholera to childbirth.",
+    ],
+    dailyLife: [
+      "Diego Rivera and Orozco painted the new public murals on the walls of the Secretaría de Educación.",
+      "Trams clanged through Mexico City; the Zócalo hosted nightly band concerts.",
+      "Frida Kahlo was a teenager riding the new buses to school when one of them collided with a tram in 1925.",
+    ],
+    food: [
+      "Tacos al pastor were still decades away; corn tortillas, beans, chile and pulque defined the rural meal.",
+      "Cantinas in Mexico City served tequila and botanas while women sat in the women-only side.",
+      "Pan dulce filled the panaderías every afternoon.",
+    ],
+    money: [
+      "Average urban wage was around 1.50 pesos a day.",
+      "The peso traded at about 2 to the US dollar through most of the decade.",
+      "Land redistribution under the new ejido system gave villagers communal title.",
+    ],
+    bizarre: [
+      "The Cristero War (1926-29) saw Catholic peasants fight a war against the secular state across central Mexico.",
+      "Pancho Villa was assassinated in his car in Hidalgo del Parral in July 1923.",
+    ],
+    beautiful: [
+      "José Vasconcelos's massive literacy campaign reached the countryside.",
+      "Mexican muralism — Rivera, Orozco, Siqueiros — became the world's first state-sponsored modern public art.",
+    ],
+  },
+  {
+    country: "MX", decadeStart: 1930,
+    government: [
+      "Calles ran Mexico from behind the scenes as the Jefe Máximo through the early 30s.",
+      "Lázaro Cárdenas took office in 1934 and broke with Calles, redistributing land and nationalising oil in 1938.",
+      "The PRM (later PRI) was founded in 1938 and would rule until 2000.",
+    ],
+    clothes: [
+      "Cárdenas wore work shirts and refused to live in Chapultepec Castle.",
+      "Frida Kahlo invented her now-iconic Tehuana style of long skirts and braided hair.",
+      "Charreada dressage outfits became formal wear for rural elites.",
+    ],
+    illnesses: [
+      "Mass smallpox vaccination drives reached most of the country.",
+      "The first national clinics were established by the new Secretariat of Public Assistance.",
+      "Malaria remained the great killer of the tropical lowlands.",
+    ],
+    dailyLife: [
+      "Trotsky lived in the Casa Azul in Coyoacán from 1937 until his murder in 1940.",
+      "Rivera and Frida moved between Detroit, New York and Mexico City; their San Ángel double-house opened in 1932.",
+      "Cantinflas debuted in carpa tent theatres in Tacuba in 1936.",
+    ],
+    food: [
+      "Pulque was at the height of its popularity; pulquerías filled every working-class barrio.",
+      "Corn-tortilla mills (molinos de nixtamal) industrialised the staple in the 30s.",
+      "Mole poblano, chiles en nogada and pozole anchored the national table.",
+    ],
+    money: [
+      "Cárdenas's oil expropriation in March 1938 created PEMEX and unified the nation.",
+      "The peso stabilised around 3.50 to the dollar by decade's end.",
+      "Land reform redistributed about 18 million hectares to communal ejidos.",
+    ],
+    bizarre: [
+      "Mexico took in tens of thousands of Spanish Civil War refugees from 1937 onward — the 'Niños de Morelia' alone numbered 456.",
+      "Cárdenas hosted Leon Trotsky in 1937 over Stalin's furious protests.",
+    ],
+    beautiful: [
+      "Mexico City became the cultural capital of Latin America, the 'Spanish exile' generation flourishing in publishing and academia.",
+      "The Ballet Folklórico de México began assembling its first regional dance repertoire.",
+    ],
+  },
+  {
+    country: "MX", decadeStart: 1940,
+    government: [
+      "Manuel Ávila Camacho (1940-46) and Miguel Alemán (1946-52) led the country into the 'Mexican Miracle'.",
+      "The PRI consolidated its one-party hold on every level of government.",
+      "Mexico declared war on the Axis in 1942 after German U-boats sank Mexican tankers.",
+    ],
+    clothes: [
+      "Postwar Mexico City women adopted New Look full skirts and tight waists from Paris.",
+      "Mariachi charro suits with silver-buttoned trousers became the national costume on screen.",
+      "Pachuco zoot-suit style from the US border barrios drew working-class youth.",
+    ],
+    illnesses: [
+      "The new IMSS social-security medical system was founded in 1943.",
+      "DDT spraying knocked back malaria across the lowlands by the late 40s.",
+      "Infant mortality remained near 100 per 1,000 live births.",
+    ],
+    dailyLife: [
+      "The Bracero Program from 1942 sent millions of Mexican farm workers north to US fields.",
+      "The 'Golden Age' of Mexican cinema (Cantinflas, Pedro Infante, María Félix, Jorge Negrete) dominated all of Latin America.",
+      "Mexico City's UNAM and the new Ciudad Universitaria were planned through the decade.",
+    ],
+    food: [
+      "Bimbo bread launched in 1945, beginning the country's processed-food revolution.",
+      "Coca-Cola became the unofficial second national drink.",
+      "Tortillas were still made on the metate at home in most villages.",
+    ],
+    money: [
+      "Industrial output doubled between 1940 and 1950.",
+      "The peso was devalued from 4.85 to 8.65 to the dollar in 1948-49.",
+      "Average urban wage was around 6 pesos a day at the start of the decade.",
+    ],
+    bizarre: [
+      "Mexican Squadron 201 fought in the Philippines under US command in 1945.",
+      "Trotsky was assassinated with an ice axe in his Coyoacán study on 20 August 1940.",
+    ],
+    beautiful: [
+      "Diego Rivera and Frida Kahlo's marriage went through its tempestuous middle years; she kept painting through chronic pain.",
+      "Octavio Paz published El Laberinto de la Soledad in 1950, defining modern Mexican thought.",
+    ],
+  },
+  {
+    country: "MX", decadeStart: 1950,
+    government: [
+      "Adolfo Ruiz Cortines (1952-58) gave women the federal vote in 1953.",
+      "Adolfo López Mateos (1958-64) nationalised the electric industry in 1960.",
+      "The PRI machine ran every state legislature and the federal congress.",
+    ],
+    clothes: [
+      "Hollywood-style glamour for Mexico City women, with mantillas at Mass on Sundays.",
+      "Pedro Infante's mariachi charro suit became the male formal outfit on screen and in life.",
+      "Rural farmworkers wore white cotton shirts, pants and huaraches.",
+    ],
+    illnesses: [
+      "Polio vaccine drives reached most cities by the late 50s.",
+      "Cardiovascular disease replaced tuberculosis as the leading cause of urban death.",
+      "ISSSTE was founded in 1959 for government workers' health care.",
+    ],
+    dailyLife: [
+      "Pedro Infante died in a plane crash in 1957 — three days of national mourning followed.",
+      "TV broadcasts began with XHTV (1950) and grew into Telesistema Mexicano under Emilio Azcárraga.",
+      "Mexico hosted the 1955 Pan American Games at the new University Stadium.",
+    ],
+    food: [
+      "Sanborns 'Casa de los Azulejos' on Madero Street remained Mexico City's most famous café.",
+      "Pemex's gas stations brought Coca-Cola, chiclets and chicharrones to every highway.",
+      "Cuates and tortas grew in the streets while restaurants in Polanco served Spanish exiles' Catalan dishes.",
+    ],
+    money: [
+      "The peso was devalued again in 1954 from 8.65 to 12.50 to the dollar — and held there until 1976.",
+      "Industrial workers in Monterrey earned 2 pesos an hour; campesinos still survived on subsistence.",
+      "PEMEX gasoline cost about 0.40 pesos a litre.",
+    ],
+    bizarre: [
+      "Cantinflas became the highest-paid actor in the world in 1956 after Around the World in 80 Days.",
+      "Juan Rulfo published Pedro Páramo in 1955 — a 124-page novel that reshaped Spanish-language literature.",
+    ],
+    beautiful: [
+      "Frida Kahlo died in 1954; Diego Rivera in 1957.",
+      "Octavio Paz served in the Mexican diplomatic service and kept writing.",
+    ],
+  },
+  {
+    country: "MX", decadeStart: 1960,
+    government: [
+      "Gustavo Díaz Ordaz (1964-70) was responsible for the Tlatelolco massacre of 1968.",
+      "Luis Echeverría succeeded him in 1970 and pursued 'shared development'.",
+      "The PRI continued to win every presidential election by enormous margins.",
+    ],
+    clothes: [
+      "Miniskirts and beehive hair filled Mexico City clubs by 1965.",
+      "Ranchera singers in sequined charro suits filled Plaza Garibaldi.",
+      "Indigenous textiles from Oaxaca and Chiapas became fashionable in city boutiques.",
+    ],
+    illnesses: [
+      "Smallpox was officially eliminated by 1951 but vaccination drives continued.",
+      "Cardiovascular disease and diabetes climbed with urbanisation.",
+      "The new IMSS hospitals trained a generation of doctors.",
+    ],
+    dailyLife: [
+      "Mexico hosted the 1968 Summer Olympics — the first in Latin America.",
+      "Mexico hosted the 1970 FIFA World Cup; Pelé led Brazil to a third title at Estadio Azteca.",
+      "On 2 October 1968 the army opened fire on student protesters in Tlatelolco, killing hundreds.",
+    ],
+    food: [
+      "Tacos al pastor, perfected by Lebanese immigrants in Puebla, conquered Mexico City lunch carts.",
+      "Maggi seasoning became ubiquitous in middle-class kitchens.",
+      "The first Sanborns and VIPS chains spread across the country.",
+    ],
+    money: [
+      "GDP grew about 6.7% a year through most of the 1960s — the 'Mexican Miracle' continuing.",
+      "The peso held at 12.50 to the dollar through the entire decade.",
+      "Volkswagen opened the Puebla plant in 1967.",
+    ],
+    bizarre: [
+      "The 1968 Olympic 'Black Power' salute by Tommie Smith and John Carlos happened on the Mexico City medal podium.",
+      "Estadio Azteca, opened 1966, hosted two World Cup finals (1970 and 1986).",
+    ],
+    beautiful: [
+      "Carlos Fuentes published La muerte de Artemio Cruz (1962) and consolidated the Latin American 'Boom'.",
+      "Mariachi Vargas de Tecalitlán took the genre worldwide via film and radio.",
+    ],
+  },
+  {
+    country: "MX", decadeStart: 1970,
+    government: [
+      "Luis Echeverría (1970-76) presided over the 'Dirty War' against the left in Guerrero.",
+      "José López Portillo (1976-82) rode the oil boom and crashed it with the 1982 default.",
+      "The 1976 peso devaluation ended a 22-year fixed parity.",
+    ],
+    clothes: [
+      "Disco glitter and platform shoes filled Mexico City's Plaza Loreto and Insurgentes clubs.",
+      "Bell-bottoms, long hair and Indigenous embroidery defined a generation of university students.",
+      "Northern Mexican vaquero style — cowboy hats and tooled belts — held strong in Monterrey and Sinaloa.",
+    ],
+    illnesses: [
+      "Family-planning programs expanded sharply under Echeverría; fertility began to fall.",
+      "Pollution-related lung disease climbed in Mexico City's basin.",
+      "Diabetes overtook stroke as a leading cause of death by the end of the decade.",
+    ],
+    dailyLife: [
+      "Octavio Paz returned from his ambassadorship in India and edited the journal Plural.",
+      "Televisa was created by merger in 1973 and ran almost every Spanish-language broadcast in the Americas.",
+      "Mexico City hosted the 1970 World Cup final at the Azteca and the 1968 Olympics' lingering venues.",
+    ],
+    food: [
+      "Maíz Industrializado de la Conasupo (Maseca) commercial corn flour rolled out across the country.",
+      "Tortas, tacos al pastor, and quesadillas dominated street food.",
+      "Coca-Cola became Mexico's largest single soft-drink consumer per capita.",
+    ],
+    money: [
+      "Cantarell oil field came on-stream in 1979 — one of the largest in the world.",
+      "The peso went from 12.5 to 22 to the dollar in the 1976 devaluation.",
+      "Average urban wage was about 1,200 pesos a month in 1975.",
+    ],
+    bizarre: [
+      "The 'Halcones' paramilitaries massacred student protesters on Corpus Christi 1971 in Mexico City.",
+      "Mexico received the second-largest Chilean refugee community after the Allende coup in 1973.",
+    ],
+    beautiful: [
+      "Carlos Fuentes, Octavio Paz, Juan Rulfo, José Emilio Pacheco — Mexican letters were at a peak.",
+      "Mexico became the world's leader in oil production for several years on the strength of Cantarell.",
     ],
   },
 ];

@@ -286,6 +286,11 @@ button:active {
   box-shadow: var(--shadow);
 }
 
+.pair-card {
+  background: linear-gradient(180deg, #fbf6ec 0%, #f4ede1 100%);
+  border-color: var(--accent-soft);
+}
+
 .person-header {
   border-bottom: 1px solid var(--rule);
   padding-bottom: 0.9rem;

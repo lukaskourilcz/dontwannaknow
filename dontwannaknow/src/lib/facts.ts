@@ -13,6 +13,7 @@ import { famousFor } from "../data/famousPeople";
 import { eventsForCountry } from "../data/countryEvents";
 import { cityFactsFor, findCity } from "../data/cities";
 import { buildEssay, type EssayParagraph } from "./essay";
+import { buildPairEssay, type PairSection } from "./pair";
 
 export type Person = {
   label: string;
@@ -197,6 +198,10 @@ function countryFacts(person: Person): Fact[] {
 
 function capitalize(s: string): string {
   return s.length === 0 ? s : s[0].toUpperCase() + s.slice(1);
+}
+
+export function pairReport(a: Person, b: Person): PairSection[] {
+  return buildPairEssay(a, b);
 }
 
 export function reportFor(person: Person): PersonReport {

@@ -316,6 +316,160 @@ export const FAMOUS_PEOPLE: FamousByDecade[] = [
       { name: "Lina Kostenko", role: "poet", note: "barred from publishing for 16 years until 1977" },
     ],
   },
+
+  // ─────────────────────────── Canada ────────────────────────────
+  {
+    country: "CA", decadeStart: 1920, people: [
+      { name: "William Lyon Mackenzie King", role: "prime minister", note: "Liberal PM almost the entire interwar period" },
+      { name: "Frederick Banting", role: "scientist", note: "co-discovered insulin in Toronto, 1921" },
+      { name: "Lucy Maud Montgomery", role: "novelist", note: "kept writing Anne of Green Gables sequels and Emily of New Moon" },
+      { name: "Tom Thomson (legacy)", role: "painter", note: "his death in 1917 inspired the Group of Seven who formed officially in 1920" },
+      { name: "A. Y. Jackson", role: "painter", note: "core member of the Group of Seven painting the Shield" },
+      { name: "Stephen Leacock", role: "humorist", note: "Canada's most popular English-language writer at the time" },
+      { name: "Nellie McClung", role: "suffragette & writer", note: "led the campaign for women's vote and rights" },
+      { name: "Wilder Penfield", role: "neurosurgeon", note: "founded the Montreal Neurological Institute in 1934" },
+    ],
+  },
+  {
+    country: "CA", decadeStart: 1930, people: [
+      { name: "R. B. Bennett", role: "prime minister", note: "Conservative PM during the Depression" },
+      { name: "Mackenzie King", role: "prime minister", note: "returned in 1935 and led Canada through the war" },
+      { name: "Emily Carr", role: "painter / writer", note: "painted the BC coast forests; won Governor General's Award for prose 1941" },
+      { name: "Norman Bethune", role: "surgeon", note: "Communist doctor who served in Spain and Mao's China" },
+      { name: "Lucy Maud Montgomery", role: "novelist", note: "kept publishing through the decade; died 1942" },
+      { name: "Foster Hewitt", role: "broadcaster", note: "'He shoots, he scores' from Maple Leaf Gardens every Saturday" },
+      { name: "Frederick Banting", role: "scientist", note: "killed in a plane crash off Newfoundland in 1941" },
+      { name: "John Diefenbaker", role: "politician", note: "began his ascent as a Saskatchewan MP" },
+    ],
+  },
+  {
+    country: "CA", decadeStart: 1940, people: [
+      { name: "Mackenzie King", role: "prime minister", note: "led Canada through WWII" },
+      { name: "Louis St. Laurent", role: "prime minister", note: "took over from King in 1948" },
+      { name: "Maurice Richard", role: "hockey player", note: "first NHL 50-goals-in-50-games season, 1944-45" },
+      { name: "Glenn Gould", role: "pianist", note: "a child prodigy in Toronto" },
+      { name: "Hugh MacLennan", role: "novelist", note: "Two Solitudes (1945) defined English-French Canada" },
+      { name: "Northrop Frye", role: "literary critic", note: "Fearful Symmetry (1947)" },
+      { name: "Gabrielle Roy", role: "novelist", note: "Bonheur d'occasion (1945) — modern Quebec fiction" },
+      { name: "Tommy Douglas", role: "premier of Saskatchewan", note: "elected 1944, pioneering medicare" },
+    ],
+  },
+  {
+    country: "CA", decadeStart: 1950, people: [
+      { name: "Louis St. Laurent", role: "prime minister", note: "Liberal PM through most of the decade" },
+      { name: "John Diefenbaker", role: "prime minister", note: "won landslide 1958 election" },
+      { name: "Lester Pearson", role: "diplomat / politician", note: "Nobel Peace Prize 1957 for UN peacekeeping" },
+      { name: "Glenn Gould", role: "pianist", note: "1955 Goldberg Variations recording made him a global star" },
+      { name: "Marshall McLuhan", role: "media theorist", note: "The Mechanical Bride (1951)" },
+      { name: "Maurice Richard", role: "hockey player", note: "the 1955 Richard Riot in Montreal" },
+      { name: "Northrop Frye", role: "critic", note: "Anatomy of Criticism (1957)" },
+      { name: "Mordecai Richler", role: "novelist", note: "Son of a Smaller Hero (1955)" },
+    ],
+  },
+  {
+    country: "CA", decadeStart: 1960, people: [
+      { name: "Pierre Trudeau", role: "prime minister", note: "elected 1968 with Trudeaumania" },
+      { name: "Lester Pearson", role: "prime minister", note: "Liberal PM 1963-68; created medicare and the flag" },
+      { name: "Tommy Douglas", role: "NDP leader", note: "first federal NDP leader from 1961" },
+      { name: "Marshall McLuhan", role: "media theorist", note: "Understanding Media (1964)" },
+      { name: "Leonard Cohen", role: "songwriter / novelist", note: "Beautiful Losers (1966); first album 1967" },
+      { name: "Joni Mitchell", role: "singer-songwriter", note: "moved to LA but stayed Canadian to her core" },
+      { name: "Neil Young", role: "singer-songwriter", note: "in Buffalo Springfield then CSNY" },
+      { name: "Gordon Lightfoot", role: "singer-songwriter", note: "If You Could Read My Mind" },
+      { name: "Margaret Laurence", role: "novelist", note: "The Stone Angel (1964)" },
+      { name: "Bobby Orr", role: "hockey player", note: "Boston Bruins from 1966, redefining defense" },
+      { name: "Glenn Gould", role: "pianist", note: "famously retired from concert performance in 1964" },
+    ],
+  },
+  {
+    country: "CA", decadeStart: 1970, people: [
+      { name: "Pierre Trudeau", role: "prime minister", note: "ruled most of the decade, invoking the War Measures Act in 1970" },
+      { name: "René Lévesque", role: "Quebec premier", note: "Parti Québécois leader from founding; premier from 1976" },
+      { name: "Margaret Atwood", role: "novelist", note: "Surfacing (1972), Survival (1972)" },
+      { name: "Robertson Davies", role: "novelist", note: "Deptford Trilogy completed 1975" },
+      { name: "Northrop Frye", role: "critic", note: "the most cited critic in English at the time" },
+      { name: "Mordecai Richler", role: "novelist", note: "St. Urbain's Horseman (1971)" },
+      { name: "Leonard Cohen", role: "songwriter", note: "New Skin for the Old Ceremony (1974)" },
+      { name: "Joni Mitchell", role: "musician", note: "Court and Spark (1974), Hejira (1976)" },
+      { name: "Wayne Gretzky", role: "hockey player", note: "first NHL season with the Edmonton Oilers, 1979-80" },
+      { name: "Terry Fox", role: "athlete", note: "started his Marathon of Hope in St. John's, April 1980" },
+    ],
+  },
+
+  // ─────────────────────────── Mexico ────────────────────────────
+  {
+    country: "MX", decadeStart: 1920, people: [
+      { name: "Álvaro Obregón", role: "president", note: "consolidated the Revolution; assassinated in 1928" },
+      { name: "Plutarco Elías Calles", role: "president", note: "ignited the Cristero War in 1926" },
+      { name: "Diego Rivera", role: "muralist", note: "painted the Secretaría de Educación murals 1923-28" },
+      { name: "José Clemente Orozco", role: "muralist", note: "began the great mural cycles" },
+      { name: "David Alfaro Siqueiros", role: "muralist", note: "co-founded the muralist movement" },
+      { name: "Frida Kahlo", role: "painter", note: "a teenager when a 1925 tram accident shaped her life" },
+      { name: "Pancho Villa", role: "revolutionary general", note: "assassinated in his car in 1923" },
+      { name: "José Vasconcelos", role: "writer / minister", note: "Education Minister who launched the literacy campaigns" },
+    ],
+  },
+  {
+    country: "MX", decadeStart: 1930, people: [
+      { name: "Lázaro Cárdenas", role: "president", note: "nationalised oil in 1938, redistributed land" },
+      { name: "Diego Rivera", role: "muralist", note: "Detroit Industry, Rockefeller Center scandal, Palacio de Bellas Artes mural" },
+      { name: "Frida Kahlo", role: "painter", note: "Self-Portrait with Monkey, the Two Fridas in 1939" },
+      { name: "David Alfaro Siqueiros", role: "muralist", note: "led the failed attack on Trotsky's home in 1940" },
+      { name: "Leon Trotsky", role: "revolutionary", note: "lived in Coyoacán from 1937; assassinated 1940" },
+      { name: "Cantinflas (Mario Moreno)", role: "comic actor", note: "debuted in carpa shows, then film" },
+      { name: "Dolores del Río", role: "actress", note: "Hollywood star returning to Mexican cinema" },
+    ],
+  },
+  {
+    country: "MX", decadeStart: 1940, people: [
+      { name: "Manuel Ávila Camacho", role: "president", note: "led Mexico into the war and the Bracero Program" },
+      { name: "Miguel Alemán", role: "president", note: "the 'Milagro Mexicano' under his rule" },
+      { name: "Pedro Infante", role: "singer / actor", note: "the icon of Mexican ranchera cinema" },
+      { name: "Jorge Negrete", role: "singer / actor", note: "the other great charro singer of the era" },
+      { name: "María Félix", role: "actress", note: "the imperious queen of Mexican cinema" },
+      { name: "Cantinflas", role: "comedian", note: "Ahí está el detalle (1940) made him a national star" },
+      { name: "Frida Kahlo", role: "painter", note: "What the Water Gave Me (1938), The Broken Column (1944)" },
+      { name: "Diego Rivera", role: "muralist", note: "Sueño de una tarde dominical en la Alameda Central (1947)" },
+    ],
+  },
+  {
+    country: "MX", decadeStart: 1950, people: [
+      { name: "Adolfo Ruiz Cortines", role: "president", note: "extended the federal vote to women in 1953" },
+      { name: "Adolfo López Mateos", role: "president", note: "nationalised the electric industry" },
+      { name: "Pedro Infante", role: "singer / actor", note: "died in a plane crash in 1957 — national mourning" },
+      { name: "Frida Kahlo", role: "painter", note: "died in 1954 at the Casa Azul in Coyoacán" },
+      { name: "Diego Rivera", role: "muralist", note: "died in 1957" },
+      { name: "Octavio Paz", role: "poet / essayist", note: "El laberinto de la soledad (1950)" },
+      { name: "Juan Rulfo", role: "novelist", note: "Pedro Páramo (1955) — Latin America's most influential novel" },
+      { name: "Cantinflas", role: "actor", note: "Around the World in 80 Days (1956) won an Oscar for the film" },
+      { name: "María Félix", role: "actress", note: "still the biggest Spanish-language star alive" },
+    ],
+  },
+  {
+    country: "MX", decadeStart: 1960, people: [
+      { name: "Gustavo Díaz Ordaz", role: "president", note: "ordered the Tlatelolco massacre of 1968" },
+      { name: "Adolfo López Mateos", role: "president", note: "presided over the Mexican Miracle's peak" },
+      { name: "Carlos Fuentes", role: "novelist", note: "La región más transparente (1958), La muerte de Artemio Cruz (1962)" },
+      { name: "Octavio Paz", role: "poet", note: "ambassador to India until resigning over Tlatelolco" },
+      { name: "Juan Rulfo", role: "novelist", note: "still influential though he had stopped publishing fiction" },
+      { name: "José Emilio Pacheco", role: "poet", note: "Los elementos de la noche (1963)" },
+      { name: "Carlos Monsiváis", role: "essayist", note: "Días de guardar (1970) closed the decade" },
+      { name: "Mario Moreno (Cantinflas)", role: "actor", note: "kept making films through the decade" },
+      { name: "Luis Buñuel", role: "filmmaker", note: "made many of his masterworks in Mexico" },
+    ],
+  },
+  {
+    country: "MX", decadeStart: 1970, people: [
+      { name: "Luis Echeverría", role: "president", note: "pursued shared development; ran the Dirty War" },
+      { name: "José López Portillo", role: "president", note: "rode the oil boom; the 1976 devaluation hit hard" },
+      { name: "Octavio Paz", role: "poet", note: "El mono gramático (1974); founded Vuelta in 1976" },
+      { name: "Carlos Fuentes", role: "novelist", note: "Terra Nostra (1975)" },
+      { name: "Carlos Monsiváis", role: "essayist", note: "the moral conscience of Mexico City" },
+      { name: "Elena Poniatowska", role: "journalist / novelist", note: "La noche de Tlatelolco (1971) on the 1968 massacre" },
+      { name: "Vicente Fernández", role: "singer", note: "rose to ranchera superstardom in the 70s" },
+      { name: "Hugo Sánchez", role: "footballer", note: "started his career at UNAM Pumas" },
+    ],
+  },
 ];
 
 export function famousFor(country: Country, year: number): FamousPerson[] {

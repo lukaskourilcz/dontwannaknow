@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { PersonReport, Fact } from "../lib/facts";
+import { pairReport } from "../lib/facts";
 import WorldMap from "./WorldMap";
 
 type Props = {
@@ -40,6 +41,12 @@ type ViewMode = "essay" | "facts";
 export default function Results({ reports, onReset, onRegenerate }: Props) {
   const [view, setView] = useState<ViewMode>("essay");
 
+  // Build pair comparison when 2+ people are submitted.
+  const pair =
+    reports.length >= 2
+      ? pairReport(reports[0].person, reports[1].person)
+      : null;
+
   return (
     <div className="results">
       <div className="results-header">
@@ -73,6 +80,25 @@ export default function Results({ reports, onReset, onRegenerate }: Props) {
           </button>
         </div>
       </div>
+      {pair && view === "essay" && (
+        <article className="person-card pair-card">
+          <header className="person-header">
+            <h3>
+              {reports[0].person.label} &amp; {reports[1].person.label}
+            </h3>
+            <p className="person-sub">Their two worlds, side by side</p>
+          </header>
+          <div className="essay">
+            {pair.map((p, i) => (
+              <section key={i} className="essay-paragraph">
+                <h4>{p.heading}</h4>
+                <p>{p.text}</p>
+              </section>
+            ))}
+          </div>
+        </article>
+      )}
+
       {reports.map((r) => {
         const grouped = groupByCategory(r.facts);
         return (
