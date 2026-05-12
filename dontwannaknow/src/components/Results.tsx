@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { PersonReport, Fact } from "../lib/facts";
 import WorldMap from "./WorldMap";
 
@@ -34,14 +35,38 @@ function groupByCategory(facts: Fact[]) {
   return map;
 }
 
+type ViewMode = "essay" | "facts";
+
 export default function Results({ reports, onReset, onRegenerate }: Props) {
+  const [view, setView] = useState<ViewMode>("essay");
+
   return (
     <div className="results">
       <div className="results-header">
         <h2>Their world</h2>
         <div className="results-actions">
+          <div className="view-toggle" role="tablist" aria-label="View mode">
+            <button
+              type="button"
+              role="tab"
+              aria-selected={view === "essay"}
+              className={view === "essay" ? "active" : ""}
+              onClick={() => setView("essay")}
+            >
+              Essay
+            </button>
+            <button
+              type="button"
+              role="tab"
+              aria-selected={view === "facts"}
+              className={view === "facts" ? "active" : ""}
+              onClick={() => setView("facts")}
+            >
+              Facts
+            </button>
+          </div>
           <button className="secondary" type="button" onClick={onRegenerate}>
-            ↻ Shuffle facts
+            ↻ Shuffle
           </button>
           <button className="secondary" type="button" onClick={onReset}>
             Start over
@@ -65,30 +90,42 @@ export default function Results({ reports, onReset, onRegenerate }: Props) {
               </p>
             </header>
             <WorldMap birthYear={r.person.birthYear} />
-            {SECTION_ORDER.map(({ key, title, tone }) => {
-              const items = grouped.get(key);
-              if (!items || items.length === 0) return null;
-              return (
-                <section key={key} className={`facts facts-${key}`}>
-                  <h4>
-                    {title}
-                    {tone && <span className="tone"> · {tone}</span>}
-                  </h4>
-                  <ul>
-                    {items.map((t, i) => (
-                      <li key={i}>{t}</li>
-                    ))}
-                  </ul>
-                </section>
-              );
-            })}
+
+            {view === "essay" && (
+              <div className="essay">
+                {r.essay.map((p, i) => (
+                  <section key={i} className="essay-paragraph">
+                    <h4>{p.heading}</h4>
+                    <p>{p.text}</p>
+                  </section>
+                ))}
+              </div>
+            )}
+
+            {view === "facts" &&
+              SECTION_ORDER.map(({ key, title, tone }) => {
+                const items = grouped.get(key);
+                if (!items || items.length === 0) return null;
+                return (
+                  <section key={key} className={`facts facts-${key}`}>
+                    <h4>
+                      {title}
+                      {tone && <span className="tone"> · {tone}</span>}
+                    </h4>
+                    <ul>
+                      {items.map((t, i) => (
+                        <li key={i}>{t}</li>
+                      ))}
+                    </ul>
+                  </section>
+                );
+              })}
           </article>
         );
       })}
       <p className="disclaimer">
-        Numbers and texture are rounded historical averages, drawn from
-        public datasets and standard histories. Pick "Shuffle facts" to see
-        a different mix.
+        Texture and numbers are rounded historical averages from public
+        datasets and standard histories. Hit "Shuffle" to re-roll the mix.
       </p>
     </div>
   );

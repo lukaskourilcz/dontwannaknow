@@ -12,6 +12,7 @@ import {
 import { famousFor } from "../data/famousPeople";
 import { eventsForCountry } from "../data/countryEvents";
 import { cityFactsFor, findCity } from "../data/cities";
+import { buildEssay, type EssayParagraph } from "./essay";
 
 export type Person = {
   label: string;
@@ -48,6 +49,7 @@ export type PersonReport = {
   countryLabel: string;
   cityLabel: string | null;
   facts: Fact[];
+  essay: EssayParagraph[];
 };
 
 const CURRENT_YEAR = new Date().getFullYear();
@@ -341,5 +343,6 @@ export function reportFor(person: Person): PersonReport {
     countryLabel,
     cityLabel,
     facts,
+    essay: buildEssay(person),
   };
 }
