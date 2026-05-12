@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import PersonForm from "./components/PersonForm";
+import TypeformWizard from "./components/TypeformWizard";
 import Results from "./components/Results";
 import { reportFor, type Person, type PersonReport } from "./lib/facts";
 import { decodePeopleUrl } from "./lib/share";
@@ -84,7 +84,7 @@ function AppInner() {
       </header>
 
       <main>
-        {!reports && <PersonForm onSubmit={handleSubmit} />}
+        {!reports && <TypeformWizard onSubmit={handleSubmit} />}
         {reports && people && (
           <Results
             reports={reports}

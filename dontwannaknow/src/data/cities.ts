@@ -2627,6 +2627,231 @@ export const CITY_FACTS: CityFact[] = [
   { city: "chernivtsi", year: 1947, text: "the Soviet authorities renamed Chernivtsi its modern Ukrainian form and rebuilt central institutions" },
   { city: "chernivtsi", year: 1958, text: "the Chernivtsi University reopened in Ukrainian-language teaching after the war" },
   { city: "chernivtsi", year: 1976, text: "the Chernivtsi 'paranormal panic' of November-December 1976 saw mass hysteria over rumours of children with skin diseases" },
+
+  // ────────────── Deepening Spain, US, Canada ─────────────────
+
+  // ── L'Hospitalet de Llobregat ──────────────────────────────
+  { city: "hospitalet", year: 1925, text: "the textile mills of L'Hospitalet drew migrants from Murcia and Andalusia who built shanty-town barrios near the railway" },
+  { city: "hospitalet", year: 1936, text: "L'Hospitalet's anarchist CNT controlled the town hall during the early Civil War months" },
+  { city: "hospitalet", year: 1939, text: "Franco's troops took the town in January; CNT and POUM leaders were imprisoned at the Modelo in nearby Barcelona" },
+  { city: "hospitalet", year: 1948, text: "the rough postwar shanty-towns of La Bomba and Can Pi grew with new southern Spanish migrants" },
+  { city: "hospitalet", year: 1962, text: "L'Hospitalet absorbed nearly 100,000 new residents in a decade — Spain's fastest-growing city by ratio" },
+  { city: "hospitalet", year: 1968, text: "the city centre's first metro extension from Barcelona made the commute to work daily and routine" },
+  { city: "hospitalet", year: 1975, text: "L'Hospitalet's Andalusian and Murcian neighborhood associations grew into the post-Franco political movements" },
+
+  // ── Vitoria-Gasteiz ──────────────────────────────────────────
+  { city: "vitoria", year: 1925, text: "the Vitoria fountain pen factory of Mecanográfica Salvador opened — a regional industrial centre" },
+  { city: "vitoria", year: 1936, text: "Vitoria sided with the Nationalists in July; the city became a Basque hub of Franco-loyal Carlists" },
+  { city: "vitoria", year: 1939, text: "the rebuilt Iruña Theatre reopened — one of the city's main cultural buildings" },
+  { city: "vitoria", year: 1958, text: "Michelin opened its tire factory at Vitoria — one of the largest in Spain" },
+  { city: "vitoria", year: 1965, text: "Vitoria's industrial belt expanded with Mercedes-Benz commercial-vehicle plant" },
+  { city: "vitoria", year: 1979, text: "Vitoria was named capital of the new Basque Autonomous Community" },
+
+  // ── A Coruña ─────────────────────────────────────────────────
+  { city: "coruna", year: 1922, text: "A Coruña's port handled the largest Galician fish exports to British and Cuban markets" },
+  { city: "coruna", year: 1936, text: "the Nationalist coup found supporters among the Coruña garrison; the city fell on 20 July" },
+  { city: "coruna", year: 1946, text: "the Pescanova fish-processing precursor opened in nearby Vigo and changed Coruña's port profile" },
+  { city: "coruna", year: 1968, text: "Real Club Deportivo de La Coruña rose from third division to La Liga" },
+  { city: "coruna", year: 1975, text: "Inditex (later Zara) was founded by Amancio Ortega in nearby Arteixo" },
+
+  // ── Elche ────────────────────────────────────────────────────
+  { city: "elche", year: 1922, text: "Elche's date-palm orchards (palmeral) were already a UNESCO-tentative landscape with over 200,000 trees" },
+  { city: "elche", year: 1939, text: "Franco's troops captured Elche in March; the shoe-making cooperatives were dissolved" },
+  { city: "elche", year: 1959, text: "the Misteri d'Elx — the medieval Catalan mystery play — was officially declared a national pilgrimage" },
+  { city: "elche", year: 1975, text: "the Elche shoe industry employed 30,000 workers and exported worldwide" },
+  { city: "elche", year: 1980, text: "the Misteri d'Elx was inscribed on UNESCO's first Intangible Heritage list" },
+
+  // ── Gijón ───────────────────────────────────────────────────
+  { city: "gijon", year: 1922, text: "the Gijón shipyards employed thousands and built coastal steamships" },
+  { city: "gijon", year: 1937, text: "the Sotrondio mines around Gijón fed both Republican and (after October) Nationalist war machines" },
+  { city: "gijon", year: 1965, text: "the Ensidesa works expanded into one of the largest steel plants in Spain" },
+  { city: "gijon", year: 1972, text: "the Gijón shipyards strike of March turned violent; police killed two workers in solidarity protests" },
+
+  // ── Murcia ──────────────────────────────────────────────────
+  { city: "murcia", year: 1925, text: "the Murcia tomato-paste industry was the largest in Spain, exporting to Britain and France" },
+  { city: "murcia", year: 1947, text: "the major Riada de Santa Teresa flood killed over 40 in the Segura valley" },
+  { city: "murcia", year: 1958, text: "the El Carmen quarter became the centre of city expansion as migrants from rural villages arrived" },
+  { city: "murcia", year: 1973, text: "the University of Murcia's modern campus broke ground in Espinardo" },
+
+  // ── Granada ─────────────────────────────────────────────────
+  { city: "granada", year: 1922, text: "Manuel de Falla and Federico García Lorca organised the Cante Jondo flamenco contest at the Alhambra" },
+  { city: "granada", year: 1929, text: "the Hispanic Society of America funded the first archaeological mapping of the Alhambra" },
+  { city: "granada", year: 1939, text: "Lorca's body was sought by anti-fascist resistance and writers — never found" },
+  { city: "granada", year: 1965, text: "the Manuel de Falla auditorium opened, hosting the annual International Festival" },
+  { city: "granada", year: 1975, text: "the Albaicín neighborhood was declared a national historic district" },
+
+  // ── Alicante ────────────────────────────────────────────────
+  { city: "alicante", year: 1925, text: "the Alicante Casino opened its Modernista premises on Explanada de España" },
+  { city: "alicante", year: 1942, text: "the Castle of Santa Bárbara was reopened to the public after restoration" },
+  { city: "alicante", year: 1955, text: "Alicante airport opened, beginning the Costa Blanca tourism boom" },
+  { city: "alicante", year: 1975, text: "Benidorm just north of Alicante had become Europe's package-tour capital" },
+
+  // ── Las Palmas ─────────────────────────────────────────────
+  { city: "las-palmas", year: 1923, text: "the Royal Victoria Hotel became home to wealthy British and Scandinavian winter visitors" },
+  { city: "las-palmas", year: 1950, text: "the city became a key fueling stop for transatlantic shipping" },
+  { city: "las-palmas", year: 1968, text: "the Maspalomas resort opened to Scandinavian package tourists" },
+
+  // ── Córdoba ─────────────────────────────────────────────────
+  { city: "cordoba", year: 1925, text: "the new water-supply system reached the old quarter, replacing centuries-old wells" },
+  { city: "cordoba", year: 1945, text: "the city's silver-jewellery quarter resumed exports across Spain" },
+  { city: "cordoba", year: 1971, text: "the Mosque-Cathedral was added to UNESCO's tentative list" },
+
+  // ── Valladolid ──────────────────────────────────────────────
+  { city: "valladolid", year: 1953, text: "the FASA-Renault plant opened, kicking off Valladolid's car-manufacturing era" },
+  { city: "valladolid", year: 1968, text: "the Seminci film festival drew international guests and screened politically risky films" },
+
+  // ── Vigo ─────────────────────────────────────────────────────
+  { city: "vigo", year: 1922, text: "the Vigo Pescanova fishing fleet was the largest on Spain's Atlantic coast" },
+  { city: "vigo", year: 1972, text: "the Vigo strikes shut shipyards; three workers killed by police" },
+
+  // ── Málaga ──────────────────────────────────────────────────
+  { city: "malaga", year: 1925, text: "the Picasso birth-house became a small museum five years after his rise to fame" },
+  { city: "malaga", year: 1968, text: "the Costa del Sol package-tour boom made Torremolinos the most-built coastal village in Europe" },
+
+  // ── Palma ───────────────────────────────────────────────────
+  { city: "palma", year: 1972, text: "the Palma airport handled more passengers than any other Spanish airport outside Madrid" },
+
+  // ────────────── US — deepening thin cities ─────────────────
+
+  // ── Jacksonville ─────────────────────────────────────────────
+  { city: "jacksonville", year: 1925, text: "Jacksonville's silent-film studios at Black Point were eclipsed by Hollywood within the decade" },
+  { city: "jacksonville", year: 1933, text: "the Mathews Bridge planning began as the city's first major Depression-era public-works push" },
+  { city: "jacksonville", year: 1942, text: "Naval Air Station Jacksonville expanded for WWII pilot training" },
+  { city: "jacksonville", year: 1955, text: "the city's African-American community fought for desegregated schools in the Duval County system" },
+  { city: "jacksonville", year: 1960, text: "the 'Ax Handle Saturday' attacks on civil-rights demonstrators in Hemming Park horrified the nation" },
+  { city: "jacksonville", year: 1979, text: "the Mayo Clinic announced it would build a major hospital campus in Jacksonville" },
+
+  // ── Charlotte (NC) ─────────────────────────────────────────
+  { city: "charlotte", year: 1924, text: "the Charlotte Hornets minor-league baseball team won the Sally League pennant" },
+  { city: "charlotte", year: 1935, text: "the Charlotte Quartermaster Depot supplied Army camps across the southeast during the Depression" },
+  { city: "charlotte", year: 1942, text: "Morris Field became one of the largest army-airfield training bases in WWII" },
+  { city: "charlotte", year: 1957, text: "the desegregation of Harding High School made national news" },
+  { city: "charlotte", year: 1975, text: "First Union Bank merged operations into Charlotte, joining NCNB to make it a banking hub" },
+
+  // ── Columbus (Ohio) ────────────────────────────────────────
+  { city: "columbus", year: 1925, text: "Lustron Corporation made pre-fab houses in Columbus shipped across America after WWII" },
+  { city: "columbus", year: 1942, text: "Curtiss-Wright bomber factory in Columbus built the SB2C Helldiver dive bomber" },
+  { city: "columbus", year: 1961, text: "the Ohio State Buckeyes won the football national championship under Woody Hayes" },
+  { city: "columbus", year: 1965, text: "the Columbus race riots erupted on the city's near east side in July" },
+  { city: "columbus", year: 1979, text: "the Wendy's hamburger chain founded by Dave Thomas became a national brand" },
+
+  // ── Denver ──────────────────────────────────────────────────
+  { city: "denver", year: 1929, text: "the Denver Stock Show drew 100,000 visitors for the first time" },
+  { city: "denver", year: 1942, text: "the Denver Federal Center opened as the new home of the US Mint's western division" },
+  { city: "denver", year: 1968, text: "the Denver Broncos drafted Floyd Little and began their AFL competitive era" },
+  { city: "denver", year: 1976, text: "Coloradans voted to refuse the 1976 Winter Olympics they had been awarded" },
+  { city: "denver", year: 1978, text: "the Denver Mint produced the new Susan B. Anthony dollar" },
+
+  // ── Fort Worth ──────────────────────────────────────────────
+  { city: "fort-worth", year: 1923, text: "Fort Worth's Stockyards Historic District was already cattle-trade central — the world's largest cattle market" },
+  { city: "fort-worth", year: 1929, text: "the Fort Worth Symphony Orchestra was founded" },
+  { city: "fort-worth", year: 1945, text: "the Convair plant in Fort Worth produced B-32 bombers for the Pacific war" },
+  { city: "fort-worth", year: 1962, text: "the Amon Carter Museum opened, anchoring Fort Worth as a cultural centre" },
+  { city: "fort-worth", year: 1968, text: "the Bell Helicopter UH-1 Iroquois was made at the Fort Worth plant for Vietnam service" },
+
+  // ── Indianapolis ────────────────────────────────────────────
+  { city: "indianapolis", year: 1933, text: "the WPA expanded Indianapolis's road network and built civic buildings" },
+  { city: "indianapolis", year: 1953, text: "Bill Vukovich won the Indianapolis 500 for the second year running" },
+  { city: "indianapolis", year: 1970, text: "Unigov consolidated Indianapolis with Marion County" },
+  { city: "indianapolis", year: 1976, text: "the Children's Museum of Indianapolis expanded to become the largest in the world" },
+
+  // ── San Antonio ──────────────────────────────────────────────
+  { city: "san-antonio", year: 1923, text: "Mary Bonner was the most famous Texan etching artist; her San Antonio studio drew European visitors" },
+  { city: "san-antonio", year: 1932, text: "the WPA built the San Antonio River Walk extension" },
+  { city: "san-antonio", year: 1958, text: "Brooks Air Force Base became the centre of US Air Force aerospace medicine" },
+  { city: "san-antonio", year: 1975, text: "Henry B. Gonzalez represented Texas's 20th congressional district and became a major civil-rights voice in Congress" },
+
+  // ── San Diego ───────────────────────────────────────────────
+  { city: "san-diego", year: 1929, text: "the Hotel Del Coronado weathered the Depression as Hollywood stars vacationed there" },
+  { city: "san-diego", year: 1949, text: "Convair's Atlas missile programme launched at San Diego" },
+  { city: "san-diego", year: 1969, text: "the new Tijuana–San Diego trolley system began planning" },
+  { city: "san-diego", year: 1980, text: "San Diego's population passed one million" },
+
+  // ── Austin ──────────────────────────────────────────────────
+  { city: "austin", year: 1929, text: "the University of Texas tower was completed atop the Forty Acres campus" },
+  { city: "austin", year: 1950, text: "Texas Instruments was founded; Austin became part of the Texas semiconductor belt" },
+  { city: "austin", year: 1972, text: "Willie Nelson moved to Austin and the 'Austin Sound' was born" },
+  { city: "austin", year: 1979, text: "Whole Foods Market opened its first store on North Lamar" },
+
+  // ── Phoenix ─────────────────────────────────────────────────
+  { city: "phoenix", year: 1922, text: "the Hohokam Stadium opened for local baseball" },
+  { city: "phoenix", year: 1928, text: "Phoenix became the headquarters of the Arizona Cotton Growers cooperative" },
+  { city: "phoenix", year: 1945, text: "Goldwater's Department Store opened a major branch in Phoenix" },
+  { city: "phoenix", year: 1968, text: "the Heard Museum expanded to become the largest centre for Native American art in the southwest" },
+
+  // ── Dallas ──────────────────────────────────────────────────
+  { city: "dallas", year: 1923, text: "Dallas was the largest cotton-marketing centre in the world" },
+  { city: "dallas", year: 1933, text: "the Magnolia Building's flying-horse 'Pegasus' became Dallas's first illuminated landmark" },
+  { city: "dallas", year: 1969, text: "Dallas became home of the NFL Cowboys' Texas Stadium plans" },
+
+  // ── San Jose ────────────────────────────────────────────────
+  { city: "san-jose", year: 1925, text: "the IBM punched-card facility at San Jose was an early West Coast tech site" },
+  { city: "san-jose", year: 1957, text: "Shockley Semiconductor's eight engineers — later the 'Traitorous Eight' — quit and founded Fairchild Semiconductor" },
+  { city: "san-jose", year: 1968, text: "the cherry orchards of the Santa Clara Valley were rapidly disappearing under industrial parks" },
+  { city: "san-jose", year: 1976, text: "Apple Computer was founded by Wozniak and Jobs in Los Altos" },
+
+  // ── Seattle ─────────────────────────────────────────────────
+  { city: "seattle", year: 1924, text: "the Smith Tower opened as the tallest building west of the Mississippi" },
+  { city: "seattle", year: 1936, text: "the Seattle General Strike's veteran labour leadership organised the AFL Boilermakers Union" },
+  { city: "seattle", year: 1968, text: "Boeing began work on the 747 'jumbo jet' at its Everett plant" },
+  { city: "seattle", year: 1971, text: "Starbucks opened its first store at Pike Place Market" },
+
+  // ── Houston ─────────────────────────────────────────────────
+  { city: "houston", year: 1930, text: "Houston's Tilman Industries expanded oil-tool manufacturing through the Depression" },
+  { city: "houston", year: 1955, text: "the Texas Medical Center was already the world's largest medical complex by patient volume" },
+  { city: "houston", year: 1973, text: "the Astros baseball team played its second decade in the Astrodome" },
+
+  // ────────────── Canada — deepening thin cities ──────────────
+
+  // ── Kelowna ────────────────────────────────────────────────
+  { city: "kelowna", year: 1925, text: "the Okanagan apple orchards around Kelowna shipped to British Columbia's coastal cities" },
+  { city: "kelowna", year: 1945, text: "the Kelowna Regatta resumed after wartime cancellation as a major BC summer event" },
+  { city: "kelowna", year: 1958, text: "the William R. Bennett Bridge opened over Okanagan Lake to Westside" },
+  { city: "kelowna", year: 1969, text: "Mission Hill Winery was founded — start of the modern BC wine industry" },
+  { city: "kelowna", year: 1973, text: "Calona Wines released its first Schloss Laderheim — first major dry BC wine" },
+
+  // ── Sherbrooke ──────────────────────────────────────────────
+  { city: "sherbrooke", year: 1925, text: "the Sherbrooke textile mills employed several thousand and exported across North America" },
+  { city: "sherbrooke", year: 1945, text: "the Université de Sherbrooke was founded by the Catholic Diocese" },
+  { city: "sherbrooke", year: 1968, text: "the Quiet Revolution reached Sherbrooke; Catholic schools became public" },
+  { city: "sherbrooke", year: 1976, text: "the Sherbrooke Saints minor-league hockey team won the Quebec Senior Hockey League title" },
+
+  // ── Saskatoon ──────────────────────────────────────────────
+  { city: "saskatoon", year: 1925, text: "the University of Saskatchewan's College of Agriculture pioneered drought-resistant wheat varieties" },
+  { city: "saskatoon", year: 1942, text: "the Royal Canadian Air Force trained pilots at the Saskatoon airbase under the British Commonwealth Air Training Plan" },
+  { city: "saskatoon", year: 1958, text: "the Canadian Light Source synchrotron predecessor — the Linear Accelerator — opened at the university" },
+  { city: "saskatoon", year: 1975, text: "Saskatoon's potash mines made the region a global potash exporter" },
+
+  // ── St. John's ─────────────────────────────────────────────
+  { city: "st-johns", year: 1925, text: "the Newfoundland Railway terminated at St. John's; trans-island travel was now routine" },
+  { city: "st-johns", year: 1942, text: "the SS Caribou was sunk by a German U-boat in Cabot Strait; 137 died, mostly from St. John's" },
+  { city: "st-johns", year: 1949, text: "Newfoundland joined Canada as the 10th province; St. John's became a provincial capital" },
+  { city: "st-johns", year: 1968, text: "St. John's celebrated the Cabot 500 — the 500th anniversary of John Cabot's landing" },
+
+  // ── Hamilton ────────────────────────────────────────────────
+  { city: "hamilton", year: 1925, text: "Hamilton's Stelco and Dofasco steelworks employed 30,000 — 'Steeltown' was set" },
+  { city: "hamilton", year: 1948, text: "Hamilton hosted the first Canadian Open golf tournament after WWII" },
+  { city: "hamilton", year: 1959, text: "the Tiger-Cats won the Grey Cup" },
+  { city: "hamilton", year: 1972, text: "the Royal Botanical Gardens at Hamilton hosted the inaugural Heart of Niagara Garden Show" },
+
+  // ── Kitchener-Waterloo ──────────────────────────────────────
+  { city: "kitchener", year: 1925, text: "Kitchener (renamed from Berlin in 1916) was a German-Canadian Mennonite town with strong meat-packing industry" },
+  { city: "kitchener", year: 1947, text: "the Kitchener-Waterloo Oktoberfest precursor — the Annual Bavarian Festival — drew thousands" },
+  { city: "kitchener", year: 1957, text: "the University of Waterloo opened as Canada's first cooperative-education institution" },
+  { city: "kitchener", year: 1971, text: "the K-W Oktoberfest became North America's largest Bavarian festival" },
+
+  // ── London, Ontario ─────────────────────────────────────────
+  { city: "london-on", year: 1925, text: "the London-Lawson Insurance Companies made the city Canada's insurance capital" },
+  { city: "london-on", year: 1945, text: "the Royal Canadian Regiment based at Wolseley Barracks fought in Holland's liberation" },
+  { city: "london-on", year: 1956, text: "the University of Western Ontario added its new medical school" },
+  { city: "london-on", year: 1976, text: "the London Lightning basketball franchise (in the CBA) was founded" },
+
+  // ── Regina ──────────────────────────────────────────────────
+  { city: "regina", year: 1922, text: "Regina rebuilt after the 1912 cyclone with brick-and-stone civic buildings" },
+  { city: "regina", year: 1935, text: "the Regina Riot — the On-to-Ottawa Trek crackdown — left dozens injured" },
+  { city: "regina", year: 1944, text: "Tommy Douglas's CCF won the Saskatchewan provincial election from Regina; began the road to medicare" },
+  { city: "regina", year: 1962, text: "Canada's first single-payer Medicare programme launched in Saskatchewan from Regina" },
+  { city: "regina", year: 1976, text: "the RCMP Heritage Centre at Regina's Depot Division opened" },
 ];
 
 // ──────────────────────────── Selectors ───────────────────────────────
