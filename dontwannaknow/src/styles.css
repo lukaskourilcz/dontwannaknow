@@ -92,7 +92,7 @@ body,
 
 .row {
   display: grid;
-  grid-template-columns: 1fr 7rem 12rem 2rem;
+  grid-template-columns: minmax(7rem, 1fr) 6rem 11rem 11rem 2rem;
   gap: 0.5rem;
   align-items: center;
 }
@@ -370,6 +370,7 @@ button:active {
   font-size: 0.85rem;
 }
 
+.facts-city h4,
 .facts-local h4,
 .facts-government h4,
 .facts-famous h4,
@@ -381,6 +382,7 @@ button:active {
   color: var(--accent);
 }
 
+.facts-city li::before { content: "🏠  "; color: var(--accent); }
 .facts-local li::before { content: "◉  "; color: var(--accent); }
 .facts-government li::before { content: "⚖  "; color: var(--muted); }
 .facts-famous li::before { content: "★  "; color: var(--accent); }
@@ -390,24 +392,31 @@ button:active {
 .facts-food li::before { content: "🍽  "; color: var(--muted); }
 .facts-money li::before { content: "₵  "; color: var(--muted); }
 
-@media (max-width: 720px) {
+@media (max-width: 900px) {
   .row {
-    grid-template-columns: 1fr 6rem 9rem 1.5rem;
+    grid-template-columns: minmax(6rem, 1fr) 5.5rem 9rem 9rem 1.5rem;
     gap: 0.4rem;
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   .row {
     grid-template-columns: 1fr 1fr;
+    gap: 0.4rem;
   }
-  .row .country-input {
-    grid-column: 1 / -1;
-  }
+  .row .label-input { grid-column: 1 / 2; }
+  .row .year-input { grid-column: 2 / 3; }
+  .row .country-input { grid-column: 1 / -1; }
+  .row .city-input { grid-column: 1 / -1; }
   .row .remove {
-    grid-column: 2;
+    position: absolute;
+    margin-top: -0.4rem;
+    align-self: start;
     justify-self: end;
   }
+}
+
+@media (max-width: 540px) {
   .facts li {
     font-size: 1.05rem;
   }

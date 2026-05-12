@@ -11,11 +11,13 @@ import {
 } from "../data/countryDecades";
 import { famousFor } from "../data/famousPeople";
 import { eventsForCountry } from "../data/countryEvents";
+import { cityFactsFor, findCity } from "../data/cities";
 
 export type Person = {
   label: string;
   birthYear: number;
   country: Country;
+  citySlug?: string;
 };
 
 export type Fact = {
@@ -32,7 +34,8 @@ export type Fact = {
     | "food"
     | "money"
     | "famous"
-    | "local";
+    | "local"
+    | "city";
   text: string;
 };
 
@@ -43,6 +46,7 @@ export type PersonReport = {
   birthStats: DecadeStats;
   youthCulture: CultureSnapshot;
   countryLabel: string;
+  cityLabel: string | null;
   facts: Fact[];
 };
 
@@ -200,8 +204,28 @@ export function reportFor(person: Person): PersonReport {
   const birthStats = statsForYear(birthYear);
   const youthCulture = cultureForDecade(birthYear + 15);
   const countryLabel = COUNTRY_LABELS[person.country];
+  const city = findCity(person.citySlug);
+  const cityLabel = city ? city.name : null;
 
   const facts: Fact[] = [];
+
+  // ── City-specific events during their lifetime (up to 8) ────────────
+  if (city) {
+    const cityEvents = cityFactsFor(city.slug, birthYear);
+    pickN(cityEvents, 8).forEach((e) => {
+      const age = ageAt(birthYear, e.year);
+      const when =
+        age === 0
+          ? "the year of birth"
+          : age < 0
+          ? `${-age} years before they were born`
+          : `age ${age}`;
+      facts.push({
+        category: "city",
+        text: `At ${when} (${e.year}, in ${city.name}), ${e.text}.`,
+      });
+    });
+  }
 
   // ── Bizarre: "before X existed" — pick 2 at random ───────────────────
   const beforeStuff = inventionsBornBefore(birthYear);
@@ -315,6 +339,7 @@ export function reportFor(person: Person): PersonReport {
     birthStats,
     youthCulture,
     countryLabel,
+    cityLabel,
     facts,
   };
 }

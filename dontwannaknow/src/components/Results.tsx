@@ -8,9 +8,10 @@ type Props = {
 };
 
 const SECTION_ORDER: { key: Fact["category"]; title: string; tone: string }[] = [
+  { key: "city", title: "In their hometown", tone: "Year by year, on the streets they grew up on" },
   { key: "bizarre", title: "Bizarre", tone: "Strange-but-true" },
   { key: "beautiful", title: "Beautiful", tone: "The good and the great" },
-  { key: "local", title: "What was happening where they grew up", tone: "" },
+  { key: "local", title: "Across the country", tone: "" },
   { key: "government", title: "Who was in charge", tone: "Politics & power" },
   { key: "famous", title: "Famous faces of the era", tone: "Writers, artists, leaders" },
   { key: "clothes", title: "What people wore", tone: "" },
@@ -51,13 +52,15 @@ export default function Results({ reports, onReset, onRegenerate }: Props) {
         const grouped = groupByCategory(r.facts);
         return (
           <article
-            key={`${r.person.label}-${r.person.birthYear}-${r.person.country}`}
+            key={`${r.person.label}-${r.person.birthYear}-${r.person.country}-${r.person.citySlug ?? "x"}`}
             className="person-card"
           >
             <header className="person-header">
               <h3>{r.person.label}</h3>
               <p className="person-sub">
-                Born {r.person.birthYear} in {r.countryLabel} ·{" "}
+                Born {r.person.birthYear} in{" "}
+                {r.cityLabel ? `${r.cityLabel}, ${r.countryLabel}` : r.countryLabel}
+                {" · "}
                 {r.ageNow} years on this planet
               </p>
             </header>

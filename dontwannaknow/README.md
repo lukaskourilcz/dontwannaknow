@@ -4,10 +4,11 @@ A small site that asks for a birth year and tells you what the world was
 doing then — bizarre, beautiful, and everyday details about the era your
 parents or grandparents grew up in.
 
-You enter a year (or full date) of birth **and a birthplace** for
-yourself, your mom, your grandpa, anyone. Birthplace is one of:
+You enter a year (or full date) of birth, a **country**, and a **city**
+for yourself, your mom, your grandpa, anyone. Country is one of:
 **Czechia / Czechoslovakia**, **Spain**, **United States**, **Ukraine /
-Ukrainian SSR**, or "Anywhere" (global facts only).
+Ukrainian SSR**, or "Anywhere" (global facts only). City is filtered to
+the top 20 cities of the chosen country.
 
 The site responds with:
 
@@ -55,6 +56,15 @@ Country-specific data covers **1920–1980** for **CZ, ES, US, UA**:
   context.
 - `src/data/countryEvents.ts` — year-specific events anchored to one
   particular year, so the report places them by age.
+
+City-specific data covers the **top 20 cities** in each country
+(80 cities total):
+
+- `src/data/cities.ts` — city list + year-anchored hometown facts
+  (founding of landmarks, wartime events, industrial milestones,
+  famous-figure ties). The generator picks events that happened in the
+  person's lifetime and labels each one with the person's age at the
+  time.
 
 `src/data/worldPaths.ts` holds 177 country SVG paths in a 1000×500
 equirectangular projection. It was generated once from Natural Earth's
