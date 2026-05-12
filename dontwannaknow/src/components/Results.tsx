@@ -1,4 +1,5 @@
 import type { PersonReport, Fact } from "../lib/facts";
+import WorldMap from "./WorldMap";
 
 type Props = {
   reports: PersonReport[];
@@ -42,6 +43,7 @@ export default function Results({ reports, onReset }: Props) {
                 Born in {r.person.birthYear} · {r.ageNow} years on this planet
               </p>
             </header>
+            <WorldMap birthYear={r.person.birthYear} />
             {SECTION_ORDER.map(({ key, title, tone }) => {
               const items = grouped.get(key);
               if (!items || items.length === 0) return null;

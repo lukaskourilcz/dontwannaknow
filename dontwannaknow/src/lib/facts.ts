@@ -1,6 +1,6 @@
 import { EVENTS, type EventMood } from "../data/events";
 import { INVENTIONS } from "../data/inventions";
-import { GONE_COUNTRIES } from "../data/countries";
+import { goneCountriesAlive } from "../data/countries";
 import { statsForYear, type DecadeStats } from "../data/stats";
 import { cultureForDecade, type CultureSnapshot } from "../data/culture";
 
@@ -56,9 +56,7 @@ function inventionsBornBefore(birthYear: number) {
 }
 
 function countriesAliveAtBirth(birthYear: number) {
-  return GONE_COUNTRIES.filter(
-    (c) => c.startedYear <= birthYear && c.endedYear >= birthYear,
-  );
+  return goneCountriesAlive(birthYear);
 }
 
 function fmtUsd(n: number): string {
