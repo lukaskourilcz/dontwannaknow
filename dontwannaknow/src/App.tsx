@@ -1,4 +1,12 @@
 import { lazy, Suspense, useEffect, useState } from "react";
+import {
+  LazyMotion,
+  domAnimation,
+  m,
+  AnimatePresence,
+  useReducedMotion,
+  type Variants,
+} from "motion/react";
 import TypeformWizard from "./components/TypeformWizard";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { reportFor, type Person, type PersonReport } from "./lib/facts";
@@ -9,6 +17,17 @@ import "./styles.css";
 
 // Code-split the heavy result page so the wizard loads fast.
 const Results = lazy(() => import("./components/Results"));
+
+const EASE = [0.22, 1, 0.36, 1] as const;
+
+const heroContainer: Variants = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.08, delayChildren: 0.05 } },
+};
+const heroItem: Variants = {
+  hidden: { opacity: 0, y: 10 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: EASE } },
+};
 
 function LangToggle() {
   const { lang, setLang } = useLang();
@@ -38,6 +57,7 @@ function LangToggle() {
 
 function AppInner() {
   const { t } = useLang();
+  const reduced = useReducedMotion();
   const [people, setPeople] = useState<Person[] | null>(null);
   const [reports, setReports] = useState<PersonReport[] | null>(null);
 
@@ -75,29 +95,64 @@ function AppInner() {
     }
   };
 
+  // Hero entrance: a quiet staggered fade-up, skipped under reduced-motion.
+  const heroAnim = reduced
+    ? {}
+    : { variants: heroContainer, initial: "hidden" as const, animate: "show" as const };
+  const heroItemAnim = reduced ? {} : { variants: heroItem };
+
   return (
     <div className="page">
       <div className="lang-bar">
         <LangToggle />
       </div>
-      <header className="hero">
-        <p className="eyebrow">{t("hero.eyebrow")}</p>
-        <h1>{t("hero.title")}</h1>
-        <p className="lede">{t("hero.lede")}</p>
-      </header>
+      <m.header className="hero" {...heroAnim}>
+        <m.p className="eyebrow" {...heroItemAnim}>{t("hero.eyebrow")}</m.p>
+        <m.h1 {...heroItemAnim}>{t("hero.title")}</m.h1>
+        <m.p className="lede" {...heroItemAnim}>{t("hero.lede")}</m.p>
+      </m.header>
 
       <main>
-        {!reports && <TypeformWizard onSubmit={handleSubmit} />}
-        {reports && people && (
-          <Suspense fallback={<div className="loading-fallback" role="status">Loading…</div>}>
-            <Results
-              reports={reports}
-              people={people}
-              onReset={handleReset}
-              onRegenerate={handleRegenerate}
-            />
-          </Suspense>
-        )}
+        <AnimatePresence mode="wait" initial={false}>
+          {!reports && (
+            <m.div
+              key="wizard"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0, y: reduced ? 0 : -8 }}
+              transition={{ duration: 0.3, ease: EASE }}
+            >
+              <TypeformWizard onSubmit={handleSubmit} />
+            </m.div>
+          )}
+          {reports && people && (
+            <m.div
+              key="results"
+              initial={{ opacity: 0, y: reduced ? 0 : 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, ease: EASE }}
+            >
+              <Suspense
+                fallback={
+                  <div className="loading-fallback" role="status" aria-live="polite">
+                    <span className="loading-dots" aria-hidden="true">
+                      <i />
+                      <i />
+                      <i />
+                    </span>
+                  </div>
+                }
+              >
+                <Results
+                  reports={reports}
+                  people={people}
+                  onReset={handleReset}
+                  onRegenerate={handleRegenerate}
+                />
+              </Suspense>
+            </m.div>
+          )}
+        </AnimatePresence>
       </main>
 
       <footer className="footer">
@@ -110,9 +165,11 @@ function AppInner() {
 export default function App() {
   return (
     <ErrorBoundary>
-      <LangProvider>
-        <AppInner />
-      </LangProvider>
+      <LazyMotion features={domAnimation} strict>
+        <LangProvider>
+          <AppInner />
+        </LangProvider>
+      </LazyMotion>
     </ErrorBoundary>
   );
 }
