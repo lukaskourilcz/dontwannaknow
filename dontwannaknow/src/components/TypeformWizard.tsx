@@ -50,16 +50,15 @@ function parseDate(input: string): ParsedDate | null {
   return null;
 }
 
-type Step = "intro" | "label" | "year" | "country" | "city" | "meetings" | "more" | "review";
+type Step = "intro" | "label" | "year" | "country" | "city" | "more" | "review";
 
-const STEP_ORDER: Step[] = ["label", "year", "country", "city", "meetings"];
+const STEP_ORDER: Step[] = ["label", "year", "country", "city"];
 
 type DraftPerson = {
   label: string;
   year: string;
   country: Country;
   citySlug: string;
-  meetings: string;
 };
 
 const EMPTY_DRAFT: DraftPerson = {
@@ -67,7 +66,6 @@ const EMPTY_DRAFT: DraftPerson = {
   year: "",
   country: "CZ",
   citySlug: "",
-  meetings: "",
 };
 
 const DEFAULT_LABELS = ["You", "Mom", "Grandma"];
@@ -106,7 +104,7 @@ export default function TypeformWizard({ onSubmit }: Props) {
     setError(null);
     if (step === "intro") return;
     if (step === "review") return setStep("more");
-    if (step === "more") return setStep("meetings");
+    if (step === "more") return setStep("city");
     const i = STEP_ORDER.indexOf(step as Step);
     if (i > 0) setStep(STEP_ORDER[i - 1]);
     else setStep("intro");
@@ -124,7 +122,6 @@ export default function TypeformWizard({ onSubmit }: Props) {
   const finalizeDraft = (): Person | null => {
     const parsed = parseDate(draft.year);
     if (!parsed) return null;
-    const m = draft.meetings.trim() ? Number(draft.meetings.trim()) : undefined;
     return {
       label: draft.label.trim() || "Someone",
       birthYear: parsed.year,
@@ -132,7 +129,6 @@ export default function TypeformWizard({ onSubmit }: Props) {
       birthDay: parsed.day,
       country: draft.country,
       citySlug: draft.citySlug || undefined,
-      meetingsPerYear: m !== undefined && !Number.isNaN(m) && m > 0 ? m : undefined,
     };
   };
 
@@ -156,7 +152,7 @@ export default function TypeformWizard({ onSubmit }: Props) {
       goNext();
       return;
     }
-    if (step === "country" || step === "city" || step === "meetings") {
+    if (step === "country" || step === "city") {
       goNext();
       return;
     }
@@ -236,14 +232,6 @@ export default function TypeformWizard({ onSubmit }: Props) {
       cs: cityOptions.length ? `A v jakém městě?` : `Pokračujme.`,
       en: cityOptions.length ? `And in which city?` : `Let's continue.`,
       hint: { cs: "Můžeš to klidně přeskočit.", en: "Feel free to skip." },
-    },
-    meetings: {
-      cs: `Jak často ji/ho vídáš ročně?`,
-      en: `How often do you see them per year?`,
-      hint: {
-        cs: "Volitelné. Pokud to vyplníš, spočítáme, kolik setkání ti s nimi nejspíš zbývá.",
-        en: "Optional. If you fill this in, we'll estimate how many more meetings you've got left.",
-      },
     },
     more: {
       cs: "Hotovo!",
@@ -425,39 +413,6 @@ export default function TypeformWizard({ onSubmit }: Props) {
           </div>
         )}
 
-        {/* ── MEETINGS ──────────────────────────────── */}
-        {step === "meetings" && (
-          <div className="wizard-step">
-            <h2 className="wizard-question">{renderQuestionText("meetings")}</h2>
-            <p className="wizard-hint">{renderHint("meetings")}</p>
-            <input
-              ref={inputRef as React.RefObject<HTMLInputElement>}
-              className="wizard-input"
-              type="number"
-              min={0}
-              max={365}
-              placeholder={lang === "cs" ? "např. 4" : "e.g. 4"}
-              value={draft.meetings}
-              onChange={(e) => setDraft({ ...draft, meetings: e.target.value })}
-              onKeyDown={onKeyDown}
-            />
-            <div className="wizard-actions">
-              <button className="primary" onClick={validateAndAdvance}>
-                {lang === "cs" ? "Dál" : "Next"} →
-              </button>
-              <button
-                className="link"
-                type="button"
-                onClick={() => {
-                  setDraft({ ...draft, meetings: "" });
-                  goNext();
-                }}
-              >
-                {lang === "cs" ? "přeskočit" : "skip"}
-              </button>
-            </div>
-          </div>
-        )}
 
         {/* ── MORE: Add another, or finish? ─────────── */}
         {step === "more" && (

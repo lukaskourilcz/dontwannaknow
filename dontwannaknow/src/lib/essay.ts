@@ -14,7 +14,6 @@ import { statsForYear } from "../data/stats";
 import { cultureForDecade } from "../data/culture";
 import { generationFor } from "../data/generations";
 import { birthsAround } from "../data/famousBirths";
-import { lifeMathFor, lifeExpectancyFor } from "../data/lifeExpectancy";
 import { zodiacFor } from "../data/zodiac";
 import { namesFor } from "../data/babyNames";
 import { cosmicEventsIn } from "../data/cosmicEvents";
@@ -281,26 +280,6 @@ export function buildEssay(person: Person): EssayParagraph[] {
       );
     }
     out.push({ heading: "People who arrived around the same time", text: lines.join(" ") });
-  }
-
-  // ── Meetings remaining ─────────────────────────────────────────────
-  if (person.meetingsPerYear && person.meetingsPerYear > 0) {
-    const life = lifeMathFor(birthYear, person.country);
-    const lifeExp = lifeExpectancyFor(person.country);
-    if (life.alreadyPastExpectancy) {
-      out.push({
-        heading: "What's left",
-        text: `${label} is ${life.ageNow}, already past the rough country life-expectancy of ${lifeExp}. Every visit is a gift you can't count out.`,
-      });
-    } else {
-      const meetings = Math.round(
-        life.expectedRemainingYears * person.meetingsPerYear,
-      );
-      out.push({
-        heading: "What's left",
-        text: `If ${label.toLowerCase()} lives to the country's rough life expectancy of ${lifeExp}, that's about ${life.expectedRemainingYears} more years — and if you see them about ${person.meetingsPerYear} time${person.meetingsPerYear === 1 ? "" : "s"} a year, that's roughly ${meetings} more meeting${meetings === 1 ? "" : "s"}. Worth choosing well.`,
-      });
-    }
   }
 
   // ── Famous-people paragraph ──────────────────────────────────────

@@ -80,9 +80,7 @@ export default function HeroSummary({ report }: Props) {
       generation: "Generace",
       yearsLeft: "Pravděpodobně zbývá",
       yearsPast: "Za průměrnou délkou života",
-      meetingsLeft: "Setkání zbývá",
-      meetingsHint: (n: number) => `při ${n}× ročně`,
-      meetingsBonus: "Každá návštěva je bonus.",
+      bonusNote: "Každý den navíc je dar.",
       bonusYears: "let bonusu",
       years: (n: number) => (n === 1 ? "rok" : n < 5 ? "roky" : "let"),
     },
@@ -92,9 +90,7 @@ export default function HeroSummary({ report }: Props) {
       generation: "Generation",
       yearsLeft: "Years likely left",
       yearsPast: "Past life expectancy",
-      meetingsLeft: "Meetings left",
-      meetingsHint: (n: number) => `at ${n}× a year`,
-      meetingsBonus: "Every visit is a bonus.",
+      bonusNote: "Every day past it is a gift.",
       bonusYears: "bonus years",
       years: (n: number) => (n === 1 ? "year" : "years"),
     },
@@ -137,7 +133,7 @@ export default function HeroSummary({ report }: Props) {
       label: t.yearsPast,
       value: `+${past}`,
       unit: t.bonusYears,
-      detail: t.meetingsBonus,
+      detail: t.bonusNote,
       accent: true,
     });
   } else {
@@ -146,16 +142,6 @@ export default function HeroSummary({ report }: Props) {
       value: String(yearsRemaining),
       unit: `~ ${t.years(yearsRemaining)}`,
       accent: false,
-    });
-  }
-
-  if (person.meetingsPerYear && person.meetingsPerYear > 0 && past === 0) {
-    const meetings = Math.round(yearsRemaining * person.meetingsPerYear);
-    cards.push({
-      label: t.meetingsLeft,
-      value: String(meetings),
-      detail: t.meetingsHint(person.meetingsPerYear),
-      accent: true,
     });
   }
 

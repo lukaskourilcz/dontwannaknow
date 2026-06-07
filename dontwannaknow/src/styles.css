@@ -1269,7 +1269,6 @@ button:active {
   .row .label-input { grid-column: 1 / 2; }
   .row .year-input { grid-column: 2 / 3; }
   .row .country-input { grid-column: 1 / 2; }
-  .row .meetings-input { grid-column: 2 / 3; }
   .row .city-input { grid-column: 1 / -1; }
   .row .remove {
     position: absolute;

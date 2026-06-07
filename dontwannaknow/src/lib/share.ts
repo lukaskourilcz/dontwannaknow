@@ -11,7 +11,6 @@ type Compact = {
   d?: number;
   c: Country;
   s?: string;
-  v?: number;
 };
 
 function toBase64Url(input: string): string {
@@ -31,7 +30,6 @@ export function encodePeopleUrl(people: Person[]): string {
     d: p.birthDay,
     c: p.country,
     s: p.citySlug,
-    v: p.meetingsPerYear,
   }));
   return toBase64Url(JSON.stringify(compact));
 }
@@ -50,7 +48,6 @@ export function decodePeopleUrl(hash: string): Person[] | null {
         birthDay: c.d,
         country: c.c,
         citySlug: c.s,
-        meetingsPerYear: c.v,
       }));
   } catch {
     return null;
