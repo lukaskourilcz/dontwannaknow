@@ -121,7 +121,9 @@ body {
 }
 
 .lang-bar {
-  display: flex;
+  /* Language switcher hidden for now — testing Czech only. The toggle and
+     all i18n still work; remove this `display: none` to bring it back. */
+  display: none;
   justify-content: flex-end;
   margin-bottom: 1.2rem;
 }
