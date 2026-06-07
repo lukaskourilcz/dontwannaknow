@@ -8,14 +8,22 @@
 export type Country = "CZ" | "ES" | "US" | "UA" | "CA" | "MX" | "INTL";
 
 export const COUNTRY_LABELS: Record<Country, string> = {
-  CZ: "Česko / Československo",
+  CZ: "Česko",
   ES: "Španělsko",
   US: "USA",
-  UA: "Ukrajina / Ukrajinská SSR",
+  UA: "Ukrajina",
   CA: "Kanada",
   MX: "Mexiko",
   INTL: "Kdekoliv (jen globální fakta)",
 };
+
+/** Period-correct country name for a given birth year (someone born in 1960
+ *  lived in Československu, someone born in 2000 v Česku). */
+export function countryLabelFor(country: Country, birthYear: number): string {
+  if (country === "CZ") return birthYear < 1993 ? "Československo" : "Česko";
+  if (country === "UA") return birthYear < 1991 ? "Sovětská Ukrajina" : "Ukrajina";
+  return COUNTRY_LABELS[country];
+}
 
 export type CountryDecade = {
   country: Exclude<Country, "INTL">;

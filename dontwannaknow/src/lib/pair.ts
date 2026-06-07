@@ -6,7 +6,7 @@ import { g, type Person } from "./facts";
 import { findCity } from "../data/cities";
 import { CITY_COORDS, distanceKm } from "../data/cityCoords";
 import { EVENTS } from "../data/events";
-import { COUNTRY_LABELS } from "../data/countryDecades";
+import { countryLabelFor } from "../data/countryDecades";
 import { cultureForDecade } from "../data/culture";
 
 export type PairSection = {
@@ -92,11 +92,11 @@ export function buildPairEssay(a: Person, b: Person): PairSection[] {
   const cityOlder = findCity(older.citySlug);
   const cityYounger = findCity(younger.citySlug);
   const placeOlder = cityOlder
-    ? `${cityOlder.name}, ${COUNTRY_LABELS[older.country]}`
-    : COUNTRY_LABELS[older.country];
+    ? `${cityOlder.name}, ${countryLabelFor(older.country, older.birthYear)}`
+    : countryLabelFor(older.country, older.birthYear);
   const placeYounger = cityYounger
-    ? `${cityYounger.name}, ${COUNTRY_LABELS[younger.country]}`
-    : COUNTRY_LABELS[younger.country];
+    ? `${cityYounger.name}, ${countryLabelFor(younger.country, younger.birthYear)}`
+    : countryLabelFor(younger.country, younger.birthYear);
 
   const ageGap = younger.birthYear - older.birthYear;
   const sameCity = Boolean(
@@ -158,7 +158,7 @@ export function buildPairEssay(a: Person, b: Person): PairSection[] {
     } else if (older.country !== younger.country) {
       out.push({
         heading: "Jak daleko od sebe doopravdy byli",
-        text: `Jeden v zemi ${COUNTRY_LABELS[older.country]}, druhý v zemi ${COUNTRY_LABELS[younger.country]} — taková vzdálenost, kterou většina lidí jejich doby překonala jednou za život, pokud vůbec.`,
+        text: `Jeden v zemi ${countryLabelFor(older.country, older.birthYear)}, druhý v zemi ${countryLabelFor(younger.country, younger.birthYear)} — taková vzdálenost, kterou většina lidí jejich doby překonala jednou za život, pokud vůbec.`,
       });
     }
   }
@@ -174,7 +174,7 @@ export function buildPairEssay(a: Person, b: Person): PairSection[] {
     (e) => e.year >= sharedFrom && e.year <= sharedTo,
   )
     .sort((a, b) => Math.abs(a.year - (sharedFrom + 10)) - Math.abs(b.year - (sharedFrom + 10)))
-    .slice(0, 6)
+    .slice(0, 15)
     .sort((a, b) => a.year - b.year);
 
   if (sharedEvents.length > 0) {

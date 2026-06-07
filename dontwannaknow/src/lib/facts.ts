@@ -5,10 +5,11 @@ import { statsForYear, type DecadeStats } from "../data/stats";
 import { cultureForDecade, type CultureSnapshot } from "../data/culture";
 import {
   decadeFactsFor,
-  COUNTRY_LABELS,
+  countryLabelFor,
   type Country,
   type CountryDecade,
 } from "../data/countryDecades";
+import { fmtMoney } from "./money";
 import { famousFor } from "../data/famousPeople";
 import { eventsForCountry } from "../data/countryEvents";
 import { cityFactsFor, findCity } from "../data/cities";
@@ -106,12 +107,6 @@ function pickFormative(birthYear: number, max = 4): typeof EVENTS {
 
 function inventionsBornBefore(birthYear: number) {
   return INVENTIONS.filter((i) => i.year > birthYear);
-}
-
-function fmtUsd(n: number): string {
-  if (n < 1) return `${Math.round(n * 100)}¢`;
-  if (n < 100) return `$${n.toFixed(2)}`;
-  return `$${n.toLocaleString("en-US", { maximumFractionDigits: 0 })}`;
 }
 
 function decadeWord(decadeStart: number): string {
@@ -229,13 +224,13 @@ export function pairReport(a: Person, b: Person): PairSection[] {
   return buildPairEssay(a, b);
 }
 
-export function reportFor(person: Person): PersonReport {
+export function reportFor(person: Person, excludeWorld = false): PersonReport {
   const { birthYear, label } = person;
   const ageNow = CURRENT_YEAR - birthYear;
   const birthDecade = Math.floor(birthYear / 10) * 10;
   const birthStats = statsForYear(birthYear);
   const youthCulture = cultureForDecade(birthYear + 15);
-  const countryLabel = COUNTRY_LABELS[person.country];
+  const countryLabel = countryLabelFor(person.country, birthYear);
   const city = findCity(person.citySlug);
   const cityLabel = city ? city.name : null;
 
@@ -285,23 +280,26 @@ export function reportFor(person: Person): PersonReport {
     });
   });
 
-  // ── Beautiful: formative world moments ───────────────────────────────
-  pickFormative(birthYear).forEach((e) => {
-    const age = ageAt(birthYear, e.year);
-    const ageWord = age === 0 ? "v roce narození" : `ve věku ${age} let`;
-    facts.push({
-      category: e.mood === "beautiful" || e.mood === "milestone" ? "beautiful" : "world",
-      text: `${capitalize(ageWord)}: ${e.text}.`,
+  // ── Beautiful: formative world moments (skipped in a pair — they live
+  //    in the shared comparison card) ───────────────────────────────────
+  if (!excludeWorld) {
+    pickFormative(birthYear).forEach((e) => {
+      const age = ageAt(birthYear, e.year);
+      const ageWord = age === 0 ? "v roce narození" : `ve věku ${age} let`;
+      facts.push({
+        category: e.mood === "beautiful" || e.mood === "milestone" ? "beautiful" : "world",
+        text: `${capitalize(ageWord)}: ${e.text}.`,
+      });
     });
-  });
 
-  pickN(eventsByMood(birthYear, "beautiful"), 1).forEach((e) => {
-    const age = ageAt(birthYear, e.year);
-    facts.push({
-      category: "beautiful",
-      text: `${label} ${g(person.gender, "měl", "měla")} ${age} let, když ${e.text}.`,
+    pickN(eventsByMood(birthYear, "beautiful"), 1).forEach((e) => {
+      const age = ageAt(birthYear, e.year);
+      facts.push({
+        category: "beautiful",
+        text: `${label} ${g(person.gender, "měl", "měla")} ${age} let, když ${e.text}.`,
+      });
     });
-  });
+  }
 
   // ── Everyday life ────────────────────────────────────────────────────
   facts.push({
@@ -310,11 +308,11 @@ export function reportFor(person: Person): PersonReport {
   });
   facts.push({
     category: "everyday",
-    text: `Bochník chleba stál ${fmtUsd(birthStats.loafOfBreadUsd)} a galon benzinu vyšel na ${fmtUsd(birthStats.gallonOfGasUsd)}.`,
+    text: `Bochník chleba stál ${fmtMoney(birthStats.loafOfBreadUsd, person.country)} a litr benzinu vyšel na ${fmtMoney(birthStats.gallonOfGasUsd / 3.785, person.country)}.`,
   });
   facts.push({
     category: "everyday",
-    text: `Průměrný Američan vydělával zhruba ${fmtUsd(birthStats.usAverageAnnualWageUsd)} ročně a běžný dům stál kolem ${fmtUsd(birthStats.medianUsHouseUsd)}.`,
+    text: `Průměrná roční mzda se pohybovala kolem ${fmtMoney(birthStats.usAverageAnnualWageUsd, person.country)} a běžný dům stál zhruba ${fmtMoney(birthStats.medianUsHouseUsd, person.country)}.`,
   });
   facts.push({
     category: "everyday",
@@ -373,6 +371,6 @@ export function reportFor(person: Person): PersonReport {
     countryLabel,
     cityLabel,
     facts,
-    essay: buildEssay(person),
+    essay: buildEssay(person, excludeWorld),
   };
 }

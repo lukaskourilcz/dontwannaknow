@@ -170,7 +170,11 @@ export async function generatePdf(
 
   // ── Essay paragraphs ───────────────────────────────────────────
   for (const para of report.essay) {
-    cursorY = writeParagraph(doc, para.heading, para.text, cursorY, pageWidth, pageHeight);
+    const body =
+      para.items && para.items.length
+        ? para.items.map((it) => `• ${it}`).join("\n")
+        : para.text ?? "";
+    cursorY = writeParagraph(doc, para.heading, body, cursorY, pageWidth, pageHeight);
   }
 
   // ── Guarantee at least two pages ───────────────────────────────
@@ -198,7 +202,9 @@ export async function generatePdf(
     doc.setFontSize(10);
     doc.setTextColor(30, 27, 24);
     const used = new Set<string>(
-      report.essay.map((p) => p.text.toLowerCase()),
+      report.essay.map((p) =>
+        (p.text ?? p.items?.join(" ") ?? "").toLowerCase(),
+      ),
     );
     const extras = report.facts
       .map((f) => f.text)

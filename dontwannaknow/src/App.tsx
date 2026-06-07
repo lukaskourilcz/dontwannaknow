@@ -5,7 +5,6 @@ import {
   m,
   AnimatePresence,
   useReducedMotion,
-  type Variants,
 } from "motion/react";
 import TypeformWizard from "./components/TypeformWizard";
 import ErrorBoundary from "./components/ErrorBoundary";
@@ -19,15 +18,6 @@ import "./styles.css";
 const Results = lazy(() => import("./components/Results"));
 
 const EASE = [0.22, 1, 0.36, 1] as const;
-
-const heroContainer: Variants = {
-  hidden: {},
-  show: { transition: { staggerChildren: 0.08, delayChildren: 0.05 } },
-};
-const heroItem: Variants = {
-  hidden: { opacity: 0, y: 10 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: EASE } },
-};
 
 function LangToggle() {
   const { lang, setLang } = useLang();
@@ -62,7 +52,10 @@ function AppInner() {
   const [reports, setReports] = useState<PersonReport[] | null>(null);
 
   const generate = (list: Person[]) => {
-    setReports(list.map(reportFor));
+    // In a two-person comparison the shared world events live in the pair
+    // card, so each individual report skips them to avoid repetition.
+    const excludeWorld = list.length >= 2;
+    setReports(list.map((p) => reportFor(p, excludeWorld)));
   };
 
   useEffect(() => {
@@ -95,22 +88,11 @@ function AppInner() {
     }
   };
 
-  // Hero entrance: a quiet staggered fade-up, skipped under reduced-motion.
-  const heroAnim = reduced
-    ? {}
-    : { variants: heroContainer, initial: "hidden" as const, animate: "show" as const };
-  const heroItemAnim = reduced ? {} : { variants: heroItem };
-
   return (
     <div className="page">
       <div className="lang-bar">
         <LangToggle />
       </div>
-      <m.header className="hero" {...heroAnim}>
-        <m.p className="eyebrow" {...heroItemAnim}>{t("hero.eyebrow")}</m.p>
-        <m.h1 {...heroItemAnim}>{t("hero.title")}</m.h1>
-        <m.p className="lede" {...heroItemAnim}>{t("hero.lede")}</m.p>
-      </m.header>
 
       <main>
         <AnimatePresence mode="wait" initial={false}>

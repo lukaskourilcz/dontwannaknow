@@ -1,37 +1,24 @@
-// Current overall life expectancy at birth, by country (rounded to nearest
-// whole year). Used as a rough yardstick for the "meetings remaining"
-// estimate. Sources: UN World Population Prospects 2022; CIA World
-// Factbook 2024 round.
+// Current life expectancy at birth, by country and sex (rounded to whole
+// years). Used to scale the "life in weeks" grid. Sources: UN World
+// Population Prospects 2022 / national statistics, ~2023 round.
 
 import type { Country } from "./countryDecades";
 
-export const LIFE_EXPECTANCY_NOW: Record<Exclude<Country, "INTL">, number> = {
-  CZ: 79,
-  ES: 83,
-  US: 77,
-  UA: 71, // war-affected; pre-war was ~72
-  CA: 82,
-  MX: 75,
+// [male, female]
+const LIFE_EXPECTANCY: Record<Exclude<Country, "INTL">, [number, number]> = {
+  CZ: [76, 82],
+  ES: [80, 86],
+  US: [75, 80],
+  UA: [66, 76], // war-affected
+  CA: [80, 84],
+  MX: [72, 78],
 };
 
-export function lifeExpectancyFor(country: Country): number {
-  if (country === "INTL") return 78;
-  return LIFE_EXPECTANCY_NOW[country];
-}
-
-export type LifeMath = {
-  ageNow: number;
-  expectedRemainingYears: number; // never negative; 0 if past life expectancy
-  alreadyPastExpectancy: boolean;
-};
-
-export function lifeMathFor(birthYear: number, country: Country): LifeMath {
-  const ageNow = new Date().getFullYear() - birthYear;
-  const exp = lifeExpectancyFor(country);
-  const remaining = Math.max(0, exp - ageNow);
-  return {
-    ageNow,
-    expectedRemainingYears: remaining,
-    alreadyPastExpectancy: ageNow > exp,
-  };
+export function lifeExpectancyFor(
+  country: Country,
+  gender: "m" | "f" = "m",
+): number {
+  if (country === "INTL") return gender === "f" ? 75 : 70;
+  const [m, f] = LIFE_EXPECTANCY[country];
+  return gender === "f" ? f : m;
 }

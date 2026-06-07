@@ -7,7 +7,8 @@ import { CITY_FACTS, findCity } from "../data/cities";
 import { COUNTRY_EVENTS } from "../data/countryEvents";
 import { EVENTS } from "../data/events";
 import { statsForYear } from "../data/stats";
-import { COUNTRY_LABELS } from "../data/countryDecades";
+import { countryLabelFor } from "../data/countryDecades";
+import { fmtMoney } from "../lib/money";
 
 type Props = {
   person: Person;
@@ -18,7 +19,7 @@ function masthead(person: Person): string {
   if (city) {
     return `${city.name.toUpperCase()} KRONIKA`;
   }
-  return `${COUNTRY_LABELS[person.country].toUpperCase()} KRONIKA`;
+  return `${countryLabelFor(person.country, person.birthYear).toUpperCase()} KRONIKA`;
 }
 
 const MONTHS = [
@@ -110,13 +111,10 @@ export default function Newspaper({ person }: Props) {
         <div>
           <h3>Co co stálo</h3>
           <p>
-            Chléb,{" "}
-            {stats.loafOfBreadUsd < 1
-              ? `${Math.round(stats.loafOfBreadUsd * 100)}¢`
-              : `$${stats.loafOfBreadUsd.toFixed(2)}`}{" "}
-            za bochník. Benzin, {Math.round(stats.gallonOfGasUsd * 100)}¢ za galon.
-            Průměrná mzda se pohybuje kolem $
-            {stats.usAverageAnnualWageUsd.toLocaleString("en-US")} ročně.
+            Chléb {fmtMoney(stats.loafOfBreadUsd, person.country)} za bochník,
+            litr benzinu {fmtMoney(stats.gallonOfGasUsd / 3.785, person.country)}.
+            Průměrná roční mzda kolem{" "}
+            {fmtMoney(stats.usAverageAnnualWageUsd, person.country)}.
           </p>
         </div>
       </div>

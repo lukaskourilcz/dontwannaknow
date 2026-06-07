@@ -1210,7 +1210,7 @@ button:active {
 /* ── Focus visibility ──────────────────────────────────────────────
    Low-specificity baseline so links, toggles and tabs get a clear
    keyboard ring; bespoke button rules above still win where set. */
-:where(a, [role="tab"], summary, input, select):focus-visible {
+:where(a, [role="tab"], summary):focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
   border-radius: var(--r-sm);
@@ -1534,8 +1534,9 @@ input[type="number"] {
   }
 }
 
-/* ── Pair "what they both lived through" as a clean list ──────────── */
-.pair-event-list {
+/* ── Event/fact bullet lists (essay stages + pair comparison) ─────── */
+.pair-event-list,
+.essay-list {
   list-style: none;
   margin: var(--s-2) 0 0;
   padding: 0;
@@ -1543,7 +1544,8 @@ input[type="number"] {
   flex-direction: column;
   gap: var(--s-3);
 }
-.pair-event-list li {
+.pair-event-list li,
+.essay-list li {
   font-family: var(--serif);
   font-size: 1.08rem;
   line-height: 1.5;
@@ -1556,4 +1558,30 @@ input[type="number"] {
 .wizard-gender-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   max-width: 380px;
+}
+
+/* ── Landing: the hero lives on the wizard's intro screen and fits in
+   one viewport, both axes ───────────────────────────────────────── */
+.wizard-intro {
+  min-height: min(74vh, 600px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: var(--s-2);
+}
+.wizard-hero-title {
+  font-size: clamp(2.1rem, 6.2vw, 3.8rem);
+  line-height: 1.03;
+  letter-spacing: -0.02em;
+  margin: var(--s-2) 0 var(--s-1);
+  max-width: 16ch;
+}
+.wizard-intro .wizard-lede {
+  margin: 0 auto;
+  max-width: 44ch;
+}
+.wizard-intro .wizard-cta {
+  margin-top: var(--s-4);
 }

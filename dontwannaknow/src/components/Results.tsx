@@ -6,6 +6,7 @@ import SkyMap from "./SkyMap";
 import LifeGrid from "./LifeGrid";
 import Newspaper from "./Newspaper";
 import { CITY_COORDS } from "../data/cityCoords";
+import { lifeExpectancyFor } from "../data/lifeExpectancy";
 import { buildShareUrl } from "../lib/share";
 import { generatePdf } from "../lib/pdf";
 import { useLang } from "../i18n/useLang";
@@ -211,6 +212,7 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
               )}
               ageNow={r.ageNow}
               label={r.person.label}
+              lifeExpectancyYears={lifeExpectancyFor(r.person.country, r.person.gender)}
             />
 
             {r.person.birthMonth &&
@@ -261,7 +263,15 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
                 {r.essay.map((p, j) => (
                   <section key={j} className="essay-paragraph">
                     <h4>{p.heading}</h4>
-                    <p>{p.text}</p>
+                    {p.items ? (
+                      <ul className="essay-list">
+                        {p.items.map((it, k) => (
+                          <li key={k}>{it}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p>{p.text}</p>
+                    )}
                   </section>
                 ))}
               </div>

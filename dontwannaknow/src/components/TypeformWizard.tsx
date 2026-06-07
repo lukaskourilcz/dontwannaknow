@@ -224,7 +224,6 @@ export default function TypeformWizard({ onSubmit }: Props) {
     gender: {
       cs: `${draft.label || "Tahle osoba"} — muž, nebo žena?`,
       en: `${draft.label || "This person"} — man or woman?`,
-      hint: { cs: "Aby texty zněly přirozeně.", en: "So the prose reads naturally." },
     },
     year: {
       cs: `Kdy se ${draft.label || "tahle osoba"} ${g(draft.gender, "narodil", "narodila")}?`,
@@ -282,7 +281,8 @@ export default function TypeformWizard({ onSubmit }: Props) {
         {/* ── INTRO ────────────────────────────────── */}
         {step === "intro" && (
           <div className="wizard-intro">
-            <h2 className="wizard-question">{renderQuestionText("intro")}</h2>
+            <p className="eyebrow">{t("hero.eyebrow")}</p>
+            <h1 className="wizard-hero-title">{t("hero.title")}</h1>
             <p className="wizard-lede">
               {lang === "cs"
                 ? "Nejdřív pár otázek o tobě, pak o člověku, s kterým se chceš porovnat. Za dvě minuty uvidíš oba vaše světy vedle sebe."
@@ -343,7 +343,6 @@ export default function TypeformWizard({ onSubmit }: Props) {
         {step === "gender" && (
           <div className="wizard-step">
             <h2 className="wizard-question">{renderQuestionText("gender")}</h2>
-            <p className="wizard-hint">{renderHint("gender")}</p>
             <div className="wizard-country-grid wizard-gender-grid">
               {(
                 [
@@ -437,7 +436,6 @@ export default function TypeformWizard({ onSubmit }: Props) {
                   {cityOptions.map((c) => (
                     <option key={c.slug} value={c.slug}>
                       {c.name}
-                      {c.aka ? ` (${c.aka})` : ""}
                     </option>
                   ))}
                 </select>

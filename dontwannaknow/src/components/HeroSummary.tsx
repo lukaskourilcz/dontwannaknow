@@ -124,7 +124,6 @@ export default function HeroSummary({ report }: Props) {
     cards.push({
       label: t.yearsLeft,
       value: String(yearsRemaining),
-      unit: `~ ${t.years(yearsRemaining)}`,
       accent: false,
     });
   }

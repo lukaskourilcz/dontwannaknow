@@ -89,7 +89,7 @@ export default function WorldMap({ birthYear }: Props) {
                 />
                 <span>
                   <strong>{g.name}</strong>
-                  {g.becameText ? ` — later ${g.becameText}` : ""}
+                  {g.becameText ? ` — později ${g.becameText}` : ""}
                 </span>
               </li>
             ))}

@@ -2,10 +2,11 @@
 // z města, ze země, ze světa, dobový kolorit dekády. Výstupem je pole
 // odstavců, každý s nadpisem a jedním souvislým blokem textu.
 
-import { g, type Person, type Gender } from "./facts";
+import { g, type Person } from "./facts";
+import { fmtMoney } from "./money";
 import { findCity, cityFactsFor } from "../data/cities";
 import { eventsForCountry } from "../data/countryEvents";
-import { decadeFactsFor, COUNTRY_LABELS } from "../data/countryDecades";
+import { decadeFactsFor, countryLabelFor } from "../data/countryDecades";
 import { famousFor } from "../data/famousPeople";
 import { EVENTS } from "../data/events";
 import { goneCountriesAlive } from "../data/countries";
@@ -25,7 +26,8 @@ import { eventsInMonth, eventsInMonthLifetime, eventsAroundMonth } from "../data
 
 export type EssayParagraph = {
   heading: string;
-  text: string;
+  text?: string;
+  items?: string[];
 };
 
 const CURRENT_YEAR = new Date().getFullYear();
@@ -49,7 +51,7 @@ function capitalize(s: string): string {
   return s.length === 0 ? s : s[0].toUpperCase() + s.slice(1);
 }
 
-function gatherEvents(person: Person): Event[] {
+function gatherEvents(person: Person, excludeWorld = false): Event[] {
   const events: Event[] = [];
   const city = findCity(person.citySlug);
   if (city) {
@@ -66,51 +68,19 @@ function gatherEvents(person: Person): Event[] {
       events.push({ year: e.year, text: e.text, scope: "country" }),
     );
   }
-  EVENTS.filter(
-    (e) =>
-      e.year >= person.birthYear &&
-      e.year <= CURRENT_YEAR &&
-      e.year - person.birthYear <= 90,
-  ).forEach((e) =>
-    events.push({ year: e.year, text: e.text, scope: "world" }),
-  );
+  // In a two-person comparison the shared world events live in the pair card,
+  // so we drop them from each individual's essay to avoid repeating them.
+  if (!excludeWorld) {
+    EVENTS.filter(
+      (e) =>
+        e.year >= person.birthYear &&
+        e.year <= CURRENT_YEAR &&
+        e.year - person.birthYear <= 90,
+    ).forEach((e) =>
+      events.push({ year: e.year, text: e.text, scope: "world" }),
+    );
+  }
   return events.sort((a, b) => a.year - b.year);
-}
-
-// Spojí seznam událostí do souvislého textu a zachová zmínky o věku.
-function stitch(events: Event[], birthYear: number, gender: Gender, max = 8): string {
-  if (events.length === 0) return "";
-  const picked = pickN(events, max).sort((a, b) => a.year - b.year);
-  const parts: string[] = [];
-  picked.forEach((e, i) => {
-    const age = e.year - birthYear;
-    let lead: string;
-    if (i === 0) {
-      lead = age <= 0
-        ? `V roce ${e.year}, v roce příchodu na svět,`
-        : `Ve věku ${age} let, v roce ${e.year},`;
-    } else {
-      const prevAge = picked[i - 1].year - birthYear;
-      if (e.year === picked[i - 1].year) {
-        lead = "a téhož roku";
-      } else if (age - prevAge === 1) {
-        lead = "následující rok";
-      } else if (age - prevAge <= 3) {
-        lead = `než ${g(gender, "dosáhl", "dosáhla")} věku ${age} let,`;
-      } else {
-        lead = `o léta později, ve věku ${age} let,`;
-      }
-    }
-    parts.push(`${lead} ${e.text}.`);
-  });
-  // Velké první písmeno každé věty a spojení do textu.
-  return parts.map((s) => s.charAt(0).toUpperCase() + s.slice(1)).join(" ");
-}
-
-function fmtUsd(n: number): string {
-  if (n < 1) return `${Math.round(n * 100)}¢`;
-  if (n < 100) return `$${n.toFixed(2)}`;
-  return `$${n.toLocaleString("en-US", { maximumFractionDigits: 0 })}`;
 }
 
 function joinList(items: string[]): string {
@@ -124,13 +94,13 @@ function pickOne<T>(arr: T[]): T | undefined {
   return arr.length > 0 ? arr[Math.floor(Math.random() * arr.length)] : undefined;
 }
 
-export function buildEssay(person: Person): EssayParagraph[] {
+export function buildEssay(person: Person, excludeWorld = false): EssayParagraph[] {
   const { birthYear, label, country, citySlug } = person;
   const city = findCity(citySlug);
-  const countryLabel = COUNTRY_LABELS[country];
+  const countryLabel = countryLabelFor(country, birthYear);
   const place = city ? `${city.name}, ${countryLabel}` : countryLabel;
 
-  const allEvents = gatherEvents(person);
+  const allEvents = gatherEvents(person, excludeWorld);
 
   // Roztřídí události podle životní fáze.
   const stages: { name: string; from: number; to: number }[] = [
@@ -160,7 +130,7 @@ export function buildEssay(person: Person): EssayParagraph[] {
   if (names) {
     out.push({
       heading: `Jména, která ${g(person.gender, "slýchal", "slýchala")} při třídním apelu`,
-      text: `V ${names.decadeStart}. letech patřila v zemi ${COUNTRY_LABELS[person.country]} k nejčastěji dávaným jménům: u chlapců ${joinList(names.boys.slice(0, 5))}; u dívek ${joinList(names.girls.slice(0, 5))}.`,
+      text: `V ${names.decadeStart}. letech patřila v zemi ${countryLabel} k nejčastěji dávaným jménům: u chlapců ${joinList(names.boys.slice(0, 5))}; u dívek ${joinList(names.girls.slice(0, 5))}.`,
     });
   }
 
@@ -171,7 +141,7 @@ export function buildEssay(person: Person): EssayParagraph[] {
     const decadeWord = `${edu.decadeStart}. letech`;
     const parts: string[] = [];
     parts.push(
-      `Škola ve ${decadeWord} v zemi ${COUNTRY_LABELS[person.country]}: povinná do ${edu.compulsoryEnd} let, přičemž průměrný dospělý absolvoval zhruba ${edu.avgYearsSchooling} let školní docházky. ${edu.literacyPct} % dospělých umělo číst a psát.`,
+      `Škola ve ${decadeWord} v zemi ${countryLabel}: povinná do ${edu.compulsoryEnd} let, přičemž průměrný dospělý absolvoval zhruba ${edu.avgYearsSchooling} let školní docházky. ${edu.literacyPct} % dospělých umělo číst a psát.`,
     );
     parts.push(
       `Zhruba ${edu.highSchoolGradPct} % vrstevníků dokončilo vyšší střední vzdělání; asi ${edu.universityPct} % dospělých kdy získalo vysokoškolský titul.`,
@@ -202,7 +172,7 @@ export function buildEssay(person: Person): EssayParagraph[] {
   const openingBits: string[] = [
     `${label} ${g(person.gender, "přišel", "přišla")} na svět v roce ${birthYear}, v místě ${place}.`,
     `Svět tehdy obývalo přibližně ${stats.worldPopulationBillions} miliard lidí — dnes je jich zhruba 8,1 miliardy.`,
-    `Bochník chleba stál ${fmtUsd(stats.loafOfBreadUsd)}, galon benzinu ${fmtUsd(stats.gallonOfGasUsd)} a průměrný Američan si ročně vydělal kolem ${fmtUsd(stats.usAverageAnnualWageUsd)}.`,
+    `Bochník chleba stál ${fmtMoney(stats.loafOfBreadUsd, country)}, litr benzinu ${fmtMoney(stats.gallonOfGasUsd / 3.785, country)} a průměrná roční mzda se pohybovala kolem ${fmtMoney(stats.usAverageAnnualWageUsd, country)}.`,
   ];
   if (gone.length > 0) {
     const goneNames = joinList(gone.slice(0, 3).map((g) => g.name));
@@ -221,8 +191,11 @@ export function buildEssay(person: Person): EssayParagraph[] {
       (e) => e.year >= stage.from && e.year <= stage.to,
     );
     if (stageEvents.length === 0) continue;
-    const prose = stitch(stageEvents, birthYear, person.gender, 10);
-    if (prose) out.push({ heading: stage.name, text: prose });
+    const picked = pickN(stageEvents, 10).sort((a, b) => a.year - b.year);
+    out.push({
+      heading: stage.name,
+      items: picked.map((e) => `${e.year} — ${capitalize(e.text)}`),
+    });
   }
 
   // ── Texture paragraph (daily life) ────────────────────────────────
@@ -313,10 +286,9 @@ export function buildEssay(person: Person): EssayParagraph[] {
   const cosmic = cosmicEventsIn(birthYear, CURRENT_YEAR);
   if (cosmic.length > 0) {
     const picks = pickN(cosmic, Math.min(4, cosmic.length)).sort((a, b) => a.year - b.year);
-    const lines = picks.map((c) => `V roce ${c.year} ${c.text}`);
     out.push({
       heading: `Co dělalo nebe, dokud tu ${g(person.gender, "byl", "byla")}`,
-      text: lines.join(". ") + ".",
+      items: picks.map((c) => `${c.year} — ${capitalize(c.text)}`),
     });
   }
 
@@ -340,13 +312,12 @@ export function buildEssay(person: Person): EssayParagraph[] {
     const sample = pickN(livedDeaths, Math.min(5, livedDeaths.length)).sort(
       (a, b) => a.year - b.year,
     );
-    const lines = sample.map((d) => {
-      const age = d.year - birthYear;
-      return `${age <= 0 ? `ještě dřív, než si cokoli ${g(person.gender, "pamatoval", "pamatovala")}` : `ve věku ${age} let`}, ${g(person.gender, "byl", "byla")} naživu, když v roce ${d.year} umírá ${d.name} (${d.role})${d.note ? ` — ${d.note}` : ""}`;
-    });
+    const items = sample.map(
+      (d) => `${d.year} — ${d.name} (${d.role})${d.note ? ` — ${d.note}` : ""}`,
+    );
     out.push({
       heading: `Životy, které skončily, zatímco ten ${g(person.gender, "jeho", "její")} běžel`,
-      text: capitalize(lines.join("; ")) + ".",
+      items,
     });
   }
 
@@ -354,13 +325,11 @@ export function buildEssay(person: Person): EssayParagraph[] {
   const stillAlive = speciesAliveAtBirth(birthYear, CURRENT_YEAR);
   if (stillAlive.length > 0) {
     const picks = pickN(stillAlive, Math.min(3, stillAlive.length));
-    const lines = picks.map((s) => {
-      const age = s.declaredExtinctYear - birthYear;
-      return `druh ${s.species} byl ještě naživu — oficiálně vyhynul až v roce ${s.declaredExtinctYear}${age > 0 ? ` (ve věku ${age} let)` : ""}, kdy ${s.note}`;
-    });
     out.push({
       heading: `Zvířata, která tu pobývala spolu s ${g(person.gender, "ním", "ní")}`,
-      text: capitalize(lines.join("; ")) + ".",
+      items: picks.map(
+        (s) => `${s.species} — vyhynul až v roce ${s.declaredExtinctYear}, kdy ${s.note}`,
+      ),
     });
   }
 
