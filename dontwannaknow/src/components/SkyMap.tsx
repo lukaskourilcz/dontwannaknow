@@ -25,14 +25,14 @@ const RADIUS = SVG_SIZE / 2 - 10;
 function projectAltAz(alt: number, az: number): { x: number; y: number } | null {
   if (alt <= 0) return null;
   const zenithAngle = 90 - alt;
-  const r = RADIUS * Math.tan((zenithAngle * Math.PI) / 360); // tan(z/2)
-  // Normalize so horizon (z=90) sits at RADIUS:
-  const r2 = (r / Math.tan((90 * Math.PI) / 360)) * RADIUS;
+  // Stereographic radius. tan(z/2) already maps the horizon (z=90°) to
+  // exactly RADIUS and the zenith (z=0°) to the centre — no extra scaling.
+  const r = RADIUS * Math.tan((zenithAngle * Math.PI) / 360);
   const azRad = (az * Math.PI) / 180;
   // SVG y grows down; north should be up.
   return {
-    x: CENTER + r2 * Math.sin(azRad),
-    y: CENTER - r2 * Math.cos(azRad),
+    x: CENTER + r * Math.sin(azRad),
+    y: CENTER - r * Math.cos(azRad),
   };
 }
 
@@ -80,8 +80,8 @@ function altAzForStar(
 }
 
 const PLANETS: { body: Body; name: string; color: string }[] = [
-  { body: Body.Mercury, name: "Mercury", color: "#b89878" },
-  { body: Body.Venus,   name: "Venus",   color: "#f0e3c2" },
+  { body: Body.Mercury, name: "Merkur",  color: "#b89878" },
+  { body: Body.Venus,   name: "Venuše",  color: "#f0e3c2" },
   { body: Body.Mars,    name: "Mars",    color: "#c84032" },
   { body: Body.Jupiter, name: "Jupiter", color: "#d8b070" },
   { body: Body.Saturn,  name: "Saturn",  color: "#c9b682" },
@@ -89,14 +89,14 @@ const PLANETS: { body: Body; name: string; color: string }[] = [
 
 function moonPhaseLabel(angle: number): string {
   // Phase angle 0 = new moon, 90 = first quarter, 180 = full, 270 = third quarter.
-  if (angle < 22.5 || angle >= 337.5) return "new moon";
-  if (angle < 67.5) return "waxing crescent";
-  if (angle < 112.5) return "first quarter";
-  if (angle < 157.5) return "waxing gibbous";
-  if (angle < 202.5) return "full moon";
-  if (angle < 247.5) return "waning gibbous";
-  if (angle < 292.5) return "last quarter";
-  return "waning crescent";
+  if (angle < 22.5 || angle >= 337.5) return "nov";
+  if (angle < 67.5) return "dorůstající srpek";
+  if (angle < 112.5) return "první čtvrť";
+  if (angle < 157.5) return "dorůstající měsíc";
+  if (angle < 202.5) return "úplněk";
+  if (angle < 247.5) return "couvající měsíc";
+  if (angle < 292.5) return "poslední čtvrť";
+  return "couvající srpek";
 }
 
 export default function SkyMap({ birthDate, lat, lon, cityName, svgRef }: Props) {
@@ -150,7 +150,7 @@ export default function SkyMap({ birthDate, lat, lon, cityName, svgRef }: Props)
     return { a: pa, b: pb };
   }).filter(Boolean) as { a: { x: number; y: number }; b: { x: number; y: number } }[];
 
-  const dateStr = birthDate.toISOString().slice(0, 10);
+  const dateStr = `${birthDate.getUTCDate()}. ${birthDate.getUTCMonth() + 1}. ${birthDate.getUTCFullYear()}`;
 
   return (
     <figure className="sky-map">
@@ -161,7 +161,7 @@ export default function SkyMap({ birthDate, lat, lon, cityName, svgRef }: Props)
         height={SVG_SIZE}
         xmlns="http://www.w3.org/2000/svg"
         role="img"
-        aria-label={`Night sky over ${cityName} on ${dateStr} at local ${viewTimeLocal}`}
+        aria-label={`Noční obloha nad ${cityName} dne ${dateStr} kolem ${viewTimeLocal} místního času`}
       >
         {/* Sky disc — twilight gradient */}
         <defs>
@@ -173,11 +173,11 @@ export default function SkyMap({ birthDate, lat, lon, cityName, svgRef }: Props)
         </defs>
         <circle cx={CENTER} cy={CENTER} r={RADIUS} fill="url(#sky-grad)" stroke="#7a6f56" />
 
-        {/* Cardinal labels */}
-        <text x={CENTER} y={10} textAnchor="middle" className="card-label">N</text>
-        <text x={SVG_SIZE - 4} y={CENTER + 4} textAnchor="end" className="card-label">E</text>
-        <text x={CENTER} y={SVG_SIZE - 2} textAnchor="middle" className="card-label">S</text>
-        <text x={4} y={CENTER + 4} textAnchor="start" className="card-label">W</text>
+        {/* Cardinal labels — S/V/J/Z (sever, východ, jih, západ) */}
+        <text x={CENTER} y={10} textAnchor="middle" className="card-label">S</text>
+        <text x={SVG_SIZE - 4} y={CENTER + 4} textAnchor="end" className="card-label">V</text>
+        <text x={CENTER} y={SVG_SIZE - 2} textAnchor="middle" className="card-label">J</text>
+        <text x={4} y={CENTER + 4} textAnchor="start" className="card-label">Z</text>
 
         {/* Constellation lines */}
         {dipperLines.map((l, i) => (
@@ -213,7 +213,7 @@ export default function SkyMap({ birthDate, lat, lon, cityName, svgRef }: Props)
         {moon && project(moon) && (
           <g>
             <circle cx={project(moon)!.x} cy={project(moon)!.y} r={6} fill="#e8e4cc" stroke="#fff" strokeWidth={0.5} />
-            <text x={project(moon)!.x + 8} y={project(moon)!.y + 4} className="planet-label">Moon</text>
+            <text x={project(moon)!.x + 8} y={project(moon)!.y + 4} className="planet-label">Měsíc</text>
           </g>
         )}
 
@@ -221,15 +221,15 @@ export default function SkyMap({ birthDate, lat, lon, cityName, svgRef }: Props)
         {sun && sun.alt > 0 && project(sun) && (
           <g>
             <circle cx={project(sun)!.x} cy={project(sun)!.y} r={7} fill="#f4c042" />
-            <text x={project(sun)!.x + 9} y={project(sun)!.y + 4} className="planet-label">Sun</text>
+            <text x={project(sun)!.x + 9} y={project(sun)!.y + 4} className="planet-label">Slunce</text>
           </g>
         )}
       </svg>
       <figcaption>
-        The sky over <strong>{cityName}</strong> at about 23:00 local time on{" "}
-        <strong>{dateStr}</strong>. Moon was a {moonPhaseText}.
-        {sun && sun.alt < -18 && " The sun was deep below the horizon — astronomical night."}
-        {sun && sun.alt >= -18 && sun.alt < 0 && " The sun was just below the horizon — late twilight."}
+        Obloha nad <strong>{cityName}</strong> kolem 23:00 místního času dne{" "}
+        <strong>{dateStr}</strong>. Měsíc: {moonPhaseText}.
+        {sun && sun.alt < -18 && " Slunce bylo hluboko pod obzorem — astronomická noc."}
+        {sun && sun.alt >= -18 && sun.alt < 0 && " Slunce bylo těsně pod obzorem — pozdní soumrak."}
       </figcaption>
     </figure>
   );

@@ -22,16 +22,6 @@ type Props = {
   report: PersonReport;
 };
 
-const MONTHS_CS = [
-  "leden", "únor", "březen", "duben", "květen", "červen",
-  "červenec", "srpen", "září", "říjen", "listopad", "prosinec",
-];
-
-const MONTHS_EN = [
-  "January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December",
-];
-
 /**
  * Compact, high-impact stat row that sits at the top of every person card.
  * Surfaces the most resonant numbers: date of birth, days lived, and the
@@ -40,7 +30,6 @@ const MONTHS_EN = [
 export default function HeroSummary({ report }: Props) {
   const { lang } = useLang();
   const { person, ageNow } = report;
-  const months = lang === "cs" ? MONTHS_CS : MONTHS_EN;
 
   const yearsRemainingRaw = 100 - ageNow;
   const yearsRemaining = Math.max(0, yearsRemainingRaw);
@@ -61,10 +50,10 @@ export default function HeroSummary({ report }: Props) {
 
   const dateStr = (() => {
     if (person.birthMonth && person.birthDay) {
-      return `${person.birthDay} ${months[person.birthMonth - 1]} ${person.birthYear}`;
+      return `${person.birthDay}. ${person.birthMonth}. ${person.birthYear}`;
     }
     if (person.birthMonth) {
-      return `${months[person.birthMonth - 1]} ${person.birthYear}`;
+      return `${person.birthMonth}. ${person.birthYear}`;
     }
     return String(person.birthYear);
   })();
