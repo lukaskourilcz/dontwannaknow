@@ -1,12 +1,43 @@
 <!doctype html>
-<html lang="en">
+<html lang="cs">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The world that made them</title>
+    <meta name="theme-color" content="#faf6ef" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1714" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <title>Don't wanna know · The world your people lived through</title>
+
+    <meta
+      name="description"
+      content="Enter a birth year and birthplace and see the world your parents and grandparents lived through — bizarre, beautiful, and everyday details from 1920 to today."
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Don't wanna know · The world your people lived through" />
+    <meta
+      property="og:description"
+      content="Enter a birth year and birthplace and see the world your parents and grandparents lived through — bizarre, beautiful, and everyday details."
+    />
+    <meta property="og:locale" content="cs_CZ" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Don't wanna know · The world your people lived through" />
+    <meta
+      name="twitter:description"
+      content="See the bizarre, beautiful, and everyday world your parents and grandparents lived through."
+    />
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      This site needs JavaScript to compute the report. It runs entirely
+      in your browser — nothing is sent anywhere.
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
