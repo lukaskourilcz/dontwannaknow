@@ -12,7 +12,6 @@ import { goneCountriesAlive } from "../data/countries";
 import { INVENTIONS } from "../data/inventions";
 import { statsForYear } from "../data/stats";
 import { cultureForDecade } from "../data/culture";
-import { generationFor } from "../data/generations";
 import { birthsAround } from "../data/famousBirths";
 import { zodiacFor } from "../data/zodiac";
 import { namesFor } from "../data/babyNames";
@@ -145,21 +144,15 @@ export function buildEssay(person: Person): EssayParagraph[] {
 
   const out: EssayParagraph[] = [];
 
-  // ── Generation badge ──────────────────────────────────────────────
-  const generation = generationFor(birthYear);
-  if (generation) {
-    let badgeText = generation.blurb;
-    // ── Sun sign (only if exact date provided) ────────────────────
-    if (person.birthMonth && person.birthDay) {
-      const sign = zodiacFor(person.birthMonth, person.birthDay);
-      if (sign) {
-        badgeText += ` Born under ${sign.symbol} ${sign.name} (${sign.element}) — ${sign.blurb}.`;
-      }
+  // ── Sun sign (only if exact date provided) ────────────────────────
+  if (person.birthMonth && person.birthDay) {
+    const sign = zodiacFor(person.birthMonth, person.birthDay);
+    if (sign) {
+      out.push({
+        heading: `${sign.symbol} ${sign.name}`,
+        text: `Born under ${sign.symbol} ${sign.name} (${sign.element}) — ${sign.blurb}.`,
+      });
     }
-    out.push({
-      heading: `${generation.label} (${generation.startYear}–${generation.endYear})`,
-      text: badgeText,
-    });
   }
 
   // ── Top baby names of their decade ────────────────────────────────

@@ -16,6 +16,8 @@
   --accent-soft:  #ecd9cb;
   --highlight:    #f0e3b8;
   --success:      #4f7a4a;
+  --on-accent:    #faf6ef; /* text/!icons sitting on an ink or accent fill */
+  --scrim:        rgba(250, 246, 239, 0.85); /* sticky toolbar backdrop */
 
   /* ── Typography ─────────────────────────────────────────── */
   --display: "Fraunces Variable", "Iowan Old Style", Georgia, serif;
@@ -68,6 +70,8 @@
     --accent-soft:  #3a2c22;
     --highlight:    #4a4226;
     --success:      #8fb98a;
+    --on-accent:    #1a1714; /* dark ink text on the light dark-mode ink/accent fills */
+    --scrim:        rgba(26, 23, 20, 0.82);
 
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.30);
     --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.38);
@@ -474,7 +478,7 @@ button.link:hover {
   padding: 0.75rem 0.9rem;
   border: 1px solid var(--rule);
   border-radius: 10px;
-  background: #fff;
+  background: var(--surface);
   color: var(--ink);
   outline: none;
   transition: border-color 0.15s, box-shadow 0.15s;
@@ -541,7 +545,7 @@ button.secondary {
 
 button.primary {
   background: var(--ink);
-  color: #ffffff;
+  color: var(--on-accent);
   border: 1px solid var(--ink);
   box-shadow: var(--shadow-sm);
 }
@@ -598,7 +602,7 @@ button:active {
   padding: var(--s-3) clamp(1rem, 4vw, 2rem);
   flex-wrap: wrap;
   gap: var(--s-3);
-  background: rgba(246, 242, 232, 0.88);
+  background: var(--scrim);
   backdrop-filter: saturate(180%) blur(10px);
   -webkit-backdrop-filter: saturate(180%) blur(10px);
   border-bottom: 1px solid var(--rule);

@@ -1,5 +1,4 @@
 import type { PersonReport } from "../lib/facts";
-import { generationFor } from "../data/generations";
 import { lifeExpectancyFor } from "../data/lifeExpectancy";
 import { useLang } from "../i18n/useLang";
 import { useCountUp } from "../lib/useCountUp";
@@ -36,8 +35,8 @@ const MONTHS_EN = [
 
 /**
  * Compact, high-impact stat row that sits at the top of every person card.
- * Surfaces the most emotional numbers: days lived, generation, and (if
- * meetings/year is set) remaining meetings.
+ * Surfaces the most resonant numbers: date of birth, days lived, and the
+ * rough years remaining (or bonus years past life expectancy).
  */
 export default function HeroSummary({ report }: Props) {
   const { lang } = useLang();
@@ -61,8 +60,6 @@ export default function HeroSummary({ report }: Props) {
     Math.floor((Date.now() - birthDate.getTime()) / (1000 * 60 * 60 * 24)),
   );
 
-  const generation = generationFor(person.birthYear);
-
   const dateStr = (() => {
     if (person.birthMonth && person.birthDay) {
       return `${person.birthDay} ${months[person.birthMonth - 1]} ${person.birthYear}`;
@@ -77,7 +74,6 @@ export default function HeroSummary({ report }: Props) {
     cs: {
       bornOn: "Narozen/a",
       daysLived: "Dnů na zemi",
-      generation: "Generace",
       yearsLeft: "Pravděpodobně zbývá",
       yearsPast: "Za průměrnou délkou života",
       bonusNote: "Každý den navíc je dar.",
@@ -87,7 +83,6 @@ export default function HeroSummary({ report }: Props) {
     en: {
       bornOn: "Born",
       daysLived: "Days on earth",
-      generation: "Generation",
       yearsLeft: "Years likely left",
       yearsPast: "Past life expectancy",
       bonusNote: "Every day past it is a gift.",
@@ -119,14 +114,6 @@ export default function HeroSummary({ report }: Props) {
     label: t.daysLived,
     value: daysLived.toLocaleString(lang === "cs" ? "cs-CZ" : "en-US"),
   });
-
-  if (generation) {
-    cards.push({
-      label: t.generation,
-      value: generation.label,
-      detail: `${generation.startYear}–${generation.endYear}`,
-    });
-  }
 
   if (past > 0) {
     cards.push({
