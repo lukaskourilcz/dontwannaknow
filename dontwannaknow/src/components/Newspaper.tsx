@@ -16,21 +16,21 @@ type Props = {
 function masthead(person: Person): string {
   const city = findCity(person.citySlug);
   if (city) {
-    return `THE ${city.name.toUpperCase()} CHRONICLE`;
+    return `${city.name.toUpperCase()} KRONIKA`;
   }
-  return `THE ${COUNTRY_LABELS[person.country].toUpperCase()} CHRONICLE`;
+  return `${COUNTRY_LABELS[person.country].toUpperCase()} KRONIKA`;
 }
 
 const MONTHS = [
-  "January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December",
+  "ledna", "února", "března", "dubna", "května", "června",
+  "července", "srpna", "září", "října", "listopadu", "prosince",
 ];
 
 function formatDate(p: Person): string {
   if (p.birthMonth && p.birthDay) {
-    return `${MONTHS[p.birthMonth - 1]} ${p.birthDay}, ${p.birthYear}`;
+    return `${p.birthDay}. ${MONTHS[p.birthMonth - 1]} ${p.birthYear}`;
   }
-  return `In the year ${p.birthYear}`;
+  return `V roce ${p.birthYear}`;
 }
 
 function capitalize(s: string): string {
@@ -64,9 +64,9 @@ export default function Newspaper({ person }: Props) {
         <div className="newspaper-date">{formatDate(person)}</div>
         <hr />
         <p className="newspaper-stub">
-          History didn't keep great records of this exact day here, but
-          life went on — markets opened, bread was baked, children went
-          to school.
+          Historie si o tomto konkrétním dni zde nevedla podrobné
+          záznamy, ale život šel dál — trhy se otevíraly, pekl se
+          chléb, děti chodily do školy.
         </p>
       </section>
     );
@@ -82,11 +82,11 @@ export default function Newspaper({ person }: Props) {
   ).slice(0, 1);
 
   return (
-    <section className="newspaper" aria-label="Vintage newspaper front page">
+    <section className="newspaper" aria-label="Titulní strana dobových novin">
       <div className="newspaper-masthead">{masthead(person)}</div>
       <div className="newspaper-date">
-        {formatDate(person)} &nbsp;·&nbsp; Vol. {Math.max(1, birthYear - 1849)}{" "}
-        No. {((birthYear * 7) % 365) + 1} &nbsp;·&nbsp; Two cents
+        {formatDate(person)} &nbsp;·&nbsp; Ročník {Math.max(1, birthYear - 1849)}{" "}
+        č. {((birthYear * 7) % 365) + 1} &nbsp;·&nbsp; Dva haléře
       </div>
       <hr />
       <h2 className="newspaper-headline">{toHeadline(top.text)}.</h2>
@@ -100,23 +100,23 @@ export default function Newspaper({ person }: Props) {
       <hr />
       <div className="newspaper-columns">
         <div>
-          <h3>In the wider world</h3>
+          <h3>Ve světě kolem nás</h3>
           <p>
             {worldOther.length > 0
               ? capitalize(worldOther[0].text) + "."
-              : "A new year — and like any other, full of ordinary triumphs and ordinary losses."}
+              : "Nový rok — a jako každý jiný plný všedních vítězství i všedních ztrát."}
           </p>
         </div>
         <div>
-          <h3>What things cost</h3>
+          <h3>Co co stálo</h3>
           <p>
-            Bread,{" "}
+            Chléb,{" "}
             {stats.loafOfBreadUsd < 1
               ? `${Math.round(stats.loafOfBreadUsd * 100)}¢`
               : `$${stats.loafOfBreadUsd.toFixed(2)}`}{" "}
-            a loaf. Gas, {Math.round(stats.gallonOfGasUsd * 100)}¢ a gallon.
-            The average wage runs around $
-            {stats.usAverageAnnualWageUsd.toLocaleString("en-US")} a year.
+            za bochník. Benzin, {Math.round(stats.gallonOfGasUsd * 100)}¢ za galon.
+            Průměrná mzda se pohybuje kolem $
+            {stats.usAverageAnnualWageUsd.toLocaleString("en-US")} ročně.
           </p>
         </div>
       </div>

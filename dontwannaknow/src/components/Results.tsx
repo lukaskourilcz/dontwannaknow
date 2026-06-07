@@ -31,20 +31,20 @@ type Props = {
 };
 
 const SECTION_ORDER: { key: Fact["category"]; title: string; tone: string }[] = [
-  { key: "city", title: "In their hometown", tone: "Year by year, on the streets they grew up on" },
-  { key: "bizarre", title: "Bizarre", tone: "Strange-but-true" },
-  { key: "beautiful", title: "Beautiful", tone: "The good and the great" },
-  { key: "local", title: "Across the country", tone: "" },
-  { key: "government", title: "Who was in charge", tone: "Politics & power" },
-  { key: "famous", title: "Famous faces of the era", tone: "Writers, artists, leaders" },
-  { key: "clothes", title: "What people wore", tone: "" },
-  { key: "illness", title: "What people fell ill from", tone: "" },
-  { key: "daily", title: "Daily life", tone: "" },
-  { key: "food", title: "What was on the table", tone: "" },
-  { key: "money", title: "What things cost", tone: "" },
-  { key: "world", title: "What the world was doing", tone: "" },
-  { key: "everyday", title: "The wider world", tone: "Prices, wages, people" },
-  { key: "youth", title: "Growing up", tone: "Songs, screens, fashion" },
+  { key: "city", title: "V rodném městě", tone: "Rok za rokem v ulicích, kde vyrůstal/a" },
+  { key: "bizarre", title: "Bizarní", tone: "Podivné, ale pravdivé" },
+  { key: "beautiful", title: "Krásné", tone: "To dobré a velké" },
+  { key: "local", title: "Po celé zemi", tone: "" },
+  { key: "government", title: "Kdo měl moc", tone: "Politika a moc" },
+  { key: "famous", title: "Slavné tváře té doby", tone: "Spisovatelé, umělci, vůdci" },
+  { key: "clothes", title: "Co se nosilo", tone: "" },
+  { key: "illness", title: "Na co lidé stonali", tone: "" },
+  { key: "daily", title: "Každodenní život", tone: "" },
+  { key: "food", title: "Co bylo na stole", tone: "" },
+  { key: "money", title: "Co kolik stálo", tone: "" },
+  { key: "world", title: "Co se dělo ve světě", tone: "" },
+  { key: "everyday", title: "Širší svět", tone: "Ceny, mzdy, lidé" },
+  { key: "youth", title: "Dospívání", tone: "Písničky, obrazovky, móda" },
 ];
 
 function groupByCategory(facts: Fact[]) {
@@ -91,7 +91,7 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
       await generatePdf(report, svg);
     } catch (err) {
       console.error("PDF generation failed:", err);
-      alert("Sorry — PDF generation failed. Try again, or check the console.");
+      alert("Omlouváme se — vytvoření PDF selhalo. Zkuste to znovu nebo zkontrolujte konzoli.");
     }
   };
 
@@ -100,7 +100,7 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
       <div className="results-header">
         <h2>{t("results.heading")}</h2>
         <div className="results-actions">
-          <div className="view-toggle" role="tablist" aria-label="View mode">
+          <div className="view-toggle" role="tablist" aria-label="Režim zobrazení">
             <button
               type="button"
               role="tab"
@@ -138,7 +138,7 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
             <h3>
               {reports[0].person.label} &amp; {reports[1].person.label}
             </h3>
-            <p className="person-sub">Their two worlds, side by side</p>
+            <p className="person-sub">Jejich dva světy vedle sebe</p>
           </header>
           <div className="essay">
             {pair.map((p, i) => (

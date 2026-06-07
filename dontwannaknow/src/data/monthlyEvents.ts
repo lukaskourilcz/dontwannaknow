@@ -11,489 +11,489 @@ export type MonthlyEvent = {
 
 export const MONTHLY_EVENTS: MonthlyEvent[] = [
   // ── 1938 ──────────────────────────────────────────────
-  { year: 1938, month: 3, text: "Hitler's Wehrmacht marched into Austria in the Anschluss" },
-  { year: 1938, month: 9, text: "the Munich Agreement signed away the Sudetenland to Germany" },
-  { year: 1938, month: 10, text: "German troops occupied the Sudetenland" },
-  { year: 1938, month: 11, text: "Kristallnacht — synagogues burned across Germany and Austria" },
+  { year: 1938, month: 3, text: "Hitlerův wehrmacht vpochodoval do Rakouska v rámci anšlusu" },
+  { year: 1938, month: 9, text: "Mnichovská dohoda odevzdala Sudety Německu" },
+  { year: 1938, month: 10, text: "německé jednotky obsadily Sudety" },
+  { year: 1938, month: 11, text: "Křišťálová noc — po celém Německu a Rakousku hořely synagogy" },
 
   // ── 1939 ──────────────────────────────────────────────
-  { year: 1939, month: 3, text: "Germany occupied the rest of Bohemia and Moravia" },
-  { year: 1939, month: 4, text: "Italy invaded Albania" },
-  { year: 1939, month: 8, text: "the Molotov–Ribbentrop Pact split Eastern Europe between Hitler and Stalin" },
-  { year: 1939, month: 9, text: "Germany invaded Poland; Britain and France declared war — the Second World War began" },
-  { year: 1939, month: 11, text: "the Winter War began as the USSR invaded Finland" },
+  { year: 1939, month: 3, text: "Německo obsadilo zbytek Čech a Moravy" },
+  { year: 1939, month: 4, text: "Itálie napadla Albánii" },
+  { year: 1939, month: 8, text: "pakt Molotov–Ribbentrop rozdělil východní Evropu mezi Hitlera a Stalina" },
+  { year: 1939, month: 9, text: "Německo napadlo Polsko; Británie a Francie vyhlásily válku — začala druhá světová válka" },
+  { year: 1939, month: 11, text: "vypukla zimní válka, když SSSR napadl Finsko" },
 
   // ── 1940 ──────────────────────────────────────────────
-  { year: 1940, month: 4, text: "Germany invaded Denmark and Norway" },
-  { year: 1940, month: 5, text: "Germany invaded France, Belgium and the Netherlands; the Dunkirk evacuation began" },
-  { year: 1940, month: 6, text: "France signed an armistice with Germany; Churchill warned of the 'Battle of Britain'" },
-  { year: 1940, month: 7, text: "the Battle of Britain began in the skies" },
-  { year: 1940, month: 9, text: "the London Blitz began — bombs would fall nightly for 57 days" },
-  { year: 1940, month: 10, text: "the Tripartite Pact bound Germany, Italy and Japan as the Axis" },
+  { year: 1940, month: 4, text: "Německo napadlo Dánsko a Norsko" },
+  { year: 1940, month: 5, text: "Německo napadlo Francii, Belgii a Nizozemsko; začala evakuace u Dunkerque" },
+  { year: 1940, month: 6, text: "Francie podepsala příměří s Německem; Churchill varoval před „bitvou o Británii“" },
+  { year: 1940, month: 7, text: "na obloze začala bitva o Británii" },
+  { year: 1940, month: 9, text: "začal Blitz nad Londýnem — bomby padaly každou noc po 57 dní" },
+  { year: 1940, month: 10, text: "Pakt tří spojil Německo, Itálii a Japonsko v ose" },
 
   // ── 1941 ──────────────────────────────────────────────
-  { year: 1941, month: 5, text: "Rudolf Hess flew solo to Scotland on a fool's peace mission" },
-  { year: 1941, month: 6, text: "Operation Barbarossa — Germany invaded the Soviet Union" },
-  { year: 1941, month: 9, text: "Babyn Yar — 33,771 Jews shot in two days outside Kyiv; the Siege of Leningrad began" },
-  { year: 1941, month: 12, text: "Pearl Harbor attacked; the US entered the war" },
+  { year: 1941, month: 5, text: "Rudolf Hess sám odletěl do Skotska na pošetilou mírovou misi" },
+  { year: 1941, month: 6, text: "operace Barbarossa — Německo napadlo Sovětský svaz" },
+  { year: 1941, month: 9, text: "Babí Jar — během dvou dnů zastřeleno 33 771 Židů u Kyjeva; začalo obléhání Leningradu" },
+  { year: 1941, month: 12, text: "útok na Pearl Harbor; USA vstoupily do války" },
 
   // ── 1942 ──────────────────────────────────────────────
-  { year: 1942, month: 1, text: "the Wannsee Conference planned the Final Solution" },
-  { year: 1942, month: 4, text: "the Doolittle Raid bombed Tokyo for the first time" },
-  { year: 1942, month: 5, text: "SS chief Reinhard Heydrich was attacked in Prague and would die days later" },
-  { year: 1942, month: 6, text: "the Battle of Midway turned the Pacific war; Lidice was razed in reprisal for Heydrich" },
-  { year: 1942, month: 8, text: "the Battle of Stalingrad began" },
-  { year: 1942, month: 11, text: "Operation Torch landed Allies in North Africa" },
+  { year: 1942, month: 1, text: "konference ve Wannsee naplánovala konečné řešení" },
+  { year: 1942, month: 4, text: "Doolittlův nálet poprvé bombardoval Tokio" },
+  { year: 1942, month: 5, text: "na šéfa SS Reinharda Heydricha byl v Praze spáchán atentát a o pár dní později zemřel" },
+  { year: 1942, month: 6, text: "bitva u Midway zvrátila válku v Tichomoří; Lidice byly srovnány se zemí jako odveta za Heydricha" },
+  { year: 1942, month: 8, text: "začala bitva u Stalingradu" },
+  { year: 1942, month: 11, text: "operace Torch vylodila spojence v severní Africe" },
 
   // ── 1943 ──────────────────────────────────────────────
-  { year: 1943, month: 1, text: "the Casablanca Conference set 'unconditional surrender' as Allied policy" },
-  { year: 1943, month: 2, text: "the German Sixth Army surrendered at Stalingrad" },
-  { year: 1943, month: 4, text: "the Warsaw Ghetto Uprising began" },
-  { year: 1943, month: 7, text: "Allied forces invaded Sicily; Mussolini was overthrown" },
-  { year: 1943, month: 9, text: "Italy surrendered" },
-  { year: 1943, month: 11, text: "the Red Army retook Kyiv" },
+  { year: 1943, month: 1, text: "konference v Casablance stanovila „bezpodmínečnou kapitulaci“ jako cíl spojenců" },
+  { year: 1943, month: 2, text: "německá 6. armáda kapitulovala u Stalingradu" },
+  { year: 1943, month: 4, text: "vypuklo povstání ve varšavském ghettu" },
+  { year: 1943, month: 7, text: "spojenecké síly se vylodily na Sicílii; Mussolini byl svržen" },
+  { year: 1943, month: 9, text: "Itálie kapitulovala" },
+  { year: 1943, month: 11, text: "Rudá armáda dobyla zpět Kyjev" },
 
   // ── 1944 ──────────────────────────────────────────────
-  { year: 1944, month: 1, text: "the Siege of Leningrad ended after 872 days" },
-  { year: 1944, month: 6, text: "D-Day landings in Normandy on the 6th" },
-  { year: 1944, month: 7, text: "the July 20 plot to assassinate Hitler failed" },
-  { year: 1944, month: 8, text: "Paris was liberated; the Slovak National Uprising began" },
-  { year: 1944, month: 9, text: "Operation Market Garden failed at Arnhem" },
-  { year: 1944, month: 12, text: "the Battle of the Bulge began Germany's last offensive" },
+  { year: 1944, month: 1, text: "obléhání Leningradu skončilo po 872 dnech" },
+  { year: 1944, month: 6, text: "vylodění v Normandii v Den D, šestého" },
+  { year: 1944, month: 7, text: "atentát na Hitlera z 20. července selhal" },
+  { year: 1944, month: 8, text: "Paříž byla osvobozena; vypuklo Slovenské národní povstání" },
+  { year: 1944, month: 9, text: "operace Market Garden u Arnhemu ztroskotala" },
+  { year: 1944, month: 12, text: "bitva v Ardenách zahájila poslední německou ofenzivu" },
 
   // ── 1945 ──────────────────────────────────────────────
-  { year: 1945, month: 1, text: "Auschwitz was liberated by the Red Army on the 27th" },
-  { year: 1945, month: 2, text: "the Yalta Conference divided post-war Europe; Dresden was firebombed" },
-  { year: 1945, month: 4, text: "FDR died; Hitler killed himself in the Berlin bunker" },
-  { year: 1945, month: 5, text: "Germany surrendered on the 8th; the Prague Uprising ran 5–9 May" },
-  { year: 1945, month: 7, text: "the Potsdam Conference set German occupation zones" },
-  { year: 1945, month: 8, text: "atomic bombs were dropped on Hiroshima (6th) and Nagasaki (9th); Japan surrendered" },
-  { year: 1945, month: 10, text: "the United Nations was founded" },
-  { year: 1945, month: 11, text: "the Nuremberg Trials of Nazi leadership began" },
+  { year: 1945, month: 1, text: "Osvětim byla 27. osvobozena Rudou armádou" },
+  { year: 1945, month: 2, text: "Jaltská konference rozdělila poválečnou Evropu; Drážďany byly vybombardovány zápalnými pumami" },
+  { year: 1945, month: 4, text: "zemřel F. D. Roosevelt; Hitler spáchal sebevraždu v berlínském bunkru" },
+  { year: 1945, month: 5, text: "Německo kapitulovalo osmého; Pražské povstání probíhalo 5.–9. května" },
+  { year: 1945, month: 7, text: "Postupimská konference vymezila německé okupační zóny" },
+  { year: 1945, month: 8, text: "na Hirošimu (6.) a Nagasaki (9.) byly svrženy atomové bomby; Japonsko kapitulovalo" },
+  { year: 1945, month: 10, text: "byla založena Organizace spojených národů" },
+  { year: 1945, month: 11, text: "začaly norimberské procesy s nacistickým vedením" },
 
   // ── 1946 ──────────────────────────────────────────────
-  { year: 1946, month: 3, text: "Churchill warned of an 'iron curtain' descending across Europe in Fulton, Missouri" },
-  { year: 1946, month: 5, text: "Czechoslovak elections gave the Communists their biggest single bloc" },
-  { year: 1946, month: 10, text: "the Nuremberg verdicts hanged twelve Nazi leaders" },
+  { year: 1946, month: 3, text: "Churchill ve Fultonu v Missouri varoval před „železnou oponou“ spouštějící se napříč Evropou" },
+  { year: 1946, month: 5, text: "v československých volbách získali komunisté nejsilnější jednotlivý blok" },
+  { year: 1946, month: 10, text: "na základě norimberských rozsudků bylo oběšeno dvanáct nacistických pohlavárů" },
 
   // ── 1947 ──────────────────────────────────────────────
-  { year: 1947, month: 3, text: "President Truman announced the Truman Doctrine of communist containment" },
-  { year: 1947, month: 6, text: "Secretary Marshall outlined the European Recovery Plan at Harvard" },
-  { year: 1947, month: 8, text: "India and Pakistan won independence; partition uprooted 15 million people" },
-  { year: 1947, month: 10, text: "Chuck Yeager broke the sound barrier in the Bell X-1" },
-  { year: 1947, month: 11, text: "the UN voted to partition Palestine" },
+  { year: 1947, month: 3, text: "prezident Truman vyhlásil Trumanovu doktrínu o zadržování komunismu" },
+  { year: 1947, month: 6, text: "ministr Marshall na Harvardu představil plán evropské obnovy" },
+  { year: 1947, month: 8, text: "Indie a Pákistán získaly nezávislost; rozdělení vyhnalo z domovů 15 milionů lidí" },
+  { year: 1947, month: 10, text: "Chuck Yeager prolomil v letounu Bell X-1 zvukovou bariéru" },
+  { year: 1947, month: 11, text: "OSN odhlasovala rozdělení Palestiny" },
 
   // ── 1948 ──────────────────────────────────────────────
-  { year: 1948, month: 1, text: "Gandhi was assassinated in New Delhi" },
-  { year: 1948, month: 2, text: "the Communist coup in Czechoslovakia took power; Jan Masaryk was found dead under his window" },
-  { year: 1948, month: 5, text: "the State of Israel was declared on the 14th" },
-  { year: 1948, month: 6, text: "the Berlin Airlift began as the Soviets blockaded West Berlin" },
-  { year: 1948, month: 12, text: "the Universal Declaration of Human Rights was adopted" },
+  { year: 1948, month: 1, text: "v Novém Dillí byl zavražděn Gándhí" },
+  { year: 1948, month: 2, text: "komunistický převrat v Československu se chopil moci; Jan Masaryk byl nalezen mrtev pod svým oknem" },
+  { year: 1948, month: 5, text: "čtrnáctého byl vyhlášen stát Izrael" },
+  { year: 1948, month: 6, text: "začal berlínský letecký most poté, co Sověti zablokovali Západní Berlín" },
+  { year: 1948, month: 12, text: "byla přijata Všeobecná deklarace lidských práv" },
 
   // ── 1949 ──────────────────────────────────────────────
-  { year: 1949, month: 4, text: "NATO was founded by twelve member states" },
-  { year: 1949, month: 5, text: "the Berlin Airlift ended; the Federal Republic of Germany was founded" },
-  { year: 1949, month: 8, text: "the Soviet Union tested its first atomic bomb" },
-  { year: 1949, month: 10, text: "Mao Zedong proclaimed the People's Republic of China; the GDR was founded" },
+  { year: 1949, month: 4, text: "dvanáct členských států založilo NATO" },
+  { year: 1949, month: 5, text: "berlínský letecký most skončil; byla založena Spolková republika Německo" },
+  { year: 1949, month: 8, text: "Sovětský svaz otestoval svou první atomovou bombu" },
+  { year: 1949, month: 10, text: "Mao Ce-tung vyhlásil Čínskou lidovou republiku; byla založena NDR" },
 
   // ── 1950 ──────────────────────────────────────────────
-  { year: 1950, month: 6, text: "North Korea invaded the South — the Korean War began" },
-  { year: 1950, month: 9, text: "MacArthur landed at Inchon" },
-  { year: 1950, month: 11, text: "Chinese troops crossed the Yalu into Korea" },
+  { year: 1950, month: 6, text: "Severní Korea napadla Jih — začala korejská válka" },
+  { year: 1950, month: 9, text: "MacArthur se vylodil u Inčchonu" },
+  { year: 1950, month: 11, text: "čínské jednotky překročily řeku Ja-lu do Koreje" },
 
   // ── 1951 ──────────────────────────────────────────────
-  { year: 1951, month: 9, text: "the Treaty of San Francisco formally ended war with Japan" },
-  { year: 1951, month: 11, text: "the Slánský trial began in Prague — Stalinism's biggest Czech show trial" },
+  { year: 1951, month: 9, text: "Sanfranciská mírová smlouva formálně ukončila válku s Japonskem" },
+  { year: 1951, month: 11, text: "v Praze začal Slánského proces — největší český vykonstruovaný proces stalinismu" },
 
   // ── 1952 ──────────────────────────────────────────────
-  { year: 1952, month: 2, text: "George VI died; Elizabeth II became Queen at 25" },
-  { year: 1952, month: 7, text: "the Egyptian Revolution overthrew King Farouk" },
-  { year: 1952, month: 11, text: "the first hydrogen bomb (Ivy Mike) was tested; Eisenhower won the US election" },
+  { year: 1952, month: 2, text: "zemřel Jiří VI.; pětadvacetiletá Alžběta II. se stala královnou" },
+  { year: 1952, month: 7, text: "egyptská revoluce svrhla krále Farúka" },
+  { year: 1952, month: 11, text: "byla otestována první vodíková bomba (Ivy Mike); Eisenhower vyhrál americké volby" },
 
   // ── 1953 ──────────────────────────────────────────────
-  { year: 1953, month: 1, text: "Eisenhower was inaugurated; Hank Williams died in his Cadillac on New Year's Day" },
-  { year: 1953, month: 3, text: "Stalin died in his dacha; Klement Gottwald died nine days later after attending the funeral" },
-  { year: 1953, month: 5, text: "Edmund Hillary and Tenzing Norgay reached the summit of Everest" },
-  { year: 1953, month: 6, text: "Czechoslovak currency reform sparked the Plzeň uprising; the Rosenbergs were executed" },
-  { year: 1953, month: 7, text: "the Korean Armistice paused the war along the 38th parallel" },
+  { year: 1953, month: 1, text: "Eisenhower složil prezidentský slib; Hank Williams zemřel na Nový rok ve svém cadillacu" },
+  { year: 1953, month: 3, text: "Stalin zemřel ve své dače; Klement Gottwald zemřel o devět dní později po účasti na pohřbu" },
+  { year: 1953, month: 5, text: "Edmund Hillary a Tenzing Norgay dosáhli vrcholu Everestu" },
+  { year: 1953, month: 6, text: "československá měnová reforma vyvolala plzeňské povstání; manželé Rosenbergovi byli popraveni" },
+  { year: 1953, month: 7, text: "korejské příměří pozastavilo válku podél 38. rovnoběžky" },
 
   // ── 1954 ──────────────────────────────────────────────
-  { year: 1954, month: 5, text: "Brown v. Board of Education outlawed segregated US schools; Dien Bien Phu fell to the Viet Minh" },
-  { year: 1954, month: 9, text: "Crimea was transferred from the Russian SFSR to the Ukrainian SSR" },
+  { year: 1954, month: 5, text: "rozsudek Brown v. Board of Education zakázal segregaci amerických škol; Dien Bien Phu padlo do rukou Viet Minhu" },
+  { year: 1954, month: 9, text: "Krym byl převeden z Ruské SFSR do Ukrajinské SSR" },
 
   // ── 1955 ──────────────────────────────────────────────
-  { year: 1955, month: 4, text: "Albert Einstein died at 76 in Princeton" },
-  { year: 1955, month: 5, text: "the Warsaw Pact was signed in Warsaw" },
-  { year: 1955, month: 7, text: "Disneyland opened in Anaheim" },
-  { year: 1955, month: 12, text: "Rosa Parks refused to give up her seat on a Montgomery bus" },
+  { year: 1955, month: 4, text: "Albert Einstein zemřel v 76 letech v Princetonu" },
+  { year: 1955, month: 5, text: "ve Varšavě byla podepsána Varšavská smlouva" },
+  { year: 1955, month: 7, text: "v Anaheimu byl otevřen Disneyland" },
+  { year: 1955, month: 12, text: "Rosa Parksová odmítla uvolnit místo v autobuse v Montgomery" },
 
   // ── 1956 ──────────────────────────────────────────────
-  { year: 1956, month: 2, text: "Khrushchev's 'Secret Speech' denounced Stalin" },
-  { year: 1956, month: 6, text: "the Poznań uprising broke out in Poland" },
-  { year: 1956, month: 10, text: "the Hungarian Revolution began; the Suez Crisis erupted" },
-  { year: 1956, month: 11, text: "Soviet tanks crushed the Hungarian Revolution" },
+  { year: 1956, month: 2, text: "Chruščovův „tajný projev“ odsoudil Stalina" },
+  { year: 1956, month: 6, text: "v Polsku vypuklo poznaňské povstání" },
+  { year: 1956, month: 10, text: "začalo maďarské povstání; vypukla suezská krize" },
+  { year: 1956, month: 11, text: "sovětské tanky rozdrtily maďarské povstání" },
 
   // ── 1957 ──────────────────────────────────────────────
-  { year: 1957, month: 3, text: "the Treaty of Rome founded the European Economic Community" },
-  { year: 1957, month: 10, text: "Sputnik 1 became the first artificial satellite to orbit Earth" },
-  { year: 1957, month: 11, text: "Laika became the first animal to orbit Earth, in Sputnik 2" },
+  { year: 1957, month: 3, text: "Římské smlouvy založily Evropské hospodářské společenství" },
+  { year: 1957, month: 10, text: "Sputnik 1 se stal první umělou družicí na oběžné dráze Země" },
+  { year: 1957, month: 11, text: "Lajka se na palubě Sputniku 2 stala prvním zvířetem na oběžné dráze Země" },
 
   // ── 1958 ──────────────────────────────────────────────
-  { year: 1958, month: 1, text: "Explorer 1 became the first US satellite in orbit" },
-  { year: 1958, month: 4, text: "Expo 58 opened in Brussels; Czechoslovak Laterna Magika debuted" },
-  { year: 1958, month: 10, text: "Pope Pius XII died" },
+  { year: 1958, month: 1, text: "Explorer 1 se stal první americkou družicí na oběžné dráze" },
+  { year: 1958, month: 4, text: "v Bruselu se otevřela výstava Expo 58; debutovala československá Laterna magika" },
+  { year: 1958, month: 10, text: "zemřel papež Pius XII." },
 
   // ── 1959 ──────────────────────────────────────────────
-  { year: 1959, month: 1, text: "the Cuban Revolution swept Castro into Havana on the 1st" },
-  { year: 1959, month: 2, text: "the 'Day the Music Died' — Buddy Holly, Ritchie Valens, and the Big Bopper killed in an Iowa plane crash" },
-  { year: 1959, month: 8, text: "Hawaii became the 50th US state" },
-  { year: 1959, month: 10, text: "Luna 3 photographed the far side of the Moon for the first time" },
+  { year: 1959, month: 1, text: "kubánská revoluce prvního dovedla Castra do Havany" },
+  { year: 1959, month: 2, text: "„den, kdy zemřela hudba“ — Buddy Holly, Ritchie Valens a Big Bopper zahynuli při letecké havárii v Iowě" },
+  { year: 1959, month: 8, text: "Havaj se stala 50. státem USA" },
+  { year: 1959, month: 10, text: "Luna 3 poprvé vyfotografovala odvrácenou stranu Měsíce" },
 
   // ── 1960 ──────────────────────────────────────────────
-  { year: 1960, month: 5, text: "the U-2 incident — Gary Powers's spy plane was shot down over the Urals" },
-  { year: 1960, month: 9, text: "the first televised Kennedy–Nixon debate aired" },
+  { year: 1960, month: 5, text: "incident s letounem U-2 — špionážní letadlo Garyho Powerse bylo sestřeleno nad Uralem" },
+  { year: 1960, month: 9, text: "odvysílána první televizní debata Kennedyho a Nixona" },
 
   // ── 1961 ──────────────────────────────────────────────
-  { year: 1961, month: 1, text: "JFK was inaugurated and gave his 'ask not what your country can do for you' speech" },
-  { year: 1961, month: 4, text: "Yuri Gagarin became the first human in space; the Bay of Pigs invasion failed" },
-  { year: 1961, month: 5, text: "Alan Shepard became the first American in space" },
-  { year: 1961, month: 8, text: "the Berlin Wall went up in a single night" },
-  { year: 1961, month: 10, text: "the Soviet Tsar Bomba test produced the largest explosion in history" },
+  { year: 1961, month: 1, text: "J. F. Kennedy složil prezidentský slib a pronesl projev „neptej se, co může tvá země udělat pro tebe“" },
+  { year: 1961, month: 4, text: "Jurij Gagarin se stal prvním člověkem ve vesmíru; invaze v Zátoce sviní selhala" },
+  { year: 1961, month: 5, text: "Alan Shepard se stal prvním Američanem ve vesmíru" },
+  { year: 1961, month: 8, text: "berlínská zeď vyrostla během jediné noci" },
+  { year: 1961, month: 10, text: "sovětský test Car-bomby vyvolal největší výbuch v dějinách" },
 
   // ── 1962 ──────────────────────────────────────────────
-  { year: 1962, month: 2, text: "John Glenn became the first American to orbit Earth" },
-  { year: 1962, month: 8, text: "Marilyn Monroe was found dead in Brentwood at 36" },
-  { year: 1962, month: 10, text: "the Cuban Missile Crisis brought the world 13 days from nuclear war" },
+  { year: 1962, month: 2, text: "John Glenn se stal prvním Američanem na oběžné dráze Země" },
+  { year: 1962, month: 8, text: "Marilyn Monroe byla nalezena mrtvá v Brentwoodu ve věku 36 let" },
+  { year: 1962, month: 10, text: "karibská krize přivedla svět na 13 dní na pokraj jaderné války" },
 
   // ── 1963 ──────────────────────────────────────────────
-  { year: 1963, month: 6, text: "Buddhist monk Thích Quảng Đức set himself alight in Saigon" },
-  { year: 1963, month: 8, text: "Martin Luther King Jr. delivered 'I Have a Dream' at the March on Washington" },
-  { year: 1963, month: 11, text: "JFK was assassinated in Dallas; C.S. Lewis and Aldous Huxley died the same day" },
+  { year: 1963, month: 6, text: "buddhistický mnich Thích Quảng Đức se v Saigonu upálil" },
+  { year: 1963, month: 8, text: "Martin Luther King ml. pronesl při pochodu na Washington projev „I Have a Dream“" },
+  { year: 1963, month: 11, text: "J. F. Kennedy byl zavražděn v Dallasu; téhož dne zemřeli C. S. Lewis a Aldous Huxley" },
 
   // ── 1964 ──────────────────────────────────────────────
-  { year: 1964, month: 2, text: "the Beatles appeared on the Ed Sullivan Show" },
-  { year: 1964, month: 7, text: "the Civil Rights Act was signed by President Johnson" },
-  { year: 1964, month: 8, text: "the Gulf of Tonkin Resolution expanded US involvement in Vietnam" },
-  { year: 1964, month: 10, text: "Khrushchev was ousted by the Politburo; Sidney Poitier won an Oscar for Lilies of the Field" },
+  { year: 1964, month: 2, text: "Beatles vystoupili v pořadu Eda Sullivana" },
+  { year: 1964, month: 7, text: "prezident Johnson podepsal zákon o občanských právech" },
+  { year: 1964, month: 8, text: "rezoluce o Tonkinském zálivu rozšířila americkou angažovanost ve Vietnamu" },
+  { year: 1964, month: 10, text: "politbyro svrhlo Chruščova; Sidney Poitier získal Oscara za film Lilie polní" },
 
   // ── 1965 ──────────────────────────────────────────────
-  { year: 1965, month: 2, text: "Malcolm X was assassinated in Harlem" },
-  { year: 1965, month: 3, text: "Bloody Sunday in Selma, Alabama" },
-  { year: 1965, month: 8, text: "the Watts Riots erupted in Los Angeles" },
+  { year: 1965, month: 2, text: "Malcolm X byl zavražděn v Harlemu" },
+  { year: 1965, month: 3, text: "krvavá neděle v Selmě v Alabamě" },
+  { year: 1965, month: 8, text: "v Los Angeles vypukly nepokoje ve čtvrti Watts" },
 
   // ── 1966 ──────────────────────────────────────────────
-  { year: 1966, month: 5, text: "the Cultural Revolution began in China" },
-  { year: 1966, month: 9, text: "Star Trek premiered on NBC" },
-  { year: 1966, month: 10, text: "the Aberfan colliery-tip collapse in Wales killed 144 people, mostly children" },
+  { year: 1966, month: 5, text: "v Číně začala kulturní revoluce" },
+  { year: 1966, month: 9, text: "na stanici NBC měl premiéru seriál Star Trek" },
+  { year: 1966, month: 10, text: "sesuv hlušiny z dolu v Aberfanu ve Walesu zabil 144 lidí, převážně dětí" },
 
   // ── 1967 ──────────────────────────────────────────────
-  { year: 1967, month: 1, text: "the Apollo 1 fire killed Grissom, White and Chaffee on the launch pad" },
-  { year: 1967, month: 6, text: "the Six-Day War redrew the Middle East; Sgt. Pepper's Lonely Hearts Club Band was released" },
-  { year: 1967, month: 7, text: "Detroit was rocked by five days of riots" },
-  { year: 1967, month: 10, text: "Che Guevara was executed in Bolivia" },
+  { year: 1967, month: 1, text: "požár Apolla 1 zabil na startovací rampě Grissoma, Whitea a Chaffeeho" },
+  { year: 1967, month: 6, text: "šestidenní válka překreslila Blízký východ; vyšlo album Sgt. Pepper's Lonely Hearts Club Band" },
+  { year: 1967, month: 7, text: "Detroit otřásalo pět dní nepokojů" },
+  { year: 1967, month: 10, text: "Che Guevara byl popraven v Bolívii" },
 
   // ── 1968 ──────────────────────────────────────────────
-  { year: 1968, month: 1, text: "the Prague Spring began as Dubček took over in Czechoslovakia; the Tet Offensive shocked America" },
-  { year: 1968, month: 3, text: "the My Lai massacre took place in Vietnam" },
-  { year: 1968, month: 4, text: "Martin Luther King Jr. was assassinated in Memphis; American cities burned" },
-  { year: 1968, month: 5, text: "Paris students and workers brought France to a halt" },
-  { year: 1968, month: 6, text: "Robert F. Kennedy was assassinated in Los Angeles" },
-  { year: 1968, month: 8, text: "Warsaw Pact tanks crushed the Prague Spring; the Chicago DNC erupted in riots" },
-  { year: 1968, month: 10, text: "Smith and Carlos raised black-gloved fists at the Mexico City Olympics; Věra Čáslavská won gold and turned away during the Soviet anthem" },
-  { year: 1968, month: 12, text: "Apollo 8 orbited the Moon and broadcast 'Earthrise' on Christmas Eve" },
+  { year: 1968, month: 1, text: "začalo pražské jaro, když se v Československu ujal vlády Dubček; ofenziva Tet šokovala Ameriku" },
+  { year: 1968, month: 3, text: "ve Vietnamu se odehrál masakr v My Lai" },
+  { year: 1968, month: 4, text: "Martin Luther King ml. byl zavražděn v Memphisu; americká města hořela" },
+  { year: 1968, month: 5, text: "pařížští studenti a dělníci ochromili Francii" },
+  { year: 1968, month: 6, text: "Robert F. Kennedy byl zavražděn v Los Angeles" },
+  { year: 1968, month: 8, text: "tanky Varšavské smlouvy rozdrtily pražské jaro; sjezd Demokratů v Chicagu přerostl v nepokoje" },
+  { year: 1968, month: 10, text: "Smith a Carlos zvedli na olympiádě v Mexico City pěsti v černých rukavicích; Věra Čáslavská získala zlato a během sovětské hymny odvrátila hlavu" },
+  { year: 1968, month: 12, text: "Apollo 8 obletělo Měsíc a na Štědrý večer vysílalo snímek „Earthrise“" },
 
   // ── 1969 ──────────────────────────────────────────────
-  { year: 1969, month: 1, text: "Jan Palach burned himself to death on Wenceslas Square in protest" },
-  { year: 1969, month: 6, text: "the Stonewall riots launched modern gay rights in Greenwich Village" },
-  { year: 1969, month: 7, text: "Apollo 11 landed on the Moon on the 20th" },
-  { year: 1969, month: 8, text: "Woodstock drew 400,000 to a New York dairy farm; the Manson Family killings shocked LA" },
-  { year: 1969, month: 11, text: "Sesame Street debuted on US public television" },
+  { year: 1969, month: 1, text: "Jan Palach se na protest upálil na Václavském náměstí" },
+  { year: 1969, month: 6, text: "nepokoje u Stonewallu v Greenwich Village odstartovaly moderní hnutí za práva gayů" },
+  { year: 1969, month: 7, text: "Apollo 11 přistálo dvacátého na Měsíci" },
+  { year: 1969, month: 8, text: "Woodstock přilákal 400 000 lidí na mléčnou farmu v New Yorku; vraždy Mansonovy rodiny šokovaly Los Angeles" },
+  { year: 1969, month: 11, text: "v americké veřejnoprávní televizi debutovala Sezame, otevři se" },
 
   // ── 1970 ──────────────────────────────────────────────
-  { year: 1970, month: 4, text: "the first Earth Day was celebrated in the US" },
-  { year: 1970, month: 5, text: "Ohio National Guard troops killed four students at Kent State" },
-  { year: 1970, month: 9, text: "Jimi Hendrix was found dead in a London flat" },
-  { year: 1970, month: 10, text: "Janis Joplin was found dead in a Hollywood hotel" },
+  { year: 1970, month: 4, text: "ve Spojených státech se slavil první Den Země" },
+  { year: 1970, month: 5, text: "příslušníci ohijské Národní gardy zastřelili čtyři studenty na Kentské státní univerzitě" },
+  { year: 1970, month: 9, text: "Jimi Hendrix byl nalezen mrtev v londýnském bytě" },
+  { year: 1970, month: 10, text: "Janis Joplinová byla nalezena mrtvá v hollywoodském hotelu" },
 
   // ── 1971 ──────────────────────────────────────────────
-  { year: 1971, month: 6, text: "the New York Times began publishing the Pentagon Papers" },
-  { year: 1971, month: 7, text: "Jim Morrison was found dead in a Paris bathtub" },
-  { year: 1971, month: 10, text: "Walt Disney World opened in Florida" },
+  { year: 1971, month: 6, text: "deník The New York Times začal zveřejňovat Pentagonské dokumenty" },
+  { year: 1971, month: 7, text: "Jim Morrison byl nalezen mrtev v pařížské vaně" },
+  { year: 1971, month: 10, text: "na Floridě byl otevřen Walt Disney World" },
 
   // ── 1972 ──────────────────────────────────────────────
-  { year: 1972, month: 1, text: "Bloody Sunday in Derry, Northern Ireland" },
-  { year: 1972, month: 2, text: "Nixon visited China — the first US president to do so" },
-  { year: 1972, month: 6, text: "the Watergate burglars were arrested at the DNC offices in DC" },
-  { year: 1972, month: 9, text: "Black September took Israeli athletes hostage at the Munich Olympics" },
+  { year: 1972, month: 1, text: "krvavá neděle v Derry v Severním Irsku" },
+  { year: 1972, month: 2, text: "Nixon navštívil Čínu — jako první americký prezident" },
+  { year: 1972, month: 6, text: "lupiči z aféry Watergate byli zatčeni v kancelářích Demokratů ve Washingtonu" },
+  { year: 1972, month: 9, text: "Černé září vzalo na olympiádě v Mnichově izraelské sportovce jako rukojmí" },
 
   // ── 1973 ──────────────────────────────────────────────
-  { year: 1973, month: 1, text: "Roe v. Wade legalised abortion in the US; the Paris Peace Accords ended US Vietnam involvement" },
-  { year: 1973, month: 9, text: "Pinochet's coup overthrew Allende in Chile" },
-  { year: 1973, month: 10, text: "the Yom Kippur War began; OPEC announced the oil embargo" },
-  { year: 1973, month: 12, text: "ETA killed Spanish PM Carrero Blanco with a car bomb in Madrid" },
+  { year: 1973, month: 1, text: "rozsudek Roe v. Wade legalizoval potraty v USA; pařížské mírové dohody ukončily americkou účast ve Vietnamu" },
+  { year: 1973, month: 9, text: "Pinochetův převrat svrhl v Chile Allendeho" },
+  { year: 1973, month: 10, text: "začala jomkipurská válka; OPEC vyhlásil ropné embargo" },
+  { year: 1973, month: 12, text: "ETA zabila v Madridu náloží v autě španělského premiéra Carrera Blanca" },
 
   // ── 1974 ──────────────────────────────────────────────
-  { year: 1974, month: 4, text: "the Carnation Revolution in Portugal ended four decades of dictatorship; Hank Aaron broke Babe Ruth's home-run record" },
-  { year: 1974, month: 8, text: "Nixon resigned over Watergate" },
-  { year: 1974, month: 9, text: "President Ford pardoned Nixon" },
+  { year: 1974, month: 4, text: "karafiátová revoluce v Portugalsku ukončila čtyři desetiletí diktatury; Hank Aaron překonal homerunový rekord Babea Rutha" },
+  { year: 1974, month: 8, text: "Nixon kvůli aféře Watergate odstoupil" },
+  { year: 1974, month: 9, text: "prezident Ford udělil Nixonovi milost" },
 
   // ── 1975 ──────────────────────────────────────────────
-  { year: 1975, month: 4, text: "Saigon fell to North Vietnamese forces" },
-  { year: 1975, month: 11, text: "Franco died in Madrid; King Juan Carlos was sworn in" },
+  { year: 1975, month: 4, text: "Saigon padl do rukou severovietnamských sil" },
+  { year: 1975, month: 11, text: "Franco zemřel v Madridu; král Juan Carlos složil přísahu" },
 
   // ── 1976 ──────────────────────────────────────────────
-  { year: 1976, month: 7, text: "Israeli commandos rescued hostages from Entebbe; the US celebrated its bicentennial" },
-  { year: 1976, month: 9, text: "Mao Zedong died, ending an era" },
+  { year: 1976, month: 7, text: "izraelští komandos osvobodili rukojmí v Entebbe; USA slavily 200. výročí vzniku" },
+  { year: 1976, month: 9, text: "zemřel Mao Ce-tung a skončila tak celá éra" },
 
   // ── 1977 ──────────────────────────────────────────────
-  { year: 1977, month: 1, text: "Charter 77 was published in Prague by Václav Havel and 240 other dissidents" },
-  { year: 1977, month: 5, text: "Star Wars premiered on the 25th" },
-  { year: 1977, month: 8, text: "Elvis Presley died at Graceland" },
+  { year: 1977, month: 1, text: "Václav Havel a 240 dalších disidentů zveřejnili v Praze Chartu 77" },
+  { year: 1977, month: 5, text: "pětadvacátého měly premiéru Hvězdné války" },
+  { year: 1977, month: 8, text: "Elvis Presley zemřel v sídle Graceland" },
 
   // ── 1978 ──────────────────────────────────────────────
-  { year: 1978, month: 7, text: "the first IVF baby Louise Brown was born in England" },
-  { year: 1978, month: 9, text: "the Camp David Accords brought Egypt and Israel to peace; Pope John Paul I died after 33 days" },
-  { year: 1978, month: 10, text: "Karol Wojtyła was elected as Pope John Paul II — the first non-Italian pope in 455 years" },
-  { year: 1978, month: 11, text: "the Jonestown mass suicide killed 909 people in Guyana" },
+  { year: 1978, month: 7, text: "v Anglii se narodilo první dítě ze zkumavky, Louise Brownová" },
+  { year: 1978, month: 9, text: "dohody z Camp Davidu přinesly mír mezi Egyptem a Izraelem; papež Jan Pavel I. zemřel po 33 dnech" },
+  { year: 1978, month: 10, text: "Karol Wojtyła byl zvolen papežem Janem Pavlem II. — prvním neitalským papežem po 455 letech" },
+  { year: 1978, month: 11, text: "hromadná sebevražda v Jonestownu si v Guyaně vyžádala 909 obětí" },
 
   // ── 1979 ──────────────────────────────────────────────
-  { year: 1979, month: 1, text: "the Shah fled Iran; Khomeini returned the next month" },
-  { year: 1979, month: 3, text: "the Three Mile Island nuclear plant suffered a partial meltdown" },
-  { year: 1979, month: 5, text: "Margaret Thatcher became Britain's first female prime minister" },
-  { year: 1979, month: 8, text: "Lord Mountbatten was assassinated by an IRA bomb in Ireland" },
-  { year: 1979, month: 11, text: "the Iran hostage crisis began at the US embassy in Tehran" },
-  { year: 1979, month: 12, text: "the Soviet Union invaded Afghanistan" },
+  { year: 1979, month: 1, text: "šáh uprchl z Íránu; následující měsíc se vrátil Chomejní" },
+  { year: 1979, month: 3, text: "v jaderné elektrárně Three Mile Island došlo k částečnému roztavení aktivní zóny" },
+  { year: 1979, month: 5, text: "Margaret Thatcherová se stala první britskou premiérkou" },
+  { year: 1979, month: 8, text: "lord Mountbatten byl v Irsku zabit bombou IRA" },
+  { year: 1979, month: 11, text: "na americkém velvyslanectví v Teheránu začala íránská rukojmí krize" },
+  { year: 1979, month: 12, text: "Sovětský svaz vpadl do Afghánistánu" },
 
   // ── 1980 ──────────────────────────────────────────────
-  { year: 1980, month: 5, text: "Mount St. Helens erupted in Washington State; Tito died in Yugoslavia" },
-  { year: 1980, month: 8, text: "Solidarity-led strikes in Gdańsk shipyard kicked off Poland's slow revolution" },
-  { year: 1980, month: 9, text: "the Iran–Iraq War began" },
-  { year: 1980, month: 12, text: "John Lennon was shot outside the Dakota in New York" },
+  { year: 1980, month: 5, text: "ve státě Washington vybuchla sopka Mount St. Helens; v Jugoslávii zemřel Tito" },
+  { year: 1980, month: 8, text: "stávky vedené Solidaritou v gdaňské loděnici odstartovaly pozvolnou polskou revoluci" },
+  { year: 1980, month: 9, text: "začala válka mezi Íránem a Irákem" },
+  { year: 1980, month: 12, text: "John Lennon byl zastřelen před domem Dakota v New Yorku" },
 
   // ── 1981 ──────────────────────────────────────────────
-  { year: 1981, month: 1, text: "Reagan was inaugurated and Iran released the 52 American hostages within minutes" },
-  { year: 1981, month: 3, text: "Reagan was shot by John Hinckley Jr. outside a DC hotel" },
-  { year: 1981, month: 5, text: "Pope John Paul II was shot in St. Peter's Square; Bob Marley died of cancer" },
-  { year: 1981, month: 7, text: "Charles and Diana married at St Paul's Cathedral, watched by 750 million" },
-  { year: 1981, month: 8, text: "MTV launched in the US; IBM unveiled the first Personal Computer" },
-  { year: 1981, month: 12, text: "Martial law was declared in Poland to crush Solidarity" },
+  { year: 1981, month: 1, text: "Reagan složil prezidentský slib a Írán během několika minut propustil 52 amerických rukojmích" },
+  { year: 1981, month: 3, text: "Reagana postřelil John Hinckley ml. před washingtonským hotelem" },
+  { year: 1981, month: 5, text: "papež Jan Pavel II. byl postřelen na Svatopetrském náměstí; Bob Marley zemřel na rakovinu" },
+  { year: 1981, month: 7, text: "Charles a Diana se vzali v katedrále svatého Pavla před zraky 750 milionů diváků" },
+  { year: 1981, month: 8, text: "ve Spojených státech začala vysílat MTV; IBM představilo první osobní počítač" },
+  { year: 1981, month: 12, text: "v Polsku bylo k rozdrcení Solidarity vyhlášeno stanné právo" },
 
   // ── 1982 ──────────────────────────────────────────────
-  { year: 1982, month: 4, text: "Argentina invaded the Falklands; Britain sent a task force" },
-  { year: 1982, month: 6, text: "Israel invaded Lebanon" },
-  { year: 1982, month: 9, text: "Grace Kelly died in a car crash above Monaco" },
-  { year: 1982, month: 11, text: "Brezhnev died; Andropov took over the Soviet Union" },
+  { year: 1982, month: 4, text: "Argentina obsadila Falklandy; Británie vyslala námořní svaz" },
+  { year: 1982, month: 6, text: "Izrael vpadl do Libanonu" },
+  { year: 1982, month: 9, text: "Grace Kelly zahynula při autonehodě nad Monakem" },
+  { year: 1982, month: 11, text: "zemřel Brežněv; v čele Sovětského svazu ho vystřídal Andropov" },
 
   // ── 1983 ──────────────────────────────────────────────
-  { year: 1983, month: 3, text: "Reagan called the USSR an 'evil empire' and unveiled the Strategic Defense Initiative" },
-  { year: 1983, month: 9, text: "Soviet jets shot down Korean Air Lines Flight 007 over the Sea of Japan" },
-  { year: 1983, month: 10, text: "Marines barracks bombing in Beirut killed 241 US service members; the US invaded Grenada" },
+  { year: 1983, month: 3, text: "Reagan označil SSSR za „říši zla“ a představil Strategickou obrannou iniciativu" },
+  { year: 1983, month: 9, text: "sovětské stíhačky sestřelily nad Japonským mořem let Korean Air Lines 007" },
+  { year: 1983, month: 10, text: "útok na kasárna mariňáků v Bejrútu zabil 241 amerických vojáků; USA vpadly do Grenady" },
 
   // ── 1984 ──────────────────────────────────────────────
-  { year: 1984, month: 1, text: "Apple launched the Macintosh with the '1984' Super Bowl ad" },
-  { year: 1984, month: 7, text: "the Los Angeles Olympics opened (boycotted by the Soviet bloc)" },
-  { year: 1984, month: 10, text: "Indira Gandhi was assassinated by her own bodyguards" },
-  { year: 1984, month: 12, text: "the Bhopal disaster killed thousands in central India" },
+  { year: 1984, month: 1, text: "Apple uvedlo Macintosh reklamou „1984“ vysílanou během Super Bowlu" },
+  { year: 1984, month: 7, text: "v Los Angeles byla zahájena olympiáda (bojkotovaná sovětským blokem)" },
+  { year: 1984, month: 10, text: "Indiru Gándhíovou zavraždili její vlastní strážci" },
+  { year: 1984, month: 12, text: "katastrofa v Bhópálu zabila ve střední Indii tisíce lidí" },
 
   // ── 1985 ──────────────────────────────────────────────
-  { year: 1985, month: 3, text: "Mikhail Gorbachev became Soviet leader" },
-  { year: 1985, month: 7, text: "Live Aid concerts in London and Philadelphia raised funds for Ethiopia" },
-  { year: 1985, month: 9, text: "an earthquake killed 10,000+ in Mexico City; Rock Hudson became the first major celebrity to die of AIDS" },
-  { year: 1985, month: 11, text: "Reagan and Gorbachev met for the first time in Geneva" },
+  { year: 1985, month: 3, text: "Michail Gorbačov se stal sovětským vůdcem" },
+  { year: 1985, month: 7, text: "koncerty Live Aid v Londýně a Filadelfii vybraly peníze pro Etiopii" },
+  { year: 1985, month: 9, text: "zemětřesení zabilo v Mexico City přes 10 000 lidí; Rock Hudson se stal první významnou celebritou, která zemřela na AIDS" },
+  { year: 1985, month: 11, text: "Reagan a Gorbačov se poprvé setkali v Ženevě" },
 
   // ── 1986 ──────────────────────────────────────────────
-  { year: 1986, month: 1, text: "the Challenger space shuttle exploded 73 seconds after liftoff" },
-  { year: 1986, month: 2, text: "Olof Palme was shot dead on a Stockholm street; the People Power Revolution toppled Marcos in the Philippines" },
-  { year: 1986, month: 4, text: "the Chernobyl nuclear reactor exploded on the 26th" },
+  { year: 1986, month: 1, text: "raketoplán Challenger vybuchl 73 sekund po startu" },
+  { year: 1986, month: 2, text: "Olof Palme byl zastřelen v ulici ve Stockholmu; revoluce moci lidu svrhla na Filipínách Marcose" },
+  { year: 1986, month: 4, text: "šestadvacátého vybuchl jaderný reaktor v Černobylu" },
 
   // ── 1987 ──────────────────────────────────────────────
-  { year: 1987, month: 6, text: "Reagan demanded 'Mr Gorbachev, tear down this wall' at the Brandenburg Gate" },
-  { year: 1987, month: 10, text: "Black Monday — the largest one-day stock-market crash in percentage terms" },
-  { year: 1987, month: 12, text: "Reagan and Gorbachev signed the INF Treaty in Washington" },
+  { year: 1987, month: 6, text: "Reagan u Braniborské brány žádal: „Pane Gorbačove, strhněte tu zeď“" },
+  { year: 1987, month: 10, text: "černé pondělí — největší jednodenní propad akciových trhů v procentuálním vyjádření" },
+  { year: 1987, month: 12, text: "Reagan a Gorbačov podepsali ve Washingtonu smlouvu INF" },
 
   // ── 1988 ──────────────────────────────────────────────
-  { year: 1988, month: 7, text: "the USS Vincennes shot down Iran Air Flight 655" },
-  { year: 1988, month: 12, text: "Pan Am 103 was blown up over Lockerbie, Scotland" },
+  { year: 1988, month: 7, text: "USS Vincennes sestřelil let Iran Air 655" },
+  { year: 1988, month: 12, text: "let Pan Am 103 byl vyhozen do povětří nad skotským Lockerbie" },
 
   // ── 1989 ──────────────────────────────────────────────
-  { year: 1989, month: 3, text: "the Exxon Valdez ran aground in Alaska" },
-  { year: 1989, month: 4, text: "the Hillsborough disaster killed 97 Liverpool fans" },
-  { year: 1989, month: 6, text: "the Tiananmen Square massacre crushed China's pro-democracy movement; Solidarity won Poland's elections" },
-  { year: 1989, month: 11, text: "the Berlin Wall fell on the 9th; the Velvet Revolution began in Prague on the 17th" },
-  { year: 1989, month: 12, text: "Ceaușescu was executed in Romania; Havel was elected president of Czechoslovakia" },
+  { year: 1989, month: 3, text: "tanker Exxon Valdez najel na mělčinu u Aljašky" },
+  { year: 1989, month: 4, text: "katastrofa na stadionu Hillsborough zabila 97 fanoušků Liverpoolu" },
+  { year: 1989, month: 6, text: "masakr na náměstí Nebeského klidu rozdrtil čínské prodemokratické hnutí; Solidarita vyhrála polské volby" },
+  { year: 1989, month: 11, text: "devátého padla berlínská zeď; sedmnáctého začala v Praze sametová revoluce" },
+  { year: 1989, month: 12, text: "v Rumunsku byl popraven Ceaușescu; Havel byl zvolen prezidentem Československa" },
 
   // ── 1990 ──────────────────────────────────────────────
-  { year: 1990, month: 2, text: "Nelson Mandela walked free from prison after 27 years" },
-  { year: 1990, month: 8, text: "Iraq invaded Kuwait — the road to the Gulf War began" },
-  { year: 1990, month: 10, text: "Germany was reunified at midnight on the 3rd" },
+  { year: 1990, month: 2, text: "Nelson Mandela vyšel po 27 letech na svobodu z vězení" },
+  { year: 1990, month: 8, text: "Irák napadl Kuvajt — začala cesta k válce v Zálivu" },
+  { year: 1990, month: 10, text: "o půlnoci třetího bylo Německo znovusjednoceno" },
 
   // ── 1991 ──────────────────────────────────────────────
-  { year: 1991, month: 1, text: "the Gulf War began with Operation Desert Storm" },
-  { year: 1991, month: 4, text: "the Warsaw Pact formally dissolved" },
-  { year: 1991, month: 6, text: "Slovenia and Croatia declared independence from Yugoslavia" },
-  { year: 1991, month: 8, text: "a hardline coup against Gorbachev failed in Moscow" },
-  { year: 1991, month: 12, text: "the Soviet Union dissolved on Christmas Day" },
+  { year: 1991, month: 1, text: "válka v Zálivu začala operací Pouštní bouře" },
+  { year: 1991, month: 4, text: "Varšavská smlouva byla formálně rozpuštěna" },
+  { year: 1991, month: 6, text: "Slovinsko a Chorvatsko vyhlásily nezávislost na Jugoslávii" },
+  { year: 1991, month: 8, text: "tvrdolinkový převrat proti Gorbačovovi v Moskvě selhal" },
+  { year: 1991, month: 12, text: "Sovětský svaz se rozpadl na první svátek vánoční" },
 
   // ── 1992 ──────────────────────────────────────────────
-  { year: 1992, month: 4, text: "the Bosnian War began with the siege of Sarajevo; LA riots erupted after the Rodney King verdict" },
+  { year: 1992, month: 4, text: "válka v Bosně začala obléháním Sarajeva; v Los Angeles vypukly nepokoje po verdiktu v případu Rodneyho Kinga" },
 
   // ── 1993 ──────────────────────────────────────────────
-  { year: 1993, month: 1, text: "Czechoslovakia split into the Czech Republic and Slovakia — the Velvet Divorce" },
-  { year: 1993, month: 2, text: "the first World Trade Center bombing killed six in New York" },
-  { year: 1993, month: 4, text: "the Waco siege ended with 76 dead at the Branch Davidian compound" },
-  { year: 1993, month: 9, text: "the Oslo Accords were signed on the White House lawn" },
+  { year: 1993, month: 1, text: "Československo se rozdělilo na Českou republiku a Slovensko — sametový rozvod" },
+  { year: 1993, month: 2, text: "první bombový útok na Světové obchodní centrum zabil v New Yorku šest lidí" },
+  { year: 1993, month: 4, text: "obležení ve Waco skončilo 76 mrtvými v sídle Davidiánské sekty" },
+  { year: 1993, month: 9, text: "dohody z Osla byly podepsány na trávníku před Bílým domem" },
 
   // ── 1994 ──────────────────────────────────────────────
-  { year: 1994, month: 4, text: "the Rwandan genocide began — 800,000 killed in 100 days" },
-  { year: 1994, month: 5, text: "Mandela was inaugurated as South African president; the Channel Tunnel opened" },
-  { year: 1994, month: 6, text: "O.J. Simpson led police on a slow-speed Bronco chase" },
+  { year: 1994, month: 4, text: "začala genocida ve Rwandě — 800 000 mrtvých za 100 dní" },
+  { year: 1994, month: 5, text: "Mandela složil přísahu jako jihoafrický prezident; otevřel se tunel pod Lamanšským průlivem" },
+  { year: 1994, month: 6, text: "O. J. Simpson vedl policii na pomalé honičce ve voze Bronco" },
 
   // ── 1995 ──────────────────────────────────────────────
-  { year: 1995, month: 1, text: "the Kobe earthquake killed 6,400 in Japan" },
-  { year: 1995, month: 3, text: "Aum Shinrikyo released sarin gas on the Tokyo subway" },
-  { year: 1995, month: 4, text: "the Oklahoma City bombing killed 168" },
-  { year: 1995, month: 7, text: "Srebrenica massacre killed over 8,000 Bosniak men and boys" },
-  { year: 1995, month: 8, text: "Windows 95 launched with The Rolling Stones' 'Start Me Up'" },
-  { year: 1995, month: 11, text: "Yitzhak Rabin was assassinated in Tel Aviv" },
+  { year: 1995, month: 1, text: "zemětřesení v Kóbe zabilo v Japonsku 6 400 lidí" },
+  { year: 1995, month: 3, text: "sekta Óm šinrikjó vypustila v tokijském metru sarin" },
+  { year: 1995, month: 4, text: "bombový útok v Oklahoma City zabil 168 lidí" },
+  { year: 1995, month: 7, text: "masakr ve Srebrenici zabil přes 8 000 bosňáckých mužů a chlapců" },
+  { year: 1995, month: 8, text: "Windows 95 byly uvedeny s písní „Start Me Up“ od The Rolling Stones" },
+  { year: 1995, month: 11, text: "Jicchak Rabin byl zavražděn v Tel Avivu" },
 
   // ── 1996 ──────────────────────────────────────────────
-  { year: 1996, month: 4, text: "the Unabomber Ted Kaczynski was arrested in his Montana cabin" },
-  { year: 1996, month: 7, text: "Dolly the sheep was cloned (announced 1997)" },
+  { year: 1996, month: 4, text: "Unabomber Ted Kaczynski byl zatčen ve své chatě v Montaně" },
+  { year: 1996, month: 7, text: "byla naklonována ovce Dolly (oznámeno 1997)" },
 
   // ── 1997 ──────────────────────────────────────────────
-  { year: 1997, month: 7, text: "Britain handed Hong Kong back to China" },
-  { year: 1997, month: 8, text: "Princess Diana was killed in a Paris car crash; Mother Teresa died days later" },
+  { year: 1997, month: 7, text: "Británie vrátila Hongkong Číně" },
+  { year: 1997, month: 8, text: "princezna Diana zahynula při autonehodě v Paříži; o pár dní později zemřela Matka Tereza" },
 
   // ── 1998 ──────────────────────────────────────────────
-  { year: 1998, month: 8, text: "US embassies in Kenya and Tanzania were bombed by al-Qaeda" },
-  { year: 1998, month: 12, text: "President Clinton was impeached by the US House" },
+  { year: 1998, month: 8, text: "al-Káida bombami zaútočila na americká velvyslanectví v Keni a Tanzanii" },
+  { year: 1998, month: 12, text: "Sněmovna reprezentantů zahájila proti prezidentu Clintonovi ústavní žalobu" },
 
   // ── 1999 ──────────────────────────────────────────────
-  { year: 1999, month: 1, text: "the euro was introduced for non-cash transactions" },
-  { year: 1999, month: 3, text: "NATO began bombing Yugoslavia over Kosovo" },
-  { year: 1999, month: 4, text: "the Columbine High School shooting in Colorado killed 13" },
-  { year: 1999, month: 8, text: "a total solar eclipse darkened Europe for the last time of the 20th century" },
+  { year: 1999, month: 1, text: "euro bylo zavedeno pro bezhotovostní transakce" },
+  { year: 1999, month: 3, text: "NATO začalo kvůli Kosovu bombardovat Jugoslávii" },
+  { year: 1999, month: 4, text: "střelba na střední škole Columbine v Coloradu zabila 13 lidí" },
+  { year: 1999, month: 8, text: "úplné zatmění Slunce zahalilo Evropu naposledy ve 20. století" },
 
   // ── 2000 ──────────────────────────────────────────────
-  { year: 2000, month: 11, text: "the US presidential election came down to Florida; the Supreme Court eventually settled it for Bush" },
+  { year: 2000, month: 11, text: "americké prezidentské volby se rozhodly na Floridě; Nejvyšší soud je nakonec rozhodl ve prospěch Bushe" },
 
   // ── 2001 ──────────────────────────────────────────────
-  { year: 2001, month: 1, text: "Wikipedia was launched" },
-  { year: 2001, month: 9, text: "al-Qaeda hijackers attacked the World Trade Center and Pentagon on the 11th" },
-  { year: 2001, month: 10, text: "the US-led invasion of Afghanistan began" },
-  { year: 2001, month: 11, text: "Apple released the first iPod" },
+  { year: 2001, month: 1, text: "byla spuštěna Wikipedie" },
+  { year: 2001, month: 9, text: "jedenáctého zaútočili únosci z al-Káidy na Světové obchodní centrum a Pentagon" },
+  { year: 2001, month: 10, text: "začala invaze do Afghánistánu vedená Spojenými státy" },
+  { year: 2001, month: 11, text: "Apple uvedlo první iPod" },
 
   // ── 2002 ──────────────────────────────────────────────
-  { year: 2002, month: 1, text: "euro coins and notes entered everyday circulation across 12 countries" },
+  { year: 2002, month: 1, text: "eurové mince a bankovky vstoupily do běžného oběhu ve 12 zemích" },
 
   // ── 2003 ──────────────────────────────────────────────
-  { year: 2003, month: 2, text: "the Space Shuttle Columbia disintegrated on re-entry" },
-  { year: 2003, month: 3, text: "the US-led invasion of Iraq began" },
+  { year: 2003, month: 2, text: "raketoplán Columbia se rozpadl při návratu do atmosféry" },
+  { year: 2003, month: 3, text: "začala invaze do Iráku vedená Spojenými státy" },
 
   // ── 2004 ──────────────────────────────────────────────
-  { year: 2004, month: 2, text: "Facebook was launched out of a Harvard dorm" },
-  { year: 2004, month: 3, text: "the Madrid train bombings killed 193" },
-  { year: 2004, month: 5, text: "ten new states joined the EU, including the Czech Republic" },
-  { year: 2004, month: 12, text: "the Indian Ocean tsunami killed 230,000+ across 14 countries" },
+  { year: 2004, month: 2, text: "Facebook byl spuštěn z harvardské koleje" },
+  { year: 2004, month: 3, text: "bombové útoky na vlaky v Madridu zabily 193 lidí" },
+  { year: 2004, month: 5, text: "do EU vstoupilo deset nových států včetně České republiky" },
+  { year: 2004, month: 12, text: "tsunami v Indickém oceánu zabilo ve 14 zemích přes 230 000 lidí" },
 
   // ── 2005 ──────────────────────────────────────────────
-  { year: 2005, month: 4, text: "Pope John Paul II died; Benedict XVI was elected" },
-  { year: 2005, month: 7, text: "the London transport bombings killed 52" },
-  { year: 2005, month: 8, text: "Hurricane Katrina drowned New Orleans" },
+  { year: 2005, month: 4, text: "zemřel papež Jan Pavel II.; byl zvolen Benedikt XVI." },
+  { year: 2005, month: 7, text: "bombové útoky na londýnskou dopravu zabily 52 lidí" },
+  { year: 2005, month: 8, text: "hurikán Katrina zatopil New Orleans" },
 
   // ── 2006 ──────────────────────────────────────────────
-  { year: 2006, month: 3, text: "Twitter was launched" },
+  { year: 2006, month: 3, text: "byl spuštěn Twitter" },
 
   // ── 2007 ──────────────────────────────────────────────
-  { year: 2007, month: 1, text: "Steve Jobs unveiled the iPhone" },
-  { year: 2007, month: 4, text: "the Virginia Tech shooting killed 32" },
+  { year: 2007, month: 1, text: "Steve Jobs představil iPhone" },
+  { year: 2007, month: 4, text: "střelba na Virginia Tech zabila 32 lidí" },
 
   // ── 2008 ──────────────────────────────────────────────
-  { year: 2008, month: 8, text: "the Beijing Olympics opened on 08/08/08" },
-  { year: 2008, month: 9, text: "Lehman Brothers collapsed and the global financial crisis exploded" },
-  { year: 2008, month: 11, text: "Barack Obama was elected the first Black US president" },
+  { year: 2008, month: 8, text: "olympiáda v Pekingu byla zahájena 8. 8. 2008" },
+  { year: 2008, month: 9, text: "padla banka Lehman Brothers a propukla globální finanční krize" },
+  { year: 2008, month: 11, text: "Barack Obama byl zvolen prvním černošským prezidentem USA" },
 
   // ── 2009 ──────────────────────────────────────────────
-  { year: 2009, month: 6, text: "Michael Jackson died of a propofol overdose in Los Angeles" },
+  { year: 2009, month: 6, text: "Michael Jackson zemřel v Los Angeles na předávkování propofolem" },
 
   // ── 2010 ──────────────────────────────────────────────
-  { year: 2010, month: 1, text: "the Haiti earthquake killed an estimated 220,000+" },
-  { year: 2010, month: 4, text: "the Deepwater Horizon oil rig exploded in the Gulf of Mexico" },
-  { year: 2010, month: 10, text: "33 Chilean miners were rescued from 700m underground after 69 days" },
-  { year: 2010, month: 12, text: "a Tunisian street vendor's self-immolation ignited the Arab Spring" },
+  { year: 2010, month: 1, text: "zemětřesení na Haiti zabilo odhadem přes 220 000 lidí" },
+  { year: 2010, month: 4, text: "v Mexickém zálivu explodovala ropná plošina Deepwater Horizon" },
+  { year: 2010, month: 10, text: "33 chilských horníků bylo po 69 dnech zachráněno z hloubky 700 metrů" },
+  { year: 2010, month: 12, text: "sebeupálení tuniského pouličního prodavače rozpoutalo arabské jaro" },
 
   // ── 2011 ──────────────────────────────────────────────
-  { year: 2011, month: 1, text: "Egypt's Tahrir Square uprising overthrew Mubarak" },
-  { year: 2011, month: 3, text: "an earthquake and tsunami caused the Fukushima nuclear meltdown" },
-  { year: 2011, month: 5, text: "US Navy SEALs killed Osama bin Laden in Pakistan" },
-  { year: 2011, month: 7, text: "Anders Breivik killed 77 in Norway, mostly teenagers on Utøya island" },
-  { year: 2011, month: 10, text: "Steve Jobs died of pancreatic cancer in Palo Alto" },
+  { year: 2011, month: 1, text: "povstání na egyptském náměstí Tahrír svrhlo Mubaraka" },
+  { year: 2011, month: 3, text: "zemětřesení a tsunami způsobily roztavení jaderného reaktoru ve Fukušimě" },
+  { year: 2011, month: 5, text: "příslušníci jednotky Navy SEALs zabili v Pákistánu Usámu bin Ládina" },
+  { year: 2011, month: 7, text: "Anders Breivik zabil v Norsku 77 lidí, převážně teenagery na ostrově Utøya" },
+  { year: 2011, month: 10, text: "Steve Jobs zemřel v Palo Altu na rakovinu slinivky" },
 
   // ── 2012 ──────────────────────────────────────────────
-  { year: 2012, month: 7, text: "the London Olympics opened" },
-  { year: 2012, month: 10, text: "Hurricane Sandy flooded New York and New Jersey" },
-  { year: 2012, month: 12, text: "the Sandy Hook school shooting killed 26, mostly first-graders" },
+  { year: 2012, month: 7, text: "byla zahájena olympiáda v Londýně" },
+  { year: 2012, month: 10, text: "hurikán Sandy zaplavil New York a New Jersey" },
+  { year: 2012, month: 12, text: "střelba na škole v Sandy Hook zabila 26 lidí, převážně prvňáčků" },
 
   // ── 2013 ──────────────────────────────────────────────
-  { year: 2013, month: 3, text: "Jorge Bergoglio became Pope Francis — the first Jesuit and the first from the Americas" },
-  { year: 2013, month: 4, text: "the Boston Marathon was bombed" },
-  { year: 2013, month: 6, text: "Edward Snowden began releasing NSA surveillance documents from Hong Kong" },
-  { year: 2013, month: 12, text: "Nelson Mandela died at 95" },
+  { year: 2013, month: 3, text: "Jorge Bergoglio se stal papežem Františkem — prvním jezuitou a prvním papežem z Ameriky" },
+  { year: 2013, month: 4, text: "na Bostonský maraton byl spáchán bombový útok" },
+  { year: 2013, month: 6, text: "Edward Snowden začal z Hongkongu zveřejňovat dokumenty o sledování NSA" },
+  { year: 2013, month: 12, text: "Nelson Mandela zemřel ve věku 95 let" },
 
   // ── 2014 ──────────────────────────────────────────────
-  { year: 2014, month: 2, text: "Kyiv's Maidan Revolution toppled the Ukrainian government" },
-  { year: 2014, month: 3, text: "Russia annexed Crimea; Malaysia Airlines MH370 vanished over the Indian Ocean" },
-  { year: 2014, month: 7, text: "Malaysia Airlines MH17 was shot down over eastern Ukraine" },
-  { year: 2014, month: 8, text: "Robin Williams died by suicide; ALS Ice Bucket Challenge went viral" },
+  { year: 2014, month: 2, text: "revoluce na kyjevském Majdanu svrhla ukrajinskou vládu" },
+  { year: 2014, month: 3, text: "Rusko anektovalo Krym; let Malaysia Airlines MH370 zmizel nad Indickým oceánem" },
+  { year: 2014, month: 7, text: "let Malaysia Airlines MH17 byl sestřelen nad východní Ukrajinou" },
+  { year: 2014, month: 8, text: "Robin Williams spáchal sebevraždu; virálně se rozšířila výzva ALS Ice Bucket Challenge" },
 
   // ── 2015 ──────────────────────────────────────────────
-  { year: 2015, month: 1, text: "Charlie Hebdo's Paris offices were attacked, killing 12" },
-  { year: 2015, month: 4, text: "an earthquake in Nepal killed nearly 9,000" },
-  { year: 2015, month: 11, text: "coordinated attacks in Paris killed 130, including 90 at the Bataclan" },
-  { year: 2015, month: 12, text: "the Paris Agreement on climate change was signed" },
+  { year: 2015, month: 1, text: "útok na pařížskou redakci Charlie Hebdo zabil 12 lidí" },
+  { year: 2015, month: 4, text: "zemětřesení v Nepálu zabilo téměř 9 000 lidí" },
+  { year: 2015, month: 11, text: "koordinované útoky v Paříži zabily 130 lidí, z toho 90 v klubu Bataclan" },
+  { year: 2015, month: 12, text: "byla podepsána Pařížská dohoda o změně klimatu" },
 
   // ── 2016 ──────────────────────────────────────────────
-  { year: 2016, month: 1, text: "David Bowie died two days after releasing Blackstar" },
-  { year: 2016, month: 4, text: "Prince was found dead at Paisley Park" },
-  { year: 2016, month: 6, text: "Britain voted narrowly to leave the European Union" },
-  { year: 2016, month: 11, text: "Donald Trump won the US presidency" },
+  { year: 2016, month: 1, text: "David Bowie zemřel dva dny po vydání alba Blackstar" },
+  { year: 2016, month: 4, text: "Prince byl nalezen mrtev v sídle Paisley Park" },
+  { year: 2016, month: 6, text: "Británie těsně odhlasovala vystoupení z Evropské unie" },
+  { year: 2016, month: 11, text: "Donald Trump vyhrál americké prezidentské volby" },
 
   // ── 2017 ──────────────────────────────────────────────
-  { year: 2017, month: 5, text: "the WannaCry ransomware shut down hospitals and factories across the world" },
-  { year: 2017, month: 8, text: "the Great American Eclipse crossed the continental US" },
-  { year: 2017, month: 10, text: "Harvey Weinstein's exposure launched the #MeToo movement" },
+  { year: 2017, month: 5, text: "ransomware WannaCry ochromil nemocnice a továrny po celém světě" },
+  { year: 2017, month: 8, text: "velké americké zatmění přešlo přes kontinentální USA" },
+  { year: 2017, month: 10, text: "odhalení Harveyho Weinsteina odstartovalo hnutí #MeToo" },
 
   // ── 2018 ──────────────────────────────────────────────
-  { year: 2018, month: 3, text: "Stephen Hawking died on Pi Day at 76" },
-  { year: 2018, month: 5, text: "Prince Harry married Meghan Markle at Windsor" },
+  { year: 2018, month: 3, text: "Stephen Hawking zemřel ve věku 76 let na Den čísla pí" },
+  { year: 2018, month: 5, text: "princ Harry se ve Windsoru oženil s Meghan Markleovou" },
 
   // ── 2019 ──────────────────────────────────────────────
-  { year: 2019, month: 4, text: "the spire of Notre-Dame de Paris collapsed in a fire" },
-  { year: 2019, month: 4, text: "the first photograph of a black hole was published" },
-  { year: 2019, month: 12, text: "a cluster of pneumonia cases in Wuhan, China was reported to the WHO" },
+  { year: 2019, month: 4, text: "věž katedrály Notre-Dame v Paříži se zřítila při požáru" },
+  { year: 2019, month: 4, text: "byla zveřejněna první fotografie černé díry" },
+  { year: 2019, month: 12, text: "WHO byl nahlášen shluk případů zápalu plic v čínském Wu-chanu" },
 
   // ── 2020 ──────────────────────────────────────────────
-  { year: 2020, month: 1, text: "Kobe Bryant died in a California helicopter crash with his daughter" },
-  { year: 2020, month: 3, text: "the WHO declared COVID-19 a pandemic; the world locked down" },
-  { year: 2020, month: 5, text: "George Floyd was killed by a Minneapolis police officer; global protests followed" },
-  { year: 2020, month: 11, text: "Joe Biden defeated Donald Trump in the US presidential election" },
-  { year: 2020, month: 12, text: "the great conjunction brought Jupiter and Saturn within 0.1° of each other" },
+  { year: 2020, month: 1, text: "Kobe Bryant zahynul se svou dcerou při havárii vrtulníku v Kalifornii" },
+  { year: 2020, month: 3, text: "WHO prohlásila covid-19 za pandemii; svět se uzavřel" },
+  { year: 2020, month: 5, text: "George Floyd byl zabit policistou v Minneapolis; následovaly celosvětové protesty" },
+  { year: 2020, month: 11, text: "Joe Biden porazil Donalda Trumpa v amerických prezidentských volbách" },
+  { year: 2020, month: 12, text: "při velké konjunkci se Jupiter a Saturn přiblížily na 0,1° od sebe" },
 
   // ── 2021 ──────────────────────────────────────────────
-  { year: 2021, month: 1, text: "a mob stormed the US Capitol on January 6 trying to overturn the election" },
-  { year: 2021, month: 8, text: "the Taliban retook Kabul as the US ended its 20-year war in Afghanistan" },
+  { year: 2021, month: 1, text: "6. ledna vtrhl dav do amerického Kapitolu ve snaze zvrátit výsledek voleb" },
+  { year: 2021, month: 8, text: "Tálibán znovu dobyl Kábul, když USA ukončily svou dvacetiletou válku v Afghánistánu" },
 
   // ── 2022 ──────────────────────────────────────────────
-  { year: 2022, month: 2, text: "Russia launched a full-scale invasion of Ukraine on the 24th" },
-  { year: 2022, month: 9, text: "Queen Elizabeth II died at Balmoral after 70 years on the throne" },
-  { year: 2022, month: 11, text: "OpenAI released ChatGPT to the public" },
+  { year: 2022, month: 2, text: "Rusko zahájilo dvacátého čtvrtého plnohodnotnou invazi na Ukrajinu" },
+  { year: 2022, month: 9, text: "královna Alžběta II. zemřela v Balmoralu po 70 letech na trůnu" },
+  { year: 2022, month: 11, text: "OpenAI zpřístupnilo veřejnosti ChatGPT" },
 
   // ── 2023 ──────────────────────────────────────────────
-  { year: 2023, month: 2, text: "a magnitude-7.8 earthquake killed 60,000+ across Turkey and Syria" },
-  { year: 2023, month: 10, text: "Hamas attacked Israel, killing 1,200 and taking 250 hostages" },
+  { year: 2023, month: 2, text: "zemětřesení o síle 7,8 zabilo v Turecku a Sýrii přes 60 000 lidí" },
+  { year: 2023, month: 10, text: "Hamás zaútočil na Izrael, zabil 1 200 lidí a 250 vzal jako rukojmí" },
 
   // ── 2024 ──────────────────────────────────────────────
-  { year: 2024, month: 4, text: "a total solar eclipse swept across Mexico, the US and eastern Canada" },
+  { year: 2024, month: 4, text: "úplné zatmění Slunce přešlo přes Mexiko, USA a východní Kanadu" },
 ];
 
 // ── Selectors ────────────────────────────────────────────────────

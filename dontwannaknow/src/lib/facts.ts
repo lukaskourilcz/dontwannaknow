@@ -122,7 +122,7 @@ function countryFacts(person: Person): Fact[] {
 
   const facts: Fact[] = [];
   const decades: { d: CountryDecade | null; when: string }[] = [
-    { d: birthDecade, when: `in the ${decadeWord(Math.floor(birthYear / 10) * 10)}` },
+    { d: birthDecade, when: `v letech ${decadeWord(Math.floor(birthYear / 10) * 10)}` },
   ];
   if (
     youthDecade &&
@@ -130,7 +130,7 @@ function countryFacts(person: Person): Fact[] {
   ) {
     decades.push({
       d: youthDecade,
-      when: `by the ${decadeWord(youthDecade.decadeStart)}, growing up`,
+      when: `v letech ${decadeWord(youthDecade.decadeStart)}, během dospívání`,
     });
   }
 
@@ -173,10 +173,10 @@ function countryFacts(person: Person): Fact[] {
   pickN(countryEvents, 4).forEach((e) => {
     const age = ageAt(birthYear, e.year);
     const when =
-      age === 0 ? "the year of birth" : age < 0 ? `${-age} years before` : `age ${age}`;
+      age === 0 ? "v roce narození" : age < 0 ? `${-age} let před narozením` : `ve věku ${age} let`;
     facts.push({
       category: "local",
-      text: `At ${when} (${e.year}), ${e.text}.`,
+      text: `${capitalize(when)} (${e.year}): ${e.text}.`,
     });
   });
 
@@ -240,13 +240,13 @@ export function reportFor(person: Person): PersonReport {
       const age = ageAt(birthYear, e.year);
       const when =
         age === 0
-          ? "the year of birth"
+          ? "v roce narození"
           : age < 0
-          ? `${-age} years before they were born`
-          : `age ${age}`;
+          ? `${-age} let před narozením`
+          : `ve věku ${age} let`;
       facts.push({
         category: "city",
-        text: `At ${when} (${e.year}, in ${city.name}), ${e.text}.`,
+        text: `${capitalize(when)} (${e.year}, ${city.name}): ${e.text}.`,
       });
     });
   }
@@ -259,10 +259,10 @@ export function reportFor(person: Person): PersonReport {
     );
     const pool = big.length >= 2 ? big : beforeStuff;
     pickN(pool, 2).forEach((inv) => {
-      const phrase = inv.detail ?? `${inv.name} didn't exist yet`;
+      const phrase = inv.detail ?? `${inv.name} ještě neexistoval(a)`;
       facts.push({
         category: "bizarre",
-        text: `When ${label.toLowerCase()} was born, ${phrase}.`,
+        text: `Když se ${label.toLowerCase()} narodil/a, ${phrase}.`,
       });
     });
   }
@@ -270,20 +270,20 @@ export function reportFor(person: Person): PersonReport {
   // ── Bizarre: vanished countries ───────────────────────────────────────
   const gone = goneCountriesAlive(birthYear).slice(0, 2);
   gone.forEach((c) => {
-    const verb = c.becameText ? ` — it later ${c.becameText}` : "";
+    const verb = c.becameText ? ` — později ${c.becameText}` : "";
     facts.push({
       category: "bizarre",
-      text: `${label} was born when ${c.name} still existed on the map${verb}.`,
+      text: `${label} se narodil/a v době, kdy na mapě ještě existoval(a) ${c.name}${verb}.`,
     });
   });
 
   // ── Beautiful: formative world moments ───────────────────────────────
   pickFormative(birthYear).forEach((e) => {
     const age = ageAt(birthYear, e.year);
-    const ageWord = age === 0 ? "the year of birth" : `age ${age}`;
+    const ageWord = age === 0 ? "v roce narození" : `ve věku ${age} let`;
     facts.push({
       category: e.mood === "beautiful" || e.mood === "milestone" ? "beautiful" : "world",
-      text: `At ${ageWord}, ${e.text}.`,
+      text: `${capitalize(ageWord)}: ${e.text}.`,
     });
   });
 
@@ -291,53 +291,53 @@ export function reportFor(person: Person): PersonReport {
     const age = ageAt(birthYear, e.year);
     facts.push({
       category: "beautiful",
-      text: `${label} was ${age} when ${e.text}.`,
+      text: `${label} měl(a) ${age} let, když ${e.text}.`,
     });
   });
 
   // ── Everyday life ────────────────────────────────────────────────────
   facts.push({
     category: "everyday",
-    text: `In the year ${label.toLowerCase()} was born, the world held about ${birthStats.worldPopulationBillions} billion people — today it's about 8.1 billion.`,
+    text: `V roce, kdy se ${label.toLowerCase()} narodil/a, žilo na světě přibližně ${birthStats.worldPopulationBillions} miliard lidí — dnes je to zhruba 8,1 miliardy.`,
   });
   facts.push({
     category: "everyday",
-    text: `A loaf of bread cost ${fmtUsd(birthStats.loafOfBreadUsd)} and a gallon of gas was ${fmtUsd(birthStats.gallonOfGasUsd)}.`,
+    text: `Bochník chleba stál ${fmtUsd(birthStats.loafOfBreadUsd)} a galon benzinu vyšel na ${fmtUsd(birthStats.gallonOfGasUsd)}.`,
   });
   facts.push({
     category: "everyday",
-    text: `The average American earned about ${fmtUsd(birthStats.usAverageAnnualWageUsd)} a year, and a typical house went for around ${fmtUsd(birthStats.medianUsHouseUsd)}.`,
+    text: `Průměrný Američan vydělával zhruba ${fmtUsd(birthStats.usAverageAnnualWageUsd)} ročně a běžný dům stál kolem ${fmtUsd(birthStats.medianUsHouseUsd)}.`,
   });
   facts.push({
     category: "everyday",
-    text: `Global life expectancy at the time was about ${birthStats.globalLifeExpectancy} years. Roughly ${birthStats.worldBirthsPerYearMillions} million babies were born that year worldwide.`,
+    text: `Průměrná délka života ve světě tehdy činila asi ${birthStats.globalLifeExpectancy} let. Toho roku se na celém světě narodilo přibližně ${birthStats.worldBirthsPerYearMillions} milionů dětí.`,
   });
 
   // ── Youth: cultural snapshot ──────────────────────────────────────────
   facts.push({
     category: "youth",
-    text: `Growing up, ${label.toLowerCase()} probably wore ${youthCulture.fashion}.`,
+    text: `Během dospívání ${label.toLowerCase()} nejspíš nosil/a ${youthCulture.fashion}.`,
   });
   facts.push({
     category: "youth",
-    text: `As a teenager, ${label.toLowerCase()} ${youthCulture.whatTeensDid}.`,
+    text: `Jako teenager ${label.toLowerCase()} ${youthCulture.whatTeensDid}.`,
   });
   if (youthCulture.topSongs.length) {
     facts.push({
       category: "youth",
-      text: `The songs everyone knew: ${youthCulture.topSongs.slice(0, 2).join(" and ")}.`,
+      text: `Písničky, které znal každý: ${youthCulture.topSongs.slice(0, 2).join(" a ")}.`,
     });
   }
   if (youthCulture.popularMovies.length) {
     facts.push({
       category: "youth",
-      text: `Cinemas were showing ${youthCulture.popularMovies.slice(0, 3).join(", ")}.`,
+      text: `V kinech dávali ${youthCulture.popularMovies.slice(0, 3).join(", ")}.`,
     });
   }
   if (youthCulture.popularBooks.length) {
     facts.push({
       category: "youth",
-      text: `Everyone was reading ${youthCulture.popularBooks.slice(0, 2).join(" and ")}.`,
+      text: `Všichni četli ${youthCulture.popularBooks.slice(0, 2).join(" a ")}.`,
     });
   }
 
@@ -348,7 +348,7 @@ export function reportFor(person: Person): PersonReport {
     if (multiple >= 2) {
       facts.push({
         category: "bizarre",
-        text: `The average wage today is roughly ${multiple}× what it was when ${label.toLowerCase()} was born.`,
+        text: `Průměrná mzda je dnes zhruba ${multiple}× vyšší než v době, kdy se ${label.toLowerCase()} narodil/a.`,
       });
     }
   }

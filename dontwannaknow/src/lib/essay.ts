@@ -1,6 +1,6 @@
-// Compose a life-essay from all the data we have for a person — city
-// events, country events, world events, decade texture. Output is an
-// array of paragraphs, each with a heading and a single block of prose.
+// Sestaví životní esej ze všech dat, která o člověku máme — události
+// z města, ze země, ze světa, dobový kolorit dekády. Výstupem je pole
+// odstavců, každý s nadpisem a jedním souvislým blokem textu.
 
 import type { Person } from "./facts";
 import { findCity, cityFactsFor } from "../data/cities";
@@ -77,7 +77,7 @@ function gatherEvents(person: Person): Event[] {
   return events.sort((a, b) => a.year - b.year);
 }
 
-// Stitch a list of events into prose, keeping age cues.
+// Spojí seznam událostí do souvislého textu a zachová zmínky o věku.
 function stitch(events: Event[], birthYear: number, max = 8): string {
   if (events.length === 0) return "";
   const picked = pickN(events, max).sort((a, b) => a.year - b.year);
@@ -87,23 +87,23 @@ function stitch(events: Event[], birthYear: number, max = 8): string {
     let lead: string;
     if (i === 0) {
       lead = age <= 0
-        ? `In ${e.year}, the year they arrived,`
-        : `At ${age}, in ${e.year},`;
+        ? `V roce ${e.year}, v roce příchodu na svět,`
+        : `Ve věku ${age} let, v roce ${e.year},`;
     } else {
       const prevAge = picked[i - 1].year - birthYear;
       if (e.year === picked[i - 1].year) {
-        lead = "and that same year";
+        lead = "a téhož roku";
       } else if (age - prevAge === 1) {
-        lead = "the next year";
+        lead = "následující rok";
       } else if (age - prevAge <= 3) {
-        lead = `by the time they were ${age},`;
+        lead = `než dosáhl/a věku ${age} let,`;
       } else {
-        lead = `years later, when they were ${age},`;
+        lead = `o léta později, ve věku ${age} let,`;
       }
     }
     parts.push(`${lead} ${e.text}.`);
   });
-  // Capitalize first letter of each sentence and join.
+  // Velké první písmeno každé věty a spojení do textu.
   return parts.map((s) => s.charAt(0).toUpperCase() + s.slice(1)).join(" ");
 }
 
@@ -116,8 +116,8 @@ function fmtUsd(n: number): string {
 function joinList(items: string[]): string {
   if (items.length === 0) return "";
   if (items.length === 1) return items[0];
-  if (items.length === 2) return `${items[0]} and ${items[1]}`;
-  return `${items.slice(0, -1).join(", ")}, and ${items[items.length - 1]}`;
+  if (items.length === 2) return `${items[0]} a ${items[1]}`;
+  return `${items.slice(0, -1).join(", ")} a ${items[items.length - 1]}`;
 }
 
 function pickOne<T>(arr: T[]): T | undefined {
@@ -132,14 +132,14 @@ export function buildEssay(person: Person): EssayParagraph[] {
 
   const allEvents = gatherEvents(person);
 
-  // Bucket events by life stage.
+  // Roztřídí události podle životní fáze.
   const stages: { name: string; from: number; to: number }[] = [
-    { name: "The world they were born into", from: birthYear - 1, to: birthYear + 4 },
-    { name: "Childhood", from: birthYear + 5, to: birthYear + 11 },
-    { name: "Coming of age", from: birthYear + 12, to: birthYear + 19 },
-    { name: "Their twenties", from: birthYear + 20, to: birthYear + 29 },
-    { name: "Their middle years", from: birthYear + 30, to: birthYear + 49 },
-    { name: "Later in life", from: birthYear + 50, to: birthYear + 90 },
+    { name: "Svět, do kterého se narodil/a", from: birthYear - 1, to: birthYear + 4 },
+    { name: "Dětství", from: birthYear + 5, to: birthYear + 11 },
+    { name: "Dospívání", from: birthYear + 12, to: birthYear + 19 },
+    { name: "Ve dvaceti", from: birthYear + 20, to: birthYear + 29 },
+    { name: "Léta zralosti", from: birthYear + 30, to: birthYear + 49 },
+    { name: "Pozdější léta života", from: birthYear + 50, to: birthYear + 90 },
   ];
 
   const out: EssayParagraph[] = [];
@@ -150,7 +150,7 @@ export function buildEssay(person: Person): EssayParagraph[] {
     if (sign) {
       out.push({
         heading: `${sign.symbol} ${sign.name}`,
-        text: `Born under ${sign.symbol} ${sign.name} (${sign.element}) — ${sign.blurb}.`,
+        text: `Narozen/a ve znamení ${sign.symbol} ${sign.name} (živel ${sign.element}) — ${sign.blurb}.`,
       });
     }
   }
@@ -159,8 +159,8 @@ export function buildEssay(person: Person): EssayParagraph[] {
   const names = namesFor(person.country, birthYear);
   if (names) {
     out.push({
-      heading: "Names they grew up hearing in roll call",
-      text: `In the ${names.decadeStart}s, the most-given names in ${COUNTRY_LABELS[person.country]} ran: for boys ${joinList(names.boys.slice(0, 5))}; for girls ${joinList(names.girls.slice(0, 5))}.`,
+      heading: "Jména, která slýchal/a při třídním apelu",
+      text: `V ${names.decadeStart}. letech patřila v zemi ${COUNTRY_LABELS[person.country]} k nejčastěji dávaným jménům: u chlapců ${joinList(names.boys.slice(0, 5))}; u dívek ${joinList(names.girls.slice(0, 5))}.`,
     });
   }
 
@@ -168,23 +168,23 @@ export function buildEssay(person: Person): EssayParagraph[] {
   const schoolYear = birthYear + 12;
   const edu = educationFor(person.country, schoolYear) ?? educationFor(person.country, birthYear);
   if (edu) {
-    const decadeWord = `${edu.decadeStart}s`;
+    const decadeWord = `${edu.decadeStart}. letech`;
     const parts: string[] = [];
     parts.push(
-      `School in the ${decadeWord} in ${COUNTRY_LABELS[person.country]}: compulsory until age ${edu.compulsoryEnd}, with the average adult having completed about ${edu.avgYearsSchooling} years of schooling. ${edu.literacyPct}% of adults could read and write.`,
+      `Škola ve ${decadeWord} v zemi ${COUNTRY_LABELS[person.country]}: povinná do ${edu.compulsoryEnd} let, přičemž průměrný dospělý absolvoval zhruba ${edu.avgYearsSchooling} let školní docházky. ${edu.literacyPct} % dospělých umělo číst a psát.`,
     );
     parts.push(
-      `Roughly ${edu.highSchoolGradPct}% of their cohort finished upper secondary; about ${edu.universityPct}% of adults ever earned a university degree.`,
+      `Zhruba ${edu.highSchoolGradPct} % vrstevníků dokončilo vyšší střední vzdělání; asi ${edu.universityPct} % dospělých kdy získalo vysokoškolský titul.`,
     );
     parts.push(
-      `Subjects on the timetable: ${joinList(edu.subjects)}. ${edu.classroom}`,
+      `Předměty v rozvrhu: ${joinList(edu.subjects)}. ${edu.classroom}`,
     );
     parts.push(
-      `The most common jobs in those years: ${joinList(edu.commonJobs)}.`,
+      `Nejčastější povolání těch let: ${joinList(edu.commonJobs)}.`,
     );
     if (edu.workNote) parts.push(edu.workNote);
     out.push({
-      heading: "School, work, and what you'd study",
+      heading: "Škola, práce a co by se tehdy studovalo",
       text: parts.join(" "),
     });
   }
@@ -195,24 +195,24 @@ export function buildEssay(person: Person): EssayParagraph[] {
   const beforeStuff = INVENTIONS.filter((i) => i.year > birthYear);
   const bigInventions = beforeStuff
     .filter((i) =>
-      ["the iPhone", "Google", "the World Wide Web", "television in most homes", "the personal computer", "sliced bread", "color TV", "the home microwave oven", "the Sony Walkman", "Facebook", "ChatGPT"].includes(i.name),
+      ["iPhone", "Google", "World Wide Web", "televize ve většině domácností", "osobní počítač", "krájený chléb", "barevná televize", "domácí mikrovlnná trouba", "Sony Walkman", "Facebook", "ChatGPT"].includes(i.name),
     );
   const inventionPool = bigInventions.length >= 2 ? bigInventions : beforeStuff;
-  const inventionPicks = pickN(inventionPool, 3).map((i) => i.detail ?? `${i.name} didn't yet exist`);
+  const inventionPicks = pickN(inventionPool, 3).map((i) => i.detail ?? `${i.name} ještě neexistoval`);
   const openingBits: string[] = [
-    `${label} was born in ${birthYear}, in ${place}.`,
-    `The world held about ${stats.worldPopulationBillions} billion people — today it holds roughly 8.1 billion.`,
-    `A loaf of bread cost ${fmtUsd(stats.loafOfBreadUsd)}, a gallon of gas ${fmtUsd(stats.gallonOfGasUsd)}, and the average American earned around ${fmtUsd(stats.usAverageAnnualWageUsd)} a year.`,
+    `${label} přišel/přišla na svět v roce ${birthYear}, v místě ${place}.`,
+    `Svět tehdy obývalo přibližně ${stats.worldPopulationBillions} miliard lidí — dnes je jich zhruba 8,1 miliardy.`,
+    `Bochník chleba stál ${fmtUsd(stats.loafOfBreadUsd)}, galon benzinu ${fmtUsd(stats.gallonOfGasUsd)} a průměrný Američan si ročně vydělal kolem ${fmtUsd(stats.usAverageAnnualWageUsd)}.`,
   ];
   if (gone.length > 0) {
     const goneNames = joinList(gone.slice(0, 3).map((g) => g.name));
-    openingBits.push(`${goneNames} still existed on the map.`);
+    openingBits.push(`Na mapě tehdy ještě existovaly tyto země: ${goneNames}.`);
   }
   if (inventionPicks.length > 0) {
-    openingBits.push(`At the time, ${joinList(inventionPicks)}.`);
+    openingBits.push(`V té době ${joinList(inventionPicks)}.`);
   }
-  openingBits.push(`Global life expectancy was about ${stats.globalLifeExpectancy} years.`);
-  out.push({ heading: "Opening: the year they arrived", text: openingBits.join(" ") });
+  openingBits.push(`Celosvětová průměrná délka života činila zhruba ${stats.globalLifeExpectancy} let.`);
+  out.push({ heading: "Úvodem: rok příchodu na svět", text: openingBits.join(" ") });
 
   // ── Stage paragraphs ─────────────────────────────────────────────
   for (const stage of stages) {
@@ -245,7 +245,7 @@ export function buildEssay(person: Person): EssayParagraph[] {
     if (government) bits.push(government);
     if (bits.length > 0) {
       out.push({
-        heading: "The texture of daily life",
+        heading: "Faktura všedního dne",
         text: bits.join(" "),
       });
     }
@@ -262,17 +262,17 @@ export function buildEssay(person: Person): EssayParagraph[] {
     const lines: string[] = [];
     if (sameYear.length > 0) {
       lines.push(
-        `Born the same year: ${joinList(sameYear.map((p) => `${p.name} (${p.role})`))}.`,
+        `Narozeni téhož roku: ${joinList(sameYear.map((p) => `${p.name} (${p.role})`))}.`,
       );
     }
     if (others.length > 0) {
       lines.push(
-        `Born a year either side: ${joinList(
+        `Narozeni o rok dříve či později: ${joinList(
           others.map((p) => `${p.name} (${p.role}, ${p.year})`),
         )}.`,
       );
     }
-    out.push({ heading: "People who arrived around the same time", text: lines.join(" ") });
+    out.push({ heading: "Lidé, kteří přišli na svět ve stejné době", text: lines.join(" ") });
   }
 
   // ── Famous-people paragraph ──────────────────────────────────────
@@ -284,38 +284,38 @@ export function buildEssay(person: Person): EssayParagraph[] {
   const uniqueFamous = Array.from(new Map(famous.map((p) => [p.name, p])).values());
   if (uniqueFamous.length > 0) {
     const picked = pickN(uniqueFamous, 6);
-    const lines = picked.map((p) => `${p.name} — the ${p.role}${p.note ? ` (${p.note})` : ""}`);
+    const lines = picked.map((p) => `${p.name} — ${p.role}${p.note ? ` (${p.note})` : ""}`);
     out.push({
-      heading: "Names in the air",
-      text: `Among the people whose names ${label.toLowerCase()} would have heard growing up: ${joinList(lines)}.`,
+      heading: "Jména, která byla ve vzduchu",
+      text: `Mezi lidmi, jejichž jména ${label.toLowerCase()} při dospívání slýchal/a: ${joinList(lines)}.`,
     });
   }
 
   // ── Closing paragraph: youth culture (songs, films, books) ─────────
   const youthCulture = cultureForDecade(birthYear + 15);
   const cultureBits: string[] = [];
-  if (youthCulture.fashion) cultureBits.push(`Growing up, they probably wore ${youthCulture.fashion}.`);
-  if (youthCulture.whatTeensDid) cultureBits.push(`As a teenager, they ${youthCulture.whatTeensDid}.`);
+  if (youthCulture.fashion) cultureBits.push(`Při dospívání nejspíš nosil/a ${youthCulture.fashion}.`);
+  if (youthCulture.whatTeensDid) cultureBits.push(`Jako náctiletý/á: ${youthCulture.whatTeensDid}.`);
   if (youthCulture.topSongs.length >= 2) {
-    cultureBits.push(`The radio kept playing ${youthCulture.topSongs.slice(0, 2).join(" and ")}.`);
+    cultureBits.push(`Rádio neustále hrálo ${youthCulture.topSongs.slice(0, 2).join(" a ")}.`);
   }
   if (youthCulture.popularMovies.length >= 2) {
-    cultureBits.push(`At the cinema, ${joinList(youthCulture.popularMovies.slice(0, 3))} were on the marquee.`);
+    cultureBits.push(`V kinech se na plakátech skvěly ${joinList(youthCulture.popularMovies.slice(0, 3))}.`);
   }
   if (youthCulture.popularBooks.length >= 1) {
-    cultureBits.push(`Bookshops stocked ${joinList(youthCulture.popularBooks.slice(0, 2))}.`);
+    cultureBits.push(`Knihkupectví měla na pultech ${joinList(youthCulture.popularBooks.slice(0, 2))}.`);
   }
   if (cultureBits.length > 0) {
-    out.push({ heading: "What they grew up to", text: cultureBits.join(" ") });
+    out.push({ heading: "Do čeho dorůstal/a", text: cultureBits.join(" ") });
   }
 
   // ── Cosmic neighbours (eclipses, comets, supernovae in their lifetime) ─
   const cosmic = cosmicEventsIn(birthYear, CURRENT_YEAR);
   if (cosmic.length > 0) {
     const picks = pickN(cosmic, Math.min(4, cosmic.length)).sort((a, b) => a.year - b.year);
-    const lines = picks.map((c) => `In ${c.year}, ${c.text}`);
+    const lines = picks.map((c) => `V roce ${c.year} ${c.text}`);
     out.push({
-      heading: "What the sky did while they were here",
+      heading: "Co dělalo nebe, dokud tu byl/a",
       text: lines.join(". ") + ".",
     });
   }
@@ -326,8 +326,8 @@ export function buildEssay(person: Person): EssayParagraph[] {
     const sample = pickN(deathsAtBirth, Math.min(5, deathsAtBirth.length));
     const lines = sample.map((d) => `${d.name}, ${d.role}${d.note ? ` (${d.note})` : ""}`);
     out.push({
-      heading: "Who left the world the year they entered it",
-      text: `${joinList(lines)}. ${label} arrived just as the lights went out on those lives.`,
+      heading: "Kdo svět opustil v roce, kdy do něj vstoupil/a",
+      text: `${joinList(lines)}. ${label} přišel/přišla na svět právě ve chvíli, kdy tyto životy dohasínaly.`,
     });
   }
 
@@ -342,10 +342,10 @@ export function buildEssay(person: Person): EssayParagraph[] {
     );
     const lines = sample.map((d) => {
       const age = d.year - birthYear;
-      return `${age <= 0 ? "before they remembered" : `aged ${age}`}, they were alive when ${d.name} (${d.role}) died in ${d.year}${d.note ? ` — ${d.note}` : ""}`;
+      return `${age <= 0 ? "ještě dřív, než si cokoli pamatoval/a" : `ve věku ${age} let`}, byl/a naživu, když v roce ${d.year} zemřel/a ${d.name} (${d.role})${d.note ? ` — ${d.note}` : ""}`;
     });
     out.push({
-      heading: "Lives that ended while theirs ran",
+      heading: "Životy, které skončily, zatímco ten jeho/její běžel",
       text: capitalize(lines.join("; ")) + ".",
     });
   }
@@ -356,10 +356,10 @@ export function buildEssay(person: Person): EssayParagraph[] {
     const picks = pickN(stillAlive, Math.min(3, stillAlive.length));
     const lines = picks.map((s) => {
       const age = s.declaredExtinctYear - birthYear;
-      return `the ${s.species} was still alive — it would not be officially gone until ${s.declaredExtinctYear}${age > 0 ? ` (when they were ${age})` : ""}, when ${s.note}`;
+      return `druh ${s.species} byl ještě naživu — oficiálně vyhynul až v roce ${s.declaredExtinctYear}${age > 0 ? ` (ve věku ${age} let)` : ""}, kdy ${s.note}`;
     });
     out.push({
-      heading: "Animals that walked the earth with them",
+      heading: "Zvířata, která tu pobývala spolu s ním/s ní",
       text: capitalize(lines.join("; ")) + ".",
     });
   }
@@ -369,23 +369,23 @@ export function buildEssay(person: Person): EssayParagraph[] {
     const sameMonth = eventsInMonth(birthYear, person.birthMonth);
     const around = eventsAroundMonth(birthYear, person.birthMonth, 2);
     const monthName = [
-      "January", "February", "March", "April", "May", "June",
-      "July", "August", "September", "October", "November", "December",
+      "leden", "únor", "březen", "duben", "květen", "červen",
+      "červenec", "srpen", "září", "říjen", "listopad", "prosinec",
     ][person.birthMonth - 1];
     const lines: string[] = [];
     if (sameMonth.length > 0) {
       lines.push(
-        `In ${monthName} ${birthYear}, the same month they arrived: ${joinList(sameMonth.map((e) => e.text))}.`,
+        `Toho roku ${birthYear}, v měsíci příchodu na svět (${monthName}): ${joinList(sameMonth.map((e) => e.text))}.`,
       );
     } else if (around.length > 0) {
       const pick = pickN(around, Math.min(3, around.length)).sort(
         (a, b) => a.year * 12 + a.month - (b.year * 12 + b.month),
       );
       lines.push(
-        `Around the month they arrived: ${joinList(pick.map((e) => `in ${monthName} ${e.year}, ${e.text}`))}.`,
+        `Kolem měsíce příchodu na svět: ${joinList(pick.map((e) => `v roce ${e.year} (${monthName}) ${e.text}`))}.`,
       );
     }
-    // Same-month-throughout-lifetime — the calendar drumbeat.
+    // Stejný měsíc v průběhu celého života — tikot kalendáře.
     const calendarBeats = eventsInMonthLifetime(birthYear, person.birthMonth, CURRENT_YEAR)
       .filter((e) => e.year !== birthYear);
     if (calendarBeats.length > 0) {
@@ -393,12 +393,12 @@ export function buildEssay(person: Person): EssayParagraph[] {
         (a, b) => a.year - b.year,
       );
       lines.push(
-        `Other ${monthName}s in their lifetime brought their own headlines: ${joinList(picks.map((e) => `in ${e.year}, ${e.text}`))}.`,
+        `Také další roky přinesly v měsíci ${monthName} své vlastní titulky: ${joinList(picks.map((e) => `v roce ${e.year} ${e.text}`))}.`,
       );
     }
     if (lines.length > 0) {
       out.push({
-        heading: `${monthName} ${birthYear} and the months that share its name`,
+        heading: `${capitalize(monthName)} ${birthYear} a měsíce, které nesou stejné jméno`,
         text: lines.join(" "),
       });
     }
@@ -409,28 +409,28 @@ export function buildEssay(person: Person): EssayParagraph[] {
   const birthPicks: string[] = [];
   if (worksAtBirth.books.length > 0) {
     const b = pickN(worksAtBirth.books, Math.min(2, worksAtBirth.books.length));
-    birthPicks.push(`bookshops stocked ${joinList(b.map((w) => `${w.title} by ${w.creator}`))}`);
+    birthPicks.push(`knihkupectví měla na pultech ${joinList(b.map((w) => `${w.title} od autora/autorky ${w.creator}`))}`);
   }
   if (worksAtBirth.songs.length > 0) {
     const s = pickN(worksAtBirth.songs, Math.min(2, worksAtBirth.songs.length));
-    birthPicks.push(`the radio was playing ${joinList(s.map((w) => `"${w.title}" by ${w.creator}`))}`);
+    birthPicks.push(`rádio hrálo ${joinList(s.map((w) => `„${w.title}“ od ${w.creator}`))}`);
   }
   if (worksAtBirth.paintings.length > 0) {
     const p = pickN(worksAtBirth.paintings, Math.min(1, worksAtBirth.paintings.length));
-    birthPicks.push(`painters were finishing ${joinList(p.map((w) => `${w.title} (${w.creator})`))}`);
+    birthPicks.push(`malíři dokončovali ${joinList(p.map((w) => `${w.title} (${w.creator})`))}`);
   }
   if (worksAtBirth.plays.length > 0) {
     const pl = pickN(worksAtBirth.plays, Math.min(1, worksAtBirth.plays.length));
-    birthPicks.push(`the theatre was premiering ${joinList(pl.map((w) => `${w.title} by ${w.creator}`))}`);
+    birthPicks.push(`v divadle měla premiéru hra ${joinList(pl.map((w) => `${w.title} od autora/autorky ${w.creator}`))}`);
   }
   if (worksAtBirth.sculptures.length > 0) {
     const sc = pickN(worksAtBirth.sculptures, Math.min(1, worksAtBirth.sculptures.length));
-    birthPicks.push(`sculptors were unveiling ${joinList(sc.map((w) => `${w.title} (${w.creator})`))}`);
+    birthPicks.push(`sochaři odhalovali ${joinList(sc.map((w) => `${w.title} (${w.creator})`))}`);
   }
   if (birthPicks.length > 0) {
     out.push({
-      heading: "Art and music being made the year they arrived",
-      text: `In ${birthYear}, ${joinList(birthPicks)}.`,
+      heading: "Umění a hudba, jež vznikaly v roce příchodu na svět",
+      text: `V roce ${birthYear} ${joinList(birthPicks)}.`,
     });
   }
 
@@ -442,36 +442,36 @@ export function buildEssay(person: Person): EssayParagraph[] {
     const teenPicks: string[] = [];
     if (w.songs.length > 0) {
       teenPicks.push(
-        `songs that defined them — ${joinList(
-          pickN(w.songs, Math.min(3, w.songs.length)).map((s) => `"${s.title}" (${s.creator}, ${s.year})`),
+        `písně, které ho/ji formovaly — ${joinList(
+          pickN(w.songs, Math.min(3, w.songs.length)).map((s) => `„${s.title}“ (${s.creator}, ${s.year})`),
         )}`,
       );
     }
     if (w.books.length > 0) {
       teenPicks.push(
-        `books everyone was passing around — ${joinList(
-          pickN(w.books, Math.min(3, w.books.length)).map((b) => `${b.title} by ${b.creator} (${b.year})`),
+        `knihy, které si všichni půjčovali — ${joinList(
+          pickN(w.books, Math.min(3, w.books.length)).map((b) => `${b.title} od ${b.creator} (${b.year})`),
         )}`,
       );
     }
     if (w.plays.length > 0) {
       teenPicks.push(
-        `plays opening on stage — ${joinList(
-          pickN(w.plays, Math.min(2, w.plays.length)).map((p) => `${p.title} by ${p.creator} (${p.year})`),
+        `hry uváděné na jevišti — ${joinList(
+          pickN(w.plays, Math.min(2, w.plays.length)).map((p) => `${p.title} od ${p.creator} (${p.year})`),
         )}`,
       );
     }
     if (w.paintings.length > 0) {
       teenPicks.push(
-        `paintings making news — ${joinList(
-          pickN(w.paintings, Math.min(2, w.paintings.length)).map((p) => `${p.title} by ${p.creator} (${p.year})`),
+        `obrazy, o nichž se mluvilo — ${joinList(
+          pickN(w.paintings, Math.min(2, w.paintings.length)).map((p) => `${p.title} od ${p.creator} (${p.year})`),
         )}`,
       );
     }
     if (teenPicks.length > 0) {
       out.push({
-        heading: "What they were reading, listening to, and looking at",
-        text: `Through their teens and twenties: ${teenPicks.join("; ")}.`,
+        heading: "Co četl/a, čemu naslouchal/a a na co se díval/a",
+        text: `V průběhu dospívání a dvacátých let: ${teenPicks.join("; ")}.`,
       });
     }
   }
@@ -481,19 +481,19 @@ export function buildEssay(person: Person): EssayParagraph[] {
   const slang = slangFor(teenDecade);
   if (slang && slang.expressions.length > 0) {
     const picks = pickN(slang.expressions, Math.min(5, slang.expressions.length));
-    const lines = picks.map((s) => `"${s.phrase}" (${s.meaning})`);
+    const lines = picks.map((s) => `„${s.phrase}“ (${s.meaning})`);
     out.push({
-      heading: `How teenagers actually talked in the ${teenDecade}s`,
-      text: `By the time ${label.toLowerCase()} was running with friends, the slang in their mouth ran: ${joinList(lines)}.`,
+      heading: `Jak náctiletí ve skutečnosti mluvili v ${teenDecade % 100}. letech`,
+      text: `Když ${label.toLowerCase()} vyrážel/a s kamarády, slang v jeho/jejích ústech zněl: ${joinList(lines)}.`,
     });
   }
 
   // ── Time-capsule prompt (closer) ─────────────────────────────────
   const yearsLived = CURRENT_YEAR - birthYear;
   const prompt = yearsLived > 0
-    ? `If you sat down with ${label.toLowerCase()} today, what one story from before you were born would you ask them to tell? They've been on the planet ${yearsLived} ${yearsLived === 1 ? "year" : "years"} — long enough to have seen most of the world above change shape.`
-    : `${label.toLowerCase()} is brand new. The world they're arriving in is the only one they'll ever know — and a hundred years from now, this paragraph will read like a love letter.`;
-  out.push({ heading: "A question worth asking", text: prompt });
+    ? `Kdybyste si dnes s ${label.toLowerCase()} sedli, o jaký jediný příběh z doby před vaším narozením byste ho/ji požádali, aby vám ho vyprávěl/a? Na planetě je už ${yearsLived} ${yearsLived === 1 ? "rok" : yearsLived >= 2 && yearsLived <= 4 ? "roky" : "let"} — dost dlouho na to, aby viděl/a, jak většina světa výše popsaného mění svou podobu.`
+    : `${label} je úplně nový/á. Svět, do kterého přichází, bude jediný, který kdy pozná — a za sto let bude tento odstavec znít jako milostný dopis.`;
+  out.push({ heading: "Otázka, kterou stojí za to položit", text: prompt });
 
   return out;
 }

@@ -19,8 +19,8 @@ const CURRENT_YEAR = new Date().getFullYear();
 function joinList(items: string[]): string {
   if (items.length === 0) return "";
   if (items.length === 1) return items[0];
-  if (items.length === 2) return `${items[0]} and ${items[1]}`;
-  return `${items.slice(0, -1).join(", ")}, and ${items[items.length - 1]}`;
+  if (items.length === 2) return `${items[0]} a ${items[1]}`;
+  return `${items.slice(0, -1).join(", ")} a ${items[items.length - 1]}`;
 }
 
 function ordinalDecade(year: number): string {
@@ -43,46 +43,46 @@ function travelDescription(
 
   if (sameCountry) {
     if (km < 100) {
-      return `Across the same country and only about ${Math.round(km)} km apart, the two could meet by train in a few hours.`;
+      return `Ve stejné zemi a vzdáleni jen asi ${Math.round(km)} km — ti dva by se vlakem mohli setkat během několika hodin.`;
     }
     if (km < 500) {
-      return `Within the same country and about ${Math.round(km)} km apart, a day's train ride would have brought them together.`;
+      return `Ve stejné zemi a vzdáleni asi ${Math.round(km)} km — k setkání by stačila celodenní cesta vlakem.`;
     }
-    return `Within the same country but about ${Math.round(km)} km apart, the trip would have meant a full overnight train — and in the 1920s, probably two or three days on poorer rolling stock.`;
+    return `Ve stejné zemi, ale vzdáleni asi ${Math.round(km)} km — cesta by znamenala celou noc ve vlaku, a ve dvacátých letech nejspíš dva až tři dny na chatrnějších soupravách.`;
   }
 
   if (northAm(countryA) && northAm(countryB)) {
     if (year < 1945) {
-      return `Both in North America and about ${Math.round(km)} km apart — by train through Chicago or El Paso, the trip ran several days, and a passport (introduced for routine US travel in 1941) was not yet a fixed requirement.`;
+      return `Oba v Severní Americe a vzdáleni asi ${Math.round(km)} km — vlakem přes Chicago nebo El Paso trvala cesta několik dní a pas (pro běžné cestování v USA zaveden v roce 1941) ještě nebyl pevně daným požadavkem.`;
     }
     if (year < 1970) {
-      return `By the postwar years a North-American crossing of ${Math.round(km)} km could be done in a couple of days by Greyhound bus or by car on the new interstates; the first commercial jet flights opened up the same trip in hours from 1958.`;
+      return `V poválečných letech se dala severoamerická cesta dlouhá ${Math.round(km)} km zvládnout za pár dní autobusem Greyhound nebo autem po nových dálnicích; od roku 1958 ji první komerční tryskové lety zkrátily na hodiny.`;
     }
-    return `${Math.round(km)} km apart in North America — by the 1970s a routine four-hour jet flight, but visas and border checks were tightening.`;
+    return `${Math.round(km)} km od sebe v Severní Americe — v sedmdesátých letech běžný čtyřhodinový let tryskáčem, ale víza a hraniční kontroly se zpřísňovaly.`;
   }
 
   if (ironCurtain(countryA) && ironCurtain(countryB)) {
-    return `Both behind the Iron Curtain and about ${Math.round(km)} km apart — internal-bloc travel was easier than reaching the West, but still meant exit-visa stamps, currency limits, and Intourist hotels.`;
+    return `Oba za železnou oponou a vzdáleni asi ${Math.round(km)} km — cestování v rámci východního bloku bylo snazší než dostat se na Západ, ale stejně znamenalo výjezdní víza, omezení směny valut a hotely Intourist.`;
   }
 
   if (ironCurtain(countryA) !== ironCurtain(countryB)) {
     if (year < 1990) {
-      return `About ${Math.round(km)} km apart — but one of them lived behind the Iron Curtain. A meeting required visas, hard currency, official invitations, and many people simply could not get permission at all.`;
+      return `Asi ${Math.round(km)} km od sebe — jenže jeden z nich žil za železnou oponou. Setkání vyžadovalo víza, tvrdou měnu a oficiální pozvání a mnoho lidí povolení vůbec nedostalo.`;
     }
-    return `About ${Math.round(km)} km apart, and easier to bridge after 1989 — but before that, the political distance dwarfed the geographic one.`;
+    return `Asi ${Math.round(km)} km od sebe a po roce 1989 snáze překonatelných — předtím ale politická vzdálenost tu zeměpisnou hravě převyšovala.`;
   }
 
   // Trans-Atlantic Europe ↔ Americas, or trans-Pacific
   if (year < 1939) {
-    return `About ${Math.round(km)} km apart — a journey by ocean liner of 5–7 days, in steerage if you were poor or first class if you weren't. Transatlantic passenger flight didn't exist yet.`;
+    return `Asi ${Math.round(km)} km od sebe — plavba zaoceánským parníkem trvala 5 až 7 dní, v podpalubí, pokud jste byli chudí, nebo v první třídě, pokud ne. Transatlantická osobní letecká doprava ještě neexistovala.`;
   }
   if (year < 1958) {
-    return `About ${Math.round(km)} km apart — by Pan Am Clipper or postwar piston airliner, the trip took 18-30 hours with stops, and cost roughly a year's wages.`;
+    return `Asi ${Math.round(km)} km od sebe — létajícím člunem Pan Am Clipper nebo poválečným pístovým letadlem trvala cesta s mezipřistáními 18 až 30 hodin a stála zhruba roční výplatu.`;
   }
   if (year < 1975) {
-    return `About ${Math.round(km)} km apart — by Boeing 707 or DC-8 the crossing was a long single day, but airfare still cost a month's pay for most working families.`;
+    return `Asi ${Math.round(km)} km od sebe — Boeingem 707 nebo DC-8 byla cesta jedním dlouhým dnem, ale letenka pořád stála většinu pracujících rodin měsíční mzdu.`;
   }
-  return `${Math.round(km)} km apart — a routine eight-hour flight by the late 70s; package tours had finally made the journey affordable for the middle class.`;
+  return `${Math.round(km)} km od sebe — koncem sedmdesátých let běžný osmihodinový let; zájezdy konečně cestu zpřístupnily i střední třídě.`;
 }
 
 export function buildPairEssay(a: Person, b: Person): PairSection[] {
@@ -103,28 +103,28 @@ export function buildPairEssay(a: Person, b: Person): PairSection[] {
   // ── Intro paragraph ─────────────────────────────────────────────
   const introBits: string[] = [];
   introBits.push(
-    `${older.label} was born in ${older.birthYear} in ${placeOlder}; ${younger.label} arrived ${ageGap === 0 ? "the same year" : `${ageGap} ${ageGap === 1 ? "year" : "years"} later`} in ${placeYounger}.`,
+    `${older.label} se narodil/a v roce ${older.birthYear} v místě ${placeOlder}; ${younger.label} přišel/přišla na svět ${ageGap === 0 ? "ve stejném roce" : `o ${ageGap} ${ageGap === 1 ? "rok" : ageGap >= 2 && ageGap <= 4 ? "roky" : "let"} později`} v místě ${placeYounger}.`,
   );
   if (ageGap >= 50) {
     introBits.push(
-      `Half a century between them — their childhoods were lived in different worlds.`,
+      `Půl století mezi nimi — dětství prožili v naprosto odlišných světech.`,
     );
   } else if (ageGap >= 25) {
     introBits.push(
-      `A full generation between them — they would have grown up to different music, different politics, different prices.`,
+      `Celá generace mezi nimi — vyrůstali u jiné hudby, jiné politiky, jiných cen.`,
     );
   } else if (ageGap >= 10) {
     introBits.push(
-      `Roughly a decade apart — the younger one's playground was already different from the elder's school yard.`,
+      `Zhruba deset let od sebe — hřiště mladšího z nich už vypadalo jinak než školní dvůr toho staršího.`,
     );
   } else if (ageGap > 0) {
     introBits.push(
-      `Close enough in age that they would have known the same songs and the same fads.`,
+      `Věkově si dost blízcí na to, aby znali stejné písničky a stejné módní výstřelky.`,
     );
   } else {
-    introBits.push(`Same year — born into the same world headline by headline.`);
+    introBits.push(`Stejný rok — narozeni do téhož světa, titulek za titulkem.`);
   }
-  out.push({ heading: "Two lives, set side by side", text: introBits.join(" ") });
+  out.push({ heading: "Dva životy vedle sebe", text: introBits.join(" ") });
 
   // ── Geography & travel ──────────────────────────────────────────
   const km = distanceKm(
@@ -142,13 +142,13 @@ export function buildPairEssay(a: Person, b: Person): PairSection[] {
       km,
     );
     out.push({
-      heading: "How far apart they really were",
+      heading: "Jak daleko od sebe doopravdy byli",
       text: travelText,
     });
   } else if (older.country !== younger.country) {
     out.push({
-      heading: "How far apart they really were",
-      text: `One in ${COUNTRY_LABELS[older.country]}, the other in ${COUNTRY_LABELS[younger.country]} — the kind of distance most people of their time would only cross once in a lifetime, if ever.`,
+      heading: "Jak daleko od sebe doopravdy byli",
+      text: `Jeden v zemi ${COUNTRY_LABELS[older.country]}, druhý v zemi ${COUNTRY_LABELS[younger.country]} — taková vzdálenost, kterou většina lidí jejich doby překonala jednou za život, pokud vůbec.`,
     });
   }
 
@@ -170,10 +170,10 @@ export function buildPairEssay(a: Person, b: Person): PairSection[] {
     const lines = sharedEvents.map((e) => {
       const ageOlder = e.year - older.birthYear;
       const ageYounger = e.year - younger.birthYear;
-      return `In ${e.year}, ${e.text} — ${older.label} was ${ageOlder}, ${younger.label} was ${ageYounger}.`;
+      return `V roce ${e.year}: ${e.text} — ${older.label} měl/a ${ageOlder}, ${younger.label} ${ageYounger}.`;
     });
     out.push({
-      heading: "What they both lived through",
+      heading: "Čím si oba prošli",
       text: lines.join(" "),
     });
   }
@@ -186,17 +186,17 @@ export function buildPairEssay(a: Person, b: Person): PairSection[] {
     const youngerCulture = cultureForDecade(younger.birthYear + 15);
     const bits: string[] = [];
     bits.push(
-      `${older.label} came of age in the ${olderTeen} — ${olderCulture.fashion}, with ${olderCulture.popularMovies.slice(0, 2).join(" and ")} on the marquee.`,
+      `${older.label} dospíval/a v období ${olderTeen} — ${olderCulture.fashion}, a na plakátech kin ${olderCulture.popularMovies.slice(0, 2).join(" a ")}.`,
     );
     bits.push(
-      `${younger.label} came of age a generation later in the ${youngerTeen} — ${youngerCulture.fashion}, with ${youngerCulture.popularMovies.slice(0, 2).join(" and ")} on the screen.`,
+      `${younger.label} dospíval/a o generaci později v období ${youngerTeen} — ${youngerCulture.fashion}, a na plátnech ${youngerCulture.popularMovies.slice(0, 2).join(" a ")}.`,
     );
-    out.push({ heading: "Same world, different soundtrack", text: bits.join(" ") });
+    out.push({ heading: "Stejný svět, jiný soundtrack", text: bits.join(" ") });
   } else {
     const culture = cultureForDecade(older.birthYear + 15);
     out.push({
-      heading: "The same soundtrack",
-      text: `They both came of age in the ${olderTeen}. The songs everyone knew: ${joinList(culture.topSongs.slice(0, 3))}. They both probably wore ${culture.fashion}.`,
+      heading: "Stejný soundtrack",
+      text: `Oba dospívali v období ${olderTeen}. Písničky, které znal každý: ${joinList(culture.topSongs.slice(0, 3))}. Nejspíš oba nosili ${culture.fashion}.`,
     });
   }
 
