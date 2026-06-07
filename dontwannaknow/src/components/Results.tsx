@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef, useState, type ReactNode } from "react";
 import type { Person, PersonReport, Fact } from "../lib/facts";
 import { pairReport } from "../lib/facts";
 import WorldMap from "./WorldMap";
@@ -11,6 +11,15 @@ import { buildShareUrl } from "../lib/share";
 import { generatePdf } from "../lib/pdf";
 import { useLang } from "../i18n/useLang";
 import HeroSummary from "./HeroSummary";
+
+// Render **bold** spans (used for names of people, films and works) while
+// preserving any line breaks for the white-space: pre-line lists.
+function boldify(text: string): ReactNode {
+  if (!text.includes("**")) return text;
+  return text
+    .split("**")
+    .map((seg, i) => (i % 2 === 1 ? <strong key={i}>{seg}</strong> : seg));
+}
 
 type Divider = { label: string };
 function SectionDivider({ label }: Divider) {
@@ -32,7 +41,7 @@ type Props = {
 
 const SECTION_ORDER: { key: Fact["category"]; title: string; tone: string }[] = [
   { key: "city", title: "V rodném městě", tone: "Rok za rokem v ulicích jejich dětství" },
-  { key: "bizarre", title: "Bizarní", tone: "Podivné, ale pravdivé" },
+  { key: "bizarre", title: "Zajímavosti", tone: "" },
   { key: "beautiful", title: "Krásné", tone: "To dobré a velké" },
   { key: "local", title: "Po celé zemi", tone: "" },
   { key: "government", title: "Kdo měl moc", tone: "Politika a moc" },
@@ -147,11 +156,11 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
                 {p.items ? (
                   <ul className="pair-event-list">
                     {p.items.map((it, j) => (
-                      <li key={j}>{it}</li>
+                      <li key={j}>{boldify(it)}</li>
                     ))}
                   </ul>
                 ) : (
-                  <p>{p.text}</p>
+                  <p>{boldify(p.text ?? "")}</p>
                 )}
               </section>
             ))}
@@ -266,11 +275,11 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
                     {p.items ? (
                       <ul className="essay-list">
                         {p.items.map((it, k) => (
-                          <li key={k}>{it}</li>
+                          <li key={k}>{boldify(it)}</li>
                         ))}
                       </ul>
                     ) : (
-                      <p>{p.text}</p>
+                      <p>{boldify(p.text ?? "")}</p>
                     )}
                   </section>
                 ))}
@@ -289,7 +298,7 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
                     </h4>
                     <ul>
                       {items.map((t, k) => (
-                        <li key={k}>{t}</li>
+                        <li key={k}>{boldify(t)}</li>
                       ))}
                     </ul>
                   </section>

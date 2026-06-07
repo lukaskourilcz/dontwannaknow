@@ -235,13 +235,13 @@ export function buildEssay(person: Person, excludeWorld = false): EssayParagraph
     const lines: string[] = [];
     if (sameYear.length > 0) {
       lines.push(
-        `Narozeni téhož roku: ${joinList(sameYear.map((p) => `${p.name} (${p.role})`))}.`,
+        `Narozeni téhož roku: ${joinList(sameYear.map((p) => `**${p.name}** (${p.role})`))}.`,
       );
     }
     if (others.length > 0) {
       lines.push(
         `Narozeni o rok dříve či později: ${joinList(
-          others.map((p) => `${p.name} (${p.role}, ${p.year})`),
+          others.map((p) => `**${p.name}** (${p.role}, ${p.year})`),
         )}.`,
       );
     }
@@ -257,7 +257,7 @@ export function buildEssay(person: Person, excludeWorld = false): EssayParagraph
   const uniqueFamous = Array.from(new Map(famous.map((p) => [p.name, p])).values());
   if (uniqueFamous.length > 0) {
     const picked = pickN(uniqueFamous, 6);
-    const lines = picked.map((p) => `${p.name} — ${p.role}${p.note ? ` (${p.note})` : ""}`);
+    const lines = picked.map((p) => `**${p.name}** — ${p.role}${p.note ? ` (${p.note})` : ""}`);
     out.push({
       heading: "Jména, která byla ve vzduchu",
       text: `Mezi lidmi, jejichž jména ${label.toLowerCase()} při dospívání ${g(person.gender, "slýchal", "slýchala")}: ${joinList(lines)}.`,
@@ -270,13 +270,13 @@ export function buildEssay(person: Person, excludeWorld = false): EssayParagraph
   if (youthCulture.fashion) cultureBits.push(`Při dospívání nejspíš ${g(person.gender, "nosil", "nosila")} ${youthCulture.fashion}.`);
   if (youthCulture.whatTeensDid) cultureBits.push(`Jako ${g(person.gender, "náctiletý", "náctiletá")}: ${youthCulture.whatTeensDid}.`);
   if (youthCulture.topSongs.length >= 2) {
-    cultureBits.push(`Rádio neustále hrálo ${youthCulture.topSongs.slice(0, 2).join(" a ")}.`);
+    cultureBits.push(`Rádio neustále hrálo ${youthCulture.topSongs.slice(0, 2).map((s) => `**${s}**`).join(" a ")}.`);
   }
   if (youthCulture.popularMovies.length >= 2) {
-    cultureBits.push(`V kinech se na plakátech skvěly ${joinList(youthCulture.popularMovies.slice(0, 3))}.`);
+    cultureBits.push(`V kinech se na plakátech skvěly ${joinList(youthCulture.popularMovies.slice(0, 3).map((m) => `**${m}**`))}.`);
   }
   if (youthCulture.popularBooks.length >= 1) {
-    cultureBits.push(`Knihkupectví měla na pultech ${joinList(youthCulture.popularBooks.slice(0, 2))}.`);
+    cultureBits.push(`Knihkupectví měla na pultech ${joinList(youthCulture.popularBooks.slice(0, 2).map((b) => `**${b}**`))}.`);
   }
   if (cultureBits.length > 0) {
     out.push({ heading: `Do čeho ${g(person.gender, "dorůstal", "dorůstala")}`, text: cultureBits.join(" ") });
@@ -296,7 +296,7 @@ export function buildEssay(person: Person, excludeWorld = false): EssayParagraph
   const deathsAtBirth = deathsAround(birthYear, 0);
   if (deathsAtBirth.length > 0) {
     const sample = pickN(deathsAtBirth, Math.min(5, deathsAtBirth.length));
-    const lines = sample.map((d) => `${d.name}, ${d.role}${d.note ? ` (${d.note})` : ""}`);
+    const lines = sample.map((d) => `**${d.name}**, ${d.role}${d.note ? ` (${d.note})` : ""}`);
     out.push({
       heading: `Kdo svět opustil v roce, kdy do něj ${g(person.gender, "vstoupil", "vstoupila")}`,
       text: `${joinList(lines)}. ${label} ${g(person.gender, "přišel", "přišla")} na svět právě ve chvíli, kdy tyto životy dohasínaly.`,
@@ -313,7 +313,7 @@ export function buildEssay(person: Person, excludeWorld = false): EssayParagraph
       (a, b) => a.year - b.year,
     );
     const items = sample.map(
-      (d) => `${d.year} — ${d.name} (${d.role})${d.note ? ` — ${d.note}` : ""}`,
+      (d) => `${d.year} — **${d.name}** (${d.role})${d.note ? ` — ${d.note}` : ""}`,
     );
     out.push({
       heading: `Životy, které skončily, zatímco ten ${g(person.gender, "jeho", "její")} běžel`,
@@ -378,23 +378,23 @@ export function buildEssay(person: Person, excludeWorld = false): EssayParagraph
   const birthPicks: string[] = [];
   if (worksAtBirth.books.length > 0) {
     const b = pickN(worksAtBirth.books, Math.min(2, worksAtBirth.books.length));
-    birthPicks.push(`knihkupectví měla na pultech ${joinList(b.map((w) => `${w.title} (${w.creator})`))}`);
+    birthPicks.push(`knihkupectví měla na pultech ${joinList(b.map((w) => `**${w.title}** (${w.creator})`))}`);
   }
   if (worksAtBirth.songs.length > 0) {
     const s = pickN(worksAtBirth.songs, Math.min(2, worksAtBirth.songs.length));
-    birthPicks.push(`rádio hrálo ${joinList(s.map((w) => `„${w.title}“ od ${w.creator}`))}`);
+    birthPicks.push(`rádio hrálo ${joinList(s.map((w) => `„**${w.title}**“ od ${w.creator}`))}`);
   }
   if (worksAtBirth.paintings.length > 0) {
     const p = pickN(worksAtBirth.paintings, Math.min(1, worksAtBirth.paintings.length));
-    birthPicks.push(`malíři dokončovali ${joinList(p.map((w) => `${w.title} (${w.creator})`))}`);
+    birthPicks.push(`malíři dokončovali ${joinList(p.map((w) => `**${w.title}** (${w.creator})`))}`);
   }
   if (worksAtBirth.plays.length > 0) {
     const pl = pickN(worksAtBirth.plays, Math.min(1, worksAtBirth.plays.length));
-    birthPicks.push(`v divadle měla premiéru hra ${joinList(pl.map((w) => `${w.title} (${w.creator})`))}`);
+    birthPicks.push(`v divadle měla premiéru hra ${joinList(pl.map((w) => `**${w.title}** (${w.creator})`))}`);
   }
   if (worksAtBirth.sculptures.length > 0) {
     const sc = pickN(worksAtBirth.sculptures, Math.min(1, worksAtBirth.sculptures.length));
-    birthPicks.push(`sochaři odhalovali ${joinList(sc.map((w) => `${w.title} (${w.creator})`))}`);
+    birthPicks.push(`sochaři odhalovali ${joinList(sc.map((w) => `**${w.title}** (${w.creator})`))}`);
   }
   if (birthPicks.length > 0) {
     out.push({

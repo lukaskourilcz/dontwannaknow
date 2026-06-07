@@ -181,7 +181,7 @@ export function buildPairEssay(a: Person, b: Person): PairSection[] {
     const items = sharedEvents.map((e) => {
       const ageOlder = e.year - older.birthYear;
       const ageYounger = e.year - younger.birthYear;
-      return `${e.year}: ${e.text} — ${older.label} ${ageOlder}, ${younger.label} ${ageYounger}`;
+      return `${e.year}: ${e.text}\n${older.label} (${ageOlder}) · ${younger.label} (${ageYounger})`;
     });
     out.push({
       heading: "Čím si oba prošli",
@@ -197,17 +197,17 @@ export function buildPairEssay(a: Person, b: Person): PairSection[] {
     const youngerCulture = cultureForDecade(younger.birthYear + 15);
     const bits: string[] = [];
     bits.push(
-      `${older.label} ${g(older.gender, "dospíval", "dospívala")} v období ${olderTeen} — ${olderCulture.fashion}, a na plakátech kin ${olderCulture.popularMovies.slice(0, 2).join(" a ")}.`,
+      `${older.label} ${g(older.gender, "dospíval", "dospívala")} v období ${olderTeen} — ${olderCulture.fashion}, a na plakátech kin ${olderCulture.popularMovies.slice(0, 2).map((m) => `**${m}**`).join(" a ")}.`,
     );
     bits.push(
-      `${younger.label} ${g(younger.gender, "dospíval", "dospívala")} o generaci později v období ${youngerTeen} — ${youngerCulture.fashion}, a na plátnech ${youngerCulture.popularMovies.slice(0, 2).join(" a ")}.`,
+      `${younger.label} ${g(younger.gender, "dospíval", "dospívala")} o generaci později v období ${youngerTeen} — ${youngerCulture.fashion}, a na plátnech ${youngerCulture.popularMovies.slice(0, 2).map((m) => `**${m}**`).join(" a ")}.`,
     );
     out.push({ heading: "Stejný svět, jiný soundtrack", text: bits.join(" ") });
   } else {
     const culture = cultureForDecade(older.birthYear + 15);
     out.push({
       heading: "Stejný soundtrack",
-      text: `Oba dospívali v období ${olderTeen}. Písničky, které znal každý: ${joinList(culture.topSongs.slice(0, 3))}. Nejspíš oba nosili ${culture.fashion}.`,
+      text: `Oba dospívali v období ${olderTeen}. Písničky, které znal každý: ${joinList(culture.topSongs.slice(0, 3).map((s) => `**${s}**`))}. Nejspíš oba nosili ${culture.fashion}.`,
     });
   }
 

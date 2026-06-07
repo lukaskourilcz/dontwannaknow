@@ -117,7 +117,16 @@ body {
 .page {
   max-width: 780px;
   margin: 0 auto;
-  padding: clamp(2rem, 5vw, 4rem) clamp(1rem, 4vw, 2rem) 4rem;
+  padding: clamp(2rem, 5vw, 4rem) clamp(1rem, 4vw, 2rem) 2rem;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main grows so the footer sits at the bottom of the first screen — the
+   landing fits one viewport without scrolling. */
+.page > main {
+  flex: 1 0 auto;
 }
 
 .lang-bar {
@@ -271,7 +280,12 @@ body {
   background: transparent;
   color: var(--ink);
   outline: none;
-  transition: border-color 0.25s var(--ease-out), letter-spacing 0.25s var(--ease-out);
+  /* Stable metrics so the text doesn't shift as you type: no animated
+     letter-spacing, a fixed line box, and no variable-font optical resizing. */
+  transition: border-color 0.25s var(--ease-out);
+  line-height: 1.3;
+  font-optical-sizing: none;
+  font-variation-settings: "opsz" 28;
   width: 100%;
   max-width: 28rem;
   caret-color: var(--accent);
@@ -1232,7 +1246,8 @@ button:active {
 /* ── Footer ─────────────────────────────────────────────────────────── */
 
 .footer {
-  margin-top: 4rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
   text-align: center;
   color: var(--muted);
   font-size: 0.85rem;
@@ -1555,6 +1570,15 @@ input[type="number"] {
   padding-left: var(--s-4);
   border-left: 2px solid var(--accent-soft);
 }
+/* Ages always drop to their own line so the row never breaks awkwardly. */
+.pair-event-list li {
+  white-space: pre-line;
+}
+.pair-event-list li .ages,
+.essay-list li strong,
+.pair-event-list li strong {
+  font-variation-settings: "wght" 600;
+}
 
 /* Gender chooser reuses the country-card look, two tiles wide. */
 .wizard-gender-grid {
@@ -1565,7 +1589,6 @@ input[type="number"] {
 /* ── Landing: the hero lives on the wizard's intro screen and fits in
    one viewport, both axes ───────────────────────────────────────── */
 .wizard-intro {
-  min-height: min(74vh, 600px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1573,12 +1596,14 @@ input[type="number"] {
   text-align: center;
   gap: var(--s-2);
 }
+/* One line, always — shrink with the viewport rather than wrapping. */
 .wizard-hero-title {
-  font-size: clamp(2.1rem, 6.2vw, 3.8rem);
-  line-height: 1.03;
+  white-space: nowrap;
+  font-size: clamp(0.95rem, 4.6vw, 2.6rem);
+  line-height: 1.05;
   letter-spacing: -0.02em;
   margin: var(--s-2) 0 var(--s-1);
-  max-width: 16ch;
+  max-width: none;
 }
 .wizard-intro .wizard-lede {
   margin: 0 auto;

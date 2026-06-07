@@ -174,7 +174,9 @@ export async function generatePdf(
       para.items && para.items.length
         ? para.items.map((it) => `• ${it}`).join("\n")
         : para.text ?? "";
-    cursorY = writeParagraph(doc, para.heading, body, cursorY, pageWidth, pageHeight);
+    // The on-screen **bold** markers shouldn't show up literally in the PDF.
+    const plainBody = body.replace(/\*\*/g, "");
+    cursorY = writeParagraph(doc, para.heading, plainBody, cursorY, pageWidth, pageHeight);
   }
 
   // ── Guarantee at least two pages ───────────────────────────────
@@ -207,7 +209,7 @@ export async function generatePdf(
       ),
     );
     const extras = report.facts
-      .map((f) => f.text)
+      .map((f) => f.text.replace(/\*\*/g, ""))
       .filter((t) => {
         const k = t.toLowerCase();
         if (used.has(k)) return false;

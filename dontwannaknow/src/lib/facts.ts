@@ -209,7 +209,7 @@ function countryFacts(person: Person): Fact[] {
   pickN(uniqueFamous, 5).forEach((p) => {
     facts.push({
       category: "famous",
-      text: `${p.name} — ${p.role}${p.note ? `: ${p.note}` : ""}.`,
+      text: `**${p.name}** — ${p.role}${p.note ? `: ${p.note}` : ""}.`,
     });
   });
 
@@ -331,19 +331,19 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
   if (youthCulture.topSongs.length) {
     facts.push({
       category: "youth",
-      text: `Písničky, které znal každý: ${youthCulture.topSongs.slice(0, 2).join(" a ")}.`,
+      text: `Písničky, které znal každý: ${youthCulture.topSongs.slice(0, 2).map((s) => `**${s}**`).join(" a ")}.`,
     });
   }
   if (youthCulture.popularMovies.length) {
     facts.push({
       category: "youth",
-      text: `V kinech dávali ${youthCulture.popularMovies.slice(0, 3).join(", ")}.`,
+      text: `V kinech dávali ${youthCulture.popularMovies.slice(0, 3).map((m) => `**${m}**`).join(", ")}.`,
     });
   }
   if (youthCulture.popularBooks.length) {
     facts.push({
       category: "youth",
-      text: `Všichni četli ${youthCulture.popularBooks.slice(0, 2).join(" a ")}.`,
+      text: `Všichni četli ${youthCulture.popularBooks.slice(0, 2).map((b) => `**${b}**`).join(" a ")}.`,
     });
   }
 
@@ -362,6 +362,14 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
   // ── Country-specific texture, famous people, and local events ───────
   facts.push(...countryFacts(person));
 
+  // Drop accidental duplicates (e.g. the same "…ještě nikdo neznal" line).
+  const seenFacts = new Set<string>();
+  const uniqueFacts = facts.filter((f) => {
+    if (seenFacts.has(f.text)) return false;
+    seenFacts.add(f.text);
+    return true;
+  });
+
   return {
     person,
     ageNow,
@@ -370,7 +378,7 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
     youthCulture,
     countryLabel,
     cityLabel,
-    facts,
+    facts: uniqueFacts,
     essay: buildEssay(person, excludeWorld),
   };
 }
