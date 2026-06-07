@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import type { Person } from "../lib/facts";
+import { g, type Person, type Gender } from "../lib/facts";
 import { COUNTRY_LABELS, type Country } from "../data/countryDecades";
 import { citiesFor } from "../data/cities";
 import { useLang } from "../i18n/useLang";
@@ -50,12 +50,13 @@ function parseDate(input: string): ParsedDate | null {
   return null;
 }
 
-type Step = "intro" | "label" | "year" | "country" | "city" | "more" | "review";
+type Step = "intro" | "label" | "gender" | "year" | "country" | "city" | "more" | "review";
 
-const STEP_ORDER: Step[] = ["label", "year", "country", "city"];
+const STEP_ORDER: Step[] = ["label", "gender", "year", "country", "city"];
 
 type DraftPerson = {
   label: string;
+  gender: Gender;
   year: string;
   country: Country;
   citySlug: string;
@@ -63,12 +64,15 @@ type DraftPerson = {
 
 const EMPTY_DRAFT: DraftPerson = {
   label: "",
+  gender: "m",
   year: "",
   country: "CZ",
   citySlug: "",
 };
 
-const DEFAULT_LABELS = ["You", "Mom", "Grandma"];
+// First person is "you", second is the person you compare your life with.
+const DEFAULT_LABELS = ["Já", "Máma"];
+const MAX_PEOPLE = 2;
 
 export default function TypeformWizard({ onSubmit }: Props) {
   const { t, lang } = useLang();
@@ -124,6 +128,7 @@ export default function TypeformWizard({ onSubmit }: Props) {
     if (!parsed) return null;
     return {
       label: draft.label.trim() || "Someone",
+      gender: draft.gender,
       birthYear: parsed.year,
       birthMonth: parsed.month,
       birthDay: parsed.day,
@@ -216,8 +221,13 @@ export default function TypeformWizard({ onSubmit }: Props) {
       en: "What shall we call the first person?",
       hint: { cs: "Třeba 'Babi', 'Děda', nebo 'Já'.", en: "E.g. 'Grandma', 'Grandpa', or 'You'." },
     },
+    gender: {
+      cs: `${draft.label || "Tahle osoba"} — muž, nebo žena?`,
+      en: `${draft.label || "This person"} — man or woman?`,
+      hint: { cs: "Aby texty zněly přirozeně.", en: "So the prose reads naturally." },
+    },
     year: {
-      cs: `Kdy se ${draft.label || "tahle osoba"} narodil/a?`,
+      cs: `Kdy se ${draft.label || "tahle osoba"} ${g(draft.gender, "narodil", "narodila")}?`,
       en: `When was ${draft.label || "this person"} born?`,
       hint: {
         cs: "Stačí rok. Nebo plné datum, např. 1953-04-12, 12/04/1953 nebo 04/1953.",
@@ -275,8 +285,8 @@ export default function TypeformWizard({ onSubmit }: Props) {
             <h2 className="wizard-question">{renderQuestionText("intro")}</h2>
             <p className="wizard-lede">
               {lang === "cs"
-                ? "Pár otázek — kdo, kdy, kde — a ukážeme ti, čím ten člověk prošel. Stačí jedna osoba, ale klidně přidej víc."
-                : "A few questions — who, when, where — and we'll show you the world they walked through. One person is enough; add more if you like."}
+                ? "Nejdřív pár otázek o tobě, pak o člověku, s kterým se chceš porovnat. Za dvě minuty uvidíš oba vaše světy vedle sebe."
+                : "First a few questions about you, then about the person you want to compare with. In two minutes you'll see both your worlds side by side."}
             </p>
             <button
               type="button"
@@ -291,8 +301,24 @@ export default function TypeformWizard({ onSubmit }: Props) {
         {/* ── LABEL ────────────────────────────────── */}
         {step === "label" && (
           <div className="wizard-step">
-            <h2 className="wizard-question">{renderQuestionText("label")}</h2>
-            <p className="wizard-hint">{renderHint("label")}</p>
+            <h2 className="wizard-question">
+              {people.length === 0
+                ? lang === "cs"
+                  ? "Nejdřív ty — jak ti budeme říkat?"
+                  : "First, you — what should we call you?"
+                : lang === "cs"
+                  ? "A s kým chceš svůj život porovnat?"
+                  : "And who do you want to compare your life with?"}
+            </h2>
+            <p className="wizard-hint">
+              {people.length === 0
+                ? lang === "cs"
+                  ? "Klidně nech „Já“."
+                  : "“Me” is fine."
+                : lang === "cs"
+                  ? "Třeba Máma, Děda nebo kamarád."
+                  : "E.g. Mom, Grandpa, or a friend."}
+            </p>
             <input
               ref={inputRef as React.RefObject<HTMLInputElement>}
               className="wizard-input"
@@ -309,6 +335,34 @@ export default function TypeformWizard({ onSubmit }: Props) {
               <span className="wizard-enter-hint">
                 {lang === "cs" ? "nebo stiskni Enter" : "or press Enter"}
               </span>
+            </div>
+          </div>
+        )}
+
+        {/* ── GENDER ──────────────────────────────── */}
+        {step === "gender" && (
+          <div className="wizard-step">
+            <h2 className="wizard-question">{renderQuestionText("gender")}</h2>
+            <p className="wizard-hint">{renderHint("gender")}</p>
+            <div className="wizard-country-grid wizard-gender-grid">
+              {(
+                [
+                  ["m", lang === "cs" ? "Muž" : "Man"],
+                  ["f", lang === "cs" ? "Žena" : "Woman"],
+                ] as const
+              ).map(([val, name]) => (
+                <button
+                  type="button"
+                  key={val}
+                  className={`country-card ${draft.gender === val ? "active" : ""}`}
+                  onClick={() => {
+                    setDraft({ ...draft, gender: val });
+                    setTimeout(() => goNext(), 120);
+                  }}
+                >
+                  <span className="country-card-name">{name}</span>
+                </button>
+              ))}
             </div>
           </div>
         )}
@@ -418,21 +472,38 @@ export default function TypeformWizard({ onSubmit }: Props) {
         {step === "more" && (
           <div className="wizard-step">
             <h2 className="wizard-question">
-              {lang === "cs"
-                ? `Skvělé. Přidat dalšího nebo se podívat na svět ${draft.label || "této osoby"}?`
-                : `Great. Add another person, or see ${draft.label || "this person"}'s world?`}
+              {people.length < 1
+                ? lang === "cs"
+                  ? "Chceš svůj život s někým porovnat?"
+                  : "Compare your life with someone?"
+                : lang === "cs"
+                  ? "Hotovo — máme oba."
+                  : "Done — we've got both."}
             </h2>
             <p className="wizard-hint">
-              {lang === "cs"
-                ? "Můžeš porovnat víc lidí najednou — nebo skončit u jednoho."
-                : "You can compare several people side by side — or stop at one."}
+              {people.length < 1
+                ? lang === "cs"
+                  ? "Přidej druhou osobu k porovnání, nebo se rovnou podívej na svůj svět."
+                  : "Add a second person to compare, or just see your own world."
+                : lang === "cs"
+                  ? "Ukážeme vaše dva světy vedle sebe."
+                  : "We'll show your two worlds side by side."}
             </p>
             <div className="wizard-actions wizard-actions-row">
-              <button className="secondary" type="button" onClick={addPersonAndContinue}>
-                {lang === "cs" ? "+ Přidat další" : "+ Add another"}
-              </button>
+              {people.length < 1 && (
+                <button className="secondary" type="button" onClick={addPersonAndContinue}>
+                  {lang === "cs" ? "+ Přidat osobu k porovnání" : "+ Add a comparison"}
+                </button>
+              )}
               <button className="primary" type="button" onClick={addPersonAndReview}>
-                {lang === "cs" ? "Ukaž mi jejich svět" : "Show me their world"} →
+                {(people.length < 1
+                  ? lang === "cs"
+                    ? "Ukaž mi můj svět"
+                    : "Show me my world"
+                  : lang === "cs"
+                    ? "Ukaž oba světy"
+                    : "Show both worlds")}{" "}
+                →
               </button>
             </div>
           </div>
@@ -454,15 +525,17 @@ export default function TypeformWizard({ onSubmit }: Props) {
               ))}
             </ul>
             <div className="wizard-actions wizard-actions-row">
-              <button
-                className="secondary"
-                type="button"
-                onClick={() => {
-                  startWithEmpty();
-                }}
-              >
-                {lang === "cs" ? "+ Přidat dalšího" : "+ Add another"}
-              </button>
+              {people.length < MAX_PEOPLE && (
+                <button
+                  className="secondary"
+                  type="button"
+                  onClick={() => {
+                    startWithEmpty();
+                  }}
+                >
+                  {lang === "cs" ? "+ Přidat osobu k porovnání" : "+ Add a comparison"}
+                </button>
+              )}
               <button
                 className="primary"
                 type="button"

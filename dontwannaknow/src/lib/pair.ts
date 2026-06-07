@@ -2,7 +2,7 @@
 // geographic distance between their birthplaces, era-appropriate travel
 // difficulty, and the cultural touchstones they overlapped on.
 
-import type { Person } from "./facts";
+import { g, type Person } from "./facts";
 import { findCity } from "../data/cities";
 import { CITY_COORDS, distanceKm } from "../data/cityCoords";
 import { EVENTS } from "../data/events";
@@ -11,7 +11,8 @@ import { cultureForDecade } from "../data/culture";
 
 export type PairSection = {
   heading: string;
-  text: string;
+  text?: string;
+  items?: string[];
 };
 
 const CURRENT_YEAR = new Date().getFullYear();
@@ -98,12 +99,15 @@ export function buildPairEssay(a: Person, b: Person): PairSection[] {
     : COUNTRY_LABELS[younger.country];
 
   const ageGap = younger.birthYear - older.birthYear;
+  const sameCity = Boolean(
+    older.citySlug && younger.citySlug && older.citySlug === younger.citySlug,
+  );
   const out: PairSection[] = [];
 
   // ── Intro paragraph ─────────────────────────────────────────────
   const introBits: string[] = [];
   introBits.push(
-    `${older.label} se narodil/a v roce ${older.birthYear} v místě ${placeOlder}; ${younger.label} přišel/přišla na svět ${ageGap === 0 ? "ve stejném roce" : `o ${ageGap} ${ageGap === 1 ? "rok" : ageGap >= 2 && ageGap <= 4 ? "roky" : "let"} později`} v místě ${placeYounger}.`,
+    `${older.label} ${g(older.gender, "se narodil", "se narodila")} v roce ${older.birthYear} v místě ${placeOlder}; ${younger.label} ${g(younger.gender, "přišel", "přišla")} na svět ${ageGap === 0 ? "ve stejném roce" : `o ${ageGap} ${ageGap === 1 ? "rok" : ageGap >= 2 && ageGap <= 4 ? "roky" : "let"} později`} v místě ${placeYounger}.`,
   );
   if (ageGap >= 50) {
     introBits.push(
@@ -127,29 +131,36 @@ export function buildPairEssay(a: Person, b: Person): PairSection[] {
   out.push({ heading: "Dva životy vedle sebe", text: introBits.join(" ") });
 
   // ── Geography & travel ──────────────────────────────────────────
-  const km = distanceKm(
-    cityOlder ? CITY_COORDS[cityOlder.slug] : undefined,
-    cityYounger ? CITY_COORDS[cityYounger.slug] : undefined,
-  );
-  if (km !== null) {
-    // We describe travel in the year the younger person was around 25,
-    // when a visit between them is most likely.
-    const travelYear = younger.birthYear + 25;
-    const travelText = travelDescription(
-      travelYear,
-      older.country,
-      younger.country,
-      km,
+  if (sameCity && cityOlder) {
+    out.push({
+      heading: "Stejné město",
+      text: `Oba z téhož města — ${cityOlder.name}. Vyrůstali ve stejných ulicích, jen každý v jiné době.`,
+    });
+  } else {
+    const km = distanceKm(
+      cityOlder ? CITY_COORDS[cityOlder.slug] : undefined,
+      cityYounger ? CITY_COORDS[cityYounger.slug] : undefined,
     );
-    out.push({
-      heading: "Jak daleko od sebe doopravdy byli",
-      text: travelText,
-    });
-  } else if (older.country !== younger.country) {
-    out.push({
-      heading: "Jak daleko od sebe doopravdy byli",
-      text: `Jeden v zemi ${COUNTRY_LABELS[older.country]}, druhý v zemi ${COUNTRY_LABELS[younger.country]} — taková vzdálenost, kterou většina lidí jejich doby překonala jednou za život, pokud vůbec.`,
-    });
+    if (km !== null && km >= 1) {
+      // We describe travel in the year the younger person was around 25,
+      // when a visit between them is most likely.
+      const travelYear = younger.birthYear + 25;
+      const travelText = travelDescription(
+        travelYear,
+        older.country,
+        younger.country,
+        km,
+      );
+      out.push({
+        heading: "Jak daleko od sebe doopravdy byli",
+        text: travelText,
+      });
+    } else if (older.country !== younger.country) {
+      out.push({
+        heading: "Jak daleko od sebe doopravdy byli",
+        text: `Jeden v zemi ${COUNTRY_LABELS[older.country]}, druhý v zemi ${COUNTRY_LABELS[younger.country]} — taková vzdálenost, kterou většina lidí jejich doby překonala jednou za život, pokud vůbec.`,
+      });
+    }
   }
 
   // ── Shared world events (within both lifespans) ─────────────────
@@ -167,14 +178,14 @@ export function buildPairEssay(a: Person, b: Person): PairSection[] {
     .sort((a, b) => a.year - b.year);
 
   if (sharedEvents.length > 0) {
-    const lines = sharedEvents.map((e) => {
+    const items = sharedEvents.map((e) => {
       const ageOlder = e.year - older.birthYear;
       const ageYounger = e.year - younger.birthYear;
-      return `V roce ${e.year}: ${e.text} — ${older.label} měl/a ${ageOlder}, ${younger.label} ${ageYounger}.`;
+      return `${e.year}: ${e.text} — ${older.label} ${ageOlder}, ${younger.label} ${ageYounger}`;
     });
     out.push({
       heading: "Čím si oba prošli",
-      text: lines.join(" "),
+      items,
     });
   }
 
@@ -186,10 +197,10 @@ export function buildPairEssay(a: Person, b: Person): PairSection[] {
     const youngerCulture = cultureForDecade(younger.birthYear + 15);
     const bits: string[] = [];
     bits.push(
-      `${older.label} dospíval/a v období ${olderTeen} — ${olderCulture.fashion}, a na plakátech kin ${olderCulture.popularMovies.slice(0, 2).join(" a ")}.`,
+      `${older.label} ${g(older.gender, "dospíval", "dospívala")} v období ${olderTeen} — ${olderCulture.fashion}, a na plakátech kin ${olderCulture.popularMovies.slice(0, 2).join(" a ")}.`,
     );
     bits.push(
-      `${younger.label} dospíval/a o generaci později v období ${youngerTeen} — ${youngerCulture.fashion}, a na plátnech ${youngerCulture.popularMovies.slice(0, 2).join(" a ")}.`,
+      `${younger.label} ${g(younger.gender, "dospíval", "dospívala")} o generaci později v období ${youngerTeen} — ${youngerCulture.fashion}, a na plátnech ${youngerCulture.popularMovies.slice(0, 2).join(" a ")}.`,
     );
     out.push({ heading: "Stejný svět, jiný soundtrack", text: bits.join(" ") });
   } else {

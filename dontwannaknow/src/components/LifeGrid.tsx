@@ -1,49 +1,49 @@
-// A "life in years" visualization — a 10×N grid of squares where each
-// square is one year of life. Years lived are filled in; years up to
-// the country's life expectancy are outlined; beyond is empty.
-// Inspired by Tim Urban's "Your Life in Weeks" essay.
+// "Život v týdnech" — a 52×100 grid where each square is one week of life.
+// Weeks already lived are filled; the rest, up to a round century, are
+// outlined. Inspired by Tim Urban's "Your Life in Weeks" essay.
 
 type Props = {
+  weeksLived: number;
   ageNow: number;
-  lifeExpectancy: number;
   label: string;
 };
 
-const COLS = 10;
-const SIZE = 14;
-const GAP = 4;
-const PADDING = 16;
-const ROW_LABEL_GAP = 26;
+const COLS = 52; // one square per week of the year
+const ROWS = 100; // years, up to a round century
+const TOTAL = COLS * ROWS;
+const SIZE = 6;
+const GAP = 2;
+const PADDING = 14;
+const ROW_LABEL_GAP = 28;
 
-export default function LifeGrid({ ageNow, lifeExpectancy, label }: Props) {
-  // We show up to max(lifeExpectancy, ageNow) years, rounded up to next 10.
-  const horizon = Math.max(lifeExpectancy, ageNow);
-  const rows = Math.ceil(horizon / COLS);
+export default function LifeGrid({ weeksLived, label }: Props) {
+  const lived = Math.max(0, Math.min(weeksLived, TOTAL));
+  const remaining = Math.max(0, TOTAL - lived);
   const width = PADDING * 2 + ROW_LABEL_GAP + COLS * (SIZE + GAP) - GAP;
-  const height = PADDING * 2 + rows * (SIZE + GAP) - GAP;
+  const height = PADDING * 2 + ROWS * (SIZE + GAP) - GAP;
 
-  const cells: { x: number; y: number; year: number; state: "lived" | "future" | "beyond" }[] = [];
-  for (let year = 0; year < rows * COLS; year++) {
-    const row = Math.floor(year / COLS);
-    const col = year % COLS;
-    const x = PADDING + ROW_LABEL_GAP + col * (SIZE + GAP);
-    const y = PADDING + row * (SIZE + GAP);
-    let state: "lived" | "future" | "beyond";
-    if (year < ageNow) state = "lived";
-    else if (year < lifeExpectancy) state = "future";
-    else state = "beyond";
-    cells.push({ x, y, year, state });
+  const cells: { x: number; y: number; i: number; lived: boolean }[] = [];
+  for (let i = 0; i < TOTAL; i++) {
+    const row = Math.floor(i / COLS);
+    const col = i % COLS;
+    cells.push({
+      x: PADDING + ROW_LABEL_GAP + col * (SIZE + GAP),
+      y: PADDING + row * (SIZE + GAP),
+      i,
+      lived: i < lived,
+    });
   }
 
-  // Decade labels down the left side.
-  const rowLabels = Array.from({ length: rows }, (_, i) => ({
-    label: `${i * COLS}`,
-    y: PADDING + i * (SIZE + GAP) + SIZE / 2 + 4,
-  }));
+  // Decade labels down the left edge.
+  const rowLabels: { label: string; y: number }[] = [];
+  for (let yr = 0; yr <= ROWS; yr += 10) {
+    rowLabels.push({
+      label: String(yr),
+      y: PADDING + yr * (SIZE + GAP) + SIZE / 2 + 3,
+    });
+  }
 
-  const livedCount = Math.min(ageNow, horizon);
-  const remaining = Math.max(0, lifeExpectancy - ageNow);
-  const past = Math.max(0, ageNow - lifeExpectancy);
+  const nf = (n: number) => n.toLocaleString("cs-CZ");
 
   return (
     <figure className="life-grid">
@@ -51,47 +51,31 @@ export default function LifeGrid({ ageNow, lifeExpectancy, label }: Props) {
         viewBox={`0 0 ${width} ${height}`}
         xmlns="http://www.w3.org/2000/svg"
         role="img"
-        aria-label={`Life-in-years grid for ${label}: ${livedCount} years lived, about ${remaining} likely remaining`}
+        aria-label={`Život v týdnech pro ${label}: prožito ${lived} týdnů z ${TOTAL} do sta let`}
       >
-        {rowLabels.map((rl, i) => (
-          <text
-            key={i}
-            x={PADDING}
-            y={rl.y}
-            className="life-grid-row-label"
-          >
+        {rowLabels.map((rl, idx) => (
+          <text key={idx} x={PADDING} y={rl.y} className="life-grid-row-label">
             {rl.label}
           </text>
         ))}
         {cells.map((c) => (
           <rect
-            key={c.year}
+            key={c.i}
             x={c.x}
             y={c.y}
             width={SIZE}
             height={SIZE}
-            rx={2.5}
-            ry={2.5}
-            className={`life-grid-cell life-grid-${c.state}`}
-          >
-            <title>Year {c.year + 1}</title>
-          </rect>
+            rx={1.5}
+            ry={1.5}
+            className={`life-grid-cell life-grid-${c.lived ? "lived" : "future"}`}
+          />
         ))}
       </svg>
       <figcaption>
-        Each square is one year. {label} has lived {livedCount}{" "}
-        {livedCount === 1 ? "year" : "years"}.{" "}
-        {past > 0 ? (
-          <>
-            That's <strong>{past} {past === 1 ? "year" : "years"}</strong>{" "}
-            already past the country's average life expectancy of {lifeExpectancy} — every year now is a bonus.
-          </>
-        ) : (
-          <>
-            About <strong>{remaining} {remaining === 1 ? "year" : "years"}</strong>{" "}
-            likely remaining if they reach the country's average life expectancy of {lifeExpectancy}.
-          </>
-        )}
+        Každý čtvereček je jeden týden života. Z přibližně{" "}
+        <strong>{nf(TOTAL)}</strong> týdnů do stovky má {label}{" "}
+        <strong>{nf(lived)}</strong> za sebou a ještě zhruba {nf(remaining)} před
+        sebou.
       </figcaption>
     </figure>
   );

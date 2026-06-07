@@ -9,7 +9,7 @@ type StringSet = Record<string, string>;
 
 const STRINGS: Record<Lang, StringSet> = {
   cs: {
-    "hero.eyebrow":   "Nechci to vědět · ale měl bys",
+    "hero.eyebrow":   "Stojí za to vědět · o lidech, které máš rád",
     "hero.title":     "Svět, kterým procházeli tví blízcí",
     "hero.lede":      "Zadej rok narození a místo pro sebe, své rodiče, prarodiče — a podívej se na bizarní, krásné i všední detaily světa, do kterého se narodili.",
     "form.intro":     "Zadej rok narození (nebo celé datum — např. 1953-04-12, 12/04/1953, nebo 04/1953), zemi a město pro každou osobu. Celé datum odemkne mapu hvězd v noci jejich narození.",
@@ -47,7 +47,7 @@ const STRINGS: Record<Lang, StringSet> = {
     "footer":          "Vytvořeno se zvědavostí. Fakta sestavena z veřejných historických dat.",
   },
   en: {
-    "hero.eyebrow":   "Don't wanna know · but you should",
+    "hero.eyebrow":   "Worth knowing · about the people you love",
     "hero.title":     "The world your people lived through",
     "hero.lede":      "Enter a birth year and birthplace for yourself, your parents, your grandparents — and see the bizarre, the beautiful, and the everyday details of the world they were born into.",
     "form.intro":     "Enter a birth year (or full date — e.g. 1953-04-12, 12/04/1953, or 04/1953), country, and city for each person. Adding a full date unlocks a sky chart of the night they were born.",

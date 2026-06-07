@@ -1,5 +1,4 @@
-import type { PersonReport } from "../lib/facts";
-import { lifeExpectancyFor } from "../data/lifeExpectancy";
+import { g, type PersonReport } from "../lib/facts";
 import { useLang } from "../i18n/useLang";
 import { useCountUp } from "../lib/useCountUp";
 
@@ -43,7 +42,7 @@ export default function HeroSummary({ report }: Props) {
   const { person, ageNow } = report;
   const months = lang === "cs" ? MONTHS_CS : MONTHS_EN;
 
-  const yearsRemainingRaw = lifeExpectancyFor(person.country) - ageNow;
+  const yearsRemainingRaw = 100 - ageNow;
   const yearsRemaining = Math.max(0, yearsRemainingRaw);
   const past = Math.max(0, -yearsRemainingRaw);
 
@@ -72,19 +71,17 @@ export default function HeroSummary({ report }: Props) {
 
   const T = {
     cs: {
-      bornOn: "Narozen/a",
       daysLived: "Dnů na zemi",
-      yearsLeft: "Pravděpodobně zbývá",
-      yearsPast: "Za průměrnou délkou života",
+      yearsLeft: "Do stovky zbývá",
+      yearsPast: "Přes sto let",
       bonusNote: "Každý den navíc je dar.",
       bonusYears: "let bonusu",
       years: (n: number) => (n === 1 ? "rok" : n < 5 ? "roky" : "let"),
     },
     en: {
-      bornOn: "Born",
       daysLived: "Days on earth",
-      yearsLeft: "Years likely left",
-      yearsPast: "Past life expectancy",
+      yearsLeft: "Years to 100",
+      yearsPast: "Past 100",
       bonusNote: "Every day past it is a gift.",
       bonusYears: "bonus years",
       years: (n: number) => (n === 1 ? "year" : "years"),
@@ -103,7 +100,7 @@ export default function HeroSummary({ report }: Props) {
   }> = [];
 
   cards.push({
-    label: t.bornOn,
+    label: lang === "cs" ? g(person.gender, "Narozen", "Narozena") : "Born",
     value: dateStr,
     detail: report.cityLabel
       ? `${report.cityLabel}, ${report.countryLabel}`

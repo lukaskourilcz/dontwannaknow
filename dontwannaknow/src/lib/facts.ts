@@ -16,10 +16,18 @@ import { FACTS as CURATED_FACTS } from "../data/history";
 import { buildEssay, type EssayParagraph } from "./essay";
 import { buildPairEssay, type PairSection } from "./pair";
 
+export type Gender = "m" | "f";
+
+/** Pick the grammatically correct Czech form for a person's gender, e.g.
+ *  g(p.gender, "narodil", "narodila"). Keeps generated prose in one form. */
+export const g = (gender: Gender, masculine: string, feminine: string): string =>
+  gender === "f" ? feminine : masculine;
+
 export type Person = {
   label: string;
   birthYear: number;
   country: Country;
+  gender: Gender;
   citySlug?: string;
   birthMonth?: number;     // 1-12, optional
   birthDay?: number;       // 1-31, optional
@@ -259,10 +267,10 @@ export function reportFor(person: Person): PersonReport {
     );
     const pool = big.length >= 2 ? big : beforeStuff;
     pickN(pool, 2).forEach((inv) => {
-      const phrase = inv.detail ?? `${inv.name} ještě neexistoval(a)`;
+      const phrase = inv.detail ?? `${inv.name} ještě nikdo neznal`;
       facts.push({
         category: "bizarre",
-        text: `Když se ${label.toLowerCase()} narodil/a, ${phrase}.`,
+        text: `Když se ${label.toLowerCase()} ${g(person.gender, "narodil", "narodila")}, ${phrase}.`,
       });
     });
   }
@@ -273,7 +281,7 @@ export function reportFor(person: Person): PersonReport {
     const verb = c.becameText ? ` — později ${c.becameText}` : "";
     facts.push({
       category: "bizarre",
-      text: `${label} se narodil/a v době, kdy na mapě ještě existoval(a) ${c.name}${verb}.`,
+      text: `${label} ${g(person.gender, "se narodil", "se narodila")} v době, kdy na mapě ještě existoval stát ${c.name}${verb}.`,
     });
   });
 
@@ -291,14 +299,14 @@ export function reportFor(person: Person): PersonReport {
     const age = ageAt(birthYear, e.year);
     facts.push({
       category: "beautiful",
-      text: `${label} měl(a) ${age} let, když ${e.text}.`,
+      text: `${label} ${g(person.gender, "měl", "měla")} ${age} let, když ${e.text}.`,
     });
   });
 
   // ── Everyday life ────────────────────────────────────────────────────
   facts.push({
     category: "everyday",
-    text: `V roce, kdy se ${label.toLowerCase()} narodil/a, žilo na světě přibližně ${birthStats.worldPopulationBillions} miliard lidí — dnes je to zhruba 8,1 miliardy.`,
+    text: `V roce, kdy se ${label.toLowerCase()} ${g(person.gender, "narodil", "narodila")}, žilo na světě přibližně ${birthStats.worldPopulationBillions} miliard lidí — dnes je to zhruba 8,1 miliardy.`,
   });
   facts.push({
     category: "everyday",
@@ -316,7 +324,7 @@ export function reportFor(person: Person): PersonReport {
   // ── Youth: cultural snapshot ──────────────────────────────────────────
   facts.push({
     category: "youth",
-    text: `Během dospívání ${label.toLowerCase()} nejspíš nosil/a ${youthCulture.fashion}.`,
+    text: `Během dospívání ${label.toLowerCase()} nejspíš ${g(person.gender, "nosil", "nosila")} ${youthCulture.fashion}.`,
   });
   facts.push({
     category: "youth",
@@ -348,7 +356,7 @@ export function reportFor(person: Person): PersonReport {
     if (multiple >= 2) {
       facts.push({
         category: "bizarre",
-        text: `Průměrná mzda je dnes zhruba ${multiple}× vyšší než v době, kdy se ${label.toLowerCase()} narodil/a.`,
+        text: `Průměrná mzda je dnes zhruba ${multiple}× vyšší než v době, kdy se ${label.toLowerCase()} ${g(person.gender, "narodil", "narodila")}.`,
       });
     }
   }

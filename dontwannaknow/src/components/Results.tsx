@@ -6,7 +6,6 @@ import SkyMap from "./SkyMap";
 import LifeGrid from "./LifeGrid";
 import Newspaper from "./Newspaper";
 import { CITY_COORDS } from "../data/cityCoords";
-import { lifeExpectancyFor } from "../data/lifeExpectancy";
 import { buildShareUrl } from "../lib/share";
 import { generatePdf } from "../lib/pdf";
 import { useLang } from "../i18n/useLang";
@@ -31,7 +30,7 @@ type Props = {
 };
 
 const SECTION_ORDER: { key: Fact["category"]; title: string; tone: string }[] = [
-  { key: "city", title: "V rodném městě", tone: "Rok za rokem v ulicích, kde vyrůstal/a" },
+  { key: "city", title: "V rodném městě", tone: "Rok za rokem v ulicích jejich dětství" },
   { key: "bizarre", title: "Bizarní", tone: "Podivné, ale pravdivé" },
   { key: "beautiful", title: "Krásné", tone: "To dobré a velké" },
   { key: "local", title: "Po celé zemi", tone: "" },
@@ -144,13 +143,22 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
             {pair.map((p, i) => (
               <section key={i} className="essay-paragraph">
                 <h4>{p.heading}</h4>
-                <p>{p.text}</p>
+                {p.items ? (
+                  <ul className="pair-event-list">
+                    {p.items.map((it, j) => (
+                      <li key={j}>{it}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p>{p.text}</p>
+                )}
               </section>
             ))}
           </div>
         </article>
       )}
 
+      <div className={reports.length > 1 ? "person-cards person-cards-pair" : "person-cards"}>
       {reports.map((r, i) => {
         const grouped = groupByCategory(r.facts);
         return (
@@ -187,10 +195,21 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
 
             <HeroSummary report={r} />
 
-            <SectionDivider label={lang === "cs" ? "Život v letech" : "Life in years"} />
+            <SectionDivider label={lang === "cs" ? "Život v týdnech" : "Life in weeks"} />
             <LifeGrid
+              weeksLived={Math.max(
+                0,
+                Math.floor(
+                  (Date.now() -
+                    Date.UTC(
+                      r.person.birthYear,
+                      (r.person.birthMonth ?? 7) - 1,
+                      r.person.birthDay ?? 1,
+                    )) /
+                    (1000 * 60 * 60 * 24 * 7),
+                ),
+              )}
               ageNow={r.ageNow}
-              lifeExpectancy={lifeExpectancyFor(r.person.country)}
               label={r.person.label}
             />
 
@@ -269,6 +288,7 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
           </article>
         );
       })}
+      </div>
       <p className="disclaimer">{t("results.disclaimer")}</p>
     </div>
   );
