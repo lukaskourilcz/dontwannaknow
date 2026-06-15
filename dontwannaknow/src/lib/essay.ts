@@ -24,6 +24,7 @@ import { educationFor } from "../data/education";
 import { worksAround, worksInRange } from "../data/culturalWorks";
 import { eventsInMonth, eventsInMonthLifetime, eventsAroundMonth } from "../data/monthlyEvents";
 import { mediaFor } from "../data/media";
+import { writersAtBirth, czYears } from "../data/writers";
 
 export type EssayParagraph = {
   heading: string;
@@ -241,6 +242,33 @@ export function buildEssay(person: Person, excludeWorld = false): EssayParagraph
     if (mb.length > 0) {
       out.push({ heading: "Co četli a sledovali", text: mb.join(" ") });
     }
+  }
+
+  // ── Writers alive (or just gone) when they were born ───────────────
+  const writerList = writersAtBirth(country, birthYear);
+  if (writerList.length > 0) {
+    const sample = pickN(writerList, Math.min(4, writerList.length)).sort(
+      (a, b) => b.age - a.age,
+    );
+    const items = sample.map((w) => {
+      if (!w.alive && w.yearsSinceDeath !== undefined) {
+        return `**${w.name}** ${g(w.gender, "zemřel", "zemřela")} ${w.yearsSinceDeath} ${czYears(w.yearsSinceDeath)} předtím (${w.blurb}).`;
+      }
+      const line = `**${w.name}** — ${w.age} ${czYears(w.age)}`;
+      const tail: string[] = [];
+      if (w.home) tail.push(`${g(w.gender, "žil", "žila")} ${w.home}`);
+      if (w.workingOn) {
+        tail.push(
+          `${g(w.gender, "pracoval", "pracovala")} na díle ${w.workingOn.title} (${w.workingOn.year})`,
+        );
+      } else if (w.recent) {
+        tail.push(
+          `${g(w.gender, "měl za sebou", "měla za sebou")} ${w.recent.title} (${w.recent.year})`,
+        );
+      }
+      return tail.length ? `${line}, ${tail.join(" a ")}.` : `${line}.`;
+    });
+    out.push({ heading: "Spisovatelé v roce narození", items });
   }
 
   // ── Birthday peers ─────────────────────────────────────────────────
