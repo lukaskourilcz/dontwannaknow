@@ -23,6 +23,7 @@ import { slangFor } from "../data/slang";
 import { educationFor } from "../data/education";
 import { worksAround, worksInRange } from "../data/culturalWorks";
 import { eventsInMonth, eventsInMonthLifetime, eventsAroundMonth } from "../data/monthlyEvents";
+import { mediaFor } from "../data/media";
 
 export type EssayParagraph = {
   heading: string;
@@ -221,6 +222,24 @@ export function buildEssay(person: Person, excludeWorld = false): EssayParagraph
         heading: "Faktura všedního dne",
         text: bits.join(" "),
       });
+    }
+  }
+
+  // ── What they read and watched (magazines, books, TV) ──────────────
+  const mediaSource =
+    mediaFor(country, birthYear + 15) ?? mediaFor(country, birthYear);
+  if (mediaSource) {
+    const mb: string[] = [];
+    const r1 = pickOne(mediaSource.read);
+    if (r1) mb.push(r1);
+    const r2 = pickOne(mediaSource.read.filter((x) => x !== r1));
+    if (r2) mb.push(r2);
+    const w1 = pickOne(mediaSource.watch);
+    if (w1) mb.push(w1);
+    const w2 = pickOne(mediaSource.watch.filter((x) => x !== w1));
+    if (w2) mb.push(w2);
+    if (mb.length > 0) {
+      out.push({ heading: "Co četli a sledovali", text: mb.join(" ") });
     }
   }
 

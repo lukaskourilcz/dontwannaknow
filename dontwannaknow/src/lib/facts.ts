@@ -13,6 +13,7 @@ import { fmtMoney } from "./money";
 import { famousFor } from "../data/famousPeople";
 import { eventsForCountry } from "../data/countryEvents";
 import { cityFactsFor, findCity } from "../data/cities";
+import { mediaFor } from "../data/media";
 import { FACTS as CURATED_FACTS } from "../data/history";
 import { buildEssay, type EssayParagraph } from "./essay";
 import { buildPairEssay, type PairSection } from "./pair";
@@ -49,7 +50,8 @@ export type Fact = {
     | "money"
     | "famous"
     | "local"
-    | "city";
+    | "city"
+    | "media";
   text: string;
 };
 
@@ -165,6 +167,17 @@ function countryFacts(person: Person): Fact[] {
       facts.push({ category: "beautiful", text: t }),
     );
   }
+
+  // What people read and watched — magazines, books and TV channels of the
+  // birth decade and the teenage decade. Covers 1940s–2020s (CZ & UA only).
+  const mediaSeen = new Set<number>();
+  [birthYear, birthYear + 15].forEach((y) => {
+    const m = mediaFor(country, y);
+    if (!m || mediaSeen.has(m.decadeStart)) return;
+    mediaSeen.add(m.decadeStart);
+    pickN(m.read, 1).forEach((t) => facts.push({ category: "media", text: t }));
+    pickN(m.watch, 1).forEach((t) => facts.push({ category: "media", text: t }));
+  });
 
   // Country-specific events during their lifetime — weight toward
   // birth ± 25 years and pick 4.
