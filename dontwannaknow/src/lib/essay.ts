@@ -23,6 +23,8 @@ import { slangFor } from "../data/slang";
 import { educationFor } from "../data/education";
 import { worksAround, worksInRange } from "../data/culturalWorks";
 import { eventsInMonth, eventsInMonthLifetime, eventsAroundMonth } from "../data/monthlyEvents";
+import { mediaFor } from "../data/media";
+import { writersAtBirth, czYears } from "../data/writers";
 
 export type EssayParagraph = {
   heading: string;
@@ -222,6 +224,51 @@ export function buildEssay(person: Person, excludeWorld = false): EssayParagraph
         text: bits.join(" "),
       });
     }
+  }
+
+  // ── What they read and watched (magazines, books, TV) ──────────────
+  const mediaSource =
+    mediaFor(country, birthYear + 15) ?? mediaFor(country, birthYear);
+  if (mediaSource) {
+    const mb: string[] = [];
+    const r1 = pickOne(mediaSource.read);
+    if (r1) mb.push(r1);
+    const r2 = pickOne(mediaSource.read.filter((x) => x !== r1));
+    if (r2) mb.push(r2);
+    const w1 = pickOne(mediaSource.watch);
+    if (w1) mb.push(w1);
+    const w2 = pickOne(mediaSource.watch.filter((x) => x !== w1));
+    if (w2) mb.push(w2);
+    if (mb.length > 0) {
+      out.push({ heading: "Co četli a sledovali", text: mb.join(" ") });
+    }
+  }
+
+  // ── Writers alive (or just gone) when they were born ───────────────
+  const writerList = writersAtBirth(country, birthYear);
+  if (writerList.length > 0) {
+    const sample = pickN(writerList, Math.min(4, writerList.length)).sort(
+      (a, b) => b.age - a.age,
+    );
+    const items = sample.map((w) => {
+      if (!w.alive && w.yearsSinceDeath !== undefined) {
+        return `**${w.name}** ${g(w.gender, "zemřel", "zemřela")} ${w.yearsSinceDeath} ${czYears(w.yearsSinceDeath)} předtím (${w.blurb}).`;
+      }
+      const line = `**${w.name}** — ${w.age} ${czYears(w.age)}`;
+      const tail: string[] = [];
+      if (w.home) tail.push(`${g(w.gender, "žil", "žila")} ${w.home}`);
+      if (w.workingOn) {
+        tail.push(
+          `${g(w.gender, "pracoval", "pracovala")} na díle ${w.workingOn.title} (${w.workingOn.year})`,
+        );
+      } else if (w.recent) {
+        tail.push(
+          `${g(w.gender, "měl za sebou", "měla za sebou")} ${w.recent.title} (${w.recent.year})`,
+        );
+      }
+      return tail.length ? `${line}, ${tail.join(" a ")}.` : `${line}.`;
+    });
+    out.push({ heading: "Spisovatelé v roce narození", items });
   }
 
   // ── Birthday peers ─────────────────────────────────────────────────

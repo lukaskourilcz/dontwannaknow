@@ -13,6 +13,8 @@ import { fmtMoney } from "./money";
 import { famousFor } from "../data/famousPeople";
 import { eventsForCountry } from "../data/countryEvents";
 import { cityFactsFor, findCity } from "../data/cities";
+import { mediaFor } from "../data/media";
+import { writersAtBirth, czYears } from "../data/writers";
 import { FACTS as CURATED_FACTS } from "../data/history";
 import { buildEssay, type EssayParagraph } from "./essay";
 import { buildPairEssay, type PairSection } from "./pair";
@@ -49,7 +51,9 @@ export type Fact = {
     | "money"
     | "famous"
     | "local"
-    | "city";
+    | "city"
+    | "media"
+    | "writers";
   text: string;
 };
 
@@ -165,6 +169,42 @@ function countryFacts(person: Person): Fact[] {
       facts.push({ category: "beautiful", text: t }),
     );
   }
+
+  // What people read and watched — magazines, books and TV channels of the
+  // birth decade and the teenage decade. Covers 1940s–2020s (CZ & UA only).
+  const mediaSeen = new Set<number>();
+  [birthYear, birthYear + 15].forEach((y) => {
+    const m = mediaFor(country, y);
+    if (!m || mediaSeen.has(m.decadeStart)) return;
+    mediaSeen.add(m.decadeStart);
+    pickN(m.read, 1).forEach((t) => facts.push({ category: "media", text: t }));
+    pickN(m.watch, 1).forEach((t) => facts.push({ category: "media", text: t }));
+  });
+
+  // Writers who were alive (or had recently died) when this person was born,
+  // with the writer's age, where they were living, and the book they were
+  // probably writing then (a book published in year P was begun ~P-3).
+  pickN(writersAtBirth(country, birthYear), 4).forEach((w) => {
+    let s: string;
+    if (!w.alive && w.yearsSinceDeath !== undefined) {
+      s = `**${w.name}** (${w.blurb}) — ${g(w.gender, "zemřel", "zemřela")} ${w.yearsSinceDeath} ${czYears(w.yearsSinceDeath)} před narozením.`;
+    } else {
+      s = `**${w.name}** (${w.blurb}), ${w.age} ${czYears(w.age)}`;
+      const tail: string[] = [];
+      if (w.home) tail.push(`${g(w.gender, "žil", "žila")} ${w.home}`);
+      if (w.workingOn) {
+        tail.push(
+          `${g(w.gender, "pracoval", "pracovala")} na díle ${w.workingOn.title} (vyšlo ${w.workingOn.year})`,
+        );
+      } else if (w.recent) {
+        tail.push(
+          `${g(w.gender, "měl za sebou", "měla za sebou")} ${w.recent.title} (${w.recent.year})`,
+        );
+      }
+      s += tail.length ? ` — ${tail.join(" a ")}.` : ".";
+    }
+    facts.push({ category: "writers", text: s });
+  });
 
   // Country-specific events during their lifetime — weight toward
   // birth ± 25 years and pick 4.

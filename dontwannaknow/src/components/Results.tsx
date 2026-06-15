@@ -46,6 +46,8 @@ const SECTION_ORDER: { key: Fact["category"]; title: string; tone: string }[] = 
   { key: "local", title: "Po celé zemi", tone: "" },
   { key: "government", title: "Kdo měl moc", tone: "Politika a moc" },
   { key: "famous", title: "Slavné tváře té doby", tone: "Spisovatelé, umělci, vůdci" },
+  { key: "writers", title: "Spisovatelé v roce narození", tone: "Kolik jim bylo a na čem právě pracovali" },
+  { key: "media", title: "Co se četlo a sledovalo", tone: "Časopisy, knihy a televize" },
   { key: "clothes", title: "Co se nosilo", tone: "" },
   { key: "illness", title: "Na co lidé stonali", tone: "" },
   { key: "daily", title: "Každodenní život", tone: "" },
