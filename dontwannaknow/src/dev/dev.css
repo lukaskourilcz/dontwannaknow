@@ -188,5 +188,60 @@
 
 @media (max-width: 560px) {
   .dev-fields { grid-template-columns: 1fr; }
-  .dev-header { gap: 12px; }
+  .dev-header { gap: 12px; flex-wrap: wrap; }
+  .dev-main { padding: 14px; }
+  .dev-header-right { margin-left: 0; width: 100%; }
+}
+
+/* ── Polish: tap, hover, focus, press, motion ─────────────────────── */
+.dev-app a,
+.dev-app button,
+.dev-app input,
+.dev-app select,
+.dev-app textarea,
+.dev-gate button,
+.dev-gate input {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.dev-row {
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.dev-row:hover {
+  border-color: var(--dev-muted);
+}
+
+.dev-btn:focus-visible,
+.dev-chip:focus-visible,
+.dev-tab:focus-visible {
+  outline: 2px solid var(--dev-accent);
+  outline-offset: 2px;
+}
+
+.dev-btn:active,
+.dev-chip:active,
+.dev-tab:active {
+  transform: scale(0.97);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .dev-modal { animation: dev-modal-in 0.18s ease; }
+  .dev-modal-backdrop { animation: dev-fade-in 0.18s ease; }
+  @keyframes dev-modal-in {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes dev-fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+}
+
+/* dev.css is loaded on its own, so it needs its own reduced-motion guard. */
+@media (prefers-reduced-motion: reduce) {
+  .dev-app *,
+  .dev-gate * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
 }
