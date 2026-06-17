@@ -50,7 +50,7 @@ export default function LifeGrid({
     });
   }
 
-  const nf = (n: number) => n.toLocaleString("cs-CZ");
+  const formatCount = (n: number) => n.toLocaleString("cs-CZ");
 
   return (
     <figure className="life-grid">
@@ -88,8 +88,8 @@ export default function LifeGrid({
           <>
             Každý čtvereček je jeden týden života. Při průměrném dožití kolem{" "}
             <strong>{lifeExpectancyYears}</strong> let má {label}{" "}
-            <strong>{nf(lived)}</strong> týdnů za sebou a ještě zhruba{" "}
-            {nf(remaining)} před sebou.
+            <strong>{formatCount(lived)}</strong> týdnů za sebou a ještě zhruba{" "}
+            {formatCount(remaining)} před sebou.
           </>
         )}
       </figcaption>

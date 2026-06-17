@@ -21,3 +21,13 @@ export function fmtMoney(usd: number, country: Country): string {
   if (country === "UA") return fmtUah(usd * USD_TO_UAH);
   return fmtCzk(usd * USD_TO_CZK);
 }
+
+const LITRES_PER_US_GALLON = 3.785;
+
+/**
+ * Historical fuel prices are stored per US gallon, but the prose quotes a
+ * price per litre. Convert and format in one step.
+ */
+export function fmtGasPerLitre(usdPerGallon: number, country: Country): string {
+  return fmtMoney(usdPerGallon / LITRES_PER_US_GALLON, country);
+}

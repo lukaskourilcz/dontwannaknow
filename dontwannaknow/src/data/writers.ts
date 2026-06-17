@@ -332,13 +332,6 @@ export type WriterAtBirth = {
 
 const DEAD_GRACE = 40; // also surface writers who died up to N years before the birth
 
-/** Czech count-noun for years: 1 rok, 2–4 roky, else let. */
-export function czYears(n: number): string {
-  if (n === 1) return "rok";
-  if (n >= 2 && n <= 4) return "roky";
-  return "let";
-}
-
 /** Writers of `country` who were alive when someone was born in `birthYear`
  *  (plus a few who had recently died), each with computed age, residence and
  *  the book they were probably writing then. */

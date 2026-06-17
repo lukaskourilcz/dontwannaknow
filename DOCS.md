@@ -229,7 +229,7 @@ Total initial: ~858 kB / ~280 kB gzipped.
 │   │   │   ├── TypeformWizard.tsx  # Multi-step form
 │   │   │   ├── Results.tsx         # Result page (lazy-loaded)
 │   │   │   ├── HeroSummary.tsx     # Big stat cards
-│   │   │   ├── LifeGrid.tsx        # Life-in-years SVG
+│   │   │   ├── LifeGrid.tsx        # Life-in-weeks SVG
 │   │   │   ├── SkyMap.tsx          # Star chart SVG
 │   │   │   ├── WorldMap.tsx        # World map SVG with vanished countries
 │   │   │   ├── Newspaper.tsx       # Vintage front-page mock
@@ -238,9 +238,17 @@ Total initial: ~858 kB / ~280 kB gzipped.
 │   │   ├── lib/
 │   │   │   ├── facts.ts            # Top-level reportFor() generator
 │   │   │   ├── essay.ts            # Builds the essay paragraphs
+│   │   │   ├── pair.ts             # Two-person comparison essay
 │   │   │   ├── pdf.ts              # Lazy-loaded PDF generator
 │   │   │   ├── share.ts            # URL-hash encode/decode
-│   │   │   └── useCountUp.ts       # Animation hook
+│   │   │   ├── money.ts            # USD → CZK/UAH formatting
+│   │   │   ├── random.ts           # shuffle / pickN / pickOne
+│   │   │   ├── text.ts             # capitalize / joinList
+│   │   │   ├── czech.ts            # Czech grammar (plurals, age phrases)
+│   │   │   ├── datetime.ts         # Current year + birth-date / elapsed-time helpers
+│   │   │   ├── useCountUp.ts       # Count-up animation hook
+│   │   │   ├── useCopied.ts        # Clipboard "copied!" feedback hook
+│   │   │   └── useAutoFocus.ts     # Focus-on-change hook
 │   │   ├── i18n/
 │   │   │   ├── translations.ts     # Czech + English UI strings
 │   │   │   ├── LangContext.tsx     # Provider
