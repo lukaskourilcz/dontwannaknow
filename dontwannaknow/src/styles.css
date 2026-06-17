@@ -338,7 +338,7 @@ body {
 
 .wizard-country-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 0.7rem;
   margin-top: 0.6rem;
 }
@@ -1612,4 +1612,132 @@ input[type="number"] {
 }
 .wizard-intro .wizard-cta {
   margin-top: var(--s-4);
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   Responsive & motion polish
+   An additive layer of progressive enhancements: each degrades cleanly
+   on older browsers and stays quiet under prefers-reduced-motion.
+   ═══════════════════════════════════════════════════════════════════ */
+
+html {
+  scroll-behavior: smooth;
+  /* Never let a stray wide element create a horizontal scrollbar on mobile. */
+  overflow-x: clip;
+}
+
+:root {
+  accent-color: var(--accent);
+}
+
+/* No grey tap-flash on touch — the active/selection states do the talking. */
+a,
+button,
+summary,
+[role="tab"],
+.country-card,
+input,
+select,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Balanced headings, tidy paragraph rags (progressive — ignored if unknown). */
+h1,
+h2,
+h3,
+.hero h1,
+.wizard-question,
+.wizard-hero-title,
+.person-header h3,
+.results-header h2,
+.error-boundary-inner h2 {
+  text-wrap: balance;
+}
+.lede,
+.wizard-lede,
+.essay-paragraph p,
+.map-caption,
+.disclaimer,
+.facts li,
+.hero-stat-detail {
+  text-wrap: pretty;
+}
+
+/* Respect notches: keep content clear of the device safe areas. */
+@supports (padding: max(0px)) {
+  .page {
+    padding-left: max(clamp(1rem, 4vw, 2rem), env(safe-area-inset-left));
+    padding-right: max(clamp(1rem, 4vw, 2rem), env(safe-area-inset-right));
+  }
+}
+
+/* Comfortable touch targets for small controls on phones & tablets. */
+@media (pointer: coarse) {
+  .view-toggle button,
+  .lang-toggle button,
+  .wizard-back,
+  button.link {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+/* Keyboard focus rings for the controls that lacked a bespoke one. */
+.country-card:focus-visible,
+.wizard-back:focus-visible,
+button.link:focus-visible,
+.wizard-input:focus-visible,
+.wizard-select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--r-sm);
+}
+
+/* Tactile press feedback — kept tiny so it reads as polished, not bouncy. */
+button.primary:active,
+button.secondary:active,
+.country-card:active,
+.view-toggle button:active,
+.lang-toggle button:active {
+  transform: scale(0.975);
+}
+
+/* ── Motion: entrances & scroll reveals ─────────────────────────────
+   Everything here is gated behind no-preference, so reduced-motion users
+   see none of it. */
+@media (prefers-reduced-motion: no-preference) {
+  /* Stat cards drift up in sequence as a person card appears. `backwards`
+     fill (not `both`) so the hover lift keeps working afterwards. */
+  .hero-stat {
+    animation: stat-rise 0.5s var(--ease-out) backwards;
+  }
+  .hero-stat:nth-child(2) { animation-delay: 0.07s; }
+  .hero-stat:nth-child(3) { animation-delay: 0.14s; }
+  .hero-stat:nth-child(4) { animation-delay: 0.21s; }
+  @keyframes stat-rise {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Big sections fade up as they scroll into view — only where the browser
+     supports scroll-driven animations. Everywhere else they just show. */
+  @supports (animation-timeline: view()) {
+    .section-divider,
+    .world-map,
+    .sky-map,
+    .life-grid,
+    .newspaper,
+    .essay-paragraph,
+    .facts {
+      animation: reveal-up linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 20%;
+    }
+    @keyframes reveal-up {
+      from { opacity: 0; transform: translateY(22px); }
+      to   { opacity: 1; transform: none; }
+    }
+  }
 }
