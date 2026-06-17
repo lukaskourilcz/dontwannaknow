@@ -9,22 +9,33 @@ import {
   type Country,
   type CountryDecade,
 } from "../data/countryDecades";
-import { fmtMoney } from "./money";
+import { fmtMoney, fmtGasPerLitre } from "./money";
 import { famousFor } from "../data/famousPeople";
 import { eventsForCountry } from "../data/countryEvents";
 import { cityFactsFor, findCity } from "../data/cities";
 import { mediaFor } from "../data/media";
-import { writersAtBirth, czYears } from "../data/writers";
+import { writersAtBirth } from "../data/writers";
 import { FACTS as CURATED_FACTS } from "../data/history";
 import { buildEssay, type EssayParagraph } from "./essay";
 import { buildPairEssay, type PairSection } from "./pair";
+import { pickN } from "./random";
+import { capitalize } from "./text";
+import { czYears, czAgePhrase } from "./czech";
+import { CURRENT_YEAR } from "./datetime";
+import { settings } from "../config/settings";
 
 export type Gender = "m" | "f";
 
-/** Pick the grammatically correct Czech form for a person's gender, e.g.
- *  g(p.gender, "narodil", "narodila"). Keeps generated prose in one form. */
-export const g = (gender: Gender, masculine: string, feminine: string): string =>
-  gender === "f" ? feminine : masculine;
+/**
+ * Pick the grammatically correct Czech form for a person's gender, e.g.
+ * `genderForm(p.gender, "narodil", "narodila")`. Keeps generated prose in a
+ * single consistent voice.
+ */
+export const genderForm = (
+  gender: Gender,
+  masculine: string,
+  feminine: string,
+): string => (gender === "f" ? feminine : masculine);
 
 export type Person = {
   label: string;
@@ -69,23 +80,8 @@ export type PersonReport = {
   essay: EssayParagraph[];
 };
 
-const CURRENT_YEAR = new Date().getFullYear();
-
 function ageAt(birthYear: number, year: number): number {
   return year - birthYear;
-}
-
-function shuffle<T>(arr: T[]): T[] {
-  const out = arr.slice();
-  for (let i = out.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [out[i], out[j]] = [out[j], out[i]];
-  }
-  return out;
-}
-
-function pickN<T>(arr: T[], n: number): T[] {
-  return shuffle(arr).slice(0, n);
 }
 
 function eventsLivedThrough(birthYear: number): typeof EVENTS {
@@ -187,18 +183,18 @@ function countryFacts(person: Person): Fact[] {
   pickN(writersAtBirth(country, birthYear), 4).forEach((w) => {
     let s: string;
     if (!w.alive && w.yearsSinceDeath !== undefined) {
-      s = `**${w.name}** (${w.blurb}) — ${g(w.gender, "zemřel", "zemřela")} ${w.yearsSinceDeath} ${czYears(w.yearsSinceDeath)} před narozením.`;
+      s = `**${w.name}** (${w.blurb}) — ${genderForm(w.gender, "zemřel", "zemřela")} ${w.yearsSinceDeath} ${czYears(w.yearsSinceDeath)} před narozením.`;
     } else {
       s = `**${w.name}** (${w.blurb}), ${w.age} ${czYears(w.age)}`;
       const tail: string[] = [];
-      if (w.home) tail.push(`${g(w.gender, "žil", "žila")} ${w.home}`);
+      if (w.home) tail.push(`${genderForm(w.gender, "žil", "žila")} ${w.home}`);
       if (w.workingOn) {
         tail.push(
-          `${g(w.gender, "pracoval", "pracovala")} na díle ${w.workingOn.title} (vyšlo ${w.workingOn.year})`,
+          `${genderForm(w.gender, "pracoval", "pracovala")} na díle ${w.workingOn.title} (vyšlo ${w.workingOn.year})`,
         );
       } else if (w.recent) {
         tail.push(
-          `${g(w.gender, "měl za sebou", "měla za sebou")} ${w.recent.title} (${w.recent.year})`,
+          `${genderForm(w.gender, "měl za sebou", "měla za sebou")} ${w.recent.title} (${w.recent.year})`,
         );
       }
       s += tail.length ? ` — ${tail.join(" a ")}.` : ".";
@@ -215,8 +211,7 @@ function countryFacts(person: Person): Fact[] {
   );
   pickN(countryEvents, 4).forEach((e) => {
     const age = ageAt(birthYear, e.year);
-    const when =
-      age === 0 ? "v roce narození" : age < 0 ? `${-age} let před narozením` : `ve věku ${age} let`;
+    const when = czAgePhrase(age);
     facts.push({
       category: "local",
       text: `${capitalize(when)} (${e.year}): ${e.text}.`,
@@ -256,10 +251,6 @@ function countryFacts(person: Person): Fact[] {
   return facts;
 }
 
-function capitalize(s: string): string {
-  return s.length === 0 ? s : s[0].toUpperCase() + s.slice(1);
-}
-
 export function pairReport(a: Person, b: Person): PairSection[] {
   return buildPairEssay(a, b);
 }
@@ -281,12 +272,7 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
     const cityEvents = cityFactsFor(city.slug, birthYear);
     pickN(cityEvents, 8).forEach((e) => {
       const age = ageAt(birthYear, e.year);
-      const when =
-        age === 0
-          ? "v roce narození"
-          : age < 0
-          ? `${-age} let před narozením`
-          : `ve věku ${age} let`;
+      const when = czAgePhrase(age);
       facts.push({
         category: "city",
         text: `${capitalize(when)} (${e.year}, ${city.name}): ${e.text}.`,
@@ -305,7 +291,7 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
       const phrase = inv.detail ?? `${inv.name} ještě nikdo neznal`;
       facts.push({
         category: "bizarre",
-        text: `Když se ${label.toLowerCase()} ${g(person.gender, "narodil", "narodila")}, ${phrase}.`,
+        text: `Když se ${label.toLowerCase()} ${genderForm(person.gender, "narodil", "narodila")}, ${phrase}.`,
       });
     });
   }
@@ -316,7 +302,7 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
     const verb = c.becameText ? ` — později ${c.becameText}` : "";
     facts.push({
       category: "bizarre",
-      text: `${label} ${g(person.gender, "se narodil", "se narodila")} v době, kdy na mapě ještě existoval stát ${c.name}${verb}.`,
+      text: `${label} ${genderForm(person.gender, "se narodil", "se narodila")} v době, kdy na mapě ještě existoval stát ${c.name}${verb}.`,
     });
   });
 
@@ -325,7 +311,7 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
   if (!excludeWorld) {
     pickFormative(birthYear).forEach((e) => {
       const age = ageAt(birthYear, e.year);
-      const ageWord = age === 0 ? "v roce narození" : `ve věku ${age} let`;
+      const ageWord = czAgePhrase(age);
       facts.push({
         category: e.mood === "beautiful" || e.mood === "milestone" ? "beautiful" : "world",
         text: `${capitalize(ageWord)}: ${e.text}.`,
@@ -336,7 +322,7 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
       const age = ageAt(birthYear, e.year);
       facts.push({
         category: "beautiful",
-        text: `${label} ${g(person.gender, "měl", "měla")} ${age} let, když ${e.text}.`,
+        text: `${label} ${genderForm(person.gender, "měl", "měla")} ${age} let, když ${e.text}.`,
       });
     });
   }
@@ -344,11 +330,11 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
   // ── Everyday life ────────────────────────────────────────────────────
   facts.push({
     category: "everyday",
-    text: `V roce, kdy se ${label.toLowerCase()} ${g(person.gender, "narodil", "narodila")}, žilo na světě přibližně ${birthStats.worldPopulationBillions} miliard lidí — dnes je to zhruba 8,1 miliardy.`,
+    text: `V roce, kdy se ${label.toLowerCase()} ${genderForm(person.gender, "narodil", "narodila")}, žilo na světě přibližně ${birthStats.worldPopulationBillions} miliard lidí — dnes je to zhruba ${settings.currentWorldPopulationText}.`,
   });
   facts.push({
     category: "everyday",
-    text: `Bochník chleba stál ${fmtMoney(birthStats.loafOfBreadUsd, person.country)} a litr benzinu vyšel na ${fmtMoney(birthStats.gallonOfGasUsd / 3.785, person.country)}.`,
+    text: `Bochník chleba stál ${fmtMoney(birthStats.loafOfBreadUsd, person.country)} a litr benzinu vyšel na ${fmtGasPerLitre(birthStats.gallonOfGasUsd, person.country)}.`,
   });
   facts.push({
     category: "everyday",
@@ -362,7 +348,7 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
   // ── Youth: cultural snapshot ──────────────────────────────────────────
   facts.push({
     category: "youth",
-    text: `Během dospívání ${label.toLowerCase()} nejspíš ${g(person.gender, "nosil", "nosila")} ${youthCulture.fashion}.`,
+    text: `Během dospívání ${label.toLowerCase()} nejspíš ${genderForm(person.gender, "nosil", "nosila")} ${youthCulture.fashion}.`,
   });
   facts.push({
     category: "youth",
@@ -394,7 +380,7 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
     if (multiple >= 2) {
       facts.push({
         category: "bizarre",
-        text: `Průměrná mzda je dnes zhruba ${multiple}× vyšší než v době, kdy se ${label.toLowerCase()} ${g(person.gender, "narodil", "narodila")}.`,
+        text: `Průměrná mzda je dnes zhruba ${multiple}× vyšší než v době, kdy se ${label.toLowerCase()} ${genderForm(person.gender, "narodil", "narodila")}.`,
       });
     }
   }

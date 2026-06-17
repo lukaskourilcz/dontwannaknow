@@ -8,7 +8,8 @@ import { COUNTRY_EVENTS } from "../data/countryEvents";
 import { EVENTS } from "../data/events";
 import { statsForYear } from "../data/stats";
 import { countryLabelFor } from "../data/countryDecades";
-import { fmtMoney } from "../lib/money";
+import { fmtMoney, fmtGasPerLitre } from "../lib/money";
+import { capitalize } from "../lib/text";
 
 type Props = {
   person: Person;
@@ -32,10 +33,6 @@ function formatDate(p: Person): string {
     return `${p.birthDay}. ${MONTHS[p.birthMonth - 1]} ${p.birthYear}`;
   }
   return `V roce ${p.birthYear}`;
-}
-
-function capitalize(s: string): string {
-  return s.length === 0 ? s : s[0].toUpperCase() + s.slice(1);
 }
 
 function toHeadline(text: string): string {
@@ -112,7 +109,7 @@ export default function Newspaper({ person }: Props) {
           <h3>Co co stálo</h3>
           <p>
             Chléb {fmtMoney(stats.loafOfBreadUsd, person.country)} za bochník,
-            litr benzinu {fmtMoney(stats.gallonOfGasUsd / 3.785, person.country)}.
+            litr benzinu {fmtGasPerLitre(stats.gallonOfGasUsd, person.country)}.
             Průměrná roční mzda kolem{" "}
             {fmtMoney(stats.usAverageAnnualWageUsd, person.country)}.
           </p>

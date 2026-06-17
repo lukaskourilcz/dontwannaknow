@@ -1,15 +1,19 @@
-import { StrictMode } from 'react'
+import { StrictMode, Suspense, lazy } from 'react'
 import { createRoot } from 'react-dom/client'
-// Warm Editorial typeface set — Fraunces (display), Newsreader (body serif),
-// Instrument Sans (UI). The app's styles live in App.tsx's ./styles.css import.
-import '@fontsource-variable/fraunces/standard.css'
-import '@fontsource-variable/newsreader/standard.css'
-import '@fontsource-variable/newsreader/standard-italic.css'
-import '@fontsource-variable/instrument-sans/standard.css'
-import App from './App.tsx'
+
+// The game and the password-gated dev console are separate surfaces. Load only
+// the one the current path needs, so /dev never pulls in the game bundle (and
+// the game never pays for the editor). Vercel rewrites every path to index.html,
+// so client-side path routing works in production too.
+const App = lazy(() => import('./App.tsx'))
+const DevApp = lazy(() => import('./dev/DevApp.tsx'))
+
+const isDevRoute = window.location.pathname.startsWith('/dev')
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <Suspense fallback={null}>
+      {isDevRoute ? <DevApp /> : <App />}
+    </Suspense>
   </StrictMode>,
 )

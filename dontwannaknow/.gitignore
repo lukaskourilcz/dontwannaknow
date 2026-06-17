@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Temp snapshots written by scripts/extract-content-json.mjs
+scripts/.snapshot
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

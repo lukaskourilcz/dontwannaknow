@@ -229,22 +229,40 @@ Total initial: ~858 kB / ~280 kB gzipped.
 │   │   │   ├── TypeformWizard.tsx  # Multi-step form
 │   │   │   ├── Results.tsx         # Result page (lazy-loaded)
 │   │   │   ├── HeroSummary.tsx     # Big stat cards
-│   │   │   ├── LifeGrid.tsx        # Life-in-years SVG
+│   │   │   ├── LifeGrid.tsx        # Life-in-weeks SVG
 │   │   │   ├── SkyMap.tsx          # Star chart SVG
 │   │   │   ├── WorldMap.tsx        # World map SVG with vanished countries
 │   │   │   ├── Newspaper.tsx       # Vintage front-page mock
 │   │   │   └── ErrorBoundary.tsx
-│   │   ├── data/                   # All the historical datasets
+│   │   ├── data/                   # Historical datasets (.ts types/selectors + .json records)
 │   │   ├── lib/
 │   │   │   ├── facts.ts            # Top-level reportFor() generator
 │   │   │   ├── essay.ts            # Builds the essay paragraphs
+│   │   │   ├── pair.ts             # Two-person comparison essay
 │   │   │   ├── pdf.ts              # Lazy-loaded PDF generator
 │   │   │   ├── share.ts            # URL-hash encode/decode
-│   │   │   └── useCountUp.ts       # Animation hook
+│   │   │   ├── money.ts            # USD → CZK/UAH formatting
+│   │   │   ├── random.ts           # shuffle / pickN / pickOne
+│   │   │   ├── text.ts             # capitalize / joinList
+│   │   │   ├── czech.ts            # Czech grammar (plurals, age phrases)
+│   │   │   ├── datetime.ts         # Current year + birth-date / elapsed-time helpers
+│   │   │   ├── useCountUp.ts       # Count-up animation hook
+│   │   │   ├── useCopied.ts        # Clipboard "copied!" feedback hook
+│   │   │   └── useAutoFocus.ts     # Focus-on-change hook
 │   │   ├── i18n/
 │   │   │   ├── translations.ts     # Czech + English UI strings
 │   │   │   ├── LangContext.tsx     # Provider
 │   │   │   └── useLang.ts          # Hook
+│   │   ├── config/
+│   │   │   ├── settings.ts         # Editable game settings (defaults + schema)
+│   │   │   └── gameSettings.json   # Saved setting overrides (edited from /dev)
+│   │   ├── dev/                    # Password-gated /dev console
+│   │   │   ├── DevApp.tsx          # Shell: password gate + Content/Settings tabs
+│   │   │   ├── ContentEditor.tsx   # Browse / search / add / edit / remove content
+│   │   │   ├── SettingsEditor.tsx  # Edit game settings
+│   │   │   ├── contentSources.ts   # Which datasets are editable + their schema
+│   │   │   ├── contentApi.ts       # Reads/writes the JSON via the dev-server API
+│   │   │   └── devAuth.ts          # Password gate
 │   │   ├── App.tsx
 │   │   ├── main.tsx
 │   │   └── styles.css              # All CSS — design tokens at the top
@@ -255,6 +273,43 @@ Total initial: ~858 kB / ~280 kB gzipped.
 ├── DOCS.md                         # This file
 └── README.md
 ```
+
+---
+
+## Dev console (`/dev`)
+
+A password-gated admin surface for editing the game's content and settings,
+kept entirely separate from the public app (it's lazy-loaded only when the path
+starts with `/dev`). Open `http://localhost:5173/dev` and enter the password
+(`dontwannaknow123`).
+
+**Content tab** — every editable dataset is loaded into one searchable list,
+tagged by category (Countries, Cities, Years, Culture, Sports) and by derived
+tags (country code, decade, etc.). Search across everything, filter by category
+or dataset, and add / edit / delete entries. Which datasets appear and their
+edit fields are declared in `src/dev/contentSources.ts`.
+
+**Settings tab** (`/dev/settings`) — edits the values in `src/config/
+gameSettings.json`, which the game merges over `DEFAULT_SETTINGS`: currency
+rates, default language, max people to compare, the country picker order,
+animation timings, the sky-chart hour, the writers grace window, and more.
+Fields are declared in `SETTINGS_SCHEMA` in `src/config/settings.ts`.
+
+### How it syncs ("the JSONs")
+
+The editable datasets live as JSON next to their `.ts` modules (e.g.
+`src/data/events.json`, imported by `src/data/events.ts`). A dev-only Vite
+middleware in `vite.config.ts` exposes `GET`/`POST /__content/<key>`; during
+`npm run dev` the editor reads and writes those JSON files **directly on disk**,
+so edits land in the repo and the game picks them up on the next reload. Commit
+the changed JSON to keep it.
+
+In a production build the write endpoint doesn't exist, so the editor falls back
+to read-only (JSON bundled at build time) and "Save" downloads the updated file
+for you to drop into the repo.
+
+> The password is a client-side convenience gate, not real security — it ships
+> in the bundle. Don't put anything sensitive behind it.
 
 ---
 

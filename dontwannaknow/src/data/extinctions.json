@@ -1,0 +1,98 @@
+[
+  {
+    "species": "holub stěhovavý",
+    "lastConfirmedYear": 1914,
+    "declaredExtinctYear": 1914,
+    "note": "Martha, poslední žijící jedinec, uhynula 1. září 1914 v zoo v Cincinnati"
+  },
+  {
+    "species": "papoušek karolínský",
+    "lastConfirmedYear": 1918,
+    "declaredExtinctYear": 1939,
+    "note": "poslední pták v zajetí uhynul ve stejné kleci zoo v Cincinnati, kde o čtyři roky dříve zemřela Martha"
+  },
+  {
+    "species": "tetřívek prériový východní",
+    "lastConfirmedYear": 1932,
+    "declaredExtinctYear": 1932,
+    "note": "poslední samec, 'Booming Ben', zmizel z ostrova Martha's Vineyard v březnu 1932"
+  },
+  {
+    "species": "vakovlk tasmánský (tasmánský tygr)",
+    "lastConfirmedYear": 1936,
+    "declaredExtinctYear": 1936,
+    "note": "poslední známý vakovlk, 'Benjamin', uhynul 7. září v zoo v Hobartu — toto datum je dnes australským Národním dnem ohrožených druhů"
+  },
+  {
+    "species": "tygr balijský",
+    "lastConfirmedYear": 1937,
+    "declaredExtinctYear": 1937,
+    "note": "poslední ověřené zvíře bylo zastřeleno v září 1937 na západě Bali"
+  },
+  {
+    "species": "tuleň karibský",
+    "lastConfirmedYear": 1952,
+    "declaredExtinctYear": 2008,
+    "note": "poslední potvrzené pozorování proběhlo na útesu Serranilla mezi Jamajkou a Nikaraguou"
+  },
+  {
+    "species": "tygr kaspický",
+    "lastConfirmedYear": 1970,
+    "declaredExtinctYear": 1970,
+    "note": "poslední ověřené zvíře bylo zabito v turecké provincii Hakkari"
+  },
+  {
+    "species": "lachtan japonský",
+    "lastConfirmedYear": 1974,
+    "declaredExtinctYear": 1974,
+    "note": "rybáři na ostrově Rebun spatřili posledního jedince v roce 1974; od té doby ho nikdo neviděl"
+  },
+  {
+    "species": "tygr jávský",
+    "lastConfirmedYear": 1976,
+    "declaredExtinctYear": 2003,
+    "note": "poslední věrohodné pozorování proběhlo v národním parku Meru Betiri"
+  },
+  {
+    "species": "strnadec pobřežní (poddruh dusky)",
+    "lastConfirmedYear": 1987,
+    "declaredExtinctYear": 1990,
+    "note": "poslední známý samec, 'Orange', uhynul v chovné stanici na Disneyho ostrově Discovery Island"
+  },
+  {
+    "species": "ropucha zlatá",
+    "lastConfirmedYear": 1989,
+    "declaredExtinctYear": 2004,
+    "note": "poslední samec byl spatřen v květnu 1989 v mlžném lese Monteverde v Kostarice"
+  },
+  {
+    "species": "kozorožec pyrenejský (bucardo)",
+    "lastConfirmedYear": 2000,
+    "declaredExtinctYear": 2000,
+    "note": "poslední samici, Celii, zabila padající větev ve španělském národním parku Ordesa"
+  },
+  {
+    "species": "delfínovec čínský (baiji)",
+    "lastConfirmedYear": 2002,
+    "declaredExtinctYear": 2007,
+    "note": "expedice z roku 2006 pátrající podél 1 700 km řeky Jang-c'-ťiang nenašla jediného jedince"
+  },
+  {
+    "species": "želva sloní z ostrova Pinta",
+    "lastConfirmedYear": 2012,
+    "declaredExtinctYear": 2012,
+    "note": "Osamělý George, poslední jedinec svého poddruhu, uhynul 24. června 2012 ve výzkumné stanici Charlese Darwina"
+  },
+  {
+    "species": "nosorožec dvourohý západní",
+    "lastConfirmedYear": 2006,
+    "declaredExtinctYear": 2011,
+    "note": "rozsáhlé průzkumy v Kamerunu mezi lety 2006 a 2010 nenašly jediné zvíře"
+  },
+  {
+    "species": "krysařík korálový z ostrova Bramble Cay",
+    "lastConfirmedYear": 2009,
+    "declaredExtinctYear": 2019,
+    "note": "první savec, který vyhynul kvůli vzestupu hladiny moří; jeho nepatrný korálový ostrůvek byl opakovaně zaplavován"
+  }
+]

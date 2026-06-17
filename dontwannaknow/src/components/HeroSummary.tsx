@@ -1,6 +1,8 @@
-import { g, type PersonReport } from "../lib/facts";
+import { genderForm, type PersonReport } from "../lib/facts";
 import { useLang } from "../i18n/useLang";
 import { useCountUp } from "../lib/useCountUp";
+import { birthDateUTC, daysSince } from "../lib/datetime";
+import { settings } from "../config/settings";
 
 /**
  * Renders a stat-card value with a tasteful count-up animation when the
@@ -11,7 +13,7 @@ function StatValue({ value, locale }: { value: string; locale: string }) {
   const raw = value.replace(/[,\s+~]/g, "");
   const asNumber = Number(raw);
   const isNumber = !Number.isNaN(asNumber) && /^\+?\d/.test(value.trim());
-  const animated = useCountUp(isNumber ? asNumber : value, 950);
+  const animated = useCountUp(isNumber ? asNumber : value, settings.countUpDurationMs);
 
   if (!isNumber || typeof animated !== "number") return <>{value}</>;
   const prefix = value.trim().startsWith("+") ? "+" : "";
@@ -35,17 +37,8 @@ export default function HeroSummary({ report }: Props) {
   const yearsRemaining = Math.max(0, yearsRemainingRaw);
   const past = Math.max(0, -yearsRemainingRaw);
 
-  // Days lived — using birth date if known, else 1 July as midpoint.
-  const birthDate = new Date(
-    Date.UTC(
-      person.birthYear,
-      (person.birthMonth ?? 7) - 1,
-      person.birthDay ?? 1,
-    ),
-  );
-  const daysLived = Math.max(
-    0,
-    Math.floor((Date.now() - birthDate.getTime()) / (1000 * 60 * 60 * 24)),
+  const daysLived = daysSince(
+    birthDateUTC(person.birthYear, person.birthMonth, person.birthDay),
   );
 
   const dateStr = (() => {
@@ -58,14 +51,16 @@ export default function HeroSummary({ report }: Props) {
     return String(person.birthYear);
   })();
 
-  const T = {
+  // Localised copy for this component's stat labels. (UI chrome elsewhere
+  // goes through the i18n `t()`; these stay inline because they pair with
+  // the numbers computed right here.)
+  const COPY = {
     cs: {
       daysLived: "Dnů na zemi",
       yearsLeft: "Do stovky zbývá",
       yearsPast: "Přes sto let",
       bonusNote: "Každý den navíc je dar.",
       bonusYears: "let bonusu",
-      years: (n: number) => (n === 1 ? "rok" : n < 5 ? "roky" : "let"),
     },
     en: {
       daysLived: "Days on earth",
@@ -73,11 +68,10 @@ export default function HeroSummary({ report }: Props) {
       yearsPast: "Past 100",
       bonusNote: "Every day past it is a gift.",
       bonusYears: "bonus years",
-      years: (n: number) => (n === 1 ? "year" : "years"),
     },
   } as const;
 
-  const t = T[lang];
+  const copy = COPY[lang];
 
   // Decide which 3-4 cards to show.
   const cards: Array<{
@@ -89,7 +83,7 @@ export default function HeroSummary({ report }: Props) {
   }> = [];
 
   cards.push({
-    label: lang === "cs" ? g(person.gender, "Narozen", "Narozena") : "Born",
+    label: lang === "cs" ? genderForm(person.gender, "Narozen", "Narozena") : "Born",
     value: dateStr,
     detail: report.cityLabel
       ? `${report.cityLabel}, ${report.countryLabel}`
@@ -97,21 +91,21 @@ export default function HeroSummary({ report }: Props) {
   });
 
   cards.push({
-    label: t.daysLived,
+    label: copy.daysLived,
     value: daysLived.toLocaleString(lang === "cs" ? "cs-CZ" : "en-US"),
   });
 
   if (past > 0) {
     cards.push({
-      label: t.yearsPast,
+      label: copy.yearsPast,
       value: `+${past}`,
-      unit: t.bonusYears,
-      detail: t.bonusNote,
+      unit: copy.bonusYears,
+      detail: copy.bonusNote,
       accent: true,
     });
   } else {
     cards.push({
-      label: t.yearsLeft,
+      label: copy.yearsLeft,
       value: String(yearsRemaining),
       accent: false,
     });

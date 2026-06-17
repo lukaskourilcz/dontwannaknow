@@ -1,5 +1,6 @@
 import { createContext, useCallback, useEffect, useMemo, useState } from "react";
 import { t, type Lang } from "./translations";
+import { settings } from "../config/settings";
 
 export type LangContextValue = {
   lang: Lang;
@@ -13,10 +14,10 @@ export const LangContext = createContext<LangContextValue | null>(null);
 const STORAGE_KEY = "dwk.lang";
 
 function detectInitialLang(): Lang {
-  if (typeof window === "undefined") return "cs";
+  if (typeof window === "undefined") return settings.defaultLang;
   const stored = window.localStorage.getItem(STORAGE_KEY) as Lang | null;
   if (stored === "cs" || stored === "en") return stored;
-  return "cs";
+  return settings.defaultLang;
 }
 
 export function LangProvider({ children }: { children: React.ReactNode }) {

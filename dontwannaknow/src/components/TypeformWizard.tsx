@@ -1,19 +1,21 @@
-import { useEffect, useRef, useState } from "react";
-import { g, type Person, type Gender } from "../lib/facts";
+import { useState } from "react";
+import { genderForm, type Person, type Gender } from "../lib/facts";
 import { COUNTRY_LABELS, type Country } from "../data/countryDecades";
 import { citiesFor } from "../data/cities";
 import { useLang } from "../i18n/useLang";
+import { useAutoFocus } from "../lib/useAutoFocus";
+import { CURRENT_YEAR } from "../lib/datetime";
+import { settings } from "../config/settings";
 
 type Props = {
   onSubmit: (people: Person[]) => void;
 };
 
-const COUNTRY_ORDER: Country[] = ["CZ", "US", "ES", "UA", "CA", "MX", "INTL"];
+const COUNTRY_ORDER: Country[] = settings.countryOrder;
 
 type ParsedDate = { year: number; month?: number; day?: number };
 
-const MIN_YEAR = 1900;
-const CURRENT_YEAR = new Date().getFullYear();
+const MIN_YEAR = settings.minBirthYear;
 
 function parseDate(input: string): ParsedDate | null {
   const trimmed = input.trim();
@@ -71,8 +73,8 @@ const EMPTY_DRAFT: DraftPerson = {
 };
 
 // First person is "you", second is the person you compare your life with.
-const DEFAULT_LABELS = ["Já", "Máma"];
-const MAX_PEOPLE = 2;
+const DEFAULT_LABELS = settings.defaultLabels;
+const MAX_PEOPLE = settings.maxPeople;
 
 export default function TypeformWizard({ onSubmit }: Props) {
   const { t, lang } = useLang();
@@ -83,17 +85,8 @@ export default function TypeformWizard({ onSubmit }: Props) {
     label: DEFAULT_LABELS[0],
   });
   const [error, setError] = useState<string | null>(null);
-  const inputRef = useRef<HTMLInputElement | HTMLSelectElement>(null);
-
-  // Focus the input every time the step changes.
-  useEffect(() => {
-    if (inputRef.current) {
-      inputRef.current.focus();
-      if (inputRef.current instanceof HTMLInputElement) {
-        inputRef.current.select();
-      }
-    }
-  }, [step]);
+  // Move focus to the active field each time the wizard step changes.
+  const inputRef = useAutoFocus<HTMLInputElement | HTMLSelectElement>(step);
 
   const goNext = () => {
     const i = STEP_ORDER.indexOf(step as Step);
@@ -226,7 +219,7 @@ export default function TypeformWizard({ onSubmit }: Props) {
       en: `${draft.label || "This person"} — man or woman?`,
     },
     year: {
-      cs: `Kdy se ${draft.label || "tahle osoba"} ${g(draft.gender, "narodil", "narodila")}?`,
+      cs: `Kdy se ${draft.label || "tahle osoba"} ${genderForm(draft.gender, "narodil", "narodila")}?`,
       en: `When was ${draft.label || "this person"} born?`,
       hint: {
         cs: "Stačí rok. Nebo plné datum, např. 1953-04-12, 12/04/1953 nebo 04/1953.",

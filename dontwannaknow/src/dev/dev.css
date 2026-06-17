@@ -1,0 +1,192 @@
+/* Standalone styles for the /dev console. Deliberately plain and dense — this
+   is an internal tool, not the editorial front end. */
+
+.dev-app {
+  --dev-bg: #14161c;
+  --dev-surface: #1c1f27;
+  --dev-surface-2: #242833;
+  --dev-border: #333845;
+  --dev-text: #e7e9ee;
+  --dev-muted: #9aa1b1;
+  --dev-accent: #6ea8fe;
+  --dev-danger: #e2576b;
+  min-height: 100vh;
+  background: var(--dev-bg);
+  color: var(--dev-text);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px;
+}
+
+.dev-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 12px 20px;
+  background: var(--dev-surface);
+  border-bottom: 1px solid var(--dev-border);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.dev-brand { display: flex; flex-direction: column; line-height: 1.2; }
+.dev-brand span { color: var(--dev-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; }
+.dev-nav { display: flex; gap: 4px; }
+.dev-header-right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
+.dev-link { color: var(--dev-muted); text-decoration: none; }
+.dev-link:hover { color: var(--dev-text); }
+
+.dev-tab {
+  background: transparent;
+  color: var(--dev-muted);
+  border: 1px solid transparent;
+  border-radius: 7px;
+  padding: 7px 14px;
+  cursor: pointer;
+  font: inherit;
+}
+.dev-tab:hover { color: var(--dev-text); }
+.dev-tab.active { color: var(--dev-text); background: var(--dev-surface-2); border-color: var(--dev-border); }
+
+.dev-main { max-width: 1000px; margin: 0 auto; padding: 20px; }
+
+.dev-loading { color: var(--dev-muted); padding: 40px 0; text-align: center; }
+
+.dev-banner {
+  background: #3a2c12;
+  border: 1px solid #6b5119;
+  color: #f0d9a8;
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.dev-banner code { background: rgba(0,0,0,0.3); padding: 1px 5px; border-radius: 4px; }
+
+.dev-toolbar { display: flex; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+.dev-search { flex: 1; min-width: 220px; }
+.dev-search, .dev-select, .dev-input {
+  background: var(--dev-surface);
+  border: 1px solid var(--dev-border);
+  color: var(--dev-text);
+  border-radius: 8px;
+  padding: 9px 12px;
+  font: inherit;
+}
+.dev-input:focus, .dev-search:focus, .dev-select:focus { outline: 2px solid var(--dev-accent); outline-offset: -1px; }
+
+.dev-btn {
+  background: var(--dev-surface-2);
+  border: 1px solid var(--dev-border);
+  color: var(--dev-text);
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font: inherit;
+  white-space: nowrap;
+}
+.dev-btn:hover { border-color: var(--dev-muted); }
+.dev-btn-primary { background: var(--dev-accent); border-color: var(--dev-accent); color: #0d1322; font-weight: 600; }
+.dev-btn-primary:hover { filter: brightness(1.07); }
+.dev-btn-danger { color: var(--dev-danger); }
+.dev-btn-danger:hover { border-color: var(--dev-danger); }
+
+.dev-chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+.dev-chip {
+  background: transparent;
+  border: 1px solid var(--dev-border);
+  color: var(--dev-muted);
+  border-radius: 999px;
+  padding: 5px 14px;
+  cursor: pointer;
+  font: inherit;
+}
+.dev-chip:hover { color: var(--dev-text); }
+.dev-chip.active { background: var(--dev-accent); border-color: var(--dev-accent); color: #0d1322; font-weight: 600; }
+
+.dev-meta { color: var(--dev-muted); margin: 0 0 12px; }
+.dev-status { color: var(--dev-accent); }
+
+.dev-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.dev-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--dev-surface);
+  border: 1px solid var(--dev-border);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+.dev-row-main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+.dev-row-summary { line-height: 1.4; }
+.dev-row-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.dev-tag {
+  font-size: 11px;
+  color: var(--dev-muted);
+  background: var(--dev-surface-2);
+  border: 1px solid var(--dev-border);
+  border-radius: 6px;
+  padding: 1px 7px;
+}
+.dev-tag-cat { color: var(--dev-accent); border-color: var(--dev-accent); }
+.dev-tag-soft { opacity: 0.8; }
+.dev-row-actions { display: flex; gap: 6px; }
+
+.dev-loadmore { margin: 16px auto 0; display: block; }
+
+/* Modal */
+.dev-modal-backdrop {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.6);
+  display: flex; align-items: flex-start; justify-content: center;
+  padding: 40px 16px; z-index: 50; overflow: auto;
+}
+.dev-modal {
+  background: var(--dev-surface);
+  border: 1px solid var(--dev-border);
+  border-radius: 14px;
+  padding: 22px;
+  width: 100%;
+  max-width: 560px;
+}
+.dev-modal h3 { margin: 0 0 16px; }
+.dev-modal-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 20px; }
+
+.dev-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.dev-field { display: flex; flex-direction: column; gap: 5px; }
+.dev-field span { color: var(--dev-muted); font-size: 12px; }
+.dev-field-full { grid-column: 1 / -1; }
+.dev-help { color: var(--dev-muted); font-size: 11px; }
+
+/* Settings */
+.dev-group {
+  border: 1px solid var(--dev-border);
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin: 0 0 16px;
+}
+.dev-group legend { color: var(--dev-accent); padding: 0 8px; font-weight: 600; }
+
+/* Password gate */
+.dev-gate {
+  min-height: 100vh;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--dev-bg);
+  color: var(--dev-text);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  padding: 20px;
+}
+.dev-gate-card {
+  background: var(--dev-surface);
+  border: 1px solid var(--dev-border);
+  border-radius: 16px;
+  padding: 32px;
+  width: 100%;
+  max-width: 360px;
+  display: flex; flex-direction: column; gap: 14px;
+}
+.dev-gate-card h1 { margin: 0; font-size: 22px; }
+.dev-gate-card p { margin: 0; color: var(--dev-muted); }
+.dev-gate-error { color: var(--dev-danger) !important; }
+
+@media (max-width: 560px) {
+  .dev-fields { grid-template-columns: 1fr; }
+  .dev-header { gap: 12px; }
+}

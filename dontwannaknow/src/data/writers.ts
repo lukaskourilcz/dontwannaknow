@@ -5,6 +5,8 @@
 // book they were most likely working on at the time — assuming a book that
 // appeared in year P was being written in roughly the three years before P.
 
+import { settings } from "../config/settings";
+
 export type WriterWork = { title: string; year: number };
 export type WriterHome = { from: number; place: string }; // `place` is a ready locative phrase, e.g. "v Praze"
 
@@ -330,14 +332,8 @@ export type WriterAtBirth = {
   recent?: WriterWork;        // most recent work already published by the birth year
 };
 
-const DEAD_GRACE = 40; // also surface writers who died up to N years before the birth
-
-/** Czech count-noun for years: 1 rok, 2–4 roky, else let. */
-export function czYears(n: number): string {
-  if (n === 1) return "rok";
-  if (n >= 2 && n <= 4) return "roky";
-  return "let";
-}
+// Also surface writers who died up to this many years before the birth.
+const DEAD_GRACE = settings.writersDeadGraceYears;
 
 /** Writers of `country` who were alive when someone was born in `birthYear`
  *  (plus a few who had recently died), each with computed age, residence and

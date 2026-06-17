@@ -10,6 +10,9 @@ import { lifeExpectancyFor } from "../data/lifeExpectancy";
 import { buildShareUrl } from "../lib/share";
 import { generatePdf } from "../lib/pdf";
 import { useLang } from "../i18n/useLang";
+import { useCopied } from "../lib/useCopied";
+import { birthDateUTC, weeksSince } from "../lib/datetime";
+import { settings } from "../config/settings";
 import HeroSummary from "./HeroSummary";
 
 // Render **bold** spans (used for names of people, films and works) while
@@ -73,7 +76,7 @@ type ViewMode = "essay" | "facts";
 export default function Results({ reports, people, onReset, onRegenerate }: Props) {
   const { t, lang } = useLang();
   const [view, setView] = useState<ViewMode>("essay");
-  const [shareState, setShareState] = useState<"idle" | "copied">("idle");
+  const { copied, copy, flash } = useCopied(settings.shareCopiedResetMs);
   const skyRefs = useRef<Map<number, SVGSVGElement | null>>(new Map());
 
   // Build pair comparison when 2+ people are submitted.
@@ -84,15 +87,11 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
 
   const handleShare = async () => {
     const url = buildShareUrl(people);
-    try {
-      await navigator.clipboard.writeText(url);
-      setShareState("copied");
-      setTimeout(() => setShareState("idle"), 1800);
-    } catch {
-      // Fallback: stick it in the URL bar.
+    const copiedToClipboard = await copy(url);
+    if (!copiedToClipboard) {
+      // Clipboard blocked — fall back to putting the link in the URL bar.
       window.history.replaceState(null, "", `#d=${url.split("#d=")[1]}`);
-      setShareState("copied");
-      setTimeout(() => setShareState("idle"), 1800);
+      flash();
     }
   };
 
@@ -135,7 +134,7 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
             {t("results.shuffle")}
           </button>
           <button className="secondary" type="button" onClick={handleShare}>
-            {shareState === "copied" ? t("results.share.copied") : t("results.share")}
+            {copied ? t("results.share.copied") : t("results.share")}
           </button>
           <button className="secondary" type="button" onClick={onReset}>
             {t("results.reset")}
@@ -209,16 +208,11 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
 
             <SectionDivider label={lang === "cs" ? "Život v týdnech" : "Life in weeks"} />
             <LifeGrid
-              weeksLived={Math.max(
-                0,
-                Math.floor(
-                  (Date.now() -
-                    Date.UTC(
-                      r.person.birthYear,
-                      (r.person.birthMonth ?? 7) - 1,
-                      r.person.birthDay ?? 1,
-                    )) /
-                    (1000 * 60 * 60 * 24 * 7),
+              weeksLived={weeksSince(
+                birthDateUTC(
+                  r.person.birthYear,
+                  r.person.birthMonth,
+                  r.person.birthDay,
                 ),
               )}
               ageNow={r.ageNow}

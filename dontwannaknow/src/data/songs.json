@@ -1,0 +1,652 @@
+[
+  {
+    "year": 1920,
+    "title": "Swanee",
+    "creator": "Al Jolson"
+  },
+  {
+    "year": 1920,
+    "title": "Crazy Blues",
+    "creator": "Mamie Smith"
+  },
+  {
+    "year": 1921,
+    "title": "April Showers",
+    "creator": "Al Jolson"
+  },
+  {
+    "year": 1922,
+    "title": "Carolina in the Morning",
+    "creator": "Marion Harris"
+  },
+  {
+    "year": 1923,
+    "title": "Yes! We Have No Bananas",
+    "creator": "Billy Jones"
+  },
+  {
+    "year": 1924,
+    "title": "Rhapsody in Blue",
+    "creator": "George Gershwin"
+  },
+  {
+    "year": 1925,
+    "title": "Always",
+    "creator": "Irving Berlin"
+  },
+  {
+    "year": 1925,
+    "title": "Sweet Georgia Brown",
+    "creator": "Ben Bernie"
+  },
+  {
+    "year": 1926,
+    "title": "Bye Bye Blackbird",
+    "creator": "Gene Austin"
+  },
+  {
+    "year": 1927,
+    "title": "My Blue Heaven",
+    "creator": "Gene Austin"
+  },
+  {
+    "year": 1927,
+    "title": "Ol' Man River",
+    "creator": "Show Boat (Kern & Hammerstein)"
+  },
+  {
+    "year": 1928,
+    "title": "Makin' Whoopee",
+    "creator": "Eddie Cantor"
+  },
+  {
+    "year": 1929,
+    "title": "Singin' in the Rain",
+    "creator": "Cliff Edwards"
+  },
+  {
+    "year": 1929,
+    "title": "Star Dust",
+    "creator": "Hoagy Carmichael"
+  },
+  {
+    "year": 1930,
+    "title": "Body and Soul",
+    "creator": "Libby Holman"
+  },
+  {
+    "year": 1931,
+    "title": "Mood Indigo",
+    "creator": "Duke Ellington"
+  },
+  {
+    "year": 1932,
+    "title": "Brother, Can You Spare a Dime?",
+    "creator": "Bing Crosby"
+  },
+  {
+    "year": 1932,
+    "title": "Night and Day",
+    "creator": "Cole Porter"
+  },
+  {
+    "year": 1933,
+    "title": "Stormy Weather",
+    "creator": "Ethel Waters"
+  },
+  {
+    "year": 1933,
+    "title": "Sophisticated Lady",
+    "creator": "Duke Ellington"
+  },
+  {
+    "year": 1934,
+    "title": "Smoke Gets in Your Eyes",
+    "creator": "Paul Whiteman"
+  },
+  {
+    "year": 1935,
+    "title": "Cheek to Cheek",
+    "creator": "Fred Astaire"
+  },
+  {
+    "year": 1935,
+    "title": "Summertime",
+    "creator": "Porgy and Bess (Gershwin)"
+  },
+  {
+    "year": 1936,
+    "title": "I've Got You Under My Skin",
+    "creator": "Cole Porter"
+  },
+  {
+    "year": 1937,
+    "title": "Caravan",
+    "creator": "Duke Ellington"
+  },
+  {
+    "year": 1937,
+    "title": "Sing, Sing, Sing",
+    "creator": "Benny Goodman"
+  },
+  {
+    "year": 1938,
+    "title": "A-Tisket A-Tasket",
+    "creator": "Ella Fitzgerald"
+  },
+  {
+    "year": 1939,
+    "title": "Over the Rainbow",
+    "creator": "Judy Garland"
+  },
+  {
+    "year": 1939,
+    "title": "In the Mood",
+    "creator": "Glenn Miller"
+  },
+  {
+    "year": 1940,
+    "title": "Tuxedo Junction",
+    "creator": "Glenn Miller"
+  },
+  {
+    "year": 1941,
+    "title": "Chattanooga Choo Choo",
+    "creator": "Glenn Miller"
+  },
+  {
+    "year": 1941,
+    "title": "Take the 'A' Train",
+    "creator": "Duke Ellington"
+  },
+  {
+    "year": 1942,
+    "title": "White Christmas",
+    "creator": "Bing Crosby"
+  },
+  {
+    "year": 1943,
+    "title": "I'll Be Seeing You",
+    "creator": "Bing Crosby"
+  },
+  {
+    "year": 1944,
+    "title": "Swinging on a Star",
+    "creator": "Bing Crosby"
+  },
+  {
+    "year": 1945,
+    "title": "Sentimental Journey",
+    "creator": "Doris Day"
+  },
+  {
+    "year": 1946,
+    "title": "Prisoner of Love",
+    "creator": "Perry Como"
+  },
+  {
+    "year": 1947,
+    "title": "Near You",
+    "creator": "Francis Craig"
+  },
+  {
+    "year": 1948,
+    "title": "Buttons and Bows",
+    "creator": "Dinah Shore"
+  },
+  {
+    "year": 1949,
+    "title": "Riders in the Sky",
+    "creator": "Vaughn Monroe"
+  },
+  {
+    "year": 1950,
+    "title": "Goodnight, Irene",
+    "creator": "The Weavers"
+  },
+  {
+    "year": 1950,
+    "title": "Mona Lisa",
+    "creator": "Nat King Cole"
+  },
+  {
+    "year": 1951,
+    "title": "Too Young",
+    "creator": "Nat King Cole"
+  },
+  {
+    "year": 1951,
+    "title": "Cry",
+    "creator": "Johnnie Ray"
+  },
+  {
+    "year": 1952,
+    "title": "You Belong to Me",
+    "creator": "Jo Stafford"
+  },
+  {
+    "year": 1953,
+    "title": "(How Much Is) That Doggie in the Window?",
+    "creator": "Patti Page"
+  },
+  {
+    "year": 1953,
+    "title": "Vaya con Dios",
+    "creator": "Les Paul & Mary Ford"
+  },
+  {
+    "year": 1954,
+    "title": "Mr. Sandman",
+    "creator": "The Chordettes"
+  },
+  {
+    "year": 1955,
+    "title": "Rock Around the Clock",
+    "creator": "Bill Haley & His Comets"
+  },
+  {
+    "year": 1956,
+    "title": "Heartbreak Hotel",
+    "creator": "Elvis Presley"
+  },
+  {
+    "year": 1956,
+    "title": "Hound Dog",
+    "creator": "Elvis Presley"
+  },
+  {
+    "year": 1956,
+    "title": "Que Sera, Sera",
+    "creator": "Doris Day"
+  },
+  {
+    "year": 1957,
+    "title": "All Shook Up",
+    "creator": "Elvis Presley"
+  },
+  {
+    "year": 1957,
+    "title": "Jailhouse Rock",
+    "creator": "Elvis Presley"
+  },
+  {
+    "year": 1957,
+    "title": "Wake Up Little Susie",
+    "creator": "The Everly Brothers"
+  },
+  {
+    "year": 1958,
+    "title": "Volare",
+    "creator": "Domenico Modugno"
+  },
+  {
+    "year": 1958,
+    "title": "Johnny B. Goode",
+    "creator": "Chuck Berry"
+  },
+  {
+    "year": 1958,
+    "title": "At the Hop",
+    "creator": "Danny & the Juniors"
+  },
+  {
+    "year": 1959,
+    "title": "Mack the Knife",
+    "creator": "Bobby Darin"
+  },
+  {
+    "year": 1959,
+    "title": "What'd I Say",
+    "creator": "Ray Charles"
+  },
+  {
+    "year": 1960,
+    "title": "Theme from A Summer Place",
+    "creator": "Percy Faith"
+  },
+  {
+    "year": 1960,
+    "title": "Cathy's Clown",
+    "creator": "The Everly Brothers"
+  },
+  {
+    "year": 1961,
+    "title": "Tossin' and Turnin'",
+    "creator": "Bobby Lewis"
+  },
+  {
+    "year": 1961,
+    "title": "Stand by Me",
+    "creator": "Ben E. King"
+  },
+  {
+    "year": 1961,
+    "title": "Will You Love Me Tomorrow",
+    "creator": "The Shirelles"
+  },
+  {
+    "year": 1962,
+    "title": "Stranger on the Shore",
+    "creator": "Acker Bilk"
+  },
+  {
+    "year": 1962,
+    "title": "Twist and Shout",
+    "creator": "The Isley Brothers"
+  },
+  {
+    "year": 1963,
+    "title": "He's So Fine",
+    "creator": "The Chiffons"
+  },
+  {
+    "year": 1963,
+    "title": "Surfin' U.S.A.",
+    "creator": "The Beach Boys"
+  },
+  {
+    "year": 1963,
+    "title": "Blowin' in the Wind",
+    "creator": "Bob Dylan"
+  },
+  {
+    "year": 1964,
+    "title": "I Want to Hold Your Hand",
+    "creator": "The Beatles"
+  },
+  {
+    "year": 1964,
+    "title": "Oh, Pretty Woman",
+    "creator": "Roy Orbison"
+  },
+  {
+    "year": 1964,
+    "title": "House of the Rising Sun",
+    "creator": "The Animals"
+  },
+  {
+    "year": 1965,
+    "title": "(I Can't Get No) Satisfaction",
+    "creator": "The Rolling Stones"
+  },
+  {
+    "year": 1965,
+    "title": "Like a Rolling Stone",
+    "creator": "Bob Dylan"
+  },
+  {
+    "year": 1965,
+    "title": "Yesterday",
+    "creator": "The Beatles"
+  },
+  {
+    "year": 1966,
+    "title": "California Dreamin'",
+    "creator": "The Mamas & the Papas"
+  },
+  {
+    "year": 1966,
+    "title": "Good Vibrations",
+    "creator": "The Beach Boys"
+  },
+  {
+    "year": 1967,
+    "title": "Light My Fire",
+    "creator": "The Doors"
+  },
+  {
+    "year": 1967,
+    "title": "All You Need Is Love",
+    "creator": "The Beatles"
+  },
+  {
+    "year": 1967,
+    "title": "Respect",
+    "creator": "Aretha Franklin"
+  },
+  {
+    "year": 1967,
+    "title": "Whiter Shade of Pale",
+    "creator": "Procol Harum"
+  },
+  {
+    "year": 1968,
+    "title": "Hey Jude",
+    "creator": "The Beatles"
+  },
+  {
+    "year": 1968,
+    "title": "(Sittin' On) The Dock of the Bay",
+    "creator": "Otis Redding"
+  },
+  {
+    "year": 1968,
+    "title": "Mrs. Robinson",
+    "creator": "Simon & Garfunkel"
+  },
+  {
+    "year": 1969,
+    "title": "Honky Tonk Women",
+    "creator": "The Rolling Stones"
+  },
+  {
+    "year": 1969,
+    "title": "Space Oddity",
+    "creator": "David Bowie"
+  },
+  {
+    "year": 1969,
+    "title": "Sugar, Sugar",
+    "creator": "The Archies"
+  },
+  {
+    "year": 1970,
+    "title": "Bridge Over Troubled Water",
+    "creator": "Simon & Garfunkel"
+  },
+  {
+    "year": 1970,
+    "title": "Let It Be",
+    "creator": "The Beatles"
+  },
+  {
+    "year": 1970,
+    "title": "(They Long to Be) Close to You",
+    "creator": "The Carpenters"
+  },
+  {
+    "year": 1971,
+    "title": "Imagine",
+    "creator": "John Lennon"
+  },
+  {
+    "year": 1971,
+    "title": "What's Going On",
+    "creator": "Marvin Gaye"
+  },
+  {
+    "year": 1971,
+    "title": "Joy to the World",
+    "creator": "Three Dog Night"
+  },
+  {
+    "year": 1972,
+    "title": "American Pie",
+    "creator": "Don McLean"
+  },
+  {
+    "year": 1972,
+    "title": "Lean on Me",
+    "creator": "Bill Withers"
+  },
+  {
+    "year": 1972,
+    "title": "The First Time Ever I Saw Your Face",
+    "creator": "Roberta Flack"
+  },
+  {
+    "year": 1973,
+    "title": "Tie a Yellow Ribbon Round the Ole Oak Tree",
+    "creator": "Tony Orlando & Dawn"
+  },
+  {
+    "year": 1973,
+    "title": "Killing Me Softly with His Song",
+    "creator": "Roberta Flack"
+  },
+  {
+    "year": 1974,
+    "title": "Waterloo",
+    "creator": "ABBA"
+  },
+  {
+    "year": 1974,
+    "title": "The Way We Were",
+    "creator": "Barbra Streisand"
+  },
+  {
+    "year": 1975,
+    "title": "Bohemian Rhapsody",
+    "creator": "Queen"
+  },
+  {
+    "year": 1975,
+    "title": "Love Will Keep Us Together",
+    "creator": "Captain & Tennille"
+  },
+  {
+    "year": 1976,
+    "title": "Hotel California",
+    "creator": "Eagles"
+  },
+  {
+    "year": 1976,
+    "title": "Silly Love Songs",
+    "creator": "Wings"
+  },
+  {
+    "year": 1977,
+    "title": "Stayin' Alive",
+    "creator": "Bee Gees"
+  },
+  {
+    "year": 1977,
+    "title": "Hotel California",
+    "creator": "Eagles"
+  },
+  {
+    "year": 1978,
+    "title": "Night Fever",
+    "creator": "Bee Gees"
+  },
+  {
+    "year": 1978,
+    "title": "Le Freak",
+    "creator": "Chic"
+  },
+  {
+    "year": 1979,
+    "title": "My Sharona",
+    "creator": "The Knack"
+  },
+  {
+    "year": 1979,
+    "title": "Heart of Glass",
+    "creator": "Blondie"
+  },
+  {
+    "year": 1980,
+    "title": "Call Me",
+    "creator": "Blondie"
+  },
+  {
+    "year": 1980,
+    "title": "Another Brick in the Wall, Part 2",
+    "creator": "Pink Floyd"
+  },
+  {
+    "year": 1981,
+    "title": "Bette Davis Eyes",
+    "creator": "Kim Carnes"
+  },
+  {
+    "year": 1982,
+    "title": "Eye of the Tiger",
+    "creator": "Survivor"
+  },
+  {
+    "year": 1982,
+    "title": "Thriller",
+    "creator": "Michael Jackson"
+  },
+  {
+    "year": 1983,
+    "title": "Every Breath You Take",
+    "creator": "The Police"
+  },
+  {
+    "year": 1983,
+    "title": "Billie Jean",
+    "creator": "Michael Jackson"
+  },
+  {
+    "year": 1984,
+    "title": "When Doves Cry",
+    "creator": "Prince"
+  },
+  {
+    "year": 1984,
+    "title": "Like a Virgin",
+    "creator": "Madonna"
+  },
+  {
+    "year": 1985,
+    "title": "Careless Whisper",
+    "creator": "George Michael"
+  },
+  {
+    "year": 1985,
+    "title": "We Are the World",
+    "creator": "USA for Africa"
+  },
+  {
+    "year": 1986,
+    "title": "That's What Friends Are For",
+    "creator": "Dionne & Friends"
+  },
+  {
+    "year": 1987,
+    "title": "Walk Like an Egyptian",
+    "creator": "The Bangles"
+  },
+  {
+    "year": 1987,
+    "title": "With or Without You",
+    "creator": "U2"
+  },
+  {
+    "year": 1988,
+    "title": "Don't Worry, Be Happy",
+    "creator": "Bobby McFerrin"
+  },
+  {
+    "year": 1988,
+    "title": "Sweet Child o' Mine",
+    "creator": "Guns N' Roses"
+  },
+  {
+    "year": 1989,
+    "title": "Like a Prayer",
+    "creator": "Madonna"
+  },
+  {
+    "year": 1990,
+    "title": "Vogue",
+    "creator": "Madonna"
+  },
+  {
+    "year": 1990,
+    "title": "Nothing Compares 2 U",
+    "creator": "Sinéad O'Connor"
+  }
+]

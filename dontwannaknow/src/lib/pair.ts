@@ -2,27 +2,21 @@
 // geographic distance between their birthplaces, era-appropriate travel
 // difficulty, and the cultural touchstones they overlapped on.
 
-import { g, type Person } from "./facts";
+import { genderForm, type Person } from "./facts";
 import { findCity } from "../data/cities";
 import { CITY_COORDS, distanceKm } from "../data/cityCoords";
 import { EVENTS } from "../data/events";
 import { countryLabelFor } from "../data/countryDecades";
 import { cultureForDecade } from "../data/culture";
+import { joinList } from "./text";
+import { czYears } from "./czech";
+import { CURRENT_YEAR } from "./datetime";
 
 export type PairSection = {
   heading: string;
   text?: string;
   items?: string[];
 };
-
-const CURRENT_YEAR = new Date().getFullYear();
-
-function joinList(items: string[]): string {
-  if (items.length === 0) return "";
-  if (items.length === 1) return items[0];
-  if (items.length === 2) return `${items[0]} a ${items[1]}`;
-  return `${items.slice(0, -1).join(", ")} a ${items[items.length - 1]}`;
-}
 
 function ordinalDecade(year: number): string {
   return `${Math.floor(year / 10) * 10}s`;
@@ -107,7 +101,7 @@ export function buildPairEssay(a: Person, b: Person): PairSection[] {
   // ── Intro paragraph ─────────────────────────────────────────────
   const introBits: string[] = [];
   introBits.push(
-    `${older.label} ${g(older.gender, "se narodil", "se narodila")} v roce ${older.birthYear} v místě ${placeOlder}; ${younger.label} ${g(younger.gender, "přišel", "přišla")} na svět ${ageGap === 0 ? "ve stejném roce" : `o ${ageGap} ${ageGap === 1 ? "rok" : ageGap >= 2 && ageGap <= 4 ? "roky" : "let"} později`} v místě ${placeYounger}.`,
+    `${older.label} ${genderForm(older.gender, "se narodil", "se narodila")} v roce ${older.birthYear} v místě ${placeOlder}; ${younger.label} ${genderForm(younger.gender, "přišel", "přišla")} na svět ${ageGap === 0 ? "ve stejném roce" : `o ${ageGap} ${czYears(ageGap)} později`} v místě ${placeYounger}.`,
   );
   if (ageGap >= 50) {
     introBits.push(
@@ -197,10 +191,10 @@ export function buildPairEssay(a: Person, b: Person): PairSection[] {
     const youngerCulture = cultureForDecade(younger.birthYear + 15);
     const bits: string[] = [];
     bits.push(
-      `${older.label} ${g(older.gender, "dospíval", "dospívala")} v období ${olderTeen} — ${olderCulture.fashion}, a na plakátech kin ${olderCulture.popularMovies.slice(0, 2).map((m) => `**${m}**`).join(" a ")}.`,
+      `${older.label} ${genderForm(older.gender, "dospíval", "dospívala")} v období ${olderTeen} — ${olderCulture.fashion}, a na plakátech kin ${olderCulture.popularMovies.slice(0, 2).map((m) => `**${m}**`).join(" a ")}.`,
     );
     bits.push(
-      `${younger.label} ${g(younger.gender, "dospíval", "dospívala")} o generaci později v období ${youngerTeen} — ${youngerCulture.fashion}, a na plátnech ${youngerCulture.popularMovies.slice(0, 2).map((m) => `**${m}**`).join(" a ")}.`,
+      `${younger.label} ${genderForm(younger.gender, "dospíval", "dospívala")} o generaci později v období ${youngerTeen} — ${youngerCulture.fashion}, a na plátnech ${youngerCulture.popularMovies.slice(0, 2).map((m) => `**${m}**`).join(" a ")}.`,
     );
     out.push({ heading: "Stejný svět, jiný soundtrack", text: bits.join(" ") });
   } else {
