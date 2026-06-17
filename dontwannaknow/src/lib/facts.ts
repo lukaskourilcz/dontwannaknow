@@ -22,6 +22,7 @@ import { pickN } from "./random";
 import { capitalize } from "./text";
 import { czYears, czAgePhrase } from "./czech";
 import { CURRENT_YEAR } from "./datetime";
+import { settings } from "../config/settings";
 
 export type Gender = "m" | "f";
 
@@ -329,7 +330,7 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
   // ── Everyday life ────────────────────────────────────────────────────
   facts.push({
     category: "everyday",
-    text: `V roce, kdy se ${label.toLowerCase()} ${genderForm(person.gender, "narodil", "narodila")}, žilo na světě přibližně ${birthStats.worldPopulationBillions} miliard lidí — dnes je to zhruba 8,1 miliardy.`,
+    text: `V roce, kdy se ${label.toLowerCase()} ${genderForm(person.gender, "narodil", "narodila")}, žilo na světě přibližně ${birthStats.worldPopulationBillions} miliard lidí — dnes je to zhruba ${settings.currentWorldPopulationText}.`,
   });
   facts.push({
     category: "everyday",

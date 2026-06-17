@@ -7,6 +7,7 @@ import {
   MoonPhase,
 } from "astronomy-engine";
 import { STARS, BIG_DIPPER_LINES, ORION_LINES, type Star } from "../data/stars";
+import { settings } from "../config/settings";
 
 type Props = {
   birthDate: Date; // any time; we'll evaluate at local ~23:00
@@ -36,16 +37,18 @@ function projectAltAz(alt: number, az: number): { x: number; y: number } | null 
   };
 }
 
-// Pick a sensible viewing moment: local ~23:00 on the given date.
+// Pick a sensible viewing moment: the configured local hour on the given date.
 function localNightUTC(date: Date, lon: number): Date {
   const y = date.getUTCFullYear();
   const m = date.getUTCMonth();
   const d = date.getUTCDate();
-  // Want local 23:00. local hour = UTC hour + lon/15.
-  // → UTC hour at local 23:00 = 23 - lon/15
-  const utcHour = 23 - lon / 15;
+  // local hour = UTC hour + lon/15, so UTC hour at the local viewing hour is
+  // viewingHour - lon/15.
+  const utcHour = settings.skyViewingHour - lon / 15;
   return new Date(Date.UTC(y, m, d) + utcHour * 3600 * 1000);
 }
+
+const VIEW_TIME_LOCAL = `${String(settings.skyViewingHour).padStart(2, "0")}:00`;
 
 function magToRadius(mag: number): number {
   // Brighter = bigger. Mag -1.5 → ~3.4 px, mag 3 → ~1 px.
@@ -122,7 +125,7 @@ export default function SkyMap({ birthDate, lat, lon, cityName, svgRef }: Props)
       sun: sunP,
       moon: moonP,
       moonPhaseText: moonPhaseLabel(phase),
-      viewTimeLocal: "23:00",
+      viewTimeLocal: VIEW_TIME_LOCAL,
     };
   }, [birthDate, lat, lon]);
 
@@ -226,7 +229,7 @@ export default function SkyMap({ birthDate, lat, lon, cityName, svgRef }: Props)
         )}
       </svg>
       <figcaption>
-        Obloha nad <strong>{cityName}</strong> kolem 23:00 místního času dne{" "}
+        Obloha nad <strong>{cityName}</strong> kolem {viewTimeLocal} místního času dne{" "}
         <strong>{dateStr}</strong>. Měsíc: {moonPhaseText}.
         {sun && sun.alt < -18 && " Slunce bylo hluboko pod obzorem — astronomická noc."}
         {sun && sun.alt >= -18 && sun.alt < 0 && " Slunce bylo těsně pod obzorem — pozdní soumrak."}

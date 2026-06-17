@@ -1,10 +1,9 @@
 // Prices in the reader's currency. The underlying historical figures are in
 // USD; we convert to Czech crowns by default (the app is Czech-first) and to
-// Ukrainian hryvnia for Ukrainian subjects. Rates are approximate (June 2026).
+// Ukrainian hryvnia for Ukrainian subjects. The conversion rates are
+// configurable from /dev/settings.
 import type { Country } from "../data/countryDecades";
-
-const USD_TO_CZK = 23;
-const USD_TO_UAH = 41;
+import { settings } from "../config/settings";
 
 function fmtCzk(czk: number): string {
   if (czk < 10) return `${czk.toFixed(1).replace(".", ",")} Kč`;
@@ -18,8 +17,8 @@ function fmtUah(uah: number): string {
 
 /** Format a USD figure in the currency that fits the subject's country. */
 export function fmtMoney(usd: number, country: Country): string {
-  if (country === "UA") return fmtUah(usd * USD_TO_UAH);
-  return fmtCzk(usd * USD_TO_CZK);
+  if (country === "UA") return fmtUah(usd * settings.usdToUah);
+  return fmtCzk(usd * settings.usdToCzk);
 }
 
 const LITRES_PER_US_GALLON = 3.785;

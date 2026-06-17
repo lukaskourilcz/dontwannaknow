@@ -2,6 +2,7 @@ import { genderForm, type PersonReport } from "../lib/facts";
 import { useLang } from "../i18n/useLang";
 import { useCountUp } from "../lib/useCountUp";
 import { birthDateUTC, daysSince } from "../lib/datetime";
+import { settings } from "../config/settings";
 
 /**
  * Renders a stat-card value with a tasteful count-up animation when the
@@ -12,7 +13,7 @@ function StatValue({ value, locale }: { value: string; locale: string }) {
   const raw = value.replace(/[,\s+~]/g, "");
   const asNumber = Number(raw);
   const isNumber = !Number.isNaN(asNumber) && /^\+?\d/.test(value.trim());
-  const animated = useCountUp(isNumber ? asNumber : value, 950);
+  const animated = useCountUp(isNumber ? asNumber : value, settings.countUpDurationMs);
 
   if (!isNumber || typeof animated !== "number") return <>{value}</>;
   const prefix = value.trim().startsWith("+") ? "+" : "";

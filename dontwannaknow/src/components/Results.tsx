@@ -12,6 +12,7 @@ import { generatePdf } from "../lib/pdf";
 import { useLang } from "../i18n/useLang";
 import { useCopied } from "../lib/useCopied";
 import { birthDateUTC, weeksSince } from "../lib/datetime";
+import { settings } from "../config/settings";
 import HeroSummary from "./HeroSummary";
 
 // Render **bold** spans (used for names of people, films and works) while
@@ -75,7 +76,7 @@ type ViewMode = "essay" | "facts";
 export default function Results({ reports, people, onReset, onRegenerate }: Props) {
   const { t, lang } = useLang();
   const [view, setView] = useState<ViewMode>("essay");
-  const { copied, copy, flash } = useCopied();
+  const { copied, copy, flash } = useCopied(settings.shareCopiedResetMs);
   const skyRefs = useRef<Map<number, SVGSVGElement | null>>(new Map());
 
   // Build pair comparison when 2+ people are submitted.

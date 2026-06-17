@@ -29,6 +29,7 @@ import { pickN, pickOne } from "./random";
 import { capitalize, joinList } from "./text";
 import { czYears } from "./czech";
 import { CURRENT_YEAR } from "./datetime";
+import { settings } from "../config/settings";
 
 export type EssayParagraph = {
   heading: string;
@@ -147,7 +148,7 @@ export function buildEssay(person: Person, excludeWorld = false): EssayParagraph
   const inventionPicks = pickN(inventionPool, 3).map((i) => i.detail ?? `${i.name} ještě neexistoval`);
   const openingBits: string[] = [
     `${label} ${genderForm(person.gender, "přišel", "přišla")} na svět v roce ${birthYear}, v místě ${place}.`,
-    `Svět tehdy obývalo přibližně ${stats.worldPopulationBillions} miliard lidí — dnes je jich zhruba 8,1 miliardy.`,
+    `Svět tehdy obývalo přibližně ${stats.worldPopulationBillions} miliard lidí — dnes je jich zhruba ${settings.currentWorldPopulationText}.`,
     `Bochník chleba stál ${fmtMoney(stats.loafOfBreadUsd, country)}, litr benzinu ${fmtGasPerLitre(stats.gallonOfGasUsd, country)} a průměrná roční mzda se pohybovala kolem ${fmtMoney(stats.usAverageAnnualWageUsd, country)}.`,
   ];
   if (gone.length > 0) {
