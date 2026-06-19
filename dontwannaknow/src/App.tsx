@@ -12,12 +12,8 @@ import { reportFor, type Person, type PersonReport } from "./lib/facts";
 import { decodePeopleUrl } from "./lib/share";
 import { LangProvider } from "./i18n/LangContext";
 import { useLang } from "./i18n/useLang";
-// Warm Editorial typeface set — Fraunces (display), Newsreader (body serif),
-// Instrument Sans (UI). Imported here (not in main) so the dev console doesn't
-// pull them in.
-import "@fontsource-variable/fraunces/standard.css";
-import "@fontsource-variable/newsreader/standard.css";
-import "@fontsource-variable/newsreader/standard-italic.css";
+// Lightship runs on a single geometric sans (Instrument Sans, the F37Bolton
+// substitute). Imported here (not in main) so the dev console doesn't pull it in.
 import "@fontsource-variable/instrument-sans/standard.css";
 import "./styles.css";
 

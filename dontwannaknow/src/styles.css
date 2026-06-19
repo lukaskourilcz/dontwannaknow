@@ -1,27 +1,28 @@
 :root {
   color-scheme: light dark;
 
-  /* ── Colour · Warm Editorial "An Honest Letter" (paper & clay) ──── */
-  --bg:           #faf6ef;
-  --surface:      #fffdf7;
-  --surface-warm: #f5efe3;
-  --ink:          #2a2622;
-  --ink-soft:     #4a423a;
-  --muted:        #6f6359;
-  --muted-soft:   #9a8d7e;
-  --rule:         #e4dacb;
-  --rule-strong:  #d8ccb8;
-  --accent:       #9a5b3f;
-  --accent-dark:  #874e36;
-  --accent-soft:  #ecd9cb;
-  --highlight:    #f0e3b8;
+  /* ── Colour · Lightship "open-road diorama" — warm cream + obsidian,
+        one ember-orange reserved for surface washes only ───────────── */
+  --bg:           #faf6ef; /* warm cream canvas */
+  --surface:      #ffffff; /* pure white card */
+  --surface-warm: #f4efe6; /* subtle warm panel (flat, no shadow) */
+  --ink:          #000000; /* obsidian — text, hairlines, icon strokes */
+  --ink-soft:     #1c1c1c; /* near-black body prose */
+  --muted:        #999999; /* pebble — muted body text */
+  --muted-soft:   #a1a1a1; /* driftwood — helper/captions */
+  --rule:         #d9d9d9; /* mist — hairline dividers/borders */
+  --rule-strong:  #c8c8c8;
+  --accent:       #fa5c40; /* ember orange — SURFACE WASH ONLY, never a CTA fill */
+  --accent-dark:  #e0492f; /* ember text on a light wash */
+  --accent-soft:  #ffe7e1; /* light ember wash */
+  --highlight:    #ffe9e3; /* ember-tinted highlight band */
   --success:      #4f7a4a;
-  --on-accent:    #faf6ef; /* text/!icons sitting on an ink or accent fill */
+  --on-accent:    #faf6ef; /* cream text on an obsidian (active) surface */
   --scrim:        rgba(250, 246, 239, 0.85); /* sticky toolbar backdrop */
 
-  /* ── Typography ─────────────────────────────────────────── */
-  --display: "Fraunces Variable", "Iowan Old Style", Georgia, serif;
-  --serif:  "Newsreader Variable", "Iowan Old Style", Georgia, serif;
+  /* ── Typography · one geometric sans (F37Bolton → Instrument Sans) ── */
+  --display: "Instrument Sans Variable", "Söhne", "DM Sans", system-ui, sans-serif;
+  --serif:  "Instrument Sans Variable", "Söhne", "DM Sans", system-ui, sans-serif;
   --sans:   "Instrument Sans Variable", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --mono:   "SF Mono", ui-monospace, "JetBrains Mono", monospace;
@@ -35,18 +36,18 @@
   --s-6: 32px;
   --s-7: 48px;
   --s-8: 64px;
-  --s-9: 96px;
+  --s-9: 100px;
 
-  /* ── Radius ─────────────────────────────────────────────── */
-  --r-sm: 6px;
-  --r-md: 12px;
+  /* ── Radius · 20px frames, 100px pills ──────────────────── */
+  --r-sm: 8px;
+  --r-md: 20px;
   --r-lg: 20px;
-  --r-pill: 999px;
+  --r-pill: 100px;
 
-  /* ── Shadow · restrained, ink-tinted ────────────────────── */
-  --shadow-sm: 0 1px 2px rgba(42, 38, 34, 0.05);
-  --shadow-md: 0 4px 16px rgba(42, 38, 34, 0.06);
-  --shadow-lg: 0 16px 40px rgba(42, 38, 34, 0.09);
+  /* ── No elevation — the system is intentionally flat ────── */
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
 
   /* ── Motion ─────────────────────────────────────────────── */
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
@@ -54,28 +55,30 @@
 }
 
 /* ── Dark theme · same tokens, warm low-light paper ───────────────── */
+/* Lightship is a light system; this is a quiet monochrome-dark adaptation
+   for dark-preference users — same flat, near-monochrome + ember language. */
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg:           #1a1714;
-    --surface:      #221e1a;
-    --surface-warm: #201c18;
-    --ink:          #efe7da;
-    --ink-soft:     #d8cdbd;
-    --muted:        #a1968a;
-    --muted-soft:   #7c7165;
-    --rule:         #352f28;
-    --rule-strong:  #443d34;
-    --accent:       #d89a6e;
-    --accent-dark:  #e2a878;
-    --accent-soft:  #3a2c22;
-    --highlight:    #4a4226;
+    --bg:           #0e0e0e;
+    --surface:      #161616;
+    --surface-warm: #1c1c1c;
+    --ink:          #f4f4f4;
+    --ink-soft:     #e4e4e4;
+    --muted:        #8a8a8a;
+    --muted-soft:   #6f6f6f;
+    --rule:         #2b2b2b;
+    --rule-strong:  #3a3a3a;
+    --accent:       #fa5c40;
+    --accent-dark:  #ff7a63;
+    --accent-soft:  #2a1712;
+    --highlight:    #2a1712;
     --success:      #8fb98a;
-    --on-accent:    #1a1714; /* dark ink text on the light dark-mode ink/accent fills */
-    --scrim:        rgba(26, 23, 20, 0.82);
+    --on-accent:    #0e0e0e;
+    --scrim:        rgba(14, 14, 14, 0.82);
 
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.30);
-    --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.38);
-    --shadow-lg: 0 18px 44px rgba(0, 0, 0, 0.48);
+    --shadow-sm: none;
+    --shadow-md: none;
+    --shadow-lg: none;
   }
 }
 
@@ -102,9 +105,7 @@ body,
 }
 
 body {
-  background-image:
-    radial-gradient(circle at 0% 0%, rgba(154, 91, 63, 0.05), transparent 52%),
-    radial-gradient(circle at 100% 100%, rgba(154, 91, 63, 0.035), transparent 42%);
+  /* No gradients — the canvas is a solid warm cream. */
   min-height: 100vh;
 }
 
@@ -733,8 +734,8 @@ button:active {
   position: absolute;
   inset: 0 0 auto 0;
   height: 4px;
-  background: linear-gradient(90deg, var(--accent) 0%, var(--accent-dark) 100%);
-  opacity: 0.85;
+  background: var(--accent);
+  opacity: 1;
 }
 
 @keyframes card-rise {
@@ -840,7 +841,7 @@ button:active {
 }
 
 .hero-stat.accent {
-  background: linear-gradient(135deg, var(--accent-soft) 0%, var(--surface-warm) 100%);
+  background: var(--accent-soft);
   border-color: var(--accent-soft);
 }
 
@@ -1495,9 +1496,9 @@ button:active {
   }
 }
 
-/* ════ Warm Editorial overrides ═══════════════════════════════════════
-   Fraunces display face carries the largest headings; body prose stays
-   Newsreader, UI microcopy stays Instrument Sans. */
+/* ════ Type family ════════════════════════════════════════════════════
+   One geometric sans across the whole system (Instrument Sans), per the
+   Lightship spec; the override layer below tunes weight and tracking. */
 h1,
 h2,
 .hero h1,
@@ -1741,3 +1742,120 @@ button.secondary:active,
     }
   }
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   Lightship — open-road diorama
+   Monochrome cream canvas + obsidian type, one ember accent used only as a
+   thin strip / faint wash. Flat (no shadows or gradients), 20px photo & card
+   frames, 100px pills on interactive elements, tight editorial tracking.
+   This layer sits last so it governs the final look.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Tight, compressed tracking. Elements with their own (wide, uppercase)
+   tracking keep it — this only sets the default for body & headlines. */
+body { letter-spacing: -0.03em; }
+.hero h1,
+.wizard-question,
+.wizard-hero-title,
+.person-header h3,
+.results-header h2,
+.error-boundary-inner h2,
+.newspaper-masthead,
+.newspaper-headline,
+.hero-stat-value {
+  font-weight: 700;
+  letter-spacing: -0.045em;
+}
+
+/* No filled / accent buttons anywhere. Primary = obsidian pill outline that
+   inverts on hover; secondary = hairline pill, no fill. */
+button.primary,
+button.secondary {
+  border-radius: var(--r-pill);
+  font-weight: 500;
+  box-shadow: none;
+}
+button.primary {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--ink);
+}
+button.primary:hover {
+  background: var(--ink);
+  color: var(--on-accent);
+  border-color: var(--ink);
+  transform: none;
+  box-shadow: none;
+}
+button.secondary {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--rule);
+}
+button.secondary:hover {
+  background: transparent;
+  border-color: var(--ink);
+  transform: none;
+  box-shadow: none;
+}
+button.primary:active,
+button.secondary:active { transform: scale(0.98); }
+
+/* Tertiary actions stay ghost text with a hover underline. */
+button.link { color: var(--ink); }
+button.link:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
+
+/* Segmented toggles: flat, monochrome (active = obsidian fill). */
+.view-toggle,
+.lang-toggle { box-shadow: none; border-color: var(--rule); }
+.view-toggle button.active,
+.lang-toggle button.active { background: var(--ink); color: var(--on-accent); }
+
+/* Choice cards: hairline by default, the rare ember wash when selected. */
+.country-card { box-shadow: none; }
+.country-card:hover { border-color: var(--ink); transform: none; box-shadow: none; }
+.country-card.active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  box-shadow: none;
+}
+
+/* Ember accent: only thin strips and faint washes, never a CTA fill. */
+.person-card::before { background: var(--accent); opacity: 1; }
+.hero-stat:hover { box-shadow: none; border-color: var(--rule); transform: none; }
+.hero-stat.accent { background: var(--accent-soft); border-color: var(--accent-soft); }
+.hero-stat.accent .hero-stat-value { color: var(--accent-dark); }
+.eyebrow { background: var(--accent-soft); color: var(--ink); border: none; }
+
+/* Frames at the 20px signature radius. */
+.world-map svg { border-radius: var(--r-md); }
+
+/* Drop the serif-era drop cap — the geometric system carries no flourishes. */
+.essay-paragraph:first-child p::first-letter {
+  font-size: inherit;
+  float: none;
+  line-height: inherit;
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+}
+
+/* Pill inputs: 100px radius, hairline resting → obsidian on focus. */
+.wizard-select,
+.row input,
+.row select { border-radius: var(--r-pill); }
+.wizard-select {
+  border: 1px solid var(--rule);
+  background-color: var(--surface);
+  padding: 0.6rem 2.2rem 0.6rem 1.1rem;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path fill='%23000000' d='M0 0l6 7 6-7z'/></svg>");
+  background-position: right 1rem center;
+}
+.row select {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path fill='%23000000' d='M0 0l5 6 5-6z'/></svg>");
+}
+.row input:focus,
+.row select:focus { border-color: var(--ink); box-shadow: 0 0 0 3px var(--accent-soft); }
+
+/* Lightship breathes — a touch more air around section breaks. */
+.section-divider { margin: var(--s-8) 0 var(--s-5); }
