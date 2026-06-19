@@ -2,6 +2,8 @@ import { useEffect, useState, type FormEvent } from "react";
 import { useDevAuth } from "./devAuth";
 import ContentEditor from "./ContentEditor";
 import SettingsEditor from "./SettingsEditor";
+import "@fontsource-variable/fraunces/standard.css";
+import "@fontsource-variable/instrument-sans/standard.css";
 import "./dev.css";
 
 type Route = "content" | "settings";
@@ -83,8 +85,9 @@ function PasswordGate({ onUnlock }: { onUnlock: (pw: string) => boolean }) {
   return (
     <div className="dev-gate">
       <form className="dev-gate-card" onSubmit={submit}>
+        <p className="dev-eyebrow">Don't wanna know</p>
         <h1>Dev console</h1>
-        <p>Enter the password to manage game content and settings.</p>
+        <p className="dev-gate-sub">Enter the password to manage game content and settings.</p>
         <input
           autoFocus
           type="password"

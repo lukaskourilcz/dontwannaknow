@@ -88,6 +88,14 @@ export default function ContentEditor() {
     return { total: Object.values(data).reduce((n, list) => n + list.length, 0) };
   }, [data]);
 
+  const categoryCounts = useMemo(() => {
+    const m: Record<string, number> = {};
+    for (const s of CONTENT_SOURCES) {
+      m[s.category] = (m[s.category] ?? 0) + (data?.[s.key]?.length ?? 0);
+    }
+    return m;
+  }, [data]);
+
   async function persist(key: string, list: ContentRecord[]) {
     setData((prev) => ({ ...(prev ?? {}), [key]: list }));
     const res = await saveContent(key, list);
@@ -130,6 +138,14 @@ export default function ContentEditor() {
 
   return (
     <div className="dev-content">
+      <div className="dev-page-head">
+        <h2>Content library</h2>
+        <p>
+          Search, filter, and edit every fact the game draws from — changes
+          save straight to the JSON datasets.
+        </p>
+      </div>
+
       {!live && (
         <p className="dev-banner">
           Read-only: the dev server API isn't reachable. Saves will download a JSON
@@ -171,7 +187,7 @@ export default function ContentEditor() {
             setSourceKey("all");
           }}
         >
-          All
+          All <span className="count">{counts.total.toLocaleString()}</span>
         </button>
         {CATEGORIES.map((c) => (
           <button
@@ -183,7 +199,8 @@ export default function ContentEditor() {
               setSourceKey("all");
             }}
           >
-            {CATEGORY_LABELS[c]}
+            {CATEGORY_LABELS[c]}{" "}
+            <span className="count">{(categoryCounts[c] ?? 0).toLocaleString()}</span>
           </button>
         ))}
       </div>
@@ -193,37 +210,46 @@ export default function ContentEditor() {
         {status && <span className="dev-status"> · {status}</span>}
       </p>
 
-      <ul className="dev-list">
-        {rows.slice(0, shown).map(({ source, index, record }) => (
-          <li key={`${source.key}-${index}`} className="dev-row">
-            <div className="dev-row-main">
-              <span className="dev-row-summary">{source.summary(record)}</span>
-              <span className="dev-row-tags">
-                <span className="dev-tag dev-tag-cat">{CATEGORY_LABELS[source.category]}</span>
-                <span className="dev-tag">{source.label}</span>
-                {source.tags(record).map((t) => (
-                  <span key={t} className="dev-tag dev-tag-soft">
-                    {t}
+      {rows.length === 0 ? (
+        <div className="dev-empty">
+          <strong>No entries match</strong>
+          Try a different search term or category.
+        </div>
+      ) : (
+        <>
+          <ul className="dev-list">
+            {rows.slice(0, shown).map(({ source, index, record }) => (
+              <li key={`${source.key}-${index}`} className="dev-row">
+                <div className="dev-row-main">
+                  <span className="dev-row-summary">{source.summary(record)}</span>
+                  <span className="dev-row-tags">
+                    <span className="dev-tag dev-tag-cat">{CATEGORY_LABELS[source.category]}</span>
+                    <span className="dev-tag">{source.label}</span>
+                    {source.tags(record).map((t) => (
+                      <span key={t} className="dev-tag dev-tag-soft">
+                        {t}
+                      </span>
+                    ))}
                   </span>
-                ))}
-              </span>
-            </div>
-            <div className="dev-row-actions">
-              <button className="dev-btn" type="button" onClick={() => openEdit(source, index, record)}>
-                Edit
-              </button>
-              <button className="dev-btn dev-btn-danger" type="button" onClick={() => deleteRow(source, index)}>
-                Delete
-              </button>
-            </div>
-          </li>
-        ))}
-      </ul>
+                </div>
+                <div className="dev-row-actions">
+                  <button className="dev-btn" type="button" onClick={() => openEdit(source, index, record)}>
+                    Edit
+                  </button>
+                  <button className="dev-btn dev-btn-danger" type="button" onClick={() => deleteRow(source, index)}>
+                    Delete
+                  </button>
+                </div>
+              </li>
+            ))}
+          </ul>
 
-      {shown < rows.length && (
-        <button className="dev-btn dev-loadmore" type="button" onClick={() => setShown((n) => n + PAGE_SIZE)}>
-          Load more ({(rows.length - shown).toLocaleString()} hidden)
-        </button>
+          {shown < rows.length && (
+            <button className="dev-btn dev-loadmore" type="button" onClick={() => setShown((n) => n + PAGE_SIZE)}>
+              Load more ({(rows.length - shown).toLocaleString()} hidden)
+            </button>
+          )}
+        </>
       )}
 
       {draft && (

@@ -85,16 +85,22 @@ export default function SettingsEditor() {
 
   return (
     <div className="dev-settings">
+      <div className="dev-page-head">
+        <h2>Game settings</h2>
+        <p>These control the live game. Defaults are restored for any field left blank.</p>
+      </div>
+
       {!live && (
         <p className="dev-banner">
           Read-only: the dev server API isn't reachable. Saving will download
           <code> gameSettings.json</code> instead of writing it.
         </p>
       )}
-      <p className="dev-meta">
-        These control the live game. Defaults are restored for any field left blank.
-        {status && <span className="dev-status"> · {status}</span>}
-      </p>
+      {status && (
+        <p className="dev-meta">
+          <span className="dev-status">{status}</span>
+        </p>
+      )}
 
       {GROUPS.map((group) => (
         <fieldset key={group} className="dev-group">
