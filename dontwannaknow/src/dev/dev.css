@@ -267,6 +267,13 @@ select.dev-input,
   padding-right: 2.2rem;
 }
 textarea.dev-input { resize: vertical; line-height: 1.5; min-height: 4.5rem; }
+textarea.dev-input-mono {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  line-height: 1.45;
+  white-space: pre;
+  tab-size: 2;
+}
 
 /* ── Buttons ────────────────────────────────────────────────────── */
 .dev-btn {

@@ -281,7 +281,7 @@ Total initial: ~858 kB / ~280 kB gzipped.
 A password-gated admin surface for editing the game's content and settings,
 kept entirely separate from the public app (it's lazy-loaded only when the path
 starts with `/dev`). Open `http://localhost:5173/dev` and enter the password
-(`dontwannaknow123`).
+(`autobus`).
 
 **Content tab** — every editable dataset is loaded into one searchable list,
 tagged by category (Countries, Cities, Years, Culture, Sports) and by derived
@@ -303,6 +303,16 @@ middleware in `vite.config.ts` exposes `GET`/`POST /__content/<key>`; during
 `npm run dev` the editor reads and writes those JSON files **directly on disk**,
 so edits land in the repo and the game picks them up on the next reload. Commit
 the changed JSON to keep it.
+
+The per-decade datasets that used to be nested TypeScript literals
+(`countryDecades`, `famousPeople`, `media`, `slang`, `babyNames`, `culture`)
+are stored **flat — one fact per row** (`{ country, decadeStart, bucket, text }`
+and friends), so each individual line is its own searchable, editable, deletable
+entry in the console. Their `.ts` wrappers reassemble the grouped shape the app
+consumes via the helpers in `src/data/_grouped.ts`; `education` and `writers`
+are edited at the record level (list fields one-per-line, nested `works`/`homes`
+as raw JSON). The one-shot migration that produced the JSON is preserved in
+`scripts/migrateFacts.ts`, and it asserts every dataset round-trips exactly.
 
 In a production build the write endpoint doesn't exist, so the editor falls back
 to read-only (JSON bundled at build time) and "Save" downloads the updated file

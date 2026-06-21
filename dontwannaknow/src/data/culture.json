@@ -1,0 +1,517 @@
+[
+  {
+    "decadeStart": 1930,
+    "field": "topSongs",
+    "text": "“Pennies from Heaven” — Bing Crosby"
+  },
+  {
+    "decadeStart": 1930,
+    "field": "topSongs",
+    "text": "“Cheek to Cheek” — Fred Astaire"
+  },
+  {
+    "decadeStart": 1930,
+    "field": "popularMovies",
+    "text": "Jih proti Severu"
+  },
+  {
+    "decadeStart": 1930,
+    "field": "popularMovies",
+    "text": "Čaroděj ze země Oz"
+  },
+  {
+    "decadeStart": 1930,
+    "field": "popularMovies",
+    "text": "Sněhurka a sedm trpaslíků"
+  },
+  {
+    "decadeStart": 1930,
+    "field": "popularBooks",
+    "text": "The Grapes of Wrath"
+  },
+  {
+    "decadeStart": 1930,
+    "field": "popularBooks",
+    "text": "Murder on the Orient Express"
+  },
+  {
+    "decadeStart": 1930,
+    "field": "fashion",
+    "text": "kalhoty s vysokým pasem, šaty střižené do šikma, klobouky fedora na každém kroku"
+  },
+  {
+    "decadeStart": 1930,
+    "field": "whatTeensDid",
+    "text": "tančili Lindy Hop a chodili do kina za pár drobných"
+  },
+  {
+    "decadeStart": 1940,
+    "field": "topSongs",
+    "text": "“White Christmas” — Bing Crosby"
+  },
+  {
+    "decadeStart": 1940,
+    "field": "topSongs",
+    "text": "“In the Mood” — Glenn Miller"
+  },
+  {
+    "decadeStart": 1940,
+    "field": "popularMovies",
+    "text": "Casablanca"
+  },
+  {
+    "decadeStart": 1940,
+    "field": "popularMovies",
+    "text": "Občan Kane"
+  },
+  {
+    "decadeStart": 1940,
+    "field": "popularMovies",
+    "text": "Život je krásný"
+  },
+  {
+    "decadeStart": 1940,
+    "field": "popularBooks",
+    "text": "Animal Farm"
+  },
+  {
+    "decadeStart": 1940,
+    "field": "popularBooks",
+    "text": "The Diary of Anne Frank"
+  },
+  {
+    "decadeStart": 1940,
+    "field": "fashion",
+    "text": "uniformy, úsporné válečné šaty, vlasy stočené do victory rolls"
+  },
+  {
+    "decadeStart": 1940,
+    "field": "whatTeensDid",
+    "text": "schovávali staniol na podporu válečného úsilí a poslouchali rozhlasové hry"
+  },
+  {
+    "decadeStart": 1950,
+    "field": "topSongs",
+    "text": "“Rock Around the Clock” — Bill Haley"
+  },
+  {
+    "decadeStart": 1950,
+    "field": "topSongs",
+    "text": "“Heartbreak Hotel” — Elvis Presley"
+  },
+  {
+    "decadeStart": 1950,
+    "field": "popularMovies",
+    "text": "Zpívání v dešti"
+  },
+  {
+    "decadeStart": 1950,
+    "field": "popularMovies",
+    "text": "Okno do dvora"
+  },
+  {
+    "decadeStart": 1950,
+    "field": "popularMovies",
+    "text": "Někdo to rád horké"
+  },
+  {
+    "decadeStart": 1950,
+    "field": "popularBooks",
+    "text": "The Catcher in the Rye"
+  },
+  {
+    "decadeStart": 1950,
+    "field": "popularBooks",
+    "text": "Lord of the Flies"
+  },
+  {
+    "decadeStart": 1950,
+    "field": "popularBooks",
+    "text": "On the Road"
+  },
+  {
+    "decadeStart": 1950,
+    "field": "fashion",
+    "text": "kolové sukně, kožené bundy, dozadu sčesané vlasy"
+  },
+  {
+    "decadeStart": 1950,
+    "field": "whatTeensDid",
+    "text": "vysedávali u mléčných barů a jezdili do autokin"
+  },
+  {
+    "decadeStart": 1960,
+    "field": "topSongs",
+    "text": "“Hey Jude” — The Beatles"
+  },
+  {
+    "decadeStart": 1960,
+    "field": "topSongs",
+    "text": "“(I Can't Get No) Satisfaction” — The Rolling Stones"
+  },
+  {
+    "decadeStart": 1960,
+    "field": "popularMovies",
+    "text": "Za zvuků hudby"
+  },
+  {
+    "decadeStart": 1960,
+    "field": "popularMovies",
+    "text": "Psycho"
+  },
+  {
+    "decadeStart": 1960,
+    "field": "popularMovies",
+    "text": "2001: Vesmírná odysea"
+  },
+  {
+    "decadeStart": 1960,
+    "field": "popularBooks",
+    "text": "To Kill a Mockingbird"
+  },
+  {
+    "decadeStart": 1960,
+    "field": "popularBooks",
+    "text": "One Hundred Years of Solitude"
+  },
+  {
+    "decadeStart": 1960,
+    "field": "fashion",
+    "text": "minisukně, zvonové kalhoty, batikované vzory, Mary Quant"
+  },
+  {
+    "decadeStart": 1960,
+    "field": "whatTeensDid",
+    "text": "naladili si britskou invazi a sledovali přistání na Měsíci"
+  },
+  {
+    "decadeStart": 1970,
+    "field": "topSongs",
+    "text": "“Bohemian Rhapsody” — Queen"
+  },
+  {
+    "decadeStart": 1970,
+    "field": "topSongs",
+    "text": "“Stayin' Alive” — Bee Gees"
+  },
+  {
+    "decadeStart": 1970,
+    "field": "topSongs",
+    "text": "“Hotel California” — Eagles"
+  },
+  {
+    "decadeStart": 1970,
+    "field": "popularMovies",
+    "text": "Hvězdné války"
+  },
+  {
+    "decadeStart": 1970,
+    "field": "popularMovies",
+    "text": "Kmotr"
+  },
+  {
+    "decadeStart": 1970,
+    "field": "popularMovies",
+    "text": "Čelisti"
+  },
+  {
+    "decadeStart": 1970,
+    "field": "popularMovies",
+    "text": "Rocky"
+  },
+  {
+    "decadeStart": 1970,
+    "field": "popularBooks",
+    "text": "The Bell Jar"
+  },
+  {
+    "decadeStart": 1970,
+    "field": "popularBooks",
+    "text": "Carrie"
+  },
+  {
+    "decadeStart": 1970,
+    "field": "popularBooks",
+    "text": "The Shining"
+  },
+  {
+    "decadeStart": 1970,
+    "field": "fashion",
+    "text": "rozšířené džíny, boty na platformě, diskotékové třpytky, džínovina na všem"
+  },
+  {
+    "decadeStart": 1970,
+    "field": "whatTeensDid",
+    "text": "bruslili na roller diskotékách, koukali na sobotní ranní kreslené seriály a telefonovali z kuchyňského telefonu"
+  },
+  {
+    "decadeStart": 1980,
+    "field": "topSongs",
+    "text": "“Thriller” — Michael Jackson"
+  },
+  {
+    "decadeStart": 1980,
+    "field": "topSongs",
+    "text": "“Like a Virgin” — Madonna"
+  },
+  {
+    "decadeStart": 1980,
+    "field": "topSongs",
+    "text": "“Sweet Child o' Mine” — Guns N' Roses"
+  },
+  {
+    "decadeStart": 1980,
+    "field": "popularMovies",
+    "text": "E.T. - Mimozemšťan"
+  },
+  {
+    "decadeStart": 1980,
+    "field": "popularMovies",
+    "text": "Návrat do budoucnosti"
+  },
+  {
+    "decadeStart": 1980,
+    "field": "popularMovies",
+    "text": "Snídaňový klub"
+  },
+  {
+    "decadeStart": 1980,
+    "field": "popularMovies",
+    "text": "Hříšný tanec"
+  },
+  {
+    "decadeStart": 1980,
+    "field": "popularBooks",
+    "text": "The Color Purple"
+  },
+  {
+    "decadeStart": 1980,
+    "field": "popularBooks",
+    "text": "It (Stephen King)"
+  },
+  {
+    "decadeStart": 1980,
+    "field": "fashion",
+    "text": "vycpávky v ramenou, neonové barvy, naondulované vlasy, návleky na nohy"
+  },
+  {
+    "decadeStart": 1980,
+    "field": "whatTeensDid",
+    "text": "půjčovali si VHS kazety, namíchávali si vlastní mixy na kazety a hráli Pac-Man v herně"
+  },
+  {
+    "decadeStart": 1990,
+    "field": "topSongs",
+    "text": "“Smells Like Teen Spirit” — Nirvana"
+  },
+  {
+    "decadeStart": 1990,
+    "field": "topSongs",
+    "text": "“…Baby One More Time” — Britney Spears"
+  },
+  {
+    "decadeStart": 1990,
+    "field": "topSongs",
+    "text": "“Wonderwall” — Oasis"
+  },
+  {
+    "decadeStart": 1990,
+    "field": "popularMovies",
+    "text": "Titanic"
+  },
+  {
+    "decadeStart": 1990,
+    "field": "popularMovies",
+    "text": "Jurský park"
+  },
+  {
+    "decadeStart": 1990,
+    "field": "popularMovies",
+    "text": "Matrix"
+  },
+  {
+    "decadeStart": 1990,
+    "field": "popularMovies",
+    "text": "Pulp Fiction: Historky z podsvětí"
+  },
+  {
+    "decadeStart": 1990,
+    "field": "popularBooks",
+    "text": "Harry Potter and the Philosopher's Stone"
+  },
+  {
+    "decadeStart": 1990,
+    "field": "popularBooks",
+    "text": "Fight Club"
+  },
+  {
+    "decadeStart": 1990,
+    "field": "fashion",
+    "text": "flanelové košile, volné džíny, motýlkové sponky, boty Doc Martens"
+  },
+  {
+    "decadeStart": 1990,
+    "field": "whatTeensDid",
+    "text": "vypalovali si CD, přihlašovali se na AIM a čekali, až se připojí vytáčené připojení"
+  },
+  {
+    "decadeStart": 2000,
+    "field": "topSongs",
+    "text": "“Hey Ya!” — OutKast"
+  },
+  {
+    "decadeStart": 2000,
+    "field": "topSongs",
+    "text": "“Crazy in Love” — Beyoncé"
+  },
+  {
+    "decadeStart": 2000,
+    "field": "topSongs",
+    "text": "“Mr. Brightside” — The Killers"
+  },
+  {
+    "decadeStart": 2000,
+    "field": "popularMovies",
+    "text": "Pán prstenů"
+  },
+  {
+    "decadeStart": 2000,
+    "field": "popularMovies",
+    "text": "Shrek"
+  },
+  {
+    "decadeStart": 2000,
+    "field": "popularMovies",
+    "text": "Temný rytíř"
+  },
+  {
+    "decadeStart": 2000,
+    "field": "popularBooks",
+    "text": "The Da Vinci Code"
+  },
+  {
+    "decadeStart": 2000,
+    "field": "popularBooks",
+    "text": "Twilight"
+  },
+  {
+    "decadeStart": 2000,
+    "field": "popularBooks",
+    "text": "The Hunger Games"
+  },
+  {
+    "decadeStart": 2000,
+    "field": "fashion",
+    "text": "džíny s nízkým pasem, kšiltovky trucker, velurové tepláky, odbarvené konečky vlasů"
+  },
+  {
+    "decadeStart": 2000,
+    "field": "whatTeensDid",
+    "text": "sestavovali si top 8 na MySpace, stahovali MP3 přes Limewire a nelezli z MSN Messengeru"
+  },
+  {
+    "decadeStart": 2010,
+    "field": "topSongs",
+    "text": "“Rolling in the Deep” — Adele"
+  },
+  {
+    "decadeStart": 2010,
+    "field": "topSongs",
+    "text": "“Uptown Funk” — Bruno Mars"
+  },
+  {
+    "decadeStart": 2010,
+    "field": "topSongs",
+    "text": "“Old Town Road” — Lil Nas X"
+  },
+  {
+    "decadeStart": 2010,
+    "field": "popularMovies",
+    "text": "Avengers"
+  },
+  {
+    "decadeStart": 2010,
+    "field": "popularMovies",
+    "text": "Ledové království"
+  },
+  {
+    "decadeStart": 2010,
+    "field": "popularMovies",
+    "text": "Parazit"
+  },
+  {
+    "decadeStart": 2010,
+    "field": "popularBooks",
+    "text": "Gone Girl"
+  },
+  {
+    "decadeStart": 2010,
+    "field": "popularBooks",
+    "text": "Sapiens"
+  },
+  {
+    "decadeStart": 2010,
+    "field": "popularBooks",
+    "text": "The Fault in Our Stars"
+  },
+  {
+    "decadeStart": 2010,
+    "field": "fashion",
+    "text": "úzké džíny, plnovousy, sportovní ležérní styl athleisure, normcore"
+  },
+  {
+    "decadeStart": 2010,
+    "field": "whatTeensDid",
+    "text": "scrollovali Tumblr, posílali Snapchaty a natáčeli Vine videa"
+  },
+  {
+    "decadeStart": 2020,
+    "field": "topSongs",
+    "text": "“Blinding Lights” — The Weeknd"
+  },
+  {
+    "decadeStart": 2020,
+    "field": "topSongs",
+    "text": "“drivers license” — Olivia Rodrigo"
+  },
+  {
+    "decadeStart": 2020,
+    "field": "topSongs",
+    "text": "“Flowers” — Miley Cyrus"
+  },
+  {
+    "decadeStart": 2020,
+    "field": "popularMovies",
+    "text": "Všechno, všude, najednou"
+  },
+  {
+    "decadeStart": 2020,
+    "field": "popularMovies",
+    "text": "Oppenheimer"
+  },
+  {
+    "decadeStart": 2020,
+    "field": "popularMovies",
+    "text": "Barbie"
+  },
+  {
+    "decadeStart": 2020,
+    "field": "popularBooks",
+    "text": "The Midnight Library"
+  },
+  {
+    "decadeStart": 2020,
+    "field": "popularBooks",
+    "text": "Tomorrow, and Tomorrow, and Tomorrow"
+  },
+  {
+    "decadeStart": 2020,
+    "field": "fashion",
+    "text": "návrat stylu Y2K, comeback volných džín, cottagecore, tichý luxus"
+  },
+  {
+    "decadeStart": 2020,
+    "field": "whatTeensDid",
+    "text": "koukali na TikToky, hráli Roblox a sestavovali si playlisty na Spotify"
+  }
+]

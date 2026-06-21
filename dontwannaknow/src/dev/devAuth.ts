@@ -3,7 +3,7 @@ import { useState } from "react";
 // NOTE: this is a convenience gate, not real security. The password ships in
 // the client bundle, so anyone determined can read it — it only keeps the
 // editor out of casual sight. Don't expose anything truly sensitive behind it.
-export const DEV_PASSWORD = "dontwannaknow123";
+export const DEV_PASSWORD = "autobus";
 
 const STORAGE_KEY = "dwk.dev.auth";
 
