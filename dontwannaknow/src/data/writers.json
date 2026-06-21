@@ -1,0 +1,777 @@
+[
+  {
+    "name": "Franz Kafka",
+    "country": "CZ",
+    "gender": "m",
+    "born": 1883,
+    "died": 1924,
+    "bornPlace": "Praha",
+    "blurb": "německy píšící pražský prozaik, autor románu „Proces“",
+    "works": [
+      {
+        "title": "Proměna",
+        "year": 1915
+      },
+      {
+        "title": "Proces",
+        "year": 1925
+      },
+      {
+        "title": "Zámek",
+        "year": 1926
+      },
+      {
+        "title": "Amerika",
+        "year": 1927
+      }
+    ],
+    "homes": [
+      {
+        "from": 1883,
+        "place": "v Praze"
+      },
+      {
+        "from": 1923,
+        "place": "v Berlíně"
+      },
+      {
+        "from": 1924,
+        "place": "v Kierlingu"
+      }
+    ]
+  },
+  {
+    "name": "Jaroslav Hašek",
+    "country": "CZ",
+    "gender": "m",
+    "born": 1883,
+    "died": 1923,
+    "bornPlace": "Praha",
+    "blurb": "humorista a satirik, autor „Osudů dobrého vojáka Švejka“",
+    "works": [
+      {
+        "title": "Dobrý voják Švejk a jiné podivné historky",
+        "year": 1912
+      },
+      {
+        "title": "Osudy dobrého vojáka Švejka za světové války",
+        "year": 1921
+      }
+    ],
+    "homes": [
+      {
+        "from": 1883,
+        "place": "v Praze"
+      },
+      {
+        "from": 1921,
+        "place": "v Lipnici nad Sázavou"
+      }
+    ]
+  },
+  {
+    "name": "Karel Čapek",
+    "country": "CZ",
+    "gender": "m",
+    "born": 1890,
+    "died": 1938,
+    "bornPlace": "Malé Svatoňovice",
+    "blurb": "prozaik a dramatik, autor dramatu „R.U.R.“ a „Války s mloky“",
+    "works": [
+      {
+        "title": "R.U.R.",
+        "year": 1920
+      },
+      {
+        "title": "Krakatit",
+        "year": 1924
+      },
+      {
+        "title": "Válka s mloky",
+        "year": 1936
+      },
+      {
+        "title": "Bílá nemoc",
+        "year": 1937
+      },
+      {
+        "title": "Matka",
+        "year": 1938
+      }
+    ],
+    "homes": [
+      {
+        "from": 1890,
+        "place": "v Malých Svatoňovicích"
+      },
+      {
+        "from": 1907,
+        "place": "v Praze"
+      }
+    ]
+  },
+  {
+    "name": "Jaroslav Seifert",
+    "country": "CZ",
+    "gender": "m",
+    "born": 1901,
+    "died": 1986,
+    "bornPlace": "Praha",
+    "blurb": "básník a nositel Nobelovy ceny, autor sbírky „Maminka“",
+    "works": [
+      {
+        "title": "Město v slzách",
+        "year": 1921
+      },
+      {
+        "title": "Píseň o Viktorce",
+        "year": 1950
+      },
+      {
+        "title": "Maminka",
+        "year": 1954
+      },
+      {
+        "title": "Morový sloup",
+        "year": 1977
+      },
+      {
+        "title": "Všecky krásy světa",
+        "year": 1981
+      }
+    ],
+    "homes": [
+      {
+        "from": 1901,
+        "place": "v Praze na Žižkově"
+      },
+      {
+        "from": 1938,
+        "place": "v Praze v Břevnově"
+      }
+    ]
+  },
+  {
+    "name": "Bohumil Hrabal",
+    "country": "CZ",
+    "gender": "m",
+    "born": 1914,
+    "died": 1997,
+    "bornPlace": "Brno",
+    "blurb": "prozaik, autor „Ostře sledovaných vlaků“ a „Postřižin“",
+    "works": [
+      {
+        "title": "Pábitelé",
+        "year": 1964
+      },
+      {
+        "title": "Ostře sledované vlaky",
+        "year": 1965
+      },
+      {
+        "title": "Postřižiny",
+        "year": 1976
+      },
+      {
+        "title": "Příliš hlučná samota",
+        "year": 1989
+      },
+      {
+        "title": "Obsluhoval jsem anglického krále",
+        "year": 1989
+      }
+    ],
+    "homes": [
+      {
+        "from": 1914,
+        "place": "v Brně"
+      },
+      {
+        "from": 1919,
+        "place": "v Nymburce"
+      },
+      {
+        "from": 1950,
+        "place": "v Praze v Libni"
+      },
+      {
+        "from": 1965,
+        "place": "v Kersku"
+      }
+    ]
+  },
+  {
+    "name": "Milan Kundera",
+    "country": "CZ",
+    "gender": "m",
+    "born": 1929,
+    "died": 2023,
+    "bornPlace": "Brno",
+    "blurb": "romanopisec, autor „Nesnesitelné lehkosti bytí“",
+    "works": [
+      {
+        "title": "Žert",
+        "year": 1967
+      },
+      {
+        "title": "Život je jinde",
+        "year": 1973
+      },
+      {
+        "title": "Kniha smíchu a zapomnění",
+        "year": 1979
+      },
+      {
+        "title": "Nesnesitelná lehkost bytí",
+        "year": 1984
+      }
+    ],
+    "homes": [
+      {
+        "from": 1929,
+        "place": "v Brně"
+      },
+      {
+        "from": 1948,
+        "place": "v Praze"
+      },
+      {
+        "from": 1975,
+        "place": "v Rennes"
+      },
+      {
+        "from": 1978,
+        "place": "v Paříži"
+      }
+    ]
+  },
+  {
+    "name": "Václav Havel",
+    "country": "CZ",
+    "gender": "m",
+    "born": 1936,
+    "died": 2011,
+    "bornPlace": "Praha",
+    "blurb": "dramatik, disident a prezident, autor hry „Audience“",
+    "works": [
+      {
+        "title": "Zahradní slavnost",
+        "year": 1963
+      },
+      {
+        "title": "Audience",
+        "year": 1975
+      },
+      {
+        "title": "Moc bezmocných",
+        "year": 1978
+      },
+      {
+        "title": "Largo desolato",
+        "year": 1984
+      }
+    ],
+    "homes": [
+      {
+        "from": 1936,
+        "place": "v Praze"
+      },
+      {
+        "from": 1967,
+        "place": "na Hrádečku"
+      }
+    ]
+  },
+  {
+    "name": "Josef Škvorecký",
+    "country": "CZ",
+    "gender": "m",
+    "born": 1924,
+    "died": 2012,
+    "bornPlace": "Náchod",
+    "blurb": "prozaik a nakladatel, autor „Zbabělců“",
+    "works": [
+      {
+        "title": "Zbabělci",
+        "year": 1958
+      },
+      {
+        "title": "Tankový prapor",
+        "year": 1971
+      },
+      {
+        "title": "Mirákl",
+        "year": 1972
+      },
+      {
+        "title": "Prima sezóna",
+        "year": 1975
+      },
+      {
+        "title": "Příběh inženýra lidských duší",
+        "year": 1977
+      }
+    ],
+    "homes": [
+      {
+        "from": 1924,
+        "place": "v Náchodě"
+      },
+      {
+        "from": 1945,
+        "place": "v Praze"
+      },
+      {
+        "from": 1969,
+        "place": "v Torontu"
+      }
+    ]
+  },
+  {
+    "name": "Ivan Klíma",
+    "country": "CZ",
+    "gender": "m",
+    "born": 1931,
+    "died": 2025,
+    "bornPlace": "Praha",
+    "blurb": "prozaik a dramatik, autor románu „Láska a smetí“",
+    "works": [
+      {
+        "title": "Milenci na jednu noc",
+        "year": 1964
+      },
+      {
+        "title": "Loď jménem Naděje",
+        "year": 1969
+      },
+      {
+        "title": "Soudce z milosti",
+        "year": 1986
+      },
+      {
+        "title": "Láska a smetí",
+        "year": 1988
+      }
+    ],
+    "homes": [
+      {
+        "from": 1931,
+        "place": "v Praze"
+      }
+    ]
+  },
+  {
+    "name": "Arnošt Lustig",
+    "country": "CZ",
+    "gender": "m",
+    "born": 1926,
+    "died": 2011,
+    "bornPlace": "Praha",
+    "blurb": "prozaik s tématem holokaustu, autor „Modlitby pro Kateřinu Horovitzovou“",
+    "works": [
+      {
+        "title": "Démanty noci",
+        "year": 1958
+      },
+      {
+        "title": "Dita Saxová",
+        "year": 1962
+      },
+      {
+        "title": "Modlitba pro Kateřinu Horovitzovou",
+        "year": 1964
+      }
+    ],
+    "homes": [
+      {
+        "from": 1926,
+        "place": "v Praze"
+      },
+      {
+        "from": 1968,
+        "place": "v Izraeli"
+      },
+      {
+        "from": 1970,
+        "place": "ve Washingtonu"
+      },
+      {
+        "from": 2003,
+        "place": "v Praze"
+      }
+    ]
+  },
+  {
+    "name": "Pavlo Tyčyna",
+    "country": "UA",
+    "gender": "m",
+    "born": 1891,
+    "died": 1967,
+    "bornPlace": "Pisky (Černihivská oblast)",
+    "blurb": "básník-symbolista, autor sbírky Sluneční klarinety",
+    "works": [
+      {
+        "title": "Sluneční klarinety (Soniačni klarnety)",
+        "year": 1918
+      },
+      {
+        "title": "Pluh",
+        "year": 1920
+      },
+      {
+        "title": "Vítr z Ukrajiny (Viter z Ukrajiny)",
+        "year": 1924
+      },
+      {
+        "title": "Strana je naším vůdcem (Partija vede)",
+        "year": 1934
+      }
+    ],
+    "homes": [
+      {
+        "from": 1891,
+        "place": "na Černihivsku"
+      },
+      {
+        "from": 1923,
+        "place": "v Charkově"
+      },
+      {
+        "from": 1934,
+        "place": "v Kyjevě"
+      }
+    ]
+  },
+  {
+    "name": "Maksym Rylskyj",
+    "country": "UA",
+    "gender": "m",
+    "born": 1895,
+    "died": 1964,
+    "bornPlace": "Kyjev",
+    "blurb": "neoklasicistní básník a překladatel, autor sbírky Modravá dálava",
+    "works": [
+      {
+        "title": "Modravá dálava (Synja dalečiň)",
+        "year": 1922
+      },
+      {
+        "title": "Třináctero jaro (Trynádcjata vesna)",
+        "year": 1926
+      },
+      {
+        "title": "Kde se sbíhají cesty (De schodjaťsja dorohy)",
+        "year": 1929
+      },
+      {
+        "title": "Ve stínu skřivana (V tini žajvoronka)",
+        "year": 1961
+      },
+      {
+        "title": "Zimní zápisky (Zimovi zapysy)",
+        "year": 1964
+      }
+    ],
+    "homes": [
+      {
+        "from": 1895,
+        "place": "v Kyjevě"
+      }
+    ]
+  },
+  {
+    "name": "Volodymyr Sosjura",
+    "country": "UA",
+    "gender": "m",
+    "born": 1898,
+    "died": 1965,
+    "bornPlace": "Debalceve (Doněcká oblast)",
+    "blurb": "lyrický básník, autor poemy Rudá zima a básně Milujte Ukrajinu",
+    "works": [
+      {
+        "title": "Rudá zima (Červona zyma)",
+        "year": 1922
+      },
+      {
+        "title": "Když kvetou akáty (Koly zacvituť akaciji)",
+        "year": 1928
+      },
+      {
+        "title": "Milujte Ukrajinu (Ljubiť Ukrajinu)",
+        "year": 1944
+      },
+      {
+        "title": "Třetí rota (Tretja rota)",
+        "year": 1988
+      }
+    ],
+    "homes": [
+      {
+        "from": 1898,
+        "place": "na Donbasu"
+      },
+      {
+        "from": 1921,
+        "place": "v Kyjevě"
+      }
+    ]
+  },
+  {
+    "name": "Oles Hončar",
+    "country": "UA",
+    "gender": "m",
+    "born": 1918,
+    "died": 1995,
+    "bornPlace": "Suchá (Poltavská oblast)",
+    "blurb": "prozaik, autor románu Praporonosci a zakázaného Soboru",
+    "works": [
+      {
+        "title": "Praporonosci",
+        "year": 1947
+      },
+      {
+        "title": "Tavrije (Tavrija)",
+        "year": 1952
+      },
+      {
+        "title": "Člověk a zbraň (Ljudyna i zbroja)",
+        "year": 1960
+      },
+      {
+        "title": "Tronka",
+        "year": 1963
+      },
+      {
+        "title": "Sobor",
+        "year": 1968
+      }
+    ],
+    "homes": [
+      {
+        "from": 1918,
+        "place": "na Poltavsku"
+      },
+      {
+        "from": 1950,
+        "place": "v Kyjevě"
+      }
+    ]
+  },
+  {
+    "name": "Lina Kostenko",
+    "country": "UA",
+    "gender": "f",
+    "born": 1930,
+    "bornPlace": "Ržyščiv (Kyjevská oblast)",
+    "blurb": "básnířka generace šedesátníků, autorka veršovaného románu Marusja Čuraj",
+    "works": [
+      {
+        "title": "Paprsky země (Prominnja zemli)",
+        "year": 1957
+      },
+      {
+        "title": "Nad břehy věčné řeky (Nad berehamy vičnoji riky)",
+        "year": 1977
+      },
+      {
+        "title": "Marusja Čuraj",
+        "year": 1979
+      },
+      {
+        "title": "Neopakovatelnost (Nepovtornisť)",
+        "year": 1980
+      },
+      {
+        "title": "Berestečko",
+        "year": 1999
+      }
+    ],
+    "homes": [
+      {
+        "from": 1930,
+        "place": "na Kyjevsku"
+      },
+      {
+        "from": 1957,
+        "place": "v Kyjevě"
+      }
+    ]
+  },
+  {
+    "name": "Vasyl Stus",
+    "country": "UA",
+    "gender": "m",
+    "born": 1938,
+    "died": 1985,
+    "bornPlace": "Rachnivka (Vinnycká oblast)",
+    "blurb": "disidentský básník, autor sbírky Palimpsesty, zahynul v gulagu",
+    "works": [
+      {
+        "title": "Zimní stromy (Zimovi dereva)",
+        "year": 1970
+      },
+      {
+        "title": "Svíce v zrcadle (Svička v svičadi)",
+        "year": 1977
+      },
+      {
+        "title": "Palimpsesty (Palimpsesty)",
+        "year": 1986
+      }
+    ],
+    "homes": [
+      {
+        "from": 1941,
+        "place": "na Donbasu"
+      },
+      {
+        "from": 1973,
+        "place": "v mordvinském gulagu"
+      },
+      {
+        "from": 1977,
+        "place": "ve vyhnanství na Magadansku"
+      },
+      {
+        "from": 1980,
+        "place": "v táboře Perm-36"
+      }
+    ]
+  },
+  {
+    "name": "Oksana Zabužko",
+    "country": "UA",
+    "gender": "f",
+    "born": 1960,
+    "bornPlace": "Luck (Volyňská oblast)",
+    "blurb": "prozaička a esejistka, autorka románu Polní výzkum ukrajinského sexu",
+    "works": [
+      {
+        "title": "Polní výzkum ukrajinského sexu (Poľovi doslidžennja z ukrajinskoho seksu)",
+        "year": 1996
+      },
+      {
+        "title": "Pohádka o kalinové píšťalce (Kazka pro kalynovu sopilku)",
+        "year": 2000
+      },
+      {
+        "title": "Sestro, sestro (Sestro, sestro)",
+        "year": 2003
+      },
+      {
+        "title": "Muzeum opuštěných tajemství (Muzej polyšenych sekretiv)",
+        "year": 2009
+      }
+    ],
+    "homes": [
+      {
+        "from": 1960,
+        "place": "na Volyni"
+      },
+      {
+        "from": 1968,
+        "place": "v Kyjevě"
+      }
+    ]
+  },
+  {
+    "name": "Serhij Žadan",
+    "country": "UA",
+    "gender": "m",
+    "born": 1974,
+    "bornPlace": "Starobilsk (Luhanská oblast)",
+    "blurb": "básník a prozaik, autor románů Vorošilovhrad a Internát",
+    "works": [
+      {
+        "title": "Depeche Mode",
+        "year": 2004
+      },
+      {
+        "title": "Anarchy in the UKR",
+        "year": 2005
+      },
+      {
+        "title": "Vorošilovhrad",
+        "year": 2010
+      },
+      {
+        "title": "Mezopotámie (Mesopotamija)",
+        "year": 2014
+      },
+      {
+        "title": "Internát",
+        "year": 2017
+      }
+    ],
+    "homes": [
+      {
+        "from": 1974,
+        "place": "na Luhansku"
+      },
+      {
+        "from": 1991,
+        "place": "v Charkově"
+      }
+    ]
+  },
+  {
+    "name": "Jurij Andruchovyč",
+    "country": "UA",
+    "gender": "m",
+    "born": 1960,
+    "bornPlace": "Ivano-Frankivsk",
+    "blurb": "postmoderní prozaik a básník, autor románu Rekreace",
+    "works": [
+      {
+        "title": "Rekreace (Rekreaciji)",
+        "year": 1992
+      },
+      {
+        "title": "Moskoviáda (Moskovijada)",
+        "year": 1993
+      },
+      {
+        "title": "Perverze (Perverzija)",
+        "year": 1996
+      },
+      {
+        "title": "Dvanáct obručí (Dvanadcjať obručiv)",
+        "year": 2003
+      }
+    ],
+    "homes": [
+      {
+        "from": 1960,
+        "place": "v Ivano-Frankivsku"
+      }
+    ]
+  },
+  {
+    "name": "Andrej Kurkov",
+    "country": "UA",
+    "gender": "m",
+    "born": 1961,
+    "bornPlace": "Budogošč (Leningradská oblast)",
+    "blurb": "rusky píšící prozaik, autor románu Smrt a tučňák",
+    "works": [
+      {
+        "title": "Smrt a tučňák (Smerť postoronněho)",
+        "year": 1996
+      },
+      {
+        "title": "Ztracený tučňák (Zakon ulitki)",
+        "year": 2002
+      },
+      {
+        "title": "Šedé včely (Seryje pčely)",
+        "year": 2018
+      }
+    ],
+    "homes": [
+      {
+        "from": 1963,
+        "place": "v Kyjevě"
+      }
+    ]
+  }
+]

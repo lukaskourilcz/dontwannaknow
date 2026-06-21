@@ -17,20 +17,35 @@ const PAGE_SIZE = 60;
 const CATEGORIES = Object.keys(CATEGORY_LABELS) as Category[];
 
 const yearOf = (r: ContentRecord): number =>
-  Number(r.year ?? r.declaredExtinctYear ?? 0) || 0;
+  Number(r.year ?? r.declaredExtinctYear ?? r.decadeStart ?? r.born ?? 0) || 0;
 
 function recordToValues(source: ContentSource, r: ContentRecord): Record<string, string> {
   return Object.fromEntries(
-    source.fields.map((f) => [f.key, r[f.key] == null ? "" : String(r[f.key])]),
+    source.fields.map((f) => {
+      const v = r[f.key];
+      if (f.kind === "list") return [f.key, Array.isArray(v) ? v.join("\n") : v == null ? "" : String(v)];
+      if (f.kind === "json") return [f.key, v == null ? "" : JSON.stringify(v, null, 2)];
+      return [f.key, v == null ? "" : String(v)];
+    }),
   );
 }
 
+// Throws (with a readable message) when a JSON field can't be parsed, so the
+// caller can surface it instead of saving a broken record.
 function valuesToRecord(source: ContentSource, values: Record<string, string>): ContentRecord {
   const out: ContentRecord = {};
   for (const f of source.fields) {
     const raw = (values[f.key] ?? "").trim();
     if (f.optional && raw === "") continue;
-    out[f.key] = f.kind === "number" ? Number(raw) || 0 : raw;
+    if (f.kind === "number") out[f.key] = Number(raw) || 0;
+    else if (f.kind === "list") out[f.key] = raw.split("\n").map((s) => s.trim()).filter(Boolean);
+    else if (f.kind === "json") {
+      try {
+        out[f.key] = JSON.parse(raw);
+      } catch {
+        throw new Error(`“${f.label}” is not valid JSON.`);
+      }
+    } else out[f.key] = raw;
   }
   return out;
 }
@@ -117,7 +132,13 @@ export default function ContentEditor() {
   async function saveDraft() {
     if (!draft || !data) return;
     const source = sourceByKey(draft.sourceKey)!;
-    const record = valuesToRecord(source, draft.values);
+    let record: ContentRecord;
+    try {
+      record = valuesToRecord(source, draft.values);
+    } catch (e) {
+      setStatus(`Can't save: ${e instanceof Error ? e.message : String(e)}`);
+      return;
+    }
     const list = [...(data[draft.sourceKey] ?? [])];
     if (draft.index === -1) list.unshift(record);
     else list[draft.index] = record;
@@ -309,10 +330,10 @@ function RecordModal({
           {source.fields.map((f) => (
             <label key={f.key} className={`dev-field${f.full ? " dev-field-full" : ""}`}>
               <span>{f.label}</span>
-              {f.kind === "textarea" ? (
+              {f.kind === "textarea" || f.kind === "list" || f.kind === "json" ? (
                 <textarea
-                  className="dev-input"
-                  rows={3}
+                  className={`dev-input${f.kind === "json" ? " dev-input-mono" : ""}`}
+                  rows={f.kind === "json" ? 6 : f.kind === "list" ? 4 : 3}
                   value={draft.values[f.key] ?? ""}
                   onChange={(e) => set(f.key, e.target.value)}
                 />

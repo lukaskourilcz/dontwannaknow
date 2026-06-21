@@ -304,6 +304,16 @@ middleware in `vite.config.ts` exposes `GET`/`POST /__content/<key>`; during
 so edits land in the repo and the game picks them up on the next reload. Commit
 the changed JSON to keep it.
 
+The per-decade datasets that used to be nested TypeScript literals
+(`countryDecades`, `famousPeople`, `media`, `slang`, `babyNames`, `culture`)
+are stored **flat — one fact per row** (`{ country, decadeStart, bucket, text }`
+and friends), so each individual line is its own searchable, editable, deletable
+entry in the console. Their `.ts` wrappers reassemble the grouped shape the app
+consumes via the helpers in `src/data/_grouped.ts`; `education` and `writers`
+are edited at the record level (list fields one-per-line, nested `works`/`homes`
+as raw JSON). The one-shot migration that produced the JSON is preserved in
+`scripts/migrateFacts.ts`, and it asserts every dataset round-trips exactly.
+
 In a production build the write endpoint doesn't exist, so the editor falls back
 to read-only (JSON bundled at build time) and "Save" downloads the updated file
 for you to drop into the repo.

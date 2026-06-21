@@ -4,8 +4,11 @@
 // the editor is just a matter of adding an entry here.
 
 import { CURRENT_YEAR } from "../lib/datetime";
+import { COUNTRY_DECADE_BUCKETS, CULTURE_LIST_FIELDS } from "../data/_grouped";
 
-export type FieldKind = "text" | "textarea" | "number" | "select";
+// "list"  → a string[] edited one item per line.
+// "json"  → an arbitrary nested value edited as raw JSON (objects/arrays).
+export type FieldKind = "text" | "textarea" | "number" | "select" | "list" | "json";
 
 export type Field = {
   key: string;
@@ -51,6 +54,11 @@ const decadeTag = (year: unknown): string => `${Math.floor(num(year) / 10) * 10}
 // CZ/ES/US/UA/CA/MX are the codes used by countryEvents (Country minus INTL).
 const COUNTRY_CODES = ["CZ", "ES", "US", "UA", "CA", "MX"];
 const MOODS = ["beautiful", "bizarre", "heavy", "milestone"];
+// Select options for the migrated per-decade datasets (kept in sync with the
+// grouping helpers the wrappers use).
+const DECADE_BUCKETS = [...COUNTRY_DECADE_BUCKETS];
+const CULTURE_FIELDS = [...CULTURE_LIST_FIELDS, "fashion", "whatTeensDid"];
+const WRITER_COUNTRIES = ["CZ", "UA"];
 
 // Songs / books / paintings / sculptures / plays all share the Work shape.
 function workSource(
@@ -228,6 +236,135 @@ export const CONTENT_SOURCES: ContentSource[] = [
     summary: (r) => `${num(r.year)} — ${str(r.text)}`,
     tags: (r) => ["sports", decadeTag(r.year)],
     blank: () => ({ year: CURRENT_YEAR, text: "" }),
+  },
+
+  // ── Per-decade life texture & people (flat JSON, reassembled by wrappers) ──
+  {
+    key: "countryDecades",
+    label: "Per-decade texture",
+    category: "countries",
+    fields: [
+      { key: "country", label: "Country", kind: "select", options: COUNTRY_CODES },
+      { key: "decadeStart", label: "Decade (e.g. 1950)", kind: "number" },
+      { key: "bucket", label: "Category", kind: "select", options: DECADE_BUCKETS },
+      { key: "text", label: "Fact", kind: "textarea", full: true },
+    ],
+    summary: (r) => `${str(r.country)} ${num(r.decadeStart)}s · ${str(r.bucket)} — ${str(r.text)}`,
+    tags: (r) => [str(r.country), str(r.bucket), decadeTag(r.decadeStart)],
+    blank: () => ({ country: "CZ", decadeStart: 1950, bucket: "government", text: "" }),
+  },
+  {
+    key: "famousPeople",
+    label: "Famous people",
+    category: "culture",
+    fields: [
+      { key: "country", label: "Country", kind: "select", options: COUNTRY_CODES },
+      { key: "decadeStart", label: "Decade (e.g. 1950)", kind: "number" },
+      { key: "name", label: "Name", kind: "text", full: true },
+      { key: "role", label: "Role", kind: "text", full: true },
+      { key: "note", label: "Note (optional)", kind: "textarea", full: true, optional: true },
+    ],
+    summary: (r) => `${str(r.country)} ${num(r.decadeStart)}s — ${str(r.name)} (${str(r.role)})`,
+    tags: (r) => [str(r.country), decadeTag(r.decadeStart), "people"],
+    blank: () => ({ country: "CZ", decadeStart: 1950, name: "", role: "" }),
+  },
+  {
+    key: "media",
+    label: "Media (read & watch)",
+    category: "culture",
+    fields: [
+      { key: "country", label: "Country", kind: "select", options: COUNTRY_CODES },
+      { key: "decadeStart", label: "Decade (e.g. 1950)", kind: "number" },
+      { key: "kind", label: "Kind", kind: "select", options: ["read", "watch"] },
+      { key: "text", label: "Title / outlet", kind: "textarea", full: true },
+    ],
+    summary: (r) => `${str(r.country)} ${num(r.decadeStart)}s · ${str(r.kind)} — ${str(r.text)}`,
+    tags: (r) => [str(r.country), decadeTag(r.decadeStart), str(r.kind), "media"],
+    blank: () => ({ country: "CZ", decadeStart: 1950, kind: "read", text: "" }),
+  },
+  {
+    key: "slang",
+    label: "Slang",
+    category: "culture",
+    fields: [
+      { key: "decadeStart", label: "Decade (e.g. 1950)", kind: "number" },
+      { key: "phrase", label: "Phrase", kind: "text", full: true },
+      { key: "meaning", label: "Meaning", kind: "text", full: true },
+    ],
+    summary: (r) => `${num(r.decadeStart)}s — “${str(r.phrase)}”: ${str(r.meaning)}`,
+    tags: (r) => [decadeTag(r.decadeStart), "slang"],
+    blank: () => ({ decadeStart: 1950, phrase: "", meaning: "" }),
+  },
+  {
+    key: "babyNames",
+    label: "Baby names",
+    category: "culture",
+    fields: [
+      { key: "country", label: "Country", kind: "select", options: COUNTRY_CODES },
+      { key: "decadeStart", label: "Decade (e.g. 1950)", kind: "number" },
+      { key: "sex", label: "Sex", kind: "select", options: ["boys", "girls"] },
+      { key: "name", label: "Name", kind: "text", full: true },
+    ],
+    summary: (r) => `${str(r.country)} ${num(r.decadeStart)}s · ${str(r.sex)} — ${str(r.name)}`,
+    tags: (r) => [str(r.country), decadeTag(r.decadeStart), "names", str(r.sex)],
+    blank: () => ({ country: "US", decadeStart: 1950, sex: "boys", name: "" }),
+  },
+  {
+    key: "culture",
+    label: "Culture (songs / films / books)",
+    category: "culture",
+    fields: [
+      { key: "decadeStart", label: "Decade (e.g. 1950)", kind: "number" },
+      { key: "field", label: "Field", kind: "select", options: CULTURE_FIELDS },
+      { key: "text", label: "Value", kind: "textarea", full: true },
+    ],
+    summary: (r) => `${num(r.decadeStart)}s · ${str(r.field)} — ${str(r.text)}`,
+    tags: (r) => [decadeTag(r.decadeStart), str(r.field)],
+    blank: () => ({ decadeStart: 1950, field: "topSongs", text: "" }),
+  },
+  {
+    key: "education",
+    label: "Education snapshot",
+    category: "countries",
+    fields: [
+      { key: "country", label: "Country", kind: "select", options: COUNTRY_CODES },
+      { key: "decadeStart", label: "Decade (e.g. 1950)", kind: "number" },
+      { key: "compulsoryEnd", label: "Compulsory school end age", kind: "number" },
+      { key: "avgYearsSchooling", label: "Avg years schooling", kind: "number" },
+      { key: "highSchoolGradPct", label: "High-school grad %", kind: "number" },
+      { key: "universityPct", label: "University %", kind: "number" },
+      { key: "literacyPct", label: "Literacy %", kind: "number" },
+      { key: "commonJobs", label: "Common jobs (one per line)", kind: "list", full: true },
+      { key: "subjects", label: "School subjects (one per line)", kind: "list", full: true },
+      { key: "classroom", label: "Classroom note", kind: "textarea", full: true },
+      { key: "workNote", label: "Work note (optional)", kind: "textarea", full: true, optional: true },
+    ],
+    summary: (r) => `${str(r.country)} ${num(r.decadeStart)}s — školství · gramotnost ${num(r.literacyPct)} %`,
+    tags: (r) => [str(r.country), decadeTag(r.decadeStart), "education"],
+    blank: () => ({
+      country: "CZ", decadeStart: 1950, compulsoryEnd: 15, avgYearsSchooling: 8,
+      highSchoolGradPct: 0, universityPct: 0, literacyPct: 99,
+      commonJobs: [], subjects: [], classroom: "",
+    }),
+  },
+  {
+    key: "writers",
+    label: "Writers",
+    category: "culture",
+    fields: [
+      { key: "name", label: "Name", kind: "text", full: true },
+      { key: "country", label: "Country", kind: "select", options: WRITER_COUNTRIES },
+      { key: "gender", label: "Gender", kind: "select", options: ["m", "f"] },
+      { key: "born", label: "Born", kind: "number" },
+      { key: "died", label: "Died (optional)", kind: "number", optional: true },
+      { key: "bornPlace", label: "Birthplace (optional)", kind: "text", full: true, optional: true },
+      { key: "blurb", label: "Blurb", kind: "textarea", full: true },
+      { key: "works", label: 'Works — [{ "title", "year" }]', kind: "json", full: true },
+      { key: "homes", label: 'Homes — [{ "from", "place" }] (optional)', kind: "json", full: true, optional: true },
+    ],
+    summary: (r) => `${str(r.name)} (${str(r.country)}, ${num(r.born)}${r.died ? `–${num(r.died)}` : ""})`,
+    tags: (r) => [str(r.country), "writers", decadeTag(r.born)],
+    blank: () => ({ name: "", country: "CZ", gender: "m", born: 1900, blurb: "", works: [] }),
   },
 ];
 
