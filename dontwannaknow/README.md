@@ -83,7 +83,7 @@ npm run dev
 ## Editing content & settings (`/dev`)
 
 With the dev server running, open **`http://localhost:5173/dev`** and enter the
-password (`dontwannaknow123`). It's a password-gated admin console with two tabs:
+password (`autobus`). It's a password-gated admin console with two tabs:
 
 - **Content** — every editable dataset in one searchable, tagged list
   (Countries / Cities / Years / Culture / Sports). Add, edit, or remove entries.

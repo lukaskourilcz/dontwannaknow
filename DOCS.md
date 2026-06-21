@@ -281,7 +281,7 @@ Total initial: ~858 kB / ~280 kB gzipped.
 A password-gated admin surface for editing the game's content and settings,
 kept entirely separate from the public app (it's lazy-loaded only when the path
 starts with `/dev`). Open `http://localhost:5173/dev` and enter the password
-(`dontwannaknow123`).
+(`autobus`).
 
 **Content tab** — every editable dataset is loaded into one searchable list,
 tagged by category (Countries, Cities, Years, Culture, Sports) and by derived
