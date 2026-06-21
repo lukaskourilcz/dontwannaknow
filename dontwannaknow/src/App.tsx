@@ -12,8 +12,14 @@ import { reportFor, type Person, type PersonReport } from "./lib/facts";
 import { decodePeopleUrl } from "./lib/share";
 import { LangProvider } from "./i18n/LangContext";
 import { useLang } from "./i18n/useLang";
-// Lightship runs on a single geometric sans (Instrument Sans, the F37Bolton
-// substitute). Imported here (not in main) so the dev console doesn't pull it in.
+// "The Almanac" runs on three voices: Fraunces (warm display serif) for
+// headlines and the big inputs, Newsreader (editorial serif) for the reading,
+// and Instrument Sans for the chrome. Imported here (not in main) so the dev
+// console pulls only what it needs.
+import "@fontsource-variable/fraunces/standard.css";
+import "@fontsource-variable/fraunces/standard-italic.css";
+import "@fontsource-variable/newsreader/standard.css";
+import "@fontsource-variable/newsreader/standard-italic.css";
 import "@fontsource-variable/instrument-sans/standard.css";
 import "./styles.css";
 
