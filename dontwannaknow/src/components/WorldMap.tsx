@@ -21,7 +21,7 @@ const PALETTE = [
   "#2f3631",
   "#7a8a7d",
   "#404a43",
-  "#93b799",
+  "#a78a63",
 ];
 
 export default function WorldMap({ birthYear }: Props) {

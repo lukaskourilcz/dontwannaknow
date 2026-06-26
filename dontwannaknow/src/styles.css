@@ -1,10 +1,10 @@
 /* ═══════════════════════════════════════════════════════════════════════
    NEWFORM — broadsheet editorial design system
    ───────────────────────────────────────────────────────────────────────
-   Linen canvas (#fafffa), Obsidian ink (#121613), one green accent
-   (Voltage #2bee4b) used only on the CTA, the wordmark, and active states.
+   Linen canvas (#fafffa), Obsidian ink (#121613), one warm accent
+   (sand brown #c08a4e) used only on the CTA, the wordmark, and active states.
    Light only. Cards are defined by radius + padding + type, not borders or
-   shadow. The only box-shadow is the CTA's green glow.
+   shadow. The only box-shadow is the CTA's warm glow.
 
      Playfair Display   (--display)     — display headlines, names, big inputs
      DM Serif Display   (--display-alt) — the front-page masthead
@@ -17,16 +17,16 @@
 :root {
   color-scheme: light;
 
-  /* ── Colour · Linen canvas, Obsidian ink, one neon green ─────────────── */
+  /* ── Colour · Linen canvas, Obsidian ink, one sand-brown accent ─────────────── */
   --color-linen:        #fafffa; /* page canvas + card surfaces */
   --color-obsidian-ink: #121613; /* primary text, dominant borders, dark fill */
   --color-pure-black:   #000000; /* hard borders, icon strokes, deepest text */
   --color-bark:         #232924; /* secondary dark surface, layered depth */
   --color-sage:         #516254; /* muted heading text, secondary borders */
   --color-mist:         #c8d2c8; /* hairline dividers, quiet borders */
-  --color-voltage:      #2bee4b; /* the action / accent green */
-  --color-moss-glow:    #93b799; /* green supporting accent (decoration only) */
-  --color-pollen:       #c4e4c9; /* gray-green supporting accent (decoration) */
+  --color-voltage:      #c08a4e; /* the action / accent — sand brown */
+  --color-moss-glow:    #c9a878; /* sand supporting accent (decoration only) */
+  --color-pollen:       #e7d8bc; /* pale sand supporting accent (decoration) */
 
   /* Semantic aliases used throughout the component layer */
   --bg:           var(--color-linen);
@@ -40,15 +40,15 @@
   --rule:         var(--color-mist);
   --rule-strong:  #aebcae;
   --accent:       var(--color-voltage);
-  --accent-dark:  #1ea838; /* voltage for text on light — keeps contrast */
+  --accent-dark:  #8a5a28; /* sand brown for text on light — keeps contrast */
   --accent-soft:  var(--color-pollen);
-  --accent-tint:  #eef8ef;
+  --accent-tint:  #f4ebdd;
   --cool:         var(--color-sage);
   --cool-dark:    #3c4a3f;
   --cool-soft:    #e3ece4;
   --gold:         var(--color-sage);
   --success:      #1ea838;
-  --on-accent:    var(--color-obsidian-ink); /* type sits on the green */
+  --on-accent:    var(--color-obsidian-ink); /* type sits on the accent */
   --scrim:        rgba(250, 255, 250, 0.86);
 
   /* ── Typography ─────────────────────────────────────────────────────── */
@@ -67,13 +67,13 @@
   /* ── Radius · editorial crops, soft buttons ─────────────────────────── */
   --r-sm: 5px; --r-md: 14px; --r-lg: 14px; --r-pill: 10px;
 
-  /* ── Elevation · the one and only shadow is the CTA's green glow ─────── */
+  /* ── Elevation · the one and only shadow is the CTA's warm glow ─────── */
   --shadow-sm: none;
   --shadow-md: none;
-  --shadow-lg: rgba(16, 94, 29, 0.45) 1px 8px 20px 0px,
-    rgba(18, 146, 39, 0.25) 1px 8px 20px 0px;
-  --shadow-cta: rgba(16, 94, 29, 0.45) 1px 8px 20px 0px,
-    rgba(18, 146, 39, 0.25) 1px 8px 20px 0px;
+  --shadow-lg: rgba(120, 78, 30, 0.42) 1px 8px 20px 0px,
+    rgba(150, 105, 45, 0.22) 1px 8px 20px 0px;
+  --shadow-cta: rgba(120, 78, 30, 0.42) 1px 8px 20px 0px,
+    rgba(150, 105, 45, 0.22) 1px 8px 20px 0px;
 
   /* ── Motion ─────────────────────────────────────────────────────────── */
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
@@ -105,29 +105,55 @@ html, body, #root {
 
 body {
   min-height: 100vh;
-  /* Linen canvas: a barely-there green breath top and bottom, never breaking
+  /* Linen canvas: a barely-there warm breath top and bottom, never breaking
      into a dark surface. The page stays Linen from masthead to footer. */
   background-color: var(--color-linen);
   background-image:
     radial-gradient(120% 70% at 50% -10%, var(--accent-tint), transparent 55%),
-    radial-gradient(90% 60% at 100% 110%, rgba(147, 183, 153, 0.12), transparent 52%);
+    radial-gradient(90% 60% at 100% 110%, rgba(190, 150, 90, 0.12), transparent 52%);
   background-attachment: fixed;
   letter-spacing: -0.01em;
 }
 
-/* A very subtle star field behind the content — a quiet nod to the night-sky
-   chart in the report. Sparse sage specks on the Linen canvas, low opacity so
-   it reads as texture, never decoration. Opaque cards sit on top of it. */
-body::before {
+/* A subtle, slowly drifting star field behind the content — a quiet nod to the
+   night-sky chart in the report. Two layers move at different speeds for a
+   gentle parallax; the near layer also twinkles. Opaque cards sit on top.
+   Both layers freeze under prefers-reduced-motion (global rule below). */
+body::before,
+body::after {
   content: "";
   position: fixed;
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  opacity: 0.5;
   background-repeat: repeat;
+  will-change: background-position;
+}
+/* Near layer: denser specks in warm taupe + a few sand accents */
+body::before {
+  opacity: 0.72;
   background-size: 300px 300px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cg fill='%23516254'%3E%3Ccircle cx='24' cy='36' r='1'/%3E%3Ccircle cx='60' cy='200' r='0.8'/%3E%3Ccircle cx='110' cy='52' r='1.1'/%3E%3Ccircle cx='168' cy='120' r='0.7'/%3E%3Ccircle cx='232' cy='40' r='0.9'/%3E%3Ccircle cx='40' cy='250' r='0.8'/%3E%3Ccircle cx='210' cy='224' r='1'/%3E%3Ccircle cx='150' cy='180' r='0.6'/%3E%3Ccircle cx='96' cy='140' r='0.8'/%3E%3Ccircle cx='266' cy='160' r='0.7'/%3E%3Ccircle cx='28' cy='120' r='0.6'/%3E%3Ccircle cx='198' cy='80' r='0.8'/%3E%3Ccircle cx='160' cy='20' r='0.7'/%3E%3Ccircle cx='84' cy='280' r='0.6'/%3E%3Ccircle cx='280' cy='262' r='0.9'/%3E%3Ccircle cx='128' cy='248' r='0.7'/%3E%3Ccircle cx='250' cy='110' r='0.6'/%3E%3Ccircle cx='70' cy='90' r='0.7'/%3E%3C/g%3E%3Cg fill='%2393b799'%3E%3Ccircle cx='130' cy='100' r='1.2'/%3E%3Ccircle cx='292' cy='205' r='1'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cg fill='%236b5d4a'%3E%3Ccircle cx='24' cy='36' r='1'/%3E%3Ccircle cx='60' cy='200' r='0.8'/%3E%3Ccircle cx='110' cy='52' r='1.1'/%3E%3Ccircle cx='168' cy='120' r='0.7'/%3E%3Ccircle cx='232' cy='40' r='0.9'/%3E%3Ccircle cx='40' cy='250' r='0.8'/%3E%3Ccircle cx='210' cy='224' r='1'/%3E%3Ccircle cx='150' cy='180' r='0.6'/%3E%3Ccircle cx='96' cy='140' r='0.8'/%3E%3Ccircle cx='266' cy='160' r='0.7'/%3E%3Ccircle cx='28' cy='120' r='0.6'/%3E%3Ccircle cx='198' cy='80' r='0.8'/%3E%3Ccircle cx='160' cy='20' r='0.7'/%3E%3Ccircle cx='84' cy='280' r='0.6'/%3E%3Ccircle cx='280' cy='262' r='0.9'/%3E%3Ccircle cx='128' cy='248' r='0.7'/%3E%3Ccircle cx='250' cy='110' r='0.6'/%3E%3Ccircle cx='70' cy='90' r='0.7'/%3E%3C/g%3E%3Cg fill='%23c08a4e'%3E%3Ccircle cx='130' cy='100' r='1.3'/%3E%3Ccircle cx='292' cy='205' r='1.1'/%3E%3Ccircle cx='44' cy='160' r='1'/%3E%3C/g%3E%3C/svg%3E");
+  animation: star-drift-near 200s linear infinite, star-twinkle 9s ease-in-out infinite;
+}
+/* Far layer: sparser, larger, fainter — drifts the opposite way for depth */
+body::after {
+  opacity: 0.42;
+  background-size: 220px 220px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cg fill='%238a7a64'%3E%3Ccircle cx='40' cy='60' r='1.3'/%3E%3Ccircle cx='150' cy='30' r='1'/%3E%3Ccircle cx='190' cy='150' r='1.2'/%3E%3Ccircle cx='80' cy='170' r='1'/%3E%3Ccircle cx='120' cy='110' r='1.4'/%3E%3Ccircle cx='20' cy='130' r='0.9'/%3E%3C/g%3E%3C/svg%3E");
+  animation: star-drift-far 320s linear infinite;
+}
+@keyframes star-drift-near {
+  from { background-position: 0 0; }
+  to   { background-position: 300px 300px; }
+}
+@keyframes star-drift-far {
+  from { background-position: 0 0; }
+  to   { background-position: -220px 220px; }
+}
+@keyframes star-twinkle {
+  0%, 100% { opacity: 0.6; }
+  50%      { opacity: 0.82; }
 }
 
 ::selection { background: var(--color-voltage); color: var(--color-obsidian-ink); }
@@ -242,7 +268,7 @@ button.secondary {
     box-shadow 0.2s var(--ease-out);
 }
 
-/* Voltage CTA — fill #2bee4b, Obsidian text, uppercase, green glow */
+/* Voltage CTA — sand-brown fill, Obsidian text, uppercase, warm glow */
 button.primary {
   background: var(--color-voltage);
   color: var(--color-obsidian-ink);
@@ -463,7 +489,7 @@ button.link:hover {
   padding: 0.7rem 2.8rem 0.7rem 1.1rem;
   background-repeat: no-repeat;
   background-position: right 1.1rem center;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='10' viewBox='0 0 15 10'%3E%3Cpath d='M1.5 2L7.5 8 13.5 2' fill='none' stroke='%232bee4b' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='10' viewBox='0 0 15 10'%3E%3Cpath d='M1.5 2L7.5 8 13.5 2' fill='none' stroke='%23c08a4e' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
 }
 
 .wizard-actions {
@@ -775,7 +801,7 @@ button.link:hover {
 }
 .hero-stat.accent .hero-stat-value { color: var(--color-obsidian-ink); }
 
-/* ── Section divider — the absence of a line is the divider; a green tick
+/* ── Section divider — the absence of a line is the divider; a sand tick
    and a quiet label carry the rhythm ────────────────────────────────────── */
 .section-divider {
   display: flex;
@@ -1180,7 +1206,7 @@ button.link:hover {
 .row select {
   appearance: none;
   -webkit-appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%232bee4b' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%23c08a4e' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   padding-right: 1.8rem;
