@@ -52,7 +52,7 @@ function parseDate(input: string): ParsedDate | null {
   return null;
 }
 
-type Step = "intro" | "label" | "gender" | "year" | "country" | "city" | "more" | "review";
+type Step = "intro" | "label" | "gender" | "year" | "country" | "city" | "more";
 
 const STEP_ORDER: Step[] = ["label", "gender", "year", "country", "city"];
 
@@ -74,7 +74,6 @@ const EMPTY_DRAFT: DraftPerson = {
 
 // First person is "you", second is the person you compare your life with.
 const DEFAULT_LABELS = settings.defaultLabels;
-const MAX_PEOPLE = settings.maxPeople;
 
 export default function TypeformWizard({ onSubmit }: Props) {
   const { t, lang } = useLang();
@@ -100,7 +99,6 @@ export default function TypeformWizard({ onSubmit }: Props) {
   const goBack = () => {
     setError(null);
     if (step === "intro") return;
-    if (step === "review") return setStep("more");
     if (step === "more") return setStep("city");
     const i = STEP_ORDER.indexOf(step as Step);
     if (i > 0) setStep(STEP_ORDER[i - 1]);
@@ -174,28 +172,20 @@ export default function TypeformWizard({ onSubmit }: Props) {
     startWithEmpty();
   };
 
-  const addPersonAndReview = () => {
+  // Finalize the current draft and go straight to the report — no separate
+  // review/confirm step.
+  const addPersonAndFinish = () => {
     const finalized = finalizeDraft();
     if (!finalized) {
       setError(t("form.err.date", { label: draft.label || "?" }));
       setStep("year");
       return;
     }
-    const next = [...people, finalized];
-    setPeople(next);
-    setStep("review");
-  };
-
-  const submit = (list: Person[]) => {
-    if (list.length === 0) {
-      setError(t("form.err.empty"));
-      return;
-    }
-    onSubmit(list);
+    onSubmit([...people, finalized]);
   };
 
   const totalSteps = STEP_ORDER.length;
-  const currentIndex = step === "intro" ? 0 : step === "more" || step === "review"
+  const currentIndex = step === "intro" ? 0 : step === "more"
     ? totalSteps
     : STEP_ORDER.indexOf(step as Step) + 1;
   const progressPct = Math.round((currentIndex / totalSteps) * 100);
@@ -239,10 +229,6 @@ export default function TypeformWizard({ onSubmit }: Props) {
       cs: "Hotovo!",
       en: "Done!",
     },
-    review: {
-      cs: "Tvoje lidé",
-      en: "Your people",
-    },
   };
 
   const renderQuestionText = (s: Step) =>
@@ -255,7 +241,7 @@ export default function TypeformWizard({ onSubmit }: Props) {
 
   return (
     <div className="wizard">
-      {step !== "intro" && step !== "review" && (
+      {step !== "intro" && (
         <div className="wizard-progress">
           <div className="wizard-progress-bar" style={{ width: `${progressPct}%` }} />
           <p className="wizard-progress-text">
@@ -264,7 +250,7 @@ export default function TypeformWizard({ onSubmit }: Props) {
         </div>
       )}
 
-      {step !== "intro" && step !== "review" && (
+      {step !== "intro" && (
         <button type="button" className="wizard-back" onClick={goBack}>
           ← {lang === "cs" ? "Zpět" : "Back"}
         </button>
@@ -486,7 +472,7 @@ export default function TypeformWizard({ onSubmit }: Props) {
                   {lang === "cs" ? "+ Přidat osobu k porovnání" : "+ Add a comparison"}
                 </button>
               )}
-              <button className="primary" type="button" onClick={addPersonAndReview}>
+              <button className="primary" type="button" onClick={addPersonAndFinish}>
                 {(people.length < 1
                   ? lang === "cs"
                     ? "Ukaž mi můj svět"
@@ -495,44 +481,6 @@ export default function TypeformWizard({ onSubmit }: Props) {
                     ? "Ukaž oba světy"
                     : "Show both worlds")}{" "}
                 →
-              </button>
-            </div>
-          </div>
-        )}
-
-        {/* ── REVIEW ──────────────────────────────── */}
-        {step === "review" && (
-          <div className="wizard-step">
-            <h2 className="wizard-question">{renderQuestionText("review")}</h2>
-            <ul className="wizard-review-list">
-              {people.map((p, i) => (
-                <li key={i}>
-                  <strong>{p.label}</strong> · {p.birthYear}
-                  {p.birthMonth ? `-${String(p.birthMonth).padStart(2, "0")}` : ""}
-                  {p.birthDay ? `-${String(p.birthDay).padStart(2, "0")}` : ""}{" "}
-                  · {COUNTRY_LABELS[p.country]}
-                  {p.citySlug ? ` · ${p.citySlug}` : ""}
-                </li>
-              ))}
-            </ul>
-            <div className="wizard-actions wizard-actions-row">
-              {people.length < MAX_PEOPLE && (
-                <button
-                  className="secondary"
-                  type="button"
-                  onClick={() => {
-                    startWithEmpty();
-                  }}
-                >
-                  {lang === "cs" ? "+ Přidat osobu k porovnání" : "+ Add a comparison"}
-                </button>
-              )}
-              <button
-                className="primary"
-                type="button"
-                onClick={() => submit(people)}
-              >
-                {lang === "cs" ? "Ukaž mi jejich svět" : "Show me their world"} →
               </button>
             </div>
           </div>
