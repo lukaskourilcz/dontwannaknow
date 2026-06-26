@@ -426,45 +426,45 @@ button.link:hover {
   text-wrap: pretty;
 }
 
-/* ── Big editorial fields: text input + select share one underline voice ── */
+/* ── Editorial fields: padded boxes, hairline border, Voltage focus ring ── */
 .wizard-input {
   font-family: var(--display);
-  font-size: clamp(1.5rem, 3.8vw, 2.2rem);
+  font-size: clamp(1.4rem, 3.2vw, 2rem);
   font-weight: 400;
-  line-height: 1.1;
-  padding: 0.3rem 0 0.45rem;
-  border: none;
-  border-bottom: 2px solid var(--rule-strong);
-  border-radius: 0;
-  background: transparent;
+  line-height: 1.2;
+  padding: 0.7rem 1.1rem;
+  border: 1.5px solid var(--rule-strong);
+  border-radius: var(--r-md);
+  background: var(--surface);
   color: var(--color-obsidian-ink);
   outline: none;
   width: 100%;
-  max-width: 30rem;
+  max-width: 34rem;
   caret-color: var(--color-voltage);
-  transition: border-color 0.25s var(--ease-out);
+  transition: border-color 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out);
 }
 .wizard-input::placeholder {
   color: var(--muted-soft);
   font-style: italic;
   font-weight: 400;
 }
-.wizard-input:focus { border-bottom-color: var(--color-voltage); }
+.wizard-input:focus {
+  border-color: var(--color-voltage);
+  box-shadow: 0 0 0 3px var(--accent-tint);
+}
 
 .wizard-select {
   font-family: var(--display);
-  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  font-size: clamp(1.3rem, 2.6vw, 1.7rem);
   font-weight: 400;
   appearance: none;
   -webkit-appearance: none;
   cursor: pointer;
-  padding: 0.4rem 2.4rem 0.5rem 0;
-  background-color: transparent;
+  padding: 0.7rem 2.8rem 0.7rem 1.1rem;
   background-repeat: no-repeat;
-  background-position: right 0.4rem center;
+  background-position: right 1.1rem center;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='10' viewBox='0 0 15 10'%3E%3Cpath d='M1.5 2L7.5 8 13.5 2' fill='none' stroke='%232bee4b' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
 }
-.wizard-select:focus { border-bottom-color: var(--color-voltage); }
 
 .wizard-actions {
   display: flex;
@@ -1274,12 +1274,15 @@ input[type="number"] { -moz-appearance: textfield; appearance: textfield; }
 .country-card:focus-visible,
 .wizard-back:focus-visible,
 button.link:focus-visible,
-.wordmark:focus-visible,
-.wizard-input:focus-visible,
-.wizard-select:focus-visible {
+.wordmark:focus-visible {
   outline: 2px solid var(--color-obsidian-ink);
   outline-offset: 2px;
   border-radius: var(--r-sm);
+}
+/* Inputs carry their own Voltage focus ring (see .wizard-input:focus) */
+.wizard-select:focus-visible {
+  border-color: var(--color-voltage);
+  box-shadow: 0 0 0 3px var(--accent-tint);
 }
 
 a, button, summary, [role="tab"],
