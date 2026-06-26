@@ -1,174 +1,122 @@
 ---
-# THE ALMANAC — design tokens (machine-readable)
-# Warm editorial archive for "Don't wanna know". Tokens are normative; the
-# prose below explains how to apply them. Source of truth: src/styles.css.
+# NEWFORM — design tokens (machine-readable)
+# A broadsheet financial broadside for "Don't wanna know". Tokens are
+# normative; the prose below explains how to apply them.
+# Source of truth: src/styles.css.
 
-name: The Almanac
-mood: [warm, editorial, nostalgic, archival, tactile, unhurried]
+name: NewForm
+mood: [editorial, broadsheet, financial, spacious, monochrome, surgical]
+theme: light            # light top to bottom — the page never breaks into a dark hero
 
 color:
-  light:
-    bg: "#f6efe1"          # almanac paper
-    bg-tint: "#efe5d2"      # canvas vignette edge
-    surface: "#fffdf8"      # card paper (warm white)
-    surface-warm: "#f3ead8" # secondary panel
-    surface-sunk: "#efe5d2" # sunken field fill
-    ink: "#221d18"          # headlines + primary text (warm near-black)
-    ink-soft: "#45392e"     # body prose
-    muted: "#6e6256"        # captions, labels
-    muted-soft: "#9a8b78"   # faint helper text
-    rule: "#e4d9c5"         # hairline
-    rule-strong: "#d3c5ac"  # stronger rule / field underline
-    accent: "#c14a2b"       # persimmon — CTAs, marks, drop cap, active
-    accent-dark: "#a23c20"  # persimmon for text on light
-    accent-soft: "#f3dccd"  # light persimmon wash
-    accent-tint: "#fbeee4"  # faintest persimmon wash
-    cool: "#2f5e6b"         # deep petrol — links + editorial detail
-    cool-dark: "#234a55"
-    cool-soft: "#dde8e7"
-    gold: "#a9772a"         # warm gold — almanac flourishes
-    on-accent: "#fdf6ec"    # type on accent / ink fills
-  dark:
-    bg: "#161210"
-    surface: "#221c17"
-    ink: "#f1e8d9"
-    ink-soft: "#d8ccb9"
-    muted: "#a3937f"
-    rule: "#34291f"
-    accent: "#e26a40"
-    cool: "#74b4c0"
-    gold: "#d2a458"
-    on-accent: "#161210"
+  linen:        "#fafffa"   # page canvas + card surfaces (faintly green near-white)
+  obsidian-ink: "#121613"   # primary text, dominant borders, image frames
+  pure-black:   "#000000"   # hard borders, icon strokes, deepest text
+  bark:         "#232924"   # secondary dark surface, layered depth
+  sage:         "#516254"   # muted heading text, secondary borders
+  mist:         "#c8d2c8"   # hairline dividers, quiet borders
+  voltage:      "#2bee4b"   # the action / accent green — CTA, marks, ticks only
+  moss-glow:    "#93b799"   # green supporting accent (decoration only)
+  pollen:       "#c4e4c9"   # gray-green supporting accent (decoration only)
 
 type:
-  display: '"Fraunces Variable", "Iowan Old Style", "Hoefler Text", Georgia, serif'
-  serif:   '"Newsreader Variable", "Iowan Old Style", Georgia, serif'
-  sans:    '"Instrument Sans Variable", -apple-system, "Segoe UI", Roboto, sans-serif'
-  mono:    '"SF Mono", ui-monospace, "JetBrains Mono", monospace'
+  display:     '"Playfair Display", Georgia, serif'        # Editorial New substitute
+  display-alt: '"DM Serif Display", "Playfair Display", serif' # PP Mondwest substitute
+  sans:        '"Inter Variable", ui-sans-serif, system-ui, sans-serif' # TWK Lausanne substitute
+  serif:       '"Times New Roman", Times, serif'           # tiny captions / broadsheet body
   scale:   # clamp(min, fluid, max)
-    hero:      "clamp(2.3rem, 7vw, 4.2rem)"
-    h2-name:   "clamp(2rem, 5vw, 2.9rem)"
-    question:  "clamp(1.95rem, 5.2vw, 3rem)"
-    input:     "clamp(1.7rem, 4.6vw, 2.6rem)"
-    reading:   "1.22rem"        # essay body
-    fact:      "1.12rem"
-    kicker:    "0.7rem"         # uppercase, 0.18–0.20em tracking
-  weights: { display: 460-560, serif: 400-560, sans: 500-600 }
+    hero:      "clamp(3rem, 11vw, 8.5rem)"   # Editorial New, line-height 0.90
+    name:      "clamp(2.6rem, 8vw, 5.5rem)"
+    question:  "clamp(2.2rem, 6vw, 4rem)"
+    input:     "clamp(1.9rem, 5vw, 3rem)"
+    body:      "16-18px"                      # Inter 350/400
+    caption:   "11px"                         # uppercase, 0.11em tracking
+  weights: { sans: 350-550, display: 400-500 }
+  leading: { display: 0.90, body: 1.40 }      # 0.90 on display is the signature
 
-space: { 1: 4px, 2: 8px, 3: 12px, 4: 16px, 5: 24px, 6: 32px, 7: 48px, 8: 64px }
-radius: { sm: 8px, md: 14px, lg: 18px, pill: 999px }
+space: { 1: 4px, 2: 8px, 3: 12px, 4: 20px, 5: 32px, 6: 50px, 7: 80px, 8: 120px, 9: 190px }
+radius: { sm: 5px, cards: 14px, images: 14px, buttons: 10px }
 shadow:
-  sm: "0 1px 2px rgba(40,30,20,.06), 0 1px 1px rgba(40,30,20,.04)"
-  md: "0 2px 6px rgba(40,30,20,.06), 0 12px 28px rgba(40,30,20,.09)"
-  lg: "0 28px 64px rgba(40,30,20,.15)"
+  # The ONLY shadow on the site — the green glow under the Voltage CTA.
+  cta: "rgba(16,94,29,.45) 1px 8px 20px 0, rgba(18,146,39,.25) 1px 8px 20px 0"
 ease: { out: "cubic-bezier(.22,1,.36,1)", spring: "cubic-bezier(.34,1.4,.5,1)" }
 ---
 
-# The Almanac
+# NewForm
 
 A design language for **Don't wanna know** — a site that takes a birth year and
 birthplace and tells you the world your parents and grandparents lived through.
-The product is nostalgic, emotional and full of curated history (it even prints a
-vintage front page), so the interface is built to feel like a **warm editorial
-archive**: ink on almanac paper, set in serif, with one confident accent.
+It reads as an **editorial financial publication**: a near-white, faintly
+green-tinted canvas holds massive serif display type that does the heavy
+lifting, while a single neon green acts as surgical punctuation. UI chrome is
+stripped to almost nothing — a split wordmark, a quiet label, a green mark —
+letting the typography and imagery own every page.
 
-This replaces the earlier flat, monochrome "Lightship" treatment, which read as
-cold and generic for a product whose whole subject is memory and time.
-
-## Inspiration
-
-Drawn from the editorial / almanac branch of the public `DESIGN.md` collections
-(VoltAgent's *awesome-design-md*, Google's `design.md` spec):
-
-- **WIRED** — paper-white broadsheet density, a custom serif display face, mono
-  uppercase kickers, a single editorial link accent.
-- **Notion** — warm minimalism, serif headings, soft surfaces.
-- **Mastercard** — warm cream canvas, editorial warmth.
-
-The takeaway: warmth + serif display + a restrained, *used* accent beat cool,
-flat monochrome for anything humane.
-
-## Overview & personality
-
-Paper, not screen. Unhurried, literate, a little vintage — the texture of an old
-almanac or a well-set magazine — without tipping into pastiche. Every screen
-should feel like a page worth keeping.
+This replaces the warm "Almanac" treatment with a colder, more confident
+broadsheet register.
 
 ## Colour
 
-A warm, near-monochrome paper-and-ink base with a deliberate three-mark accent
-system. The canvas carries a faint persimmon glow at the top and a gold breath at
-the foot, plus a 4%-opacity paper grain so it reads as stock.
+A near-monochrome ink-on-Linen base with **one** chromatic mark.
 
-- **Persimmon `accent`** is the lead. It fills the primary button, draws the
-  essay drop cap, tops every person card, and marks the active choice. Use it
-  where you want the eye to go.
-- **Petrol `cool`** is the editorial counter-mark: text links, and a few cool
-  category bullets. Never a fill.
-- **Gold** is reserved for almanac flourishes — the card's top rule gradient, the
-  newspaper rules, a couple of "value" bullets. Sparing.
+- **Voltage `#2bee4b`** is the entire colour system. It appears only on the
+  filled CTA, the `know` half of the wordmark, the `‖` nav mark, short tick
+  accents, the progress bar, active states, and a couple of data marks (the
+  life-grid, a few fact bullets). Never on body text, headings, or large fills.
+- Everything else is **Obsidian ink** on **Linen**, with **Sage** for muted
+  copy and **Mist** for hairlines.
+- Do not add a second saturated colour. Do not break the Linen canvas with a
+  dark hero. Imagery is black-and-white / desaturated only.
 
-Everything else is warm neutrals. Dark mode is a warm espresso, not black.
-
-## Typography — three voices
+## Typography
 
 | Voice | Family | Used for |
 |-------|--------|----------|
-| Display | **Fraunces** (opsz) | hero, headings, names, the big inputs, stat figures, drop cap |
-| Reading | **Newsreader** | essays, facts, captions, ledes, the disclaimer (italic) |
-| Chrome | **Instrument Sans** | kickers/eyebrows, buttons, toggles, labels, progress |
+| Display | **Playfair Display** (Editorial New) | hero, names, section/question headlines, big inputs, stat figures |
+| Display-alt | **DM Serif Display** (PP Mondwest) | the broadsheet masthead — the rare architectural moment |
+| UI / body | **Inter** (TWK Lausanne) | everything: chrome, labels, body, essays, lists |
+| Caption | **Times** | tiny serif captions, the front-page broadsheet body, the disclaimer |
 
-Headlines set tight (`-0.02` to `-0.025em`) at display optical sizes. Kickers are
-uppercase Instrument Sans at `0.18–0.20em` tracking. Reading copy is Newsreader at
-`1.22rem / 1.7`, measure capped at `64ch`. Numbers in stats use `tabular-nums`.
+Display headlines set at **line-height 0.90** with tight tracking (-0.02 to
+-0.03em) so lines visually lock together — this is the signature. Body is Inter
+350–400 at 16–18px. Captions are uppercase Inter at 11px / 0.11em tracking.
 
 ## Layout
 
-Single reading column, `max-width: 820px`, centred. A two-person comparison breaks
-out wider (`min(1140px, 94vw)`) into two cards. Sections are separated by a
-centred rule-and-✦ divider with generous air above (`--s-8`).
-
-## Elevation & depth
-
-Soft, warm, low-contrast shadows (see `shadow.*`) — the system has depth again.
-Cards lift on hover (`translateY(-3px)` + `shadow-md`). The paper grain and canvas
-vignette supply ambient texture; avoid hard or cool-grey shadows.
-
-## Shapes
-
-Gentle, print-considered corners: `md: 14px` for cards and choice tiles, `lg:
-18px` for the big person cards, full `pill` only for buttons and segmented
-toggles. The wizard's text input and select are **borderless underlined fields**
-(2.5px rule that turns persimmon on focus) so the form reads as one voice.
+A wide editorial frame (`max-width: 1180px`) with the reading column centred
+inside it (`880px`). Sections are separated by **80–120px of whitespace** plus a
+short green tick + uppercase label — *the absence of a line is the divider*. No
+card grids, no alternating background bands; the page reads top-to-bottom as a
+scrollable broadsheet.
 
 ## Components
 
-- **Primary button** — solid persimmon, cream text, soft shadow, lifts on hover.
-  This is the confident CTA the old system lacked.
-- **Secondary button** — warm surface, hairline border → ink on hover.
-- **Link button** — petrol text, underline on hover.
-- **Inputs** — large Fraunces fields on a single underline; placeholder is muted
-  italic; caret is persimmon. Text input and `<select>` share the underline so
-  they never look mismatched.
-- **Choice cards** (country/gender) — warm card, hover lift, persimmon border +
-  tint + corner dot when active.
-- **Person card** — warm surface, persimmon→gold top rule, rises in on mount.
-- **Stat cards** — warm panels; the "accent" variant fills persimmon-soft.
-- **Essay** — Newsreader, drop cap on the first paragraph, hairline between
-  paragraphs, uppercase persimmon kickers.
-- **Front page** — an always-warm parchment artifact (Fraunces masthead, double
-  rules); intentionally light in both themes, like a clipping under glass.
+- **Voltage CTA** — the only filled button. `#2bee4b` fill, Obsidian text,
+  uppercase 14px Inter 550, 10px radius, a `→` glyph, and a dual-layer green
+  glow (never a neutral-grey shadow).
+- **Ghost links** — secondary actions and `Menu`/footer links: no fill, Inter
+  350, underline on hover.
+- **Cards** (person, choice, stat) — Linen surface, 14px radius, defined by a
+  hairline + padding + type change, **not** by elevation. The only "shadow" is
+  the CTA glow.
+- **Nav header** — wordmark left (`dontwanna` in ink + `know` in Voltage), a
+  quiet label + green `‖` mark right. Non-sticky.
+- **Accent tick** — short ~44–52px × 2px Voltage lines near headlines and
+  section transitions; visual rests against the monochrome field.
+- **Front page** — a broadsheet artifact: ink on Linen, double-rule masthead in
+  DM Serif Display, Times body.
 
 ## Do
 
-- Reach for the accent to guide attention, then stop.
-- Keep the three type voices in their lanes.
-- Let sections breathe; trust the hairline + ✦ dividers.
-- Keep depth soft and warm.
+- Reserve Voltage for the CTA, the `‖` mark, tick accents, and active states.
+- Set display at line-height 0.90 so the lines lock together.
+- Let the Linen canvas carry the page; cards are type + radius, not borders.
+- Keep imagery monochrome and framed at 14px.
 
 ## Don't
 
-- Don't go flat/monochrome — that's what made the prior design feel boring.
-- Don't fill with petrol or gold; they are marks, not surfaces.
-- Don't set body copy in the sans or headlines in Newsreader.
-- Don't add cool-grey shadows or hard borders to the warm surfaces.
+- Don't introduce a second saturated colour or a neutral-grey shadow.
+- Don't use box-shadows outside the CTA.
+- Don't set display at 1.0+ line-height.
+- Don't break the Linen canvas with a dark hero section.
+- Don't use Inter weights above 550.

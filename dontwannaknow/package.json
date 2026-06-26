@@ -15,7 +15,10 @@
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.2.9",
     "@fontsource-variable/instrument-sans": "^5.2.8",
+    "@fontsource-variable/inter": "^5.2.8",
     "@fontsource-variable/newsreader": "^5.2.10",
+    "@fontsource/dm-serif-display": "^5.2.8",
+    "@fontsource/playfair-display": "^5.2.8",
     "astronomy-engine": "^2.1.19",
     "dompurify": "^3.2.4",
     "html2canvas": "^1.4.1",

@@ -12,15 +12,18 @@ import { reportFor, type Person, type PersonReport } from "./lib/facts";
 import { decodePeopleUrl } from "./lib/share";
 import { LangProvider } from "./i18n/LangContext";
 import { useLang } from "./i18n/useLang";
-// "The Almanac" runs on three voices: Fraunces (warm display serif) for
-// headlines and the big inputs, Newsreader (editorial serif) for the reading,
-// and Instrument Sans for the chrome. Imported here (not in main) so the dev
+// "NewForm" runs on an editorial type system: Inter (TWK Lausanne substitute)
+// for all UI, body and chrome; Playfair Display (Editorial New substitute) for
+// the literary display headlines; DM Serif Display (PP Mondwest substitute) for
+// the rare architectural mega-statement. Imported here (not in main) so the dev
 // console pulls only what it needs.
-import "@fontsource-variable/fraunces/standard.css";
-import "@fontsource-variable/fraunces/standard-italic.css";
-import "@fontsource-variable/newsreader/standard.css";
-import "@fontsource-variable/newsreader/standard-italic.css";
-import "@fontsource-variable/instrument-sans/standard.css";
+import "@fontsource-variable/inter/standard.css";
+import "@fontsource-variable/inter/standard-italic.css";
+import "@fontsource/playfair-display/400.css";
+import "@fontsource/playfair-display/500.css";
+import "@fontsource/playfair-display/600.css";
+import "@fontsource/playfair-display/700.css";
+import "@fontsource/dm-serif-display/400.css";
 import "./styles.css";
 
 // Code-split the heavy result page so the wizard loads fast.
@@ -99,6 +102,22 @@ function AppInner() {
 
   return (
     <div className="page">
+      <header className="nav-header">
+        <button
+          type="button"
+          className="wordmark"
+          onClick={handleReset}
+          aria-label="dontwannaknow — home"
+        >
+          <span className="wordmark-ink">dontwanna</span>
+          <span className="wordmark-volt">know</span>
+        </button>
+        <div className="nav-right">
+          <span className="nav-menu">Almanac</span>
+          <span className="nav-mark" aria-hidden="true">‖</span>
+        </div>
+      </header>
+
       <div className="lang-bar">
         <LangToggle />
       </div>

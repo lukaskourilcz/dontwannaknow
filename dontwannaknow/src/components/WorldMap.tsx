@@ -6,20 +6,22 @@ type Props = {
   birthYear: number;
 };
 
-// A handful of colours to distinguish overlapping former states on the map.
+// A desaturated, near-monochrome green-gray ramp to distinguish overlapping
+// former states. NewForm keeps imagery monochrome — no second saturated hue —
+// so the map reads as a B&W editorial crop, distinction by tone alone.
 const PALETTE = [
-  "#b45a32",
-  "#3f6d4e",
-  "#7a4b8a",
-  "#c98b1e",
-  "#2f6b8f",
-  "#a23a3a",
-  "#5d6f1c",
-  "#8b5a2b",
-  "#4a4e8a",
-  "#9b3f6a",
-  "#3f8a6b",
-  "#7a5a2b",
+  "#121613",
+  "#516254",
+  "#3a443c",
+  "#6f8073",
+  "#232924",
+  "#8a988c",
+  "#465049",
+  "#5d6f60",
+  "#2f3631",
+  "#7a8a7d",
+  "#404a43",
+  "#93b799",
 ];
 
 export default function WorldMap({ birthYear }: Props) {
@@ -50,17 +52,17 @@ export default function WorldMap({ birthYear }: Props) {
         role="img"
         aria-label={`World map showing countries that no longer exist as of ${birthYear}`}
       >
-        <rect x="0" y="0" width="1000" height="500" fill="#eadfc7" />
+        <rect x="0" y="0" width="1000" height="500" fill="#eef2ee" />
         <g>
           {entries.map(([iso, c]) => {
             const g = isoToGone.get(iso);
-            const fill = g ? colorFor(g) : "#cdbf9f";
+            const fill = g ? colorFor(g) : "#cdd6cd";
             return (
               <path
                 key={iso}
                 d={c.d}
                 fill={fill}
-                stroke="#fbf6ec"
+                stroke="#fafffa"
                 strokeWidth={0.5}
                 strokeLinejoin="round"
               >
