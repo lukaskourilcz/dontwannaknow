@@ -108,28 +108,27 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
   return (
     <div className="results">
       <div className="results-header">
-        <h2>{t("results.heading")}</h2>
+        <div className="view-toggle" role="tablist" aria-label="Režim zobrazení">
+          <button
+            type="button"
+            role="tab"
+            aria-selected={view === "essay"}
+            className={view === "essay" ? "active" : ""}
+            onClick={() => setView("essay")}
+          >
+            {t("results.essay")}
+          </button>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={view === "facts"}
+            className={view === "facts" ? "active" : ""}
+            onClick={() => setView("facts")}
+          >
+            {t("results.facts")}
+          </button>
+        </div>
         <div className="results-actions">
-          <div className="view-toggle" role="tablist" aria-label="Režim zobrazení">
-            <button
-              type="button"
-              role="tab"
-              aria-selected={view === "essay"}
-              className={view === "essay" ? "active" : ""}
-              onClick={() => setView("essay")}
-            >
-              {t("results.essay")}
-            </button>
-            <button
-              type="button"
-              role="tab"
-              aria-selected={view === "facts"}
-              className={view === "facts" ? "active" : ""}
-              onClick={() => setView("facts")}
-            >
-              {t("results.facts")}
-            </button>
-          </div>
           <button className="secondary" type="button" onClick={onRegenerate}>
             {t("results.shuffle")}
           </button>
