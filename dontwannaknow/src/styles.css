@@ -1,21 +1,17 @@
 /* ═══════════════════════════════════════════════════════════════════════
-   NEWFORM — a broadsheet financial broadside
+   NEWFORM — broadsheet editorial design system
    ───────────────────────────────────────────────────────────────────────
-   An editorial publication disguised as a website. A faintly green-tinted
-   near-white canvas (Linen) holds massive serif display type that does the
-   heavy lifting, while a single neon green (Voltage #2bee4b) acts as surgical
-   punctuation on the CTA and small decorative marks. UI chrome is stripped to
-   almost nothing — type and imagery own every page.
+   Linen canvas (#fafffa), Obsidian ink (#121613), one green accent
+   (Voltage #2bee4b) used only on the CTA, the wordmark, and active states.
+   Light only. Cards are defined by radius + padding + type, not borders or
+   shadow. The only box-shadow is the CTA's green glow.
 
-     · Playfair Display  (--display)     — literary hero / section headlines
-     · DM Serif Display   (--display-alt) — the rare architectural statement
-     · Inter              (--sans)        — all UI, body, chrome, labels
-     · Times              (--serif)       — tiny serif captions & broadsheet body
+     Playfair Display   (--display)     — display headlines, names, big inputs
+     DM Serif Display   (--display-alt) — the front-page masthead
+     Inter              (--sans)        — all UI, body, chrome, labels
+     Times              (--serif)       — small captions & broadsheet body
 
-   Light, top to bottom. The page never breaks into a dark hero. Cards are
-   defined by radius + padding + type, not borders or elevation. The only
-   shadow on the page is the green glow under the Voltage CTA.
-   See DESIGN.md for the rationale.
+   See DESIGN.md for the full token set.
    ═══════════════════════════════════════════════════════════════════════ */
 
 :root {
@@ -141,12 +137,12 @@ body {
 }
 
 /* ═══════════════════════════════════════════════════════════════════════
-   Nav header — wordmark left, a quiet label + green mark right
+   Nav header — just the wordmark
    ═══════════════════════════════════════════════════════════════════════ */
 .nav-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: var(--s-4);
   padding: var(--s-2) 0 var(--s-6);
 }
@@ -166,27 +162,6 @@ body {
 .wordmark-ink  { color: var(--color-obsidian-ink); }
 .wordmark-volt { color: var(--color-voltage); }
 .wordmark:hover .wordmark-ink { opacity: 0.7; }
-
-.nav-right {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--s-3);
-}
-.nav-menu {
-  font-family: var(--sans);
-  font-weight: 350;
-  font-size: 14px;
-  color: var(--color-obsidian-ink);
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
-}
-.nav-mark {
-  font-weight: 700;
-  font-size: 16px;
-  color: var(--color-voltage);
-  line-height: 1;
-  letter-spacing: -0.08em;
-}
 
 .lang-bar {
   display: none; /* Czech-only for now; toggle + i18n still work underneath */
@@ -531,9 +506,9 @@ button.link:hover {
 .country-card.active::after {
   content: "";
   position: absolute;
-  top: 0.8rem; right: 0.8rem;
-  width: 22px; height: 2px;
-  border-radius: 2px;
+  top: 0.9rem; right: 0.9rem;
+  width: 7px; height: 7px;
+  border-radius: 50%;
   background: var(--color-voltage);
 }
 .country-card-name {
@@ -590,9 +565,7 @@ button.link:hover {
 }
 
 .eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6em;
+  display: inline-block;
   text-transform: uppercase;
   letter-spacing: 0.11em;
   font-family: var(--sans);
@@ -603,13 +576,6 @@ button.link:hover {
   padding: 0;
   background: none;
   text-wrap: balance;
-}
-.eyebrow::before {
-  content: "";
-  width: 44px;
-  height: 2px;
-  background: var(--color-voltage);
-  display: inline-block;
 }
 
 .wizard-hero-title {
@@ -682,14 +648,6 @@ button.link:hover {
   overflow: visible;
   animation: card-rise 0.6s var(--ease-out) both;
 }
-.person-card::before {
-  content: "";
-  position: absolute;
-  top: -0.2rem; left: 0;
-  width: 52px;
-  height: 2px;
-  background: var(--color-voltage);
-}
 @keyframes card-rise {
   from { opacity: 0; transform: translateY(16px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -732,8 +690,8 @@ button.link:hover {
   align-items: center;
 }
 .person-sub .dot {
-  width: 18px; height: 2px;
-  border-radius: 2px;
+  width: 3px; height: 3px;
+  border-radius: 50%;
   background: var(--color-voltage);
   display: inline-block;
 }
@@ -821,15 +779,6 @@ button.link:hover {
   color: var(--color-sage);
   font-weight: 350;
   white-space: nowrap;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.7em;
-}
-.section-divider-label::before {
-  content: "";
-  width: 44px;
-  height: 2px;
-  background: var(--color-voltage);
   display: inline-block;
 }
 
@@ -852,16 +801,7 @@ button.link:hover {
   text-transform: uppercase;
   color: var(--color-sage);
   margin: 0 0 var(--s-3);
-  display: inline-flex;
-  align-items: center;
-  gap: 0.7em;
-}
-.essay-paragraph h4::before {
-  content: "";
-  width: 44px;
-  height: 2px;
-  background: var(--color-voltage);
-  display: inline-block;
+  display: block;
 }
 .essay-paragraph p {
   font-family: var(--sans);
@@ -948,24 +888,6 @@ button.link:hover {
 }
 .facts li:last-child { border-bottom: none; }
 .facts li strong { font-family: var(--display); font-weight: 500; color: var(--color-obsidian-ink); }
-
-/* Category marks — monochrome, with Voltage reserved for a couple of beats */
-.facts-bizarre li::before   { content: "—  "; color: var(--color-voltage); }
-.facts-beautiful li::before { content: "—  "; color: var(--color-voltage); }
-.facts-world li::before     { content: "—  "; color: var(--color-sage); }
-.facts-everyday li::before  { content: "—  "; color: var(--color-sage); }
-.facts-youth li::before     { content: "—  "; color: var(--color-sage); }
-.facts-city li::before      { content: "—  "; color: var(--color-sage); }
-.facts-local li::before     { content: "—  "; color: var(--color-voltage); }
-.facts-government li::before { content: "—  "; color: var(--color-sage); }
-.facts-famous li::before    { content: "—  "; color: var(--color-sage); }
-.facts-clothes li::before   { content: "—  "; color: var(--color-sage); }
-.facts-illness li::before   { content: "—  "; color: var(--color-sage); }
-.facts-daily li::before     { content: "—  "; color: var(--color-sage); }
-.facts-food li::before      { content: "—  "; color: var(--color-sage); }
-.facts-money li::before     { content: "—  "; color: var(--color-sage); }
-.facts-writers li::before   { content: "—  "; color: var(--color-sage); }
-.facts-media li::before     { content: "—  "; color: var(--color-sage); }
 
 /* ═══════════════════════════════════════════════════════════════════════
    The front page — a broadsheet artifact, ink on Linen

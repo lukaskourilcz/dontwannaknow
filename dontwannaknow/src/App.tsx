@@ -107,15 +107,11 @@ function AppInner() {
           type="button"
           className="wordmark"
           onClick={handleReset}
-          aria-label="dontwannaknow — home"
+          aria-label="dontwannaknow home"
         >
           <span className="wordmark-ink">dontwanna</span>
           <span className="wordmark-volt">know</span>
         </button>
-        <div className="nav-right">
-          <span className="nav-menu">Almanac</span>
-          <span className="nav-mark" aria-hidden="true">‖</span>
-        </div>
       </header>
 
       <div className="lang-bar">
