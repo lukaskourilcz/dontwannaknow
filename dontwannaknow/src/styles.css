@@ -801,6 +801,90 @@ button.link:hover {
 }
 .hero-stat.accent .hero-stat-value { color: var(--color-obsidian-ink); }
 
+/* ── Report overview — stats stacked at left, the weeks map filling the right.
+   Single-person report only; on desktop it breaks out to fill the spread so
+   the map runs tall and peeks below the fold, inviting a scroll. ─────────── */
+.report-overview {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--s-5);
+  margin: var(--s-5) 0 var(--s-6);
+}
+.report-overview .hero-summary { margin: 0; grid-template-columns: 1fr; }
+.report-overview .report-weeks .section-divider { margin-top: 0; }
+.report-overview .life-grid { margin-top: var(--s-3); }
+
+/* Year brief — the year's events + what things cost, folded into the hero */
+.year-brief {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-5);
+}
+.brief-label {
+  font-family: var(--sans);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  color: var(--color-sage);
+  font-weight: 350;
+  margin: 0 0 var(--s-3);
+}
+.year-events ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.year-events li {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+  color: var(--color-obsidian-ink);
+  padding: var(--s-3) 0;
+  border-bottom: 1px solid var(--rule);
+  text-wrap: pretty;
+}
+.year-events li:first-child { padding-top: 0; }
+.year-events li:last-child { border-bottom: none; }
+.year-prices p {
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--ink-soft);
+  margin: 0;
+  text-wrap: pretty;
+}
+
+/* Single-person report fills the desktop spread */
+@media (min-width: 980px) {
+  .results-single {
+    width: min(1180px, 94vw);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /* Keep the long-form reading at a comfortable measure inside the wide spread */
+  .results-single .facts,
+  .results-single .essay { max-width: 70ch; }
+
+  /* Three columns: stacked stats | year brief | tall weeks map */
+  .results-single .report-overview {
+    grid-template-columns: minmax(180px, 220px) minmax(0, 1fr) minmax(300px, 400px);
+    gap: var(--s-6);
+    align-items: start;
+  }
+  /* Stats always stack in their column */
+  .results-single .report-overview .hero-summary { grid-template-columns: 1fr; }
+  /* The map fills its column and runs tall, peeking below the fold */
+  .results-single .report-overview .life-grid {
+    max-width: 100%;
+    margin: var(--s-3) 0 0;
+  }
+}
+
 /* ── Section divider — the absence of a line is the divider; a sand tick
    and a quiet label carry the rhythm ────────────────────────────────────── */
 .section-divider {
@@ -929,92 +1013,6 @@ button.link:hover {
 }
 .facts li:last-child { border-bottom: none; }
 .facts li strong { font-family: var(--display); font-weight: 500; color: var(--color-obsidian-ink); }
-
-/* ═══════════════════════════════════════════════════════════════════════
-   The front page — a broadsheet artifact, ink on Linen
-   ═══════════════════════════════════════════════════════════════════════ */
-.newspaper {
-  margin: 1.4rem 0 0;
-  padding: var(--s-5) var(--s-5) var(--s-6);
-  background: var(--color-linen);
-  border: 1px solid var(--color-obsidian-ink);
-  border-radius: var(--r-md);
-  font-family: var(--serif);
-  color: var(--color-obsidian-ink);
-}
-.newspaper-masthead {
-  text-align: center;
-  font-family: var(--display-alt);
-  font-weight: 400;
-  letter-spacing: -0.02em;
-  font-size: clamp(1.5rem, 4vw, 2.2rem);
-  border-bottom: 4px double var(--color-obsidian-ink);
-  border-top: 1px solid var(--color-obsidian-ink);
-  padding: 0.45rem 0 0.55rem;
-  margin: 0 0 0.45rem;
-  color: var(--color-obsidian-ink);
-  text-transform: uppercase;
-}
-.newspaper-date {
-  text-align: center;
-  font-family: var(--serif);
-  font-size: 14px;
-  font-style: italic;
-  color: var(--color-sage);
-  margin: 0 0 0.6rem;
-}
-.newspaper hr {
-  border: none;
-  border-top: 1px solid var(--color-obsidian-ink);
-  margin: 0.6rem 0;
-}
-.newspaper-headline {
-  font-family: var(--display);
-  font-weight: 500;
-  font-size: clamp(1.3rem, 3vw, 1.8rem);
-  line-height: 1.05;
-  letter-spacing: -0.02em;
-  margin: 0.55rem 0 0.6rem;
-  text-align: center;
-  text-wrap: balance;
-}
-.newspaper-subheads {
-  list-style: none;
-  padding: 0;
-  margin: 0.3rem 0 0;
-  text-align: center;
-  font-size: 16px;
-  font-style: italic;
-  color: var(--ink-soft);
-}
-.newspaper-subheads li { margin: 0.18rem 0; }
-.newspaper-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--s-5);
-  margin-top: var(--s-4);
-}
-.newspaper-columns h3 {
-  font-family: var(--sans);
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.11em;
-  color: var(--color-sage);
-  font-weight: 350;
-  margin: 0 0 0.35rem;
-  border-bottom: 1px solid var(--color-obsidian-ink);
-  padding-bottom: 0.2rem;
-}
-.newspaper-columns p { font-size: 16px; line-height: 1.45; margin: 0; }
-.newspaper-stub {
-  font-style: italic;
-  text-align: center;
-  color: var(--color-sage);
-  margin: 0.6rem 0 0;
-}
-@media (max-width: 540px) {
-  .newspaper-columns { grid-template-columns: 1fr; }
-}
 
 /* ═══════════════════════════════════════════════════════════════════════
    Life-in-weeks grid
@@ -1367,7 +1365,7 @@ button.secondary:active,
     .world-map,
     .sky-map,
     .life-grid,
-    .newspaper,
+    .year-brief,
     .essay-paragraph,
     .facts {
       animation: reveal-up linear both;

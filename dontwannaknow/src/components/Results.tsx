@@ -4,7 +4,7 @@ import { pairReport } from "../lib/facts";
 import WorldMap from "./WorldMap";
 import SkyMap from "./SkyMap";
 import LifeGrid from "./LifeGrid";
-import Newspaper from "./Newspaper";
+import HeroBrief from "./HeroBrief";
 import { CITY_COORDS } from "../data/cityCoords";
 import { lifeExpectancyFor } from "../data/lifeExpectancy";
 import { buildShareUrl } from "../lib/share";
@@ -106,7 +106,7 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
   };
 
   return (
-    <div className="results">
+    <div className={reports.length > 1 ? "results results-pair" : "results results-single"}>
       <div className="results-header">
         <div className="view-toggle" role="tablist" aria-label="Režim zobrazení">
           <button
@@ -203,21 +203,29 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
               </div>
             </header>
 
-            <HeroSummary report={r} />
-
-            <SectionDivider label={lang === "cs" ? "Život v týdnech" : "Life in weeks"} />
-            <LifeGrid
-              weeksLived={weeksSince(
-                birthDateUTC(
-                  r.person.birthYear,
-                  r.person.birthMonth,
-                  r.person.birthDay,
-                ),
-              )}
-              ageNow={r.ageNow}
-              label={r.person.label}
-              lifeExpectancyYears={lifeExpectancyFor(r.person.country, r.person.gender)}
-            />
+            <div className="report-overview">
+              <div className="report-stats">
+                <HeroSummary report={r} />
+              </div>
+              <div className="report-brief">
+                <HeroBrief person={r.person} />
+              </div>
+              <div className="report-weeks">
+                <SectionDivider label={lang === "cs" ? "Život v týdnech" : "Life in weeks"} />
+                <LifeGrid
+                  weeksLived={weeksSince(
+                    birthDateUTC(
+                      r.person.birthYear,
+                      r.person.birthMonth,
+                      r.person.birthDay,
+                    ),
+                  )}
+                  ageNow={r.ageNow}
+                  label={r.person.label}
+                  lifeExpectancyYears={lifeExpectancyFor(r.person.country, r.person.gender)}
+                />
+              </div>
+            </div>
 
             {r.person.birthMonth &&
               r.person.birthDay &&
@@ -250,9 +258,6 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
 
             <SectionDivider label={lang === "cs" ? "Svět" : "The world"} />
             <WorldMap birthYear={r.person.birthYear} />
-
-            <SectionDivider label={lang === "cs" ? "Titulní strana" : "The front page"} />
-            <Newspaper person={r.person} />
 
             <SectionDivider
               label={
