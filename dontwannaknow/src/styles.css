@@ -382,8 +382,8 @@ button.link:hover {
 .wizard-question {
   font-family: var(--display);
   font-weight: 400;
-  font-size: clamp(2.2rem, 6vw, 4rem);
-  line-height: 0.95;
+  font-size: clamp(1.8rem, 4.5vw, 2.8rem);
+  line-height: 0.98;
   letter-spacing: -0.02em;
   color: var(--color-obsidian-ink);
   margin: 0;
@@ -402,7 +402,7 @@ button.link:hover {
 
 .wizard-lede {
   font-family: var(--sans);
-  font-size: clamp(1.05rem, 1.6vw, 1.18rem);
+  font-size: clamp(0.98rem, 1.3vw, 1.08rem);
   font-weight: 350;
   color: var(--ink-soft);
   line-height: 1.4;
@@ -414,7 +414,7 @@ button.link:hover {
 /* ── Big editorial fields: text input + select share one underline voice ── */
 .wizard-input {
   font-family: var(--display);
-  font-size: clamp(1.9rem, 5vw, 3rem);
+  font-size: clamp(1.5rem, 3.8vw, 2.2rem);
   font-weight: 400;
   line-height: 1.1;
   padding: 0.3rem 0 0.45rem;
@@ -438,7 +438,7 @@ button.link:hover {
 
 .wizard-select {
   font-family: var(--display);
-  font-size: clamp(1.5rem, 3.6vw, 2.1rem);
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
   font-weight: 400;
   appearance: none;
   -webkit-appearance: none;
@@ -515,7 +515,7 @@ button.link:hover {
   display: block;
   font-family: var(--display);
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   line-height: 1.1;
   letter-spacing: -0.01em;
 }
@@ -581,12 +581,12 @@ button.link:hover {
 .wizard-hero-title {
   font-family: var(--display);
   font-weight: 400;
-  font-size: clamp(3rem, 11vw, 8.5rem);
-  line-height: 0.9;
+  font-size: clamp(2.4rem, 7vw, 5rem);
+  line-height: 0.92;
   letter-spacing: -0.03em;
   color: var(--color-obsidian-ink);
   margin: var(--s-2) 0 var(--s-1);
-  max-width: 14ch;
+  max-width: 15ch;
   text-wrap: balance;
 }
 
@@ -621,7 +621,7 @@ button.link:hover {
 .results-header h2 {
   font-family: var(--display);
   font-weight: 400;
-  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-size: clamp(1.4rem, 3vw, 1.95rem);
   line-height: 0.95;
   letter-spacing: -0.02em;
   margin: 0;
@@ -672,8 +672,8 @@ button.link:hover {
 .person-header h3 {
   font-family: var(--display);
   font-weight: 400;
-  font-size: clamp(2.6rem, 8vw, 5.5rem);
-  line-height: 0.9;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  line-height: 0.92;
   letter-spacing: -0.03em;
   margin: 0 0 var(--s-3);
   color: var(--color-obsidian-ink);
@@ -731,7 +731,7 @@ button.link:hover {
 }
 .hero-stat-value {
   font-family: var(--display);
-  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-size: clamp(1.5rem, 3.4vw, 2.2rem);
   white-space: nowrap;
   line-height: 0.95;
   letter-spacing: -0.03em;
@@ -805,9 +805,9 @@ button.link:hover {
 }
 .essay-paragraph p {
   font-family: var(--sans);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 350;
-  line-height: 1.5;
+  line-height: 1.55;
   color: var(--ink-soft);
   margin: 0;
   text-align: left;
@@ -816,10 +816,10 @@ button.link:hover {
 }
 .essay-paragraph:first-child p::first-letter {
   font-family: var(--display);
-  font-size: 4.4rem;
+  font-size: 3.4rem;
   font-weight: 400;
   float: left;
-  line-height: 0.78;
+  line-height: 0.8;
   padding: 0.06em 0.16em 0 0;
   color: var(--color-obsidian-ink);
 }
@@ -906,7 +906,7 @@ button.link:hover {
   font-family: var(--display-alt);
   font-weight: 400;
   letter-spacing: -0.02em;
-  font-size: clamp(1.8rem, 5vw, 2.8rem);
+  font-size: clamp(1.5rem, 4vw, 2.2rem);
   border-bottom: 4px double var(--color-obsidian-ink);
   border-top: 1px solid var(--color-obsidian-ink);
   padding: 0.45rem 0 0.55rem;
@@ -930,8 +930,8 @@ button.link:hover {
 .newspaper-headline {
   font-family: var(--display);
   font-weight: 500;
-  font-size: clamp(1.5rem, 4vw, 2.2rem);
-  line-height: 1.0;
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  line-height: 1.05;
   letter-spacing: -0.02em;
   margin: 0.55rem 0 0.6rem;
   text-align: center;
@@ -1215,14 +1215,14 @@ button.link:hover {
 .error-boundary-inner h2 {
   font-family: var(--display);
   font-weight: 400;
-  font-size: clamp(2rem, 5vw, 3rem);
-  line-height: 0.95;
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  line-height: 0.98;
   margin: 0 0 var(--s-4);
   letter-spacing: -0.02em;
 }
 .error-boundary-msg {
   font-family: var(--sans);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 350;
   line-height: 1.45;
   color: var(--ink-soft);
