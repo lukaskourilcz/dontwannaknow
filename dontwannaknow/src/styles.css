@@ -115,6 +115,21 @@ body {
   letter-spacing: -0.01em;
 }
 
+/* A very subtle star field behind the content — a quiet nod to the night-sky
+   chart in the report. Sparse sage specks on the Linen canvas, low opacity so
+   it reads as texture, never decoration. Opaque cards sit on top of it. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.5;
+  background-repeat: repeat;
+  background-size: 300px 300px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cg fill='%23516254'%3E%3Ccircle cx='24' cy='36' r='1'/%3E%3Ccircle cx='60' cy='200' r='0.8'/%3E%3Ccircle cx='110' cy='52' r='1.1'/%3E%3Ccircle cx='168' cy='120' r='0.7'/%3E%3Ccircle cx='232' cy='40' r='0.9'/%3E%3Ccircle cx='40' cy='250' r='0.8'/%3E%3Ccircle cx='210' cy='224' r='1'/%3E%3Ccircle cx='150' cy='180' r='0.6'/%3E%3Ccircle cx='96' cy='140' r='0.8'/%3E%3Ccircle cx='266' cy='160' r='0.7'/%3E%3Ccircle cx='28' cy='120' r='0.6'/%3E%3Ccircle cx='198' cy='80' r='0.8'/%3E%3Ccircle cx='160' cy='20' r='0.7'/%3E%3Ccircle cx='84' cy='280' r='0.6'/%3E%3Ccircle cx='280' cy='262' r='0.9'/%3E%3Ccircle cx='128' cy='248' r='0.7'/%3E%3Ccircle cx='250' cy='110' r='0.6'/%3E%3Ccircle cx='70' cy='90' r='0.7'/%3E%3C/g%3E%3Cg fill='%2393b799'%3E%3Ccircle cx='130' cy='100' r='1.2'/%3E%3Ccircle cx='292' cy='205' r='1'/%3E%3C/g%3E%3C/svg%3E");
+}
+
 ::selection { background: var(--color-voltage); color: var(--color-obsidian-ink); }
 
 /* ── Page shell ─────────────────────────────────────────────────────────── */
