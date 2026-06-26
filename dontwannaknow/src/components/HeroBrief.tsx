@@ -6,8 +6,7 @@ import type { Person } from "../lib/facts";
 import { CITY_FACTS } from "../data/cities";
 import { COUNTRY_EVENTS } from "../data/countryEvents";
 import { EVENTS } from "../data/events";
-import { statsForYear } from "../data/stats";
-import { fmtMoney, fmtGasPerLitre } from "../lib/money";
+import { economyFor, fmtPrice } from "../data/localEconomy";
 import { capitalize } from "../lib/text";
 import { useLang } from "../i18n/useLang";
 
@@ -40,7 +39,7 @@ export default function HeroBrief({ person }: Props) {
     ...worldFacts.map((e) => e.text),
   ].slice(0, 4);
 
-  const stats = statsForYear(birthYear);
+  const eco = economyFor(person.country, birthYear);
 
   return (
     <div className="year-brief">
@@ -61,17 +60,15 @@ export default function HeroBrief({ person }: Props) {
         <h4 className="brief-label">{lang === "cs" ? "Co co stálo" : "What it cost"}</h4>
         {lang === "cs" ? (
           <p>
-            Chléb {fmtMoney(stats.loafOfBreadUsd, person.country)} za bochník,
-            litr benzinu {fmtGasPerLitre(stats.gallonOfGasUsd, person.country)}.
-            Průměrná roční mzda kolem{" "}
-            {fmtMoney(stats.usAverageAnnualWageUsd, person.country)}.
+            Chléb {fmtPrice(eco.breadLoaf, eco.currency)} za bochník,
+            litr benzinu {fmtPrice(eco.petrolLitre, eco.currency)}.
+            Průměrná měsíční mzda kolem {fmtPrice(eco.monthlyWage, eco.currency)}.
           </p>
         ) : (
           <p>
-            Bread {fmtMoney(stats.loafOfBreadUsd, person.country)} a loaf, a litre
-            of petrol {fmtGasPerLitre(stats.gallonOfGasUsd, person.country)}. The
-            average annual wage was around{" "}
-            {fmtMoney(stats.usAverageAnnualWageUsd, person.country)}.
+            Bread {fmtPrice(eco.breadLoaf, eco.currency)} a loaf, a litre of
+            petrol {fmtPrice(eco.petrolLitre, eco.currency)}. The average monthly
+            wage was around {fmtPrice(eco.monthlyWage, eco.currency)}.
           </p>
         )}
       </section>
