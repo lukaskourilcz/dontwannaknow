@@ -1,0 +1,1555 @@
+{
+  "CZE": {
+    "1960": {
+      "pop": 9602006,
+      "lifeExp": 70.3
+    },
+    "1961": {
+      "pop": 9586651,
+      "lifeExp": 70.5
+    },
+    "1962": {
+      "pop": 9624660,
+      "lifeExp": 69.8
+    },
+    "1963": {
+      "pop": 9670685,
+      "lifeExp": 70.3
+    },
+    "1964": {
+      "pop": 9727804,
+      "lifeExp": 70.5
+    },
+    "1965": {
+      "pop": 9779358,
+      "lifeExp": 70.2
+    },
+    "1966": {
+      "pop": 9821040,
+      "lifeExp": 70.4
+    },
+    "1967": {
+      "pop": 9852899,
+      "lifeExp": 70.3
+    },
+    "1968": {
+      "pop": 9876346,
+      "lifeExp": 69.8
+    },
+    "1969": {
+      "pop": 9896580,
+      "lifeExp": 69.4
+    },
+    "1970": {
+      "pop": 9858071,
+      "lifeExp": 69.4
+    },
+    "1971": {
+      "pop": 9826815,
+      "lifeExp": 69.7
+    },
+    "1972": {
+      "pop": 9867632,
+      "lifeExp": 70.2
+    },
+    "1973": {
+      "pop": 9922266,
+      "lifeExp": 70
+    },
+    "1974": {
+      "pop": 9988459,
+      "lifeExp": 70.1
+    },
+    "1975": {
+      "pop": 10058620,
+      "lifeExp": 70.4
+    },
+    "1976": {
+      "pop": 10125939,
+      "lifeExp": 70.5
+    },
+    "1977": {
+      "pop": 10186755,
+      "lifeExp": 70.6
+    },
+    "1978": {
+      "pop": 10242098,
+      "lifeExp": 70.6
+    },
+    "1979": {
+      "pop": 10292341,
+      "lifeExp": 70.7
+    },
+    "1980": {
+      "pop": 10304193,
+      "lifeExp": 70.3
+    },
+    "1981": {
+      "pop": 10300591,
+      "lifeExp": 70.7
+    },
+    "1982": {
+      "pop": 10314826,
+      "lifeExp": 70.8
+    },
+    "1983": {
+      "pop": 10323856,
+      "lifeExp": 70.6
+    },
+    "1984": {
+      "pop": 10330213,
+      "lifeExp": 70.8
+    },
+    "1985": {
+      "pop": 10337118,
+      "lifeExp": 71
+    },
+    "1986": {
+      "pop": 10342227,
+      "lifeExp": 71
+    },
+    "1987": {
+      "pop": 10347318,
+      "lifeExp": 71.4
+    },
+    "1988": {
+      "pop": 10355276,
+      "lifeExp": 71.6
+    },
+    "1989": {
+      "pop": 10361068,
+      "lifeExp": 71.7
+    },
+    "1990": {
+      "pop": 10333355,
+      "lifeExp": 71.4,
+      "gdpPerCapita": 3969
+    },
+    "1991": {
+      "pop": 10308578,
+      "lifeExp": 71.9,
+      "gdpPerCapita": 2917
+    },
+    "1992": {
+      "pop": 10319123,
+      "lifeExp": 72.3,
+      "gdpPerCapita": 3397
+    },
+    "1993": {
+      "pop": 10329855,
+      "lifeExp": 72.8,
+      "gdpPerCapita": 3984
+    },
+    "1994": {
+      "pop": 10333587,
+      "lifeExp": 73,
+      "gdpPerCapita": 4663
+    },
+    "1995": {
+      "pop": 10327253,
+      "lifeExp": 73.1,
+      "gdpPerCapita": 5865
+    },
+    "1996": {
+      "pop": 10315241,
+      "lifeExp": 73.7,
+      "gdpPerCapita": 6573
+    },
+    "1997": {
+      "pop": 10304131,
+      "lifeExp": 73.8,
+      "gdpPerCapita": 6069
+    },
+    "1998": {
+      "pop": 10294373,
+      "lifeExp": 74.5,
+      "gdpPerCapita": 6527
+    },
+    "1999": {
+      "pop": 10283860,
+      "lifeExp": 74.7,
+      "gdpPerCapita": 6378
+    },
+    "2000": {
+      "pop": 10255063,
+      "lifeExp": 75,
+      "gdpPerCapita": 6063
+    },
+    "2001": {
+      "pop": 10216605,
+      "lifeExp": 75.2,
+      "gdpPerCapita": 6669
+    },
+    "2002": {
+      "pop": 10196916,
+      "lifeExp": 75.2,
+      "gdpPerCapita": 8101
+    },
+    "2003": {
+      "pop": 10193998,
+      "lifeExp": 75.2,
+      "gdpPerCapita": 9852
+    },
+    "2004": {
+      "pop": 10197101,
+      "lifeExp": 75.7,
+      "gdpPerCapita": 11783
+    },
+    "2005": {
+      "pop": 10211216,
+      "lifeExp": 75.9,
+      "gdpPerCapita": 13442
+    },
+    "2006": {
+      "pop": 10238905,
+      "lifeExp": 76.5,
+      "gdpPerCapita": 15259
+    },
+    "2007": {
+      "pop": 10298828,
+      "lifeExp": 76.7,
+      "gdpPerCapita": 18453
+    },
+    "2008": {
+      "pop": 10384603,
+      "lifeExp": 77,
+      "gdpPerCapita": 22775
+    },
+    "2009": {
+      "pop": 10443936,
+      "lifeExp": 77.1,
+      "gdpPerCapita": 19817
+    },
+    "2010": {
+      "pop": 10474410,
+      "lifeExp": 77.4,
+      "gdpPerCapita": 20160
+    },
+    "2011": {
+      "pop": 10496088,
+      "lifeExp": 77.9,
+      "gdpPerCapita": 22049
+    },
+    "2012": {
+      "pop": 10510785,
+      "lifeExp": 78.1,
+      "gdpPerCapita": 20014
+    },
+    "2013": {
+      "pop": 10514272,
+      "lifeExp": 78.2,
+      "gdpPerCapita": 20260
+    },
+    "2014": {
+      "pop": 10525347,
+      "lifeExp": 78.8,
+      "gdpPerCapita": 20038
+    },
+    "2015": {
+      "pop": 10546059,
+      "lifeExp": 78.6,
+      "gdpPerCapita": 17932
+    },
+    "2016": {
+      "pop": 10566332,
+      "lifeExp": 79,
+      "gdpPerCapita": 18754
+    },
+    "2017": {
+      "pop": 10594438,
+      "lifeExp": 79,
+      "gdpPerCapita": 20913
+    },
+    "2018": {
+      "pop": 10629928,
+      "lifeExp": 79,
+      "gdpPerCapita": 23706
+    },
+    "2019": {
+      "pop": 10671870,
+      "lifeExp": 79.2,
+      "gdpPerCapita": 24063
+    },
+    "2020": {
+      "pop": 10697858,
+      "lifeExp": 78.2,
+      "gdpPerCapita": 23473
+    },
+    "2021": {
+      "pop": 10505772,
+      "lifeExp": 77.2,
+      "gdpPerCapita": 27696
+    },
+    "2022": {
+      "pop": 10672118,
+      "lifeExp": 78.9,
+      "gdpPerCapita": 28282
+    },
+    "2023": {
+      "pop": 10864042,
+      "lifeExp": 79.8,
+      "gdpPerCapita": 31762
+    }
+  },
+  "ESP": {
+    "1960": {
+      "pop": 30455000,
+      "lifeExp": 69.1,
+      "gdpPerCapita": 408
+    },
+    "1961": {
+      "pop": 30739250,
+      "lifeExp": 69.5,
+      "gdpPerCapita": 463
+    },
+    "1962": {
+      "pop": 31023366,
+      "lifeExp": 69.5,
+      "gdpPerCapita": 535
+    },
+    "1963": {
+      "pop": 31296651,
+      "lifeExp": 69.7,
+      "gdpPerCapita": 627
+    },
+    "1964": {
+      "pop": 31609195,
+      "lifeExp": 70.4,
+      "gdpPerCapita": 695
+    },
+    "1965": {
+      "pop": 31954292,
+      "lifeExp": 70.8,
+      "gdpPerCapita": 797
+    },
+    "1966": {
+      "pop": 32283194,
+      "lifeExp": 71.1,
+      "gdpPerCapita": 916
+    },
+    "1967": {
+      "pop": 32682947,
+      "lifeExp": 71.3,
+      "gdpPerCapita": 997
+    },
+    "1968": {
+      "pop": 33113134,
+      "lifeExp": 71.5,
+      "gdpPerCapita": 978
+    },
+    "1969": {
+      "pop": 33441054,
+      "lifeExp": 71.1,
+      "gdpPerCapita": 1109
+    },
+    "1970": {
+      "pop": 33814531,
+      "lifeExp": 72,
+      "gdpPerCapita": 1211
+    },
+    "1971": {
+      "pop": 34224490,
+      "lifeExp": 71.6,
+      "gdpPerCapita": 1361
+    },
+    "1972": {
+      "pop": 34604469,
+      "lifeExp": 72.8,
+      "gdpPerCapita": 1708
+    },
+    "1973": {
+      "pop": 34988947,
+      "lifeExp": 72.6,
+      "gdpPerCapita": 2246
+    },
+    "1974": {
+      "pop": 35373335,
+      "lifeExp": 73,
+      "gdpPerCapita": 2748
+    },
+    "1975": {
+      "pop": 35757900,
+      "lifeExp": 73.3,
+      "gdpPerCapita": 3208
+    },
+    "1976": {
+      "pop": 36137812,
+      "lifeExp": 73.6,
+      "gdpPerCapita": 3277
+    },
+    "1977": {
+      "pop": 36511638,
+      "lifeExp": 74.1,
+      "gdpPerCapita": 3625
+    },
+    "1978": {
+      "pop": 36864898,
+      "lifeExp": 74.3,
+      "gdpPerCapita": 4353
+    },
+    "1979": {
+      "pop": 37191330,
+      "lifeExp": 74.8,
+      "gdpPerCapita": 5766
+    },
+    "1980": {
+      "pop": 37491165,
+      "lifeExp": 75.3,
+      "gdpPerCapita": 6204
+    },
+    "1981": {
+      "pop": 37758631,
+      "lifeExp": 75.5,
+      "gdpPerCapita": 5367
+    },
+    "1982": {
+      "pop": 37986012,
+      "lifeExp": 76.1,
+      "gdpPerCapita": 5156
+    },
+    "1983": {
+      "pop": 38171525,
+      "lifeExp": 75.9,
+      "gdpPerCapita": 4475
+    },
+    "1984": {
+      "pop": 38330364,
+      "lifeExp": 76.3,
+      "gdpPerCapita": 4487
+    },
+    "1985": {
+      "pop": 38469512,
+      "lifeExp": 76.3,
+      "gdpPerCapita": 4696
+    },
+    "1986": {
+      "pop": 38584624,
+      "lifeExp": 76.5,
+      "gdpPerCapita": 6509
+    },
+    "1987": {
+      "pop": 38684815,
+      "lifeExp": 76.7,
+      "gdpPerCapita": 8234
+    },
+    "1988": {
+      "pop": 38766939,
+      "lifeExp": 76.7,
+      "gdpPerCapita": 9696
+    },
+    "1989": {
+      "pop": 38827764,
+      "lifeExp": 76.8,
+      "gdpPerCapita": 10674
+    },
+    "1990": {
+      "pop": 38867322,
+      "lifeExp": 76.8,
+      "gdpPerCapita": 13795
+    },
+    "1991": {
+      "pop": 38966376,
+      "lifeExp": 77,
+      "gdpPerCapita": 14801
+    },
+    "1992": {
+      "pop": 39157685,
+      "lifeExp": 77.4,
+      "gdpPerCapita": 16101
+    },
+    "1993": {
+      "pop": 39361262,
+      "lifeExp": 77.5,
+      "gdpPerCapita": 13330
+    },
+    "1994": {
+      "pop": 39549108,
+      "lifeExp": 77.9,
+      "gdpPerCapita": 13406
+    },
+    "1995": {
+      "pop": 39724050,
+      "lifeExp": 78,
+      "gdpPerCapita": 15461
+    },
+    "1996": {
+      "pop": 39889852,
+      "lifeExp": 78.1,
+      "gdpPerCapita": 16101
+    },
+    "1997": {
+      "pop": 40057389,
+      "lifeExp": 78.6,
+      "gdpPerCapita": 14722
+    },
+    "1998": {
+      "pop": 40223509,
+      "lifeExp": 78.7,
+      "gdpPerCapita": 15382
+    },
+    "1999": {
+      "pop": 40386875,
+      "lifeExp": 78.7,
+      "gdpPerCapita": 15708
+    },
+    "2000": {
+      "pop": 40567864,
+      "lifeExp": 79,
+      "gdpPerCapita": 14743
+    },
+    "2001": {
+      "pop": 40850412,
+      "lifeExp": 79.4,
+      "gdpPerCapita": 15368
+    },
+    "2002": {
+      "pop": 41431558,
+      "lifeExp": 79.6,
+      "gdpPerCapita": 17111
+    },
+    "2003": {
+      "pop": 42187645,
+      "lifeExp": 79.6,
+      "gdpPerCapita": 21522
+    },
+    "2004": {
+      "pop": 42921895,
+      "lifeExp": 79.9,
+      "gdpPerCapita": 24925
+    },
+    "2005": {
+      "pop": 43653155,
+      "lifeExp": 80.2,
+      "gdpPerCapita": 26451
+    },
+    "2006": {
+      "pop": 44397319,
+      "lifeExp": 80.8,
+      "gdpPerCapita": 28422
+    },
+    "2007": {
+      "pop": 45226803,
+      "lifeExp": 80.9,
+      "gdpPerCapita": 32652
+    },
+    "2008": {
+      "pop": 45954106,
+      "lifeExp": 81.2,
+      "gdpPerCapita": 35603
+    },
+    "2009": {
+      "pop": 46362946,
+      "lifeExp": 81.5,
+      "gdpPerCapita": 32280
+    },
+    "2010": {
+      "pop": 46576897,
+      "lifeExp": 81.6,
+      "gdpPerCapita": 30659
+    },
+    "2011": {
+      "pop": 46742697,
+      "lifeExp": 82.5,
+      "gdpPerCapita": 31825
+    },
+    "2012": {
+      "pop": 46773055,
+      "lifeExp": 82.4,
+      "gdpPerCapita": 28456
+    },
+    "2013": {
+      "pop": 46604197,
+      "lifeExp": 83.1,
+      "gdpPerCapita": 29229
+    },
+    "2014": {
+      "pop": 46460733,
+      "lifeExp": 83.2,
+      "gdpPerCapita": 29708
+    },
+    "2015": {
+      "pop": 46422303,
+      "lifeExp": 82.8,
+      "gdpPerCapita": 25982
+    },
+    "2016": {
+      "pop": 46458139,
+      "lifeExp": 83.3,
+      "gdpPerCapita": 26756
+    },
+    "2017": {
+      "pop": 46571232,
+      "lifeExp": 83.3,
+      "gdpPerCapita": 28381
+    },
+    "2018": {
+      "pop": 46782011,
+      "lifeExp": 83.4,
+      "gdpPerCapita": 30602
+    },
+    "2019": {
+      "pop": 47118501,
+      "lifeExp": 83.8,
+      "gdpPerCapita": 29787
+    },
+    "2020": {
+      "pop": 47359424,
+      "lifeExp": 82.2,
+      "gdpPerCapita": 27234
+    },
+    "2021": {
+      "pop": 47443821,
+      "lifeExp": 83.2,
+      "gdpPerCapita": 30799
+    },
+    "2022": {
+      "pop": 47786102,
+      "lifeExp": 83.1,
+      "gdpPerCapita": 30319
+    },
+    "2023": {
+      "pop": 48352528,
+      "lifeExp": 83.9,
+      "gdpPerCapita": 33493
+    }
+  },
+  "USA": {
+    "1960": {
+      "pop": 180671000,
+      "lifeExp": 69.8,
+      "gdpPerCapita": 3000
+    },
+    "1961": {
+      "pop": 183691000,
+      "lifeExp": 70.3,
+      "gdpPerCapita": 3059
+    },
+    "1962": {
+      "pop": 186538000,
+      "lifeExp": 70.1,
+      "gdpPerCapita": 3236
+    },
+    "1963": {
+      "pop": 189242000,
+      "lifeExp": 69.9,
+      "gdpPerCapita": 3366
+    },
+    "1964": {
+      "pop": 191889000,
+      "lifeExp": 70.2,
+      "gdpPerCapita": 3565
+    },
+    "1965": {
+      "pop": 194303000,
+      "lifeExp": 70.2,
+      "gdpPerCapita": 3818
+    },
+    "1966": {
+      "pop": 196560000,
+      "lifeExp": 70.2,
+      "gdpPerCapita": 4136
+    },
+    "1967": {
+      "pop": 198712000,
+      "lifeExp": 70.6,
+      "gdpPerCapita": 4326
+    },
+    "1968": {
+      "pop": 200706000,
+      "lifeExp": 70,
+      "gdpPerCapita": 4685
+    },
+    "1969": {
+      "pop": 202677000,
+      "lifeExp": 70.5,
+      "gdpPerCapita": 5020
+    },
+    "1970": {
+      "pop": 205052000,
+      "lifeExp": 70.8,
+      "gdpPerCapita": 5234
+    },
+    "1971": {
+      "pop": 207661000,
+      "lifeExp": 71.1,
+      "gdpPerCapita": 5609
+    },
+    "1972": {
+      "pop": 209896000,
+      "lifeExp": 71.2,
+      "gdpPerCapita": 6094
+    },
+    "1973": {
+      "pop": 211909000,
+      "lifeExp": 71.4,
+      "gdpPerCapita": 6726
+    },
+    "1974": {
+      "pop": 213854000,
+      "lifeExp": 72,
+      "gdpPerCapita": 7226
+    },
+    "1975": {
+      "pop": 215973000,
+      "lifeExp": 72.6,
+      "gdpPerCapita": 7801
+    },
+    "1976": {
+      "pop": 218035000,
+      "lifeExp": 72.9,
+      "gdpPerCapita": 8592
+    },
+    "1977": {
+      "pop": 220239000,
+      "lifeExp": 73.3,
+      "gdpPerCapita": 9453
+    },
+    "1978": {
+      "pop": 222585000,
+      "lifeExp": 73.4,
+      "gdpPerCapita": 10565
+    },
+    "1979": {
+      "pop": 225055000,
+      "lifeExp": 73.8,
+      "gdpPerCapita": 11674
+    },
+    "1980": {
+      "pop": 227225000,
+      "lifeExp": 73.6,
+      "gdpPerCapita": 12575
+    },
+    "1981": {
+      "pop": 229466000,
+      "lifeExp": 74,
+      "gdpPerCapita": 13976
+    },
+    "1982": {
+      "pop": 231664000,
+      "lifeExp": 74.4,
+      "gdpPerCapita": 14434
+    },
+    "1983": {
+      "pop": 233792000,
+      "lifeExp": 74.5,
+      "gdpPerCapita": 15544
+    },
+    "1984": {
+      "pop": 235825000,
+      "lifeExp": 74.6,
+      "gdpPerCapita": 17121
+    },
+    "1985": {
+      "pop": 237924000,
+      "lifeExp": 74.6,
+      "gdpPerCapita": 18237
+    },
+    "1986": {
+      "pop": 240133000,
+      "lifeExp": 74.6,
+      "gdpPerCapita": 19071
+    },
+    "1987": {
+      "pop": 242289000,
+      "lifeExp": 74.8,
+      "gdpPerCapita": 20039
+    },
+    "1988": {
+      "pop": 244499000,
+      "lifeExp": 74.8,
+      "gdpPerCapita": 21417
+    },
+    "1989": {
+      "pop": 246819000,
+      "lifeExp": 75,
+      "gdpPerCapita": 22857
+    },
+    "1990": {
+      "pop": 249623000,
+      "lifeExp": 75.2,
+      "gdpPerCapita": 23889
+    },
+    "1991": {
+      "pop": 252981000,
+      "lifeExp": 75.4,
+      "gdpPerCapita": 24342
+    },
+    "1992": {
+      "pop": 256514000,
+      "lifeExp": 75.6,
+      "gdpPerCapita": 25419
+    },
+    "1993": {
+      "pop": 259919000,
+      "lifeExp": 75.4,
+      "gdpPerCapita": 26387
+    },
+    "1994": {
+      "pop": 263126000,
+      "lifeExp": 75.6,
+      "gdpPerCapita": 27695
+    },
+    "1995": {
+      "pop": 266278000,
+      "lifeExp": 75.6,
+      "gdpPerCapita": 28691
+    },
+    "1996": {
+      "pop": 269394000,
+      "lifeExp": 76,
+      "gdpPerCapita": 29968
+    },
+    "1997": {
+      "pop": 272657000,
+      "lifeExp": 76.4,
+      "gdpPerCapita": 31459
+    },
+    "1998": {
+      "pop": 275854000,
+      "lifeExp": 76.6,
+      "gdpPerCapita": 32854
+    },
+    "1999": {
+      "pop": 279040000,
+      "lifeExp": 76.6,
+      "gdpPerCapita": 34515
+    },
+    "2000": {
+      "pop": 282162411,
+      "lifeExp": 76.6,
+      "gdpPerCapita": 36330
+    },
+    "2001": {
+      "pop": 284968955,
+      "lifeExp": 76.8,
+      "gdpPerCapita": 37134
+    },
+    "2002": {
+      "pop": 287625193,
+      "lifeExp": 76.9,
+      "gdpPerCapita": 37998
+    },
+    "2003": {
+      "pop": 290107933,
+      "lifeExp": 77,
+      "gdpPerCapita": 39490
+    },
+    "2004": {
+      "pop": 292805298,
+      "lifeExp": 77.5,
+      "gdpPerCapita": 41725
+    },
+    "2005": {
+      "pop": 295516599,
+      "lifeExp": 77.5,
+      "gdpPerCapita": 44123
+    },
+    "2006": {
+      "pop": 298379912,
+      "lifeExp": 77.7,
+      "gdpPerCapita": 46302
+    },
+    "2007": {
+      "pop": 301231207,
+      "lifeExp": 78,
+      "gdpPerCapita": 48050
+    },
+    "2008": {
+      "pop": 304093966,
+      "lifeExp": 78,
+      "gdpPerCapita": 48570
+    },
+    "2009": {
+      "pop": 306771529,
+      "lifeExp": 78.4,
+      "gdpPerCapita": 47195
+    },
+    "2010": {
+      "pop": 309378227,
+      "lifeExp": 78.5,
+      "gdpPerCapita": 48643
+    },
+    "2011": {
+      "pop": 311839461,
+      "lifeExp": 78.6,
+      "gdpPerCapita": 50025
+    },
+    "2012": {
+      "pop": 314339099,
+      "lifeExp": 78.7,
+      "gdpPerCapita": 51708
+    },
+    "2013": {
+      "pop": 316726282,
+      "lifeExp": 78.7,
+      "gdpPerCapita": 53297
+    },
+    "2014": {
+      "pop": 319257560,
+      "lifeExp": 78.8,
+      "gdpPerCapita": 55153
+    },
+    "2015": {
+      "pop": 321815121,
+      "lifeExp": 78.7,
+      "gdpPerCapita": 56849
+    },
+    "2016": {
+      "pop": 324353340,
+      "lifeExp": 78.5,
+      "gdpPerCapita": 57977
+    },
+    "2017": {
+      "pop": 326608609,
+      "lifeExp": 78.5,
+      "gdpPerCapita": 60048
+    },
+    "2018": {
+      "pop": 328529577,
+      "lifeExp": 78.6,
+      "gdpPerCapita": 62876
+    },
+    "2019": {
+      "pop": 330226227,
+      "lifeExp": 78.8,
+      "gdpPerCapita": 65228
+    },
+    "2020": {
+      "pop": 331578104,
+      "lifeExp": 77,
+      "gdpPerCapita": 64465
+    },
+    "2021": {
+      "pop": 332100166,
+      "lifeExp": 76.3,
+      "gdpPerCapita": 71441
+    },
+    "2022": {
+      "pop": 333996304,
+      "lifeExp": 77.4,
+      "gdpPerCapita": 78009
+    },
+    "2023": {
+      "pop": 336755052,
+      "lifeExp": 78.4,
+      "gdpPerCapita": 82587
+    }
+  },
+  "UKR": {
+    "1960": {
+      "pop": 42824093,
+      "lifeExp": 69.4
+    },
+    "1961": {
+      "pop": 43399766,
+      "lifeExp": 70
+    },
+    "1962": {
+      "pop": 43943674,
+      "lifeExp": 70.4
+    },
+    "1963": {
+      "pop": 44462372,
+      "lifeExp": 70.7
+    },
+    "1964": {
+      "pop": 44951156,
+      "lifeExp": 71
+    },
+    "1965": {
+      "pop": 45386892,
+      "lifeExp": 71.1
+    },
+    "1966": {
+      "pop": 45802519,
+      "lifeExp": 71.2
+    },
+    "1967": {
+      "pop": 46215988,
+      "lifeExp": 71.1
+    },
+    "1968": {
+      "pop": 46614325,
+      "lifeExp": 71
+    },
+    "1969": {
+      "pop": 46976256,
+      "lifeExp": 70.8
+    },
+    "1970": {
+      "pop": 47261306,
+      "lifeExp": 70.8
+    },
+    "1971": {
+      "pop": 47573287,
+      "lifeExp": 70.9
+    },
+    "1972": {
+      "pop": 47946893,
+      "lifeExp": 71
+    },
+    "1973": {
+      "pop": 48277121,
+      "lifeExp": 70.8
+    },
+    "1974": {
+      "pop": 48576570,
+      "lifeExp": 70.6
+    },
+    "1975": {
+      "pop": 48865229,
+      "lifeExp": 70.4
+    },
+    "1976": {
+      "pop": 49120842,
+      "lifeExp": 70.1
+    },
+    "1977": {
+      "pop": 49336481,
+      "lifeExp": 70
+    },
+    "1978": {
+      "pop": 49521243,
+      "lifeExp": 69.8
+    },
+    "1979": {
+      "pop": 49721381,
+      "lifeExp": 69.8
+    },
+    "1980": {
+      "pop": 49955152,
+      "lifeExp": 69.8
+    },
+    "1981": {
+      "pop": 50189281,
+      "lifeExp": 69.8
+    },
+    "1982": {
+      "pop": 50402724,
+      "lifeExp": 69.9
+    },
+    "1983": {
+      "pop": 50637029,
+      "lifeExp": 69.9
+    },
+    "1984": {
+      "pop": 50887599,
+      "lifeExp": 70
+    },
+    "1985": {
+      "pop": 51108770,
+      "lifeExp": 70.4
+    },
+    "1986": {
+      "pop": 51318745,
+      "lifeExp": 70.8
+    },
+    "1987": {
+      "pop": 51515732,
+      "lifeExp": 71.2,
+      "gdpPerCapita": 1244
+    },
+    "1988": {
+      "pop": 51724853,
+      "lifeExp": 71,
+      "gdpPerCapita": 1444
+    },
+    "1989": {
+      "pop": 51917817,
+      "lifeExp": 70.8,
+      "gdpPerCapita": 1593
+    },
+    "1990": {
+      "pop": 52054092,
+      "lifeExp": 70.4,
+      "gdpPerCapita": 1564
+    },
+    "1991": {
+      "pop": 52170961,
+      "lifeExp": 69.7,
+      "gdpPerCapita": 1483
+    },
+    "1992": {
+      "pop": 52323671,
+      "lifeExp": 68.9,
+      "gdpPerCapita": 1413
+    },
+    "1993": {
+      "pop": 52350126,
+      "lifeExp": 68.3,
+      "gdpPerCapita": 1254
+    },
+    "1994": {
+      "pop": 52075998,
+      "lifeExp": 67.5,
+      "gdpPerCapita": 1009
+    },
+    "1995": {
+      "pop": 51665539,
+      "lifeExp": 67.1,
+      "gdpPerCapita": 933
+    },
+    "1996": {
+      "pop": 51226109,
+      "lifeExp": 67.1,
+      "gdpPerCapita": 870
+    },
+    "1997": {
+      "pop": 50786885,
+      "lifeExp": 67.7,
+      "gdpPerCapita": 987
+    },
+    "1998": {
+      "pop": 50379731,
+      "lifeExp": 68,
+      "gdpPerCapita": 831
+    },
+    "1999": {
+      "pop": 49976446,
+      "lifeExp": 68,
+      "gdpPerCapita": 632
+    },
+    "2000": {
+      "pop": 49556660,
+      "lifeExp": 67.8,
+      "gdpPerCapita": 653
+    },
+    "2001": {
+      "pop": 49106855,
+      "lifeExp": 67.7,
+      "gdpPerCapita": 800
+    },
+    "2002": {
+      "pop": 48677281,
+      "lifeExp": 67.7,
+      "gdpPerCapita": 903
+    },
+    "2003": {
+      "pop": 48315136,
+      "lifeExp": 67.6,
+      "gdpPerCapita": 1076
+    },
+    "2004": {
+      "pop": 47979507,
+      "lifeExp": 67.5,
+      "gdpPerCapita": 1401
+    },
+    "2005": {
+      "pop": 47585556,
+      "lifeExp": 67.5,
+      "gdpPerCapita": 1875
+    },
+    "2006": {
+      "pop": 47278694,
+      "lifeExp": 67.5,
+      "gdpPerCapita": 2366
+    },
+    "2007": {
+      "pop": 47062798,
+      "lifeExp": 67.7,
+      "gdpPerCapita": 3160
+    },
+    "2008": {
+      "pop": 46819175,
+      "lifeExp": 68.3,
+      "gdpPerCapita": 4018
+    },
+    "2009": {
+      "pop": 46623731,
+      "lifeExp": 69.2,
+      "gdpPerCapita": 2607
+    },
+    "2010": {
+      "pop": 46456003,
+      "lifeExp": 70.2,
+      "gdpPerCapita": 3040
+    },
+    "2011": {
+      "pop": 46307853,
+      "lifeExp": 70.7,
+      "gdpPerCapita": 3657
+    },
+    "2012": {
+      "pop": 46210056,
+      "lifeExp": 71.1,
+      "gdpPerCapita": 3951
+    },
+    "2013": {
+      "pop": 46126770,
+      "lifeExp": 71.5,
+      "gdpPerCapita": 4130
+    },
+    "2014": {
+      "pop": 45972380,
+      "lifeExp": 71.8,
+      "gdpPerCapita": 3055
+    },
+    "2015": {
+      "pop": 45784896,
+      "lifeExp": 72.7,
+      "gdpPerCapita": 2094
+    },
+    "2016": {
+      "pop": 45616832,
+      "lifeExp": 73.4,
+      "gdpPerCapita": 2158
+    },
+    "2017": {
+      "pop": 45436041,
+      "lifeExp": 74,
+      "gdpPerCapita": 2604
+    },
+    "2018": {
+      "pop": 45208907,
+      "lifeExp": 73.6,
+      "gdpPerCapita": 3059
+    },
+    "2019": {
+      "pop": 44957458,
+      "lifeExp": 73.9,
+      "gdpPerCapita": 3620
+    },
+    "2020": {
+      "pop": 44680014,
+      "lifeExp": 73.3,
+      "gdpPerCapita": 3710
+    },
+    "2021": {
+      "pop": 44298640,
+      "lifeExp": 71.6,
+      "gdpPerCapita": 4776
+    },
+    "2022": {
+      "pop": 41048766,
+      "lifeExp": 72.7,
+      "gdpPerCapita": 4200
+    },
+    "2023": {
+      "pop": 37732836,
+      "lifeExp": 73.4,
+      "gdpPerCapita": 5140
+    }
+  },
+  "WLD": {
+    "1960": {
+      "pop": 3021512598,
+      "lifeExp": 50.9,
+      "gdpPerCapita": 453
+    },
+    "1961": {
+      "pop": 3062768116,
+      "lifeExp": 52.8,
+      "gdpPerCapita": 472
+    },
+    "1962": {
+      "pop": 3117372187,
+      "lifeExp": 55.3,
+      "gdpPerCapita": 496
+    },
+    "1963": {
+      "pop": 3184063049,
+      "lifeExp": 55.7,
+      "gdpPerCapita": 525
+    },
+    "1964": {
+      "pop": 3251249170,
+      "lifeExp": 56.1,
+      "gdpPerCapita": 564
+    },
+    "1965": {
+      "pop": 3318979339,
+      "lifeExp": 55.9,
+      "gdpPerCapita": 602
+    },
+    "1966": {
+      "pop": 3389042165,
+      "lifeExp": 56.4,
+      "gdpPerCapita": 639
+    },
+    "1967": {
+      "pop": 3458932230,
+      "lifeExp": 56.9,
+      "gdpPerCapita": 664
+    },
+    "1968": {
+      "pop": 3530576858,
+      "lifeExp": 57.3,
+      "gdpPerCapita": 703
+    },
+    "1969": {
+      "pop": 3604694154,
+      "lifeExp": 57.7,
+      "gdpPerCapita": 761
+    },
+    "1970": {
+      "pop": 3680493750,
+      "lifeExp": 57.9,
+      "gdpPerCapita": 818
+    },
+    "1971": {
+      "pop": 3758515396,
+      "lifeExp": 58,
+      "gdpPerCapita": 885
+    },
+    "1972": {
+      "pop": 3834345191,
+      "lifeExp": 58.8,
+      "gdpPerCapita": 1002
+    },
+    "1973": {
+      "pop": 3910964219,
+      "lifeExp": 59.3,
+      "gdpPerCapita": 1202
+    },
+    "1974": {
+      "pop": 3987186772,
+      "lifeExp": 59.7,
+      "gdpPerCapita": 1362
+    },
+    "1975": {
+      "pop": 4061959945,
+      "lifeExp": 60.1,
+      "gdpPerCapita": 1489
+    },
+    "1976": {
+      "pop": 4135644231,
+      "lifeExp": 60.5,
+      "gdpPerCapita": 1590
+    },
+    "1977": {
+      "pop": 4208840894,
+      "lifeExp": 61,
+      "gdpPerCapita": 1766
+    },
+    "1978": {
+      "pop": 4283309396,
+      "lifeExp": 61.4,
+      "gdpPerCapita": 2055
+    },
+    "1979": {
+      "pop": 4359930896,
+      "lifeExp": 61.8,
+      "gdpPerCapita": 2335
+    },
+    "1980": {
+      "pop": 4437473406,
+      "lifeExp": 62.2,
+      "gdpPerCapita": 2587
+    },
+    "1981": {
+      "pop": 4516792587,
+      "lifeExp": 62.5,
+      "gdpPerCapita": 2629
+    },
+    "1982": {
+      "pop": 4599385851,
+      "lifeExp": 62.9,
+      "gdpPerCapita": 2554
+    },
+    "1983": {
+      "pop": 4682734714,
+      "lifeExp": 63.1,
+      "gdpPerCapita": 2561
+    },
+    "1984": {
+      "pop": 4765813206,
+      "lifeExp": 63.4,
+      "gdpPerCapita": 2614
+    },
+    "1985": {
+      "pop": 4850494238,
+      "lifeExp": 63.7,
+      "gdpPerCapita": 2691
+    },
+    "1986": {
+      "pop": 4937459951,
+      "lifeExp": 64.1,
+      "gdpPerCapita": 3119
+    },
+    "1987": {
+      "pop": 5026770385,
+      "lifeExp": 64.5,
+      "gdpPerCapita": 3488
+    },
+    "1988": {
+      "pop": 5116898810,
+      "lifeExp": 64.7,
+      "gdpPerCapita": 3830
+    },
+    "1989": {
+      "pop": 5207378374,
+      "lifeExp": 65,
+      "gdpPerCapita": 3931
+    },
+    "1990": {
+      "pop": 5298962018,
+      "lifeExp": 65.1,
+      "gdpPerCapita": 4339
+    },
+    "1991": {
+      "pop": 5388203305,
+      "lifeExp": 65.3,
+      "gdpPerCapita": 4454
+    },
+    "1992": {
+      "pop": 5476822930,
+      "lifeExp": 65.5,
+      "gdpPerCapita": 4680
+    },
+    "1993": {
+      "pop": 5564459142,
+      "lifeExp": 65.7,
+      "gdpPerCapita": 4685
+    },
+    "1994": {
+      "pop": 5650534421,
+      "lifeExp": 66,
+      "gdpPerCapita": 4967
+    },
+    "1995": {
+      "pop": 5736205135,
+      "lifeExp": 66.2,
+      "gdpPerCapita": 5463
+    },
+    "1996": {
+      "pop": 5822327903,
+      "lifeExp": 66.5,
+      "gdpPerCapita": 5507
+    },
+    "1997": {
+      "pop": 5908180322,
+      "lifeExp": 66.8,
+      "gdpPerCapita": 5409
+    },
+    "1998": {
+      "pop": 5993730786,
+      "lifeExp": 67.1,
+      "gdpPerCapita": 5302
+    },
+    "1999": {
+      "pop": 6078069822,
+      "lifeExp": 67.3,
+      "gdpPerCapita": 5401
+    },
+    "2000": {
+      "pop": 6161528496,
+      "lifeExp": 67.7,
+      "gdpPerCapita": 5513
+    },
+    "2001": {
+      "pop": 6244739668,
+      "lifeExp": 67.9,
+      "gdpPerCapita": 5404
+    },
+    "2002": {
+      "pop": 6327171255,
+      "lifeExp": 68.2,
+      "gdpPerCapita": 5539
+    },
+    "2003": {
+      "pop": 6409352386,
+      "lifeExp": 68.5,
+      "gdpPerCapita": 6130
+    },
+    "2004": {
+      "pop": 6492354627,
+      "lifeExp": 68.8,
+      "gdpPerCapita": 6818
+    },
+    "2005": {
+      "pop": 6575410029,
+      "lifeExp": 69.1,
+      "gdpPerCapita": 7291
+    },
+    "2006": {
+      "pop": 6659536021,
+      "lifeExp": 69.5,
+      "gdpPerCapita": 7803
+    },
+    "2007": {
+      "pop": 6744049498,
+      "lifeExp": 69.8,
+      "gdpPerCapita": 8685
+    },
+    "2008": {
+      "pop": 6830080867,
+      "lifeExp": 70,
+      "gdpPerCapita": 9426
+    },
+    "2009": {
+      "pop": 6916168196,
+      "lifeExp": 70.4,
+      "gdpPerCapita": 8827
+    },
+    "2010": {
+      "pop": 7000860073,
+      "lifeExp": 70.7,
+      "gdpPerCapita": 9555
+    },
+    "2011": {
+      "pop": 7086704141,
+      "lifeExp": 71,
+      "gdpPerCapita": 10497
+    },
+    "2012": {
+      "pop": 7176482165,
+      "lifeExp": 71.3,
+      "gdpPerCapita": 10598
+    },
+    "2013": {
+      "pop": 7265404737,
+      "lifeExp": 71.5,
+      "gdpPerCapita": 10759
+    },
+    "2014": {
+      "pop": 7353532223,
+      "lifeExp": 71.8,
+      "gdpPerCapita": 10912
+    },
+    "2015": {
+      "pop": 7441084771,
+      "lifeExp": 72,
+      "gdpPerCapita": 10192
+    },
+    "2016": {
+      "pop": 7528221579,
+      "lifeExp": 72.2,
+      "gdpPerCapita": 10239
+    },
+    "2017": {
+      "pop": 7613788655,
+      "lifeExp": 72.4,
+      "gdpPerCapita": 10784
+    },
+    "2018": {
+      "pop": 7696159728,
+      "lifeExp": 72.6,
+      "gdpPerCapita": 11345
+    },
+    "2019": {
+      "pop": 7777162476,
+      "lifeExp": 72.9,
+      "gdpPerCapita": 11418
+    },
+    "2020": {
+      "pop": 7853863139,
+      "lifeExp": 72.2,
+      "gdpPerCapita": 10999
+    },
+    "2021": {
+      "pop": 7919567995,
+      "lifeExp": 71.2,
+      "gdpPerCapita": 12473
+    },
+    "2022": {
+      "pop": 7988550201,
+      "lifeExp": 73,
+      "gdpPerCapita": 12876
+    },
+    "2023": {
+      "pop": 8062923417,
+      "lifeExp": 73.3,
+      "gdpPerCapita": 13314
+    }
+  }
+}

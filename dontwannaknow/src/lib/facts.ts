@@ -13,6 +13,8 @@ import { fmtMoney, fmtGasPerLitre } from "./money";
 import { famousFor } from "../data/famousPeople";
 import { eventsForCountry } from "../data/countryEvents";
 import { cityFactsFor, findCity } from "../data/cities";
+import { worldBankFor } from "../data/worldBank";
+import { contemporariesFor } from "../data/wikidataPeople";
 import { mediaFor } from "../data/media";
 import { writersAtBirth } from "../data/writers";
 import { FACTS as CURATED_FACTS } from "../data/history";
@@ -64,7 +66,8 @@ export type Fact = {
     | "local"
     | "city"
     | "media"
-    | "writers";
+    | "writers"
+    | "contemporaries";
   text: string;
 };
 
@@ -345,6 +348,26 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
     text: `Průměrná délka života ve světě tehdy činila asi ${birthStats.globalLifeExpectancy} let. Toho roku se na celém světě narodilo přibližně ${birthStats.worldBirthsPerYearMillions} milionů dětí.`,
   });
 
+  // Real, country-specific figures for the birth year, straight from the World
+  // Bank (their series start ~1960, so this only fires for later births). This
+  // supplements — never replaces — the rounded global approximations above.
+  if (person.country !== "INTL") {
+    const wb = worldBankFor(person.country, birthYear);
+    if (wb && (wb.pop || wb.lifeExp || wb.gdpPerCapita)) {
+      // Telegraphic, caption-style line — sidesteps Czech case/verb agreement
+      // across the different country labels, and fits the broadsheet register.
+      const parts: string[] = [];
+      if (wb.pop) parts.push(`přibližně ${wb.pop.toLocaleString("cs-CZ")} obyvatel`);
+      if (wb.lifeExp) parts.push(`průměrná délka života ${wb.lifeExp} let`);
+      if (wb.gdpPerCapita)
+        parts.push(`HDP na obyvatele ${wb.gdpPerCapita.toLocaleString("cs-CZ")} USD`);
+      facts.push({
+        category: "everyday",
+        text: `${countryLabel}, ${birthYear}: ${parts.join(", ")} (data Světové banky).`,
+      });
+    }
+  }
+
   // ── Youth: cultural snapshot ──────────────────────────────────────────
   facts.push({
     category: "youth",
@@ -387,6 +410,15 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
 
   // ── Country-specific texture, famous people, and local events ───────
   facts.push(...countryFacts(person));
+
+  // ── Famous contemporaries — notable people born in the same decade and
+  //    country (from Wikidata, ranked by Wikipedia sitelinks). Additive. ──
+  pickN(contemporariesFor(person.country, birthYear), 6).forEach((c) => {
+    facts.push({
+      category: "contemporaries",
+      text: c.role ? `**${c.name}** — ${c.role}.` : `**${c.name}**.`,
+    });
+  });
 
   // Drop accidental duplicates (e.g. the same "…ještě nikdo neznal" line).
   const seenFacts = new Set<string>();

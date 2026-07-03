@@ -9,6 +9,35 @@ Ordered by importance.
 
 ---
 
+## New: public-API data enrichment (build-time, already generated & committed)
+
+Three free, no-key APIs now enrich the report — all fetched **at build time**
+and committed as static data, so the shipped app still makes **no runtime API
+calls** (CSP stays `connect-src 'self'`). See
+[`dontwannaknow/src/data/generated/README.md`](./dontwannaknow/src/data/generated/README.md)
+for how to regenerate.
+
+- **World Bank** → real per-country population, life expectancy, and GDP/capita
+  (a new fact for births from ~1960 on).
+- **Wikidata** → a new "Slavní vrstevníci / Famous contemporaries" section
+  (notable people born the same decade + country, ranked by Wikipedia fame).
+- **The Met (Open Access, CC0)** → a new "Umění té doby / Art of the era" strip
+  of public-domain paintings, desaturated to fit the design.
+
+Two things to be aware of (no action strictly required):
+
+1. **~3.3 MB of art thumbnails** were committed under `dontwannaknow/public/art/`
+   and ship with the static deploy. They're lazy-loaded (only ~3 load per
+   report), but this is the kind of "CDN bytes" growth your
+   `stack-and-scaling.md` flags. Fine at your traffic; just noting it.
+2. **Art only covers ~1860–1910** — 20th-century paintings are still under
+   copyright, so there's no free CC0 imagery for them (verified against the
+   Met). Later-born visitors see the nearest earlier decade's art, with each
+   work's real year shown, which fits the "your parents'/grandparents' era"
+   theme. To refresh or expand, re-run `node scripts/gen-art.mjs`.
+
+---
+
 ## 0. Note: "main" vs `dev`
 
 This repo has **no `main` branch**. Its default **and** production branch is

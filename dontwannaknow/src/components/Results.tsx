@@ -5,7 +5,9 @@ import WorldMap from "./WorldMap";
 import SkyMap from "./SkyMap";
 import LifeGrid from "./LifeGrid";
 import LifeNumbers from "./LifeNumbers";
+import ArtStrip from "./ArtStrip";
 import HeroBrief from "./HeroBrief";
+import { artForYear } from "../data/artByDecade";
 import { CITY_COORDS } from "../data/cityCoords";
 import { lifeExpectancyFor } from "../data/lifeExpectancy";
 import { buildShareUrl } from "../lib/share";
@@ -50,6 +52,7 @@ const SECTION_ORDER: { key: Fact["category"]; title: string; tone: string }[] = 
   { key: "local", title: "Po celé zemi", tone: "" },
   { key: "government", title: "Kdo měl moc", tone: "Politika a moc" },
   { key: "famous", title: "Slavné tváře té doby", tone: "Spisovatelé, umělci, vůdci" },
+  { key: "contemporaries", title: "Slavní vrstevníci", tone: "Narodili se ve stejném desetiletí" },
   { key: "writers", title: "Spisovatelé v roce narození", tone: "Kolik jim bylo a na čem právě pracovali" },
   { key: "media", title: "Co se četlo a sledovalo", tone: "Časopisy, knihy a televize" },
   { key: "clothes", title: "Co se nosilo", tone: "" },
@@ -270,6 +273,17 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
                 ),
               )}
             />
+
+            {(() => {
+              const art = artForYear(r.person.birthYear);
+              if (!art.length) return null;
+              return (
+                <>
+                  <SectionDivider label={lang === "cs" ? "Umění té doby" : "Art of the era"} />
+                  <ArtStrip items={art} />
+                </>
+              );
+            })()}
 
             <SectionDivider
               label={
