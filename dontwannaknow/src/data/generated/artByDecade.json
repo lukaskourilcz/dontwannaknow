@@ -1,0 +1,232 @@
+[
+  {
+    "decadeStart": 1860,
+    "items": [
+      {
+        "title": "The Collector of Prints",
+        "artist": "Edgar Degas",
+        "year": 1866,
+        "source": "met",
+        "image": "/art/met-436122.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/436122"
+      },
+      {
+        "title": "Young Lady in 1866",
+        "artist": "Edouard Manet",
+        "year": 1866,
+        "source": "met",
+        "image": "/art/met-436964.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/436964"
+      },
+      {
+        "title": "Autumn Landscape",
+        "artist": "Hidaka Tetsuo",
+        "year": 1862,
+        "source": "met",
+        "image": "/art/met-49072.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/49072"
+      },
+      {
+        "title": "The Woman in the Waves",
+        "artist": "Gustave Courbet",
+        "year": 1868,
+        "source": "met",
+        "image": "/art/met-436004.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/436004"
+      },
+      {
+        "title": "The Spanish Singer",
+        "artist": "Edouard Manet",
+        "year": 1860,
+        "source": "met",
+        "image": "/art/met-436944.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/436944"
+      }
+    ]
+  },
+  {
+    "decadeStart": 1870,
+    "items": [
+      {
+        "title": "Madame Georges Charpentier (Marguerite-Louise Lemonnier, 1848–1904) and Her Children, Georgette-Berthe (1872–1945) and Paul-Emile-Charles (1875–1895)",
+        "artist": "Auguste Renoir",
+        "year": 1878,
+        "source": "met",
+        "image": "/art/met-438815.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/438815"
+      },
+      {
+        "title": "Joan of Arc",
+        "artist": "Jules Bastien-Lepage",
+        "year": 1879,
+        "source": "met",
+        "image": "/art/met-435621.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/435621"
+      },
+      {
+        "title": "The Dancing Class",
+        "artist": "Edgar Degas",
+        "year": 1870,
+        "source": "met",
+        "image": "/art/met-436141.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/436141"
+      },
+      {
+        "title": "A Bashi-Bazouk",
+        "artist": "Charles Bargue",
+        "year": 1875,
+        "source": "met",
+        "image": "/art/met-435604.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/435604"
+      },
+      {
+        "title": "Still Life with Apples and Pitcher",
+        "artist": "Camille Pissarro",
+        "year": 1872,
+        "source": "met",
+        "image": "/art/met-437317.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/437317"
+      }
+    ]
+  },
+  {
+    "decadeStart": 1880,
+    "items": [
+      {
+        "title": "Madame Manet (Suzanne Leenhoff, 1829–1906) at Bellevue",
+        "artist": "Edouard Manet",
+        "year": 1880,
+        "source": "met",
+        "image": "/art/met-438002.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/438002"
+      },
+      {
+        "title": "Circus Sideshow (Parade de cirque)",
+        "artist": "Georges Seurat",
+        "year": 1888,
+        "source": "met",
+        "image": "/art/met-437654.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/437654"
+      },
+      {
+        "title": "Mont Sainte-Victoire and the Viaduct of the Arc River Valley",
+        "artist": "Paul Cézanne",
+        "year": 1885,
+        "source": "met",
+        "image": "/art/met-435877.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/435877"
+      },
+      {
+        "title": "Study for \"A Sunday on La Grande Jatte\"",
+        "artist": "Georges Seurat",
+        "year": 1884,
+        "source": "met",
+        "image": "/art/met-437658.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/437658"
+      },
+      {
+        "title": "The Organ Rehearsal",
+        "artist": "Henry Lerolle",
+        "year": 1885,
+        "source": "met",
+        "image": "/art/met-436880.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/436880"
+      }
+    ]
+  },
+  {
+    "decadeStart": 1890,
+    "items": [
+      {
+        "title": "The Dream of the Shepherd (Der Traum des Hirten)",
+        "artist": "Ferdinand Hodler",
+        "year": 1896,
+        "source": "met",
+        "image": "/art/met-634108.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/634108"
+      },
+      {
+        "title": "Still Life with Teapot and Fruit",
+        "artist": "Paul Gauguin",
+        "year": 1896,
+        "source": "met",
+        "image": "/art/met-437999.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/437999"
+      },
+      {
+        "title": "The Shepherd's Song",
+        "artist": "Pierre Puvis de Chavannes",
+        "year": 1891,
+        "source": "met",
+        "image": "/art/met-437344.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/437344"
+      },
+      {
+        "title": "The Siesta",
+        "artist": "Paul Gauguin",
+        "year": 1894,
+        "source": "met",
+        "image": "/art/met-436449.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/436449"
+      },
+      {
+        "title": "Haystacks, Morning, Eragny",
+        "artist": "Camille Pissarro",
+        "year": 1899,
+        "source": "met",
+        "image": "/art/met-438738.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/438738"
+      }
+    ]
+  },
+  {
+    "decadeStart": 1900,
+    "items": [
+      {
+        "title": "Moonlight, Strandgade 30",
+        "artist": "Vilhelm Hammershøi",
+        "year": 1906,
+        "source": "met",
+        "image": "/art/met-441933.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/441933"
+      },
+      {
+        "title": "Valley with Fir (Shade on the Mountain)",
+        "artist": "Henri-Edmond Cross (Henri-Edmond Delacroix)",
+        "year": 1909,
+        "source": "met",
+        "image": "/art/met-459094.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/459094"
+      }
+    ]
+  },
+  {
+    "decadeStart": 1910,
+    "items": [
+      {
+        "title": "Painting",
+        "artist": "Neznámý autor",
+        "year": 1914,
+        "source": "met",
+        "image": "/art/met-53750.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/53750"
+      },
+      {
+        "title": "Tilla Durieux (Ottilie Godeffroy, 1880–1971)",
+        "artist": "Auguste Renoir",
+        "year": 1914,
+        "source": "met",
+        "image": "/art/met-437432.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/437432"
+      },
+      {
+        "title": "Mäda Primavesi (1903–2000)",
+        "artist": "Gustav Klimt",
+        "year": 1913,
+        "source": "met",
+        "image": "/art/met-436819.jpg",
+        "pageUrl": "https://www.metmuseum.org/art/collection/search/436819"
+      }
+    ]
+  }
+]

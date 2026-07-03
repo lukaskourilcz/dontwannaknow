@@ -819,6 +819,63 @@ button.link:hover {
   overflow-wrap: anywhere;
 }
 
+/* ── Art of the era — public-domain works, desaturated to sit in the canvas ─ */
+.art-strip {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--s-4);
+  margin: var(--s-4) 0 var(--s-6);
+}
+@media (min-width: 560px) {
+  .art-strip { grid-template-columns: repeat(3, 1fr); }
+}
+.art-item { margin: 0; }
+.art-frame {
+  display: block;
+  border-radius: var(--radius-images, 14px);
+  overflow: hidden;
+  border: 1px solid var(--color-obsidian-ink);
+  background: var(--color-bark, #232924);
+}
+.art-frame img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  /* DESIGN.md: imagery is black-and-white / desaturated. Lift to colour on
+     hover so the works stay inviting without breaking the monochrome field. */
+  filter: grayscale(1) contrast(1.02);
+  transition: filter 0.5s var(--ease-out, ease), transform 0.5s var(--ease-out, ease);
+}
+.art-frame:hover img,
+.art-frame:focus-visible img {
+  filter: grayscale(0);
+  transform: scale(1.03);
+}
+.art-item figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: var(--s-2);
+}
+.art-title {
+  font-family: var(--serif);
+  font-size: 15px;
+  color: var(--color-obsidian-ink);
+  line-height: 1.2;
+  text-wrap: pretty;
+}
+.art-meta {
+  font-family: var(--sans);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+@media (prefers-reduced-motion: reduce) {
+  .art-frame img { transition: none; }
+}
+
 /* ── Report overview — stats stacked at left, the weeks map filling the right.
    Single-person report only; on desktop it breaks out to fill the spread so
    the map runs tall and peeks below the fold, inviting a scroll. ─────────── */
