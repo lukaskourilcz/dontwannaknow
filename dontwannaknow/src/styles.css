@@ -819,12 +819,20 @@ button.link:hover {
   overflow-wrap: anywhere;
 }
 
-/* ── Art of the era — public-domain works, desaturated to sit in the canvas ─ */
+/* ── A century before you — public-domain works, desaturated ──────────────── */
+.art-strip-wrap { margin: var(--s-4) 0 var(--s-6); }
+.art-intro {
+  font-family: var(--serif);
+  font-size: 16px;
+  color: var(--color-sage);
+  line-height: 1.35;
+  margin: 0 0 var(--s-4);
+  text-wrap: pretty;
+}
 .art-strip {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--s-4);
-  margin: var(--s-4) 0 var(--s-6);
 }
 @media (min-width: 560px) {
   .art-strip { grid-template-columns: repeat(3, 1fr); }
@@ -871,6 +879,12 @@ button.link:hover {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--muted);
+}
+.art-age {
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--color-sage);
+  margin-top: 2px;
 }
 @media (prefers-reduced-motion: reduce) {
   .art-frame img { transition: none; }

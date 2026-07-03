@@ -7,7 +7,7 @@ import LifeGrid from "./LifeGrid";
 import LifeNumbers from "./LifeNumbers";
 import ArtStrip from "./ArtStrip";
 import HeroBrief from "./HeroBrief";
-import { artForYear } from "../data/artByDecade";
+import { artForBirthYear } from "../data/artByDecade";
 import { CITY_COORDS } from "../data/cityCoords";
 import { lifeExpectancyFor } from "../data/lifeExpectancy";
 import { buildShareUrl } from "../lib/share";
@@ -275,12 +275,12 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
             />
 
             {(() => {
-              const art = artForYear(r.person.birthYear);
+              const art = artForBirthYear(r.person.birthYear);
               if (!art.length) return null;
               return (
                 <>
-                  <SectionDivider label={lang === "cs" ? "Umění té doby" : "Art of the era"} />
-                  <ArtStrip items={art} />
+                  <SectionDivider label={lang === "cs" ? "Sto let před tebou" : "A century before you"} />
+                  <ArtStrip items={art} birthYear={r.person.birthYear} />
                 </>
               );
             })()}
