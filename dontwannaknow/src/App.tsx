@@ -6,6 +6,7 @@ import {
   AnimatePresence,
   useReducedMotion,
 } from "motion/react";
+import { Analytics } from "@vercel/analytics/react";
 import TypeformWizard from "./components/TypeformWizard";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { reportFor, type Person, type PersonReport } from "./lib/facts";
@@ -30,6 +31,9 @@ import "./styles.css";
 const Results = lazy(() => import("./components/Results"));
 
 const EASE = [0.22, 1, 0.36, 1] as const;
+// The "arrival" curve from DESIGN.md (ease.spring) — a touch of overshoot so
+// the report feels like it lands rather than fades in.
+const SPRING = [0.34, 1.4, 0.5, 1] as const;
 
 function LangToggle() {
   const { lang, setLang } = useLang();
@@ -125,8 +129,10 @@ function AppInner() {
               key="wizard"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              exit={{ opacity: 0, y: reduced ? 0 : -8 }}
-              transition={{ duration: 0.3, ease: EASE }}
+              // The wizard recedes — drifting up and scaling back a hair — so
+              // the incoming report reads as the next surface, not a swap.
+              exit={{ opacity: 0, y: reduced ? 0 : -24, scale: reduced ? 1 : 0.98 }}
+              transition={{ duration: 0.35, ease: EASE }}
             >
               <TypeformWizard onSubmit={handleSubmit} />
             </m.div>
@@ -134,9 +140,12 @@ function AppInner() {
           {reports && people && (
             <m.div
               key="results"
-              initial={{ opacity: 0, y: reduced ? 0 : 12 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, ease: EASE }}
+              initial={{ opacity: 0, y: reduced ? 0 : 28, scale: reduced ? 1 : 0.985 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{
+                duration: reduced ? 0.2 : 0.6,
+                ease: reduced ? EASE : SPRING,
+              }}
             >
               <Suspense
                 fallback={
@@ -164,6 +173,15 @@ function AppInner() {
       <footer className="footer">
         <p>{t("footer")}</p>
       </footer>
+
+      {/* Cookieless, same-origin (/_vercel/insights) aggregate pageviews — no
+          cookies, no PII, no third party. `beforeSend` strips the URL hash so
+          the person data encoded in share links (#d=…) is never included, in
+          keeping with the site's "nothing you type is sent anywhere" promise.
+          The beacon is a no-op unless deployed on Vercel. */}
+      <Analytics
+        beforeSend={(event) => ({ ...event, url: event.url.split("#")[0] })}
+      />
     </div>
   );
 }

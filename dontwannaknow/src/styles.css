@@ -801,6 +801,24 @@ button.link:hover {
 }
 .hero-stat.accent .hero-stat-value { color: var(--color-obsidian-ink); }
 
+/* ── Life in numbers — the deadpan grid of absurd lifetime totals ────────── */
+.life-numbers {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--s-4) var(--s-5);
+  margin: var(--s-4) 0 var(--s-6);
+}
+@media (min-width: 560px) {
+  .life-numbers { grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
+}
+/* Lifetime figures run into the billions, so let them shrink and wrap rather
+   than overflow the card (the hero stats stay nowrap; these can't). */
+.life-stat .hero-stat-value {
+  font-size: clamp(1.4rem, 3.8vw, 2rem);
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
 /* ── Report overview — stats stacked at left, the weeks map filling the right.
    Single-person report only; on desktop it breaks out to fill the spread so
    the map runs tall and peeks below the fold, inviting a scroll. ─────────── */
