@@ -5,6 +5,8 @@
 
 import type { PersonReport } from "./facts";
 import type jsPDFType from "jspdf";
+import { lifeNumbers } from "./lifeNumbers";
+import { birthDateUTC, daysSince } from "./datetime";
 
 // Lazy-load the jsPDF + html2canvas stack only when the user actually
 // clicks "Download PDF". Keeps the initial bundle small.
@@ -178,6 +180,30 @@ export async function generatePdf(
     const plainBody = body.replace(/\*\*/g, "");
     cursorY = writeParagraph(doc, para.heading, plainBody, cursorY, pageWidth, pageHeight);
   }
+
+  // ── Life in numbers — the absurd lifetime tally ────────────────
+  const daysLived = daysSince(
+    birthDateUTC(
+      report.person.birthYear,
+      report.person.birthMonth,
+      report.person.birthDay,
+    ),
+  );
+  const tally = lifeNumbers(daysLived, "en")
+    .map((it) => {
+      const value = it.value.toLocaleString("en-US");
+      const head = `• ${it.label}: ${value}${it.unit ? " " + it.unit : ""}`;
+      return it.detail ? `${head} — ${it.detail}` : head;
+    })
+    .join("\n");
+  cursorY = writeParagraph(
+    doc,
+    "By the numbers · a lifetime, tallied up",
+    tally,
+    cursorY,
+    pageWidth,
+    pageHeight,
+  );
 
   // ── Guarantee at least two pages ───────────────────────────────
   // jsPDF's typed pages array is awkward; we use getNumberOfPages().

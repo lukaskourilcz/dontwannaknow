@@ -4,6 +4,7 @@ import { pairReport } from "../lib/facts";
 import WorldMap from "./WorldMap";
 import SkyMap from "./SkyMap";
 import LifeGrid from "./LifeGrid";
+import LifeNumbers from "./LifeNumbers";
 import HeroBrief from "./HeroBrief";
 import { CITY_COORDS } from "../data/cityCoords";
 import { lifeExpectancyFor } from "../data/lifeExpectancy";
@@ -11,7 +12,7 @@ import { buildShareUrl } from "../lib/share";
 import { generatePdf } from "../lib/pdf";
 import { useLang } from "../i18n/useLang";
 import { useCopied } from "../lib/useCopied";
-import { birthDateUTC, weeksSince } from "../lib/datetime";
+import { birthDateUTC, weeksSince, daysSince } from "../lib/datetime";
 import { settings } from "../config/settings";
 import HeroSummary from "./HeroSummary";
 
@@ -258,6 +259,17 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
 
             <SectionDivider label={lang === "cs" ? "Svět" : "The world"} />
             <WorldMap birthYear={r.person.birthYear} />
+
+            <SectionDivider label={lang === "cs" ? "Život v číslech" : "By the numbers"} />
+            <LifeNumbers
+              daysLived={daysSince(
+                birthDateUTC(
+                  r.person.birthYear,
+                  r.person.birthMonth,
+                  r.person.birthDay,
+                ),
+              )}
+            />
 
             <SectionDivider
               label={
