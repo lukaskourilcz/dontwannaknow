@@ -17,37 +17,47 @@ type ParsedDate = { year: number; month?: number; day?: number };
 
 const MIN_YEAR = settings.minBirthYear;
 
+// Accepts a bare year, month+year, or a full date written with any
+// separators — 12. 4. 1953, 12/04/1953, 1953-04-12 — or none at all
+// (12041953), since the mobile numeric keypad offers no punctuation.
 function parseDate(input: string): ParsedDate | null {
-  const trimmed = input.trim();
-  if (!trimmed) return null;
-  const iso = trimmed.match(/^((?:18|19|20)\d{2})-(0?[1-9]|1[0-2])-(0?[1-9]|[12]\d|3[01])$/);
-  if (iso) {
-    const year = Number(iso[1]);
-    const month = Number(iso[2]);
-    const day = Number(iso[3]);
-    if (year < MIN_YEAR || year > CURRENT_YEAR) return null;
-    return { year, month, day };
+  const groups = input.trim().match(/\d+/g);
+  if (!groups) return null;
+
+  const yearOk = (y: number) => y >= MIN_YEAR && y <= CURRENT_YEAR;
+  const monthOk = (m: number) => m >= 1 && m <= 12;
+  const dayOk = (y: number, m: number, d: number) =>
+    d >= 1 && d <= new Date(Date.UTC(y, m, 0)).getUTCDate();
+
+  const full = (y: number, m: number, d: number): ParsedDate | null =>
+    yearOk(y) && monthOk(m) && dayOk(y, m, d) ? { year: y, month: m, day: d } : null;
+  const partial = (y: number, m: number): ParsedDate | null =>
+    yearOk(y) && monthOk(m) ? { year: y, month: m } : null;
+
+  if (groups.length === 1) {
+    const g = groups[0];
+    if (g.length === 4) return yearOk(Number(g)) ? { year: Number(g) } : null;
+    if (g.length === 6)
+      return (
+        partial(Number(g.slice(2)), Number(g.slice(0, 2))) ??
+        partial(Number(g.slice(0, 4)), Number(g.slice(4)))
+      );
+    if (g.length === 8)
+      return (
+        full(Number(g.slice(4)), Number(g.slice(2, 4)), Number(g.slice(0, 2))) ??
+        full(Number(g.slice(0, 4)), Number(g.slice(4, 6)), Number(g.slice(6)))
+      );
+    return null;
   }
-  const slash = trimmed.match(/^(0?[1-9]|[12]\d|3[01])[./](0?[1-9]|1[0-2])[./]((?:18|19|20)\d{2})$/);
-  if (slash) {
-    const day = Number(slash[1]);
-    const month = Number(slash[2]);
-    const year = Number(slash[3]);
-    if (year < MIN_YEAR || year > CURRENT_YEAR) return null;
-    return { year, month, day };
+
+  const n = groups.map(Number);
+  if (groups.length === 2) {
+    if (groups[0].length === 4) return partial(n[0], n[1]);
+    return partial(n[1], n[0]);
   }
-  const monthYear = trimmed.match(/^(0?[1-9]|1[0-2])[./-]((?:18|19|20)\d{2})$/);
-  if (monthYear) {
-    const month = Number(monthYear[1]);
-    const year = Number(monthYear[2]);
-    if (year < MIN_YEAR || year > CURRENT_YEAR) return null;
-    return { year, month };
-  }
-  const yearOnly = trimmed.match(/^(18|19|20)\d{2}$/);
-  if (yearOnly) {
-    const year = Number(yearOnly[0]);
-    if (year < MIN_YEAR || year > CURRENT_YEAR) return null;
-    return { year };
+  if (groups.length === 3) {
+    if (groups[0].length === 4) return full(n[0], n[1], n[2]);
+    return full(n[2], n[1], n[0]);
   }
   return null;
 }
@@ -99,16 +109,17 @@ export default function TypeformWizard({ onSubmit }: Props) {
   const goBack = () => {
     setError(null);
     if (step === "intro") return;
-    if (step === "more") return setStep("city");
+    if (step === "more")
+      return setStep(citiesFor(draft.country).length ? "city" : "country");
     const i = STEP_ORDER.indexOf(step as Step);
     if (i > 0) setStep(STEP_ORDER[i - 1]);
     else setStep("intro");
   };
 
-  const startWithEmpty = () => {
+  const startWithEmpty = (count = people.length) => {
     setDraft({
       ...EMPTY_DRAFT,
-      label: DEFAULT_LABELS[people.length] ?? "Another person",
+      label: DEFAULT_LABELS[count] ?? "Another person",
     });
     setError(null);
     setStep("label");
@@ -168,8 +179,11 @@ export default function TypeformWizard({ onSubmit }: Props) {
       setStep("year");
       return;
     }
-    setPeople((prev) => [...prev, finalized]);
-    startWithEmpty();
+    const next = [...people, finalized];
+    setPeople(next);
+    // people state hasn't flushed yet, so pass the new count explicitly —
+    // otherwise the second person inherits the first one's default name.
+    startWithEmpty(next.length);
   };
 
   // Finalize the current draft and go straight to the report — no separate
@@ -212,8 +226,8 @@ export default function TypeformWizard({ onSubmit }: Props) {
       cs: `Kdy se ${draft.label || "tahle osoba"} ${genderForm(draft.gender, "narodil", "narodila")}?`,
       en: `When was ${draft.label || "this person"} born?`,
       hint: {
-        cs: "Stačí rok. Nebo plné datum, např. 1953-04-12, 12/04/1953 nebo 04/1953.",
-        en: "A year is fine. Or a full date — 1953-04-12, 12/04/1953, or 04/1953.",
+        cs: "Stačí rok — třeba 1953. Celé datum zapiš jakkoliv: 12. 4. 1953, i bez mezer a teček.",
+        en: "A year is enough — e.g. 1953. Or a full date in any form: 12 4 1953, even without spaces.",
       },
     },
     country: {
@@ -221,8 +235,8 @@ export default function TypeformWizard({ onSubmit }: Props) {
       en: `In which country?`,
     },
     city: {
-      cs: cityOptions.length ? `A v jakém městě?` : `Pokračujme.`,
-      en: cityOptions.length ? `And in which city?` : `Let's continue.`,
+      cs: `A v jakém městě?`,
+      en: `And in which city?`,
       hint: { cs: "Můžeš to klidně přeskočit.", en: "Feel free to skip." },
     },
     more: {
@@ -270,7 +284,7 @@ export default function TypeformWizard({ onSubmit }: Props) {
             <button
               type="button"
               className="primary wizard-cta"
-              onClick={startWithEmpty}
+              onClick={() => startWithEmpty()}
             >
               {lang === "cs" ? "Začít" : "Begin"} →
             </button>
@@ -304,8 +318,12 @@ export default function TypeformWizard({ onSubmit }: Props) {
               type="text"
               value={draft.label}
               placeholder={DEFAULT_LABELS[people.length] ?? "Mom"}
-              onChange={(e) => setDraft({ ...draft, label: e.target.value })}
+              onChange={(e) => {
+                setError(null);
+                setDraft({ ...draft, label: e.target.value });
+              }}
               onKeyDown={onKeyDown}
+              onFocus={(e) => e.currentTarget.select()}
             />
             <div className="wizard-actions">
               <button className="primary" onClick={validateAndAdvance}>
@@ -357,7 +375,10 @@ export default function TypeformWizard({ onSubmit }: Props) {
               inputMode="numeric"
               placeholder="1953"
               value={draft.year}
-              onChange={(e) => setDraft({ ...draft, year: e.target.value })}
+              onChange={(e) => {
+                setError(null);
+                setDraft({ ...draft, year: e.target.value });
+              }}
               onKeyDown={onKeyDown}
             />
             <div className="wizard-actions">
@@ -383,7 +404,10 @@ export default function TypeformWizard({ onSubmit }: Props) {
                   className={`country-card ${draft.country === c ? "active" : ""}`}
                   onClick={() => {
                     setDraft({ ...draft, country: c, citySlug: "" });
-                    setTimeout(() => goNext(), 120);
+                    // No city list for this country → the city step would be
+                    // an empty screen, so jump straight to the finish.
+                    const next = citiesFor(c).length ? "city" : "more";
+                    setTimeout(() => setStep(next as Step), 120);
                   }}
                 >
                   <span className="country-card-name">{COUNTRY_LABELS[c]}</span>
@@ -397,35 +421,25 @@ export default function TypeformWizard({ onSubmit }: Props) {
         {step === "city" && (
           <div className="wizard-step">
             <h2 className="wizard-question">{renderQuestionText("city")}</h2>
-            {cityOptions.length > 0 ? (
-              <>
-                <p className="wizard-hint">{renderHint("city")}</p>
-                <select
-                  ref={inputRef as React.RefObject<HTMLSelectElement>}
-                  className="wizard-input wizard-select"
-                  value={draft.citySlug}
-                  onChange={(e) =>
-                    setDraft({ ...draft, citySlug: e.target.value })
-                  }
-                  onKeyDown={onKeyDown}
-                >
-                  <option value="">
-                    {lang === "cs" ? "Kdekoliv v zemi" : "Anywhere in the country"}
-                  </option>
-                  {cityOptions.map((c) => (
-                    <option key={c.slug} value={c.slug}>
-                      {c.name}
-                    </option>
-                  ))}
-                </select>
-              </>
-            ) : (
-              <p className="wizard-hint">
-                {lang === "cs"
-                  ? "Pro tuhle volbu nemáme seznam měst — to nevadí, pojďme dál."
-                  : "We don't have a city list for this choice — that's fine, let's continue."}
-              </p>
-            )}
+            <p className="wizard-hint">{renderHint("city")}</p>
+            <select
+              ref={inputRef as React.RefObject<HTMLSelectElement>}
+              className="wizard-input wizard-select"
+              value={draft.citySlug}
+              onChange={(e) =>
+                setDraft({ ...draft, citySlug: e.target.value })
+              }
+              onKeyDown={onKeyDown}
+            >
+              <option value="">
+                {lang === "cs" ? "Kdekoliv v zemi" : "Anywhere in the country"}
+              </option>
+              {cityOptions.map((c) => (
+                <option key={c.slug} value={c.slug}>
+                  {c.name}
+                </option>
+              ))}
+            </select>
             <div className="wizard-actions">
               <button className="primary" onClick={validateAndAdvance}>
                 {lang === "cs" ? "Dál" : "Next"} →

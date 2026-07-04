@@ -168,7 +168,7 @@ export function buildPairEssay(a: Person, b: Person): PairSection[] {
     (e) => e.year >= sharedFrom && e.year <= sharedTo,
   )
     .sort((a, b) => Math.abs(a.year - (sharedFrom + 10)) - Math.abs(b.year - (sharedFrom + 10)))
-    .slice(0, 15)
+    .slice(0, 10)
     .sort((a, b) => a.year - b.year);
 
   if (sharedEvents.length > 0) {

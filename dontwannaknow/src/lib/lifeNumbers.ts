@@ -1,8 +1,10 @@
-// "Life in numbers" — a batch of gloriously stupid lifetime totals derived from
-// nothing but how long a person has been alive. Every figure is days-lived ×
-// a rough daily average, so it stays deterministic, offline, and honestly
-// approximate. The daily rates below are commonly cited human averages; treat
-// them as order-of-magnitude, which is the whole joke.
+// "Life in numbers" — lifetime totals derived from nothing but how long a
+// person has been alive. Every figure is days-lived × a rough daily average,
+// so it stays deterministic, offline, and honestly approximate.
+//
+// Curated for wonder, not gross-out: heartbeats, full moons overhead and laps
+// around the Sun beat litres of urine — numbers people repeat at dinner, not
+// ones they wince at.
 //
 // Kept language-aware but gender-neutral: these are one-line stat cards, not
 // prose, so we sidestep the Czech masculine/feminine verb dance entirely.
@@ -15,35 +17,29 @@ export type LifeNumber = {
   value: number;   // the big animated figure
   unit?: string;   // localized short unit (litres, kg, years…) — omitted for pure counts
   detail?: string; // localized vivid comparison line
-  accent?: boolean; // highlight (green top-border) — reserved for the crude ones
+  accent?: boolean; // highlight (top-border) — reserved for the most wondrous
 };
 
 // Daily human averages (per day, unless noted).
 const PER_DAY = {
-  pees: 7,               // urinations
-  urineLitres: 1.5,      // litres of urine
-  poops: 1,              // bowel movements
-  poopKg: 0.128,         // kg of stool (~128 g)
-  farts: 15,             // flatulence events
-  fartLitres: 0.7,       // litres of gas passed
   heartbeats: 100_000,   // ~70 bpm
   breaths: 20_000,       // ~14 breaths/min
   blinks: 19_200,        // ~16/min over ~16 waking hours
   stepsCount: 5_000,     // steps
   bloodLitres: 7_570,    // litres the heart pumps
   foodKg: 1.7,           // kg of food eaten
+  dreams: 4,             // dreams per night, remembered or not
 } as const;
 
 // Reference magnitudes for the comparison lines.
-const BATHTUB_L = 150;
 const OLYMPIC_POOL_L = 2_500_000;
-const ADULT_KG = 70;
 const CAR_TONNES = 1.5;
-const PARTY_BALLOON_L = 5;
 const STEP_METRES = 0.762;
 const EQUATOR_KM = 40_075;
 const EARTH_ORBIT_KM_PER_DAY = 2_573_000; // Earth carries us ~107,226 km/h around the Sun
 const DAYS_PER_YEAR = 365.25;
+const SYNODIC_MONTH_DAYS = 29.53059; // full moon to full moon
+const DAYS_PER_LEAP_DAY = 1_461;     // one Feb 29 per ~4 years
 
 const round = (n: number) => Math.round(n);
 const round1 = (n: number) => Math.round(n * 10) / 10;
@@ -63,9 +59,6 @@ export function lifeNumbers(daysLived: number, lang: Lang): LifeNumber[] {
   const years = d / DAYS_PER_YEAR;
   const cs = lang === "cs";
 
-  const bathtubs = round(d * PER_DAY.urineLitres / BATHTUB_L);
-  const poopAdults = round(d * PER_DAY.poopKg / ADULT_KG);
-  const balloons = round(d * PER_DAY.fartLitres / PARTY_BALLOON_L);
   const eyesShutDays = round(d * PER_DAY.blinks * 0.3 / 86_400); // ~0.3 s per blink
   const sleepYears = round1(d * (8 / 24) / DAYS_PER_YEAR);
   const stepKm = d * PER_DAY.stepsCount * STEP_METRES / 1000;
@@ -75,50 +68,11 @@ export function lifeNumbers(daysLived: number, lang: Lang): LifeNumber[] {
   const foodCars = round(d * PER_DAY.foodKg / (CAR_TONNES * 1000));
   const sunLaps = round(years);
   const sunBnKm = round(d * EARTH_ORBIT_KM_PER_DAY / 1_000_000_000);
+  const fullMoons = round(d / SYNODIC_MONTH_DAYS);
+  const saturdays = Math.floor(d / 7);
+  const leapDays = Math.floor(d / DAYS_PER_LEAP_DAY);
 
   return [
-    {
-      key: "pee",
-      label: cs ? "Na záchod čůrat" : "Trips to pee",
-      value: round(d * PER_DAY.pees),
-      detail: cs ? "Sedmkrát denně, den co den." : "Seven times a day, every single day.",
-      accent: true,
-    },
-    {
-      key: "urine",
-      label: cs ? "Vyčůráno" : "Peed out",
-      value: round(d * PER_DAY.urineLitres),
-      unit: cs ? "litrů" : "litres",
-      detail: cs
-        ? `Naplnilo by to ${fmt(bathtubs, lang)} plných van.`
-        : `Enough to fill ${fmt(bathtubs, lang)} full bathtubs.`,
-    },
-    {
-      key: "poop",
-      label: cs ? "Velká na záchod" : "Number twos",
-      value: round(d * PER_DAY.poops),
-      detail: cs ? "Jednou denně, bez výmluv." : "Once a day, no excuses.",
-      accent: true,
-    },
-    {
-      key: "poopweight",
-      label: cs ? "Naděláno" : "Deposited",
-      value: round(d * PER_DAY.poopKg),
-      unit: "kg",
-      detail: cs
-        ? `Na váze jako ${fmt(poopAdults, lang)} dospělých lidí.`
-        : `The weight of ${fmt(poopAdults, lang)} grown adults.`,
-      accent: true,
-    },
-    {
-      key: "farts",
-      label: cs ? "Prdů" : "Farts",
-      value: round(d * PER_DAY.farts),
-      detail: cs
-        ? `Dost plynu na ${fmt(balloons, lang)} nafouknutých balónků.`
-        : `Enough gas for ${fmt(balloons, lang)} party balloons.`,
-      accent: true,
-    },
     {
       key: "heartbeats",
       label: cs ? "Úderů srdce" : "Heartbeats",
@@ -130,6 +84,23 @@ export function lifeNumbers(daysLived: number, lang: Lang): LifeNumber[] {
       label: cs ? "Nádechů" : "Breaths",
       value: round(d * PER_DAY.breaths),
       detail: cs ? "Dvacet tisíc denně, bez přemýšlení." : "Twenty thousand a day, without a thought.",
+    },
+    {
+      key: "fullmoons",
+      label: cs ? "Úplňků nad hlavou" : "Full moons overhead",
+      value: fullMoons,
+      detail: cs
+        ? "Jeden každých 29 a půl dne, ať sis ho všiml, nebo ne."
+        : "One every 29½ days, noticed or not.",
+      accent: true,
+    },
+    {
+      key: "saturdays",
+      label: cs ? "Sobot" : "Saturdays",
+      value: saturdays,
+      detail: cs
+        ? "Tolikrát přišel víkend. Kolik si jich pamatuješ?"
+        : "That many weekends came around. How many do you remember?",
     },
     {
       key: "blinks",
@@ -145,6 +116,14 @@ export function lifeNumbers(daysLived: number, lang: Lang): LifeNumber[] {
       value: sleepYears,
       unit: cs ? "let" : "years",
       detail: cs ? "Skoro třetina života se zavřenýma očima." : "Almost a third of life, gone to sleep.",
+    },
+    {
+      key: "dreams",
+      label: cs ? "Odsněno snů" : "Dreams dreamt",
+      value: round(d * PER_DAY.dreams),
+      detail: cs
+        ? "Zhruba čtyři za noc — většina se do rána ztratí."
+        : "About four a night — most are gone by morning.",
     },
     {
       key: "steps",
@@ -180,6 +159,15 @@ export function lifeNumbers(daysLived: number, lang: Lang): LifeNumber[] {
       detail: cs
         ? `Na palubě Země ${fmt(sunLaps, lang)}× kolem Slunce.`
         : `${fmt(sunLaps, lang)} laps around the Sun aboard planet Earth.`,
+      accent: true,
+    },
+    {
+      key: "leapdays",
+      label: cs ? "Přestupných dnů" : "Leap days",
+      value: leapDays,
+      detail: cs
+        ? "Tolik 29. únorů se zatím stihlo."
+        : "That many February 29ths so far.",
     },
   ];
 }

@@ -2,6 +2,8 @@
 // life, scaled to the average life expectancy for the person's sex and
 // country. Someone who has already outlived that average gets the grid
 // extended to a round century, with a warmer note. After Tim Urban.
+// Rows are grouped into decade bands so the block reads as chapters of a
+// life rather than one solid slab; the current week is marked in ink.
 
 type Props = {
   weeksLived: number;
@@ -13,6 +15,7 @@ type Props = {
 const COLS = 52; // one square per week of the year
 const SIZE = 6;
 const GAP = 2;
+const DECADE_GAP = 7; // extra air after every 10 rows
 const PADDING = 14;
 const ROW_LABEL_GAP = 28;
 
@@ -27,26 +30,34 @@ export default function LifeGrid({
   const total = COLS * rows;
   const lived = Math.max(0, Math.min(weeksLived, total));
   const remaining = Math.max(0, total - lived);
+  const rowY = (row: number) =>
+    PADDING + row * (SIZE + GAP) + Math.floor(row / 10) * DECADE_GAP;
   const width = PADDING * 2 + ROW_LABEL_GAP + COLS * (SIZE + GAP) - GAP;
-  const height = PADDING * 2 + rows * (SIZE + GAP) - GAP;
+  const height = rowY(rows - 1) + SIZE + PADDING;
 
-  const cells: { x: number; y: number; i: number; lived: boolean }[] = [];
+  const cells: { x: number; y: number; i: number; cls: string }[] = [];
   for (let i = 0; i < total; i++) {
     const row = Math.floor(i / COLS);
     const col = i % COLS;
+    const cls =
+      i === lived - 1 && !overExpectancy
+        ? "life-grid-now"
+        : i < lived
+          ? "life-grid-lived"
+          : "life-grid-future";
     cells.push({
       x: PADDING + ROW_LABEL_GAP + col * (SIZE + GAP),
-      y: PADDING + row * (SIZE + GAP),
+      y: rowY(row),
       i,
-      lived: i < lived,
+      cls,
     });
   }
 
   const rowLabels: { label: string; y: number }[] = [];
-  for (let yr = 0; yr <= rows; yr += 10) {
+  for (let yr = 0; yr < rows; yr += 10) {
     rowLabels.push({
       label: String(yr),
-      y: PADDING + yr * (SIZE + GAP) + SIZE / 2 + 3,
+      y: rowY(yr) + SIZE / 2 + 3,
     });
   }
 
@@ -74,7 +85,7 @@ export default function LifeGrid({
             height={SIZE}
             rx={1.5}
             ry={1.5}
-            className={`life-grid-cell life-grid-${c.lived ? "lived" : "future"}`}
+            className={`life-grid-cell ${c.cls}`}
           />
         ))}
       </svg>
@@ -89,7 +100,8 @@ export default function LifeGrid({
             Každý čtvereček je jeden týden života. Při průměrném dožití kolem{" "}
             <strong>{lifeExpectancyYears}</strong> let má {label}{" "}
             <strong>{formatCount(lived)}</strong> týdnů za sebou a ještě zhruba{" "}
-            {formatCount(remaining)} před sebou.
+            {formatCount(remaining)} před sebou. Tmavý čtvereček je tenhle
+            týden.
           </>
         )}
       </figcaption>

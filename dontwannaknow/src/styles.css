@@ -351,11 +351,18 @@ button.link:hover {
 
 .wizard {
   position: relative;
-  min-height: 62vh;
+  min-height: 68vh;
   display: flex;
   flex-direction: column;
+  /* Question steps share one stable top line — the eye never has to hunt
+     for where the next question landed. The intro hero stays centered. */
+  justify-content: flex-start;
+  padding: clamp(4.5rem, 15vh, 8.5rem) 0 0;
+}
+
+.wizard:has(.wizard-intro) {
   justify-content: center;
-  padding: 0;
+  padding-top: 0;
 }
 
 .wizard-progress {
@@ -404,7 +411,6 @@ button.link:hover {
   display: flex;
   flex-direction: column;
   gap: 1.1rem;
-  margin-top: 3.6rem;
   animation: wizard-fade 0.4s var(--ease-out);
 }
 @keyframes wizard-fade {
@@ -1123,6 +1129,7 @@ button.link:hover {
 }
 .life-grid figcaption strong { color: var(--color-obsidian-ink); font-family: var(--display); font-weight: 500; }
 .life-grid-cell.life-grid-lived { fill: var(--color-voltage); }
+.life-grid-cell.life-grid-now { fill: var(--ink); }
 .life-grid-cell.life-grid-future { fill: none; stroke: var(--rule-strong); stroke-width: 1; }
 .life-grid-cell.life-grid-beyond { fill: var(--rule); opacity: 0.4; }
 .life-grid-row-label { font-family: var(--sans); font-size: 9px; fill: var(--muted-soft); }

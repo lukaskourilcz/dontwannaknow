@@ -41,6 +41,19 @@ export default function HeroSummary({ report }: Props) {
     birthDateUTC(person.birthYear, person.birthMonth, person.birthDay),
   );
 
+  // The day of the week they were born — a tiny fact almost nobody knows
+  // about themselves. Only shown when we have the full date.
+  const WEEKDAYS = {
+    cs: ["neděle", "pondělí", "úterý", "středa", "čtvrtek", "pátek", "sobota"],
+    en: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+  } as const;
+  const weekday =
+    person.birthMonth && person.birthDay
+      ? WEEKDAYS[lang][
+          birthDateUTC(person.birthYear, person.birthMonth, person.birthDay).getUTCDay()
+        ]
+      : null;
+
   const dateStr = (() => {
     if (person.birthMonth && person.birthDay) {
       return `${person.birthDay}. ${person.birthMonth}. ${person.birthYear}`;
@@ -82,12 +95,14 @@ export default function HeroSummary({ report }: Props) {
     accent?: boolean;
   }> = [];
 
+  const place = report.cityLabel
+    ? `${report.cityLabel}, ${report.countryLabel}`
+    : report.countryLabel;
+
   cards.push({
     label: lang === "cs" ? genderForm(person.gender, "Narozen", "Narozena") : "Born",
     value: dateStr,
-    detail: report.cityLabel
-      ? `${report.cityLabel}, ${report.countryLabel}`
-      : report.countryLabel,
+    detail: weekday ? `${weekday} · ${place}` : place,
   });
 
   cards.push({

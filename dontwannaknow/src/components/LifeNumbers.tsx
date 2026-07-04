@@ -15,10 +15,10 @@ function Figure({ value, locale }: { value: number; locale: string }) {
 }
 
 /**
- * "Život v číslech" — a straight-faced broadsheet grid reporting the absurd
- * lifetime totals (pees, poops, farts, heartbeats, laps around the Sun…)
+ * "Život v číslech" — a straight-faced broadsheet grid reporting the
+ * lifetime totals (heartbeats, full moons overhead, laps around the Sun…)
  * computed from nothing but how long the person has been alive. The register
- * stays NewForm-monochrome on purpose: the deadpan framing is the joke.
+ * stays NewForm-monochrome on purpose: the deadpan framing is the charm.
  */
 export default function LifeNumbers({ daysLived }: { daysLived: number }) {
   const { lang } = useLang();

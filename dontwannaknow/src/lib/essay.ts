@@ -117,11 +117,10 @@ export function buildEssay(person: Person, excludeWorld = false): EssayParagraph
   if (edu) {
     const decadeWord = `${edu.decadeStart}. letech`;
     const parts: string[] = [];
+    // Percentages (literacy, graduation rates) read like a statistics
+    // yearbook — subjects, classrooms and jobs paint the picture better.
     parts.push(
-      `Škola ve ${decadeWord} v zemi ${countryLabel}: povinná do ${edu.compulsoryEnd} let, přičemž průměrný dospělý absolvoval zhruba ${edu.avgYearsSchooling} let školní docházky. ${edu.literacyPct} % dospělých umělo číst a psát.`,
-    );
-    parts.push(
-      `Zhruba ${edu.highSchoolGradPct} % vrstevníků dokončilo vyšší střední vzdělání; asi ${edu.universityPct} % dospělých kdy získalo vysokoškolský titul.`,
+      `Škola ve ${decadeWord} v zemi ${countryLabel}: povinná do ${edu.compulsoryEnd} let.`,
     );
     parts.push(
       `Předměty v rozvrhu: ${joinList(edu.subjects)}. ${edu.classroom}`,
@@ -168,7 +167,8 @@ export function buildEssay(person: Person, excludeWorld = false): EssayParagraph
       (e) => e.year >= stage.from && e.year <= stage.to,
     );
     if (stageEvents.length === 0) continue;
-    const picked = pickN(stageEvents, 10).sort((a, b) => a.year - b.year);
+    // Six per stage keeps the whole essay scrollable in one sitting.
+    const picked = pickN(stageEvents, 6).sort((a, b) => a.year - b.year);
     out.push({
       heading: stage.name,
       items: picked.map((e) => `${e.year} — ${capitalize(e.text)}`),
