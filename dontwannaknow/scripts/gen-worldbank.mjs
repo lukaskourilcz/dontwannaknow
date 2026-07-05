@@ -5,7 +5,8 @@
 //   node scripts/gen-worldbank.mjs
 //
 // Output: src/data/generated/worldBank.json
-//   { "<ISO3>": { "<year>": { pop, lifeExp, gdpPerCapita } }, ... }
+//   { "<ISO3>": { "<year>": { pop, lifeExp, gdpPerCapita, birthRate,
+//     deathRate, fertility, infantMortality } }, ... }
 //
 // Data begins ~1960 for most indicators; the app treats it as an optional
 // enrichment and falls back to the curated approximations before then.
@@ -21,12 +22,16 @@ import { fileURLToPath } from "node:url";
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = resolve(ROOT, "src/data/generated/worldBank.json");
 
-// The five aggregates the app cares about (matches its Country codes + world).
-const COUNTRIES = ["CZE", "ESP", "USA", "UKR", "WLD"];
+// The aggregates the app cares about (matches its Country codes + world).
+const COUNTRIES = ["CZE", "ESP", "USA", "UKR", "CAN", "MEX", "WLD"];
 const INDICATORS = {
   pop: "SP.POP.TOTL", // total population
   lifeExp: "SP.DYN.LE00.IN", // life expectancy at birth, years
   gdpPerCapita: "NY.GDP.PCAP.CD", // GDP per capita, current US$
+  birthRate: "SP.DYN.CBRT.IN", // crude birth rate, per 1,000 people
+  deathRate: "SP.DYN.CDRT.IN", // crude death rate, per 1,000 people
+  fertility: "SP.DYN.TFRT.IN", // total fertility, children per woman
+  infantMortality: "SP.DYN.IMRT.IN", // infant deaths per 1,000 live births
 };
 const FROM = 1960;
 const TO = 2023;
@@ -67,8 +72,8 @@ for (const iso3 of COUNTRIES) {
     const series = fetchIndicator(iso3, indicator);
     for (const [year, value] of Object.entries(series)) {
       (byYear[year] ??= {});
-      if (key === "lifeExp") byYear[year][key] = round1(value);
-      else byYear[year][key] = round(value);
+      if (key === "pop" || key === "gdpPerCapita") byYear[year][key] = round(value);
+      else byYear[year][key] = round1(value);
     }
     process.stdout.write(`  ${iso3} ${indicator}: ${Object.keys(series).length} years\n`);
   }

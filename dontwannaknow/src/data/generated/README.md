@@ -10,7 +10,7 @@ Regenerate any of them by running the matching script and committing the diff:
 
 | File | Script | Source | What it is |
 |---|---|---|---|
-| `worldBank.json` | `node scripts/gen-worldbank.mjs` | [World Bank Indicators](https://data.worldbank.org) | Real population, life expectancy, and GDP/capita per country per year (CZE/ESP/USA/UKR/WLD, ~1960→). |
+| `worldBank.json` | `node scripts/gen-worldbank.mjs` | [World Bank Indicators](https://data.worldbank.org) | Real population, life expectancy, GDP/capita, birth & death rates, fertility, and infant mortality per country per year (CZE/ESP/USA/UKR/CAN/MEX/WLD, ~1960→). |
 | `wikidataPeople.json` | `node scripts/gen-wikidata-people.mjs` | [Wikidata](https://query.wikidata.org) | Notable people born in each decade per country, ranked by Wikipedia sitelinks (Czech labels preferred). |
 | `artByDecade.json` + `public/art/*.jpg` | `node scripts/gen-art.mjs` | [The Met Open Access](https://metmuseum.github.io) | Public-domain (CC0) paintings created in each decade; thumbnails are downloaded and served same-origin. |
 

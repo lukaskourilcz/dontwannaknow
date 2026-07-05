@@ -21,6 +21,7 @@ import { deathsAround, deathsInRange } from "../data/notableDeaths";
 import { speciesAliveAtBirth } from "../data/extinctions";
 import { slangFor } from "../data/slang";
 import { educationFor } from "../data/education";
+import { worldBankFor, worldBankLatest } from "../data/worldBank";
 import { worksAround, worksInRange } from "../data/culturalWorks";
 import { eventsInMonth, eventsInMonthLifetime, eventsAroundMonth } from "../data/monthlyEvents";
 import { mediaFor } from "../data/media";
@@ -158,6 +159,28 @@ export function buildEssay(person: Person, excludeWorld = false): EssayParagraph
     openingBits.push(`V té době ${joinList(inventionPicks)}.`);
   }
   openingBits.push(`Celosvětová průměrná délka života činila zhruba ${stats.globalLifeExpectancy} let.`);
+
+  // Who else was arriving that year — natality and mortality of the birth
+  // year, with today's figure for contrast (World Bank; series start ~1960).
+  const wbDemo = worldBankFor(person.country, birthYear);
+  if (wbDemo?.birthRate) {
+    const cs1 = (n: number) => n.toLocaleString("cs-CZ", { maximumFractionDigits: 1 });
+    const csKid = (n: number) =>
+      n.toLocaleString("cs-CZ", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+    const scope = person.country === "INTL" ? "Ve světě" : "V zemi";
+    // "narození" is case-invariant, so the decimal reads naturally.
+    let s = `${scope} tehdy připadalo zhruba ${cs1(wbDemo.birthRate)} narození na tisíc obyvatel`;
+    if (wbDemo.fertility) s += ` a na jednu ženu ${csKid(wbDemo.fertility)} dítěte`;
+    s += ".";
+    openingBits.push(s);
+    if (wbDemo.infantMortality) {
+      const nowIm = worldBankLatest(person.country, "infantMortality");
+      openingBits.push(
+        `Z tisíce novorozenců se tehdy prvních narozenin nedožilo ${cs1(wbDemo.infantMortality)}${nowIm ? ` — dnes ${cs1(nowIm.value)}` : ""}.`,
+      );
+    }
+  }
+
   out.push({ heading: "Úvodem: rok příchodu na svět", text: openingBits.join(" ") });
 
   // ── Stage paragraphs ─────────────────────────────────────────────

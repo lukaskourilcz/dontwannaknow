@@ -13,7 +13,7 @@ import { fmtMoney, fmtGasPerLitre } from "./money";
 import { famousFor } from "../data/famousPeople";
 import { eventsForCountry } from "../data/countryEvents";
 import { cityFactsFor, findCity } from "../data/cities";
-import { worldBankFor } from "../data/worldBank";
+import { worldBankFor, worldBankLatest } from "../data/worldBank";
 import { contemporariesFor } from "../data/wikidataPeople";
 import { mediaFor } from "../data/media";
 import { writersAtBirth } from "../data/writers";
@@ -364,6 +364,52 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
       facts.push({
         category: "everyday",
         text: `${countryLabel}, ${birthYear}: ${parts.join(", ")} (data Světové banky).`,
+      });
+    }
+  }
+
+  // Natality & mortality of the birth year, with a "vs. today" contrast —
+  // the drop in infant mortality is usually the most striking number in the
+  // whole report. World Bank series start ~1960; silently absent before.
+  {
+    const wb = worldBankFor(person.country, birthYear);
+    const cs1 = (n: number) => n.toLocaleString("cs-CZ", { maximumFractionDigits: 1 });
+    // Fertility keeps one decimal ("2,0 dítěte") so the genitive always fits.
+    const csKid = (n: number) =>
+      n.toLocaleString("cs-CZ", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+    const where = person.country === "INTL" ? "Svět" : countryLabel;
+
+    if (wb?.birthRate) {
+      const nowBr = worldBankLatest(person.country, "birthRate");
+      // "narození"/"úmrtí" are case-invariant, so decimals read naturally.
+      const bits = [
+        `zhruba ${cs1(wb.birthRate)} narození na tisíc obyvatel ročně${nowBr ? ` (dnes ${cs1(nowBr.value)})` : ""}`,
+      ];
+      if (wb.fertility) {
+        const nowFert = worldBankLatest(person.country, "fertility");
+        bits.push(
+          `na jednu ženu připadalo ${csKid(wb.fertility)} dítěte${nowFert ? ` (dnes ${csKid(nowFert.value)})` : ""}`,
+        );
+      }
+      facts.push({
+        category: "everyday",
+        text: `Porodnost — ${where}, ${birthYear}: ${bits.join("; ")}.`,
+      });
+    }
+
+    if (wb?.deathRate) {
+      const nowIm = worldBankLatest(person.country, "infantMortality");
+      const bits = [
+        `${cs1(wb.deathRate)} úmrtí na tisíc obyvatel ročně`,
+      ];
+      if (wb.infantMortality) {
+        bits.push(
+          `z tisíce novorozenců se prvních narozenin nedožilo ${cs1(wb.infantMortality)}${nowIm ? ` — dnes ${cs1(nowIm.value)}` : ""}`,
+        );
+      }
+      facts.push({
+        category: "illness",
+        text: `Úmrtnost — ${where}, ${birthYear}: ${bits.join("; ")}.`,
       });
     }
   }
