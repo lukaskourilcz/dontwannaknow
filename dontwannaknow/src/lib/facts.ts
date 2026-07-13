@@ -6,9 +6,11 @@ import { cultureForDecade, type CultureSnapshot } from "../data/culture";
 import {
   decadeFactsFor,
   countryLabelFor,
+  countryGenitiveFor,
   type Country,
   type CountryDecade,
 } from "../data/countryDecades";
+import { presidentAt, presidentsBetween, termLabel } from "../data/presidents";
 import { fmtMoney, fmtGasPerLitre } from "./money";
 import { famousFor } from "../data/famousPeople";
 import { eventsForCountry } from "../data/countryEvents";
@@ -127,6 +129,29 @@ function countryFacts(person: Person): Fact[] {
   const youthDecade = decadeFactsFor(country, birthYear + 15);
 
   const facts: Fact[] = [];
+
+  // ── Who was in charge: the head of state at birth, plus the succession
+  //    the person has lived under since. Answers the plain question "who was
+  //    president in the country you were born in, the year you were born?" ──
+  const genitive = countryGenitiveFor(country, birthYear);
+  const bornLeader = presidentAt(country, birthYear);
+  if (bornLeader) {
+    const stood = genderForm(bornLeader.gender, "stál", "stála");
+    facts.push({
+      category: "government",
+      text: `Když se ${person.label.toLowerCase()} ${genderForm(person.gender, "narodil", "narodila")}, ${stood} v čele ${genitive} ${bornLeader.title} **${bornLeader.name}** (v úřadu ${termLabel(bornLeader)})${bornLeader.note ? ` — ${bornLeader.note}` : ""}.`,
+    });
+
+    const succession = presidentsBetween(country, birthYear, CURRENT_YEAR);
+    if (succession.length > 1) {
+      const names = succession.map((p) => `**${p.name}** (${termLabel(p)})`);
+      facts.push({
+        category: "government",
+        text: `V čele ${genitive} se za ${genderForm(person.gender, "jeho", "její")} život vystřídali: ${names.join(", ")}.`,
+      });
+    }
+  }
+
   const decades: { d: CountryDecade | null; when: string }[] = [
     { d: birthDecade, when: `v letech ${decadeWord(Math.floor(birthYear / 10) * 10)}` },
   ];

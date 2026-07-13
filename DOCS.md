@@ -333,6 +333,7 @@ small set of selector functions used by the essay builder.
 |---|---:|---|
 | `countryDecades.ts` | 36 | Per-country per-decade snapshot of government, clothes, illnesses, daily life, food, money, bizarre/beautiful highlights |
 | `countryEvents.ts` | ~370 | Year-anchored events per country (CZ, ES, US, UA, CA, MX) |
+| `presidents.ts` | ~90 | Heads of state per country (CZ/US/MX presidents, ES kings & Franco, UA Soviet leaders & presidents, CA prime ministers) with terms — powers the "who was in charge the year you were born" line |
 | `cities.ts` | 120 cities + ~1,700 facts | City list with display names + akas, plus year-anchored hometown facts |
 | `cityCoords.ts` | 120 | Lat/lon for every city (for sky chart) |
 | `famousPeople.ts` | ~250 | Famous figures active per country per decade |

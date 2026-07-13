@@ -109,6 +109,23 @@ export const CONTENT_SOURCES: ContentSource[] = [
     blank: () => ({ country: "CZ", year: CURRENT_YEAR, text: "" }),
   },
   {
+    key: "presidents",
+    label: "Heads of state",
+    category: "countries",
+    fields: [
+      { key: "country", label: "Country", kind: "select", options: COUNTRY_CODES },
+      { key: "name", label: "Name", kind: "text", full: true },
+      { key: "title", label: "Title (prezident / král / premiér …)", kind: "text", full: true },
+      { key: "gender", label: "Gender", kind: "select", options: ["m", "f"] },
+      { key: "from", label: "In office from (year)", kind: "number" },
+      { key: "to", label: "In office to (year; blank = incumbent)", kind: "number", optional: true },
+      { key: "note", label: "Note (optional)", kind: "textarea", full: true, optional: true },
+    ],
+    summary: (r) => `${str(r.country)} — ${str(r.name)} (${num(r.from)}–${r.to ? num(r.to) : "dosud"})`,
+    tags: (r) => [str(r.country), "government", "president", decadeTag(r.from)],
+    blank: () => ({ country: "CZ", name: "", title: "prezident", gender: "m", from: CURRENT_YEAR }),
+  },
+  {
     key: "history",
     label: "Curated history (CZ/UA)",
     category: "countries",

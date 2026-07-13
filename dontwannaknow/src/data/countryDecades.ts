@@ -28,6 +28,27 @@ export function countryLabelFor(country: Country, birthYear: number): string {
   return COUNTRY_LABELS[country];
 }
 
+/** Genitive of the period-correct country name — for phrases like
+ *  "v čele Československa" / "v čele Sovětské Ukrajiny". */
+export function countryGenitiveFor(country: Country, birthYear: number): string {
+  switch (country) {
+    case "CZ":
+      return birthYear < 1993 ? "Československa" : "Česka";
+    case "UA":
+      return birthYear < 1991 ? "Sovětské Ukrajiny" : "Ukrajiny";
+    case "ES":
+      return "Španělska";
+    case "US":
+      return "USA";
+    case "CA":
+      return "Kanady";
+    case "MX":
+      return "Mexika";
+    default:
+      return COUNTRY_LABELS[country];
+  }
+}
+
 export type CountryDecade = {
   country: Exclude<Country, "INTL">;
   decadeStart: number;

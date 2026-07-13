@@ -6,7 +6,8 @@ import { genderForm, type Person } from "./facts";
 import { fmtMoney, fmtGasPerLitre } from "./money";
 import { findCity, cityFactsFor } from "../data/cities";
 import { eventsForCountry } from "../data/countryEvents";
-import { decadeFactsFor, countryLabelFor } from "../data/countryDecades";
+import { decadeFactsFor, countryLabelFor, countryGenitiveFor } from "../data/countryDecades";
+import { presidentAt, presidentsBetween, termLabel } from "../data/presidents";
 import { famousFor } from "../data/famousPeople";
 import { EVENTS } from "../data/events";
 import { goneCountriesAlive } from "../data/countries";
@@ -182,6 +183,25 @@ export function buildEssay(person: Person, excludeWorld = false): EssayParagraph
   }
 
   out.push({ heading: "Úvodem: rok příchodu na svět", text: openingBits.join(" ") });
+
+  // ── Who was in charge ─────────────────────────────────────────────
+  if (country !== "INTL") {
+    const genitive = countryGenitiveFor(country, birthYear);
+    const bornLeader = presidentAt(country, birthYear);
+    if (bornLeader) {
+      const stood = genderForm(bornLeader.gender, "stál", "stála");
+      const bits = [
+        `V roce ${birthYear} ${stood} v čele ${genitive} ${bornLeader.title} **${bornLeader.name}** (v úřadu ${termLabel(bornLeader)})${bornLeader.note ? ` — ${bornLeader.note}` : ""}.`,
+      ];
+      const succession = presidentsBetween(country, birthYear, CURRENT_YEAR);
+      if (succession.length > 1) {
+        bits.push(
+          `Od té doby se u moci vystřídali i ${joinList(succession.slice(1).map((p) => `**${p.name}** (${termLabel(p)})`))}.`,
+        );
+      }
+      out.push({ heading: "Kdo byl u moci", text: bits.join(" ") });
+    }
+  }
 
   // ── Stage paragraphs ─────────────────────────────────────────────
   for (const stage of stages) {
