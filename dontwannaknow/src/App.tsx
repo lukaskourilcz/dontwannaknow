@@ -7,7 +7,7 @@ import {
   useReducedMotion,
 } from "motion/react";
 import { Analytics } from "@vercel/analytics/react";
-import TypeformWizard from "./components/TypeformWizard";
+import NewForm from "./components/NewForm";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { reportFor, type Person, type PersonReport } from "./lib/facts";
 import { decodePeopleUrl } from "./lib/share";
@@ -134,7 +134,7 @@ function AppInner() {
               exit={{ opacity: 0, y: reduced ? 0 : -24, scale: reduced ? 1 : 0.98 }}
               transition={{ duration: 0.35, ease: EASE }}
             >
-              <TypeformWizard onSubmit={handleSubmit} />
+              <NewForm onSubmit={handleSubmit} />
             </m.div>
           )}
           {reports && people && (
