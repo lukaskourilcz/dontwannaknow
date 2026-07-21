@@ -11,12 +11,13 @@ const bundledData = import.meta.glob("../data/*.json");
 const bundledConfig = import.meta.glob("../config/*.json");
 
 function bundledImporter(key: string): (() => Promise<unknown>) | undefined {
-  if (key === "settings") return bundledConfig["../config/gameSettings.json"];
+  if (key === "settings") return bundledConfig["../config/productSettings.json"];
   return bundledData[`../data/${key}.json`];
 }
 
 // A real dev-API response carries this header; a production SPA rewrite won't.
-const isDevResponse = (res: Response) => res.ok && res.headers.get("x-dwk-dev") === "1";
+const isDevResponse = (res: Response) =>
+  res.ok && res.headers.get("x-tehdejsi-svet-dev") === "1";
 
 /** True when the dev-server write API answered — i.e. saves persist to disk. */
 export async function isLiveApiAvailable(): Promise<boolean> {
@@ -57,7 +58,7 @@ export async function saveContent(key: string, data: unknown): Promise<SaveResul
     /* fall through to the download fallback */
   }
   // No dev server: hand the file to the user to drop into the repo.
-  downloadJson(`${key}.json`, body);
+  downloadJson(key === "settings" ? "productSettings.json" : `${key}.json`, body);
   return { ok: true, persisted: false };
 }
 

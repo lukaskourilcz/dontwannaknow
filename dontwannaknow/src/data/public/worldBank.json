@@ -1,0 +1,1638 @@
+{
+  "CZE": {
+    "1960": {
+      "pop": 9602006,
+      "lifeExp": 70.3,
+      "birthRate": 13.4,
+      "deathRate": 9.8,
+      "fertility": 2.1,
+      "infantMortality": 21.2
+    },
+    "1961": {
+      "pop": 9586651,
+      "lifeExp": 70.5,
+      "birthRate": 13.7,
+      "deathRate": 9.9,
+      "fertility": 2.1,
+      "infantMortality": 20.9
+    },
+    "1962": {
+      "pop": 9624660,
+      "lifeExp": 69.8,
+      "birthRate": 13.9,
+      "deathRate": 10.8,
+      "fertility": 2.1,
+      "infantMortality": 20.8
+    },
+    "1963": {
+      "pop": 9670685,
+      "lifeExp": 70.3,
+      "birthRate": 15.4,
+      "deathRate": 10.4,
+      "fertility": 2.3,
+      "infantMortality": 20.9
+    },
+    "1964": {
+      "pop": 9727804,
+      "lifeExp": 70.5,
+      "birthRate": 15.9,
+      "deathRate": 10.5,
+      "fertility": 2.3,
+      "infantMortality": 21
+    },
+    "1965": {
+      "pop": 9779358,
+      "lifeExp": 70.2,
+      "birthRate": 15.1,
+      "deathRate": 10.7,
+      "fertility": 2.2,
+      "infantMortality": 21.2
+    },
+    "1966": {
+      "pop": 9821040,
+      "lifeExp": 70.4,
+      "birthRate": 14.4,
+      "deathRate": 10.8,
+      "fertility": 2,
+      "infantMortality": 21.3
+    },
+    "1967": {
+      "pop": 9852899,
+      "lifeExp": 70.3,
+      "birthRate": 14.1,
+      "deathRate": 11.1,
+      "fertility": 1.9,
+      "infantMortality": 21.4
+    },
+    "1968": {
+      "pop": 9876346,
+      "lifeExp": 69.8,
+      "birthRate": 13.9,
+      "deathRate": 11.7,
+      "fertility": 1.8,
+      "infantMortality": 21.4
+    },
+    "1969": {
+      "pop": 9896580,
+      "lifeExp": 69.4,
+      "birthRate": 14.5,
+      "deathRate": 12.2,
+      "fertility": 1.9,
+      "infantMortality": 21.3
+    },
+    "1970": {
+      "pop": 9858071,
+      "lifeExp": 69.4,
+      "birthRate": 15,
+      "deathRate": 12.5,
+      "fertility": 1.9,
+      "infantMortality": 21
+    },
+    "1971": {
+      "pop": 9826815,
+      "lifeExp": 69.7,
+      "birthRate": 15.7,
+      "deathRate": 12.5,
+      "fertility": 2,
+      "infantMortality": 20.7
+    },
+    "1972": {
+      "pop": 9867632,
+      "lifeExp": 70.2,
+      "birthRate": 16.6,
+      "deathRate": 12.1,
+      "fertility": 2.1,
+      "infantMortality": 20.4
+    },
+    "1973": {
+      "pop": 9922266,
+      "lifeExp": 70,
+      "birthRate": 18.3,
+      "deathRate": 12.5,
+      "fertility": 2.3,
+      "infantMortality": 19.9
+    },
+    "1974": {
+      "pop": 9988459,
+      "lifeExp": 70.1,
+      "birthRate": 19.4,
+      "deathRate": 12.7,
+      "fertility": 2.5,
+      "infantMortality": 19.4
+    },
+    "1975": {
+      "pop": 10058620,
+      "lifeExp": 70.4,
+      "birthRate": 19.1,
+      "deathRate": 12.4,
+      "fertility": 2.4,
+      "infantMortality": 18.8
+    },
+    "1976": {
+      "pop": 10125939,
+      "lifeExp": 70.5,
+      "birthRate": 18.5,
+      "deathRate": 12.4,
+      "fertility": 2.4,
+      "infantMortality": 18.1
+    },
+    "1977": {
+      "pop": 10186755,
+      "lifeExp": 70.6,
+      "birthRate": 17.8,
+      "deathRate": 12.4,
+      "fertility": 2.3,
+      "infantMortality": 17.3
+    },
+    "1978": {
+      "pop": 10242098,
+      "lifeExp": 70.6,
+      "birthRate": 17.5,
+      "deathRate": 12.4,
+      "fertility": 2.3,
+      "infantMortality": 16.4
+    },
+    "1979": {
+      "pop": 10292341,
+      "lifeExp": 70.7,
+      "birthRate": 16.7,
+      "deathRate": 12.4,
+      "fertility": 2.3,
+      "infantMortality": 15.6
+    },
+    "1980": {
+      "pop": 10304193,
+      "lifeExp": 70.3,
+      "birthRate": 14.9,
+      "deathRate": 13.2,
+      "fertility": 2.1,
+      "infantMortality": 14.7
+    },
+    "1981": {
+      "pop": 10300591,
+      "lifeExp": 70.7,
+      "birthRate": 14,
+      "deathRate": 12.7,
+      "fertility": 2,
+      "infantMortality": 13.9
+    },
+    "1982": {
+      "pop": 10314826,
+      "lifeExp": 70.8,
+      "birthRate": 13.7,
+      "deathRate": 12.7,
+      "fertility": 2,
+      "infantMortality": 13.2
+    },
+    "1983": {
+      "pop": 10323856,
+      "lifeExp": 70.6,
+      "birthRate": 13.3,
+      "deathRate": 13,
+      "fertility": 2,
+      "infantMortality": 12.7
+    },
+    "1984": {
+      "pop": 10330213,
+      "lifeExp": 70.8,
+      "birthRate": 13.3,
+      "deathRate": 12.8,
+      "fertility": 2,
+      "infantMortality": 12.4
+    },
+    "1985": {
+      "pop": 10337118,
+      "lifeExp": 71,
+      "birthRate": 13.1,
+      "deathRate": 12.7,
+      "fertility": 2,
+      "infantMortality": 12.2
+    },
+    "1986": {
+      "pop": 10342227,
+      "lifeExp": 71,
+      "birthRate": 12.9,
+      "deathRate": 12.8,
+      "fertility": 1.9,
+      "infantMortality": 11.9
+    },
+    "1987": {
+      "pop": 10347318,
+      "lifeExp": 71.4,
+      "birthRate": 12.7,
+      "deathRate": 12.3,
+      "fertility": 1.9,
+      "infantMortality": 11.5
+    },
+    "1988": {
+      "pop": 10355276,
+      "lifeExp": 71.6,
+      "birthRate": 12.8,
+      "deathRate": 12.1,
+      "fertility": 1.9,
+      "infantMortality": 11.1
+    },
+    "1989": {
+      "pop": 10361068,
+      "lifeExp": 71.7,
+      "birthRate": 12.4,
+      "deathRate": 12.3,
+      "fertility": 1.9,
+      "infantMortality": 10.8
+    },
+    "1990": {
+      "pop": 10333355,
+      "lifeExp": 71.4,
+      "gdpPerCapita": 3969,
+      "birthRate": 12.6,
+      "deathRate": 12.5,
+      "fertility": 1.9,
+      "infantMortality": 10.4
+    },
+    "1991": {
+      "pop": 10308578,
+      "lifeExp": 71.9,
+      "gdpPerCapita": 2917,
+      "birthRate": 12.5,
+      "deathRate": 12.1,
+      "fertility": 1.9,
+      "infantMortality": 9.9
+    },
+    "1992": {
+      "pop": 10319123,
+      "lifeExp": 72.3,
+      "gdpPerCapita": 3397,
+      "birthRate": 11.8,
+      "deathRate": 11.7,
+      "fertility": 1.7,
+      "infantMortality": 9.3
+    },
+    "1993": {
+      "pop": 10329855,
+      "lifeExp": 72.8,
+      "gdpPerCapita": 3984,
+      "birthRate": 11.7,
+      "deathRate": 11.4,
+      "fertility": 1.7,
+      "infantMortality": 8.6
+    },
+    "1994": {
+      "pop": 10333587,
+      "lifeExp": 73,
+      "gdpPerCapita": 4663,
+      "birthRate": 10.3,
+      "deathRate": 11.4,
+      "fertility": 1.4,
+      "infantMortality": 7.9
+    },
+    "1995": {
+      "pop": 10327253,
+      "lifeExp": 73.1,
+      "gdpPerCapita": 5865,
+      "birthRate": 9.3,
+      "deathRate": 11.4,
+      "fertility": 1.3,
+      "infantMortality": 7.1
+    },
+    "1996": {
+      "pop": 10315241,
+      "lifeExp": 73.7,
+      "gdpPerCapita": 6573,
+      "birthRate": 8.8,
+      "deathRate": 10.9,
+      "fertility": 1.2,
+      "infantMortality": 6.4
+    },
+    "1997": {
+      "pop": 10304131,
+      "lifeExp": 73.8,
+      "gdpPerCapita": 6069,
+      "birthRate": 8.8,
+      "deathRate": 10.9,
+      "fertility": 1.2,
+      "infantMortality": 5.7
+    },
+    "1998": {
+      "pop": 10294373,
+      "lifeExp": 74.5,
+      "gdpPerCapita": 6527,
+      "birthRate": 8.8,
+      "deathRate": 10.6,
+      "fertility": 1.2,
+      "infantMortality": 5.2
+    },
+    "1999": {
+      "pop": 10283860,
+      "lifeExp": 74.7,
+      "gdpPerCapita": 6378,
+      "birthRate": 8.7,
+      "deathRate": 10.7,
+      "fertility": 1.1,
+      "infantMortality": 4.8
+    },
+    "2000": {
+      "pop": 10255063,
+      "lifeExp": 75,
+      "gdpPerCapita": 6063,
+      "birthRate": 8.9,
+      "deathRate": 10.6,
+      "fertility": 1.2,
+      "infantMortality": 4.5
+    },
+    "2001": {
+      "pop": 10216605,
+      "lifeExp": 75.2,
+      "gdpPerCapita": 6669,
+      "birthRate": 8.9,
+      "deathRate": 10.5,
+      "fertility": 1.2,
+      "infantMortality": 4.2
+    },
+    "2002": {
+      "pop": 10196916,
+      "lifeExp": 75.2,
+      "gdpPerCapita": 8101,
+      "birthRate": 9.1,
+      "deathRate": 10.6,
+      "fertility": 1.2,
+      "infantMortality": 4
+    },
+    "2003": {
+      "pop": 10193998,
+      "lifeExp": 75.2,
+      "gdpPerCapita": 9852,
+      "birthRate": 9.2,
+      "deathRate": 10.9,
+      "fertility": 1.2,
+      "infantMortality": 3.9
+    },
+    "2004": {
+      "pop": 10197101,
+      "lifeExp": 75.7,
+      "gdpPerCapita": 11783,
+      "birthRate": 9.6,
+      "deathRate": 10.5,
+      "fertility": 1.2,
+      "infantMortality": 3.7
+    },
+    "2005": {
+      "pop": 10211216,
+      "lifeExp": 75.9,
+      "gdpPerCapita": 13442,
+      "birthRate": 10,
+      "deathRate": 10.6,
+      "fertility": 1.3,
+      "infantMortality": 3.5
+    },
+    "2006": {
+      "pop": 10238905,
+      "lifeExp": 76.5,
+      "gdpPerCapita": 15259,
+      "birthRate": 10.3,
+      "deathRate": 10.2,
+      "fertility": 1.3,
+      "infantMortality": 3.3
+    },
+    "2007": {
+      "pop": 10298828,
+      "lifeExp": 76.7,
+      "gdpPerCapita": 18453,
+      "birthRate": 11.1,
+      "deathRate": 10.2,
+      "fertility": 1.5,
+      "infantMortality": 3.2
+    },
+    "2008": {
+      "pop": 10384603,
+      "lifeExp": 77,
+      "gdpPerCapita": 22775,
+      "birthRate": 11.5,
+      "deathRate": 10.1,
+      "fertility": 1.5,
+      "infantMortality": 3
+    },
+    "2009": {
+      "pop": 10443936,
+      "lifeExp": 77.1,
+      "gdpPerCapita": 19817,
+      "birthRate": 11.3,
+      "deathRate": 10.3,
+      "fertility": 1.5,
+      "infantMortality": 2.9
+    },
+    "2010": {
+      "pop": 10474410,
+      "lifeExp": 77.4,
+      "gdpPerCapita": 20160,
+      "birthRate": 11.2,
+      "deathRate": 10.2,
+      "fertility": 1.5,
+      "infantMortality": 2.7
+    },
+    "2011": {
+      "pop": 10496088,
+      "lifeExp": 77.9,
+      "gdpPerCapita": 22049,
+      "birthRate": 10.4,
+      "deathRate": 10.2,
+      "fertility": 1.4,
+      "infantMortality": 2.6
+    },
+    "2012": {
+      "pop": 10510785,
+      "lifeExp": 78.1,
+      "gdpPerCapita": 20014,
+      "birthRate": 10.3,
+      "deathRate": 10.3,
+      "fertility": 1.5,
+      "infantMortality": 2.6
+    },
+    "2013": {
+      "pop": 10514272,
+      "lifeExp": 78.2,
+      "gdpPerCapita": 20260,
+      "birthRate": 10.2,
+      "deathRate": 10.4,
+      "fertility": 1.5,
+      "infantMortality": 2.5
+    },
+    "2014": {
+      "pop": 10525347,
+      "lifeExp": 78.8,
+      "gdpPerCapita": 20038,
+      "birthRate": 10.4,
+      "deathRate": 10,
+      "fertility": 1.5,
+      "infantMortality": 2.5
+    },
+    "2015": {
+      "pop": 10546059,
+      "lifeExp": 78.6,
+      "gdpPerCapita": 17932,
+      "birthRate": 10.5,
+      "deathRate": 10.5,
+      "fertility": 1.6,
+      "infantMortality": 2.6
+    },
+    "2016": {
+      "pop": 10566332,
+      "lifeExp": 79,
+      "gdpPerCapita": 18754,
+      "birthRate": 10.7,
+      "deathRate": 10.2,
+      "fertility": 1.6,
+      "infantMortality": 2.6
+    },
+    "2017": {
+      "pop": 10594438,
+      "lifeExp": 79,
+      "gdpPerCapita": 20913,
+      "birthRate": 10.8,
+      "deathRate": 10.5,
+      "fertility": 1.7,
+      "infantMortality": 2.6
+    },
+    "2018": {
+      "pop": 10629928,
+      "lifeExp": 79,
+      "gdpPerCapita": 23706,
+      "birthRate": 10.7,
+      "deathRate": 10.6,
+      "fertility": 1.7,
+      "infantMortality": 2.5
+    },
+    "2019": {
+      "pop": 10671870,
+      "lifeExp": 79.2,
+      "gdpPerCapita": 24063,
+      "birthRate": 10.5,
+      "deathRate": 10.5,
+      "fertility": 1.7,
+      "infantMortality": 2.4
+    },
+    "2020": {
+      "pop": 10697858,
+      "lifeExp": 78.2,
+      "gdpPerCapita": 23473,
+      "birthRate": 10.3,
+      "deathRate": 12.1,
+      "fertility": 1.7,
+      "infantMortality": 2.4
+    },
+    "2021": {
+      "pop": 10505772,
+      "lifeExp": 77.2,
+      "gdpPerCapita": 27696,
+      "birthRate": 10.6,
+      "deathRate": 13.3,
+      "fertility": 1.8,
+      "infantMortality": 2.3
+    },
+    "2022": {
+      "pop": 10672118,
+      "lifeExp": 78.9,
+      "gdpPerCapita": 28282,
+      "birthRate": 9.5,
+      "deathRate": 11.3,
+      "fertility": 1.6,
+      "infantMortality": 2.2
+    },
+    "2023": {
+      "pop": 10864042,
+      "lifeExp": 79.8,
+      "gdpPerCapita": 31762,
+      "birthRate": 8.4,
+      "deathRate": 10.4,
+      "fertility": 1.5,
+      "infantMortality": 2.1
+    }
+  },
+  "UKR": {
+    "1960": {
+      "pop": 42824093,
+      "lifeExp": 69.4,
+      "birthRate": 20.8,
+      "deathRate": 8.2,
+      "fertility": 2.3
+    },
+    "1961": {
+      "pop": 43399766,
+      "lifeExp": 70,
+      "birthRate": 19.7,
+      "deathRate": 8,
+      "fertility": 2.2
+    },
+    "1962": {
+      "pop": 43943674,
+      "lifeExp": 70.4,
+      "birthRate": 18.9,
+      "deathRate": 7.9,
+      "fertility": 2.2
+    },
+    "1963": {
+      "pop": 44462372,
+      "lifeExp": 70.7,
+      "birthRate": 18,
+      "deathRate": 7.9,
+      "fertility": 2.1
+    },
+    "1964": {
+      "pop": 44951156,
+      "lifeExp": 71,
+      "birthRate": 16.6,
+      "deathRate": 7.9,
+      "fertility": 2
+    },
+    "1965": {
+      "pop": 45386892,
+      "lifeExp": 71.1,
+      "birthRate": 15.3,
+      "deathRate": 7.9,
+      "fertility": 1.9
+    },
+    "1966": {
+      "pop": 45802519,
+      "lifeExp": 71.2,
+      "birthRate": 15.4,
+      "deathRate": 8,
+      "fertility": 2
+    },
+    "1967": {
+      "pop": 46215988,
+      "lifeExp": 71.1,
+      "birthRate": 15,
+      "deathRate": 8.2,
+      "fertility": 2
+    },
+    "1968": {
+      "pop": 46614325,
+      "lifeExp": 71,
+      "birthRate": 14.8,
+      "deathRate": 8.4,
+      "fertility": 2
+    },
+    "1969": {
+      "pop": 46976256,
+      "lifeExp": 70.8,
+      "birthRate": 14.5,
+      "deathRate": 8.7,
+      "fertility": 2
+    },
+    "1970": {
+      "pop": 47261306,
+      "lifeExp": 70.8,
+      "birthRate": 15,
+      "deathRate": 8.9,
+      "fertility": 2.1
+    },
+    "1971": {
+      "pop": 47573287,
+      "lifeExp": 70.9,
+      "birthRate": 15.4,
+      "deathRate": 9,
+      "fertility": 2.1,
+      "infantMortality": 29.4
+    },
+    "1972": {
+      "pop": 47946893,
+      "lifeExp": 71,
+      "birthRate": 15.5,
+      "deathRate": 9.1,
+      "fertility": 2.1,
+      "infantMortality": 28.5
+    },
+    "1973": {
+      "pop": 48277121,
+      "lifeExp": 70.8,
+      "birthRate": 15,
+      "deathRate": 9.3,
+      "fertility": 2,
+      "infantMortality": 27.8
+    },
+    "1974": {
+      "pop": 48576570,
+      "lifeExp": 70.6,
+      "birthRate": 15.2,
+      "deathRate": 9.6,
+      "fertility": 2.1,
+      "infantMortality": 27.1
+    },
+    "1975": {
+      "pop": 48865229,
+      "lifeExp": 70.4,
+      "birthRate": 15.1,
+      "deathRate": 9.9,
+      "fertility": 2,
+      "infantMortality": 26.5
+    },
+    "1976": {
+      "pop": 49120842,
+      "lifeExp": 70.1,
+      "birthRate": 15.2,
+      "deathRate": 10.2,
+      "fertility": 2,
+      "infantMortality": 26.1
+    },
+    "1977": {
+      "pop": 49336481,
+      "lifeExp": 70,
+      "birthRate": 14.8,
+      "deathRate": 10.4,
+      "fertility": 2,
+      "infantMortality": 25.7
+    },
+    "1978": {
+      "pop": 49521243,
+      "lifeExp": 69.8,
+      "birthRate": 14.9,
+      "deathRate": 10.7,
+      "fertility": 2,
+      "infantMortality": 25.3
+    },
+    "1979": {
+      "pop": 49721381,
+      "lifeExp": 69.8,
+      "birthRate": 14.9,
+      "deathRate": 10.9,
+      "fertility": 2,
+      "infantMortality": 24.8
+    },
+    "1980": {
+      "pop": 49955152,
+      "lifeExp": 69.8,
+      "birthRate": 15,
+      "deathRate": 11,
+      "fertility": 1.9,
+      "infantMortality": 24.3
+    },
+    "1981": {
+      "pop": 50189281,
+      "lifeExp": 69.8,
+      "birthRate": 14.8,
+      "deathRate": 11.1,
+      "fertility": 1.9,
+      "infantMortality": 23.7
+    },
+    "1982": {
+      "pop": 50402724,
+      "lifeExp": 69.9,
+      "birthRate": 15,
+      "deathRate": 11.2,
+      "fertility": 2,
+      "infantMortality": 23
+    },
+    "1983": {
+      "pop": 50637029,
+      "lifeExp": 69.9,
+      "birthRate": 16.1,
+      "deathRate": 11.4,
+      "fertility": 2.1,
+      "infantMortality": 22.2
+    },
+    "1984": {
+      "pop": 50887599,
+      "lifeExp": 70,
+      "birthRate": 15.9,
+      "deathRate": 11.6,
+      "fertility": 2.1,
+      "infantMortality": 21.4
+    },
+    "1985": {
+      "pop": 51108770,
+      "lifeExp": 70.4,
+      "birthRate": 15.4,
+      "deathRate": 11.5,
+      "fertility": 2,
+      "infantMortality": 20.7
+    },
+    "1986": {
+      "pop": 51318745,
+      "lifeExp": 70.8,
+      "birthRate": 15.8,
+      "deathRate": 11.4,
+      "fertility": 2.1,
+      "infantMortality": 19.9
+    },
+    "1987": {
+      "pop": 51515732,
+      "lifeExp": 71.2,
+      "gdpPerCapita": 1244,
+      "birthRate": 15.1,
+      "deathRate": 11.3,
+      "fertility": 2.1,
+      "infantMortality": 19.3
+    },
+    "1988": {
+      "pop": 51724853,
+      "lifeExp": 71,
+      "gdpPerCapita": 1444,
+      "birthRate": 14.6,
+      "deathRate": 11.5,
+      "fertility": 2,
+      "infantMortality": 18.8
+    },
+    "1989": {
+      "pop": 51917817,
+      "lifeExp": 70.8,
+      "gdpPerCapita": 1593,
+      "birthRate": 13.8,
+      "deathRate": 11.7,
+      "fertility": 1.9,
+      "infantMortality": 18.5
+    },
+    "1990": {
+      "pop": 52054092,
+      "lifeExp": 70.4,
+      "gdpPerCapita": 1564,
+      "birthRate": 13.1,
+      "deathRate": 12.2,
+      "fertility": 1.8,
+      "infantMortality": 18.3
+    },
+    "1991": {
+      "pop": 52170961,
+      "lifeExp": 69.7,
+      "gdpPerCapita": 1483,
+      "birthRate": 12.5,
+      "deathRate": 12.8,
+      "fertility": 1.8,
+      "infantMortality": 18.4
+    },
+    "1992": {
+      "pop": 52323671,
+      "lifeExp": 68.9,
+      "gdpPerCapita": 1413,
+      "birthRate": 11.7,
+      "deathRate": 13.5,
+      "fertility": 1.7,
+      "infantMortality": 18.6
+    },
+    "1993": {
+      "pop": 52350126,
+      "lifeExp": 68.3,
+      "gdpPerCapita": 1254,
+      "birthRate": 10.9,
+      "deathRate": 14.1,
+      "fertility": 1.6,
+      "infantMortality": 18.9
+    },
+    "1994": {
+      "pop": 52075998,
+      "lifeExp": 67.5,
+      "gdpPerCapita": 1009,
+      "birthRate": 10.2,
+      "deathRate": 14.8,
+      "fertility": 1.5,
+      "infantMortality": 19.1
+    },
+    "1995": {
+      "pop": 51665539,
+      "lifeExp": 67.1,
+      "gdpPerCapita": 933,
+      "birthRate": 9.7,
+      "deathRate": 15.1,
+      "fertility": 1.4,
+      "infantMortality": 19.4
+    },
+    "1996": {
+      "pop": 51226109,
+      "lifeExp": 67.1,
+      "gdpPerCapita": 870,
+      "birthRate": 9.2,
+      "deathRate": 15.2,
+      "fertility": 1.3,
+      "infantMortality": 19.4
+    },
+    "1997": {
+      "pop": 50786885,
+      "lifeExp": 67.7,
+      "gdpPerCapita": 987,
+      "birthRate": 8.8,
+      "deathRate": 14.9,
+      "fertility": 1.3,
+      "infantMortality": 19.2
+    },
+    "1998": {
+      "pop": 50379731,
+      "lifeExp": 68,
+      "gdpPerCapita": 831,
+      "birthRate": 8.4,
+      "deathRate": 14.7,
+      "fertility": 1.2,
+      "infantMortality": 18.8
+    },
+    "1999": {
+      "pop": 49976446,
+      "lifeExp": 68,
+      "gdpPerCapita": 632,
+      "birthRate": 7.9,
+      "deathRate": 14.9,
+      "fertility": 1.1,
+      "infantMortality": 18.3
+    },
+    "2000": {
+      "pop": 49556660,
+      "lifeExp": 67.8,
+      "gdpPerCapita": 653,
+      "birthRate": 7.8,
+      "deathRate": 15.2,
+      "fertility": 1.1,
+      "infantMortality": 17.6
+    },
+    "2001": {
+      "pop": 49106855,
+      "lifeExp": 67.7,
+      "gdpPerCapita": 800,
+      "birthRate": 7.8,
+      "deathRate": 15.4,
+      "fertility": 1.1,
+      "infantMortality": 16.8
+    },
+    "2002": {
+      "pop": 48677281,
+      "lifeExp": 67.7,
+      "gdpPerCapita": 903,
+      "birthRate": 8.1,
+      "deathRate": 15.6,
+      "fertility": 1.1,
+      "infantMortality": 16.1
+    },
+    "2003": {
+      "pop": 48315136,
+      "lifeExp": 67.6,
+      "gdpPerCapita": 1076,
+      "birthRate": 8.5,
+      "deathRate": 15.8,
+      "fertility": 1.2,
+      "infantMortality": 15.3
+    },
+    "2004": {
+      "pop": 47979507,
+      "lifeExp": 67.5,
+      "gdpPerCapita": 1401,
+      "birthRate": 9,
+      "deathRate": 16.1,
+      "fertility": 1.2,
+      "infantMortality": 14.7
+    },
+    "2005": {
+      "pop": 47585556,
+      "lifeExp": 67.5,
+      "gdpPerCapita": 1875,
+      "birthRate": 9.1,
+      "deathRate": 16.2,
+      "fertility": 1.2,
+      "infantMortality": 14.1
+    },
+    "2006": {
+      "pop": 47278694,
+      "lifeExp": 67.5,
+      "gdpPerCapita": 2366,
+      "birthRate": 9.8,
+      "deathRate": 16.1,
+      "fertility": 1.3,
+      "infantMortality": 13.6
+    },
+    "2007": {
+      "pop": 47062798,
+      "lifeExp": 67.7,
+      "gdpPerCapita": 3160,
+      "birthRate": 10.2,
+      "deathRate": 16.2,
+      "fertility": 1.3,
+      "infantMortality": 13.1
+    },
+    "2008": {
+      "pop": 46819175,
+      "lifeExp": 68.3,
+      "gdpPerCapita": 4018,
+      "birthRate": 11,
+      "deathRate": 15.9,
+      "fertility": 1.4,
+      "infantMortality": 12.5
+    },
+    "2009": {
+      "pop": 46623731,
+      "lifeExp": 69.2,
+      "gdpPerCapita": 2607,
+      "birthRate": 11.2,
+      "deathRate": 15.4,
+      "fertility": 1.5,
+      "infantMortality": 12
+    },
+    "2010": {
+      "pop": 46456003,
+      "lifeExp": 70.2,
+      "gdpPerCapita": 3040,
+      "birthRate": 10.9,
+      "deathRate": 14.8,
+      "fertility": 1.4,
+      "infantMortality": 11.4
+    },
+    "2011": {
+      "pop": 46307853,
+      "lifeExp": 70.7,
+      "gdpPerCapita": 3657,
+      "birthRate": 11.1,
+      "deathRate": 14.5,
+      "fertility": 1.5,
+      "infantMortality": 10.9
+    },
+    "2012": {
+      "pop": 46210056,
+      "lifeExp": 71.1,
+      "gdpPerCapita": 3951,
+      "birthRate": 11.4,
+      "deathRate": 14.2,
+      "fertility": 1.5,
+      "infantMortality": 10.4
+    },
+    "2013": {
+      "pop": 46126770,
+      "lifeExp": 71.5,
+      "gdpPerCapita": 4130,
+      "birthRate": 11.2,
+      "deathRate": 14,
+      "fertility": 1.5,
+      "infantMortality": 10
+    },
+    "2014": {
+      "pop": 45972380,
+      "lifeExp": 71.8,
+      "gdpPerCapita": 3055,
+      "birthRate": 10.6,
+      "deathRate": 13.7,
+      "fertility": 1.5,
+      "infantMortality": 9.6
+    },
+    "2015": {
+      "pop": 45784896,
+      "lifeExp": 72.7,
+      "gdpPerCapita": 2094,
+      "birthRate": 9.8,
+      "deathRate": 13,
+      "fertility": 1.4,
+      "infantMortality": 9.2
+    },
+    "2016": {
+      "pop": 45616832,
+      "lifeExp": 73.4,
+      "gdpPerCapita": 2158,
+      "birthRate": 9.6,
+      "deathRate": 12.6,
+      "fertility": 1.4,
+      "infantMortality": 8.9
+    },
+    "2017": {
+      "pop": 45436041,
+      "lifeExp": 74,
+      "gdpPerCapita": 2604,
+      "birthRate": 8.8,
+      "deathRate": 12.3,
+      "fertility": 1.3,
+      "infantMortality": 8.7
+    },
+    "2018": {
+      "pop": 45208907,
+      "lifeExp": 73.6,
+      "gdpPerCapita": 3059,
+      "birthRate": 8.1,
+      "deathRate": 13.2,
+      "fertility": 1.2,
+      "infantMortality": 8.5
+    },
+    "2019": {
+      "pop": 44957458,
+      "lifeExp": 73.9,
+      "gdpPerCapita": 3620,
+      "birthRate": 7.8,
+      "deathRate": 13.1,
+      "fertility": 1.2,
+      "infantMortality": 8.3
+    },
+    "2020": {
+      "pop": 44680014,
+      "lifeExp": 73.3,
+      "gdpPerCapita": 3710,
+      "birthRate": 7.6,
+      "deathRate": 14.4,
+      "fertility": 1.2,
+      "infantMortality": 8.2
+    },
+    "2021": {
+      "pop": 44298640,
+      "lifeExp": 71.6,
+      "gdpPerCapita": 4776,
+      "birthRate": 7,
+      "deathRate": 17.1,
+      "fertility": 1.1,
+      "infantMortality": 8
+    },
+    "2022": {
+      "pop": 41048766,
+      "lifeExp": 72.7,
+      "gdpPerCapita": 4200,
+      "birthRate": 5.7,
+      "deathRate": 14.2,
+      "fertility": 0.9,
+      "infantMortality": 8
+    },
+    "2023": {
+      "pop": 37732836,
+      "lifeExp": 73.4,
+      "gdpPerCapita": 5140,
+      "birthRate": 5.6,
+      "deathRate": 13.1,
+      "fertility": 1,
+      "infantMortality": 7.8
+    }
+  },
+  "WLD": {
+    "1960": {
+      "pop": 3021512598,
+      "lifeExp": 50.9,
+      "gdpPerCapita": 453,
+      "birthRate": 32,
+      "deathRate": 17.2,
+      "fertility": 4.7
+    },
+    "1961": {
+      "pop": 3062768116,
+      "lifeExp": 52.8,
+      "gdpPerCapita": 472,
+      "birthRate": 31.2,
+      "deathRate": 14.6,
+      "fertility": 4.6
+    },
+    "1962": {
+      "pop": 3117372187,
+      "lifeExp": 55.3,
+      "gdpPerCapita": 496,
+      "birthRate": 35.2,
+      "deathRate": 13.6,
+      "fertility": 5
+    },
+    "1963": {
+      "pop": 3184063049,
+      "lifeExp": 55.7,
+      "gdpPerCapita": 525,
+      "birthRate": 36.3,
+      "deathRate": 13.4,
+      "fertility": 5.3
+    },
+    "1964": {
+      "pop": 3251249170,
+      "lifeExp": 56.1,
+      "gdpPerCapita": 564,
+      "birthRate": 35.2,
+      "deathRate": 13.5,
+      "fertility": 5.1
+    },
+    "1965": {
+      "pop": 3318979339,
+      "lifeExp": 55.9,
+      "gdpPerCapita": 602,
+      "birthRate": 34.5,
+      "deathRate": 13.3,
+      "fertility": 5.1
+    },
+    "1966": {
+      "pop": 3389042165,
+      "lifeExp": 56.4,
+      "gdpPerCapita": 639,
+      "birthRate": 33.5,
+      "deathRate": 12.9,
+      "fertility": 5
+    },
+    "1967": {
+      "pop": 3458932230,
+      "lifeExp": 56.9,
+      "gdpPerCapita": 664,
+      "birthRate": 33.2,
+      "deathRate": 12.6,
+      "fertility": 4.9
+    },
+    "1968": {
+      "pop": 3530576858,
+      "lifeExp": 57.3,
+      "gdpPerCapita": 703,
+      "birthRate": 33.3,
+      "deathRate": 12.4,
+      "fertility": 5
+    },
+    "1969": {
+      "pop": 3604694154,
+      "lifeExp": 57.7,
+      "gdpPerCapita": 761,
+      "birthRate": 32.8,
+      "deathRate": 12.2,
+      "fertility": 4.9
+    },
+    "1970": {
+      "pop": 3680493750,
+      "lifeExp": 57.9,
+      "gdpPerCapita": 818,
+      "birthRate": 32.6,
+      "deathRate": 12.1,
+      "fertility": 4.8
+    },
+    "1971": {
+      "pop": 3758515396,
+      "lifeExp": 58,
+      "gdpPerCapita": 885,
+      "birthRate": 31.8,
+      "deathRate": 12.2,
+      "fertility": 4.7
+    },
+    "1972": {
+      "pop": 3834345191,
+      "lifeExp": 58.8,
+      "gdpPerCapita": 1002,
+      "birthRate": 31.4,
+      "deathRate": 11.7,
+      "fertility": 4.5
+    },
+    "1973": {
+      "pop": 3910964219,
+      "lifeExp": 59.3,
+      "gdpPerCapita": 1202,
+      "birthRate": 30.7,
+      "deathRate": 11.5,
+      "fertility": 4.4
+    },
+    "1974": {
+      "pop": 3987186772,
+      "lifeExp": 59.7,
+      "gdpPerCapita": 1362,
+      "birthRate": 29.9,
+      "deathRate": 11.4,
+      "fertility": 4.3
+    },
+    "1975": {
+      "pop": 4061959945,
+      "lifeExp": 60.1,
+      "gdpPerCapita": 1489,
+      "birthRate": 29.2,
+      "deathRate": 11.3,
+      "fertility": 4.1
+    },
+    "1976": {
+      "pop": 4135644231,
+      "lifeExp": 60.5,
+      "gdpPerCapita": 1590,
+      "birthRate": 28.4,
+      "deathRate": 11.2,
+      "fertility": 4
+    },
+    "1977": {
+      "pop": 4208840894,
+      "lifeExp": 61,
+      "gdpPerCapita": 1766,
+      "birthRate": 28,
+      "deathRate": 10.9,
+      "fertility": 3.8
+    },
+    "1978": {
+      "pop": 4283309396,
+      "lifeExp": 61.4,
+      "gdpPerCapita": 2055,
+      "birthRate": 27.8,
+      "deathRate": 10.7,
+      "fertility": 3.8
+    },
+    "1979": {
+      "pop": 4359930896,
+      "lifeExp": 61.8,
+      "gdpPerCapita": 2335,
+      "birthRate": 27.7,
+      "deathRate": 10.4,
+      "fertility": 3.8
+    },
+    "1980": {
+      "pop": 4437473406,
+      "lifeExp": 62.2,
+      "gdpPerCapita": 2587,
+      "birthRate": 27.8,
+      "deathRate": 10.4,
+      "fertility": 3.7
+    },
+    "1981": {
+      "pop": 4516792587,
+      "lifeExp": 62.5,
+      "gdpPerCapita": 2629,
+      "birthRate": 28.2,
+      "deathRate": 10.2,
+      "fertility": 3.7
+    },
+    "1982": {
+      "pop": 4599385851,
+      "lifeExp": 62.9,
+      "gdpPerCapita": 2554,
+      "birthRate": 28.5,
+      "deathRate": 10.1,
+      "fertility": 3.7
+    },
+    "1983": {
+      "pop": 4682734714,
+      "lifeExp": 63.1,
+      "gdpPerCapita": 2561,
+      "birthRate": 27.9,
+      "deathRate": 10.2,
+      "fertility": 3.6
+    },
+    "1984": {
+      "pop": 4765813206,
+      "lifeExp": 63.4,
+      "gdpPerCapita": 2614,
+      "birthRate": 27.6,
+      "deathRate": 10.1,
+      "fertility": 3.6
+    },
+    "1985": {
+      "pop": 4850494238,
+      "lifeExp": 63.7,
+      "gdpPerCapita": 2691,
+      "birthRate": 27.6,
+      "deathRate": 9.9,
+      "fertility": 3.5
+    },
+    "1986": {
+      "pop": 4937459951,
+      "lifeExp": 64.1,
+      "gdpPerCapita": 3119,
+      "birthRate": 27.7,
+      "deathRate": 9.8,
+      "fertility": 3.5
+    },
+    "1987": {
+      "pop": 5026770385,
+      "lifeExp": 64.5,
+      "gdpPerCapita": 3488,
+      "birthRate": 27.6,
+      "deathRate": 9.6,
+      "fertility": 3.5
+    },
+    "1988": {
+      "pop": 5116898810,
+      "lifeExp": 64.7,
+      "gdpPerCapita": 3830,
+      "birthRate": 27.2,
+      "deathRate": 9.5,
+      "fertility": 3.4
+    },
+    "1989": {
+      "pop": 5207378374,
+      "lifeExp": 65,
+      "gdpPerCapita": 3931,
+      "birthRate": 26.7,
+      "deathRate": 9.3,
+      "fertility": 3.3
+    },
+    "1990": {
+      "pop": 5298962018,
+      "lifeExp": 65.1,
+      "gdpPerCapita": 4339,
+      "birthRate": 26.3,
+      "deathRate": 9.3,
+      "fertility": 3.3,
+      "infantMortality": 64
+    },
+    "1991": {
+      "pop": 5388203305,
+      "lifeExp": 65.3,
+      "gdpPerCapita": 4454,
+      "birthRate": 25.6,
+      "deathRate": 9.3,
+      "fertility": 3.1,
+      "infantMortality": 64
+    },
+    "1992": {
+      "pop": 5476822930,
+      "lifeExp": 65.5,
+      "gdpPerCapita": 4680,
+      "birthRate": 25,
+      "deathRate": 9.2,
+      "fertility": 3,
+      "infantMortality": 63.3
+    },
+    "1993": {
+      "pop": 5564459142,
+      "lifeExp": 65.7,
+      "gdpPerCapita": 4685,
+      "birthRate": 24.6,
+      "deathRate": 9.2,
+      "fertility": 3,
+      "infantMortality": 62.5
+    },
+    "1994": {
+      "pop": 5650534421,
+      "lifeExp": 66,
+      "gdpPerCapita": 4967,
+      "birthRate": 24.2,
+      "deathRate": 9.2,
+      "fertility": 2.9,
+      "infantMortality": 61.4
+    },
+    "1995": {
+      "pop": 5736205135,
+      "lifeExp": 66.2,
+      "gdpPerCapita": 5463,
+      "birthRate": 23.8,
+      "deathRate": 9,
+      "fertility": 2.9,
+      "infantMortality": 60.2
+    },
+    "1996": {
+      "pop": 5822327903,
+      "lifeExp": 66.5,
+      "gdpPerCapita": 5507,
+      "birthRate": 23.5,
+      "deathRate": 8.9,
+      "fertility": 2.8,
+      "infantMortality": 59.5
+    },
+    "1997": {
+      "pop": 5908180322,
+      "lifeExp": 66.8,
+      "gdpPerCapita": 5409,
+      "birthRate": 23.1,
+      "deathRate": 8.8,
+      "fertility": 2.8,
+      "infantMortality": 58.1
+    },
+    "1998": {
+      "pop": 5993730786,
+      "lifeExp": 67.1,
+      "gdpPerCapita": 5302,
+      "birthRate": 22.7,
+      "deathRate": 8.7,
+      "fertility": 2.7,
+      "infantMortality": 57
+    },
+    "1999": {
+      "pop": 6078069822,
+      "lifeExp": 67.3,
+      "gdpPerCapita": 5401,
+      "birthRate": 22.3,
+      "deathRate": 8.6,
+      "fertility": 2.7,
+      "infantMortality": 55.1
+    },
+    "2000": {
+      "pop": 6161528496,
+      "lifeExp": 67.7,
+      "gdpPerCapita": 5513,
+      "birthRate": 22.1,
+      "deathRate": 8.5,
+      "fertility": 2.7,
+      "infantMortality": 53.3
+    },
+    "2001": {
+      "pop": 6244739668,
+      "lifeExp": 67.9,
+      "gdpPerCapita": 5404,
+      "birthRate": 21.7,
+      "deathRate": 8.4,
+      "fertility": 2.7,
+      "infantMortality": 51.9
+    },
+    "2002": {
+      "pop": 6327171255,
+      "lifeExp": 68.2,
+      "gdpPerCapita": 5539,
+      "birthRate": 21.4,
+      "deathRate": 8.4,
+      "fertility": 2.7,
+      "infantMortality": 49.9
+    },
+    "2003": {
+      "pop": 6409352386,
+      "lifeExp": 68.5,
+      "gdpPerCapita": 6130,
+      "birthRate": 21.1,
+      "deathRate": 8.3,
+      "fertility": 2.6,
+      "infantMortality": 48
+    },
+    "2004": {
+      "pop": 6492354627,
+      "lifeExp": 68.8,
+      "gdpPerCapita": 6818,
+      "birthRate": 21,
+      "deathRate": 8.2,
+      "fertility": 2.6,
+      "infantMortality": 46.3
+    },
+    "2005": {
+      "pop": 6575410029,
+      "lifeExp": 69.1,
+      "gdpPerCapita": 7291,
+      "birthRate": 20.8,
+      "deathRate": 8.1,
+      "fertility": 2.6,
+      "infantMortality": 44.1
+    },
+    "2006": {
+      "pop": 6659536021,
+      "lifeExp": 69.5,
+      "gdpPerCapita": 7803,
+      "birthRate": 20.6,
+      "deathRate": 8.1,
+      "fertility": 2.6,
+      "infantMortality": 42.3
+    },
+    "2007": {
+      "pop": 6744049498,
+      "lifeExp": 69.8,
+      "gdpPerCapita": 8685,
+      "birthRate": 20.6,
+      "deathRate": 8,
+      "fertility": 2.6,
+      "infantMortality": 40.7
+    },
+    "2008": {
+      "pop": 6830080867,
+      "lifeExp": 70,
+      "gdpPerCapita": 9426,
+      "birthRate": 20.5,
+      "deathRate": 8,
+      "fertility": 2.6,
+      "infantMortality": 39.2
+    },
+    "2009": {
+      "pop": 6916168196,
+      "lifeExp": 70.4,
+      "gdpPerCapita": 8827,
+      "birthRate": 20.4,
+      "deathRate": 7.9,
+      "fertility": 2.6,
+      "infantMortality": 38
+    },
+    "2010": {
+      "pop": 7000860073,
+      "lifeExp": 70.7,
+      "gdpPerCapita": 9555,
+      "birthRate": 20.2,
+      "deathRate": 7.8,
+      "fertility": 2.6,
+      "infantMortality": 36.7
+    },
+    "2011": {
+      "pop": 7086704141,
+      "lifeExp": 71,
+      "gdpPerCapita": 10497,
+      "birthRate": 20.3,
+      "deathRate": 7.8,
+      "fertility": 2.5,
+      "infantMortality": 35.9
+    },
+    "2012": {
+      "pop": 7176482165,
+      "lifeExp": 71.3,
+      "gdpPerCapita": 10598,
+      "birthRate": 20.4,
+      "deathRate": 7.7,
+      "fertility": 2.6,
+      "infantMortality": 34
+    },
+    "2013": {
+      "pop": 7265404737,
+      "lifeExp": 71.5,
+      "gdpPerCapita": 10759,
+      "birthRate": 19.9,
+      "deathRate": 7.6,
+      "fertility": 2.5,
+      "infantMortality": 33.1
+    },
+    "2014": {
+      "pop": 7353532223,
+      "lifeExp": 71.8,
+      "gdpPerCapita": 10912,
+      "birthRate": 19.8,
+      "deathRate": 7.6,
+      "fertility": 2.5,
+      "infantMortality": 32.1
+    },
+    "2015": {
+      "pop": 7441084771,
+      "lifeExp": 72,
+      "gdpPerCapita": 10192,
+      "birthRate": 19.3,
+      "deathRate": 7.6,
+      "fertility": 2.5,
+      "infantMortality": 31.5
+    },
+    "2016": {
+      "pop": 7528221579,
+      "lifeExp": 72.2,
+      "gdpPerCapita": 10239,
+      "birthRate": 19.3,
+      "deathRate": 7.5,
+      "fertility": 2.5,
+      "infantMortality": 30.6
+    },
+    "2017": {
+      "pop": 7613788655,
+      "lifeExp": 72.4,
+      "gdpPerCapita": 10784,
+      "birthRate": 18.8,
+      "deathRate": 7.5,
+      "fertility": 2.5,
+      "infantMortality": 30
+    },
+    "2018": {
+      "pop": 7696159728,
+      "lifeExp": 72.6,
+      "gdpPerCapita": 11345,
+      "birthRate": 18.2,
+      "deathRate": 7.5,
+      "fertility": 2.4,
+      "infantMortality": 29.6
+    },
+    "2019": {
+      "pop": 7777162476,
+      "lifeExp": 72.9,
+      "gdpPerCapita": 11418,
+      "birthRate": 17.8,
+      "deathRate": 7.5,
+      "fertility": 2.4,
+      "infantMortality": 29.2
+    },
+    "2020": {
+      "pop": 7853863139,
+      "lifeExp": 72.2,
+      "gdpPerCapita": 10999,
+      "birthRate": 17.1,
+      "deathRate": 8,
+      "fertility": 2.3,
+      "infantMortality": 29.1
+    },
+    "2021": {
+      "pop": 7919567995,
+      "lifeExp": 71.2,
+      "gdpPerCapita": 12473,
+      "birthRate": 16.8,
+      "deathRate": 8.7,
+      "fertility": 2.2,
+      "infantMortality": 29.3
+    },
+    "2022": {
+      "pop": 7988550201,
+      "lifeExp": 73,
+      "gdpPerCapita": 12876,
+      "birthRate": 16.6,
+      "deathRate": 7.7,
+      "fertility": 2.2,
+      "infantMortality": 29.3
+    },
+    "2023": {
+      "pop": 8062923417,
+      "lifeExp": 73.3,
+      "gdpPerCapita": 13314,
+      "birthRate": 16.3,
+      "deathRate": 7.6,
+      "fertility": 2.2,
+      "infantMortality": 28.4
+    }
+  }
+}

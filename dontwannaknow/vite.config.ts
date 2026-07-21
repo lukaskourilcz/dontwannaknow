@@ -7,10 +7,10 @@ import type { IncomingMessage, ServerResponse } from 'node:http'
 
 const rootDir = dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = resolve(rootDir, 'src/data')
-const SETTINGS_FILE = resolve(rootDir, 'src/config/gameSettings.json')
+const SETTINGS_FILE = resolve(rootDir, 'src/config/productSettings.json')
 
 // Map a content key from the /dev editor to a file on disk. `settings` is the
-// game-config file; every other key is a JSON dataset in src/data. The regex +
+// product-settings file; every other key is a JSON dataset in src/data. The regex +
 // prefix check keep this from being tricked into reading/writing outside those.
 function resolveContentFile(key: string): string | null {
   if (key === 'settings') return SETTINGS_FILE
@@ -33,7 +33,7 @@ function readBody(req: IncomingMessage): Promise<string> {
 // (the editor falls back to read-only + download there).
 function devContentApi(): Plugin {
   return {
-    name: 'dwk-dev-content-api',
+    name: 'tehdejsi-svet-dev-content-api',
     apply: 'serve',
     configureServer(server) {
       server.middlewares.use(async (req: IncomingMessage, res: ServerResponse, next: () => void) => {
@@ -50,7 +50,7 @@ function devContentApi(): Plugin {
 
         // Marker so the client can tell a real dev-API response apart from a
         // production SPA rewrite (which would also return 200).
-        res.setHeader('x-dwk-dev', '1')
+        res.setHeader('x-tehdejsi-svet-dev', '1')
         res.setHeader('Content-Type', 'application/json')
         try {
           if (req.method === 'GET') {

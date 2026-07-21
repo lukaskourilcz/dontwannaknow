@@ -1,10 +1,17 @@
-# Don't wanna know
+# Tehdejší svět — stack a škálování
 
-Enter a birth year, country and city; the browser reconstructs the era that person grew up in — no server, no API, no AI.
+Tehdejší svět je statická React 19 aplikace ve strict TypeScriptu na Vite 7. Výpočet oblohy (`astronomy-engine`), skládání zprávy, sdílené obrázky i PDF (`jsPDF`) probíhají v prohlížeči. Neexistuje backend, databáze, fronta ani runtime historické či AI API.
 
-- **Now:** **$0/month** — Vercel Hobby (free static CDN) + GitHub Free, at low personal traffic (well under a few thousand visits/mo).
-- **Stack:** React 19 + TypeScript on Vite 7 · all compute client-side (astronomy-engine, jsPDF/html2canvas/DOMPurify) · Vercel static CDN · **no backend, DB, or API**.
-- **First ceiling:** Vercel Hobby's **non-commercial ToS clause** — hit long before any capacity limit, since a pure-static SPA scales infinitely at the edge.
-- **At 100 users:** **$0/month** — nothing to upgrade (~0.2–0.6% of Hobby's 100 GB / 1M edge requests); only optional add is free analytics (Cloudflare/Vercel).
-- **At 1,000 users:** **$0/month** — still a few % of the free tier; no read replica, cache, or queue needed (there's no server) — only split/lazy-load the ~2 MB dataset if it keeps growing.
-- **Watch:** CDN bytes served (the one cost that grows with traffic) and the initial bundle shipping the full ~2 MB dataset to every first-time visitor.
+Hlavní škálovací náklad jsou CDN přenosy statických dat a obrázků, ne serverový výpočet. Formulář a katalog měst jsou oddělené od velkých faktových souborů; výsledková cesta, vizuální moduly a PDF jsou lazy-loaded. Při dalším růstu dat je prvním krokem country/module-level splitting a měření LCP, nikoli zavádění aplikačního serveru.
+
+Pro malý nekomerční provoz může projekt fungovat na bezplatném statickém hostingu. Konkrétní limity, ceny a obchodní podmínky hostingu je nutné ověřit v aktuální dokumentaci poskytovatele před komerčním spuštěním; nejsou stabilní součástí architektury.
+
+Sledovat je vhodné zejména:
+
+- velikost počátečního JS/CSS a fontů;
+- country facts, `cityFacts` a mapový chunk po vytvoření zprávy;
+- přenos dobových obrázků;
+- dobu prvního vytvoření PDF na slabším mobilu;
+- cache hit rate a reálné Core Web Vitals po nasazení.
+
+Soukromí má přednost před podrobnou produktovou telemetrií: analytika nesmí obsahovat datum, rok, jméno, město, vztah, variantu, fragment ani text zobrazených faktů.

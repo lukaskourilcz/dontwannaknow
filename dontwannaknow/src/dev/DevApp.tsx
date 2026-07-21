@@ -35,8 +35,8 @@ export default function DevApp() {
     <div className="dev-app">
       <header className="dev-header">
         <div className="dev-brand">
-          <strong>Don't wanna know</strong>
-          <span>dev console</span>
+          <strong>Tehdejší svět</strong>
+          <span>redakční konzole</span>
         </div>
         <nav className="dev-nav">
           <button
@@ -44,22 +44,22 @@ export default function DevApp() {
             className={`dev-tab${route === "content" ? " active" : ""}`}
             onClick={() => navigate("content")}
           >
-            Content
+            Obsah
           </button>
           <button
             type="button"
             className={`dev-tab${route === "settings" ? " active" : ""}`}
             onClick={() => navigate("settings")}
           >
-            Settings
+            Nastavení
           </button>
         </nav>
         <div className="dev-header-right">
           <a className="dev-link" href="/">
-            ← Back to app
+            ← Zpět do aplikace
           </a>
           <button className="dev-btn" type="button" onClick={signOut}>
-            Lock
+            Zamknout
           </button>
         </div>
       </header>
@@ -85,23 +85,23 @@ function PasswordGate({ onUnlock }: { onUnlock: (pw: string) => boolean }) {
   return (
     <div className="dev-gate">
       <form className="dev-gate-card" onSubmit={submit}>
-        <p className="dev-eyebrow">Don't wanna know</p>
-        <h1>Dev console</h1>
-        <p className="dev-gate-sub">Enter the password to manage game content and settings.</p>
+        <p className="dev-eyebrow">Tehdejší svět</p>
+        <h1>Redakční konzole</h1>
+        <p className="dev-gate-sub">Zadejte heslo pro správu obsahu a nastavení. Jde jen o vývojovou pojistku, ne zabezpečenou administraci.</p>
         <input
           autoFocus
           type="password"
           className="dev-input"
           value={pw}
-          placeholder="Password"
+          placeholder="Heslo"
           onChange={(e) => {
             setPw(e.target.value);
             setError(false);
           }}
         />
-        {error && <p className="dev-gate-error">Wrong password.</p>}
+        {error && <p className="dev-gate-error">Nesprávné heslo.</p>}
         <button className="dev-btn dev-btn-primary" type="submit">
-          Unlock
+          Odemknout
         </button>
       </form>
     </div>

@@ -1,0 +1,393 @@
+[
+  {
+    "slug": "prague",
+    "name": "Praha",
+    "aka": "Praha",
+    "country": "CZ"
+  },
+  {
+    "slug": "brno",
+    "name": "Brno",
+    "country": "CZ"
+  },
+  {
+    "slug": "ostrava",
+    "name": "Ostrava",
+    "country": "CZ"
+  },
+  {
+    "slug": "plzen",
+    "name": "Plzeň",
+    "aka": "Pilsen",
+    "country": "CZ"
+  },
+  {
+    "slug": "liberec",
+    "name": "Liberec",
+    "aka": "Reichenberg",
+    "country": "CZ"
+  },
+  {
+    "slug": "olomouc",
+    "name": "Olomouc",
+    "country": "CZ"
+  },
+  {
+    "slug": "ceske-budejovice",
+    "name": "České Budějovice",
+    "aka": "Budweis",
+    "country": "CZ"
+  },
+  {
+    "slug": "hradec-kralove",
+    "name": "Hradec Králové",
+    "country": "CZ"
+  },
+  {
+    "slug": "pardubice",
+    "name": "Pardubice",
+    "country": "CZ"
+  },
+  {
+    "slug": "usti-nad-labem",
+    "name": "Ústí nad Labem",
+    "aka": "Aussig",
+    "country": "CZ"
+  },
+  {
+    "slug": "zlin",
+    "name": "Zlín",
+    "aka": "Gottwaldov",
+    "country": "CZ"
+  },
+  {
+    "slug": "havirov",
+    "name": "Havířov",
+    "country": "CZ"
+  },
+  {
+    "slug": "kladno",
+    "name": "Kladno",
+    "country": "CZ"
+  },
+  {
+    "slug": "most",
+    "name": "Most",
+    "aka": "Brüx",
+    "country": "CZ"
+  },
+  {
+    "slug": "opava",
+    "name": "Opava",
+    "aka": "Troppau",
+    "country": "CZ"
+  },
+  {
+    "slug": "frydek-mistek",
+    "name": "Frýdek-Místek",
+    "country": "CZ"
+  },
+  {
+    "slug": "karvina",
+    "name": "Karviná",
+    "country": "CZ"
+  },
+  {
+    "slug": "jihlava",
+    "name": "Jihlava",
+    "aka": "Iglau",
+    "country": "CZ"
+  },
+  {
+    "slug": "teplice",
+    "name": "Teplice",
+    "aka": "Teplitz",
+    "country": "CZ"
+  },
+  {
+    "slug": "decin",
+    "name": "Děčín",
+    "aka": "Tetschen",
+    "country": "CZ"
+  },
+  {
+    "slug": "chomutov",
+    "name": "Chomutov",
+    "aka": "Komotau",
+    "country": "CZ"
+  },
+  {
+    "slug": "jablonec",
+    "name": "Jablonec nad Nisou",
+    "aka": "Gablonz",
+    "country": "CZ"
+  },
+  {
+    "slug": "mlada-boleslav",
+    "name": "Mladá Boleslav",
+    "country": "CZ"
+  },
+  {
+    "slug": "prostejov",
+    "name": "Prostějov",
+    "country": "CZ"
+  },
+  {
+    "slug": "prerov",
+    "name": "Přerov",
+    "country": "CZ"
+  },
+  {
+    "slug": "ceska-lipa",
+    "name": "Česká Lípa",
+    "aka": "Böhmisch Leipa",
+    "country": "CZ"
+  },
+  {
+    "slug": "trebic",
+    "name": "Třebíč",
+    "country": "CZ"
+  },
+  {
+    "slug": "trutnov",
+    "name": "Trutnov",
+    "aka": "Trautenau",
+    "country": "CZ"
+  },
+  {
+    "slug": "trinec",
+    "name": "Třinec",
+    "country": "CZ"
+  },
+  {
+    "slug": "tabor",
+    "name": "Tábor",
+    "country": "CZ"
+  },
+  {
+    "slug": "znojmo",
+    "name": "Znojmo",
+    "aka": "Znaim",
+    "country": "CZ"
+  },
+  {
+    "slug": "pribram",
+    "name": "Příbram",
+    "country": "CZ"
+  },
+  {
+    "slug": "cheb",
+    "name": "Cheb",
+    "aka": "Eger",
+    "country": "CZ"
+  },
+  {
+    "slug": "kolin",
+    "name": "Kolín",
+    "country": "CZ"
+  },
+  {
+    "slug": "pisek",
+    "name": "Písek",
+    "country": "CZ"
+  },
+  {
+    "slug": "kromeriz",
+    "name": "Kroměříž",
+    "aka": "Kremsier",
+    "country": "CZ"
+  },
+  {
+    "slug": "sumperk",
+    "name": "Šumperk",
+    "aka": "Mährisch Schönberg",
+    "country": "CZ"
+  },
+  {
+    "slug": "vsetin",
+    "name": "Vsetín",
+    "country": "CZ"
+  },
+  {
+    "slug": "valasske-mezirici",
+    "name": "Valašské Meziříčí",
+    "country": "CZ"
+  },
+  {
+    "slug": "litvinov",
+    "name": "Litvínov",
+    "country": "CZ"
+  },
+  {
+    "slug": "breclav",
+    "name": "Břeclav",
+    "aka": "Lundenburg",
+    "country": "CZ"
+  },
+  {
+    "slug": "novy-jicin",
+    "name": "Nový Jičín",
+    "aka": "Neutitschein",
+    "country": "CZ"
+  },
+  {
+    "slug": "krnov",
+    "name": "Krnov",
+    "aka": "Jägerndorf",
+    "country": "CZ"
+  },
+  {
+    "slug": "uherske-hradiste",
+    "name": "Uherské Hradiště",
+    "country": "CZ"
+  },
+  {
+    "slug": "litomerice",
+    "name": "Litoměřice",
+    "aka": "Leitmeritz",
+    "country": "CZ"
+  },
+  {
+    "slug": "hodonin",
+    "name": "Hodonín",
+    "aka": "Göding",
+    "country": "CZ"
+  },
+  {
+    "slug": "zdar-nad-sazavou",
+    "name": "Žďár nad Sázavou",
+    "country": "CZ"
+  },
+  {
+    "slug": "kutna-hora",
+    "name": "Kutná Hora",
+    "aka": "Kuttenberg",
+    "country": "CZ"
+  },
+  {
+    "slug": "cesky-tesin",
+    "name": "Český Těšín",
+    "aka": "Teschen",
+    "country": "CZ"
+  },
+  {
+    "slug": "havlickuv-brod",
+    "name": "Havlíčkův Brod",
+    "aka": "Deutschbrod",
+    "country": "CZ"
+  },
+  {
+    "slug": "kyiv",
+    "name": "Kyjev",
+    "aka": "Kiev",
+    "country": "UA"
+  },
+  {
+    "slug": "kharkiv",
+    "name": "Charkov",
+    "aka": "Kharkov",
+    "country": "UA"
+  },
+  {
+    "slug": "odesa",
+    "name": "Oděsa",
+    "aka": "Odessa",
+    "country": "UA"
+  },
+  {
+    "slug": "dnipro",
+    "name": "Dnipro",
+    "aka": "Dnipropetrovsk / Yekaterinoslav",
+    "country": "UA"
+  },
+  {
+    "slug": "donetsk",
+    "name": "Donetsk",
+    "aka": "Stalino (1924–61)",
+    "country": "UA"
+  },
+  {
+    "slug": "zaporizhzhia",
+    "name": "Záporoží",
+    "country": "UA"
+  },
+  {
+    "slug": "lviv",
+    "name": "Lvov",
+    "aka": "Lemberg / Lwów",
+    "country": "UA"
+  },
+  {
+    "slug": "kryvyi-rih",
+    "name": "Kryvyj Rih",
+    "aka": "Krivoy Rog",
+    "country": "UA"
+  },
+  {
+    "slug": "mykolaiv",
+    "name": "Mykolajiv",
+    "aka": "Nikolaev",
+    "country": "UA"
+  },
+  {
+    "slug": "mariupol",
+    "name": "Mariupol",
+    "aka": "Zhdanov (1948–89)",
+    "country": "UA"
+  },
+  {
+    "slug": "luhansk",
+    "name": "Luhansk",
+    "aka": "Voroshilovgrad (1935–58, 1970–90)",
+    "country": "UA"
+  },
+  {
+    "slug": "vinnytsia",
+    "name": "Vinnycja",
+    "country": "UA"
+  },
+  {
+    "slug": "sevastopol",
+    "name": "Sevastopol",
+    "country": "UA",
+    "region": "Crimea"
+  },
+  {
+    "slug": "simferopol",
+    "name": "Simferopol",
+    "country": "UA",
+    "region": "Crimea"
+  },
+  {
+    "slug": "kherson",
+    "name": "Cherson",
+    "country": "UA"
+  },
+  {
+    "slug": "chernihiv",
+    "name": "Černihiv",
+    "country": "UA"
+  },
+  {
+    "slug": "poltava",
+    "name": "Poltava",
+    "country": "UA"
+  },
+  {
+    "slug": "cherkasy",
+    "name": "Čerkasy",
+    "country": "UA"
+  },
+  {
+    "slug": "khmelnytskyi",
+    "name": "Chmelnyckyj",
+    "aka": "Proskuriv (do 1954)",
+    "country": "UA"
+  },
+  {
+    "slug": "chernivtsi",
+    "name": "Černovice",
+    "aka": "Czernowitz / Cernăuți",
+    "country": "UA"
+  }
+]

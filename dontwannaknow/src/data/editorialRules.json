@@ -1,0 +1,62 @@
+[
+  {
+    "id": "trauma-war-occupation",
+    "pattern": "válk|okup|invaz|bombard|nacist|holocaust|genocid|tank|gestap|nálet|ostřel|barikád|armád|parašut",
+    "tone": "serious",
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sourceConfidence": "review-needed",
+    "reviewRequired": true,
+    "chapter": "generation-context"
+  },
+  {
+    "id": "trauma-death-violence",
+    "pattern": "zemř|úmrt|poprav|mrtv|mrtev|smrt|padl|upál|sebevra|zahyn|zavražd|zastřel|střelb|obětí|pohřeb|Palach|mauzole|balzam|rozklad|lidské tělo",
+    "tone": "serious",
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sourceConfidence": "review-needed",
+    "reviewRequired": true,
+    "chapter": "generation-context"
+  },
+  {
+    "id": "trauma-persecution",
+    "pattern": "repre|vězn|deport|teror|gulag|čistk|masakr|pogrom|mučen|žlut.*hvězd|transporty.*(Lodž|Terezín|koncentrační)",
+    "tone": "serious",
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sourceConfidence": "review-needed",
+    "reviewRequired": true,
+    "chapter": "generation-context"
+  },
+  {
+    "id": "trauma-famine-disaster",
+    "pattern": "hladomor|holodomor|epidem|katastrof",
+    "tone": "serious",
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sourceConfidence": "review-needed",
+    "reviewRequired": true,
+    "chapter": "generation-context"
+  },
+  {
+    "id": "health-demography",
+    "pattern": "délka života|úmrtnost|novorozenců se.*nedožilo|tuberkul|dětská obrna",
+    "tone": "serious",
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sourceConfidence": "verified",
+    "reviewRequired": false,
+    "chapter": "generation-context"
+  },
+  {
+    "id": "mild-social-pressure",
+    "pattern": "nemoc|kriz|nedostat|cenzur|cenzor|režim|stávk|konflikt|nucen|totalit|stalin|socialis|komunist|politic|ústava|Národní shromáždění|vedení strany|prezident|první tajemník|Husák|Dubček|Gottwald|Zápotock|Novotn|tajná policie|StB|propagand|ideolog|stranick|zakázan|vyrab|měnová reforma|znehodnotila úspory|smazala úspory",
+    "tone": "serious",
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sourceConfidence": "review-needed",
+    "reviewRequired": true,
+    "chapter": "generation-context"
+  }
+]

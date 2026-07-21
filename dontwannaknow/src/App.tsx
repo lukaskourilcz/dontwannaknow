@@ -1,187 +1,126 @@
-import { lazy, Suspense, useEffect, useState } from "react";
+import { lazy, Suspense, useCallback, useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import {
+  AnimatePresence,
   LazyMotion,
   domAnimation,
   m,
-  AnimatePresence,
   useReducedMotion,
 } from "motion/react";
-import { Analytics } from "@vercel/analytics/react";
 import NewForm from "./components/NewForm";
 import ErrorBoundary from "./components/ErrorBoundary";
-import { reportFor, type Person, type PersonReport } from "./lib/facts";
-import { decodePeopleUrl } from "./lib/share";
-import { LangProvider } from "./i18n/LangContext";
-import { useLang } from "./i18n/useLang";
-// "NewForm" runs on an editorial type system: Inter (TWK Lausanne substitute)
-// for all UI, body and chrome; Playfair Display (Editorial New substitute) for
-// the literary display headlines; DM Serif Display (PP Mondwest substitute) for
-// the rare architectural mega-statement. Imported here (not in main) so the dev
-// console pulls only what it needs.
-import "@fontsource-variable/inter/standard.css";
-import "@fontsource-variable/inter/standard-italic.css";
-import "@fontsource/playfair-display/400.css";
-import "@fontsource/playfair-display/500.css";
-import "@fontsource/playfair-display/600.css";
-import "@fontsource/playfair-display/700.css";
-import "@fontsource/dm-serif-display/400.css";
+import { decodeReportState, sanitizeAnalyticsUrl } from "./lib/share";
+import type { Person } from "./lib/person";
+import type { PersonReport } from "./lib/facts";
+import { COPY } from "./copy";
+import "@fontsource-variable/fraunces/standard.css";
+import "@fontsource-variable/newsreader/standard.css";
+import "@fontsource-variable/instrument-sans/standard.css";
 import "./styles.css";
 
-// Code-split the heavy result page so the wizard loads fast.
 const Results = lazy(() => import("./components/Results"));
-
 const EASE = [0.22, 1, 0.36, 1] as const;
-// The "arrival" curve from DESIGN.md (ease.spring) — a touch of overshoot so
-// the report feels like it lands rather than fades in.
-const SPRING = [0.34, 1.4, 0.5, 1] as const;
-
-function LangToggle() {
-  const { lang, setLang } = useLang();
-  return (
-    <div className="lang-toggle" role="tablist" aria-label="Language">
-      <button
-        type="button"
-        role="tab"
-        aria-selected={lang === "cs"}
-        className={lang === "cs" ? "active" : ""}
-        onClick={() => setLang("cs")}
-      >
-        CZ
-      </button>
-      <button
-        type="button"
-        role="tab"
-        aria-selected={lang === "en"}
-        className={lang === "en" ? "active" : ""}
-        onClick={() => setLang("en")}
-      >
-        EN
-      </button>
-    </div>
-  );
-}
 
 function AppInner() {
-  const { t } = useLang();
-  const reduced = useReducedMotion();
+  const reducedMotion = useReducedMotion();
   const [people, setPeople] = useState<Person[] | null>(null);
   const [reports, setReports] = useState<PersonReport[] | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [shareError, setShareError] = useState<string | null>(null);
 
-  const generate = (list: Person[]) => {
-    // In a two-person comparison the shared world events live in the pair
-    // card, so each individual report skips them to avoid repetition.
-    const excludeWorld = list.length >= 2;
-    setReports(list.map((p) => reportFor(p, excludeWorld)));
-  };
+  const generate = useCallback(async (list: Person[]) => {
+    setLoading(true);
+    try {
+      const { reportFor } = await import("./lib/facts");
+      const excludeWorld = list.length > 1;
+      setPeople(list);
+      setReports(await Promise.all(list.map((person) => reportFor(person, excludeWorld))));
+      window.scrollTo({ top: 0, behavior: reducedMotion ? "auto" : "smooth" });
+    } catch (error) {
+      console.error("Zprávu se nepodařilo vytvořit", error);
+      setPeople(null);
+      setReports(null);
+      setShareError("Zprávu se nepodařilo vytvořit. Zkontrolujte údaje a zkuste to znovu.");
+    } finally {
+      setLoading(false);
+    }
+  }, [reducedMotion]);
 
   useEffect(() => {
-    if (typeof window === "undefined") return;
-    const hash = window.location.hash;
-    const match = hash.match(/[#&]d=([A-Za-z0-9_-]+)/);
+    const match = window.location.hash.match(/[#&]r=([A-Za-z0-9_-]+)/);
     if (!match) return;
-    const decoded = decodePeopleUrl(match[1]);
-    if (decoded && decoded.length > 0) {
-      setPeople(decoded);
-      generate(decoded);
+    const decoded = decodeReportState(match[1]);
+    if (!decoded) {
+      setShareError("Sdílený odkaz je neplatný nebo používá nepodporovaná data.");
+      return;
     }
-  }, []);
+    void generate(decoded);
+  }, [generate]);
 
-  const handleSubmit = (list: Person[]) => {
-    setPeople(list);
-    generate(list);
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
-  const handleRegenerate = () => {
-    if (people) generate(people);
-  };
-
-  const handleReset = () => {
+  const reset = () => {
     setPeople(null);
     setReports(null);
-    if (typeof window !== "undefined" && window.location.hash) {
-      window.history.replaceState(null, "", window.location.pathname);
-    }
+    setShareError(null);
+    window.history.replaceState(null, "", window.location.pathname);
+    window.scrollTo({ top: 0, behavior: reducedMotion ? "auto" : "smooth" });
+  };
+
+  const showAnother = () => {
+    if (!people) return;
+    void generate(people.map((person) => ({ ...person, variant: person.variant + 1 })));
   };
 
   return (
-    <div className="page">
-      <header className="nav-header">
-        <button
-          type="button"
-          className="wordmark"
-          onClick={handleReset}
-          aria-label="dontwannaknow home"
-        >
-          <span className="wordmark-ink">dontwanna</span>
-          <span className="wordmark-volt">know</span>
+    <div className="page site-shell">
+      <header className="nav-header site-header">
+        <button type="button" className="brand-wordmark" onClick={reset} aria-label="Tehdejší svět — domů">
+          <span className="brand-mark" aria-hidden="true">T</span>
+          <span>{COPY.brand}</span>
         </button>
+        <span className="site-header-note">Česko · Ukrajina</span>
       </header>
 
-      <div className="lang-bar">
-        <LangToggle />
-      </div>
-
-      <main>
+      <main id="main-content">
+        {shareError && <p className="app-notice" role="alert">{shareError}</p>}
         <AnimatePresence mode="wait" initial={false}>
-          {!reports && (
+          {!reports && !loading && (
             <m.div
-              key="wizard"
+              key="form"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              // The wizard recedes — drifting up and scaling back a hair — so
-              // the incoming report reads as the next surface, not a swap.
-              exit={{ opacity: 0, y: reduced ? 0 : -24, scale: reduced ? 1 : 0.98 }}
-              transition={{ duration: 0.35, ease: EASE }}
+              exit={{ opacity: 0, y: reducedMotion ? 0 : -16 }}
+              transition={{ duration: 0.3, ease: EASE }}
             >
-              <NewForm onSubmit={handleSubmit} />
+              <NewForm onSubmit={(list) => void generate(list)} />
             </m.div>
           )}
-          {reports && people && (
+          {loading && (
+            <m.div key="loading" className="report-loading" role="status" aria-live="polite">
+              <span className="loading-dots" aria-hidden="true"><i /><i /><i /></span>
+              <p>Skládáme ověřené souvislosti do jednotlivých kapitol…</p>
+            </m.div>
+          )}
+          {reports && people && !loading && (
             <m.div
               key="results"
-              initial={{ opacity: 0, y: reduced ? 0 : 28, scale: reduced ? 1 : 0.985 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              transition={{
-                duration: reduced ? 0.2 : 0.6,
-                ease: reduced ? EASE : SPRING,
-              }}
+              initial={{ opacity: 0, y: reducedMotion ? 0 : 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: reducedMotion ? 0.15 : 0.5, ease: EASE }}
             >
-              <Suspense
-                fallback={
-                  <div className="loading-fallback" role="status" aria-live="polite">
-                    <span className="loading-dots" aria-hidden="true">
-                      <i />
-                      <i />
-                      <i />
-                    </span>
-                  </div>
-                }
-              >
-                <Results
-                  reports={reports}
-                  people={people}
-                  onReset={handleReset}
-                  onRegenerate={handleRegenerate}
-                />
+              <Suspense fallback={<div className="report-loading" role="status">Načítáme kapitoly…</div>}>
+                <Results reports={reports} people={people} onReset={reset} onRegenerate={showAnother} />
               </Suspense>
             </m.div>
           )}
         </AnimatePresence>
       </main>
 
-      <footer className="footer">
-        <p>{t("footer")}</p>
+      <footer className="footer site-footer">
+        <p>{COPY.footer}</p>
+        <p>{COPY.trust}</p>
       </footer>
 
-      {/* Cookieless, same-origin (/_vercel/insights) aggregate pageviews — no
-          cookies, no PII, no third party. `beforeSend` strips the URL hash so
-          the person data encoded in share links (#d=…) is never included, in
-          keeping with the site's "nothing you type is sent anywhere" promise.
-          The beacon is a no-op unless deployed on Vercel. */}
-      <Analytics
-        beforeSend={(event) => ({ ...event, url: event.url.split("#")[0] })}
-      />
+      <Analytics beforeSend={(event) => ({ ...event, url: sanitizeAnalyticsUrl(event.url) })} />
     </div>
   );
 }
@@ -190,9 +129,7 @@ export default function App() {
   return (
     <ErrorBoundary>
       <LazyMotion features={domAnimation} strict>
-        <LangProvider>
-          <AppInner />
-        </LangProvider>
+        <AppInner />
       </LazyMotion>
     </ErrorBoundary>
   );

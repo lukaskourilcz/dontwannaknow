@@ -1,5 +1,5 @@
 {
-  "name": "dontwannaknow",
+  "name": "tehdejsi-svet",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,20 +9,22 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "typecheck": "tsc -b --noEmit",
     "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "audit:content": "node scripts/build-public-data.mjs --check && node scripts/audit-content.mjs",
+    "data:public": "node scripts/build-public-data.mjs",
+    "fix:duplicates": "node scripts/dedupe-content.mjs",
+    "check": "npm run typecheck && npm run lint && npm test && npm run audit:content && npm run build",
     "preview": "vite preview"
   },
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.2.9",
     "@fontsource-variable/instrument-sans": "^5.2.8",
-    "@fontsource-variable/inter": "^5.2.8",
     "@fontsource-variable/newsreader": "^5.2.10",
-    "@fontsource/dm-serif-display": "^5.2.8",
-    "@fontsource/playfair-display": "^5.2.8",
     "@vercel/analytics": "^2.0.1",
     "astronomy-engine": "^2.1.19",
-    "dompurify": "^3.2.4",
-    "html2canvas": "^1.4.1",
     "jspdf": "^4.2.1",
     "motion": "^12.40.0",
     "react": "^19.1.0",
@@ -30,6 +32,11 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
+    "@expo-google-fonts/newsreader": "^0.4.1",
+    "@testing-library/jest-dom": "^7.0.0",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^22.20.1",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.6.0",
@@ -37,8 +44,10 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
+    "jsdom": "^27.0.1",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.35.1",
-    "vite": "^7.0.3"
+    "vite": "^7.0.3",
+    "vitest": "^3.2.7"
   }
 }

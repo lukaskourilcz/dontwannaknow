@@ -4,7 +4,7 @@
 // decade approximations (stats.ts) when there's no World Bank datum (its
 // series generally begin in 1960).
 
-import wbJson from "./generated/worldBank.json";
+import wbJson from "./public/worldBank.json";
 import type { Country } from "./countryDecades";
 
 export type WorldBankStat = {
@@ -23,11 +23,7 @@ const WB = wbJson as WorldBankData;
 // App country code -> World Bank ISO-3 code.
 const ISO3: Partial<Record<Exclude<Country, "INTL">, string>> = {
   CZ: "CZE",
-  ES: "ESP",
-  US: "USA",
   UA: "UKR",
-  CA: "CAN",
-  MX: "MEX",
 };
 
 /** World Bank figures for a country in a given year, or null if none. */

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f7f2e8"/>
+  <rect width="1200" height="18" fill="#1e3f39"/>
+  <g transform="translate(72 58)">
+    <rect width="54" height="54" rx="15" fill="#1e3f39"/>
+    <text x="27" y="38" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="700" fill="#f7f2e8">T</text>
+    <text x="72" y="36" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#18201d">Tehdejší svět</text>
+  </g>
+  <g transform="translate(72 185)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#9b4638">OSOBNÍ PORTRÉT JEDNÉ DOBY</text>
+    <text x="0" y="92" font-family="Georgia, serif" font-size="82" font-weight="700" letter-spacing="-4" fill="#18201d">Čí svět</text>
+    <text x="0" y="176" font-family="Georgia, serif" font-size="82" font-weight="700" letter-spacing="-4" fill="#18201d">chcete poznat?</text>
+    <line x1="0" y1="220" x2="68" y2="220" stroke="#d9684f" stroke-width="7"/>
+    <text x="0" y="274" font-family="Arial, sans-serif" font-size="24" fill="#52645f">Poznejte dobu, ve které vyrůstal</text>
+    <text x="0" y="307" font-family="Arial, sans-serif" font-size="24" fill="#52645f">člověk, na kterém vám záleží.</text>
+  </g>
+  <g transform="translate(885 322)">
+    <circle r="187" fill="#1e3f39"/>
+    <circle r="143" fill="none" stroke="#f7f2e8" stroke-width="1" opacity="0.45"/>
+    <circle r="99" fill="none" stroke="#f7f2e8" stroke-width="1" opacity="0.28"/>
+    <circle cx="-82" cy="-94" r="8" fill="#d9684f"/>
+    <circle cx="106" cy="-42" r="5" fill="#f7f2e8"/>
+    <circle cx="61" cy="107" r="4" fill="#f7f2e8"/>
+    <circle cx="-118" cy="74" r="3" fill="#f7f2e8"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#d8e2de">tehdy</text>
+    <text x="0" y="60" text-anchor="middle" font-family="Georgia, serif" font-size="76" font-weight="700" fill="#f7f2e8">1953</text>
+  </g>
+</svg>

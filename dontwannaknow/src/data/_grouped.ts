@@ -4,8 +4,8 @@
 // The on-disk JSON for these datasets is a *flat* list — one fact per row — so
 // the editor can search, add, edit and delete individual facts. At import time
 // the matching wrapper reassembles the grouped structure the rest of the app
-// expects. The flatten step (the inverse) lives in scripts/migrateFacts.ts and
-// is asserted to round-trip exactly, so the two stay in sync.
+// expects. Keeping this transformation in one module avoids parallel grouping
+// implementations in the runtime and the editor.
 
 export type CountryDecadeRow = { country: string; decadeStart: number; bucket: string; text: string };
 export type FamousPersonRow = { country: string; decadeStart: number; name: string; role: string; note?: string };

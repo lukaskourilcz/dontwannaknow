@@ -30,7 +30,7 @@ const CITIZENSHIP = {
 const DECADES = [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980];
 const PER_DECADE = 12;
 const UA_HEADER =
-  "dontwannaknow-datagen/1.0 (https://github.com/lukaskourilcz/dontwannaknow; kouril.lukas@gmail.com)";
+  "tehdejsi-svet-datagen/1.0 (https://github.com/lukaskourilcz/dontwannaknow; kouril.lukas@gmail.com)";
 
 // Deterministic tiny sleep between queries to be a polite WDQS citizen.
 function sleep(ms) {
