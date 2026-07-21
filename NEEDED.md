@@ -1,17 +1,12 @@
-# NEEDED — actions that require your access
+# NEEDED — Don't Wanna Know to-do list
 
-Everything in the code is done, merged, and (once the merge lands on the
-production branch) auto-deploying. The items below can **only be done by you**,
-because they need the Vercel dashboard / your account — I don't have access to
-them.
-
-Ordered by importance.
-
----
+Everything in the code is done, merged, and auto-deploying. The items below can
+**only be done by you** (Vercel dashboard / your account). Each task carries an
+importance score `[imp:N]` (1–5, 5 = highest). This file is parsed into the
+OwnDashboard **Úkoly** section, where you can filter tasks by that priority.
 
 ## Tasks
 
-Each task has a one-line "why" and an importance score `[imp:N]` (5 = highest).
 Full how-to is in the numbered sections below.
 
 - [ ] **Enable Vercel Web Analytics** in the dashboard — the beacon is wired but a no-op until switched on, so no data collects. `[imp:3]`
