@@ -9,11 +9,11 @@ OwnDashboard **Úkoly** section, where you can filter tasks by that priority.
 
 Full how-to is in the numbered sections below.
 
-- [ ] **Enable Vercel Web Analytics** in the dashboard — the beacon is wired but a no-op until switched on, so no data collects. `[imp:3]`
-- [ ] **Smoke-test the CSP + security headers in production** — they only apply on Vercel and couldn't be tested locally. `[imp:3]`
-- [ ] **Swap `public/og-image.png` for a real share card** — link previews currently show a plain placeholder. `[imp:2]`
-- [ ] **If Vercel deploys from a branch other than `dev`, merge `dev` into it** — otherwise this work never reaches production. `[imp:2]`
-- [ ] **(Optional) Split the big cityFacts/history datasets** — they load eagerly for every first visitor; measure the LCP cost first. `[imp:2]`
+- [ ] **Enable Vercel Web Analytics** in the dashboard — the beacon is wired but a no-op until switched on, so no data collects. `[imp:3]` `[owner:me]`
+- [ ] **Smoke-test the CSP + security headers in production** — they only apply on Vercel and couldn't be tested locally. `[imp:3]` `[owner:me]`
+- [ ] **Swap `public/og-image.png` for a real share card** — link previews currently show a plain placeholder. `[imp:2]` `[owner:me]`
+- [ ] **If Vercel deploys from a branch other than `dev`, merge `dev` into it** — otherwise this work never reaches production. `[imp:2]` `[owner:me]`
+- [ ] **(Optional) Split the big cityFacts/history datasets** — they load eagerly for every first visitor; measure the LCP cost first. `[imp:2]` `[owner:ai]`
 
 ---
 
