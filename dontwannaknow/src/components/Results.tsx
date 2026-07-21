@@ -2,7 +2,7 @@ import { lazy, Suspense, useState, type ReactNode } from "react";
 import type { PersonReport } from "../lib/facts";
 import type { Person } from "../lib/person";
 import { displayName, reportTitle } from "../lib/person";
-import type { ReportChapter, ReportItem } from "../lib/report";
+import { uniqueReportItems, type ReportChapter, type ReportItem } from "../lib/report";
 import { CITY_COORDS } from "../data/cityCoords";
 import { artForBirthYear } from "../data/artByDecade";
 import { birthDateUTC, daysSince, weeksSince } from "../lib/datetime";
@@ -73,13 +73,34 @@ function ChapterItems({ items }: { items: ReportItem[] }) {
   return <ul className="report-items">{items.map((item) => <ItemCard key={item.id} item={item} />)}</ul>;
 }
 
+function comparisonItems(firstItems: ReportItem[], secondItems: ReportItem[]) {
+  const first = uniqueReportItems(firstItems.slice(0, 5));
+  const second = uniqueReportItems(secondItems.slice(0, 5));
+  const secondTexts = new Set(second.map((item) => item.text));
+  const sharedTexts = new Set(first.filter((item) => secondTexts.has(item.text)).map((item) => item.text));
+
+  return {
+    shared: first.filter((item) => sharedTexts.has(item.text)),
+    first: first.filter((item) => !sharedTexts.has(item.text)),
+    second: second.filter((item) => !sharedTexts.has(item.text)),
+  };
+}
+
 function ChapterFrame({
   chapter,
+  items = chapter.items,
   children,
 }: {
   chapter: ReportChapter;
+  items?: ReportItem[];
   children?: ReactNode;
 }) {
+  const chapterBody = (
+    <>
+      {items.length > 0 && <ChapterItems items={items} />}
+      {children}
+    </>
+  );
   const content = (
     <div className="chapter-content">
       <header className="chapter-header">
@@ -87,8 +108,7 @@ function ChapterFrame({
         <h2>{chapter.title}</h2>
         {chapter.introduction && <p className="chapter-intro">{chapter.introduction}</p>}
       </header>
-      {chapter.items.length > 0 && <ChapterItems items={chapter.items} />}
-      {children}
+      {chapterBody}
     </div>
   );
 
@@ -97,10 +117,16 @@ function ChapterFrame({
       <details className={`report-chapter chapter-${chapter.id}`} id={chapter.id}>
         <summary>
           <span>{chapter.eyebrow}</span>
-          <strong>{chapter.title}</strong>
-          <small>Zobrazit kapitolu</small>
+          <h2>{chapter.title}</h2>
+          <small className="summary-action" aria-hidden="true">
+            <span className="summary-action-open">Zobrazit kapitolu</span>
+            <span className="summary-action-close">Skrýt kapitolu</span>
+          </small>
         </summary>
-        {content}
+        <div className="chapter-content chapter-content-expanded">
+          {chapter.introduction && <p className="chapter-intro">{chapter.introduction}</p>}
+          {chapterBody}
+        </div>
       </details>
     );
   }
@@ -130,12 +156,6 @@ function Cover({ report, skyRef }: { report: PersonReport; skyRef: (node: SVGSVG
           <p className="cover-transition-note">Rok nebo měsíc narození zasahuje do změny státního uspořádání. Celé datum by údaj zpřesnilo.</p>
         )}
         <p className="cover-note">{COPY.methodology}</p>
-        {report.shareItem && (
-          <blockquote className="cover-fact">
-            <span>První dobová stopa</span>
-            <p>{richText(report.shareItem.text)}</p>
-          </blockquote>
-        )}
       </div>
       <div className="cover-visual" aria-label="Náhled oblohy v den narození">
         {hasSky ? (
@@ -210,7 +230,10 @@ function VisualExtras({ report, chapterId }: { report: PersonReport; chapterId: 
           <LifeNumbers daysLived={elapsedDays} />
         </Suspense>
         <details className="weeks-details">
-          <summary>Zobrazit čas v týdnech</summary>
+          <summary>
+            <span className="summary-action-open">Zobrazit čas v týdnech</span>
+            <span className="summary-action-close">Skrýt čas v týdnech</span>
+          </summary>
           <LifeGrid
             weeksLived={weeksSince(
               birthDateUTC(report.person.birthYear, report.person.birthMonth, report.person.birthDay),
@@ -225,10 +248,21 @@ function VisualExtras({ report, chapterId }: { report: PersonReport; chapterId: 
 }
 
 function SingleReport({ report }: { report: PersonReport }) {
+  const milestoneItemIds = new Set(
+    report.milestones.flatMap((milestone) => milestone.items.map((item) => item.id)),
+  );
+  const belongsToMap = (item: ReportItem) =>
+    item.text.startsWith("V roce narození na mapě ještě existoval stát");
   return (
     <>
       {report.chapters.map((chapter) => (
-        <ChapterFrame key={chapter.id} chapter={chapter}>
+        <ChapterFrame
+          key={chapter.id}
+          chapter={chapter}
+          items={chapter.items.filter((item) =>
+            !milestoneItemIds.has(item.id) && !belongsToMap(item),
+          )}
+        >
           <VisualExtras report={report} chapterId={chapter.id} />
         </ChapterFrame>
       ))}
@@ -245,8 +279,8 @@ function ComparisonReport({ reports }: { reports: [PersonReport, PersonReport] }
         <h1 id="comparison-title">Dva tehdejší světy</h1>
         <p>Nejde o soutěž. Srovnání ukazuje, co bylo v jednotlivých dobách a místech jiné a co zůstávalo podobné.</p>
         <div className="comparison-people">
-          {[first, second].map((report) => (
-            <article key={`${report.person.birthYear}-${report.person.citySlug}`}>
+          {[first, second].map((report, personIndex) => (
+            <article key={`comparison-person-${personIndex}`}>
               <span>{report.person.birthYear}</span>
               <h2>{displayName(report.person)}</h2>
               <p>{report.historicalContext.primaryLabel}</p>
@@ -258,22 +292,34 @@ function ComparisonReport({ reports }: { reports: [PersonReport, PersonReport] }
       {first.chapters.map((chapter) => {
         const other = chapterById(second, chapter.id);
         if (!other || chapter.id === "life-numbers") return null;
+        const items = comparisonItems(chapter.items, other.items);
+        const people = [
+          { report: first, items: items.first },
+          { report: second, items: items.second },
+        ];
         return (
           <section className={`comparison-chapter chapter-${chapter.id}`} id={chapter.id} key={chapter.id}>
             <header className="chapter-header">
               <p className="chapter-eyebrow">{chapter.eyebrow}</p>
               <h2>{chapter.id === "birth" ? "Dva začátky" : chapter.title}</h2>
             </header>
-            <div className="comparison-columns">
-              {[{ report: first, chapter }, { report: second, chapter: other }].map(({ report, chapter: current }) => (
-                <article key={`${report.person.birthYear}-${current.id}`}>
-                  <h3>{displayName(report.person)} · {report.person.birthYear}</h3>
-                  <p className="comparison-place">{report.historicalContext.primaryLabel}</p>
-                  <ChapterItems items={current.items.slice(0, 5)} />
-                  <VisualExtras report={report} chapterId={current.id} />
-                </article>
-              ))}
-            </div>
+            {items.shared.length > 0 && (
+              <div className="comparison-shared">
+                <p>Společná souvislost</p>
+                <ChapterItems items={items.shared} />
+              </div>
+            )}
+            {people.some((person) => person.items.length > 0) && (
+              <div className="comparison-columns">
+                {people.map(({ report, items: personItems }, personIndex) => (
+                  <article key={`${chapter.id}-${personIndex}`}>
+                    <h3>{displayName(report.person)} · {report.person.birthYear}</h3>
+                    <p className="comparison-place">{report.historicalContext.primaryLabel}</p>
+                    {personItems.length > 0 && <ChapterItems items={personItems} />}
+                  </article>
+                ))}
+              </div>
+            )}
           </section>
         );
       })}
@@ -295,7 +341,7 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
   const showChapter = (id: ReportChapter["id"]) => {
     const element = document.getElementById(id);
     if (element instanceof HTMLDetailsElement) element.open = true;
-    element?.scrollIntoView({ block: "start" });
+    window.requestAnimationFrame(() => element?.scrollIntoView({ block: "start", behavior: "auto" }));
   };
 
   return (
@@ -322,7 +368,7 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
       )}
 
       <SharePanel reports={reports} people={people} skySvg={skySvg} onPdf={createPdf} />
-      <p className="report-methodology">{COPY.methodology} Číselné údaje jsou dobové průměry a přibližné výpočty; chybějící období nepřekrýváme smyšlenými fakty.</p>
+      <p className="report-methodology">Číselné údaje jsou dobové průměry a přibližné výpočty; chybějící období nepřekrýváme smyšlenými fakty.</p>
     </article>
   );
 }

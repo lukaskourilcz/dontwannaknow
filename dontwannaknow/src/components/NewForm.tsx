@@ -55,7 +55,7 @@ function PersonFields({
       {heading && <legend>{heading}</legend>}
 
       <div className="form-section relationship-section">
-        <span className="field-label">Čí svět chcete poznat?</span>
+        <span className="field-label">Jaký je váš vztah k tomuto člověku?</span>
         <div className="relationship-grid" role="radiogroup" aria-label="Vztah k člověku">
           {RELATIONSHIPS.map((relation) => (
             <button

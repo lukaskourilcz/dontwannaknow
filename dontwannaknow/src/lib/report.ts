@@ -157,7 +157,7 @@ function fallback(id: ReportChapterId, text: string): ReportItem {
   };
 }
 
-function unique(items: ReportItem[]): ReportItem[] {
+export function uniqueReportItems(items: ReportItem[]): ReportItem[] {
   return Array.from(new Map(items.map((item) => [item.text, item])).values());
 }
 
@@ -175,7 +175,7 @@ function take(
   } = {},
 ): ReportItem[] {
   const rank = new Map(categories.map((category, index) => [category, index]));
-  return unique(
+  return uniqueReportItems(
     facts
       .filter((fact) => {
         const wasMovedByEditorialRule = fact.metadata.chapter !== chapterForCategory[fact.category];
@@ -244,7 +244,7 @@ export function calculateLifeMilestones(person: Person, facts: Fact[]): LifeMile
         .slice(0, 1)
         .map((fact) => toItem(fact, person.birthYear));
       nearest.forEach((item) => used.add(item.text));
-      return { age, year, label: milestoneLabel(age), items: unique(nearest) };
+      return { age, year, label: milestoneLabel(age), items: uniqueReportItems(nearest) };
     })
     .filter((milestone) => milestone.items.length > 0);
 }

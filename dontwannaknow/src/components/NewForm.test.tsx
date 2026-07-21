@@ -4,6 +4,13 @@ import { describe, expect, it, vi } from "vitest";
 import NewForm from "./NewForm";
 
 describe("NewForm", () => {
+  it("shows the hero question once and gives the relationship control its own label", () => {
+    render(<NewForm onSubmit={vi.fn()} />);
+
+    expect(screen.getAllByText("Čí svět chcete poznat?")).toHaveLength(1);
+    expect(screen.getByText("Jaký je váš vztah k tomuto člověku?")).toBeInTheDocument();
+  });
+
   it("validates required date and city accessibly", async () => {
     const user = userEvent.setup();
     render(<NewForm onSubmit={vi.fn()} />);
