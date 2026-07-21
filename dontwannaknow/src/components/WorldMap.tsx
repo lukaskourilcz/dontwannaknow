@@ -50,7 +50,7 @@ export default function WorldMap({ birthYear }: Props) {
         viewBox={WORLD_VIEWBOX}
         xmlns="http://www.w3.org/2000/svg"
         role="img"
-        aria-label={`World map showing countries that no longer exist as of ${birthYear}`}
+        aria-label={`Mapa států a hranic, které se od roku ${birthYear} proměnily`}
       >
         <rect x="0" y="0" width="1000" height="500" fill="#eef2ee" />
         <g>
@@ -65,12 +65,8 @@ export default function WorldMap({ birthYear }: Props) {
                 stroke="#fafffa"
                 strokeWidth={0.5}
                 strokeLinejoin="round"
-              >
-                <title>
-                  {c.name}
-                  {g ? ` — was part of ${g.name}` : ""}
-                </title>
-              </path>
+                aria-hidden="true"
+              />
             );
           })}
         </g>
@@ -78,8 +74,8 @@ export default function WorldMap({ birthYear }: Props) {
       {gone.length > 0 ? (
         <figcaption>
           <p className="map-caption">
-            In {birthYear}, this is roughly how the world looked. The shaded
-            regions were part of states that no longer exist today.
+            Přibližná podoba světa v roce {birthYear}. Zvýrazněná území byla
+            součástí států, které dnes už v této podobě neexistují.
           </p>
           <ul className="legend">
             {gone.map((g) => (
@@ -100,8 +96,7 @@ export default function WorldMap({ birthYear }: Props) {
       ) : (
         <figcaption>
           <p className="map-caption">
-            By {birthYear}, the world map looked much like it does today — no
-            major former states were still on it.
+            V roce {birthYear} se mapa světa v hlavních obrysech podobala té dnešní.
           </p>
         </figcaption>
       )}

@@ -1,4 +1,4 @@
-import countryDecadesJson from "./countryDecades.json";
+import countryDecadesJson from "./public/countryDecades.json";
 import { regroupCountryDecades } from "./_grouped";
 
 // Per-country, per-decade snapshots. Six categories of texture (government,
@@ -9,6 +9,13 @@ import { regroupCountryDecades } from "./_grouped";
 // Each entry is one sentence so we can shuffle them freely.
 
 export type Country = "CZ" | "ES" | "US" | "UA" | "CA" | "MX" | "INTL";
+export type SupportedCountry = Extract<Country, "CZ" | "UA">;
+
+export const SUPPORTED_COUNTRIES: readonly SupportedCountry[] = ["CZ", "UA"];
+
+export function isSupportedCountry(value: unknown): value is SupportedCountry {
+  return value === "CZ" || value === "UA";
+}
 
 export const COUNTRY_LABELS: Record<Country, string> = {
   CZ: "Česko",

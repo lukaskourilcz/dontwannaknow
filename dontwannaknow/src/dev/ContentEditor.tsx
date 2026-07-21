@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
   CONTENT_SOURCES,
   CATEGORY_LABELS,
@@ -12,9 +12,13 @@ import { loadContent, saveContent, isLiveApiAvailable } from "./contentApi";
 
 type Loaded = Record<string, ContentRecord[]>;
 type Draft = { sourceKey: string; index: number; values: Record<string, string> };
+type AuditIssue = "missing-metadata" | "missing-source" | "review-required" | "share-unsafe" | "unsupported-country";
 
 const PAGE_SIZE = 60;
 const CATEGORIES = Object.keys(CATEGORY_LABELS) as Category[];
+const CHAPTERS = ["birth", "early-childhood", "everyday-day", "teenage-years", "different-from-today", "changing-world", "generation-context", "life-numbers"];
+const TONES = ["warm", "playful", "neutral", "serious"];
+const SENSITIVITIES = ["none", "mild", "difficult"];
 
 const yearOf = (r: ContentRecord): number =>
   Number(r.year ?? r.declaredExtinctYear ?? r.decadeStart ?? r.born ?? 0) || 0;
@@ -38,12 +42,13 @@ function valuesToRecord(source: ContentSource, values: Record<string, string>): 
     const raw = (values[f.key] ?? "").trim();
     if (f.optional && raw === "") continue;
     if (f.kind === "number") out[f.key] = Number(raw) || 0;
+    else if (f.kind === "boolean") out[f.key] = raw === "true";
     else if (f.kind === "list") out[f.key] = raw.split("\n").map((s) => s.trim()).filter(Boolean);
     else if (f.kind === "json") {
       try {
         out[f.key] = JSON.parse(raw);
       } catch {
-        throw new Error(`“${f.label}” is not valid JSON.`);
+        throw new Error(`Pole „${f.label}“ neobsahuje platný JSON.`);
       }
     } else out[f.key] = raw;
   }
@@ -56,6 +61,12 @@ export default function ContentEditor() {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<Category | "all">("all");
   const [sourceKey, setSourceKey] = useState<string | "all">("all");
+  const [country, setCountry] = useState<"all" | "CZ" | "UA" | "unsupported">("all");
+  const [city, setCity] = useState("all");
+  const [chapter, setChapter] = useState("all");
+  const [tone, setTone] = useState("all");
+  const [sensitivity, setSensitivity] = useState("all");
+  const [issue, setIssue] = useState<AuditIssue | "all">("all");
   const [shown, setShown] = useState(PAGE_SIZE);
   const [draft, setDraft] = useState<Draft | null>(null);
   const [status, setStatus] = useState<string>("");
@@ -75,16 +86,28 @@ export default function ContentEditor() {
   }, []);
 
   // Reset pagination whenever the filters change.
-  useEffect(() => setShown(PAGE_SIZE), [query, category, sourceKey]);
+  useEffect(() => setShown(PAGE_SIZE), [query, category, sourceKey, country, city, chapter, tone, sensitivity, issue]);
 
   const visibleSources = useMemo(
     () => CONTENT_SOURCES.filter((s) => category === "all" || s.category === category),
     [category],
   );
 
+  const cityOptions = useMemo(() => {
+    if (!data) return [];
+    return Array.from(new Set(
+      Object.values(data).flatMap((records) =>
+        records.map((record) => String(record.city ?? "").trim()).filter(Boolean),
+      ),
+    )).sort((a, b) => a.localeCompare(b, "cs"));
+  }, [data]);
+
   const rows = useMemo(() => {
     if (!data) return [];
     const q = query.trim().toLowerCase();
+    const sourceManifest = new Map(
+      (data.dataSources ?? []).map((record) => [String(record.dataset ?? ""), record]),
+    );
     const out: { source: ContentSource; index: number; record: ContentRecord }[] = [];
     for (const source of CONTENT_SOURCES) {
       if (category !== "all" && source.category !== category) continue;
@@ -92,11 +115,33 @@ export default function ContentEditor() {
       const list = data[source.key] ?? [];
       list.forEach((record, index) => {
         if (q && !searchHaystack(source, record).includes(q)) return;
+        const recordCountry = String(record.country ?? "").toUpperCase();
+        if (country === "CZ" || country === "UA") {
+          if (recordCountry !== country) return;
+        } else if (country === "unsupported" && (!recordCountry || ["CZ", "UA"].includes(recordCountry))) return;
+        if (city !== "all" && String(record.city ?? "") !== city) return;
+        if (chapter !== "all" && String(record.chapter ?? "") !== chapter) return;
+        if (tone !== "all" && String(record.tone ?? "") !== tone) return;
+        if (sensitivity !== "all" && String(record.sensitivity ?? "") !== sensitivity) return;
+        if (issue !== "all") {
+          const sourceInfo = sourceManifest.get(source.key);
+          const missingMetadata = source.key === "editorialRules" &&
+            ["tone", "sensitivity", "shareSafe", "sourceConfidence", "reviewRequired"]
+              .some((key) => record[key] === undefined || record[key] === "");
+          const matchesIssue = {
+            "missing-metadata": missingMetadata,
+            "missing-source": !sourceInfo || !String(sourceInfo.source ?? "").trim(),
+            "review-required": record.reviewRequired === true || record.sourceConfidence === "review-needed" || sourceInfo?.confidence === "review-needed",
+            "share-unsafe": record.shareSafe === false,
+            "unsupported-country": Boolean(recordCountry) && !["CZ", "UA"].includes(recordCountry),
+          }[issue];
+          if (!matchesIssue) return;
+        }
         out.push({ source, index, record });
       });
     }
     return out.sort((a, b) => yearOf(b.record) - yearOf(a.record));
-  }, [data, query, category, sourceKey]);
+  }, [data, query, category, sourceKey, country, city, chapter, tone, sensitivity, issue]);
 
   const counts = useMemo(() => {
     if (!data) return { total: 0 };
@@ -114,9 +159,9 @@ export default function ContentEditor() {
   async function persist(key: string, list: ContentRecord[]) {
     setData((prev) => ({ ...(prev ?? {}), [key]: list }));
     const res = await saveContent(key, list);
-    if (!res.persisted && res.ok) setStatus(`Downloaded ${key}.json — drop it into src/data to keep the change.`);
-    else if (res.ok) setStatus(`Saved ${key}.json`);
-    else setStatus(`Save failed: ${res.error ?? "unknown error"}`);
+    if (!res.persisted && res.ok) setStatus(`Stažen soubor ${key}.json — přesuňte jej do src/data, aby se změna zachovala.`);
+    else if (res.ok) setStatus(`Uloženo do ${key}.json`);
+    else setStatus(`Uložení selhalo: ${res.error ?? "neznámá chyba"}`);
   }
 
   function openAdd() {
@@ -136,7 +181,7 @@ export default function ContentEditor() {
     try {
       record = valuesToRecord(source, draft.values);
     } catch (e) {
-      setStatus(`Can't save: ${e instanceof Error ? e.message : String(e)}`);
+      setStatus(`Nelze uložit: ${e instanceof Error ? e.message : String(e)}`);
       return;
     }
     const list = [...(data[draft.sourceKey] ?? [])];
@@ -150,27 +195,27 @@ export default function ContentEditor() {
     if (!data) return;
     const record = data[source.key]?.[index];
     if (!record) return;
-    if (!confirm(`Delete this ${source.label} entry?\n\n${source.summary(record)}`)) return;
+    if (!confirm(`Odstranit tento záznam ze sady ${source.label}?\n\n${source.summary(record)}`)) return;
     const list = (data[source.key] ?? []).filter((_, i) => i !== index);
     await persist(source.key, list);
   }
 
-  if (!data) return <p className="dev-loading">Loading content…</p>;
+  if (!data) return <p className="dev-loading">Načítáme obsah…</p>;
 
   return (
     <div className="dev-content">
       <div className="dev-page-head">
-        <h2>Content library</h2>
+        <h2>Knihovna obsahu</h2>
         <p>
-          Search, filter, and edit every fact the game draws from — changes
-          save straight to the JSON datasets.
+          Vyhledávejte, filtrujte a upravujte podklady zpráv. Změny se
+          při vývoji ukládají přímo do datových souborů JSON.
         </p>
       </div>
 
       {!live && (
         <p className="dev-banner">
-          Read-only: the dev server API isn't reachable. Saves will download a JSON
-          file instead of writing it. Run <code>npm run dev</code> to edit in place.
+          Režim jen pro čtení: vývojové rozhraní není dostupné. Uložení místo zápisu
+          stáhne soubor JSON. Pro přímé úpravy spusťte <code>npm run dev</code>.
         </p>
       )}
 
@@ -178,16 +223,18 @@ export default function ContentEditor() {
         <input
           className="dev-search"
           type="search"
-          placeholder="Search all content…"
+          aria-label="Prohledat obsah"
+          placeholder="Prohledat všechen obsah…"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
         <select
           className="dev-select"
+          aria-label="Filtrovat podle datové sady"
           value={sourceKey}
           onChange={(e) => setSourceKey(e.target.value)}
         >
-          <option value="all">All datasets</option>
+          <option value="all">Všechny datové sady</option>
           {visibleSources.map((s) => (
             <option key={s.key} value={s.key}>
               {s.label}
@@ -195,8 +242,41 @@ export default function ContentEditor() {
           ))}
         </select>
         <button className="dev-btn dev-btn-primary" type="button" onClick={openAdd}>
-          + Add entry
+          + Přidat záznam
         </button>
+      </div>
+
+      <div className="dev-audit-filters" aria-label="Redakční auditní filtry">
+        <select className="dev-select" aria-label="Filtrovat podle země" value={country} onChange={(event) => setCountry(event.target.value as typeof country)}>
+          <option value="all">Všechny země</option>
+          <option value="CZ">Česko</option>
+          <option value="UA">Ukrajina</option>
+          <option value="unsupported">Nepodporované země</option>
+        </select>
+        <select className="dev-select" aria-label="Filtrovat podle města" value={city} onChange={(event) => setCity(event.target.value)}>
+          <option value="all">Všechna města</option>
+          {cityOptions.map((value) => <option key={value} value={value}>{value}</option>)}
+        </select>
+        <select className="dev-select" aria-label="Filtrovat podle kapitoly" value={chapter} onChange={(event) => setChapter(event.target.value)}>
+          <option value="all">Všechny kapitoly</option>
+          {CHAPTERS.map((value) => <option key={value} value={value}>{value}</option>)}
+        </select>
+        <select className="dev-select" aria-label="Filtrovat podle tónu" value={tone} onChange={(event) => setTone(event.target.value)}>
+          <option value="all">Všechny tóny</option>
+          {TONES.map((value) => <option key={value} value={value}>{value}</option>)}
+        </select>
+        <select className="dev-select" aria-label="Filtrovat podle citlivosti" value={sensitivity} onChange={(event) => setSensitivity(event.target.value)}>
+          <option value="all">Všechny citlivosti</option>
+          {SENSITIVITIES.map((value) => <option key={value} value={value}>{value}</option>)}
+        </select>
+        <select className="dev-select" aria-label="Filtrovat podle auditního problému" value={issue} onChange={(event) => setIssue(event.target.value as typeof issue)}>
+          <option value="all">Všechny auditní stavy</option>
+          <option value="missing-metadata">Chybějící metadata</option>
+          <option value="missing-source">Chybějící zdroj</option>
+          <option value="review-required">Vyžaduje kontrolu</option>
+          <option value="share-unsafe">Nevhodné ke sdílení</option>
+          <option value="unsupported-country">Nepodporovaná země</option>
+        </select>
       </div>
 
       <div className="dev-chips">
@@ -208,7 +288,7 @@ export default function ContentEditor() {
             setSourceKey("all");
           }}
         >
-          All <span className="count">{counts.total.toLocaleString()}</span>
+          Vše <span className="count">{counts.total.toLocaleString("cs-CZ")}</span>
         </button>
         {CATEGORIES.map((c) => (
           <button
@@ -221,20 +301,20 @@ export default function ContentEditor() {
             }}
           >
             {CATEGORY_LABELS[c]}{" "}
-            <span className="count">{(categoryCounts[c] ?? 0).toLocaleString()}</span>
+            <span className="count">{(categoryCounts[c] ?? 0).toLocaleString("cs-CZ")}</span>
           </button>
         ))}
       </div>
 
       <p className="dev-meta">
-        {rows.length.toLocaleString()} of {counts.total.toLocaleString()} entries
+        {rows.length.toLocaleString("cs-CZ")} z {counts.total.toLocaleString("cs-CZ")} záznamů
         {status && <span className="dev-status"> · {status}</span>}
       </p>
 
       {rows.length === 0 ? (
         <div className="dev-empty">
-          <strong>No entries match</strong>
-          Try a different search term or category.
+          <strong>Žádné odpovídající záznamy</strong>
+          Zkuste jiný výraz nebo kategorii.
         </div>
       ) : (
         <>
@@ -255,10 +335,10 @@ export default function ContentEditor() {
                 </div>
                 <div className="dev-row-actions">
                   <button className="dev-btn" type="button" onClick={() => openEdit(source, index, record)}>
-                    Edit
+                    Upravit
                   </button>
                   <button className="dev-btn dev-btn-danger" type="button" onClick={() => deleteRow(source, index)}>
-                    Delete
+                    Odstranit
                   </button>
                 </div>
               </li>
@@ -267,7 +347,7 @@ export default function ContentEditor() {
 
           {shown < rows.length && (
             <button className="dev-btn dev-loadmore" type="button" onClick={() => setShown((n) => n + PAGE_SIZE)}>
-              Load more ({(rows.length - shown).toLocaleString()} hidden)
+              Načíst další ({(rows.length - shown).toLocaleString("cs-CZ")} skryto)
             </button>
           )}
         </>
@@ -298,18 +378,59 @@ function RecordModal({
 }) {
   const source = sourceByKey(draft.sourceKey)!;
   const isNew = draft.index === -1;
+  const dialogRef = useRef<HTMLDivElement>(null);
+  const onCancelRef = useRef(onCancel);
+  onCancelRef.current = onCancel;
   const set = (key: string, value: string) =>
     onChange({ ...draft, values: { ...draft.values, [key]: value } });
 
+  useEffect(() => {
+    const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    const dialog = dialogRef.current;
+    const focusableSelector = "button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex='-1'])";
+    dialog?.querySelector<HTMLElement>(focusableSelector)?.focus();
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        onCancelRef.current();
+        return;
+      }
+      if (event.key !== "Tab" || !dialog) return;
+      const focusable = Array.from(dialog.querySelectorAll<HTMLElement>(focusableSelector));
+      if (!focusable.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+    document.addEventListener("keydown", handleKeyDown);
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+      previousFocus?.focus();
+    };
+  }, []);
+
   return (
     <div className="dev-modal-backdrop" onClick={onCancel}>
-      <div className="dev-modal" onClick={(e) => e.stopPropagation()}>
-        <h3>
-          {isNew ? "Add" : "Edit"} · {source.label}
+      <div
+        ref={dialogRef}
+        className="dev-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="record-modal-title"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <h3 id="record-modal-title">
+          {isNew ? "Přidat" : "Upravit"} · {source.label}
         </h3>
         {isNew && (
           <label className="dev-field dev-field-full">
-            <span>Dataset</span>
+            <span>Datová sada</span>
             <select
               className="dev-input"
               value={draft.sourceKey}
@@ -337,13 +458,14 @@ function RecordModal({
                   value={draft.values[f.key] ?? ""}
                   onChange={(e) => set(f.key, e.target.value)}
                 />
-              ) : f.kind === "select" ? (
+              ) : f.kind === "select" || f.kind === "boolean" ? (
                 <select
                   className="dev-input"
                   value={draft.values[f.key] ?? ""}
                   onChange={(e) => set(f.key, e.target.value)}
                 >
-                  {f.options?.map((o) => (
+                  {f.optional && <option value="">— bez přepsání —</option>}
+                  {(f.kind === "boolean" ? ["true", "false"] : f.options)?.map((o) => (
                     <option key={o} value={o}>
                       {o}
                     </option>
@@ -362,10 +484,10 @@ function RecordModal({
         </div>
         <div className="dev-modal-actions">
           <button className="dev-btn" type="button" onClick={onCancel}>
-            Cancel
+            Zrušit
           </button>
           <button className="dev-btn dev-btn-primary" type="button" onClick={onSave}>
-            Save
+            Uložit
           </button>
         </div>
       </div>

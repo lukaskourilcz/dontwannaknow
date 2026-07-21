@@ -1,100 +1,230 @@
-// Generate a multi-page PDF of one person's report, including the
-// rendered sky chart (captured from the DOM). The PDF is guaranteed to
-// be at least two pages — if the essay runs short, we pad with a
-// fact-appendix pulled from the same data.
-
-import type { PersonReport } from "./facts";
+import regularFontUrl from "@expo-google-fonts/newsreader/400Regular/Newsreader_400Regular.ttf?url";
+import boldFontUrl from "@expo-google-fonts/newsreader/700Bold/Newsreader_700Bold.ttf?url";
 import type jsPDFType from "jspdf";
+import type { PersonReport } from "./facts";
+import { reportTitle } from "./person";
 import { lifeNumbers } from "./lifeNumbers";
 import { birthDateUTC, daysSince } from "./datetime";
 
-// Lazy-load the jsPDF + html2canvas stack only when the user actually
-// clicks "Download PDF". Keeps the initial bundle small.
+const PAGE_MARGIN = 48;
+const LINE_HEIGHT = 14;
+const PAGE_BOTTOM = 42;
+const BODY_WIDTH_INSET = 12;
+
+const COLORS = {
+  ink: [29, 36, 32] as const,
+  green: [30, 63, 57] as const,
+  coral: [217, 104, 79] as const,
+  muted: [100, 103, 94] as const,
+  rule: [219, 211, 197] as const,
+  paper: [247, 242, 232] as const,
+};
+
 async function loadJsPdf(): Promise<typeof jsPDFType> {
   const mod = await import("jspdf");
   return mod.default;
 }
 
-const PAGE_MARGIN = 50;
-const LINE_HEIGHT = 14;
-const HEADING_LINE_HEIGHT = 18;
+function bytesToBase64(bytes: Uint8Array): string {
+  let binary = "";
+  const chunkSize = 0x8000;
+  for (let offset = 0; offset < bytes.length; offset += chunkSize) {
+    binary += String.fromCharCode(...bytes.subarray(offset, offset + chunkSize));
+  }
+  return btoa(binary);
+}
+
+async function registerFonts(doc: jsPDFType): Promise<void> {
+  const [regular, bold] = await Promise.all([
+    fetch(regularFontUrl).then((response) => response.arrayBuffer()),
+    fetch(boldFontUrl).then((response) => response.arrayBuffer()),
+  ]);
+  doc.addFileToVFS("Newsreader-Regular.ttf", bytesToBase64(new Uint8Array(regular)));
+  doc.addFileToVFS("Newsreader-Bold.ttf", bytesToBase64(new Uint8Array(bold)));
+  doc.addFont("Newsreader-Regular.ttf", "Newsreader", "normal");
+  doc.addFont("Newsreader-Bold.ttf", "Newsreader", "bold");
+  doc.setFont("Newsreader", "normal");
+}
+
+function cleanText(text: string): string {
+  return text
+    .replace(/\*\*/g, "")
+    .replace(/[‐‑‒–—]/g, "-")
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
 async function svgToPng(
   svgEl: SVGSVGElement,
-  pxWidth = 640,
-  pxHeight = 640,
+  pxWidth = 720,
+  pxHeight = 720,
 ): Promise<string> {
-  // Serialize. The astronomy SVG uses gradients defined inline, which is fine.
   const xml = new XMLSerializer().serializeToString(svgEl);
   const blob = new Blob([xml], { type: "image/svg+xml" });
   const url = URL.createObjectURL(blob);
   try {
-    const img = await new Promise<HTMLImageElement>((resolve, reject) => {
-      const i = new Image();
-      i.onload = () => resolve(i);
-      i.onerror = (e) => reject(e);
-      i.src = url;
+    const image = await new Promise<HTMLImageElement>((resolve, reject) => {
+      const element = new Image();
+      element.onload = () => resolve(element);
+      element.onerror = reject;
+      element.src = url;
     });
     const canvas = document.createElement("canvas");
     canvas.width = pxWidth;
     canvas.height = pxHeight;
-    const ctx = canvas.getContext("2d");
-    if (!ctx) throw new Error("no canvas ctx");
-    // Fill background dark so the round sky doesn't show paper underneath.
-    ctx.fillStyle = "#0d1a3a";
-    ctx.fillRect(0, 0, pxWidth, pxHeight);
-    ctx.drawImage(img, 0, 0, pxWidth, pxHeight);
+    const context = canvas.getContext("2d");
+    if (!context) throw new Error("Obrázek oblohy se nepodařilo připravit.");
+    context.fillStyle = "#1e3f39";
+    context.fillRect(0, 0, pxWidth, pxHeight);
+    context.drawImage(image, 0, 0, pxWidth, pxHeight);
     return canvas.toDataURL("image/png");
   } finally {
     URL.revokeObjectURL(url);
   }
 }
 
+function paintPageBackground(doc: jsPDFType): void {
+  const width = doc.internal.pageSize.getWidth();
+  const height = doc.internal.pageSize.getHeight();
+  doc.setFillColor(...COLORS.paper);
+  doc.rect(0, 0, width, height, "F");
+  doc.setFillColor(...COLORS.green);
+  doc.rect(0, 0, width, 12, "F");
+}
+
+function addPage(doc: jsPDFType): number {
+  doc.addPage();
+  paintPageBackground(doc);
+  return PAGE_MARGIN;
+}
+
 function ensureRoom(
   doc: jsPDFType,
   cursorY: number,
   neededHeight: number,
-  pageHeight: number,
 ): number {
-  if (cursorY + neededHeight > pageHeight - PAGE_MARGIN) {
-    doc.addPage();
-    return PAGE_MARGIN;
-  }
-  return cursorY;
+  const pageHeight = doc.internal.pageSize.getHeight();
+  return cursorY + neededHeight > pageHeight - PAGE_BOTTOM
+    ? addPage(doc)
+    : cursorY;
 }
 
-function writeParagraph(
+function writeLines(
   doc: jsPDFType,
-  heading: string,
-  body: string,
+  lines: string[],
   cursorY: number,
-  pageWidth: number,
-  pageHeight: number,
+  options: { indent?: number; lineHeight?: number } = {},
 ): number {
   let y = cursorY;
-  const textWidth = pageWidth - 2 * PAGE_MARGIN;
-
-  // Heading
-  doc.setFont("times", "bold");
-  doc.setFontSize(13);
-  doc.setTextColor(180, 90, 50);
-  const headingLines = doc.splitTextToSize(heading, textWidth) as string[];
-  y = ensureRoom(doc, y, headingLines.length * HEADING_LINE_HEIGHT + 6, pageHeight);
-  doc.text(headingLines, PAGE_MARGIN, y);
-  y += headingLines.length * HEADING_LINE_HEIGHT + 4;
-
-  // Body
-  doc.setFont("times", "normal");
-  doc.setFontSize(11);
-  doc.setTextColor(30, 27, 24);
-  const bodyLines = doc.splitTextToSize(body, textWidth) as string[];
-  for (const line of bodyLines) {
-    y = ensureRoom(doc, y, LINE_HEIGHT, pageHeight);
-    doc.text(line, PAGE_MARGIN, y);
-    y += LINE_HEIGHT;
+  const lineHeight = options.lineHeight ?? LINE_HEIGHT;
+  const x = PAGE_MARGIN + (options.indent ?? 0);
+  for (const line of lines) {
+    y = ensureRoom(doc, y, lineHeight);
+    doc.text(line, x, y);
+    y += lineHeight;
   }
-  y += 10;
   return y;
+}
+
+function writeChapter(
+  doc: jsPDFType,
+  report: PersonReport,
+  chapterIndex: number,
+  cursorY: number,
+): number {
+  const chapter = report.chapters[chapterIndex];
+  if (!chapter || chapter.id === "life-numbers") return cursorY;
+  const pageWidth = doc.internal.pageSize.getWidth();
+  const textWidth = pageWidth - 2 * PAGE_MARGIN;
+  let y = ensureRoom(doc, cursorY, 72);
+
+  doc.setFont("Newsreader", "bold");
+  doc.setFontSize(9);
+  doc.setTextColor(...COLORS.coral);
+  doc.text(cleanText(chapter.eyebrow).toUpperCase(), PAGE_MARGIN, y);
+  y += 17;
+
+  doc.setFontSize(19);
+  doc.setTextColor(...COLORS.green);
+  const titleLines = doc.splitTextToSize(cleanText(chapter.title), textWidth) as string[];
+  y = writeLines(doc, titleLines, y, { lineHeight: 21 });
+  y += 2;
+
+  if (chapter.introduction) {
+    doc.setFont("Newsreader", "normal");
+    doc.setFontSize(10);
+    doc.setTextColor(...COLORS.muted);
+    const introLines = doc.splitTextToSize(cleanText(chapter.introduction), textWidth) as string[];
+    y = writeLines(doc, introLines, y);
+    y += 8;
+  }
+
+  doc.setFontSize(10.5);
+  doc.setTextColor(...COLORS.ink);
+  for (const item of chapter.items) {
+    const prefix = item.year ? `${item.year} - ` : "";
+    const lines = doc.splitTextToSize(
+      `• ${prefix}${cleanText(item.text)}`,
+      textWidth - BODY_WIDTH_INSET,
+    ) as string[];
+    y = ensureRoom(doc, y, lines.length * LINE_HEIGHT + 7);
+    y = writeLines(doc, lines, y, { indent: BODY_WIDTH_INSET });
+    y += 5;
+  }
+
+  doc.setDrawColor(...COLORS.rule);
+  doc.setLineWidth(0.7);
+  y = ensureRoom(doc, y, 18);
+  doc.line(PAGE_MARGIN, y, pageWidth - PAGE_MARGIN, y);
+  return y + 18;
+}
+
+function writeLifeNumbers(doc: jsPDFType, report: PersonReport, cursorY: number): number {
+  const pageWidth = doc.internal.pageSize.getWidth();
+  const textWidth = pageWidth - 2 * PAGE_MARGIN;
+  let y = ensureRoom(doc, cursorY, 80);
+  const daysLived = daysSince(
+    birthDateUTC(report.person.birthYear, report.person.birthMonth, report.person.birthDay),
+  );
+
+  doc.setFont("Newsreader", "bold");
+  doc.setFontSize(9);
+  doc.setTextColor(...COLORS.coral);
+  doc.text("08 · DLOUHÝ POHLED", PAGE_MARGIN, y);
+  y += 17;
+  doc.setFontSize(19);
+  doc.setTextColor(...COLORS.green);
+  doc.text("Život v číslech", PAGE_MARGIN, y);
+  y += 24;
+
+  for (const item of lifeNumbers(daysLived)) {
+    const value = item.value.toLocaleString("cs-CZ");
+    const line = `${item.label}: ${value}${item.unit ? ` ${item.unit}` : ""}. ${item.detail ?? ""}`;
+    doc.setFont("Newsreader", "bold");
+    doc.setFontSize(10.5);
+    doc.setTextColor(...COLORS.ink);
+    const lines = doc.splitTextToSize(cleanText(line), textWidth) as string[];
+    y = ensureRoom(doc, y, lines.length * LINE_HEIGHT + 7);
+    y = writeLines(doc, lines, y);
+    y += 5;
+  }
+  return y;
+}
+
+function pdfBirthDate(report: PersonReport): string {
+  const { birthDay, birthMonth, birthYear } = report.person;
+  return birthDay && birthMonth
+    ? `${birthDay}. ${birthMonth}. ${birthYear}`
+    : String(birthYear);
+}
+
+function slugify(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
 }
 
 export async function generatePdf(
@@ -102,179 +232,101 @@ export async function generatePdf(
   skySvg: SVGSVGElement | null,
 ): Promise<void> {
   const jsPDF = await loadJsPdf();
-  const doc = new jsPDF({ unit: "pt", format: "a4" });
+  const doc = new jsPDF({ unit: "pt", format: "a4", compress: true });
+  await registerFonts(doc);
+  doc.setProperties({
+    title: reportTitle(report.person),
+    subject: "Osobní obraz doby narození, dětství a dospívání",
+    author: "Tehdejší svět",
+    creator: "Tehdejší svět",
+    keywords: "historie, rodina, vzpomínky, dobový portrét",
+  });
+  paintPageBackground(doc);
+
   const pageWidth = doc.internal.pageSize.getWidth();
-  const pageHeight = doc.internal.pageSize.getHeight();
   let cursorY = PAGE_MARGIN;
-
-  // ── Eyebrow ────────────────────────────────────────────────────
-  doc.setFont("times", "italic");
-  doc.setFontSize(10);
-  doc.setTextColor(140, 130, 110);
-  doc.text(
-    "Don't wanna know · but you should",
-    pageWidth / 2,
-    cursorY,
-    { align: "center" },
-  );
-  cursorY += 18;
-
-  // ── Title ──────────────────────────────────────────────────────
-  doc.setFont("times", "bold");
-  doc.setFontSize(26);
-  doc.setTextColor(20, 18, 15);
-  doc.text(report.person.label, pageWidth / 2, cursorY + 14, { align: "center" });
-  cursorY += 36;
-
-  doc.setFont("times", "italic");
+  doc.setFont("Newsreader", "bold");
   doc.setFontSize(11);
-  doc.setTextColor(110, 101, 90);
-  const subtitle = `Born ${report.person.birthYear} in ${
-    report.cityLabel
-      ? report.cityLabel + ", " + report.countryLabel
-      : report.countryLabel
-  } · ${report.ageNow} years on this planet`;
-  doc.text(subtitle, pageWidth / 2, cursorY, { align: "center" });
-  cursorY += 24;
+  doc.setTextColor(...COLORS.coral);
+  doc.text("TEHDEJŠÍ SVĚT", PAGE_MARGIN, cursorY);
+  cursorY += 30;
 
-  // ── Decorative rule ────────────────────────────────────────────
-  doc.setDrawColor(217, 205, 182);
-  doc.setLineWidth(0.6);
-  doc.line(PAGE_MARGIN, cursorY, pageWidth - PAGE_MARGIN, cursorY);
-  cursorY += 18;
+  doc.setFontSize(32);
+  doc.setTextColor(...COLORS.green);
+  const titleLines = doc.splitTextToSize(reportTitle(report.person), pageWidth - 2 * PAGE_MARGIN) as string[];
+  cursorY = writeLines(doc, titleLines, cursorY, { lineHeight: 34 });
+  cursorY += 6;
 
-  // ── Sky image, if we have one ─────────────────────────────────
+  doc.setFont("Newsreader", "normal");
+  doc.setFontSize(12);
+  doc.setTextColor(...COLORS.ink);
+  const subtitle = `${pdfBirthDate(report)} · ${report.historicalContext.primaryLabel}`;
+  cursorY = writeLines(
+    doc,
+    doc.splitTextToSize(cleanText(subtitle), pageWidth - 2 * PAGE_MARGIN) as string[],
+    cursorY,
+    { lineHeight: 16 },
+  );
+  cursorY += 16;
+
+  doc.setFontSize(10);
+  doc.setTextColor(...COLORS.muted);
+  cursorY = writeLines(
+    doc,
+    doc.splitTextToSize(
+      "Dobový portrét prostředí, nikoli osobní životopis. Vznikl soukromě ve vašem prohlížeči z kurátorovaných dat.",
+      pageWidth - 2 * PAGE_MARGIN,
+    ) as string[],
+    cursorY,
+  );
+  cursorY += 14;
+
   if (skySvg) {
     try {
-      const png = await svgToPng(skySvg, 720, 720);
-      const imgSize = 220;
-      const x = (pageWidth - imgSize) / 2;
-      doc.addImage(png, "PNG", x, cursorY, imgSize, imgSize);
-      cursorY += imgSize + 12;
-
-      doc.setFont("times", "italic");
+      const png = await svgToPng(skySvg);
+      const imageSize = 218;
+      cursorY = ensureRoom(doc, cursorY, imageSize + 38);
+      doc.addImage(png, "PNG", (pageWidth - imageSize) / 2, cursorY, imageSize, imageSize);
+      cursorY += imageSize + 13;
       doc.setFontSize(9);
-      doc.setTextColor(140, 130, 110);
-      const skyCaption = `The sky over ${
-        report.cityLabel ?? report.countryLabel
-      } around 23:00 local time on the date of birth.`;
-      const captionLines = doc.splitTextToSize(
-        skyCaption,
-        pageWidth - 2 * PAGE_MARGIN,
-      ) as string[];
-      doc.text(captionLines, pageWidth / 2, cursorY, { align: "center" });
-      cursorY += captionLines.length * 12 + 14;
-    } catch (err) {
-      // Sky generation can fail in headless environments; we just skip it.
-      console.warn("sky->PNG failed:", err);
+      doc.setTextColor(...COLORS.muted);
+      doc.text(
+        `Obloha nad městem ${report.historicalContext.cityLabel} v den narození`,
+        pageWidth / 2,
+        cursorY,
+        { align: "center" },
+      );
+      cursorY += 22;
+    } catch (error) {
+      console.warn("Oblohu se nepodařilo vložit do PDF:", error);
     }
   }
 
-  // ── Essay paragraphs ───────────────────────────────────────────
-  for (const para of report.essay) {
-    const body =
-      para.items && para.items.length
-        ? para.items.map((it) => `• ${it}`).join("\n")
-        : para.text ?? "";
-    // The on-screen **bold** markers shouldn't show up literally in the PDF.
-    const plainBody = body.replace(/\*\*/g, "");
-    cursorY = writeParagraph(doc, para.heading, plainBody, cursorY, pageWidth, pageHeight);
+  doc.setDrawColor(...COLORS.rule);
+  doc.line(PAGE_MARGIN, cursorY, pageWidth - PAGE_MARGIN, cursorY);
+  cursorY += 20;
+
+  for (let index = 0; index < report.chapters.length; index += 1) {
+    cursorY = writeChapter(doc, report, index, cursorY);
   }
+  cursorY = writeLifeNumbers(doc, report, cursorY);
 
-  // ── Life in numbers — the absurd lifetime tally ────────────────
-  const daysLived = daysSince(
-    birthDateUTC(
-      report.person.birthYear,
-      report.person.birthMonth,
-      report.person.birthDay,
-    ),
-  );
-  const tally = lifeNumbers(daysLived, "en")
-    .map((it) => {
-      const value = it.value.toLocaleString("en-US");
-      const head = `• ${it.label}: ${value}${it.unit ? " " + it.unit : ""}`;
-      return it.detail ? `${head} — ${it.detail}` : head;
-    })
-    .join("\n");
-  cursorY = writeParagraph(
-    doc,
-    "By the numbers · a lifetime, tallied up",
-    tally,
-    cursorY,
-    pageWidth,
-    pageHeight,
-  );
+  if (doc.getNumberOfPages() < 2) addPage(doc);
 
-  // ── Guarantee at least two pages ───────────────────────────────
-  // jsPDF's typed pages array is awkward; we use getNumberOfPages().
-  let pageCount = doc.getNumberOfPages();
-  if (pageCount < 2) {
-    doc.addPage();
-    cursorY = PAGE_MARGIN;
-    pageCount = 2;
-  }
-
-  // If we still have lots of room on the last page, drop in an
-  // appendix of additional fact-bullets so the report feels finished.
-  const remainingRoom = pageHeight - PAGE_MARGIN - cursorY;
-  if (remainingRoom > 200 && report.facts.length > 0) {
-    cursorY = writeParagraph(
-      doc,
-      "Appendix · more from the same world",
-      "Stray facts that didn't make the essay, drawn from the same dataset.",
-      cursorY,
-      pageWidth,
-      pageHeight,
-    );
-    doc.setFont("times", "normal");
-    doc.setFontSize(10);
-    doc.setTextColor(30, 27, 24);
-    const used = new Set<string>(
-      report.essay.map((p) =>
-        (p.text ?? p.items?.join(" ") ?? "").toLowerCase(),
-      ),
-    );
-    const extras = report.facts
-      .map((f) => f.text.replace(/\*\*/g, ""))
-      .filter((t) => {
-        const k = t.toLowerCase();
-        if (used.has(k)) return false;
-        used.add(k);
-        return true;
-      })
-      .slice(0, 30);
-    for (const fact of extras) {
-      const lines = doc.splitTextToSize(
-        "• " + fact,
-        pageWidth - 2 * PAGE_MARGIN,
-      ) as string[];
-      for (const line of lines) {
-        cursorY = ensureRoom(doc, cursorY, LINE_HEIGHT, pageHeight);
-        doc.text(line, PAGE_MARGIN, cursorY);
-        cursorY += LINE_HEIGHT;
-      }
-      cursorY += 3;
-    }
-  }
-
-  // ── Footer on every page ───────────────────────────────────────
   const totalPages = doc.getNumberOfPages();
-  for (let i = 1; i <= totalPages; i++) {
-    doc.setPage(i);
-    doc.setFont("times", "italic");
-    doc.setFontSize(8);
-    doc.setTextColor(150, 140, 120);
+  for (let page = 1; page <= totalPages; page += 1) {
+    doc.setPage(page);
+    doc.setFont("Newsreader", "normal");
+    doc.setFontSize(8.5);
+    doc.setTextColor(...COLORS.muted);
     doc.text(
-      `${report.person.label} · ${report.person.birthYear} · page ${i} of ${totalPages}`,
+      `Tehdejší svět · strana ${page} z ${totalPages}`,
       pageWidth / 2,
-      pageHeight - 24,
+      doc.internal.pageSize.getHeight() - 20,
       { align: "center" },
     );
   }
 
-  const slug = report.person.label
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
-  doc.save(`${slug || "person"}-${report.person.birthYear}.pdf`);
+  const subject = slugify(report.person.label) || "dobovy-portret";
+  doc.save(`tehdejsi-svet-${subject}-${report.person.birthYear}.pdf`);
 }

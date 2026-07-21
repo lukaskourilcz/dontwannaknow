@@ -1,7 +1,7 @@
 // Year-specific events per country for CZ, ES, US, UA (1920–1980).
 // Anchored to a single year so the generator can place them by age.
 
-import countryEventsJson from "./countryEvents.json";
+import countryEventsJson from "./public/countryEvents.json";
 
 import type { Country } from "./countryDecades";
 

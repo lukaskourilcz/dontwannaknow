@@ -44,23 +44,22 @@ export default class ErrorBoundary extends Component<Props, State> {
     return (
       <div className="error-boundary" role="alert">
         <div className="error-boundary-inner">
-          <p className="eyebrow">Oh no</p>
-          <h2>Something broke</h2>
+          <p className="eyebrow">Něco se nepovedlo</p>
+          <h2>Stránku se nepodařilo zobrazit</h2>
           <p className="error-boundary-msg">
-            Try going back to the form. If it happens again, the link
-            you arrived with might be corrupt — start fresh and rebuild
-            the report.
+            Vraťte se prosím k formuláři. Pokud se chyba zopakuje, může být
+            sdílený odkaz poškozený — začněte znovu a vytvořte nový portrét.
           </p>
           <details className="error-boundary-details">
-            <summary>Technical details</summary>
+            <summary>Technické podrobnosti</summary>
             <pre>{error.message}</pre>
           </details>
           <div className="error-boundary-actions">
             <button type="button" className="primary" onClick={this.reset}>
-              Try again
+              Zkusit znovu
             </button>
             <button type="button" className="secondary" onClick={this.hardReset}>
-              Start over
+              Začít znovu
             </button>
           </div>
         </div>

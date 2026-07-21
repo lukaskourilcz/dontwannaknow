@@ -18,6 +18,7 @@ export function czYears(n: number): string {
  */
 export function czAgePhrase(age: number): string {
   if (age === 0) return "v roce narození";
-  if (age < 0) return `${-age} let před narozením`;
+  if (age < 0) return `${-age} ${czYears(-age)} před narozením`;
+  if (age === 1) return "ve věku jednoho roku";
   return `ve věku ${age} let`;
 }

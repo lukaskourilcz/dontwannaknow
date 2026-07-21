@@ -1,298 +1,244 @@
-import { useState } from "react";
-import type { Person, Gender } from "../lib/facts";
-import { COUNTRY_LABELS, type Country } from "../data/countryDecades";
-import { citiesFor } from "../data/cities";
+import { useId, useState } from "react";
+import { citiesFor } from "../data/cityCatalog";
+import type { SupportedCountry } from "../data/countryDecades";
+import { COPY } from "../copy";
 import { parseDate } from "../lib/parseDate";
-import { useLang } from "../i18n/useLang";
-import { settings } from "../config/settings";
+import {
+  RELATIONSHIPS,
+  SUPPORTED_YEAR_RANGE,
+  normalizePerson,
+  validatePerson,
+  type Person,
+  type SubjectRelation,
+} from "../lib/person";
 
-type Props = {
-  onSubmit: (people: Person[]) => void;
+type Props = { onSubmit: (people: Person[]) => void };
+
+type Draft = {
+  relationship: SubjectRelation;
+  name: string;
+  birthDate: string;
+  country: SupportedCountry;
+  citySlug: string;
 };
 
-const COUNTRY_ORDER: Country[] = settings.countryOrder;
-const DEFAULT_LABELS = settings.defaultLabels;
+const emptyDraft = (relationship: SubjectRelation = "mother"): Draft => ({
+  relationship,
+  name: "",
+  birthDate: "",
+  country: "CZ",
+  citySlug: "",
+});
 
-// A short, chip-friendly country label. COUNTRY_LABELS.INTL spells out
-// "Kdekoliv (jen globální fakta)" — too long for a pill — so we trim it.
-function chipLabel(c: Country): string {
-  if (c === "INTL") return "Kdekoliv";
-  return COUNTRY_LABELS[c];
-}
+type DraftErrors = Partial<Record<"birthDate" | "city", string>>;
 
-/**
- * The single-screen intake form. One pitch block and one card: birth year is
- * the only required field; name, gender, country and city sit below it, and a
- * second person can be tucked in for a side-by-side comparison. Replaces the
- * multi-step TypeformWizard — same data model, one screen.
- */
-export default function NewForm({ onSubmit }: Props) {
-  const { t, lang } = useLang();
-  const [name, setName] = useState(DEFAULT_LABELS[0] ?? "Já");
-  const [year, setYear] = useState("");
-  const [gender, setGender] = useState<Gender>("m");
-  const [country, setCountry] = useState<Country>(COUNTRY_ORDER[0] ?? "CZ");
-  const [citySlug, setCitySlug] = useState("");
-  const [compareOpen, setCompareOpen] = useState(false);
-  const [name2, setName2] = useState("");
-  const [year2, setYear2] = useState("");
-  const [error, setError] = useState<string | null>(null);
-
-  const cityOptions = citiesFor(country);
-  const compareYearValid = !!parseDate(year2);
-  const isPair = compareOpen && compareYearValid;
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    const parsed = parseDate(year);
-    if (!parsed) {
-      setError(t("form.err.date2"));
-      return;
-    }
-    setError(null);
-
-    const primary: Person = {
-      label: name.trim() || DEFAULT_LABELS[0] || "Já",
-      gender,
-      birthYear: parsed.year,
-      birthMonth: parsed.month,
-      birthDay: parsed.day,
-      country,
-      citySlug: citySlug || undefined,
-    };
-
-    const people: Person[] = [primary];
-
-    // The comparison is a lightweight add-on: we only collect the second
-    // person's name and year, and let them share the primary's country.
-    if (compareOpen) {
-      const parsed2 = parseDate(year2);
-      if (parsed2) {
-        people.push({
-          label: name2.trim() || DEFAULT_LABELS[1] || "Druhá osoba",
-          gender: "m",
-          birthYear: parsed2.year,
-          birthMonth: parsed2.month,
-          birthDay: parsed2.day,
-          country,
-        });
-      }
-    }
-
-    onSubmit(people);
-  };
-
-  const onCountryPick = (c: Country) => {
-    setCountry(c);
-    setCitySlug("");
-  };
-
-  const ctaLabel = isPair
-    ? lang === "cs"
-      ? "Ukázat oba světy"
-      : "Show both worlds"
-    : lang === "cs"
-      ? "Ukázat můj svět"
-      : "Show my world";
+function PersonFields({
+  draft,
+  onChange,
+  errors,
+  prefix,
+  heading,
+}: {
+  draft: Draft;
+  onChange: (next: Draft) => void;
+  errors: DraftErrors;
+  prefix: string;
+  heading?: string;
+}) {
+  const cityOptions = citiesFor(draft.country);
+  const hintId = `${prefix}-date-hint`;
+  const dateErrorId = `${prefix}-date-error`;
+  const cityErrorId = `${prefix}-city-error`;
 
   return (
-    <div className="newform">
-      {/* ── pitch ─────────────────────────────────────────── */}
-      <div className="newform-pitch">
-        <p className="eyebrow">
-          {lang === "cs"
-            ? "Jeden rok. Jedno místo. Celý svět."
-            : "One year. One place. A whole world."}
-        </p>
-        <h1 className="newform-title">
-          {lang === "cs"
-            ? "Jaký byl svět, když se narodili?"
-            : "What was the world like when they were born?"}
-        </h1>
-        <p className="newform-lede">
-          {lang === "cs"
-            ? "Napiš rok narození a místo — a během vteřiny složíme svět, kterým prošli tví blízcí. Události, ceny, tváře a noční oblohu jejich dne."
-            : "Enter a birth year and place — and in a second we'll assemble the world your people lived through. Events, prices, faces and the night sky of their day."}
-        </p>
-        <div className="newform-trust">
-          <span className="trust-chip">
-            <span className="trust-dot" />
-            {lang === "cs" ? "Bez AI a serveru" : "No AI, no server"}
-          </span>
-          <span className="trust-chip">
-            <span className="trust-dot" />
-            {lang === "cs" ? "Vše ve tvém prohlížeči" : "All in your browser"}
-          </span>
-          <span className="trust-chip">
-            <span className="trust-dot" />
-            {lang === "cs" ? "Hotovo za 20 vteřin" : "Done in 20 seconds"}
-          </span>
+    <fieldset className="person-fields">
+      {heading && <legend>{heading}</legend>}
+
+      <div className="form-section relationship-section">
+        <span className="field-label">Čí svět chcete poznat?</span>
+        <div className="relationship-grid" role="radiogroup" aria-label="Vztah k člověku">
+          {RELATIONSHIPS.map((relation) => (
+            <button
+              key={relation.value}
+              type="button"
+              className={`relationship-chip${draft.relationship === relation.value ? " active" : ""}`}
+              role="radio"
+              aria-checked={draft.relationship === relation.value}
+              onClick={() => onChange({ ...draft, relationship: relation.value })}
+            >
+              {relation.label}
+            </button>
+          ))}
         </div>
       </div>
 
-      {/* ── the one card ──────────────────────────────────── */}
-      <div className="newform-card">
-        <form onSubmit={handleSubmit} className="newform-form">
-          {/* birth year — the hero field */}
-          <div className="newform-field">
-            <label className="newform-label" htmlFor="nf-year">
-              {lang === "cs" ? "Rok narození" : "Birth year"}
-              <span className="req"> *</span>
-            </label>
-            <input
-              id="nf-year"
-              className={`newform-year${error ? " has-error" : ""}`}
-              value={year}
-              onChange={(e) => {
-                setYear(e.target.value);
-                if (error) setError(null);
-              }}
-              inputMode="numeric"
-              placeholder="1953"
-              autoFocus
-            />
-            <p className="newform-help">
-              {lang === "cs"
-                ? "Stačí rok. Nebo celé datum: 12. 4. 1953."
-                : "A year is enough. Or a full date: 12 4 1953."}
-            </p>
-          </div>
+      <div className="form-grid">
+        <label className="form-field" htmlFor={`${prefix}-name`}>
+          <span className="field-label">Jak se tento člověk jmenuje?</span>
+          <input
+            id={`${prefix}-name`}
+            value={draft.name}
+            maxLength={60}
+            autoComplete="off"
+            onChange={(event) => onChange({ ...draft, name: event.target.value })}
+            placeholder="Křestní jméno (nepovinné)"
+          />
+        </label>
 
-          {/* name + gender */}
-          <div className="newform-namerow">
-            <div className="newform-field">
-              <label className="newform-label" htmlFor="nf-name">
-                {lang === "cs" ? "Koho hledáme?" : "Who are we looking up?"}
-              </label>
-              <input
-                id="nf-name"
-                className="newform-name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                placeholder={DEFAULT_LABELS[0] ?? "Já"}
-              />
-            </div>
-            <div className="seg-control" role="group" aria-label={lang === "cs" ? "Pohlaví" : "Gender"}>
+        <label className="form-field" htmlFor={`${prefix}-birth-date`}>
+          <span className="field-label">Kdy se narodil?</span>
+          <input
+            id={`${prefix}-birth-date`}
+            value={draft.birthDate}
+            inputMode="numeric"
+            aria-invalid={Boolean(errors.birthDate)}
+            aria-describedby={`${hintId}${errors.birthDate ? ` ${dateErrorId}` : ""}`}
+            onChange={(event) => onChange({ ...draft, birthDate: event.target.value })}
+            placeholder="např. 12. 4. 1953 nebo 1953"
+          />
+          <span className="field-hint" id={hintId}>
+            Stačí rok. Pokrýváme ověřená data od {SUPPORTED_YEAR_RANGE.min} do {SUPPORTED_YEAR_RANGE.max}.
+          </span>
+          {errors.birthDate && <span className="field-error" id={dateErrorId}>{errors.birthDate}</span>}
+        </label>
+
+        <div className="form-field country-field">
+          <span className="field-label">Ve které dnešní zemi vyrůstal?</span>
+          <div className="country-options" role="radiogroup" aria-label="Dnešní země">
+            {(["CZ", "UA"] as const).map((country) => (
               <button
+                key={country}
                 type="button"
-                className={gender === "m" ? "active" : ""}
-                aria-pressed={gender === "m"}
-                onClick={() => setGender("m")}
+                role="radio"
+                aria-checked={draft.country === country}
+                className={`country-option${draft.country === country ? " active" : ""}`}
+                onClick={() => onChange({ ...draft, country, citySlug: "" })}
               >
-                {lang === "cs" ? "Muž" : "Man"}
+                <span aria-hidden="true">{country === "CZ" ? "CZ" : "UA"}</span>
+                {country === "CZ" ? "Česko" : "Ukrajina"}
               </button>
-              <button
-                type="button"
-                className={gender === "f" ? "active" : ""}
-                aria-pressed={gender === "f"}
-                onClick={() => setGender("f")}
-              >
-                {lang === "cs" ? "Žena" : "Woman"}
-              </button>
-            </div>
+            ))}
           </div>
+        </div>
 
-          {/* country chips */}
-          <div className="newform-field">
-            <label className="newform-label">
-              {lang === "cs" ? "Země" : "Country"}
-              <span className="req"> *</span>
-            </label>
-            <div className="chip-row">
-              {COUNTRY_ORDER.map((c) => (
-                <button
-                  key={c}
-                  type="button"
-                  className={`chip${country === c ? " active" : ""}`}
-                  aria-pressed={country === c}
-                  onClick={() => onCountryPick(c)}
-                >
-                  {chipLabel(c)}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* city — optional, quiet; hidden when the country has no city list */}
-          {cityOptions.length > 0 && (
-            <div className="newform-field">
-              <label className="newform-label" htmlFor="nf-city">
-                {lang === "cs" ? "Město" : "City"}
-                <span className="optional">
-                  {" "}
-                  · {lang === "cs" ? "nepovinné" : "optional"}
-                </span>
-              </label>
-              <select
-                id="nf-city"
-                className="newform-select"
-                value={citySlug}
-                onChange={(e) => setCitySlug(e.target.value)}
-              >
-                <option value="">
-                  {lang === "cs" ? "Kdekoliv v zemi" : "Anywhere in the country"}
-                </option>
-                {cityOptions.map((c) => (
-                  <option key={c.slug} value={c.slug}>
-                    {c.name}
-                  </option>
-                ))}
-              </select>
-            </div>
-          )}
-
-          {/* optional comparison, tucked away */}
-          {compareOpen && (
-            <div className="newform-compare">
-              <div className="newform-compare-head">
-                <span className="newform-label">
-                  {lang === "cs" ? "Porovnat s druhou osobou" : "Compare with a second person"}
-                </span>
-                <button
-                  type="button"
-                  className="newform-remove"
-                  onClick={() => setCompareOpen(false)}
-                >
-                  {lang === "cs" ? "odebrat" : "remove"}
-                </button>
-              </div>
-              <div className="newform-compare-grid">
-                <input
-                  className="newform-name"
-                  value={name2}
-                  onChange={(e) => setName2(e.target.value)}
-                  placeholder={lang === "cs" ? "Babička" : "Grandma"}
-                />
-                <input
-                  className="newform-name newform-year2"
-                  value={year2}
-                  onChange={(e) => setYear2(e.target.value)}
-                  inputMode="numeric"
-                  placeholder="1928"
-                />
-              </div>
-            </div>
-          )}
-
-          {/* actions */}
-          <div className="newform-actions">
-            <button type="submit" className="primary newform-cta">
-              {ctaLabel} →
-            </button>
-            {!compareOpen && (
-              <button
-                type="button"
-                className="newform-ghost"
-                onClick={() => setCompareOpen(true)}
-              >
-                {lang === "cs" ? "+ Porovnat s druhou osobou" : "+ Compare with a second person"}
-              </button>
-            )}
-          </div>
-
-          {error && <p className="newform-error">{error}</p>}
-        </form>
+        <label className="form-field" htmlFor={`${prefix}-city`}>
+          <span className="field-label">Ve kterém městě?</span>
+          <select
+            id={`${prefix}-city`}
+            value={draft.citySlug}
+            aria-invalid={Boolean(errors.city)}
+            aria-describedby={errors.city ? cityErrorId : undefined}
+            onChange={(event) => onChange({ ...draft, citySlug: event.target.value })}
+          >
+            <option value="">Vyberte město</option>
+            {cityOptions.map((city) => <option key={city.slug} value={city.slug}>{city.name}</option>)}
+          </select>
+          {errors.city && <span className="field-error" id={cityErrorId}>{errors.city}</span>}
+        </label>
       </div>
+    </fieldset>
+  );
+}
+
+function personFromDraft(draft: Draft): { person?: Person; errors: DraftErrors } {
+  const errors: DraftErrors = {};
+  const parsed = parseDate(draft.birthDate);
+  if (!parsed) {
+    errors.birthDate = "Zadejte platný rok nebo datum narození.";
+  } else if (parsed.year < SUPPORTED_YEAR_RANGE.min || parsed.year > SUPPORTED_YEAR_RANGE.max) {
+    errors.birthDate = `Pro tento rok zatím nemáme dostatek ověřených dat.`;
+  }
+  if (!draft.citySlug) errors.city = "Vyberte město.";
+  if (!parsed || Object.keys(errors).length) return { errors };
+
+  const person = normalizePerson({
+    relationship: draft.relationship,
+    name: draft.name,
+    birthYear: parsed.year,
+    birthMonth: parsed.month,
+    birthDay: parsed.day,
+    country: draft.country,
+    citySlug: draft.citySlug,
+  });
+  const validation = validatePerson(person);
+  if (validation) errors.city = validation;
+  return Object.keys(errors).length ? { errors } : { person, errors };
+}
+
+export default function NewForm({ onSubmit }: Props) {
+  const formId = useId();
+  const [primary, setPrimary] = useState<Draft>(emptyDraft());
+  const [secondary, setSecondary] = useState<Draft>(emptyDraft("grandmother"));
+  const [comparison, setComparison] = useState(false);
+  const [primaryErrors, setPrimaryErrors] = useState<DraftErrors>({});
+  const [secondaryErrors, setSecondaryErrors] = useState<DraftErrors>({});
+
+  const submit = (event: React.FormEvent) => {
+    event.preventDefault();
+    const first = personFromDraft(primary);
+    const second = comparison ? personFromDraft(secondary) : null;
+    setPrimaryErrors(first.errors);
+    setSecondaryErrors(second?.errors ?? {});
+    if (!first.person || (comparison && !second?.person)) return;
+    onSubmit(second?.person ? [first.person, second.person] : [first.person]);
+  };
+
+  return (
+    <div className="onboarding">
+      <section className="onboarding-hero" aria-labelledby={`${formId}-title`}>
+        <p className="hero-kicker">Osobní portrét jedné doby</p>
+        <h1 id={`${formId}-title`}>{COPY.heroQuestion}</h1>
+        <p className="hero-positioning">{COPY.positioning}</p>
+        <p className="hero-description">{COPY.description}</p>
+      </section>
+
+      <form className="person-form-card" onSubmit={submit} noValidate>
+        <PersonFields
+          draft={primary}
+          onChange={(next) => { setPrimary(next); setPrimaryErrors({}); }}
+          errors={primaryErrors}
+          prefix="person-a"
+        />
+
+        {comparison && (
+          <div className="comparison-form-section">
+            <div className="comparison-form-heading">
+              <div>
+                <span className="form-overline">Dva tehdejší světy</span>
+                <h2>Druhý člověk</h2>
+              </div>
+              <button type="button" className="text-button" onClick={() => setComparison(false)}>
+                Odebrat
+              </button>
+            </div>
+            <PersonFields
+              draft={secondary}
+              onChange={(next) => { setSecondary(next); setSecondaryErrors({}); }}
+              errors={secondaryErrors}
+              prefix="person-b"
+            />
+          </div>
+        )}
+
+        <div className="form-actions">
+          <button type="submit" className="primary form-submit">
+            {comparison ? "Vytvořit dva tehdejší světy" : "Začít objevovat"}
+          </button>
+          {!comparison && (
+            <button type="button" className="secondary" onClick={() => setComparison(true)}>
+              Porovnat dva lidi
+            </button>
+          )}
+        </div>
+
+        <div className="privacy-note">
+          <span className="privacy-lock" aria-hidden="true">●</span>
+          <div>
+            <strong>Soukromě ve vašem prohlížeči</strong>
+            <p>{COPY.privacy}</p>
+          </div>
+        </div>
+      </form>
     </div>
   );
 }

@@ -616,16 +616,6 @@
   },
   {
     "city": "brno",
-    "year": 1951,
-    "text": "otevřela se brněnská trolejbusová síť, první v českých zemích"
-  },
-  {
-    "city": "brno",
-    "year": 1955,
-    "text": "pivovar Starobrno na Pekařské vařil každodenní městský ležák, zatímco původní Mendelův klášter stále vlastnil pozemky"
-  },
-  {
-    "city": "brno",
     "year": 1956,
     "text": "sloučením rozhlasového a krajského orchestru pod vedením Břetislava Bakaly vznikla Brněnská filharmonie"
   },
@@ -633,16 +623,6 @@
     "city": "brno",
     "year": 1959,
     "text": "otevřel se nový terminál letiště Brno-Tuřany, aby zvládl rostoucí provoz veletrhu"
-  },
-  {
-    "city": "brno",
-    "year": 1960,
-    "text": "Brno při územní reformě ztratilo statut krajského města a bylo degradováno na okres v rámci Jihomoravského kraje"
-  },
-  {
-    "city": "brno",
-    "year": 1962,
-    "text": "divadlo Bohéma na Zelném trhu se znovu otevřelo jako Divadlo Husa na provázku a stalo se líhní experimentálního jevištního umění"
   },
   {
     "city": "brno",
@@ -657,12 +637,7 @@
   {
     "city": "brno",
     "year": 1968,
-    "text": "tanky sovětské 38. armády vjely 21. srpna do Brna a na náměstí Svobody je přivítaly davy"
-  },
-  {
-    "city": "brno",
-    "year": 1970,
-    "text": "Janáčkovo divadlo, stavěné od roku 1960, se v říjnu otevřelo představením opery Z mrtvého domu"
+    "text": "tanky sovětské 38. armády vjely 21. srpna do Brna a na náměstí Svobody se proti okupaci shromáždily davy"
   },
   {
     "city": "brno",
@@ -938,11 +913,6 @@
     "city": "chernihiv",
     "year": 1941,
     "text": "wehrmacht obsadil Černihiv 9. září po těžkém bombardování historického centra"
-  },
-  {
-    "city": "chernihiv",
-    "year": 1943,
-    "text": "Rudá armáda osvobodila Černihiv v září"
   },
   {
     "city": "chernihiv",
@@ -3066,11 +3036,6 @@
   },
   {
     "city": "khmelnytskyi",
-    "year": 1941,
-    "text": "wehrmacht obsadil Proskurov v červenci"
-  },
-  {
-    "city": "khmelnytskyi",
     "year": 1944,
     "text": "osvobozeno Rudou armádou v březnu"
   },
@@ -3083,11 +3048,6 @@
     "city": "khmelnytskyi",
     "year": 1954,
     "text": "město bylo přejmenováno na Chmelnyckyj k 300. výročí Perejaslavské dohody"
-  },
-  {
-    "city": "khmelnytskyi",
-    "year": 1954,
-    "text": "město bylo přejmenováno na Chmelnyckyj k 300. výročí perejaslavské dohody"
   },
   {
     "city": "khmelnytskyi",
@@ -3483,11 +3443,6 @@
     "city": "kyiv",
     "year": 1975,
     "text": "Dynamo Kyjev vyhrálo Pohár vítězů pohárů — první sovětský klub, který získal evropskou trofej"
-  },
-  {
-    "city": "kyiv",
-    "year": 1975,
-    "text": "Oleh Blochin z Dynama Kyjev získal Zlatý míč"
   },
   {
     "city": "kyiv",
@@ -3953,11 +3908,6 @@
     "city": "luhansk",
     "year": 1935,
     "text": "město bylo přejmenováno na Vorošilovgrad po maršálu Vorošilovovi"
-  },
-  {
-    "city": "luhansk",
-    "year": 1935,
-    "text": "město bylo přejmenováno na Vorošilovgrad po komisaři obrany Klimentu Vorošilovovi"
   },
   {
     "city": "luhansk",
@@ -4533,11 +4483,6 @@
     "city": "mariupol",
     "year": 1943,
     "text": "sovětské síly osvobodily město 10. září po donbaské ofenzivě"
-  },
-  {
-    "city": "mariupol",
-    "year": 1948,
-    "text": "město bylo přejmenováno na Ždanov po Stalinově poručíkovi Andreji Ždanovovi"
   },
   {
     "city": "mariupol",
@@ -5323,11 +5268,6 @@
     "city": "mykolaiv",
     "year": 1950,
     "text": "loděnice č. 444 obnovila stavbu křižníků a spustila na vodu třídu Sverdlov"
-  },
-  {
-    "city": "mykolaiv",
-    "year": 1962,
-    "text": "v loděnici 61 komunardů byl spuštěn na vodu první sovětský vrtulníkový křižník Moskva"
   },
   {
     "city": "mykolaiv",
@@ -6642,17 +6582,7 @@
   {
     "city": "poltava",
     "year": 1941,
-    "text": "wehrmacht obsadil město v září"
-  },
-  {
-    "city": "poltava",
-    "year": 1941,
     "text": "wehrmacht obsadil Poltavu 18. září"
-  },
-  {
-    "city": "poltava",
-    "year": 1943,
-    "text": "Poltava osvobozena Rudou armádou v září"
   },
   {
     "city": "poltava",
@@ -6847,12 +6777,7 @@
   {
     "city": "prague",
     "year": 1953,
-    "text": "měnová reforma v červnu přes noc smazala úspory a před pražskými obchody se tvořily fronty na chleba"
-  },
-  {
-    "city": "prague",
-    "year": 1954,
-    "text": "hotel International (později Crowne Plaza) v Dejvicích byl dokončen v plně socialisticko-realistickém stylu po vzoru moskevských Stalinových mrakodrapů"
+    "text": "červnová měnová reforma výrazně znehodnotila úspory; před pražskými obchody se tvořily fronty na chleba"
   },
   {
     "city": "prague",
@@ -6862,7 +6787,7 @@
   {
     "city": "prague",
     "year": 1955,
-    "text": "strahovský stadion hostil první poválečnou spartakiádu, hromadné gymnastické vystoupení s asi 600 000 cvičenci po celém festivalu"
+    "text": "Strahovský stadion hostil první celostátní spartakiádu; do hromadných cvičení se během programu zapojily stovky tisíc lidí"
   },
   {
     "city": "prague",
@@ -6897,7 +6822,7 @@
   {
     "city": "prague",
     "year": 1966,
-    "text": "divadlo Semafor se Suchým a Šlitrem byl nejžádanějším lístkem ve městě na Václavském náměstí"
+    "text": "divadlo Semafor Jiřího Suchého a Jiřího Šlitra patřilo k výrazným scénám tehdejší populární kultury"
   },
   {
     "city": "prague",
@@ -6928,11 +6853,6 @@
     "city": "prague",
     "year": 1969,
     "text": "Jan Zajíc se 25. února upálil na Václavském náměstí, druhé sebeupálení na protest proti normalizaci"
-  },
-  {
-    "city": "prague",
-    "year": 1971,
-    "text": "na náměstí Republiky se otevřel obchodní dům Kotva se svou fasádou z šestiúhelníkových modulů, vzácný kus pozdně modernistické spotřební architektury"
   },
   {
     "city": "prague",
@@ -7662,11 +7582,6 @@
   {
     "city": "sevastopol",
     "year": 1944,
-    "text": "Rudá armáda osvobodila město v květnu"
-  },
-  {
-    "city": "sevastopol",
-    "year": 1944,
     "text": "Rudá armáda dobyla Sevastopol zpět 9. května po krymské ofenzivě"
   },
   {
@@ -7693,11 +7608,6 @@
     "city": "sevastopol",
     "year": 1957,
     "text": "Panoráma obléhání let 1854-55 bylo po válečné evakuaci a restaurování znovu otevřeno"
-  },
-  {
-    "city": "sevastopol",
-    "year": 1965,
-    "text": "Sevastopolu byl udělen status 'města-hrdiny'"
   },
   {
     "city": "sevastopol",
@@ -7857,12 +7767,7 @@
   {
     "city": "simferopol",
     "year": 1941,
-    "text": "wehrmacht obsadil město v listopadu; následovalo masové vraždění Židů a Krymčaků"
-  },
-  {
-    "city": "simferopol",
-    "year": 1941,
-    "text": "wehrmacht obsadil město 1. listopadu"
+    "text": "wehrmacht obsadil město 1. listopadu; následovalo masové vraždění Židů a Krymčaků"
   },
   {
     "city": "simferopol",
@@ -9146,11 +9051,6 @@
   },
   {
     "city": "zaporizhzhia",
-    "year": 1966,
-    "text": "do sériové výroby vstoupil ZAZ-966 se svým hřbetovitým designem a motorem vzadu"
-  },
-  {
-    "city": "zaporizhzhia",
     "year": 1969,
     "text": "stadion Metalurh byl přestavěn do betonu"
   },
@@ -9791,11 +9691,6 @@
   },
   {
     "city": "kutna-hora",
-    "year": 1995,
-    "text": "historické centrum s chrámem svaté Barbory a Sedleckou kostnicí bylo zapsáno jako památka UNESCO"
-  },
-  {
-    "city": "kutna-hora",
     "year": 1920,
     "text": "Kutná Hora byla tichým středověkým hornickým městem o asi 15 000 obyvatelích — její stříbrné dny dávno minuly a její kostnice už lákala turisty"
   },
@@ -9831,11 +9726,6 @@
   },
   {
     "city": "valasske-mezirici",
-    "year": 1968,
-    "text": "závod Tesla VM vyráběl žárovky a elektroniku — významný zaměstnavatel valašského regionu"
-  },
-  {
-    "city": "valasske-mezirici",
     "year": 1923,
     "text": "Cíglerova sklárna v nedalekých Valašských Kloboukách získala na pařížském Expu ocenění za český křišťál"
   },
@@ -9863,11 +9753,6 @@
     "city": "valasske-mezirici",
     "year": 1972,
     "text": "Valašské muzeum v přírodě (skanzen) v nedalekém Rožnově přitahovalo přes milion návštěvníků"
-  },
-  {
-    "city": "zdar-nad-sazavou",
-    "year": 1951,
-    "text": "nový strojírenský závod ZĎAS proměnil malé trhové městečko v socialistické průmyslové centrum"
   },
   {
     "city": "zdar-nad-sazavou",
@@ -9906,16 +9791,6 @@
   },
   {
     "city": "breclav",
-    "year": 1938,
-    "text": "Břeclav na nové německé hranici s Moravou se stala přísně kontrolovaným přechodem"
-  },
-  {
-    "city": "breclav",
-    "year": 1968,
-    "text": "sovětské tanky překročily v srpnu při invazi Varšavské smlouvy hranici u Břeclavi"
-  },
-  {
-    "city": "breclav",
     "year": 1922,
     "text": "Lednicko-valtický kulturní areál — parkový komplex vybudovaný Lichtenštejny — byl otevřen jako veřejná atrakce"
   },
@@ -9941,16 +9816,6 @@
   },
   {
     "city": "ceska-lipa",
-    "year": 1938,
-    "text": "připojeno k Sudetengau spolu se zbytkem severočeského německy mluvícího území"
-  },
-  {
-    "city": "ceska-lipa",
-    "year": 1971,
-    "text": "těžba uranu v nedalekém Stráži pod Ralskem se rozšířila; přistěhovaly se tisíce rumunských a českých horníků"
-  },
-  {
-    "city": "ceska-lipa",
     "year": 1922,
     "text": "sušenkárna a cukrovinkárna Bohemia v České Lípě zaměstnávala několik set převážně ženských pracovnic"
   },
@@ -9968,16 +9833,6 @@
     "city": "ceska-lipa",
     "year": 1973,
     "text": "obrovská panelová sídliště zaplnila údolí, aby ubytovala rodiny horníků z uranových dolů přivedené odjinud"
-  },
-  {
-    "city": "kolin",
-    "year": 1942,
-    "text": "kolínská židovská komunita o více než 2 000 lidech byla deportována přes Terezín do Osvětimi"
-  },
-  {
-    "city": "kolin",
-    "year": 1970,
-    "text": "předchůdce automobilky TPCA — železniční závody Tatra-Kolín — zásoboval motory celý východní blok"
   },
   {
     "city": "kolin",
@@ -10006,16 +9861,6 @@
   },
   {
     "city": "krnov",
-    "year": 1945,
-    "text": "bitva o Krnov v květnu byla posledním bojem v českých zemích, jak se Rudá armáda probíjela Slezskem"
-  },
-  {
-    "city": "krnov",
-    "year": 1968,
-    "text": "textilky Karnola zaměstnávaly tisíce žen po celém městě"
-  },
-  {
-    "city": "krnov",
     "year": 1938,
     "text": "připojeno nacistickým Německem jako součást Říšské župy Sudety"
   },
@@ -10033,16 +9878,6 @@
     "city": "krnov",
     "year": 1975,
     "text": "Karnola vyráběla látku pro československé vojenské uniformy"
-  },
-  {
-    "city": "kromeriz",
-    "year": 1948,
-    "text": "Arcibiskupský zámek a zahrady (od roku 1998 památka UNESCO) byly za komunistů znárodněny"
-  },
-  {
-    "city": "kromeriz",
-    "year": 1968,
-    "text": "Kroměříž hostila tajné schůzky disidentských katolických kněží vzdorujících státním zásahům"
   },
   {
     "city": "kromeriz",
@@ -10066,16 +9901,6 @@
   },
   {
     "city": "litomerice",
-    "year": 1944,
-    "text": "podzemní komplex Richard u Litoměřic se stal továrnou na zbraně V s otrockou prací"
-  },
-  {
-    "city": "litomerice",
-    "year": 1945,
-    "text": "tisíce vězňů koncentračních táborů z komplexu Richard zemřely na pochodech smrti těsně před osvobozením"
-  },
-  {
-    "city": "litomerice",
     "year": 1938,
     "text": "připojeno nacistickým Německem jako Leitmeritz; biskupské sídlo pokračovalo pod německým nátlakem"
   },
@@ -10093,16 +9918,6 @@
     "city": "litomerice",
     "year": 1976,
     "text": "otevřelo se Severočeské centrum (regionální nákupní centrum) — vzácný příklad většího socialistického spotřebního maloobchodu"
-  },
-  {
-    "city": "litvinov",
-    "year": 1944,
-    "text": "hydrogenační závod na syntetická paliva v Litvínově byl opakovaně bombardován americkou Osmou leteckou armádou"
-  },
-  {
-    "city": "litvinov",
-    "year": 1965,
-    "text": "rafinerie Chemopetrol a petrochemický komplex Litvínov-Záluží učinily z města jedno z nejznečištěnějších v Evropě"
   },
   {
     "city": "litvinov",
@@ -10126,16 +9941,6 @@
   },
   {
     "city": "novy-jicin",
-    "year": 1938,
-    "text": "připojeno k Sudetengau; převážně německy mluvící"
-  },
-  {
-    "city": "novy-jicin",
-    "year": 1965,
-    "text": "Tonak Nový Jičín byl největším výrobcem klobouků v Československu a vyvážel do více než 70 zemí"
-  },
-  {
-    "city": "novy-jicin",
     "year": 1945,
     "text": "německé obyvatelstvo bylo vyhnáno; do vil kloboučnické rodiny Hückelů se nastěhovali čeští a slovenští osídlenci"
   },
@@ -10148,16 +9953,6 @@
     "city": "novy-jicin",
     "year": 1972,
     "text": "vesnice v údolí řeky Lubiny u Nového Jičína byly částečně zatopeny kvůli přehradě Žermanice"
-  },
-  {
-    "city": "pisek",
-    "year": 1945,
-    "text": "Písek byl osvobozen americkou 3. armádou; občané si dlouho pamatovali americké džípy na náměstí"
-  },
-  {
-    "city": "pisek",
-    "year": 1976,
-    "text": "pletárna Jitex Písek se rozrostla v jednu z největších ve střední Evropě"
   },
   {
     "city": "pisek",
@@ -10181,16 +9976,6 @@
   },
   {
     "city": "prostejov",
-    "year": 1920,
-    "text": "Prostějov byl 'hanáckým Manchesterem' — hlavním městem textilu a krejčovství"
-  },
-  {
-    "city": "prostejov",
-    "year": 1968,
-    "text": "oděvní závod OP Prostějov oblékal do pánských obleků půlku Československa"
-  },
-  {
-    "city": "prostejov",
     "year": 1933,
     "text": "u firmy Wichterle & Kovařík byl postaven Wikov 70 — první československé auto s předním pohonem"
   },
@@ -10211,16 +9996,6 @@
   },
   {
     "city": "sumperk",
-    "year": 1938,
-    "text": "připojeno k Sudetengau"
-  },
-  {
-    "city": "sumperk",
-    "year": 1945,
-    "text": "etnické německé obyvatelstvo bylo vyhnáno; textilní průmysl přešel pod českou správu"
-  },
-  {
-    "city": "sumperk",
     "year": 1948,
     "text": "hedvábnické závody Hedva byly znárodněny a modernizovány v rámci socialistického plánování"
   },
@@ -10233,16 +10008,6 @@
     "city": "sumperk",
     "year": 1975,
     "text": "závod na tvrdé kovy Pramet zaměstnával několik tisíc lidí a vyvážel nástroje z karbidu wolframu po celém bloku"
-  },
-  {
-    "city": "tabor",
-    "year": 1942,
-    "text": "táborská synagoga byla za válečných let vypálena; židovská komunita města byla deportována a téměř celá zavražděna"
-  },
-  {
-    "city": "tabor",
-    "year": 1969,
-    "text": "poblíž se vyráběly traktory národního podniku ROH Lánov a motorky ČZ"
   },
   {
     "city": "tabor",
@@ -10266,16 +10031,6 @@
   },
   {
     "city": "trebic",
-    "year": 1942,
-    "text": "třebíčská židovská komunita byla deportována do Terezína; dobře zachovalé ghetto se mělo později stát památkou UNESCO"
-  },
-  {
-    "city": "trebic",
-    "year": 1975,
-    "text": "poblíž začala stavba jaderné elektrárny Dukovany — jednoho z největších českých průmyslových projektů té doby"
-  },
-  {
-    "city": "trebic",
     "year": 1920,
     "text": "třebíčská židovská čtvrť a bazilika svatého Prokopa už přitahovaly meziválečné turisty"
   },
@@ -10296,21 +10051,6 @@
   },
   {
     "city": "trutnov",
-    "year": 1938,
-    "text": "připojeno k Sudetengau; do roku 1945 převážně německy mluvící"
-  },
-  {
-    "city": "trutnov",
-    "year": 1945,
-    "text": "etničtí Němci byli vyhnáni; v továrnách je nahradili čeští osídlenci"
-  },
-  {
-    "city": "trutnov",
-    "year": 1969,
-    "text": "město se stalo 'bránou' k lyžování v Krkonoších a rostlo s víkendovými výletníky z Prahy"
-  },
-  {
-    "city": "trutnov",
     "year": 1922,
     "text": "lnářské závody Texlen — jedny z nejstarších v Čechách — vyráběly prostěradla pro armádu nové republiky"
   },
@@ -10323,16 +10063,6 @@
     "city": "trutnov",
     "year": 1979,
     "text": "Krkonošský národní park (založený v roce 1963) si připomněl desetiletí svého rozšiřování kolem Trutnova"
-  },
-  {
-    "city": "trinec",
-    "year": 1929,
-    "text": "Třinecké železárny se staly po Vítkovicích největším výrobcem oceli v Československu"
-  },
-  {
-    "city": "trinec",
-    "year": 1968,
-    "text": "sovětské tanky vyjely údolím řeky Olše kolem třineckých závodů"
   },
   {
     "city": "trinec",
@@ -10356,16 +10086,6 @@
   },
   {
     "city": "uherske-hradiste",
-    "year": 1948,
-    "text": "Státní bezpečnost (StB) otevřela v Uherském Hradišti velké výslechové středisko, které se v 50. letech proslavilo mučením"
-  },
-  {
-    "city": "uherske-hradiste",
-    "year": 1968,
-    "text": "region Slovácko byl baštou katolického reformního hnutí Pražského jara"
-  },
-  {
-    "city": "uherske-hradiste",
     "year": 1922,
     "text": "slovácký skanzen v Uherském Hradišti uchovával moravsko-slovenský selský život"
   },
@@ -10383,16 +10103,6 @@
     "city": "uherske-hradiste",
     "year": 1975,
     "text": "místní elektrotechnický závod Mesit dodával letecká zařízení pro sovětský kosmický program"
-  },
-  {
-    "city": "vsetin",
-    "year": 1944,
-    "text": "vsetínští partyzáni ve valašských kopcích (operace Tepliček) bojovali proti nacistickým protipartyzánským zátahům"
-  },
-  {
-    "city": "vsetin",
-    "year": 1969,
-    "text": "zbrojní závod Zbrojovka Vsetín dodával ruční palné zbraně na celý trh RVHP"
   },
   {
     "city": "vsetin",
@@ -10416,21 +10126,6 @@
   },
   {
     "city": "cesky-tesin",
-    "year": 1920,
-    "text": "Versailleská smlouva rozdělila staré habsburské město napůl — Český Těšín na české straně, Cieszyn na polské"
-  },
-  {
-    "city": "cesky-tesin",
-    "year": 1938,
-    "text": "Polsko v říjnu nakrátko anektovalo Český Těšín, než ho následující rok zabralo nacistické Německo"
-  },
-  {
-    "city": "cesky-tesin",
-    "year": 1945,
-    "text": "československo-polská hranice byla obnovena podél řeky Olše"
-  },
-  {
-    "city": "cesky-tesin",
     "year": 1958,
     "text": "polské divadlo v Českém Těšíně — jediné polskojazyčné divadlo v Československu — uvedlo pod socialistickou záštitou Wyspiańského"
   },
@@ -10438,21 +10133,6 @@
     "city": "cesky-tesin",
     "year": 1972,
     "text": "polská menšina města byla oficiálně uznána ve školních osnovách v celém regionu Těšínsko"
-  },
-  {
-    "city": "cheb",
-    "year": 1938,
-    "text": "Cheb (Eger) se stal jedním z prvních sudetských měst, která hostila shromáždění Konrada Henleina, než byl připojen"
-  },
-  {
-    "city": "cheb",
-    "year": 1945,
-    "text": "jednotky americké 3. armády se v květnu spojily s Rudou armádou u Chebu a dokončily tak české tažení"
-  },
-  {
-    "city": "cheb",
-    "year": 1968,
-    "text": "místní kasárna pohraniční stráže byla horkým místem, jak vojska Varšavské smlouvy překročila hranici z východního Německa"
   },
   {
     "city": "cheb",
@@ -10471,21 +10151,6 @@
   },
   {
     "city": "chomutov",
-    "year": 1938,
-    "text": "město (tehdy Komotau) bylo nacistickým Německem připojeno k Sudetengau"
-  },
-  {
-    "city": "chomutov",
-    "year": 1945,
-    "text": "německé obyvatelstvo bylo vyhnáno na základě Benešových dekretů a nahrazeno českými osídlenci"
-  },
-  {
-    "city": "chomutov",
-    "year": 1969,
-    "text": "chomutovská elektrárna a ocelárny Válcovny trub se za socialismu staly významnými regionálními zaměstnavateli"
-  },
-  {
-    "city": "chomutov",
     "year": 1928,
     "text": "chomutovské závody Mannesmann na bezešvé trubky byly předním evropským výrobcem ocelových trubek"
   },
@@ -10501,21 +10166,6 @@
   },
   {
     "city": "prerov",
-    "year": 1939,
-    "text": "Přerov se stal za nacistické okupace strategickým železničním uzlem Reichsbahn spojujícím Vídeň s Krakovem"
-  },
-  {
-    "city": "prerov",
-    "year": 1945,
-    "text": "při masakru na 'Švédských šancích' v červnu zabili českoslovenští vojáci stovky etnických německých civilistů"
-  },
-  {
-    "city": "prerov",
-    "year": 1971,
-    "text": "optická továrna Meopta zásobovala čočkami a fotoaparáty celý východní blok"
-  },
-  {
-    "city": "prerov",
     "year": 1922,
     "text": "přerovské železniční dílny patřily k nejrušnějším osobním přestupním uzlům v zemi"
   },
@@ -10523,21 +10173,6 @@
     "city": "prerov",
     "year": 1968,
     "text": "mikroskopy a dalekohledy ze závodu Meopta vybavovaly armády východního bloku"
-  },
-  {
-    "city": "pribram",
-    "year": 1948,
-    "text": "po komunistickém převratu se příbramské uranové doly staly nejhoršími pracovními tábory Československa pro politické vězně"
-  },
-  {
-    "city": "pribram",
-    "year": 1955,
-    "text": "tisíce politických vězňů zemřely na silikózu a ozáření v příbramsko-jáchymovském uranovém gulagu"
-  },
-  {
-    "city": "pribram",
-    "year": 1969,
-    "text": "těžba uranu dosáhla vrcholů sovětských kvót; vězni byli nahrazeni placenými civilními horníky"
   },
   {
     "city": "pribram",
@@ -10556,21 +10191,6 @@
   },
   {
     "city": "znojmo",
-    "year": 1938,
-    "text": "připojeno nacistickým Německem; znojemská česká menšina byla vyhnána a mnoho jejích představitelů zavražděno"
-  },
-  {
-    "city": "znojmo",
-    "year": 1945,
-    "text": "Rudá armáda obsadila Znojmo v květnu; byla obnovena česká svrchovanost a etničtí Němci vyhnáni"
-  },
-  {
-    "city": "znojmo",
-    "year": 1961,
-    "text": "znojemské okurky — nakládané okurky nejslavnější československé značky — vstoupily do hromadné výroby"
-  },
-  {
-    "city": "znojmo",
     "year": 1924,
     "text": "znojemský region pěstování okurek byl oficiálně ochráněn značkou pro export"
   },
@@ -10581,26 +10201,6 @@
   },
   {
     "city": "jablonec",
-    "year": 1920,
-    "text": "Jablonec (tehdy Gablonz) byl světovým hlavním městem skleněné bižuterie a ozdobných korálků"
-  },
-  {
-    "city": "jablonec",
-    "year": 1938,
-    "text": "po Mnichovské dohodě připojen nacistickým Německem; korálky z Říšské župy Sudety se dál vyvážely do zahraničí"
-  },
-  {
-    "city": "jablonec",
-    "year": 1945,
-    "text": "německé sklářské obyvatelstvo bylo vyhnáno a celé korálkářské dílny byly rozebrány"
-  },
-  {
-    "city": "jablonec",
-    "year": 1971,
-    "text": "exportní kombinát Jablonex prodával československou bižuterii po celém světě"
-  },
-  {
-    "city": "jablonec",
     "year": 1950,
     "text": "československé sklářské školy v Jablonci a Železném Brodě obnovily s českými učni výrobu korálků"
   },
@@ -10608,26 +10208,6 @@
     "city": "jablonec",
     "year": 1968,
     "text": "značka Bižuterie Jablonec vznikla jako oficiální socialistická spotřební řada korálkové bižuterie"
-  },
-  {
-    "city": "mlada-boleslav",
-    "year": 1925,
-    "text": "Škodovy závody (Plzeň) převzaly místní automobilku Laurin & Klement a přejmenovaly ji na Škoda Auto"
-  },
-  {
-    "city": "mlada-boleslav",
-    "year": 1939,
-    "text": "Škoda Mladá Boleslav byla dána pod kontrolu Hermann-Göring-Werke a vyráběla vojenská vozidla pro wehrmacht"
-  },
-  {
-    "city": "mlada-boleslav",
-    "year": 1945,
-    "text": "americký nálet B-17 v květnu, těsně před osvobozením, zasáhl omylem závod Škody"
-  },
-  {
-    "city": "mlada-boleslav",
-    "year": 1964,
-    "text": "z linky sjel vůz Škoda 1000 MB — rodinné auto s motorem vzadu, které se stalo českou ikonou"
   },
   {
     "city": "mlada-boleslav",
@@ -10688,11 +10268,6 @@
     "city": "kyiv",
     "year": 1954,
     "text": "Kyjev hostil sovětské oslavy 'roku Ukrajiny' k 300. výročí Perejaslavské dohody"
-  },
-  {
-    "city": "kyiv",
-    "year": 1961,
-    "text": "kurenivský bahnotok 13. března zabil nejméně 145 lidí (oficiálně 145; možná tisíce), když se protrhla hráz z průmyslové strusky"
   },
   {
     "city": "kyiv",
@@ -10826,11 +10401,6 @@
   },
   {
     "city": "lviv",
-    "year": 1950,
-    "text": "Roman Šuchevyč — velitel UPA — byl zabit při sovětské operaci poblíž Bilohoršče"
-  },
-  {
-    "city": "lviv",
     "year": 1965,
     "text": "animační oddělení lvovského filmového studia vyrábělo sovětské hity a tiše pěstovalo ukrajinskojazyčnou tvorbu"
   },
@@ -10896,11 +10466,6 @@
   },
   {
     "city": "donetsk",
-    "year": 1924,
-    "text": "město bylo přejmenováno na Stalino — jméno, které si mělo ponechat až do roku 1961"
-  },
-  {
-    "city": "donetsk",
     "year": 1932,
     "text": "těžba uhlí v Donbasu se stala největší v Sovětském svazu a produkovala 60 % veškerého uhlí SSSR"
   },
@@ -10941,11 +10506,6 @@
   },
   {
     "city": "zaporizhzhia",
-    "year": 1929,
-    "text": "začala stavba DniproHES — největšího projektu přehrady v meziválečné Evropě"
-  },
-  {
-    "city": "zaporizhzhia",
     "year": 1934,
     "text": "v blízkosti ostrova Chortycja se otevřel traktorový závod Communard (Kommunar)"
   },
@@ -10976,11 +10536,6 @@
   },
   {
     "city": "kryvyi-rih",
-    "year": 1929,
-    "text": "závod na železnou rudu Kryvorižstal se stal vlajkovou lodí sovětské metalurgie"
-  },
-  {
-    "city": "kryvyi-rih",
     "year": 1933,
     "text": "uprchlíci před holodomorem z okolních farem rozšířili pracovní sílu; mnozí zemřeli hlady v dělnických barácích závodu"
   },
@@ -10988,11 +10543,6 @@
     "city": "kryvyi-rih",
     "year": 1955,
     "text": "obří komplex železné rudy Kryvbas sloučil desítky jednotlivých dolů"
-  },
-  {
-    "city": "kryvyi-rih",
-    "year": 1973,
-    "text": "komplex Kryvorižstal vyráběl více oceli než několik celých evropských zemí"
   },
   {
     "city": "kryvyi-rih",
@@ -11026,11 +10576,6 @@
   },
   {
     "city": "mykolaiv",
-    "year": 1972,
-    "text": "zde byl položen kýl letadlové lodi Kyjev"
-  },
-  {
-    "city": "mykolaiv",
     "year": 1980,
     "text": "mykolajivské loděnice zaměstnávaly asi 30 000 lidí ve třech obřích závodech"
   },
@@ -11041,28 +10586,8 @@
   },
   {
     "city": "luhansk",
-    "year": 1935,
-    "text": "město bylo přejmenováno na Vorošilovgrad po maršálu Vorošilovovi"
-  },
-  {
-    "city": "luhansk",
-    "year": 1956,
-    "text": "městská továrna na parní lokomotivy byla jednou z největších v SSSR"
-  },
-  {
-    "city": "luhansk",
-    "year": 1958,
-    "text": "během destalinizace přejmenováno zpět na Luhansk"
-  },
-  {
-    "city": "luhansk",
     "year": 1965,
     "text": "luhanské lokomotivní závody vyráběly dieselové lokomotivy, které jezdily na každé sovětské lokálce"
-  },
-  {
-    "city": "luhansk",
-    "year": 1970,
-    "text": "za Brežněva opět přejmenováno na Vorošilovgrad"
   },
   {
     "city": "luhansk",
@@ -11076,23 +10601,8 @@
   },
   {
     "city": "vinnytsia",
-    "year": 1937,
-    "text": "v nedalekých Pjatychatkách proběhly masové popravy NKVD; hroby měli objevit Němci v roce 1943"
-  },
-  {
-    "city": "vinnytsia",
-    "year": 1941,
-    "text": "v nedalekém lese byl postaven Hitlerův štáb východní fronty 'Werwolf'"
-  },
-  {
-    "city": "vinnytsia",
     "year": 1943,
     "text": "hroby vinnyckého masakru objevené wehrmachtem ukrývaly přes 9 000 obětí NKVD"
-  },
-  {
-    "city": "vinnytsia",
-    "year": 1944,
-    "text": "Rudá armáda osvobodila město v březnu"
   },
   {
     "city": "vinnytsia",
@@ -11141,23 +10651,8 @@
   },
   {
     "city": "cherkasy",
-    "year": 1932,
-    "text": "holodomor zpustošil Čerkaský region; celé vesnice se vylidnily"
-  },
-  {
-    "city": "cherkasy",
-    "year": 1944,
-    "text": "Čerkasy byly osvobozeny Rudou armádou po velké bitvě o obklíčení"
-  },
-  {
-    "city": "cherkasy",
     "year": 1955,
     "text": "otevřel se závod na chemická vlákna Chimvolokno — tehdy největší v Sovětském svazu"
-  },
-  {
-    "city": "cherkasy",
-    "year": 1962,
-    "text": "Kremenčucká přehrada zatopila historickou krajinu poblíž Čerkas"
   },
   {
     "city": "cherkasy",
@@ -11236,18 +10731,8 @@
   },
   {
     "city": "kherson",
-    "year": 1944,
-    "text": "sovětské síly osvobodily Cherson v březnu"
-  },
-  {
-    "city": "kherson",
     "year": 1955,
     "text": "chersonské loděnice stavěly říční tankery pro Dněpr"
-  },
-  {
-    "city": "kherson",
-    "year": 1957,
-    "text": "Severokrymský kanál začal přivádět dněperskou vodu přes Chersonskou oblast k zavlažování Krymu"
   },
   {
     "city": "kherson",
@@ -11280,11 +10765,6 @@
     "text": "černihovský závod na syntetická vlákna byl jedním z největších nehutních zaměstnavatelů na Ukrajině"
   },
   {
-    "city": "chernihiv",
-    "year": 1975,
-    "text": "černihovské závody na chemická vlákna a syntetické textilie byly významnými sovětskými zaměstnavateli"
-  },
-  {
     "city": "khmelnytskyi",
     "year": 1922,
     "text": "Proskurov byl reorganizován do nové Vinnycké oblasti jako malé správní centrum"
@@ -11296,18 +10776,8 @@
   },
   {
     "city": "khmelnytskyi",
-    "year": 1941,
-    "text": "wehrmacht obsadil město v červenci; židovské obyvatelstvo bylo z velké části zavražděno do roku 1943"
-  },
-  {
-    "city": "khmelnytskyi",
     "year": 1942,
     "text": "proskurovské židovské ghetto bylo zlikvidováno v říjnu a listopadu; přeživší Židé byli posláni do Belzecu a dalších vyhlazovacích táborů"
-  },
-  {
-    "city": "khmelnytskyi",
-    "year": 1944,
-    "text": "osvobozeno Rudou armádou v březnu"
   },
   {
     "city": "khmelnytskyi",
@@ -11336,18 +10806,8 @@
   },
   {
     "city": "chernivtsi",
-    "year": 1941,
-    "text": "rumunské síly město znovu obsadily; bylo zřízeno ghetto a desítky tisíc Židů byly deportovány do Podněstří"
-  },
-  {
-    "city": "chernivtsi",
     "year": 1942,
     "text": "starosta Traian Popovici zachránil asi 20 000 czernowitzských Židů před deportací tím, že jim udělil pracovní povolení"
-  },
-  {
-    "city": "chernivtsi",
-    "year": 1944,
-    "text": "sovětské znovuobsazení; rumunsky a německy mluvící obyvatelstvo bylo z velké části vyhnáno nebo uprchlo"
   },
   {
     "city": "chernivtsi",
@@ -11723,11 +11183,6 @@
     "city": "denver",
     "year": 1968,
     "text": "Denver Broncos draftovali Floyda Littlea a začali svou konkurenceschopnou éru v AFL"
-  },
-  {
-    "city": "denver",
-    "year": 1976,
-    "text": "obyvatelé Colorada hlasovali pro odmítnutí zimních olympijských her 1976, které jim byly přiděleny"
   },
   {
     "city": "denver",
@@ -12671,11 +12126,6 @@
   },
   {
     "city": "odesa",
-    "year": 1996,
-    "text": "rozpad Černomořské námořní plavby připravil tisíce oděských námořníků o práci"
-  },
-  {
-    "city": "odesa",
     "year": 1997,
     "text": "28. května podepsaly Rusko a Ukrajina dohody o rozdělení Černomořské flotily; Ukrajina získala 150 jejích zařízení"
   },
@@ -13321,11 +12771,6 @@
   },
   {
     "city": "sevastopol",
-    "year": 1955,
-    "text": "v přístavu vybuchla bitevní loď Novorossijsk a strhla ke dnu přes 600 námořníků"
-  },
-  {
-    "city": "sevastopol",
     "year": 1957,
     "text": "architekti vyslaní z Moskvy se odklonili od stalinských plánů a obnovili město v rázu připomínajícím ruské město 19. století"
   },
@@ -13403,11 +12848,6 @@
     "city": "simferopol",
     "year": 1945,
     "text": "po deportaci byla Krymská ASSR zrušena a Krym snížen na pouhou oblast"
-  },
-  {
-    "city": "simferopol",
-    "year": 1959,
-    "text": "otevřela se nejdelší trolejbusová trať na světě, spojující Simferopol přes Angarský průsmyk s Jaltou"
   },
   {
     "city": "simferopol",
@@ -13983,11 +13423,6 @@
     "city": "prague",
     "year": 1960,
     "text": "11. července přijalo Národní shromáždění novou ústavu, jež prohlásila vítězství socialismu a přejmenovala stát na Československou socialistickou republiku"
-  },
-  {
-    "city": "prague",
-    "year": 1961,
-    "text": "holešovické Výstaviště dostalo nový název Park kultury a oddechu Julia Fučíka a stalo se hlavním rekreačním areálem města"
   },
   {
     "city": "prague",
@@ -16766,11 +16201,6 @@
   },
   {
     "city": "kyiv",
-    "year": 1996,
-    "text": "po krachu Černobylu a hospodářském propadu klesl počet obyvatel z vrcholných 2,6 milionu a metro se stalo páteří dopravy v ochromeném městě"
-  },
-  {
-    "city": "kyiv",
     "year": 2001,
     "text": "k desátému výročí nezávislosti byl pod Majdanem otevřen Globus, první velké podzemní nákupní centrum na Ukrajině"
   },
@@ -17158,11 +16588,6 @@
     "city": "zaporizhzhia",
     "year": 2022,
     "text": "od září byly všechny bloky Záporožské jaderné elektrárny postupně odstaveny do studeného či horkého stavu"
-  },
-  {
-    "city": "kryvyi-rih",
-    "year": 1974,
-    "text": "tramvajová síť Kryvbasu se táhla podél lineárního města a patřila k nejdelším v Evropě"
   },
   {
     "city": "vinnytsia",

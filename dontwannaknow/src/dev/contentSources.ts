@@ -8,7 +8,7 @@ import { COUNTRY_DECADE_BUCKETS, CULTURE_LIST_FIELDS } from "../data/_grouped";
 
 // "list"  → a string[] edited one item per line.
 // "json"  → an arbitrary nested value edited as raw JSON (objects/arrays).
-export type FieldKind = "text" | "textarea" | "number" | "select" | "list" | "json";
+export type FieldKind = "text" | "textarea" | "number" | "boolean" | "select" | "list" | "json";
 
 export type Field = {
   key: string;
@@ -21,14 +21,15 @@ export type Field = {
   optional?: boolean;
 };
 
-export type Category = "countries" | "cities" | "years" | "culture" | "sports";
+export type Category = "editorial" | "countries" | "cities" | "years" | "culture" | "sports";
 
 export const CATEGORY_LABELS: Record<Category, string> = {
-  countries: "Countries",
-  cities: "Cities",
-  years: "Years",
-  culture: "Culture",
-  sports: "Sports",
+  editorial: "Redakční pravidla",
+  countries: "Země",
+  cities: "Města",
+  years: "Roky",
+  culture: "Kultura",
+  sports: "Sport",
 };
 
 export type ContentRecord = Record<string, unknown>;
@@ -71,9 +72,9 @@ function workSource(
     label,
     category: "culture",
     fields: [
-      { key: "year", label: "Year", kind: "number" },
-      { key: "title", label: "Title", kind: "text", full: true },
-      { key: "creator", label: "Creator", kind: "text", full: true },
+      { key: "year", label: "Rok", kind: "number" },
+      { key: "title", label: "Název", kind: "text", full: true },
+      { key: "creator", label: "Autor", kind: "text", full: true },
     ],
     summary: (r) => `${num(r.year)} — ${str(r.title)} · ${str(r.creator)}`,
     tags: (r) => [...extraTags, decadeTag(r.year)],
@@ -83,12 +84,59 @@ function workSource(
 
 export const CONTENT_SOURCES: ContentSource[] = [
   {
+    key: "dataSources",
+    label: "Zdroje a stav dat",
+    category: "editorial",
+    fields: [
+      { key: "dataset", label: "Datová sada", kind: "text" },
+      { key: "source", label: "Zdroj", kind: "text", full: true },
+      { key: "url", label: "Odkaz na zdroj", kind: "text", full: true, optional: true },
+      { key: "confidence", label: "Stav ověření", kind: "select", options: ["verified", "review-needed"] },
+      { key: "publicRuntime", label: "Používá veřejná zpráva", kind: "boolean" },
+      { key: "notes", label: "Poznámka", kind: "textarea", full: true, optional: true },
+    ],
+    summary: (record) => `${str(record.dataset)} · ${str(record.source)}`,
+    tags: (record) => [str(record.confidence), record.publicRuntime ? "public" : "archive"],
+    blank: () => ({ dataset: "", source: "", confidence: "review-needed", publicRuntime: false }),
+  },
+  {
+    key: "editorialRules",
+    label: "Tón, citlivost a sdílení",
+    category: "editorial",
+    fields: [
+      { key: "id", label: "Stálý identifikátor", kind: "text", full: true },
+      { key: "pattern", label: "Textový vzor (regulární výraz)", kind: "textarea", full: true },
+      { key: "chapter", label: "Kapitola (nepovinné)", kind: "select", optional: true, options: ["birth", "early-childhood", "everyday-day", "teenage-years", "different-from-today", "changing-world", "generation-context", "life-numbers"] },
+      { key: "tone", label: "Tón", kind: "select", options: ["warm", "playful", "neutral", "serious"] },
+      { key: "sensitivity", label: "Citlivost", kind: "select", options: ["none", "mild", "difficult"] },
+      { key: "shareSafe", label: "Bezpečné pro sdílení", kind: "boolean" },
+      { key: "featured", label: "Doporučené", kind: "boolean", optional: true },
+      { key: "geographicScope", label: "Geografický rozsah", kind: "select", optional: true, options: ["city", "modern-country", "historical-state", "wider-state", "global"] },
+      { key: "historicalEntityId", label: "Historická entita", kind: "text", optional: true },
+      { key: "ageFrom", label: "Minimální věk", kind: "number", optional: true },
+      { key: "ageTo", label: "Maximální věk", kind: "number", optional: true },
+      { key: "sourceConfidence", label: "Důvěra ve zdroj", kind: "select", options: ["verified", "review-needed"] },
+      { key: "reviewRequired", label: "Vyžaduje kontrolu", kind: "boolean" },
+    ],
+    summary: (record) => `${str(record.id)} · ${str(record.sensitivity)} · ${str(record.pattern)}`,
+    tags: (record) => [str(record.tone), str(record.sensitivity), str(record.chapter)],
+    blank: () => ({
+      id: "new-rule",
+      pattern: "",
+      tone: "neutral",
+      sensitivity: "none",
+      shareSafe: true,
+      sourceConfidence: "review-needed",
+      reviewRequired: true,
+    }),
+  },
+  {
     key: "events",
-    label: "World events",
+    label: "Světové události",
     category: "years",
     fields: [
-      { key: "year", label: "Year", kind: "number" },
-      { key: "mood", label: "Mood", kind: "select", options: MOODS },
+      { key: "year", label: "Rok", kind: "number" },
+      { key: "mood", label: "Nálada", kind: "select", options: MOODS },
       { key: "text", label: "Text", kind: "textarea", full: true },
     ],
     summary: (r) => `${num(r.year)} — ${str(r.text)}`,
@@ -97,11 +145,11 @@ export const CONTENT_SOURCES: ContentSource[] = [
   },
   {
     key: "countryEvents",
-    label: "Country events",
+    label: "Události podle země",
     category: "countries",
     fields: [
-      { key: "country", label: "Country", kind: "select", options: COUNTRY_CODES },
-      { key: "year", label: "Year", kind: "number" },
+      { key: "country", label: "Země", kind: "select", options: COUNTRY_CODES },
+      { key: "year", label: "Rok", kind: "number" },
       { key: "text", label: "Text", kind: "textarea", full: true },
     ],
     summary: (r) => `${str(r.country)} ${num(r.year)} — ${str(r.text)}`,
@@ -110,12 +158,12 @@ export const CONTENT_SOURCES: ContentSource[] = [
   },
   {
     key: "history",
-    label: "Curated history (CZ/UA)",
+    label: "Archiv historie · vyžaduje kontrolu",
     category: "countries",
     fields: [
-      { key: "country", label: "Country", kind: "select", options: ["cz", "ua"] },
-      { key: "year", label: "Year", kind: "number" },
-      { key: "category", label: "Category", kind: "text" },
+      { key: "country", label: "Země", kind: "select", options: ["cz", "ua"] },
+      { key: "year", label: "Rok", kind: "number" },
+      { key: "category", label: "Kategorie", kind: "text" },
       { key: "text", label: "Text", kind: "textarea", full: true },
     ],
     summary: (r) => `${str(r.country)} ${num(r.year)} — ${str(r.text)}`,
@@ -124,10 +172,10 @@ export const CONTENT_SOURCES: ContentSource[] = [
   },
   {
     key: "monthlyEvents",
-    label: "Monthly events",
+    label: "Události podle měsíců",
     category: "years",
     fields: [
-      { key: "year", label: "Year", kind: "number" },
+      { key: "year", label: "Rok", kind: "number" },
       { key: "month", label: "Month (1–12)", kind: "number" },
       { key: "text", label: "Text", kind: "textarea", full: true },
     ],
@@ -137,10 +185,10 @@ export const CONTENT_SOURCES: ContentSource[] = [
   },
   {
     key: "cosmicEvents",
-    label: "Cosmic events",
+    label: "Vesmírné události",
     category: "years",
     fields: [
-      { key: "year", label: "Year", kind: "number" },
+      { key: "year", label: "Rok", kind: "number" },
       { key: "text", label: "Text", kind: "textarea", full: true },
     ],
     summary: (r) => `${num(r.year)} — ${str(r.text)}`,
@@ -149,11 +197,11 @@ export const CONTENT_SOURCES: ContentSource[] = [
   },
   {
     key: "inventions",
-    label: "Inventions",
+    label: "Vynálezy",
     category: "years",
     fields: [
-      { key: "year", label: "Year", kind: "number" },
-      { key: "name", label: "Name", kind: "text", full: true },
+      { key: "year", label: "Rok", kind: "number" },
+      { key: "name", label: "Název", kind: "text", full: true },
       { key: "detail", label: "Detail (optional)", kind: "textarea", full: true, optional: true },
     ],
     summary: (r) => `${num(r.year)} — ${str(r.name)}`,
@@ -162,12 +210,12 @@ export const CONTENT_SOURCES: ContentSource[] = [
   },
   {
     key: "notableDeaths",
-    label: "Notable deaths",
+    label: "Úmrtí známých osobností",
     category: "culture",
     fields: [
-      { key: "year", label: "Year", kind: "number" },
-      { key: "name", label: "Name", kind: "text", full: true },
-      { key: "role", label: "Role", kind: "text", full: true },
+      { key: "year", label: "Rok", kind: "number" },
+      { key: "name", label: "Jméno", kind: "text", full: true },
+      { key: "role", label: "Obor", kind: "text", full: true },
       { key: "note", label: "Note (optional)", kind: "textarea", full: true, optional: true },
     ],
     summary: (r) => `${num(r.year)} — ${str(r.name)} (${str(r.role)})`,
@@ -176,12 +224,12 @@ export const CONTENT_SOURCES: ContentSource[] = [
   },
   {
     key: "famousBirths",
-    label: "Famous births",
+    label: "Narození známých osobností",
     category: "culture",
     fields: [
-      { key: "year", label: "Year", kind: "number" },
-      { key: "name", label: "Name", kind: "text", full: true },
-      { key: "role", label: "Role", kind: "text", full: true },
+      { key: "year", label: "Rok", kind: "number" },
+      { key: "name", label: "Jméno", kind: "text", full: true },
+      { key: "role", label: "Obor", kind: "text", full: true },
     ],
     summary: (r) => `${num(r.year)} — ${str(r.name)} (${str(r.role)})`,
     tags: (r) => ["people", "birth", decadeTag(r.year)],
@@ -189,13 +237,13 @@ export const CONTENT_SOURCES: ContentSource[] = [
   },
   {
     key: "extinctions",
-    label: "Extinctions",
+    label: "Vyhynulé druhy",
     category: "years",
     fields: [
-      { key: "species", label: "Species", kind: "text", full: true },
-      { key: "lastConfirmedYear", label: "Last confirmed year", kind: "number" },
-      { key: "declaredExtinctYear", label: "Declared extinct year", kind: "number" },
-      { key: "note", label: "Note", kind: "textarea", full: true },
+      { key: "species", label: "Druh", kind: "text", full: true },
+      { key: "lastConfirmedYear", label: "Rok posledního potvrzeného výskytu", kind: "number" },
+      { key: "declaredExtinctYear", label: "Rok prohlášení za vyhynulý", kind: "number" },
+      { key: "note", label: "Poznámka", kind: "textarea", full: true },
     ],
     summary: (r) => `${str(r.species)} — extinct ${num(r.declaredExtinctYear)}`,
     tags: (r) => ["nature", "science", decadeTag(r.declaredExtinctYear)],
@@ -213,11 +261,11 @@ export const CONTENT_SOURCES: ContentSource[] = [
   workSource("plays", "Plays", ["theatre"]),
   {
     key: "cityFacts",
-    label: "City facts",
+    label: "Městské souvislosti",
     category: "cities",
     fields: [
-      { key: "city", label: "City slug", kind: "text" },
-      { key: "year", label: "Year", kind: "number" },
+      { key: "city", label: "Identifikátor města", kind: "text" },
+      { key: "year", label: "Rok", kind: "number" },
       { key: "text", label: "Text", kind: "textarea", full: true },
     ],
     summary: (r) => `${str(r.city)} ${num(r.year)} — ${str(r.text)}`,
@@ -226,11 +274,11 @@ export const CONTENT_SOURCES: ContentSource[] = [
   },
   {
     key: "sports",
-    label: "Sports",
+    label: "Sportovní události",
     category: "sports",
     fields: [
-      { key: "year", label: "Year", kind: "number" },
-      { key: "country", label: "Country (optional)", kind: "text", optional: true },
+      { key: "year", label: "Rok", kind: "number" },
+      { key: "country", label: "Země (nepovinné)", kind: "text", optional: true },
       { key: "text", label: "Text", kind: "textarea", full: true },
     ],
     summary: (r) => `${num(r.year)} — ${str(r.text)}`,
@@ -244,10 +292,10 @@ export const CONTENT_SOURCES: ContentSource[] = [
     label: "Per-decade texture",
     category: "countries",
     fields: [
-      { key: "country", label: "Country", kind: "select", options: COUNTRY_CODES },
+      { key: "country", label: "Země", kind: "select", options: COUNTRY_CODES },
       { key: "decadeStart", label: "Decade (e.g. 1950)", kind: "number" },
-      { key: "bucket", label: "Category", kind: "select", options: DECADE_BUCKETS },
-      { key: "text", label: "Fact", kind: "textarea", full: true },
+      { key: "bucket", label: "Kategorie", kind: "select", options: DECADE_BUCKETS },
+      { key: "text", label: "Souvislost", kind: "textarea", full: true },
     ],
     summary: (r) => `${str(r.country)} ${num(r.decadeStart)}s · ${str(r.bucket)} — ${str(r.text)}`,
     tags: (r) => [str(r.country), str(r.bucket), decadeTag(r.decadeStart)],
@@ -255,13 +303,13 @@ export const CONTENT_SOURCES: ContentSource[] = [
   },
   {
     key: "famousPeople",
-    label: "Famous people",
+    label: "Známé osobnosti",
     category: "culture",
     fields: [
-      { key: "country", label: "Country", kind: "select", options: COUNTRY_CODES },
+      { key: "country", label: "Země", kind: "select", options: COUNTRY_CODES },
       { key: "decadeStart", label: "Decade (e.g. 1950)", kind: "number" },
-      { key: "name", label: "Name", kind: "text", full: true },
-      { key: "role", label: "Role", kind: "text", full: true },
+      { key: "name", label: "Jméno", kind: "text", full: true },
+      { key: "role", label: "Obor", kind: "text", full: true },
       { key: "note", label: "Note (optional)", kind: "textarea", full: true, optional: true },
     ],
     summary: (r) => `${str(r.country)} ${num(r.decadeStart)}s — ${str(r.name)} (${str(r.role)})`,
@@ -273,10 +321,10 @@ export const CONTENT_SOURCES: ContentSource[] = [
     label: "Media (read & watch)",
     category: "culture",
     fields: [
-      { key: "country", label: "Country", kind: "select", options: COUNTRY_CODES },
+      { key: "country", label: "Země", kind: "select", options: COUNTRY_CODES },
       { key: "decadeStart", label: "Decade (e.g. 1950)", kind: "number" },
-      { key: "kind", label: "Kind", kind: "select", options: ["read", "watch"] },
-      { key: "text", label: "Title / outlet", kind: "textarea", full: true },
+      { key: "kind", label: "Druh", kind: "select", options: ["read", "watch"] },
+      { key: "text", label: "Název nebo médium", kind: "textarea", full: true },
     ],
     summary: (r) => `${str(r.country)} ${num(r.decadeStart)}s · ${str(r.kind)} — ${str(r.text)}`,
     tags: (r) => [str(r.country), decadeTag(r.decadeStart), str(r.kind), "media"],
@@ -284,12 +332,12 @@ export const CONTENT_SOURCES: ContentSource[] = [
   },
   {
     key: "slang",
-    label: "Slang",
+    label: "Dobový slang",
     category: "culture",
     fields: [
       { key: "decadeStart", label: "Decade (e.g. 1950)", kind: "number" },
-      { key: "phrase", label: "Phrase", kind: "text", full: true },
-      { key: "meaning", label: "Meaning", kind: "text", full: true },
+      { key: "phrase", label: "Výraz", kind: "text", full: true },
+      { key: "meaning", label: "Význam", kind: "text", full: true },
     ],
     summary: (r) => `${num(r.decadeStart)}s — “${str(r.phrase)}”: ${str(r.meaning)}`,
     tags: (r) => [decadeTag(r.decadeStart), "slang"],
@@ -297,13 +345,13 @@ export const CONTENT_SOURCES: ContentSource[] = [
   },
   {
     key: "babyNames",
-    label: "Baby names",
+    label: "Dětská jména",
     category: "culture",
     fields: [
-      { key: "country", label: "Country", kind: "select", options: COUNTRY_CODES },
+      { key: "country", label: "Země", kind: "select", options: COUNTRY_CODES },
       { key: "decadeStart", label: "Decade (e.g. 1950)", kind: "number" },
-      { key: "sex", label: "Sex", kind: "select", options: ["boys", "girls"] },
-      { key: "name", label: "Name", kind: "text", full: true },
+      { key: "sex", label: "Pohlaví", kind: "select", options: ["boys", "girls"] },
+      { key: "name", label: "Jméno", kind: "text", full: true },
     ],
     summary: (r) => `${str(r.country)} ${num(r.decadeStart)}s · ${str(r.sex)} — ${str(r.name)}`,
     tags: (r) => [str(r.country), decadeTag(r.decadeStart), "names", str(r.sex)],
@@ -311,12 +359,12 @@ export const CONTENT_SOURCES: ContentSource[] = [
   },
   {
     key: "culture",
-    label: "Culture (songs / films / books)",
+    label: "Kultura (písně, filmy a knihy)",
     category: "culture",
     fields: [
       { key: "decadeStart", label: "Decade (e.g. 1950)", kind: "number" },
-      { key: "field", label: "Field", kind: "select", options: CULTURE_FIELDS },
-      { key: "text", label: "Value", kind: "textarea", full: true },
+      { key: "field", label: "Pole", kind: "select", options: CULTURE_FIELDS },
+      { key: "text", label: "Hodnota", kind: "textarea", full: true },
     ],
     summary: (r) => `${num(r.decadeStart)}s · ${str(r.field)} — ${str(r.text)}`,
     tags: (r) => [decadeTag(r.decadeStart), str(r.field)],
@@ -324,19 +372,19 @@ export const CONTENT_SOURCES: ContentSource[] = [
   },
   {
     key: "education",
-    label: "Education snapshot",
+    label: "Dobové vzdělávání",
     category: "countries",
     fields: [
-      { key: "country", label: "Country", kind: "select", options: COUNTRY_CODES },
+      { key: "country", label: "Země", kind: "select", options: COUNTRY_CODES },
       { key: "decadeStart", label: "Decade (e.g. 1950)", kind: "number" },
-      { key: "compulsoryEnd", label: "Compulsory school end age", kind: "number" },
-      { key: "avgYearsSchooling", label: "Avg years schooling", kind: "number" },
+      { key: "compulsoryEnd", label: "Věk ukončení povinné školní docházky", kind: "number" },
+      { key: "avgYearsSchooling", label: "Průměrná délka vzdělávání", kind: "number" },
       { key: "highSchoolGradPct", label: "High-school grad %", kind: "number" },
       { key: "universityPct", label: "University %", kind: "number" },
       { key: "literacyPct", label: "Literacy %", kind: "number" },
       { key: "commonJobs", label: "Common jobs (one per line)", kind: "list", full: true },
       { key: "subjects", label: "School subjects (one per line)", kind: "list", full: true },
-      { key: "classroom", label: "Classroom note", kind: "textarea", full: true },
+      { key: "classroom", label: "Poznámka ke škole", kind: "textarea", full: true },
       { key: "workNote", label: "Work note (optional)", kind: "textarea", full: true, optional: true },
     ],
     summary: (r) => `${str(r.country)} ${num(r.decadeStart)}s — školství · gramotnost ${num(r.literacyPct)} %`,
@@ -349,16 +397,16 @@ export const CONTENT_SOURCES: ContentSource[] = [
   },
   {
     key: "writers",
-    label: "Writers",
+    label: "Spisovatelé",
     category: "culture",
     fields: [
-      { key: "name", label: "Name", kind: "text", full: true },
-      { key: "country", label: "Country", kind: "select", options: WRITER_COUNTRIES },
-      { key: "gender", label: "Gender", kind: "select", options: ["m", "f"] },
-      { key: "born", label: "Born", kind: "number" },
+      { key: "name", label: "Jméno", kind: "text", full: true },
+      { key: "country", label: "Země", kind: "select", options: WRITER_COUNTRIES },
+      { key: "gender", label: "Rod", kind: "select", options: ["m", "f"] },
+      { key: "born", label: "Rok narození", kind: "number" },
       { key: "died", label: "Died (optional)", kind: "number", optional: true },
       { key: "bornPlace", label: "Birthplace (optional)", kind: "text", full: true, optional: true },
-      { key: "blurb", label: "Blurb", kind: "textarea", full: true },
+      { key: "blurb", label: "Popis", kind: "textarea", full: true },
       { key: "works", label: 'Works — [{ "title", "year" }]', kind: "json", full: true },
       { key: "homes", label: 'Homes — [{ "from", "place" }] (optional)', kind: "json", full: true, optional: true },
     ],

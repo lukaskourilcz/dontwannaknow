@@ -164,7 +164,7 @@ export default function SkyMap({ birthDate, lat, lon, cityName, svgRef }: Props)
         height={SVG_SIZE}
         xmlns="http://www.w3.org/2000/svg"
         role="img"
-        aria-label={`Noční obloha nad ${cityName} dne ${dateStr} kolem ${viewTimeLocal} místního času`}
+        aria-label={`Noční obloha · ${cityName} · ${dateStr} kolem ${viewTimeLocal} místního času`}
       >
         {/* Sky disc — twilight gradient */}
         <defs>
@@ -229,7 +229,7 @@ export default function SkyMap({ birthDate, lat, lon, cityName, svgRef }: Props)
         )}
       </svg>
       <figcaption>
-        Obloha nad <strong>{cityName}</strong> kolem {viewTimeLocal} místního času dne{" "}
+        Noční obloha · <strong>{cityName}</strong> · kolem {viewTimeLocal} místního času dne{" "}
         <strong>{dateStr}</strong>. Měsíc: {moonPhaseText}.
         {sun && sun.alt < -18 && " Slunce bylo hluboko pod obzorem — astronomická noc."}
         {sun && sun.alt >= -18 && sun.alt < 0 && " Slunce bylo těsně pod obzorem — pozdní soumrak."}

@@ -5,7 +5,7 @@ import { useState } from "react";
 // editor out of casual sight. Don't expose anything truly sensitive behind it.
 export const DEV_PASSWORD = "autobus";
 
-const STORAGE_KEY = "dwk.dev.auth";
+const STORAGE_KEY = "tehdejsi-svet.dev.auth";
 
 function isUnlocked(): boolean {
   try {

@@ -1,61 +1,57 @@
 import { EVENTS, type EventMood } from "../data/events";
 import { INVENTIONS } from "../data/inventions";
 import { goneCountriesAlive } from "../data/countries";
-import { statsForYear, type DecadeStats } from "../data/stats";
-import { cultureForDecade, type CultureSnapshot } from "../data/culture";
+import { statsForYear } from "../data/stats";
 import {
   decadeFactsFor,
   countryLabelFor,
-  type Country,
   type CountryDecade,
 } from "../data/countryDecades";
-import { fmtMoney, fmtGasPerLitre } from "./money";
-import { famousFor } from "../data/famousPeople";
+import { culturalFiguresFor } from "../data/famousPeople";
 import { eventsForCountry } from "../data/countryEvents";
-import { cityFactsFor, findCity } from "../data/cities";
+import { cityFactsFor } from "../data/cities";
+import { findCity } from "../data/cityCatalog";
 import { worldBankFor, worldBankLatest } from "../data/worldBank";
 import { contemporariesFor } from "../data/wikidataPeople";
 import { mediaFor } from "../data/media";
 import { writersAtBirth } from "../data/writers";
-import { FACTS as CURATED_FACTS } from "../data/history";
-import { buildEssay, type EssayParagraph } from "./essay";
-import { buildPairEssay, type PairSection } from "./pair";
 import { pickN } from "./random";
 import { capitalize } from "./text";
 import { czYears, czAgePhrase } from "./czech";
 import { CURRENT_YEAR } from "./datetime";
 import { settings } from "../config/settings";
+import { withSeededRandom } from "./random";
+import {
+  annotateFact,
+  calculateLifeMilestones,
+  composeChapters,
+  selectShareItem,
+  type EditorialMetadata,
+  type LifeMilestone,
+  type ReportChapter,
+  type ReportItem,
+} from "./report";
+import { resolveHistoricalLocation, type ResolvedHistoricalContext } from "./historicalLocation";
+import type { Person } from "./person";
 
-export type Gender = "m" | "f";
+export type { Person } from "./person";
 
 /**
  * Pick the grammatically correct Czech form for a person's gender, e.g.
- * `genderForm(p.gender, "narodil", "narodila")`. Keeps generated prose in a
- * single consistent voice.
+ * Keeps descriptions of people from the curated writers dataset in one
+ * consistent grammatical voice.
  */
-export const genderForm = (
-  gender: Gender,
+const genderForm = (
+  gender: "m" | "f",
   masculine: string,
   feminine: string,
 ): string => (gender === "f" ? feminine : masculine);
 
-export type Person = {
-  label: string;
-  birthYear: number;
-  country: Country;
-  gender: Gender;
-  citySlug?: string;
-  birthMonth?: number;     // 1-12, optional
-  birthDay?: number;       // 1-31, optional
-};
-
-export type Fact = {
-  category:
+export type FactCategory =
     | "bizarre"
     | "beautiful"
     | "everyday"
     | "world"
-    | "youth"
     | "government"
     | "clothes"
     | "illness"
@@ -68,19 +64,24 @@ export type Fact = {
     | "media"
     | "writers"
     | "contemporaries";
+
+export type Fact = {
+  category: FactCategory;
   text: string;
+  year?: number;
+  stage?: "birth-era" | "teenage-era";
+  metadata: EditorialMetadata;
 };
+
+type RawFact = Pick<Fact, "category" | "text" | "year" | "stage">;
 
 export type PersonReport = {
   person: Person;
-  ageNow: number;
-  birthDecade: number;
-  birthStats: DecadeStats;
-  youthCulture: CultureSnapshot;
-  countryLabel: string;
-  cityLabel: string | null;
   facts: Fact[];
-  essay: EssayParagraph[];
+  historicalContext: ResolvedHistoricalContext;
+  milestones: LifeMilestone[];
+  chapters: ReportChapter[];
+  shareItem: ReportItem | null;
 };
 
 function ageAt(birthYear: number, year: number): number {
@@ -89,7 +90,7 @@ function ageAt(birthYear: number, year: number): number {
 
 function eventsLivedThrough(birthYear: number): typeof EVENTS {
   return EVENTS.filter(
-    (e) => e.year >= birthYear && e.year <= CURRENT_YEAR && e.year - birthYear <= 90,
+    (e) => e.year >= birthYear && e.year <= CURRENT_YEAR && e.year - birthYear <= 18,
   );
 }
 
@@ -108,208 +109,199 @@ function pickFormative(birthYear: number, max = 4): typeof EVENTS {
   return lived.slice(0, max).sort((a, b) => a.year - b.year);
 }
 
-function inventionsBornBefore(birthYear: number) {
-  return INVENTIONS.filter((i) => i.year > birthYear);
+function formativeInventions(birthYear: number) {
+  return INVENTIONS.filter((invention) =>
+    invention.year > birthYear && invention.year <= birthYear + 18,
+  );
 }
 
-function decadeWord(decadeStart: number): string {
-  return `${decadeStart}s`;
+const FEATURED_INVENTIONS = new Set([
+  "penicilin",
+  "barevná televize",
+  "magnetofonová kazeta",
+  "domácí mikrovlnná trouba",
+  "bankomat",
+  "kapesní kalkulačka",
+  "osobní počítač",
+  "Sony Walkman",
+  "World Wide Web",
+  "mobilní telefon pro běžné uživatele",
+  "iPhone",
+]);
+
+function decadePeriod(decadeStart: number): string {
+  return `${decadeStart}–${decadeStart + 9}`;
 }
 
 // Build country-specific facts from the per-decade snapshot. We pull from
 // both the person's birth decade and their teenage decade so the texture
 // covers "when you were born" and "while you were growing up".
-function countryFacts(person: Person): Fact[] {
+function countryFacts(person: Person): RawFact[] {
   const { country, birthYear } = person;
-  if (country === "INTL") return [];
-
   const birthDecade = decadeFactsFor(country, birthYear);
-  const youthDecade = decadeFactsFor(country, birthYear + 15);
+  const formativeDecade = decadeFactsFor(country, birthYear + 15);
 
-  const facts: Fact[] = [];
-  const decades: { d: CountryDecade | null; when: string }[] = [
-    { d: birthDecade, when: `v letech ${decadeWord(Math.floor(birthYear / 10) * 10)}` },
+  const facts: RawFact[] = [];
+  const decades: { d: CountryDecade | null; when: string; stage: Fact["stage"] }[] = [
+    { d: birthDecade, when: `v letech ${decadePeriod(Math.floor(birthYear / 10) * 10)}`, stage: "birth-era" },
   ];
   if (
-    youthDecade &&
-    (!birthDecade || youthDecade.decadeStart !== birthDecade.decadeStart)
+    formativeDecade &&
+    (!birthDecade || formativeDecade.decadeStart !== birthDecade.decadeStart)
   ) {
     decades.push({
-      d: youthDecade,
-      when: `v letech ${decadeWord(youthDecade.decadeStart)}, během dospívání`,
+      d: formativeDecade,
+      when: `v letech ${decadePeriod(formativeDecade.decadeStart)}, během dospívání`,
+      stage: "teenage-era",
     });
   }
 
-  for (const { d, when } of decades) {
+  for (const { d, when, stage } of decades) {
     if (!d) continue;
     // Pick a couple from each thematic bucket.
     pickN(d.government, 1).forEach((t) =>
-      facts.push({ category: "government", text: `${capitalize(when)}, ${t}` }),
+      facts.push({ category: "government", text: `${capitalize(when)}: ${t}`, stage }),
     );
     pickN(d.clothes, 1).forEach((t) =>
-      facts.push({ category: "clothes", text: t }),
+      facts.push({ category: "clothes", text: t, stage }),
     );
     pickN(d.illnesses, 1).forEach((t) =>
-      facts.push({ category: "illness", text: t }),
+      facts.push({ category: "illness", text: t, stage }),
     );
     pickN(d.dailyLife, 1).forEach((t) =>
-      facts.push({ category: "daily", text: t }),
+      facts.push({ category: "daily", text: t, stage }),
     );
     pickN(d.food, 1).forEach((t) =>
-      facts.push({ category: "food", text: t }),
+      facts.push({ category: "food", text: t, stage }),
     );
     pickN(d.money, 1).forEach((t) =>
-      facts.push({ category: "money", text: t }),
+      facts.push({ category: "money", text: t, stage }),
     );
     pickN(d.bizarre, 1).forEach((t) =>
-      facts.push({ category: "bizarre", text: t }),
+      facts.push({ category: "bizarre", text: t, stage }),
     );
     pickN(d.beautiful, 1).forEach((t) =>
-      facts.push({ category: "beautiful", text: t }),
+      facts.push({ category: "beautiful", text: t, stage }),
     );
   }
 
   // What people read and watched — magazines, books and TV channels of the
   // birth decade and the teenage decade. Covers 1940s–2020s (CZ & UA only).
   const mediaSeen = new Set<number>();
-  [birthYear, birthYear + 15].forEach((y) => {
+  [
+    { year: birthYear, stage: "birth-era" as const },
+    { year: birthYear + 15, stage: "teenage-era" as const },
+  ].forEach(({ year: y, stage }) => {
     const m = mediaFor(country, y);
     if (!m || mediaSeen.has(m.decadeStart)) return;
     mediaSeen.add(m.decadeStart);
-    pickN(m.read, 1).forEach((t) => facts.push({ category: "media", text: t }));
-    pickN(m.watch, 1).forEach((t) => facts.push({ category: "media", text: t }));
+    pickN(m.read, 1).forEach((t) => facts.push({ category: "media", text: t, stage }));
+    pickN(m.watch, 1).forEach((t) => facts.push({ category: "media", text: t, stage }));
   });
 
-  // Writers who were alive (or had recently died) when this person was born,
-  // with the writer's age, where they were living, and the book they were
-  // probably writing then (a book published in year P was begun ~P-3).
+  // Writers who were alive when this person was born, with age, residence and
+  // publication context. We do not infer what they were privately writing.
   pickN(writersAtBirth(country, birthYear), 4).forEach((w) => {
-    let s: string;
-    if (!w.alive && w.yearsSinceDeath !== undefined) {
-      s = `**${w.name}** (${w.blurb}) — ${genderForm(w.gender, "zemřel", "zemřela")} ${w.yearsSinceDeath} ${czYears(w.yearsSinceDeath)} před narozením.`;
-    } else {
-      s = `**${w.name}** (${w.blurb}), ${w.age} ${czYears(w.age)}`;
-      const tail: string[] = [];
-      if (w.home) tail.push(`${genderForm(w.gender, "žil", "žila")} ${w.home}`);
-      if (w.workingOn) {
-        tail.push(
-          `${genderForm(w.gender, "pracoval", "pracovala")} na díle ${w.workingOn.title} (vyšlo ${w.workingOn.year})`,
-        );
-      } else if (w.recent) {
-        tail.push(
-          `${genderForm(w.gender, "měl za sebou", "měla za sebou")} ${w.recent.title} (${w.recent.year})`,
-        );
-      }
-      s += tail.length ? ` — ${tail.join(" a ")}.` : ".";
+    let s = `**${w.name}** (${w.blurb}), ${w.age} ${czYears(w.age)}`;
+    const tail: string[] = [];
+    if (w.home) tail.push(`${genderForm(w.gender, "žil", "žila")} ${w.home}`);
+    if (w.publishedSoonAfter) {
+      tail.push(`krátce nato vyšlo dílo ${w.publishedSoonAfter.title} (${w.publishedSoonAfter.year})`);
+    } else if (w.recent) {
+      tail.push(
+        `${genderForm(w.gender, "měl za sebou", "měla za sebou")} ${w.recent.title} (${w.recent.year})`,
+      );
     }
+    s += tail.length ? ` — ${tail.join(" a ")}.` : ".";
     facts.push({ category: "writers", text: s });
   });
 
-  // Country-specific events during their lifetime — weight toward
-  // birth ± 25 years and pick 4.
+  // Country-specific events from birth through adulthood.
   const countryEvents = eventsForCountry(
     country,
     birthYear,
-    Math.min(CURRENT_YEAR, birthYear + 90),
+    Math.min(CURRENT_YEAR, birthYear + 18),
   );
   pickN(countryEvents, 4).forEach((e) => {
     const age = ageAt(birthYear, e.year);
     const when = czAgePhrase(age);
     facts.push({
       category: "local",
+      year: e.year,
       text: `${capitalize(when)} (${e.year}): ${e.text}.`,
     });
   });
 
-  // Curated, web-grounded long-form events for Czechia & Ukraine — richer
-  // editorial detail than the terse one-liners above. Self-contained
-  // sentences, so we surface them year-stamped rather than age-framed.
-  const curatedCode = country === "CZ" ? "cz" : country === "UA" ? "ua" : null;
-  if (curatedCode) {
-    const hi = Math.min(CURRENT_YEAR, birthYear + 90);
-    const curated = CURATED_FACTS.filter(
-      (f) => f.country === curatedCode && f.year >= birthYear && f.year <= hi,
-    );
-    pickN(curated, 4).forEach((f) => {
-      facts.push({ category: "local", text: `${f.year} — ${f.text}` });
-    });
-  }
-
   // Famous people from their birth decade and youth decade.
   const famous = [
-    ...famousFor(country, birthYear),
-    ...famousFor(country, birthYear + 15),
+    ...culturalFiguresFor(country, birthYear + 15).map((person) => ({ person, stage: "teenage-era" as const })),
+    ...culturalFiguresFor(country, birthYear).map((person) => ({ person, stage: "birth-era" as const })),
   ];
   // Dedupe by name.
   const uniqueFamous = Array.from(
-    new Map(famous.map((p) => [p.name, p])).values(),
+    new Map(famous.map((entry) => [entry.person.name, entry])).values(),
   );
-  pickN(uniqueFamous, 5).forEach((p) => {
+  pickN(uniqueFamous, 5).forEach(({ person: p, stage }) => {
     facts.push({
       category: "famous",
       text: `**${p.name}** — ${p.role}${p.note ? `: ${p.note}` : ""}.`,
+      stage,
     });
   });
 
   return facts;
 }
 
-export function pairReport(a: Person, b: Person): PairSection[] {
-  return buildPairEssay(a, b);
-}
-
-export function reportFor(person: Person, excludeWorld = false): PersonReport {
-  const { birthYear, label } = person;
-  const ageNow = CURRENT_YEAR - birthYear;
-  const birthDecade = Math.floor(birthYear / 10) * 10;
+function buildReport(person: Person, cityEvents: Awaited<ReturnType<typeof cityFactsFor>>, excludeWorld = false): PersonReport {
+  const { birthYear } = person;
   const birthStats = statsForYear(birthYear);
-  const youthCulture = cultureForDecade(birthYear + 15);
   const countryLabel = countryLabelFor(person.country, birthYear);
   const city = findCity(person.citySlug);
-  const cityLabel = city ? city.name : null;
 
-  const facts: Fact[] = [];
+  const facts: RawFact[] = [];
 
-  // ── City-specific events during their lifetime (up to 8) ────────────
+  // ── City-specific events during the formative years ─────────────────
   if (city) {
-    const cityEvents = cityFactsFor(city.slug, birthYear);
-    pickN(cityEvents, 8).forEach((e) => {
+    const formativeCityEvents = cityEvents.filter((event) => event.year <= birthYear + 18);
+    pickN(formativeCityEvents, 10).forEach((e) => {
       const age = ageAt(birthYear, e.year);
       const when = czAgePhrase(age);
       facts.push({
         category: "city",
+        year: e.year,
         text: `${capitalize(when)} (${e.year}, ${city.name}): ${e.text}.`,
       });
     });
   }
 
-  // ── Bizarre: "before X existed" — pick 2 at random ───────────────────
-  const beforeStuff = inventionsBornBefore(birthYear);
+  // ── Everyday contrasts: familiar things that did not exist yet ────────
+  const beforeStuff = formativeInventions(birthYear);
   if (beforeStuff.length > 0) {
     const big = beforeStuff.filter((i) =>
-      ["the iPhone", "Google", "the World Wide Web", "television in most homes", "the personal computer", "sliced bread", "color TV", "the home microwave oven", "the Sony Walkman", "Facebook", "ChatGPT"].includes(i.name),
+      FEATURED_INVENTIONS.has(i.name),
     );
     const pool = big.length >= 2 ? big : beforeStuff;
     pickN(pool, 2).forEach((inv) => {
-      const phrase = inv.detail ?? `${inv.name} ještě nikdo neznal`;
       facts.push({
         category: "bizarre",
-        text: `Když se ${label.toLowerCase()} ${genderForm(person.gender, "narodil", "narodila")}, ${phrase}.`,
+        text: inv.detail
+          ? `V roce narození ${inv.detail}.`
+          : `V roce narození lidé ještě běžně nepoužívali: ${inv.name}.`,
       });
     });
   }
 
-  // ── Bizarre: vanished countries ───────────────────────────────────────
+  // ── Changing borders: states that later disappeared ───────────────────
   const gone = goneCountriesAlive(birthYear).slice(0, 2);
   gone.forEach((c) => {
     const verb = c.becameText ? ` — později ${c.becameText}` : "";
     facts.push({
       category: "bizarre",
-      text: `${label} ${genderForm(person.gender, "se narodil", "se narodila")} v době, kdy na mapě ještě existoval stát ${c.name}${verb}.`,
+      text: `V roce narození na mapě ještě existoval stát ${c.name}${verb}.`,
     });
   });
 
-  // ── Beautiful: formative world moments (skipped in a pair — they live
+  // ── Positive formative moments (skipped in a pair — they live
   //    in the shared comparison card) ───────────────────────────────────
   if (!excludeWorld) {
     pickFormative(birthYear).forEach((e) => {
@@ -317,6 +309,7 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
       const ageWord = czAgePhrase(age);
       facts.push({
         category: e.mood === "beautiful" || e.mood === "milestone" ? "beautiful" : "world",
+        year: e.year,
         text: `${capitalize(ageWord)}: ${e.text}.`,
       });
     });
@@ -325,7 +318,8 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
       const age = ageAt(birthYear, e.year);
       facts.push({
         category: "beautiful",
-        text: `${label} ${genderForm(person.gender, "měl", "měla")} ${age} let, když ${e.text}.`,
+        year: e.year,
+        text: `${capitalize(czAgePhrase(age))}: ${e.text}.`,
       });
     });
   }
@@ -333,15 +327,7 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
   // ── Everyday life ────────────────────────────────────────────────────
   facts.push({
     category: "everyday",
-    text: `V roce, kdy se ${label.toLowerCase()} ${genderForm(person.gender, "narodil", "narodila")}, žilo na světě přibližně ${birthStats.worldPopulationBillions} miliard lidí — dnes je to zhruba ${settings.currentWorldPopulationText}.`,
-  });
-  facts.push({
-    category: "everyday",
-    text: `Bochník chleba stál ${fmtMoney(birthStats.loafOfBreadUsd, person.country)} a litr benzinu vyšel na ${fmtGasPerLitre(birthStats.gallonOfGasUsd, person.country)}.`,
-  });
-  facts.push({
-    category: "everyday",
-    text: `Průměrná roční mzda se pohybovala kolem ${fmtMoney(birthStats.usAverageAnnualWageUsd, person.country)} a běžný dům stál zhruba ${fmtMoney(birthStats.medianUsHouseUsd, person.country)}.`,
+    text: `V roce narození žilo na světě přibližně ${birthStats.worldPopulationBillions.toLocaleString("cs-CZ")} miliardy lidí — dnes je to zhruba ${settings.currentWorldPopulationText}.`,
   });
   facts.push({
     category: "everyday",
@@ -351,7 +337,7 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
   // Real, country-specific figures for the birth year, straight from the World
   // Bank (their series start ~1960, so this only fires for later births). This
   // supplements — never replaces — the rounded global approximations above.
-  if (person.country !== "INTL") {
+  {
     const wb = worldBankFor(person.country, birthYear);
     if (wb && (wb.pop || wb.lifeExp || wb.gdpPerCapita)) {
       // Telegraphic, caption-style line — sidesteps Czech case/verb agreement
@@ -377,7 +363,7 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
     // Fertility keeps one decimal ("2,0 dítěte") so the genitive always fits.
     const csKid = (n: number) =>
       n.toLocaleString("cs-CZ", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
-    const where = person.country === "INTL" ? "Svět" : countryLabel;
+    const where = countryLabel;
 
     if (wb?.birthRate) {
       const nowBr = worldBankLatest(person.country, "birthRate");
@@ -414,46 +400,6 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
     }
   }
 
-  // ── Youth: cultural snapshot ──────────────────────────────────────────
-  facts.push({
-    category: "youth",
-    text: `Během dospívání ${label.toLowerCase()} nejspíš ${genderForm(person.gender, "nosil", "nosila")} ${youthCulture.fashion}.`,
-  });
-  facts.push({
-    category: "youth",
-    text: `Jako teenager ${label.toLowerCase()} ${youthCulture.whatTeensDid}.`,
-  });
-  if (youthCulture.topSongs.length) {
-    facts.push({
-      category: "youth",
-      text: `Písničky, které znal každý: ${youthCulture.topSongs.slice(0, 2).map((s) => `**${s}**`).join(" a ")}.`,
-    });
-  }
-  if (youthCulture.popularMovies.length) {
-    facts.push({
-      category: "youth",
-      text: `V kinech dávali ${youthCulture.popularMovies.slice(0, 3).map((m) => `**${m}**`).join(", ")}.`,
-    });
-  }
-  if (youthCulture.popularBooks.length) {
-    facts.push({
-      category: "youth",
-      text: `Všichni četli ${youthCulture.popularBooks.slice(0, 2).map((b) => `**${b}**`).join(" a ")}.`,
-    });
-  }
-
-  // ── Bizarre: wage comparison ────────────────────────────────────────
-  const wageNow = statsForYear(CURRENT_YEAR).usAverageAnnualWageUsd;
-  if (birthStats.usAverageAnnualWageUsd > 0) {
-    const multiple = Math.round(wageNow / birthStats.usAverageAnnualWageUsd);
-    if (multiple >= 2) {
-      facts.push({
-        category: "bizarre",
-        text: `Průměrná mzda je dnes zhruba ${multiple}× vyšší než v době, kdy se ${label.toLowerCase()} ${genderForm(person.gender, "narodil", "narodila")}.`,
-      });
-    }
-  }
-
   // ── Country-specific texture, famous people, and local events ───────
   facts.push(...countryFacts(person));
 
@@ -462,7 +408,7 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
   pickN(contemporariesFor(person.country, birthYear), 6).forEach((c) => {
     facts.push({
       category: "contemporaries",
-      text: c.role ? `**${c.name}** — ${c.role}.` : `**${c.name}**.`,
+      text: `Stejný rok narození má také **${c.name}** · obor: ${c.role}.`,
     });
   });
 
@@ -474,15 +420,32 @@ export function reportFor(person: Person, excludeWorld = false): PersonReport {
     return true;
   });
 
+  const historicalContext = resolveHistoricalLocation(person);
+  const annotatedFacts = uniqueFacts.map((fact) => annotateFact(fact, historicalContext));
+  const chapters = composeChapters(person, annotatedFacts, historicalContext);
+
   return {
     person,
-    ageNow,
-    birthDecade,
-    birthStats,
-    youthCulture,
-    countryLabel,
-    cityLabel,
-    facts: uniqueFacts,
-    essay: buildEssay(person, excludeWorld),
+    facts: annotatedFacts,
+    historicalContext,
+    milestones: calculateLifeMilestones(person, annotatedFacts),
+    chapters,
+    shareItem: selectShareItem(chapters),
   };
+}
+
+export async function reportFor(person: Person, excludeWorld = false): Promise<PersonReport> {
+  const seed = [
+    "tehdejsi-svet-v1",
+    person.birthYear,
+    person.birthMonth ?? 0,
+    person.birthDay ?? 0,
+    person.country,
+    person.citySlug,
+    person.relationship,
+    person.variant,
+    Number(excludeWorld),
+  ].join(":");
+  const cityEvents = await cityFactsFor(person.citySlug, person.birthYear);
+  return withSeededRandom(seed, () => buildReport(person, cityEvents, excludeWorld));
 }

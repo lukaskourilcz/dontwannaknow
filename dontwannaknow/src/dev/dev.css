@@ -1,6 +1,6 @@
-/* The /dev console, dressed in the game's "Warm Editorial" language so it
+/* The /dev console uses the product's warm editorial language so it
    feels like a first-class part of the product rather than an internal tool.
-   This stylesheet loads on its own (the game's styles.css does not), so it
+   This stylesheet loads on its own (the public styles.css does not), so it
    carries its own tokens, resets, fonts, and dark theme. */
 
 :root {
@@ -224,6 +224,14 @@ html, body {
   flex-wrap: wrap;
   margin-bottom: var(--s-4);
 }
+
+.dev-audit-filters {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--s-3);
+  margin: calc(var(--s-2) * -1) 0 var(--s-4);
+}
+.dev-audit-filters .dev-select { min-width: 0; width: 100%; }
 
 .dev-input,
 .dev-search,
@@ -526,6 +534,8 @@ textarea.dev-input-mono {
   .dev-nav .dev-tab { flex: 1; justify-content: center; }
   .dev-header-right { margin-left: auto; }
   .dev-fields { grid-template-columns: 1fr; }
+  .dev-audit-filters { grid-template-columns: 1fr; }
+  .dev-search { min-width: 100%; }
   .dev-row { flex-direction: column; align-items: stretch; }
   .dev-row-actions { justify-content: flex-end; }
 }
