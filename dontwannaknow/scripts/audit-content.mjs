@@ -171,6 +171,9 @@ for (const file of codeFiles) {
   const publicCopy = text.replace(/`[^`]*`/g, "").replace(/\]\([^)]*\)/g, "]");
   if (staleBrand.test(publicCopy)) errors.push(`${file}: obsahuje starou veřejnou značku.`);
   if (/useLang|LangProvider/.test(text)) errors.push(`${file}: obsahuje odstraněnou jazykovou větev.`);
+  if (file === "index.html" && /placeholder|replace public\/og-image/i.test(text)) {
+    errors.push("index.html: metadata stále popisují hotovou OG kartu jako zástupný obrázek.");
+  }
 }
 
 const supportedTexture = JSON.parse(
