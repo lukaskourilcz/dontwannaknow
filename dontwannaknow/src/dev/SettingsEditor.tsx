@@ -81,7 +81,7 @@ export default function SettingsEditor() {
         </p>
       )}
       {status && (
-        <p className="dev-meta">
+        <p className="dev-meta" role="status" aria-live="polite">
           <span className="dev-status">{status}</span>
         </p>
       )}

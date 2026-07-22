@@ -20,6 +20,10 @@ describe("person model", () => {
     })).toMatchObject({ label: "Marie", variant: 0 });
   });
 
+  it("separates a supplied name without pretending to decline it", () => {
+    expect(reportTitle(makePerson({ name: "Šárka" }))).toBe("Tehdejší svět: Šárka");
+  });
+
   it("rejects unsupported years, mismatched cities and invalid full dates", () => {
     expect(validatePerson(makePerson({ birthYear: SUPPORTED_YEAR_RANGE.min - 1 }))).toMatch(/rok mezi/);
     expect(validatePerson(makePerson({ country: "UA", citySlug: "prague" }))).toMatch(/odpovídá zvolené zemi/);

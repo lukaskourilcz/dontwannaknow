@@ -20,6 +20,13 @@ const CHAPTERS = ["birth", "early-childhood", "everyday-day", "teenage-years", "
 const TONES = ["warm", "playful", "neutral", "serious"];
 const SENSITIVITIES = ["none", "mild", "difficult"];
 
+function tagStateClass(tag: string): string {
+  if (["verified", "none", "true"].includes(tag)) return "state-verified";
+  if (["review-needed", "review-required", "difficult", "serious"].includes(tag)) return "state-review";
+  if (["false", "share-unsafe"].includes(tag)) return "state-blocked";
+  return "";
+}
+
 const yearOf = (r: ContentRecord): number =>
   Number(r.year ?? r.declaredExtinctYear ?? r.decadeStart ?? r.born ?? 0) || 0;
 
@@ -306,7 +313,7 @@ export default function ContentEditor() {
         ))}
       </div>
 
-      <p className="dev-meta">
+      <p className="dev-meta" aria-live="polite">
         {rows.length.toLocaleString("cs-CZ")} z {counts.total.toLocaleString("cs-CZ")} záznamů
         {status && <span className="dev-status"> · {status}</span>}
       </p>
@@ -327,7 +334,7 @@ export default function ContentEditor() {
                     <span className="dev-tag dev-tag-cat">{CATEGORY_LABELS[source.category]}</span>
                     <span className="dev-tag">{source.label}</span>
                     {source.tags(record).map((t) => (
-                      <span key={t} className="dev-tag dev-tag-soft">
+                      <span key={t} className={`dev-tag dev-tag-soft ${tagStateClass(t)}`.trim()}>
                         {t}
                       </span>
                     ))}

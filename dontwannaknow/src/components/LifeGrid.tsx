@@ -25,23 +25,30 @@ export default function LifeGrid({ weeksLived, label }: Props) {
   const width = PADDING * 2 + ROW_LABEL_GAP + COLS * (SIZE + GAP) - GAP;
   const height = rowY(rows - 1) + SIZE + PADDING;
 
-  const cells: { x: number; y: number; i: number; cls: string }[] = [];
-  for (let i = 0; i < total; i++) {
+  const pathForRange = (start: number, end: number) => {
+    let path = "";
+    for (let i = start; i < end; i++) {
+      const row = Math.floor(i / COLS);
+      const col = i % COLS;
+      const x = PADDING + ROW_LABEL_GAP + col * (SIZE + GAP);
+      const y = rowY(row);
+      path += `M${x} ${y}h${SIZE}v${SIZE}h-${SIZE}z`;
+    }
+    return path;
+  };
+
+  const currentIndex = lived > 0 ? lived - 1 : -1;
+  const livedPath = pathForRange(0, Math.max(0, currentIndex));
+  const futurePath = pathForRange(lived, total);
+  const currentCell = currentIndex >= 0 ? (() => {
+    const i = currentIndex;
     const row = Math.floor(i / COLS);
     const col = i % COLS;
-    const cls =
-      i === lived - 1
-        ? "life-grid-now"
-        : i < lived
-          ? "life-grid-lived"
-          : "life-grid-future";
-    cells.push({
+    return {
       x: PADDING + ROW_LABEL_GAP + col * (SIZE + GAP),
       y: rowY(row),
-      i,
-      cls,
-    });
-  }
+    };
+  })() : null;
 
   const rowLabels: { label: string; y: number }[] = [];
   for (let yr = 0; yr < rows; yr += 10) {
@@ -66,18 +73,19 @@ export default function LifeGrid({ weeksLived, label }: Props) {
             {rl.label}
           </text>
         ))}
-        {cells.map((c) => (
+        {livedPath && <path d={livedPath} className="life-grid-cell life-grid-lived" />}
+        {futurePath && <path d={futurePath} className="life-grid-cell life-grid-future" />}
+        {currentCell && (
           <rect
-            key={c.i}
-            x={c.x}
-            y={c.y}
+            x={currentCell.x}
+            y={currentCell.y}
             width={SIZE}
             height={SIZE}
             rx={1.5}
             ry={1.5}
-            className={`life-grid-cell ${c.cls}`}
+            className="life-grid-cell life-grid-now"
           />
-        ))}
+        )}
       </svg>
       <figcaption>
         Každý čtvereček je jeden týden. Od narození {label} jich uplynulo přibližně{" "}

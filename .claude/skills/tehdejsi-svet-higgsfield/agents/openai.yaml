@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tehdejší svět · Higgsfield"
+  short_description: "Direct safe decorative media production"
+  default_prompt: "Use $tehdejsi-svet-higgsfield to plan and integrate a decorative asset."

@@ -50,7 +50,7 @@ export function displayName(person: Pick<Person, "label" | "relationship">): str
 export function reportTitle(person: Pick<Person, "label" | "relationship" | "birthYear">): string {
   const name = person.label.trim();
   return name
-    ? `Tehdejší svět ${name}`
+    ? `Tehdejší svět: ${name}`
     : `Tehdejší svět člověka narozeného v roce ${person.birthYear}`;
 }
 

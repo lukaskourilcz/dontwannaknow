@@ -119,7 +119,14 @@ export const CONTENT_SOURCES: ContentSource[] = [
       { key: "reviewRequired", label: "Vyžaduje kontrolu", kind: "boolean" },
     ],
     summary: (record) => `${str(record.id)} · ${str(record.sensitivity)} · ${str(record.pattern)}`,
-    tags: (record) => [str(record.tone), str(record.sensitivity), str(record.chapter)],
+    tags: (record) => [
+      str(record.tone),
+      str(record.sensitivity),
+      str(record.chapter),
+      str(record.sourceConfidence),
+      record.reviewRequired ? "review-required" : "verified",
+      record.shareSafe ? "share-safe" : "share-unsafe",
+    ],
     blank: () => ({
       id: "new-rule",
       pattern: "",

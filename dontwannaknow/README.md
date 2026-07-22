@@ -33,7 +33,7 @@ Samostatně jsou dostupné `npm run typecheck`, `npm run lint`, `npm test`, `npm
 - `src/data/editorialRules.json` obsahuje ručně kontrolovatelná pravidla citlivosti a zařazení.
 - `src/data/dataSources.json` eviduje původ, stav ověření a veřejné použití každé editovatelné sady.
 
-Veřejný výběr je záměrně omezen na Česko a Ukrajinu. Starší data jiných zemí zůstávají v kořenových datových souborech a archivních katalozích, ale produkční moduly importují jen odvozenou CZ/UA vrstvu v `src/data/public`. Veřejný formulář, stav URL a generátor nepodporované země nepřijmou. Dlouhý korpus v `history.json` je také archivní rešerše: veřejná zpráva ho nepoužívá, dokud jeho záznamy neprojdou jednotlivou redakční kontrolou. Těžké datové a vizuální moduly se načítají až po vytvoření zprávy; PDF knihovna až při exportu.
+Veřejný výběr je záměrně omezen na Česko a Ukrajinu. Starší data jiných zemí zůstávají v kořenových datových souborech a archivních katalozích, ale produkční moduly importují jen odvozenou CZ/UA vrstvu v `src/data/public`. Veřejný formulář, stav URL a generátor nepodporované země nepřijmou. Dlouhý korpus v `history.json` je také archivní rešerše: veřejná zpráva ho nepoužívá, dokud jeho záznamy neprojdou jednotlivou redakční kontrolou. Těžké datové a vizuální moduly se načítají až po vytvoření zprávy; PDF knihovna až při exportu. Sbalené kontextové kapitoly nevytvářejí svůj obsah před otevřením a týdenní vizualizace používá několik SVG cest místo tisíců samostatných uzlů.
 
 ## Sdílení a soukromí
 
@@ -48,3 +48,5 @@ Na `/dev` je vývojová konzole pro procházení a úpravu JSON dat včetně red
 ## Nasazení
 
 Aplikace je statický Vite projekt. Na Vercelu nastavte Root Directory na tuto složku (`dontwannaknow/`), build command `npm run build` a output `dist/`. Pro jiný statický hosting je nutné směrovat neznámé cesty na `index.html`.
+
+Řídicí produktová pravidla, reviewer agenti a příkazy jsou v kořenovém [`CLAUDE.md`](../CLAUDE.md). Audit redesignu a stav odložených médií jsou v [`docs/experience-overhaul.md`](../docs/experience-overhaul.md) a [`docs/generated-media.md`](../docs/generated-media.md); dokončené implementační předání je v [`docs/NEXT-AGENT-HANDOFF.md`](../docs/NEXT-AGENT-HANDOFF.md).

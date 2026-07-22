@@ -27,7 +27,7 @@ Politická příslušnost je oddělena od kulturní relevance. Ukrajinská kultu
 - `WorldMap` vysvětluje tehdejší hranice a zaniklé státy.
 - `SkyMap` dál počítá skutečnou oblohu pomocí `astronomy-engine`; bez celého data se místo odhadu zobrazí poctivá výzva.
 - `ArtStrip` používá místní statická díla a dostupné alternativní texty.
-- `LifeGrid` a `LifeNumbers` jsou přesunuty na konec, sbalené a obsahují jen uběhlý čas (roky, období, dny, týdny, měsíční cykly a desetiletí), bez fyziologických nebo behaviorálních odhadů.
+- `LifeGrid` a `LifeNumbers` jsou přesunuty na konec, sbalené a obsahují jen uběhlý čas (roky, období, dny, týdny, měsíční cykly a desetiletí), bez fyziologických nebo behaviorálních odhadů. Obsah sbalených kapitol se připojí až po otevření a týdenní mřížka slučuje buňky do tří SVG vrstev místo tisíců DOM prvků.
 - `jsPDF` vytváří české A4 památeční vydání s vloženým fontem podporujícím diakritiku.
 - `useCopied`, datové selektory, české tvaroslovné utility, mapové cesty, astronomická data a vývojový editor zůstaly znovu použity.
 
@@ -52,3 +52,5 @@ Starší globální `culture.json` a další nepodporované mezinárodní zdroje
 ## Ověření
 
 `npm run check` postupně spouští strict typecheck, ESLint, Vitest, redakční audit a produkční build. Testy pokrývají historický resolver, stabilní seed, obtížný obsah, milníky, soukromí fragmentu a formulářovou validaci. Vizuální kontrola musí navíc projít šířky 320, 375, 390, tablet a desktop, plné datum i pouze rok, český i ukrajinský historický kontext, porovnání, export obrázku a vykreslené PDF.
+
+Projektové znalosti a pracovní postupy jsou v kořenovém `CLAUDE.md`, pěti skills v `.claude/skills`, čtyřech oddělených review agentech a příkazech `/tehdejsi-*`. Velká autonomní změna používá koherentní průběžné commity; žádný commit není důvodem práci přerušit.

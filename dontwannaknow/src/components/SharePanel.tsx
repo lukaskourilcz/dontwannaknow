@@ -1,15 +1,26 @@
-import { useState } from "react";
+import { useId, useState } from "react";
 import type { PersonReport } from "../lib/facts";
 import type { Person } from "../lib/person";
 import { buildShareUrl } from "../lib/share";
 import {
   downloadBlob,
   generateShareImage,
+  shareImageFilename,
   type ShareImageFormat,
   type ShareImageKind,
 } from "../lib/shareImage";
 import { useCopied } from "../lib/useCopied";
 import { settings } from "../config/settings";
+import { displayName } from "../lib/person";
+
+const KIND_LABELS: Record<ShareImageKind, string> = {
+  cover: "Obálka",
+  fact: "Dobová souvislost",
+  sky: "Obloha v den narození",
+  culture: "Kultura dospívání",
+  contrast: "Co bylo tehdy jiné",
+  comparison: "Dva tehdejší světy",
+};
 
 export default function SharePanel({
   reports,
@@ -22,6 +33,7 @@ export default function SharePanel({
   skySvg: SVGSVGElement | null;
   onPdf: () => Promise<void>;
 }) {
+  const statusId = useId();
   const [includeNames, setIncludeNames] = useState(false);
   const [format, setFormat] = useState<ShareImageFormat>("landscape");
   const [kind, setKind] = useState<ShareImageKind>(skySvg ? "sky" : "fact");
@@ -59,7 +71,7 @@ export default function SharePanel({
     setStatus("");
     try {
       const blob = await generateShareImage({ reports, includeNames, format, kind, skySvg });
-      downloadBlob(blob, `tehdejsi-svet-${format}.png`);
+      downloadBlob(blob, shareImageFilename(kind, format));
       setStatus("Obrázek je uložený ve vašem zařízení.");
     } catch {
       setStatus("Obrázek se nepodařilo vytvořit. Zkuste jiný formát.");
@@ -81,60 +93,85 @@ export default function SharePanel({
     }
   };
 
+  const previewTitle = reports.length > 1 && kind === "comparison"
+    ? "Dva tehdejší světy"
+    : includeNames
+      ? displayName(reports[0].person)
+      : `Rok ${reports[0].person.birthYear}`;
+
   return (
-    <section className="share-panel" aria-labelledby="share-title">
+    <section className="share-panel" aria-labelledby="share-title" aria-busy={busy !== null} aria-describedby={status ? statusId : undefined}>
       <div className="share-panel-copy">
         <p className="chapter-eyebrow">Uchovat a sdílet</p>
         <h2 id="share-title">Pošlete tento svět dál</h2>
         <p>Odkaz obsahuje jen údaje nutné k obnovení zprávy. Jméno je ve výchozím nastavení vynecháno.</p>
       </div>
 
-      <label className="privacy-toggle">
-        <input
-          type="checkbox"
-          checked={includeNames}
-          onChange={(event) => setIncludeNames(event.target.checked)}
-        />
-        <span>Zahrnout jméno do sdíleného odkazu a obrázku</span>
-      </label>
+      <div className="share-layout">
+        <div className="share-controls">
+          <div className={`privacy-control${includeNames ? " includes-name" : ""}`}>
+            <label className="privacy-toggle">
+              <input
+                type="checkbox"
+                checked={includeNames}
+                onChange={(event) => setIncludeNames(event.target.checked)}
+              />
+              <span><strong>{includeNames ? "Jméno bude zahrnuto" : "Jméno zůstává skryté"}</strong><small>Zahrnout jméno do odkazu a obrázku jen po výslovném zapnutí.</small></span>
+            </label>
+            {includeNames && <p>Jméno bude součástí sdíleného souboru i odkazu.</p>}
+          </div>
 
-      <div className="share-actions">
-        <button type="button" className="primary" onClick={() => void share()}>Sdílet</button>
-        <button type="button" className="secondary" onClick={() => void copyLink()}>
-          {copied ? "Odkaz zkopírován" : "Kopírovat odkaz"}
-        </button>
-      </div>
+          <div className="share-actions">
+            <button type="button" className="primary" disabled={busy !== null} onClick={() => void share()}>Sdílet odkaz</button>
+            <button type="button" className="secondary" disabled={busy !== null} onClick={() => void copyLink()}>
+              {copied ? "Odkaz zkopírován" : "Kopírovat odkaz"}
+            </button>
+          </div>
 
-      <div className="share-builder">
-        <label>
-          <span>Obsah obrázku</span>
-          <select value={kind} onChange={(event) => setKind(event.target.value as ShareImageKind)}>
-            <option value="cover">Obálka</option>
-            <option value="fact">Dobová souvislost</option>
-            {skySvg && <option value="sky">Obloha v den narození</option>}
-            <option value="culture">Kultura dospívání</option>
-            <option value="contrast">Co bylo tehdy jiné</option>
-            {reports.length > 1 && <option value="comparison">Dva tehdejší světy</option>}
-          </select>
-        </label>
-        <label>
-          <span>Formát</span>
-          <select value={format} onChange={(event) => setFormat(event.target.value as ShareImageFormat)}>
-            <option value="landscape">Na šířku · 1200 × 630</option>
-            <option value="feed">Příspěvek · 1080 × 1350</option>
-            <option value="story">Příběh · 1080 × 1920</option>
-          </select>
-        </label>
-        <button type="button" className="secondary" disabled={busy !== null} onClick={() => void createImage()}>
-          {busy === "image" ? "Vytváříme obrázek…" : "Vytvořit obrázek"}
-        </button>
+          <fieldset className="share-builder">
+            <legend>Vytvořit obrázek</legend>
+            <label>
+              <span>Obsah obrázku</span>
+              <select value={kind} onChange={(event) => setKind(event.target.value as ShareImageKind)}>
+                <option value="cover">Obálka</option>
+                <option value="fact">Dobová souvislost</option>
+                {skySvg && <option value="sky">Obloha v den narození</option>}
+                <option value="culture">Kultura dospívání</option>
+                <option value="contrast">Co bylo tehdy jiné</option>
+                {reports.length > 1 && <option value="comparison">Dva tehdejší světy</option>}
+              </select>
+            </label>
+            <label>
+              <span>Formát</span>
+              <select value={format} onChange={(event) => setFormat(event.target.value as ShareImageFormat)}>
+                <option value="landscape">Na šířku · 1200 × 630</option>
+                <option value="feed">Příspěvek · 1080 × 1350</option>
+                <option value="story">Příběh · 1080 × 1920</option>
+              </select>
+            </label>
+            <button type="button" className="secondary" disabled={busy !== null} onClick={() => void createImage()}>
+              {busy === "image" ? "Vytváříme obrázek…" : "Stáhnout obrázek"}
+            </button>
+          </fieldset>
+        </div>
+
+        <figure className={`share-preview preview-${format}`} aria-label={`Náhled sdíleného obrázku: ${KIND_LABELS[kind]}`}>
+          <div>
+            <span>Tehdejší svět</span>
+            <strong>{previewTitle}</strong>
+            <small>{reports[0].historicalContext.primaryLabel}</small>
+            <i aria-hidden="true" />
+            <em>{KIND_LABELS[kind]}</em>
+          </div>
+          <figcaption>Náhled rozvržení · skutečný text se zalomí při vytvoření obrázku.</figcaption>
+        </figure>
       </div>
 
       <button type="button" className="keepsake-action" disabled={busy !== null} onClick={() => void createPdf()}>
         <span>Vytvořit památeční vydání</span>
         <small>PDF vznikne přímo ve vašem prohlížeči</small>
       </button>
-      {status && <p className="share-status" role="status">{status}</p>}
+      {status && <p className="share-status" id={statusId} role="status" aria-live="polite">{status}</p>}
     </section>
   );
 }

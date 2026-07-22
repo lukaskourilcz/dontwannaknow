@@ -9,6 +9,7 @@ import {
 } from "motion/react";
 import NewForm from "./components/NewForm";
 import ErrorBoundary from "./components/ErrorBoundary";
+import BrandMark from "./components/BrandMark";
 import { decodeReportState, sanitizeAnalyticsUrl } from "./lib/share";
 import type { Person } from "./lib/person";
 import type { PersonReport } from "./lib/facts";
@@ -30,6 +31,7 @@ function AppInner() {
 
   const generate = useCallback(async (list: Person[]) => {
     setLoading(true);
+    setShareError(null);
     try {
       const { reportFor } = await import("./lib/facts");
       const excludeWorld = list.length > 1;
@@ -72,12 +74,16 @@ function AppInner() {
 
   return (
     <div className="page site-shell">
+      <a className="skip-link" href="#main-content">Přeskočit na hlavní obsah</a>
       <header className="nav-header site-header">
         <button type="button" className="brand-wordmark" onClick={reset} aria-label="Tehdejší svět — domů">
-          <span className="brand-mark" aria-hidden="true">T</span>
-          <span>{COPY.brand}</span>
+          <BrandMark className="brand-mark" />
+          <span className="brand-wordmark-copy">
+            <strong>{COPY.brand}</strong>
+            <small>Osobní vydání</small>
+          </span>
         </button>
-        <span className="site-header-note">Česko · Ukrajina</span>
+        <span className="site-header-note">Česko a Ukrajina · 1920–současnost</span>
       </header>
 
       <main id="main-content">
@@ -89,7 +95,7 @@ function AppInner() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0, y: reducedMotion ? 0 : -16 }}
-              transition={{ duration: 0.3, ease: EASE }}
+              transition={{ duration: reducedMotion ? 0 : 0.3, ease: EASE }}
             >
               <NewForm onSubmit={(list) => void generate(list)} />
             </m.div>
@@ -97,7 +103,7 @@ function AppInner() {
           {loading && (
             <m.div key="loading" className="report-loading" role="status" aria-live="polite">
               <span className="loading-dots" aria-hidden="true"><i /><i /><i /></span>
-              <p>Skládáme ověřené souvislosti do jednotlivých kapitol…</p>
+              <p><strong>Připravujeme osobní vydání.</strong><span>Skládáme ověřené souvislosti do jednotlivých kapitol…</span></p>
             </m.div>
           )}
           {reports && people && !loading && (
@@ -105,7 +111,7 @@ function AppInner() {
               key="results"
               initial={{ opacity: 0, y: reducedMotion ? 0 : 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: reducedMotion ? 0.15 : 0.5, ease: EASE }}
+              transition={{ duration: reducedMotion ? 0 : 0.5, ease: EASE }}
             >
               <Suspense fallback={<div className="report-loading" role="status">Načítáme kapitoly…</div>}>
                 <Results reports={reports} people={people} onReset={reset} onRegenerate={showAnother} />
@@ -116,8 +122,11 @@ function AppInner() {
       </main>
 
       <footer className="footer site-footer">
-        <p>{COPY.footer}</p>
-        <p>{COPY.trust}</p>
+        <div>
+          <strong>{COPY.brand}</strong>
+          <p>{COPY.footer}</p>
+        </div>
+        <p className="footer-trust">{COPY.trust}</p>
       </footer>
 
       <Analytics beforeSend={(event) => ({ ...event, url: sanitizeAnalyticsUrl(event.url) })} />

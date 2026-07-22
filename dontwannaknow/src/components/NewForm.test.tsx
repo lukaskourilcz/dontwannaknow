@@ -14,7 +14,7 @@ describe("NewForm", () => {
   it("validates required date and city accessibly", async () => {
     const user = userEvent.setup();
     render(<NewForm onSubmit={vi.fn()} />);
-    await user.click(screen.getByRole("button", { name: "Začít objevovat" }));
+    await user.click(screen.getByRole("button", { name: "Vytvořit osobní vydání" }));
     expect(screen.getByText("Zadejte platný rok nebo datum narození.")).toBeInTheDocument();
     expect(screen.getByText("Vyberte město.")).toBeInTheDocument();
     expect(screen.getByPlaceholderText("např. 12. 4. 1953 nebo 1953")).toHaveAttribute("aria-invalid", "true");
@@ -27,7 +27,7 @@ describe("NewForm", () => {
 
     await user.type(screen.getByPlaceholderText("např. 12. 4. 1953 nebo 1953"), "12. 4. 1953");
     await user.selectOptions(screen.getByRole("combobox", { name: "Ve kterém městě?" }), "prague");
-    await user.click(screen.getByRole("button", { name: "Začít objevovat" }));
+    await user.click(screen.getByRole("button", { name: "Vytvořit osobní vydání" }));
 
     expect(onSubmit).toHaveBeenCalledTimes(1);
     expect(onSubmit.mock.calls[0][0][0]).toMatchObject({
@@ -44,7 +44,7 @@ describe("NewForm", () => {
     const user = userEvent.setup();
     const onSubmit = vi.fn();
     render(<NewForm onSubmit={onSubmit} />);
-    await user.click(screen.getByRole("button", { name: "Porovnat dva lidi" }));
+    await user.click(screen.getByRole("button", { name: "Přidat druhého člověka pro porovnání" }));
 
     const dateInputs = screen.getAllByPlaceholderText("např. 12. 4. 1953 nebo 1953");
     const cities = screen.getAllByRole("combobox", { name: "Ve kterém městě?" });
@@ -52,7 +52,7 @@ describe("NewForm", () => {
     await user.type(dateInputs[1], "1960");
     await user.selectOptions(cities[0], "prague");
     await user.selectOptions(cities[1], "brno");
-    await user.click(screen.getByRole("button", { name: "Vytvořit dva tehdejší světy" }));
+    await user.click(screen.getByRole("button", { name: "Vytvořit dvě osobní vydání" }));
 
     expect(onSubmit.mock.calls[0][0]).toHaveLength(2);
   });

@@ -4,18 +4,18 @@ description: Web-audit a sample of the historical-facts datasets for accuracy an
 
 You're auditing the historical-facts datasets in this repo. Files to inspect:
 
-- `dontwannaknow/src/data/countryEvents.ts`
-- `dontwannaknow/src/data/cities.ts`
-- `dontwannaknow/src/data/monthlyEvents.ts`
-- `dontwannaknow/src/data/notableDeaths.ts`
-- `dontwannaknow/src/data/culturalWorks.ts`
-- `dontwannaknow/src/data/famousBirths.ts`
+- `dontwannaknow/src/data/countryEvents.json`
+- `dontwannaknow/src/data/cityFacts.json`
+- `dontwannaknow/src/data/monthlyEvents.json`
+- `dontwannaknow/src/data/notableDeaths.json`
+- `dontwannaknow/src/data/books.json`
+- `dontwannaknow/src/data/famousBirths.json`
 
 ## What to do
 
-1. Read the file(s) the user asked about. If they didn't specify a file, pick the largest dataset that hasn't been audited recently (start with `countryEvents.ts`).
+1. Read the file(s) the user asked about. If they didn't specify a file, pick the largest dataset that hasn't been audited recently (start with `countryEvents.json`, which is the source behind the TypeScript wrapper).
 2. Sample roughly 40–60 entries spread across the file (different countries, different decades).
-3. For each sampled entry, use **WebSearch** and **WebFetch** (Wikipedia is fine; reputable news/encyclopedia sites also fine) to verify:
+3. For each sampled entry, use the available web search and page-opening tools. Prefer primary or authoritative institutional sources; reputable encyclopedic sources are acceptable when no stronger source is practical. Verify:
    - The year is correct (off-by-one is wrong)
    - The fact actually happened
    - The description isn't misleading
