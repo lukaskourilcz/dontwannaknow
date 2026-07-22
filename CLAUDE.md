@@ -21,7 +21,7 @@ Keep the public app and `/dev` lazy surfaces separate. `/dev` writes only throug
 
 ## Working rules
 
-Search before creating. Extend or generalize existing components, utilities, types, styles, skills, agents, and commands before adding another system. Use semantic tokens from `dontwannaknow/src/styles.css`; follow `dontwannaknow/DESIGN.md`. Preserve authentic UI, data, maps, and stars. Generated media may be decorative only and never evidence or fake UI. Defer Higgsfield work whenever its MCP or production credits are unavailable; do not use a substitute generator or placeholder asset. Resume from `docs/generated-media.md` once production access is confirmed.
+Search before creating. Extend or generalize existing components, utilities, types, styles, skills, agents, and commands before adding another system. Use semantic tokens from `dontwannaknow/src/styles.css`; follow `dontwannaknow/DESIGN.md`. Preserve authentic UI, data, maps, and stars. Generated media may be decorative only and never evidence or fake UI. Before producing a missing media slot, read `docs/generated-media.md` and search current official pricing, licensing, privacy, watermark, and export limits for cheap or free generators. Prefer the least expensive safe option; never add a placeholder, purchase a plan, create an account, or submit personal data without the required authority.
 
 Validate mobile widths, long Czech strings, error/missing/loading/success states, keyboard use, visible focus, reduced motion, 200% zoom/reflow, WCAG AA contrast, and accessible map/sky/canvas summaries. For large autonomous work, make coherent incremental commits and continue automatically after each commit.
 

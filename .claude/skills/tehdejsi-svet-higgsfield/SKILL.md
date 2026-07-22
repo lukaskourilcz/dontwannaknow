@@ -1,17 +1,17 @@
 ---
 name: tehdejsi-svet-higgsfield
-description: Direct, review, optimize, and document Higgsfield-produced decorative media for Tehdejší svět. Use only when the Higgsfield MCP is actually available and the task explicitly involves generated brand or decorative media; otherwise record the task as deferred and continue without substitutes.
+description: Direct, review, optimize, and document generated decorative media for Tehdejší svět, including current low-cost or free alternatives when Higgsfield production is unavailable or uneconomical.
 ---
 
 # Tehdejší svět Higgsfield production
 
 ## Availability gate
 
-Before any generation, inspect the callable tools. If the Higgsfield MCP is unavailable, do not research it, connect it, wait for it, use another generator, or create a placeholder asset. Record the deferred asset and continue every non-media task. The current deferral and asset slots live in `docs/generated-media.md`.
+Before any generation, inspect the callable tools and `docs/generated-media.md`. If Higgsfield production is unavailable or uneconomical, browse current official pricing and policy pages for cheap or free alternatives. Compare real cost/free limits, commercial-use rights, input retention or public galleries, watermark, original-download support, resolution and aspect ratios. Prefer the least expensive safe option that meets the brief. Do not rely on remembered pricing, add a placeholder, purchase a plan, create a paid account, or transmit personal data without authority.
 
 ## Protect authenticity
 
-Higgsfield output is decorative production material, never evidence. Do not generate historical photos, family photos, documents, newspapers, propaganda, war/famine/occupation imagery, leaders, factual maps, stars, charts, data visualizations, UI, text, logos used raw, national stereotypes, flags as branding, or third-party marks.
+Any generated output is decorative production material, never evidence. Do not generate historical photos, family photos, documents, newspapers, propaganda, war/famine/occupation imagery, leaders, factual maps, stars, charts, data visualizations, UI, text, logos used raw, national stereotypes, flags as branding, or third-party marks.
 
 Real interface screenshots must be captured from the product and composited deterministically. Report text, names, dates, facts, locations, maps, sky, and UI remain code-rendered.
 

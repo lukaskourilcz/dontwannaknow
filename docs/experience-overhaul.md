@@ -83,7 +83,7 @@ Výzkum byl omezen na problémy, které aplikace skutečně řeší. Refero bylo
 
 Bezpečné, vysokohodnotné příležitosti jsou: obecná hero kompozice s text-safe zónou, obecná OG kompozice, lehká rodina kapitolových motivů a pozadí sdílených karet. Potenciálně užitečný je pouze krátký hero loop se statickým fallbackem. Zbytečné jsou ilustrace ke každému faktu, městu nebo zemi. Nepřípustné jsou falešné fotografie, dokumenty, mapy, hvězdy, UI, osobní příběhy, válečné obrazy a kulturní stereotypy.
 
-Higgsfield MCP byl po restartu připojen, ale aktivní Plus trial nemá MCP produkční kredity. Model discovery a preflight fungují, samotné joby však nevzniknou. Nebyly vytvořeny náhrady jinou AI službou ani placeholder soubory. Produkční layout proto dál používá připravené CSS/SVG fallbacky; integrační sloty, tři art-direction směry a request ID jsou v `docs/generated-media.md`.
+Higgsfield MCP nemělo produkční trial kredity, ale uživatel následně dodal dva výstupy z Higgsfield Web. Textový artefakt z prvního byl bezpečně odstraněn ořezem a druhý prošel kontrolou autenticity; oba nyní tvoří responzivní landing hero. Zbývající sloty mají funkční CSS/SVG fallbacky. Příští mediální session musí nejprve vyhledat aktuální levné nebo bezplatné generátory a ověřit jejich cenu, licenci, soukromí a exportní omezení podle `docs/generated-media.md`.
 
 ## Implementační mapa (dokončeno)
 

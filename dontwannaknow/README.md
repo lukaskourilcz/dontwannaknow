@@ -49,4 +49,4 @@ Na `/dev` je vývojová konzole pro procházení a úpravu JSON dat včetně red
 
 Aplikace je statický Vite projekt. Na Vercelu nastavte Root Directory na tuto složku (`dontwannaknow/`), build command `npm run build` a output `dist/`. Pro jiný statický hosting je nutné směrovat neznámé cesty na `index.html`.
 
-Řídicí produktová pravidla, reviewer agenti a příkazy jsou v kořenovém [`CLAUDE.md`](../CLAUDE.md). Audit redesignu a stav Higgsfield produkce jsou v [`docs/experience-overhaul.md`](../docs/experience-overhaul.md) a [`docs/generated-media.md`](../docs/generated-media.md); dokončené implementační předání je v [`docs/NEXT-AGENT-HANDOFF.md`](../docs/NEXT-AGENT-HANDOFF.md).
+Řídicí produktová pravidla, reviewer agenti a příkazy jsou v kořenovém [`CLAUDE.md`](../CLAUDE.md). Audit redesignu a manifest nasazeného responzivního hero i zbývajících mediálních slotů jsou v [`docs/experience-overhaul.md`](../docs/experience-overhaul.md) a [`docs/generated-media.md`](../docs/generated-media.md); dokončené implementační předání je v [`docs/NEXT-AGENT-HANDOFF.md`](../docs/NEXT-AGENT-HANDOFF.md).

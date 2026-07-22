@@ -1,6 +1,6 @@
 # Tehdejší svět — dokončené předání overhaul session
 
-Stav k 22. červenci 2026. Soubor původně vznikl před restartem Codex CLI a navazující relace podle něj dokončila testy, exportní QA, browser kontrolu, výkonovou dokumentaci i závěrečné opravy. Higgsfield MCP už bylo ověřeno, ale produkční joby blokují vyčerpané trial MCP kredity.
+Stav k 22. červenci 2026. Soubor původně vznikl před restartem Codex CLI a navazující relace podle něj dokončila testy, exportní QA, browser kontrolu, výkonovou dokumentaci i závěrečné opravy. Dva ručně dodané Higgsfield Web výstupy byly následně bezpečně optimalizovány a nasazeny jako responzivní landing hero.
 
 ## Kde navázat
 
@@ -127,13 +127,13 @@ Pozdější čistě dokumentační kontroly mohou být v historii nad tímto sez
 
 ## Stav pro dalšího agenta
 
-Produktový overhaul je uzavřený. Další běžná práce má začínat novým konkrétním zadáním, nikoli opakováním redesignu nebo validace. Jediný předem známý navazující blok je Higgsfield produkce popsaná níže.
+Produktový overhaul je uzavřený. Další běžná práce má začínat novým konkrétním zadáním, nikoli opakováním redesignu nebo validace. Hero media jsou hotová; ostatní dekorativní sloty jsou volitelné a mají funkční fallbacky.
 
-## Higgsfield AI — MCP připojeno, produkční kredity blokují joby
+## Generovaná média — hero hotové, levné alternativy vyžadují průzkum
 
-Po restartu uživatel výslovně potvrdil dostupnost MCP. Model discovery, balance a cenový preflight fungují, ale účet má aktivní Plus trial s `trial_credits: 0`. Recraft V4.1 a Z Image proto vracejí `only_website_usage_on_trial_is_available`; Soul Location dvakrát selhal před založením jobu. Nebyl vygenerován žádný AI vizuál a žádný kredit se nesmí vydávat za úspěšně použitý.
+MCP produkci zablokovaly vyčerpané trial kredity. Uživatel proto dodal dva obrázky z Higgsfield Web. Čistý papírový fold je desktopový 4:5 hero; z druhého obrázku je použit pouze pravý 4:3 výřez bez původního generovaného textu. Produkční WebP soubory, rozměry, velikosti, ořezy a provenance jsou v `docs/generated-media.md`.
 
-Přesný seznam assetů, tři připravené hero směry, request ID, bezpečnostní omezení a integrační kontrakt jsou v `docs/generated-media.md`. Další pokus má začít ověřením MCP trial kreditů nebo produkčního oprávnění, ne opakováním prompt discovery. Všechen faktický text, mapy, hvězdy, data a screenshoty UI musí zůstat autentické a deterministické.
+Před tvorbou zbývajících OG, kapitolových, comparison nebo share podkladů musí další agent provést aktuální webový průzkum levných či bezplatných generátorů. Má porovnat oficiální cenu, licenci, soukromí, watermark a exportní rozlišení a zvolit nejlevnější bezpečnou možnost. Nesmí bez autorizace kupovat plán, registrovat placený účet ani odesílat osobní data. Všechen faktický text, mapy, hvězdy, data a screenshoty UI zůstávají autentické a deterministické.
 
 ## Definice pokračování
 
