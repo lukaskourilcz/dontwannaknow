@@ -15,9 +15,11 @@ const COLORS = {
   ink: [29, 36, 32] as const,
   green: [30, 63, 57] as const,
   coral: [217, 104, 79] as const,
-  muted: [100, 103, 94] as const,
-  rule: [219, 211, 197] as const,
+  muted: [77, 95, 89] as const,
+  rule: [213, 205, 191] as const,
   paper: [247, 242, 232] as const,
+  difficult: [92, 87, 80] as const,
+  difficultWash: [233, 229, 223] as const,
 };
 
 async function loadJsPdf(): Promise<typeof jsPDFType> {
@@ -89,7 +91,7 @@ function paintPageBackground(doc: jsPDFType): void {
   doc.setFillColor(...COLORS.paper);
   doc.rect(0, 0, width, height, "F");
   doc.setFillColor(...COLORS.green);
-  doc.rect(0, 0, width, 12, "F");
+  doc.rect(0, 0, width, 8, "F");
 }
 
 function addPage(doc: jsPDFType): number {
@@ -164,12 +166,31 @@ function writeChapter(
   for (const item of chapter.items) {
     const prefix = item.year ? `${item.year} - ` : "";
     const lines = doc.splitTextToSize(
-      `• ${prefix}${cleanText(item.text)}`,
+      `${prefix}${cleanText(item.text)}`,
       textWidth - BODY_WIDTH_INSET,
     ) as string[];
-    y = ensureRoom(doc, y, lines.length * LINE_HEIGHT + 7);
-    y = writeLines(doc, lines, y, { indent: BODY_WIDTH_INSET });
-    y += 5;
+    if (item.metadata.sensitivity === "difficult") {
+      const boxHeight = lines.length * LINE_HEIGHT + 34;
+      y = ensureRoom(doc, y, boxHeight + 8);
+      doc.setFillColor(...COLORS.difficultWash);
+      doc.setDrawColor(...COLORS.difficult);
+      doc.rect(PAGE_MARGIN, y - 10, textWidth, boxHeight, "FD");
+      doc.setFont("Newsreader", "bold");
+      doc.setFontSize(8);
+      doc.setTextColor(...COLORS.difficult);
+      doc.text("CITLIVÝ HISTORICKÝ KONTEXT", PAGE_MARGIN + 10, y + 3);
+      doc.setFont("Newsreader", "normal");
+      doc.setFontSize(10.5);
+      doc.setTextColor(...COLORS.ink);
+      y = writeLines(doc, lines, y + 20, { indent: 10, lineHeight: LINE_HEIGHT });
+      y += 12;
+    } else {
+      y = ensureRoom(doc, y, lines.length * LINE_HEIGHT + 14);
+      doc.setDrawColor(...COLORS.rule);
+      doc.line(PAGE_MARGIN, y - 8, PAGE_MARGIN + 26, y - 8);
+      y = writeLines(doc, lines, y, { indent: BODY_WIDTH_INSET });
+      y += 8;
+    }
   }
 
   doc.setDrawColor(...COLORS.rule);
@@ -248,8 +269,13 @@ export async function generatePdf(
   doc.setFont("Newsreader", "bold");
   doc.setFontSize(11);
   doc.setTextColor(...COLORS.coral);
-  doc.text("TEHDEJŠÍ SVĚT", PAGE_MARGIN, cursorY);
+  doc.text("TEHDEJŠÍ SVĚT · OSOBNÍ VYDÁNÍ", PAGE_MARGIN, cursorY);
   cursorY += 30;
+
+  doc.setFont("Newsreader", "normal");
+  doc.setFontSize(72);
+  doc.setTextColor(...COLORS.rule);
+  doc.text(String(report.person.birthYear), pageWidth - PAGE_MARGIN, cursorY + 12, { align: "right" });
 
   doc.setFontSize(32);
   doc.setTextColor(...COLORS.green);
@@ -260,21 +286,38 @@ export async function generatePdf(
   doc.setFont("Newsreader", "normal");
   doc.setFontSize(12);
   doc.setTextColor(...COLORS.ink);
-  const subtitle = `${pdfBirthDate(report)} · ${report.historicalContext.primaryLabel}`;
+  const subtitle = "Každodenní život, kultura a události od dětství do dospělosti";
   cursorY = writeLines(
     doc,
     doc.splitTextToSize(cleanText(subtitle), pageWidth - 2 * PAGE_MARGIN) as string[],
     cursorY,
     { lineHeight: 16 },
   );
-  cursorY += 16;
+  cursorY += 20;
+
+  doc.setDrawColor(...COLORS.coral);
+  doc.setLineWidth(3);
+  doc.line(PAGE_MARGIN, cursorY, PAGE_MARGIN + 54, cursorY);
+  cursorY += 22;
+
+  const coverDetails = [
+    `Narození: ${pdfBirthDate(report)}`,
+    `Tehdejší místo: ${report.historicalContext.primaryLabel}`,
+    `Dnešní místo: ${report.historicalContext.presentDayLabel}`,
+    `Formativní období: ${report.person.birthYear}-${report.person.birthYear + 18}`,
+  ];
+  doc.setFont("Newsreader", "normal");
+  doc.setFontSize(10.5);
+  doc.setTextColor(...COLORS.ink);
+  cursorY = writeLines(doc, coverDetails, cursorY, { lineHeight: 17 });
+  cursorY += 12;
 
   doc.setFontSize(10);
   doc.setTextColor(...COLORS.muted);
   cursorY = writeLines(
     doc,
     doc.splitTextToSize(
-      "Dobový portrét prostředí, nikoli osobní životopis. Vznikl soukromě ve vašem prohlížeči z kurátorovaných dat.",
+      "Výsledek není osobním životopisem. Z ověřených dobových dat skládá obraz prostředí, ve kterém člověk vyrůstal. Chybějící období nejsou doplňována smyšlenými fakty.",
       pageWidth - 2 * PAGE_MARGIN,
     ) as string[],
     cursorY,
@@ -304,12 +347,24 @@ export async function generatePdf(
 
   doc.setDrawColor(...COLORS.rule);
   doc.line(PAGE_MARGIN, cursorY, pageWidth - PAGE_MARGIN, cursorY);
-  cursorY += 20;
+  cursorY = addPage(doc);
 
   for (let index = 0; index < report.chapters.length; index += 1) {
     cursorY = writeChapter(doc, report, index, cursorY);
   }
   cursorY = writeLifeNumbers(doc, report, cursorY);
+
+  cursorY = ensureRoom(doc, cursorY + 10, 52);
+  doc.setDrawColor(...COLORS.rule);
+  doc.line(PAGE_MARGIN, cursorY, pageWidth - PAGE_MARGIN, cursorY);
+  cursorY += 18;
+  doc.setFont("Newsreader", "normal");
+  doc.setFontSize(9);
+  doc.setTextColor(...COLORS.muted);
+  writeLines(doc, doc.splitTextToSize(
+    "Metoda: zpráva vznikla deterministicky v prohlížeči z kurátorovaných místních dat. Nepoužívá runtime AI a neukládá osobní profil na server.",
+    pageWidth - 2 * PAGE_MARGIN,
+  ) as string[], cursorY, { lineHeight: 12 });
 
   if (doc.getNumberOfPages() < 2) addPage(doc);
 

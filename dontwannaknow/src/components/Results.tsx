@@ -306,21 +306,23 @@ function ComparisonReport({ reports }: { reports: [PersonReport, PersonReport] }
   return (
     <section className="comparison-report" aria-labelledby="comparison-title">
       <header className="comparison-cover">
-        <p className="cover-kicker">Dva lidé · dvě prostředí</p>
+        <p className="cover-kicker">Dvě osobní vydání · jedno srovnání</p>
         <h1 id="comparison-title">Dva tehdejší světy</h1>
         <p>Nejde o soutěž. Srovnání ukazuje, co bylo v jednotlivých dobách a místech jiné a co zůstávalo podobné.</p>
+        <div className="comparison-thread" aria-hidden="true"><span /><i /><span /></div>
         <div className="comparison-people">
           {[first, second].map((report, personIndex) => (
             <article key={`comparison-person-${personIndex}`}>
-              <span>{report.person.birthYear}</span>
+              <span>Vydání {personIndex === 0 ? "A" : "B"}</span>
               <h2>{displayName(report.person)}</h2>
+              <p className="comparison-year">{report.person.birthYear}–{report.person.birthYear + 18}</p>
               <p>{report.historicalContext.primaryLabel}</p>
             </article>
           ))}
         </div>
       </header>
 
-      {first.chapters.map((chapter) => {
+      {first.chapters.map((chapter, chapterIndex) => {
         const other = chapterById(second, chapter.id);
         if (!other || chapter.id === "life-numbers") return null;
         const items = comparisonItems(chapter.items, other.items);
@@ -331,12 +333,12 @@ function ComparisonReport({ reports }: { reports: [PersonReport, PersonReport] }
         return (
           <section className={`comparison-chapter chapter-${chapter.id}`} id={chapter.id} key={chapter.id}>
             <header className="chapter-header">
-              <p className="chapter-eyebrow">{chapter.eyebrow}</p>
+              <p className="chapter-eyebrow"><span>{String(chapterIndex + 1).padStart(2, "0")}</span>{chapter.eyebrow}</p>
               <h2>{chapter.id === "birth" ? "Dva začátky" : chapter.title}</h2>
             </header>
             {items.shared.length > 0 && (
               <div className="comparison-shared">
-                <p>Společná souvislost</p>
+                <p>Co je spojovalo</p>
                 <ChapterItems items={items.shared} />
               </div>
             )}
@@ -344,6 +346,7 @@ function ComparisonReport({ reports }: { reports: [PersonReport, PersonReport] }
               <div className="comparison-columns">
                 {people.map(({ report, items: personItems }, personIndex) => (
                   <article key={`${chapter.id}-${personIndex}`}>
+                    <p className="comparison-person-label">Vydání {personIndex === 0 ? "A" : "B"}</p>
                     <h3>{displayName(report.person)} · {report.person.birthYear}</h3>
                     <p className="comparison-place">{report.historicalContext.primaryLabel}</p>
                     {personItems.length > 0 && <ChapterItems items={personItems} />}

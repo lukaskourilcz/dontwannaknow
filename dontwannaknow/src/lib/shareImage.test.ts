@@ -1,6 +1,6 @@
 import { beforeAll, describe, expect, it } from "vitest";
 import { reportFor } from "./facts";
-import { shareItemForKind } from "./shareImage";
+import { shareImageFilename, shareItemForKind } from "./shareImage";
 import { makePerson } from "../test/factories";
 import type { PersonReport } from "./facts";
 
@@ -24,5 +24,10 @@ describe("share image content", () => {
     expect(shareItemForKind(report, "cover")).toBeNull();
     expect(shareItemForKind(report, "sky")).toBeNull();
     expect(shareItemForKind(report, "comparison")).toBeNull();
+  });
+
+  it("creates descriptive, privacy-neutral filenames for every output shape", () => {
+    expect(shareImageFilename("cover", "landscape")).toBe("tehdejsi-svet-cover-landscape.png");
+    expect(shareImageFilename("comparison", "story")).toBe("tehdejsi-svet-comparison-story.png");
   });
 });
