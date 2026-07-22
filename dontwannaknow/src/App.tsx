@@ -73,6 +73,7 @@ function AppInner() {
 
   return (
     <div className="page site-shell">
+      <a className="skip-link" href="#main-content">Přeskočit na hlavní obsah</a>
       <header className="nav-header site-header">
         <button type="button" className="brand-wordmark" onClick={reset} aria-label="Tehdejší svět — domů">
           <BrandMark className="brand-mark" />
@@ -101,7 +102,7 @@ function AppInner() {
           {loading && (
             <m.div key="loading" className="report-loading" role="status" aria-live="polite">
               <span className="loading-dots" aria-hidden="true"><i /><i /><i /></span>
-              <p>Skládáme ověřené souvislosti do jednotlivých kapitol…</p>
+              <p><strong>Připravujeme osobní vydání.</strong><span>Skládáme ověřené souvislosti do jednotlivých kapitol…</span></p>
             </m.div>
           )}
           {reports && people && !loading && (
@@ -120,8 +121,11 @@ function AppInner() {
       </main>
 
       <footer className="footer site-footer">
-        <p>{COPY.footer}</p>
-        <p>{COPY.trust}</p>
+        <div>
+          <strong>{COPY.brand}</strong>
+          <p>{COPY.footer}</p>
+        </div>
+        <p className="footer-trust">{COPY.trust}</p>
       </footer>
 
       <Analytics beforeSend={(event) => ({ ...event, url: sanitizeAnalyticsUrl(event.url) })} />
