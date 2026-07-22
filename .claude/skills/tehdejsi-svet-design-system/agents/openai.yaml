@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tehdejší svět · design"
+  short_description: "Apply the editorial design system consistently"
+  default_prompt: "Use $tehdejsi-svet-design-system to implement this interface change."

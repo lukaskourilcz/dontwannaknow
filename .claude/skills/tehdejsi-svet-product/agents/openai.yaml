@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tehdejší svět · product"
+  short_description: "Guard product purpose and privacy constraints"
+  default_prompt: "Use $tehdejsi-svet-product to review this product change."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tehdejší svět · release"
+  short_description: "Validate product, content, accessibility, and release"
+  default_prompt: "Use $tehdejsi-svet-release-validation to validate this implementation fully."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tehdejší svět · editorial"
+  short_description: "Protect Czech historical and editorial integrity"
+  default_prompt: "Use $tehdejsi-svet-editorial-integrity to review these facts and Czech wording."
