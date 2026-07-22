@@ -79,11 +79,11 @@ Výzkum byl omezen na problémy, které aplikace skutečně řeší. Refero bylo
 | [Refero, Nofilter.space](https://styles.refero.design/style/4235ebdc-a070-46ef-abbf-692151449bea) | Hairline struktura a textové štítky omezují potřebu plovoucích karet. | Report itemy se stanou řádky/editorial notes s několika významovými variantami. | Brutalistní nulové odsazení, malé ovládání a checkboxy použité jen jako metafora. | Focus, stav a typ položky budou explicitní textem i tvarem. |
 | [Collect UI](https://collectui.com/), onboarding/form/timeline/share/admin | Plánované kategorie: vztahový výběr, datum a místo, časová osa, porovnání, export, provozní editor. | Nedostupné; rozhodnutí vycházejí z aktuálního produktu a dostupných Refero principů. | Žádné obrazovky ani vzory nejsou citovány nebo kopírovány. | Omezení zdroje bude zachováno v dokumentaci pro pozdější doplnění. |
 
-## Vizuální příležitosti a odložená generativní média
+## Vizuální příležitosti a generativní média
 
 Bezpečné, vysokohodnotné příležitosti jsou: obecná hero kompozice s text-safe zónou, obecná OG kompozice, lehká rodina kapitolových motivů a pozadí sdílených karet. Potenciálně užitečný je pouze krátký hero loop se statickým fallbackem. Zbytečné jsou ilustrace ke každému faktu, městu nebo zemi. Nepřípustné jsou falešné fotografie, dokumenty, mapy, hvězdy, UI, osobní příběhy, válečné obrazy a kulturní stereotypy.
 
-Higgsfield MCP v této relaci není dostupný a práce s ním je podle zadání výslovně odložená. Nebudou vytvořeny náhrady jinou AI službou ani placeholder soubory. Produkční layout funguje bez těchto médií; integrační sloty a pravidla jsou popsané v `docs/generated-media.md`.
+Higgsfield MCP byl po restartu připojen, ale aktivní Plus trial nemá MCP produkční kredity. Model discovery a preflight fungují, samotné joby však nevzniknou. Nebyly vytvořeny náhrady jinou AI službou ani placeholder soubory. Produkční layout proto dál používá připravené CSS/SVG fallbacky; integrační sloty, tři art-direction směry a request ID jsou v `docs/generated-media.md`.
 
 ## Implementační mapa (dokončeno)
 

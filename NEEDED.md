@@ -17,7 +17,7 @@ V repozitáři jsou dokončené všechny proveditelné body rebrandingu a produk
 - [ ] Přejmenovat Vercel projekt na `tehdejsi-svet` a zkontrolovat, že změna neodpojila doménu ani Git integraci. `[imp:3]` `[owner:me]`
 - [ ] Aktualizovat název, doménu a obrázek ve vyhledávačích, Search Console, analytice a případných sociálních profilech. `[imp:3]` `[owner:me]`
 - [ ] Ověřit finální statickou OG kartu ve Facebook Sharing Debuggeru, LinkedIn Post Inspectoru a náhledu X až po nasazení absolutních URL. `[imp:3]` `[owner:me]`
-- [ ] Až bude dostupný Higgsfield MCP, spustit samostatnou produkční relaci podle [`docs/generated-media.md`](./docs/generated-media.md). Do té doby nevytvářet náhradní AI média ani placeholder soubory. `[imp:2]` `[owner:me]`
+- [ ] Odemknout produkční MCP kredity pro Higgsfield. Připojení, model discovery a preflight fungují, ale aktivní Plus trial má `trial_credits: 0` a generování nevytvoří job. Po odemknutí pokračovat přímo třemi připravenými směry v [`docs/generated-media.md`](./docs/generated-media.md); nevytvářet náhradní média ani placeholdery. `[imp:2]` `[owner:me]`
 
 ## Produkční ověření
 

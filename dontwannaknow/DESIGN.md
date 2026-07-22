@@ -50,7 +50,7 @@ Mezery používají stupnici `0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4.5, 7rem`. Sémant
 
 Rozložení musí fungovat od 320 px bez vodorovného posuvu. Mřížky se skládají do jednoho sloupce, dlouhé české názvy se mohou zalomit, SVG respektují kontejner a všechny interaktivní prvky mají minimální výšku 44 px. Mobilní obsah nesmí záviset na hoveru. Respektuje se `prefers-reduced-motion` a tisková pravidla skrývají ovládací prvky bez změny významu zprávy.
 
-Generativní dekorace nejsou podmínkou layoutu. Budoucí Higgsfield sloty, bezpečné zóny a autentické-UI pravidlo jsou v `../docs/generated-media.md`; dokud MCP není dostupný, nevznikají náhradní ani placeholder assety.
+Generativní dekorace nejsou podmínkou layoutu. Higgsfield sloty, bezpečné zóny, produkční diagnostika a autentické-UI pravidlo jsou v `../docs/generated-media.md`; dokud nejsou dostupné produkční MCP kredity, nevznikají náhradní ani placeholder assety.
 
 ## Nepoužívat
 

@@ -1,12 +1,12 @@
 # Tehdejší svět — dokončené předání overhaul session
 
-Stav k 22. červenci 2026. Soubor původně vznikl před restartem Codex CLI a navazující relace podle něj dokončila testy, exportní QA, browser kontrolu, výkonovou dokumentaci i závěrečné opravy. Nezbývá žádný známý bezpečně proveditelný úkol mimo výslovně odloženou produkci Higgsfield médií.
+Stav k 22. červenci 2026. Soubor původně vznikl před restartem Codex CLI a navazující relace podle něj dokončila testy, exportní QA, browser kontrolu, výkonovou dokumentaci i závěrečné opravy. Higgsfield MCP už bylo ověřeno, ale produkční joby blokují vyčerpané trial MCP kredity.
 
 ## Kde navázat
 
 - Git repozitář: `/Users/lukasbarsinbars/Developer/dontwannaknow/dontwannaknow`
 - Aplikace a `package.json`: `/Users/lukasbarsinbars/Developer/dontwannaknow/dontwannaknow/dontwannaknow`
-- Větev: `dev`
+- Větev: `main`
 - Remote: `origin` → `https://github.com/lukaskourilcz/dontwannaknow.git`
 - Tento dokument je součástí posledního checkpoint commitu; jeho hash zjistěte pomocí `git log -1 --oneline`.
 
@@ -28,7 +28,7 @@ Při budoucím navázání nejprve spusťte `git status --short`, přečtěte `C
 - Zmapována skutečná architektura, hlavní cesty, designový dluh, reuse strategie, designová teze a validační plán.
 - Výsledky jsou v `docs/experience-overhaul.md`.
 - Refero bylo cíleně použito pro editorial, onboarding, kulturní katalog, vrstvy povrchů a dlouhé čtení. Collect UI nebylo dostupné; omezení je poctivě zaznamenáno bez domýšlení referencí.
-- V `docs/generated-media.md` je audit vizuálních příležitostí a deferred integrační kontrakt.
+- V `docs/generated-media.md` je audit vizuálních příležitostí, integrační kontrakt a diagnostika neúspěšného produkčního pokusu.
 
 ### 2. Vizuální a značkový základ
 
@@ -127,13 +127,13 @@ Pozdější čistě dokumentační kontroly mohou být v historii nad tímto sez
 
 ## Stav pro dalšího agenta
 
-Produktový overhaul je uzavřený. Další běžná práce má začínat novým konkrétním zadáním, nikoli opakováním redesignu nebo validace. Jediný předem známý navazující blok je Higgsfield produkce popsaná níže, která zůstává neaktivní, dokud uživatel nepotvrdí dostupnost MCP.
+Produktový overhaul je uzavřený. Další běžná práce má začínat novým konkrétním zadáním, nikoli opakováním redesignu nebo validace. Jediný předem známý navazující blok je Higgsfield produkce popsaná níže.
 
-## Higgsfield AI — výslovně odloženo
+## Higgsfield AI — MCP připojeno, produkční kredity blokují joby
 
-Higgsfield MCP v této session nebylo dostupné a uživatel výslovně zakázal výzkum, čekání, náhradní generátor i placeholder assety. Nebyl tedy vygenerován žádný AI vizuál. Kód a layouty zůstaly připravené pro pozdější dekorativní integraci bez runtime závislosti.
+Po restartu uživatel výslovně potvrdil dostupnost MCP. Model discovery, balance a cenový preflight fungují, ale účet má aktivní Plus trial s `trial_credits: 0`. Recraft V4.1 a Z Image proto vracejí `only_website_usage_on_trial_is_available`; Soul Location dvakrát selhal před založením jobu. Nebyl vygenerován žádný AI vizuál a žádný kredit se nesmí vydávat za úspěšně použitý.
 
-Přesný seznam budoucích assetů, jejich umístění, účel, bezpečnostní omezení a integrační kontrakt je v `docs/generated-media.md`. Další agent je nesmí generovat, dokud uživatel neřekne, že je Higgsfield MCP skutečně dostupné. Všechen factual text, mapy, hvězdy, data a screenshoty UI musí i potom zůstat autentické a deterministické.
+Přesný seznam assetů, tři připravené hero směry, request ID, bezpečnostní omezení a integrační kontrakt jsou v `docs/generated-media.md`. Další pokus má začít ověřením MCP trial kreditů nebo produkčního oprávnění, ne opakováním prompt discovery. Všechen faktický text, mapy, hvězdy, data a screenshoty UI musí zůstat autentické a deterministické.
 
 ## Definice pokračování
 
