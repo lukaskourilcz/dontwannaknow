@@ -50,6 +50,50 @@ function localNightUTC(date: Date, lon: number): Date {
 
 const VIEW_TIME_LOCAL = `${String(settings.skyViewingHour).padStart(2, "0")}:00`;
 
+type LabelCandidate = {
+  key: string;
+  text: string;
+  x: number;
+  y: number;
+  size: number;
+  dx: number;
+  dy: number;
+};
+
+type LabelPlacement = { x: number; y: number };
+
+function placeLabels(candidates: LabelCandidate[]): Map<string, LabelPlacement> {
+  const occupied: Array<{ left: number; right: number; top: number; bottom: number }> = [];
+  const placements = new Map<string, LabelPlacement>();
+
+  for (const candidate of candidates) {
+    const width = Math.max(candidate.size * 2, candidate.text.length * candidate.size * 0.58);
+    const left = candidate.x + candidate.dx + width > SVG_SIZE - 6
+      ? candidate.x - candidate.dx - width
+      : candidate.x + candidate.dx;
+    const baseline = Math.min(SVG_SIZE - 6, Math.max(candidate.size + 6, candidate.y + candidate.dy));
+    const box = {
+      left: left - 2,
+      right: left + width + 2,
+      top: baseline - candidate.size - 2,
+      bottom: baseline + 3,
+    };
+    const overlaps = occupied.some((placed) => !(
+      box.right < placed.left
+      || box.left > placed.right
+      || box.bottom < placed.top
+      || box.top > placed.bottom
+    ));
+
+    if (!overlaps) {
+      occupied.push(box);
+      placements.set(candidate.key, { x: left, y: baseline });
+    }
+  }
+
+  return placements;
+}
+
 function magToRadius(mag: number): number {
   // Brighter = bigger. Mag -1.5 → ~3.4 px, mag 3 → ~1 px.
   return Math.max(0.7, 3.4 - 0.6 * (mag + 1.5));
@@ -136,6 +180,37 @@ export default function SkyMap({ birthDate, lat, lon, cityName, svgRef }: Props)
     .map((s) => ({ ...s, xy: project(s.pos) }))
     .filter((s) => s.xy !== null) as { star: Star; xy: { x: number; y: number } }[];
 
+  const planetProjections = planets
+    .map((planet) => ({ ...planet, xy: project(planet.pos) }))
+    .filter((planet) => planet.xy !== null) as Array<(typeof planets)[number] & { xy: { x: number; y: number } }>;
+  const moonXY = project(moon);
+  const sunXY = sun && sun.alt > 0 ? project(sun) : null;
+  const labelPlacements = placeLabels([
+    ...planetProjections.map((planet) => ({
+      key: `planet:${planet.name}`,
+      text: planet.name,
+      x: planet.xy.x,
+      y: planet.xy.y,
+      size: 8.5,
+      dx: 6,
+      dy: 4,
+    })),
+    ...(moonXY ? [{ key: "moon", text: "Měsíc", x: moonXY.x, y: moonXY.y, size: 8.5, dx: 8, dy: 4 }] : []),
+    ...(sunXY ? [{ key: "sun", text: "Slunce", x: sunXY.x, y: sunXY.y, size: 8.5, dx: 9, dy: 4 }] : []),
+    ...starProjections
+      .filter((projection) => projection.star.mag <= 1.5)
+      .sort((a, b) => a.star.mag - b.star.mag)
+      .map((projection) => ({
+        key: `star:${projection.star.name}`,
+        text: projection.star.name,
+        x: projection.xy.x,
+        y: projection.xy.y,
+        size: 7.5,
+        dx: 5,
+        dy: -4,
+      })),
+  ]);
+
   const findStarXY = (name: string) =>
     starProjections.find((s) => s.star.name === name)?.xy;
 
@@ -194,37 +269,46 @@ export default function SkyMap({ birthDate, lat, lon, cityName, svgRef }: Props)
         {starProjections.map((sp) => (
           <g key={sp.star.name}>
             <circle cx={sp.xy.x} cy={sp.xy.y} r={magToRadius(sp.star.mag)} fill="#f4f0d8" />
-            {sp.star.mag <= 1.5 && (
-              <text x={sp.xy.x + 5} y={sp.xy.y - 4} className="star-label">{sp.star.name}</text>
+            {labelPlacements.get(`star:${sp.star.name}`) && (
+              <text
+                x={labelPlacements.get(`star:${sp.star.name}`)!.x}
+                y={labelPlacements.get(`star:${sp.star.name}`)!.y}
+                className="star-label"
+              >
+                {sp.star.name}
+              </text>
             )}
           </g>
         ))}
 
         {/* Planets */}
-        {planets.map((p) => {
-          const xy = project(p.pos);
-          if (!xy) return null;
+        {planetProjections.map((p) => {
+          const label = labelPlacements.get(`planet:${p.name}`);
           return (
             <g key={p.name}>
-              <circle cx={xy.x} cy={xy.y} r={3.5} fill={p.color} stroke="#fff" strokeWidth={0.5} />
-              <text x={xy.x + 6} y={xy.y + 4} className="planet-label">{p.name}</text>
+              <circle cx={p.xy.x} cy={p.xy.y} r={3.5} fill={p.color} stroke="#fff" strokeWidth={0.5} />
+              {label && <text x={label.x} y={label.y} className="planet-label">{p.name}</text>}
             </g>
           );
         })}
 
         {/* Moon */}
-        {moon && project(moon) && (
+        {moonXY && (
           <g>
-            <circle cx={project(moon)!.x} cy={project(moon)!.y} r={6} fill="#e8e4cc" stroke="#fff" strokeWidth={0.5} />
-            <text x={project(moon)!.x + 8} y={project(moon)!.y + 4} className="planet-label">Měsíc</text>
+            <circle cx={moonXY.x} cy={moonXY.y} r={6} fill="#e8e4cc" stroke="#fff" strokeWidth={0.5} />
+            {labelPlacements.get("moon") && (
+              <text x={labelPlacements.get("moon")!.x} y={labelPlacements.get("moon")!.y} className="planet-label">Měsíc</text>
+            )}
           </g>
         )}
 
         {/* Sun (only if somehow above horizon; usually below at 23:00) */}
-        {sun && sun.alt > 0 && project(sun) && (
+        {sunXY && (
           <g>
-            <circle cx={project(sun)!.x} cy={project(sun)!.y} r={7} fill="#f4c042" />
-            <text x={project(sun)!.x + 9} y={project(sun)!.y + 4} className="planet-label">Slunce</text>
+            <circle cx={sunXY.x} cy={sunXY.y} r={7} fill="#f4c042" />
+            {labelPlacements.get("sun") && (
+              <text x={labelPlacements.get("sun")!.x} y={labelPlacements.get("sun")!.y} className="planet-label">Slunce</text>
+            )}
           </g>
         )}
       </svg>

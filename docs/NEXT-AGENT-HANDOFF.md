@@ -1,6 +1,6 @@
-# Tehdejší svět — předání rozpracovaného overhaul session
+# Tehdejší svět — dokončené předání overhaul session
 
-Stav k 22. červenci 2026. Tento soubor vznikl na výslovnou žádost uživatele před restartem Codex CLI. Nejde o závěrečný release report: produktový overhaul je podstatně implementovaný, ale finální úplná validace a několik navazujících QA kroků ještě zbývá dokončit.
+Stav k 22. červenci 2026. Soubor původně vznikl před restartem Codex CLI a navazující relace podle něj dokončila testy, exportní QA, browser kontrolu, výkonovou dokumentaci i závěrečné opravy. Nezbývá žádný známý bezpečně proveditelný úkol mimo výslovně odloženou produkci Higgsfield médií.
 
 ## Kde navázat
 
@@ -10,7 +10,7 @@ Stav k 22. červenci 2026. Tento soubor vznikl na výslovnou žádost uživatele
 - Remote: `origin` → `https://github.com/lukaskourilcz/dontwannaknow.git`
 - Tento dokument je součástí posledního checkpoint commitu; jeho hash zjistěte pomocí `git log -1 --oneline`.
 
-Po restartu nejprve spusťte `git status --short`, `git log --oneline -n 12` a přečtěte `CLAUDE.md`, `docs/experience-overhaul.md` a tento soubor. Zachovejte existující práci a pokračujte autonomně na stejné větvi.
+Při budoucím navázání nejprve spusťte `git status --short`, přečtěte `CLAUDE.md`, `docs/experience-overhaul.md` a tento soubor a zachovejte existující deterministickou architekturu.
 
 ## Neměnné produktové hranice
 
@@ -50,6 +50,8 @@ Po restartu nejprve spusťte `git status --short`, `git log --oneline -n 12` a p
 - Sbalené kapitoly obsah nemountují, dokud je uživatel neotevře; obtížný kontext tak není skrytý pouze CSS.
 - Opraveno duplicitní číslování eyebrow textů pocházejících už z dat.
 - `LifeGrid` už nevytváří přibližně 5 200 samostatných SVG uzlů; používá dvě path vrstvy a jeden aktuální týden.
+- Titul se jménem používá gramaticky bezpečný zápis „Tehdejší svět: Šárka“ místo předstírání českého skloňování.
+- Popisky skutečně vypočtené oblohy mají jednoduchou kolizní ochranu, která dává přednost planetám a zachovává čitelnost webu, obrázku i PDF.
 
 ### 5. Porovnání, sdílení a PDF
 
@@ -64,6 +66,7 @@ Po restartu nejprve spusťte `git status --short`, `git log --oneline -n 12` a p
 - Vznikly projektové skills, review agents a reálné workflow commands pod `.claude/`.
 - `CLAUDE.md`, `README.md`, `DOCS.md`, `DESIGN.md`, `NEEDED.md` a aplikační README byly průběžně reconciled.
 - Všechny nové skills prošly rychlým strukturálním validátorem; v systému chyběl PyYAML, proto byl validátor spuštěn s dočasnou instalací mimo repozitář.
+- Veřejný country-label kontrakt už na runtime nevystavuje nepoužívané názvy archivních zemí; archivní data a `/dev` audit přitom zůstaly zachované.
 
 ## Commity vytvořené během session
 
@@ -74,7 +77,8 @@ Po restartu nejprve spusťte `git status --short`, `git log --oneline -n 12` a p
 5. `5068dac feat: align comparison sharing and keepsakes`
 6. `f738e5e feat: align the editorial console with product states`
 7. `5032255 docs: encode project-specific agent workflows`
-8. Poslední checkpoint obsahuje responsive/accessibility/performance refinement, nové regresní testy, dokumentační reconciliation a tento handoff; hash zjistěte z historie.
+8. `3b2dd90 feat: refine report accessibility and performance`
+9. Finální QA, jazyková/exportní oprava a uzavření tohoto handoffu jsou v commitu bezprostředně nad `3b2dd90`; jeho hash zjistěte pomocí `git log -1 --oneline`.
 
 ## Poslední checkpoint — hlavní soubory
 
@@ -89,39 +93,38 @@ Po restartu nejprve spusťte `git status --short`, `git log --oneline -n 12` a p
 
 ## Skutečně provedená validace
 
-### Úspěšné kontroly
+### Automatické kontroly
 
-- Cílený ESLint posledního checkpointu skončil s kódem 0 pro `App.tsx`, `Results.tsx`, `Results.test.tsx`, `LifeGrid.tsx`, `LifeGrid.test.tsx` a `SharePanel.test.tsx`.
-- `git diff --check` opakovaně prošel bez whitespace chyb.
-- Před redesignem/na prvním integračním bodě prošly v `npm run check` typecheck a lint; testy tehdy dokončily 44 z 46 scénářů a dva UI testy skončily timeoutem.
+- Autoritativní `npm run check` dokončil typecheck, kompletní ESLint, Vitest, veřejný datový/content audit a produkční Vite build s kódem 0.
+- Finální sada obsahuje 14 testovacích souborů a 52 testů; dřívější timeouty po restartu zmizely a regresní privacy test byl opraven tak, aby respektoval změnu názvu tlačítka po zkopírování.
+- Content audit ověřil 38 zdrojových a 12 veřejných souborů, 70 měst a jen CZ/UA; skončil s 0 chybami a dvěma očekávanými archivními varováními.
+- `npm audit --audit-level=moderate` našel 0 zranitelností.
+- Produkční build má 8,1 MB na disku; veřejný shell 145 kB / 49 kB gzip, report 32 kB / 11 kB gzip, mapa 128 kB / 49 kB gzip a obloha 57 kB / 25 kB gzip. PDF i `/dev` zůstávají lazy.
 - Strukturální validace všech pěti `.claude/skills/*/SKILL.md` prošla.
+- Vyhledávání nenašlo starý veřejný brand, placeholder copy ani zjevné `any`/TypeScript bypassy. Veřejný App chunk už neobsahuje nepoužívané labely nepodporovaných zemí.
 
-### Browser QA provedené na skutečné aplikaci
+### Browser, přístupnost a responzivita
 
-- Landing zkontrolován v šířkách 320, 375, 390, 768, 1024, 1280 a 1440 px bez horizontálního overflow.
-- Ověřena jediná hlavní otázka, labely, radiogroup semantics, trust copy a praktické dotykové cíle.
-- Vygenerován český exact-date report (Praha, 12. 4. 1953) a ukrajinský year-only transition report (Kyjev, 1991).
-- Ukrajinský report správně ukázal historický přechod „Ukrajinská SSR / Ukrajina“ a poctivý missing-sky fallback.
-- Obtížný obsah nebyl mimo kontextovou kapitolu; sbalené kapitoly nebyly v DOM.
-- Porovnání Praha 1953 vs. Brno 1960 fungovalo na mobilu, mělo sedm strukturovaných kapitol a společný kontext.
-- Po opravě byl citlivý comparison context zavřený `<details>` a jeho obsah nebyl mountnutý.
-- U landscape share image aplikace oznámila úspěšné uložení bez console error; automatické zachycení downloadu browser nástrojem timeoutovalo, proto to není kompletní validační důkaz souboru.
+- Landing a report byly kontrolovány v šířkách 320, 375, 390, 768, 1024, 1280 a 1440 px bez horizontálního overflow; 320px reflow současně pokrývá layout ekvivalentní 200% zoomu širokého viewportu.
+- Ověřena jediná hlavní otázka, landmarky, nadpisy, radiogroup semantics, trust copy, focus ring, skip-link kontrakt, 44px klikací obal privacy checkboxu a přirozené formulářové pořadí.
+- Prázdný submit přenesl fokus na datum a nastavil `aria-invalid` i `aria-describedby` pro datum a město.
+- Kontrast hlavního textu je 14,9:1, primárního CTA 4,78:1 a chybového textu proti formulářovému papíru 7,18:1.
+- Reduced-motion větev je pokryta `useReducedMotion`, nulovým Motion transition a CSS media queries ve veřejném i `/dev` povrchu; na kontrolním browseru nebyla preference aktivní.
+- Vygenerován český exact-date report (Praha, 12. 4. 1953) a ukrajinský year-only transition report (Kyjev, 1991). Ukrajinský report správně ukázal „Ukrajinská SSR / Ukrajina“ a poctivý missing-sky fallback.
+- Obtížný obsah nebyl mimo kontextovou kapitolu; sbalené kapitoly nebyly v DOM. Porovnání Praha 1953 vs. Brno 1960 fungovalo na mobilu a citlivý comparison context zůstal zavřený a nemountnutý.
+- Všechna kontrolovaná browser okna skončila bez console warning/error.
 
-### Neuzavřené kontroly
+### Sdílení, média, PDF a `/dev`
 
-- Poslední cílený Vitest běh byl kvůli restartu CLI ukončen. `missing birthday-sky fallback` a `stable comparison columns` prošly; dva náročné `Results` scénáře (`visible report text one home` a `chapter navigation`) narazily na 60s timeout. Nešlo o zachycený assertion failure, ale suite není zelená.
-- Finální `npm run check`, produkční build a `npm audit --audit-level=moderate` po posledním checkpointu ještě nebyly úspěšně dokončeny.
-- Host byl výrazně přetížený rendererem desktopové aplikace; i cílené testy trvaly desítky sekund. Timeouty je třeba po restartu znovu ověřit, ne pouze zvyšovat naslepo.
+- Soukromý fragment otevřený v novém panelu obnovil report bez jména; explicitní varianta obnovila „Šárka“.
+- Skutečně stažené PNG soubory měly přesně 1200×630, 1080×1350 a 1080×1920 px. Vizuální kontrola potvrdila čitelné zalomení, konzistentní brand a žádný ořez či artefakt; name-on varianta byla kontrolována samostatně.
+- Klientský PDF export vytvořil 4stránkové A4 o velikosti přibližně 192 kB. Všechny stránky byly vyrenderovány do PNG a zkontrolovány; titul, diakritika, page breaks, patičky, citlivý kontext i obloha jsou čitelné.
+- Kolizní kontrola skutečného SVG po opravě našla 0 překryvů mezi zobrazenými hvězdnými a planetárními popisky.
+- `/dev` v development režimu načetl 9 480 položek, auditní filtry a nastavení; produkční preview výslovně oznámilo režim jen pro čtení a JSON download fallback bez předstírání autentizované administrace.
 
-## Co má další agent udělat
+## Stav pro dalšího agenta
 
-1. Zkontrolovat poslední commit a čistotu pracovního stromu; neměnit ani zahazovat cizí práci.
-2. V `dontwannaknow/` nejprve zopakovat cílené testy `Results.test.tsx`, `LifeGrid.test.tsx` a `SharePanel.test.tsx`. Pokud timeouty přetrvají i na klidném hostu, profilovat setup/render a zrychlit testy bez oslabení assertion kontraktů.
-3. Spustit `npm run check`, poté samostatně `npm run build` pro kontrolu chunků a `npm audit --audit-level=moderate`. Opravit všechny proveditelné regresní chyby.
-4. Dokončit browser QA: všechny tři share-image rozměry, single i comparison variantu, explicitní name-on/name-off, fragment restore, PDF, `/dev`, keyboard, 200% zoom, reduced motion a dlouhé historické názvy.
-5. Projít build output a zapsat významné změny do `stack-and-scaling.md`, pokud se skutečný chunk/asset profil změnil.
-6. Vyhledat starý veřejný brand, placeholder copy, zjevné `any` bypassy, nepoužité assety, stale dokumentaci a duplicitní komponenty; opravovat jen reálné nálezy.
-7. Udělat samostatný finální QA/docs commit a až potom připravit závěrečný implementační report požadovaný původní specifikací.
+Produktový overhaul je uzavřený. Další běžná práce má začínat novým konkrétním zadáním, nikoli opakováním redesignu nebo validace. Jediný předem známý navazující blok je Higgsfield produkce popsaná níže, která zůstává neaktivní, dokud uživatel nepotvrdí dostupnost MCP.
 
 ## Higgsfield AI — výslovně odloženo
 

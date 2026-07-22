@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { reportFor } from "./facts";
 import { makePerson } from "../test/factories";
 import { CITIES } from "../data/cityCatalog";
-import { COUNTRY_DECADES } from "../data/countryDecades";
+import { COUNTRY_DECADES, COUNTRY_LABELS } from "../data/countryDecades";
 import { COUNTRY_EVENTS } from "../data/countryEvents";
 import { FAMOUS_PEOPLE } from "../data/famousPeople";
 import czechCityFacts from "../data/public/cityFacts.cz.json";
@@ -14,6 +14,7 @@ describe("person-centric report composition", () => {
     expect(COUNTRY_DECADES.every((record) => ["CZ", "UA"].includes(record.country))).toBe(true);
     expect(COUNTRY_EVENTS.every((record) => ["CZ", "UA"].includes(record.country))).toBe(true);
     expect(FAMOUS_PEOPLE.every((record) => ["CZ", "UA"].includes(record.country))).toBe(true);
+    expect(Object.keys(COUNTRY_LABELS).sort()).toEqual(["CZ", "UA"]);
     const slugs = new Set(CITIES.map((city) => city.slug));
     expect([...czechCityFacts, ...ukrainianCityFacts].every((record) => slugs.has(record.city))).toBe(true);
   });

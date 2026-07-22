@@ -39,7 +39,7 @@ describe("SharePanel privacy", () => {
     expect(screen.getByText("Jméno zůstává skryté")).toBeInTheDocument();
 
     fireEvent.click(screen.getByRole("checkbox"));
-    fireEvent.click(screen.getByRole("button", { name: "Kopírovat odkaz" }));
+    fireEvent.click(copyButton);
     await waitFor(() => expect(writeText).toHaveBeenCalledTimes(2));
     const namedUrl = writeText.mock.calls[1][0];
     expect(decodeReportState(namedUrl.split("#r=")[1])?.[0]?.label).toBe("Šárka");
