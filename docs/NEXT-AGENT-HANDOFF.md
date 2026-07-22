@@ -68,7 +68,7 @@ Při budoucím navázání nejprve spusťte `git status --short`, přečtěte `C
 - Všechny nové skills prošly rychlým strukturálním validátorem; v systému chyběl PyYAML, proto byl validátor spuštěn s dočasnou instalací mimo repozitář.
 - Veřejný country-label kontrakt už na runtime nevystavuje nepoužívané názvy archivních zemí; archivní data a `/dev` audit přitom zůstaly zachované.
 
-## Commity vytvořené během session
+## Hlavní commity overhaul implementace
 
 1. `7d472df docs: define experience overhaul direction`
 2. `4a06da8 feat: establish semantic visual foundations`
@@ -78,7 +78,9 @@ Při budoucím navázání nejprve spusťte `git status --short`, přečtěte `C
 6. `f738e5e feat: align the editorial console with product states`
 7. `5032255 docs: encode project-specific agent workflows`
 8. `3b2dd90 feat: refine report accessibility and performance`
-9. Finální QA, jazyková/exportní oprava a uzavření tohoto handoffu jsou v commitu bezprostředně nad `3b2dd90`; jeho hash zjistěte pomocí `git log -1 --oneline`.
+9. `54da87b fix: close release QA findings`
+
+Pozdější čistě dokumentační kontroly mohou být v historii nad tímto seznamem; aktuální revizi vždy ověřte pomocí `git log -1 --oneline`.
 
 ## Poslední checkpoint — hlavní soubory
 
@@ -102,6 +104,7 @@ Při budoucím navázání nejprve spusťte `git status --short`, přečtěte `C
 - Produkční build má 8,1 MB na disku; veřejný shell 145 kB / 49 kB gzip, report 32 kB / 11 kB gzip, mapa 128 kB / 49 kB gzip a obloha 57 kB / 25 kB gzip. PDF i `/dev` zůstávají lazy.
 - Strukturální validace všech pěti `.claude/skills/*/SKILL.md` prošla.
 - Vyhledávání nenašlo starý veřejný brand, placeholder copy ani zjevné `any`/TypeScript bypassy. Veřejný App chunk už neobsahuje nepoužívané labely nepodporovaných zemí.
+- Následný audit prošel všech 26 repozitářových Markdown souborů, ověřil všechny lokální odkazy, opravil zastaralé datové cesty a srovnal `NEEDED.md` i nákladový model s aktuálním GitHub/Vercel stavem.
 
 ### Browser, přístupnost a responzivita
 

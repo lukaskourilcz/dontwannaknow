@@ -21,7 +21,7 @@ Keep the public app and `/dev` lazy surfaces separate. `/dev` writes only throug
 
 ## Working rules
 
-Search before creating. Extend or generalize existing components, utilities, types, styles, skills, agents, and commands before adding another system. Use semantic tokens from `src/styles.css`; follow `dontwannaknow/DESIGN.md`. Preserve authentic UI, data, maps, and stars. Generated media may be decorative only and never evidence or fake UI. Higgsfield work is deferred whenever its MCP is absent; do not use a substitute generator or placeholder asset.
+Search before creating. Extend or generalize existing components, utilities, types, styles, skills, agents, and commands before adding another system. Use semantic tokens from `dontwannaknow/src/styles.css`; follow `dontwannaknow/DESIGN.md`. Preserve authentic UI, data, maps, and stars. Generated media may be decorative only and never evidence or fake UI. Higgsfield work is deferred whenever its MCP is absent; do not use a substitute generator or placeholder asset.
 
 Validate mobile widths, long Czech strings, error/missing/loading/success states, keyboard use, visible focus, reduced motion, 200% zoom/reflow, WCAG AA contrast, and accessible map/sky/canvas summaries. For large autonomous work, make coherent incremental commits and continue automatically after each commit.
 
@@ -59,3 +59,5 @@ Run `npm run data:public` only when generator inputs or logic changed, then insp
 Use the focused skills in `.claude/skills/`: `tehdejsi-svet-product`, `tehdejsi-svet-design-system`, `tehdejsi-svet-editorial-integrity`, `tehdejsi-svet-higgsfield`, and `tehdejsi-svet-release-validation`.
 
 Use reviewer definitions in `.claude/agents/` only for their distinct scopes: experience/design, editorial/history, accessibility/visual QA, and Higgsfield art direction. Use the real workflows in `.claude/commands/`: `/tehdejsi-design-audit`, `/tehdejsi-new-screen`, `/tehdejsi-content-review`, `/tehdejsi-visual-qa`, and `/tehdejsi-release-check`.
+
+`/audit-facts` is the separate read-only workflow for sampled web verification of source datasets; it reports findings and never edits historical data automatically.

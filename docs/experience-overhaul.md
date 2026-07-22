@@ -1,6 +1,6 @@
 # Tehdejší svět — audit a teze zážitku
 
-Stav auditu: 22. července 2026. Tento dokument je řídicí podklad pro redesign veřejné aplikace, exportů a redakčního rozhraní. Popisuje skutečný stav repozitáře, nikoli zamýšlenou náhradu fungující person-centric implementace.
+Stav auditu: 22. července 2026. Dokument zachycuje výchozí stav, rozhodnutí a implementační kontrakt overhaul práce. Overhaul byl následně dokončen; aktuální validační důkazy a výsledný stav jsou v `docs/NEXT-AGENT-HANDOFF.md`. Historické nálezy níže proto nejsou otevřeným backlogem.
 
 ## Produktové porozumění
 
@@ -30,7 +30,7 @@ Hlavní cesty:
 4. Uchování: fragmentový odkaz, volitelné zahrnutí jména, tři formáty obrázku a klientské PDF.
 5. Redakce: filtry nad zdroji a metadaty, explicitní stav jen pro čtení v produkci.
 
-## Zjištěný designový dluh
+## Výchozí designový dluh (během overhaul uzavřený)
 
 - Stávající paleta, lokální písma a jednoduchý T-mark jsou silný základ, ale tokeny pokrývají jen část stavů; chyby, obtížný obsah, informační stavy a fokus používají místy přímé barvy.
 - Landing má správné pořadí obsahu, ale chybí mu jeden zapamatovatelný, produktově vlastní archivní motiv a klidná souhrnná věta o rozsahu CZ/UA.
@@ -42,17 +42,17 @@ Hlavní cesty:
 - Sdílení je funkční, ale volby exportu nemají náhled struktury, skupinové popisky ani dost výraznou hierarchii ochrany jména.
 - Web, share canvas a PDF sdílejí barvy jen přibližně. Chybí jeden exportní brand kontrakt pro logo, typografické role, mezery a názvy souborů.
 - `/dev` má vlastní paralelní tokeny, tmavý režim a zřetelnější stíny než veřejná aplikace. Je použitelný a přístupný, ale potřebuje společnou sémantiku stavů a hustší, méně dekorativní řádky.
-- Testy dobře chrání produktovou integritu. Výchozí `npm run check` však na auditním stroji selhal časovým limitem dvou testů; 44 z 46 testů prošlo a nešlo o tvrzení ani funkční regresi. Při redesignu je nutné zkrátit/izolovat UI testy nebo upravit legitimní globální limit bez maskování chyb.
+- Testy už ve výchozím stavu dobře chránily produktovou integritu. První auditní běh narazil na časový limit dvou UI testů (44 z 46); následná oprava testovacího prostředí a privacy regrese stav uzavřela. Finální `npm run check` prošel se 14 soubory a 52 testy bez selhání.
 
-## Co se znovu použije
+## Uplatněná reuse strategie
 
-Zůstávají všechny produktové vrstvy, datové typy a exportní mechanismy. `NewForm`, `Results`, `ChapterFrame`, `ChapterItems`, `SharePanel`, `WorldMap`, `SkyMap`, `ArtStrip`, `LifeGrid`, `LifeNumbers`, `shareImage` a `pdf` se rozšíří nebo refaktorují na místě. Nevznikne paralelní formulářový, kartový, navigační ani reportový systém.
+Zůstaly zachované všechny produktové vrstvy, datové typy a exportní mechanismy. `NewForm`, `Results`, `ChapterFrame`, `ChapterItems`, `SharePanel`, `WorldMap`, `SkyMap`, `ArtStrip`, `LifeGrid`, `LifeNumbers`, `shareImage` a `pdf` byly rozšířeny nebo refaktorovány na místě. Nevznikl paralelní formulářový, kartový, navigační ani reportový systém.
 
-Nové primitivy mají vzniknout pouze tam, kde zpřesňují existující kontrakt: vektorový brand lockup, archivní dekorativní motiv sestavený z CSS/SVG bez tvrzení o historické autenticitě, sémantická podoba reportové položky a společné exportní brand konstanty.
+Nové primitivy vznikly pouze tam, kde zpřesňují existující kontrakt: vektorový `BrandMark`, archivní dekorativní motiv sestavený z CSS/SVG bez tvrzení o historické autenticitě, sémantická podoba reportové položky a společné exportní brand konstanty.
 
 ## Designová teze
 
-Tehdejší svět bude působit jako současné osobní vydání sestavené z archivních stop, mapových linií, hvězd, věkových značek a pečlivě editovaného textu. Z rodinného alba přebírá intimitu, nikoli scrapbookovou dekoraci; z časopisu rytmus a hierarchii, nikoli titulní senzaci; z kulturního archivu přesnost popisků, nikoli institucionální chlad.
+Tehdejší svět působí jako současné osobní vydání sestavené z archivních stop, mapových linií, hvězd, věkových značek a pečlivě editovaného textu. Z rodinného alba přebírá intimitu, nikoli scrapbookovou dekoraci; z časopisu rytmus a hierarchii, nikoli titulní senzaci; z kulturního archivu přesnost popisků, nikoli institucionální chlad.
 
 Výsledný směr je „osobní edice na živém papíře“:
 
@@ -83,20 +83,24 @@ Výzkum byl omezen na problémy, které aplikace skutečně řeší. Refero bylo
 
 Bezpečné, vysokohodnotné příležitosti jsou: obecná hero kompozice s text-safe zónou, obecná OG kompozice, lehká rodina kapitolových motivů a pozadí sdílených karet. Potenciálně užitečný je pouze krátký hero loop se statickým fallbackem. Zbytečné jsou ilustrace ke každému faktu, městu nebo zemi. Nepřípustné jsou falešné fotografie, dokumenty, mapy, hvězdy, UI, osobní příběhy, válečné obrazy a kulturní stereotypy.
 
-Higgsfield MCP v této relaci není dostupný a práce s ním je podle zadání výslovně odložená. Nebudou vytvořeny náhrady jinou AI službou ani placeholder soubory. Produkční layout musí fungovat bez těchto médií; integrační sloty a pravidla budou popsány v `docs/generated-media.md`.
+Higgsfield MCP v této relaci není dostupný a práce s ním je podle zadání výslovně odložená. Nebudou vytvořeny náhrady jinou AI službou ani placeholder soubory. Produkční layout funguje bez těchto médií; integrační sloty a pravidla jsou popsané v `docs/generated-media.md`.
 
-## Implementační mapa
+## Implementační mapa (dokončeno)
 
-1. Doplnit sémantické tokeny, typografické role, šířky sloupců, tvary, stavy a motion kontrakt.
-2. Zpřesnit wordmark, favicon a obecný exportní brand pomocí čistého SVG/CSS, nikoli generované rasterové identity.
-3. Přestavět landing a formulář na nízkou kognitivní zátěž s jasnou důvěrou a CZ/UA rozsahem.
-4. Proměnit obálku, kapitoly, itemy, navigaci, milníky a autentické moduly v jedno osobní vydání.
-5. Sjednotit porovnání, sdílení, canvas obrázky a PDF.
-6. Převést `/dev` na společnou sémantiku při zachování vyšší hustoty a produkčního read-only vysvětlení.
-7. Dokončit mobil, klávesnici, fokus, reduced motion, zoom a chybové/missing states.
-8. Zakódovat projektové znalosti do stručných skills, reviewer agentů, příkazů a `CLAUDE.md`.
+Všech osm kroků bylo realizováno v koherentních checkpoint commitech; konkrétní soubory a validační výsledky shrnuje `docs/NEXT-AGENT-HANDOFF.md`.
 
-## Ověřovací strategie
+1. Doplněny sémantické tokeny, typografické role, šířky sloupců, tvary, stavy a motion kontrakt.
+2. Zpřesněny wordmark, favicon a obecný exportní brand pomocí čistého SVG/CSS, nikoli generované rasterové identity.
+3. Landing a formulář přestavěny pro nízkou kognitivní zátěž, jasnou důvěru a CZ/UA rozsah.
+4. Obálka, kapitoly, itemy, navigace, milníky a autentické moduly spojeny do jednoho osobního vydání.
+5. Sjednoceny porovnání, sdílení, canvas obrázky a PDF.
+6. `/dev` převeden na společnou sémantiku při zachování vyšší hustoty a produkčního read-only vysvětlení.
+7. Dokončeny mobil, klávesnice, fokus, reduced motion, zoom a chybové/missing stavy.
+8. Projektové znalosti zakódovány do stručných skills, reviewer agentů, příkazů a `CLAUDE.md`.
+
+## Ověřovací strategie a výsledek
+
+Strategie níže byla provedena. Finální automatická kontrola dokončila typecheck, ESLint, 52 testů, content audit a produkční build; browser QA pokrylo veřejné CZ/UA cesty, porovnání, sdílení, PDF, responzivní šířky a `/dev`.
 
 - Logika: strict typecheck, ESLint, Vitest, veřejná data a obsahový audit.
 - Produkce: Vite build, chunk report a kontrola, že `/dev`, PDF a velká data zůstávají lazy-loaded.

@@ -4,7 +4,8 @@ These JSON files (and the images under `public/art/`) are produced **at build
 time** by the scripts in [`../../../scripts/`](../../../scripts) from free,
 no-key public APIs, then **committed**. The shipped app never calls the network
 — it reads only these static files, so it stays offline, deterministic, and
-private (the strict CSP keeps `connect-src`/`img-src` at `'self'`).
+private. The production CSP keeps `connect-src` at `'self'`; `img-src` permits
+same-origin files plus `data:` and `blob:` URLs required by client exports.
 
 Regenerate any of them by running the matching script and committing the diff:
 
@@ -16,9 +17,9 @@ Regenerate any of them by running the matching script and committing the diff:
 
 Notes:
 
-- All HTTP goes through `curl` (HTTP/1.1) inside the scripts, because this
-  session's egress proxy stalls HTTP/2 and Node's `fetch` doesn't read the proxy
-  reliably. On a normal machine the scripts run the same way.
+- All HTTP goes through `curl` (HTTP/1.1) inside the scripts for predictable
+  behavior across CLI proxy environments. Regeneration therefore requires
+  `curl` in addition to Node.js.
 - The generators are **additive**: they never overwrite the hand-curated
   datasets in `../`. Each feeds a clearly-scoped, guarded part of the report
   (real World Bank figures, "famous contemporaries", "art of the era"), so a

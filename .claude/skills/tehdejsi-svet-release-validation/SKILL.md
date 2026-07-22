@@ -14,7 +14,7 @@ npm run check
 npm audit --audit-level=moderate
 ```
 
-If diagnosing failures, run `npm run typecheck`, `npm run lint`, `npm test -- --run`, `npm run audit:content`, and `npm run build` separately. Never report a pass unless that exact check completed successfully.
+If diagnosing failures, run `npm run typecheck`, `npm run lint`, `npm test`, `npm run audit:content`, and `npm run build` separately. Never report a pass unless that exact check completed successfully.
 
 ## Exercise critical flows
 
