@@ -9,6 +9,7 @@ import {
 } from "motion/react";
 import NewForm from "./components/NewForm";
 import ErrorBoundary from "./components/ErrorBoundary";
+import BrandMark from "./components/BrandMark";
 import { decodeReportState, sanitizeAnalyticsUrl } from "./lib/share";
 import type { Person } from "./lib/person";
 import type { PersonReport } from "./lib/facts";
@@ -74,10 +75,13 @@ function AppInner() {
     <div className="page site-shell">
       <header className="nav-header site-header">
         <button type="button" className="brand-wordmark" onClick={reset} aria-label="Tehdejší svět — domů">
-          <span className="brand-mark" aria-hidden="true">T</span>
-          <span>{COPY.brand}</span>
+          <BrandMark className="brand-mark" />
+          <span className="brand-wordmark-copy">
+            <strong>{COPY.brand}</strong>
+            <small>Osobní vydání</small>
+          </span>
         </button>
-        <span className="site-header-note">Česko · Ukrajina</span>
+        <span className="site-header-note">Česko a Ukrajina · 1920–současnost</span>
       </header>
 
       <main id="main-content">
