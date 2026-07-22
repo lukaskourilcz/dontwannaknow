@@ -11,6 +11,21 @@ describe("NewForm", () => {
     expect(screen.getByText("Jaký je váš vztah k tomuto člověku?")).toBeInTheDocument();
   });
 
+  it("art-directs the decorative hero without exposing generated text", () => {
+    const { container } = render(<NewForm onSubmit={vi.fn()} />);
+    const media = container.querySelector(".hero-archive-motif");
+    const source = media?.querySelector("source");
+    const image = media?.querySelector("img");
+
+    expect(media).toHaveAttribute("aria-hidden", "true");
+    expect(source).toHaveAttribute("media", "(max-width: 980px)");
+    expect(source).toHaveAttribute("srcset", "/media/hero-editorial-mobile.webp");
+    expect(image).toHaveAttribute("src", "/media/hero-editorial-desktop.webp");
+    expect(image).toHaveAttribute("alt", "");
+    expect(image).toHaveAttribute("width", "720");
+    expect(image).toHaveAttribute("height", "900");
+  });
+
   it("validates required date and city accessibly", async () => {
     const user = userEvent.setup();
     render(<NewForm onSubmit={vi.fn()} />);

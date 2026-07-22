@@ -214,11 +214,22 @@ export default function NewForm({ onSubmit }: Props) {
         <p className="hero-positioning">{COPY.positioning}</p>
         <p className="hero-description">{COPY.description}</p>
         <div className="hero-archive-motif" aria-hidden="true">
-          <span className="motif-year">19—</span>
-          <span className="motif-line motif-line-a" />
-          <span className="motif-line motif-line-b" />
-          <span className="motif-orbit" />
-          <span className="motif-dot" />
+          <picture>
+            <source
+              media="(max-width: 980px)"
+              srcSet="/media/hero-editorial-mobile.webp"
+              width="800"
+              height="600"
+            />
+            <img
+              src="/media/hero-editorial-desktop.webp"
+              width="720"
+              height="900"
+              alt=""
+              decoding="async"
+              fetchPriority="high"
+            />
+          </picture>
         </div>
         <ul className="trust-index" aria-label="Soukromí, metoda a rozsah">
           <li><span>01</span><strong>Jen ve vašem prohlížeči</strong><small>Nic z formuláře se neposílá na server.</small></li>
