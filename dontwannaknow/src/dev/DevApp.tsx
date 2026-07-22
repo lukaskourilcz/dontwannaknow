@@ -38,6 +38,7 @@ export default function DevApp() {
           <strong>Tehdejší svět</strong>
           <span>redakční konzole</span>
         </div>
+        <span className="dev-environment-badge">Lokální nástroj</span>
         <nav className="dev-nav">
           <button
             type="button"
@@ -88,18 +89,23 @@ function PasswordGate({ onUnlock }: { onUnlock: (pw: string) => boolean }) {
         <p className="dev-eyebrow">Tehdejší svět</p>
         <h1>Redakční konzole</h1>
         <p className="dev-gate-sub">Zadejte heslo pro správu obsahu a nastavení. Jde jen o vývojovou pojistku, ne zabezpečenou administraci.</p>
-        <input
-          autoFocus
-          type="password"
-          className="dev-input"
-          value={pw}
-          placeholder="Heslo"
-          onChange={(e) => {
-            setPw(e.target.value);
-            setError(false);
-          }}
-        />
-        {error && <p className="dev-gate-error">Nesprávné heslo.</p>}
+        <label className="dev-field">
+          <span>Vývojové heslo</span>
+          <input
+            autoFocus
+            type="password"
+            className="dev-input"
+            value={pw}
+            aria-invalid={error}
+            aria-describedby={error ? "dev-gate-error" : undefined}
+            autoComplete="current-password"
+            onChange={(e) => {
+              setPw(e.target.value);
+              setError(false);
+            }}
+          />
+        </label>
+        {error && <p className="dev-gate-error" id="dev-gate-error" role="alert">Nesprávné heslo.</p>}
         <button className="dev-btn dev-btn-primary" type="submit">
           Odemknout
         </button>

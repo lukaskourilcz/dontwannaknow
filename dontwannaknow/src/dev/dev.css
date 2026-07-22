@@ -1,27 +1,30 @@
-/* The /dev console uses the product's warm editorial language so it
-   feels like a first-class part of the product rather than an internal tool.
-   This stylesheet loads on its own (the public styles.css does not), so it
-   carries its own tokens, resets, fonts, and dark theme. */
+/* Dense operational surface using the same paper, ink and state semantics as
+   the public experience. It intentionally avoids decorative report styling. */
 
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
 
-  --bg:           #faf6ef;
-  --surface:      #fffdf7;
-  --surface-warm: #f5efe3;
-  --ink:          #2a2622;
-  --ink-soft:     #4a423a;
-  --muted:        #6f6359;
-  --muted-soft:   #9a8d7e;
-  --rule:         #e4dacb;
-  --rule-strong:  #d8ccb8;
-  --accent:       #9a5b3f;
-  --accent-dark:  #874e36;
-  --accent-soft:  #ecd9cb;
-  --highlight:    #f6eccf;
-  --success:      #4f7a4a;
-  --on-accent:    #faf6ef;
-  --scrim:        rgba(250, 246, 239, 0.82);
+  --bg:           #f7f2e8;
+  --surface:      #fffdf9;
+  --surface-warm: #ece5d8;
+  --ink:          #18201d;
+  --ink-soft:     #33423d;
+  --muted:        #4d5f59;
+  --muted-soft:   #6e7b76;
+  --rule:         #d5cdbf;
+  --rule-strong:  #9eaaa4;
+  --accent:       #d9684f;
+  --accent-dark:  #934033;
+  --accent-soft:  #f4ded7;
+  --highlight:    #f3ead6;
+  --success:      #2f7865;
+  --success-soft: #deece7;
+  --review:       #785a24;
+  --review-soft:  #f3ead6;
+  --blocked:      #923b34;
+  --blocked-soft: #f4dfdb;
+  --on-accent:    #fffdf9;
+  --scrim:        rgba(247, 242, 232, 0.96);
 
   --display: "Fraunces Variable", "Iowan Old Style", Georgia, serif;
   --sans:    "Instrument Sans Variable", -apple-system, BlinkMacSystemFont,
@@ -30,36 +33,12 @@
 
   --s-1: 4px;  --s-2: 8px;  --s-3: 12px; --s-4: 16px;
   --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 64px;
-  --r-sm: 7px; --r-md: 12px; --r-lg: 20px; --r-pill: 999px;
+  --r-sm: 3px; --r-md: 5px; --r-lg: 10px;
 
-  --shadow-sm: 0 1px 2px rgba(42, 38, 34, 0.05);
-  --shadow-md: 0 4px 16px rgba(42, 38, 34, 0.07);
-  --shadow-lg: 0 18px 44px rgba(42, 38, 34, 0.12);
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: 0 18px 44px rgba(24, 32, 29, 0.16);
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg:           #1a1714;
-    --surface:      #221e1a;
-    --surface-warm: #201c18;
-    --ink:          #efe7da;
-    --ink-soft:     #d8cdbd;
-    --muted:        #a1968a;
-    --muted-soft:   #7c7165;
-    --rule:         #352f28;
-    --rule-strong:  #443d34;
-    --accent:       #d89a6e;
-    --accent-dark:  #e2a878;
-    --accent-soft:  #3a2c22;
-    --highlight:    #3a3322;
-    --success:      #8fb98a;
-    --on-accent:    #1a1714;
-    --scrim:        rgba(26, 23, 20, 0.8);
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
-    --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.38);
-    --shadow-lg: 0 18px 44px rgba(0, 0, 0, 0.5);
-  }
 }
 
 * { box-sizing: border-box; }
@@ -76,9 +55,6 @@ html, body {
   min-height: 100vh;
   min-height: 100dvh;
   background: var(--bg);
-  background-image:
-    radial-gradient(circle at 0% 0%, rgba(154, 91, 63, 0.05), transparent 52%),
-    radial-gradient(circle at 100% 100%, rgba(154, 91, 63, 0.035), transparent 42%);
   color: var(--ink);
   font-family: var(--sans);
   font-size: 15px;
@@ -94,10 +70,10 @@ html, body {
   gap: var(--s-4);
   padding: var(--s-3) clamp(var(--s-4), 4vw, var(--s-6));
   background: var(--scrim);
-  backdrop-filter: saturate(180%) blur(12px);
-  -webkit-backdrop-filter: saturate(180%) blur(12px);
   border-bottom: 1px solid var(--rule);
 }
+
+.dev-environment-badge { padding: 0.25rem 0.45rem; border: 1px solid var(--rule-strong); border-radius: var(--r-sm); color: var(--muted); font-size: 0.64rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
 
 .dev-brand strong {
   display: block;
@@ -125,9 +101,10 @@ html, body {
   padding: 3px;
   background: var(--surface-warm);
   border: 1px solid var(--rule);
-  border-radius: var(--r-pill);
+  border-radius: var(--r-sm);
 }
 .dev-tab {
+  min-height: 44px;
   font: inherit;
   font-weight: 500;
   font-size: 0.88rem;
@@ -135,7 +112,7 @@ html, body {
   background: transparent;
   color: var(--muted);
   padding: 0.45rem 1.1rem;
-  border-radius: var(--r-pill);
+  border-radius: 2px;
   cursor: pointer;
   transition: color 0.18s, background 0.18s, box-shadow 0.18s;
 }
@@ -236,6 +213,7 @@ html, body {
 .dev-input,
 .dev-search,
 .dev-select {
+  min-height: 44px;
   font: inherit;
   font-size: 0.95rem;
   background: var(--surface);
@@ -293,7 +271,8 @@ textarea.dev-input-mono {
   gap: 0.4rem;
   white-space: nowrap;
   padding: 0.6rem 1.1rem;
-  border-radius: var(--r-pill);
+  min-height: 44px;
+  border-radius: var(--r-md);
   border: 1px solid var(--rule-strong);
   background: var(--surface);
   color: var(--ink);
@@ -328,7 +307,8 @@ textarea.dev-input-mono {
   border: 1px solid var(--rule-strong);
   background: var(--surface);
   color: var(--muted);
-  border-radius: var(--r-pill);
+  min-height: 44px;
+  border-radius: var(--r-md);
   padding: 0.42rem 0.95rem;
   cursor: pointer;
   transition: color 0.18s, background 0.18s, border-color 0.18s, transform 0.12s;
@@ -363,12 +343,12 @@ textarea.dev-input-mono {
   gap: var(--s-4);
   background: var(--surface);
   border: 1px solid var(--rule);
-  border-radius: var(--r-md);
-  padding: var(--s-3) var(--s-4);
+  border-radius: 0;
+  padding: 0.65rem 0.8rem;
   box-shadow: var(--shadow-sm);
   transition: transform 0.15s var(--ease-out), box-shadow 0.2s, border-color 0.2s;
 }
-.dev-row:hover { transform: translateY(-1px); box-shadow: var(--shadow-md); border-color: var(--rule-strong); }
+.dev-row:hover { border-color: var(--rule-strong); }
 .dev-row-main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: var(--s-2); }
 .dev-row-summary { color: var(--ink); line-height: 1.5; font-size: 0.98rem; }
 .dev-row-tags { display: flex; gap: 0.4rem; flex-wrap: wrap; }
@@ -392,6 +372,9 @@ textarea.dev-input-mono {
   font-weight: 600;
 }
 .dev-tag-soft { background: transparent; }
+.dev-tag-soft.state-verified { border-color: var(--success); background: var(--success-soft); color: var(--success); }
+.dev-tag-soft.state-review { border-color: var(--review); background: var(--review-soft); color: var(--review); }
+.dev-tag-soft.state-blocked { border-color: var(--blocked); background: var(--blocked-soft); color: var(--blocked); }
 
 .dev-row-actions { display: flex; gap: var(--s-2); flex-shrink: 0; }
 .dev-row-actions .dev-btn { padding: 0.45rem 0.85rem; font-size: 0.85rem; }
@@ -487,9 +470,6 @@ textarea.dev-input-mono {
   justify-content: center;
   padding: var(--s-5);
   background: var(--bg);
-  background-image:
-    radial-gradient(circle at 50% 0%, rgba(154, 91, 63, 0.07), transparent 60%),
-    radial-gradient(circle at 100% 100%, rgba(154, 91, 63, 0.04), transparent 45%);
   color: var(--ink);
   font-family: var(--sans);
 }
@@ -542,6 +522,11 @@ textarea.dev-input-mono {
 
 /* ── Touch & motion ─────────────────────────────────────────────── */
 a, button, input, select, textarea { -webkit-tap-highlight-color: transparent; }
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 
 @media (prefers-reduced-motion: no-preference) {
   .dev-modal { animation: dev-modal-in 0.2s var(--ease-out); }
