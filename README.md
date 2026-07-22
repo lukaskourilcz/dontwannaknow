@@ -111,5 +111,8 @@ Soubor `vercel.json` zajišťuje SPA přesměrování a bezpečnostní hlavičky
 - [Technická dokumentace](./DOCS.md)
 - [Aplikační README](./dontwannaknow/README.md)
 - [Vizuální systém](./dontwannaknow/DESIGN.md)
+- [Audit zážitku, výzkum a designová teze](./docs/experience-overhaul.md)
+- [Kontrakt budoucích generovaných médií](./docs/generated-media.md)
+- [Řídicí dokument pro vývojové agenty](./CLAUDE.md)
 - [Aktuální stack, kapacita a náklady](./stack-and-scaling.md)
 - [Kroky vyžadující zásah vlastníka](./NEEDED.md)

@@ -31,6 +31,7 @@ function AppInner() {
 
   const generate = useCallback(async (list: Person[]) => {
     setLoading(true);
+    setShareError(null);
     try {
       const { reportFor } = await import("./lib/facts");
       const excludeWorld = list.length > 1;
@@ -94,7 +95,7 @@ function AppInner() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0, y: reducedMotion ? 0 : -16 }}
-              transition={{ duration: 0.3, ease: EASE }}
+              transition={{ duration: reducedMotion ? 0 : 0.3, ease: EASE }}
             >
               <NewForm onSubmit={(list) => void generate(list)} />
             </m.div>
@@ -110,7 +111,7 @@ function AppInner() {
               key="results"
               initial={{ opacity: 0, y: reducedMotion ? 0 : 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: reducedMotion ? 0.15 : 0.5, ease: EASE }}
+              transition={{ duration: reducedMotion ? 0 : 0.5, ease: EASE }}
             >
               <Suspense fallback={<div className="report-loading" role="status">Načítáme kapitoly…</div>}>
                 <Results reports={reports} people={people} onReset={reset} onRegenerate={showAnother} />

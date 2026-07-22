@@ -40,6 +40,10 @@ function chapterById(report: PersonReport, id: ReportChapter["id"]) {
   return report.chapters.find((chapter) => chapter.id === id);
 }
 
+function chapterLabel(chapter: ReportChapter): string {
+  return chapter.eyebrow.replace(/^\d{2}\s*·\s*/, "");
+}
+
 function itemKind(item: ReportItem): string {
   if (item.metadata.sensitivity === "difficult") return "Citlivý historický kontext";
   if (item.category === "city") return "Místní souvislost";
@@ -103,6 +107,40 @@ function comparisonItems(firstItems: ReportItem[], secondItems: ReportItem[]) {
   };
 }
 
+function showChapter(id: ReportChapter["id"]) {
+  const element = document.getElementById(id);
+  if (element instanceof HTMLDetailsElement) element.open = true;
+  window.requestAnimationFrame(() => element?.scrollIntoView?.({ block: "start", behavior: "auto" }));
+}
+
+function ChapterNavigation({
+  chapters,
+  comparison = false,
+}: {
+  chapters: ReportChapter[];
+  comparison?: boolean;
+}) {
+  const visibleChapters = comparison
+    ? chapters.filter((chapter) => chapter.id !== "life-numbers")
+    : chapters;
+
+  return (
+    <nav className="chapter-navigation" aria-label={comparison ? "Kapitoly srovnání" : "Kapitoly zprávy"}>
+      <p>{comparison ? "Kapitoly společného srovnání" : "Kapitoly osobního vydání"}</p>
+      <ol>
+        {visibleChapters.map((chapter, index) => (
+          <li key={chapter.id}>
+            <button type="button" onClick={() => showChapter(chapter.id)}>
+              <span>{String(index + 1).padStart(2, "0")}</span>
+              <strong>{comparison && chapter.id === "birth" ? "Dva začátky" : chapter.title}</strong>
+            </button>
+          </li>
+        ))}
+      </ol>
+    </nav>
+  );
+}
+
 function ChapterFrame({
   chapter,
   index,
@@ -114,6 +152,7 @@ function ChapterFrame({
   items?: ReportItem[];
   children?: ReactNode;
 }) {
+  const [expanded, setExpanded] = useState(!chapter.collapsed);
   const chapterBody = (
     <>
       {items.length > 0 && <ChapterItems items={items} />}
@@ -123,7 +162,7 @@ function ChapterFrame({
   const content = (
     <div className="chapter-content">
       <header className="chapter-header">
-        <p className="chapter-eyebrow"><span>{String(index + 1).padStart(2, "0")}</span>{chapter.eyebrow}</p>
+        <p className="chapter-eyebrow"><span>{String(index + 1).padStart(2, "0")}</span>{chapterLabel(chapter)}</p>
         <h2>{chapter.title}</h2>
         {chapter.introduction && <p className="chapter-intro">{chapter.introduction}</p>}
       </header>
@@ -133,23 +172,49 @@ function ChapterFrame({
 
   if (chapter.collapsed) {
     return (
-      <details className={`report-chapter chapter-${chapter.id}`} id={chapter.id}>
+      <details
+        className={`report-chapter chapter-${chapter.id}`}
+        id={chapter.id}
+        onToggle={(event) => setExpanded(event.currentTarget.open)}
+      >
         <summary>
-          <span>{String(index + 1).padStart(2, "0")} · {chapter.eyebrow}</span>
+          <span>{String(index + 1).padStart(2, "0")} · {chapterLabel(chapter)}</span>
           <h2>{chapter.title}</h2>
           <small className="summary-action" aria-hidden="true">
             <span className="summary-action-open">Zobrazit kapitolu</span>
             <span className="summary-action-close">Skrýt kapitolu</span>
           </small>
         </summary>
-        <div className="chapter-content chapter-content-expanded">
-          {chapter.introduction && <p className="chapter-intro">{chapter.introduction}</p>}
-          {chapterBody}
-        </div>
+        {expanded && (
+          <div className="chapter-content chapter-content-expanded">
+            {chapter.introduction && <p className="chapter-intro">{chapter.introduction}</p>}
+            {chapterBody}
+          </div>
+        )}
       </details>
     );
   }
   return <section className={`report-chapter chapter-${chapter.id}`} id={chapter.id}>{content}</section>;
+}
+
+function WeeksDisclosure({ report }: { report: PersonReport }) {
+  const [expanded, setExpanded] = useState(false);
+  return (
+    <details className="weeks-details" onToggle={(event) => setExpanded(event.currentTarget.open)}>
+      <summary>
+        <span className="summary-action-open">Zobrazit čas v týdnech</span>
+        <span className="summary-action-close">Skrýt čas v týdnech</span>
+      </summary>
+      {expanded && (
+        <LifeGrid
+          weeksLived={weeksSince(
+            birthDateUTC(report.person.birthYear, report.person.birthMonth, report.person.birthDay),
+          )}
+          label={displayName(report.person)}
+        />
+      )}
+    </details>
+  );
 }
 
 function Cover({ report, skyRef }: { report: PersonReport; skyRef: (node: SVGSVGElement | null) => void }) {
@@ -259,18 +324,7 @@ function VisualExtras({ report, chapterId }: { report: PersonReport; chapterId: 
         <Suspense fallback={<div className="visual-placeholder">Počítáme dlouhý pohled…</div>}>
           <LifeNumbers daysLived={elapsedDays} />
         </Suspense>
-        <details className="weeks-details">
-          <summary>
-            <span className="summary-action-open">Zobrazit čas v týdnech</span>
-            <span className="summary-action-close">Skrýt čas v týdnech</span>
-          </summary>
-          <LifeGrid
-            weeksLived={weeksSince(
-              birthDateUTC(report.person.birthYear, report.person.birthMonth, report.person.birthDay),
-            )}
-            label={displayName(report.person)}
-          />
-        </details>
+        <WeeksDisclosure report={report} />
       </div>
     );
   }
@@ -301,6 +355,80 @@ function SingleReport({ report }: { report: PersonReport }) {
   );
 }
 
+function ComparisonChapter({
+  chapter,
+  other,
+  chapterIndex,
+  first,
+  second,
+}: {
+  chapter: ReportChapter;
+  other: ReportChapter;
+  chapterIndex: number;
+  first: PersonReport;
+  second: PersonReport;
+}) {
+  const collapsed = chapter.id === "generation-context";
+  const [expanded, setExpanded] = useState(!collapsed);
+  const items = comparisonItems(chapter.items, other.items);
+  const people = [
+    { report: first, items: items.first },
+    { report: second, items: items.second },
+  ];
+  const body = (
+    <>
+      {items.shared.length > 0 && (
+        <div className="comparison-shared">
+          <p>Co je spojovalo</p>
+          <ChapterItems items={items.shared} />
+        </div>
+      )}
+      {people.some((person) => person.items.length > 0) && (
+        <div className="comparison-columns">
+          {people.map(({ report, items: personItems }, personIndex) => (
+            <article key={`${chapter.id}-${personIndex}`}>
+              <p className="comparison-person-label">Vydání {personIndex === 0 ? "A" : "B"}</p>
+              <h3>{displayName(report.person)} · {report.person.birthYear}</h3>
+              <p className="comparison-place">{report.historicalContext.primaryLabel}</p>
+              {personItems.length > 0 && <ChapterItems items={personItems} />}
+            </article>
+          ))}
+        </div>
+      )}
+    </>
+  );
+
+  if (collapsed) {
+    return (
+      <details
+        className={`comparison-chapter chapter-${chapter.id}`}
+        id={chapter.id}
+        onToggle={(event) => setExpanded(event.currentTarget.open)}
+      >
+        <summary>
+          <span>{String(chapterIndex + 1).padStart(2, "0")} · {chapterLabel(chapter)}</span>
+          <h2>{chapter.title}</h2>
+          <small className="summary-action" aria-hidden="true">
+            <span className="summary-action-open">Zobrazit kapitolu</span>
+            <span className="summary-action-close">Skrýt kapitolu</span>
+          </small>
+        </summary>
+        {expanded && <div className="comparison-chapter-expanded">{body}</div>}
+      </details>
+    );
+  }
+
+  return (
+    <section className={`comparison-chapter chapter-${chapter.id}`} id={chapter.id}>
+      <header className="chapter-header">
+        <p className="chapter-eyebrow"><span>{String(chapterIndex + 1).padStart(2, "0")}</span>{chapterLabel(chapter)}</p>
+        <h2>{chapter.id === "birth" ? "Dva začátky" : chapter.title}</h2>
+      </header>
+      {body}
+    </section>
+  );
+}
+
 function ComparisonReport({ reports }: { reports: [PersonReport, PersonReport] }) {
   const [first, second] = reports;
   return (
@@ -322,39 +450,20 @@ function ComparisonReport({ reports }: { reports: [PersonReport, PersonReport] }
         </div>
       </header>
 
+      <ChapterNavigation chapters={first.chapters} comparison />
+
       {first.chapters.map((chapter, chapterIndex) => {
         const other = chapterById(second, chapter.id);
         if (!other || chapter.id === "life-numbers") return null;
-        const items = comparisonItems(chapter.items, other.items);
-        const people = [
-          { report: first, items: items.first },
-          { report: second, items: items.second },
-        ];
         return (
-          <section className={`comparison-chapter chapter-${chapter.id}`} id={chapter.id} key={chapter.id}>
-            <header className="chapter-header">
-              <p className="chapter-eyebrow"><span>{String(chapterIndex + 1).padStart(2, "0")}</span>{chapter.eyebrow}</p>
-              <h2>{chapter.id === "birth" ? "Dva začátky" : chapter.title}</h2>
-            </header>
-            {items.shared.length > 0 && (
-              <div className="comparison-shared">
-                <p>Co je spojovalo</p>
-                <ChapterItems items={items.shared} />
-              </div>
-            )}
-            {people.some((person) => person.items.length > 0) && (
-              <div className="comparison-columns">
-                {people.map(({ report, items: personItems }, personIndex) => (
-                  <article key={`${chapter.id}-${personIndex}`}>
-                    <p className="comparison-person-label">Vydání {personIndex === 0 ? "A" : "B"}</p>
-                    <h3>{displayName(report.person)} · {report.person.birthYear}</h3>
-                    <p className="comparison-place">{report.historicalContext.primaryLabel}</p>
-                    {personItems.length > 0 && <ChapterItems items={personItems} />}
-                  </article>
-                ))}
-              </div>
-            )}
-          </section>
+          <ComparisonChapter
+            key={chapter.id}
+            chapter={chapter}
+            other={other}
+            chapterIndex={chapterIndex}
+            first={first}
+            second={second}
+          />
         );
       })}
     </section>
@@ -372,12 +481,6 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
     await generatePdf(primary, skySvg);
   };
 
-  const showChapter = (id: ReportChapter["id"]) => {
-    const element = document.getElementById(id);
-    if (element instanceof HTMLDetailsElement) element.open = true;
-    window.requestAnimationFrame(() => element?.scrollIntoView({ block: "start", behavior: "auto" }));
-  };
-
   return (
     <article className={`report${isPair ? " report-pair" : ""}`}>
       <nav className="report-toolbar" aria-label="Ovládání zprávy">
@@ -390,19 +493,7 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
       ) : (
         <>
           <Cover report={primary} skyRef={setSkySvg} />
-          <nav className="chapter-navigation" aria-label="Kapitoly zprávy">
-            <p>Kapitoly osobního vydání</p>
-            <ol>
-              {primary.chapters.map((chapter, index) => (
-                <li key={chapter.id}>
-                  <button type="button" onClick={() => showChapter(chapter.id)}>
-                    <span>{String(index + 1).padStart(2, "0")}</span>
-                    <strong>{chapter.title}</strong>
-                  </button>
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <ChapterNavigation chapters={primary.chapters} />
           <SingleReport report={primary} />
         </>
       )}
