@@ -6,6 +6,7 @@ import { uniqueReportItems, type ReportChapter, type ReportItem } from "../lib/r
 import { CITY_COORDS } from "../data/cityCoords";
 import { artForBirthYear } from "../data/artByDecade";
 import { birthDateUTC, daysSince, weeksSince } from "../lib/datetime";
+import { czAgePhrase } from "../lib/czech";
 import LifeGrid from "./LifeGrid";
 import SharePanel from "./SharePanel";
 import { COPY } from "../copy";
@@ -40,7 +41,7 @@ function chapterById(report: PersonReport, id: ReportChapter["id"]) {
 }
 
 function itemKind(item: ReportItem): string {
-  if (item.metadata.sensitivity === "difficult") return "Složitý kontext";
+  if (item.metadata.sensitivity === "difficult") return "Citlivý historický kontext";
   if (item.category === "city") return "Místní souvislost";
   if (item.category === "local") return "Souvislost ze země";
   if (["media", "writers", "famous", "contemporaries"].includes(item.category)) return "Kultura";
@@ -59,11 +60,27 @@ function itemKind(item: ReportItem): string {
   return labels[item.category] ?? "Dobový detail";
 }
 
+function itemVariant(item: ReportItem): string {
+  if (item.id.startsWith("fallback-")) return "missing";
+  if (item.metadata.sensitivity === "difficult") return "difficult";
+  if (item.category === "city") return "local";
+  if (["media", "writers", "famous", "contemporaries"].includes(item.category)) return "culture";
+  if (item.metadata.chapter === "different-from-today") return "contrast";
+  if (item.metadata.featured) return "featured";
+  return "standard";
+}
+
 function ItemCard({ item }: { item: ReportItem }) {
+  const variant = itemVariant(item);
+  const time = item.year
+    ? `${item.year}${item.age !== undefined && item.age >= 0 ? ` · ${czAgePhrase(item.age)}` : ""}`
+    : null;
   return (
-    <li className={`report-item tone-${item.metadata.tone} sensitivity-${item.metadata.sensitivity}`}>
-      <span className="item-kind">{itemKind(item)}</span>
-      {item.year && <span className="item-year">{item.year}</span>}
+    <li className={`report-item item-${variant} tone-${item.metadata.tone} sensitivity-${item.metadata.sensitivity}`}>
+      <div className="item-meta">
+        <span className="item-kind">{itemKind(item)}</span>
+        {time && <span className="item-year">{time}</span>}
+      </div>
       <p>{richText(item.text)}</p>
     </li>
   );
@@ -88,10 +105,12 @@ function comparisonItems(firstItems: ReportItem[], secondItems: ReportItem[]) {
 
 function ChapterFrame({
   chapter,
+  index,
   items = chapter.items,
   children,
 }: {
   chapter: ReportChapter;
+  index: number;
   items?: ReportItem[];
   children?: ReactNode;
 }) {
@@ -104,7 +123,7 @@ function ChapterFrame({
   const content = (
     <div className="chapter-content">
       <header className="chapter-header">
-        <p className="chapter-eyebrow">{chapter.eyebrow}</p>
+        <p className="chapter-eyebrow"><span>{String(index + 1).padStart(2, "0")}</span>{chapter.eyebrow}</p>
         <h2>{chapter.title}</h2>
         {chapter.introduction && <p className="chapter-intro">{chapter.introduction}</p>}
       </header>
@@ -116,7 +135,7 @@ function ChapterFrame({
     return (
       <details className={`report-chapter chapter-${chapter.id}`} id={chapter.id}>
         <summary>
-          <span>{chapter.eyebrow}</span>
+          <span>{String(index + 1).padStart(2, "0")} · {chapter.eyebrow}</span>
           <h2>{chapter.title}</h2>
           <small className="summary-action" aria-hidden="true">
             <span className="summary-action-open">Zobrazit kapitolu</span>
@@ -142,7 +161,10 @@ function Cover({ report, skyRef }: { report: PersonReport; skyRef: (node: SVGSVG
   return (
     <section className="report-cover" aria-labelledby="report-title">
       <div className="cover-copy">
-        <p className="cover-kicker">Osobní obraz jedné doby</p>
+        <div className="cover-edition-line">
+          <p className="cover-kicker">Osobní vydání · {birthDate(person)}</p>
+          <span aria-hidden="true">TS/{person.birthYear}/{person.variant + 1}</span>
+        </div>
         <h1 id="report-title">{reportTitle(person)}</h1>
         <p className="cover-subtitle">
           Dětství a dospívání · {historicalContext.cityLabel} · {person.birthYear}–{endYear}
@@ -152,12 +174,20 @@ function Cover({ report, skyRef }: { report: PersonReport; skyRef: (node: SVGSVG
           <div><dt>Tehdejší místo</dt><dd>{historicalContext.primaryLabel}</dd></div>
           <div><dt>Dnes</dt><dd>{historicalContext.presentDayLabel}</dd></div>
         </dl>
+        <div className="cover-age-line" aria-label={`Formativní období od roku ${person.birthYear} do roku ${endYear}`}>
+          <span><strong>{person.birthYear}</strong><small>narození</small></span>
+          <i aria-hidden="true" />
+          <span><strong>{person.birthYear + 10}</strong><small>10 let</small></span>
+          <i aria-hidden="true" />
+          <span><strong>{endYear}</strong><small>18 let</small></span>
+        </div>
         {historicalContext.transition && (
           <p className="cover-transition-note">Rok nebo měsíc narození zasahuje do změny státního uspořádání. Celé datum by údaj zpřesnilo.</p>
         )}
-        <p className="cover-note">{COPY.methodology}</p>
+        <div className="cover-note"><strong>Jak zprávu číst</strong><p>{COPY.methodology}</p></div>
       </div>
-      <div className="cover-visual" aria-label="Náhled oblohy v den narození">
+      <div className={`cover-visual${hasSky ? " has-sky" : " year-only"}`}>
+        <p className="cover-visual-label">{hasSky ? "Obloha v den narození" : "Rok narození"}</p>
         {hasSky ? (
           <Suspense fallback={<div className="visual-placeholder">Počítáme polohu hvězd…</div>}>
             <SkyMap
@@ -189,7 +219,7 @@ function Timeline({ report }: { report: PersonReport }) {
         <li key={milestone.age}>
           <div className="milestone-marker"><span>{milestone.age}</span><small>let</small></div>
           <div className="milestone-copy">
-            <p className="milestone-label">{milestone.label} · {milestone.year}</p>
+            <p className="milestone-label"><span>{milestone.year}</span>{milestone.label}</p>
             <ul>{milestone.items.map((item) => <li key={item.id}>{richText(item.text)}</li>)}</ul>
           </div>
         </li>
@@ -255,10 +285,11 @@ function SingleReport({ report }: { report: PersonReport }) {
     item.text.startsWith("V roce narození na mapě ještě existoval stát");
   return (
     <>
-      {report.chapters.map((chapter) => (
+      {report.chapters.map((chapter, index) => (
         <ChapterFrame
           key={chapter.id}
           chapter={chapter}
+          index={index}
           items={chapter.items.filter((item) =>
             !milestoneItemIds.has(item.id) && !belongsToMap(item),
           )}
@@ -357,11 +388,17 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
         <>
           <Cover report={primary} skyRef={setSkySvg} />
           <nav className="chapter-navigation" aria-label="Kapitoly zprávy">
-            {primary.chapters.map((chapter) => (
-              <button key={chapter.id} type="button" onClick={() => showChapter(chapter.id)}>
-                {chapter.title}
-              </button>
-            ))}
+            <p>Kapitoly osobního vydání</p>
+            <ol>
+              {primary.chapters.map((chapter, index) => (
+                <li key={chapter.id}>
+                  <button type="button" onClick={() => showChapter(chapter.id)}>
+                    <span>{String(index + 1).padStart(2, "0")}</span>
+                    <strong>{chapter.title}</strong>
+                  </button>
+                </li>
+              ))}
+            </ol>
           </nav>
           <SingleReport report={primary} />
         </>
