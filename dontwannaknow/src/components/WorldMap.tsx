@@ -45,38 +45,42 @@ export default function WorldMap({ birthYear }: Props) {
   const entries = Object.entries(COUNTRIES);
 
   return (
-    <figure className="world-map">
-      <svg
-        viewBox={WORLD_VIEWBOX}
-        xmlns="http://www.w3.org/2000/svg"
-        role="img"
-        aria-label={`Mapa států a hranic, které se od roku ${birthYear} proměnily`}
-      >
-        <rect x="0" y="0" width="1000" height="500" fill="#eef2ee" />
-        <g>
-          {entries.map(([iso, c]) => {
-            const g = isoToGone.get(iso);
-            const fill = g ? colorFor(g) : "#cdd6cd";
-            return (
-              <path
-                key={iso}
-                d={c.d}
-                fill={fill}
-                stroke="#fafffa"
-                strokeWidth={0.5}
-                strokeLinejoin="round"
-                aria-hidden="true"
-              />
-            );
-          })}
-        </g>
-      </svg>
-      {gone.length > 0 ? (
-        <figcaption>
-          <p className="map-caption">
-            Přibližná podoba světa v roce {birthYear}. Zvýrazněná území byla
-            součástí států, které dnes už v této podobě neexistují.
-          </p>
+    <div className="world-map-block">
+      <figure className="world-map">
+        <svg
+          viewBox={WORLD_VIEWBOX}
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label={`Mapa států a hranic, které se od roku ${birthYear} proměnily`}
+        >
+          <rect x="0" y="0" width="1000" height="500" fill="#eef2ee" />
+          <g>
+            {entries.map(([iso, c]) => {
+              const g = isoToGone.get(iso);
+              const fill = g ? colorFor(g) : "#cdd6cd";
+              return (
+                <path
+                  key={iso}
+                  d={c.d}
+                  fill={fill}
+                  stroke="#fafffa"
+                  strokeWidth={0.5}
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                />
+              );
+            })}
+          </g>
+        </svg>
+        <figcaption className="map-caption">
+          {gone.length > 0
+            ? `Přibližná podoba světa v roce ${birthYear}. Zvýrazněná území byla součástí států, které dnes už v této podobě neexistují.`
+            : `V roce ${birthYear} se mapa světa v hlavních obrysech podobala té dnešní.`}
+        </figcaption>
+      </figure>
+      {gone.length > 0 && (
+        <div className="world-changes">
+          <h3>Státy, které se mezitím proměnily</h3>
           <ul className="legend">
             {gone.map((g) => (
               <li key={g.name}>
@@ -92,14 +96,8 @@ export default function WorldMap({ birthYear }: Props) {
               </li>
             ))}
           </ul>
-        </figcaption>
-      ) : (
-        <figcaption>
-          <p className="map-caption">
-            V roce {birthYear} se mapa světa v hlavních obrysech podobala té dnešní.
-          </p>
-        </figcaption>
+        </div>
       )}
-    </figure>
+    </div>
   );
 }

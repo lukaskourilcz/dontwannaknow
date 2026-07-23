@@ -8,7 +8,7 @@ describe("NewForm", () => {
     render(<NewForm onSubmit={vi.fn()} />);
 
     expect(screen.getAllByText("Čí svět chcete poznat?")).toHaveLength(1);
-    expect(screen.getByText("Jaký je váš vztah k tomuto člověku?")).toBeInTheDocument();
+    expect(screen.getByText("Váš vztah k tomuto člověku")).toBeInTheDocument();
   });
 
   it("art-directs the decorative hero without exposing generated text", () => {
@@ -41,7 +41,7 @@ describe("NewForm", () => {
     render(<NewForm onSubmit={onSubmit} />);
 
     await user.type(screen.getByPlaceholderText("např. 12. 4. 1953 nebo 1953"), "12. 4. 1953");
-    await user.selectOptions(screen.getByRole("combobox", { name: "Ve kterém městě?" }), "prague");
+    await user.selectOptions(screen.getByRole("combobox", { name: "Město narození" }), "prague");
     await user.click(screen.getByRole("button", { name: "Vytvořit osobní vydání" }));
 
     expect(onSubmit).toHaveBeenCalledTimes(1);
@@ -62,7 +62,7 @@ describe("NewForm", () => {
     await user.click(screen.getByRole("button", { name: "Přidat druhého člověka pro porovnání" }));
 
     const dateInputs = screen.getAllByPlaceholderText("např. 12. 4. 1953 nebo 1953");
-    const cities = screen.getAllByRole("combobox", { name: "Ve kterém městě?" });
+    const cities = screen.getAllByRole("combobox", { name: "Město narození" });
     await user.type(dateInputs[0], "1953");
     await user.type(dateInputs[1], "1960");
     await user.selectOptions(cities[0], "prague");

@@ -72,18 +72,31 @@ function AppInner() {
     void generate(people.map((person) => ({ ...person, variant: person.variant + 1 })));
   };
 
+  const showReport = Boolean(reports && people && !loading);
+  const editionLabel = showReport && reports?.[0]
+    ? `TS/${reports[0].person.birthYear}/${reports[0].person.variant + 1}`
+    : "Česko a Ukrajina · 1920–2026";
+
   return (
     <div className="page site-shell">
       <a className="skip-link" href="#main-content">Přeskočit na hlavní obsah</a>
-      <header className="nav-header site-header">
+      <div className="masthead-strip">
+        <span>Osobní vydání z ověřených dobových dat</span>
+        <span>{editionLabel}</span>
+      </div>
+      <header className="site-header">
         <button type="button" className="brand-wordmark" onClick={reset} aria-label="Tehdejší svět — domů">
           <BrandMark className="brand-mark" />
-          <span className="brand-wordmark-copy">
-            <strong>{COPY.brand}</strong>
-            <small>Osobní vydání</small>
-          </span>
+          <strong>{COPY.brand}</strong>
         </button>
-        <span className="site-header-note">Česko a Ukrajina · 1920–současnost</span>
+        {showReport ? (
+          <nav className="report-toolbar" aria-label="Ovládání zprávy">
+            <button type="button" className="text-button" onClick={reset}>Nový tehdejší svět</button>
+            <button type="button" className="button-outline" onClick={showAnother}>Jiný výběr faktů</button>
+          </nav>
+        ) : (
+          <span className="site-header-note">Soukromě ve vašem prohlížeči · bez AI</span>
+        )}
       </header>
 
       <main id="main-content">
@@ -114,7 +127,7 @@ function AppInner() {
               transition={{ duration: reducedMotion ? 0 : 0.5, ease: EASE }}
             >
               <Suspense fallback={<div className="report-loading" role="status">Načítáme kapitoly…</div>}>
-                <Results reports={reports} people={people} onReset={reset} onRegenerate={showAnother} />
+                <Results reports={reports} people={people} />
               </Suspense>
             </m.div>
           )}

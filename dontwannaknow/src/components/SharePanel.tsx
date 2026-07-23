@@ -102,7 +102,7 @@ export default function SharePanel({
   return (
     <section className="share-panel" aria-labelledby="share-title" aria-busy={busy !== null} aria-describedby={status ? statusId : undefined}>
       <div className="share-panel-copy">
-        <p className="chapter-eyebrow">Uchovat a sdílet</p>
+        <p className="eyebrow">Uchovat a sdílet</p>
         <h2 id="share-title">Pošlete tento svět dál</h2>
         <p>Odkaz obsahuje jen údaje nutné k obnovení zprávy. Jméno je ve výchozím nastavení vynecháno.</p>
       </div>
@@ -121,15 +121,8 @@ export default function SharePanel({
             {includeNames && <p>Jméno bude součástí sdíleného souboru i odkazu.</p>}
           </div>
 
-          <div className="share-actions">
-            <button type="button" className="primary" disabled={busy !== null} onClick={() => void share()}>Sdílet odkaz</button>
-            <button type="button" className="secondary" disabled={busy !== null} onClick={() => void copyLink()}>
-              {copied ? "Odkaz zkopírován" : "Kopírovat odkaz"}
-            </button>
-          </div>
-
           <fieldset className="share-builder">
-            <legend>Vytvořit obrázek</legend>
+            <legend>Obrázek ke sdílení</legend>
             <label>
               <span>Obsah obrázku</span>
               <select value={kind} onChange={(event) => setKind(event.target.value as ShareImageKind)}>
@@ -149,10 +142,20 @@ export default function SharePanel({
                 <option value="story">Příběh · 1080 × 1920</option>
               </select>
             </label>
+          </fieldset>
+
+          <div className="share-actions">
+            <button type="button" className="primary" disabled={busy !== null} onClick={() => void share()}>Sdílet odkaz</button>
+            <button type="button" className="secondary" disabled={busy !== null} onClick={() => void copyLink()}>
+              {copied ? "Odkaz zkopírován" : "Kopírovat odkaz"}
+            </button>
             <button type="button" className="secondary" disabled={busy !== null} onClick={() => void createImage()}>
               {busy === "image" ? "Vytváříme obrázek…" : "Stáhnout obrázek"}
             </button>
-          </fieldset>
+            <button type="button" className="secondary" disabled={busy !== null} onClick={() => void createPdf()}>
+              {busy === "pdf" ? "Vytváříme PDF…" : "Památeční PDF"}
+            </button>
+          </div>
         </div>
 
         <figure className={`share-preview preview-${format}`} aria-label={`Náhled sdíleného obrázku: ${KIND_LABELS[kind]}`}>
@@ -166,11 +169,6 @@ export default function SharePanel({
           <figcaption>Náhled rozvržení · skutečný text se zalomí při vytvoření obrázku.</figcaption>
         </figure>
       </div>
-
-      <button type="button" className="keepsake-action" disabled={busy !== null} onClick={() => void createPdf()}>
-        <span>Vytvořit památeční vydání</span>
-        <small>PDF vznikne přímo ve vašem prohlížeči</small>
-      </button>
       {status && <p className="share-status" id={statusId} role="status" aria-live="polite">{status}</p>}
     </section>
   );

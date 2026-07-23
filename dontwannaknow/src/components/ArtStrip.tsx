@@ -19,13 +19,9 @@ export default function ArtStrip({
 
   return (
     <div className="art-strip-wrap">
-      <p className="art-intro">
-        Obrazy, kterým bylo v roce narození tohoto člověka kolem sta let.
-      </p>
       <div className="art-strip">
         {show.map((a, i) => {
           const age = ageInBirthYear(a, birthYear);
-          const ageLine = `V roce ${birthYear} bylo obrazu ${age} let`;
           return (
             <figure className="art-item" key={`${a.source}-${i}`}>
               <a
@@ -39,9 +35,8 @@ export default function ArtStrip({
               <figcaption>
                 <span className="art-title">{a.title}</span>
                 <span className="art-meta">
-                  {a.artist} · {a.year}
+                  {a.artist} · {a.year} · v roce {birthYear} bylo obrazu {age} let
                 </span>
-                <span className="art-age">{ageLine}</span>
               </figcaption>
             </figure>
           );

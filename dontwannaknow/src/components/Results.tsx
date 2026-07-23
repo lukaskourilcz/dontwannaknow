@@ -19,8 +19,6 @@ const ArtStrip = lazy(() => import("./ArtStrip"));
 type Props = {
   reports: PersonReport[];
   people: Person[];
-  onReset: () => void;
-  onRegenerate: () => void;
 };
 
 function richText(text: string): ReactNode {
@@ -178,11 +176,16 @@ function ChapterFrame({
         onToggle={(event) => setExpanded(event.currentTarget.open)}
       >
         <summary>
-          <span>{String(index + 1).padStart(2, "0")} · {chapterLabel(chapter)}</span>
-          <h2>{chapter.title}</h2>
-          <small className="summary-action" aria-hidden="true">
-            <span className="summary-action-open">Zobrazit kapitolu</span>
-            <span className="summary-action-close">Skrýt kapitolu</span>
+          <span className="summary-head">
+            <span className="summary-eyebrow">
+              {String(index + 1).padStart(2, "0")} — {chapterLabel(chapter)}
+              {chapter.id === "generation-context" ? " · citlivý kontext označen" : ""}
+            </span>
+            <h2>{chapter.title}</h2>
+          </span>
+          <small className="summary-action button-outline" aria-hidden="true">
+            <span className="summary-action-open">Zobrazit</span>
+            <span className="summary-action-close">Skrýt</span>
           </small>
         </summary>
         {expanded && (
@@ -199,20 +202,19 @@ function ChapterFrame({
 
 function WeeksDisclosure({ report }: { report: PersonReport }) {
   const [expanded, setExpanded] = useState(false);
+  const weeks = weeksSince(
+    birthDateUTC(report.person.birthYear, report.person.birthMonth, report.person.birthDay),
+  );
   return (
     <details className="weeks-details" onToggle={(event) => setExpanded(event.currentTarget.open)}>
       <summary>
-        <span className="summary-action-open">Zobrazit čas v týdnech</span>
-        <span className="summary-action-close">Skrýt čas v týdnech</span>
+        <span className="weeks-summary-label">
+          <span className="summary-action-open">Zobrazit čas v týdnech</span>
+          <span className="summary-action-close">Skrýt čas v týdnech</span>
+        </span>
+        <span className="weeks-summary-count" aria-hidden="true">{weeks.toLocaleString("cs-CZ")} týdnů</span>
       </summary>
-      {expanded && (
-        <LifeGrid
-          weeksLived={weeksSince(
-            birthDateUTC(report.person.birthYear, report.person.birthMonth, report.person.birthDay),
-          )}
-          label={displayName(report.person)}
-        />
-      )}
+      {expanded && <LifeGrid weeksLived={weeks} label={displayName(report.person)} />}
     </details>
   );
 }
@@ -226,10 +228,7 @@ function Cover({ report, skyRef }: { report: PersonReport; skyRef: (node: SVGSVG
   return (
     <section className="report-cover" aria-labelledby="report-title">
       <div className="cover-copy">
-        <div className="cover-edition-line">
-          <p className="cover-kicker">Osobní vydání · {birthDate(person)}</p>
-          <span aria-hidden="true">TS/{person.birthYear}/{person.variant + 1}</span>
-        </div>
+        <p className="cover-kicker">Osobní vydání · narození {person.birthYear}</p>
         <h1 id="report-title">{reportTitle(person)}</h1>
         <p className="cover-subtitle">
           Dětství a dospívání · {historicalContext.cityLabel} · {person.birthYear}–{endYear}
@@ -238,21 +237,14 @@ function Cover({ report, skyRef }: { report: PersonReport; skyRef: (node: SVGSVG
           <div><dt>Narození</dt><dd>{birthDate(person)}</dd></div>
           <div><dt>Tehdejší místo</dt><dd>{historicalContext.primaryLabel}</dd></div>
           <div><dt>Dnes</dt><dd>{historicalContext.presentDayLabel}</dd></div>
+          <div><dt>Formativní období</dt><dd>{person.birthYear}–{endYear}</dd></div>
         </dl>
-        <div className="cover-age-line" aria-label={`Formativní období od roku ${person.birthYear} do roku ${endYear}`}>
-          <span><strong>{person.birthYear}</strong><small>narození</small></span>
-          <i aria-hidden="true" />
-          <span><strong>{person.birthYear + 10}</strong><small>10 let</small></span>
-          <i aria-hidden="true" />
-          <span><strong>{endYear}</strong><small>18 let</small></span>
-        </div>
         {historicalContext.transition && (
           <p className="cover-transition-note">Rok nebo měsíc narození zasahuje do změny státního uspořádání. Celé datum by údaj zpřesnilo.</p>
         )}
         <div className="cover-note"><strong>Jak zprávu číst</strong><p>{COPY.methodology}</p></div>
       </div>
       <div className={`cover-visual${hasSky ? " has-sky" : " year-only"}`}>
-        <p className="cover-visual-label">{hasSky ? "Obloha v den narození" : "Rok narození"}</p>
         {hasSky ? (
           <Suspense fallback={<div className="visual-placeholder">Počítáme polohu hvězd…</div>}>
             <SkyMap
@@ -264,10 +256,15 @@ function Cover({ report, skyRef }: { report: PersonReport; skyRef: (node: SVGSVG
             />
           </Suspense>
         ) : (
-          <div className="cover-year-mark" aria-label={`Rok narození ${person.birthYear}`}>
-            <span>{person.birthYear}</span>
-            <small>Pro zobrazení oblohy zadejte celé datum narození.</small>
-          </div>
+          <figure className="cover-year-plate">
+            <div className="cover-year-mark" aria-label={`Rok narození ${person.birthYear}`}>
+              <span>{person.birthYear}</span>
+            </div>
+            <figcaption>
+              <span className="cover-year-caption-label">Rok narození</span>
+              <span className="cover-year-caption-note">Pro zobrazení oblohy zadejte celé datum narození.</span>
+            </figcaption>
+          </figure>
         )}
       </div>
     </section>
@@ -281,11 +278,11 @@ function Timeline({ report }: { report: PersonReport }) {
   return (
     <ol className="milestone-timeline" aria-label="Proměny podle věku">
       {report.milestones.map((milestone) => (
-        <li key={milestone.age}>
-          <div className="milestone-marker"><span>{milestone.age}</span><small>let</small></div>
-          <div className="milestone-copy">
-            <p className="milestone-label"><span>{milestone.year}</span>{milestone.label}</p>
-            <ul>{milestone.items.map((item) => <li key={item.id}>{richText(item.text)}</li>)}</ul>
+        <li key={milestone.age} className="milestone-row">
+          <span className="milestone-year">{milestone.year}</span>
+          <span className="milestone-age">{milestone.age <= 0 ? "Narození" : `${milestone.age} let`}</span>
+          <div className="milestone-text">
+            {milestone.items.map((item) => <p key={item.id}>{richText(item.text)}</p>)}
           </div>
         </li>
       ))}
@@ -298,7 +295,13 @@ function VisualExtras({ report, chapterId }: { report: PersonReport; chapterId: 
   if (chapterId === "teenage-years" && art.length) {
     return (
       <Suspense fallback={<div className="visual-placeholder">Načítáme dobové umění…</div>}>
-        <div className="chapter-visual"><h3>Umění, které už tehdy mělo svůj příběh</h3><ArtStrip items={art} birthYear={report.person.birthYear} /></div>
+        <div className="chapter-visual">
+          <div className="chapter-visual-head">
+            <h3>Umění, které už tehdy mělo svůj příběh</h3>
+            <span className="chapter-visual-note">Obrazům bylo kolem sta let</span>
+          </div>
+          <ArtStrip items={art} birthYear={report.person.birthYear} />
+        </div>
       </Suspense>
     );
   }
@@ -306,12 +309,9 @@ function VisualExtras({ report, chapterId }: { report: PersonReport; chapterId: 
     return (
       <div className="chapter-visual visual-stack">
         <Timeline report={report} />
-        <div>
-          <h3>Státy a hranice, které se mezitím proměnily</h3>
-          <Suspense fallback={<div className="visual-placeholder">Připravujeme mapu…</div>}>
-            <WorldMap birthYear={report.person.birthYear} />
-          </Suspense>
-        </div>
+        <Suspense fallback={<div className="visual-placeholder">Připravujeme mapu…</div>}>
+          <WorldMap birthYear={report.person.birthYear} />
+        </Suspense>
       </div>
     );
   }
@@ -406,11 +406,16 @@ function ComparisonChapter({
         onToggle={(event) => setExpanded(event.currentTarget.open)}
       >
         <summary>
-          <span>{String(chapterIndex + 1).padStart(2, "0")} · {chapterLabel(chapter)}</span>
-          <h2>{chapter.title}</h2>
-          <small className="summary-action" aria-hidden="true">
-            <span className="summary-action-open">Zobrazit kapitolu</span>
-            <span className="summary-action-close">Skrýt kapitolu</span>
+          <span className="summary-head">
+            <span className="summary-eyebrow">
+              {String(chapterIndex + 1).padStart(2, "0")} — {chapterLabel(chapter)}
+              {chapter.id === "generation-context" ? " · citlivý kontext označen" : ""}
+            </span>
+            <h2>{chapter.title}</h2>
+          </span>
+          <small className="summary-action button-outline" aria-hidden="true">
+            <span className="summary-action-open">Zobrazit</span>
+            <span className="summary-action-close">Skrýt</span>
           </small>
         </summary>
         {expanded && <div className="comparison-chapter-expanded">{body}</div>}
@@ -470,7 +475,7 @@ function ComparisonReport({ reports }: { reports: [PersonReport, PersonReport] }
   );
 }
 
-export default function Results({ reports, people, onReset, onRegenerate }: Props) {
+export default function Results({ reports, people }: Props) {
   const [skySvg, setSkySvg] = useState<SVGSVGElement | null>(null);
   const primary = reports[0];
   if (!primary) return null;
@@ -483,11 +488,6 @@ export default function Results({ reports, people, onReset, onRegenerate }: Prop
 
   return (
     <article className={`report${isPair ? " report-pair" : ""}`}>
-      <nav className="report-toolbar" aria-label="Ovládání zprávy">
-        <button type="button" className="text-button" onClick={onReset}>Nový tehdejší svět</button>
-        <button type="button" className="secondary" onClick={onRegenerate}>Ukázat další souvislosti</button>
-      </nav>
-
       {isPair ? (
         <ComparisonReport reports={[primary, reports[1]!]} />
       ) : (

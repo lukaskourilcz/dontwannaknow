@@ -24,8 +24,6 @@ describe("Results", () => {
       <Results
         reports={[report]}
         people={[person]}
-        onReset={vi.fn()}
-        onRegenerate={vi.fn()}
       />,
     );
 
@@ -66,8 +64,6 @@ describe("Results", () => {
       <Results
         reports={[report]}
         people={[person]}
-        onReset={vi.fn()}
-        onRegenerate={vi.fn()}
       />,
     );
     const context = report.chapters.find((chapter) => chapter.id === "generation-context")!;
@@ -83,8 +79,6 @@ describe("Results", () => {
       <Results
         reports={[report]}
         people={[person]}
-        onReset={vi.fn()}
-        onRegenerate={vi.fn()}
       />,
     );
 
@@ -99,8 +93,6 @@ describe("Results", () => {
       <Results
         reports={[report, report]}
         people={[person, person]}
-        onReset={vi.fn()}
-        onRegenerate={vi.fn()}
       />,
     );
 
