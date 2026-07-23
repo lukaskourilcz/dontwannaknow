@@ -5,10 +5,8 @@ V repozitáři jsou dokončené všechny proveditelné body rebrandingu a produk
 ## Před veřejným spuštěním
 
 - [ ] Výchozí větev GitHub repozitáře už je `main`; nastavit pro ni ochranu a vyžadovat úspěšný Vercel/CI check před sloučením. GitHub API 22. července 2026 potvrdilo, že ochrana zatím zapnutá není. `[imp:5]` `[owner:me]`
-- [ ] Ve Vercelu nastavit Production Branch na `main` a ověřit Root Directory `dontwannaknow/`, Build Command `npm run build`, Output Directory `dist` a Node.js `22.x`. `[imp:5]` `[owner:me]`
 - [ ] Rozhodnout, zda je provoz osobní a nekomerční. Vercel Hobby je určený jen pro takové použití; před komerčním spuštěním přejít na Pro nebo jiný hosting s odpovídajícími podmínkami. `[imp:5]` `[owner:me]`
 - [ ] Vybrat a připojit finální produkční doménu. Poslat její přesnou adresu k doplnění absolutních `og:url`, `og:image` a canonical metadat. `[imp:5]` `[owner:me]`
-- [ ] Nastavit trvalá přesměrování ze staré domény, pokud už byla veřejně používaná. `[imp:4]` `[owner:me]`
 - [ ] Ve Vercelu nastavit upozornění na 50 %, 75 % a 90 % limitů a pro placený plán také pevný měsíční strop. `[imp:4]` `[owner:me]`
 
 ## Značka a externí účty
