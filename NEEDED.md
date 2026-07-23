@@ -38,3 +38,12 @@ V repozitáři jsou dokončené všechny proveditelné body rebrandingu a produk
 - [ ] Zvažovat backend teprve tehdy, pokud vznikne potvrzený požadavek na účty, uložené zprávy, týmovou redakci nebo individuální serverové OG náhledy. `[imp:1]` `[owner:me]`
 
 Aktuální cenový a kapacitní model je v [`stack-and-scaling.md`](./stack-and-scaling.md). Částky jsou odhady, dokud v něm nedoplníte skutečný Vercel tarif, cenu domény a produkční spotřebu.
+
+## Vývojářské nástroje
+
+- [ ] **Nainstalovat a inicializovat RTK (`rtk-ai/rtk`)** — RTK nešlo nastavit z webové relace Claude Code, protože jeho GitHub host pro stahování je mimo síťový allowlist relace (`github.com/rtk-ai/rtk` i jeho release binárky vrací HTTP 403). Nastavte ho lokálně doma příkazy níže a poté ho povolte pro tento repozitář podle `rtk --help` / dokumentace RTK (přesný příkaz pro jednotlivý repozitář zde není uveden, protože se nástroj v sandboxu nenainstaloval). `[imp:2]` `[owner:me]`
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/install.sh | sh
+rtk init --global
+```
