@@ -42,6 +42,7 @@ Aktuální cenový a kapacitní model je v [`stack-and-scaling.md`](./stack-and-
 ## Vývojářské nástroje
 
 - [ ] **Nainstalovat a inicializovat RTK (`rtk-ai/rtk`)** — RTK nešlo nastavit z webové relace Claude Code, protože jeho GitHub host pro stahování je mimo síťový allowlist relace (`github.com/rtk-ai/rtk` i jeho release binárky vrací HTTP 403). Nastavte ho lokálně doma příkazy níže a poté ho povolte pro tento repozitář podle `rtk --help` / dokumentace RTK (přesný příkaz pro jednotlivý repozitář zde není uveden, protože se nástroj v sandboxu nenainstaloval). `[imp:2]` `[owner:me]` `[time:1h]` `[kind:deploy]`
+- [ ] **Zapnout Vercel Web Analytics pro tento projekt** — v projektu na Vercelu zapni Web Analytics, aby OwnDashboard v přehledu projektu ukazoval návštěvníky a zobrazení stránek (načítá je přes Vercel API podle tohoto repozitáře). `[imp:2]` `[owner:me]` `[time:15m]` `[kind:setup]`
 
 ```sh
 curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/install.sh | sh
