@@ -2,19 +2,6 @@
 
 Stav, oficiální ceníky a regionální rozpětí ověřeny 22. července 2026. Částky jsou v USD bez DPH a bez kurzového přepočtu. Vercel používá regionální ceny a Pro kredit, proto je pro skutečnou fakturu vždy rozhodující dashboard.
 
-## Současná architektura
-
-Tehdejší svět je statická React 19 aplikace ve strict TypeScriptu na Vite 7. V prohlížeči probíhá historické skládání zprávy, výpočet oblohy (`astronomy-engine`), Canvas obrázky i PDF (`jsPDF`). Produkce nemá aplikační server, Vercel Function, databázi, objektové úložiště, frontu, e-mailovou službu ani runtime AI.
-
-Produkční build ověřený 22. července 2026 má 8,1 MB všech souborů dohromady. To není velikost jedné návštěvy: moduly zprávy, mapy, oblohy, umění, redakční konzole a PDF jsou rozdělené a načítají se podle potřeby. Podle gzip velikostí buildu je rozumný plánovací odhad:
-
-- první návštěva formuláře: přibližně 0,4 MB;
-- první vytvořená zpráva včetně vybraného umění: přibližně 0,7–1,5 MB navíc;
-- PDF export: přibližně 0,5 MB knihovny a fontů navíc;
-- opakovaná návštěva bývá levnější díky hashovaným souborům, CDN cache a ETagům.
-
-Dva největší datové chunky mají 509 kB (`history`) a 502 kB (`cityFacts`) před gzipem a patří archivům redakčního `/dev` rozhraní. Nejsou součástí běžné veřejné cesty, ale stále jsou v nasazeném statickém balíčku a stáhnou se při otevření příslušných dat v `/dev`. Veřejný shell má 145 kB / 49 kB gzip, samostatný report 32 kB / 11 kB gzip, mapa 128 kB / 49 kB gzip a obloha 57 kB / 25 kB gzip. `jsPDF` (386 kB / 125 kB gzip) i jeho pomocné moduly zůstávají mimo počáteční cestu a načtou se až při exportu.
-
 ## Co stojí projekt dnes
 
 Repozitář nedokáže zjistit váš skutečný Vercel tarif, cenu domény ani daňový režim. Při současné statické architektuře ale platí tento ověřitelný model:
