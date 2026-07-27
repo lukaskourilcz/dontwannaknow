@@ -17,6 +17,14 @@ V repozitáři jsou dokončené všechny proveditelné body rebrandingu a produk
 - [ ] Ověřit finální statickou OG kartu ve Facebook Sharing Debuggeru, LinkedIn Post Inspectoru a náhledu X až po nasazení absolutních URL. `[imp:3]` `[owner:me]` `[time:1h]` `[kind:content]`
 - [ ] Hero média jsou nasazená. Pro zbývající OG, kapitolové a share podklady nejprve vyhledat aktuální levné nebo bezplatné generátory a ověřit jejich cenu, licenci, soukromí, watermark a exportní rozlišení podle [`docs/generated-media.md`](./docs/generated-media.md). Bez dalšího výstupu ponechat funkční CSS/SVG fallbacky; nevytvářet placeholdery. `[imp:2]` `[owner:ai]` `[time:2h]` `[kind:legal]`
 
+## Portfolio (27. 7. 2026)
+
+Položka v portfoliu se přejmenovala z „Don't Wanna Know“ na Tehdejší svět v obou
+jazycích a animovaný náhled byl nahraný znovu z aktuálního designu.
+
+- [ ] Po přejmenování repozitáře a Vercel projektu na `tehdejsi-svet` zkontrolovat odkaz v portfoliu — dnes míří na `https://dontwannaknow.vercel.app` a po změně domény ho bude potřeba upravit v obou jazykových souborech. `[imp:3]` `[owner:me]` `[time:20m]` `[kind:deploy]`
+- [ ] Po každém výraznějším redesignu nahrát náhled znovu podle `.claude/skills/preview-video/SKILL.md`; výstup patří do `nxt-portfolio/public/previews/dont-wanna-know/`. `[imp:2]` `[owner:ai]` `[time:30m]` `[kind:content]`
+
 ## Produkční ověření
 
 - [ ] Na produkční doméně vytvořit českou i ukrajinskou zprávu, porovnání dvou lidí a zprávu obnovenou ze sdíleného odkazu. Ověřit, že odkaz standardně neobsahuje jméno. `[imp:5]` `[owner:me]` `[time:1h]` `[kind:content]`
