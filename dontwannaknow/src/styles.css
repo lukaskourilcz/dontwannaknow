@@ -289,18 +289,20 @@ button.secondary:hover,
 }
 
 .onboarding-hero {
+  display: flex;
+  flex-direction: column;
   position: sticky;
   top: 2rem;
   min-width: 0;
-  padding-top: clamp(1rem, 6vw, 5rem);
+  padding-top: clamp(0.5rem, 3vw, 2.5rem);
 }
 
 .hero-archive-motif {
-  width: min(100%, 27rem);
-  aspect-ratio: 4 / 5;
+  width: min(100%, 29rem);
+  aspect-ratio: 5 / 6;
   position: relative;
   overflow: hidden;
-  margin-top: clamp(2rem, 6vw, 4rem);
+  margin-top: clamp(1.5rem, 3.5vw, 2.5rem);
   border: 1px solid var(--rule);
   border-radius: var(--radius-surface);
   background: var(--surface-sunk);
@@ -323,6 +325,62 @@ button.secondary:hover,
 }
 
 .hero-archive-motif img { object-fit: cover; }
+
+/* The three.js archive column sits over the poster and fades in once it has
+   drawn its first frame, so a slow or unsupported browser never sees a gap. */
+.hero-scene {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity var(--duration-reveal) var(--ease-out);
+}
+
+.hero-archive-motif.scene-ready .hero-scene { opacity: 1; }
+.hero-scene.is-lost { opacity: 0; }
+
+.hero-scene-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Registration marks and edge falloff, matching the printed motif language. */
+.hero-archive-frame {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--duration-reveal) var(--ease-out);
+  background:
+    linear-gradient(to bottom, color-mix(in srgb, var(--green-deep) 35%, transparent), transparent 9%),
+    linear-gradient(to top, color-mix(in srgb, var(--green-deep) 35%, transparent), transparent 9%);
+}
+
+.hero-archive-frame::before,
+.hero-archive-frame::after {
+  content: "";
+  position: absolute;
+  width: 1.35rem;
+  height: 1.35rem;
+  border: 1.5px solid var(--coral);
+}
+
+.hero-archive-frame::before {
+  top: 0.85rem;
+  left: 0.85rem;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.hero-archive-frame::after {
+  right: 0.85rem;
+  bottom: 0.85rem;
+  border-top: 0;
+  border-left: 0;
+}
+
+.hero-archive-motif.scene-ready .hero-archive-frame { opacity: 1; }
 
 .trust-index {
   margin: 1.5rem 0 0;
@@ -1042,7 +1100,16 @@ details[open] > summary .summary-action-close { display: inline; }
   .onboarding { grid-template-columns: 1fr; gap: 2.5rem; }
   .onboarding-hero { position: static; padding-top: 0; }
   .onboarding-hero h1 { max-width: 12ch; }
-  .hero-archive-motif { width: min(100%, 50rem); aspect-ratio: 4 / 3; }
+  .hero-archive-frame::before,
+  .hero-archive-frame::after { width: 1.1rem; height: 1.1rem; }
+  /* Stacked to one column the plate has to arrive before the body copy,
+     otherwise nothing of it is on screen when the page opens. */
+  .hero-kicker { order: 1; }
+  .onboarding-hero h1 { order: 2; }
+  .hero-archive-motif { order: 3; width: min(100%, 34rem); aspect-ratio: 1 / 1; }
+  .hero-positioning { order: 4; margin-top: 1.75rem; }
+  .hero-description { order: 5; }
+  .trust-index { order: 6; }
   .report-cover { grid-template-columns: 1fr; min-height: 0; }
   .cover-visual { width: min(100%, 34rem); }
   .share-builder { grid-template-columns: 1fr 1fr; }

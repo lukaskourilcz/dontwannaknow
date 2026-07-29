@@ -1,7 +1,8 @@
-import { useId, useState } from "react";
+import { useId, useMemo, useState } from "react";
 import { citiesFor } from "../data/cityCatalog";
 import type { SupportedCountry } from "../data/countryDecades";
 import { COPY } from "../copy";
+import HeroArchive from "./HeroArchive";
 import { parseDate } from "../lib/parseDate";
 import {
   RELATIONSHIPS,
@@ -184,6 +185,10 @@ export default function NewForm({ onSubmit }: Props) {
   const [primaryErrors, setPrimaryErrors] = useState<DraftErrors>({});
   const [secondaryErrors, setSecondaryErrors] = useState<DraftErrors>({});
 
+  // Drives the hero motif only. parseDate already rejects years outside the
+  // supported range, and the value never leaves the browser.
+  const heroYear = useMemo(() => parseDate(primary.birthDate)?.year ?? null, [primary.birthDate]);
+
   const submit = (event: React.FormEvent) => {
     event.preventDefault();
     const first = personFromDraft(primary);
@@ -212,25 +217,8 @@ export default function NewForm({ onSubmit }: Props) {
         <p className="hero-kicker">Soukromé osobní vydání</p>
         <h1 id={`${formId}-title`}>{COPY.heroQuestion}</h1>
         <p className="hero-positioning">{COPY.positioning}</p>
+        <HeroArchive highlightYear={heroYear} />
         <p className="hero-description">{COPY.description}</p>
-        <div className="hero-archive-motif" aria-hidden="true">
-          <picture>
-            <source
-              media="(max-width: 980px)"
-              srcSet="/media/hero-editorial-mobile.webp"
-              width="800"
-              height="600"
-            />
-            <img
-              src="/media/hero-editorial-desktop.webp"
-              width="720"
-              height="900"
-              alt=""
-              decoding="async"
-              fetchPriority="high"
-            />
-          </picture>
-        </div>
         <ul className="trust-index" aria-label="Soukromí, metoda a rozsah">
           <li><span>01</span><strong>Jen ve vašem prohlížeči</strong><small>Nic z formuláře se neposílá na server.</small></li>
           <li><span>02</span><strong>Bez AI při tvorbě zprávy</strong><small>Výběr je deterministický a vychází z místních dat.</small></li>
