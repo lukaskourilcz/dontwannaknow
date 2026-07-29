@@ -2,161 +2,417 @@
   {
     "city": "chernihiv",
     "year": 1923,
-    "text": "dřevěný kostel svaté Kateřiny a další středověké památky města byly v raných sovětských dobách zařazeny pod ochranu památek"
+    "text": "dřevěný kostel svaté Kateřiny a další středověké památky města byly v raných sovětských dobách zařazeny pod ochranu památek",
+    "rel": [
+      5,
+      1,
+      1,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1933,
-    "text": "holodomor zasáhl vesnice Černihovské oblasti se zvláštní silou"
+    "text": "holodomor zasáhl vesnice Černihovské oblasti se zvláštní silou",
+    "rel": [
+      4,
+      5,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1941,
-    "text": "wehrmacht obsadil město v září; kostely z dob Kyjevské Rusi byly poškozeny"
+    "text": "wehrmacht obsadil město v září; kostely z dob Kyjevské Rusi byly poškozeny",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1941,
-    "text": "wehrmacht obsadil Černihiv 9. září po těžkém bombardování historického centra"
+    "text": "wehrmacht obsadil Černihiv 9. září po těžkém bombardování historického centra",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1943,
-    "text": "sovětské síly osvobodily Černihiv 21. září"
+    "text": "sovětské síly osvobodily Černihiv 21. září",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1962,
-    "text": "byl uveden do provozu černihovský závod na syntetická vlákna Chimvolokno"
+    "text": "byl uveden do provozu černihovský závod na syntetická vlákna Chimvolokno",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1968,
-    "text": "Černihovský kombinát na česanou vlnu se stal předním textilním výrobcem v SSSR"
+    "text": "Černihovský kombinát na česanou vlnu se stal předním textilním výrobcem v SSSR",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1975,
-    "text": "černihovské závody na chemická vlákna a syntetické textilie byly významnými sovětskými zaměstnavateli"
+    "text": "černihovské závody na chemická vlákna a syntetické textilie byly významnými sovětskými zaměstnavateli",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1975,
-    "text": "v Černihivu byla zahájena trolejbusová doprava"
+    "text": "v Černihivu byla zahájena trolejbusová doprava",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1922,
-    "text": "Černihiv byl malým správním centrem s katedrálami z 11. století"
+    "text": "Černihiv byl malým správním centrem s katedrálami z 11. století",
+    "rel": [
+      5,
+      0,
+      2,
+      1,
+      1,
+      2
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1932,
-    "text": "holodomor zasáhl Černihovský region tvrdě; vylidňování venkova pokračovalo až do roku 1934"
+    "text": "holodomor zasáhl Černihovský region tvrdě; vylidňování venkova pokračovalo až do roku 1934",
+    "rel": [
+      5,
+      5,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1943,
-    "text": "Rudá armáda osvobodila Černihiv v září po měsících partyzánské činnosti v polesských lesích"
+    "text": "Rudá armáda osvobodila Černihiv v září po měsících partyzánské činnosti v polesských lesích",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1948,
-    "text": "černihovský vlnařský textilní kombinát obnovil plnou výrobu"
+    "text": "černihovský vlnařský textilní kombinát obnovil plnou výrobu",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      2,
+      1
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1971,
-    "text": "černihovský závod na syntetická vlákna byl jedním z největších nehutních zaměstnavatelů na Ukrajině"
+    "text": "černihovský závod na syntetická vlákna byl jedním z největších nehutních zaměstnavatelů na Ukrajině",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1941,
-    "text": "Černihiv padl 9. září, krátce před uzavřením kyjevského kotle"
+    "text": "Černihiv padl 9. září, krátce před uzavřením kyjevského kotle",
+    "rel": [
+      5,
+      5,
+      2,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1961,
-    "text": "městský stadion byl pojmenován po Juriji Gagarinovi"
+    "text": "městský stadion byl pojmenován po Juriji Gagarinovi",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      1
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1964,
-    "text": "Jurij Gagarin osobně navštívil stadion nesoucí jeho jméno"
+    "text": "Jurij Gagarin osobně navštívil stadion nesoucí jeho jméno",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      2,
+      2
+    ]
   },
   {
     "city": "chernihiv",
     "year": 2022,
-    "text": "3. března zabilo svržení nejméně osmi neřízených leteckých pum desítky civilistů v obytné čtvrti"
+    "text": "3. března zabilo svržení nejméně osmi neřízených leteckých pum desítky civilistů v obytné čtvrti",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "chernihiv",
     "year": 2022,
-    "text": "16. března zahynulo nejméně sedmnáct lidí čekajících ve frontě na chleba u obchodu"
+    "text": "16. března zahynulo nejméně sedmnáct lidí čekajících ve frontě na chleba u obchodu",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "chernihiv",
     "year": 2022,
-    "text": "31. března ukrajinské síly prolomily obklíčení města, které Rusové nikdy nedobyli; obléhání poničilo zhruba 70 procent zástavby"
+    "text": "31. března ukrajinské síly prolomily obklíčení města, které Rusové nikdy nedobyli; obléhání poničilo zhruba 70 procent zástavby",
+    "rel": [
+      5,
+      5,
+      5,
+      3,
+      5,
+      5
+    ]
   },
   {
     "city": "chernihiv",
     "year": 2023,
-    "text": "19. srpna zasáhla ruská střela náměstí u Ševčenkova činoherního divadla a zabila sedm lidí, mezi nimi šestileté dítě"
+    "text": "19. srpna zasáhla ruská střela náměstí u Ševčenkova činoherního divadla a zabila sedm lidí, mezi nimi šestileté dítě",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1963,
-    "text": "na podzim byla u černihovského závodu na chemická vlákna spuštěna druhá výrobní etapa"
+    "text": "na podzim byla u černihovského závodu na chemická vlákna spuštěna druhá výrobní etapa",
+    "rel": [
+      5,
+      2,
+      2,
+      2,
+      3,
+      1
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1964,
-    "text": "černihovský kombinát chemických vláken dosáhl plné projektované kapacity 61 000 tun ročně"
+    "text": "černihovský kombinát chemických vláken dosáhl plné projektované kapacity 61 000 tun ročně",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1958,
-    "text": "v letech 1952 až 1958 proběhla rozsáhlá obnova Boriso-hlibského soboru z 12. století"
+    "text": "v letech 1952 až 1958 proběhla rozsáhlá obnova Boriso-hlibského soboru z 12. století",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1979,
-    "text": "v Boriso-hlibském soboru byla otevřena expozice muzea lidového a dekorativního umění"
+    "text": "v Boriso-hlibském soboru byla otevřena expozice muzea lidového a dekorativního umění",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1976,
-    "text": "byl postaven pivovar Desna podle českých technologií, jeden z nejmodernějších v Sovětském svazu"
+    "text": "byl postaven pivovar Desna podle českých technologií, jeden z nejmodernějších v Sovětském svazu",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      4,
+      3
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1988,
-    "text": "pivovar Desna uvařil nové pivo pojmenované Černihivske k 1300. výročí města"
+    "text": "pivovar Desna uvařil nové pivo pojmenované Černihivske k 1300. výročí města",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "chernihiv",
     "year": 1996,
-    "text": "v září získala belgická skupina Interbrew většinový podíl v pivovaru Desna"
+    "text": "v září získala belgická skupina Interbrew většinový podíl v pivovaru Desna",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "chernihiv",
     "year": 2022,
-    "text": "4. dubna ruská vojska podle ukrajinských úřadů opustila Černihovskou oblast po neúspěšném obléhání"
+    "text": "4. dubna ruská vojska podle ukrajinských úřadů opustila Černihovskou oblast po neúspěšném obléhání",
+    "rel": [
+      4,
+      5,
+      5,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "chernihiv",
     "year": 2006,
-    "text": "pivovar Desna se stal součástí nadnárodní skupiny Anheuser-Busch InBev"
+    "text": "pivovar Desna se stal součástí nadnárodní skupiny Anheuser-Busch InBev",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "chernihiv",
     "year": 2022,
-    "text": "jarní obléhání zničilo nebo poškodilo zhruba sedmdesát procent městské zástavby"
+    "text": "jarní obléhání zničilo nebo poškodilo zhruba sedmdesát procent městské zástavby",
+    "rel": [
+      5,
+      5,
+      5,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "chernihiv",
     "year": 2022,
-    "text": "na jaře těžce poškodily ruské střely i městský stadion, který poté vyplenili rabující"
+    "text": "na jaře těžce poškodily ruské střely i městský stadion, který poté vyplenili rabující",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      2
+    ]
   }
 ]

@@ -2,461 +2,1197 @@
   {
     "city": "odesa",
     "year": 1920,
-    "text": "sovětské síly definitivně obsadily město po letech střídání moci za občanské války"
+    "text": "sovětské síly definitivně obsadily město po letech střídání moci za občanské války",
+    "rel": [
+      5,
+      5,
+      2,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1920,
-    "text": "Rudá armáda definitivně obsadila město v únoru, čímž ukončila francouzskou a bělogvardějskou intervenci"
+    "text": "Rudá armáda definitivně obsadila město v únoru, čímž ukončila francouzskou a bělogvardějskou intervenci",
+    "rel": [
+      5,
+      5,
+      2,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1923,
-    "text": "Oděský filmový ateliér byl reorganizován a začali tam pracovat bratři Vasiljevové"
+    "text": "Oděský filmový ateliér byl reorganizován a začali tam pracovat bratři Vasiljevové",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1925,
-    "text": "Sergej Ejzenštejn natočil film Křižník Potěmkin včetně scény na Potěmkinových schodech"
+    "text": "Sergej Ejzenštejn natočil film Křižník Potěmkin včetně scény na Potěmkinových schodech",
+    "rel": [
+      5,
+      2,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1926,
-    "text": "spisovatel Isaak Babel vydal Oděské povídky čerpající z gangsterů z Moldavanky kolem Miška Japončika"
+    "text": "spisovatel Isaak Babel vydal Oděské povídky čerpající z gangsterů z Moldavanky kolem Miška Japončika",
+    "rel": [
+      5,
+      1,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1928,
-    "text": "román Jurije Oleši Závist popsal novou sovětskou oděskou inteligenci"
+    "text": "román Jurije Oleši Závist popsal novou sovětskou oděskou inteligenci",
+    "rel": [
+      4,
+      0,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1932,
-    "text": "uprchlíci před holodomorem z okolních vesnic byli na okraji města vraceni zpět"
+    "text": "uprchlíci před holodomorem z okolních vesnic byli na okraji města vraceni zpět",
+    "rel": [
+      5,
+      4,
+      3,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1933,
-    "text": "oděský přístav odbavoval rekordní vývoz obilí, i když venkov hladověl"
+    "text": "oděský přístav odbavoval rekordní vývoz obilí, i když venkov hladověl",
+    "rel": [
+      5,
+      3,
+      3,
+      4,
+      3,
+      5
+    ]
   },
   {
     "city": "odesa",
     "year": 1934,
-    "text": "jazzový orchestr Leonida Utěsova vystupoval ve filmu Veselí chlapíci a popularizoval oděský hudební styl"
+    "text": "jazzový orchestr Leonida Utěsova vystupoval ve filmu Veselí chlapíci a popularizoval oděský hudební styl",
+    "rel": [
+      4,
+      2,
+      5,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1937,
-    "text": "spisovatel Isaak Babel byl zatčen a později během Velkého teroru zastřelen"
+    "text": "spisovatel Isaak Babel byl zatčen a později během Velkého teroru zastřelen",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1941,
-    "text": "Oděsa se před pádem 73 dní bránila rumunským a německým silám"
+    "text": "Oděsa se před pádem 73 dní bránila rumunským a německým silám",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1941,
-    "text": "od října se město stalo hlavním městem rumunsky okupovaného Podněstří"
+    "text": "od října se město stalo hlavním městem rumunsky okupovaného Podněstří",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1941,
-    "text": "po bombardování rumunského velitelství byly tisíce Židů zaživa upáleny ve skladech střelného prachu na Lustdorfské cestě"
+    "text": "po bombardování rumunského velitelství byly tisíce Židů zaživa upáleny ve skladech střelného prachu na Lustdorfské cestě",
+    "rel": [
+      5,
+      5,
+      3,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1942,
-    "text": "rumunsky okupovaná Oděsa byla dějištěm oděského masakru Židů"
+    "text": "rumunsky okupovaná Oděsa byla dějištěm oděského masakru Židů",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1943,
-    "text": "v oděských katakombách operovali partyzáni pod vedením Vladimira Molodcova-Badajeva"
+    "text": "v oděských katakombách operovali partyzáni pod vedením Vladimira Molodcova-Badajeva",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1944,
-    "text": "Rudá armáda dobyla město zpět v dubnu"
+    "text": "Rudá armáda dobyla město zpět v dubnu",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1945,
-    "text": "tržnice Privoz obnovila plný provoz jako hlavní potravinové centrum města"
+    "text": "tržnice Privoz obnovila plný provoz jako hlavní potravinové centrum města",
+    "rel": [
+      5,
+      4,
+      5,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1949,
-    "text": "Oděský filmový ateliér obnovil produkci po válečné evakuaci z Taškentu"
+    "text": "Oděský filmový ateliér obnovil produkci po válečné evakuaci z Taškentu",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1953,
-    "text": "Potěmkinovy schody byly přejmenovány na Bulvárové schody a zrestaurovány"
+    "text": "Potěmkinovy schody byly přejmenovány na Bulvárové schody a zrestaurovány",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1955,
-    "text": "Mark Berness vystupoval v Oděské filharmonii před plnými sály"
+    "text": "Mark Berness vystupoval v Oděské filharmonii před plnými sály",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      1,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1960,
-    "text": "severně od města začala stavba průmyslového přístavu Južnyj"
+    "text": "severně od města začala stavba průmyslového přístavu Južnyj",
+    "rel": [
+      4,
+      2,
+      2,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1965,
-    "text": "Oděse byl Sovětským svazem udělen status 'města-hrdiny'"
+    "text": "Oděse byl Sovětským svazem udělen status 'města-hrdiny'",
+    "rel": [
+      5,
+      2,
+      5,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1966,
-    "text": "komik Roman Karcev začal vystupovat v oděském estrádním divadle Parnas-2"
+    "text": "komik Roman Karcev začal vystupovat v oděském estrádním divadle Parnas-2",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      2,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1967,
-    "text": "Michail Žvaneckij začal psát pro Arkadije Rajkina, zatímco působil v Oděse"
+    "text": "Michail Žvaneckij začal psát pro Arkadije Rajkina, zatímco působil v Oděse",
+    "rel": [
+      4,
+      1,
+      3,
+      4,
+      3,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1970,
-    "text": "propuknutí cholery vynutilo na týdny karanténu celého města"
+    "text": "propuknutí cholery vynutilo na týdny karanténu celého města",
+    "rel": [
+      5,
+      5,
+      5,
+      3,
+      2,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1972,
-    "text": "mnoho oděských Židů začalo emigrovat poté, co Sověti pod americkým tlakem uvolnili výjezdní víza"
+    "text": "mnoho oděských Židů začalo emigrovat poté, co Sověti pod americkým tlakem uvolnili výjezdní víza",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      5
+    ]
   },
   {
     "city": "odesa",
     "year": 1975,
-    "text": "Černomořská námořní plavba se sídlem v Oděse provozovala jedno z největších obchodních loďstev na světě"
+    "text": "Černomořská námořní plavba se sídlem v Oděse provozovala jedno z největších obchodních loďstev na světě",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1976,
-    "text": "Kira Muratová natočila v Oděském filmovém ateliéru film Dlouhé loučení, ačkoli jej cenzoři odložili"
+    "text": "Kira Muratová natočila v Oděském filmovém ateliéru film Dlouhé loučení, ačkoli jej cenzoři odložili",
+    "rel": [
+      5,
+      0,
+      1,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1978,
-    "text": "v Centralnyj se otevřel nový terminál oděského letiště"
+    "text": "v Centralnyj se otevřel nový terminál oděského letiště",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      1
+    ]
   },
   {
     "city": "odesa",
     "year": 1921,
-    "text": "hladomor let 1921-22 zasáhl oděské zázemí; městské židovské charity a Americký židovský společný distribuční výbor (Joint) provozovaly na Děribasovské ulici vývařovny"
+    "text": "hladomor let 1921-22 zasáhl oděské zázemí; městské židovské charity a Americký židovský společný distribuční výbor (Joint) provozovaly na Děribasovské ulici vývařovny",
+    "rel": [
+      5,
+      5,
+      3,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1924,
-    "text": "Oděský filmový ateliér éry Mosfilmu se znovu otevřel na Francouzském bulváru s novými zvukovými ateliéry"
+    "text": "Oděský filmový ateliér éry Mosfilmu se znovu otevřel na Francouzském bulváru s novými zvukovými ateliéry",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1927,
-    "text": "100. výročí Oděské opery (postavené roku 1810, přestavěné roku 1887) přivedlo do rokokového divadla na Lanžeronovské sovětské velikány"
+    "text": "100. výročí Oděské opery (postavené roku 1810, přestavěné roku 1887) přivedlo do rokokového divadla na Lanžeronovské sovětské velikány",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      1,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1929,
-    "text": "spisovatelé Ilja Ilf a Jevgenij Petrov čerpali pro Dvanáct křesel z oděských typů; oba ve městě vyrostli"
+    "text": "spisovatelé Ilja Ilf a Jevgenij Petrov čerpali pro Dvanáct křesel z oděských typů; oba ve městě vyrostli",
+    "rel": [
+      4,
+      1,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1931,
-    "text": "Mosfilm a Oděský filmový ateliér vyráběly němé komedie, které vyvážely oděský smysl pro humor po celém SSSR"
+    "text": "Mosfilm a Oděský filmový ateliér vyráběly němé komedie, které vyvážely oděský smysl pro humor po celém SSSR",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1936,
-    "text": "Pionýrský park mezi Děribasovskou a tržnicí Privoz se otevřel pro letní aktivity dětí z dělnických rodin"
+    "text": "Pionýrský park mezi Děribasovskou a tržnicí Privoz se otevřel pro letní aktivity dětí z dělnických rodin",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1938,
-    "text": "židovské obyvatelstvo města o asi 200 000 lidech stále tvořilo třetinu Oděsy"
+    "text": "židovské obyvatelstvo města o asi 200 000 lidech stále tvořilo třetinu Oděsy",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1940,
-    "text": "Sověti odstranili z obchodů staré nápisy v jidiš a nahradili je ruskými a ukrajinskými"
+    "text": "Sověti odstranili z obchodů staré nápisy v jidiš a nahradili je ruskými a ukrajinskými",
+    "rel": [
+      5,
+      3,
+      3,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1944,
-    "text": "po osvobození zůstalo ve městě jen asi 600 oděských předválečných Židů"
+    "text": "po osvobození zůstalo ve městě jen asi 600 oděských předválečných Židů",
+    "rel": [
+      5,
+      4,
+      4,
+      4,
+      5,
+      5
+    ]
   },
   {
     "city": "odesa",
     "year": 1946,
-    "text": "sídlo Černomořské flotily v Sevastopolu zachovalo Oděse roli obchodního přístavu spíše než vojenské základny"
+    "text": "sídlo Černomořské flotily v Sevastopolu zachovalo Oděse roli obchodního přístavu spíše než vojenské základny",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1948,
-    "text": "Oděské divadlo opery a baletu se po válečných škodách znovu naplno otevřelo"
+    "text": "Oděské divadlo opery a baletu se po válečných škodách znovu naplno otevřelo",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1957,
-    "text": "Chruščovovo tání přineslo oděské klubové hudbě nové svobody; do filharmonie se vrátil jazz"
+    "text": "Chruščovovo tání přineslo oděské klubové hudbě nové svobody; do filharmonie se vrátil jazz",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      2,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1961,
-    "text": "letovisko Arkadia bylo přebudováno na sovětskou 'zdravotně-rekreační' zónu se sanatorii pro odborářské pracovníky"
+    "text": "letovisko Arkadia bylo přebudováno na sovětskou 'zdravotně-rekreační' zónu se sanatorii pro odborářské pracovníky",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      3,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1964,
-    "text": "sovětský humorista Michail Žvaneckij zahájil svou celoživotní literární spolupráci s oděskými rodáky Romanem Karcevem a Viktorem Iljčenkem"
+    "text": "sovětský humorista Michail Žvaneckij zahájil svou celoživotní literární spolupráci s oděskými rodáky Romanem Karcevem a Viktorem Iljčenkem",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1971,
-    "text": "druhá vlna cholerové epidemie z Íránu dosáhla Oděsy; na týdny byl zaveden cordon sanitaire"
+    "text": "druhá vlna cholerové epidemie z Íránu dosáhla Oděsy; na týdny byl zaveden cordon sanitaire",
+    "rel": [
+      5,
+      4,
+      4,
+      4,
+      2,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1973,
-    "text": "animovaný film Oděského filmového ateliéru se stal sovětským hitem a režiséři nové vlny tohoto studia zahájili své kariéry"
+    "text": "animovaný film Oděského filmového ateliéru se stal sovětským hitem a režiséři nové vlny tohoto studia zahájili své kariéry",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1979,
-    "text": "do konce 70. let emigrovalo ve třetí vlně poválečné židovské emigrace asi 70 000 oděských Židů do Izraele a USA"
+    "text": "do konce 70. let emigrovalo ve třetí vlně poválečné židovské emigrace asi 70 000 oděských Židů do Izraele a USA",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      5
+    ]
   },
   {
     "city": "odesa",
     "year": 1980,
-    "text": "Černomořská námořní plavba zaměstnávala asi 27 000 námořníků — jednu z největších jednotlivých pracovních sil v Ukrajinské SSR"
+    "text": "Černomořská námořní plavba zaměstnávala asi 27 000 námořníků — jednu z největších jednotlivých pracovních sil v Ukrajinské SSR",
+    "rel": [
+      5,
+      3,
+      4,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1941,
-    "text": "8. srpna začalo 73denní obléhání; rumunská armáda u města utrpěla na 93 000 ztrát"
+    "text": "8. srpna začalo 73denní obléhání; rumunská armáda u města utrpěla na 93 000 ztrát",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1941,
-    "text": "22. října vybuchla v rumunském velitelství nálož nastražená Sověty a zabila velitele generála Glogojeana s desítkami důstojníků"
+    "text": "22. října vybuchla v rumunském velitelství nálož nastražená Sověty a zabila velitele generála Glogojeana s desítkami důstojníků",
+    "rel": [
+      5,
+      3,
+      2,
+      4,
+      3,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1941,
-    "text": "16. října vstoupila rumunská vojska do města a učinila z něj správní centrum okupovaného Podněstří"
+    "text": "16. října vstoupila rumunská vojska do města a učinila z něj správní centrum okupovaného Podněstří",
+    "rel": [
+      5,
+      5,
+      3,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1942,
-    "text": "do poloviny března zavraždila rumunská správa s pomocí einsatzgruppen ve městě až 25 000 Židů a přes 35 000 jich deportovala"
+    "text": "do poloviny března zavraždila rumunská správa s pomocí einsatzgruppen ve městě až 25 000 Židů a přes 35 000 jich deportovala",
+    "rel": [
+      5,
+      5,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1942,
-    "text": "12. července popravili Rumuni zajatého velitele katakombových partyzánů Vladimira Molodcova, jenž odmítl prosit o milost"
+    "text": "12. července popravili Rumuni zajatého velitele katakombových partyzánů Vladimira Molodcova, jenž odmítl prosit o milost",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      2,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1944,
-    "text": "10. dubna osvobodily město jednotky 3. ukrajinského frontu a nad budovou opery vyvěsily rudý prapor"
+    "text": "10. dubna osvobodily město jednotky 3. ukrajinského frontu a nad budovou opery vyvěsily rudý prapor",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1944,
-    "text": "osvobození bylo vyvrcholením oděské útočné operace 3. ukrajinského frontu od 26. března do 14. dubna"
+    "text": "osvobození bylo vyvrcholením oděské útočné operace 3. ukrajinského frontu od 26. března do 14. dubna",
+    "rel": [
+      5,
+      5,
+      2,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1954,
-    "text": "Oděský filmový ateliér po válečné odmlce naplno obnovil výrobu hraných filmů"
+    "text": "Oděský filmový ateliér po válečné odmlce naplno obnovil výrobu hraných filmů",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1958,
-    "text": "fotbalový klub založený roku 1936 jako Dynamo přijal název Čornomorec Oděsa"
+    "text": "fotbalový klub založený roku 1936 jako Dynamo přijal název Čornomorec Oděsa",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      1
+    ]
   },
   {
     "city": "odesa",
     "year": 1973,
-    "text": "1. dubna se poprvé konala Humorina, oděský festival humoru, jenž se pak slavil každoročně"
+    "text": "1. dubna se poprvé konala Humorina, oděský festival humoru, jenž se pak slavil každoročně",
+    "rel": [
+      5,
+      3,
+      5,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1974,
-    "text": "Čornomorec Oděsa získal bronz v sovětské nejvyšší lize a postoupil do Poháru UEFA"
+    "text": "Čornomorec Oděsa získal bronz v sovětské nejvyšší lize a postoupil do Poháru UEFA",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1986,
-    "text": "Oděsu ležící asi 550 km od Černobylu zachvátily po havárii reaktoru obavy z radiace"
+    "text": "Oděsu ležící asi 550 km od Černobylu zachvátily po havárii reaktoru obavy z radiace",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1989,
-    "text": "na sedmém kilometru silnice z města vznikla tržnice 7. kilometr, později jedno z největších tržišť pod širým nebem v Evropě"
+    "text": "na sedmém kilometru silnice z města vznikla tržnice 7. kilometr, později jedno z největších tržišť pod širým nebem v Evropě",
+    "rel": [
+      5,
+      4,
+      5,
+      3,
+      5,
+      5
+    ]
   },
   {
     "city": "odesa",
     "year": 1991,
-    "text": "24. srpna vyhlásila Ukrajina nezávislost; oděský přístav vzápětí zasáhl rozpad sovětských obchodních vazeb"
+    "text": "24. srpna vyhlásila Ukrajina nezávislost; oděský přístav vzápětí zasáhl rozpad sovětských obchodních vazeb",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1992,
-    "text": "vypukl rusko-ukrajinský spor o Černomořskou flotilu, jejíž síly sahaly od Oděsy po Sevastopol"
+    "text": "vypukl rusko-ukrajinský spor o Černomořskou flotilu, jejíž síly sahaly od Oděsy po Sevastopol",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1994,
-    "text": "Čornomorec Oděsa získal ukrajinský pohár ve druhém ročníku samostatné soutěže"
+    "text": "Čornomorec Oděsa získal ukrajinský pohár ve druhém ročníku samostatné soutěže",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      1,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1995,
-    "text": "nejdelší jednorázová výprava oděskými katakombami urazila během 27 hodin asi 40 km"
+    "text": "nejdelší jednorázová výprava oděskými katakombami urazila během 27 hodin asi 40 km",
+    "rel": [
+      5,
+      0,
+      1,
+      4,
+      0,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1997,
-    "text": "28. května podepsaly Rusko a Ukrajina dohody o rozdělení Černomořské flotily; Ukrajina získala 150 jejích zařízení"
+    "text": "28. května podepsaly Rusko a Ukrajina dohody o rozdělení Černomořské flotily; Ukrajina získala 150 jejích zařízení",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 2001,
-    "text": "sčítání lidu napočítalo v Oděse 62 % Ukrajinců, 29 % Rusů a šestiprocentní bulharskou menšinu"
+    "text": "sčítání lidu napočítalo v Oděse 62 % Ukrajinců, 29 % Rusů a šestiprocentní bulharskou menšinu",
+    "rel": [
+      5,
+      0,
+      3,
+      2,
+      2,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 2005,
-    "text": "tržiště 7. kilometr s asi 16 000 obchodníky bylo největším zaměstnavatelem v regionu"
+    "text": "tržiště 7. kilometr s asi 16 000 obchodníky bylo největším zaměstnavatelem v regionu",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 2014,
-    "text": "2. května zahynulo 48 lidí, většina v hořícím Domě odborů na Kulikově poli během střetů proukrajinských a proruských skupin"
+    "text": "2. května zahynulo 48 lidí, většina v hořícím Domě odborů na Kulikově poli během střetů proukrajinských a proruských skupin",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 2014,
-    "text": "27. května se starostou stal Hennadij Truchanov a v čele radnice setrval přes deset let"
+    "text": "27. května se starostou stal Hennadij Truchanov a v čele radnice setrval přes deset let",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 2015,
-    "text": "30. května jmenoval prezident Porošenko gubernátorem Oděské oblasti bývalého gruzínského prezidenta Michaila Saakašviliho"
+    "text": "30. května jmenoval prezident Porošenko gubernátorem Oděské oblasti bývalého gruzínského prezidenta Michaila Saakašviliho",
+    "rel": [
+      5,
+      1,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 2016,
-    "text": "9. listopadu Saakašvili rezignoval na post gubernátora a obvinil vedení země z krytí korupce"
+    "text": "9. listopadu Saakašvili rezignoval na post gubernátora a obvinil vedení země z krytí korupce",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      1,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 2022,
-    "text": "24. února odmítla posádka 13 pohraničníků na Hadím ostrově jihovýchodně od Oděsy vzdát se ruskému křižníku Moskva"
+    "text": "24. února odmítla posádka 13 pohraničníků na Hadím ostrově jihovýchodně od Oděsy vzdát se ruskému křižníku Moskva",
+    "rel": [
+      4,
+      2,
+      5,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 2022,
-    "text": "30. června se ruské síly stáhly z Hadího ostrova po 126 dnech okupace"
+    "text": "30. června se ruské síly stáhly z Hadího ostrova po 126 dnech okupace",
+    "rel": [
+      4,
+      3,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 2022,
-    "text": "23. července, den po podpisu obilné dohody, zasáhly oděský přístav ruské střely Kalibr"
+    "text": "23. července, den po podpisu obilné dohody, zasáhly oděský přístav ruské střely Kalibr",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 2022,
-    "text": "1. srpna vyplula z přístavu loď Razoni s 26 000 tunami kukuřice jako první zásilka obilné iniciativy"
+    "text": "1. srpna vyplula z přístavu loď Razoni s 26 000 tunami kukuřice jako první zásilka obilné iniciativy",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      3,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 2023,
-    "text": "23. července zničila ruská raketa hlavní oltář Preobraženské katedrály v centru zapsaném na seznamu UNESCO"
+    "text": "23. července zničila ruská raketa hlavní oltář Preobraženské katedrály v centru zapsaném na seznamu UNESCO",
+    "rel": [
+      5,
+      3,
+      5,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 2023,
-    "text": "oděským přístavem a sousedním Pivdenným procházela většina ukrajinského obilí vyváženého přes Černé moře"
+    "text": "oděským přístavem a sousedním Pivdenným procházela většina ukrajinského obilí vyváženého přes Černé moře",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 2024,
-    "text": "v listopadu zabil balistický útok na město deset lidí, mezi nimi sedm policistů a zdravotníka"
+    "text": "v listopadu zabil balistický útok na město deset lidí, mezi nimi sedm policistů a zdravotníka",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 2025,
-    "text": "u radnice byl zabedněn pomník Alexandra Puškina v rámci odstraňování ruských symbolů z města"
+    "text": "u radnice byl zabedněn pomník Alexandra Puškina v rámci odstraňování ruských symbolů z města",
+    "rel": [
+      5,
+      1,
+      4,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 2025,
-    "text": "15. října zbavil prezident Zelenskyj starostu Truchanova ukrajinského občanství kvůli podezření z ruského pasu"
+    "text": "15. října zbavil prezident Zelenskyj starostu Truchanova ukrajinského občanství kvůli podezření z ruského pasu",
+    "rel": [
+      5,
+      1,
+      4,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1954,
-    "text": "na hlavě vlnolamu byl po válečných škodách znovu vztyčen Voroncovský maják, sestavený z litinových prstenců odlitých v Kronštadtu"
+    "text": "na hlavě vlnolamu byl po válečných škodách znovu vztyčen Voroncovský maják, sestavený z litinových prstenců odlitých v Kronštadtu",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      4,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1955,
-    "text": "loď Šota Rustaveli a další osobní zaoceánské parníky Černomořské námořní plavby zahájily oblíbené linky z Oděsy do Středomoří i ke Krymu a Kavkazu"
+    "text": "loď Šota Rustaveli a další osobní zaoceánské parníky Černomořské námořní plavby zahájily oblíbené linky z Oděsy do Středomoří i ke Krymu a Kavkazu",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 1966,
-    "text": "otevřel se nový oděský námořní vokzal (Morvokzal), jenž dokázal odbavit pět lodí najednou"
+    "text": "otevřel se nový oděský námořní vokzal (Morvokzal), jenž dokázal odbavit pět lodí najednou",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 1985,
-    "text": "Černomořská námořní plavba se sídlem v Oděse patřila se stovkami plavidel k největším rejdařstvím Evropy a druhým největším na světě"
+    "text": "Černomořská námořní plavba se sídlem v Oděse patřila se stovkami plavidel k největším rejdařstvím Evropy a druhým největším na světě",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 1996,
-    "text": "rozpad Černomořské námořní plavby a zánik linky Oděsa–Krym–Kavkaz připravil tisíce námořníků o práci a uvolnil cestu novému turistickému přístavu"
+    "text": "rozpad Černomořské námořní plavby a zánik linky Oděsa–Krym–Kavkaz připravil tisíce námořníků o práci a uvolnil cestu novému turistickému přístavu",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "odesa",
     "year": 2001,
-    "text": "vznikl mezinárodní Jazz Carnaval, jenž navázal na pověst Oděsy coby kolébky sovětského jazzu a od roku 2011 nese jméno Odessa JazzFest"
+    "text": "vznikl mezinárodní Jazz Carnaval, jenž navázal na pověst Oděsy coby kolébky sovětského jazzu a od roku 2011 nese jméno Odessa JazzFest",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 2005,
-    "text": "u Potěmkinových schodů byl 2. září uveden do provozu nový funikulár, jenž nahradil dřívější svahovou dráhu"
+    "text": "u Potěmkinových schodů byl 2. září uveden do provozu nový funikulár, jenž nahradil dřívější svahovou dráhu",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      3,
+      1
+    ]
   },
   {
     "city": "odesa",
     "year": 2023,
-    "text": "25. ledna zapsal Výbor pro světové dědictví historické centrum Oděsy na seznam UNESCO a zároveň na seznam dědictví v ohrožení kvůli ruské válce"
+    "text": "25. ledna zapsal Výbor pro světové dědictví historické centrum Oděsy na seznam UNESCO a zároveň na seznam dědictví v ohrožení kvůli ruské válce",
+    "rel": [
+      5,
+      1,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 2023,
-    "text": "v noci na 23. července zničil ruský útok kromě Preobraženské katedrály i devatenáctipatrový hotel Oděsa u Morvokzalu a desítky architektonických památek v centru"
+    "text": "v noci na 23. července zničil ruský útok kromě Preobraženské katedrály i devatenáctipatrový hotel Oděsa u Morvokzalu a desítky architektonických památek v centru",
+    "rel": [
+      5,
+      4,
+      5,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "odesa",
     "year": 2023,
-    "text": "6. listopadu poškodil ruský nálet budovu Oděského muzea umění a další objekty v přístavním městě, klíčovém uzlu vývozu obilí"
+    "text": "6. listopadu poškodil ruský nálet budovu Oděského muzea umění a další objekty v přístavním městě, klíčovém uzlu vývozu obilí",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 2024,
-    "text": "6. března vybuchla ruská střela poblíž setkání prezidenta Zelenského s řeckým premiérem Mitsotakisem; útok zabil pět lidí"
+    "text": "6. března vybuchla ruská střela poblíž setkání prezidenta Zelenského s řeckým premiérem Mitsotakisem; útok zabil pět lidí",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "odesa",
     "year": 2024,
-    "text": "15. března zasáhl balistický úder rekreační oblast Oděsy a zabil 21 lidí; mnozí zahynuli při druhém dopadu mezi přivolanými záchranáři"
+    "text": "15. března zasáhl balistický úder rekreační oblast Oděsy a zabil 21 lidí; mnozí zahynuli při druhém dopadu mezi přivolanými záchranáři",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      4,
+      3
+    ]
   }
 ]

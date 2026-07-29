@@ -2,71 +2,183 @@
   {
     "city": "kromeriz",
     "year": 1948,
-    "text": "Arcibiskupský zámek a zahrady (od roku 1998 památka UNESCO) byly za komunistů znárodněny"
+    "text": "Arcibiskupský zámek a zahrady (od roku 1998 památka UNESCO) byly za komunistů znárodněny",
+    "rel": [
+      5,
+      1,
+      3,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "kromeriz",
     "year": 1968,
-    "text": "Kroměříž hostila tajné schůzky disidentských katolických kněží vzdorujících státním zásahům"
+    "text": "Kroměříž hostila tajné schůzky disidentských katolických kněží vzdorujících státním zásahům",
+    "rel": [
+      5,
+      1,
+      1,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "kromeriz",
     "year": 1925,
-    "text": "Květná zahrada byla po staletích coby soukromé útočiště arcibiskupů otevřena veřejnosti"
+    "text": "Květná zahrada byla po staletích coby soukromé útočiště arcibiskupů otevřena veřejnosti",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "kromeriz",
     "year": 1948,
-    "text": "rozsáhlou uměleckou sbírku Arcibiskupského zámku — včetně Tizianova obrazu 'Stažení Marsya z kůže' — inventarizovali státní kulturní komisaři"
+    "text": "rozsáhlou uměleckou sbírku Arcibiskupského zámku — včetně Tizianova obrazu 'Stažení Marsya z kůže' — inventarizovali státní kulturní komisaři",
+    "rel": [
+      5,
+      0,
+      2,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "kromeriz",
     "year": 1955,
-    "text": "regionální hudební festival v Pšině začal jako každoroční setkání moravských lidových sborů"
+    "text": "regionální hudební festival v Pšině začal jako každoroční setkání moravských lidových sborů",
+    "rel": [
+      5,
+      2,
+      1,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "kromeriz",
     "year": 1968,
-    "text": "Kroměříž byla jedním z mála měst, která si během Pražského jara ponechala svůj nezměněný název"
+    "text": "Kroměříž byla jedním z mála měst, která si během Pražského jara ponechala svůj nezměněný název",
+    "rel": [
+      5,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
   },
   {
     "city": "kromeriz",
     "year": 1962,
-    "text": "10. února zemřel malíř a grafik Max Švabinský, rodák z Kroměříže a autor vitráží v katedrále sv. Víta"
+    "text": "10. února zemřel malíř a grafik Max Švabinský, rodák z Kroměříže a autor vitráží v katedrále sv. Víta",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "kromeriz",
     "year": 1983,
-    "text": "na arcibiskupském zámku natáčel štáb Miloše Formana části oscarového Amadea, sály se proměnily ve vídeňský Schönbrunn"
+    "text": "na arcibiskupském zámku natáčel štáb Miloše Formana části oscarového Amadea, sály se proměnily ve vídeňský Schönbrunn",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "kromeriz",
     "year": 1997,
-    "text": "10. července zaplavila Morava město, evakuováno bylo přes dva tisíce osob, obešlo se to bez obětí na životech"
+    "text": "10. července zaplavila Morava město, evakuováno bylo přes dva tisíce osob, obešlo se to bez obětí na životech",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "kromeriz",
     "year": 1998,
-    "text": "14.–16. září se na zámku konala mezinárodní konference ke 150. výročí Kroměřížského sněmu z let 1848–1849"
+    "text": "14.–16. září se na zámku konala mezinárodní konference ke 150. výročí Kroměřížského sněmu z let 1848–1849",
+    "rel": [
+      5,
+      0,
+      1,
+      2,
+      0,
+      1
+    ]
   },
   {
     "city": "kromeriz",
     "year": 1998,
-    "text": "5. prosince byl arcibiskupský zámek s Květnou a Podzámeckou zahradou zapsán na seznam UNESCO jako výjimečná ukázka středoevropského baroka"
+    "text": "5. prosince byl arcibiskupský zámek s Květnou a Podzámeckou zahradou zapsán na seznam UNESCO jako výjimečná ukázka středoevropského baroka",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "kromeriz",
     "year": 2006,
-    "text": "na sklonku roku bylo otevřeno Arcidiecézní muzeum spravující zámeckou obrazárnu, druhou nejvýznamnější sbírku obrazů v zemi po Národní galerii"
+    "text": "na sklonku roku bylo otevřeno Arcidiecézní muzeum spravující zámeckou obrazárnu, druhou nejvýznamnější sbírku obrazů v zemi po Národní galerii",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "kromeriz",
     "year": 2009,
-    "text": "secesní psychiatrická léčebna od Huberta Gessnera oslavila sté výročí, k němuž byl areál celkově obnoven"
+    "text": "secesní psychiatrická léčebna od Huberta Gessnera oslavila sté výročí, k němuž byl areál celkově obnoven",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "kromeriz",
     "year": 2014,
-    "text": "po tříleté obnově za 337 milionů z evropských fondů byla znovuotevřena Květná zahrada v podobě blízké konci 17. století"
+    "text": "po tříleté obnově za 337 milionů z evropských fondů byla znovuotevřena Květná zahrada v podobě blízké konci 17. století",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   }
 ]

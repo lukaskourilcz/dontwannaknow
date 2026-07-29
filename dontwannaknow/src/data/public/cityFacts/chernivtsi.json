@@ -2,266 +2,690 @@
   {
     "city": "chernivtsi",
     "year": 1920,
-    "text": "Czernowitz byl mezi válkami součástí Rumunska — mnohojazyčné židovsko-rumunsko-ukrajinsko-německé město"
+    "text": "Czernowitz byl mezi válkami součástí Rumunska — mnohojazyčné židovsko-rumunsko-ukrajinsko-německé město",
+    "rel": [
+      5,
+      3,
+      3,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1922,
-    "text": "město zůstávalo jako Cernăuți součástí meziválečného Rumunska s mnohojazyčným židovským, rumunským, ukrajinským a německým obyvatelstvem"
+    "text": "město zůstávalo jako Cernăuți součástí meziválečného Rumunska s mnohojazyčným židovským, rumunským, ukrajinským a německým obyvatelstvem",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1927,
-    "text": "královským dekretem se rumunština stala jediným jazykem státní správy v Cernăuți"
+    "text": "královským dekretem se rumunština stala jediným jazykem státní správy v Cernăuți",
+    "rel": [
+      5,
+      4,
+      3,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1930,
-    "text": "ve městě žil a tvořil jidiš básník Itzik Manger"
+    "text": "ve městě žil a tvořil jidiš básník Itzik Manger",
+    "rel": [
+      5,
+      1,
+      1,
+      4,
+      2,
+      2
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1937,
-    "text": "budoucí básník Paul Celan navštěvoval městské gymnázium pod svým rodným jménem Antschel"
+    "text": "budoucí básník Paul Celan navštěvoval městské gymnázium pod svým rodným jménem Antschel",
+    "rel": [
+      5,
+      0,
+      1,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1940,
-    "text": "Sovětský svaz anektoval Bukovinu; město se stalo Černivci v Ukrajinské SSR"
+    "text": "Sovětský svaz anektoval Bukovinu; město se stalo Černivci v Ukrajinské SSR",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1941,
-    "text": "rumunské síly město znovu obsadily; bylo zřízeno ghetto a desítky tisíc Židů byly deportovány do Podněstří"
+    "text": "rumunské síly město znovu obsadily; bylo zřízeno ghetto a desítky tisíc Židů byly deportovány do Podněstří",
+    "rel": [
+      5,
+      5,
+      5,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1941,
-    "text": "rumunské síly a Einsatzkommando 10b zřídily v říjnu ghetto v Cernăuți"
+    "text": "rumunské síly a Einsatzkommando 10b zřídily v říjnu ghetto v Cernăuți",
+    "rel": [
+      5,
+      5,
+      4,
+      4,
+      5,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1942,
-    "text": "deportace z ghetta do Podněstří poslaly desetitisíce bukovinských Židů na smrt"
+    "text": "deportace z ghetta do Podněstří poslaly desetitisíce bukovinských Židů na smrt",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1944,
-    "text": "sovětské znovuobsazení; rumunsky a německy mluvící obyvatelstvo bylo z velké části vyhnáno nebo uprchlo"
+    "text": "sovětské znovuobsazení; rumunsky a německy mluvící obyvatelstvo bylo z velké části vyhnáno nebo uprchlo",
+    "rel": [
+      5,
+      5,
+      5,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1944,
-    "text": "sovětské síly znovu dobyly Černivci 29. března"
+    "text": "sovětské síly znovu dobyly Černivci 29. března",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1945,
-    "text": "město bylo začleněno do Ukrajinské SSR jako centrum Černivecké oblasti"
+    "text": "město bylo začleněno do Ukrajinské SSR jako centrum Černivecké oblasti",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1947,
-    "text": "Paul Celan emigroval na západ a nakonec napsal Fugu smrti na památku táborů"
+    "text": "Paul Celan emigroval na západ a nakonec napsal Fugu smrti na památku táborů",
+    "rel": [
+      3,
+      0,
+      1,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1955,
-    "text": "Černivecká přádelna bavlny se stala významným zaměstnavatelem dělnic z okolních bukovinských vesnic"
+    "text": "Černivecká přádelna bavlny se stala významným zaměstnavatelem dělnic z okolních bukovinských vesnic",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1965,
-    "text": "Volodymyr Ivasjuk, budoucí skladatel písně Červona ruta, byl ve městě studentem"
+    "text": "Volodymyr Ivasjuk, budoucí skladatel písně Červona ruta, byl ve městě studentem",
+    "rel": [
+      5,
+      0,
+      1,
+      3,
+      1,
+      2
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1971,
-    "text": "Sofia Rotaru se proslavila zpěvem písně Červona ruta na koncertech v okolí Černivců"
+    "text": "Sofia Rotaru se proslavila zpěvem písně Červona ruta na koncertech v okolí Černivců",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1979,
-    "text": "tělo skladatele Volodymyra Ivasjuka bylo nalezeno oběšené poblíž Lvova, ale jeho černivečtí truchlící proměnili pohřeb v národní protest"
+    "text": "tělo skladatele Volodymyra Ivasjuka bylo nalezeno oběšené poblíž Lvova, ale jeho černivečtí truchlící proměnili pohřeb v národní protest",
+    "rel": [
+      4,
+      3,
+      4,
+      4,
+      4,
+      5
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1922,
-    "text": "Czernowitz (Cernăuți) bylo rumunsky spravované kulturní hlavní město s rumunským, německým, ukrajinským, polským a jidiš tiskem"
+    "text": "Czernowitz (Cernăuți) bylo rumunsky spravované kulturní hlavní město s rumunským, německým, ukrajinským, polským a jidiš tiskem",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1924,
-    "text": "německojazyčná Univerzita v Czernowitzu vychovala ze svého kulturně smíšeného prostředí básníka Paula Celana, Rose Ausländerovou a další"
+    "text": "německojazyčná Univerzita v Czernowitzu vychovala ze svého kulturně smíšeného prostředí básníka Paula Celana, Rose Ausländerovou a další",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1937,
-    "text": "bukovinští Židé — jen v Czernowitzu jich bylo asi 50 000 — čelili rostoucímu rumunskému fašismu"
+    "text": "bukovinští Židé — jen v Czernowitzu jich bylo asi 50 000 — čelili rostoucímu rumunskému fašismu",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1942,
-    "text": "starosta Traian Popovici zachránil asi 20 000 czernowitzských Židů před deportací tím, že jim udělil pracovní povolení"
+    "text": "starosta Traian Popovici zachránil asi 20 000 czernowitzských Židů před deportací tím, že jim udělil pracovní povolení",
+    "rel": [
+      5,
+      5,
+      3,
+      4,
+      5,
+      5
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1947,
-    "text": "sovětské úřady přejmenovaly Černivci na jejich moderní ukrajinskou podobu a obnovily ústřední instituce"
+    "text": "sovětské úřady přejmenovaly Černivci na jejich moderní ukrajinskou podobu a obnovily ústřední instituce",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1958,
-    "text": "Univerzita v Černivcích po válce znovu otevřela výuku v ukrajinštině"
+    "text": "Univerzita v Černivcích po válce znovu otevřela výuku v ukrajinštině",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1976,
-    "text": "černivecká 'paranormální panika' z listopadu a prosince 1976 přinesla masovou hysterii kvůli fámám o dětech s kožními nemocemi"
+    "text": "černivecká 'paranormální panika' z listopadu a prosince 1976 přinesla masovou hysterii kvůli fámám o dětech s kožními nemocemi",
+    "rel": [
+      5,
+      3,
+      3,
+      5,
+      1,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1940,
-    "text": "28. června vstoupila do města Rudá armáda poté, co Rumunsko ustoupilo sovětskému ultimátu o severní Bukovině"
+    "text": "28. června vstoupila do města Rudá armáda poté, co Rumunsko ustoupilo sovětskému ultimátu o severní Bukovině",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1940,
-    "text": "na podzim odešly po dohodě mezi Berlínem a Moskvou poslední transporty bukovinských Němců „domů do říše“"
+    "text": "na podzim odešly po dohodě mezi Berlínem a Moskvou poslední transporty bukovinských Němců „domů do říše“",
+    "rel": [
+      5,
+      4,
+      3,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1940,
-    "text": "univerzita, do té doby rumunská, byla po sovětské anexi reorganizována a převedena na výuku v ukrajinštině"
+    "text": "univerzita, do té doby rumunská, byla po sovětské anexi reorganizována a převedena na výuku v ukrajinštině",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1941,
-    "text": "1. dubna postříleli sovětští pohraničníci u Fântâny Albé stovky bukovinských Rumunů prchajících přes hranici"
+    "text": "1. dubna postříleli sovětští pohraničníci u Fântâny Albé stovky bukovinských Rumunů prchajících přes hranici",
+    "rel": [
+      4,
+      2,
+      2,
+      5,
+      4,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1941,
-    "text": "13. června poslala NKVD jen v jediný den asi 13 000 obyvatel Bukoviny do táborů na Sibiři a v Kazachstánu"
+    "text": "13. června poslala NKVD jen v jediný den asi 13 000 obyvatel Bukoviny do táborů na Sibiři a v Kazachstánu",
+    "rel": [
+      5,
+      5,
+      4,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1941,
-    "text": "v červenci byl po návratu rumunských a německých sil vypálen městský židovský chrám"
+    "text": "v červenci byl po návratu rumunských a německých sil vypálen městský židovský chrám",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1944,
-    "text": "po válce se rozběhla sovětská industrializace a vznikly nové strojírenské a chemické závody"
+    "text": "po válce se rozběhla sovětská industrializace a vznikly nové strojírenské a chemické závody",
+    "rel": [
+      5,
+      4,
+      3,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1954,
-    "text": "městské hudebně-dramatické divadlo bylo pojmenováno po ukrajinské spisovatelce Olze Kobyljanské"
+    "text": "městské hudebně-dramatické divadlo bylo pojmenováno po ukrajinské spisovatelce Olze Kobyljanské",
+    "rel": [
+      5,
+      0,
+      3,
+      3,
+      2,
+      1
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1958,
-    "text": "Černivecká univerzita se po válce rozrostla na jedenáct fakult a vyučovala v ukrajinštině"
+    "text": "Černivecká univerzita se po válce rozrostla na jedenáct fakult a vyučovala v ukrajinštině",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1959,
-    "text": "vypálená velká synagoga byla přestavěna na kino Žovteň a získala přezdívku „kinagoga“"
+    "text": "vypálená velká synagoga byla přestavěna na kino Žovteň a získala přezdívku „kinagoga“",
+    "rel": [
+      5,
+      2,
+      4,
+      5,
+      4,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1965,
-    "text": "k městu byla připojena Sadhora a Černivci se rozšířily na levý břeh Prutu"
+    "text": "k městu byla připojena Sadhora a Černivci se rozšířily na levý břeh Prutu",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      5,
+      2
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1968,
-    "text": "student zdejšího lékařského institutu Volodymyr Ivasjuk složil píseň Červona ruta"
+    "text": "student zdejšího lékařského institutu Volodymyr Ivasjuk složil píseň Červona ruta",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1970,
-    "text": "13. září zazněla Červona ruta poprvé veřejně v přímém přenosu z černivecké televize"
+    "text": "13. září zazněla Červona ruta poprvé veřejně v přímém přenosu z černivecké televize",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1989,
-    "text": "17. září se na stadionu Bukovyna otevřel první festival ukrajinské písně Červona ruta, kulturní průlom před nezávislostí"
+    "text": "17. září se na stadionu Bukovyna otevřel první festival ukrajinské písně Červona ruta, kulturní průlom před nezávislostí",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      3,
+      5
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1989,
-    "text": "počet obyvatel sovětskou industrializací rostoucího města se přiblížil 258 000"
+    "text": "počet obyvatel sovětskou industrializací rostoucího města se přiblížil 258 000",
+    "rel": [
+      5,
+      1,
+      2,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1990,
-    "text": "tisíce černiveckých Židů začaly v posledních letech SSSR odjíždět do Izraele a USA a kdysi početná komunita prudce zředla"
+    "text": "tisíce černiveckých Židů začaly v posledních letech SSSR odjíždět do Izraele a USA a kdysi početná komunita prudce zředla",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1991,
-    "text": "1. prosince hlasovala Bukovina v celostátním referendu pro nezávislost Ukrajiny"
+    "text": "1. prosince hlasovala Bukovina v celostátním referendu pro nezávislost Ukrajiny",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1992,
-    "text": "v parku v centru byl odhalen bronzový pomník básníka Paula Celana, dar z rakouských dnů kultury"
+    "text": "v parku v centru byl odhalen bronzový pomník básníka Paula Celana, dar z rakouských dnů kultury",
+    "rel": [
+      5,
+      0,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1997,
-    "text": "smlouvou o dobrém sousedství uznalo Rumunsko hranice s Ukrajinou včetně severní Bukoviny"
+    "text": "smlouvou o dobrém sousedství uznalo Rumunsko hranice s Ukrajinou včetně severní Bukoviny",
+    "rel": [
+      3,
+      0,
+      1,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 2000,
-    "text": "univerzita získala status národní a nese jméno Černivecká národní univerzita Jurije Feďkovyče"
+    "text": "univerzita získala status národní a nese jméno Černivecká národní univerzita Jurije Feďkovyče",
+    "rel": [
+      5,
+      0,
+      2,
+      1,
+      2,
+      1
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 2001,
-    "text": "při sčítání žilo ve městě asi 237 000 obyvatel, z nichž čtyři pětiny uvedly ukrajinštinu, s rumunskou a ruskou menšinou"
+    "text": "při sčítání žilo ve městě asi 237 000 obyvatel, z nichž čtyři pětiny uvedly ukrajinštinu, s rumunskou a ruskou menšinou",
+    "rel": [
+      5,
+      0,
+      2,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 2010,
-    "text": "vznikl mezinárodní básnický festival Meridian Czernowitz věnovaný odkazu Paula Celana"
+    "text": "vznikl mezinárodní básnický festival Meridian Czernowitz věnovaný odkazu Paula Celana",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 2011,
-    "text": "Rezidence bukovinských a dalmatských metropolitů, dílo českého architekta Josefa Hlávky, byla zapsána na seznam UNESCO"
+    "text": "Rezidence bukovinských a dalmatských metropolitů, dílo českého architekta Josefa Hlávky, byla zapsána na seznam UNESCO",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      4,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 2014,
-    "text": "21. února se během revoluce důstojnosti rozpadla i černivecká frakce Strany regionů"
+    "text": "21. února se během revoluce důstojnosti rozpadla i černivecká frakce Strany regionů",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 2022,
-    "text": "po ruské invazi přijala Černivecká oblast přes 100 000 vnitřně vysídlených lidí z východu země"
+    "text": "po ruské invazi přijala Černivecká oblast přes 100 000 vnitřně vysídlených lidí z východu země",
+    "rel": [
+      4,
+      4,
+      5,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1946,
-    "text": "básnířka Rose Ausländerová po sovětském obsazení rodného města natrvalo odešla do New Yorku"
+    "text": "básnířka Rose Ausländerová po sovětském obsazení rodného města natrvalo odešla do New Yorku",
+    "rel": [
+      5,
+      0,
+      1,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1955,
-    "text": "rozhodnutím vlády Ukrajinské SSR byla bývalá rezidence bukovinských metropolitů předána Černivecké univerzitě"
+    "text": "rozhodnutím vlády Ukrajinské SSR byla bývalá rezidence bukovinských metropolitů předána Černivecké univerzitě",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      5,
+      2
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 1958,
-    "text": "v Černivcích vznikl jako Avanhard fotbalový klub, pozdější Bukovyna, jenž o dva roky později vstoupil do sovětské třídy B"
+    "text": "v Černivcích vznikl jako Avanhard fotbalový klub, pozdější Bukovyna, jenž o dva roky později vstoupil do sovětské třídy B",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "chernivtsi",
     "year": 2022,
-    "text": "daleko v týlu na rumunských hranicích se Černivci staly bezpečným útočištěm i odpočinkovou zastávkou pro uprchlíky mířící za hranici"
+    "text": "daleko v týlu na rumunských hranicích se Černivci staly bezpečným útočištěm i odpočinkovou zastávkou pro uprchlíky mířící za hranici",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      2,
+      3
+    ]
   }
 ]

@@ -2,166 +2,430 @@
   {
     "city": "khmelnytskyi",
     "year": 1919,
-    "text": "proskurovský pogrom zabil 15. února odhadem 1 500–1 700 Židů"
+    "text": "proskurovský pogrom zabil 15. února odhadem 1 500–1 700 Židů",
+    "rel": [
+      5,
+      5,
+      3,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1923,
-    "text": "město si po sovětském převzetí ponechalo název Proskurov"
+    "text": "město si po sovětském převzetí ponechalo název Proskurov",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1933,
-    "text": "holodomor si vybral těžkou daň na vesnicích Proskurovské oblasti"
+    "text": "holodomor si vybral těžkou daň na vesnicích Proskurovské oblasti",
+    "rel": [
+      4,
+      5,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1941,
-    "text": "wehrmacht obsadil město v červenci; židovské obyvatelstvo bylo z velké části zavražděno do roku 1943"
+    "text": "wehrmacht obsadil město v červenci; židovské obyvatelstvo bylo z velké části zavražděno do roku 1943",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1944,
-    "text": "osvobozeno Rudou armádou v březnu"
+    "text": "osvobozeno Rudou armádou v březnu",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      4,
+      1
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1944,
-    "text": "sovětské síly osvobodily Proskurov 25. března během proskurovsko-černivecké ofenzivy"
+    "text": "sovětské síly osvobodily Proskurov 25. března během proskurovsko-černivecké ofenzivy",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1954,
-    "text": "město bylo přejmenováno na Chmelnyckyj k 300. výročí Perejaslavské dohody"
+    "text": "město bylo přejmenováno na Chmelnyckyj k 300. výročí Perejaslavské dohody",
+    "rel": [
+      5,
+      3,
+      5,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1969,
-    "text": "Chmelnyckého transformátorový závod se stal průmyslovou vlajkovou lodí města"
+    "text": "Chmelnyckého transformátorový závod se stal průmyslovou vlajkovou lodí města",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1979,
-    "text": "venkovní tržiště města v Kamenecké ulici přitahovalo zákazníky z celé Podolie"
+    "text": "venkovní tržiště města v Kamenecké ulici přitahovalo zákazníky z celé Podolie",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1922,
-    "text": "Proskurov byl reorganizován do nové Vinnycké oblasti jako malé správní centrum"
+    "text": "Proskurov byl reorganizován do nové Vinnycké oblasti jako malé správní centrum",
+    "rel": [
+      5,
+      1,
+      1,
+      2,
+      2,
+      1
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1932,
-    "text": "holodomor byl v proskurovském okrese krutý; v nevyužívaných hřbitovních parcelách se kopaly hromadné hroby"
+    "text": "holodomor byl v proskurovském okrese krutý; v nevyužívaných hřbitovních parcelách se kopaly hromadné hroby",
+    "rel": [
+      5,
+      5,
+      3,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1942,
-    "text": "proskurovské židovské ghetto bylo zlikvidováno v říjnu a listopadu; přeživší Židé byli posláni do Belzecu a dalších vyhlazovacích táborů"
+    "text": "proskurovské židovské ghetto bylo zlikvidováno v říjnu a listopadu; přeživší Židé byli posláni do Belzecu a dalších vyhlazovacích táborů",
+    "rel": [
+      5,
+      5,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1955,
-    "text": "z velké části přestavěné centrum města se vyznačovalo sovětskými veřejnými budovami kolem náměstí Hetmana Chmelnyckého"
+    "text": "z velké části přestavěné centrum města se vyznačovalo sovětskými veřejnými budovami kolem náměstí Hetmana Chmelnyckého",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1972,
-    "text": "archiv NKVD/KGB Chmelnyckého regionu o obětech z let 1937-38 zůstal po celé sovětské období utajen"
+    "text": "archiv NKVD/KGB Chmelnyckého regionu o obětech z let 1937-38 zůstal po celé sovětské období utajen",
+    "rel": [
+      5,
+      1,
+      1,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1941,
-    "text": "wehrmacht obsadil Proskurov 8. července"
+    "text": "wehrmacht obsadil Proskurov 8. července",
+    "rel": [
+      5,
+      5,
+      2,
+      2,
+      3,
+      1
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1942,
-    "text": "v zajateckém táboře Stalag 355 na okraji města zahynulo za války přes 65 000 lidí"
+    "text": "v zajateckém táboře Stalag 355 na okraji města zahynulo za války přes 65 000 lidí",
+    "rel": [
+      5,
+      4,
+      2,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1954,
-    "text": "16. ledna přejmenoval výnos Nejvyššího sovětu Proskurov na Chmelnyckyj po hetmanu Bohdanu Chmelnyckém"
+    "text": "16. ledna přejmenoval výnos Nejvyššího sovětu Proskurov na Chmelnyckyj po hetmanu Bohdanu Chmelnyckém",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1981,
-    "text": "u Netišyna severně od města začala stavba Chmelnycké jaderné elektrárny"
+    "text": "u Netišyna severně od města začala stavba Chmelnycké jaderné elektrárny",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1987,
-    "text": "31. prosince byl spuštěn první blok Chmelnycké jaderné elektrárny"
+    "text": "31. prosince byl spuštěn první blok Chmelnycké jaderné elektrárny",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1990,
-    "text": "moratorium na výstavbu jaderných bloků zastavilo rozestavěné reaktory Chmelnycké elektrárny"
+    "text": "moratorium na výstavbu jaderných bloků zastavilo rozestavěné reaktory Chmelnycké elektrárny",
+    "rel": [
+      4,
+      2,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1995,
-    "text": "rozlehlé tržiště na ploše přes 18 hektarů učinilo z Chmelnyckého jedno z největších obchodních center východní Evropy"
+    "text": "rozlehlé tržiště na ploše přes 18 hektarů učinilo z Chmelnyckého jedno z největších obchodních center východní Evropy",
+    "rel": [
+      5,
+      5,
+      4,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 2004,
-    "text": "8. srpna byl k energetické soustavě připojen druhý blok Chmelnycké jaderné elektrárny"
+    "text": "8. srpna byl k energetické soustavě připojen druhý blok Chmelnycké jaderné elektrárny",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 2023,
-    "text": "v noci na 13. května zasáhl ruský úder vojenské letiště ve Starokostjantynivu v kraji"
+    "text": "v noci na 13. května zasáhl ruský úder vojenské letiště ve Starokostjantynivu v kraji",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      2,
+      1
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1941,
-    "text": "v březnu byl do Proskurova přenesen správní střed Kamenecko-podolské oblasti"
+    "text": "v březnu byl do Proskurova přenesen správní střed Kamenecko-podolské oblasti",
+    "rel": [
+      5,
+      2,
+      1,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1969,
-    "text": "transformátorový závod Ukrelektroapparat dodával výrobky do více než třiceti zemí světa"
+    "text": "transformátorový závod Ukrelektroapparat dodával výrobky do více než třiceti zemí světa",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1990,
-    "text": "venkovní oděvní tržiště v devadesátých letech patřilo k největším obchodním centrům ve východní Evropě"
+    "text": "venkovní oděvní tržiště v devadesátých letech patřilo k největším obchodním centrům ve východní Evropě",
+    "rel": [
+      5,
+      4,
+      5,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 2020,
-    "text": "v listopadu byly obnoveny práce na nedostavěném třetím a čtvrtém bloku Chmelnycké jaderné elektrárny"
+    "text": "v listopadu byly obnoveny práce na nedostavěném třetím a čtvrtém bloku Chmelnycké jaderné elektrárny",
+    "rel": [
+      3,
+      1,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 2021,
-    "text": "v listopadu získala společnost Westinghouse zakázku na reaktory AP1000 pro Chmelnyckou elektrárnu"
+    "text": "v listopadu získala společnost Westinghouse zakázku na reaktory AP1000 pro Chmelnyckou elektrárnu",
+    "rel": [
+      3,
+      0,
+      1,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1975,
-    "text": "u Chmelnycké jaderné elektrárny vzniklo uzavřené sídlo energetiků Netišyn"
+    "text": "u Chmelnycké jaderné elektrárny vzniklo uzavřené sídlo energetiků Netišyn",
+    "rel": [
+      3,
+      1,
+      2,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1989,
-    "text": "při sovětském sčítání lidu žilo v Chmelnyckém kolem 237 000 obyvatel"
+    "text": "při sovětském sčítání lidu žilo v Chmelnyckém kolem 237 000 obyvatel",
+    "rel": [
+      5,
+      0,
+      2,
+      1,
+      1,
+      1
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 2024,
-    "text": "v lednu oznámil Energoatom plány na dostavbu dalších bloků Chmelnycké jaderné elektrárny"
+    "text": "v lednu oznámil Energoatom plány na dostavbu dalších bloků Chmelnycké jaderné elektrárny",
+    "rel": [
+      3,
+      0,
+      1,
+      2,
+      1,
+      1
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 1983,
-    "text": "u Netišyna byla zahájena stavba druhého reaktoru Chmelnycké jaderné elektrárny"
+    "text": "u Netišyna byla zahájena stavba druhého reaktoru Chmelnycké jaderné elektrárny",
+    "rel": [
+      3,
+      1,
+      2,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "khmelnytskyi",
     "year": 2023,
-    "text": "v noci na 13. května vyvolal ruský dronový a raketový úder ve městě rozsáhlé požáry skladu munice"
+    "text": "v noci na 13. května vyvolal ruský dronový a raketový úder ve městě rozsáhlé požáry skladu munice",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      2,
+      2
+    ]
   }
 ]

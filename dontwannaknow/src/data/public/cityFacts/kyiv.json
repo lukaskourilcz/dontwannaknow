@@ -2,631 +2,1639 @@
   {
     "city": "kyiv",
     "year": 1920,
-    "text": "Kyjev během občanské války opakovaně střídal majitele mezi rudými, bílými, Ukrajinci a Poláky"
+    "text": "Kyjev během občanské války opakovaně střídal majitele mezi rudými, bílými, Ukrajinci a Poláky",
+    "rel": [
+      5,
+      5,
+      3,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1923,
-    "text": "kyjevská tramvajová síť byla po škodách z občanské války obnovena a počet cestujících se zotavil"
+    "text": "kyjevská tramvajová síť byla po škodách z občanské války obnovena a počet cestujících se zotavil",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1924,
-    "text": "kyjevská konzervatoř byla reorganizována pod Lysenkovým jménem"
+    "text": "kyjevská konzervatoř byla reorganizována pod Lysenkovým jménem",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1925,
-    "text": "divadlo Berezil pod vedením Lese Kurbase nakrátko procházelo Kyjevem, než se usadilo v Charkově"
+    "text": "divadlo Berezil pod vedením Lese Kurbase nakrátko procházelo Kyjevem, než se usadilo v Charkově",
+    "rel": [
+      5,
+      1,
+      1,
+      3,
+      1,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1927,
-    "text": "na Brest-litevské třídě byly založeny Dovženkovy filmové ateliéry jako Kyjevská filmová továrna"
+    "text": "na Brest-litevské třídě byly založeny Dovženkovy filmové ateliéry jako Kyjevská filmová továrna",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1928,
-    "text": "Oleksandr Dovženko natočil v kyjevském studiu film Zvenyhora"
+    "text": "Oleksandr Dovženko natočil v kyjevském studiu film Zvenyhora",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1929,
-    "text": "měl premiéru Dovženkův film Arsenal, dramatizující kyjevské povstání v Arsenalu z roku 1918"
+    "text": "měl premiéru Dovženkův film Arsenal, dramatizující kyjevské povstání v Arsenalu z roku 1918",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1930,
-    "text": "Michajlovský zlatohlavý klášter byl v rámci militantní ateistické kampaně určen k demolici"
+    "text": "Michajlovský zlatohlavý klášter byl v rámci militantní ateistické kampaně určen k demolici",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1932,
-    "text": "rekvizice za holodomoru dosáhly vesnic Kyjevské oblasti a uprchlíci zaplavili město"
+    "text": "rekvizice za holodomoru dosáhly vesnic Kyjevské oblasti a uprchlíci zaplavili město",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1934,
-    "text": "sem bylo z Charkova přesunuto hlavní město Ukrajinské SSR"
+    "text": "sem bylo z Charkova přesunuto hlavní město Ukrajinské SSR",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1934,
-    "text": "Michajlovský zlatohlavý chrám z jedenáctého století byl odstřelen, aby uvolnil místo vládní čtvrti"
+    "text": "Michajlovský zlatohlavý chrám z jedenáctého století byl odstřelen, aby uvolnil místo vládní čtvrti",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      5
+    ]
   },
   {
     "city": "kyiv",
     "year": 1935,
-    "text": "otevřela se nová budova nádraží Kyjiv-pasažyrskyj od Verbyckého"
+    "text": "otevřela se nová budova nádraží Kyjiv-pasažyrskyj od Verbyckého",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1936,
-    "text": "Dynamo Kyjev hrálo v úvodní sezoně sovětské fotbalové ligy"
+    "text": "Dynamo Kyjev hrálo v úvodní sezoně sovětské fotbalové ligy",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1937,
-    "text": "čistky NKVD se prohnaly vedením ukrajinské komunistické strany v Kyjevě, s masovými popravami v Bykivni"
+    "text": "čistky NKVD se prohnaly vedením ukrajinské komunistické strany v Kyjevě, s masovými popravami v Bykivni",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1938,
-    "text": "přijel Nikita Chruščov jako první tajemník ukrajinské komunistické strany"
+    "text": "přijel Nikita Chruščov jako první tajemník ukrajinské komunistické strany",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1939,
-    "text": "na levém břehu se otevřela Všeukrajinská zemědělská výstava, později komplex VDNCh"
+    "text": "na levém břehu se otevřela Všeukrajinská zemědělská výstava, později komplex VDNCh",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1941,
-    "text": "masakr v rokli Babí Jar — 33 771 kyjevských Židů zastřeleno za 36 hodin ve dnech 29.–30. září"
+    "text": "masakr v rokli Babí Jar — 33 771 kyjevských Židů zastřeleno za 36 hodin ve dnech 29.–30. září",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "city": "kyiv",
     "year": 1941,
-    "text": "bitva o obklíčení východně od města skončila v září zajetím zhruba 600 000 sovětských vojáků"
+    "text": "bitva o obklíčení východně od města skončila v září zajetím zhruba 600 000 sovětských vojáků",
+    "rel": [
+      4,
+      5,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1941,
-    "text": "rádiem odpalované miny nastražené NKVD zničily po vstupu Němců velkou část Chreščatyku"
+    "text": "rádiem odpalované miny nastražené NKVD zničily po vstupu Němců velkou část Chreščatyku",
+    "rel": [
+      5,
+      5,
+      4,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1942,
-    "text": "hráči Dynama a Startu se v takzvaném zápase smrti na stadionu Zenit utkali s týmy Luftwaffe"
+    "text": "hráči Dynama a Startu se v takzvaném zápase smrti na stadionu Zenit utkali s týmy Luftwaffe",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1943,
-    "text": "Rudá armáda dobyla Kyjev zpět v listopadu po obrovském přechodu Dněpru"
+    "text": "Rudá armáda dobyla Kyjev zpět v listopadu po obrovském přechodu Dněpru",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1943,
-    "text": "vězni z koncentračního tábora Syrec byli nuceni exhumovat a pálit těla v Babím Jaru"
+    "text": "vězni z koncentračního tábora Syrec byli nuceni exhumovat a pálit těla v Babím Jaru",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1944,
-    "text": "Patonův institut elektrického svařování obnovil práci na automatickém svařování pod tavidlem pro výrobu T-34"
+    "text": "Patonův institut elektrického svařování obnovil práci na automatickém svařování pod tavidlem pro výrobu T-34",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1946,
-    "text": "podél přestavěného Chreščatyku byla obnovena trolejbusová doprava"
+    "text": "podél přestavěného Chreščatyku byla obnovena trolejbusová doprava",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1947,
-    "text": "Kyjevskou oblast znovu zasáhl hladomor, jak byly vymáhány poválečné kvóty na obilí"
+    "text": "Kyjevskou oblast znovu zasáhl hladomor, jak byly vymáhány poválečné kvóty na obilí",
+    "rel": [
+      4,
+      5,
+      4,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1949,
-    "text": "bulvár Chreščatyk byl po úplné rekonstrukci z trosek znovu otevřen"
+    "text": "bulvár Chreščatyk byl po úplné rekonstrukci z trosek znovu otevřen",
+    "rel": [
+      5,
+      3,
+      5,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1951,
-    "text": "Volodymyr Sosjura byl v Pravdě odsouzen za báseň Miluj Ukrajinu"
+    "text": "Volodymyr Sosjura byl v Pravdě odsouzen za báseň Miluj Ukrajinu",
+    "rel": [
+      4,
+      1,
+      2,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1953,
-    "text": "obří sesuv půdy na Kurenivce uvedla do pohybu kašovitá hmota ze skládky cihelny v Babím Jaru"
+    "text": "obří sesuv půdy na Kurenivce uvedla do pohybu kašovitá hmota ze skládky cihelny v Babím Jaru",
+    "rel": [
+      5,
+      2,
+      2,
+      4,
+      3,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1956,
-    "text": "v budově Nejvyšší rady (Verchovna rada) se konalo první zasedání poté, co začala destalinizace"
+    "text": "v budově Nejvyšší rady (Verchovna rada) se konalo první zasedání poté, co začala destalinizace",
+    "rel": [
+      4,
+      2,
+      2,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1960,
-    "text": "otevřelo se kyjevské metro — první systém metra na Ukrajině"
+    "text": "otevřelo se kyjevské metro — první systém metra na Ukrajině",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1961,
-    "text": "kurenivský bahnotok 13. března zabil stovky lidí, když se protrhla hráz v Babím Jaru"
+    "text": "kurenivský bahnotok 13. března zabil stovky lidí, když se protrhla hráz v Babím Jaru",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      5,
+      5
+    ]
   },
   {
     "city": "kyiv",
     "year": 1963,
-    "text": "prvním tajemníkem Komunistické strany Ukrajiny se stal Petro Šelest"
+    "text": "prvním tajemníkem Komunistické strany Ukrajiny se stal Petro Šelest",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      3,
+      1
+    ]
   },
   {
     "city": "kyiv",
     "year": 1964,
-    "text": "požár v knihovně Akademie věd zničil rozsáhlou sbírku ukrajinik, o níž se obecně soudilo, že šlo o žhářství namířené proti ukrajinským kulturním materiálům"
+    "text": "požár v knihovně Akademie věd zničil rozsáhlou sbírku ukrajinik, o níž se obecně soudilo, že šlo o žhářství namířené proti ukrajinským kulturním materiálům",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1965,
-    "text": "Sergej Paradžanov natočil v Dovženkových ateliérech film Stíny zapomenutých předků"
+    "text": "Sergej Paradžanov natočil v Dovženkových ateliérech film Stíny zapomenutých předků",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1965,
-    "text": "Ivan Dzjuba protestoval proti zatýkání intelektuálů na promítání Paradžanovových Stínů zapomenutých předků v kině Ukrajina"
+    "text": "Ivan Dzjuba protestoval proti zatýkání intelektuálů na promítání Paradžanovových Stínů zapomenutých předků v kině Ukrajina",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1965,
-    "text": "Viktor Někrasov, autor knihy Ve stalingradských zákopech, byl stálým hostem kavárny Pasáž, než později emigroval"
+    "text": "Viktor Někrasov, autor knihy Ve stalingradských zákopech, byl stálým hostem kavárny Pasáž, než později emigroval",
+    "rel": [
+      5,
+      0,
+      1,
+      4,
+      1,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1967,
-    "text": "Dynamo Kyjev znovu vyhrálo pod Viktorem Maslovem sovětskou nejvyšší ligu"
+    "text": "Dynamo Kyjev znovu vyhrálo pod Viktorem Maslovem sovětskou nejvyšší ligu",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      2,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1968,
-    "text": "severně od města se naplnila Kyjevská vodní elektrárna a přehradní nádrž Kyjevské moře"
+    "text": "severně od města se naplnila Kyjevská vodní elektrárna a přehradní nádrž Kyjevské moře",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1970,
-    "text": "na levém břehu se rozvinula výšková čtvrť na bulváru Družby národů"
+    "text": "na levém břehu se rozvinula výšková čtvrť na bulváru Družby národů",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1972,
-    "text": "Šelest byl odvolán a pod Ščerbyckým následovala vlna zatýkání intelektuálů ze šedesátých let (šistdesjatnyky)"
+    "text": "Šelest byl odvolán a pod Ščerbyckým následovala vlna zatýkání intelektuálů ze šedesátých let (šistdesjatnyky)",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1973,
-    "text": "Volodymyr Ščerbyckyj upevnil moc a zrychlila se rusifikace kyjevských škol"
+    "text": "Volodymyr Ščerbyckyj upevnil moc a zrychlila se rusifikace kyjevských škol",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1975,
-    "text": "Dynamo Kyjev vyhrálo Pohár vítězů pohárů — první sovětský klub, který získal evropskou trofej"
+    "text": "Dynamo Kyjev vyhrálo Pohár vítězů pohárů — první sovětský klub, který získal evropskou trofej",
+    "rel": [
+      5,
+      2,
+      5,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1976,
-    "text": "byla dokončena rekonstrukce zvonice Kyjevskopečerské lávry"
+    "text": "byla dokončena rekonstrukce zvonice Kyjevskopečerské lávry",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1977,
-    "text": "otevřel se nový terminál letiště Boryspil pro odbavení mezinárodního provozu"
+    "text": "otevřel se nový terminál letiště Boryspil pro odbavení mezinárodního provozu",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1978,
-    "text": "Republikový stadion byl v souvislosti s olympijskými přípravami přestavěn na 100 000 míst a přejmenován"
+    "text": "Republikový stadion byl v souvislosti s olympijskými přípravami přestavěn na 100 000 míst a přejmenován",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1979,
-    "text": "symfonie skladatele Boryse Ljatošynského byly oživeny v Národní filharmonii"
+    "text": "symfonie skladatele Boryse Ljatošynského byly oživeny v Národní filharmonii",
+    "rel": [
+      5,
+      0,
+      1,
+      3,
+      1,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1980,
-    "text": "Kyjev hostil na Republikovém stadionu předkolo fotbalových zápasů moskevské olympiády"
+    "text": "Kyjev hostil na Republikovém stadionu předkolo fotbalových zápasů moskevské olympiády",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1923,
-    "text": "nová sovětská politika korenizace učinila z ukrajinštiny úřední jazyk v kyjevských školách a u městských tramvajáků"
+    "text": "nová sovětská politika korenizace učinila z ukrajinštiny úřední jazyk v kyjevských školách a u městských tramvajáků",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1925,
-    "text": "Ukrajinská akademie věd byla reorganizována pod předsedou Volodymyrem Vernadským"
+    "text": "Ukrajinská akademie věd byla reorganizována pod předsedou Volodymyrem Vernadským",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1929,
-    "text": "divadlo Berezil se přesunulo z Charkova s režisérem Lesem Kurbasem — ale jeho experimentální tvorba měla být brzy odsouzena"
+    "text": "divadlo Berezil se přesunulo z Charkova s režisérem Lesem Kurbasem — ale jeho experimentální tvorba měla být brzy odsouzena",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1932,
-    "text": "holodomor dosáhl vrcholu v zimě; kyjevské nemocnice přetékaly hladovějícími vesničany z okolního okresu"
+    "text": "holodomor dosáhl vrcholu v zimě; kyjevské nemocnice přetékaly hladovějícími vesničany z okolního okresu",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1937,
-    "text": "Velký teror se prohnal Lávrou (jeskynním klášterem); desítky ukrajinských intelektuálů byly popraveny v lese Bykivňa"
+    "text": "Velký teror se prohnal Lávrou (jeskynním klášterem); desítky ukrajinských intelektuálů byly popraveny v lese Bykivňa",
+    "rel": [
+      5,
+      4,
+      2,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1938,
-    "text": "Chruščov nahradil ve funkci stranického šéfa Pavla Postyševa; ukrajinskojazyčný tisk města byl dále omezen"
+    "text": "Chruščov nahradil ve funkci stranického šéfa Pavla Postyševa; ukrajinskojazyčný tisk města byl dále omezen",
+    "rel": [
+      5,
+      3,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1941,
-    "text": "wehrmacht vstoupil do Kyjeva 19. září; partyzány nastražené miny zničily o několik dní později centrální Chreščatyk"
+    "text": "wehrmacht vstoupil do Kyjeva 19. září; partyzány nastražené miny zničily o několik dní později centrální Chreščatyk",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1942,
-    "text": "aktivisté OUN-B Romana Šuchevyče v Kyjevě byli uvězněni a mnozí do konce roku zastřeleni gestapem"
+    "text": "aktivisté OUN-B Romana Šuchevyče v Kyjevě byli uvězněni a mnozí do konce roku zastřeleni gestapem",
+    "rel": [
+      5,
+      2,
+      1,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1948,
-    "text": "začala stavba poválečného Chreščatyku s monumentálními socialisticko-realistickými budovami"
+    "text": "začala stavba poválečného Chreščatyku s monumentálními socialisticko-realistickými budovami",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1954,
-    "text": "Kyjev hostil sovětské oslavy 'roku Ukrajiny' k 300. výročí Perejaslavské dohody"
+    "text": "Kyjev hostil sovětské oslavy 'roku Ukrajiny' k 300. výročí Perejaslavské dohody",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      1,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1965,
-    "text": "muzeum Kyjevskopečerské lávry bylo reorganizováno; observatoř ve zvonici se po renovaci znovu otevřela"
+    "text": "muzeum Kyjevskopečerské lávry bylo reorganizováno; observatoř ve zvonici se po renovaci znovu otevřela",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1972,
-    "text": "hromadné zatčení kyjevských ukrajinských disidentů — Ivana Svitlyčného, Jevhena Sverstjuka a dalších — zahájilo Ščerbyckého zákrok"
+    "text": "hromadné zatčení kyjevských ukrajinských disidentů — Ivana Svitlyčného, Jevhena Sverstjuka a dalších — zahájilo Ščerbyckého zákrok",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1977,
-    "text": "na kyjevských kopcích byl dokončen pomník Matka vlast (Rodina-Mat') — 102 metry nerezové oceli tyčící se nad Dněprem"
+    "text": "na kyjevských kopcích byl dokončen pomník Matka vlast (Rodina-Mat') — 102 metry nerezové oceli tyčící se nad Dněprem",
+    "rel": [
+      5,
+      2,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1980,
-    "text": "Kyjev hostil fotbalové zápasy moskevské olympiády — hráči Dynama Kyjev tvořili polovinu sovětského národního týmu"
+    "text": "Kyjev hostil fotbalové zápasy moskevské olympiády — hráči Dynama Kyjev tvořili polovinu sovětského národního týmu",
+    "rel": [
+      5,
+      3,
+      5,
+      2,
+      1,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1945,
-    "text": "počet obyvatel se z válečného minima kolem 180 000 vyšplhal zpět ke zhruba půl milionu, jak se vraceli evakuovaní"
+    "text": "počet obyvatel se z válečného minima kolem 180 000 vyšplhal zpět ke zhruba půl milionu, jak se vraceli evakuovaní",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1950,
-    "text": "obnovené Dovženkovy ateliéry rozjely poválečnou produkci sovětsko-ukrajinských celovečerních filmů"
+    "text": "obnovené Dovženkovy ateliéry rozjely poválečnou produkci sovětsko-ukrajinských celovečerních filmů",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1957,
-    "text": "Trukhanivský ostrov spojila s pravým břehem nová visutá lávka pro pěší, jež se pod davy lidí znatelně rozhoupe"
+    "text": "Trukhanivský ostrov spojila s pravým břehem nová visutá lávka pro pěší, jež se pod davy lidí znatelně rozhoupe",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1961,
-    "text": "počet obyvatel poprvé v dějinách města překročil milion"
+    "text": "počet obyvatel poprvé v dějinách města překročil milion",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1965,
-    "text": "metro překročilo Dněpr po nově postaveném metromostě a dosáhlo rozrůstajících se sídlišť na levém břehu v Darnyci"
+    "text": "metro překročilo Dněpr po nově postaveném metromostě a dosáhlo rozrůstajících se sídlišť na levém břehu v Darnyci",
+    "rel": [
+      5,
+      4,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1966,
-    "text": "29. září se v Babím Jaru konalo první neoficiální pietní shromáždění; projev Ivana Dzjuby pak koloval mezi disidenty v samizdatu"
+    "text": "29. září se v Babím Jaru konalo první neoficiální pietní shromáždění; projev Ivana Dzjuby pak koloval mezi disidenty v samizdatu",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      4,
+      5
+    ]
   },
   {
     "city": "kyiv",
     "year": 1969,
-    "text": "Arsenalna v hloubce přes 105 metrů zůstává nejhlubší stanicí metra na světě díky vysokému dněperskému břehu"
+    "text": "Arsenalna v hloubce přes 105 metrů zůstává nejhlubší stanicí metra na světě díky vysokému dněperskému břehu",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1976,
-    "text": "v Babím Jaru byl odhalen sovětský pomník „sovětským občanům a válečným zajatcům“, v nápisu však bez jediné zmínky o Židech"
+    "text": "v Babím Jaru byl odhalen sovětský pomník „sovětským občanům a válečným zajatcům“, v nápisu však bez jediné zmínky o Židech",
+    "rel": [
+      5,
+      1,
+      4,
+      3,
+      4,
+      5
+    ]
   },
   {
     "city": "kyiv",
     "year": 1979,
-    "text": "sčítání lidu napočítalo přes 2,1 milionu obyvatel a Kyjev se zařadil mezi největší města Sovětského svazu"
+    "text": "sčítání lidu napočítalo přes 2,1 milionu obyvatel a Kyjev se zařadil mezi největší města Sovětského svazu",
+    "rel": [
+      5,
+      1,
+      3,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1981,
-    "text": "k blížícímu se 1500. výročí byla restaurována Zlatá brána z jedenáctého století s rekonstrukční nadstavbou"
+    "text": "k blížícímu se 1500. výročí byla restaurována Zlatá brána z jedenáctého století s rekonstrukční nadstavbou",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1982,
-    "text": "22. května se slavilo oficiální 1500. výročí založení města; na nábřeží byl odhalen pomník zakladatelům Kyje, Ščeka, Choryva a Lybid"
+    "text": "22. května se slavilo oficiální 1500. výročí založení města; na nábřeží byl odhalen pomník zakladatelům Kyje, Ščeka, Choryva a Lybid",
+    "rel": [
+      5,
+      2,
+      5,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1982,
-    "text": "k jubileu byl na Chreščatyku otevřen Ukrajinský dům, tehdy jako muzeum Lenina"
+    "text": "k jubileu byl na Chreščatyku otevřen Ukrajinský dům, tehdy jako muzeum Lenina",
+    "rel": [
+      5,
+      1,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1986,
-    "text": "26. dubna vybuchl reaktor v Černobylu sto kilometrů severně a radioaktivní mrak zasáhl i Kyjev"
+    "text": "26. dubna vybuchl reaktor v Černobylu sto kilometrů severně a radioaktivní mrak zasáhl i Kyjev",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "city": "kyiv",
     "year": 1986,
-    "text": "1. května se navzdory zvýšené radiaci konal prvomájový průvod, který Moskva odmítla zrušit; teprve poté byly z města evakuovány statisíce dětí"
+    "text": "1. května se navzdory zvýšené radiaci konal prvomájový průvod, který Moskva odmítla zrušit; teprve poté byly z města evakuovány statisíce dětí",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      5
+    ]
   },
   {
     "city": "kyiv",
     "year": 1986,
-    "text": "Dynamo Kyjev porazilo ve finále Poháru vítězů pohárů Atlético Madrid 3:0; útočník Ihor Bělanov pak získal Zlatý míč"
+    "text": "Dynamo Kyjev porazilo ve finále Poháru vítězů pohárů Atlético Madrid 3:0; útočník Ihor Bělanov pak získal Zlatý míč",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1989,
-    "text": "na zářijovém ustavujícím sjezdu vzniklo v Kyjevě Lidové hnutí Ukrajiny (Ruch) v čele s básníkem Ivanem Dračem"
+    "text": "na zářijovém ustavujícím sjezdu vzniklo v Kyjevě Lidové hnutí Ukrajiny (Ruch) v čele s básníkem Ivanem Dračem",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1990,
-    "text": "21. ledna spojil živý řetěz statisíců lidí Kyjev s Ivano-Frankivskem na památku slučovacího aktu ukrajinských zemí z roku 1919"
+    "text": "21. ledna spojil živý řetěz statisíců lidí Kyjev s Ivano-Frankivskem na památku slučovacího aktu ukrajinských zemí z roku 1919",
+    "rel": [
+      5,
+      3,
+      5,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1990,
-    "text": "2. října zahájili studenti na Náměstí Říjnové revoluce hladovku zvanou Revoluce na žule a vynutili si demisi premiéra Masola"
+    "text": "2. října zahájili studenti na Náměstí Říjnové revoluce hladovku zvanou Revoluce na žule a vynutili si demisi premiéra Masola",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1991,
-    "text": "24. srpna vyhlásila Nejvyšší rada nezávislost Ukrajiny; v prosincovém referendu ji potvrdilo přes 92 procent hlasujících"
+    "text": "24. srpna vyhlásila Nejvyšší rada nezávislost Ukrajiny; v prosincovém referendu ji potvrdilo přes 92 procent hlasujících",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "city": "kyiv",
     "year": 1991,
-    "text": "29. září byl k 50. výročí masakru odhalen v Babím Jaru pomník ve tvaru menory, věnovaný židovským obětem"
+    "text": "29. září byl k 50. výročí masakru odhalen v Babím Jaru pomník ve tvaru menory, věnovaný židovským obětem",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1996,
-    "text": "v rámci měnové reformy nahradila karbovanec nová národní měna hřivna v poměru 100 000 ku jedné"
+    "text": "v rámci měnové reformy nahradila karbovanec nová národní měna hřivna v poměru 100 000 ku jedné",
+    "rel": [
+      3,
+      5,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1999,
-    "text": "Dynamo Kyjev pod Lobanovským s Andrijem Ševčenkem dohrálo až do semifinále Ligy mistrů, kde nestačilo na Bayern Mnichov"
+    "text": "Dynamo Kyjev pod Lobanovským s Andrijem Ševčenkem dohrálo až do semifinále Ligy mistrů, kde nestačilo na Bayern Mnichov",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      2,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 2000,
-    "text": "v září zmizel novinář Heorhij Gongadze; nahrávky pořízené v kanceláři prezidenta Kučmy rozpoutaly hnutí Ukrajina bez Kučmy"
+    "text": "v září zmizel novinář Heorhij Gongadze; nahrávky pořízené v kanceláři prezidenta Kučmy rozpoutaly hnutí Ukrajina bez Kučmy",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 2001,
-    "text": "k desátému výročí nezávislosti byl na Majdanu vztyčen sloup s figurou Berehyně na místě dříve stržené sochy Lenina"
+    "text": "k desátému výročí nezávislosti byl na Majdanu vztyčen sloup s figurou Berehyně na místě dříve stržené sochy Lenina",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 2004,
-    "text": "od 21. listopadu vyrostlo na Majdanu stanové městečko oranžové revoluce; po zfalšovaných volbách nařídil Nejvyšší soud opakování druhého kola"
+    "text": "od 21. listopadu vyrostlo na Majdanu stanové městečko oranžové revoluce; po zfalšovaných volbách nařídil Nejvyšší soud opakování druhého kola",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "city": "kyiv",
     "year": 2004,
-    "text": "8. prosince stálo na Majdanu téměř milion lidí; opakované volby nakonec vyhrál Viktor Juščenko"
+    "text": "8. prosince stálo na Majdanu téměř milion lidí; opakované volby nakonec vyhrál Viktor Juščenko",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 2008,
-    "text": "k 75. výročí holodomoru bylo na svazích nad Dněprem otevřeno Národní muzeum hladomoru se sochou Hořká památka dětství"
+    "text": "k 75. výročí holodomoru bylo na svazích nad Dněprem otevřeno Národní muzeum hladomoru se sochou Hořká památka dětství",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 2011,
-    "text": "po přestavbě k mistrovství Evropy byl s membránovou střechou a kapacitou přes 69 000 míst znovu otevřen Olympijský stadion"
+    "text": "po přestavbě k mistrovství Evropy byl s membránovou střechou a kapacitou přes 69 000 míst znovu otevřen Olympijský stadion",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 2012,
-    "text": "1. července hostil Olympijský stadion finále mistrovství Evropy ve fotbale mezi Španělskem a Itálií"
+    "text": "1. července hostil Olympijský stadion finále mistrovství Evropy ve fotbale mezi Španělskem a Itálií",
+    "rel": [
+      5,
+      3,
+      5,
+      0,
+      2,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 2013,
-    "text": "21. listopadu se na Majdanu sešli první demonstranti poté, co vláda odložila podpis asociační dohody s Evropskou unií"
+    "text": "21. listopadu se na Majdanu sešli první demonstranti poté, co vláda odložila podpis asociační dohody s Evropskou unií",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 2013,
-    "text": "30. listopadu rozehnaly speciální jednotky Berkut studenty na Majdanu; brutalita druhý den vyhnala do ulic přes půl milionu Kyjevanů"
+    "text": "30. listopadu rozehnaly speciální jednotky Berkut studenty na Majdanu; brutalita druhý den vyhnala do ulic přes půl milionu Kyjevanů",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "city": "kyiv",
     "year": 2013,
-    "text": "8. prosince strhli demonstranti sochu Lenina u Besarabského trhu a zahájili tím vlnu boření Leninů zvanou leninopad"
+    "text": "8. prosince strhli demonstranti sochu Lenina u Besarabského trhu a zahájili tím vlnu boření Leninů zvanou leninopad",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 2014,
-    "text": "20. února zabili odstřelovači na Instytutské ulici desítky demonstrantů; obětem Revoluce důstojnosti se začalo říkat Nebeská setnina"
+    "text": "20. února zabili odstřelovači na Instytutské ulici desítky demonstrantů; obětem Revoluce důstojnosti se začalo říkat Nebeská setnina",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "city": "kyiv",
     "year": 2014,
-    "text": "koncem února uprchl prezident Janukovyč z Kyjeva do Ruska; v květnu byl už v prvním kole zvolen prezidentem Petro Porošenko"
+    "text": "koncem února uprchl prezident Janukovyč z Kyjeva do Ruska; v květnu byl už v prvním kole zvolen prezidentem Petro Porošenko",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 2018,
-    "text": "Nejvyšší rada předala Ondřejský chrám do užívání cařihradskému patriarchátu, čímž připravila půdu pro autokefalitu"
+    "text": "Nejvyšší rada předala Ondřejský chrám do užívání cařihradskému patriarchátu, čímž připravila půdu pro autokefalitu",
+    "rel": [
+      4,
+      1,
+      2,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 2019,
-    "text": "6. ledna předal cařihradský patriarcha Bartoloměj v chrámu sv. Jiří tomos o autokefalitě nové Pravoslavné církve Ukrajiny"
+    "text": "6. ledna předal cařihradský patriarcha Bartoloměj v chrámu sv. Jiří tomos o autokefalitě nové Pravoslavné církve Ukrajiny",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 2022,
-    "text": "24. února zahájilo Rusko invazi; vzdušný výsadek se týž den pokusil dobýt letiště Hostomel s Antonovovými závody severozápadně od města"
+    "text": "24. února zahájilo Rusko invazi; vzdušný výsadek se týž den pokusil dobýt letiště Hostomel s Antonovovými závody severozápadně od města",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "city": "kyiv",
     "year": 2022,
-    "text": "1. března zasáhly ruské střely u Babího Jaru televizní věž, zabily pět lidí a poškodily areál památníku holokaustu"
+    "text": "1. března zasáhly ruské střely u Babího Jaru televizní věž, zabily pět lidí a poškodily areál památníku holokaustu",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 2022,
-    "text": "po nezdařeném obklíčení stáhlo Rusko koncem března vojska z Kyjevské oblasti, aniž proniklo do samotného města"
+    "text": "po nezdařeném obklíčení stáhlo Rusko koncem března vojska z Kyjevské oblasti, aniž proniklo do samotného města",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 2022,
-    "text": "1. dubna se po odchodu okupantů objevily v Buči a Irpini stovky zavražděných civilistů; jen v Buči jich napočítali přes 450"
+    "text": "1. dubna se po odchodu okupantů objevily v Buči a Irpini stovky zavražděných civilistů; jen v Buči jich napočítali přes 450",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "city": "kyiv",
     "year": 2022,
-    "text": "24. srpna, v půl roku invaze, byly na Chreščatyku k výročí nezávislosti vystaveny desítky zničených ruských tanků a techniky"
+    "text": "24. srpna, v půl roku invaze, byly na Chreščatyku k výročí nezávislosti vystaveny desítky zničených ruských tanků a techniky",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 2022,
-    "text": "10. října zasáhla po výbuchu na Krymském mostě centrum Kyjeva vlna desítek řízených střel a dronů"
+    "text": "10. října zasáhla po výbuchu na Krymském mostě centrum Kyjeva vlna desítek řízených střel a dronů",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      3,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 2022,
-    "text": "od října mířily ruské útoky na energetickou síť a Kyjev zažil v zimě opakované plánované i nouzové výpadky proudu"
+    "text": "od října mířily ruské útoky na energetickou síť a Kyjev zažil v zimě opakované plánované i nouzové výpadky proudu",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 2023,
-    "text": "v srpnu nahradil na štítu pomníku Matka vlast sovětské kladivo a srp ukrajinský trojzubec"
+    "text": "v srpnu nahradil na štítu pomníku Matka vlast sovětské kladivo a srp ukrajinský trojzubec",
+    "rel": [
+      5,
+      1,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 2023,
-    "text": "15. září zapsalo UNESCO katedrálu sv. Sofie a Kyjevskopečerskou lávru na seznam světového dědictví v ohrožení kvůli ruské válce"
+    "text": "15. září zapsalo UNESCO katedrálu sv. Sofie a Kyjevskopečerskou lávru na seznam světového dědictví v ohrožení kvůli ruské válce",
+    "rel": [
+      5,
+      0,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 2024,
-    "text": "8. července zasáhla ruská střela největší dětskou nemocnici Ochmatdyt; celodenní salva po Ukrajině zabila přes čtyřicet lidí"
+    "text": "8. července zasáhla ruská střela největší dětskou nemocnici Ochmatdyt; celodenní salva po Ukrajině zabila přes čtyřicet lidí",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1957,
-    "text": "kyjevská konzervatoř dala vzniknout silné klavírní škole, z níž vzešel Volodymyr Horowitz jako kyjevský rodák světového věhlasu"
+    "text": "kyjevská konzervatoř dala vzniknout silné klavírní škole, z níž vzešel Volodymyr Horowitz jako kyjevský rodák světového věhlasu",
+    "rel": [
+      5,
+      0,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1965,
-    "text": "5. listopadu se otevřela stanice metra Hidropark na ostrovech uprostřed Dněpru, brána k městským plážím a rekreační zóně"
+    "text": "5. listopadu se otevřela stanice metra Hidropark na ostrovech uprostřed Dněpru, brána k městským plážím a rekreační zóně",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1970,
-    "text": "17. dubna byl na Velké Vasylkivské otevřen Palác Ukrajina, největší kyjevský koncertní sál s hledištěm pro 3 714 diváků"
+    "text": "17. dubna byl na Velké Vasylkivské otevřen Palác Ukrajina, největší kyjevský koncertní sál s hledištěm pro 3 714 diváků",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 1970,
-    "text": "na levém břehu se naplno rozvinula obytná čtvrť Rusanivka, vystavěná na náplavech mezi kanály jako vzorové sovětské sídliště"
+    "text": "na levém břehu se naplno rozvinula obytná čtvrť Rusanivka, vystavěná na náplavech mezi kanály jako vzorové sovětské sídliště",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1974,
-    "text": "otevřením Moskevského (dnes Severního) mostu se odstartovala výstavba rozsáhlých sídlišť Troješčyna a Vyhurivščyna na levém břehu"
+    "text": "otevřením Moskevského (dnes Severního) mostu se odstartovala výstavba rozsáhlých sídlišť Troješčyna a Vyhurivščyna na levém břehu",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1975,
-    "text": "Dynamo Kyjev k Poháru vítězů pohárů přidalo i Superpohár UEFA, když ve dvojzápase přehrálo Bayern Mnichov 3:0"
+    "text": "Dynamo Kyjev k Poháru vítězů pohárů přidalo i Superpohár UEFA, když ve dvojzápase přehrálo Bayern Mnichov 3:0",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1975,
-    "text": "Oleh Blochin se ziskem Zlatého míče stal prvním fotbalistou ze Sovětského svazu oceněným touto trofejí"
+    "text": "Oleh Blochin se ziskem Zlatého míče stal prvním fotbalistou ze Sovětského svazu oceněným touto trofejí",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1980,
-    "text": "19. prosince dojelo metro do tehdy největší obytné čtvrti na severu města stanicí Obolon; téhož dne se na Podolu otevřely stanice Tarasa Ševčenka a Počajna"
+    "text": "19. prosince dojelo metro do tehdy největší obytné čtvrti na severu města stanicí Obolon; téhož dne se na Podolu otevřely stanice Tarasa Ševčenka a Počajna",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1986,
-    "text": "Dynamo Kyjev s polovinou sovětské reprezentace ve svých řadách kralovalo pod Lobanovským evropskému fotbalu"
+    "text": "Dynamo Kyjev s polovinou sovětské reprezentace ve svých řadách kralovalo pod Lobanovským evropskému fotbalu",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 1988,
-    "text": "21. prosince poprvé vzlétl ze svatošynského letiště obří dopravní letoun Antonov An-225 Mrija, postavený pro přepravu raketoplánu Buran"
+    "text": "21. prosince poprvé vzlétl ze svatošynského letiště obří dopravní letoun Antonov An-225 Mrija, postavený pro přepravu raketoplánu Buran",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 1989,
-    "text": "otevřela se třetí, Syrecko-pečerská linka kyjevského metra"
+    "text": "otevřela se třetí, Syrecko-pečerská linka kyjevského metra",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 2001,
-    "text": "k desátému výročí nezávislosti byl pod Majdanem otevřen Globus, první velké podzemní nákupní centrum na Ukrajině"
+    "text": "k desátému výročí nezávislosti byl pod Majdanem otevřen Globus, první velké podzemní nákupní centrum na Ukrajině",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 2005,
-    "text": "kyjevský funikulár spojující horní město s Podolem od roku 1905 prošel rozsáhlou rekonstrukcí"
+    "text": "kyjevský funikulár spojující horní město s Podolem od roku 1905 prošel rozsáhlou rekonstrukcí",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 2022,
-    "text": "u letiště Hostomel byl během bojů zničen jediný dokončený Antonov An-225 Mrija, největší letadlo světa"
+    "text": "u letiště Hostomel byl během bojů zničen jediný dokončený Antonov An-225 Mrija, největší letadlo světa",
+    "rel": [
+      4,
+      1,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 2023,
-    "text": "29. března stát vypověděl Moskvě podřízené Ukrajinské pravoslavné církvi nájem v Horní lávře a nařídil mnichům opustit areál Kyjevskopečerské lávry"
+    "text": "29. března stát vypověděl Moskvě podřízené Ukrajinské pravoslavné církvi nájem v Horní lávře a nařídil mnichům opustit areál Kyjevskopečerské lávry",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "kyiv",
     "year": 2023,
-    "text": "v noci na 29. prosince zasáhla Kyjev jedna z největších náletových vln války; útok po celé Ukrajině zabil přes třicet lidí"
+    "text": "v noci na 29. prosince zasáhla Kyjev jedna z největších náletových vln války; útok po celé Ukrajině zabil přes třicet lidí",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 2024,
-    "text": "7. února zabil ranní útok řízených střel v Kyjevě několik lidí a vyvolal požár obytného domu v Holosijivském rajonu"
+    "text": "7. února zabil ranní útok řízených střel v Kyjevě několik lidí a vyvolal požár obytného domu v Holosijivském rajonu",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "kyiv",
     "year": 2024,
-    "text": "v noci na 8. ledna Rusko poprvé nasadilo proti Kyjevu hypersonické střely; salva napříč zemí zabila desítky lidí"
+    "text": "v noci na 8. ledna Rusko poprvé nasadilo proti Kyjevu hypersonické střely; salva napříč zemí zabila desítky lidí",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "kyiv",
     "year": 2024,
-    "text": "počet obyvatel se za války propadl, jak statisíce Kyjevanů uprchly před útoky na energetickou síť a opakovanými výpadky proudu"
+    "text": "počet obyvatel se za války propadl, jak statisíce Kyjevanů uprchly před útoky na energetickou síť a opakovanými výpadky proudu",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      4
+    ]
   }
 ]

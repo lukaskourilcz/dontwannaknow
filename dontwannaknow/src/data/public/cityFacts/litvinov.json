@@ -2,71 +2,183 @@
   {
     "city": "litvinov",
     "year": 1944,
-    "text": "hydrogenační závod na syntetická paliva v Litvínově byl opakovaně bombardován americkou Osmou leteckou armádou"
+    "text": "hydrogenační závod na syntetická paliva v Litvínově byl opakovaně bombardován americkou Osmou leteckou armádou",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "litvinov",
     "year": 1965,
-    "text": "rafinerie Chemopetrol a petrochemický komplex Litvínov-Záluží učinily z města jedno z nejznečištěnějších v Evropě"
+    "text": "rafinerie Chemopetrol a petrochemický komplex Litvínov-Záluží učinily z města jedno z nejznečištěnějších v Evropě",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "litvinov",
     "year": 1938,
-    "text": "připojeno nacistickým Německem; Říšská župa Sudety plánovala v nedalekém Záluží největší závod na syntetická paliva na světě"
+    "text": "připojeno nacistickým Německem; Říšská župa Sudety plánovala v nedalekém Záluží největší závod na syntetická paliva na světě",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "litvinov",
     "year": 1946,
-    "text": "německé obyvatelstvo bylo vyhnáno a stále běžící závod v Záluží se stal pod sovětskou správou Stalinwerke"
+    "text": "německé obyvatelstvo bylo vyhnáno a stále běžící závod v Záluží se stal pod sovětskou správou Stalinwerke",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "litvinov",
     "year": 1955,
-    "text": "rafinerie v Záluží byla přestavěna jako základní kámen petrochemického průmyslu socialistického Československa"
+    "text": "rafinerie v Záluží byla přestavěna jako základní kámen petrochemického průmyslu socialistického Československa",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "litvinov",
     "year": 1974,
-    "text": "litvínovský hokejový klub HC Litvínov postoupil do československé nejvyšší soutěže"
+    "text": "litvínovský hokejový klub HC Litvínov postoupil do československé nejvyšší soutěže",
+    "rel": [
+      5,
+      2,
+      3,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "litvinov",
     "year": 1945,
-    "text": "v Horním Litvínově vznikl hokejový klub, pozdější HC Litvínov, pod názvem SK SZ Horní Litvínov"
+    "text": "v Horním Litvínově vznikl hokejový klub, pozdější HC Litvínov, pod názvem SK SZ Horní Litvínov",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      5,
+      1
+    ]
   },
   {
     "city": "litvinov",
     "year": 1959,
-    "text": "litvínovští hokejisté postoupili do nejvyšší soutěže, kterou od té doby drží nepřetržitě jako jediný klub vedle Pardubic"
+    "text": "litvínovští hokejisté postoupili do nejvyšší soutěže, kterou od té doby drží nepřetržitě jako jediný klub vedle Pardubic",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "litvinov",
     "year": 1960,
-    "text": "závod v Záluží nesoucí Stalinovo jméno byl po destalinizaci přejmenován a stal se základem chemičky Chemopetrol"
+    "text": "závod v Záluží nesoucí Stalinovo jméno byl po destalinizaci přejmenován a stal se základem chemičky Chemopetrol",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "litvinov",
     "year": 1982,
-    "text": "Chemopetrol patřil k největším zaměstnavatelům severních Čech a zásoboval celé Československo plasty a pohonnými hmotami"
+    "text": "Chemopetrol patřil k největším zaměstnavatelům severních Čech a zásoboval celé Československo plasty a pohonnými hmotami",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "litvinov",
     "year": 1994,
-    "text": "po privatizaci se z chemičky stal Chemopetrol Litvínov, později začleněný do skupiny Unipetrol"
+    "text": "po privatizaci se z chemičky stal Chemopetrol Litvínov, později začleněný do skupiny Unipetrol",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "litvinov",
     "year": 2008,
-    "text": "sídliště Janov se stalo dějištěm napětí a demonstrací, na něž se soustředila celostátní pozornost"
+    "text": "sídliště Janov se stalo dějištěm napětí a demonstrací, na něž se soustředila celostátní pozornost",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "city": "litvinov",
     "year": 2015,
-    "text": "HC Litvínov získal po sedmizápasovém finále proti Třinci vůbec první mistrovský titul ve své dlouhé historii"
+    "text": "HC Litvínov získal po sedmizápasovém finále proti Třinci vůbec první mistrovský titul ve své dlouhé historii",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "litvinov",
     "year": 2015,
-    "text": "rozhodující branku finále vstřelil František Lukeš a do prázdné branky pojistil titul s Viktorem Hüblem"
+    "text": "rozhodující branku finále vstřelil František Lukeš a do prázdné branky pojistil titul s Viktorem Hüblem",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      2,
+      2
+    ]
   }
 ]

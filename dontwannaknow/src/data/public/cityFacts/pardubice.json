@@ -2,141 +2,365 @@
   {
     "city": "pardubice",
     "year": 1920,
-    "text": "steeplechase Velká pardubická se obnovila na pardubickém závodišti na trati považované za nejtěžší v kontinentální Evropě"
+    "text": "steeplechase Velká pardubická se obnovila na pardubickém závodišti na trati považované za nejtěžší v kontinentální Evropě",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "pardubice",
     "year": 1924,
-    "text": "steeplechase Velká pardubická byla už padesát let starou institucí"
+    "text": "steeplechase Velká pardubická byla už padesát let starou institucí",
+    "rel": [
+      5,
+      2,
+      3,
+      1,
+      3,
+      1
+    ]
   },
   {
     "city": "pardubice",
     "year": 1924,
-    "text": "továrna Telegrafia zahájila výrobu rozhlasových přijímačů, čímž se Pardubice staly centrem rané české spotřební elektroniky"
+    "text": "továrna Telegrafia zahájila výrobu rozhlasových přijímačů, čímž se Pardubice staly centrem rané české spotřební elektroniky",
+    "rel": [
+      5,
+      2,
+      2,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "pardubice",
     "year": 1931,
-    "text": "rafinerie Fanto (později Paramo) už chrlila z východní strany města maziva a dehet"
+    "text": "rafinerie Fanto (později Paramo) už chrlila z východní strany města maziva a dehet",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "pardubice",
     "year": 1934,
-    "text": "Petrof posílal z bubenečského překladiště koncertní křídla do Tokia a Buenos Aires, exportní pýcha první republiky"
+    "text": "Petrof posílal z bubenečského překladiště koncertní křídla do Tokia a Buenos Aires, exportní pýcha první republiky",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "pardubice",
     "year": 1937,
-    "text": "továrna Explosia v Semtíně, postavená Škodou ve 20. letech, dodávala důlní a vojenské výbušniny"
+    "text": "továrna Explosia v Semtíně, postavená Škodou ve 20. letech, dodávala důlní a vojenské výbušniny",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "pardubice",
     "year": 1944,
-    "text": "rafinerie Fanto byla 24. srpna bombardována letectvem USAAF, zahynuly desítky dělníků a vypukly požáry, které hořely dny"
+    "text": "rafinerie Fanto byla 24. srpna bombardována letectvem USAAF, zahynuly desítky dělníků a vypukly požáry, které hořely dny",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "pardubice",
     "year": 1949,
-    "text": "rafinerie Paramo obnovila po válečných škodách plnou výrobu, kdy novou krakovací jednotka zvyšovala produkci"
+    "text": "rafinerie Paramo obnovila po válečných škodách plnou výrobu, kdy novou krakovací jednotka zvyšovala produkci",
+    "rel": [
+      5,
+      2,
+      2,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "pardubice",
     "year": 1955,
-    "text": "pardubický hokejový tým Tesla postoupil do nejvyšší soutěže a měl v 70. letech dominovat domácímu hokeji"
+    "text": "pardubický hokejový tým Tesla postoupil do nejvyšší soutěže a měl v 70. letech dominovat domácímu hokeji",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "pardubice",
     "year": 1957,
-    "text": "Velkou pardubickou vyhrál ruský jezdec Vladimir Prachov na koni Epigraph, první sovětské vítězství v závodě"
+    "text": "Velkou pardubickou vyhrál ruský jezdec Vladimir Prachov na koni Epigraph, první sovětské vítězství v závodě",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      1,
+      3
+    ]
   },
   {
     "city": "pardubice",
     "year": 1963,
-    "text": "pardubický perník z rodinného podniku Goldfeinů, po roce 1948 znárodněného jako Východočeské pekárny, byl opět národní pochoutkou"
+    "text": "pardubický perník z rodinného podniku Goldfeinů, po roce 1948 znárodněného jako Východočeské pekárny, byl opět národní pochoutkou",
+    "rel": [
+      5,
+      2,
+      5,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "pardubice",
     "year": 1964,
-    "text": "chemik Stanislav Brebera vynalezl v závodě Synthesia plastickou trhavinu Semtex"
+    "text": "chemik Stanislav Brebera vynalezl v závodě Synthesia plastickou trhavinu Semtex",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "pardubice",
     "year": 1968,
-    "text": "VCHZ Synthesia v Semtíně byla hlavním československým výrobcem nitrocelulózy a barviv a zaměstnávala přes 8 000 lidí"
+    "text": "VCHZ Synthesia v Semtíně byla hlavním československým výrobcem nitrocelulózy a barviv a zaměstnávala přes 8 000 lidí",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "pardubice",
     "year": 1972,
-    "text": "v Synthesii byla zahájena hromadná výroba Semtexu na vývoz do spřátelených států"
+    "text": "v Synthesii byla zahájena hromadná výroba Semtexu na vývoz do spřátelených států",
+    "rel": [
+      5,
+      1,
+      1,
+      4,
+      4,
+      3
+    ]
   },
   {
     "city": "pardubice",
     "year": 1973,
-    "text": "hokejová Tesla Pardubice vyhrála pod trenérem Stanislavem Neveselým svůj první československý titul"
+    "text": "hokejová Tesla Pardubice vyhrála pod trenérem Stanislavem Neveselým svůj první československý titul",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "pardubice",
     "year": 1980,
-    "text": "byl dokončen nový podchod a nástupiště pardubického hlavního nádraží, jelikož se koridor stal jedním z nejrušnějších v zemi"
+    "text": "byl dokončen nový podchod a nástupiště pardubického hlavního nádraží, jelikož se koridor stal jedním z nejrušnějších v zemi",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "pardubice",
     "year": 1942,
-    "text": "na popravišti v Zámečku, vile Larischů, nacisté od 3. června do 9. července zastřelili 194 vlastenců z východních Čech"
+    "text": "na popravišti v Zámečku, vile Larischů, nacisté od 3. června do 9. července zastřelili 194 vlastenců z východních Čech",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "pardubice",
     "year": 1942,
-    "text": "24. června bylo v Zámečku popraveno 33 obyvatel vyhlazené obce Ležáky, kteří pomáhali parašutistům skupiny Silver A"
+    "text": "24. června bylo v Zámečku popraveno 33 obyvatel vyhlazené obce Ležáky, kteří pomáhali parašutistům skupiny Silver A",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "pardubice",
     "year": 1950,
-    "text": "15. října zahájila výuku Vysoká škola chemická, pozdější Univerzita Pardubice, vyrostlá z místních chemických závodů"
+    "text": "15. října zahájila výuku Vysoká škola chemická, pozdější Univerzita Pardubice, vyrostlá z místních chemických závodů",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "pardubice",
     "year": 1964,
-    "text": "závody o plochodrážní Zlatou přilbu se přesunuly na nový stadion ve Svítkově; komunistický režim je v letech 1952 až 1960 nepovolil"
+    "text": "závody o plochodrážní Zlatou přilbu se přesunuly na nový stadion ve Svítkově; komunistický režim je v letech 1952 až 1960 nepovolil",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "pardubice",
     "year": 1987,
-    "text": "15. března získali hokejisté Tesly s brankářem Dominikem Haškem druhý mistrovský titul"
+    "text": "15. března získali hokejisté Tesly s brankářem Dominikem Haškem druhý mistrovský titul",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "pardubice",
     "year": 1989,
-    "text": "pardubická Tesla vybojovala další titul, naposledy v dresu s Haškem, Šejbou i Janeckým"
+    "text": "pardubická Tesla vybojovala další titul, naposledy v dresu s Haškem, Šejbou i Janeckým",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "pardubice",
     "year": 1991,
-    "text": "11. května proběhl první ročník Aviatické pouti připomínkou letu Jana Kašpara z Pardubic do Prahy z roku 1911"
+    "text": "11. května proběhl první ročník Aviatické pouti připomínkou letu Jana Kašpara z Pardubic do Prahy z roku 1911",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "pardubice",
     "year": 1991,
-    "text": "po pádu režimu vyšlo najevo, že Československo vyvezlo stovky tun Semtexu do Kaddáfího Libye a dalších nestabilních států"
+    "text": "po pádu režimu vyšlo najevo, že Československo vyvezlo stovky tun Semtexu do Kaddáfího Libye a dalších nestabilních států",
+    "rel": [
+      4,
+      1,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "pardubice",
     "year": 1994,
-    "text": "vojenské pardubické letiště přešlo na civilní provoz a o rok později získalo status mezinárodního letiště"
+    "text": "vojenské pardubické letiště přešlo na civilní provoz a o rok později získalo status mezinárodního letiště",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "pardubice",
     "year": 1997,
-    "text": "vynálezce Semtexu, chemik Stanislav Brebera, zemřel; jeho trhavinu mezitím proslavily teroristické útoky po celém světě"
+    "text": "vynálezce Semtexu, chemik Stanislav Brebera, zemřel; jeho trhavinu mezitím proslavily teroristické útoky po celém světě",
+    "rel": [
+      5,
+      0,
+      2,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "pardubice",
     "year": 2005,
-    "text": "hokejisté pod kapitánem Jiřím Dopitou a se slovenským brankářem Jánem Lašákem získali čtvrtý mistrovský titul"
+    "text": "hokejisté pod kapitánem Jiřím Dopitou a se slovenským brankářem Jánem Lašákem získali čtvrtý mistrovský titul",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      2,
+      2
+    ]
   },
   {
     "city": "pardubice",
     "year": 2010,
-    "text": "klub vybojoval pátý titul; současný název HC Dynamo Pardubice přijal až v roce 2015"
+    "text": "klub vybojoval pátý titul; současný název HC Dynamo Pardubice přijal až v roce 2015",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      2,
+      1
+    ]
   }
 ]

@@ -2,71 +2,183 @@
   {
     "city": "havlickuv-brod",
     "year": 1945,
-    "text": "město, od roku 1945 pojmenované po disidentském novináři Karlu Havlíčku Borovském, se stalo regionálním dopravním uzlem"
+    "text": "město, od roku 1945 pojmenované po disidentském novináři Karlu Havlíčku Borovském, se stalo regionálním dopravním uzlem",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "havlickuv-brod",
     "year": 1922,
-    "text": "město, stále nazývané Německý Brod, leželo na železniční křižovatce mezi Prahou a Brnem na historické habsburské trati"
+    "text": "město, stále nazývané Německý Brod, leželo na železniční křižovatce mezi Prahou a Brnem na historické habsburské trati",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "havlickuv-brod",
     "year": 1928,
-    "text": "v jeho bývalém rodném domě se otevřelo muzeum Havlíčka Borovského"
+    "text": "v jeho bývalém rodném domě se otevřelo muzeum Havlíčka Borovského",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "havlickuv-brod",
     "year": 1939,
-    "text": "za nacistické okupace byl obnoven název Deutschbrod a na české obyvatelstvo byl vyvíjen nátlak"
+    "text": "za nacistické okupace byl obnoven název Deutschbrod a na české obyvatelstvo byl vyvíjen nátlak",
+    "rel": [
+      5,
+      4,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "havlickuv-brod",
     "year": 1948,
-    "text": "ČKD-Havlíčkův Brod byl znárodněn a reorganizován jako klíčový těžkostrojírenský závod regionu Vysočina"
+    "text": "ČKD-Havlíčkův Brod byl znárodněn a reorganizován jako klíčový těžkostrojírenský závod regionu Vysočina",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "havlickuv-brod",
     "year": 1958,
-    "text": "havlíčkobrodská nemocnice byla přestavěna jako regionální centrum pro vysokou plošinu Vysočiny"
+    "text": "havlíčkobrodská nemocnice byla přestavěna jako regionální centrum pro vysokou plošinu Vysočiny",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "havlickuv-brod",
     "year": 1968,
-    "text": "'filmové centrum' vydavatele Bedřicha Pejchla se stalo střediskem promítání filmů české nové vlny, než ho normalizace uzavřela"
+    "text": "'filmové centrum' vydavatele Bedřicha Pejchla se stalo střediskem promítání filmů české nové vlny, než ho normalizace uzavřela",
+    "rel": [
+      5,
+      2,
+      2,
+      4,
+      2,
+      4
+    ]
   },
   {
     "city": "havlickuv-brod",
     "year": 1976,
-    "text": "textilka Pleas se rozrostla v jednoho z největších výrobců punčochového zboží na střední Moravě"
+    "text": "textilka Pleas se rozrostla v jednoho z největších výrobců punčochového zboží na střední Moravě",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "havlickuv-brod",
     "year": 1945,
-    "text": "5. května oznámil starosta Antonín Šouba z radničního balkonu změnu jména Německého Brodu na Havlíčkův Brod"
+    "text": "5. května oznámil starosta Antonín Šouba z radničního balkonu změnu jména Německého Brodu na Havlíčkův Brod",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "havlickuv-brod",
     "year": 1948,
-    "text": "místní tiskárna se po znárodnění stala jedním ze závodů státního podniku Východočeské tiskárny"
+    "text": "místní tiskárna se po znárodnění stala jedním ze závodů státního podniku Východočeské tiskárny",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "havlickuv-brod",
     "year": 1991,
-    "text": "v Kulturním domě Ostrov se konal první Podzimní knižní veletrh, nejstarší a dodnes oblíbená přehlídka českých nakladatelů"
+    "text": "v Kulturním domě Ostrov se konal první Podzimní knižní veletrh, nejstarší a dodnes oblíbená přehlídka českých nakladatelů",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "havlickuv-brod",
     "year": 1991,
-    "text": "k 1. dubnu se havlíčkobrodská tiskárna osamostatnila jako státní podnik a brzy zamířila do kupónové privatizace"
+    "text": "k 1. dubnu se havlíčkobrodská tiskárna osamostatnila jako státní podnik a brzy zamířila do kupónové privatizace",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "havlickuv-brod",
     "year": 1998,
-    "text": "hokejový oddíl přijal název HC Rebel, pod nímž se proslavil ve druhé nejvyšší soutěži"
+    "text": "hokejový oddíl přijal název HC Rebel, pod nímž se proslavil ve druhé nejvyšší soutěži",
+    "rel": [
+      5,
+      1,
+      3,
+      1,
+      3,
+      1
+    ]
   },
   {
     "city": "havlickuv-brod",
     "year": 2023,
-    "text": "12. prosince byl po letech příprav otevřen jihovýchodní obchvat, který odvedl tranzitní dopravu z centra města"
+    "text": "12. prosince byl po letech příprav otevřen jihovýchodní obchvat, který odvedl tranzitní dopravu z centra města",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      5,
+      3
+    ]
   }
 ]

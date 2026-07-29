@@ -2,151 +2,391 @@
   {
     "city": "ceske-budejovice",
     "year": 1924,
-    "text": "Měšťanský pivovar v Budějovicích plnil pivo na export a v zahraničních soudech bojoval s Anheuser-Busch o ochrannou známku Budweiser"
+    "text": "Měšťanský pivovar v Budějovicích plnil pivo na export a v zahraničních soudech bojoval s Anheuser-Busch o ochrannou známku Budweiser",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1925,
-    "text": "koněspřežná dráha z Českých Budějovic do Lince, otevřená v roce 1832, byla dávno mimo provoz, ale budova depa stále stála na jižním okraji města"
+    "text": "koněspřežná dráha z Českých Budějovic do Lince, otevřená v roce 1832, byla dávno mimo provoz, ale budova depa stále stála na jižním okraji města",
+    "rel": [
+      5,
+      0,
+      3,
+      3,
+      1,
+      2
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1928,
-    "text": "náměstí Přemysla Otakara II. zůstávalo s 133 metry na každé straně největším uzavřeným historickým náměstím v Evropě"
+    "text": "náměstí Přemysla Otakara II. zůstávalo s 133 metry na každé straně největším uzavřeným historickým náměstím v Evropě",
+    "rel": [
+      5,
+      0,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1930,
-    "text": "tužkárna Hardtmuth ve Včelné vyráběla slavné tužky Koh-i-Noor, které nesly v zahraničí budějovickou ochrannou známku"
+    "text": "tužkárna Hardtmuth ve Včelné vyráběla slavné tužky Koh-i-Noor, které nesly v zahraničí budějovickou ochrannou známku",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1933,
-    "text": "byl založen hokejový klub Motor České Budějovice jako jedno z nejjižněji položených hokejových měst v Čechách"
+    "text": "byl založen hokejový klub Motor České Budějovice jako jedno z nejjižněji položených hokejových měst v Čechách",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1937,
-    "text": "pivovar Budvar byl znárodněn československým státem"
+    "text": "pivovar Budvar byl znárodněn československým státem",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1942,
-    "text": "židovská komunita byla v dubnu deportována do Terezína a synagoga z roku 1888 zůstala prázdná, než ji v roce 1942 německé demoliční čety vyhodily do povětří"
+    "text": "židovská komunita byla v dubnu deportována do Terezína a synagoga z roku 1888 zůstala prázdná, než ji v roce 1942 německé demoliční čety vyhodily do povětří",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1945,
-    "text": "město bylo osvobozeno Rudou armádou"
+    "text": "město bylo osvobozeno Rudou armádou",
+    "rel": [
+      5,
+      5,
+      4,
+      0,
+      5,
+      1
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1945,
-    "text": "město bylo osvobozeno Rudou armádou 9. května poté, co se německá posádka stáhla směrem na Linec"
+    "text": "město bylo osvobozeno Rudou armádou 9. května poté, co se německá posádka stáhla směrem na Linec",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1949,
-    "text": "Jihočeské divadlo v ulici Dr. Stejskala obnovilo ambiciózní operní program sahající od Smetany po Verdiho"
+    "text": "Jihočeské divadlo v ulici Dr. Stejskala obnovilo ambiciózní operní program sahající od Smetany po Verdiho",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1953,
-    "text": "závod Motor Jikov v Českých Budějovicích vyráběl pod znárodněním malé motory a motorové pily"
+    "text": "závod Motor Jikov v Českých Budějovicích vyráběl pod znárodněním malé motory a motorové pily",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1960,
-    "text": "desítky let trvající spor Budvaru o ochrannou známku s americkým Budweiserem už byl v plném proudu"
+    "text": "desítky let trvající spor Budvaru o ochrannou známku s americkým Budweiserem už byl v plném proudu",
+    "rel": [
+      5,
+      0,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1967,
-    "text": "otevřelo se nové autobusové nádraží na Žižkově třídě a jihočeské jízdní řády byly kolem něj přebudovány"
+    "text": "otevřelo se nové autobusové nádraží na Žižkově třídě a jihočeské jízdní řády byly kolem něj přebudovány",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1971,
-    "text": "ve městě žil otec Karla Kryla a desky zakázaného písničkáře kolovaly v samizdatu mezi místním katolickým prostředím"
+    "text": "ve městě žil otec Karla Kryla a desky zakázaného písničkáře kolovaly v samizdatu mezi místním katolickým prostředím",
+    "rel": [
+      5,
+      1,
+      1,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1979,
-    "text": "vývoz Budvaru do západního Německa byl významným zdrojem tvrdé měny pro československý zahraniční obchod"
+    "text": "vývoz Budvaru do západního Německa byl významným zdrojem tvrdé měny pro československý zahraniční obchod",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1946,
-    "text": "městský zimní stadion, dnešní Budvar aréna, otevřel v říjnu své brány a stal se nejdéle nepřetržitě fungujícím krytým zimním stadionem v českých zemích"
+    "text": "městský zimní stadion, dnešní Budvar aréna, otevřel v říjnu své brány a stal se nejdéle nepřetržitě fungujícím krytým zimním stadionem v českých zemích",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      5,
+      2
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1948,
-    "text": "po znárodnění byl Budvar i konkurenční Měšťanský pivovar sloučen do národního podniku Jihočeské pivovary"
+    "text": "po znárodnění byl Budvar i konkurenční Měšťanský pivovar sloučen do národního podniku Jihočeské pivovary",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1967,
-    "text": "státní pivovar dostal dnešní jméno Budějovický Budvar, národní podnik, které nese jako české státní podnikání dodnes"
+    "text": "státní pivovar dostal dnešní jméno Budějovický Budvar, národní podnik, které nese jako české státní podnikání dodnes",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1987,
-    "text": "asi pětadvacet kilometrů severně začala stavba jaderné elektrárny Temelín, původně plánované pro čtyři sovětské reaktory VVER o výkonu 1000 MW"
+    "text": "asi pětadvacet kilometrů severně začala stavba jaderné elektrárny Temelín, původně plánované pro čtyři sovětské reaktory VVER o výkonu 1000 MW",
+    "rel": [
+      4,
+      2,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 1991,
-    "text": "zákonem byla 28. září založena Jihočeská univerzita v Českých Budějovicích sloučením dvou stávajících vysokých škol ve městě"
+    "text": "zákonem byla 28. září založena Jihočeská univerzita v Českých Budějovicích sloučením dvou stávajících vysokých škol ve městě",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 2000,
-    "text": "první blok Temelína dodal 21. prosince poprvé elektřinu do sítě poté, co bylo v červenci zavezeno palivo"
+    "text": "první blok Temelína dodal 21. prosince poprvé elektřinu do sítě poté, co bylo v červenci zavezeno palivo",
+    "rel": [
+      4,
+      1,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 2000,
-    "text": "12. prosince podepsali premiér Zeman a kancléř Schüssel takzvaný Melský protokol, jenž měl nadstandardními bezpečnostními opatřeními kolem Temelína utišit rakouský odpor"
+    "text": "12. prosince podepsali premiér Zeman a kancléř Schüssel takzvaný Melský protokol, jenž měl nadstandardními bezpečnostními opatřeními kolem Temelína utišit rakouský odpor",
+    "rel": [
+      3,
+      0,
+      2,
+      3,
+      2,
+      4
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 2000,
-    "text": "České Budějovice se staly krajským městem nově zřízeného samosprávného Jihočeského kraje"
+    "text": "České Budějovice se staly krajským městem nově zřízeného samosprávného Jihočeského kraje",
+    "rel": [
+      5,
+      2,
+      4,
+      0,
+      5,
+      2
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 2002,
-    "text": "v srpnu zaplavila město katastrofální povodeň na Vltavě a Malši s místy až pětisetletou vodou"
+    "text": "v srpnu zaplavila město katastrofální povodeň na Vltavě a Malši s místy až pětisetletou vodou",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 2003,
-    "text": "na jaře zahájil zkušební provoz druhý blok Temelína a elektrárna se stala největším energetickým zdrojem v České republice"
+    "text": "na jaře zahájil zkušební provoz druhý blok Temelína a elektrárna se stala největším energetickým zdrojem v České republice",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 2007,
-    "text": "Anheuser-Busch se stal americkým dovozcem piva Budvaru, které se kvůli nedořešenému sporu o značku prodávalo v USA pod jménem Czechvar"
+    "text": "Anheuser-Busch se stal americkým dovozcem piva Budvaru, které se kvůli nedořešenému sporu o značku prodávalo v USA pod jménem Czechvar",
+    "rel": [
+      4,
+      0,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 2009,
-    "text": "evropský soud potvrdil právo Budvaru na značku Budweiser v Německu a Rakousku a odmítl odvolání Anheuser-Busch"
+    "text": "evropský soud potvrdil právo Budvaru na značku Budweiser v Německu a Rakousku a odmítl odvolání Anheuser-Busch",
+    "rel": [
+      4,
+      0,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 2011,
-    "text": "Soudní dvůr EU rozhodl, že Anheuser-Busch InBev i Budvar mohou ve Velké Británii prodávat pivo pod značkou Budweiser, protože tak oba činí po desítky let"
+    "text": "Soudní dvůr EU rozhodl, že Anheuser-Busch InBev i Budvar mohou ve Velké Británii prodávat pivo pod značkou Budweiser, protože tak oba činí po desítky let",
+    "rel": [
+      4,
+      0,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 2018,
-    "text": "Budvar poprvé vyvezl přes milion hektolitrů piva za rok, rekordních 1,075 milionu hl do 79 zemí"
+    "text": "Budvar poprvé vyvezl přes milion hektolitrů piva za rok, rekordních 1,075 milionu hl do 79 zemí",
+    "rel": [
+      5,
+      0,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "ceske-budejovice",
     "year": 2020,
-    "text": "hokejový Motor České Budějovice se po sezoně přerušené pandemií vrátil do nejvyšší soutěže, sedm let poté, co o extraligovou licenci přišel"
+    "text": "hokejový Motor České Budějovice se po sezoně přerušené pandemií vrátil do nejvyšší soutěže, sedm let poté, co o extraligovou licenci přišel",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      2,
+      2
+    ]
   }
 ]

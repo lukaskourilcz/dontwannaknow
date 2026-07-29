@@ -2,296 +2,768 @@
   {
     "city": "mariupol",
     "year": 1924,
-    "text": "po raných sovětských reorganizacích bylo město přejmenováno zpět na Mariupol z jeho podoby řeckého původu"
+    "text": "po raných sovětských reorganizacích bylo město přejmenováno zpět na Mariupol z jeho podoby řeckého původu",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "mariupol",
     "year": 1933,
-    "text": "otevřela se metalurgická huť Azovstal — jedna z vlajkových oceláren SSSR"
+    "text": "otevřela se metalurgická huť Azovstal — jedna z vlajkových oceláren SSSR",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 1933,
-    "text": "holodomor zasáhl obzvláště tvrdě okolní řecké vesnice v Pryazoví"
+    "text": "holodomor zasáhl obzvláště tvrdě okolní řecké vesnice v Pryazoví",
+    "rel": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 1937,
-    "text": "řecká operace NKVD se zaměřila na pontský řecký obyvatelstvo Mariupolu masovým zatýkáním a popravami"
+    "text": "řecká operace NKVD se zaměřila na pontský řecký obyvatelstvo Mariupolu masovým zatýkáním a popravami",
+    "rel": [
+      5,
+      4,
+      3,
+      5,
+      5,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 1941,
-    "text": "v říjnu obsazeno wehrmachtem; mariupolští Židé byli zavražděni v rokli Agrobaza"
+    "text": "v říjnu obsazeno wehrmachtem; mariupolští Židé byli zavražděni v rokli Agrobaza",
+    "rel": [
+      5,
+      5,
+      4,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 1941,
-    "text": "wehrmacht obsadil město v říjnu"
+    "text": "wehrmacht obsadil město v říjnu",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "mariupol",
     "year": 1941,
-    "text": "v protitankovém příkopu Agrobaza východně od města bylo zastřeleno asi 9 000 Židů"
+    "text": "v protitankovém příkopu Agrobaza východně od města bylo zastřeleno asi 9 000 Židů",
+    "rel": [
+      5,
+      4,
+      3,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 1943,
-    "text": "osvobozeno Rudou armádou v září"
+    "text": "osvobozeno Rudou armádou v září",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "mariupol",
     "year": 1943,
-    "text": "sovětské síly osvobodily město 10. září po donbaské ofenzivě"
+    "text": "sovětské síly osvobodily město 10. září po donbaské ofenzivě",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 1953,
-    "text": "po Stalinově smrti bylo město nakrátko přejmenováno zpět na Mariupol, ale Ždanov byl zachován"
+    "text": "po Stalinově smrti bylo město nakrátko přejmenováno zpět na Mariupol, ale Ždanov byl zachován",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      1,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 1958,
-    "text": "byla uvedena do provozu vysoká pec Azovstal č. 3"
+    "text": "byla uvedena do provozu vysoká pec Azovstal č. 3",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      2,
+      1
+    ]
   },
   {
     "city": "mariupol",
     "year": 1968,
-    "text": "hutě Iljičova ocelárna byly modernizovány plynulým litím"
+    "text": "hutě Iljičova ocelárna byly modernizovány plynulým litím",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "mariupol",
     "year": 1975,
-    "text": "Azovstal a Iljičova ocelárna dohromady zaměstnávaly asi 50 000 dělníků"
+    "text": "Azovstal a Iljičova ocelárna dohromady zaměstnávaly asi 50 000 dělníků",
+    "rel": [
+      5,
+      4,
+      5,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 1975,
-    "text": "závod na těžké strojírenství Azovmaš vyráběl zařízení pro Bajkalsko-amurskou magistrálu"
+    "text": "závod na těžké strojírenství Azovmaš vyráběl zařízení pro Bajkalsko-amurskou magistrálu",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "mariupol",
     "year": 1920,
-    "text": "Rudá armáda na jaře vyhnala síly bílého generála Děnikina; přístav obnovil na podzim vývoz obilí"
+    "text": "Rudá armáda na jaře vyhnala síly bílého generála Děnikina; přístav obnovil na podzim vývoz obilí",
+    "rel": [
+      5,
+      4,
+      1,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 1923,
-    "text": "Mariupol se stal správním centrem okruhu; pontská řecká komunita o asi 80 000 lidech byla stále největší v SSSR"
+    "text": "Mariupol se stal správním centrem okruhu; pontská řecká komunita o asi 80 000 lidech byla stále největší v SSSR",
+    "rel": [
+      5,
+      2,
+      2,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 1929,
-    "text": "huť Azovstal byla vyměřena na zelené louce východně od řeky Kalmius — největší jednotlivý průmyslový projekt první pětiletky"
+    "text": "huť Azovstal byla vyměřena na zelené louce východně od řeky Kalmius — největší jednotlivý průmyslový projekt první pětiletky",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 1932,
-    "text": "holodomor dosáhl okraje města; vesnice pryazovského řeckého a ukrajinského pásu se vylidnily"
+    "text": "holodomor dosáhl okraje města; vesnice pryazovského řeckého a ukrajinského pásu se vylidnily",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 1939,
-    "text": "Iljičova ocelárna byla přestavěna a vyráběla pancéřové pláty pro nové tanky T-34 Rudé armády"
+    "text": "Iljičova ocelárna byla přestavěna a vyráběla pancéřové pláty pro nové tanky T-34 Rudé armády",
+    "rel": [
+      5,
+      2,
+      2,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 1940,
-    "text": "námořní přístav odbavil rekordní náklad donbaského uhlí mířícího do černomořských destinací"
+    "text": "námořní přístav odbavil rekordní náklad donbaského uhlí mířícího do černomořských destinací",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      1,
+      1
+    ]
   },
   {
     "city": "mariupol",
     "year": 1942,
-    "text": "wehrmacht vedl režim nucené práce; tisíce obyvatel Mariupolu byly odvlečeny do táborů Ostarbeiterů v říši"
+    "text": "wehrmacht vedl režim nucené práce; tisíce obyvatel Mariupolu byly odvlečeny do táborů Ostarbeiterů v říši",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 1947,
-    "text": "první poválečná vysoká pec Azovstalu byla zapálena po téměř úplném válečném zničení"
+    "text": "první poválečná vysoká pec Azovstalu byla zapálena po téměř úplném válečném zničení",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 1949,
-    "text": "přestavěné centrum města vyrostlo na Leninově prospektu s klasicistními socialisticko-realistickými fasádami"
+    "text": "přestavěné centrum města vyrostlo na Leninově prospektu s klasicistními socialisticko-realistickými fasádami",
+    "rel": [
+      5,
+      3,
+      5,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 1955,
-    "text": "loděnice Ždanov spustila na vodu své první zaoceánské tankery pro Černomořskou námořní plavbu"
+    "text": "loděnice Ždanov spustila na vodu své první zaoceánské tankery pro Černomořskou námořní plavbu",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "mariupol",
     "year": 1961,
-    "text": "koksárenská baterie Azovstalu č. 4 učinila z hutí na několik let největšího jednotlivého výrobce oceli v SSSR"
+    "text": "koksárenská baterie Azovstalu č. 4 učinila z hutí na několik let největšího jednotlivého výrobce oceli v SSSR",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 1965,
-    "text": "černomořské pobřeží východně od města se stalo pásem sovětských letních táborů se sanatorii pro rodiny ocelářů"
+    "text": "černomořské pobřeží východně od města se stalo pásem sovětských letních táborů se sanatorii pro rodiny ocelářů",
+    "rel": [
+      5,
+      3,
+      5,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 1970,
-    "text": "ždanovské činoherní divadlo na centrálním náměstí hostilo pravidelná zájezdová představení z Kyjeva a Moskvy"
+    "text": "ždanovské činoherní divadlo na centrálním náměstí hostilo pravidelná zájezdová představení z Kyjeva a Moskvy",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 1971,
-    "text": "Azovstal získal Leninův řád na počest válečné obrany města a poválečné rekonstrukce"
+    "text": "Azovstal získal Leninův řád na počest válečné obrany města a poválečné rekonstrukce",
+    "rel": [
+      5,
+      0,
+      3,
+      2,
+      1,
+      1
+    ]
   },
   {
     "city": "mariupol",
     "year": 1977,
-    "text": "vzduch nad Ždanovem byl sovětskými úřady oficiálně klasifikován jako 'nezdravý' — ale žádný závod výrobu neomezil"
+    "text": "vzduch nad Ždanovem byl sovětskými úřady oficiálně klasifikován jako 'nezdravý' — ale žádný závod výrobu neomezil",
+    "rel": [
+      5,
+      3,
+      5,
+      4,
+      5,
+      5
+    ]
   },
   {
     "city": "mariupol",
     "year": 1979,
-    "text": "město poprvé dosáhlo počtu půl milionu obyvatel"
+    "text": "město poprvé dosáhlo počtu půl milionu obyvatel",
+    "rel": [
+      5,
+      1,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 1980,
-    "text": "lodní kontejnery a nákladní vagony vyrobené v Mariupolu se rozjely po celém sovětském bloku; závod Azovmaš byl jedním z největších vývozců v Ukrajinské SSR"
+    "text": "lodní kontejnery a nákladní vagony vyrobené v Mariupolu se rozjely po celém sovětském bloku; závod Azovmaš byl jedním z největších vývozců v Ukrajinské SSR",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 1948,
-    "text": "město bylo přejmenováno na Ždanov po sovětském funkcionáři Andreji Ždanovovi, který se zde narodil"
+    "text": "město bylo přejmenováno na Ždanov po sovětském funkcionáři Andreji Ždanovovi, který se zde narodil",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 1959,
-    "text": "huť Azovstal disponovala šesti vysokými pecemi a tuctem martinských pecí a patřila k největším ocelárnám SSSR"
+    "text": "huť Azovstal disponovala šesti vysokými pecemi a tuctem martinských pecí a patřila k největším ocelárnám SSSR",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 1987,
-    "text": "v Sartaně u města bylo založeno Muzeum historie a etnografie Řeků Azovského moře"
+    "text": "v Sartaně u města bylo založeno Muzeum historie a etnografie Řeků Azovského moře",
+    "rel": [
+      4,
+      1,
+      2,
+      4,
+      2,
+      2
+    ]
   },
   {
     "city": "mariupol",
     "year": 1989,
-    "text": "během perestrojky bylo městu vráceno historické řecké jméno Mariupol"
+    "text": "během perestrojky bylo městu vráceno historické řecké jméno Mariupol",
+    "rel": [
+      5,
+      3,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 1991,
-    "text": "po referendu se Mariupol stal součástí nezávislé Ukrajiny; přístav i hutě zůstaly pilíři ekonomiky"
+    "text": "po referendu se Mariupol stal součástí nezávislé Ukrajiny; přístav i hutě zůstaly pilíři ekonomiky",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 2014,
-    "text": "9. května si srážky mezi ukrajinskými silami a separatisty u hořící policejní stanice vyžádaly desítky životů"
+    "text": "9. května si srážky mezi ukrajinskými silami a separatisty u hořící policejní stanice vyžádaly desítky životů",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 2014,
-    "text": "13. června osvobodily město jednotky včetně nově vzniklého praporu Azov — jedno z prvních větších vítězství války"
+    "text": "13. června osvobodily město jednotky včetně nově vzniklého praporu Azov — jedno z prvních větších vítězství války",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 2015,
-    "text": "24. ledna dopadlo na čtvrť Schidnyj během půl minuty přes 150 raket Grad; zahynulo 31 civilistů"
+    "text": "24. ledna dopadlo na čtvrť Schidnyj během půl minuty přes 150 raket Grad; zahynulo 31 civilistů",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 2021,
-    "text": "Mariupol zůstával největším přístavem ukrajinského Azovského moře a sídlem velitelství pluku Azov"
+    "text": "Mariupol zůstával největším přístavem ukrajinského Azovského moře a sídlem velitelství pluku Azov",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 2022,
-    "text": "od konce února sevřela město ruská vojska; obléhání zničilo či poškodilo na 90 % budov"
+    "text": "od konce února sevřela město ruská vojska; obléhání zničilo či poškodilo na 90 % budov",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 2022,
-    "text": "9. března zničil ruský nálet porodnici č. 3; mezi oběťmi byla těhotná žena i novorozeně"
+    "text": "9. března zničil ruský nálet porodnici č. 3; mezi oběťmi byla těhotná žena i novorozeně",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 2022,
-    "text": "16. března dvě pětisetkilové bomby zničily činoherní divadlo, kam se ukryly stovky civilistů; venku stál na zemi nápis 'DĚTI'"
+    "text": "16. března dvě pětisetkilové bomby zničily činoherní divadlo, kam se ukryly stovky civilistů; venku stál na zemi nápis 'DĚTI'",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 2022,
-    "text": "15. dubna padla Iljičova ocelárna se 14 000 zaměstnanci; zbylí obránci ustoupili do Azovstalu"
+    "text": "15. dubna padla Iljičova ocelárna se 14 000 zaměstnanci; zbylí obránci ustoupili do Azovstalu",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 2022,
-    "text": "poslední obránci se přes osmdesát dní drželi v podzemí oceláren Azovstal, než se v polovině května vzdali"
+    "text": "poslední obránci se přes osmdesát dní drželi v podzemí oceláren Azovstal, než se v polovině května vzdali",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 2022,
-    "text": "21. května Rusko oznámilo dobytí Mariupolu; odhady civilních obětí obléhání sahají od deseti tisíc výše"
+    "text": "21. května Rusko oznámilo dobytí Mariupolu; odhady civilních obětí obléhání sahají od deseti tisíc výše",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 2024,
-    "text": "dokument 20 dní v Mariupolu režiséra Mstyslava Černova získal Oscara — první v dějinách Ukrajiny"
+    "text": "dokument 20 dní v Mariupolu režiséra Mstyslava Černova získal Oscara — první v dějinách Ukrajiny",
+    "rel": [
+      4,
+      1,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 2014,
-    "text": "11. května uspořádali separatisté v Doněcké oblasti včetně Mariupolu referendum o samostatnosti, které Kyjev ani Západ neuznaly"
+    "text": "11. května uspořádali separatisté v Doněcké oblasti včetně Mariupolu referendum o samostatnosti, které Kyjev ani Západ neuznaly",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 2014,
-    "text": "13. června ráno vztyčily ukrajinské síly po operaci k osvobození města státní vlajku nad mariupolskou radnicí"
+    "text": "13. června ráno vztyčily ukrajinské síly po operaci k osvobození města státní vlajku nad mariupolskou radnicí",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 2022,
-    "text": "od 24. února postupovala ruská vojska k Mariupolu ze tří stran a do 1. března město zcela obklíčila"
+    "text": "od 24. února postupovala ruská vojska k Mariupolu ze tří stran a do 1. března město zcela obklíčila",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "mariupol",
     "year": 2022,
-    "text": "do 2. března přišel Mariupol o elektřinu, vodu i plyn; tento den se stal počátkem ruské blokády města"
+    "text": "do 2. března přišel Mariupol o elektřinu, vodu i plyn; tento den se stal počátkem ruské blokády města",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 2022,
-    "text": "obyvatelé pohřbívali mrtvé do hromadných hrobů a improvizovaných příkopů přímo mezi obytnými domy"
+    "text": "obyvatelé pohřbívali mrtvé do hromadných hrobů a improvizovaných příkopů přímo mezi obytnými domy",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      5
+    ]
   },
   {
     "city": "mariupol",
     "year": 2022,
-    "text": "29. dubna začala pod patronací OSN a Červeného kříže evakuace civilistů z podzemí oceláren Azovstal do Záporoží"
+    "text": "29. dubna začala pod patronací OSN a Červeného kříže evakuace civilistů z podzemí oceláren Azovstal do Záporoží",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 2022,
-    "text": "tisíce obyvatel prošly ruskými filtračními tábory a desítky tisíc byly deportovány do Ruska či na separatisty ovládané území"
+    "text": "tisíce obyvatel prošly ruskými filtračními tábory a desítky tisíc byly deportovány do Ruska či na separatisty ovládané území",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      5
+    ]
   },
   {
     "city": "mariupol",
     "year": 2022,
-    "text": "16.–20. května se vzdali poslední obránci Azovstalu; téměř dva tisíce zajatých vojáků odvezlo Rusko do věznice v Olenivce"
+    "text": "16.–20. května se vzdali poslední obránci Azovstalu; téměř dva tisíce zajatých vojáků odvezlo Rusko do věznice v Olenivce",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 2022,
-    "text": "podle mariupolského starosty si obléhání vyžádalo přes deset tisíc civilních obětí, podle odhadů snad i přes dvacet tisíc"
+    "text": "podle mariupolského starosty si obléhání vyžádalo přes deset tisíc civilních obětí, podle odhadů snad i přes dvacet tisíc",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 2023,
-    "text": "ruská okupační správa zahájila výstavbu nové čtvrti Něvskij s pětipatrovými domy v petrohradském „imperiálním“ stylu, nabízenými na prodej ruským občanům"
+    "text": "ruská okupační správa zahájila výstavbu nové čtvrti Něvskij s pětipatrovými domy v petrohradském „imperiálním“ stylu, nabízenými na prodej ruským občanům",
+    "rel": [
+      5,
+      3,
+      2,
+      4,
+      4,
+      5
+    ]
   },
   {
     "city": "mariupol",
     "year": 2024,
-    "text": "vyšetřování Bellingcatu napočítalo na troskách Mariupolu přes padesát nových bytových domů s nejméně šesti tisíci bytů, financovaných z ruských zvýhodněných hypoték"
+    "text": "vyšetřování Bellingcatu napočítalo na troskách Mariupolu přes padesát nových bytových domů s nejméně šesti tisíci bytů, financovaných z ruských zvýhodněných hypoték",
+    "rel": [
+      5,
+      3,
+      2,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "mariupol",
     "year": 2024,
-    "text": "okupační správa přejmenovala ulice a budovy, mimo jiné činoherní divadlo na Ruské činoherní divadlo, a vlnou přestaveb měnila město na ruské"
+    "text": "okupační správa přejmenovala ulice a budovy, mimo jiné činoherní divadlo na Ruské činoherní divadlo, a vlnou přestaveb měnila město na ruské",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      4,
+      4
+    ]
   }
 ]

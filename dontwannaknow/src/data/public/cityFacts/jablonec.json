@@ -2,56 +2,144 @@
   {
     "city": "jablonec",
     "year": 1920,
-    "text": "Jablonec (tehdy Gablonz) byl světovým hlavním městem skleněné bižuterie a ozdobných korálků"
+    "text": "Jablonec (tehdy Gablonz) byl světovým hlavním městem skleněné bižuterie a ozdobných korálků",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "jablonec",
     "year": 1938,
-    "text": "po Mnichovské dohodě připojen nacistickým Německem; korálky z Říšské župy Sudety se dál vyvážely do zahraničí"
+    "text": "po Mnichovské dohodě připojen nacistickým Německem; korálky z Říšské župy Sudety se dál vyvážely do zahraničí",
+    "rel": [
+      5,
+      5,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "jablonec",
     "year": 1945,
-    "text": "německé sklářské obyvatelstvo bylo vyhnáno a celé korálkářské dílny byly rozebrány"
+    "text": "německé sklářské obyvatelstvo bylo vyhnáno a celé korálkářské dílny byly rozebrány",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "jablonec",
     "year": 1971,
-    "text": "exportní kombinát Jablonex prodával československou bižuterii po celém světě"
+    "text": "exportní kombinát Jablonex prodával československou bižuterii po celém světě",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "jablonec",
     "year": 1950,
-    "text": "československé sklářské školy v Jablonci a Železném Brodě obnovily s českými učni výrobu korálků"
+    "text": "československé sklářské školy v Jablonci a Železném Brodě obnovily s českými učni výrobu korálků",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "jablonec",
     "year": 1968,
-    "text": "značka Bižuterie Jablonec vznikla jako oficiální socialistická spotřební řada korálkové bižuterie"
+    "text": "značka Bižuterie Jablonec vznikla jako oficiální socialistická spotřební řada korálkové bižuterie",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "jablonec",
     "year": 1968,
-    "text": "v Bedřichově u města se jel první ročník Jizerské 50; na startu stálo 52 závodníků a startovné činilo pět korun"
+    "text": "v Bedřichově u města se jel první ročník Jizerské 50; na startu stálo 52 závodníků a startovné činilo pět korun",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "jablonec",
     "year": 1971,
-    "text": "Jizerská 50 začala nést podtitul Memoriál Expedice Peru 1970 na počest patnácti horolezců zahynulých pod Huascaránem"
+    "text": "Jizerská 50 začala nést podtitul Memoriál Expedice Peru 1970 na počest patnácti horolezců zahynulých pod Huascaránem",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "jablonec",
     "year": 1990,
-    "text": "po sametové revoluci se výroba bižuterie rozdělila mezi akciové společnosti Preciosa, Ornela, Jablonex a Železnobrodské sklo"
+    "text": "po sametové revoluci se výroba bižuterie rozdělila mezi akciové společnosti Preciosa, Ornela, Jablonex a Železnobrodské sklo",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "jablonec",
     "year": 2009,
-    "text": "v srpnu skončila padesátiletá historie závodu Železnobrodské sklo a provozy skupiny Jablonex byly postupně rušeny"
+    "text": "v srpnu skončila padesátiletá historie závodu Železnobrodské sklo a provozy skupiny Jablonex byly postupně rušeny",
+    "rel": [
+      4,
+      3,
+      3,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "jablonec",
     "year": 2010,
-    "text": "pamětní medaile pro účastníky Jizerské 50 razila Česká mincovna sídlící v Jablonci"
+    "text": "pamětní medaile pro účastníky Jizerské 50 razila Česká mincovna sídlící v Jablonci",
+    "rel": [
+      5,
+      0,
+      1,
+      2,
+      1,
+      1
+    ]
   }
 ]

@@ -2,81 +2,209 @@
   {
     "city": "breclav",
     "year": 1938,
-    "text": "Břeclav na nové německé hranici s Moravou se stala přísně kontrolovaným přechodem"
+    "text": "Břeclav na nové německé hranici s Moravou se stala přísně kontrolovaným přechodem",
+    "rel": [
+      5,
+      4,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "breclav",
     "year": 1968,
-    "text": "sovětské tanky překročily v srpnu při invazi Varšavské smlouvy hranici u Břeclavi"
+    "text": "sovětské tanky překročily v srpnu při invazi Varšavské smlouvy hranici u Břeclavi",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "breclav",
     "year": 1922,
-    "text": "Lednicko-valtický kulturní areál — parkový komplex vybudovaný Lichtenštejny — byl otevřen jako veřejná atrakce"
+    "text": "Lednicko-valtický kulturní areál — parkový komplex vybudovaný Lichtenštejny — byl otevřen jako veřejná atrakce",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "breclav",
     "year": 1939,
-    "text": "jako jihomoravské železniční úzké hrdlo byla Břeclav klíčovým uzlem pro nacistické vlaky jedoucí do Vídně"
+    "text": "jako jihomoravské železniční úzké hrdlo byla Břeclav klíčovým uzlem pro nacistické vlaky jedoucí do Vídně",
+    "rel": [
+      5,
+      3,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "breclav",
     "year": 1945,
-    "text": "Rudá armáda překročila v dubnu řeku Moravu u Břeclavi; tisíce uprchlíků prchaly na sever"
+    "text": "Rudá armáda překročila v dubnu řeku Moravu u Břeclavi; tisíce uprchlíků prchaly na sever",
+    "rel": [
+      5,
+      5,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "breclav",
     "year": 1955,
-    "text": "břeclavský cukrovar — jeden z největších v Československu — vyráběl desítky tisíc tun ročně"
+    "text": "břeclavský cukrovar — jeden z největších v Československu — vyráběl desítky tisíc tun ročně",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "breclav",
     "year": 1975,
-    "text": "Břeclavský okres byl silně vinařským regionem; státní Vinařský závod vyvážel na celý trh RVHP"
+    "text": "Břeclavský okres byl silně vinařským regionem; státní Vinařský závod vyvážel na celý trh RVHP",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "breclav",
     "year": 1945,
-    "text": "11. dubna dobyla Rudá armáda nedaleký Lanžhot, bráněný desítkami německých tanků; čtvrtina městečka přitom lehla popelem"
+    "text": "11. dubna dobyla Rudá armáda nedaleký Lanžhot, bráněný desítkami německých tanků; čtvrtina městečka přitom lehla popelem",
+    "rel": [
+      4,
+      4,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "breclav",
     "year": 1945,
-    "text": "lichtenštejnskému rodu byl na základě Benešových dekretů zabaven rozsáhlý majetek na jižní Moravě včetně Lednice a Valtic"
+    "text": "lichtenštejnskému rodu byl na základě Benešových dekretů zabaven rozsáhlý majetek na jižní Moravě včetně Lednice a Valtic",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "breclav",
     "year": 1950,
-    "text": "v Břeclavi byla založena gumárna Gumotex, z níž vyrostl světově největší výrobce nafukovacích člunů"
+    "text": "v Břeclavi byla založena gumárna Gumotex, z níž vyrostl světově největší výrobce nafukovacích člunů",
+    "rel": [
+      5,
+      3,
+      3,
+      4,
+      5,
+      3
+    ]
   },
   {
     "city": "breclav",
     "year": 1958,
-    "text": "u Pohanska poblíž Břeclavi začal systematický archeologický výzkum velkomoravského hradiska s nejdelším opevněním Velké Moravy"
+    "text": "u Pohanska poblíž Břeclavi začal systematický archeologický výzkum velkomoravského hradiska s nejdelším opevněním Velké Moravy",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "breclav",
     "year": 1980,
-    "text": "8. listopadu se u Lanžhota poblíž Břeclavi propojila dálnice D2 a spojila tak Brno s Bratislavou"
+    "text": "8. listopadu se u Lanžhota poblíž Břeclavi propojila dálnice D2 a spojila tak Brno s Bratislavou",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "breclav",
     "year": 1996,
-    "text": "v prosinci byl Lednicko-valtický areál, největší uměle vytvořená krajina Evropy, zapsán na seznam světového dědictví UNESCO"
+    "text": "v prosinci byl Lednicko-valtický areál, největší uměle vytvořená krajina Evropy, zapsán na seznam světového dědictví UNESCO",
+    "rel": [
+      5,
+      1,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "breclav",
     "year": 2000,
-    "text": "po rozsáhlé obnově se maurská synagoga z roku 1868 znovu otevřela jako koncertní a výstavní síň"
+    "text": "po rozsáhlé obnově se maurská synagoga z roku 1868 znovu otevřela jako koncertní a výstavní síň",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "breclav",
     "year": 2007,
-    "text": "21. prosince vstoupila republika do Schengenu a na břeclavských přechodech s Rakouskem i Slovenskem padly hraniční kontroly"
+    "text": "21. prosince vstoupila republika do Schengenu a na břeclavských přechodech s Rakouskem i Slovenskem padly hraniční kontroly",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "breclav",
     "year": 2009,
-    "text": "v obnovené synagoze byla otevřena stálá expozice připomínající kdysi jednu z největších židovských obcí na Moravě"
+    "text": "v obnovené synagoze byla otevřena stálá expozice připomínající kdysi jednu z největších židovských obcí na Moravě",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      3
+    ]
   }
 ]

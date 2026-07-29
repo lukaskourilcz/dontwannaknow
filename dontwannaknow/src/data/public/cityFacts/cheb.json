@@ -2,71 +2,183 @@
   {
     "city": "cheb",
     "year": 1938,
-    "text": "Cheb (Eger) se stal jedním z prvních sudetských měst, která hostila shromáždění Konrada Henleina, než byl připojen"
+    "text": "Cheb (Eger) se stal jedním z prvních sudetských měst, která hostila shromáždění Konrada Henleina, než byl připojen",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "cheb",
     "year": 1945,
-    "text": "jednotky americké 3. armády se v květnu spojily s Rudou armádou u Chebu a dokončily tak české tažení"
+    "text": "jednotky americké 3. armády se v květnu spojily s Rudou armádou u Chebu a dokončily tak české tažení",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "cheb",
     "year": 1968,
-    "text": "místní kasárna pohraniční stráže byla horkým místem, jak vojska Varšavské smlouvy překročila hranici z východního Německa"
+    "text": "místní kasárna pohraniční stráže byla horkým místem, jak vojska Varšavské smlouvy překročila hranici z východního Německa",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "cheb",
     "year": 1922,
-    "text": "Cheb byl západním okrajem Čech, převážně německy mluvící, se slavnou kronikou Valdštejnovy vraždy ze 17. století"
+    "text": "Cheb byl západním okrajem Čech, převážně německy mluvící, se slavnou kronikou Valdštejnovy vraždy ze 17. století",
+    "rel": [
+      5,
+      0,
+      4,
+      1,
+      2,
+      2
+    ]
   },
   {
     "city": "cheb",
     "year": 1946,
-    "text": "německé obyvatelstvo bylo vyhnáno; ze středověkého centra s Valdštejnovým domem se stalo české muzeum pod širým nebem"
+    "text": "německé obyvatelstvo bylo vyhnáno; ze středověkého centra s Valdštejnovým domem se stalo české muzeum pod širým nebem",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "city": "cheb",
     "year": 1975,
-    "text": "chebské železniční spojení se západním Německem se stalo nejpřísněji kontrolovaným československým hraničním přechodem"
+    "text": "chebské železniční spojení se západním Německem se stalo nejpřísněji kontrolovaným československým hraničním přechodem",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "cheb",
     "year": 1945,
-    "text": "25. dubna obsadila Cheb 97. pěší divize americké armády a město se stalo jedním z prvních větších českých sídel osvobozených Američany"
+    "text": "25. dubna obsadila Cheb 97. pěší divize americké armády a město se stalo jedním z prvních větších českých sídel osvobozených Američany",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "cheb",
     "year": 1945,
-    "text": "koncem dubna se Konrad Henlein pokusil s jednotkami SS dobýt Cheb zpět, byl však odražen; boje o město a letiště si vyžádaly desítky životů"
+    "text": "koncem dubna se Konrad Henlein pokusil s jednotkami SS dobýt Cheb zpět, byl však odražen; boje o město a letiště si vyžádaly desítky životů",
+    "rel": [
+      5,
+      4,
+      1,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "cheb",
     "year": 1946,
-    "text": "německá většina obyvatel Chebu byla vysídlena a do pohraničního města přišli čeští a slovenští osídlenci z vnitrozemí"
+    "text": "německá většina obyvatel Chebu byla vysídlena a do pohraničního města přišli čeští a slovenští osídlenci z vnitrozemí",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      5,
+      5
+    ]
   },
   {
     "city": "cheb",
     "year": 1951,
-    "text": "podél hranice u Chebu vyrostlo zostřené pásmo ostrahy a ve městě vznikla silná posádka pohraniční stráže"
+    "text": "podél hranice u Chebu vyrostlo zostřené pásmo ostrahy a ve městě vznikla silná posádka pohraniční stráže",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "cheb",
     "year": 1953,
-    "text": "vylidněné vesnice v hraničním pásmu kolem Chebu byly srovnány se zemí a oblast se proměnila v nepřístupnou zónu"
+    "text": "vylidněné vesnice v hraničním pásmu kolem Chebu byly srovnány se zemí a oblast se proměnila v nepřístupnou zónu",
+    "rel": [
+      4,
+      3,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "cheb",
     "year": 1978,
-    "text": "nedaleká přírodní rezervace Soos s rašeliništi a vývěry minerálních pramenů zpřístupnila návštěvníkům naučnou stezku"
+    "text": "nedaleká přírodní rezervace Soos s rašeliništi a vývěry minerálních pramenů zpřístupnila návštěvníkům naučnou stezku",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "cheb",
     "year": 1990,
-    "text": "po pádu železné opony se hraniční přechod u Chebu otevřel a městem začaly proudit davy z obou stran hranice"
+    "text": "po pádu železné opony se hraniční přechod u Chebu otevřel a městem začaly proudit davy z obou stran hranice",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "city": "cheb",
     "year": 2004,
-    "text": "po vstupu Česka do Evropské unie ztratila chebská hranice se sjednoceným Německem svůj dosavadní střežený charakter"
+    "text": "po vstupu Česka do Evropské unie ztratila chebská hranice se sjednoceným Německem svůj dosavadní střežený charakter",
+    "rel": [
+      5,
+      4,
+      4,
+      0,
+      5,
+      3
+    ]
   }
 ]

@@ -2,171 +2,443 @@
   {
     "city": "kherson",
     "year": 1928,
-    "text": "chersonská loděnice spustila na vodu svou první nákladní loď postavenou v SSSR"
+    "text": "chersonská loděnice spustila na vodu svou první nákladní loď postavenou v SSSR",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "kherson",
     "year": 1933,
-    "text": "holodomor zpustošil vesnice podél dolního Dněpru kolem Chersonu"
+    "text": "holodomor zpustošil vesnice podél dolního Dněpru kolem Chersonu",
+    "rel": [
+      4,
+      5,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "kherson",
     "year": 1941,
-    "text": "v srpnu obsazeno wehrmachtem"
+    "text": "v srpnu obsazeno wehrmachtem",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "kherson",
     "year": 1941,
-    "text": "wehrmacht obsadil Cherson v srpnu"
+    "text": "wehrmacht obsadil Cherson v srpnu",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "kherson",
     "year": 1944,
-    "text": "osvobození Rudou armádou v březnu"
+    "text": "osvobození Rudou armádou v březnu",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      4,
+      1
+    ]
   },
   {
     "city": "kherson",
     "year": 1944,
-    "text": "sovětské síly osvobodily město 13. března"
+    "text": "sovětské síly osvobodily město 13. března",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      4,
+      1
+    ]
   },
   {
     "city": "kherson",
     "year": 1956,
-    "text": "Kachovská přehrada se naplnila a proměnila ekonomiku dolního Dněpru kolem Chersonu"
+    "text": "Kachovská přehrada se naplnila a proměnila ekonomiku dolního Dněpru kolem Chersonu",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "kherson",
     "year": 1957,
-    "text": "Severokrymský kanál začal přivádět dněperskou vodu přes Chersonskou oblast k zavlažování Krymu"
+    "text": "Severokrymský kanál začal přivádět dněperskou vodu přes Chersonskou oblast k zavlažování Krymu",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "kherson",
     "year": 1965,
-    "text": "Chersonský bavlnářský kombinát se stal jedním z největších textilních závodů v SSSR"
+    "text": "Chersonský bavlnářský kombinát se stal jedním z největších textilních závodů v SSSR",
+    "rel": [
+      5,
+      4,
+      5,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "kherson",
     "year": 1972,
-    "text": "městská loděnice spustila na vodu supertanker Krym, tehdy největší tanker postavený v SSSR"
+    "text": "městská loděnice spustila na vodu supertanker Krym, tehdy největší tanker postavený v SSSR",
+    "rel": [
+      5,
+      3,
+      4,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "kherson",
     "year": 1978,
-    "text": "Chersonský závod na obilní kombajny vyráběl ve velkém kombajn Niva"
+    "text": "Chersonský závod na obilní kombajny vyráběl ve velkém kombajn Niva",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "kherson",
     "year": 1922,
-    "text": "Cherson byl historickým kozáckým přístavem v ústí Dněpru, nyní reorganizovaným jako sovětský okruh"
+    "text": "Cherson byl historickým kozáckým přístavem v ústí Dněpru, nyní reorganizovaným jako sovětský okruh",
+    "rel": [
+      5,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "kherson",
     "year": 1932,
-    "text": "holodomor zasáhl obzvláště tvrdě řecké a bulharské vesnice Chersonského regionu"
+    "text": "holodomor zasáhl obzvláště tvrdě řecké a bulharské vesnice Chersonského regionu",
+    "rel": [
+      5,
+      5,
+      3,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "kherson",
     "year": 1955,
-    "text": "chersonské loděnice stavěly říční tankery pro Dněpr"
+    "text": "chersonské loděnice stavěly říční tankery pro Dněpr",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      1
+    ]
   },
   {
     "city": "kherson",
     "year": 1965,
-    "text": "Cherson se stal hlavním ukrajinským producentem melounů a cukrových melounů pro sovětský trh"
+    "text": "Cherson se stal hlavním ukrajinským producentem melounů a cukrových melounů pro sovětský trh",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "kherson",
     "year": 1941,
-    "text": "po bojích od 15. do 18. srpna obsadila wehrmacht město a uvrhla obyvatele do tříleté okupace"
+    "text": "po bojích od 15. do 18. srpna obsadila wehrmacht město a uvrhla obyvatele do tříleté okupace",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "kherson",
     "year": 1943,
-    "text": "během německé okupace bylo zavražděno na 17 000 obyvatel a dalších 15 000 odvlečeno na nucené práce do Říše"
+    "text": "během německé okupace bylo zavražděno na 17 000 obyvatel a dalších 15 000 odvlečeno na nucené práce do Říše",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "kherson",
     "year": 1944,
-    "text": "13. března osvobodily město jednotky Rudé armády vedené generálem Margelovem"
+    "text": "13. března osvobodily město jednotky Rudé armády vedené generálem Margelovem",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "kherson",
     "year": 1944,
-    "text": "30. března se Cherson stal hlavním městem nově zřízené Chersonské oblasti"
+    "text": "30. března se Cherson stal hlavním městem nově zřízené Chersonské oblasti",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "kherson",
     "year": 1985,
-    "text": "24. prosince byl přes Dněpr otevřen Antonivský silniční most spojující město s levým břehem"
+    "text": "24. prosince byl přes Dněpr otevřen Antonivský silniční most spojující město s levým břehem",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "kherson",
     "year": 1991,
-    "text": "1. prosince hlasovala Chersonská oblast v referendu drtivě pro nezávislost Ukrajiny"
+    "text": "1. prosince hlasovala Chersonská oblast v referendu drtivě pro nezávislost Ukrajiny",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "kherson",
     "year": 2022,
-    "text": "2. března obsadily ruské síly Cherson jako jediné dobyté oblastní centrum invaze"
+    "text": "2. března obsadily ruské síly Cherson jako jediné dobyté oblastní centrum invaze",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "kherson",
     "year": 2022,
-    "text": "27. září uspořádali okupanti zinscenované referendum, po němž Putin 30. září vyhlásil anexi oblasti"
+    "text": "27. září uspořádali okupanti zinscenované referendum, po němž Putin 30. září vyhlásil anexi oblasti",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "kherson",
     "year": 2022,
-    "text": "11. listopadu osvobodila ukrajinská armáda Cherson po osmiměsíční okupaci"
+    "text": "11. listopadu osvobodila ukrajinská armáda Cherson po osmiměsíční okupaci",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "kherson",
     "year": 2022,
-    "text": "při ústupu zničili Rusové Antonivský most a odřízli pravý břeh Dněpru"
+    "text": "při ústupu zničili Rusové Antonivský most a odřízli pravý břeh Dněpru",
+    "rel": [
+      5,
+      4,
+      5,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "kherson",
     "year": 2023,
-    "text": "6. června protrhli Rusové Kachovskou přehradu a záplavy na dolním Dněpru vyhnaly tisíce lidí z domovů"
+    "text": "6. června protrhli Rusové Kachovskou přehradu a záplavy na dolním Dněpru vyhnaly tisíce lidí z domovů",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "kherson",
     "year": 2024,
-    "text": "od léta zahájili Rusové cílené nálety dronů na civilisty na pravém břehu Dněpru, jež místní nazývají hon na lidi"
+    "text": "od léta zahájili Rusové cílené nálety dronů na civilisty na pravém břehu Dněpru, jež místní nazývají hon na lidi",
+    "rel": [
+      5,
+      5,
+      5,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "kherson",
     "year": 2025,
-    "text": "OSN označila ruskou kampaň dronů kolem Chersonu za zločin proti lidskosti; jen za půl roku zabila 84 civilistů"
+    "text": "OSN označila ruskou kampaň dronů kolem Chersonu za zločin proti lidskosti; jen za půl roku zabila 84 civilistů",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "kherson",
     "year": 1951,
-    "text": "v říjnu byla založena Chersonská loděnice jako jeden z hlavních sovětských závodů na stavbu obchodních lodí"
+    "text": "v říjnu byla založena Chersonská loděnice jako jeden z hlavních sovětských závodů na stavbu obchodních lodí",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "kherson",
     "year": 1960,
-    "text": "v Chersonu byla zahájena trolejbusová doprava"
+    "text": "v Chersonu byla zahájena trolejbusová doprava",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      1
+    ]
   },
   {
     "city": "kherson",
     "year": 1988,
-    "text": "u obce Osokorivka byl postaven pomník melounu, první a největší svého druhu na Ukrajině a symbol chersonského zemědělství"
+    "text": "u obce Osokorivka byl postaven pomník melounu, první a největší svého druhu na Ukrajině a symbol chersonského zemědělství",
+    "rel": [
+      4,
+      1,
+      3,
+      4,
+      2,
+      2
+    ]
   },
   {
     "city": "kherson",
     "year": 2010,
-    "text": "byl vyhlášen národní přírodní park Oleškivské písky, největší písečná plocha v Evropě jihovýchodně od města"
+    "text": "byl vyhlášen národní přírodní park Oleškivské písky, největší písečná plocha v Evropě jihovýchodně od města",
+    "rel": [
+      4,
+      1,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "kherson",
     "year": 2023,
-    "text": "8. června ostřelovali Rusové evakuační místa v zaplaveném Chersonu; ze zatopeného ostrova Korabel bylo evakuováno přes 2 400 lidí"
+    "text": "8. června ostřelovali Rusové evakuační místa v zaplaveném Chersonu; ze zatopeného ostrova Korabel bylo evakuováno přes 2 400 lidí",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "kherson",
     "year": 2024,
-    "text": "po osvobození se pravobřežní Cherson stal frontovým městem pod každodenní ruskou dělostřeleckou palbou z levého břehu"
+    "text": "po osvobození se pravobřežní Cherson stal frontovým městem pod každodenní ruskou dělostřeleckou palbou z levého břehu",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      4
+    ]
   }
 ]

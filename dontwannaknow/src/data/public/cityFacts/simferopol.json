@@ -2,221 +2,573 @@
   {
     "city": "simferopol",
     "year": 1921,
-    "text": "Krym se stal Krymskou ASSR se Simferopolem jako hlavním městem"
+    "text": "Krym se stal Krymskou ASSR se Simferopolem jako hlavním městem",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 1931,
-    "text": "Krymskotatarský pedagogický institut sjednotil přípravu učitelů v tatarském jazyce"
+    "text": "Krymskotatarský pedagogický institut sjednotil přípravu učitelů v tatarském jazyce",
+    "rel": [
+      5,
+      2,
+      2,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 1937,
-    "text": "krymskotatarský politický vůdce Veli Ibraimov byl už zastřelen v roce 1928 a jeho spolupracovníci byli nyní odstraněni v čistkách"
+    "text": "krymskotatarský politický vůdce Veli Ibraimov byl už zastřelen v roce 1928 a jeho spolupracovníci byli nyní odstraněni v čistkách",
+    "rel": [
+      5,
+      2,
+      1,
+      4,
+      4,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 1941,
-    "text": "wehrmacht obsadil město 1. listopadu; následovalo masové vraždění Židů a Krymčaků"
+    "text": "wehrmacht obsadil město 1. listopadu; následovalo masové vraždění Židů a Krymčaků",
+    "rel": [
+      5,
+      5,
+      5,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 1942,
-    "text": "Einsatzgruppe D zastřelila v oblasti Simferopolu asi 14 000 Krymčaků, Židů a Romů"
+    "text": "Einsatzgruppe D zastřelila v oblasti Simferopolu asi 14 000 Krymčaků, Židů a Romů",
+    "rel": [
+      5,
+      5,
+      4,
+      4,
+      5,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 1944,
-    "text": "Rudá armáda osvobodila město v dubnu"
+    "text": "Rudá armáda osvobodila město v dubnu",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      1
+    ]
   },
   {
     "city": "simferopol",
     "year": 1944,
-    "text": "Stalin deportoval ze simferopolských kolejišť celé krymskotatarské obyvatelstvo do Střední Asie"
+    "text": "Stalin deportoval ze simferopolských kolejišť celé krymskotatarské obyvatelstvo do Střední Asie",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      5
+    ]
   },
   {
     "city": "simferopol",
     "year": 1944,
-    "text": "sovětské síly osvobodily město 13. dubna"
+    "text": "sovětské síly osvobodily město 13. dubna",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      4,
+      1
+    ]
   },
   {
     "city": "simferopol",
     "year": 1945,
-    "text": "krymskotatarské místní názvy po celé oblasti byly hromadným dekretem rusifikovány"
+    "text": "krymskotatarské místní názvy po celé oblasti byly hromadným dekretem rusifikovány",
+    "rel": [
+      4,
+      3,
+      3,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "simferopol",
     "year": 1954,
-    "text": "Simferopol se spolu se zbytkem Krymu stal součástí Ukrajinské SSR"
+    "text": "Simferopol se spolu se zbytkem Krymu stal součástí Ukrajinské SSR",
+    "rel": [
+      5,
+      1,
+      3,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 1954,
-    "text": "Krymská oblast byla převedena do Ukrajinské SSR se Simferopolem jako svým správním centrem"
+    "text": "Krymská oblast byla převedena do Ukrajinské SSR se Simferopolem jako svým správním centrem",
+    "rel": [
+      5,
+      1,
+      3,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "simferopol",
     "year": 1959,
-    "text": "otevřela se nejdelší trolejbusová linka na světě ze Simferopolu do Jalty přes Angarský průsmyk"
+    "text": "otevřela se nejdelší trolejbusová linka na světě ze Simferopolu do Jalty přes Angarský průsmyk",
+    "rel": [
+      5,
+      3,
+      5,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "simferopol",
     "year": 1967,
-    "text": "krymští Tataři byli oficiálně rehabilitováni, ale stále jim byl zakázán návrat na Krym"
+    "text": "krymští Tataři byli oficiálně rehabilitováni, ale stále jim byl zakázán návrat na Krym",
+    "rel": [
+      4,
+      2,
+      3,
+      4,
+      4,
+      5
+    ]
   },
   {
     "city": "simferopol",
     "year": 1970,
-    "text": "simferopolské letiště odbavovalo miliony sovětských dovolenkářů mířících každé léto na Krym"
+    "text": "simferopolské letiště odbavovalo miliony sovětských dovolenkářů mířících každé léto na Krym",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "simferopol",
     "year": 1979,
-    "text": "městská tržnice Centralnyj prodávala produkty z okolních krymských sadů a vinic"
+    "text": "městská tržnice Centralnyj prodávala produkty z okolních krymských sadů a vinic",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 1921,
-    "text": "Krym se stal autonomní republikou v rámci Ruské SFSR; Simferopol se stal jejím hlavním městem"
+    "text": "Krym se stal autonomní republikou v rámci Ruské SFSR; Simferopol se stal jejím hlavním městem",
+    "rel": [
+      5,
+      2,
+      2,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 1945,
-    "text": "po deportaci krymských Tatarů bylo město znovuosídleno ruskými a ukrajinskými osídlenci"
+    "text": "po deportaci krymských Tatarů bylo město znovuosídleno ruskými a ukrajinskými osídlenci",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      5
+    ]
   },
   {
     "city": "simferopol",
     "year": 1957,
-    "text": "simferopolský vinný palác Massandra postavený KGB se rozšířil, aby zásoboval sovětské olympijské sportovce"
+    "text": "simferopolský vinný palác Massandra postavený KGB se rozšířil, aby zásoboval sovětské olympijské sportovce",
+    "rel": [
+      5,
+      1,
+      1,
+      4,
+      2,
+      2
+    ]
   },
   {
     "city": "simferopol",
     "year": 1959,
-    "text": "simferopolské letiště bylo modernizováno, aby zvládlo vlnu sovětských turistů mířících do Jalty a Alušty"
+    "text": "simferopolské letiště bylo modernizováno, aby zvládlo vlnu sovětských turistů mířících do Jalty a Alušty",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "simferopol",
     "year": 1965,
-    "text": "město se stalo branou pro více než milion sovětských turistů ročně navštěvujících krymskou riviéru"
+    "text": "město se stalo branou pro více než milion sovětských turistů ročně navštěvujících krymskou riviéru",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "simferopol",
     "year": 1976,
-    "text": "pionýrský tábor Artek v nedalekém Hurzufu hostil děti z celého východního bloku"
+    "text": "pionýrský tábor Artek v nedalekém Hurzufu hostil děti z celého východního bloku",
+    "rel": [
+      4,
+      1,
+      4,
+      1,
+      2,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 1944,
-    "text": "18. května začala před úsvitem deportace celého krymskotatarského národa; do Střední Asie bylo vyhnáno přes 200 000 lidí"
+    "text": "18. května začala před úsvitem deportace celého krymskotatarského národa; do Střední Asie bylo vyhnáno přes 200 000 lidí",
+    "rel": [
+      5,
+      5,
+      5,
+      3,
+      5,
+      5
+    ]
   },
   {
     "city": "simferopol",
     "year": 1945,
-    "text": "po deportaci byla Krymská ASSR zrušena a Krym snížen na pouhou oblast"
+    "text": "po deportaci byla Krymská ASSR zrušena a Krym snížen na pouhou oblast",
+    "rel": [
+      4,
+      2,
+      3,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "simferopol",
     "year": 1989,
-    "text": "Nejvyšší sovět v listopadu odsoudil deportaci a vyzval k návratu krymských Tatarů; začala hlavní vlna repatriace"
+    "text": "Nejvyšší sovět v listopadu odsoudil deportaci a vyzval k návratu krymských Tatarů; začala hlavní vlna repatriace",
+    "rel": [
+      4,
+      3,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "simferopol",
     "year": 1991,
-    "text": "lednové referendum schválilo 94 % hlasů obnovení Krymské ASSR, zrušené po deportaci roku 1945"
+    "text": "lednové referendum schválilo 94 % hlasů obnovení Krymské ASSR, zrušené po deportaci roku 1945",
+    "rel": [
+      4,
+      2,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 2014,
-    "text": "27. února před úsvitem obsadily neoznačené ruské jednotky budovu krymského parlamentu"
+    "text": "27. února před úsvitem obsadily neoznačené ruské jednotky budovu krymského parlamentu",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "simferopol",
     "year": 2014,
-    "text": "11. března přijal krymský parlament deklaraci nezávislosti s cílem připojit poloostrov k Rusku"
+    "text": "11. března přijal krymský parlament deklaraci nezávislosti s cílem připojit poloostrov k Rusku",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 2014,
-    "text": "po anexi se Simferopol stal hlavním městem ruské Republiky Krym"
+    "text": "po anexi se Simferopol stal hlavním městem ruské Republiky Krym",
+    "rel": [
+      5,
+      4,
+      5,
+      0,
+      5,
+      2
+    ]
   },
   {
     "city": "simferopol",
     "year": 2016,
-    "text": "ruský nejvyšší soud zakázal Medžlis krymských Tatarů jako extremistickou organizaci"
+    "text": "ruský nejvyšší soud zakázal Medžlis krymských Tatarů jako extremistickou organizaci",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "simferopol",
     "year": 2018,
-    "text": "16. dubna bylo otevřeno nové letiště s terminálem ve tvaru mořské vlny"
+    "text": "16. dubna bylo otevřeno nové letiště s terminálem ve tvaru mořské vlny",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "simferopol",
     "year": 2019,
-    "text": "v prosinci vyjely přes Kerčský most první vlaky a spojily Simferopol s ruskou pevninou"
+    "text": "v prosinci vyjely přes Kerčský most první vlaky a spojily Simferopol s ruskou pevninou",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 2020,
-    "text": "v srpnu byla otevřena dálnice Tavrida procházející Simferopolem napříč poloostrovem"
+    "text": "v srpnu byla otevřena dálnice Tavrida procházející Simferopolem napříč poloostrovem",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "simferopol",
     "year": 2023,
-    "text": "9. prosince byla otevřena Soborní mešita, největší na Krymu, stavěná od roku 2015 pod patronací Kremlu"
+    "text": "9. prosince byla otevřena Soborní mešita, největší na Krymu, stavěná od roku 2015 pod patronací Kremlu",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 1951,
-    "text": "podle návrhu architekta Duškina bylo dostavěno nádraží ve stalinském slohu se 42 metrů vysokou věží a hodinami se zvěrokruhem"
+    "text": "podle návrhu architekta Duškina bylo dostavěno nádraží ve stalinském slohu se 42 metrů vysokou věží a hodinami se zvěrokruhem",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      5,
+      2
+    ]
   },
   {
     "city": "simferopol",
     "year": 1955,
-    "text": "vykopávky Neapole Skythské odkryly mauzoleum s desítkami hrobů skythské šlechty se zbraněmi, koňmi a zlatem"
+    "text": "vykopávky Neapole Skythské odkryly mauzoleum s desítkami hrobů skythské šlechty se zbraněmi, koňmi a zlatem",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      3,
+      2
+    ]
   },
   {
     "city": "simferopol",
     "year": 1967,
-    "text": "v srpnu vydalo prezidium Nejvyššího sovětu dekret, který sice zprostil krymské Tatary obvinění z kolaborace, ale návrat jim fakticky zapovídal"
+    "text": "v srpnu vydalo prezidium Nejvyššího sovětu dekret, který sice zprostil krymské Tatary obvinění z kolaborace, ale návrat jim fakticky zapovídal",
+    "rel": [
+      4,
+      2,
+      3,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "simferopol",
     "year": 1989,
-    "text": "do města se začaly vracet tisíce krymských Tatarů z vyhnanství ve Střední Asii; vyrůstaly živelné osady na okrajích Simferopolu"
+    "text": "do města se začaly vracet tisíce krymských Tatarů z vyhnanství ve Střední Asii; vyrůstaly živelné osady na okrajích Simferopolu",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "simferopol",
     "year": 1991,
-    "text": "26. června zvolil druhý Kurultaj v Simferopolu Medžlis krymskotatarského národa v čele s Mustafou Džemilevem"
+    "text": "26. června zvolil druhý Kurultaj v Simferopolu Medžlis krymskotatarského národa v čele s Mustafou Džemilevem",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 2014,
-    "text": "Tavrijská národní univerzita, založená ve městě roku 1918, přerušila po anexi činnost a o dva roky později se přestěhovala do Kyjeva"
+    "text": "Tavrijská národní univerzita, založená ve městě roku 1918, přerušila po anexi činnost a o dva roky později se přestěhovala do Kyjeva",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 2014,
-    "text": "po anexi byl zakázán krymskotatarský telekanál ATR a vůdci Medžlisu Džemilevovi byl zapovězen vstup na poloostrov"
+    "text": "po anexi byl zakázán krymskotatarský telekanál ATR a vůdci Medžlisu Džemilevovi byl zapovězen vstup na poloostrov",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "simferopol",
     "year": 2022,
-    "text": "9. srpna otřásla nedalekou leteckou základnou Saky u Novofedorivky série explozí, jež zničila kolem devíti ruských bojových letadel"
+    "text": "9. srpna otřásla nedalekou leteckou základnou Saky u Novofedorivky série explozí, jež zničila kolem devíti ruských bojových letadel",
+    "rel": [
+      4,
+      2,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 2023,
-    "text": "okupační letiště zůstávalo pro civilní dopravu od počátku invaze uzavřené; vzdušný prostor nad poloostrovem byl bojovou zónou"
+    "text": "okupační letiště zůstávalo pro civilní dopravu od počátku invaze uzavřené; vzdušný prostor nad poloostrovem byl bojovou zónou",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 2024,
-    "text": "město se stalo zázemím a logistickým uzlem ruské okupace celého poloostrova, opakovaně cílem dronů a sabotáží"
+    "text": "město se stalo zázemím a logistickým uzlem ruské okupace celého poloostrova, opakovaně cílem dronů a sabotáží",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "simferopol",
     "year": 2025,
-    "text": "po jedenácti letech ruské správy zůstával Medžlis zakázán a krymskotatarský život na poloostrově pod tlakem represí"
+    "text": "po jedenácti letech ruské správy zůstával Medžlis zakázán a krymskotatarský život na poloostrově pod tlakem represí",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      5,
+      3
+    ]
   }
 ]

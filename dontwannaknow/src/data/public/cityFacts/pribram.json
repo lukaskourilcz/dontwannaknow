@@ -2,76 +2,196 @@
   {
     "city": "pribram",
     "year": 1948,
-    "text": "po komunistickém převratu se příbramské uranové doly staly nejhoršími pracovními tábory Československa pro politické vězně"
+    "text": "po komunistickém převratu se příbramské uranové doly staly nejhoršími pracovními tábory Československa pro politické vězně",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "pribram",
     "year": 1955,
-    "text": "tisíce politických vězňů zemřely na silikózu a ozáření v příbramsko-jáchymovském uranovém gulagu"
+    "text": "tisíce politických vězňů zemřely na silikózu a ozáření v příbramsko-jáchymovském uranovém gulagu",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "pribram",
     "year": 1969,
-    "text": "těžba uranu dosáhla vrcholů sovětských kvót; vězni byli nahrazeni placenými civilními horníky"
+    "text": "těžba uranu dosáhla vrcholů sovětských kvót; vězni byli nahrazeni placenými civilními horníky",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "pribram",
     "year": 1920,
-    "text": "Příbram měla asi 30 000 obyvatel a byla hlavním městem těžby stříbra ve středních Čechách"
+    "text": "Příbram měla asi 30 000 obyvatel a byla hlavním městem těžby stříbra ve středních Čechách",
+    "rel": [
+      5,
+      1,
+      3,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "pribram",
     "year": 1942,
-    "text": "Příbramská hornická škola školila inženýry pro celé říšské úsilí o těžbu uranu"
+    "text": "Příbramská hornická škola školila inženýry pro celé říšské úsilí o těžbu uranu",
+    "rel": [
+      5,
+      1,
+      1,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "pribram",
     "year": 1976,
-    "text": "příbramská pouť ke katedrále na Svaté Hoře přitahovala desetitisíce katolíků v tichém vzdoru proti socialistické ortodoxii"
+    "text": "příbramská pouť ke katedrále na Svaté Hoře přitahovala desetitisíce katolíků v tichém vzdoru proti socialistické ortodoxii",
+    "rel": [
+      5,
+      2,
+      5,
+      2,
+      3,
+      4
+    ]
   },
   {
     "city": "pribram",
     "year": 1953,
-    "text": "historické hornické město Březové Hory s proslulými hlubokými šachtami ztratilo samostatnost a bylo připojeno k Příbrami"
+    "text": "historické hornické město Březové Hory s proslulými hlubokými šachtami ztratilo samostatnost a bylo připojeno k Příbrami",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "pribram",
     "year": 1959,
-    "text": "7. dubna se nad Příbramí snesl meteorit, vůbec první v dějinách, jehož dráhu i heliocentrickou orbitu se podařilo určit z fotografií ondřejovské hvězdárny"
+    "text": "7. dubna se nad Příbramí snesl meteorit, vůbec první v dějinách, jehož dráhu i heliocentrickou orbitu se podařilo určit z fotografií ondřejovské hvězdárny",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "pribram",
     "year": 1963,
-    "text": "20. července se na Vysoké u Příbramě otevřel památník Antonína Dvořáka, který zde trávil léta a načerpal inspiraci pro operu Rusalka"
+    "text": "20. července se na Vysoké u Příbramě otevřel památník Antonína Dvořáka, který zde trávil léta a načerpal inspiraci pro operu Rusalka",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "pribram",
     "year": 1978,
-    "text": "27. dubna zachvátil areál Svaté Hory ničivý požár; basiliku samotnou zachránily před plameny stovky hasičů ze čtyř desítek jednotek"
+    "text": "27. dubna zachvátil areál Svaté Hory ničivý požár; basiliku samotnou zachránily před plameny stovky hasičů ze čtyř desítek jednotek",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "pribram",
     "year": 1978,
-    "text": "po více než šesti stoletích skončila historická těžba stříbrných a olověných rud na Březových Horách"
+    "text": "po více než šesti stoletích skončila historická těžba stříbrných a olověných rud na Březových Horách",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "pribram",
     "year": 1990,
-    "text": "ke Svaté Hoře se vrátili redemptoristé, které odtud komunistický režim roku 1950 vyhnal, a opět převzali péči o poutní místo"
+    "text": "ke Svaté Hoře se vrátili redemptoristé, které odtud komunistický režim roku 1950 vyhnal, a opět převzali péči o poutní místo",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "pribram",
     "year": 1991,
-    "text": "po více než čtyřech desetiletích skončila těžba uranu na Příbramsku, jež dala přes 48 tisíc tun uranu a patřila k největším v Evropě"
+    "text": "po více než čtyřech desetiletích skončila těžba uranu na Příbramsku, jež dala přes 48 tisíc tun uranu a patřila k největším v Evropě",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "pribram",
     "year": 1991,
-    "text": "šachta číslo 16 u Hájů dosáhla hloubky 1838 metrů, v té době nejhlubší rudný důl v Evropě, než těžba skončila"
+    "text": "šachta číslo 16 u Hájů dosáhla hloubky 1838 metrů, v té době nejhlubší rudný důl v Evropě, než těžba skončila",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      2,
+      2
+    ]
   },
   {
     "city": "pribram",
     "year": 2005,
-    "text": "po rozsáhlé rekonstrukci se veřejnosti otevřel Památník Vojna, bývalý největší uranový pracovní tábor v Československu"
+    "text": "po rozsáhlé rekonstrukci se veřejnosti otevřel Památník Vojna, bývalý největší uranový pracovní tábor v Československu",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      4,
+      3
+    ]
   }
 ]

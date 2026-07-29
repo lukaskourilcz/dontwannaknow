@@ -2,541 +2,1405 @@
   {
     "city": "prague",
     "year": 1920,
-    "text": "29. února byla přijata československá ústava, která ustanovila Prahu hlavním městem nové republiky"
+    "text": "29. února byla přijata československá ústava, která ustanovila Prahu hlavním městem nové republiky",
+    "rel": [
+      4,
+      2,
+      2,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1920,
-    "text": "Národní divadlo uvedlo k založení republiky Smetanovu Libuši"
+    "text": "Národní divadlo uvedlo k založení republiky Smetanovu Libuši",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      1,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1921,
-    "text": "Karel Čapek uvedl ve Vinohradském divadle premiéru R.U.R., čímž dal světu slovo 'robot'"
+    "text": "Karel Čapek uvedl ve Vinohradském divadle premiéru R.U.R., čímž dal světu slovo 'robot'",
+    "rel": [
+      5,
+      1,
+      3,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1922,
-    "text": "pohlcením 37 okolních obcí vznikla Velká Praha, čímž se počet obyvatel města ztrojnásobil na téměř 677 000"
+    "text": "pohlcením 37 okolních obcí vznikla Velká Praha, čímž se počet obyvatel města ztrojnásobil na téměř 677 000",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1923,
-    "text": "ministr financí Alois Rašín byl v lednu postřelen před svým domem v Žitné ulici a v únoru zemřel"
+    "text": "ministr financí Alois Rašín byl v lednu postřelen před svým domem v Žitné ulici a v únoru zemřel",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1924,
-    "text": "Franz Kafka byl pohřben na Novém židovském hřbitově na Žižkově poté, co zemřel v sanatoriu u Vídně"
+    "text": "Franz Kafka byl pohřben na Novém židovském hřbitově na Žižkově poté, co zemřel v sanatoriu u Vídně",
+    "rel": [
+      5,
+      0,
+      1,
+      3,
+      1,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1925,
-    "text": "palác Lucerna ve Vodičkově ulici hostil pravidelné jazzové večery a promítání ve svém kině"
+    "text": "palác Lucerna ve Vodičkově ulici hostil pravidelné jazzové večery a promítání ve svém kině",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1926,
-    "text": "Radiojournal zahájil pravidelné vysílání z dřevěné boudy ve Kbelích, první pravidelná rozhlasová služba ve střední Evropě začala v roce 1923"
+    "text": "Radiojournal zahájil pravidelné vysílání z dřevěné boudy ve Kbelích, první pravidelná rozhlasová služba ve střední Evropě začala v roce 1923",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1927,
-    "text": "Tomáš Garrigue Masaryk byl znovu zvolen prezidentem a pokračoval ve svých pátečnících se spisovateli na Hradě"
+    "text": "Tomáš Garrigue Masaryk byl znovu zvolen prezidentem a pokračoval ve svých pátečnících se spisovateli na Hradě",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1929,
-    "text": "katedrála svatého Víta uvnitř Pražského hradu byla po téměř 600 letech stavby oficiálně dokončena"
+    "text": "katedrála svatého Víta uvnitř Pražského hradu byla po téměř 600 letech stavby oficiálně dokončena",
+    "rel": [
+      5,
+      1,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1929,
-    "text": "v Holešovicích se otevřel Veletržní palác jako jedna z největších funkcionalistických staveb v Evropě"
+    "text": "v Holešovicích se otevřel Veletržní palác jako jedna z největších funkcionalistických staveb v Evropě",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1930,
-    "text": "Švejka Jaroslava Haška posmrtně dokončil Karel Vaněk a lipnický hrob už byl poutním místem pražských čtenářů"
+    "text": "Švejka Jaroslava Haška posmrtně dokončil Karel Vaněk a lipnický hrob už byl poutním místem pražských čtenářů",
+    "rel": [
+      4,
+      0,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1931,
-    "text": "nad Vltavou se otevřel restaurační komplex Barrandovské terasy, navržený Maxem Urbanem pro Václava Havla staršího"
+    "text": "nad Vltavou se otevřel restaurační komplex Barrandovské terasy, navržený Maxem Urbanem pro Václava Havla staršího",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1933,
-    "text": "v Hlubočepích se otevřely Barrandovské filmové ateliéry a rychle se staly srdcem českého filmu"
+    "text": "v Hlubočepích se otevřely Barrandovské filmové ateliéry a rychle se staly srdcem českého filmu",
+    "rel": [
+      5,
+      2,
+      3,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1935,
-    "text": "Masaryk v prosinci odstoupil z funkce prezidenta s odvoláním na věk a jeho nástupcem byl zvolen Edvard Beneš"
+    "text": "Masaryk v prosinci odstoupil z funkce prezidenta s odvoláním na věk a jeho nástupcem byl zvolen Edvard Beneš",
+    "rel": [
+      4,
+      1,
+      4,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1937,
-    "text": "Masaryk zemřel 14. září v Lánech a statisíce lidí lemovaly cestu, jak byla jeho rakev převážena do Prahy"
+    "text": "Masaryk zemřel 14. září v Lánech a statisíce lidí lemovaly cestu, jak byla jeho rakev převážena do Prahy",
+    "rel": [
+      5,
+      2,
+      5,
+      1,
+      3,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1938,
-    "text": "23. září byla vyhlášena všeobecná mobilizace a Pražané stáli ve frontách u odvodních úřadů ještě před mnichovskou zradou o devět dní později"
+    "text": "23. září byla vyhlášena všeobecná mobilizace a Pražané stáli ve frontách u odvodních úřadů ještě před mnichovskou zradou o devět dní později",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "city": "prague",
     "year": 1939,
-    "text": "15. března vjely na Pražský hrad nacistické tanky a nad českými zeměmi zavlála svastika"
+    "text": "15. března vjely na Pražský hrad nacistické tanky a nad českými zeměmi zavlála svastika",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1939,
-    "text": "studenti protestující na pohřbu Jana Opletala 17. listopadu byli zbiti a české vysoké školy byly uzavřeny"
+    "text": "studenti protestující na pohřbu Jana Opletala 17. listopadu byli zbiti a české vysoké školy byly uzavřeny",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1941,
-    "text": "pražským Židům bylo od září nařízeno nosit žlutou hvězdu a první transporty odjely v říjnu z nádraží Bubny do Lodže"
+    "text": "pražským Židům bylo od září nařízeno nosit žlutou hvězdu a první transporty odjely v říjnu z nádraží Bubny do Lodže",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      5,
+      5
+    ]
   },
   {
     "city": "prague",
     "year": 1942,
-    "text": "šéf SS Reinhard Heydrich byl napaden českými výsadkáři v Libni a o několik dní později zemřel na následky zranění"
+    "text": "šéf SS Reinhard Heydrich byl napaden českými výsadkáři v Libni a o několik dní později zemřel na následky zranění",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1942,
-    "text": "z Prahy byly oznámeny represálie v Lidicích a Ležákách a názvy vesnic byly vyhlášeny jako vymazané z mapy"
+    "text": "z Prahy byly oznámeny represálie v Lidicích a Ležákách a názvy vesnic byly vyhlášeny jako vymazané z mapy",
+    "rel": [
+      4,
+      4,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1945,
-    "text": "pražské povstání začalo 5. května s barikádami v každé ulici; Rudá armáda dorazila 9. května"
+    "text": "pražské povstání začalo 5. května s barikádami v každé ulici; Rudá armáda dorazila 9. května",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1945,
-    "text": "východní křídlo Staroměstské radnice 8. května po německém ostřelování vyhořelo a nikdy nebylo obnoveno"
+    "text": "východní křídlo Staroměstské radnice 8. května po německém ostřelování vyhořelo a nikdy nebylo obnoveno",
+    "rel": [
+      5,
+      1,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1946,
-    "text": "Rafael Kubelík dirigoval v květnu první poválečný hudební festival Pražské jaro a založil tak pozdější každoroční tradici"
+    "text": "Rafael Kubelík dirigoval v květnu první poválečný hudební festival Pražské jaro a založil tak pozdější každoroční tradici",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1948,
-    "text": "Klement Gottwald oznámil v únoru z balkonu na Staroměstském náměstí komunistické převzetí moci"
+    "text": "Klement Gottwald oznámil v únoru z balkonu na Staroměstském náměstí komunistické převzetí moci",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "city": "prague",
     "year": 1948,
-    "text": "Jan Masaryk byl 10. března, dva týdny po komunistickém převratu, nalezen mrtev na nádvoří Černínského paláce"
+    "text": "Jan Masaryk byl 10. března, dva týdny po komunistickém převratu, nalezen mrtev na nádvoří Černínského paláce",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1949,
-    "text": "v bývalém lobkovickém sídle se otevřel Pionýrský palác a pražští školáci byli zapsáni do nového hnutí"
+    "text": "v bývalém lobkovickém sídle se otevřel Pionýrský palác a pražští školáci byli zapsáni do nového hnutí",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1950,
-    "text": "Milada Horáková byla 27. června po zinscenovaném procesu oběšena v pankrácké věznici"
+    "text": "Milada Horáková byla 27. června po zinscenovaném procesu oběšena v pankrácké věznici",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1952,
-    "text": "Rudolf Slánský a deset spoluobžalovaných byli v prosinci po nejproslulejší ze stalinských čistek oběšeni na Pankráci"
+    "text": "Rudolf Slánský a deset spoluobžalovaných byli v prosinci po nejproslulejší ze stalinských čistek oběšeni na Pankráci",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1953,
-    "text": "Klement Gottwald zemřel několik dní po návratu ze Stalinova pohřbu a byl nabalzamován a vystaven v žižkovském mauzoleu"
+    "text": "Klement Gottwald zemřel několik dní po návratu ze Stalinova pohřbu a byl nabalzamován a vystaven v žižkovském mauzoleu",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1953,
-    "text": "červnová měnová reforma výrazně znehodnotila úspory; před pražskými obchody se tvořily fronty na chleba"
+    "text": "červnová měnová reforma výrazně znehodnotila úspory; před pražskými obchody se tvořily fronty na chleba",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      5
+    ]
   },
   {
     "city": "prague",
     "year": 1955,
-    "text": "na Letné byl odhalen 30 metrů vysoký kamenný pomník Stalina — největší na světě"
+    "text": "na Letné byl odhalen 30 metrů vysoký kamenný pomník Stalina — největší na světě",
+    "rel": [
+      5,
+      1,
+      5,
+      1,
+      3,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1955,
-    "text": "Strahovský stadion hostil první celostátní spartakiádu; do hromadných cvičení se během programu zapojily stovky tisíc lidí"
+    "text": "Strahovský stadion hostil první celostátní spartakiádu; do hromadných cvičení se během programu zapojily stovky tisíc lidí",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1958,
-    "text": "československý pavilon ze světové výstavy Expo v Bruselu, navržený týmem Františka Cubra, se vrátil do Prahy a byl znovu sestaven na Letné"
+    "text": "československý pavilon ze světové výstavy Expo v Bruselu, navržený týmem Františka Cubra, se vrátil do Prahy a byl znovu sestaven na Letné",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1960,
-    "text": "Gottwaldovo nabalzamované tělo bylo tiše odstraněno z mauzolea na Vítkově poté, co rozklad znemožnil jeho vystavování"
+    "text": "Gottwaldovo nabalzamované tělo bylo tiše odstraněno z mauzolea na Vítkově poté, co rozklad znemožnil jeho vystavování",
+    "rel": [
+      5,
+      0,
+      2,
+      4,
+      1,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1962,
-    "text": "Stalinův pomník na Letné byl po sedmi letech za úsvitu odstřelen"
+    "text": "Stalinův pomník na Letné byl po sedmi letech za úsvitu odstřelen",
+    "rel": [
+      5,
+      1,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1963,
-    "text": "Kafka byl na liblické konferenci oficiálně rehabilitován a jeho knihy se začaly opět objevovat v pražských knihkupectvích"
+    "text": "Kafka byl na liblické konferenci oficiálně rehabilitován a jeho knihy se začaly opět objevovat v pražských knihkupectvích",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1964,
-    "text": "multimediální divadlo Laterna magika, hit bruselského Expa 58, se usadilo ve stálém sídle pod prostorem Nové scény"
+    "text": "multimediální divadlo Laterna magika, hit bruselského Expa 58, se usadilo ve stálém sídle pod prostorem Nové scény",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1965,
-    "text": "Allen Ginsberg byl studenty korunován Králem majálesu, než ho o týden později StB vyhostila"
+    "text": "Allen Ginsberg byl studenty korunován Králem majálesu, než ho o týden později StB vyhostila",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      2,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1966,
-    "text": "divadlo Semafor Jiřího Suchého a Jiřího Šlitra patřilo k výrazným scénám tehdejší populární kultury"
+    "text": "divadlo Semafor Jiřího Suchého a Jiřího Šlitra patřilo k výrazným scénám tehdejší populární kultury",
+    "rel": [
+      5,
+      3,
+      5,
+      0,
+      4,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1967,
-    "text": "zakázané hry Michaila Bulgakova měly během tání tiše premiéru v pražských divadlech"
+    "text": "zakázané hry Michaila Bulgakova měly během tání tiše premiéru v pražských divadlech",
+    "rel": [
+      5,
+      1,
+      1,
+      4,
+      1,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1967,
-    "text": "na červnovém sjezdu spisovatelů Vaculík, Kundera a Havel otevřeně zpochybnili vedení strany"
+    "text": "na červnovém sjezdu spisovatelů Vaculík, Kundera a Havel otevřeně zpochybnili vedení strany",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      3,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1968,
-    "text": "sovětské tanky vjely na Václavské náměstí v noci z 20. na 21. srpna"
+    "text": "sovětské tanky vjely na Václavské náměstí v noci z 20. na 21. srpna",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "city": "prague",
     "year": 1969,
-    "text": "student filozofie Jan Palach se 16. ledna upálil na Václavském náměstí"
+    "text": "student filozofie Jan Palach se 16. ledna upálil na Václavském náměstí",
+    "rel": [
+      5,
+      3,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "city": "prague",
     "year": 1969,
-    "text": "Československo dvakrát porazilo SSSR na hokejovém mistrovství světa ve Stockholmu a davy slavily na Václavském náměstí, což vedlo k vyrabování kanceláře Aeroflotu"
+    "text": "Československo dvakrát porazilo SSSR na hokejovém mistrovství světa ve Stockholmu a davy slavily na Václavském náměstí, což vedlo k vyrabování kanceláře Aeroflotu",
+    "rel": [
+      5,
+      2,
+      5,
+      2,
+      2,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1969,
-    "text": "Jan Zajíc se 25. února upálil na Václavském náměstí, druhé sebeupálení na protest proti normalizaci"
+    "text": "Jan Zajíc se 25. února upálil na Václavském náměstí, druhé sebeupálení na protest proti normalizaci",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1973,
-    "text": "vlaky linky metra C začaly v květnu jezdit mezi Florencem a Kačerovem, přičemž Sokolovská už byla připravována jako další prodloužení"
+    "text": "vlaky linky metra C začaly v květnu jezdit mezi Florencem a Kačerovem, přičemž Sokolovská už byla připravována jako další prodloužení",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1974,
-    "text": "otevřela se linka metra C — první úsek pražského metra, z Florence na Kačerov"
+    "text": "otevřela se linka metra C — první úsek pražského metra, z Florence na Kačerov",
+    "rel": [
+      5,
+      3,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1975,
-    "text": "na Národní třídě se otevřel obchodní dům Máj (dnes Tesco) navržený libereckým SIALem"
+    "text": "na Národní třídě se otevřel obchodní dům Máj (dnes Tesco) navržený libereckým SIALem",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1976,
-    "text": "v Praze byli souzeni Plastic People of the Universe a obhajoba Václava Havla vedla přímo k Chartě 77"
+    "text": "v Praze byli souzeni Plastic People of the Universe a obhajoba Václava Havla vedla přímo k Chartě 77",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      4,
+      5
+    ]
   },
   {
     "city": "prague",
     "year": 1976,
-    "text": "otevřel se Nuselský most, po němž vede linka metra C a šestiproudá silnice 42 metrů nad údolím"
+    "text": "otevřel se Nuselský most, po němž vede linka metra C a šestiproudá silnice 42 metrů nad údolím",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1977,
-    "text": "Charta 77 byla vydána z bytu Václava Havla a podepsalo ji 241 disidentů"
+    "text": "Charta 77 byla vydána z bytu Václava Havla a podepsalo ji 241 disidentů",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1978,
-    "text": "12. srpna se otevřela linka metra A mezi Dejvickou (tehdy Leninova) a náměstím Míru"
+    "text": "12. srpna se otevřela linka metra A mezi Dejvickou (tehdy Leninova) a náměstím Míru",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1979,
-    "text": "na Vyšehradě se otevřel Palác kultury, aby hostil jak sjezdy strany, tak rockové koncerty"
+    "text": "na Vyšehradě se otevřel Palác kultury, aby hostil jak sjezdy strany, tak rockové koncerty",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1980,
-    "text": "letoun Inex-Adria DC-9 se v říjnu zřítil při přiblížení do Suchdola, ačkoli většina velkých pražských zpráv toho roku se týkala pohřbu Jana Wericha 31. října"
+    "text": "letoun Inex-Adria DC-9 se v říjnu zřítil při přiblížení do Suchdola, ačkoli většina velkých pražských zpráv toho roku se týkala pohřbu Jana Wericha 31. října",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1942,
-    "text": "18. června oblehlo gestapo pravoslavný chrám Cyrila a Metoděje v Resslově ulici, kde se po atentátu ukrývali parašutisté; sedm z nich po několikahodinovém boji padlo nebo zvolilo smrt vlastní rukou"
+    "text": "18. června oblehlo gestapo pravoslavný chrám Cyrila a Metoděje v Resslově ulici, kde se po atentátu ukrývali parašutisté; sedm z nich po několikahodinovém boji padlo nebo zvolilo smrt vlastní rukou",
+    "rel": [
+      5,
+      3,
+      5,
+      0,
+      4,
+      5
+    ]
   },
   {
     "city": "prague",
     "year": 1942,
-    "text": "úkryt výsadkářů v kryptě kostela prozradil za vypsanou odměnu zrádce Karel Čurda, který se sám přihlásil gestapu"
+    "text": "úkryt výsadkářů v kryptě kostela prozradil za vypsanou odměnu zrádce Karel Čurda, který se sám přihlásil gestapu",
+    "rel": [
+      5,
+      1,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1945,
-    "text": "14. února svrhly americké bombardéry kvůli navigační chybě bomby na město místo na Drážďany a zahynulo přes 700 lidí, mnoho z nich na Vinohradech a Vyšehradě"
+    "text": "14. února svrhly americké bombardéry kvůli navigační chybě bomby na město místo na Drážďany a zahynulo přes 700 lidí, mnoho z nich na Vinohradech a Vyšehradě",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1945,
-    "text": "při únorovém náletu vyhořel Emauzský klášter a jeho zničený kostel byl veřejnosti znovu otevřen až po více než šedesáti letech"
+    "text": "při únorovém náletu vyhořel Emauzský klášter a jeho zničený kostel byl veřejnosti znovu otevřen až po více než šedesáti letech",
+    "rel": [
+      5,
+      2,
+      2,
+      4,
+      5,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1948,
-    "text": "orloj na Staroměstské radnici, poškozený požárem během květnového povstání 1945, byl po opravě znovu uveden do plného chodu"
+    "text": "orloj na Staroměstské radnici, poškozený požárem během květnového povstání 1945, byl po opravě znovu uveden do plného chodu",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1960,
-    "text": "11. července přijalo Národní shromáždění novou ústavu, jež prohlásila vítězství socialismu a přejmenovala stát na Československou socialistickou republiku"
+    "text": "11. července přijalo Národní shromáždění novou ústavu, jež prohlásila vítězství socialismu a přejmenovala stát na Československou socialistickou republiku",
+    "rel": [
+      4,
+      2,
+      3,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1967,
-    "text": "po letech váhání bylo rozhodnuto stavět místo podpovrchové tramvaje plnohodnotné metro, jehož ražba začala pod Pankrácí"
+    "text": "po letech váhání bylo rozhodnuto stavět místo podpovrchové tramvaje plnohodnotné metro, jehož ražba začala pod Pankrácí",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1969,
-    "text": "25. ledna se pohřbu Jana Palacha zúčastnilo na dvě stě tisíc lidí a tichý průvod Starým Městem se proměnil v manifestaci za svobodu"
+    "text": "25. ledna se pohřbu Jana Palacha zúčastnilo na dvě stě tisíc lidí a tichý průvod Starým Městem se proměnil v manifestaci za svobodu",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      4,
+      5
+    ]
   },
   {
     "city": "prague",
     "year": 1973,
-    "text": "hlavní nádraží procházelo přestavbou, při níž nad historickou Fantovou budovou vyrostla nová odbavovací hala propojená se stanicí metra"
+    "text": "hlavní nádraží procházelo přestavbou, při níž nad historickou Fantovou budovou vyrostla nová odbavovací hala propojená se stanicí metra",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1977,
-    "text": "28. ledna sehnal režim do Národního divadla stovky umělců, aby podpisem takzvané Anticharty veřejně odsoudili signatáře Charty 77"
+    "text": "28. ledna sehnal režim do Národního divadla stovky umělců, aby podpisem takzvané Anticharty veřejně odsoudili signatáře Charty 77",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      5
+    ]
   },
   {
     "city": "prague",
     "year": 1980,
-    "text": "7. listopadu se linka metra C prodloužila na jih o čtyři stanice až ke konečné Kosmonautů, dnešním Hájím"
+    "text": "7. listopadu se linka metra C prodloužila na jih o čtyři stanice až ke konečné Kosmonautů, dnešním Hájím",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1983,
-    "text": "vedle Národního divadla se otevřela Nová scéna Karla Pragera, obložená tisíci tabulemi z hutního skla"
+    "text": "vedle Národního divadla se otevřela Nová scéna Karla Pragera, obložená tisíci tabulemi z hutního skla",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1985,
-    "text": "2. listopadu se otevřel první úsek linky metra B mezi Smíchovským nádražím a Florencem, tehdy nazvaným Sokolovská"
+    "text": "2. listopadu se otevřel první úsek linky metra B mezi Smíchovským nádražím a Florencem, tehdy nazvaným Sokolovská",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1985,
-    "text": "od 17. dubna do 3. května hostila Praha mistrovství světa v ledním hokeji, na němž Československo získalo zlato po výhře nad SSSR 2:1"
+    "text": "od 17. dubna do 3. května hostila Praha mistrovství světa v ledním hokeji, na němž Československo získalo zlato po výhře nad SSSR 2:1",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1985,
-    "text": "15. června se po dvaceti letech od sesuvů na Petříně znovu rozjela petřínská lanová dráha"
+    "text": "15. června se po dvaceti letech od sesuvů na Petříně znovu rozjela petřínská lanová dráha",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1989,
-    "text": "17. listopadu policie surově rozehnala na Národní třídě studentský pochod a stovky zraněných odstartovaly sametovou revoluci"
+    "text": "17. listopadu policie surově rozehnala na Národní třídě studentský pochod a stovky zraněných odstartovaly sametovou revoluci",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "city": "prague",
     "year": 1989,
-    "text": "25. a 26. listopadu se na Letenské pláni sešlo na demonstracích Občanského fóra na tři čtvrtě milionu lidí"
+    "text": "25. a 26. listopadu se na Letenské pláni sešlo na demonstracích Občanského fóra na tři čtvrtě milionu lidí",
+    "rel": [
+      5,
+      4,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1989,
-    "text": "27. listopadu zastavila zemi dvouhodinová generální stávka, do níž se zapojily přibližně tři čtvrtiny obyvatel"
+    "text": "27. listopadu zastavila zemi dvouhodinová generální stávka, do níž se zapojily přibližně tři čtvrtiny obyvatel",
+    "rel": [
+      4,
+      5,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1989,
-    "text": "29. prosince zvolilo Federální shromáždění Václava Havla prezidentem, prvním nekomunistickým hlavou státu od roku 1948"
+    "text": "29. prosince zvolilo Federální shromáždění Václava Havla prezidentem, prvním nekomunistickým hlavou státu od roku 1948",
+    "rel": [
+      4,
+      3,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1990,
-    "text": "22. února dostala většina stanic metra s ideologickými názvy nová jména — z Leninovy se stala Dejvická a z Moskevské Anděl"
+    "text": "22. února dostala většina stanic metra s ideologickými názvy nová jména — z Leninovy se stala Dejvická a z Moskevské Anděl",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1990,
-    "text": "21. dubna sloužil Jan Pavel II. mši na Letné před zhruba půl milionem lidí při první papežské návštěvě v dějinách země"
+    "text": "21. dubna sloužil Jan Pavel II. mši na Letné před zhruba půl milionem lidí při první papežské návštěvě v dějinách země",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1990,
-    "text": "8. a 9. června se konaly první svobodné volby po čtyřech desetiletích komunismu a v českých zemích v nich zvítězilo Občanské fórum"
+    "text": "8. a 9. června se konaly první svobodné volby po čtyřech desetiletích komunismu a v českých zemích v nich zvítězilo Občanské fórum",
+    "rel": [
+      4,
+      3,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1990,
-    "text": "18. srpna zahráli na Strahově za deště Rolling Stones před více než sto tisíci diváky pod heslem „Tanky odjíždějí, Stones přijíždějí“"
+    "text": "18. srpna zahráli na Strahově za deště Rolling Stones před více než sto tisíci diváky pod heslem „Tanky odjíždějí, Stones přijíždějí“",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      2,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1991,
-    "text": "27. června opustil zemi poslední sovětský voják, čímž skončila více než dvacetiletá okupace započatá invazí v roce 1968"
+    "text": "27. června opustil zemi poslední sovětský voják, čímž skončila více než dvacetiletá okupace započatá invazí v roce 1968",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1992,
-    "text": "18. února byl po letech stavby uveden do provozu 216 metrů vysoký Žižkovský televizní vysílač, dodnes nejvyšší stavba ve městě"
+    "text": "18. února byl po letech stavby uveden do provozu 216 metrů vysoký Žižkovský televizní vysílač, dodnes nejvyšší stavba ve městě",
+    "rel": [
+      5,
+      1,
+      4,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1992,
-    "text": "20. března se ve Vodičkově ulici otevřela první pobočka McDonald's v zemi a na zahájení dorazilo asi jedenáct tisíc lidí"
+    "text": "20. března se ve Vodičkově ulici otevřela první pobočka McDonald's v zemi a na zahájení dorazilo asi jedenáct tisíc lidí",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 1993,
-    "text": "1. ledna se Praha stala hlavním městem samostatné České republiky po rozdělení Československa a sídlem jejích nových institucí"
+    "text": "1. ledna se Praha stala hlavním městem samostatné České republiky po rozdělení Československa a sídlem jejích nových institucí",
+    "rel": [
+      5,
+      3,
+      5,
+      0,
+      5,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1996,
-    "text": "na nábřeží vyrostl Tančící dům Vlada Miluniće a Franka Gehryho, přezdívaný „Fred a Ginger“, na pozemku sousedícím s domem Václava Havla"
+    "text": "na nábřeží vyrostl Tančící dům Vlada Miluniće a Franka Gehryho, přezdívaný „Fred a Ginger“, na pozemku sousedícím s domem Václava Havla",
+    "rel": [
+      5,
+      1,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 1996,
-    "text": "po půlstoletí získala Slavia poprvé ligový titul, čímž oživila své dávné soupeření se Spartou"
+    "text": "po půlstoletí získala Slavia poprvé ligový titul, čímž oživila své dávné soupeření se Spartou",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1997,
-    "text": "na Nuselský most, z něhož po desetiletí skákali sebevrazi, byla instalována vysoká bariéra z drátěného pletiva"
+    "text": "na Nuselský most, z něhož po desetiletí skákali sebevrazi, byla instalována vysoká bariéra z drátěného pletiva",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 1998,
-    "text": "23. února vítaly Václavské náměstí statisíce lidí hokejisty, kteří v Naganu získali pro zemi první olympijské zlato"
+    "text": "23. února vítaly Václavské náměstí statisíce lidí hokejisty, kteří v Naganu získali pro zemi první olympijské zlato",
+    "rel": [
+      5,
+      3,
+      5,
+      0,
+      3,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 2000,
-    "text": "po Žižkovském vysílači se rozlezlo deset bezhlavých batolat Davida Černého, původně jen dočasná instalace pro Prahu — Evropské město kultury"
+    "text": "po Žižkovském vysílači se rozlezlo deset bezhlavých batolat Davida Černého, původně jen dočasná instalace pro Prahu — Evropské město kultury",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 2000,
-    "text": "v září provázely zasedání Mezinárodního měnového fondu a Světové banky násilné protesty antiglobalistů a policie zadržela přes 900 lidí"
+    "text": "v září provázely zasedání Mezinárodního měnového fondu a Světové banky násilné protesty antiglobalistů a policie zadržela přes 900 lidí",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 2002,
-    "text": "13. až 15. srpna zaplavila stoletá voda Vltavy Karlín, Malou Stranu i desítky stanic metra; nejhůře dopadla linka B"
+    "text": "13. až 15. srpna zaplavila stoletá voda Vltavy Karlín, Malou Stranu i desítky stanic metra; nejhůře dopadla linka B",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      5
+    ]
   },
   {
     "city": "prague",
     "year": 2002,
-    "text": "při povodni uprchl ze zaplavené zoo lachtan Gaston, doplaval až k německé Wittenberce a vyčerpáním uhynul, čímž se stal symbolem katastrofy"
+    "text": "při povodni uprchl ze zaplavené zoo lachtan Gaston, doplaval až k německé Wittenberce a vyčerpáním uhynul, čímž se stal symbolem katastrofy",
+    "rel": [
+      5,
+      1,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 2002,
-    "text": "21. a 22. listopadu hostila Praha summit NATO, první v zemi bývalé Varšavské smlouvy, na němž bylo k přístupu pozváno sedm nových států"
+    "text": "21. a 22. listopadu hostila Praha summit NATO, první v zemi bývalé Varšavské smlouvy, na němž bylo k přístupu pozváno sedm nových států",
+    "rel": [
+      5,
+      2,
+      2,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 2003,
-    "text": "po více než šedesáti letech od náletu byl znovu vysvěcen opravený kostel Emauzského kláštera s novými železobetonovými věžemi"
+    "text": "po více než šedesáti letech od náletu byl znovu vysvěcen opravený kostel Emauzského kláštera s novými železobetonovými věžemi",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 2004,
-    "text": "v noci z 30. dubna na 1. května oslavily desetitisíce lidí na Staroměstském náměstí vstup České republiky do Evropské unie"
+    "text": "v noci z 30. dubna na 1. května oslavily desetitisíce lidí na Staroměstském náměstí vstup České republiky do Evropské unie",
+    "rel": [
+      4,
+      3,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 2004,
-    "text": "v Libni byla otevřena hala Sazka Arena, postavená včas na mistrovství světa v ledním hokeji, později přejmenovaná na O2 arenu"
+    "text": "v Libni byla otevřena hala Sazka Arena, postavená včas na mistrovství světa v ledním hokeji, později přejmenovaná na O2 arenu",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 2007,
-    "text": "z 355 návrhů zvítězila v soutěži na novou Národní knihovnu na Letné futuristická stavba Jana Kaplického, lidově přezdívaná blob, která nakonec nikdy nevznikla"
+    "text": "z 355 návrhů zvítězila v soutěži na novou Národní knihovnu na Letné futuristická stavba Jana Kaplického, lidově přezdívaná blob, která nakonec nikdy nevznikla",
+    "rel": [
+      5,
+      0,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 2008,
-    "text": "7. května se ve Vršovicích otevřel nový fotbalový stadion Eden, kde Slavia téhož jara oslavila mistrovský titul"
+    "text": "7. května se ve Vršovicích otevřel nový fotbalový stadion Eden, kde Slavia téhož jara oslavila mistrovský titul",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 2010,
-    "text": "skončila tříletá rekonstrukce mostovky a zábradlí Karlova mostu, doprovázená spory odborníků i řadou nečekaných archeologických objevů"
+    "text": "skončila tříletá rekonstrukce mostovky a zábradlí Karlova mostu, doprovázená spory odborníků i řadou nečekaných archeologických objevů",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 2011,
-    "text": "23. prosince se v katedrále svatého Víta konal státní pohřeb Václava Havla, jehož se zúčastnilo šestnáct hlav států"
+    "text": "23. prosince se v katedrále svatého Víta konal státní pohřeb Václava Havla, jehož se zúčastnilo šestnáct hlav států",
+    "rel": [
+      5,
+      2,
+      5,
+      0,
+      3,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 2012,
-    "text": "5. října, v den Havlových nedožitých narozenin, bylo ruzyňské letiště přejmenováno na Letiště Václava Havla Praha"
+    "text": "5. října, v den Havlových nedožitých narozenin, bylo ruzyňské letiště přejmenováno na Letiště Václava Havla Praha",
+    "rel": [
+      5,
+      1,
+      4,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 2013,
-    "text": "v červnu opět rozvodněná Vltava uzavřela Karlův most, protipovodňové zábrany centra však tentokrát na rozdíl od roku 2002 obstály"
+    "text": "v červnu opět rozvodněná Vltava uzavřela Karlův most, protipovodňové zábrany centra však tentokrát na rozdíl od roku 2002 obstály",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 2015,
-    "text": "6. dubna se linka metra A prodloužila ze Dejvické čtyřmi stanicemi až k Nemocnici Motol na západním okraji města"
+    "text": "6. dubna se linka metra A prodloužila ze Dejvické čtyřmi stanicemi až k Nemocnici Motol na západním okraji města",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 2018,
-    "text": "28. září se po téměř dvou letech rekonstrukce znovu rozešli apoštolové ve zrestaurovaném Staroměstském orloji"
+    "text": "28. září se po téměř dvou letech rekonstrukce znovu rozešli apoštolové ve zrestaurovaném Staroměstském orloji",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 2019,
-    "text": "23. června se na Letné sešlo asi čtvrt milionu lidí na demonstraci spolku Milion chvilek pro demokracii, největší od roku 1989"
+    "text": "23. června se na Letné sešlo asi čtvrt milionu lidí na demonstraci spolku Milion chvilek pro demokracii, největší od roku 1989",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      2,
+      4
+    ]
   },
   {
     "city": "prague",
     "year": 2020,
-    "text": "v srpnu byla na Staroměstském náměstí po více než stu letech znovu vztyčena replika mariánského sloupu, strženého v roce 1918"
+    "text": "v srpnu byla na Staroměstském náměstí po více než stu letech znovu vztyčena replika mariánského sloupu, strženého v roce 1918",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 2021,
-    "text": "sčítání lidu napočítalo v Praze 1,3 milionu obyvatel, kraj s nejmladší věkovou strukturou v zemi"
+    "text": "sčítání lidu napočítalo v Praze 1,3 milionu obyvatel, kraj s nejmladší věkovou strukturou v zemi",
+    "rel": [
+      5,
+      0,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "prague",
     "year": 2023,
-    "text": "9. března složil prezidentský slib generál Petr Pavel, který v lednu ve druhém kole porazil Andreje Babiše"
+    "text": "9. března složil prezidentský slib generál Petr Pavel, který v lednu ve druhém kole porazil Andreje Babiše",
+    "rel": [
+      4,
+      1,
+      5,
+      0,
+      3,
+      3
+    ]
   },
   {
     "city": "prague",
     "year": 2024,
-    "text": "v O2 areně získali domácí hokejisté po čtrnácti letech zlato z mistrovství světa, když ve finále porazili Švýcarsko 2:0 brankami Pastrňáka a Kämpfa"
+    "text": "v O2 areně získali domácí hokejisté po čtrnácti letech zlato z mistrovství světa, když ve finále porazili Švýcarsko 2:0 brankami Pastrňáka a Kämpfa",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      2,
+      3
+    ]
   }
 ]

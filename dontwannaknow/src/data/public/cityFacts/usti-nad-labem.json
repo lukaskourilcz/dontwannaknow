@@ -2,96 +2,248 @@
   {
     "city": "usti-nad-labem",
     "year": 1920,
-    "text": "město (tehdy Aussig) bylo centrem chemického průmyslu severních Čech, převážně německy mluvící"
+    "text": "město (tehdy Aussig) bylo centrem chemického průmyslu severních Čech, převážně německy mluvící",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 1923,
-    "text": "mýdlárna Schicht v Ústí-Střekově byla největší továrnou na mýdlo ve střední Evropě a vyvážela po celém Balkáně"
+    "text": "mýdlárna Schicht v Ústí-Střekově byla největší továrnou na mýdlo ve střední Evropě a vyvážela po celém Balkáně",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 1930,
-    "text": "Aussig bylo chemickým hlavním městem Československa, kde obří závody Spolchemie vévodily panoramatu nábřeží"
+    "text": "Aussig bylo chemickým hlavním městem Československa, kde obří závody Spolchemie vévodily panoramatu nábřeží",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 1938,
-    "text": "připojeno k nacistickému Německu jako součást Sudet"
+    "text": "připojeno k nacistickému Německu jako součást Sudet",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      2
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 1938,
-    "text": "město bylo 1. října připojeno k říši jako Aussig v Sudetech a z radnice visely Henleinovy vlajky"
+    "text": "město bylo 1. října připojeno k říši jako Aussig v Sudetech a z radnice visely Henleinovy vlajky",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 1944,
-    "text": "spojenecké bombardování 17. dubna zasáhlo Schicht a kolejiště a zabilo stovky lidí"
+    "text": "spojenecké bombardování 17. dubna zasáhlo Schicht a kolejiště a zabilo stovky lidí",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 1945,
-    "text": "31. července došlo na Benešově mostě k 'ústeckému masakru' etnických Němců"
+    "text": "31. července došlo na Benešově mostě k 'ústeckému masakru' etnických Němců",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 1946,
-    "text": "organizované vyhnání ústecké německé většiny vyprázdnilo celé ulice a navždy změnilo charakter města"
+    "text": "organizované vyhnání ústecké německé většiny vyprázdnilo celé ulice a navždy změnilo charakter města",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 1953,
-    "text": "Spolchemie vyráběla oxid titaničitý a kyselinu sírovou pro nový socialistický plán těžkého průmyslu"
+    "text": "Spolchemie vyráběla oxid titaničitý a kyselinu sírovou pro nový socialistický plán těžkého průmyslu",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 1968,
-    "text": "sovětské tanky překročily 21. srpna Benešův most a na týdny zaparkovaly na Mírovém náměstí"
+    "text": "sovětské tanky překročily 21. srpna Benešův most a na týdny zaparkovaly na Mírovém náměstí",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 1971,
-    "text": "nové sídliště Mariánská skála, stěna paneláků na útesu nad Labem, se otevřelo novým příchozím z vnitrozemních Čech"
+    "text": "nové sídliště Mariánská skála, stěna paneláků na útesu nad Labem, se otevřelo novým příchozím z vnitrozemních Čech",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 1975,
-    "text": "nedaleké uhelné elektrárny způsobovaly dramatické znečištění ovzduší v celém regionu"
+    "text": "nedaleké uhelné elektrárny způsobovaly dramatické znečištění ovzduší v celém regionu",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 1980,
-    "text": "silniční Mariánský most se teprve plánoval, ale město se při většině přejezdů přes řeku stále spoléhalo na Benešův most z roku 1934"
+    "text": "silniční Mariánský most se teprve plánoval, ale město se při většině přejezdů přes řeku stále spoléhalo na Benešův most z roku 1934",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 1945,
-    "text": "31. července vybuchl muniční sklad v Krásném Březně; exploze zabila 27 lidí a stala se záminkou k masakru Němců na mostě"
+    "text": "31. července vybuchl muniční sklad v Krásném Březně; exploze zabila 27 lidí a stala se záminkou k masakru Němců na mostě",
+    "rel": [
+      5,
+      4,
+      2,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 1951,
-    "text": "z bývalých Schichtových závodů na Střekově vznikly Severočeské tukové závody, pozdější Setuza"
+    "text": "z bývalých Schichtových závodů na Střekově vznikly Severočeské tukové závody, pozdější Setuza",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 1991,
-    "text": "28. září byla slavnostně otevřena Univerzita Jana Evangelisty Purkyně se třemi fakultami"
+    "text": "28. září byla slavnostně otevřena Univerzita Jana Evangelisty Purkyně se třemi fakultami",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 1998,
-    "text": "30. července byl otevřen Mariánský most architekta Romana Kouckého, zařazený mezi deset nejkrásnějších staveb desetiletí ve světě"
+    "text": "30. července byl otevřen Mariánský most architekta Romana Kouckého, zařazený mezi deset nejkrásnějších staveb desetiletí ve světě",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      2
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 2002,
-    "text": "13. srpna zastavila kvůli velké vodě provoz Spolchemie; Labe pak ve městě kulminovalo na 11,96 metru"
+    "text": "13. srpna zastavila kvůli velké vodě provoz Spolchemie; Labe pak ve městě kulminovalo na 11,96 metru",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "usti-nad-labem",
     "year": 2010,
-    "text": "7. prosince se rozjela kabinová lanovka od obchodního centra Forum na vrch Větruše, nejdelší visutá lanovka v zemi bez samostatných podpěr"
+    "text": "7. prosince se rozjela kabinová lanovka od obchodního centra Forum na vrch Větruše, nejdelší visutá lanovka v zemi bez samostatných podpěr",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      2
+    ]
   }
 ]

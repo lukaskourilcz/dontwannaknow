@@ -2,216 +2,560 @@
   {
     "city": "mykolaiv",
     "year": 1920,
-    "text": "mykolajivské loděnice byly významným námořním centrem carského Ruska a rychle se opět zapojily do práce pro Sověty"
+    "text": "mykolajivské loděnice byly významným námořním centrem carského Ruska a rychle se opět zapojily do práce pro Sověty",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1922,
-    "text": "loděnice André Marti byla pojmenována po francouzském komunistickém vzbouřenci z černomořské intervence roku 1919"
+    "text": "loděnice André Marti byla pojmenována po francouzském komunistickém vzbouřenci z černomořské intervence roku 1919",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      2,
+      2
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1929,
-    "text": "městské loděnice spustily na vodu křižník Červona Ukrajina pro Černomořskou flotilu"
+    "text": "městské loděnice spustily na vodu křižník Červona Ukrajina pro Černomořskou flotilu",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1937,
-    "text": "ředitel loděnice Konstantin Vasilevskij byl spolu s velkou částí technického personálu odstraněn v čistkách"
+    "text": "ředitel loděnice Konstantin Vasilevskij byl spolu s velkou částí technického personálu odstraněn v čistkách",
+    "rel": [
+      5,
+      3,
+      2,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1941,
-    "text": "wehrmacht obsadil loděnice v srpnu"
+    "text": "wehrmacht obsadil loděnice v srpnu",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      4,
+      1
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1941,
-    "text": "wehrmacht obsadil Mykolajiv v srpnu spolu s nedokončenou bitevní lodí Sovětská Ukrajina na skluzu"
+    "text": "wehrmacht obsadil Mykolajiv v srpnu spolu s nedokončenou bitevní lodí Sovětská Ukrajina na skluzu",
+    "rel": [
+      5,
+      5,
+      3,
+      4,
+      4,
+      3
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1944,
-    "text": "Rudá armáda dobyla město zpět v březnu"
+    "text": "Rudá armáda dobyla město zpět v březnu",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1944,
-    "text": "sovětští námořníci pod vedením Konstantina Olšanského se v březnu vylodili v přístavu při téměř sebevražedném výsadku, který pomohl město osvobodit"
+    "text": "sovětští námořníci pod vedením Konstantina Olšanského se v březnu vylodili v přístavu při téměř sebevražedném výsadku, který pomohl město osvobodit",
+    "rel": [
+      5,
+      4,
+      5,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1950,
-    "text": "loděnice č. 444 obnovila stavbu křižníků a spustila na vodu třídu Sverdlov"
+    "text": "loděnice č. 444 obnovila stavbu křižníků a spustila na vodu třídu Sverdlov",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1972,
-    "text": "zde byla položena kýl letadlové lodi Kyjev — první třídy Kyjev"
+    "text": "zde byla položena kýl letadlové lodi Kyjev — první třídy Kyjev",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1972,
-    "text": "v Černomořské loděnici byl spuštěn na vodu křižník nesoucí letadla Kyjev"
+    "text": "v Černomořské loděnici byl spuštěn na vodu křižník nesoucí letadla Kyjev",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1975,
-    "text": "byl spuštěn na vodu letadlový křižník Minsk, čímž se upevnila role Mykolajiva jako jediné loděnice SSSR stavějící letadlové lodě"
+    "text": "byl spuštěn na vodu letadlový křižník Minsk, čímž se upevnila role Mykolajiva jako jediné loděnice SSSR stavějící letadlové lodě",
+    "rel": [
+      5,
+      2,
+      4,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1933,
-    "text": "mykolajivské loděnice spustily na vodu křižník Vorošilov"
+    "text": "mykolajivské loděnice spustily na vodu křižník Vorošilov",
+    "rel": [
+      5,
+      2,
+      2,
+      2,
+      2,
+      1
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1935,
-    "text": "mykolajivské loděnice spustily na vodu své první zaoceánské válečné lodě pro sovětskou Černomořskou flotilu"
+    "text": "mykolajivské loděnice spustily na vodu své první zaoceánské válečné lodě pro sovětskou Černomořskou flotilu",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1947,
-    "text": "přestavěná Černomořská loděnice spustila na vodu svůj první poválečný kýl těžkého křižníku"
+    "text": "přestavěná Černomořská loděnice spustila na vodu svůj první poválečný kýl těžkého křižníku",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1955,
-    "text": "mykolajivské loděnice spustily na vodu předchůdce prvního sovětského vrtulníkového křižníku třídy Moskva"
+    "text": "mykolajivské loděnice spustily na vodu předchůdce prvního sovětského vrtulníkového křižníku třídy Moskva",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1968,
-    "text": "v mykolajivských loděnicích začala stavba prvních skutečných letadlových lodí sovětského námořnictva"
+    "text": "v mykolajivských loděnicích začala stavba prvních skutečných letadlových lodí sovětského námořnictva",
+    "rel": [
+      5,
+      3,
+      3,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1980,
-    "text": "mykolajivské loděnice zaměstnávaly asi 30 000 lidí ve třech obřích závodech"
+    "text": "mykolajivské loděnice zaměstnávaly asi 30 000 lidí ve třech obřích závodech",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1947,
-    "text": "Admirálská a inženýrská škola se po válce obnovila jako kádrová líheň sovětského loďařství"
+    "text": "Admirálská a inženýrská škola se po válce obnovila jako kádrová líheň sovětského loďařství",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1962,
-    "text": "v Černomořské loděnici byl spuštěn na vodu protiponorkový vrtulníkový křižník Moskva, první svého druhu v SSSR"
+    "text": "v Černomořské loděnici byl spuštěn na vodu protiponorkový vrtulníkový křižník Moskva, první svého druhu v SSSR",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1982,
-    "text": "byl zde položen kýl těžkého letadlového křižníku Leonid Brežněv, pozdějšího Admirála Kuzněcova"
+    "text": "byl zde položen kýl těžkého letadlového křižníku Leonid Brežněv, pozdějšího Admirála Kuzněcova",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1985,
-    "text": "Černomořská loděnice spustila na vodu Leonida Brežněva, jedinou dodnes sloužící ruskou letadlovou loď, později přejmenovanou na Admirála Kuzněcova"
+    "text": "Černomořská loděnice spustila na vodu Leonida Brežněva, jedinou dodnes sloužící ruskou letadlovou loď, později přejmenovanou na Admirála Kuzněcova",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1988,
-    "text": "v loděnici byl spuštěn na vodu nedokončený letadlový křižník Riga, brzy přejmenovaný na Varjag"
+    "text": "v loděnici byl spuštěn na vodu nedokončený letadlový křižník Riga, brzy přejmenovaný na Varjag",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      2,
+      2
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1988,
-    "text": "zde byl položen kýl Uljanovsku, první sovětské letadlové lodi na jaderný pohon, plánované na výtlak 85 000 tun"
+    "text": "zde byl položen kýl Uljanovsku, první sovětské letadlové lodi na jaderný pohon, plánované na výtlak 85 000 tun",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1990,
-    "text": "rozestavěný Admirál Kuzněcov dostal v říjnu své definitivní jméno po sovětském admirálovi flotily"
+    "text": "rozestavěný Admirál Kuzněcov dostal v říjnu své definitivní jméno po sovětském admirálovi flotily",
+    "rel": [
+      5,
+      0,
+      2,
+      2,
+      1,
+      1
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1991,
-    "text": "rozpadem SSSR zůstala jediná loděnice schopná stavět letadlové lodě na ukrajinském území — Rusko tuto kapacitu uvnitř svých hranic už nikdy nezískalo"
+    "text": "rozpadem SSSR zůstala jediná loděnice schopná stavět letadlové lodě na ukrajinském území — Rusko tuto kapacitu uvnitř svých hranic už nikdy nezískalo",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      4,
+      5
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1992,
-    "text": "v únoru začalo šrotování rozestavěného jaderného Uljanovsku, dokončeného asi ze 40 % — stavba padla s rozpočtem zaniklého svazu"
+    "text": "v únoru začalo šrotování rozestavěného jaderného Uljanovsku, dokončeného asi ze 40 % — stavba padla s rozpočtem zaniklého svazu",
+    "rel": [
+      5,
+      3,
+      3,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1998,
-    "text": "nedokončený trup Varjagu Ukrajina prodala za 20 milionů dolarů kupci, který tvrdil, že z lodi udělá plovoucí kasino v Macau"
+    "text": "nedokončený trup Varjagu Ukrajina prodala za 20 milionů dolarů kupci, který tvrdil, že z lodi udělá plovoucí kasino v Macau",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      2,
+      4
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 2014,
-    "text": "proruští aktivisté se pokusili obsadit krajskou správu, ale byli místními zatlačeni a město zůstalo pod ukrajinskou kontrolou"
+    "text": "proruští aktivisté se pokusili obsadit krajskou správu, ale byli místními zatlačeni a město zůstalo pod ukrajinskou kontrolou",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 2020,
-    "text": "Volodymyr Zelenskyj jmenoval v listopadu gubernátorem Mykolajivské oblasti Vitalije Kima"
+    "text": "Volodymyr Zelenskyj jmenoval v listopadu gubernátorem Mykolajivské oblasti Vitalije Kima",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      2,
+      1
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 2020,
-    "text": "Černomořská loděnice po vyhlášení bankrotu prakticky ukončila provoz a její haly chátraly"
+    "text": "Černomořská loděnice po vyhlášení bankrotu prakticky ukončila provoz a její haly chátraly",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 2022,
-    "text": "město se po únorovém vpádu ubránilo a stalo se hrází na ruské cestě k Oděse"
+    "text": "město se po únorovém vpádu ubránilo a stalo se hrází na ruské cestě k Oděse",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 2022,
-    "text": "7. března zasáhl ruský úder kasárna 79. výsadkové brigády v Soljanech"
+    "text": "7. března zasáhl ruský úder kasárna 79. výsadkové brigády v Soljanech",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 2022,
-    "text": "18. března ruská raketa zasáhla ubytovnu námořní pěchoty na severním okraji města; zahynulo přes sto vojáků"
+    "text": "18. března ruská raketa zasáhla ubytovnu námořní pěchoty na severním okraji města; zahynulo přes sto vojáků",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 2022,
-    "text": "29. března zničila raketa Kalibr půl budovy krajské správy; zahynuly desítky lidí, gubernátor Kim přežil jen proto, že zaspal"
+    "text": "29. března zničila raketa Kalibr půl budovy krajské správy; zahynuly desítky lidí, gubernátor Kim přežil jen proto, že zaspal",
+    "rel": [
+      5,
+      3,
+      5,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 2022,
-    "text": "v dubnu Rusové vyhodili do vzduchu přivaděč z Dněpru a město muselo do vodovodu pouštět slanou vodu z limanu, která zkorodovala stovky kilometrů potrubí"
+    "text": "v dubnu Rusové vyhodili do vzduchu přivaděč z Dněpru a město muselo do vodovodu pouštět slanou vodu z limanu, která zkorodovala stovky kilometrů potrubí",
+    "rel": [
+      5,
+      5,
+      5,
+      4,
+      4,
+      5
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 2022,
-    "text": "10. listopadu osvobodila ukrajinská armáda Snihurivku, jediné okupované město oblasti"
+    "text": "10. listopadu osvobodila ukrajinská armáda Snihurivku, jediné okupované město oblasti",
+    "rel": [
+      4,
+      2,
+      4,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 2025,
-    "text": "po letech bez kvalitní vody zahájilo město dodávky z nově vybudovaného přivaděče"
+    "text": "po letech bez kvalitní vody zahájilo město dodávky z nově vybudovaného přivaděče",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1964,
-    "text": "18. července byl otevřen Varvarivský most přes Jižní Buh — otočný most s největším rozpětím pole v Evropě"
+    "text": "18. července byl otevřen Varvarivský most přes Jižní Buh — otočný most s největším rozpětím pole v Evropě",
+    "rel": [
+      5,
+      3,
+      4,
+      4,
+      5,
+      2
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1977,
-    "text": "koncem roku se otevřela nová mykolajivská zoo, považovaná za nejlepší v Sovětském svazu"
+    "text": "koncem roku se otevřela nová mykolajivská zoo, považovaná za nejlepší v Sovětském svazu",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      5,
+      2
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1980,
-    "text": "za účasti francouzské firmy Pechiney byl postaven hlinikárenský závod, jediný výrobce oxidu hlinitého na Ukrajině"
+    "text": "za účasti francouzské firmy Pechiney byl postaven hlinikárenský závod, jediný výrobce oxidu hlinitého na Ukrajině",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 1993,
-    "text": "mykolajivská zoo se jako první ukrajinská zoologická zahrada stala členem Evropské asociace zoo a akvárií"
+    "text": "mykolajivská zoo se jako první ukrajinská zoologická zahrada stala členem Evropské asociace zoo a akvárií",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "mykolaiv",
     "year": 2022,
-    "text": "29. srpna začala z mykolajivského směru jižní protiofenziva, jež do listopadu vytlačila ruské síly z pravého břehu Dněpru"
+    "text": "29. srpna začala z mykolajivského směru jižní protiofenziva, jež do listopadu vytlačila ruské síly z pravého břehu Dněpru",
+    "rel": [
+      4,
+      4,
+      4,
+      2,
+      4,
+      4
+    ]
   }
 ]

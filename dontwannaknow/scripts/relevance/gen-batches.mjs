@@ -6,10 +6,12 @@
 // src/data/relevance/. Skript je součást repozitáře, aby byl každý běh
 // skórování reprodukovatelný a diffovatelný.
 //
-// Použití: node scripts/relevance/gen-batches.mjs --out <dir>
+// Použití: node scripts/relevance/gen-batches.mjs --out <dir> [--only-missing]
+// --only-missing vynechá záznamy, které už mají v sidecarech úplné skóre —
+// pro delta-skórování nově doplněných dat.
 
 import { mkdir, readFile, writeFile } from "node:fs/promises";
-import { PASSES, PROMPT_VERSION } from "./prompts.mjs";
+import { AXES, PASSES, PROMPT_VERSION } from "./prompts.mjs";
 import { recordKey } from "./record-key.mjs";
 
 const outFlag = process.argv.indexOf("--out");
@@ -18,6 +20,7 @@ if (outFlag === -1 || !process.argv[outFlag + 1]) {
   process.exit(1);
 }
 const outDir = process.argv[outFlag + 1];
+const onlyMissing = process.argv.includes("--only-missing");
 
 const publicDir = new URL("../../src/data/public/", import.meta.url);
 const readJson = async (name) => JSON.parse(await readFile(new URL(name, publicDir), "utf8"));
@@ -78,7 +81,21 @@ async function loadRecords() {
 
 const BATCH_SIZES = { A: 50, B: 60, C: 100 };
 
-const records = await loadRecords();
+let records = await loadRecords();
+if (onlyMissing) {
+  const scored = new Set();
+  for (const dataset of ["cityFacts", "countryEvents", "countryDecades", "famousPeople", "leaders"]) {
+    const sidecar = await readFile(new URL(`../../src/data/relevance/${dataset}.json`, import.meta.url), "utf8")
+      .then(JSON.parse)
+      .catch(() => null);
+    for (const record of sidecar?.records ?? []) {
+      if (Object.keys(AXES).every((axis) => Number.isInteger(record.scores?.[axis]))) {
+        scored.add(`${dataset}:${record.key}`);
+      }
+    }
+  }
+  records = records.filter((record) => !scored.has(`${record.dataset}:${record.key}`));
+}
 await mkdir(outDir, { recursive: true });
 const index = { promptVersion: PROMPT_VERSION, total: records.length, batches: [] };
 

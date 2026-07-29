@@ -2,236 +2,612 @@
   {
     "city": "ostrava",
     "year": 1923,
-    "text": "vítkovické železárny se rozšířily; přes 20 000 dělníků — největší ocelárna v Československu"
+    "text": "vítkovické železárny se rozšířily; přes 20 000 dělníků — největší ocelárna v Československu",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 1924,
-    "text": "sloučením sedmi obcí do jednoho uhelného a ocelářského města vznikla Moravská Ostrava"
+    "text": "sloučením sedmi obcí do jednoho uhelného a ocelářského města vznikla Moravská Ostrava",
+    "rel": [
+      5,
+      2,
+      2,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 1928,
-    "text": "na Prokešově náměstí se otevřela Nová radnice ovlivněná Bauhausem se svou 75metrovou věží, nejvyšší radnice v Československu"
+    "text": "na Prokešově náměstí se otevřela Nová radnice ovlivněná Bauhausem se svou 75metrovou věží, nejvyšší radnice v Československu",
+    "rel": [
+      5,
+      1,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 1930,
-    "text": "počet obyvatel Velké Ostravy překročil 125 000, z nichž zhruba pětina deklarovala německou národnost"
+    "text": "počet obyvatel Velké Ostravy překročil 125 000, z nichž zhruba pětina deklarovala německou národnost",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 1939,
-    "text": "německé jednotky překročily 14. března večer hranici v Bohumíně a obsadily Ostravu několik hodin před zbytkem Čech a Moravy"
+    "text": "německé jednotky překročily 14. března večer hranici v Bohumíně a obsadily Ostravu několik hodin před zbytkem Čech a Moravy",
+    "rel": [
+      5,
+      5,
+      3,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "ostrava",
     "year": 1942,
-    "text": "první transport ostravských Židů do Niska odjel již v roce 1939; v roce 1942 byla zbývající komunita deportována do Terezína"
+    "text": "první transport ostravských Židů do Niska odjel již v roce 1939; v roce 1942 byla zbývající komunita deportována do Terezína",
+    "rel": [
+      5,
+      4,
+      2,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "ostrava",
     "year": 1944,
-    "text": "americké bombardéry opakovaně zasáhly vítkovické železárny mezi srpnem a prosincem"
+    "text": "americké bombardéry opakovaně zasáhly vítkovické železárny mezi srpnem a prosincem",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 1945,
-    "text": "ostravsko-opavská operace skončila koncem dubna osvobozením Rudou armádou"
+    "text": "ostravsko-opavská operace skončila koncem dubna osvobozením Rudou armádou",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 1949,
-    "text": "západně od starého města bylo zahájeno nové město Poruba v monumentálním socialisticko-realistickém stylu, navržené k ubytování ocelářů"
+    "text": "západně od starého města bylo zahájeno nové město Poruba v monumentálním socialisticko-realistickém stylu, navržené k ubytování ocelářů",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "ostrava",
     "year": 1951,
-    "text": "začala stavba Nové Huti (NHKG) — vzorové socialistické ocelárny"
+    "text": "začala stavba Nové Huti (NHKG) — vzorové socialistické ocelárny",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 1952,
-    "text": "v Kunčicích byla v Nové Huti Klementa Gottwalda odpíchnuta první surová ocel"
+    "text": "v Kunčicích byla v Nové Huti Klementa Gottwalda odpíchnuta první surová ocel",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 1955,
-    "text": "otevřel se Dům kultury vítkovických železáren, předimenzovaný kamenem obkladaný chrám dělnického sebezdokonalování"
+    "text": "otevřel se Dům kultury vítkovických železáren, předimenzovaný kamenem obkladaný chrám dělnického sebezdokonalování",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 1961,
-    "text": "letiště Ostrava-Mošnov, přestavěné z vojenské základny, se otevřelo civilnímu provozu"
+    "text": "letiště Ostrava-Mošnov, přestavěné z vojenské základny, se otevřelo civilnímu provozu",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 1964,
-    "text": "Baník Ostrava se natrvalo probojoval do československé nejvyšší fotbalové soutěže a stadion Bazaly se stal stálicí sobotních odpolední"
+    "text": "Baník Ostrava se natrvalo probojoval do československé nejvyšší fotbalové soutěže a stadion Bazaly se stal stálicí sobotních odpolední",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 1966,
-    "text": "pivovar Ostravar, založený v roce 1897, vyráběl asi 400 000 hektolitrů pro žíznivé hornické a ocelářské dělníky"
+    "text": "pivovar Ostravar, založený v roce 1897, vyráběl asi 400 000 hektolitrů pro žíznivé hornické a ocelářské dělníky",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 1967,
-    "text": "koksovna Ostrava-Hrabová a další těžké závody uvolňovaly tolik spadu, že sníh v podhůří Beskyd byl viditelně šedý"
+    "text": "koksovna Ostrava-Hrabová a další těžké závody uvolňovaly tolik spadu, že sníh v podhůří Beskyd byl viditelně šedý",
+    "rel": [
+      5,
+      4,
+      5,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "ostrava",
     "year": 1968,
-    "text": "sovětské tanky obsadily vítkovické železárny; dělníci vstoupili do stávky"
+    "text": "sovětské tanky obsadily vítkovické železárny; dělníci vstoupili do stávky",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "ostrava",
     "year": 1969,
-    "text": "důl Antonína Zápotockého v okrese Karviná ohlásil dosud nejhlubší díla v ostravsko-karvinském revíru"
+    "text": "důl Antonína Zápotockého v okrese Karviná ohlásil dosud nejhlubší díla v ostravsko-karvinském revíru",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 1970,
-    "text": "Ostrava patřila k městům s nejhorším znečištěním ovzduší v Evropě; respirační onemocnění byla endemická"
+    "text": "Ostrava patřila k městům s nejhorším znečištěním ovzduší v Evropě; respirační onemocnění byla endemická",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      5
+    ]
   },
   {
     "city": "ostrava",
     "year": 1974,
-    "text": "ostravsko-karvinský revír dosáhl svého vrcholu roční těžby přes 24 milionů tun černého uhlí"
+    "text": "ostravsko-karvinský revír dosáhl svého vrcholu roční těžby přes 24 milionů tun černého uhlí",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 1976,
-    "text": "Baník Ostrava vyhrál pod trenérem Evženem Hadamczikem československou fotbalovou ligu"
+    "text": "Baník Ostrava vyhrál pod trenérem Evženem Hadamczikem československou fotbalovou ligu",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      2,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 1977,
-    "text": "nový Sýkorův most přes Ostravici a podchod nádraží Ostrava-Svinov tvořily součást ambiciózní rekonstrukce centra města"
+    "text": "nový Sýkorův most přes Ostravici a podchod nádraží Ostrava-Svinov tvořily součást ambiciózní rekonstrukce centra města",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 1980,
-    "text": "Baník Ostrava vyhrál československou ligu podruhé, kdy mezi hrdiny sezony patřil Verner Lička"
+    "text": "Baník Ostrava vyhrál československou ligu podruhé, kdy mezi hrdiny sezony patřil Verner Lička",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      2,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 1945,
-    "text": "výnosem byla do Ostravy přesunuta báňská akademie z Příbrami a 1. listopadu zahájila výuku jako pozdější Vysoká škola báňská"
+    "text": "výnosem byla do Ostravy přesunuta báňská akademie z Příbrami a 1. listopadu zahájila výuku jako pozdější Vysoká škola báňská",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 1952,
-    "text": "hokejisté TJ Vítkovice získali svůj první československý mistrovský titul"
+    "text": "hokejisté TJ Vítkovice získali svůj první československý mistrovský titul",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      1,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 1954,
-    "text": "3. května dal první koncert Ostravský symfonický orchestr, pozdější Janáčkova filharmonie Ostrava"
+    "text": "3. května dal první koncert Ostravský symfonický orchestr, pozdější Janáčkova filharmonie Ostrava",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      4,
+      1
+    ]
   },
   {
     "city": "ostrava",
     "year": 1959,
-    "text": "ve Slezské Ostravě se otevřel fotbalový stadion Bazaly, domov Baníku na příštích šestapadesát let"
+    "text": "ve Slezské Ostravě se otevřel fotbalový stadion Bazaly, domov Baníku na příštích šestapadesát let",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 1961,
-    "text": "poprvé se konal atletický mítink Zlatá tretra, jeden z nejstarších v Evropě"
+    "text": "poprvé se konal atletický mítink Zlatá tretra, jeden z nejstarších v Evropě",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 1972,
-    "text": "naposledy vyjela do ulic dřevěná tramvaj číslo 25, jezdící od roku 1919"
+    "text": "naposledy vyjela do ulic dřevěná tramvaj číslo 25, jezdící od roku 1919",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      1,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 1981,
-    "text": "hokejisté Vítkovic získali druhý ligový titul s rekordním ziskem bodů"
+    "text": "hokejisté Vítkovic získali druhý ligový titul s rekordním ziskem bodů",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      2,
+      1
+    ]
   },
   {
     "city": "ostrava",
     "year": 1986,
-    "text": "otevřel se Palác kultury a sportu s halou pro lední hokej, dnešní Ostravar Aréna"
+    "text": "otevřel se Palác kultury a sportu s halou pro lední hokej, dnešní Ostravar Aréna",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 1989,
-    "text": "4. března začala demolice koksovny Karolina v centru města a uvolnila rozsáhlý brownfield"
+    "text": "4. března začala demolice koksovny Karolina v centru města a uvolnila rozsáhlý brownfield",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 1990,
-    "text": "Ostrava dosáhla svého populačního vrcholu 331 219 obyvatel, poté začala kvůli odprůmyslnění klesat"
+    "text": "Ostrava dosáhla svého populačního vrcholu 331 219 obyvatel, poté začala kvůli odprůmyslnění klesat",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "ostrava",
     "year": 1991,
-    "text": "28. září vznikla Ostravská univerzita s filozofickou a pedagogickou fakultou"
+    "text": "28. září vznikla Ostravská univerzita s filozofickou a pedagogickou fakultou",
+    "rel": [
+      5,
+      2,
+      3,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 1993,
-    "text": "4. prosince, na svatou Barboru, se v Petřkovicích otevřelo hornické muzeum v areálu dolu Anselm, dnešní Landek Park"
+    "text": "4. prosince, na svatou Barboru, se v Petřkovicích otevřelo hornické muzeum v areálu dolu Anselm, dnešní Landek Park",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 1994,
-    "text": "30. června opustil Důl Odra v Přívoze poslední vozík s uhlím a ukončil 212 let těžby přímo v Ostravě"
+    "text": "30. června opustil Důl Odra v Přívoze poslední vozík s uhlím a ukončil 212 let těžby přímo v Ostravě",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "ostrava",
     "year": 1997,
-    "text": "v červenci zaplavila Odra a Opava asi třetinu města při katastrofální povodni"
+    "text": "v červenci zaplavila Odra a Opava asi třetinu města při katastrofální povodni",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      4,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 1998,
-    "text": "27. září ráno odpíchla vysoká pec číslo 1 ve Vítkovicích naposledy a skončilo tak 162 let výroby surového železa"
+    "text": "27. září ráno odpíchla vysoká pec číslo 1 ve Vítkovicích naposledy a skončilo tak 162 let výroby surového železa",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "ostrava",
     "year": 2001,
-    "text": "Ostrava se stala krajským městem nově vzniklého Moravskoslezského kraje"
+    "text": "Ostrava se stala krajským městem nově vzniklého Moravskoslezského kraje",
+    "rel": [
+      5,
+      1,
+      3,
+      0,
+      4,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 2002,
-    "text": "areál dolu Hlubina, koksovny a vysokých pecí Dolní oblasti Vítkovic byl prohlášen národní kulturní památkou"
+    "text": "areál dolu Hlubina, koksovny a vysokých pecí Dolní oblasti Vítkovic byl prohlášen národní kulturní památkou",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 2007,
-    "text": "1. srpna se z Nové huti stala ArcelorMittal Ostrava, největší huť v zemi"
+    "text": "1. srpna se z Nové huti stala ArcelorMittal Ostrava, největší huť v zemi",
+    "rel": [
+      5,
+      2,
+      3,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "ostrava",
     "year": 2008,
-    "text": "Usain Bolt zaběhl na Zlaté tretně dvoustovku za 19,83 sekundy, dodnes nejrychlejší čas na české půdě"
+    "text": "Usain Bolt zaběhl na Zlaté tretně dvoustovku za 19,83 sekundy, dodnes nejrychlejší čas na české půdě",
+    "rel": [
+      5,
+      1,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 2012,
-    "text": "v přestavěném plynojemu Dolní oblasti Vítkovic se otevřel multifunkční sál Gong a do areálu se přestěhoval festival Colours of Ostrava"
+    "text": "v přestavěném plynojemu Dolní oblasti Vítkovic se otevřel multifunkční sál Gong a do areálu se přestěhoval festival Colours of Ostrava",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 2015,
-    "text": "nad vysokou pecí číslo 1 se otevřela prosklená vyhlídková Bolt Tower; Baník zároveň 30. května odehrál poslední zápas na Bazalech"
+    "text": "nad vysokou pecí číslo 1 se otevřela prosklená vyhlídková Bolt Tower; Baník zároveň 30. května odehrál poslední zápas na Bazalech",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 2016,
-    "text": "v květnu vyhlásila těžební společnost OKD úpadek s dluhy přesahujícími sedmnáct miliard korun"
+    "text": "v květnu vyhlásila těžební společnost OKD úpadek s dluhy přesahujícími sedmnáct miliard korun",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "ostrava",
     "year": 2024,
-    "text": "po zastavení výroby na konci roku 2023 zamířila do úpadku huť Liberty Ostrava, dříve Nová huť a ArcelorMittal"
+    "text": "po zastavení výroby na konci roku 2023 zamířila do úpadku huť Liberty Ostrava, dříve Nová huť a ArcelorMittal",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "ostrava",
     "year": 2024,
-    "text": "v polovině září zaplavila Ostravu povodeň po bouři Boris a statisíce lidí zůstaly bez teplé vody"
+    "text": "v polovině září zaplavila Ostravu povodeň po bouři Boris a statisíce lidí zůstaly bez teplé vody",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      2,
+      3
+    ]
   }
 ]

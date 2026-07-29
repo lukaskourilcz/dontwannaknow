@@ -2,51 +2,131 @@
   {
     "city": "litomerice",
     "year": 1944,
-    "text": "podzemní komplex Richard u Litoměřic se stal továrnou na zbraně V s otrockou prací"
+    "text": "podzemní komplex Richard u Litoměřic se stal továrnou na zbraně V s otrockou prací",
+    "rel": [
+      5,
+      4,
+      3,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "litomerice",
     "year": 1945,
-    "text": "tisíce vězňů koncentračních táborů z komplexu Richard zemřely na pochodech smrti těsně před osvobozením"
+    "text": "tisíce vězňů koncentračních táborů z komplexu Richard zemřely na pochodech smrti těsně před osvobozením",
+    "rel": [
+      5,
+      3,
+      2,
+      4,
+      4,
+      3
+    ]
   },
   {
     "city": "litomerice",
     "year": 1938,
-    "text": "připojeno nacistickým Německem jako Leitmeritz; biskupské sídlo pokračovalo pod německým nátlakem"
+    "text": "připojeno nacistickým Německem jako Leitmeritz; biskupské sídlo pokračovalo pod německým nátlakem",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "litomerice",
     "year": 1947,
-    "text": "dramatické panorama nad řekou Labe bylo po válečném zanedbání obnoveno"
+    "text": "dramatické panorama nad řekou Labe bylo po válečném zanedbání obnoveno",
+    "rel": [
+      5,
+      1,
+      1,
+      1,
+      2,
+      1
+    ]
   },
   {
     "city": "litomerice",
     "year": 1962,
-    "text": "místní Severočeská tukárna vyráběla jedlé tuky pro celý severočeský region"
+    "text": "místní Severočeská tukárna vyráběla jedlé tuky pro celý severočeský region",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "litomerice",
     "year": 1976,
-    "text": "otevřelo se Severočeské centrum (regionální nákupní centrum) — vzácný příklad většího socialistického spotřebního maloobchodu"
+    "text": "otevřelo se Severočeské centrum (regionální nákupní centrum) — vzácný příklad většího socialistického spotřebního maloobchodu",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "litomerice",
     "year": 1944,
-    "text": "v podzemních štolách Richard vznikl koncentrační tábor Litoměřice, pobočka Flossenbürgu; prošlo jím na 18 400 vězňů"
+    "text": "v podzemních štolách Richard vznikl koncentrační tábor Litoměřice, pobočka Flossenbürgu; prošlo jím na 18 400 vězňů",
+    "rel": [
+      5,
+      4,
+      2,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "litomerice",
     "year": 1945,
-    "text": "v krematoriu tábora bylo zpopelněno přes 30 000 obětí litoměřického tábora, věznice v Malé pevnosti a terezínského ghetta"
+    "text": "v krematoriu tábora bylo zpopelněno přes 30 000 obětí litoměřického tábora, věznice v Malé pevnosti a terezínského ghetta",
+    "rel": [
+      5,
+      3,
+      1,
+      4,
+      5,
+      3
+    ]
   },
   {
     "city": "litomerice",
     "year": 1969,
-    "text": "při oslavách 750 let města se poprvé uspořádala celonárodní zahradnická výstava pod názvem Zahrada Čech"
+    "text": "při oslavách 750 let města se poprvé uspořádala celonárodní zahradnická výstava pod názvem Zahrada Čech",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "litomerice",
     "year": 1972,
-    "text": "Zahrada Čech se stala vládou uznanou celostátní výstavou ovoce, zeleniny, vína, chmele a školkařských výpěstků"
+    "text": "Zahrada Čech se stala vládou uznanou celostátní výstavou ovoce, zeleniny, vína, chmele a školkařských výpěstků",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      2
+    ]
   }
 ]

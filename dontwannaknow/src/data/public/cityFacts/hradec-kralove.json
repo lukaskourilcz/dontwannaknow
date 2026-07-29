@@ -2,131 +2,339 @@
   {
     "city": "hradec-kralove",
     "year": 1923,
-    "text": "Gočárem navržená budova Anglobanky na Masarykově náměstí pomohla upevnit pověst Hradce jako výkladní skříně cihlové moderny"
+    "text": "Gočárem navržená budova Anglobanky na Masarykově náměstí pomohla upevnit pověst Hradce jako výkladní skříně cihlové moderny",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1925,
-    "text": "modernistická přestavba urbanisty Josefa Gočára vynesla městu přezdívku 'Salon republiky'"
+    "text": "modernistická přestavba urbanisty Josefa Gočára vynesla městu přezdívku 'Salon republiky'",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1927,
-    "text": "na labském nábřeží se otevřel nový Školský okrsek Josefa Gočára, který soustředil školy a gymnázia do jednoho kampusu"
+    "text": "na labském nábřeží se otevřel nový Školský okrsek Josefa Gočára, který soustředil školy a gymnázia do jednoho kampusu",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1934,
-    "text": "továrna na klavíry Petrof vyvážela do celého světa; městský průmysl hudebních nástrojů byl na vrcholu"
+    "text": "továrna na klavíry Petrof vyvážela do celého světa; městský průmysl hudebních nástrojů byl na vrcholu",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1936,
-    "text": "Československý tabákový monopol postavil podle Gočárova návrhu obří hradeckou cigaretovou továrnu zaměstnávající tisíce žen"
+    "text": "Československý tabákový monopol postavil podle Gočárova návrhu obří hradeckou cigaretovou továrnu zaměstnávající tisíce žen",
+    "rel": [
+      5,
+      4,
+      3,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1941,
-    "text": "místní Židé byli v prosinci deportováni do Terezína a synagoga v Pospíšilově ulici byla zapečetěna"
+    "text": "místní Židé byli v prosinci deportováni do Terezína a synagoga v Pospíšilově ulici byla zapečetěna",
+    "rel": [
+      5,
+      3,
+      2,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1945,
-    "text": "na konci války osvobozeno Rudou armádou"
+    "text": "na konci války osvobozeno Rudou armádou",
+    "rel": [
+      5,
+      5,
+      4,
+      0,
+      5,
+      1
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1945,
-    "text": "Rudá armáda vstoupila do Hradce 9. května a zastihla německé jednotky, jak se na letišti stále vzdávají"
+    "text": "Rudá armáda vstoupila do Hradce 9. května a zastihla německé jednotky, jak se na letišti stále vzdávají",
+    "rel": [
+      5,
+      5,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1949,
-    "text": "strojírenský závod ČKD Hradec navržený Vavřincem Faltisem začal vyrábět dieselové lokomotivy na export"
+    "text": "strojírenský závod ČKD Hradec navržený Vavřincem Faltisem začal vyrábět dieselové lokomotivy na export",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1959,
-    "text": "podnik ZVU (Závody V. M. Molotova, dříve Škoda) v Hradci vyráběl těžké zařízení pro chemické závody na vývoz do SSSR"
+    "text": "podnik ZVU (Závody V. M. Molotova, dříve Škoda) v Hradci vyráběl těžké zařízení pro chemické závody na vývoz do SSSR",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1962,
-    "text": "Spartak Hradec Králové vyhrál československou fotbalovou ligu, jediný titul z nejvyšší soutěže v historii klubu"
+    "text": "Spartak Hradec Králové vyhrál československou fotbalovou ligu, jediný titul z nejvyšší soutěže v historii klubu",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1965,
-    "text": "nová hradecká nemocnice a budovy lékařské fakulty rozšířily Gočárův kampus severním směrem"
+    "text": "nová hradecká nemocnice a budovy lékařské fakulty rozšířily Gočárův kampus severním směrem",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1973,
-    "text": "otevřel se nový most přes Labe, který zmírnil dopravní zácpu mezi Starým Městem a Pražským Předměstím"
+    "text": "otevřel se nový most přes Labe, který zmírnil dopravní zácpu mezi Starým Městem a Pražským Předměstím",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1976,
-    "text": "otevřela se nová univerzitní fakultní nemocnice"
+    "text": "otevřela se nová univerzitní fakultní nemocnice",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      4,
+      1
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1978,
-    "text": "hradecké letiště v Plačicích stále hostilo pravidelné letecké dny, kde cvičné letouny Aero L-29 vystupovaly před davy"
+    "text": "hradecké letiště v Plačicích stále hostilo pravidelné letecké dny, kde cvičné letouny Aero L-29 vystupovaly před davy",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      1,
+      2
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1959,
-    "text": "vznikl Pedagogický institut, zárodek dnešní Univerzity Hradec Králové, jež současný název nese od roku 2000"
+    "text": "vznikl Pedagogický institut, zárodek dnešní Univerzity Hradec Králové, jež současný název nese od roku 2000",
+    "rel": [
+      5,
+      2,
+      3,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1960,
-    "text": "v Malšovicích byl otevřen Všesportovní stadion s charakteristickými osvětlovacími stožáry přezdívanými 'lízátka'"
+    "text": "v Malšovicích byl otevřen Všesportovní stadion s charakteristickými osvětlovacími stožáry přezdívanými 'lízátka'",
+    "rel": [
+      5,
+      2,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1973,
-    "text": "na jihu města se začalo stavět Moravské Předměstí, největší panelové sídliště ve východních Čechách s více než deseti tisíci byty"
+    "text": "na jihu města se začalo stavět Moravské Předměstí, největší panelové sídliště ve východních Čechách s více než deseti tisíci byty",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1993,
-    "text": "k 31. květnu byl zrušen 47. průzkumný letecký pluk, jehož stroje MiG-21R létaly z hradeckého letiště od konce 60. let"
+    "text": "k 31. květnu byl zrušen 47. průzkumný letecký pluk, jehož stroje MiG-21R létaly z hradeckého letiště od konce 60. let",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1993,
-    "text": "na okraji centra se otevřelo kongresové centrum Aldis, projektované již v 80. letech"
+    "text": "na okraji centra se otevřelo kongresové centrum Aldis, projektované již v 80. letech",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      1
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1994,
-    "text": "ke konci roku byl rozpuštěn poslední stíhací pluk hradeckého letiště a armáda základnu postupně opustila"
+    "text": "ke konci roku byl rozpuštěn poslední stíhací pluk hradeckého letiště a armáda základnu postupně opustila",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 1997,
-    "text": "při červencové povodni protrhla Orlice hráz a zaplavila Malšovice, univerzitní koleje i všesportovní stadion"
+    "text": "při červencové povodni protrhla Orlice hráz a zaplavila Malšovice, univerzitní koleje i všesportovní stadion",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 2000,
-    "text": "22. listopadu otevřelo obchodní centrum Futurum na Brněnské třídě, jedno z prvních nákupních center v zemi"
+    "text": "22. listopadu otevřelo obchodní centrum Futurum na Brněnské třídě, jedno z prvních nákupních center v zemi",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 2008,
-    "text": "25. září byla otevřena nová Studijní a vědecká knihovna od Projektil architektů, betonová budova s půdorysem ve tvaru X"
+    "text": "25. září byla otevřena nová Studijní a vědecká knihovna od Projektil architektů, betonová budova s půdorysem ve tvaru X",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 2021,
-    "text": "fotbalisté FC Hradec Králové postoupili zpět do první ligy, dva ročníky však museli odehrát v azylu v Mladé Boleslavi"
+    "text": "fotbalisté FC Hradec Králové postoupili zpět do první ligy, dva ročníky však museli odehrát v azylu v Mladé Boleslavi",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "hradec-kralove",
     "year": 2023,
-    "text": "3. září byla na místě starého Všesportovního stadionu otevřena Malšovická aréna; nad novou tribunou zůstala zachována stará 'lízátka'"
+    "text": "3. září byla na místě starého Všesportovního stadionu otevřena Malšovická aréna; nad novou tribunou zůstala zachována stará 'lízátka'",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      4,
+      2
+    ]
   }
 ]

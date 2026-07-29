@@ -2,186 +2,482 @@
   {
     "city": "vinnytsia",
     "year": 1929,
-    "text": "zachovalé tělo Mykoly Pyrohova v jeho usedlosti-muzeu jižně od města bylo znovu nabalzamováno"
+    "text": "zachovalé tělo Mykoly Pyrohova v jeho usedlosti-muzeu jižně od města bylo znovu nabalzamováno",
+    "rel": [
+      4,
+      0,
+      3,
+      4,
+      2,
+      2
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1937,
-    "text": "v nedalekých Pjatychatkách proběhly masové popravy NKVD; hroby měli objevit Němci v roce 1943"
+    "text": "v nedalekých Pjatychatkách proběhly masové popravy NKVD; hroby měli objevit Němci v roce 1943",
+    "rel": [
+      4,
+      2,
+      2,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1937,
-    "text": "masové popravy NKVD ve Vinnycji zabily tisíce lidí pohřbených v hromadných hrobech v městských sadech"
+    "text": "masové popravy NKVD ve Vinnycji zabily tisíce lidí pohřbených v hromadných hrobech v městských sadech",
+    "rel": [
+      5,
+      4,
+      2,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1941,
-    "text": "v nedalekém lese byl postaven Hitlerův štáb východní fronty 'Werwolf'"
+    "text": "v nedalekém lese byl postaven Hitlerův štáb východní fronty 'Werwolf'",
+    "rel": [
+      4,
+      3,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1941,
-    "text": "wehrmacht obsadil město v červenci"
+    "text": "wehrmacht obsadil město v červenci",
+    "rel": [
+      5,
+      5,
+      4,
+      0,
+      4,
+      1
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1942,
-    "text": "Hitler zřídil bunkrový komplex štábu Werwolf 8 km severně od Vinnycje"
+    "text": "Hitler zřídil bunkrový komplex štábu Werwolf 8 km severně od Vinnycje",
+    "rel": [
+      4,
+      3,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1943,
-    "text": "německé úřady exhumovaly a zveřejnily masové hroby NKVD ve vinnyckých parcích"
+    "text": "německé úřady exhumovaly a zveřejnily masové hroby NKVD ve vinnyckých parcích",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1944,
-    "text": "Rudá armáda osvobodila město v březnu"
+    "text": "Rudá armáda osvobodila město v březnu",
+    "rel": [
+      5,
+      5,
+      4,
+      0,
+      4,
+      1
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1944,
-    "text": "sovětské síly osvobodily město 20. března"
+    "text": "sovětské síly osvobodily město 20. března",
+    "rel": [
+      5,
+      5,
+      4,
+      0,
+      4,
+      1
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1960,
-    "text": "Vinnycký závod na ložiska se stal významným regionálním zaměstnavatelem"
+    "text": "Vinnycký závod na ložiska se stal významným regionálním zaměstnavatelem",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1970,
-    "text": "ve městě byla zahájena trolejbusová doprava"
+    "text": "ve městě byla zahájena trolejbusová doprava",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1975,
-    "text": "na Kyjevské ulici se otevřelo nové centrální autobusové nádraží"
+    "text": "na Kyjevské ulici se otevřelo nové centrální autobusové nádraží",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      1
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1925,
-    "text": "nové vinnycké letiště se stalo jedním z prvních v Ukrajinské SSR"
+    "text": "nové vinnycké letiště se stalo jedním z prvních v Ukrajinské SSR",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      2,
+      1
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1943,
-    "text": "hroby vinnyckého masakru objevené wehrmachtem ukrývaly přes 9 000 obětí NKVD"
+    "text": "hroby vinnyckého masakru objevené wehrmachtem ukrývaly přes 9 000 obětí NKVD",
+    "rel": [
+      5,
+      4,
+      3,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1955,
-    "text": "Vinnycký traktorový závod zahájil výrobu"
+    "text": "Vinnycký traktorový závod zahájil výrobu",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      4,
+      0
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1972,
-    "text": "Vinnycja byla domovem Pirogovovy lékařské univerzity, která školila lékaře po celém sovětském bloku"
+    "text": "Vinnycja byla domovem Pirogovovy lékařské univerzity, která školila lékaře po celém sovětském bloku",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1942,
-    "text": "Hitler poprvé dorazil do štábu Werwolf 16. července a zdržel se zde téměř do listopadu"
+    "text": "Hitler poprvé dorazil do štábu Werwolf 16. července a zdržel se zde téměř do listopadu",
+    "rel": [
+      4,
+      2,
+      2,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1943,
-    "text": "mezinárodní lékařská komise prozkoumala 66 hromadných hrobů NKVD v okolí Vinnycje"
+    "text": "mezinárodní lékařská komise prozkoumala 66 hromadných hrobů NKVD v okolí Vinnycje",
+    "rel": [
+      4,
+      2,
+      2,
+      4,
+      4,
+      3
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1944,
-    "text": "ustupující wehrmacht před březnovým osvobozením zničil bunkry štábu Werwolf u Stryžavky"
+    "text": "ustupující wehrmacht před březnovým osvobozením zničil bunkry štábu Werwolf u Stryžavky",
+    "rel": [
+      4,
+      1,
+      1,
+      3,
+      2,
+      1
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1979,
-    "text": "Pyrohovovo nabalzamované tělo bylo převezeno k ošetření do moskevské laboratoře Leninova mauzolea"
+    "text": "Pyrohovovo nabalzamované tělo bylo převezeno k ošetření do moskevské laboratoře Leninova mauzolea",
+    "rel": [
+      4,
+      0,
+      1,
+      4,
+      1,
+      2
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1985,
-    "text": "secesní vodárenská věž na Evropském náměstí byla předána krajskému vlastivědnému muzeu"
+    "text": "secesní vodárenská věž na Evropském náměstí byla předána krajskému vlastivědnému muzeu",
+    "rel": [
+      5,
+      0,
+      2,
+      2,
+      2,
+      1
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 2011,
-    "text": "na Pivdennom Buhu byla spuštěna multimediální fontána Roshen, největší plovoucí fontána v Evropě"
+    "text": "na Pivdennom Buhu byla spuštěna multimediální fontána Roshen, největší plovoucí fontána v Evropě",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 2022,
-    "text": "14. července zasáhly ruské střely Kalibr Dům důstojníků v centru a zabily 27 lidí"
+    "text": "14. července zasáhly ruské střely Kalibr Dům důstojníků v centru a zabily 27 lidí",
+    "rel": [
+      5,
+      4,
+      5,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 2022,
-    "text": "mezi oběťmi červencového útoku byla čtyřletá Liza Dmytrijevová s Downovým syndromem, nalezená u svého kočárku"
+    "text": "mezi oběťmi červencového útoku byla čtyřletá Liza Dmytrijevová s Downovým syndromem, nalezená u svého kočárku",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1947,
-    "text": "v usedlosti Vyšňa na jihozápadním okraji města bylo otevřeno muzeum chirurga Mykoly Pyrohova"
+    "text": "v usedlosti Vyšňa na jihozápadním okraji města bylo otevřeno muzeum chirurga Mykoly Pyrohova",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1944,
-    "text": "město osvobodila 20. března vojska 1. ukrajinského frontu během proskurovsko-černivecké ofenzivy"
+    "text": "město osvobodila 20. března vojska 1. ukrajinského frontu během proskurovsko-černivecké ofenzivy",
+    "rel": [
+      5,
+      5,
+      2,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1996,
-    "text": "Petro Porošenko získal vinnyckou cukrovinkářskou továrnu a založil koncern Roshen z písmen svého příjmení"
+    "text": "Petro Porošenko získal vinnyckou cukrovinkářskou továrnu a založil koncern Roshen z písmen svého příjmení",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 2011,
-    "text": "fontána Roshen na Pivdennom Buhu byla slavnostně otevřena 4. září spolu s nově upraveným nábřežím"
+    "text": "fontána Roshen na Pivdennom Buhu byla slavnostně otevřena 4. září spolu s nově upraveným nábřežím",
+    "rel": [
+      5,
+      2,
+      5,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 2012,
-    "text": "Roshen v srpnu uvedl do provozu druhou vinnyckou cukrovinkářskou továrnu s roční kapacitou 120 000 tun"
+    "text": "Roshen v srpnu uvedl do provozu druhou vinnyckou cukrovinkářskou továrnu s roční kapacitou 120 000 tun",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 2020,
-    "text": "Švýcarsko podepsalo dohodu o dodávce ojetých tramvají Tram 2000 z curyšského dopravního podniku do Vinnycje"
+    "text": "Švýcarsko podepsalo dohodu o dodávce ojetých tramvají Tram 2000 z curyšského dopravního podniku do Vinnycje",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 2006,
-    "text": "ve spolupráci s Curychem začala Vinnycja přebírat vyřazené švýcarské tramvaje pro modernizaci sítě"
+    "text": "ve spolupráci s Curychem začala Vinnycja přebírat vyřazené švýcarské tramvaje pro modernizaci sítě",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 2022,
-    "text": "6. března zasáhlo letiště u Havryšivky osm řízených střel Ch-101 odpálených z Černého moře"
+    "text": "6. března zasáhlo letiště u Havryšivky osm řízených střel Ch-101 odpálených z Černého moře",
+    "rel": [
+      5,
+      4,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1965,
-    "text": "vinnycký závod na valivá ložiska VPZ se zařadil mezi přední dodavatele sovětského strojírenství"
+    "text": "vinnycký závod na valivá ložiska VPZ se zařadil mezi přední dodavatele sovětského strojírenství",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1989,
-    "text": "od roku 1959 vzrostl počet obyvatel Vinnycje z asi 122 000 na zhruba 374 000"
+    "text": "od roku 1959 vzrostl počet obyvatel Vinnycje z asi 122 000 na zhruba 374 000",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 2024,
-    "text": "do Vinnycje dorazily další z desítek tramvají darovaných curyšským dopravním podnikem VBZ"
+    "text": "do Vinnycje dorazily další z desítek tramvají darovaných curyšským dopravním podnikem VBZ",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 2017,
-    "text": "sedmou sezonu spustila multimediální fontána Roshen velkolepou show 29. dubna na nábřeží"
+    "text": "sedmou sezonu spustila multimediální fontána Roshen velkolepou show 29. dubna na nábřeží",
+    "rel": [
+      5,
+      1,
+      4,
+      1,
+      0,
+      1
+    ]
   },
   {
     "city": "vinnytsia",
     "year": 1942,
-    "text": "pro Hitlerův štáb Werwolf budovali nuceně nasazení dělníci u Stryžavky bunkry i přistávací dráhu"
+    "text": "pro Hitlerův štáb Werwolf budovali nuceně nasazení dělníci u Stryžavky bunkry i přistávací dráhu",
+    "rel": [
+      4,
+      3,
+      3,
+      4,
+      3,
+      4
+    ]
   }
 ]

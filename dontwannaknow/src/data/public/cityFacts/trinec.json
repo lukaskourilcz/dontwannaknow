@@ -2,66 +2,170 @@
   {
     "city": "trinec",
     "year": 1929,
-    "text": "Třinecké železárny se staly po Vítkovicích největším výrobcem oceli v Československu"
+    "text": "Třinecké železárny se staly po Vítkovicích největším výrobcem oceli v Československu",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "trinec",
     "year": 1968,
-    "text": "sovětské tanky vyjely údolím řeky Olše kolem třineckých závodů"
+    "text": "sovětské tanky vyjely údolím řeky Olše kolem třineckých závodů",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "trinec",
     "year": 1920,
-    "text": "Třinec byl z rakouského Slezska začleněn do Československa a řeka Olše se stala polskou hranicí"
+    "text": "Třinec byl z rakouského Slezska začleněn do Československa a řeka Olše se stala polskou hranicí",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "trinec",
     "year": 1945,
-    "text": "polské síly Rudé armády osvobodily Třinec v květnu"
+    "text": "polské síly Rudé armády osvobodily Třinec v květnu",
+    "rel": [
+      5,
+      4,
+      2,
+      2,
+      4,
+      1
+    ]
   },
   {
     "city": "trinec",
     "year": 1960,
-    "text": "třinecké železárny zdvojnásobily výrobu, aby zásobovaly těžký průmysl sovětského bloku"
+    "text": "třinecké železárny zdvojnásobily výrobu, aby zásobovaly těžký průmysl sovětského bloku",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "trinec",
     "year": 1976,
-    "text": "hokejový klub HC Třinec postoupil do československé nejvyšší ligy"
+    "text": "hokejový klub HC Třinec postoupil do československé nejvyšší ligy",
+    "rel": [
+      5,
+      2,
+      3,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "trinec",
     "year": 1946,
-    "text": "po zániku Báňské a hutní společnosti se znárodněné Třinecké železárny staly jejich nástupcem"
+    "text": "po zániku Báňské a hutní společnosti se znárodněné Třinecké železárny staly jejich nástupcem",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "trinec",
     "year": 1969,
-    "text": "12. září se k 130. výročí závodu otevřelo muzeum Třineckých železáren, první hutnické muzeum v zemi"
+    "text": "12. září se k 130. výročí závodu otevřelo muzeum Třineckých železáren, první hutnické muzeum v zemi",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "trinec",
     "year": 1996,
-    "text": "většinovým vlastníkem Třineckých železáren se stala Moravia Steel, dnes největší český výrobce oceli"
+    "text": "většinovým vlastníkem Třineckých železáren se stala Moravia Steel, dnes největší český výrobce oceli",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "trinec",
     "year": 2011,
-    "text": "hokejisté HC Oceláři Třinec získali svůj první titul mistra české extraligy"
+    "text": "hokejisté HC Oceláři Třinec získali svůj první titul mistra české extraligy",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      2,
+      3
+    ]
   },
   {
     "city": "trinec",
     "year": 2014,
-    "text": "12. září se otevřela nová Werk Arena, moderní hokejový stánek pro více než pět tisíc diváků"
+    "text": "12. září se otevřela nová Werk Arena, moderní hokejový stánek pro více než pět tisíc diváků",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "trinec",
     "year": 2019,
-    "text": "Oceláři Třinec získali druhý extraligový titul a zahájili éru dominance"
+    "text": "Oceláři Třinec získali druhý extraligový titul a zahájili éru dominance",
+    "rel": [
+      5,
+      2,
+      5,
+      1,
+      2,
+      2
+    ]
   },
   {
     "city": "trinec",
     "year": 2024,
-    "text": "Oceláři Třinec dovršili sérii čtyř titulů v řadě z let 2021 až 2024, celkem šestou trofejí za sebou"
+    "text": "Oceláři Třinec dovršili sérii čtyř titulů v řadě z let 2021 až 2024, celkem šestou trofejí za sebou",
+    "rel": [
+      5,
+      2,
+      5,
+      1,
+      2,
+      2
+    ]
   }
 ]

@@ -3,804 +3,1876 @@
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "government",
-    "text": "Po krvavé občanské válce byla Ukrajina v prosinci 1922 začleněna do nově vzniklého SSSR."
+    "text": "Po krvavé občanské válce byla Ukrajina v prosinci 1922 začleněna do nově vzniklého SSSR.",
+    "rel": [
+      4,
+      4,
+      2,
+      0,
+      5,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "government",
-    "text": "Začátek 20. let přinesl NEP (Novou ekonomickou politiku) — krátké uvolnění trhu, sedláci si směli ponechat obilí."
+    "text": "Začátek 20. let přinesl NEP (Novou ekonomickou politiku) — krátké uvolnění trhu, sedláci si směli ponechat obilí.",
+    "rel": [
+      4,
+      4,
+      3,
+      2,
+      2,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "government",
-    "text": "Politika korenizace nakrátko podporovala ukrajinský jazyk a kulturu ve školách."
+    "text": "Politika korenizace nakrátko podporovala ukrajinský jazyk a kulturu ve školách.",
+    "rel": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "clothes",
-    "text": "Vyšívané košile (vyšyvanky) byly na vesnicích každodenním lidovým oděvem."
+    "text": "Vyšívané košile (vyšyvanky) byly na vesnicích každodenním lidovým oděvem.",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      3,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "clothes",
-    "text": "Dělnice ve městech nosily prosté bavlněné halenky a skládané sukně."
+    "text": "Dělnice ve městech nosily prosté bavlněné halenky a skládané sukně.",
+    "rel": [
+      4,
+      2,
+      3,
+      1,
+      2,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "clothes",
-    "text": "Na zimu kožichy (kožuch) a plstěné boty (valenky)."
+    "text": "Na zimu kožichy (kožuch) a plstěné boty (valenky).",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      3,
+      1
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "clothes",
-    "text": "Vdané ženy nosily všeobecně šátky."
+    "text": "Vdané ženy nosily všeobecně šátky.",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      3,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "illnesses",
-    "text": "Tyfus a cholera z občanské války zpustošily Kyjev a Charkov."
+    "text": "Tyfus a cholera z občanské války zpustošily Kyjev a Charkov.",
+    "rel": [
+      4,
+      5,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "illnesses",
-    "text": "Hladomor v letech 1921–22 zabil na jihu Ukrajiny statisíce lidí."
+    "text": "Hladomor v letech 1921–22 zabil na jihu Ukrajiny statisíce lidí.",
+    "rel": [
+      4,
+      5,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "illnesses",
-    "text": "Ve městech byla endemická tuberkulóza."
+    "text": "Ve městech byla endemická tuberkulóza.",
+    "rel": [
+      4,
+      3,
+      3,
+      1,
+      3,
+      1
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "dailyLife",
-    "text": "V Charkově (hlavním městě do roku 1934) a v Kyjevě se otevírala divadla hrající v ukrajinštině."
+    "text": "V Charkově (hlavním městě do roku 1934) a v Kyjevě se otevírala divadla hrající v ukrajinštině.",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "dailyLife",
-    "text": "Spisovatelé jako Mykola Chvyljovyj zahájili „popravenou renesanci“ — většina z nich 30. léta nepřežila."
+    "text": "Spisovatelé jako Mykola Chvyljovyj zahájili „popravenou renesanci“ — většina z nich 30. léta nepřežila.",
+    "rel": [
+      4,
+      1,
+      1,
+      4,
+      4,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "dailyLife",
-    "text": "Elektrifikace dosáhla velkých měst; vesnice stále používaly petrolejové lampy."
+    "text": "Elektrifikace dosáhla velkých měst; vesnice stále používaly petrolejové lampy.",
+    "rel": [
+      4,
+      4,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "food",
-    "text": "Boršč se zakysanou smetanou, salo (naložené vepřové sádlo) na žitném chlebu, vareniky."
+    "text": "Boršč se zakysanou smetanou, salo (naložené vepřové sádlo) na žitném chlebu, vareniky.",
+    "rel": [
+      4,
+      4,
+      5,
+      0,
+      5,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "food",
-    "text": "V letech hladomoru se chleba přiděloval na lístky."
+    "text": "V letech hladomoru se chleba přiděloval na lístky.",
+    "rel": [
+      4,
+      5,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "food",
-    "text": "Vodka a kvas byly každodenními nápoji."
+    "text": "Vodka a kvas byly každodenními nápoji.",
+    "rel": [
+      4,
+      3,
+      3,
+      1,
+      4,
+      1
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "money",
-    "text": "Po reformě a zavedení červonce v roce 1922 se rubl nakrátko stabilizoval."
+    "text": "Po reformě a zavedení červonce v roce 1922 se rubl nakrátko stabilizoval.",
+    "rel": [
+      2,
+      3,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "money",
-    "text": "Sedláci platili daně v podobě obilních kvót, ne penězi."
+    "text": "Sedláci platili daně v podobě obilních kvót, ne penězi.",
+    "rel": [
+      4,
+      5,
+      4,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "money",
-    "text": "Dělníci v donbaských dolech vydělávali 30–40 rublů měsíčně."
+    "text": "Dělníci v donbaských dolech vydělávali 30–40 rublů měsíčně.",
+    "rel": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "bizarre",
-    "text": "Hlavním městem sovětské Ukrajiny byl od roku 1919 do roku 1934 Charkov, nikoli Kyjev."
+    "text": "Hlavním městem sovětské Ukrajiny byl od roku 1919 do roku 1934 Charkov, nikoli Kyjev.",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "bizarre",
-    "text": "Ukrajinští futurističtí básníci psali v esperantu — a vycházeli tiskem."
+    "text": "Ukrajinští futurističtí básníci psali v esperantu — a vycházeli tiskem.",
+    "rel": [
+      3,
+      0,
+      1,
+      4,
+      1,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "beautiful",
-    "text": "Divadlo Berezil pod vedením Lese Kurbase znovuobjevilo ukrajinské drama."
+    "text": "Divadlo Berezil pod vedením Lese Kurbase znovuobjevilo ukrajinské drama.",
+    "rel": [
+      3,
+      1,
+      2,
+      4,
+      3,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1920,
     "bucket": "beautiful",
-    "text": "Vzory vyšyvanek se sbíraly v národopisných muzeích a kodifikovaly."
+    "text": "Vzory vyšyvanek se sbíraly v národopisných muzeích a kodifikovaly.",
+    "rel": [
+      3,
+      1,
+      2,
+      3,
+      4,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "government",
-    "text": "Stalin prosadil násilnou kolektivizaci; miliony sedláků přišly o majetek."
+    "text": "Stalin prosadil násilnou kolektivizaci; miliony sedláků přišly o majetek.",
+    "rel": [
+      4,
+      5,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "government",
-    "text": "Hladomor (1932–33) — uměle vyvolaný hladomor — zabil odhadem 3–7 milionů Ukrajinců."
+    "text": "Hladomor (1932–33) — uměle vyvolaný hladomor — zabil odhadem 3–7 milionů Ukrajinců.",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "government",
-    "text": "Velký teror (1937–38) popravil ukrajinské intelektuály, stranické funkcionáře, spisovatele i kněze."
+    "text": "Velký teror (1937–38) popravil ukrajinské intelektuály, stranické funkcionáře, spisovatele i kněze.",
+    "rel": [
+      4,
+      4,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "clothes",
-    "text": "Prošívané kabáty (telogrejka neboli vaťák) pro dělníky a vězně."
+    "text": "Prošívané kabáty (telogrejka neboli vaťák) pro dělníky a vězně.",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      3,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "clothes",
-    "text": "Prosté tmavé šaty s bílými límečky pro ženy."
+    "text": "Prosté tmavé šaty s bílými límečky pro ženy.",
+    "rel": [
+      4,
+      3,
+      3,
+      1,
+      2,
+      1
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "clothes",
-    "text": "V zimě plstěné boty (valenky); v blátě gumové holínky (kirzy)."
+    "text": "V zimě plstěné boty (valenky); v blátě gumové holínky (kirzy).",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      3,
+      1
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "clothes",
-    "text": "Vyšyvanka byla tolerována jako „lidový kroj“, ale jako každodenní oděv se nedoporučovala."
+    "text": "Vyšyvanka byla tolerována jako „lidový kroj“, ale jako každodenní oděv se nedoporučovala.",
+    "rel": [
+      4,
+      3,
+      3,
+      3,
+      4,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "illnesses",
-    "text": "Hladomor způsoboval nemoci z hladu — pelagru, vyhladovění, dystrofii, dětský záškrt."
+    "text": "Hladomor způsoboval nemoci z hladu — pelagru, vyhladovění, dystrofii, dětský záškrt.",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "illnesses",
-    "text": "Tábory gulagu i venkovské vesnice zachvátily epidemie tyfu."
+    "text": "Tábory gulagu i venkovské vesnice zachvátily epidemie tyfu.",
+    "rel": [
+      4,
+      4,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "illnesses",
-    "text": "Tuberkulóza si brala ty, koho oslabil hlad."
+    "text": "Tuberkulóza si brala ty, koho oslabil hlad.",
+    "rel": [
+      4,
+      4,
+      3,
+      1,
+      3,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "dailyLife",
-    "text": "Vesničané zakopávali obilí do země, aby ho ukryli před brigádami rekvírujícími obilí."
+    "text": "Vesničané zakopávali obilí do země, aby ho ukryli před brigádami rekvírujícími obilí.",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      4,
+      5
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "dailyLife",
-    "text": "V desítkách ukrajinských vesnic byl v roce 1933 zdokumentován kanibalismus."
+    "text": "V desítkách ukrajinských vesnic byl v roce 1933 zdokumentován kanibalismus.",
+    "rel": [
+      5,
+      5,
+      2,
+      3,
+      5,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "dailyLife",
-    "text": "Zinscenované procesy, zatýkání a mizení lidí zasáhly velkou část společnosti."
+    "text": "Zinscenované procesy, zatýkání a mizení lidí zasáhly velkou část společnosti.",
+    "rel": [
+      4,
+      5,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "food",
-    "text": "V roce 1933 vesničané vařili polévku z kůry, plevele a kožených opasků."
+    "text": "V roce 1933 vesničané vařili polévku z kůry, plevele a kožených opasků.",
+    "rel": [
+      5,
+      5,
+      3,
+      3,
+      4,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "food",
-    "text": "Ve městech přídělové lístky na chleba — ale Ukrajina, obilnice, žádný chleba neměla."
+    "text": "Ve městech přídělové lístky na chleba — ale Ukrajina, obilnice, žádný chleba neměla.",
+    "rel": [
+      4,
+      5,
+      4,
+      2,
+      4,
+      5
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "food",
-    "text": "Salo a nakládaná zelenina ukrytá ve sklepích zachránily rodiny přes zimu."
+    "text": "Salo a nakládaná zelenina ukrytá ve sklepích zachránily rodiny přes zimu.",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "money",
-    "text": "Pracovníci kolchozů byli placeni v trudodních (pracovních dnech), za které často nešlo dostat nic."
+    "text": "Pracovníci kolchozů byli placeni v trudodních (pracovních dnech), za které často nešlo dostat nic.",
+    "rel": [
+      4,
+      5,
+      4,
+      3,
+      4,
+      5
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "money",
-    "text": "Dělníci ve městech vydělávali 100–150 rublů měsíčně."
+    "text": "Dělníci ve městech vydělávali 100–150 rublů měsíčně.",
+    "rel": [
+      4,
+      3,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "money",
-    "text": "Bochník chleba z černého trhu stál v roce 1933 dělníkovu denní mzdu."
+    "text": "Bochník chleba z černého trhu stál v roce 1933 dělníkovu denní mzdu.",
+    "rel": [
+      4,
+      5,
+      3,
+      4,
+      2,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "bizarre",
-    "text": "Ukrajinština byla až do roku 1938 oficiálním jazykem správy — i když její spisovatele zrovna stříleli."
+    "text": "Ukrajinština byla až do roku 1938 oficiálním jazykem správy — i když její spisovatele zrovna stříleli.",
+    "rel": [
+      4,
+      3,
+      2,
+      4,
+      4,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "bizarre",
-    "text": "Walter Duranty z New York Times hladomor popíral a získal Pulitzerovu cenu."
+    "text": "Walter Duranty z New York Times hladomor popíral a získal Pulitzerovu cenu.",
+    "rel": [
+      1,
+      0,
+      1,
+      4,
+      2,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "beautiful",
-    "text": "Ukrajinští básníci jako Pavlo Tyčyna psali verše, které přežily v samizdatu desítky let."
+    "text": "Ukrajinští básníci jako Pavlo Tyčyna psali verše, které přežily v samizdatu desítky let.",
+    "rel": [
+      3,
+      1,
+      2,
+      3,
+      4,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1930,
     "bucket": "beautiful",
-    "text": "Ve 30. letech vznikly ukrajinské fotbalové kluby — mezi nimi Dynamo Kyjev."
+    "text": "Ve 30. letech vznikly ukrajinské fotbalové kluby — mezi nimi Dynamo Kyjev.",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      5,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "government",
-    "text": "Nacistické Německo zaútočilo v červnu 1941; Ukrajina byla okupována od roku 1941 do roku 1944."
+    "text": "Nacistické Německo zaútočilo v červnu 1941; Ukrajina byla okupována od roku 1941 do roku 1944.",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "government",
-    "text": "Masakr v Babím Jaru — 33 771 Židů zavražděných za 36 hodin v září 1941 v Kyjevě."
+    "text": "Masakr v Babím Jaru — 33 771 Židů zavražděných za 36 hodin v září 1941 v Kyjevě.",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "government",
-    "text": "Do roku 1944 sovětské znovudobytí; následovaly hromadné deportace krymských Tatarů a dalších."
+    "text": "Do roku 1944 sovětské znovudobytí; následovaly hromadné deportace krymských Tatarů a dalších.",
+    "rel": [
+      4,
+      4,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "clothes",
-    "text": "Za války: armádní přebytky, prošívané kabáty, cokoli, co se dalo zalátat."
+    "text": "Za války: armádní přebytky, prošívané kabáty, cokoli, co se dalo zalátat.",
+    "rel": [
+      4,
+      5,
+      5,
+      1,
+      2,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "clothes",
-    "text": "Vesnické ženy nosily i po válce dlouhé tmavé sukně a šátky."
+    "text": "Vesnické ženy nosily i po válce dlouhé tmavé sukně a šátky.",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      3,
+      1
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "clothes",
-    "text": "Sovětské šaty z umělého hedvábí nahradily lněnou vyšyvanku jako každodenní oděv."
+    "text": "Sovětské šaty z umělého hedvábí nahradily lněnou vyšyvanku jako každodenní oděv.",
+    "rel": [
+      4,
+      3,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "illnesses",
-    "text": "Válečný tyfus, úplavice a omrzliny zasáhly během války mnoho ukrajinských rodin."
+    "text": "Válečný tyfus, úplavice a omrzliny zasáhly během války mnoho ukrajinských rodin.",
+    "rel": [
+      4,
+      4,
+      4,
+      1,
+      2,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "illnesses",
-    "text": "Po válce vzrostla tuberkulóza mezi navrátivšími se vojáky a uprchlíky."
+    "text": "Po válce vzrostla tuberkulóza mezi navrátivšími se vojáky a uprchlíky.",
+    "rel": [
+      4,
+      3,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "illnesses",
-    "text": "Hladomor v letech 1946–47 zabil na jihovýchodě další milion lidí."
+    "text": "Hladomor v letech 1946–47 zabil na jihovýchodě další milion lidí.",
+    "rel": [
+      4,
+      5,
+      4,
+      4,
+      4,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "dailyLife",
-    "text": "Kyjev byl do roku 1944 z 85 % zničený; Chreščatyk se musel postavit z trosek znovu."
+    "text": "Kyjev byl do roku 1944 z 85 % zničený; Chreščatyk se musel postavit z trosek znovu.",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "dailyLife",
-    "text": "Partyzáni (UPA na západní Ukrajině) bojovali se Sověty až do počátku 50. let."
+    "text": "Partyzáni (UPA na západní Ukrajině) bojovali se Sověty až do počátku 50. let.",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "dailyLife",
-    "text": "Standardním způsobem městského bydlení se staly komunální byty (komunálky)."
+    "text": "Standardním způsobem městského bydlení se staly komunální byty (komunálky).",
+    "rel": [
+      4,
+      5,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "food",
-    "text": "Přidělování na lístky trvalo až do roku 1947."
+    "text": "Přidělování na lístky trvalo až do roku 1947.",
+    "rel": [
+      4,
+      5,
+      5,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "food",
-    "text": "Salo na žitném chlebu a řepný boršč zůstaly základem vesnických jídel."
+    "text": "Salo na žitném chlebu a řepný boršč zůstaly základem vesnických jídel.",
+    "rel": [
+      4,
+      4,
+      5,
+      0,
+      5,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "food",
-    "text": "Fronty na chleba trvaly hodiny ještě roky po skončení války."
+    "text": "Fronty na chleba trvaly hodiny ještě roky po skončení války.",
+    "rel": [
+      4,
+      5,
+      5,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "money",
-    "text": "Měnová reforma v roce 1947 smetla úspory v poměru 10:1."
+    "text": "Měnová reforma v roce 1947 smetla úspory v poměru 10:1.",
+    "rel": [
+      4,
+      5,
+      4,
+      3,
+      4,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "money",
-    "text": "Sedláci v kolchozech stále vydělávali v trudodních, vyplácených v obilí po žních."
+    "text": "Sedláci v kolchozech stále vydělávali v trudodních, vyplácených v obilí po žních.",
+    "rel": [
+      4,
+      5,
+      4,
+      4,
+      4,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "money",
-    "text": "Vojenské penze a podpory válečným vdovám byly pro miliony lidí jedinou stálou hotovostí."
+    "text": "Vojenské penze a podpory válečným vdovám byly pro miliony lidí jedinou stálou hotovostí.",
+    "rel": [
+      4,
+      5,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "bizarre",
-    "text": "Stoupenci Stepana Bandery bojovali proti nacistům, pak proti Sovětům, až do 50. let."
+    "text": "Stoupenci Stepana Bandery bojovali proti nacistům, pak proti Sovětům, až do 50. let.",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "bizarre",
-    "text": "Rudá armáda překročila v říjnu 1943 pod palbou Dněpr — bitva o rozsahu Stalingradu."
+    "text": "Rudá armáda překročila v říjnu 1943 pod palbou Dněpr — bitva o rozsahu Stalingradu.",
+    "rel": [
+      4,
+      4,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "beautiful",
-    "text": "Olha Kobyljanská a další spisovatelky byly v poválečných letech znovu objeveny."
+    "text": "Olha Kobyljanská a další spisovatelky byly v poválečných letech znovu objeveny.",
+    "rel": [
+      4,
+      1,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1940,
     "bucket": "beautiful",
-    "text": "Kyjevský Chreščatyk se znovu otevřel v roce 1949 — široké bulváry a pastelové fasády."
+    "text": "Kyjevský Chreščatyk se znovu otevřel v roce 1949 — široké bulváry a pastelové fasády.",
+    "rel": [
+      4,
+      2,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "government",
-    "text": "Nikita Chruščov — který byl ve 30. a 40. letech ukrajinským stranickým bossem — stál v čele SSSR."
+    "text": "Nikita Chruščov — který byl ve 30. a 40. letech ukrajinským stranickým bossem — stál v čele SSSR.",
+    "rel": [
+      2,
+      1,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "government",
-    "text": "Krym byl v roce 1954 převeden z Ruské SFSR do Ukrajinské SSR."
+    "text": "Krym byl v roce 1954 převeden z Ruské SFSR do Ukrajinské SSR.",
+    "rel": [
+      4,
+      1,
+      3,
+      1,
+      5,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "government",
-    "text": "Chruščovův „tajný projev“ z roku 1956 odsoudil Stalina a přinesl krátké uvolnění."
+    "text": "Chruščovův „tajný projev“ z roku 1956 odsoudil Stalina a přinesl krátké uvolnění.",
+    "rel": [
+      2,
+      2,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "clothes",
-    "text": "Bavlněné šaty s květinovými vzory, šátky, podkolenky — vzhled sovětské hospodyně."
+    "text": "Bavlněné šaty s květinovými vzory, šátky, podkolenky — vzhled sovětské hospodyně.",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      2,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "clothes",
-    "text": "Chlapci ve školních uniformách s rudými pionýrskými šátky."
+    "text": "Chlapci ve školních uniformách s rudými pionýrskými šátky.",
+    "rel": [
+      4,
+      3,
+      5,
+      0,
+      3,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "clothes",
-    "text": "V kolchozech prošívané kabáty a gumové holínky."
+    "text": "V kolchozech prošívané kabáty a gumové holínky.",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      2,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "illnesses",
-    "text": "Hromadné očkovací kampaně do roku 1960 ukončily na Ukrajině záškrt, obrnu a neštovice."
+    "text": "Hromadné očkovací kampaně do roku 1960 ukončily na Ukrajině záškrt, obrnu a neštovice.",
+    "rel": [
+      4,
+      4,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "illnesses",
-    "text": "Na venkově západní Ukrajiny byla stále běžná tuberkulóza."
+    "text": "Na venkově západní Ukrajiny byla stále běžná tuberkulóza.",
+    "rel": [
+      4,
+      3,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "illnesses",
-    "text": "Průmyslové znečištění v Donbasu začalo způsobovat chronická onemocnění dýchacích cest."
+    "text": "Průmyslové znečištění v Donbasu začalo způsobovat chronická onemocnění dýchacích cest.",
+    "rel": [
+      4,
+      3,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "dailyLife",
-    "text": "Chruščovky — pětipatrové panelové domy — od roku 1956 rostly všude."
+    "text": "Chruščovky — pětipatrové panelové domy — od roku 1956 rostly všude.",
+    "rel": [
+      4,
+      5,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "dailyLife",
-    "text": "Společné kuchyně byly stále standardem; vlastní koupelna byla luxusem."
+    "text": "Společné kuchyně byly stále standardem; vlastní koupelna byla luxusem.",
+    "rel": [
+      4,
+      5,
+      5,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "dailyLife",
-    "text": "Černobílá televize dorazila do bytů na konci 50. let."
+    "text": "Černobílá televize dorazila do bytů na konci 50. let.",
+    "rel": [
+      4,
+      4,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "food",
-    "text": "Boršč, kaše, salo, vareniky — beze změny."
+    "text": "Boršč, kaše, salo, vareniky — beze změny.",
+    "rel": [
+      4,
+      4,
+      5,
+      0,
+      5,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "food",
-    "text": "Zmrzlina (moroženoje) byla sovětským úspěchem — 10 kopějek za vanilkový kelímek."
+    "text": "Zmrzlina (moroženoje) byla sovětským úspěchem — 10 kopějek za vanilkový kelímek.",
+    "rel": [
+      4,
+      3,
+      5,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "food",
-    "text": "V létě stávaly na mnoha městských rozích stánky s kvasem."
+    "text": "V létě stávaly na mnoha městských rozích stánky s kvasem.",
+    "rel": [
+      4,
+      3,
+      5,
+      2,
+      3,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "money",
-    "text": "Měnová reforma z roku 1961 vyměnila 10 starých rublů za 1 nový — ale reálné ceny zůstaly stejné."
+    "text": "Měnová reforma z roku 1961 vyměnila 10 starých rublů za 1 nový — ale reálné ceny zůstaly stejné.",
+    "rel": [
+      4,
+      5,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "money",
-    "text": "Průměrný dělník vydělával 80–100 rublů měsíčně."
+    "text": "Průměrný dělník vydělával 80–100 rublů měsíčně.",
+    "rel": [
+      4,
+      4,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "money",
-    "text": "Bochník chleba stál 16 kopějek a tak to zůstalo 30 let."
+    "text": "Bochník chleba stál 16 kopějek a tak to zůstalo 30 let.",
+    "rel": [
+      4,
+      4,
+      5,
+      3,
+      5,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "bizarre",
-    "text": "Chruščovův zeť vedl redakci deníku Pravda, jeden z příkladů rodinných vazeb v nejvyšších patrech moci."
+    "text": "Chruščovův zeť vedl redakci deníku Pravda, jeden z příkladů rodinných vazeb v nejvyšších patrech moci.",
+    "rel": [
+      2,
+      0,
+      1,
+      3,
+      1,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "bizarre",
-    "text": "Jaderná havárie v Kyštymu z roku 1957 byla po desetiletí utajována — stejně jako ty pozdější."
+    "text": "Jaderná havárie v Kyštymu z roku 1957 byla po desetiletí utajována — stejně jako ty pozdější.",
+    "rel": [
+      1,
+      0,
+      1,
+      4,
+      2,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "beautiful",
-    "text": "Dynamo Kyjev zahájilo svou desítky let trvající éru sovětských fotbalových mistrů."
+    "text": "Dynamo Kyjev zahájilo svou desítky let trvající éru sovětských fotbalových mistrů.",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1950,
     "bucket": "beautiful",
-    "text": "Vynořil se ukrajinský básník Vasyl Symonenko a generace „šedesátníků“."
+    "text": "Vynořil se ukrajinský básník Vasyl Symonenko a generace „šedesátníků“.",
+    "rel": [
+      4,
+      1,
+      2,
+      3,
+      4,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "government",
-    "text": "Leonid Brežněv — narozený v Kamjanském na Ukrajině — se stal v roce 1964 sovětským vůdcem."
+    "text": "Leonid Brežněv — narozený v Kamjanském na Ukrajině — se stal v roce 1964 sovětským vůdcem.",
+    "rel": [
+      2,
+      1,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "government",
-    "text": "Zesílila politika rusifikace — ukrajinské školy přecházely na ruštinu."
+    "text": "Zesílila politika rusifikace — ukrajinské školy přecházely na ruštinu.",
+    "rel": [
+      4,
+      4,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "government",
-    "text": "První procesy s ukrajinskými disidenty z řad intelektuálů se konaly v letech 1965–66."
+    "text": "První procesy s ukrajinskými disidenty z řad intelektuálů se konaly v letech 1965–66.",
+    "rel": [
+      4,
+      1,
+      2,
+      3,
+      4,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "clothes",
-    "text": "Sovětské minisukně dorazily pozdě, až v roce 1968, a jen do měst."
+    "text": "Sovětské minisukně dorazily pozdě, až v roce 1968, a jen do měst.",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "clothes",
-    "text": "Chlapci nosili školní uniformu s mosaznými knoflíky a brigadýrku."
+    "text": "Chlapci nosili školní uniformu s mosaznými knoflíky a brigadýrku.",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      3,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "clothes",
-    "text": "Vyšívaná vyšyvanka zažila lidové oživení mezi mládeží „šedesátníků“."
+    "text": "Vyšívaná vyšyvanka zažila lidové oživení mezi mládeží „šedesátníků“.",
+    "rel": [
+      4,
+      1,
+      2,
+      3,
+      3,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "illnesses",
-    "text": "Sovětské zdravotnictví deklarovalo širokou dostupnost lékařské péče; lékaři brali kolem 70 rublů měsíčně."
+    "text": "Sovětské zdravotnictví deklarovalo širokou dostupnost lékařské péče; lékaři brali kolem 70 rublů měsíčně.",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "illnesses",
-    "text": "Kouření — papirosy Bělomorkanal — bylo všudypřítomné."
+    "text": "Kouření — papirosy Bělomorkanal — bylo všudypřítomné.",
+    "rel": [
+      4,
+      4,
+      5,
+      1,
+      4,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "illnesses",
-    "text": "Tuberkulóza konečně ustupovala; nemoci spojené s alkoholem přibývaly."
+    "text": "Tuberkulóza konečně ustupovala; nemoci spojené s alkoholem přibývaly.",
+    "rel": [
+      4,
+      3,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "dailyLife",
-    "text": "„Chruščovovo tání“ povolilo na deset let knihy v ukrajinštině — za Brežněva byly opět zakázány."
+    "text": "„Chruščovovo tání“ povolilo na deset let knihy v ukrajinštině — za Brežněva byly opět zakázány.",
+    "rel": [
+      4,
+      3,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "dailyLife",
-    "text": "Dněperská vodní elektrárna byla obnovena a Ukrajina vyráběla elektřinu pro polovinu SSSR."
+    "text": "Dněperská vodní elektrárna byla obnovena a Ukrajina vyráběla elektřinu pro polovinu SSSR.",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "dailyLife",
-    "text": "Pionýrské letní tábory v Karpatech a na Krymu."
+    "text": "Pionýrské letní tábory v Karpatech a na Krymu.",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      3,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "food",
-    "text": "Sovětské kuchařky propagovaly stejných pár tuctů jídel ve všech 15 republikách."
+    "text": "Sovětské kuchařky propagovaly stejných pár tuctů jídel ve všech 15 republikách.",
+    "rel": [
+      2,
+      3,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "food",
-    "text": "Uzeniny byly nedostatkové — Ukrajinci jezdili vlakem do Moskvy, aby je sehnali."
+    "text": "Uzeniny byly nedostatkové — Ukrajinci jezdili vlakem do Moskvy, aby je sehnali.",
+    "rel": [
+      4,
+      4,
+      4,
+      3,
+      3,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "food",
-    "text": "Krymská vína a sovětské šampaňské na zvláštní příležitosti."
+    "text": "Krymská vína a sovětské šampaňské na zvláštní příležitosti.",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      3,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "money",
-    "text": "Průměrný dělník vydělával kolem 120 rublů měsíčně."
+    "text": "Průměrný dělník vydělával kolem 120 rublů měsíčně.",
+    "rel": [
+      4,
+      4,
+      4,
+      2,
+      3,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "money",
-    "text": "Vůz „Volha“ GAZ-21 stál 5 500 rublů — pět let úspor."
+    "text": "Vůz „Volha“ GAZ-21 stál 5 500 rublů — pět let úspor.",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "money",
-    "text": "Byt přiděloval stát; nemohli jste ho koupit ani prodat."
+    "text": "Byt přiděloval stát; nemohli jste ho koupit ani prodat.",
+    "rel": [
+      4,
+      5,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "bizarre",
-    "text": "Antonov An-22, tehdy největší letadlo na světě, byl postaven v Kyjevě v roce 1965."
+    "text": "Antonov An-22, tehdy největší letadlo na světě, byl postaven v Kyjevě v roce 1965.",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "bizarre",
-    "text": "Ukrajinský disident Vjačeslav Čornovil sestavil první samizdatový „Ukrajinský věstník“."
+    "text": "Ukrajinský disident Vjačeslav Čornovil sestavil první samizdatový „Ukrajinský věstník“.",
+    "rel": [
+      4,
+      0,
+      1,
+      4,
+      4,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "beautiful",
-    "text": "Snímek Serhije Paradžanova „Stíny zapomenutých předků“ (1965) se stal milníkem světové kinematografie."
+    "text": "Snímek Serhije Paradžanova „Stíny zapomenutých předků“ (1965) se stal milníkem světové kinematografie.",
+    "rel": [
+      4,
+      1,
+      2,
+      3,
+      4,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1960,
     "bucket": "beautiful",
-    "text": "Borys Olijnyk a Lina Kostenková oživili ukrajinskou poezii."
+    "text": "Borys Olijnyk a Lina Kostenková oživili ukrajinskou poezii.",
+    "rel": [
+      4,
+      1,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "government",
-    "text": "Volodymyr Ščerbyckyj řídil Ukrajinskou SSR od roku 1972 — ryzí Brežněvův věrný."
+    "text": "Volodymyr Ščerbyckyj řídil Ukrajinskou SSR od roku 1972 — ryzí Brežněvův věrný.",
+    "rel": [
+      4,
+      2,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "government",
-    "text": "Ukrajinská helsinská skupina byla založena v roce 1976; její členové čelili věznění, vyhnanství a dalším represím."
+    "text": "Ukrajinská helsinská skupina byla založena v roce 1976; její členové čelili věznění, vyhnanství a dalším represím.",
+    "rel": [
+      4,
+      1,
+      1,
+      3,
+      4,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "government",
-    "text": "Rusifikace se prohlubovala; škol s výukou v ukrajinštině ubývalo."
+    "text": "Rusifikace se prohlubovala; škol s výukou v ukrajinštině ubývalo.",
+    "rel": [
+      4,
+      4,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "clothes",
-    "text": "Všechno z polyesteru, hnědá a oranžová, od poloviny desetiletí kalhoty do zvonu."
+    "text": "Všechno z polyesteru, hnědá a oranžová, od poloviny desetiletí kalhoty do zvonu.",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      1,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "clothes",
-    "text": "Tepláky Adidas, když jste je sehnali, byly symbolem statusu."
+    "text": "Tepláky Adidas, když jste je sehnali, byly symbolem statusu.",
+    "rel": [
+      4,
+      2,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "clothes",
-    "text": "Sovětské džíny (Tver) se snažily kopírovat Levi's a nikdy se jim to úplně nepodařilo."
+    "text": "Sovětské džíny (Tver) se snažily kopírovat Levi's a nikdy se jim to úplně nepodařilo.",
+    "rel": [
+      2,
+      1,
+      3,
+      3,
+      1,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "illnesses",
-    "text": "Alkoholismus byl národní zdravotní krizí — průměrná délka života mužů klesla."
+    "text": "Alkoholismus byl národní zdravotní krizí — průměrná délka života mužů klesla.",
+    "rel": [
+      4,
+      4,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "illnesses",
-    "text": "Průmyslové nehody v donbaských dolech tisk nikdy neuvedl."
+    "text": "Průmyslové nehody v donbaských dolech tisk nikdy neuvedl.",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "illnesses",
-    "text": "Sovětské zdravotnictví bylo zdarma, ale lékařům jste dávali spropitné koňakem a čokoládou."
+    "text": "Sovětské zdravotnictví bylo zdarma, ale lékařům jste dávali spropitné koňakem a čokoládou.",
+    "rel": [
+      4,
+      4,
+      5,
+      3,
+      4,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "dailyLife",
-    "text": "Dvoutýdenní letní dovolené v krymských sanatoriích, placené odbory."
+    "text": "Dvoutýdenní letní dovolené v krymských sanatoriích, placené odbory.",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "dailyLife",
-    "text": "Prázdné regály v obchodech; všechno dobré se sehnalo přes blat (známosti)."
+    "text": "Prázdné regály v obchodech; všechno dobré se sehnalo přes blat (známosti).",
+    "rel": [
+      4,
+      5,
+      5,
+      1,
+      4,
+      5
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "dailyLife",
-    "text": "Černý trh se západními džínami, deskami a knihami byl v Kyjevě a Oděse obrovský."
+    "text": "Černý trh se západními džínami, deskami a knihami byl v Kyjevě a Oděse obrovský.",
+    "rel": [
+      4,
+      3,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "food",
-    "text": "Sovětské obchody měly chleba, vodku a rybí konzervy; všeho ostatního byl nedostatek."
+    "text": "Sovětské obchody měly chleba, vodku a rybí konzervy; všeho ostatního byl nedostatek.",
+    "rel": [
+      4,
+      5,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "food",
-    "text": "Babušky vedly „družstevní“ hospodářství a přebytky prodávaly na kolchozním trhu."
+    "text": "Babušky vedly „družstevní“ hospodářství a přebytky prodávaly na kolchozním trhu.",
+    "rel": [
+      4,
+      4,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "food",
-    "text": "Káva byla luxusem; národním nápojem byl čaj s citronem."
+    "text": "Káva byla luxusem; národním nápojem byl čaj s citronem.",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "money",
-    "text": "Průměrná mzda byla v roce 1975 kolem 150 rublů měsíčně."
+    "text": "Průměrná mzda byla v roce 1975 kolem 150 rublů měsíčně.",
+    "rel": [
+      4,
+      4,
+      4,
+      2,
+      2,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "money",
-    "text": "Lada VAZ-2101 stála 5 500 rublů a měla šestiletou čekací dobu."
+    "text": "Lada VAZ-2101 stála 5 500 rublů a měla šestiletou čekací dobu.",
+    "rel": [
+      2,
+      2,
+      4,
+      3,
+      2,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "money",
-    "text": "Pár Levi's z černého trhu stál celý měsíční plat."
+    "text": "Pár Levi's z černého trhu stál celý měsíční plat.",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      2,
+      4
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "bizarre",
-    "text": "Antonov An-225 — největší letadlo, jaké kdy bylo postaveno — bylo v této době navrženo v Kyjevě (postaveno v roce 1988)."
+    "text": "Antonov An-225 — největší letadlo, jaké kdy bylo postaveno — bylo v této době navrženo v Kyjevě (postaveno v roce 1988).",
+    "rel": [
+      3,
+      0,
+      1,
+      3,
+      2,
+      2
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "bizarre",
-    "text": "Ukrajinští disidenti v gulagu psali básně na kostky mýdla."
+    "text": "Ukrajinští disidenti v gulagu psali básně na kostky mýdla.",
+    "rel": [
+      2,
+      0,
+      0,
+      4,
+      2,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "beautiful",
-    "text": "Dynamo Kyjev vyhrálo v roce 1975 Pohár vítězů pohárů — první sovětský klub, který získal evropskou trofej."
+    "text": "Dynamo Kyjev vyhrálo v roce 1975 Pohár vítězů pohárů — první sovětský klub, který získal evropskou trofej.",
+    "rel": [
+      4,
+      3,
+      5,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "UA",
     "decadeStart": 1970,
     "bucket": "beautiful",
-    "text": "Ukrajinská zpěvačka Sofija Rotaru se stala jednou z největších hvězd sovětského bloku."
+    "text": "Ukrajinská zpěvačka Sofija Rotaru se stala jednou z největších hvězd sovětského bloku.",
+    "rel": [
+      4,
+      2,
+      5,
+      1,
+      3,
+      3
+    ]
   }
 ]

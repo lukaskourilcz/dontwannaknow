@@ -2,221 +2,573 @@
   {
     "city": "plzen",
     "year": 1920,
-    "text": "pivovar Pilsner Urquell obnovil plnou mírovou výrobu a vývoz do Vídně a Mnichova"
+    "text": "pivovar Pilsner Urquell obnovil plnou mírovou výrobu a vývoz do Vídně a Mnichova",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "plzen",
     "year": 1922,
-    "text": "Škoda Auto v Mladé Boleslavi se sloučila do plzeňských Škodových závodů, ačkoli auta zůstala v Mladé Boleslavi"
+    "text": "Škoda Auto v Mladé Boleslavi se sloučila do plzeňských Škodových závodů, ačkoli auta zůstala v Mladé Boleslavi",
+    "rel": [
+      4,
+      1,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "plzen",
     "year": 1923,
-    "text": "Velká synagoga, dokončená v roce 1893, už byla známá jako druhá největší v Evropě a sobotní dominanta plzeňského života"
+    "text": "Velká synagoga, dokončená v roce 1893, už byla známá jako druhá největší v Evropě a sobotní dominanta plzeňského života",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "plzen",
     "year": 1925,
-    "text": "plzeňský trolejbusový pokus z roku 1916 byl nahrazen tramvajemi; síť byla prodloužena do Doubravky"
+    "text": "plzeňský trolejbusový pokus z roku 1916 byl nahrazen tramvajemi; síť byla prodloužena do Doubravky",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "plzen",
     "year": 1928,
-    "text": "Škodovy závody zaměstnávaly přes 30 000 dělníků — zbrojní výroba, lokomotivy a strojírenství"
+    "text": "Škodovy závody zaměstnávaly přes 30 000 dělníků — zbrojní výroba, lokomotivy a strojírenství",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "plzen",
     "year": 1933,
-    "text": "fotbalový klub SK Plzeň se sloučil do Viktorie Plzeň, která hrála na hřišti Štruncovy sady u Radbuzy"
+    "text": "fotbalový klub SK Plzeň se sloučil do Viktorie Plzeň, která hrála na hřišti Štruncovy sady u Radbuzy",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "plzen",
     "year": 1938,
-    "text": "romány Karla Klostermanna ze šumavských lesů se po celé Plzni četly, jak sudetoněmečtí sousedé odcházeli do říše"
+    "text": "romány Karla Klostermanna ze šumavských lesů se po celé Plzni četly, jak sudetoněmečtí sousedé odcházeli do říše",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "plzen",
     "year": 1939,
-    "text": "nacistické Německo zabavilo Škodovy závody pro válečnou mašinérii wehrmachtu"
+    "text": "nacistické Německo zabavilo Škodovy závody pro válečnou mašinérii wehrmachtu",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "plzen",
     "year": 1941,
-    "text": "plzeňští Židé byli v lednu deportováni ve třech transportech do Terezína, synagoga byla zamčena a vyprázdněna"
+    "text": "plzeňští Židé byli v lednu deportováni ve třech transportech do Terezína, synagoga byla zamčena a vyprázdněna",
+    "rel": [
+      5,
+      4,
+      2,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "plzen",
     "year": 1942,
-    "text": "RAF provedla masivní noční nálet na Škodovy závody"
+    "text": "RAF provedla masivní noční nálet na Škodovy závody",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "plzen",
     "year": 1944,
-    "text": "letouny Mosquito RAF zasáhly Škodovy závody v noci při následných náletech v dubnu a květnu"
+    "text": "letouny Mosquito RAF zasáhly Škodovy závody v noci při následných náletech v dubnu a květnu",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "plzen",
     "year": 1945,
-    "text": "Plzeň byla 6. května osvobozena 3. armádou generála Pattona — jediné velké české město osvobozené Američany"
+    "text": "Plzeň byla 6. května osvobozena 3. armádou generála Pattona — jediné velké české město osvobozené Američany",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "city": "plzen",
     "year": 1945,
-    "text": "americká 16. obrněná divize vjela ráno 6. května do Plzně za scén jásotu a házela z džípů čokoládu"
+    "text": "americká 16. obrněná divize vjela ráno 6. května do Plzně za scén jásotu a házela z džípů čokoládu",
+    "rel": [
+      5,
+      4,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "plzen",
     "year": 1946,
-    "text": "Plzeň zvolila radu vedenou sociálními demokraty, jedno z mála velkých českých měst, kde komunisté nevyhráli volby"
+    "text": "Plzeň zvolila radu vedenou sociálními demokraty, jedno z mála velkých českých měst, kde komunisté nevyhráli volby",
+    "rel": [
+      5,
+      2,
+      2,
+      4,
+      2,
+      4
+    ]
   },
   {
     "city": "plzen",
     "year": 1953,
-    "text": "1. června vypuklo plzeňské povstání; tisíce dělníků Škodovky protestovaly proti měnové reformě"
+    "text": "1. června vypuklo plzeňské povstání; tisíce dělníků Škodovky protestovaly proti měnové reformě",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      4,
+      5
+    ]
   },
   {
     "city": "plzen",
     "year": 1953,
-    "text": "dělníci Škodovky 1. června rozbili komunistické kanceláře, házeli z oken busty Stalina a byli rozehnáni armádou a milicí"
+    "text": "dělníci Škodovky 1. června rozbili komunistické kanceláře, házeli z oken busty Stalina a byli rozehnáni armádou a milicí",
+    "rel": [
+      5,
+      4,
+      4,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "plzen",
     "year": 1962,
-    "text": "nákladní vozy Škoda 706 sjíždějící z linky v Plzni byly stálicí na každé silnici od Aše po Košice"
+    "text": "nákladní vozy Škoda 706 sjíždějící z linky v Plzni byly stálicí na každé silnici od Aše po Košice",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "plzen",
     "year": 1968,
-    "text": "sovětské jednotky obsadily 21. srpna Škodovy závody, ale byly přivítány celoměstskou generální stávkou"
+    "text": "sovětské jednotky obsadily 21. srpna Škodovy závody, ale byly přivítány celoměstskou generální stávkou",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      3,
+      4
+    ]
   },
   {
     "city": "plzen",
     "year": 1971,
-    "text": "sídliště Plzeň-Doubravka se blížilo dokončení jako jedno z největších panelových sídlišť v západních Čechách"
+    "text": "sídliště Plzeň-Doubravka se blížilo dokončení jako jedno z největších panelových sídlišť v západních Čechách",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "plzen",
     "year": 1973,
-    "text": "Pilsner Urquell oslavil 130 let od uvaření první várky spodně kvašeného ležáku v roce 1842"
+    "text": "Pilsner Urquell oslavil 130 let od uvaření první várky spodně kvašeného ležáku v roce 1842",
+    "rel": [
+      5,
+      1,
+      3,
+      1,
+      0,
+      1
+    ]
   },
   {
     "city": "plzen",
     "year": 1975,
-    "text": "plzeňská zoo na Lochotíně, založená v roce 1926, otevřela svůj nový medvědinec a rozšířila africkou sekci"
+    "text": "plzeňská zoo na Lochotíně, založená v roce 1926, otevřela svůj nový medvědinec a rozšířila africkou sekci",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "plzen",
     "year": 1978,
-    "text": "sportovní hala V Lochotíně hostila házenkářské a basketbalové reprezentační zápasy, jelikož basketbalová Škoda Plzeň byla národní velmocí"
+    "text": "sportovní hala V Lochotíně hostila házenkářské a basketbalové reprezentační zápasy, jelikož basketbalová Škoda Plzeň byla národní velmocí",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "plzen",
     "year": 1980,
-    "text": "nové autobusové nádraží CAN na Husově ulici se otevřelo, aby zvládlo dopravu z celých západních Čech"
+    "text": "nové autobusové nádraží CAN na Husově ulici se otevřelo, aby zvládlo dopravu z celých západních Čech",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "plzen",
     "year": 1940,
-    "text": "Škodovy závody pod německou správou vyráběly pro wehrmacht děla, tanky a munici a patřily k hlavním zbrojním centrům třetí říše"
+    "text": "Škodovy závody pod německou správou vyráběly pro wehrmacht děla, tanky a munici a patřily k hlavním zbrojním centrům třetí říše",
+    "rel": [
+      5,
+      4,
+      3,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "plzen",
     "year": 1943,
-    "text": "spojenecké nálety na Škodovy závody zesílily a obyvatelé Plzně začali pravidelně vyhledávat protiletecké kryty"
+    "text": "spojenecké nálety na Škodovy závody zesílily a obyvatelé Plzně začali pravidelně vyhledávat protiletecké kryty",
+    "rel": [
+      5,
+      5,
+      3,
+      2,
+      2,
+      4
+    ]
   },
   {
     "city": "plzen",
     "year": 1945,
-    "text": "25. dubna provedla americká 8. letecká armáda poslední velký nálet těžkých bombardérů v Evropě a zničila kolem 70 procent Škodových závodů"
+    "text": "25. dubna provedla americká 8. letecká armáda poslední velký nálet těžkých bombardérů v Evropě a zničila kolem 70 procent Škodových závodů",
+    "rel": [
+      5,
+      5,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "plzen",
     "year": 1945,
-    "text": "při dubnových náletech zahynuly v Plzni stovky lidí jen pár dní předtím, než do města dorazili Američané"
+    "text": "při dubnových náletech zahynuly v Plzni stovky lidí jen pár dní předtím, než do města dorazili Američané",
+    "rel": [
+      5,
+      5,
+      3,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "plzen",
     "year": 1951,
-    "text": "21. prosince byly znárodněné Škodovy závody přejmenovány na Závody V. I. Lenina, zkráceně ZVIL"
+    "text": "21. prosince byly znárodněné Škodovy závody přejmenovány na Závody V. I. Lenina, zkráceně ZVIL",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "plzen",
     "year": 1953,
-    "text": "po potlačení červnového povstání následovaly zatýkání, vykonstruované procesy a tresty pro dělníky Škodovky"
+    "text": "po potlačení červnového povstání následovaly zatýkání, vykonstruované procesy a tresty pro dělníky Škodovky",
+    "rel": [
+      5,
+      4,
+      2,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "plzen",
     "year": 1982,
-    "text": "Škoda Plzeň dodávala lokomotivy a trolejbusy do celého východního bloku i do Sovětského svazu"
+    "text": "Škoda Plzeň dodávala lokomotivy a trolejbusy do celého východního bloku i do Sovětského svazu",
+    "rel": [
+      5,
+      2,
+      3,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "plzen",
     "year": 1990,
-    "text": "Plzeň poprvé po desetiletích slavila 6. května osvobození americkou armádou veřejně a za účasti amerických veteránů"
+    "text": "Plzeň poprvé po desetiletích slavila 6. května osvobození americkou armádou veřejně a za účasti amerických veteránů",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "plzen",
     "year": 1991,
-    "text": "v Plzni vznikla Západočeská univerzita sloučením vysoké školy strojní a pedagogické fakulty"
+    "text": "v Plzni vznikla Západočeská univerzita sloučením vysoké školy strojní a pedagogické fakulty",
+    "rel": [
+      5,
+      2,
+      3,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "plzen",
     "year": 1994,
-    "text": "1. září vznikl Plzeňský Prazdroj jako akciová společnost, na konci 90. let ovládnutá koncernem SABMiller"
+    "text": "1. září vznikl Plzeňský Prazdroj jako akciová společnost, na konci 90. let ovládnutá koncernem SABMiller",
+    "rel": [
+      5,
+      2,
+      2,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "plzen",
     "year": 1998,
-    "text": "koncern Škoda se po finančních potížích rozpadl na samostatné firmy a tisíce lidí přišly o práci"
+    "text": "koncern Škoda se po finančních potížích rozpadl na samostatné firmy a tisíce lidí přišly o práci",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "plzen",
     "year": 2005,
-    "text": "k 60. výročí osvobození byl otevřen Patton Memorial Pilsen, jediné české muzeum věnované americké armádě"
+    "text": "k 60. výročí osvobození byl otevřen Patton Memorial Pilsen, jediné české muzeum věnované americké armádě",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "plzen",
     "year": 2008,
-    "text": "Techmania Science Center otevřela v bývalých halách Škodovky první expozice popularizující vědu a techniku"
+    "text": "Techmania Science Center otevřela v bývalých halách Škodovky první expozice popularizující vědu a techniku",
+    "rel": [
+      5,
+      1,
+      3,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "plzen",
     "year": 2011,
-    "text": "FC Viktoria Plzeň získala pod trenérem Pavlem Vrbou vůbec první ligový titul ve své historii a otevřela přestavěnou Doosan Arenu"
+    "text": "FC Viktoria Plzeň získala pod trenérem Pavlem Vrbou vůbec první ligový titul ve své historii a otevřela přestavěnou Doosan Arenu",
+    "rel": [
+      5,
+      3,
+      4,
+      0,
+      3,
+      3
+    ]
   },
   {
     "city": "plzen",
     "year": 2011,
-    "text": "na podzim nastoupila Viktoria poprvé do skupinové fáze Ligy mistrů"
+    "text": "na podzim nastoupila Viktoria poprvé do skupinové fáze Ligy mistrů",
+    "rel": [
+      5,
+      2,
+      4,
+      0,
+      2,
+      2
+    ]
   },
   {
     "city": "plzen",
     "year": 2013,
-    "text": "Viktoria Plzeň získala druhý ligový titul a stala se stálicí domácí špičky"
+    "text": "Viktoria Plzeň získala druhý ligový titul a stala se stálicí domácí špičky",
+    "rel": [
+      5,
+      2,
+      3,
+      0,
+      3,
+      1
+    ]
   },
   {
     "city": "plzen",
     "year": 2013,
-    "text": "4. listopadu otevřela Techmania nové 3D planetárium, první svého druhu v Česku"
+    "text": "4. listopadu otevřela Techmania nové 3D planetárium, první svého druhu v Česku",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "plzen",
     "year": 2015,
-    "text": "Plzeň byla po celý rok Evropským hlavním městem kultury a uspořádala přes šest set akcí, mimo jiné v areálu DEPO2015"
+    "text": "Plzeň byla po celý rok Evropským hlavním městem kultury a uspořádala přes šest set akcí, mimo jiné v areálu DEPO2015",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "plzen",
     "year": 2015,
-    "text": "Viktoria Plzeň získala třetí ligový titul a o rok později jej obhájila"
+    "text": "Viktoria Plzeň získala třetí ligový titul a o rok později jej obhájila",
+    "rel": [
+      5,
+      2,
+      3,
+      0,
+      2,
+      1
+    ]
   },
   {
     "city": "plzen",
     "year": 2018,
-    "text": "Viktoria Plzeň vybojovala další mistrovský titul a znovu se probojovala do skupiny Ligy mistrů"
+    "text": "Viktoria Plzeň vybojovala další mistrovský titul a znovu se probojovala do skupiny Ligy mistrů",
+    "rel": [
+      5,
+      2,
+      3,
+      0,
+      2,
+      1
+    ]
   },
   {
     "city": "plzen",
     "year": 2022,
-    "text": "Viktoria Plzeň získala šestý ligový titul a opět postoupila do skupinové fáze Ligy mistrů"
+    "text": "Viktoria Plzeň získala šestý ligový titul a opět postoupila do skupinové fáze Ligy mistrů",
+    "rel": [
+      5,
+      2,
+      3,
+      0,
+      2,
+      1
+    ]
   }
 ]

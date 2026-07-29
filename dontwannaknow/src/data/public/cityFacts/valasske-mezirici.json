@@ -2,76 +2,196 @@
   {
     "city": "valasske-mezirici",
     "year": 1968,
-    "text": "závod Tesla VM vyráběl žárovky a elektroniku — významný zaměstnavatel valašského regionu"
+    "text": "závod Tesla VM vyráběl žárovky a elektroniku — významný zaměstnavatel valašského regionu",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "valasske-mezirici",
     "year": 1923,
-    "text": "Cíglerova sklárna v nedalekých Valašských Kloboukách získala na pařížském Expu ocenění za český křišťál"
+    "text": "Cíglerova sklárna v nedalekých Valašských Kloboukách získala na pařížském Expu ocenění za český křišťál",
+    "rel": [
+      3,
+      1,
+      1,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "valasske-mezirici",
     "year": 1939,
-    "text": "valašské vesnice kolem města ukrývaly české vojáky ustupující před německou okupací"
+    "text": "valašské vesnice kolem města ukrývaly české vojáky ustupující před německou okupací",
+    "rel": [
+      4,
+      2,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "valasske-mezirici",
     "year": 1944,
-    "text": "nacistické protipartyzánské zátahy ve vsetínských kopcích vypálily několik okolních vesnic"
+    "text": "nacistické protipartyzánské zátahy ve vsetínských kopcích vypálily několik okolních vesnic",
+    "rel": [
+      4,
+      4,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "valasske-mezirici",
     "year": 1945,
-    "text": "Rudá armáda osvobodila město počátkem května po bojích kolem přechodů přes řeku Bečvu"
+    "text": "Rudá armáda osvobodila město počátkem května po bojích kolem přechodů přes řeku Bečvu",
+    "rel": [
+      5,
+      5,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "valasske-mezirici",
     "year": 1958,
-    "text": "otevřela se výrobní linka tranzistorů Tesly VM — první takové československé zařízení mimo Prahu"
+    "text": "otevřela se výrobní linka tranzistorů Tesly VM — první takové československé zařízení mimo Prahu",
+    "rel": [
+      5,
+      3,
+      4,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "valasske-mezirici",
     "year": 1972,
-    "text": "Valašské muzeum v přírodě (skanzen) v nedalekém Rožnově přitahovalo přes milion návštěvníků"
+    "text": "Valašské muzeum v přírodě (skanzen) v nedalekém Rožnově přitahovalo přes milion návštěvníků",
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      2,
+      3
+    ]
   },
   {
     "city": "valasske-mezirici",
     "year": 1955,
-    "text": "1. října byla otevřena hvězdárna Valašské Meziříčí podle návrhu architekta Zdeňka Plesníka, navázala na meziválečnou tradici pozorování Slunce"
+    "text": "1. října byla otevřena hvězdárna Valašské Meziříčí podle návrhu architekta Zdeňka Plesníka, navázala na meziválečnou tradici pozorování Slunce",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "valasske-mezirici",
     "year": 1960,
-    "text": "21. ledna rozhodla československá vláda o stavbě nového dehtochemického závodu ve Valašském Meziříčí, základu pozdější Dezy"
+    "text": "21. ledna rozhodla československá vláda o stavbě nového dehtochemického závodu ve Valašském Meziříčí, základu pozdější Dezy",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      5,
+      2
+    ]
   },
   {
     "city": "valasske-mezirici",
     "year": 1968,
-    "text": "spuštěním primární destilace dehtu ve Valašském Meziříčí skončilo zpracování dehtu v Ostravě, o rok dříve sem přesídlilo ředitelství podniku"
+    "text": "spuštěním primární destilace dehtu ve Valašském Meziříčí skončilo zpracování dehtu v Ostravě, o rok dříve sem přesídlilo ředitelství podniku",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "valasske-mezirici",
     "year": 1991,
-    "text": "Deza založila se společností Cabot společný podnik CS Cabot na výrobu sazí, dvě nové výrobní linky najely v roce 1994"
+    "text": "Deza založila se společností Cabot společný podnik CS Cabot na výrobu sazí, dvě nové výrobní linky najely v roce 1994",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "valasske-mezirici",
     "year": 1992,
-    "text": "po privatizaci vznikla Moravská gobelínová manufaktura, pokračovatelka dílny založené Rudolfem Schlattauerem roku 1898"
+    "text": "po privatizaci vznikla Moravská gobelínová manufaktura, pokračovatelka dílny založené Rudolfem Schlattauerem roku 1898",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "valasske-mezirici",
     "year": 2003,
-    "text": "vyhasla poslední sklářská pec v Krásně nad Bečvou, sklárny osvětlovacího skla ukončily 148 let trvající výrobu"
+    "text": "vyhasla poslední sklářská pec v Krásně nad Bečvou, sklárny osvětlovacího skla ukončily 148 let trvající výrobu",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "valasske-mezirici",
     "year": 2020,
-    "text": "20. září otrávil kyanid řeku Bečvu od Valašského Meziříčí, jed unikající kanálem v Juřince usmrtil přes dvacet tun ryb na desítkách kilometrů toku"
+    "text": "20. září otrávil kyanid řeku Bečvu od Valašského Meziříčí, jed unikající kanálem v Juřince usmrtil přes dvacet tun ryb na desítkách kilometrů toku",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "valasske-mezirici",
     "year": 2024,
-    "text": "olomoucký krajský soud pravomocně zprostil obžaloby ředitele firmy Energoaqua v kauze otravy Bečvy, viník havárie potrestán nebyl"
+    "text": "olomoucký krajský soud pravomocně zprostil obžaloby ředitele firmy Energoaqua v kauze otravy Bečvy, viník havárie potrestán nebyl",
+    "rel": [
+      4,
+      1,
+      4,
+      2,
+      2,
+      3
+    ]
   }
 ]

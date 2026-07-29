@@ -2,71 +2,183 @@
   {
     "city": "krnov",
     "year": 1945,
-    "text": "bitva o Krnov v květnu byla posledním bojem v českých zemích, jak se Rudá armáda probíjela Slezskem"
+    "text": "bitva o Krnov v květnu byla posledním bojem v českých zemích, jak se Rudá armáda probíjela Slezskem",
+    "rel": [
+      5,
+      5,
+      3,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "krnov",
     "year": 1968,
-    "text": "textilky Karnola zaměstnávaly tisíce žen po celém městě"
+    "text": "textilky Karnola zaměstnávaly tisíce žen po celém městě",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "krnov",
     "year": 1938,
-    "text": "připojeno nacistickým Německem jako součást Říšské župy Sudety"
+    "text": "připojeno nacistickým Německem jako součást Říšské župy Sudety",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "krnov",
     "year": 1946,
-    "text": "etnické německé obyvatelstvo bylo vyhnáno; město bylo znovuosídleno českými osídlenci z vnitrozemí"
+    "text": "etnické německé obyvatelstvo bylo vyhnáno; město bylo znovuosídleno českými osídlenci z vnitrozemí",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "city": "krnov",
     "year": 1958,
-    "text": "varhanářská dílna Rieger Kloss v Krnově začala vyvážet koncertní píšťalové varhany do celé Evropy a Ameriky"
+    "text": "varhanářská dílna Rieger Kloss v Krnově začala vyvážet koncertní píšťalové varhany do celé Evropy a Ameriky",
+    "rel": [
+      5,
+      1,
+      4,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "krnov",
     "year": 1975,
-    "text": "Karnola vyráběla látku pro československé vojenské uniformy"
+    "text": "Karnola vyráběla látku pro československé vojenské uniformy",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "krnov",
     "year": 1946,
-    "text": "po vysídlení německého obyvatelstva ztratil Krnov většinu předválečných obyvatel a byl dosídlen Čechy z vnitrozemí"
+    "text": "po vysídlení německého obyvatelstva ztratil Krnov většinu předválečných obyvatel a byl dosídlen Čechy z vnitrozemí",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      5
+    ]
   },
   {
     "city": "krnov",
     "year": 1960,
-    "text": "varhanářská firma v Krnově patřila pod značkou Rieger-Kloss k předním světovým výrobcům a vývozcům píšťalových varhan"
+    "text": "varhanářská firma v Krnově patřila pod značkou Rieger-Kloss k předním světovým výrobcům a vývozcům píšťalových varhan",
+    "rel": [
+      5,
+      2,
+      4,
+      4,
+      4,
+      3
+    ]
   },
   {
     "city": "krnov",
     "year": 1970,
-    "text": "krnovské varhany mířily do koncertních síní a kostelů po celém světě, mimo jiné do USA, Číny a Koreje"
+    "text": "krnovské varhany mířily do koncertních síní a kostelů po celém světě, mimo jiné do USA, Číny a Koreje",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      3,
+      2
+    ]
   },
   {
     "city": "krnov",
     "year": 1985,
-    "text": "textilka Karnola zaměstnávala tisíce lidí a spolu s varhanářstvím tvořila páteř krnovského průmyslu"
+    "text": "textilka Karnola zaměstnávala tisíce lidí a spolu s varhanářstvím tvořila páteř krnovského průmyslu",
+    "rel": [
+      5,
+      3,
+      5,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "krnov",
     "year": 1997,
-    "text": "v červenci zaplavila řeka Opava téměř celé město; povodeň na čtyři týdny zastavila i výrobu varhan a způsobila obrovské škody"
+    "text": "v červenci zaplavila řeka Opava téměř celé město; povodeň na čtyři týdny zastavila i výrobu varhan a způsobila obrovské škody",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "krnov",
     "year": 2015,
-    "text": "po více než století skončila v Krnově sériová výroba varhan značky Rieger-Kloss"
+    "text": "po více než století skončila v Krnově sériová výroba varhan značky Rieger-Kloss",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "krnov",
     "year": 2024,
-    "text": "14. a 15. září zaplavila řeka Opava zhruba 80 procent Krnova; hladina překonala katastrofu roku 1997 zhruba o půldruhého metru"
+    "text": "14. a 15. září zaplavila řeka Opava zhruba 80 procent Krnova; hladina překonala katastrofu roku 1997 zhruba o půldruhého metru",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "krnov",
     "year": 2025,
-    "text": "předběžné škody jen na majetku města po povodni přesáhly miliardu korun a obnova Krnova se protáhla na roky"
+    "text": "předběžné škody jen na majetku města po povodni přesáhly miliardu korun a obnova Krnova se protáhla na roky",
+    "rel": [
+      5,
+      4,
+      5,
+      2,
+      4,
+      3
+    ]
   }
 ]

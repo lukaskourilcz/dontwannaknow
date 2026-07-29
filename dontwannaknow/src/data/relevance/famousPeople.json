@@ -1,0 +1,1413 @@
+{
+ "promptVersion": "relevance-v1",
+ "model": "claude-fable-5",
+ "scoredAt": "2026-07-29",
+ "passes": {
+  "A": [
+   "livedProximity",
+   "everydayConsequence",
+   "consequenceHorizon"
+  ],
+  "B": [
+   "recognition",
+   "discovery"
+  ],
+  "C": [
+   "explanatoryPayload"
+  ]
+ },
+ "records": [
+  {
+   "key": "CZ|1920|Alfons Mucha",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Mucha a Epopej byly viditelné veřejnosti, ale bez dopadu na rutinu.",
+    "B": "Mucha byl proslulý; práci na Epopeji sledoval tisk, dnes obecně známé.",
+    "C": "Mucha a Slovanská epopej nesou kus dobové kultury."
+   }
+  },
+  {
+   "key": "CZ|1920|Franz Kafka",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Kafkův posmrtný Proces tehdy běžný den nezměnil; význam vyrostl později.",
+    "B": "Kafku tehdy znal jen úzký pražský okruh; dnes je jeho pražství známé, posmrtné vydání zná zájemce.",
+    "C": "Pražský rodák světového významu; dobově méně známý, přesto kus příběhu."
+   }
+  },
+  {
+   "key": "CZ|1920|Jaroslav Hašek",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 0,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Švejk se stal masově čteným; každodennost měnil jen jako četba.",
+    "B": "Švejk byl okamžitý fenomén; Hašek je školní učivo.",
+    "C": "Švejk jako dobový fenomén, kus příběhu doby."
+   }
+  },
+  {
+   "key": "CZ|1920|Karel Čapek",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Čapek a R.U.R. byly kulturní událostí čtenářské vrstvy; slovo robot přetrvalo.",
+    "B": "Čapek byl slavný už za života; slovo robot z R.U.R. je školní učivo.",
+    "C": "Čapek a zrod slova robot spojují českou kulturu se světem."
+   }
+  },
+  {
+   "key": "CZ|1920|Leoš Janáček",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Janáčkovy premiéry oslovily hudební publikum, ne každodennost většiny.",
+    "B": "Janáčka znala kulturní veřejnost; datace premiér do 20. let zná spíš zájemce.",
+    "C": "Premiéry Janáčkových oper — kus kulturního příběhu desetiletí."
+   }
+  },
+  {
+   "key": "CZ|1920|Tomáš Baťa",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Baťa měnil práci, boty a město Zlín; celostátně známý, trvalé stopy.",
+    "B": "Baťa byl pojem pro celou zemi; jeho říše je obecně známá.",
+    "C": "Baťa vysvětluje mechanismus prvorepublikového průmyslu a Zlína."
+   }
+  },
+  {
+   "key": "CZ|1920|Tomáš Garrigue Masaryk",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Masaryk jako prezident rámoval veřejný život první republiky trvale.",
+    "B": "Masaryk byl všudypřítomný „tatíček“; školní učivo.",
+    "C": "Masaryk vysvětluje, kdo a jak utvářel první republiku."
+   }
+  },
+  {
+   "key": "CZ|1930|Adina Mandlová",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Filmová hvězda, kterou lidé znali z kin; rutinu neměnila.",
+    "B": "Mandlovou znal každý návštěvník biografu; dnes ji zná spíš zájemce o film.",
+    "C": "Jméno herečky bez příběhu či širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1930|Bohuslav Martinů",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Martinů tvořil v pařížském exilu; doma vnímán úzkým hudebním publikem.",
+    "B": "Martinů v pařížském exilu znala hudební menšina; zná poučený zájemce.",
+    "C": "Stručná zmínka o exilu bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1930|Edvard Beneš",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Beneš jako prezident v krizových letech ovlivňoval osud celé země.",
+    "B": "Beneš jako prezident od 1935 — všudypřítomný; školní učivo.",
+    "C": "Beneš vysvětluje politický přelom a exilovou kontinuitu státu."
+   }
+  },
+  {
+   "key": "CZ|1930|Jan Werich & Jiří Voskovec",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Osvobozené divadlo bylo pražským fenoménem s celostátním ohlasem písní.",
+    "B": "Osvobozené divadlo bylo masový fenomén; V+W jsou obecně známí.",
+    "C": "Osvobozené divadlo vysvětluje, jak humor a satira formovaly veřejný život."
+   }
+  },
+  {
+   "key": "CZ|1930|Jaromír Funke",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 1,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Avantgardní fotografie oslovila úzkou uměleckou scénu.",
+    "B": "Avantgardní fotografii znal úzký okruh; Funke běžného čtenáře překvapí.",
+    "C": "Dílčí zmínka o avantgardní fotografii bez kontextu."
+   }
+  },
+  {
+   "key": "CZ|1930|Karel Čapek",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Válka s mloky rezonovala u čtenářů; dobová satira s trvalejší hodnotou.",
+    "B": "Čapek byl národní autor; Válku s mloky zná většina čtenářů.",
+    "C": "Válka s mloky ukazuje, jak kultura reagovala na nástup fašismu."
+   }
+  },
+  {
+   "key": "CZ|1930|Lída Baarová",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Baarová byla masově známá tvář kin; skandál rezonoval léta.",
+    "B": "Baarová byla hvězda plátna; aféra s Goebbelsem je poměrně známá, detail spíš pro zájemce.",
+    "C": "Baarová spojuje český film s temnou politikou doby."
+   }
+  },
+  {
+   "key": "CZ|1940|Jan Patočka",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 3,
+    "recognition": 1,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Patočka byl ve 40. letech znám akademicky; širší význam přišel později.",
+    "B": "Patočku ve 40. letech znal jen akademický okruh; zná poučený zájemce.",
+    "C": "Zmínka s pozdějším významem, pro 40. léta málo kontextu."
+   }
+  },
+  {
+   "key": "CZ|1940|Jiří Trnka",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Trnkův loutkový film formoval dětskou kulturu, ale rutinu neměnil.",
+    "B": "Trnkovy loutkové filmy znala značná část rodin; jeho jméno zná většina čtenářů.",
+    "C": "Popis role bez příběhu či dobové souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1940|Klement Gottwald",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Gottwaldův převrat 1948 změnil majetek, práci i to, co lidé směli říkat.",
+    "B": "Gottwald a únor 1948 — všudypřítomný; školní učivo.",
+    "C": "Gottwald a únor 1948 vysvětlují zlom, který změnil všechny životy."
+   }
+  },
+  {
+   "key": "CZ|1940|Rafael Kubelík",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Pražské jaro 1946 založilo trvalou instituci, ale pro kulturní publikum.",
+    "B": "Pražské jaro 1946 sledovala kulturní veřejnost; Kubelíka zná většina čtenářů.",
+    "C": "Založení Pražského jara — kus poválečného kulturního obnovení."
+   }
+  },
+  {
+   "key": "CZ|1940|Reinhard Heydrich",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Heydrichiáda přinesla teror, stanné právo a strach do většiny domácností trvale.",
+    "B": "Heydrich a heydrichiáda zasáhly každého v protektorátu; školní učivo.",
+    "C": "Atentát na Heydricha je klíčový moment okupace a jejích důsledků."
+   }
+  },
+  {
+   "key": "CZ|1940|Rudolf Slánský",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Slánského proces šířil strach; přímý dopad na rutinu měl u části společnosti.",
+    "B": "Proces se Slánským byl masově propagandisticky šířen; dnes známý většině čtenářů.",
+    "C": "Proces se Slánským vysvětluje mechanismus stalinského teroru."
+   }
+  },
+  {
+   "key": "CZ|1940|Vladimír Holan",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 1,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Holan psal v ústraní pro úzký okruh čtenářů.",
+    "B": "Holan žil v ústraní; jeho poezii znal a zná spíš poučený čtenář.",
+    "C": "Jméno a charakteristika bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1950|Bohumil Hrabal",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Hrabal oslovil čtenáře; uvedené tituly navíc vyšly až v 60. letech.",
+    "B": "Hrabal v 50. letech publikovat nesměl, uvedené tituly vyšly až v 60. letech; zařazení do 50. let překvapí a je nepřesné.",
+    "C": "Hrabalova díla nesou kulturní příběh; datace míří spíš do 60. let."
+   }
+  },
+  {
+   "key": "CZ|1950|Emil Zátopek",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Zátopkova zlata z Helsinek sledovala celá země; sdílená hrdost s dlouhou pamětí.",
+    "B": "Zátopkova trojnásobná zlatá Helsinky 1952 — národní událost; školní učivo.",
+    "C": "Zátopkova trojnásobná zlatá — sdílený národní moment, který éru definoval."
+   }
+  },
+  {
+   "key": "CZ|1950|Jaroslav Seifert",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Seifert byl čtený básník, bez dopadu na každodennost většiny.",
+    "B": "Seiferta znala čtenářská veřejnost; jeho publikování v 50. letech zná spíš zájemce.",
+    "C": "Zmínka o publikování bez dobového příběhu."
+   }
+  },
+  {
+   "key": "CZ|1950|Jiří Trnka",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Trnkova cena v Cannes byla kulturní zprávou, ne změnou dne.",
+    "B": "Trnkovy filmy znaly rodiny s dětmi; ocenění v Cannes zná spíš zájemce o film.",
+    "C": "Mezinárodní úspěch loutkového filmu — kus kulturní hrdosti."
+   }
+  },
+  {
+   "key": "CZ|1950|Otto Wichterle",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Wichterleho vynález tehdy běžný den nezměnil; dosah přišel později.",
+    "B": "Wichterleho tehdy znala odborná veřejnost; čočky dnes zná poučený zájemce, širší sláva až později.",
+    "C": "Wichterleho vynález nese kus příběhu české vědy."
+   }
+  },
+  {
+   "key": "CZ|1950|Vlasta Burian",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Burian byl masově známý komik z kin a rozhlasu; rutinu neměnil.",
+    "B": "Buriana znal každý; jeho poválečné perzekuce jsou méně známé, samotné jméno obecně známé.",
+    "C": "Obecná charakteristika komika bez příběhu doby."
+   }
+  },
+  {
+   "key": "CZ|1960|Alexander Dubček",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Pražské jaro změnilo, co lidé směli říkat; jeho konec formoval dvě dekády.",
+    "B": "Dubček a Pražské jaro jsou univerzální zkušenost generace i učivo.",
+    "C": "Dubček a Pražské jaro otevírají pochopení celé dekády."
+   }
+  },
+  {
+   "key": "CZ|1960|Jiří Menzel",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Národní kulturní událost; Oscar posílil novou vlnu, běžný den změnil jen mírně.",
+    "B": "Oscar za Ostře sledované vlaky je celonárodně sdílená vzpomínka i školní znalost.",
+    "C": "Oscar pro novou vlnu ukazuje kulturní uvolnění 60. let."
+   }
+  },
+  {
+   "key": "CZ|1960|Karel Gott",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Start kariéry, která desítky let určovala populární hudbu v zemi.",
+    "B": "Gott všudypřítomný; přesný rok prvního Slavíka 1962 překvapí méně čtenářů.",
+    "C": "Zlatý slavík ukazuje masovou popkulturu doby, bez hlubšího mechanismu."
+   }
+  },
+  {
+   "key": "CZ|1960|Marta Kubišová",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Píseň zněla celostátně a stala se trvalým symbolem roku 1968.",
+    "B": "Modlitba pro Martu je hymnická sdílená vzpomínka roku 1968.",
+    "C": "Modlitba pro Martu jako hymna roku 1968 vystihuje atmosféru okupace."
+   }
+  },
+  {
+   "key": "CZ|1960|Miloš Forman",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Formanovy filmy vidělo široké publikum kin; nová vlna rezonovala dlouho.",
+    "B": "Formanovy filmy 60. let vidělo masové publikum; známé většině čtenářů.",
+    "C": "Forman a nová vlna vysvětlují kulturní uvolnění šedesátých let."
+   }
+  },
+  {
+   "key": "CZ|1960|Václav Havel",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Divadelní premiéra oslovila hlavně publikum divadel; širší dopad omezený.",
+    "B": "Havla znají všichni, premiéru Vyrozumění 1965 spíše poučení zájemci.",
+    "C": "Havlova absurdní dramatika ilustruje kulturní kvas 60. let."
+   }
+  },
+  {
+   "key": "CZ|1960|Věra Chytilová",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Sedmikrásky oslovily užší publikum; kulturní význam přetrval, rutina beze změny.",
+    "B": "Sedmikrásky znala značná část kulturního publika; Chytilovou zná spíš poučenější čtenář.",
+    "C": "Sedmikrásky ukazují odvahu a svobodu nové vlny."
+   }
+  },
+  {
+   "key": "CZ|1960|Věra Čáslavská",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Celonárodně sledovaný televizní moment a symbol vzdoru, rutinu nezměnil.",
+    "B": "Mexiko 1968 a gesto na stupních zná většina pamětníků.",
+    "C": "Čáslavské protest v Mexiku spojuje sport s odporem proti okupaci."
+   }
+  },
+  {
+   "key": "CZ|1970|Bohumil Hrabal",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Samizdat četla úzká skupina, literární význam ale přetrval.",
+    "B": "Hrabala zná většina, samizdatový oběh Anglického krále překvapí běžného čtenáře.",
+    "C": "Samizdatový oběh Hrabala ukazuje mechanismus cenzury a paralelní kultury."
+   }
+  },
+  {
+   "key": "CZ|1970|Gustáv Husák",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Normalizace určovala prověrky, kariéry i veřejnou řeč po dvě dekády.",
+    "B": "Husák jako tvář normalizace je univerzální prožitek i školní učivo.",
+    "C": "Husák ztělesňuje normalizaci — klíč k pochopení každodennosti 70. let."
+   }
+  },
+  {
+   "key": "CZ|1970|Jaroslav Seifert",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Tvorba pod tlakem; záznam neuvádí širší dobový dopad.",
+    "B": "Seifert známý básník; obecné konstatování tlaku režimu bez konkrétního detailu.",
+    "C": "Obecné konstatování tlaku režimu, bez konkrétního příběhu."
+   }
+  },
+  {
+   "key": "CZ|1970|Jiří Suchý & Jiří Šlitr",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Semafor a jeho písně patřily k široce sdílené populární kultuře.",
+    "B": "Semafor byl široce sdílená kultura; Šlitr ale zemřel už 1969 — nejistota u dekády.",
+    "C": "Vedení Semaforu je dílčí kulturní zajímavost bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1970|Milan Kundera",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Exil známého spisovatele; každodennost obyvatel přímo neměnil.",
+    "B": "Kunderova emigrace známá; detail zbavení občanství zná spíše poučený čtenář.",
+    "C": "Zbavení občanství ukazuje, jak režim zacházel s nepohodlnými autory."
+   }
+  },
+  {
+   "key": "CZ|1970|Pavel Kohout",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Vyhoštění disidenta se dotklo hlavně kulturní obce.",
+    "B": "Kohouta zná starší generace; vyhoštění do Vídně překvapí běžného čtenáře.",
+    "C": "Vyhoštění chartisty ilustruje represivní praxi normalizace."
+   }
+  },
+  {
+   "key": "CZ|1970|Plastic People of the Universe",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Proces s undergroundem byl podnětem Charty 77 s dlouhými důsledky.",
+    "B": "Proces 1976 jako podnět Charty zná menšina pamětníků, běžného čtenáře překvapí.",
+    "C": "Proces s kapelou jako podnět Charty 77 vysvětluje zlom éry."
+   }
+  },
+  {
+   "key": "CZ|1970|Václav Havel",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 0,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Charta a Anticharta pronikly do pracovišť; disent vedl k roku 1989.",
+    "B": "Charta 77 a věznění Havla jsou dnes obecně známé; tehdy vědělo méně lidí.",
+    "C": "Charta 77 a věznění disidentů vysvětlují fungování normalizace."
+   }
+  },
+  {
+   "key": "UA|1920|Les Kurbas",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Avantgardní divadlo formovalo ukrajinskou scénu, denně se dotklo mála lidí.",
+    "B": "Berezil znala městská menšina; pro dnešního čtenáře málo známý objev.",
+    "C": "Berezil ukazuje rozkvět ukrajinského avantgardního divadla 20. let."
+   }
+  },
+  {
+   "key": "UA|1920|Mykhailo Hrushevsky",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Návrat symbolické politické osobnosti; dopad hlavně intelektuální.",
+    "B": "Hrushevsky dobově významný; jeho návrat do sovětské Ukrajiny překvapí běžného čtenáře.",
+    "C": "Návrat prvního předsedy UNR ukazuje dobovou politiku vůči sovětské Ukrajině."
+   }
+  },
+  {
+   "key": "UA|1920|Mykola Khvylovy",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Vůdčí hlas literární generace; dopad kulturní, ne každodenní.",
+    "B": "Popravené obrození překvapí i sečtělého českého čtenáře; dobově znal literární okruh.",
+    "C": "Symbol Popraveného obrození otevírá pochopení vzestupu a zániku éry."
+   }
+  },
+  {
+   "key": "UA|1920|Mykola Skrypnyk",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Ukrajinizace měnila jazyk škol, úřadů a tisku pro většinu, později zvrácena.",
+    "B": "Politika ukrajinizace a Skrypnykův konec překvapí i sečtělého čtenáře.",
+    "C": "Ukrajinizace a její konec sebevraždou vysvětlují mechanismus doby."
+   }
+  },
+  {
+   "key": "UA|1920|Oleksandr Dovzhenko",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Filmové klasiky s trvalým významem, běžný den diváků nezměnily.",
+    "B": "Země patřila k slavným filmům doby; mimo filmové kruhy dnes překvapí.",
+    "C": "Klíčové filmy nesou kus příběhu ukrajinské kinematografie 20. let."
+   }
+  },
+  {
+   "key": "UA|1920|Pavlo Tychyna",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Kanonická poezie s dlouhým významem, bez dopadu na rutinu.",
+    "B": "Tychyna byl čtený básník doby; Sluneční klarinety mimo Ukrajinu málo známé.",
+    "C": "Sbírka bez širší souvislosti; jen jméno a dílo."
+   }
+  },
+  {
+   "key": "UA|1920|Volodymyr Sosiura",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Lyrická báseň a pozdější odsouzení; omezený dobový dosah.",
+    "B": "Sosiuru znal literární okruh; pozdější odsouzení básně je málo známý detail.",
+    "C": "Pozdější odsouzení básně naznačuje meze ukrajinské kultury v SSSR."
+   }
+  },
+  {
+   "key": "UA|1930|Les Kurbas",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Poprava režiséra ukončila divadelní hnutí; ztráta kulturní, dlouhodobá.",
+    "B": "Poprava v Sandarmochu 1937 tehdy utajena; dnes málo známý doložený fakt.",
+    "C": "Poprava režiséra v Sandarmochu nese příběh likvidace ukrajinské kultury."
+   }
+  },
+  {
+   "key": "UA|1930|Maksym Rylsky",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Osobní osud básníka pod tlakem, bez širšího dopadu na den.",
+    "B": "Rylského přežití díky odvolání postojů je málo známý, výmluvný detail doby.",
+    "C": "Přežití díky odvolání postojů vysvětluje volby umělců v teroru."
+   }
+  },
+  {
+   "key": "UA|1930|Mykhailo Boychuk",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 1,
+    "discovery": 5,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Zničení celé malířské školy; trvalá kulturní ztráta, denní dopad malý.",
+    "B": "Poprava malíře s celou školou žáků — málo známý detail měnící pohled na dobu.",
+    "C": "Poprava malíře i jeho školy ukazuje systematickou likvidaci uměleckých směrů."
+   }
+  },
+  {
+   "key": "UA|1930|Mykola Kulish",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Poprava dramatika; přímý dopad na každodennost omezený.",
+    "B": "Kulishe znalo divadelní publikum; jeho zastřelení 1937 překvapí i sečtělé.",
+    "C": "Zastřelení dramatika ilustruje teror, ale bez širšího mechanismu."
+   }
+  },
+  {
+   "key": "UA|1930|Oleksandr Dovzhenko",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Filmy na objednávku režimu; každodennost diváků neměnily.",
+    "B": "Filmy znali diváci; nátlak za Aerogradem a Ščorsem je málo známý detail.",
+    "C": "Tvorba pod nátlakem ukazuje mechanismus podřízení kultury režimu."
+   }
+  },
+  {
+   "key": "UA|1930|Pavlo Postyshev",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 3,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Vykonavatel teroru a hladomoru přímo v zemi; důsledky trvalé.",
+    "B": "Dobově obávaná figura; jméno vykonavatele teroru dnes zná málokdo.",
+    "C": "Konkrétní vykonavatel teroru ukazuje, jak represe fungovala místně."
+   }
+  },
+  {
+   "key": "UA|1930|Stalin",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Hladomor a teror přímo na Ukrajině změnily přežití i strach na generace.",
+    "B": "Stalin, hladomor a teror jsou univerzálně prožité i obecně známé.",
+    "C": "Hladomor a Velký teror definují život na Ukrajině 30. let."
+   }
+  },
+  {
+   "key": "UA|1940|Mykhailo Stelmakh",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Oceňovaná oficiální literatura s omezeným každodenním dopadem.",
+    "B": "Stelmakh byl oficiálně oceňovaný autor; dnes zná spíše poučený zájemce.",
+    "C": "Ceny za válečné romány jen naznačují oficiální kulturu."
+   }
+  },
+  {
+   "key": "UA|1940|Nikita Khrushchev",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Řízení republiky a poválečná obnova měnily bydlení a zásobování většiny.",
+    "B": "Chruščov v čele USSR byl všudypřítomný; jeho ukrajinská éra dnes méně známá.",
+    "C": "Chruščov jako správce republiky vysvětluje válečné a poválečné řízení Ukrajiny."
+   }
+  },
+  {
+   "key": "UA|1940|Oleksandr Dovzhenko",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Zakázané dílo; dobový dopad na obyvatele omezený.",
+    "B": "Stalinův zákaz Ukrajiny v plamenech byl tajný; dnes málo známý detail.",
+    "C": "Zákaz filmu Stalinem ukazuje meze ukrajinského válečného vyprávění."
+   }
+  },
+  {
+   "key": "UA|1940|Pavlo Tychyna",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Ministr školství ovlivnil školy, záznam ale konkrétní změny neuvádí.",
+    "B": "Tychyna jako ministr školství — školáci ho znali, funkce překvapí běžného čtenáře.",
+    "C": "Básník ministrem ilustruje splynutí kultury a státu, bez detailu."
+   }
+  },
+  {
+   "key": "UA|1940|Roman Shukhevych",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Povstalecká válka a represe měnily každodennost západní Ukrajiny léta.",
+    "B": "Na západní Ukrajině silně prožité; mimo region a dnes méně známé.",
+    "C": "UPA a boj do 1950 ukazují pokračující partyzánskou válku."
+   }
+  },
+  {
+   "key": "UA|1940|Stepan Bandera",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "OUN a boje měnily život hlavně na západě země; symbolika trvá dodnes.",
+    "B": "Bandera byl dobově široce známé jméno; věznění nacisty překvapí jen mírně.",
+    "C": "Bandera a OUN vysvětlují konflikt loajalit válečné Ukrajiny."
+   }
+  },
+  {
+   "key": "UA|1940|Yuriy Yanovsky",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Válečné romány pro čtenáře; rutinu neměnily.",
+    "B": "Yanovského romány znal čtenářský okruh; mimo Ukrajinu málo známé.",
+    "C": "Válečné romány o partyzánech — dílčí zajímavost bez souvislosti."
+   }
+  },
+  {
+   "key": "UA|1950|Lev Landau",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Sovětský fyzik s dřívější charkovskou vazbou; místní dopad v 50. letech slabý.",
+    "B": "Landaua znali vzdělanci; charkovská léta překvapí běžného čtenáře.",
+    "C": "Vazba na Charkov je volná; spíše zajímavost než příběh doby."
+   }
+  },
+  {
+   "key": "UA|1950|Mykola Amosov",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Průkopnická kardiochirurgie v Kyjevě pomohla pacientům, obor formovala léta.",
+    "B": "Amosov byl v Kyjevě proslulý chirurg; mimo Ukrajinu málo známý průkopník.",
+    "C": "Průkopnická kardiochirurgie v Kyjevě nese příběh dobové medicíny."
+   }
+  },
+  {
+   "key": "UA|1950|Nikita Khrushchev",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Sovětský vůdce nad rámec republiky; jeho éra (tání) se ale promítla široce.",
+    "B": "Chruščov v čele SSSR univerzálně známý; ukrajinské kořeny zná většina.",
+    "C": "Vůdce s ukrajinským zázemím nese kus příběhu tání 50. let."
+   }
+  },
+  {
+   "key": "UA|1950|Oleksandr Dovzhenko",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Úmrtí filmaře a posmrtné dílo; den obyvatel nezměnilo.",
+    "B": "Dovzhenkova smrt 1956 dobově zaznamenaná; posmrtná Poema o moři méně známá.",
+    "C": "Úmrtí a posmrtné vydání jsou dílčí fakt bez souvislosti."
+   }
+  },
+  {
+   "key": "UA|1950|Oles Honchar",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Oficiálně oceňovaná próza, čtená i ve školách, rutinu neměnila.",
+    "B": "Praporečníci byli povinná četba doby; dnes zná spíše poučený zájemce.",
+    "C": "Stalinova cena za trilogii ukazuje oficiální literární kánon."
+   }
+  },
+  {
+   "key": "UA|1950|Sofia Rotaru",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 1,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "V 50. letech teprve dětství budoucí hvězdy; dobový dopad žádný.",
+    "B": "V 50. letech byla dítě; sláva přišla později — nízké rozpoznání pro dekádu.",
+    "C": "Narození a jazyky zpěvu — bez příběhu dekády 50. let."
+   }
+  },
+  {
+   "key": "UA|1960|Ivan Drach",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Vůdčí básník šedesátníků; dopad hlavně v kultuře.",
+    "B": "Drache znal literární okruh šedesátníků; běžného čtenáře jméno překvapí.",
+    "C": "Jen zařazení k šedesátníkům, bez vlastního příběhu."
+   }
+  },
+  {
+   "key": "UA|1960|Leonid Brezhnev",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Sovětský vůdce narozený v zemi; jeho éra později prostupovala každodennost.",
+    "B": "Brežněv univerzálně známý; rodiště v Kamjanském zná většina čtenářů novin.",
+    "C": "Brežněvův ukrajinský původ a nástup nesou kus příběhu doby."
+   }
+  },
+  {
+   "key": "UA|1960|Lina Kostenko",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Hlas generace šedesátníků; vliv kulturní a dlouhodobý.",
+    "B": "Kostenko byla čtená básnířka šedesátníků; českého čtenáře fenomén překvapí.",
+    "C": "Šedesátníci vysvětlují kulturní obrodu generace; Kostenko je její tvář."
+   }
+  },
+  {
+   "key": "UA|1960|Oleg Antonov",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Kyjevská konstrukční kancelář a An-22; dotklo se hlavně průmyslu.",
+    "B": "Antonov a jeho letadla byly kyjevskou chloubou; An-22 zná poučený zájemce.",
+    "C": "Obří An-22 ukazuje kyjevský letecký průmysl a dobovou hrdost."
+   }
+  },
+  {
+   "key": "UA|1960|Sergei Parajanov",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Milník ukrajinského filmu s trvalým kulturním významem.",
+    "B": "Stíny zapomenutých předků byly kulturní událost; mimo filmové kruhy dnes překvapí.",
+    "C": "Stíny zapomenutých předků otevírají ukrajinské poetické kino 60. let."
+   }
+  },
+  {
+   "key": "UA|1960|Vasyl Symonenko",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Předčasně zemřelý básník se stal trvalým symbolem generace.",
+    "B": "Symonenko koloval v samizdatu a písních; jeho brzká smrt málo známá mimo Ukrajinu.",
+    "C": "Předčasně zesnulý básník nese kus příběhu šedesátníků."
+   }
+  },
+  {
+   "key": "UA|1960|Vyacheslav Chornovil",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Samizdat četla úzká skupina, disent ale směřoval k pozdějším změnám.",
+    "B": "Samizdatový Ukrajinský věstník znal úzký okruh; překvapí i sečtělého čtenáře.",
+    "C": "Samizdatový věstník ukazuje mechanismus disentu v ukrajinských 60. letech."
+   }
+  },
+  {
+   "key": "UA|1960|Yuri Ilyenko",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Významný kameraman a režisér; každodennost diváků neměnil.",
+    "B": "Ilyenkova kamera známá filmovým kruhům; Studánka pro žíznivé byla zakázána — málo známé.",
+    "C": "Kameraman klíčových filmů nese kus příběhu poetického kina."
+   }
+  },
+  {
+   "key": "UA|1970|Lina Kostenko",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Zákaz publikování dopadl na literární obec; běžnou každodennost většiny nezměnil.",
+    "B": "Šestnáctiletý zákaz publikování znal literární okruh; dnes překvapí i sečtělé.",
+    "C": "Šestnáctiletý zákaz publikování ukazuje mechanismus cenzury 70. let."
+   }
+  },
+  {
+   "key": "UA|1970|Mykola Rudenko",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 1,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Založení Ukrajinské helsinské skupiny; běžný den nezměnilo, disent měl dlouhodobé důsledky.",
+    "B": "Ukrajinskou helsinskou skupinu znal jen úzký okruh; překvapí i sečtělého čtenáře.",
+    "C": "Založení helsinské skupiny a věznění vysvětlují mechanismus disentu."
+   }
+  },
+  {
+   "key": "UA|1970|Oleg Blokhin",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Zlatý míč 1975 pro hráče Dynama; celonárodní sportovní událost sledovaná u televizí.",
+    "B": "Blochinův Zlatý míč 1975 znala a slavila většina generace.",
+    "C": "Zlatý míč pro Blochina — sportovní milník s dobovým ohlasem."
+   }
+  },
+  {
+   "key": "UA|1970|Sergei Parajanov",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Uvěznění filmaře v UkrSSR; každodennost běžných lidí přímo nezměnilo, symbol represe kulturní obce.",
+    "B": "Uvěznění Parajanova se dobově nemluvilo veřejně; důvody stíhání překvapí i sečtělé.",
+    "C": "Uvěznění režiséra ukazuje, jak režim trestal nekonformní umělce."
+   }
+  },
+  {
+   "key": "UA|1970|Sofia Rotaru",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Celosvazově populární zpěvačka z Ukrajiny; její písně zněly z rádií a televize běžných domácností.",
+    "B": "Rotaru byla masově populární; Lavanda je ale až z 80. let — nejistota u dekády.",
+    "C": "Výčet písní bez širší souvislosti s dobou."
+   }
+  },
+  {
+   "key": "UA|1970|Valeriy Lobanovskyi",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Úspěch Dynama Kyjev 1975 sledovala velká část domácností; fotbalová éra formovala město i zemi.",
+    "B": "Triumf Dynama Kyjev 1975 byl masově prožitá sportovní událost.",
+    "C": "Evropský titul Dynama nese kus příběhu dobové hrdosti."
+   }
+  },
+  {
+   "key": "UA|1970|Volodymyr Ivasyuk",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Červona ruta byla masově zpívaný hit; jeho smrt 1979 silně rezonovala, píseň zlidověla.",
+    "B": "Červona ruta byla všeobecně zpívaná; okolnosti smrti 1979 překvapí českého čtenáře.",
+    "C": "Červona ruta a podezřelá smrt nesou silný příběh ukrajinské kultury."
+   }
+  },
+  {
+   "key": "UA|1970|Volodymyr Shcherbytsky",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Dlouhé vedení republiky, rusifikace a represe měnily veřejný život většiny.",
+    "B": "Shcherbytsky byl všudypřítomná tvář moci v USSR; dnes mimo Ukrajinu málo známý.",
+    "C": "Ščerbyckého věrnost Brežněvovi vysvětluje rusifikační kurz 70. let."
+   }
+  },
+  {
+   "key": "UA|1970|Vyacheslav Chornovil",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Perzekuce disidenta v dobovém státě; dotkla se úzkého okruhu, vliv sahal až k nezávislosti.",
+    "B": "Disidentovo věznění znal úzký okruh; obecné konstatování bez ostrého detailu.",
+    "C": "Střídání vězení a svobody ilustruje osud disidentů, obecněji."
+   }
+  }
+ ]
+}

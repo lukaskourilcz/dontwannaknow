@@ -2,136 +2,352 @@
   {
     "city": "olomouc",
     "year": 1920,
-    "text": "Olomouc-Hodolany a sedm dalších vesnic se sloučilo do Velké Olomouce, čímž skončila kompaktní stopa habsburského pevnostního města"
+    "text": "Olomouc-Hodolany a sedm dalších vesnic se sloučilo do Velké Olomouce, čímž skončila kompaktní stopa habsburského pevnostního města",
+    "rel": [
+      5,
+      2,
+      1,
+      4,
+      5,
+      3
+    ]
   },
   {
     "city": "olomouc",
     "year": 1921,
-    "text": "sloup Nejsvětější Trojice na Horním náměstí byl 167 let starý a zůstával dominantním znakem každého olomouckého průvodu"
+    "text": "sloup Nejsvětější Trojice na Horním náměstí byl 167 let starý a zůstával dominantním znakem každého olomouckého průvodu",
+    "rel": [
+      5,
+      1,
+      4,
+      1,
+      2,
+      1
+    ]
   },
   {
     "city": "olomouc",
     "year": 1926,
-    "text": "Československý rozhlas Olomouc zahájil vysílání jako třetí regionální studio v zemi"
+    "text": "Československý rozhlas Olomouc zahájil vysílání jako třetí regionální studio v zemi",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "olomouc",
     "year": 1939,
-    "text": "olomouckou synagogu v březnu zapálily nacistické polovojenské jednotky"
+    "text": "olomouckou synagogu v březnu zapálily nacistické polovojenské jednotky",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "olomouc",
     "year": 1939,
-    "text": "starou olomouckou synagogu naproti nádraží zapálili příslušníci SS v březnu, několik dní po okupaci"
+    "text": "starou olomouckou synagogu naproti nádraží zapálili příslušníci SS v březnu, několik dní po okupaci",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "olomouc",
     "year": 1942,
-    "text": "olomoucká židovská komunita o zhruba 3 500 lidech byla ve dvou transportech deportována do Terezína"
+    "text": "olomoucká židovská komunita o zhruba 3 500 lidech byla ve dvou transportech deportována do Terezína",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "olomouc",
     "year": 1945,
-    "text": "město bylo osvobozeno Rudou armádou v květnu"
+    "text": "město bylo osvobozeno Rudou armádou v květnu",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      1
+    ]
   },
   {
     "city": "olomouc",
     "year": 1946,
-    "text": "zákonem byla znovu obnovena Univerzita Palackého, čímž ožila instituce zrušená v roce 1860"
+    "text": "zákonem byla znovu obnovena Univerzita Palackého, čímž ožila instituce zrušená v roce 1860",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "olomouc",
     "year": 1948,
-    "text": "továrna na čerpadla Sigma Lutín jižně od města byla znárodněna a měla se stát hlavním průmyslovým zaměstnavatelem města"
+    "text": "továrna na čerpadla Sigma Lutín jižně od města byla znárodněna a měla se stát hlavním průmyslovým zaměstnavatelem města",
+    "rel": [
+      4,
+      3,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "olomouc",
     "year": 1955,
-    "text": "orloj na radnici byl po válečném poškození přestavěn v socialisticko-realistickém stylu"
+    "text": "orloj na radnici byl po válečném poškození přestavěn v socialisticko-realistickém stylu",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "olomouc",
     "year": 1955,
-    "text": "přestavěný orloj zobrazoval místo svatých chemiky, zámečníky a sportovce a každé poledne se shromažďovaly davy, aby se podívaly"
+    "text": "přestavěný orloj zobrazoval místo svatých chemiky, zámečníky a sportovce a každé poledne se shromažďovaly davy, aby se podívaly",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "olomouc",
     "year": 1965,
-    "text": "krajská povodeň na Moravě v červenci zaplavila Olomouc-Černovír a několik hodolanských ulic"
+    "text": "krajská povodeň na Moravě v červenci zaplavila Olomouc-Černovír a několik hodolanských ulic",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      1,
+      2
+    ]
   },
   {
     "city": "olomouc",
     "year": 1971,
-    "text": "fotbalový klub Sigma Olomouc postoupil do druhé ligy, čímž začal jeho vzestup k nejvyšší soutěži"
+    "text": "fotbalový klub Sigma Olomouc postoupil do druhé ligy, čímž začal jeho vzestup k nejvyšší soutěži",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "olomouc",
     "year": 1973,
-    "text": "olomoucké tvarůžky z Loštic dál plnily svou pronikavou nezaměnitelnou vůní pulty obchodů po celé zemi"
+    "text": "olomoucké tvarůžky z Loštic dál plnily svou pronikavou nezaměnitelnou vůní pulty obchodů po celé zemi",
+    "rel": [
+      4,
+      2,
+      5,
+      0,
+      2,
+      2
+    ]
   },
   {
     "city": "olomouc",
     "year": 1976,
-    "text": "zahradnická výstava Flora Olomouc se konala ve Smetanových sadech, dvakrát ročně stálice pro zahrádkáře z celé země"
+    "text": "zahradnická výstava Flora Olomouc se konala ve Smetanových sadech, dvakrát ročně stálice pro zahrádkáře z celé země",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "olomouc",
     "year": 1950,
-    "text": "při Akci K přepadla StB v dubnu mužské kláštery a olomoucký arcibiskup Josef Matocha skončil na jedenáct let v domácím vězení na své rezidenci"
+    "text": "při Akci K přepadla StB v dubnu mužské kláštery a olomoucký arcibiskup Josef Matocha skončil na jedenáct let v domácím vězení na své rezidenci",
+    "rel": [
+      5,
+      2,
+      2,
+      4,
+      4,
+      5
+    ]
   },
   {
     "city": "olomouc",
     "year": 1953,
-    "text": "měnová reforma z 1. června znehodnotila úspory a vyvolala i v olomouckých závodech vlnu dělnické nevole"
+    "text": "měnová reforma z 1. června znehodnotila úspory a vyvolala i v olomouckých závodech vlnu dělnické nevole",
+    "rel": [
+      4,
+      5,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "olomouc",
     "year": 1968,
-    "text": "po vyhnání polské jednotky obsadila město v srpnu sovětská armáda, která pak v Olomouci zůstala dlouhých třiadvacet let"
+    "text": "po vyhnání polské jednotky obsadila město v srpnu sovětská armáda, která pak v Olomouci zůstala dlouhých třiadvacet let",
+    "rel": [
+      5,
+      4,
+      5,
+      3,
+      5,
+      5
+    ]
   },
   {
     "city": "olomouc",
     "year": 1968,
-    "text": "počátkem října převzala sovětská vojska kasárna Prokopa Holého i Jana Jiskry a usadila se ve městě nadlouho"
+    "text": "počátkem října převzala sovětská vojska kasárna Prokopa Holého i Jana Jiskry a usadila se ve městě nadlouho",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "olomouc",
     "year": 1989,
-    "text": "v listopadu se na náměstí scházely desítky tisíc lidí a studenti Univerzity Palackého obklíčili sídlo KSČ papírovou zdí"
+    "text": "v listopadu se na náměstí scházely desítky tisíc lidí a studenti Univerzity Palackého obklíčili sídlo KSČ papírovou zdí",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "olomouc",
     "year": 1990,
-    "text": "Univerzita Palackého udělila 28. května čestný doktorát Václavu Havlovi jako první vysoká škola v Československu"
+    "text": "Univerzita Palackého udělila 28. května čestný doktorát Václavu Havlovi jako první vysoká škola v Československu",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "olomouc",
     "year": 1991,
-    "text": "v červnu opustily Olomouc poslední sovětské jednotky a uvolnily rozsáhlá kasárna východně od Holické ulice"
+    "text": "v červnu opustily Olomouc poslední sovětské jednotky a uvolnily rozsáhlá kasárna východně od Holické ulice",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "olomouc",
     "year": 1992,
-    "text": "fotbalová Sigma došla v Poháru UEFA až do čtvrtfinále, kde ji zastavil Real Madrid; cestou porazila Hamburger SV 4:1"
+    "text": "fotbalová Sigma došla v Poháru UEFA až do čtvrtfinále, kde ji zastavil Real Madrid; cestou porazila Hamburger SV 4:1",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "olomouc",
     "year": 1995,
-    "text": "papež Jan Pavel II. svatořečil 21. května na letišti v Neředíně Jana Sarkandera a Zdislavu z Lemberka a baziliku na Svatém Kopečku povýšil na Basilica minor"
+    "text": "papež Jan Pavel II. svatořečil 21. května na letišti v Neředíně Jana Sarkandera a Zdislavu z Lemberka a baziliku na Svatém Kopečku povýšil na Basilica minor",
+    "rel": [
+      5,
+      3,
+      5,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "olomouc",
     "year": 1997,
-    "text": "v červenci zaplavila Olomouc nejničivější povodeň za sto let, voda odřízla město od světa a v Černovíru strhla na sedmdesát domů"
+    "text": "v červenci zaplavila Olomouc nejničivější povodeň za sto let, voda odřízla město od světa a v Černovíru strhla na sedmdesát domů",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "olomouc",
     "year": 2000,
-    "text": "sloup Nejsvětější Trojice na Horním náměstí byl 2. prosince zapsán na Seznam světového dědictví UNESCO"
+    "text": "sloup Nejsvětější Trojice na Horním náměstí byl 2. prosince zapsán na Seznam světového dědictví UNESCO",
+    "rel": [
+      5,
+      1,
+      4,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "olomouc",
     "year": 2013,
-    "text": "na místě bývalé potravinářské továrny Milo bylo otevřeno nákupní centrum Galerie Šantovka, k němuž vedla nově postavená tramvajová trať"
+    "text": "na místě bývalé potravinářské továrny Milo bylo otevřeno nákupní centrum Galerie Šantovka, k němuž vedla nově postavená tramvajová trať",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      5,
+      3
+    ]
   }
 ]

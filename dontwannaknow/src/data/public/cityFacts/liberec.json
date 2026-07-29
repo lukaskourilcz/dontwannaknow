@@ -2,151 +2,391 @@
   {
     "city": "liberec",
     "year": 1920,
-    "text": "město (tehdy Reichenberg) bylo asi z 80 % německy mluvící"
+    "text": "město (tehdy Reichenberg) bylo asi z 80 % německy mluvící",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "liberec",
     "year": 1923,
-    "text": "liberecké hlavní nádraží bylo rušným uzlem německy mluvícího textilního regionu s přímými vlaky do Drážďan a Vídně"
+    "text": "liberecké hlavní nádraží bylo rušným uzlem německy mluvícího textilního regionu s přímými vlaky do Drážďan a Vídně",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "liberec",
     "year": 1924,
-    "text": "Severočeské muzeum se znovu otevřelo, aby vystavilo textil a secesní sklo, jimiž byl Reichenberg-Liberec proslulý"
+    "text": "Severočeské muzeum se znovu otevřelo, aby vystavilo textil a secesní sklo, jimiž byl Reichenberg-Liberec proslulý",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "liberec",
     "year": 1933,
-    "text": "Sudetoněmecká vlastenecká fronta Konrada Henleina byla založena v Aši, ale už pořádala shromáždění na liberecké radnici"
+    "text": "Sudetoněmecká vlastenecká fronta Konrada Henleina byla založena v Aši, ale už pořádala shromáždění na liberecké radnici",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "liberec",
     "year": 1938,
-    "text": "připojen k nacistickému Německu jako sídlo Říšské župy Sudety"
+    "text": "připojen k nacistickému Německu jako sídlo Říšské župy Sudety",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "liberec",
     "year": 1938,
-    "text": "Henleinova Sudetoněmecká strana uspořádala na Tržním náměstí své poslední velké shromáždění před zářijovou anexí"
+    "text": "Henleinova Sudetoněmecká strana uspořádala na Tržním náměstí své poslední velké shromáždění před zářijovou anexí",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "liberec",
     "year": 1945,
-    "text": "etničtí Němci byli vyhnáni na základě Benešových dekretů"
+    "text": "etničtí Němci byli vyhnáni na základě Benešových dekretů",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      3
+    ]
   },
   {
     "city": "liberec",
     "year": 1945,
-    "text": "organizované vyhánění německého obyvatelstva města začalo v létě se shromaždištěm v textilní továrně na Zhořelecké"
+    "text": "organizované vyhánění německého obyvatelstva města začalo v létě se shromaždištěm v textilní továrně na Zhořelecké",
+    "rel": [
+      5,
+      5,
+      3,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "liberec",
     "year": 1946,
-    "text": "České státní divadlo F. X. Šaldy zahájilo svou první poválečnou sezonu poté, co byl německý divadelní personál vyhnán"
+    "text": "České státní divadlo F. X. Šaldy zahájilo svou první poválečnou sezonu poté, co byl německý divadelní personál vyhnán",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "liberec",
     "year": 1952,
-    "text": "nová liberecká zoo na Lidových sadech, založená v roce 1919 a nejstarší v českých zemích, otevřela svůj pavilon lvů"
+    "text": "nová liberecká zoo na Lidových sadech, založená v roce 1919 a nejstarší v českých zemích, otevřela svůj pavilon lvů",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "liberec",
     "year": 1958,
-    "text": "skokanský můstek na Ještědu hostil mistrovství světa FIS v severském lyžování a přitáhl davy z celého města"
+    "text": "skokanský můstek na Ještědu hostil mistrovství světa FIS v severském lyžování a přitáhl davy z celého města",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      1,
+      2
+    ]
   },
   {
     "city": "liberec",
     "year": 1963,
-    "text": "v noci na 31. ledna zničil požár starý dřevěný horský hotel na Ještědu, což podnítilo slavnou Hubáčkovu přestavbu"
+    "text": "v noci na 31. ledna zničil požár starý dřevěný horský hotel na Ještědu, což podnítilo slavnou Hubáčkovu přestavbu",
+    "rel": [
+      5,
+      1,
+      4,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "liberec",
     "year": 1965,
-    "text": "vozovka LIAZ v Liberci-Mníšku vyráběla v licenci nákladní vozy Škoda 706 RT a rychle rostla"
+    "text": "vozovka LIAZ v Liberci-Mníšku vyráběla v licenci nákladní vozy Škoda 706 RT a rychle rostla",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "liberec",
     "year": 1968,
-    "text": "sovětské tanky obsadily centrální náměstí; při demonstracích bylo zastřeleno devět civilistů"
+    "text": "sovětské tanky obsadily centrální náměstí; při demonstracích bylo zastřeleno devět civilistů",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "liberec",
     "year": 1968,
-    "text": "21. srpna tanky vystřelily do davu u podloubí radnice a mrtví byli ponecháni pod oblouky celý den"
+    "text": "21. srpna tanky vystřelily do davu u podloubí radnice a mrtví byli ponecháni pod oblouky celý den",
+    "rel": [
+      5,
+      5,
+      3,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "liberec",
     "year": 1970,
-    "text": "Karel Hubáček ze SIALu získal za návrh ještědské věže Perretovu cenu, ještě než byla dokončena"
+    "text": "Karel Hubáček ze SIALu získal za návrh ještědské věže Perretovu cenu, ještě než byla dokončena",
+    "rel": [
+      5,
+      0,
+      2,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "liberec",
     "year": 1973,
-    "text": "otevřel se televizní vysílač s hotelem na Ještědu — hyperboloidní dominanta viditelná po celých severních Čechách"
+    "text": "otevřel se televizní vysílač s hotelem na Ještědu — hyperboloidní dominanta viditelná po celých severních Čechách",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "liberec",
     "year": 1978,
-    "text": "obří komplex obchodních domů Babylon ještě nebyl postaven, ale nové centrum Plaza a liberecké výstaviště lákaly davy na jarní veletrh"
+    "text": "obří komplex obchodních domů Babylon ještě nebyl postaven, ale nové centrum Plaza a liberecké výstaviště lákaly davy na jarní veletrh",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      1,
+      1
+    ]
   },
   {
     "city": "liberec",
     "year": 1953,
-    "text": "vznikla Vysoká škola strojní; do prvního ročníku nastoupilo 259 studentů, mezi nimi pět dívek, pozdější Technická univerzita"
+    "text": "vznikla Vysoká škola strojní; do prvního ročníku nastoupilo 259 studentů, mezi nimi pět dívek, pozdější Technická univerzita",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "liberec",
     "year": 1955,
-    "text": "1. ledna byl zahájen provoz na meziměstské tramvaji do Jablonce — dvanáctikilometrové úzkorozchodné trati, nejdelší svého druhu v zemi"
+    "text": "1. ledna byl zahájen provoz na meziměstské tramvaji do Jablonce — dvanáctikilometrové úzkorozchodné trati, nejdelší svého druhu v zemi",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "liberec",
     "year": 1960,
-    "text": "Vysoká škola strojní se rozšířila o textilní fakultu a přejmenovala se na Vysokou školu strojní a textilní"
+    "text": "Vysoká škola strojní se rozšířila o textilní fakultu a přejmenovala se na Vysokou školu strojní a textilní",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "liberec",
     "year": 1969,
-    "text": "Karel Hubáček získal za návrh ještědské stavby Perretovu cenu Mezinárodního svazu architektů — jako jediný Čech v historii"
+    "text": "Karel Hubáček získal za návrh ještědské stavby Perretovu cenu Mezinárodního svazu architektů — jako jediný Čech v historii",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "liberec",
     "year": 1991,
-    "text": "po odsunu sovětských vojsk byl zrušen nedaleký vojenský prostor Ralsko s letištěm Hradčany, jedním z největších ve střední Evropě"
+    "text": "po odsunu sovětských vojsk byl zrušen nedaleký vojenský prostor Ralsko s letištěm Hradčany, jedním z největších ve střední Evropě",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "liberec",
     "year": 1998,
-    "text": "v areálu bývalé textilky vzniklo zábavní a kongresové Centrum Babylon; o dva roky později přibyl aquapark"
+    "text": "v areálu bývalé textilky vzniklo zábavní a kongresové Centrum Babylon; o dva roky později přibyl aquapark",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "liberec",
     "year": 2001,
-    "text": "po privatizaci a útlumu skončila výroba v Textilaně, kdysi největším výrobci vlněných látek v zemi s osmi tisíci zaměstnanci"
+    "text": "po privatizaci a útlumu skončila výroba v Textilaně, kdysi největším výrobci vlněných látek v zemi s osmi tisíci zaměstnanci",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "liberec",
     "year": 2002,
-    "text": "FC Slovan Liberec získal pod trenérem Škorpilem svůj první mistrovský titul v české lize"
+    "text": "FC Slovan Liberec získal pod trenérem Škorpilem svůj první mistrovský titul v české lize",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "liberec",
     "year": 2006,
-    "text": "fotbalisté Slovanu vybojovali na stadionu U Nisy druhý ligový titul"
+    "text": "fotbalisté Slovanu vybojovali na stadionu U Nisy druhý ligový titul",
+    "rel": [
+      5,
+      2,
+      3,
+      1,
+      2,
+      1
+    ]
   },
   {
     "city": "liberec",
     "year": 2009,
-    "text": "město hostilo mistrovství světa v klasickém lyžování; do Liberce přijelo 589 závodníků z 61 zemí"
+    "text": "město hostilo mistrovství světa v klasickém lyžování; do Liberce přijelo 589 závodníků z 61 zemí",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "liberec",
     "year": 2010,
-    "text": "v noci na 7. srpna zasáhly Liberecko bleskové povodně na Lužické Nise; škody přesáhly osm miliard korun a zahynulo několik lidí"
+    "text": "v noci na 7. srpna zasáhly Liberecko bleskové povodně na Lužické Nise; škody přesáhly osm miliard korun a zahynulo několik lidí",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "liberec",
     "year": 2012,
-    "text": "Slovan Liberec získal třetí mistrovský titul v nejvyšší fotbalové soutěži"
+    "text": "Slovan Liberec získal třetí mistrovský titul v nejvyšší fotbalové soutěži",
+    "rel": [
+      5,
+      2,
+      3,
+      1,
+      2,
+      1
+    ]
   }
 ]

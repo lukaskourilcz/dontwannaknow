@@ -2,61 +2,157 @@
   {
     "city": "cesky-tesin",
     "year": 1920,
-    "text": "Versailleská smlouva rozdělila staré habsburské město napůl — Český Těšín na české straně, Cieszyn na polské"
+    "text": "Versailleská smlouva rozdělila staré habsburské město napůl — Český Těšín na české straně, Cieszyn na polské",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      5,
+      5
+    ]
   },
   {
     "city": "cesky-tesin",
     "year": 1938,
-    "text": "Polsko v říjnu nakrátko anektovalo Český Těšín, než ho následující rok zabralo nacistické Německo"
+    "text": "Polsko v říjnu nakrátko anektovalo Český Těšín, než ho následující rok zabralo nacistické Německo",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "cesky-tesin",
     "year": 1945,
-    "text": "československo-polská hranice byla obnovena podél řeky Olše"
+    "text": "československo-polská hranice byla obnovena podél řeky Olše",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "cesky-tesin",
     "year": 1958,
-    "text": "polské divadlo v Českém Těšíně — jediné polskojazyčné divadlo v Československu — uvedlo pod socialistickou záštitou Wyspiańského"
+    "text": "polské divadlo v Českém Těšíně — jediné polskojazyčné divadlo v Československu — uvedlo pod socialistickou záštitou Wyspiańského",
+    "rel": [
+      5,
+      1,
+      5,
+      3,
+      2,
+      4
+    ]
   },
   {
     "city": "cesky-tesin",
     "year": 1972,
-    "text": "polská menšina města byla oficiálně uznána ve školních osnovách v celém regionu Těšínsko"
+    "text": "polská menšina města byla oficiálně uznána ve školních osnovách v celém regionu Těšínsko",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "cesky-tesin",
     "year": 1945,
-    "text": "v srpnu vzniklo Těšínské divadlo, první profesionální scéna ve městě; první představení se hrálo v říjnu"
+    "text": "v srpnu vzniklo Těšínské divadlo, první profesionální scéna ve městě; první představení se hrálo v říjnu",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "cesky-tesin",
     "year": 1949,
-    "text": "do Českého Těšína bylo přeloženo polské gymnázium Juliusze Słowackého, jediná polská střední škola v zemi"
+    "text": "do Českého Těšína bylo přeloženo polské gymnázium Juliusze Słowackého, jediná polská střední škola v zemi",
+    "rel": [
+      5,
+      2,
+      4,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "cesky-tesin",
     "year": 1951,
-    "text": "při Těšínském divadle vznikla Scena Polska, jediné profesionální polské divadlo mimo Polsko"
+    "text": "při Těšínském divadle vznikla Scena Polska, jediné profesionální polské divadlo mimo Polsko",
+    "rel": [
+      5,
+      2,
+      4,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "cesky-tesin",
     "year": 1961,
-    "text": "Těšínské divadlo se přestěhovalo do nové účelové budovy"
+    "text": "Těšínské divadlo se přestěhovalo do nové účelové budovy",
+    "rel": [
+      5,
+      1,
+      3,
+      1,
+      3,
+      1
+    ]
   },
   {
     "city": "cesky-tesin",
     "year": 1991,
-    "text": "1. ledna přijala scéna dnešní název Těšínské divadlo Český Těšín"
+    "text": "1. ledna přijala scéna dnešní název Těšínské divadlo Český Těšín",
+    "rel": [
+      5,
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
   },
   {
     "city": "cesky-tesin",
     "year": 2007,
-    "text": "21. prosince vstoupily Česko i Polsko do Schengenu a hraniční kontroly na Olze mezi Českým Těšínem a Cieszynem zanikly"
+    "text": "21. prosince vstoupily Česko i Polsko do Schengenu a hraniční kontroly na Olze mezi Českým Těšínem a Cieszynem zanikly",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "city": "cesky-tesin",
     "year": 2012,
-    "text": "v červnu se přes Olzu otevřela nová lávka pro pěší a cyklisty v rámci přeshraničního projektu Zahrada dvou břehů"
+    "text": "v červnu se přes Olzu otevřela nová lávka pro pěší a cyklisty v rámci přeshraničního projektu Zahrada dvou břehů",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      2
+    ]
   }
 ]

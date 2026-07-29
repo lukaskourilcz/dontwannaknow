@@ -2,51 +2,131 @@
   {
     "city": "chomutov",
     "year": 1938,
-    "text": "město (tehdy Komotau) bylo nacistickým Německem připojeno k Sudetengau"
+    "text": "město (tehdy Komotau) bylo nacistickým Německem připojeno k Sudetengau",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      2
+    ]
   },
   {
     "city": "chomutov",
     "year": 1945,
-    "text": "německé obyvatelstvo bylo vyhnáno na základě Benešových dekretů a nahrazeno českými osídlenci"
+    "text": "německé obyvatelstvo bylo vyhnáno na základě Benešových dekretů a nahrazeno českými osídlenci",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "chomutov",
     "year": 1969,
-    "text": "chomutovská elektrárna a ocelárny Válcovny trub se za socialismu staly významnými regionálními zaměstnavateli"
+    "text": "chomutovská elektrárna a ocelárny Válcovny trub se za socialismu staly významnými regionálními zaměstnavateli",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "chomutov",
     "year": 1928,
-    "text": "chomutovské závody Mannesmann na bezešvé trubky byly předním evropským výrobcem ocelových trubek"
+    "text": "chomutovské závody Mannesmann na bezešvé trubky byly předním evropským výrobcem ocelových trubek",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "chomutov",
     "year": 1942,
-    "text": "závody Mannesmann vyráběly pod německou správou ocelové trubky pro stavbu ponorek"
+    "text": "závody Mannesmann vyráběly pod německou správou ocelové trubky pro stavbu ponorek",
+    "rel": [
+      5,
+      3,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "chomutov",
     "year": 1973,
-    "text": "povrchová těžba v podhůří Krušných hor kolem Chomutova srovnávala se zemí celé vesnice"
+    "text": "povrchová těžba v podhůří Krušných hor kolem Chomutova srovnávala se zemí celé vesnice",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "chomutov",
     "year": 1975,
-    "text": "u Kamencového jezera se otevřel lesopark Walthera Markela, základ pozdějšího Podkrušnohorského zooparku"
+    "text": "u Kamencového jezera se otevřel lesopark Walthera Markela, základ pozdějšího Podkrušnohorského zooparku",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "chomutov",
     "year": 1982,
-    "text": "naběhly poslední bloky elektrárny Prunéřov II, spalující hnědé uhlí z okolních povrchových dolů"
+    "text": "naběhly poslední bloky elektrárny Prunéřov II, spalující hnědé uhlí z okolních povrchových dolů",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "chomutov",
     "year": 2012,
-    "text": "hokejisté se po vítězné baráži poprvé probojovali do extraligy a přijali nový název Piráti Chomutov"
+    "text": "hokejisté se po vítězné baráži poprvé probojovali do extraligy a přijali nový název Piráti Chomutov",
+    "rel": [
+      5,
+      2,
+      3,
+      1,
+      2,
+      2
+    ]
   },
   {
     "city": "chomutov",
     "year": 2020,
-    "text": "v červnu byla po více než padesáti letech provozu odstavena starší elektrárna Prunéřov I"
+    "text": "v červnu byla po více než padesáti letech provozu odstavena starší elektrárna Prunéřov I",
+    "rel": [
+      5,
+      2,
+      2,
+      1,
+      4,
+      3
+    ]
   }
 ]

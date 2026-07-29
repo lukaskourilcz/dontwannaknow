@@ -2,441 +2,1145 @@
   {
     "city": "kharkiv",
     "year": 1920,
-    "text": "Charkov se stal hlavním městem Ukrajinské SSR — a zůstal jím až do roku 1934"
+    "text": "Charkov se stal hlavním městem Ukrajinské SSR — a zůstal jím až do roku 1934",
+    "rel": [
+      5,
+      4,
+      3,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1921,
-    "text": "na východním okraji města bylo vybráno místo pro Charkovský traktorový závod"
+    "text": "na východním okraji města bylo vybráno místo pro Charkovský traktorový závod",
+    "rel": [
+      5,
+      1,
+      1,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1925,
-    "text": "Mykola Chvyljovyj zahájil literární diskusi vyzývající k ukrajinské orientaci pryč od Moskvy"
+    "text": "Mykola Chvyljovyj zahájil literární diskusi vyzývající k ukrajinské orientaci pryč od Moskvy",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1926,
-    "text": "divadlo Berezil Lese Kurbase se přesunulo z Kyjeva a znovu otevřelo na Sumské ulici"
+    "text": "divadlo Berezil Lese Kurbase se přesunulo z Kyjeva a znovu otevřelo na Sumské ulici",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1928,
-    "text": "na náměstí Svobody byl dokončen konstruktivistický věžový komplex Děržprom (Gosprom) — jeden z prvních v Evropě"
+    "text": "na náměstí Svobody byl dokončen konstruktivistický věžový komplex Děržprom (Gosprom) — jeden z prvních v Evropě",
+    "rel": [
+      5,
+      2,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1930,
-    "text": "v Charkovské opeře byl inscenován vykonstruovaný proces se SVU s ukrajinskou inteligencí ve stylu šachtinského procesu"
+    "text": "v Charkovské opeře byl inscenován vykonstruovaný proces se SVU s ukrajinskou inteligencí ve stylu šachtinského procesu",
+    "rel": [
+      5,
+      2,
+      2,
+      4,
+      4,
+      5
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1931,
-    "text": "z Charkovského traktorového závodu sjel první traktor SChTZ-15/30"
+    "text": "z Charkovského traktorového závodu sjel první traktor SChTZ-15/30",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1932,
-    "text": "komplex Gosprom hostil za prohlubujícího se hladomoru Všeukrajinskou stranickou konferenci"
+    "text": "komplex Gosprom hostil za prohlubujícího se hladomoru Všeukrajinskou stranickou konferenci",
+    "rel": [
+      5,
+      1,
+      1,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1933,
-    "text": "hladomor (holodomor) vrcholil; v charkovských ulicích ležela těla vyhladovělých rolníků, kteří přišli pro chléb"
+    "text": "hladomor (holodomor) vrcholil; v charkovských ulicích ležela těla vyhladovělých rolníků, kteří přišli pro chléb",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      5
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1933,
-    "text": "Mykola Chvyljovyj se na protest proti zatýkání a hladomoru zastřelil ve svém bytě v ulici Kultury"
+    "text": "Mykola Chvyljovyj se na protest proti zatýkání a hladomoru zastřelil ve svém bytě v ulici Kultury",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1934,
-    "text": "Les Kurbas byl zatčen a poslán do soloveckých táborů, kde byl později popraven"
+    "text": "Les Kurbas byl zatčen a poslán do soloveckých táborů, kde byl později popraven",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1935,
-    "text": "Charkovský lokomotivní závod zahájil sériovou výrobu těžkého tanku T-35"
+    "text": "Charkovský lokomotivní závod zahájil sériovou výrobu těžkého tanku T-35",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1937,
-    "text": "mnoho předních osobností ukrajinské 'popravené renesance' bylo zatčeno a zastřeleno v Charkově"
+    "text": "mnoho předních osobností ukrajinské 'popravené renesance' bylo zatčeno a zastřeleno v Charkově",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1937,
-    "text": "dramatik Mykola Kuliš byl v rámci popravené renesance zastřelen v Sandarmochu"
+    "text": "dramatik Mykola Kuliš byl v rámci popravené renesance zastřelen v Sandarmochu",
+    "rel": [
+      3,
+      1,
+      1,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1939,
-    "text": "v závodě č. 183 pod vedením Michaila Koškina byly vyvinuty tanky KV-1 a prototyp T-34"
+    "text": "v závodě č. 183 pod vedením Michaila Koškina byly vyvinuty tanky KV-1 a prototyp T-34",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1940,
-    "text": "tisíce polských důstojníků byly zastřeleny ve sklepech budovy NKVD a pohřbeny v Pjatychatkách v rámci masakrů souvisejících s Katyní"
+    "text": "tisíce polských důstojníků byly zastřeleny ve sklepech budovy NKVD a pohřbeny v Pjatychatkách v rámci masakrů souvisejících s Katyní",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1941,
-    "text": "wehrmacht obsadil město v říjnu; civilisté byli věšeni z balkonů na Sumské ulici"
+    "text": "wehrmacht obsadil město v říjnu; civilisté byli věšeni z balkonů na Sumské ulici",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1942,
-    "text": "druhá bitva o Charkov skončila v květnu katastrofální sovětskou porážkou"
+    "text": "druhá bitva o Charkov skončila v květnu katastrofální sovětskou porážkou",
+    "rel": [
+      5,
+      4,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1942,
-    "text": "rokle Drobyckij Jar byla místem vraždy asi 15 000 Židů Einsatzgruppe C"
+    "text": "rokle Drobyckij Jar byla místem vraždy asi 15 000 Židů Einsatzgruppe C",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1943,
-    "text": "Charkov byl potřetí a naposledy osvobozen v srpnu"
+    "text": "Charkov byl potřetí a naposledy osvobozen v srpnu",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1943,
-    "text": "při třetí bitvě o Charkov dobyl Mansteinův wehrmacht v březnu město zpět"
+    "text": "při třetí bitvě o Charkov dobyl Mansteinův wehrmacht v březnu město zpět",
+    "rel": [
+      5,
+      5,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1947,
-    "text": "Charkovský traktorový závod obnovil civilní výrobu traktorů modelem DT-54"
+    "text": "Charkovský traktorový závod obnovil civilní výrobu traktorů modelem DT-54",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1956,
-    "text": "teoretická škola Lva Landaua na Charkovském fyzikálně-technickém institutu zůstala významným centrem i po jeho přesunu do Moskvy"
+    "text": "teoretická škola Lva Landaua na Charkovském fyzikálně-technickém institutu zůstala významným centrem i po jeho přesunu do Moskvy",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1959,
-    "text": "otevřela se nová budova cirkusu na Dzeržinského náměstí"
+    "text": "otevřela se nová budova cirkusu na Dzeržinského náměstí",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      1
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1962,
-    "text": "Charkovský turbínový závod zahájil výrobu turbín pro vodní elektrárny na Volze"
+    "text": "Charkovský turbínový závod zahájil výrobu turbín pro vodní elektrárny na Volze",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1965,
-    "text": "Ljudmila Gurčenková, narozená v Charkově, byla už sovětskou filmovou hvězdou oslavovanou v kinech svého rodného města"
+    "text": "Ljudmila Gurčenková, narozená v Charkově, byla už sovětskou filmovou hvězdou oslavovanou v kinech svého rodného města",
+    "rel": [
+      5,
+      1,
+      4,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1969,
-    "text": "nádraží Pivdennyj vokzal prošlo velkou poválečnou rekonstrukcí se svou vysokou prosklenou halou"
+    "text": "nádraží Pivdennyj vokzal prošlo velkou poválečnou rekonstrukcí se svou vysokou prosklenou halou",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1972,
-    "text": "na lince Cholodnohirsko-zavodská se připravovala nová stanice metra Sportyvna"
+    "text": "na lince Cholodnohirsko-zavodská se připravovala nová stanice metra Sportyvna",
+    "rel": [
+      5,
+      1,
+      1,
+      2,
+      2,
+      1
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1976,
-    "text": "otevřelo se charkovské metro — teprve druhé na Ukrajině"
+    "text": "otevřelo se charkovské metro — teprve druhé na Ukrajině",
+    "rel": [
+      5,
+      4,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1978,
-    "text": "Metalist Charkov si opět vybojoval postup do sovětské nejvyšší ligy"
+    "text": "Metalist Charkov si opět vybojoval postup do sovětské nejvyšší ligy",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      1,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1922,
-    "text": "Charkov byl hlavním městem Ukrajinské SSR; nová sovětská byrokracie zaplnila kancelářské budovy kolem Sumské ulice"
+    "text": "Charkov byl hlavním městem Ukrajinské SSR; nová sovětská byrokracie zaplnila kancelářské budovy kolem Sumské ulice",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      3,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1923,
-    "text": "do města dosáhla korenizace — v centru se objevily dvojjazyčné dopravní značky"
+    "text": "do města dosáhla korenizace — v centru se objevily dvojjazyčné dopravní značky",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1925,
-    "text": "Mykola Chvyljovyj založil v Charkově literární skupinu VAPLITE — srdce ukrajinské 'popravené renesance'"
+    "text": "Mykola Chvyljovyj založil v Charkově literární skupinu VAPLITE — srdce ukrajinské 'popravené renesance'",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      5
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1930,
-    "text": "s pomocí amerického inženýrství se otevřel Charkovský traktorový závod (ChTZ) — vlajková loď pětiletky"
+    "text": "s pomocí amerického inženýrství se otevřel Charkovský traktorový závod (ChTZ) — vlajková loď pětiletky",
+    "rel": [
+      5,
+      4,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1931,
-    "text": "divadlo Berezil pod vedením Lese Kurbase prosazovalo experimentální ukrajinské drama, než bylo v roce 1933 uzavřeno"
+    "text": "divadlo Berezil pod vedením Lese Kurbase prosazovalo experimentální ukrajinské drama, než bylo v roce 1933 uzavřeno",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1934,
-    "text": "hlavní město Ukrajinské SSR se přesunulo do Kyjeva; Charkov si ponechal těžký průmysl, ale ztratil politickou váhu"
+    "text": "hlavní město Ukrajinské SSR se přesunulo do Kyjeva; Charkov si ponechal těžký průmysl, ale ztratil politickou váhu",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1942,
-    "text": "druhá německá bitva o Charkov v květnu znamenala ztrátu 277 000 mužů Rudé armády, největší sovětskou porážku roku 1942"
+    "text": "druhá německá bitva o Charkov v květnu znamenala ztrátu 277 000 mužů Rudé armády, největší sovětskou porážku roku 1942",
+    "rel": [
+      5,
+      5,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1942,
-    "text": "veřejné věšení z balkonů na Sumské ulici se stalo pravidelnou represálií wehrmachtu proti partyzánům"
+    "text": "veřejné věšení z balkonů na Sumské ulici se stalo pravidelnou represálií wehrmachtu proti partyzánům",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1944,
-    "text": "charkovský proces s válečnými zločiny — první svého druhu — odsoudil důstojníky wehrmachtu a SS k smrti za zvěrstva"
+    "text": "charkovský proces s válečnými zločiny — první svého druhu — odsoudil důstojníky wehrmachtu a SS k smrti za zvěrstva",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1953,
-    "text": "Charkovský traktorový závod obnovil výrobu civilních traktorů po letech výroby tanků T-34"
+    "text": "Charkovský traktorový závod obnovil výrobu civilních traktorů po letech výroby tanků T-34",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1962,
-    "text": "Lev Landau, který do roku 1937 vyučoval na Charkovské univerzitě, získal Nobelovu cenu za fyziku"
+    "text": "Lev Landau, který do roku 1937 vyučoval na Charkovské univerzitě, získal Nobelovu cenu za fyziku",
+    "rel": [
+      2,
+      0,
+      2,
+      3,
+      1,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1975,
-    "text": "Charkovský letecký závod vyráběl Tupolev Tu-134 — tažného koně Aeroflotu a dopravců východního bloku"
+    "text": "Charkovský letecký závod vyráběl Tupolev Tu-134 — tažného koně Aeroflotu a dopravců východního bloku",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      3,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1940,
-    "text": "v charkovském závodě č. 183 začala sériová výroba tanku T-34 — nejvyráběnějšího tanku druhé světové války"
+    "text": "v charkovském závodě č. 183 začala sériová výroba tanku T-34 — nejvyráběnějšího tanku druhé světové války",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1941,
-    "text": "20. až 24. října obsadil wehrmacht město během první bitvy o Charkov v závěru operace Barbarossa"
+    "text": "20. až 24. října obsadil wehrmacht město během první bitvy o Charkov v závěru operace Barbarossa",
+    "rel": [
+      5,
+      5,
+      3,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1941,
-    "text": "tankový závod č. 183 byl v září evakuován po železnici do Nižního Tagilu, kde výroba T-34 pokračovala už v prosinci"
+    "text": "tankový závod č. 183 byl v září evakuován po železnici do Nižního Tagilu, kde výroba T-34 pokračovala už v prosinci",
+    "rel": [
+      5,
+      4,
+      2,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1942,
-    "text": "v pojízdných plynových komorách tu Němci poprvé testovali vraždění lidí výfukovými plyny"
+    "text": "v pojízdných plynových komorách tu Němci poprvé testovali vraždění lidí výfukovými plyny",
+    "rel": [
+      5,
+      3,
+      1,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1943,
-    "text": "v únoru Rudá armáda město dobyla zpět, než ho Mansteinovy tankové divize v březnu znovu obsadily"
+    "text": "v únoru Rudá armáda město dobyla zpět, než ho Mansteinovy tankové divize v březnu znovu obsadily",
+    "rel": [
+      5,
+      5,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1943,
-    "text": "závěrečná bělgorodsko-charkovská operace osvobodila město 23. srpna a otevřela cestu k osvobození levobřežní Ukrajiny"
+    "text": "závěrečná bělgorodsko-charkovská operace osvobodila město 23. srpna a otevřela cestu k osvobození levobřežní Ukrajiny",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1943,
-    "text": "město bylo za války zničeno ze 70 % a patřilo po Stalingradu k nejvíce zpustošeným sovětským městům"
+    "text": "město bylo za války zničeno ze 70 % a patřilo po Stalingradu k nejvíce zpustošeným sovětským městům",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1943,
-    "text": "od 15. do 18. prosince proběhl charkovský proces — vůbec první soud spojeneckých mocností s nacistickými válečnými zločinci"
+    "text": "od 15. do 18. prosince proběhl charkovský proces — vůbec první soud spojeneckých mocností s nacistickými válečnými zločinci",
+    "rel": [
+      5,
+      2,
+      2,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1949,
-    "text": "Charkovský traktorový závod zahájil výrobu pásového traktoru DT-54, vyráběného až do počátku 60. let"
+    "text": "Charkovský traktorový závod zahájil výrobu pásového traktoru DT-54, vyráběného až do počátku 60. let",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1952,
-    "text": "2. listopadu se otevřela nová budova nádraží Pivdennyj vokzal ve stylu stalinského empíru namísto té zničené za války"
+    "text": "2. listopadu se otevřela nová budova nádraží Pivdennyj vokzal ve stylu stalinského empíru namísto té zničené za války",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1955,
-    "text": "závod FED zahájil výrobu dálkoměrného fotoaparátu FED 2, jehož se do roku 1970 vyrobilo přes 1,6 milionu kusů"
+    "text": "závod FED zahájil výrobu dálkoměrného fotoaparátu FED 2, jehož se do roku 1970 vyrobilo přes 1,6 milionu kusů",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1956,
-    "text": "ze Šebelynského ložiska, jež rozvíjeli charkovští inženýři, začala těžba zemního plynu — jednoho z největších v SSSR"
+    "text": "ze Šebelynského ložiska, jež rozvíjeli charkovští inženýři, začala těžba zemního plynu — jednoho z největších v SSSR",
+    "rel": [
+      4,
+      2,
+      2,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1970,
-    "text": "Charkovský turbínový závod Turboatom vyvinul výkonnou parní turbínu pro jaderné elektrárny s reaktory RBMK"
+    "text": "Charkovský turbínový závod Turboatom vyvinul výkonnou parní turbínu pro jaderné elektrárny s reaktory RBMK",
+    "rel": [
+      5,
+      1,
+      1,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1971,
-    "text": "ekonom Simon Kuznets, rodák z Charkova, získal Nobelovu cenu za ekonomii za výzkum hospodářského růstu"
+    "text": "ekonom Simon Kuznets, rodák z Charkova, získal Nobelovu cenu za ekonomii za výzkum hospodářského růstu",
+    "rel": [
+      2,
+      0,
+      2,
+      4,
+      2,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1975,
-    "text": "23. srpna se otevřelo charkovské metro, šesté v SSSR, právě na výročí osvobození města"
+    "text": "23. srpna se otevřelo charkovské metro, šesté v SSSR, právě na výročí osvobození města",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1984,
-    "text": "10. srpna byla otevřena druhá, Saltivská linka metra obsluhující obří sídliště na severovýchodě města"
+    "text": "10. srpna byla otevřena druhá, Saltivská linka metra obsluhující obří sídliště na severovýchodě města",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1986,
-    "text": "24. října prodloužila Saltivská linka metra ke stanici Heroiv Praci na okraji největšího sídliště"
+    "text": "24. října prodloužila Saltivská linka metra ke stanici Heroiv Praci na okraji největšího sídliště",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1988,
-    "text": "Metalist Charkov získal sovětský pohár, když ve finále porazil Dynamo Moskva 2:0 — největší klubový úspěch sovětské éry"
+    "text": "Metalist Charkov získal sovětský pohár, když ve finále porazil Dynamo Moskva 2:0 — největší klubový úspěch sovětské éry",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1989,
-    "text": "Saltivka platila za největší panelové sídliště Ukrajiny i bývalého SSSR s více než 400 tisíci obyvateli"
+    "text": "Saltivka platila za největší panelové sídliště Ukrajiny i bývalého SSSR s více než 400 tisíci obyvateli",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1991,
-    "text": "stanice metra Dzeržynska byla 27. srpna přejmenována na Universytet poté, co náměstí Dzeržinského dostalo jméno náměstí Svobody"
+    "text": "stanice metra Dzeržynska byla 27. srpna přejmenována na Universytet poté, co náměstí Dzeržinského dostalo jméno náměstí Svobody",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1995,
-    "text": "6. května se otevřela stanice metra Děržprom na nové Oleksijivské lince — třetí v charkovském systému"
+    "text": "6. května se otevřela stanice metra Děržprom na nové Oleksijivské lince — třetí v charkovském systému",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      1
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2009,
-    "text": "stadion Metalist prošel rekonstrukcí s charakteristickou střechou na „pavoučích nohách“ před fotbalovým EURO 2012"
+    "text": "stadion Metalist prošel rekonstrukcí s charakteristickou střechou na „pavoučích nohách“ před fotbalovým EURO 2012",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2012,
-    "text": "Charkov hostil tři zápasy skupiny B na EURO 2012; všechny tři tu odehrálo Nizozemsko na stadionu Metalist"
+    "text": "Charkov hostil tři zápasy skupiny B na EURO 2012; všechny tři tu odehrálo Nizozemsko na stadionu Metalist",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2014,
-    "text": "6. dubna obsadili proruští demonstranti budovu oblastní správy a vyhlásili tzv. Charkovskou lidovou republiku"
+    "text": "6. dubna obsadili proruští demonstranti budovu oblastní správy a vyhlásili tzv. Charkovskou lidovou republiku",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2014,
-    "text": "obsazenou oblastní správu vyklidila jednotka speciálních sil za patnáct minut bez jediného výstřelu a zatkla 65 osob"
+    "text": "obsazenou oblastní správu vyklidila jednotka speciálních sil za patnáct minut bez jediného výstřelu a zatkla 65 osob",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2014,
-    "text": "28. září strhli aktivisté na náměstí Svobody největší Leninovu sochu v zemi, vysokou 8,5 metru"
+    "text": "28. září strhli aktivisté na náměstí Svobody největší Leninovu sochu v zemi, vysokou 8,5 metru",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2016,
-    "text": "v rámci dekomunizace bylo 17. května přejmenováno několik stanic metra včetně Radjanské armiji na Armijska"
+    "text": "v rámci dekomunizace bylo 17. května přejmenováno několik stanic metra včetně Radjanské armiji na Armijska",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2022,
-    "text": "24. února zahájilo Rusko bitvu o Charkov; město leží jen 30 km od ruských hranic"
+    "text": "24. února zahájilo Rusko bitvu o Charkov; město leží jen 30 km od ruských hranic",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2022,
-    "text": "1. března zasáhla raketa budovu oblastní správy na náměstí Svobody a zničila i slovinský konzulát"
+    "text": "1. března zasáhla raketa budovu oblastní správy na náměstí Svobody a zničila i slovinský konzulát",
+    "rel": [
+      5,
+      4,
+      5,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2022,
-    "text": "17. března zapálilo ruské ostřelování raketomety Grad tržnici Barabaševo, jednu z největších ve východní Evropě"
+    "text": "17. března zapálilo ruské ostřelování raketomety Grad tržnici Barabaševo, jednu z největších ve východní Evropě",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2022,
-    "text": "v Saltivce zahynul při ostřelování Borys Romančenko, jenž přežil čtyři nacistické koncentrační tábory"
+    "text": "v Saltivce zahynul při ostřelování Borys Romančenko, jenž přežil čtyři nacistické koncentrační tábory",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2022,
-    "text": "6. září zahájila ukrajinská armáda protiofenzívu, jež během dní osvobodila Izjum, Kupjansk a tisíce kilometrů čtverečních oblasti"
+    "text": "6. září zahájila ukrajinská armáda protiofenzívu, jež během dní osvobodila Izjum, Kupjansk a tisíce kilometrů čtverečních oblasti",
+    "rel": [
+      4,
+      4,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2023,
-    "text": "od 1. září se kvůli ostřelování učily tisíce žáků v desítkách improvizovaných tříd ve stanicích charkovského metra"
+    "text": "od 1. září se kvůli ostřelování učily tisíce žáků v desítkách improvizovaných tříd ve stanicích charkovského metra",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2024,
-    "text": "23. května zničila ruská raketa tiskárnu Faktor-Druk; zahynulo sedm lidí a shořelo přes 50 000 knih"
+    "text": "23. května zničila ruská raketa tiskárnu Faktor-Druk; zahynulo sedm lidí a shořelo přes 50 000 knih",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2024,
-    "text": "25. května zabil ruský letecký úder na hypermarket Epicentr 19 lidí a desítky zranil"
+    "text": "25. května zabil ruský letecký úder na hypermarket Epicentr 19 lidí a desítky zranil",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2024,
-    "text": "26. července byly v rámci derusifikace přejmenovány stanice metra i ulice — stanice Heroiv Praci se stala Saltivskou"
+    "text": "26. července byly v rámci derusifikace přejmenovány stanice metra i ulice — stanice Heroiv Praci se stala Saltivskou",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2025,
-    "text": "tržnice Barabaševo znovu vzplála po ruském úderu klouzavými bombami a raketami"
+    "text": "tržnice Barabaševo znovu vzplála po ruském úderu klouzavými bombami a raketami",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1953,
-    "text": "po válce zničená charkovská zoo, nejstarší na Ukrajině z roku 1895, dokončila obnovu a znovu se naplno otevřela návštěvníkům"
+    "text": "po válce zničená charkovská zoo, nejstarší na Ukrajině z roku 1895, dokončila obnovu a znovu se naplno otevřela návštěvníkům",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      5,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1957,
-    "text": "v bývalé Mordvinovské synagoze se z podnětu astronoma Mykoly Barabašova otevřelo charkovské planetárium"
+    "text": "v bývalé Mordvinovské synagoze se z podnětu astronoma Mykoly Barabašova otevřelo charkovské planetárium",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      4,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 1961,
-    "text": "válkou vypálený konstruktivistický Dům projektů byl přestavěn ve stalinském stylu na hlavní budovu Charkovské univerzity"
+    "text": "válkou vypálený konstruktivistický Dům projektů byl přestavěn ve stalinském stylu na hlavní budovu Charkovské univerzity",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      5,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2017,
-    "text": "konstruktivistický Děržprom byl zapsán na předběžný seznam světového dědictví UNESCO jako největší stavba svého slohu"
+    "text": "konstruktivistický Děržprom byl zapsán na předběžný seznam světového dědictví UNESCO jako největší stavba svého slohu",
+    "rel": [
+      5,
+      0,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2022,
-    "text": "7. května zničil ruský raketový úder muzeum filozofa Hryhorije Skovorody v Skovorodynivce právě v roce 300. výročí jeho narození"
+    "text": "7. května zničil ruský raketový úder muzeum filozofa Hryhorije Skovorody v Skovorodynivce právě v roce 300. výročí jeho narození",
+    "rel": [
+      3,
+      1,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2024,
-    "text": "23. ledna zabil přímý zásah pětipatrového obytného domu raketami šest lidí a 57 jich zranil, mezi nimi osm dětí"
+    "text": "23. ledna zabil přímý zásah pětipatrového obytného domu raketami šest lidí a 57 jich zranil, mezi nimi osm dětí",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2024,
-    "text": "10. května zahájilo Rusko pozemní ofenzívu přes hranici směrem na Vovčansk a Lypci a otevřelo nový front u Charkova"
+    "text": "10. května zahájilo Rusko pozemní ofenzívu přes hranici směrem na Vovčansk a Lypci a otevřelo nový front u Charkova",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2024,
-    "text": "31. října poškodil ruský úder Děržprom, ikonu konstruktivismu, jen pár dní po petici za jeho zápis na seznam UNESCO"
+    "text": "31. října poškodil ruský úder Děržprom, ikonu konstruktivismu, jen pár dní po petici za jeho zápis na seznam UNESCO",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "kharkiv",
     "year": 2024,
-    "text": "od léta čelily severní okraje Charkova klouzavým bombám KAB, jež srovnávaly celé sekce panelových domů"
+    "text": "od léta čelily severní okraje Charkova klouzavým bombám KAB, jež srovnávaly celé sekce panelových domů",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      5,
+      3
+    ]
   }
 ]

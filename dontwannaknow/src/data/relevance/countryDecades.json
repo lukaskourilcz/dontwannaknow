@@ -1,0 +1,4325 @@
+{
+ "promptVersion": "relevance-v1",
+ "model": "claude-fable-5",
+ "scoredAt": "2026-07-29",
+ "passes": {
+  "A": [
+   "livedProximity",
+   "everydayConsequence",
+   "consequenceHorizon"
+  ],
+  "B": [
+   "recognition",
+   "discovery"
+  ],
+  "C": [
+   "explanatoryPayload"
+  ]
+ },
+ "records": [
+  {
+   "key": "CZ|1920|beautiful|Janáčkovy opery měly premiéry v Brně a putovaly do celého světa.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Operní premiéry oslovily kulturní menšinu, běžný den neměnily.",
+    "B": "Janáčkovy premiéry zažili spíš Brňané a kulturní publikum; světový ohlas zná zájemce.",
+    "C": "Kulturní úspěch Janáčka, spíše dílčí zajímavost pro běžného obyvatele."
+   }
+  },
+  {
+   "key": "CZ|1920|beautiful|Československo patřilo k deseti nejprůmyslovějším zemím na světě.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Průmyslová síla znamenala práci a životní úroveň po celé období republiky.",
+    "B": "Průmyslovou sílu lidé žili nepřímo; umístění v top 10 zná poučený zájemce.",
+    "C": "Průmyslová špička vysvětluje sebevědomí a prosperitu první republiky."
+   }
+  },
+  {
+   "key": "CZ|1920|bizarre|Roboti dostali jméno právě tady — hra Karla Čapka R.U.R. měla premiéru v roce 1921.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Kulturní prvenství se světovým ohlasem, den běžných lidí nezměnilo.",
+    "B": "Premiéru R.U.R. zažil úzký okruh; původ slova robot je široce známý.",
+    "C": "Vznik slova robot spojuje místní kulturu se světovým dopadem."
+   }
+  },
+  {
+   "key": "CZ|1920|bizarre|Čeští lékaři tehdy vyvíjeli prototyp vůbec první kontaktní čočky na světě.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 1,
+    "discovery": 4,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Prototyp bez dobového dopadu na domácnosti; nejistý přesah, skóruji střízlivě.",
+    "B": "Vývoj čoček veřejnost nevnímala; české prvenství (Wichterle až později, prototypy dřív) překvapí i sečtělé — nejistota kolem datace, skóruji střízlivě.",
+    "C": "Zajímavost o kontaktní čočce, malý vliv na životy kohorty; datace nejistá."
+   }
+  },
+  {
+   "key": "CZ|1920|clothes|Baťa ve Zlíně vyráběl dostupné kožené boty, které se staly výrazným symbolem moderního životního stylu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Dostupné boty Baťa změnily nákupy širokých vrstev, značka přetrvala desetiletí.",
+    "B": "Baťovy boty byly masovou zkušeností; Baťa je široce známý symbol.",
+    "C": "Baťa vysvětluje mechanismus masové výroby a modernizace životního stylu."
+   }
+  },
+  {
+   "key": "CZ|1920|clothes|Muži v Praze nosili třídílné obleky s homburgem nebo měkkým plstěným kloboukem.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Běžný městský oděv mužů, každodenní, ale módně pomíjivý detail.",
+    "B": "Běžný mužský oděv doby; konkrétní typy klobouků drobně poučí.",
+    "C": "Dílčí módní detail bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1920|clothes|Na Moravě a Slovensku se vyšívaný kroj stále nosil běžně do kostela.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Kroj byl součástí venkovské rutiny, postupně mizel během jednotek let.",
+    "B": "Kroj do kostela byl živou venkovskou praxí; fakt je poměrně známý.",
+    "C": "Přetrvávající kroj ukazuje kulturní rozdíl mezi městem a venkovem."
+   }
+  },
+  {
+   "key": "CZ|1920|clothes|Ženy ve městech si nechávaly stříhat vlasy na mikádo a nosily flapper šaty se sníženým pasem.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Městská móda se týkala části žen, dobová vlna bez dlouhého horizontu.",
+    "B": "Mikádo a flapper móda byla viditelná městská zkušenost; obecně známý obraz 20. let.",
+    "C": "Mikádo a flapper šaty konkretizují modernizaci městských žen."
+   }
+  },
+  {
+   "key": "CZ|1920|dailyLife|Nedělní odpoledne znamenala procházku v parku a koncert dechovky.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Běžná nedělní rutina mnoha rodin, ale pomíjivá zvyková epizoda.",
+    "B": "Nedělní korzo a dechovka byla masová zvyklost; obraz je obecně známý.",
+    "C": "Dílčí obrázek nedělního volna, bez širšího vysvětlení."
+   }
+  },
+  {
+   "key": "CZ|1920|dailyLife|Pražské kavárny jako Slavia byly plné spisovatelů a novinářů; Kafka byl naživu až do roku 1924.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Kavárenská kultura se týkala úzké pražské vrstvy, dobový kolorit.",
+    "B": "Kavárenská Praha byla pro měšťany prožitá; Kafka a Slavia jsou známé reálie.",
+    "C": "Kavárenská kultura nese kus příběhu meziválečné Prahy."
+   }
+  },
+  {
+   "key": "CZ|1920|dailyLife|Václavským náměstím rachotily tramvaje a káva stála pár haléřů.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Atmosférický detail pražské každodennosti bez trvalých důsledků.",
+    "B": "Tramvaje na Václaváku byly každodenností Pražanů; cena kávy je pěkný méně známý detail.",
+    "C": "Atmosférický detail všedního dne bez hlubší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1920|food|Neděle znamenala vepřové, knedlíky a zelí — věčné vepřo-knedlo-zelo.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Nedělní jídlo bylo rutinou většiny domácností a přetrvalo generace.",
+    "B": "Nedělní vepřo-knedlo-zelo je téměř univerzální česká zkušenost i klišé.",
+    "C": "Známé jídlo, dílčí zajímavost každodennosti."
+   }
+  },
+  {
+   "key": "CZ|1920|food|Plzeňský Prazdroj se už vyvážel do celého světa.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Export piva byl symbolem, denní život měnil jen okrajově.",
+    "B": "Plzeňské pivo pili mnozí; světový export je široce známý fakt.",
+    "C": "Export Prazdroje je dílčí fakt bez místního důsledku pro běžný život."
+   }
+  },
+  {
+   "key": "CZ|1920|food|V chudších domácnostech byla káva často cikorková směs zvaná cikorka.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Cikorka byla každodenní realitou chudších domácností po řadu let.",
+    "B": "Cikorka byla běžnou náhražkou v chudších domácnostech; dnešního čtenáře překvapí.",
+    "C": "Cikorka ukazuje ekonomickou realitu chudších domácností."
+   }
+  },
+  {
+   "key": "CZ|1920|government|Parlament zasedal v Praze a Alois Rašín navázal korunu na zlato.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Rašínova měnová politika stabilizovala ceny a úspory většiny domácností na léta.",
+    "B": "Rašínova měnová politika ovlivnila všechny, ale detail navázání na zlato zná spíš zájemce.",
+    "C": "Rašínova měnová politika vysvětluje stabilitu koruny a hospodářský mechanismus doby."
+   }
+  },
+  {
+   "key": "CZ|1920|government|Všeobecné volební právo zahrnovalo i ženy — v tehdejší Evropě vzácnost.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Volební právo žen změnilo občanský život poloviny populace trvale.",
+    "B": "Volby prožila většina dospělých; vzácnost ženského práva v Evropě je méně známý kontext.",
+    "C": "Volební právo žen ukazuje výjimečnost čs. demokracie v dobovém srovnání."
+   }
+  },
+  {
+   "key": "CZ|1920|government|Československo bylo mladou demokracií v čele s prezidentem-filozofem T. G. Masarykem.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 0,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Charakter mladé demokracie rámoval veřejný život, přímý denní dopad omezený.",
+    "B": "Masaryk jako prezident je sdílená paměť generace i školní učivo.",
+    "C": "Charakterizuje mladou demokracii a její symbolickou hlavu, rámec celé dekády."
+   }
+  },
+  {
+   "key": "CZ|1920|illnesses|Tuberkulóza byla velkým zabijákem; celá sanatoria byla rozeseta po Tatrách i Krkonoších.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "TBC ovlivňovala rodiny, strach i léčebné pobyty po celé meziválečné období.",
+    "B": "TBC se dotkla mnoha rodin; rozsah sanatorií zná spíš zájemce.",
+    "C": "TBC a sanatoria vysvětlují zdravotní realitu a instituce doby."
+   }
+  },
+  {
+   "key": "CZ|1920|illnesses|Záškrt si stále bral malé děti; na vesnicích bylo antitoxinu málo.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Dětská úmrtí na záškrt formovala strach rodin, zejména venkovských.",
+    "B": "Záškrt v rodinné paměti venkova; nedostatek antitoxinu běžného čtenáře překvapí.",
+    "C": "Záškrt a nedostupný antitoxin ukazují nerovnost města a venkova."
+   }
+  },
+  {
+   "key": "CZ|1920|illnesses|Španělská chřipka právě odezněla a zanechala po sobě celou generaci vdov.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Pandemie zasáhla většinu domácností; ovdovění a ztráty nesly rodiny desetiletí.",
+    "B": "Španělská chřipka zasáhla skoro každou rodinu; obraz generace vdov je méně známý.",
+    "C": "Dozvuk španělské chřipky vysvětluje demografickou stopu v rodinách."
+   }
+  },
+  {
+   "key": "CZ|1920|money|Bochník tmavého chleba stál asi 2 koruny.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 1,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Cena chleba patřila ke každodenním nákupům, údaj platil krátce.",
+    "B": "Cena chleba byla denní realitou; přesná hodnota běžného čtenáře poučí.",
+    "C": "Cena chleba dává měřítko kupní síly."
+   }
+  },
+  {
+   "key": "CZ|1920|money|Průmyslový dělník v Praze vydělával kolem 250 korun týdně.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Výše mzdy určovala rozpočet dělnických rodin, konkrétní údaj dobový.",
+    "B": "Mzda se týkala dělnických rodin přímo; konkrétní částka je pro čtenáře nová.",
+    "C": "Konkrétní mzda ukotvuje životní úroveň dělníka."
+   }
+  },
+  {
+   "key": "CZ|1920|money|Pár kožených bot od Bati přišel na 60 korun — pořádný výdaj.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Cena bot ilustruje rozpočty rodin, jde o dílčí dobový údaj.",
+    "B": "Nákup bot byl významný výdaj; poměr ceny k týdenní mzdě překvapí.",
+    "C": "Cena bot vůči mzdě vysvětluje, co byl velký výdaj."
+   }
+  },
+  {
+   "key": "CZ|1930|beautiful|Architektura a funkcionalismus udělaly z Brna jednu ze světových metropolí designu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Funkcionalismus změnil tvář Brna trvale, běžný den většiny jen okrajově.",
+    "B": "Funkcionalismus vnímali hlavně Brňané; světový význam brněnské architektury běžného čtenáře překvapí.",
+    "C": "Funkcionalistické Brno vysvětluje modernistické ambice republiky."
+   }
+  },
+  {
+   "key": "CZ|1930|beautiful|Českoslovenští lyžaři a gymnasté pravidelně získávali medaile na mezinárodních soutěžích.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 1,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Sportovní úspěchy těšily veřejnost, každodennost neměnily.",
+    "B": "Sportovní úspěchy sledovala část veřejnosti; konkrétní disciplíny zná zájemce.",
+    "C": "Sportovní úspěchy jako dílčí zajímavost bez souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1930|bizarre|Nad Prahou bděla hliníková rozhledna, petřínská „mini-Eiffelovka“.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 1
+   },
+   "rationales": {
+    "A": "Rozhledna je trvalou pražskou dominantou, denní život však neměnila; stojí od 1891.",
+    "B": "Petřínskou rozhlednu znali Pražané i výletníci; přirovnání k Eiffelovce je obecně známé — pozor, je ocelová, ne hliníková.",
+    "C": "Rozhledna je jen kulisa bez příběhu doby; navíc je ocelová, ne hliníková."
+   }
+  },
+  {
+   "key": "CZ|1930|bizarre|Čechoslováci vynalezli kostkový cukr — a padák (Štefan Banič).",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 1,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Zajímavost o vynálezech, bez dopadu na tehdejší všední den; Banič byl Slovák.",
+    "B": "Vynálezy nejsou prožitá zkušenost 30. let; kostkový cukr i Baničův padák běžného čtenáře překvapí — časové zařazení do dekády je volné.",
+    "C": "Zajímavost o vynálezech, k dekádě 30. let volně přiřazená."
+   }
+  },
+  {
+   "key": "CZ|1930|clothes|Baťovy továrny vyrobily ročně miliony plátěných letních bot.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Levné plátěnky obouvaly širokou populaci během dekády.",
+    "B": "Levné plátěnky nosily masy; milionové objemy výroby čtenáře poučí.",
+    "C": "Masová výroba Baťových bot ukazuje průmyslový rozměr každodennosti."
+   }
+  },
+  {
+   "key": "CZ|1930|clothes|Muži kombinovali tvídová saka s pumpkami na výlety za město.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 1,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Výletní oděv části mužů, dobová módní epizoda.",
+    "B": "Výlety v pumpkách byly dobově typické; detail zná spíš zájemce o módu.",
+    "C": "Módní zajímavost o výletech, bez mechanismu doby."
+   }
+  },
+  {
+   "key": "CZ|1930|clothes|Městská móda třicátých let nabízela delší sukně, zvýrazněný pas, halenky a praktické kostýmky.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Městská móda se týkala části žen, střihy se rychle měnily.",
+    "B": "Popsaná móda byla běžná ve městech; obecný obraz 30. let.",
+    "C": "Popis městské módy, dílčí bez příběhu."
+   }
+  },
+  {
+   "key": "CZ|1930|clothes|Šaty střižené do šíře a liščí kožešiny pro ženy do kina.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 1,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Módní detail městských žen, sezónní vlna bez trvalých důsledků.",
+    "B": "Kino a městská móda byly rozšířené; konkrétní detaily kožešin mírně poučí.",
+    "C": "Dílčí módní detail bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1930|dailyLife|Rádia měly měšťanské domácnosti; celé rodiny se scházely u večerního vysílání.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Rozhlas změnil večery měšťanských rodin a zůstal na desetiletí.",
+    "B": "Večerní poslech rádia byl sdíleným rodinným rituálem měšťanstva; známý obraz.",
+    "C": "Rozhlas vysvětluje novou mechaniku sdílené informace a rodinného večera."
+   }
+  },
+  {
+   "key": "CZ|1930|dailyLife|Swingové a trampské taneční večery patřily k pražskému kulturnímu životu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 1,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Taneční večery byly zábavou městské menšiny, pomíjivá scéna.",
+    "B": "Swing a tramping zažila hlavně městská mládež; spojení obou scén mírně poučí.",
+    "C": "Dílčí obrázek pražské zábavy."
+   }
+  },
+  {
+   "key": "CZ|1930|dailyLife|Z linky v Mladé Boleslavi sjížděla auta Škoda a z Prahy vyjížděly lokomotivy ČKD.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Průmysl dával práci regionům, přímý dopad mimo zaměstnance omezený.",
+    "B": "Škoda a ČKD byly viditelné značky každodennosti; obecně známé reálie.",
+    "C": "Škoda a ČKD ukazují průmyslovou páteř země."
+   }
+  },
+  {
+   "key": "CZ|1930|food|Paukertův obložený chlebíček, uvedený už kolem roku 1916, zůstával oblíbenou součástí pražských lahůdkářství.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Chlebíček byl pražskou lahůdkou pro část obyvatel, tradice ale přetrvala.",
+    "B": "Chlebíčky znali Pražané z lahůdkářství; Paukertův původ běžného čtenáře překvapí.",
+    "C": "Chlebíček je milá zajímavost bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1930|food|Plzeňské pivovary vařily i během krize — pivo zůstávalo levné.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Levné pivo bylo drobnou útěchou krize, epizodický údaj.",
+    "B": "Levné pivo v krizi bylo prožívanou samozřejmostí; detail o vaření během krize mírně poučí.",
+    "C": "Levné pivo za krize ukazuje priority a stabilitu každodennosti."
+   }
+  },
+  {
+   "key": "CZ|1930|food|Sádlo na chlebu s cibulí bylo vesnickou odpolední svačinou.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Běžná svačina venkovských domácností, každodenní, ale drobný zvyk.",
+    "B": "Chleba se sádlem a cibulí je široce sdílená venkovská vzpomínka; obecně známé.",
+    "C": "Sádlo s cibulí konkretizuje skromnou venkovskou stravu."
+   }
+  },
+  {
+   "key": "CZ|1930|government|Do března 1939 se zbytek Čech a Moravy stal nacistickým protektorátem.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Okupace změnila, co lidé směli říkat, kupovat i čeho se báli.",
+    "B": "Vznik protektorátu prožili všichni; obecně známý fakt.",
+    "C": "Vznik protektorátu vysvětluje ztrátu státnosti a začátek okupace."
+   }
+  },
+  {
+   "key": "CZ|1930|government|Masaryk předal prezidentský úřad Edvardu Benešovi v roce 1935; republika se orientovala na západ, na Francii.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Předání úřadu a zahraniční orientace rámovaly politiku, den přímo neměnily.",
+    "B": "Předání úřadu Benešovi byla celonárodní událost; jde o známé učivo s drobným kontextem.",
+    "C": "Předání úřadu a orientace na Francii rámují politiku dekády."
+   }
+  },
+  {
+   "key": "CZ|1930|government|Mnichovská dohoda v roce 1938 přinutila zemi vzdát se Sudet.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Mnichov vyhnal statisíce lidí, změnil hranice i osud země trvale.",
+    "B": "Mnichov je formující zkušenost celé generace i základní školní učivo.",
+    "C": "Mnichov je klíč k pochopení zlomu, který formoval všechny životy."
+   }
+  },
+  {
+   "key": "CZ|1930|illnesses|Epidemie dětské obrny se vracely zejména v letních měsících.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Letní epidemie obrny měnily chování rodin s dětmi opakovaně.",
+    "B": "Letní vlny obrny děsily rodiče; sezónnost zná spíš poučený čtenář.",
+    "C": "Letní epidemie obrny nesou reálný strach rodin s dětmi."
+   }
+  },
+  {
+   "key": "CZ|1930|illnesses|Tuberkulóza i přes nové očkování BCG stále zabíjela tisíce lidí ročně.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "TBC dál určovala strach a ztráty rodin po celou dekádu.",
+    "B": "TBC dál zasahovala rodiny; existence BCG ve 30. letech je méně známá.",
+    "C": "TBC navzdory BCG vysvětluje limity dobové medicíny."
+   }
+  },
+  {
+   "key": "CZ|1930|illnesses|Zápal plic byl vážnou diagnózou — antibiotika ještě neexistovala.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Bez antibiotik byl zápal plic reálným ohrožením každé domácnosti.",
+    "B": "Strach ze zápalu plic patřil k době; absence antibiotik čtenáři připomene jinou realitu.",
+    "C": "Svět bez antibiotik vysvětluje, proč běžná nemoc znamenala ohrožení života."
+   }
+  },
+  {
+   "key": "CZ|1930|money|Hospodářská krize udeřila tvrdě — v roce 1933 byl bez práce skoro milion Čechoslováků.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Masová nezaměstnanost změnila obživu a strach velké části domácností na roky.",
+    "B": "Krize a nezaměstnanost zasáhly téměř každou rodinu; číslo milion je známé z výuky.",
+    "C": "Milion nezaměstnaných vysvětluje krizovou zkušenost celé generace."
+   }
+  },
+  {
+   "key": "CZ|1930|money|Měsíční plat pražského úředníka činil kolem 1 200 korun.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Platový údaj rámuje rozpočty úřednických rodin, dobově omezený.",
+    "B": "Úřednický plat byl referenční hodnotou doby; konkrétní částka čtenáře poučí.",
+    "C": "Konkrétní plat ukotvuje životní úroveň úředníka."
+   }
+  },
+  {
+   "key": "CZ|1930|money|Po Mnichovu byla koruna devalvována a začalo se přidělovat na lístky.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Devalvace a lístky změnily nákupy a jídlo většiny domácností.",
+    "B": "Devalvaci a lístky pocítili všichni; načasování hned po Mnichovu zná spíš zájemce.",
+    "C": "Devalvace a lístky vysvětlují ekonomický dopad Mnichova na domácnosti."
+   }
+  },
+  {
+   "key": "CZ|1940|beautiful|Osvobození Prahy Rudou armádou v květnu 1945 přineslo květiny a svezení na tancích.",
+   "scores": {
+    "livedProximity": 5,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Pražský okamžik osvobození prožitý masově, samotná scéna byla epizodou.",
+    "B": "Květen 1945 je silná sdílená vzpomínka Pražanů; obecně známá scéna osvobození.",
+    "C": "Atmosférický obraz osvobození, dílčí bez širšího vysvětlení."
+   }
+  },
+  {
+   "key": "CZ|1940|beautiful|V nově otevřených koncertních sálech zněla Novosvětská symfonie Antonína Dvořáka.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 1,
+    "recognition": 2,
+    "discovery": 1,
+    "explanatoryPayload": 1
+   },
+   "rationales": {
+    "A": "Kulturní zážitek návštěvníků koncertů, bez dopadu na běžnou rutinu.",
+    "B": "Koncerty zažila menšina; Novosvětská je notoricky známá, vazba na 40. léta slabá.",
+    "C": "Obecná kulturní kulisa bez vazby na dekádu."
+   }
+  },
+  {
+   "key": "CZ|1940|bizarre|Výsadkáři vycvičení v Británii zabili v Praze třetího nejvýše postaveného nacistu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Atentát vyvolal heydrichiádu — teror a strach zasáhly každodennost celé země.",
+    "B": "Atentát na Heydricha a následné represe poznamenaly celou zemi; obecně známá historie.",
+    "C": "Atentát jako příběh odboje; duplikuje vládní záznam téže dekády."
+   }
+  },
+  {
+   "key": "CZ|1940|bizarre|„Československý zázrak“ — být na obou frontách — nechal zemi kupodivu nedotčenou.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 1
+   },
+   "rationales": {
+    "A": "Nezničená infrastruktura ovlivnila poválečný život, ale formulace je vágní; skóruji střízlivě.",
+    "B": "Relativní ušetření od bojů lidé vnímali; formulace „zázrak“ je nejasná a zjednodušující, skóruji střízlivě.",
+    "C": "Vágní „zázrak“ bez jasného faktu i mechanismu; tvrzení nejisté."
+   }
+  },
+  {
+   "key": "CZ|1940|clothes|Poválečný komunistický styl upřednostňoval prosté vlněné šaty a beztvaré obleky.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Uniformní styl ovlivnil, co většina nosila, po značnou část režimu.",
+    "B": "Šedivění poválečné módy vnímala většina; obecně známý obraz nastupujícího režimu.",
+    "C": "Obecný popis stylu, dílčí bez mechanismu."
+   }
+  },
+  {
+   "key": "CZ|1940|clothes|Z padákového hedvábí si pár šťastlivců po válce ušilo svatební šaty.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 0,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Dobová kuriozita pár jednotlivců, bez plošného dopadu na všední den.",
+    "B": "Svatby z padákového hedvábí zažil úzký okruh; detail běžného čtenáře překvapí.",
+    "C": "Svatební šaty z padáku jsou malý příběh poválečné improvizace."
+   }
+  },
+  {
+   "key": "CZ|1940|clothes|Za války se na šaty přidělovaly lístky (Kleiderkarte); lidé párali staré závěsy, aby získali látku.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Přídělový systém oblečení zasáhl každou domácnost, trval válečná léta.",
+    "B": "Šatenky se týkaly všech; párání závěsů je méně známý konkrétní detail.",
+    "C": "Lístky na šaty a párání závěsů ukazují mechaniku válečného nedostatku."
+   }
+  },
+  {
+   "key": "CZ|1940|dailyLife|Po válce byli vysídleni etničtí Němci a celé pohraniční vesnice se vylidnily.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Vysídlení trvale proměnilo pohraničí, jeho obyvatelstvo i krajinu.",
+    "B": "Vysídlení Němců proměnilo pohraničí i vnitrozemí; fakt je široce známý, vylidnění vesnic prožité.",
+    "C": "Vysídlení Němců vysvětluje proměnu pohraničí i osudy celých obcí."
+   }
+  },
+  {
+   "key": "CZ|1940|dailyLife|V roce 1948 jste mohli jít do vězení za poslech Rádia Svobodná Evropa.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Kriminalizace poslechu určovala, čeho se lidé báli, po celé desetiletí režimu.",
+    "B": "Poslech zahraničního rozhlasu tajně znala řada rodin; RFE ale vysílala až od 1951, datace nejistá.",
+    "C": "Trest za poslech rádia vysvětluje mechanismus nastupující totality."
+   }
+  },
+  {
+   "key": "CZ|1940|dailyLife|Zákazy vycházení, zatemnění a gestapo určovaly všední den od roku 1939 do roku 1945.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Okupační režim řídil denní rutinu všech; přímý dopad skončil rokem 1945.",
+    "B": "Zatemnění a strach z gestapa byly univerzální válečnou zkušeností; obecně známé.",
+    "C": "Zatemnění a gestapo vysvětlují, jak okupace prostupovala všední den."
+   }
+  },
+  {
+   "key": "CZ|1940|food|Po válce sytily města zásilky amerického konzervovaného mléka od UNRRA.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 1,
+    "recognition": 3,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Pomoc UNRRA sytila městské rodiny, ale jen krátké poválečné období.",
+    "B": "Pomoc UNRRA zažila poválečná města; dnes ji zná málokdo, detail překvapí i sečtělé.",
+    "C": "Pomoc UNRRA vysvětluje závislost poválečného zásobování."
+   }
+  },
+  {
+   "key": "CZ|1940|food|V dobách přídělů nahradily moučné knedlíky ty bramborové.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 1,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Přídělová úprava jídelníčku mnoha domácností, epizoda let nedostatku.",
+    "B": "Přídělové vaření pamatují rodiny; konkrétní záměna knedlíků běžného čtenáře překvapí.",
+    "C": "Dílčí kuchyňská náhražka bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1940|food|Válečnou kávovou náhražkou byla pražená cikorka; pravá káva byla luxusem z černého trhu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Náhražky měnily, co většina pila, po válečná léta nedostatku.",
+    "B": "Cikorka místo kávy je sdílená válečná zkušenost domácností; poučenější čtenáři ji znají.",
+    "C": "Cikorka vs. černý trh ukazuje válečnou ekonomiku nedostatku."
+   }
+  },
+  {
+   "key": "CZ|1940|government|Komunistická strana převzala plnou moc únorovým převratem roku 1948.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Převrat určil režim na čtyři dekády; zasáhl majetek, práci i svobodu slova.",
+    "B": "Únor 1948 změnil život všem; obecně známé školní učivo.",
+    "C": "Únor 1948 je zlom, který určil následující čtyři dekády životů."
+   }
+  },
+  {
+   "key": "CZ|1940|government|Osvobození v roce 1945 přišlo zčásti od Rudé armády, zčásti od Pattonových vojáků.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Konec okupace v celé zemi, změnil každodennost i poválečné uspořádání trvale.",
+    "B": "Osvobození prožila celá země; dvojí směr osvobození zná většina čtenářů.",
+    "C": "Dvojí osvobození vysvětluje poválečné dělení vlivu, jež určilo budoucnost."
+   }
+  },
+  {
+   "key": "CZ|1940|government|Za odplatu byla v červnu 1942 z mapy vymazána obec Lidice.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Vyhlazení Lidic trvale poznamenalo zemi a šířilo strach mezi obyvateli.",
+    "B": "Lidice jsou celonárodně sdílená paměť a školní učivo.",
+    "C": "Lidice vysvětlují mechanismus nacistického teroru vůči civilistům."
+   }
+  },
+  {
+   "key": "CZ|1940|government|Čechy a Morava byly spravovány jako nacistický protektorát; Reinhard Heydrich byl roku 1942 v Praze zavražděn.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Atentát a heydrichiáda přinesly teror, strach a represe pro celou zemi.",
+    "B": "Protektorát a atentát na Heydricha jsou formující zkušenost i základní učivo.",
+    "C": "Protektorát a atentát na Heydricha jsou klíč k pochopení okupační éry."
+   }
+  },
+  {
+   "key": "CZ|1940|illnesses|Epidemie obrny ochromily až do roku 1948 tisíce českých dětí.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Strach z obrny měnil chování rodin, následky postižených trvaly desetiletí.",
+    "B": "Obrna děsila rodiče a poznamenala tisíce dětí; rozsah do 1948 zná spíš zájemce.",
+    "C": "Epidemie obrny nesou reálnou hrozbu pro dětství dekády."
+   }
+  },
+  {
+   "key": "CZ|1940|illnesses|Lidé, kteří přežili koncentrační tábory, si domů přinášeli tyfus a nemoci z hladovění.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Zasáhlo navrátilce a jejich okolí, epidemické riziko odeznělo v letech.",
+    "B": "Návraty přeživších se dotkly mnoha komunit; zdravotní rozměr návratů zná spíš poučený čtenář.",
+    "C": "Návraty přeživších s tyfem vysvětlují zdravotní i lidský dopad táborů."
+   }
+  },
+  {
+   "key": "CZ|1940|illnesses|Penicilin se do pražských nemocnic dostal až úplně na konci války.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Zprvu dostupný málokomu, ale nástup antibiotik trvale změnil léčbu.",
+    "B": "Dostupnost penicilinu vnímali hlavně nemocní a lékaři; pozdní příchod běžného čtenáře překvapí.",
+    "C": "Pozdní penicilin ukazuje limity válečné medicíny."
+   }
+  },
+  {
+   "key": "CZ|1940|money|Dolary na černém trhu se obchodovaly za pětinásobek oficiálního kurzu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Černý kurz se týkal menšiny s přístupem k valutám, jev jednotek let.",
+    "B": "Černý kurz znali hlavně lidé s vazbou na Západ; konkrétní pětinásobek běžného čtenáře překvapí.",
+    "C": "Černý kurz dolaru ukazuje nedůvěru v oficiální ekonomiku."
+   }
+  },
+  {
+   "key": "CZ|1940|money|Měnová reforma v roce 1953 přes noc smetla úspory v poměru 50 ku 1.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Reforma zničila úspory takřka všem; příkladová událost s trvalou stopou důvěry.",
+    "B": "Měnová reforma 1953 zasáhla prakticky každou rodinu; obecně známá událost. Časově ale patří do 50. let.",
+    "C": "Měnová reforma 1953 vysvětluje ztrátu úspor generace; do dekády 1940 zasahuje volně."
+   }
+  },
+  {
+   "key": "CZ|1940|money|Znárodnění průmyslu zabavilo majitelům továrny bez náhrady.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Znárodnění změnilo vlastnictví i zaměstnání na desetiletí, dotklo se celé ekonomiky.",
+    "B": "Znárodnění se dotklo mnoha rodin a obcí; jde o známé školní i novinové téma.",
+    "C": "Znárodnění vysvětluje mechanismus přechodu k řízené ekonomice."
+   }
+  },
+  {
+   "key": "CZ|1950|beautiful|Emil Zátopek vybojoval na olympiádě v Helsinkách v roce 1952 tři zlaté medaile.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Národní sláva prožívaná u rádií; hrdost trvala, rutinu nezměnila.",
+    "B": "Zátopkova Helsinská trojice je národní sdílená vzpomínka i školní učivo.",
+    "C": "Zátopkova zlata nesou sdílenou národní hrdost doby."
+   }
+  },
+  {
+   "key": "CZ|1950|beautiful|Multimediální divadlo Laterna magika debutovalo na Expu 58 v Bruselu.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Úspěch v zahraničí, doma jej přímo zažil málokdo; kulturní stopa přetrvala.",
+    "B": "Laternu magiku znali spíš kulturní diváci; bruselský debut běžného čtenáře překvapí.",
+    "C": "Kulturní úspěch na Expu, dílčí zajímavost pro běžnou kohortu."
+   }
+  },
+  {
+   "key": "CZ|1950|bizarre|Třicetimetrový kamenný Stalin se tyčil nad Prahou od roku 1955, než byl v roce 1962 odstřelen.",
+   "scores": {
+    "livedProximity": 5,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Pražská dominanta a symbol, na běžný den mimo výhled vliv neměla.",
+    "B": "Stalinův pomník viděl každý Pražan a jeho odstřel se probíral; mimo Prahu známé méně.",
+    "C": "Stalinův pomník a jeho odstřelení jsou malý příběh vzestupu a pádu kultu."
+   }
+  },
+  {
+   "key": "CZ|1950|clothes|Džíny ze západního Německa se objevovaly na černém trhu a byly velmi drahé.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Dostupné jen úzké skupině, spíše symbol touhy než změna všedního dne.",
+    "B": "Drahé západní džíny v 50. letech znal spíš úzký městský okruh; zájemce o dobu to zná.",
+    "C": "Drahé pašované džíny ukazují touhu po Západu a černý trh."
+   }
+  },
+  {
+   "key": "CZ|1950|clothes|Konfekční výroba nabízela omezený výběr podobných bavlněných šatů a barev.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Omezený sortiment určoval oblékání většiny po celou dekádu i déle.",
+    "B": "Jednotvárnou konfekci pamatuje většina generace; pro čtenáře středně známý rys doby.",
+    "C": "Omezená konfekce ukazuje uniformitu spotřeby v plánované ekonomice."
+   }
+  },
+  {
+   "key": "CZ|1950|clothes|Pionýři nosili do školy rudé šátky.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Pionýrská uniforma patřila k dětství většiny školáků po desetiletí.",
+    "B": "Pionýrský šátek je téměř univerzální dětská zkušenost; zároveň všeobecně známý symbol.",
+    "C": "Pionýrské šátky konkretizují ideologizaci dětství."
+   }
+  },
+  {
+   "key": "CZ|1950|clothes|Při spartakiádních hromadných cvičeních nosili účastníci jednotné bílé trenýrky a trička.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Spartakiády zapojovaly velké skupiny cvičenců opakovaně, ale šlo o epizodické akce.",
+    "B": "Spartakiádní úbory cvičila nebo sledovala velká část generace; obecně známý obraz.",
+    "C": "Spartakiádní úbory nesou obraz masové režimní tělovýchovy."
+   }
+  },
+  {
+   "key": "CZ|1950|dailyLife|Dopisy od příbuzných ze Západu otevírala a četla tajná policie.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Cenzura pošty měnila, co si rodiny s vazbami na Západ směly psát, dlouhodobě.",
+    "B": "Cenzuru pošty zažily rodiny s příbuznými na Západě; poučený čtenář ji zná.",
+    "C": "Cenzura dopisů vysvětluje, jak stát vstupoval do soukromí rodin."
+   }
+  },
+  {
+   "key": "CZ|1950|dailyLife|Na nedostatkové potraviny se tvořily ranní fronty; pro část rodin se symbolem volného času stávala víkendová chata.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Fronty a chataření formovaly rutinu většiny domácností po desetiletí.",
+    "B": "Fronty i chataření jsou sdílené vzpomínky velké části generace; oboje dobře známé.",
+    "C": "Fronty a chata vysvětlují dvojí mechaniku nedostatku a úniku."
+   }
+  },
+  {
+   "key": "CZ|1950|dailyLife|Prvomájové průvody, závodní sbory a nucené „dobrovolné“ sobotní brigády byly běžné.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Povinné rituály režimu strukturovaly volný čas většiny po dekády.",
+    "B": "Průvody a povinné brigády prošly téměř každým; známý rys režimu.",
+    "C": "Průvody a „dobrovolné“ brigády vysvětlují ritualizovaný nátlak režimu."
+   }
+  },
+  {
+   "key": "CZ|1950|food|Hovězí maso bývalo nedostatkové; mezi tradiční nedělní jídla patřilo vepřové koleno s hořčicí.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Nedostatek masa upravoval jídelníček výrazné části domácností dlouhodobě.",
+    "B": "Nedostatek hovězího pamatují domácnosti; „tradiční nedělní koleno“ je zobecnění, skóruji střízlivě.",
+    "C": "Dílčí gastronomický detail s náznakem nedostatku."
+   }
+  },
+  {
+   "key": "CZ|1950|food|Mléko se rozváželo ve vratných skleněných lahvích.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Každodenní detail zásobování většiny domácností, praxe trvala desetiletí.",
+    "B": "Mléko v lahvích je každodenní sdílená vzpomínka; obecně známá reálie.",
+    "C": "Vratné lahve jsou dílčí každodenní zajímavost."
+   }
+  },
+  {
+   "key": "CZ|1950|food|Tatranky a oplatky patřily mezi oblíbené dětské dobroty.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Drobný, ale reálný prvek dětství mnoha generací; nízký dopad na rutinu.",
+    "B": "Tatranky zná prakticky každé dítě té doby i dnes; nulová novost.",
+    "C": "Dětská pochoutka, dílčí nostalgický detail."
+   }
+  },
+  {
+   "key": "CZ|1950|government|Hospodářství plánovala v pětiletkách ministerstva po vzoru Gosplanu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Plánování určovalo, co bylo v obchodech a kde lidé pracovali, po celý režim.",
+    "B": "Pětiletky rámovaly pracovní život většiny; obecně známý pojem, odkaz na Gosplan přidává málo.",
+    "C": "Pětiletky vysvětlují, jak fungovalo plánované hospodářství."
+   }
+  },
+  {
+   "key": "CZ|1950|government|Prezident Klement Gottwald zemřel devět dní poté, co se zúčastnil Stalinova pohřbu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Známá dobová událost, na denní rutinu většiny měla malý přímý dopad.",
+    "B": "Gottwaldova smrt po Stalinově pohřbu byla velkou událostí; detail devíti dnů zná zájemce o historii.",
+    "C": "Gottwaldova smrt po Stalinově pohřbu je symbolický příběh konce éry."
+   }
+  },
+  {
+   "key": "CZ|1950|government|Stalinistické Československo pořádalo zinscenované procesy — Rudolf Slánský a deset dalších byli v roce 1952 oběšeni.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Procesy šířily strach a autocenzuru napříč společností po dekádu i déle.",
+    "B": "Proces se Slánským sledovala celá země v rozhlase; dnes školní učivo a známé téma.",
+    "C": "Procesy se Slánským vysvětlují mechanismus stalinského teroru shora."
+   }
+  },
+  {
+   "key": "CZ|1950|illnesses|Plošné očkování vymýtilo záškrt; epidemie obrny definitivně skončily v roce 1960.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Očkování se týkalo všech dětí a trvale odstranilo strach z epidemií.",
+    "B": "Očkovací kampaně zažily rodiny s dětmi; konec obrny 1960 běžného čtenáře překvapí.",
+    "C": "Plošné očkování vysvětluje zásadní proměnu dětského zdraví."
+   }
+  },
+  {
+   "key": "CZ|1950|illnesses|První operace srdce v Brně zachraňovaly životy, které by se před deseti lety ztratily.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 1,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Průlom pro pacienty a medicínu; běžný den většiny nezměnil hned.",
+    "B": "Přímo se týkala mála pacientů; brněnská kardiochirurgická priorita běžného čtenáře překvapí.",
+    "C": "Dílčí medicínský milník s omezeným dopadem na běžnou kohortu."
+   }
+  },
+  {
+   "key": "CZ|1950|illnesses|Znečištěné ovzduší ze severočeských uhelných elektráren způsobovalo chronická plicní onemocnění.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Regionálně soustředěné, ale zdraví a krajinu severních Čech změnilo trvale.",
+    "B": "Smog v severních Čechách místní pamatují; obecně známý problém, v 50. letech méně reflektovaný.",
+    "C": "Uhelné znečištění vysvětluje cenu industrializace pro zdraví regionů."
+   }
+  },
+  {
+   "key": "CZ|1950|money|Bochník chleba stál 2 Kčs a držel se na té ceně desítky let.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Stabilní cena základní potraviny, kterou znal každý, po desetiletí.",
+    "B": "Stabilní cenu chleba pamatuje většina generace; konkrétní 2 Kčs čtenáře pobaví, ale nezaskočí zásadně.",
+    "C": "Desetiletí zmrazená cena chleba ukazuje mechaniku řízených cen."
+   }
+  },
+  {
+   "key": "CZ|1950|money|Měsíční mzda dělníka byla kolem 1 400 Kčs; Škoda 1000 MB stála 44 000 Kčs.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Cenové poměry rámovaly rozpočty a spoření většiny rodin po dekádu.",
+    "B": "Poměr mzdy a ceny auta lidé žili; Škoda 1000 MB je ale až z roku 1964, datace nesedí.",
+    "C": "Mzda vs. cena auta vysvětluje reálnou nedostupnost spotřeby; Škoda 1000 MB až 1964."
+   }
+  },
+  {
+   "key": "CZ|1950|money|Stát vykazoval plnou zaměstnanost; výběr povolání i kariérní postup však výrazně ovlivňoval režim.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Režimní řízení práce určovalo kariéry a živobytí prakticky všech, trvale.",
+    "B": "Povinnou zaměstnanost i kádrování zažila většina; obecně známý mechanismus režimu.",
+    "C": "„Plná zaměstnanost“ s režimní kontrolou kariér vysvětluje pracovní realitu."
+   }
+  },
+  {
+   "key": "CZ|1960|beautiful|V Praze rozvíjelo divadlo Semafor písničkový kabaret navazující na tradici Voskovce a Wericha.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Pražské divadlo s celostátní kulturní ozvěnou pro menšinu diváků.",
+    "B": "Písničky Semaforu znala velká část generace z rádia i desek; obecně známá scéna.",
+    "C": "Semafor spojuje kulturní kontinuitu s uvolněním 60. let."
+   }
+  },
+  {
+   "key": "CZ|1960|beautiful|Československo získalo na olympiádě v Mexiku v roce 1968 stříbro ve sportovní gymnastice — Věra Čáslavská se stala národní hrdinkou.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Národní sledování olympiády, krátká sváteční epizoda se symbolickým přesahem.",
+    "B": "Čáslavskou v Mexiku sledovala celá země; její gesto a sláva jsou středně známé, „stříbro“ zjednodušuje (měla i zlata).",
+    "C": "Čáslavská jako hrdinka nese příběh národní hrdosti roku 1968."
+   }
+  },
+  {
+   "key": "CZ|1960|bizarre|Měkké kontaktní čočky vynalezl v Praze v roce 1961 Otto Wichterle pomocí stavebnice Merkur.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Pražský vynález; tehdejší všední den nezměnil, dlouhodobý globální dopad.",
+    "B": "Wichterleho čočky jsou známé, detail se stavebnicí Merkur překvapí běžného čtenáře.",
+    "C": "Wichterleho vynález se stavebnicí je příběh vynalézavosti navzdory podmínkám."
+   }
+  },
+  {
+   "key": "CZ|1960|bizarre|Češi navrhli a postavili vlastní luxusní vůz Tatra 603 s motorem V8 — jen pro stranické funkcionáře.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Vůz pro funkcionáře; běžné domácnosti se ho nedotkly, kuriozita dekády.",
+    "B": "Tatru 603 lidé vídali jako vůz funkcionářů; poučený zájemce ji zná.",
+    "C": "Luxusní auto jen pro funkcionáře odhaluje privilegia nomenklatury."
+   }
+  },
+  {
+   "key": "CZ|1960|clothes|Minisukně dorazily do Prahy v roce 1966 — butiky na Václavském náměstí prodaly první kusy.",
+   "scores": {
+    "livedProximity": 5,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Pražská módní novinka pro část mladých žen, vlna jednotek let.",
+    "B": "Minisukně pamatuje městská mládež; konkrétní pražský detail 1966 čtenáře překvapí, doložení nejisté.",
+    "C": "Příchod minisukní konkretizuje pronikání západní módy."
+   }
+  },
+  {
+   "key": "CZ|1960|clothes|Pašované džíny Levi's byly mezi částí dospívajících vyhledávaným symbolem západní módy.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Symbol pro část mládeže, touha po Západu formovala generaci.",
+    "B": "Touhu po západních džínách sdílela část mládeže; jde o známý symbol doby.",
+    "C": "Pašované Levi's ukazují touhu mládeže po Západu."
+   }
+  },
+  {
+   "key": "CZ|1960|clothes|Za dlouhé vlasy vás na začátku 60. let zmlátila policie, na jejich konci už byly v módě.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Týkalo se hlavně mladých mužů; proměna norem během dekády.",
+    "B": "Perzekuci „mániček“ pamatují pamětníci; rychlý obrat módy běžného čtenáře překvapí, formulace zjednodušuje.",
+    "C": "Obrat postoje k dlouhým vlasům vysvětluje uvolňování 60. let."
+   }
+  },
+  {
+   "key": "CZ|1960|dailyLife|Jan Palach se v lednu 1969 na Václavském náměstí upálil.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celonárodně sledovaná událost, smuteční dny; trvalý symbol v paměti země.",
+    "B": "Palachův čin otřásl celou zemí; základní školní učivo.",
+    "C": "Palachův čin vysvětluje zoufalství společnosti po okupaci; klíčový moment éry."
+   }
+  },
+  {
+   "key": "CZ|1960|dailyLife|Sobotní dopoledne patřila „dobrovolným brigádám“; neděle chatě.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Rutina víkendů většiny domácností po celá 60. léta.",
+    "B": "Rytmus brigád a chat sdílela velká část rodin; známý obraz normalizujícího se života.",
+    "C": "Rytmus týdne — povinné brigády a chataření — vystihuje každodenní mechanismus doby."
+   }
+  },
+  {
+   "key": "CZ|1960|dailyLife|Československá nová vlna — Forman, Menzel, Chytilová — přinášela osobitý filmový jazyk a získávala zahraniční ocenění.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Nová vlna v kinech oslovila část diváků; kulturní stopa přetrvává desetiletí.",
+    "B": "Filmy nové vlny vidělo mnoho diváků v kinech; dnes obecně známá kapitola kultury.",
+    "C": "Nová vlna ilustruje kulturní uvolnění 60. let a jeho mezinárodní ohlas."
+   }
+  },
+  {
+   "key": "CZ|1960|food|Bramboráky patřily mezi oblíbená jídla na chatách a chalupách.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 0,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Běžné jídlo části domácností, spíš kolorit než změna rutiny.",
+    "B": "Bramboráky na chatě zná většina generace; kulinárně zcela běžná znalost.",
+    "C": "Milá dílčí zajímavost o jídle, bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1960|food|Dovážené pomeranče z Kuby přišly jednou ročně, před Vánoci.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Sezónní nedostatek a fronty formovaly vánoční rutinu většiny rodin dekádu.",
+    "B": "Vánoční kubánské pomeranče jsou ikonická sdílená vzpomínka; dnes již často připomínaná.",
+    "C": "Sezónní kubánské pomeranče vysvětlují nedostatkovou ekonomiku a vazby na RVHP."
+   }
+  },
+  {
+   "key": "CZ|1960|food|Pivo bylo i nadále levnější než limonáda, i pro nezletilé.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Cenová realita ovlivňující každodenní spotřebu velké části obyvatel.",
+    "B": "Levné pivo je sdílená vzpomínka; dostupnost nezletilým čtenáře mírně překvapí.",
+    "C": "Cenová anomálie piva vypovídá o státní cenové politice a alkoholové kultuře."
+   }
+  },
+  {
+   "key": "CZ|1960|government|21. srpna 1968 vjely tanky Varšavské smlouvy a reformy rozdrtily.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Invaze a normalizace určily život, emigraci a strach na dvě dekády.",
+    "B": "Srpen 1968 je určující sdílená zkušenost generace a obecně známá událost.",
+    "C": "Invaze 1968 je zlom, jenž určil normalizaci a životy dvou dekád."
+   }
+  },
+  {
+   "key": "CZ|1960|government|Alexander Dubček zahájil „socialismus s lidskou tváří“ — pražské jaro roku 1968.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Uvolnění 1968 změnilo, co lidé směli číst a říkat, s dlouhou dozvukou.",
+    "B": "Pražské jaro prožila celá země; jde o základní školní učivo.",
+    "C": "Pražské jaro vysvětluje naději na reformu, která formovala celou éru."
+   }
+  },
+  {
+   "key": "CZ|1960|government|Země byla v roce 1960 přejmenována na Československou socialistickou republiku.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Symbolická ústavní změna; každodennost většiny přímo nezměnila.",
+    "B": "Přejmenování na ČSSR běžný život téměř nezměnilo; zná ho poučený zájemce.",
+    "C": "Přejmenování státu je formální fakt s malým příběhem."
+   }
+  },
+  {
+   "key": "CZ|1960|illnesses|Kouření bylo všudypřítomné — kouřilo přes 40 % dospělých Čechů, i těhotné ženy.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Kouření prostupovalo domácnosti i veřejný prostor, zdravotní následky trvaly desetiletí.",
+    "B": "Všudypřítomné kouření pamatuje většina; konkrétní podíl kuřáků je středně známý údaj.",
+    "C": "Všudypřítomné kouření vysvětluje dobové zdravotní normy."
+   }
+  },
+  {
+   "key": "CZ|1960|illnesses|Psychiatrické léčebny se od roku 1968 využívaly k zadržování disidentů.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 1,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní represivní praxe dopadající na úzkou skupinu disidentů, trvala normalizaci.",
+    "B": "Zneužití psychiatrie se týkalo úzkého okruhu; v ČSSR málo popsané, překvapí i sečtělé, doložení ověřit.",
+    "C": "Ukazuje mechanismus zneužití medicíny k politické represi po roce 1968."
+   }
+  },
+  {
+   "key": "CZ|1960|illnesses|Srdeční choroby předstihly tuberkulózu jako nejčastější příčinu úmrtí.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní epidemiologický posun; všední den přímo nezměnil, ale trend trvá dodnes.",
+    "B": "Epidemiologický přechod lidé přímo nevnímali; statistický zlom běžného čtenáře překvapí.",
+    "C": "Epidemiologický přechod ukazuje modernizaci zdravotnictví a proměnu příčin úmrtí."
+   }
+  },
+  {
+   "key": "CZ|1960|money|Dolary na černém trhu se obchodovaly za 30 Kčs oproti oficiálním 14 Kčs.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Černý kurz se týkal úzké skupiny s přístupem k valutám.",
+    "B": "S veksláky měl zkušenost jen někdo; konkrétní kurzy běžného čtenáře překvapí.",
+    "C": "Dvojí kurz dolaru ukazuje mechanismus černého trhu a uzavřené měny."
+   }
+  },
+  {
+   "key": "CZ|1960|money|Průměrná mzda dosáhla kolem 1 500 Kčs měsíčně; Škoda 100 stála 35 000 Kčs.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Mzdové a cenové poměry rámovaly rozpočty domácností v dané dekádě.",
+    "B": "Poměr mzdy a ceny Škody 100 lidé žili; konkrétní čísla běžného čtenáře překvapí.",
+    "C": "Poměr mzdy a ceny auta konkrétně vysvětluje ekonomickou realitu domácností."
+   }
+  },
+  {
+   "key": "CZ|1960|money|Víkend v Tatrách v odborářském hotelu stál se vším všudy 80 Kčs.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Odborářská rekreace dostupná části zaměstnanců, dobově omezený jev.",
+    "B": "Odborářské rekreace ROH zažilo hodně rodin; konkrétní cena 80 Kčs čtenáře překvapí, ověřit.",
+    "C": "Dotovaná odborářská rekreace ilustruje, jak fungoval socialistický volný čas."
+   }
+  },
+  {
+   "key": "CZ|1970|beautiful|Olga Havlová vedla samizdatové kruhy, které udržovaly českou literaturu naživu v ilegalitě.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 1,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Samizdat se dotýkal úzkých kruhů, kulturní význam přesáhl dekádu.",
+    "B": "Samizdatové kruhy znal úzký okruh; role Olgy Havlové překvapí běžného čtenáře, tvrzení o „vedení“ nejisté.",
+    "C": "Samizdat vysvětluje mechanismus přežívání zakázané kultury."
+   }
+  },
+  {
+   "key": "CZ|1970|beautiful|Československo vyhrálo mistrovství světa v ledním hokeji v letech 1972, 1976 a 1977 — a porazilo SSSR.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Hokejové výhry nad SSSR sledovala většina země; sváteční epizody se symbolikou.",
+    "B": "Hokejové výhry nad SSSR silná sdílená vzpomínka; sportovně-historicky známé.",
+    "C": "Hokejová vítězství nad SSSR nesou příběh národního zadostiučinění po okupaci."
+   }
+  },
+  {
+   "key": "CZ|1970|bizarre|Dětský televizní pořad Večerníček začal v roce 1965 a pravidelně se vysílá dodnes.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Večerníček byl večerní rutinou rodin s dětmi a trvá dodnes.",
+    "B": "Večerníček univerzální dětská zkušenost; jeho existence obecně známá, rok 1965 drobnost.",
+    "C": "Večerníček je milá zajímavost; širší kontext záznam nenese."
+   }
+  },
+  {
+   "key": "CZ|1970|bizarre|Českoslovenští fanoušci rocku museli poslouchat západní hudbu na Rádiu Luxembourg pod dekou.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Tajné poslouchání se týkalo menšiny, ale bylo dobově příznačné.",
+    "B": "Poslech Radia Luxembourg vzpomínka části generace mladých; detail překvapí běžného čtenáře.",
+    "C": "Tajné poslouchání Rádia Luxembourg ukazuje cenzuru a touhu po západní kultuře."
+   }
+  },
+  {
+   "key": "CZ|1970|clothes|Prodejny Tuzexu prodávaly západní zboží za zvláštní měnu (bony), kterou jste si museli koupit v bance.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Tuzex a bony formovaly spotřební touhy a šedý trh po dekády.",
+    "B": "Tuzex a bony zná prakticky celá generace; pro mladší čtenáře jen mírně objevné.",
+    "C": "Tuzex a bony vysvětlují celý mechanismus dvojí ekonomiky a touhy po Západu."
+   }
+  },
+  {
+   "key": "CZ|1970|clothes|Teplákové soupravy Adidas se mezi částí dospívajících staly nápadným symbolem statusu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Statusový symbol úzké skupiny dospívajících, krátkodobý jev.",
+    "B": "Adidas tepláky jako status pamatuje většina generace; veřejně známý fenomén normalizace.",
+    "C": "Adidas jako status ukazuje nedostatek a prestiž západního zboží."
+   }
+  },
+  {
+   "key": "CZ|1970|clothes|Vládl polyester — nežehlivé košile, kalhoty do zvonu, všechno v hnědé a oranžové.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Dobová móda určovala, co většina nosila, jen po část dekády.",
+    "B": "Polyesterová móda 70. let je silná sdílená vzpomínka; obecně známý dobový kolorit.",
+    "C": "Módní dobový kolorit bez hlubší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1970|dailyLife|Dovolené se trávily v odborářských hotelech v Bulharsku nebo NDR — a jednou za deset let možná v Jugoslávii.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Omezené dovolené určovaly prázdninové plány výrazné skupiny po dekádu.",
+    "B": "ROH rekreace a Bulharsko sdílená vzpomínka většiny; Jugoslávie jako vzácnost běžně známá.",
+    "C": "Omezené destinace dovolených vysvětlují mechanismus uzavřených hranic."
+   }
+  },
+  {
+   "key": "CZ|1970|dailyLife|Soboty se trávily na chatě; neděle znamenaly nacpaný vlak zpátky do Prahy.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Chataření bylo víkendovou rutinou většiny domácností celou dekádu.",
+    "B": "Chataření o víkendech téměř univerzální zkušenost normalizace; obecně známé.",
+    "C": "Chataření jako únik nese kus příběhu normalizační každodennosti."
+   }
+  },
+  {
+   "key": "CZ|1970|dailyLife|Undergroundová kapela The Plastic People of the Universe byla v roce 1976 souzena a uvězněna.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Proces dopadl na underground; nepřímo spustil Chartu, běžný den nezměnil.",
+    "B": "Proces s Plastic People znala tehdy menšina; dnes známý poučeným čtenářům.",
+    "C": "Proces s Plastic People vysvětluje represi kultury a vznik Charty."
+   }
+  },
+  {
+   "key": "CZ|1970|food|Banány se v obchodech objevily dvakrát ročně a fronty se táhly přes několik bloků.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Fronty na nedostatkové ovoce byly opakovanou rutinou dekády.",
+    "B": "Fronty na banány prototypická sdílená vzpomínka; obecně známý motiv nedostatku.",
+    "C": "Fronty na banány vysvětlují nedostatkovou ekonomiku v každodennosti."
+   }
+  },
+  {
+   "key": "CZ|1970|food|Svíčková s houskovými knedlíky patřila k oblíbeným slavnostnějším nedělním obědům.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 0,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Sváteční nedělní oběd části domácností, spíš kolorit než změna.",
+    "B": "Nedělní svíčková rozšířená rodinná tradice; naprosto známé školní klišé.",
+    "C": "Nedělní svíčková je dílčí kulinární zajímavost."
+   }
+  },
+  {
+   "key": "CZ|1970|food|Tatranky a Horalky, Kofola z pípy, kelímky Pribiňáčku.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Každodenní sortiment dětství a svačin výrazné části domácností.",
+    "B": "Tatranky, Kofola, Pribináček — ikonická každodennost, kterou zná téměř každý.",
+    "C": "Nostalgický výčet značek, dílčí kolorit bez souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1970|government|Charta 77, kterou podepsal Václav Havel a 240 dalších, požadovala lidská práva a posílala lidi do vězení.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Přímo se dotkla signatářů; symbolický význam přesáhl deset let.",
+    "B": "O Chartě věděla část společnosti spíš z režimní kampaně; dnes školní učivo.",
+    "C": "Charta 77 vysvětluje disent a cenu za občanský odpor."
+   }
+  },
+  {
+   "key": "CZ|1970|government|Gustáv Husák řídil „normalizaci“ a čistky postihly mnoho lidí, kteří podpořili pražské jaro.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Normalizační čistky měnily práci, kariéry a strach většiny na dvě dekády.",
+    "B": "Normalizační čistky a prověrky zasáhly obrovské množství rodin; obecně známé téma.",
+    "C": "Normalizační čistky vysvětlují mechanismus represí po pražském jaru."
+   }
+  },
+  {
+   "key": "CZ|1970|government|Na mnoha pracovištích působily organizace komunistické strany a StB využívala síť informátorů.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Stranické organizace a informátoři ovlivňovali chování a řeč většiny pracovišť.",
+    "B": "Stranické organizace a strach z informátorů zažila většina pracujících; známý mechanismus.",
+    "C": "Stranické buňky a informátoři na pracovištích — mechanismus všudypřítomné kontroly."
+   }
+  },
+  {
+   "key": "CZ|1970|illnesses|Alkoholismus — vodka, pivo a slivovice — byl národní zdravotní krizí.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Rozšířené pití prostupovalo domácnostmi a rodinami dlouhodobě.",
+    "B": "Rozšířené pití pamatuje značná část; formulace o „národní krizi“ méně známá, vodka spíše netypická.",
+    "C": "Alkoholismus jako národní krize vypovídá o společenském klimatu normalizace."
+   }
+  },
+  {
+   "key": "CZ|1970|illnesses|K častým příčinám úmrtí patřily choroby srdce a rakovina plic; délka života v Československu zaostávala za západní Evropou.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní zdravotní realita; každodennost přímo neměnila, důsledky dlouhodobé.",
+    "B": "Statistiku úmrtnosti pamětník neprožívá přímo; zaostávání za Západem překvapí málokoho poučeného.",
+    "C": "Zaostávání délky života nese srovnání se Západem a stav zdravotnictví."
+   }
+  },
+  {
+   "key": "CZ|1970|illnesses|Znečištěné ovzduší v severních Čechách způsobovalo rozsáhlá onemocnění dýchacích cest.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Regionální smog měnil zdraví a dýchání výrazné skupiny na desetiletí.",
+    "B": "Severočeské ovzduší silná sdílená zkušenost regionu; obecně známé téma.",
+    "C": "Průmyslové znečištění severu vysvětluje ekologickou daň plánované ekonomiky."
+   }
+  },
+  {
+   "key": "CZ|1970|money|Důchody činily 1 000–1 500 Kčs měsíčně a lidé z nich žili.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Výše důchodů určovala životní úroveň velké skupiny po dekádu.",
+    "B": "Výši důchodů si pamatují spíše dotčení; konkrétní částky mírně poučí čtenáře.",
+    "C": "Výše důchodů dává konkrétní představu o životní úrovni seniorů."
+   }
+  },
+  {
+   "key": "CZ|1970|money|Nový byt (panelák) přiděloval stát — žádné kupování, žádné vybírání.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Přidělování bytů určilo, kde lidé žili; paneláky formují města dodnes.",
+    "B": "Přidělování bytů státem zkušenost velké části generace; princip obecně známý.",
+    "C": "Státní přidělování bytů vysvětluje mechanismus bydlení bez trhu."
+   }
+  },
+  {
+   "key": "CZ|1970|money|Průměrná mzda byla kolem 2 400 Kčs měsíčně; Škoda 105 stála 60 000 Kčs a měla pětiletou čekací dobu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Ceny, mzdy a čekací listiny určovaly plánování většiny domácností.",
+    "B": "Čekání na Škodu a mzdové poměry většina prožila; konkrétní čísla poučí běžného čtenáře.",
+    "C": "Mzda, cena auta a pětiletá čekací doba — kompletní obraz plánované ekonomiky."
+   }
+  },
+  {
+   "key": "UA|1920|beautiful|Divadlo Berezil pod vedením Lese Kurbase znovuobjevilo ukrajinské drama.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Kulturní milník, přímo zasáhl hlavně městské divadelní publikum.",
+    "B": "Divadlo Berezil znali hlavně městští diváci; Kurbas mimo Ukrajinu téměř neznámý objev.",
+    "C": "Berezil a Kurbas nesou příběh kulturní obrody 20. let."
+   }
+  },
+  {
+   "key": "UA|1920|beautiful|Vzory vyšyvanek se sbíraly v národopisných muzeích a kodifikovaly.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Kodifikace vzorů formovala národní kulturu dlouhodobě, den neměnila.",
+    "B": "Muzejní kodifikaci vzorů znal úzký okruh; etnografické sběry překvapí běžného čtenáře.",
+    "C": "Kodifikace vzorů je dílčí zajímavost o uchovávání identity."
+   }
+  },
+  {
+   "key": "UA|1920|bizarre|Hlavním městem sovětské Ukrajiny byl od roku 1919 do roku 1934 Charkov, nikoli Kyjev.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Přesun hlavního města ovlivnil správu, běžný den měnil omezeně.",
+    "B": "Obyvatelé status Charkova znali; že hlavním městem nebyl Kyjev, běžného čtenáře překvapí.",
+    "C": "Charkov jako hlavní město je překvapivý fakt vypovídající o sovětské správě."
+   }
+  },
+  {
+   "key": "UA|1920|bizarre|Ukrajinští futurističtí básníci psali v esperantu — a vycházeli tiskem.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 1,
+    "recognition": 1,
+    "discovery": 4,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Kuriozita úzkého literárního okruhu bez dopadu na všední den.",
+    "B": "Esperantskou futuristickou poezii znal jen úzký okruh; překvapí i sečtělého člověka.",
+    "C": "Kuriozita o esperantských futuristech, náznak avantgardní otevřenosti."
+   }
+  },
+  {
+   "key": "UA|1920|clothes|Dělnice ve městech nosily prosté bavlněné halenky a skládané sukně.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Dobový oděv městských dělnic, popis běžné praxe menšiny.",
+    "B": "Běžný městský dělnický oděv pamatovaly dotčené ženy; nepřekvapivý obecný popis.",
+    "C": "Popis městského oděvu, dílčí kolorit bez souvislosti."
+   }
+  },
+  {
+   "key": "UA|1920|clothes|Na zimu kožichy (kožuch) a plstěné boty (valenky).",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 1
+   },
+   "rationales": {
+    "A": "Zimní oblečení běžné pro velkou část obyvatel po celou dobu.",
+    "B": "Kožuchy a valenky sdílená zimní každodennost; obecně známé reálie.",
+    "C": "Výčet zimního oblečení bez příběhu."
+   }
+  },
+  {
+   "key": "UA|1920|clothes|Vdané ženy nosily všeobecně šátky.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Všeobecná zvyklost formující každodenní vzhled vdaných žen.",
+    "B": "Šátky vdaných žen rozšířená norma, kterou pamatuje většina; kulturně známé.",
+    "C": "Šátky vdaných žen — dílčí zvyk, náznak společenských norem."
+   }
+  },
+  {
+   "key": "UA|1920|clothes|Vyšívané košile (vyšyvanky) byly na vesnicích každodenním lidovým oděvem.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Každodenní oděv venkovské většiny, dlouhodobě běžný jev.",
+    "B": "Vyšyvanka každodenním vesnickým oděvem — univerzální zkušenost; symbol dnes dobře známý.",
+    "C": "Vyšyvanka jako každodenní oděv nese kus příběhu venkovské identity."
+   }
+  },
+  {
+   "key": "UA|1920|dailyLife|Elektrifikace dosáhla velkých měst; vesnice stále používaly petrolejové lampy.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Elektrifikace měst trvale změnila každodennost; venkov zůstal u lamp.",
+    "B": "Rozdíl elektřina/petrolej prožívala většina; obecně známý civilizační kontrast.",
+    "C": "Kontrast elektrifikace měst a petrolejek na vsi ukazuje nerovnou modernizaci."
+   }
+  },
+  {
+   "key": "UA|1920|dailyLife|Spisovatelé jako Mykola Chvyljovyj zahájili „popravenou renesanci“ — většina z nich 30. léta nepřežila.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 1,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Literární hnutí se dotýkalo úzké vrstvy; kulturní ztráta přesáhla dekádu.",
+    "B": "Literární okruh znal úzký okruh; „popravená renesance“ překvapí i sečtělého českého čtenáře.",
+    "C": "Popravená renesance vysvětluje rozkvět i následnou likvidaci kultury."
+   }
+  },
+  {
+   "key": "UA|1920|dailyLife|V Charkově (hlavním městě do roku 1934) a v Kyjevě se otevírala divadla hrající v ukrajinštině.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Ukrajinská divadla oslovila městskou menšinu, uvolnění trvalo jen roky.",
+    "B": "Ukrajinská divadla zažili měšťané; rozkvět ukrajinské kultury 20. let běžného čtenáře překvapí.",
+    "C": "Ukrajinská divadla ilustrují kulturní rozkvět korenizace."
+   }
+  },
+  {
+   "key": "UA|1920|food|Boršč se zakysanou smetanou, salo (naložené vepřové sádlo) na žitném chlebu, vareniky.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Základní každodenní strava celé země, přetrvala generace.",
+    "B": "Boršč, salo a vareniky univerzální každodenní strava; obecně známé reálie.",
+    "C": "Výčet tradičních jídel, kolorit bez širší souvislosti."
+   }
+  },
+  {
+   "key": "UA|1920|food|V letech hladomoru se chleba přiděloval na lístky.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Přídělový chléb za hladomoru měnil přežití většiny domácností.",
+    "B": "Přídělové lístky v hladových letech sdílená zkušenost; detail poučí běžného čtenáře.",
+    "C": "Lístky na chleba nesou kus příběhu hladových let."
+   }
+  },
+  {
+   "key": "UA|1920|food|Vodka a kvas byly každodenními nápoji.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 1
+   },
+   "rationales": {
+    "A": "Každodenní nápoje širokých vrstev, dlouhodobý zvyk.",
+    "B": "Kvas i vodka běžné nápoje, pamatuje značná část; nepřekvapivé, paušální tvrzení o „každodennosti“ nejisté.",
+    "C": "Konstatování nápojů bez příběhu."
+   }
+  },
+  {
+   "key": "UA|1920|government|Po krvavé občanské válce byla Ukrajina v prosinci 1922 začleněna do nově vzniklého SSSR.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 2,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Začlenění do SSSR trvale změnilo stát, správu i každodennost.",
+    "B": "Začlenění do SSSR 1922 dobově prožitá jen zprostředkovaně; základní školní učivo.",
+    "C": "Začlenění do SSSR je klíčový rámec, který určil další dekády."
+   }
+  },
+  {
+   "key": "UA|1920|government|Politika korenizace nakrátko podporovala ukrajinský jazyk a kulturu ve školách.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Korenizace změnila školy a úřady pro výraznou skupinu, ale krátce.",
+    "B": "Korenizaci školáci a rodiče zažili; politika ukrajinizace překvapí běžného českého čtenáře.",
+    "C": "Korenizace vysvětluje dočasnou podporu ukrajinštiny a její pozdější zvrat."
+   }
+  },
+  {
+   "key": "UA|1920|government|Začátek 20. let přinesl NEP (Novou ekonomickou politiku) — krátké uvolnění trhu, sedláci si směli ponechat obilí.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "NEP dočasně změnil trh a obživu venkovské většiny, trval jen roky.",
+    "B": "Uvolnění NEP sedláci reálně pociťovali; pro poučeného známé, běžného čtenáře poučí.",
+    "C": "NEP vysvětluje krátké tržní uvolnění a jeho význam pro sedláky."
+   }
+  },
+  {
+   "key": "UA|1920|illnesses|Hladomor v letech 1921–22 zabil na jihu Ukrajiny statisíce lidí.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Hladomor 1921–22 změnil, co lidé jedli a zda přežili; stopy dlouhodobé.",
+    "B": "Hladomor 1921–22 zasáhl jih; ve stínu 1932–33 překvapí i běžně poučeného čtenáře.",
+    "C": "Hladomor 1921–22 nese zásadní kus příběhu jihu Ukrajiny."
+   }
+  },
+  {
+   "key": "UA|1920|illnesses|Tyfus a cholera z občanské války zpustošily Kyjev a Charkov.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Epidemie v Kyjevě a Charkově měnily strach a přežití měst.",
+    "B": "Epidemie tyfu a cholery zasáhly městské obyvatele; rozsah poučí běžného čtenáře.",
+    "C": "Epidemie po občanské válce vysvětlují zdravotní realitu měst."
+   }
+  },
+  {
+   "key": "UA|1920|illnesses|Ve městech byla endemická tuberkulóza.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 1
+   },
+   "rationales": {
+    "A": "Endemická tuberkulóza ovlivňovala zdraví a strach městských domácností.",
+    "B": "Tuberkulóza běžnou městskou realitou; dobově typický, nepřekvapivý fakt.",
+    "C": "Holé konstatování endemické tuberkulózy bez souvislostí."
+   }
+  },
+  {
+   "key": "UA|1920|money|Dělníci v donbaských dolech vydělávali 30–40 rublů měsíčně.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Konkrétní mzdy, ale jen regionální profesní skupina horníků.",
+    "B": "Konkrétní mzdy znali jen horníci; číselný detail překvapí běžného čtenáře, přesnost nejistá.",
+    "C": "Konkrétní mzda horníků, dílčí údaj bez širšího rámce."
+   }
+  },
+  {
+   "key": "UA|1920|money|Po reformě a zavedení červonce v roce 1922 se rubl nakrátko stabilizoval.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celosvazová měnová reforma, krátkodobá stabilizace cen v obchodech.",
+    "B": "Měnovou reformu pocítili spíš měšťané a obchodníci; červonec překvapí běžného čtenáře.",
+    "C": "Červonec vysvětluje stabilizaci měny po chaosu občanské války."
+   }
+  },
+  {
+   "key": "UA|1920|money|Sedláci platili daně v podobě obilních kvót, ne penězi.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Obilní kvóty určovaly hospodaření většiny venkovských rodin.",
+    "B": "Obilní kvóty prožívala většina venkova; naturální daně poučí běžného čtenáře.",
+    "C": "Naturální daně v obilí vysvětlují mechanismus vztahu státu a sedláků."
+   }
+  },
+  {
+   "key": "UA|1930|beautiful|Ukrajinští básníci jako Pavlo Tyčyna psali verše, které přežily v samizdatu desítky let.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Poezie v samizdatu formovala kulturu dlouhodobě, den neměnila.",
+    "B": "Tyčynu znali čtenáři a školáci; samizdatové přežití veršů běžného čtenáře překvapí.",
+    "C": "Přežití veršů v samizdatu nese příběh kulturní odolnosti."
+   }
+  },
+  {
+   "key": "UA|1930|beautiful|Ve 30. letech vznikly ukrajinské fotbalové kluby — mezi nimi Dynamo Kyjev.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 5,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Vznik klubů jako Dynamo Kyjev trvale změnil volný čas měst.",
+    "B": "Fotbal a Dynamo znala městská generace; vznik ve 30. letech zná poučený zájemce.",
+    "C": "Vznik klubů včetně Dynama, dílčí zajímavost bez širší souvislosti."
+   }
+  },
+  {
+   "key": "UA|1930|bizarre|Ukrajinština byla až do roku 1938 oficiálním jazykem správy — i když její spisovatele zrovna stříleli.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Status ukrajinštiny ovlivňoval školy a úřady, paradox režimu.",
+    "B": "Úřední status ukrajinštiny vnímali gramotní; paradox jazyka a poprav překvapí i sečtělého.",
+    "C": "Oficiální ukrajinština při střílení spisovatelů vysvětluje paradox sovětské politiky."
+   }
+  },
+  {
+   "key": "UA|1930|bizarre|Walter Duranty z New York Times hladomor popíral a získal Pulitzerovu cenu.",
+   "scores": {
+    "livedProximity": 1,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 1,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Zahraniční mediální kauza bez dopadu na místní všední den.",
+    "B": "Zahraniční novinář, dobová veřejnost o něm nevěděla; Durantyho Pulitzer překvapí i sečtělé čtenáře.",
+    "C": "Durantyho popírání ukazuje, proč svět hladomor neviděl; spíš zahraniční rovina."
+   }
+  },
+  {
+   "key": "UA|1930|clothes|Prosté tmavé šaty s bílými límečky pro ženy.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 1
+   },
+   "rationales": {
+    "A": "Rozšířený dobový ženský oděv, dopad módní, nikoli existenční.",
+    "B": "Strohý ženský oděv pamatovala značná část; nepřekvapivý obecný popis.",
+    "C": "Popis dámského oděvu bez příběhu."
+   }
+  },
+  {
+   "key": "UA|1930|clothes|Prošívané kabáty (telogrejka neboli vaťák) pro dělníky a vězně.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Běžný oděv velké části dělníků po celá desetiletí.",
+    "B": "Vaťák každodenní oděv dělníků, sdílená vzpomínka; pojem poučí běžného českého čtenáře.",
+    "C": "Telogrejka je dobový detail, náznak splynutí dělníků a vězňů."
+   }
+  },
+  {
+   "key": "UA|1930|clothes|V zimě plstěné boty (valenky); v blátě gumové holínky (kirzy).",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 1
+   },
+   "rationales": {
+    "A": "Sezónní obuv většiny obyvatel po řadu let.",
+    "B": "Valenky a kirzáky sdílená každodennost; známé sovětské reálie.",
+    "C": "Výčet obuvi bez souvislosti."
+   }
+  },
+  {
+   "key": "UA|1930|clothes|Vyšyvanka byla tolerována jako „lidový kroj“, ale jako každodenní oděv se nedoporučovala.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Neformální zákaz vyšyvanky měnil, co lidé směli nosit, dlouhodobě.",
+    "B": "Ústup vyšyvanky z každodennosti lidé vnímali; ambivalentní tolerance kroje překvapí běžného čtenáře.",
+    "C": "Tolerovaná, ale nedoporučovaná vyšyvanka vysvětluje mechanismus kulturního tlaku."
+   }
+  },
+  {
+   "key": "UA|1930|dailyLife|V desítkách ukrajinských vesnic byl v roce 1933 zdokumentován kanibalismus.",
+   "scores": {
+    "livedProximity": 5,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Krajní projev hladomoru přímo ve vesnicích, trvalé trauma.",
+    "B": "Krajní případy zažila menšina zasažených vesnic; dokumentovaný rozsah překvapí běžného čtenáře.",
+    "C": "Dokumentovaný krajní důsledek hladomoru; skóruji doložený fakt, ne tragičnost."
+   }
+  },
+  {
+   "key": "UA|1930|dailyLife|Vesničané zakopávali obilí do země, aby ho ukryli před brigádami rekvírujícími obilí.",
+   "scores": {
+    "livedProximity": 5,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Ukrývání obilí bylo otázkou přežití většiny vesnických domácností.",
+    "B": "Ukrývání obilí masová venkovská zkušenost; konkrétní praxe překvapí běžného čtenáře.",
+    "C": "Zakopávání obilí ukazuje mechanismus rekvizic i zoufalé obrany vesnic."
+   }
+  },
+  {
+   "key": "UA|1930|dailyLife|Zinscenované procesy, zatýkání a mizení lidí zasáhly velkou část společnosti.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Zatýkání a mizení měnilo, čeho se lidé báli a co říkali.",
+    "B": "Zatýkání a mizení prostoupilo společnost; obecně známý rys stalinismu.",
+    "C": "Procesy a mizení lidí vysvětlují všudypřítomný mechanismus teroru."
+   }
+  },
+  {
+   "key": "UA|1930|food|Salo a nakládaná zelenina ukrytá ve sklepích zachránily rodiny přes zimu.",
+   "scores": {
+    "livedProximity": 5,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Zásoby ve sklepích rozhodovaly o přežití rodin přes zimu.",
+    "B": "Ukrývání zásob ve sklepích rozšířená strategie přežití; detail poučí běžného čtenáře.",
+    "C": "Ukryté zásoby nesou příběh strategie přežití rodin."
+   }
+  },
+  {
+   "key": "UA|1930|food|V roce 1933 vesničané vařili polévku z kůry, plevele a kožených opasků.",
+   "scores": {
+    "livedProximity": 5,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Náhradní strava z kůry — přímý denní boj o přežití vesnic.",
+    "B": "Náhradní strava zkušenost hladem zasaženého venkova; konkrétní detail překvapí běžného čtenáře.",
+    "C": "Polévka z kůry a opasků konkrétně vysvětluje hloubku hladu."
+   }
+  },
+  {
+   "key": "UA|1930|food|Ve městech přídělové lístky na chleba — ale Ukrajina, obilnice, žádný chleba neměla.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Přídělové lístky a nedostatek chleba určovaly městský den.",
+    "B": "Lístky bez chleba prožívala města; paradox obilnice bez chleba poučí běžného čtenáře.",
+    "C": "Obilnice bez chleba — paradox, který otevírá pochopení řízeného hladomoru."
+   }
+  },
+  {
+   "key": "UA|1930|government|Hladomor (1932–33) — uměle vyvolaný hladomor — zabil odhadem 3–7 milionů Ukrajinců.",
+   "scores": {
+    "livedProximity": 5,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Hladomor zasáhl přímo vesnice, určoval přežití, trvalá stopa.",
+    "B": "Hladomor téměř univerzální prožitá katastrofa; dnes široce známý, čísla obětí méně.",
+    "C": "Hladomor je klíč k pochopení celé ukrajinské zkušenosti 30. let."
+   }
+  },
+  {
+   "key": "UA|1930|government|Stalin prosadil násilnou kolektivizaci; miliony sedláků přišly o majetek.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Kolektivizace vzala majetek milionům a trvale změnila venkov.",
+    "B": "Kolektivizace zasáhla prakticky celý venkov; obecně známé školní učivo.",
+    "C": "Kolektivizace vysvětluje mechanismus zlomu venkovské společnosti."
+   }
+  },
+  {
+   "key": "UA|1930|government|Velký teror (1937–38) popravil ukrajinské intelektuály, stranické funkcionáře, spisovatele i kněze.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Teror šířil strach napříč společností, trvale změnil elity i řeč.",
+    "B": "Teror a mizení lidí zasáhly velkou část společnosti; Velký teror obecně známý.",
+    "C": "Velký teror vysvětluje likvidaci elit a atmosféru strachu."
+   }
+  },
+  {
+   "key": "UA|1930|illnesses|Hladomor způsoboval nemoci z hladu — pelagru, vyhladovění, dystrofii, dětský záškrt.",
+   "scores": {
+    "livedProximity": 5,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Nemoci z hladu přímo ve vesnicích, zasáhly rodiny na léta.",
+    "B": "Nemoci z hladu zasáhly velkou část venkova; konkrétní diagnózy poučí běžného čtenáře.",
+    "C": "Nemoci z hladu konkretizují zdravotní dopad hladomoru."
+   }
+  },
+  {
+   "key": "UA|1930|illnesses|Tuberkulóza si brala ty, koho oslabil hlad.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Tuberkulóza ohrožovala oslabené obyvatelstvo po celou dekádu.",
+    "B": "Tuberkulózu při podvýživě pamatovaly rodiny obětí; logický, nepřekvapivý dobový fakt.",
+    "C": "Vazba tuberkulózy na hlad, dílčí souvislost."
+   }
+  },
+  {
+   "key": "UA|1930|illnesses|Tábory gulagu i venkovské vesnice zachvátily epidemie tyfu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Epidemie tyfu zasáhly vesnice i tábory, epizoda jednotek let.",
+    "B": "Tyfové epidemie zažily zasažené vesnice a vězni; detail zná spíše poučený zájemce.",
+    "C": "Epidemie tyfu, dílčí údaj v širším kontextu represí."
+   }
+  },
+  {
+   "key": "UA|1930|money|Bochník chleba z černého trhu stál v roce 1933 dělníkovu denní mzdu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Cena chleba rovná denní mzdě určovala, co lidé jedli.",
+    "B": "Ceny černého trhu znali kupující v 1933; poměr ceny a mzdy překvapí i sečtělého, přesnost nejistá.",
+    "C": "Chleba za denní mzdu vysvětluje černý trh a hodnotu jídla 1933."
+   }
+  },
+  {
+   "key": "UA|1930|money|Dělníci ve městech vydělávali 100–150 rublů měsíčně.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Dobové mzdy rámovaly rozpočet městských domácností.",
+    "B": "Mzdy znali městští dělníci; konkrétní částky zná spíše poučený zájemce.",
+    "C": "Mzdový údaj bez širšího rámce."
+   }
+  },
+  {
+   "key": "UA|1930|money|Pracovníci kolchozů byli placeni v trudodních (pracovních dnech), za které často nešlo dostat nic.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Trudodni určovaly obživu většiny kolchozníků po desetiletí.",
+    "B": "Trudodny prožívali všichni kolchozníci; systém neplacené práce překvapí běžného českého čtenáře.",
+    "C": "Trudodny vysvětlují mechanismus faktické neplacené práce v kolchozech."
+   }
+  },
+  {
+   "key": "UA|1940|beautiful|Kyjevský Chreščatyk se znovu otevřel v roce 1949 — široké bulváry a pastelové fasády.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Obnova Chreščatyku byla lokální kyjevská, ale trvale změnila podobu města.",
+    "B": "Otevření Chreščatyku sdílená kyjevská vzpomínka; rok 1949 zná zájemce.",
+    "C": "Obnova Chreščatyku ilustruje poválečnou rekonstrukci města a její estetiku."
+   }
+  },
+  {
+   "key": "UA|1940|beautiful|Olha Kobyljanská a další spisovatelky byly v poválečných letech znovu objeveny.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Kulturní znovuobjevení se dotklo hlavně čtenářské a literární vrstvy.",
+    "B": "Kobyljanskou znali spíš čtenáři literatury; poválečné znovuobjevení překvapí čtenáře.",
+    "C": "Kulturní zajímavost bez širší souvislosti či mechanismu doby."
+   }
+  },
+  {
+   "key": "UA|1940|bizarre|Rudá armáda překročila v říjnu 1943 pod palbou Dněpr — bitva o rozsahu Stalingradu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Fronta na Dněpru přímo procházela zemí, obrovské ztráty a zničení na roky.",
+    "B": "Přechod Dněpru znali veteráni a rodiny; jeho rozsah běžného čtenáře překvapí.",
+    "C": "Významná bitva doby, ale spíš vojenská událost než mechanismus života."
+   }
+  },
+  {
+   "key": "UA|1940|bizarre|Stoupenci Stepana Bandery bojovali proti nacistům, pak proti Sovětům, až do 50. let.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Boje UPA přímo zasahovaly západní Ukrajinu, represe a strach trvaly do 50. let.",
+    "B": "Banderovci byli na západě všudypřítomné téma; dnes mediálně známé.",
+    "C": "Vysvětluje pokračující partyzánský odboj a rozdělenou zkušenost západní Ukrajiny."
+   }
+  },
+  {
+   "key": "UA|1940|clothes|Sovětské šaty z umělého hedvábí nahradily lněnou vyšyvanku jako každodenní oděv.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Nahrazení vyšyvanky změnilo každodenní odívání dlouhodobě.",
+    "B": "Změnu každodenního oděvu zažila značná část; nahrazení vyšyvanky běžného čtenáře překvapí.",
+    "C": "Náhrada vyšyvanky sovětskou konfekcí nese příběh kulturní unifikace."
+   }
+  },
+  {
+   "key": "UA|1940|clothes|Vesnické ženy nosily i po válce dlouhé tmavé sukně a šátky.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 1
+   },
+   "rationales": {
+    "A": "Běžný oděv venkovských žen, přetrval roky po válce.",
+    "B": "Vesnický oděv šátků a tmavých sukní pamatuje většina venkovské generace; známý obraz.",
+    "C": "Popis vesnického oděvu bez příběhu."
+   }
+  },
+  {
+   "key": "UA|1940|clothes|Za války: armádní přebytky, prošívané kabáty, cokoli, co se dalo zalátat.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Válečný nedostatek určoval, co většina lidí nosila, po léta.",
+    "B": "Válečné látání a přebytky sdílená zkušenost; nepřekvapí, čekaný obraz doby.",
+    "C": "Válečné látání oděvů, dílčí kolorit nouze."
+   }
+  },
+  {
+   "key": "UA|1940|dailyLife|Kyjev byl do roku 1944 z 85 % zničený; Chreščatyk se musel postavit z trosek znovu.",
+   "scores": {
+    "livedProximity": 5,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Zničení Kyjeva a obnova Chreščatyku trvale změnily město.",
+    "B": "Zničený Kyjev pamatují všichni Kyjevané; rozsah 85 % běžného čtenáře překvapí.",
+    "C": "Zničený Kyjev a obnova Chreščatyku vysvětlují měřítko válečné zkázy."
+   }
+  },
+  {
+   "key": "UA|1940|dailyLife|Partyzáni (UPA na západní Ukrajině) bojovali se Sověty až do počátku 50. let.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Boje UPA měnily život hlavně na západě, po řadu let.",
+    "B": "Boje UPA formovaly západní Ukrajinu do 50. let; dnes poměrně známé téma.",
+    "C": "Boj UPA do 50. let vysvětluje pokračující konflikt na západě země."
+   }
+  },
+  {
+   "key": "UA|1940|dailyLife|Standardním způsobem městského bydlení se staly komunální byty (komunálky).",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Komunálky určovaly bydlení městských domácností po desetiletí.",
+    "B": "Komunálky byly téměř univerzální městská zkušenost; obecně známý fenomén.",
+    "C": "Komunálky vysvětlují mechanismus sdíleného bydlení na desetiletí dopředu."
+   }
+  },
+  {
+   "key": "UA|1940|food|Fronty na chleba trvaly hodiny ještě roky po skončení války.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Hodinové fronty na chleba měnily denní rutinu většiny.",
+    "B": "Poválečné fronty na chleba sdílená vzpomínka; délku po válce zná zájemce.",
+    "C": "Hodinové fronty na chleba konkretizují poválečný nedostatek."
+   }
+  },
+  {
+   "key": "UA|1940|food|Přidělování na lístky trvalo až do roku 1947.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Lístkový systém do 1947 určoval nákupy všech domácností.",
+    "B": "Lístkový systém zažil prakticky každý; přesné trvání do 1947 zná zájemce.",
+    "C": "Lístkový systém do 1947 nese kus příběhu poválečné nouze."
+   }
+  },
+  {
+   "key": "UA|1940|food|Salo na žitném chlebu a řepný boršč zůstaly základem vesnických jídel.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Základ vesnické stravy, trvalá součást každodennosti.",
+    "B": "Salo a boršč jsou univerzální; obecně známý stereotyp kuchyně.",
+    "C": "Stálost jídelníčku, dílčí kolorit."
+   }
+  },
+  {
+   "key": "UA|1940|government|Do roku 1944 sovětské znovudobytí; následovaly hromadné deportace krymských Tatarů a dalších.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Deportace trvale změnily obyvatelstvo Krymu i dalších oblastí.",
+    "B": "Návrat Sovětů zažili téměř všichni; deportace Tatarů zná spíš poučený zájemce.",
+    "C": "Znovudobytí a deportace vysvětlují druhou vlnu sovětských represí."
+   }
+  },
+  {
+   "key": "UA|1940|government|Masakr v Babím Jaru — 33 771 Židů zavražděných za 36 hodin v září 1941 v Kyjevě.",
+   "scores": {
+    "livedProximity": 5,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Masakr přímo v Kyjevě, vyhlazení komunity, trvalá stopa města.",
+    "B": "Babyn Jar znali Kyjevané i širší veřejnost; dnes obecně známá událost, přesná čísla méně.",
+    "C": "Babyn Jar vysvětluje rozsah holocaustu na Ukrajině; skóruji doložený klíčový fakt."
+   }
+  },
+  {
+   "key": "UA|1940|government|Nacistické Německo zaútočilo v červnu 1941; Ukrajina byla okupována od roku 1941 do roku 1944.",
+   "scores": {
+    "livedProximity": 5,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Okupace zasáhla přímo každé místo a všechny stránky života.",
+    "B": "Okupace 1941–44 je univerzální prožitá zkušenost; zároveň školní učivo.",
+    "C": "Okupace 1941–44 je rámec, který určil život celé dekády."
+   }
+  },
+  {
+   "key": "UA|1940|illnesses|Hladomor v letech 1946–47 zabil na jihovýchodě další milion lidí.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Poválečný hladomor znovu určoval přežití na jihovýchodě.",
+    "B": "Hladomor 1946–47 zažili postižené regiony hromadně; mimo Ukrajinu téměř neznámý.",
+    "C": "Hladomor 1946–47 je málo známý klíčový fakt poválečných let."
+   }
+  },
+  {
+   "key": "UA|1940|illnesses|Po válce vzrostla tuberkulóza mezi navrátivšími se vojáky a uprchlíky.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Poválečná tuberkulóza zatížila rodiny navrátilců na léta.",
+    "B": "Poválečnou tuberkulózu pamatuje značná část rodin; zná poučený zájemce.",
+    "C": "Poválečná tuberkulóza, dílčí souvislost s návraty a migrací."
+   }
+  },
+  {
+   "key": "UA|1940|illnesses|Válečný tyfus, úplavice a omrzliny zasáhly během války mnoho ukrajinských rodin.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Válečné nemoci zasáhly mnoho rodin, převážně po dobu války.",
+    "B": "Tyfus a úplavice zasáhly mnoho rodin; válečné epidemie jsou obecně tušené.",
+    "C": "Výčet válečných nemocí, dílčí údaj."
+   }
+  },
+  {
+   "key": "UA|1940|money|Měnová reforma v roce 1947 smetla úspory v poměru 10:1.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Reforma 10:1 smetla úspory domácností, důsledky na léta.",
+    "B": "Reforma 1947 postihla úspory většiny rodin; běžného českého čtenáře překvapí.",
+    "C": "Reforma 1947 vysvětluje, jak stát jedním tahem smazal úspory lidí."
+   }
+  },
+  {
+   "key": "UA|1940|money|Sedláci v kolchozech stále vydělávali v trudodních, vyplácených v obilí po žních.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Trudodni dál určovaly obživu kolchozního venkova po léta.",
+    "B": "Trudodni prožila venkovská většina; platba v obilí překvapí i sečtělé.",
+    "C": "Trudodny v obilí vysvětlují přetrvávající naturální ekonomiku kolchozů."
+   }
+  },
+  {
+   "key": "UA|1940|money|Vojenské penze a podpory válečným vdovám byly pro miliony lidí jedinou stálou hotovostí.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Penze a podpory byly jediným stálým příjmem milionů domácností po válce.",
+    "B": "Vdovské podpory znaly zasažené rodiny, ne všichni; jejich role překvapí čtenáře.",
+    "C": "Vysvětluje, jak válečná ekonomika a ztráty určovaly rodinné příjmy milionů."
+   }
+  },
+  {
+   "key": "UA|1950|beautiful|Dynamo Kyjev zahájilo svou desítky let trvající éru sovětských fotbalových mistrů.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Úspěchy Dynama Kyjev byly sdíleným zážitkem fanoušků po desetiletí.",
+    "B": "Úspěchy Dynama sdílená hrdost většiny fanoušků; obecně známé.",
+    "C": "Začátek fotbalové éry, sdílený zdroj hrdosti obyvatel."
+   }
+  },
+  {
+   "key": "UA|1950|beautiful|Vynořil se ukrajinský básník Vasyl Symonenko a generace „šedesátníků“.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Šedesátníci formovali kulturu dlouhodobě, každodenně zasáhli hlavně inteligenci.",
+    "B": "Symonenka znala hlavně inteligence; šedesátníci běžného čtenáře překvapí.",
+    "C": "Nástup šedesátníků nese kus kulturního příběhu doby."
+   }
+  },
+  {
+   "key": "UA|1950|bizarre|Chruščovův zeť vedl redakci deníku Pravda, jeden z příkladů rodinných vazeb v nejvyšších patrech moci.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 1,
+    "recognition": 1,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Moskevská kuriozita o elitách bez dopadu na běžný den na Ukrajině.",
+    "B": "Adžubeje znal úzký okruh sledujících tisk; rodinná vazba překvapí běžného čtenáře.",
+    "C": "Zajímavost o nepotismu elit, pro běžný život okrajová."
+   }
+  },
+  {
+   "key": "UA|1950|bizarre|Jaderná havárie v Kyštymu z roku 1957 byla po desetiletí utajována — stejně jako ty pozdější.",
+   "scores": {
+    "livedProximity": 1,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 1,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Havárie na Uralu, utajená; obyvatelé Ukrajiny ji tehdy nepocítili.",
+    "B": "Kyštym byl utajen, pamětníci nevěděli; navíc leží mimo Ukrajinu — překvapí i sečtělé.",
+    "C": "Utajení Kyštymu ilustruje mechanismus sovětského zamlčování; událost mimo Ukrajinu."
+   }
+  },
+  {
+   "key": "UA|1950|clothes|Bavlněné šaty s květinovými vzory, šátky, podkolenky — vzhled sovětské hospodyně.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Popisuje běžné oblečení žen — každodenní, ale jde o dobový styl jednotek let.",
+    "B": "Květované šaty a šátky univerzální dobový vzhled; očekávaný obraz.",
+    "C": "Konkrétní obraz každodenního odívání, nese kus dobové atmosféry."
+   }
+  },
+  {
+   "key": "UA|1950|clothes|Chlapci ve školních uniformách s rudými pionýrskými šátky.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Školní uniformy a pionýrské šátky nosila většina dětí denně po léta.",
+    "B": "Pionýrské šátky prožil téměř každý školák; obecně známé.",
+    "C": "Dílčí vizuální detail školního života bez širší souvislosti."
+   }
+  },
+  {
+   "key": "UA|1950|clothes|V kolchozech prošívané kabáty a gumové holínky.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Běžný oděv kolchozníků; týká se venkovské části populace.",
+    "B": "Vatniky a holínky pamatuje venkovská většina; známý obraz kolchozu.",
+    "C": "Drobný detail venkovského oblečení, málo kontextu."
+   }
+  },
+  {
+   "key": "UA|1950|dailyLife|Chruščovky — pětipatrové panelové domy — od roku 1956 rostly všude.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Chruščovky změnily bydlení milionů rodin a dodnes tvoří města.",
+    "B": "Chruščovky jsou téměř univerzální zkušenost bydlení; obecně známé.",
+    "C": "Chruščovky vysvětlují masové bydlení, které formovalo život desetiletí."
+   }
+  },
+  {
+   "key": "UA|1950|dailyLife|Společné kuchyně byly stále standardem; vlastní koupelna byla luxusem.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Společné kuchyně určovaly každodenní soukromí většiny městských domácností.",
+    "B": "Společné kuchyně sdílená vzpomínka většiny; luxus vlastní koupelny zná zájemce.",
+    "C": "Vysvětluje reálný standard bydlení a sdílený každodenní život."
+   }
+  },
+  {
+   "key": "UA|1950|dailyLife|Černobílá televize dorazila do bytů na konci 50. let.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Příchod televize změnil večery domácností trvale.",
+    "B": "Příchod televize pamatuje většina městské generace; očekávaný milník.",
+    "C": "Příchod televize nese kus proměny domácího života."
+   }
+  },
+  {
+   "key": "UA|1950|food|Boršč, kaše, salo, vareniky — beze změny.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Základní strava většiny domácností, kontinuita napříč generacemi.",
+    "B": "Boršč a vareniky univerzální strava; obecně známé.",
+    "C": "Výčet jídel bez příběhu či mechanismu, jen kontinuita."
+   }
+  },
+  {
+   "key": "UA|1950|food|V létě stávaly na mnoha městských rozích stánky s kvasem.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Stánky s kvasem byly letní rutinou městských ulic.",
+    "B": "Stánky s kvasem pamatuje většina městské generace; českého čtenáře detail pobaví.",
+    "C": "Hezký dobový detail ulice bez širší souvislosti."
+   }
+  },
+  {
+   "key": "UA|1950|food|Zmrzlina (moroženoje) byla sovětským úspěchem — 10 kopějek za vanilkový kelímek.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Levná zmrzlina byla běžnou drobnou radostí ve městech po desetiletí.",
+    "B": "Moroženoje za 10 kopějek ikonická sdílená vzpomínka; cenu zná zájemce.",
+    "C": "Konkrétní cena a dostupnost — malý obraz sovětského konzumu."
+   }
+  },
+  {
+   "key": "UA|1950|government|Chruščovův „tajný projev“ z roku 1956 odsoudil Stalina a přinesl krátké uvolnění.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celosovětské uvolnění; do každodennosti proniklo omezeně, formovalo dekádu tání.",
+    "B": "Tání po 1956 pocítila většina; tajný projev je učebnicově známý.",
+    "C": "Vysvětluje mechanismus destalinizace a krátkého uvolnění, které lidé pocítili."
+   }
+  },
+  {
+   "key": "UA|1950|government|Krym byl v roce 1954 převeden z Ruské SFSR do Ukrajinské SSR.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 5,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Administrativní převod Krymu tehdy den nezměnil, důsledky ale trvalé.",
+    "B": "Převod Krymu tehdy málo prožívaný, dnes ale široce známý díky aktualitě.",
+    "C": "Administrativní přesun s dlouhodobým významem, dobový dopad na život omezený."
+   }
+  },
+  {
+   "key": "UA|1950|government|Nikita Chruščov — který byl ve 30. a 40. letech ukrajinským stranickým bossem — stál v čele SSSR.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Vedení SSSR s ukrajinskou vazbou; přímý dopad na den byl nepřímý, ale éra formující.",
+    "B": "Chruščova znal každý; jeho ukrajinskou kariéru zná poučený zájemce.",
+    "C": "Ukazuje vazbu ukrajinské stranické elity na vedení SSSR."
+   }
+  },
+  {
+   "key": "UA|1950|illnesses|Hromadné očkovací kampaně do roku 1960 ukončily na Ukrajině záškrt, obrnu a neštovice.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Očkovací kampaně se dotkly téměř všech rodin a trvale odstranily nemoci.",
+    "B": "Očkovací kampaně zažila většina dětí; ukončení nemocí do 1960 překvapí čtenáře.",
+    "C": "Vysvětluje, jak očkovací kampaně změnily zdraví celé generace."
+   }
+  },
+  {
+   "key": "UA|1950|illnesses|Na venkově západní Ukrajiny byla stále běžná tuberkulóza.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Tuberkulóza formovala zdraví a obavy venkovských rodin na západě země.",
+    "B": "Tuberkulózu na venkově pamatuje značná část regionu; zná zájemce.",
+    "C": "Dílčí zdravotní fakt bez vysvětlení příčin či důsledků."
+   }
+  },
+  {
+   "key": "UA|1950|illnesses|Průmyslové znečištění v Donbasu začalo způsobovat chronická onemocnění dýchacích cest.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Znečištění Donbasu zasáhlo zdraví regionu a trvá dodnes.",
+    "B": "Donbaské znečištění zažili místní; jeho rané zdravotní dopady překvapí čtenáře.",
+    "C": "Spojuje industrializaci Donbasu se zdravím obyvatel — kus příběhu doby."
+   }
+  },
+  {
+   "key": "UA|1950|money|Bochník chleba stál 16 kopějek a tak to zůstalo 30 let.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Stabilní cena chleba rámovala nákupy všech domácností po 30 let.",
+    "B": "Cena chleba 16 kopějek sdílená paměť; 30letá stabilita ceny překvapí čtenáře.",
+    "C": "Fixní cena chleba po 30 let vysvětluje plánovanou ekonomiku v každodennosti."
+   }
+  },
+  {
+   "key": "UA|1950|money|Měnová reforma z roku 1961 vyměnila 10 starých rublů za 1 nový — ale reálné ceny zůstaly stejné.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Měnová reforma se dotkla peněz každé domácnosti, nové ceny platily desetiletí.",
+    "B": "Výměnu rublů 1961 zažili všichni dospělí; mimo region ji zná zájemce.",
+    "C": "Měnová reforma s vysvětlením, že reálná hodnota se nezměnila."
+   }
+  },
+  {
+   "key": "UA|1950|money|Průměrný dělník vydělával 80–100 rublů měsíčně.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Výše mzdy určovala rozpočet většiny dělnických domácností.",
+    "B": "Dělnické platy znal každý zaměstnaný; konkrétní částky zná zájemce.",
+    "C": "Konkrétní mzda dává měřítko životní úrovně."
+   }
+  },
+  {
+   "key": "UA|1960|beautiful|Borys Olijnyk a Lina Kostenková oživili ukrajinskou poezii.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Poezie oslovila hlavně čtenářskou vrstvu, kulturní vliv na léta.",
+    "B": "Šedesátnickou poezii četla menšina; Kostenková jako fenomén překvapí české čtenáře.",
+    "C": "Jména básníků bez širší souvislosti či mechanismu."
+   }
+  },
+  {
+   "key": "UA|1960|beautiful|Snímek Serhije Paradžanova „Stíny zapomenutých předků“ (1965) se stal milníkem světové kinematografie.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Filmový milník s trvalým kulturním významem, běžný den nezměnil.",
+    "B": "Paradžanovův film znala kulturní menšina; jeho světový ohlas běžného čtenáře překvapí.",
+    "C": "Milník ukrajinského filmu, kus kulturního příběhu éry."
+   }
+  },
+  {
+   "key": "UA|1960|bizarre|Antonov An-22, tehdy největší letadlo na světě, byl postaven v Kyjevě v roce 1965.",
+   "scores": {
+    "livedProximity": 5,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Kyjevská zajímavost a hrdost, každodenní život nezměnila.",
+    "B": "An-22 znali hlavně Kyjevané a fandové letectví; „největší na světě z Kyjeva“ běžného čtenáře překvapí.",
+    "C": "Technická zajímavost, hrdost Kyjeva, ale bez širšího mechanismu."
+   }
+  },
+  {
+   "key": "UA|1960|bizarre|Ukrajinský disident Vjačeslav Čornovil sestavil první samizdatový „Ukrajinský věstník“.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 4,
+    "recognition": 1,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Samizdat zasáhl úzký okruh, ale spoluzaložil disent s dlouhými důsledky.",
+    "B": "Samizdat znal tehdy jen úzký okruh; Čornovilův Věstník překvapí i sečtělé mimo Ukrajinu.",
+    "C": "Samizdat ukazuje, jak obcházení cenzury fungovalo."
+   }
+  },
+  {
+   "key": "UA|1960|clothes|Chlapci nosili školní uniformu s mosaznými knoflíky a brigadýrku.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Povinná školní uniforma byla denní rutinou chlapců po léta.",
+    "B": "Školní uniformu s brigadýrkou nosila téměř celá generace chlapců; známý obraz.",
+    "C": "Dílčí detail školní uniformy bez širšího kontextu."
+   }
+  },
+  {
+   "key": "UA|1960|clothes|Sovětské minisukně dorazily pozdě, až v roce 1968, a jen do měst.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Módní změna omezená na městskou mládež, epizoda jednotek let.",
+    "B": "Minisukně pamatuje městská mládež té doby; opožděný příchod překvapí čtenáře.",
+    "C": "Zpožděná móda ukazuje izolaci a rozdíl město–venkov."
+   }
+  },
+  {
+   "key": "UA|1960|clothes|Vyšívaná vyšyvanka zažila lidové oživení mezi mládeží „šedesátníků“.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Oživení vyšyvanky se týkalo menšiny mládeže, symbolika ale přetrvala.",
+    "B": "Oživení vyšyvanky zaznamenala hlavně městská mládež; běžného čtenáře překvapí.",
+    "C": "Oživení vyšyvanky vysvětluje tiché národní sebeuvědomění mládeže."
+   }
+  },
+  {
+   "key": "UA|1960|dailyLife|Dněperská vodní elektrárna byla obnovena a Ukrajina vyráběla elektřinu pro polovinu SSSR.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Průmyslový symbol; elektrifikace ovlivnila život nepřímo, ale dlouhodobě.",
+    "B": "Dněproges byl známý symbol; podíl na polovině elektřiny SSSR překvapí, číslo působí nadsazeně.",
+    "C": "Role Ukrajiny v energetice SSSR — kus příběhu industrializace."
+   }
+  },
+  {
+   "key": "UA|1960|dailyLife|Pionýrské letní tábory v Karpatech a na Krymu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Pionýrské tábory byly letní zkušeností velké části dětí.",
+    "B": "Pionýrské tábory prožila většina dětí generace; obecně známé.",
+    "C": "Dílčí obraz dětských táborů bez širší souvislosti."
+   }
+  },
+  {
+   "key": "UA|1960|dailyLife|„Chruščovovo tání“ povolilo na deset let knihy v ukrajinštině — za Brežněva byly opět zakázány.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Dostupnost ukrajinských knih měnila, co lidé směli číst, na dekádu.",
+    "B": "Krátkou dostupnost ukrajinských knih vnímali čtenáři té doby; zvrat překvapí čtenáře.",
+    "C": "Vysvětluje mechanismus tání a opětovného zákazu ukrajinské kultury."
+   }
+  },
+  {
+   "key": "UA|1960|food|Krymská vína a sovětské šampaňské na zvláštní příležitosti.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Sváteční pití, dotýkalo se oslav, ne běžného dne.",
+    "B": "Sovětské šampaňské a krymská vína na oslavách — široce sdílený rituál, obecně známý.",
+    "C": "Drobný sváteční detail bez širší souvislosti."
+   }
+  },
+  {
+   "key": "UA|1960|food|Sovětské kuchařky propagovaly stejných pár tuctů jídel ve všech 15 republikách.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Jednotné sovětské kuchařky standardizovaly vaření domácností napříč SSSR.",
+    "B": "Jednotné sovětské kuchařky pamatují hospodyně většiny domácností; unifikaci zná zájemce.",
+    "C": "Unifikace kuchyně ilustruje sovětskou standardizaci každodennosti."
+   }
+  },
+  {
+   "key": "UA|1960|food|Uzeniny byly nedostatkové — Ukrajinci jezdili vlakem do Moskvy, aby je sehnali.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Nedostatek uzenin a nákupní vlaky do Moskvy byly rutinou mnoha rodin.",
+    "B": "„Kolbasnyje električky“ do Moskvy — sdílená zkušenost mnoha rodin, běžného čtenáře překvapí.",
+    "C": "Vlaky do Moskvy pro uzeniny vysvětlují mechanismus nedostatku a zásobovací hierarchii."
+   }
+  },
+  {
+   "key": "UA|1960|government|Leonid Brežněv — narozený v Kamjanském na Ukrajině — se stal v roce 1964 sovětským vůdcem.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Sovětský vůdce s ukrajinským původem; éra stagnace formovala dvě dekády nepřímo.",
+    "B": "Brežněva znal každý; jeho ukrajinský původ zná poučený zájemce.",
+    "C": "Ukrajinský původ Brežněva spojuje zemi s vedením SSSR."
+   }
+  },
+  {
+   "key": "UA|1960|government|První procesy s ukrajinskými disidenty z řad intelektuálů se konaly v letech 1965–66.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Procesy zasáhly úzkou skupinu, ale nastavily klima strachu na dlouho.",
+    "B": "Procesy 1965–66 znal spíš okruh inteligence; běžného čtenáře překvapí.",
+    "C": "Procesy s disidenty — kus příběhu utužování po tání."
+   }
+  },
+  {
+   "key": "UA|1960|government|Zesílila politika rusifikace — ukrajinské školy přecházely na ruštinu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Rusifikace škol měnila jazyk výuky dětí a trvale ovlivnila jazykovou situaci.",
+    "B": "Přechod škol na ruštinu zažila většina rodin; dnes poměrně známé téma.",
+    "C": "Vysvětluje mechanismus rusifikace, který přímo měnil školy a jazyk rodin."
+   }
+  },
+  {
+   "key": "UA|1960|illnesses|Kouření — papirosy Bělomorkanal — bylo všudypřítomné.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Všudypřítomné kouření prostupovalo domácnosti i veřejný prostor na desetiletí.",
+    "B": "Bělomorkanal všudypřítomná dobová značka; známý kolorit.",
+    "C": "Dobový detail kouření, málo širší souvislosti."
+   }
+  },
+  {
+   "key": "UA|1960|illnesses|Sovětské zdravotnictví deklarovalo širokou dostupnost lékařské péče; lékaři brali kolem 70 rublů měsíčně.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Dostupná péče rámovala zkušenost pacientů, deklarace vs. realita nejistá.",
+    "B": "Bezplatnou péči zažili všichni; nízké platy lékařů zná spíš zájemce.",
+    "C": "Kontrast deklarované péče a nízkých platů lékařů něco vysvětluje."
+   }
+  },
+  {
+   "key": "UA|1960|illnesses|Tuberkulóza konečně ustupovala; nemoci spojené s alkoholem přibývaly.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Zdravotní posun zasáhl mnoho rodin, alkoholismus měl dlouhodobé následky.",
+    "B": "Ústup TBC a růst alkoholismu vnímala část generace; zná poučený zájemce.",
+    "C": "Zachycuje zdravotní zlom: ústup TBC, nástup alkoholu."
+   }
+  },
+  {
+   "key": "UA|1960|money|Byt přiděloval stát; nemohli jste ho koupit ani prodat.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Státní přidělování bytů určovalo bydlení a životní plány všech.",
+    "B": "Státní přidělování bytů zažil prakticky každý; princip je obecně známý.",
+    "C": "Státní přidělování bytů vysvětluje základní mechanismus sovětského bydlení."
+   }
+  },
+  {
+   "key": "UA|1960|money|Průměrný dělník vydělával kolem 120 rublů měsíčně.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Průměrná mzda rámovala rozpočty většiny domácností dekády.",
+    "B": "Výplatu si pamatuje každý; konkrétní částka známá spíš zájemcům o dobu.",
+    "C": "Holá mzda; užitečné měřítko, ale bez příběhu."
+   }
+  },
+  {
+   "key": "UA|1960|money|Vůz „Volha“ GAZ-21 stál 5 500 rublů — pět let úspor.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Auto bylo nedosažitelným snem menšiny, ilustruje ceny, ne rutinu.",
+    "B": "Cena Volhy jako nedosažitelný sen — pamatuje generace, poměr k platu překvapí.",
+    "C": "Cena auta v letech úspor konkrétně vysvětluje kupní sílu."
+   }
+  },
+  {
+   "key": "UA|1970|beautiful|Dynamo Kyjev vyhrálo v roce 1975 Pohár vítězů pohárů — první sovětský klub, který získal evropskou trofej.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Triumf Dynama Kyjev sledovala velká část země; sdílený zážitek s dlouhou pamětí.",
+    "B": "Triumf Dynama 1975 prožila celá země; mimo region zná spíš fotbalový zájemce.",
+    "C": "Evropská trofej Dynama — sdílený moment hrdosti éry."
+   }
+  },
+  {
+   "key": "UA|1970|beautiful|Ukrajinská zpěvačka Sofija Rotaru se stala jednou z největších hvězd sovětského bloku.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Rotaru zněla z rádií po celé zemi; kulturní přítomnost, menší změna rutiny.",
+    "B": "Rotaru zněla z každého rádia; její slávu zná i český čtenář té generace.",
+    "C": "Rotaru jako hvězda bloku nese kus kulturního života doby."
+   }
+  },
+  {
+   "key": "UA|1970|bizarre|Antonov An-225 — největší letadlo, jaké kdy bylo postaveno — bylo v této době navrženo v Kyjevě (postaveno v roce 1988).",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 1,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Návrh letadla v Kyjevě je zajímavost bez dopadu na všední den; navíc realizace až 1988.",
+    "B": "Návrh An-225 v 70. letech je sporně datovaný a tehdy tajný; kyjevský původ Mriji překvapí.",
+    "C": "Technická zajímavost s posunutou chronologií, bez dopadu na běžný život."
+   }
+  },
+  {
+   "key": "UA|1970|bizarre|Ukrajinští disidenti v gulagu psali básně na kostky mýdla.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 0,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Dojemný detail z gulagů mimo Ukrajinu; každodennost obyvatel nezměnil.",
+    "B": "Básně na mýdle znal jen okruh vězňů a rodin; doložený detail překvapí i sečtělé.",
+    "C": "Silný detail o disidentech v gulagu, nese kus příběhu represí."
+   }
+  },
+  {
+   "key": "UA|1970|clothes|Sovětské džíny (Tver) se snažily kopírovat Levi's a nikdy se jim to úplně nepodařilo.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 1,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Sovětský výrobek z Tveru; okrajová spotřební zajímavost pro Ukrajinu.",
+    "B": "Sovětské napodobeniny džín si značná část pamatuje; značka Tver běžného čtenáře překvapí.",
+    "C": "Sovětské kopie džín ilustrují ekonomiku nedostatku a prestiže Západu."
+   }
+  },
+  {
+   "key": "UA|1970|clothes|Tepláky Adidas, když jste je sehnali, byly symbolem statusu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Statusový symbol dostupný menšině; dobově výmluvný, ale omezený dopad.",
+    "B": "Adidas jako status pamatuje většina generace; mimo region to zná spíš zájemce.",
+    "C": "Adidas jako status vysvětluje nedostatek a touhu po Západu."
+   }
+  },
+  {
+   "key": "UA|1970|clothes|Všechno z polyesteru, hnědá a oranžová, od poloviny desetiletí kalhoty do zvonu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Dobová móda v zemi, viditelná pro většinu, ale sezónně-dekádní epizoda.",
+    "B": "Polyester a zvony jsou sdílená vizuální vzpomínka; módu 70. let zná většina.",
+    "C": "Konkrétní obraz dobové módy nese atmosféru desetiletí."
+   }
+  },
+  {
+   "key": "UA|1970|dailyLife|Dvoutýdenní letní dovolené v krymských sanatoriích, placené odbory.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Odborové poukazy na Krym formovaly dovolené výrazné skupiny zaměstnanců.",
+    "B": "Odborářské poukazy na Krym zažila většina zaměstnanců; systém putovek zná zájemce o dobu.",
+    "C": "Odborové poukazy na Krym vysvětlují, jak fungovala sovětská dovolená."
+   }
+  },
+  {
+   "key": "UA|1970|dailyLife|Prázdné regály v obchodech; všechno dobré se sehnalo přes blat (známosti).",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Nedostatek a blat určovaly, co lidé jedli a kupovali, po celá léta.",
+    "B": "Blat a prázdné regály — definiční zkušenost doby; nedostatek je obecně známý.",
+    "C": "Blat vysvětluje klíčový mechanismus, jak se v nedostatku vůbec žilo."
+   }
+  },
+  {
+   "key": "UA|1970|dailyLife|Černý trh se západními džínami, deskami a knihami byl v Kyjevě a Oděse obrovský.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Černý trh v Kyjevě a Oděse měnil spotřebu výrazné městské skupiny.",
+    "B": "Fartsovku znali hlavně měšťané; rozsah černého trhu běžného čtenáře překvapí.",
+    "C": "Černý trh vysvětluje paralelní ekonomiku a touhu po Západu."
+   }
+  },
+  {
+   "key": "UA|1970|food|Babušky vedly „družstevní“ hospodářství a přebytky prodávaly na kolchozním trhu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Kolchozní trhy a záhumenky doplňovaly zásobování většiny rodin po dekády.",
+    "B": "Kolchozní trhy a babušky s přebytky zná většina generace; mimo region spíš zájemce.",
+    "C": "Kolchozní trhy babiček vysvětlují, odkud se reálně bralo jídlo."
+   }
+  },
+  {
+   "key": "UA|1970|food|Káva byla luxusem; národním nápojem byl čaj s citronem.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Dostupnost kávy vs. čaj s citronem — každodenní zvyk většiny, středně trvalý.",
+    "B": "Čaj s citronem místo kávy — každodenní zvyk většiny; káva jako luxus mírně překvapí.",
+    "C": "Čaj místo kávy — malý obraz dostupnosti a zvyků."
+   }
+  },
+  {
+   "key": "UA|1970|food|Sovětské obchody měly chleba, vodku a rybí konzervy; všeho ostatního byl nedostatek.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Sortiment obchodů určoval jídelníček prakticky všech domácností dlouhodobě.",
+    "B": "Skladbu sortimentu pamatuje většina; sovětský nedostatek je obecně známý.",
+    "C": "Konkrétně vysvětluje mechanismus nedostatku v obchodech."
+   }
+  },
+  {
+   "key": "UA|1970|government|Rusifikace se prohlubovala; škol s výukou v ukrajinštině ubývalo.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Rusifikace škol měnila jazyk výuky dětí většiny rodin, s trvalými důsledky.",
+    "B": "Ubývání ukrajinských škol rodiny zažívaly přímo; rozsah rusifikace zná poučený zájemce.",
+    "C": "Úbytek ukrajinských škol — mechanismus rusifikace v každodenním životě."
+   }
+  },
+  {
+   "key": "UA|1970|government|Ukrajinská helsinská skupina byla založena v roce 1976; její členové čelili věznění, vyhnanství a dalším represím.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 1,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Ukrajinský disent přímo v zemi; každodennost většiny nezměnil, ale význam přetrval do nezávislosti.",
+    "B": "O helsinské skupině tehdy věděl málokdo; její existence a represe běžného čtenáře překvapí.",
+    "C": "Helsinská skupina a represe vysvětlují mechanismus potlačování opozice."
+   }
+  },
+  {
+   "key": "UA|1970|government|Volodymyr Ščerbyckyj řídil Ukrajinskou SSR od roku 1972 — ryzí Brežněvův věrný.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Ščerbyckého vedení určovalo politiku republiky a rusifikaci na dvě dekády.",
+    "B": "Ščerbyckého jméno znal každý z novin a schůzí; detail zná spíš poučený zájemce.",
+    "C": "Ščerbyckyj ilustruje normalizační loajalitu vedení republiky."
+   }
+  },
+  {
+   "key": "UA|1970|illnesses|Alkoholismus byl národní zdravotní krizí — průměrná délka života mužů klesla.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Alkoholismus zasahoval velkou část domácností a demografii dlouhodobě.",
+    "B": "Alkoholismus zasáhl mnoho rodin; pokles délky života mužů zná poučený zájemce.",
+    "C": "Alkoholismus s poklesem délky života vysvětluje zdravotní krizi éry."
+   }
+  },
+  {
+   "key": "UA|1970|illnesses|Průmyslové nehody v donbaských dolech tisk nikdy neuvedl.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Nehody v Donbasu se týkaly horníků a jejich rodin; cenzura byla trvalá, dopad regionální.",
+    "B": "V hornických komunitách známé mlčení tisku; utajování nehod běžného čtenáře překvapí.",
+    "C": "Zamlčované důlní nehody ukazují mechanismus cenzury a rizika práce."
+   }
+  },
+  {
+   "key": "UA|1970|illnesses|Sovětské zdravotnictví bylo zdarma, ale lékařům jste dávali spropitné koňakem a čokoládou.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Neformální „platby“ lékařům byly běžnou praxí většiny domácností po dekády.",
+    "B": "Koňak a čokoláda lékaři — téměř univerzální praxe; západního čtenáře paradox překvapí.",
+    "C": "Spropitné lékařům vysvětluje neformální ekonomiku „bezplatného“ zdravotnictví."
+   }
+  },
+  {
+   "key": "UA|1970|money|Lada VAZ-2101 stála 5 500 rublů a měla šestiletou čekací dobu.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Cena a čekání na Ladu — celosovětská reálie, týkala se menšiny kupujících auto.",
+    "B": "Čekání na Ladu je sdílená vzpomínka; šestiletá fronta běžného čtenáře překvapí.",
+    "C": "Cena a šestiletá fronta na Ladu vysvětlují ekonomiku čekání."
+   }
+  },
+  {
+   "key": "UA|1970|money|Průměrná mzda byla v roce 1975 kolem 150 rublů měsíčně.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Průměrná mzda rámuje rozpočet většiny domácností, ale je vázaná na polovinu dekády.",
+    "B": "Vlastní mzdu si každý pamatuje; konkrétní průměr zná spíš zájemce o dobu.",
+    "C": "Holá mzda, měřítko bez příběhu."
+   }
+  },
+  {
+   "key": "UA|1970|money|Pár Levi's z černého trhu stál celý měsíční plat.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Cena džínů ilustruje černý trh; přímo se dotkla menšiny kupujících.",
+    "B": "Cenu Levi's znali hlavně mladí ve městech; džíny za měsíční plat překvapí.",
+    "C": "Levi's za měsíční plat vysvětluje hodnotu západního zboží."
+   }
+  }
+ ]
+}

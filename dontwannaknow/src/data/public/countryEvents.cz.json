@@ -2,1341 +2,3485 @@
   {
     "country": "CZ",
     "year": 1920,
-    "text": "Československo přijalo svou první demokratickou ústavu"
+    "text": "Československo přijalo svou první demokratickou ústavu",
+    "rel": [
+      4,
+      2,
+      2,
+      0,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1921,
-    "text": "Karel Čapek uvedl premiéru R.U.R. a daroval světu slovo „robot“"
+    "text": "Karel Čapek uvedl premiéru R.U.R. a daroval světu slovo „robot“",
+    "rel": [
+      3,
+      1,
+      3,
+      1,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1923,
-    "text": "ministr financí Alois Rašín byl v Praze zavražděn mladým anarchistou"
+    "text": "ministr financí Alois Rašín byl v Praze zavražděn mladým anarchistou",
+    "rel": [
+      3,
+      1,
+      2,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1924,
-    "text": "Franz Kafka zemřel v sanatoriu nedaleko Vídně ve věku 40 let"
+    "text": "Franz Kafka zemřel v sanatoriu nedaleko Vídně ve věku 40 let",
+    "rel": [
+      2,
+      0,
+      1,
+      1,
+      3,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1925,
-    "text": "Tomáš Baťa otevřel ve Zlíně svůj rozsáhlý komplex obuvnické továrny"
+    "text": "Tomáš Baťa otevřel ve Zlíně svůj rozsáhlý komplex obuvnické továrny",
+    "rel": [
+      4,
+      3,
+      3,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1930,
-    "text": "Janáčkova opera Z mrtvého domu měla 12. dubna posmrtnou premiéru v Brně"
+    "text": "Janáčkova opera Z mrtvého domu měla 12. dubna posmrtnou premiéru v Brně",
+    "rel": [
+      3,
+      0,
+      1,
+      3,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1929,
-    "text": "krach na newyorské burze otřásl československým průmyslem"
+    "text": "krach na newyorské burze otřásl československým průmyslem",
+    "rel": [
+      3,
+      4,
+      3,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1932,
-    "text": "Tomáš Baťa zahynul při letecké havárii u Otrokovic"
+    "text": "Tomáš Baťa zahynul při letecké havárii u Otrokovic",
+    "rel": [
+      3,
+      1,
+      3,
+      1,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1934,
-    "text": "Československo získalo na fotbalovém mistrovství světa stříbro po prohře s Itálií"
+    "text": "Československo získalo na fotbalovém mistrovství světa stříbro po prohře s Itálií",
+    "rel": [
+      3,
+      2,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1935,
-    "text": "T. G. Masaryk odstoupil; prezidentem se stal Edvard Beneš"
+    "text": "T. G. Masaryk odstoupil; prezidentem se stal Edvard Beneš",
+    "rel": [
+      4,
+      1,
+      3,
+      0,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1937,
-    "text": "zemřel T. G. Masaryk; jeho pohřeb se stal národní událostí"
+    "text": "zemřel T. G. Masaryk; jeho pohřeb se stal národní událostí",
+    "rel": [
+      4,
+      2,
+      4,
+      0,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1938,
-    "text": "Mnichovská dohoda předala Sudety Hitlerovi bez hlasu Čechů"
+    "text": "Mnichovská dohoda předala Sudety Hitlerovi bez hlasu Čechů",
+    "rel": [
+      4,
+      5,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1939,
-    "text": "Německo v březnu obsadilo zbytek Čech a Moravy; vysoké školy byly uzavřeny"
+    "text": "Německo v březnu obsadilo zbytek Čech a Moravy; vysoké školy byly uzavřeny",
+    "rel": [
+      4,
+      5,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1942,
-    "text": "v Praze byl spáchán atentát na Reinharda Heydricha; v odvetě byly Lidice srovnány se zemí"
+    "text": "v Praze byl spáchán atentát na Reinharda Heydricha; v odvetě byly Lidice srovnány se zemí",
+    "rel": [
+      4,
+      5,
+      4,
+      0,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1945,
-    "text": "Praha v květnu povstala proti nacistům; 9. května vstoupila do města Rudá armáda"
+    "text": "Praha v květnu povstala proti nacistům; 9. května vstoupila do města Rudá armáda",
+    "rel": [
+      4,
+      5,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1946,
-    "text": "hudební festival Pražské jaro založil Rafael Kubelík"
+    "text": "hudební festival Pražské jaro založil Rafael Kubelík",
+    "rel": [
+      3,
+      1,
+      2,
+      2,
+      4,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1948,
-    "text": "v únoru proběhl komunistický převrat; Jan Masaryk byl nalezen mrtev pod svým oknem"
+    "text": "v únoru proběhl komunistický převrat; Jan Masaryk byl nalezen mrtev pod svým oknem",
+    "rel": [
+      4,
+      5,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1952,
-    "text": "Rudolf Slánský a deset dalších komunistů byli po vykonstruovaném procesu popraveni"
+    "text": "Rudolf Slánský a deset dalších komunistů byli po vykonstruovaném procesu popraveni",
+    "rel": [
+      4,
+      2,
+      3,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1953,
-    "text": "měnová reforma znehodnotila úspory ze dne na den v poměru 50 ku 1"
+    "text": "měnová reforma znehodnotila úspory ze dne na den v poměru 50 ku 1",
+    "rel": [
+      4,
+      5,
+      5,
+      1,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1955,
-    "text": "v Praze byl odhalen největší Stalinův pomník na světě — 30 metrů vysoký"
+    "text": "v Praze byl odhalen největší Stalinův pomník na světě — 30 metrů vysoký",
+    "rel": [
+      4,
+      1,
+      4,
+      1,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1958,
-    "text": "Československý pavilon na Expu 58 v Bruselu představil Laternu magiku"
+    "text": "Československý pavilon na Expu 58 v Bruselu představil Laternu magiku",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1961,
-    "text": "Otto Wichterle vynalezl u svého kuchyňského stolu měkkou kontaktní čočku"
+    "text": "Otto Wichterle vynalezl u svého kuchyňského stolu měkkou kontaktní čočku",
+    "rel": [
+      3,
+      1,
+      2,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1962,
-    "text": "Stalinův pomník byl odstřelen"
+    "text": "Stalinův pomník byl odstřelen",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1967,
-    "text": "Ostře sledované vlaky Jiřího Menzela získaly Oscara za nejlepší cizojazyčný film"
+    "text": "Ostře sledované vlaky Jiřího Menzela získaly Oscara za nejlepší cizojazyčný film",
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1968,
-    "text": "„socialismus s lidskou tváří“ Alexandra Dubčeka byl v srpnu rozdrcen tanky Varšavské smlouvy"
+    "text": "„socialismus s lidskou tváří“ Alexandra Dubčeka byl v srpnu rozdrcen tanky Varšavské smlouvy",
+    "rel": [
+      4,
+      5,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1969,
-    "text": "student Jan Palach se 16. ledna upálil na Václavském náměstí"
+    "text": "student Jan Palach se 16. ledna upálil na Václavském náměstí",
+    "rel": [
+      4,
+      2,
+      5,
+      0,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1972,
-    "text": "Československo se v Praze stalo mistrem světa v ledním hokeji"
+    "text": "Československo se v Praze stalo mistrem světa v ledním hokeji",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1974,
-    "text": "otevřený dopis Václava Havla Husákovi koloval v samizdatu"
+    "text": "otevřený dopis Václava Havla Husákovi koloval v samizdatu",
+    "rel": [
+      4,
+      1,
+      1,
+      3,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1976,
-    "text": "členové skupiny Plastic People of the Universe byli souzeni a uvězněni za „organizované výtržnictví“"
+    "text": "členové skupiny Plastic People of the Universe byli souzeni a uvězněni za „organizované výtržnictví“",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      3,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1977,
-    "text": "v lednu byla zveřejněna Charta 77; 242 prvních signatářů čelilo represím"
+    "text": "v lednu byla zveřejněna Charta 77; 242 prvních signatářů čelilo represím",
+    "rel": [
+      4,
+      2,
+      3,
+      1,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1978,
-    "text": "Vladimír Remek se stal prvním Čechoslovákem ve vesmíru"
+    "text": "Vladimír Remek se stal prvním Čechoslovákem ve vesmíru",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1979,
-    "text": "v undergroundu kolovaly eseje na památku Jana Patočky, který zemřel po policejním výslechu v roce 1977"
+    "text": "v undergroundu kolovaly eseje na památku Jana Patočky, který zemřel po policejním výslechu v roce 1977",
+    "rel": [
+      4,
+      0,
+      1,
+      3,
+      1,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1980,
-    "text": "po vypuknutí polských stávek byli disidenti z Charty 77 zatýkáni"
+    "text": "po vypuknutí polských stávek byli disidenti z Charty 77 zatýkáni",
+    "rel": [
+      4,
+      1,
+      1,
+      3,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1922,
-    "text": "koruna byla stabilizována po záměrné deflaci, kterou prosadil ministr financí Alois Rašín"
+    "text": "koruna byla stabilizována po záměrné deflaci, kterou prosadil ministr financí Alois Rašín",
+    "rel": [
+      4,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1923,
-    "text": "skupina Hradu kolem Masaryka zahájila pozemkovou reformu, jež přerozdělila bývalá šlechtická panství"
+    "text": "skupina Hradu kolem Masaryka zahájila pozemkovou reformu, jež přerozdělila bývalá šlechtická panství",
+    "rel": [
+      4,
+      4,
+      3,
+      2,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1926,
-    "text": "nová československá koaliční vláda poprvé přivedla k moci německé strany"
+    "text": "nová československá koaliční vláda poprvé přivedla k moci německé strany",
+    "rel": [
+      4,
+      1,
+      1,
+      3,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1927,
-    "text": "rozluštění chetitského klínového písma Bedřichem Hrozným zapsalo českou vědu na světovou mapu"
+    "text": "rozluštění chetitského klínového písma Bedřichem Hrozným zapsalo českou vědu na světovou mapu",
+    "rel": [
+      4,
+      0,
+      2,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1930,
-    "text": "Československý rozhlas zahájil pravidelné večerní vysílání z Vinohrad"
+    "text": "Československý rozhlas zahájil pravidelné večerní vysílání z Vinohrad",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1931,
-    "text": "do výroby se dostala Tatra T57, která hromadně motorizovala střední třídu"
+    "text": "do výroby se dostala Tatra T57, která hromadně motorizovala střední třídu",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1933,
-    "text": "Konrad Henlein založil Sudetoněmeckou stranu, budoucí nacistickou pátou kolonu"
+    "text": "Konrad Henlein založil Sudetoněmeckou stranu, budoucí nacistickou pátou kolonu",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1936,
-    "text": "Československo podepsalo smlouvy o vzájemné obraně s Francií a SSSR"
+    "text": "Československo podepsalo smlouvy o vzájemné obraně s Francií a SSSR",
+    "rel": [
+      4,
+      1,
+      2,
+      1,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1940,
-    "text": "v Londýně byla uznána československá exilová vláda v čele s Benešem"
+    "text": "v Londýně byla uznána československá exilová vláda v čele s Benešem",
+    "rel": [
+      2,
+      1,
+      3,
+      1,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1941,
-    "text": "Heydrich přijel do Prahy jako zastupující říšský protektor a rozpoutal vlnu poprav"
+    "text": "Heydrich přijel do Prahy jako zastupující říšský protektor a rozpoutal vlnu poprav",
+    "rel": [
+      4,
+      4,
+      5,
+      0,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1944,
-    "text": "v srpnu vypuklo v Banské Bystrici Slovenské národní povstání"
+    "text": "v srpnu vypuklo v Banské Bystrici Slovenské národní povstání",
+    "rel": [
+      3,
+      2,
+      4,
+      0,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1947,
-    "text": "sucho a špatná úroda donutily Československo přijmout sovětské obilí poté, co pod sovětským nátlakem odmítlo Marshallův plán"
+    "text": "sucho a špatná úroda donutily Československo přijmout sovětské obilí poté, co pod sovětským nátlakem odmítlo Marshallův plán",
+    "rel": [
+      4,
+      3,
+      3,
+      3,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1948,
-    "text": "červencový sokolský slet se stal největším nekomunistickým shromážděním od převratu; režim zakročil"
+    "text": "červencový sokolský slet se stal největším nekomunistickým shromážděním od převratu; režim zakročil",
+    "rel": [
+      4,
+      2,
+      4,
+      3,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1950,
-    "text": "katolické kláštery byly přes noc zrušeny v rámci „Akce K“; přes 2 000 řeholníků skončilo v pracovních táborech"
+    "text": "katolické kláštery byly přes noc zrušeny v rámci „Akce K“; přes 2 000 řeholníků skončilo v pracovních táborech",
+    "rel": [
+      4,
+      4,
+      3,
+      3,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1950,
-    "text": "Milada Horáková byla popravena po televizí přenášeném vykonstruovaném procesu"
+    "text": "Milada Horáková byla popravena po televizí přenášeném vykonstruovaném procesu",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1951,
-    "text": "rodina Bártových přeletěla s celým osobním vlakem přes železnou oponu do západního Německa"
+    "text": "rodina Bártových přeletěla s celým osobním vlakem přes železnou oponu do západního Německa",
+    "rel": [
+      4,
+      2,
+      2,
+      4,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1954,
-    "text": "v červenci proběhl první ročník Karlovarského filmového festivalu pod socialistickou záštitou"
+    "text": "v červenci proběhl první ročník Karlovarského filmového festivalu pod socialistickou záštitou",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1956,
-    "text": "Chruščovův tajný projev vyvolal v Praze opatrnou destalinizaci; Stalinovo tělo později opustilo mauzoleum na Pankráci"
+    "text": "Chruščovův tajný projev vyvolal v Praze opatrnou destalinizaci; Stalinovo tělo později opustilo mauzoleum na Pankráci",
+    "rel": [
+      3,
+      2,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1958,
-    "text": "Československo hostilo mistrovství světa v ledním hokeji v Praze a Bratislavě"
+    "text": "Československo hostilo mistrovství světa v ledním hokeji v Praze a Bratislavě",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1960,
-    "text": "země byla přejmenována na Československou socialistickou republiku a nová ústava vyhlásila „dovršení socialismu“"
+    "text": "země byla přejmenována na Československou socialistickou republiku a nová ústava vyhlásila „dovršení socialismu“",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1963,
-    "text": "exportní podnik Sigma Pumpy se stal největším československým zdrojem deviz mimo Škodu"
+    "text": "exportní podnik Sigma Pumpy se stal největším československým zdrojem deviz mimo Škodu",
+    "rel": [
+      3,
+      1,
+      1,
+      3,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1965,
-    "text": "film Miloše Formana Lásky jedné plavovlásky získal ceny v Benátkách a vyvolal nesouhlas cenzorů"
+    "text": "film Miloše Formana Lásky jedné plavovlásky získal ceny v Benátkách a vyvolal nesouhlas cenzorů",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1966,
-    "text": "Bohumil Hrabal vydal Ostře sledované vlaky; filmová adaptace získala o rok později Oscara"
+    "text": "Bohumil Hrabal vydal Ostře sledované vlaky; filmová adaptace získala o rok později Oscara",
+    "rel": [
+      4,
+      1,
+      5,
+      0,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1970,
-    "text": "Husákova „normalizace“ vyloučila ze strany 500 000 členů KSČ"
+    "text": "Husákova „normalizace“ vyloučila ze strany 500 000 členů KSČ",
+    "rel": [
+      4,
+      4,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1971,
-    "text": "pětiletka husákovské éry kladla důraz na spotřební zboží, aby uklidnila obyvatelstvo — paneláky a škodovky pro všechny"
+    "text": "pětiletka husákovské éry kladla důraz na spotřební zboží, aby uklidnila obyvatelstvo — paneláky a škodovky pro všechny",
+    "rel": [
+      4,
+      4,
+      5,
+      1,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1973,
-    "text": "Československá televize zahájila barevné vysílání"
+    "text": "Československá televize zahájila barevné vysílání",
+    "rel": [
+      4,
+      2,
+      5,
+      1,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1975,
-    "text": "Československo podepsalo Helsinský závěrečný akt, který poskytl právní oporu pro budoucí Chartu 77"
+    "text": "Československo podepsalo Helsinský závěrečný akt, který poskytl právní oporu pro budoucí Chartu 77",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1976,
-    "text": "Karel Gott vydal píseň „Lady Carneval“ — současně hit v Česku i v západním Německu"
+    "text": "Karel Gott vydal píseň „Lady Carneval“ — současně hit v Česku i v západním Německu",
+    "rel": [
+      4,
+      1,
+      4,
+      2,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1979,
-    "text": "v procesu s Výborem na obranu nespravedlivě stíhaných (VONS) byli uvězněni Václav Havel, Jiří Dienstbier a další"
+    "text": "v procesu s Výborem na obranu nespravedlivě stíhaných (VONS) byli uvězněni Václav Havel, Jiří Dienstbier a další",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1924,
-    "text": "nově vzniklá Komunistická strana Československa (KSČ) vstoupila do Kominterny v Moskvě"
+    "text": "nově vzniklá Komunistická strana Československa (KSČ) vstoupila do Kominterny v Moskvě",
+    "rel": [
+      3,
+      1,
+      1,
+      1,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1925,
-    "text": "strojírenský závod Aero ve Vysočanech vyrobil první automobily československé konstrukce"
+    "text": "strojírenský závod Aero ve Vysočanech vyrobil první automobily československé konstrukce",
+    "rel": [
+      4,
+      1,
+      1,
+      3,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1927,
-    "text": "plzeňský pivovar Pilsner Urquell zahájil celoroční vývoz lahvového piva po celé Evropě"
+    "text": "plzeňský pivovar Pilsner Urquell zahájil celoroční vývoz lahvového piva po celé Evropě",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      3,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1928,
-    "text": "Československo oslavilo desáté výročí Výstavou soudobé kultury v Brně"
+    "text": "Československo oslavilo desáté výročí Výstavou soudobé kultury v Brně",
+    "rel": [
+      4,
+      2,
+      2,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1930,
-    "text": "pravidelné vysílání Československého rozhlasu dosáhlo zhruba 250 000 koncesovaných přijímačů"
+    "text": "pravidelné vysílání Československého rozhlasu dosáhlo zhruba 250 000 koncesovaných přijímačů",
+    "rel": [
+      4,
+      3,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1931,
-    "text": "v Brně se konala světová premiéra Janáčkovy opery Z mrtvého domu"
+    "text": "v Brně se konala světová premiéra Janáčkovy opery Z mrtvého domu",
+    "rel": [
+      4,
+      0,
+      1,
+      2,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1932,
-    "text": "Československo vyváželo z Jablonce téměř třetinu světové produkce bižuterie"
+    "text": "Československo vyváželo z Jablonce téměř třetinu světové produkce bižuterie",
+    "rel": [
+      4,
+      2,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1934,
-    "text": "českoslovenští biatlonisté a lyžaři získali medaile na mistrovství světa v Garmischi"
+    "text": "českoslovenští biatlonisté a lyžaři získali medaile na mistrovství světa v Garmischi",
+    "rel": [
+      4,
+      1,
+      1,
+      2,
+      0,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1938,
-    "text": "zářijová všeobecná mobilizace přesunula téměř milion československých vojáků k hranicím, než Mnichov vynutil demobilizaci"
+    "text": "zářijová všeobecná mobilizace přesunula téměř milion československých vojáků k hranicím, než Mnichov vynutil demobilizaci",
+    "rel": [
+      4,
+      5,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1939,
-    "text": "české vysoké školy byly 17. listopadu po studentských protestech uzavřeny; devět studentských vůdců bylo popraveno"
+    "text": "české vysoké školy byly 17. listopadu po studentských protestech uzavřeny; devět studentských vůdců bylo popraveno",
+    "rel": [
+      4,
+      4,
+      4,
+      0,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1941,
-    "text": "nacistický protektorát zřídil ghetto Terezín"
+    "text": "nacistický protektorát zřídil ghetto Terezín",
+    "rel": [
+      4,
+      3,
+      3,
+      0,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1942,
-    "text": "čeští parašutisté Gabčík a Kubiš zahynuli po operaci proti Heydrichovi v kryptě kostela svatého Cyrila a Metoděje v Resslově ulici"
+    "text": "čeští parašutisté Gabčík a Kubiš zahynuli po operaci proti Heydrichovi v kryptě kostela svatého Cyrila a Metoděje v Resslově ulici",
+    "rel": [
+      4,
+      4,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1944,
-    "text": "Slovenské národní povstání z konce srpna potlačil wehrmacht během dvou měsíců"
+    "text": "Slovenské národní povstání z konce srpna potlačil wehrmacht během dvou měsíců",
+    "rel": [
+      2,
+      1,
+      3,
+      1,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1947,
-    "text": "dramatické sucho roku 1947 donutilo Československo přijmout sovětskou pšenici poté, co odmítlo Marshallův plán"
+    "text": "dramatické sucho roku 1947 donutilo Československo přijmout sovětskou pšenici poté, co odmítlo Marshallův plán",
+    "rel": [
+      4,
+      4,
+      4,
+      3,
+      3,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1949,
-    "text": "československý národní hokejový tým — čerstvý mistr světa — byl hromadně zatčen na základě obvinění ze špionáže"
+    "text": "československý národní hokejový tým — čerstvý mistr světa — byl hromadně zatčen na základě obvinění ze špionáže",
+    "rel": [
+      4,
+      1,
+      3,
+      3,
+      2,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1953,
-    "text": "oficiálně skončil přídělový systém; měnová reforma z 1. června znehodnotila úspory"
+    "text": "oficiálně skončil přídělový systém; měnová reforma z 1. června znehodnotila úspory",
+    "rel": [
+      4,
+      5,
+      5,
+      1,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1955,
-    "text": "první hromadná tělovýchovná spartakiáda zaplnila strahovský stadion 750 000 cvičenci"
+    "text": "první hromadná tělovýchovná spartakiáda zaplnila strahovský stadion 750 000 cvičenci",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1959,
-    "text": "Československá televize poprvé vysílala celostátně"
+    "text": "Československá televize poprvé vysílala celostátně",
+    "rel": [
+      4,
+      4,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1962,
-    "text": "Stalinův pomník na Letné byl 5. listopadu za úsvitu konečně odstřelen"
+    "text": "Stalinův pomník na Letné byl 5. listopadu za úsvitu konečně odstřelen",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1965,
-    "text": "Karel Gott reprezentoval Československo na Eurovizi a položil základy své desetiletí trvající kariéry"
+    "text": "Karel Gott reprezentoval Československo na Eurovizi a položil základy své desetiletí trvající kariéry",
+    "rel": [
+      4,
+      1,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1968,
-    "text": "sovětská invaze v srpnu si během prvního týdne vyžádala 137 životů československých civilistů"
+    "text": "sovětská invaze v srpnu si během prvního týdne vyžádala 137 životů československých civilistů",
+    "rel": [
+      4,
+      5,
+      5,
+      2,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1969,
-    "text": "Jan Zajíc se 25. února upálil na Václavském náměstí — druhá „živá pochodeň“"
+    "text": "Jan Zajíc se 25. února upálil na Václavském náměstí — druhá „živá pochodeň“",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1970,
-    "text": "plzeňský pivovar vyvezl rekordní milion hektolitrů piva Pilsner Urquell"
+    "text": "plzeňský pivovar vyvezl rekordní milion hektolitrů piva Pilsner Urquell",
+    "rel": [
+      4,
+      0,
+      2,
+      3,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1973,
-    "text": "Československá televize zahájila pravidelné barevné vysílání"
+    "text": "Československá televize zahájila pravidelné barevné vysílání",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1974,
-    "text": "otevřený „Dopis Husákovi“ od Václava Havla se hojně šířil v samizdatu"
+    "text": "otevřený „Dopis Husákovi“ od Václava Havla se hojně šířil v samizdatu",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1976,
-    "text": "československý hokejový tým se stal mistrem světa v polských Katovicích"
+    "text": "československý hokejový tým se stal mistrem světa v polských Katovicích",
+    "rel": [
+      4,
+      2,
+      4,
+      2,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1977,
-    "text": "mluvčí Charty 77 Jan Patočka zemřel v březnu po dlouhém policejním výslechu"
+    "text": "mluvčí Charty 77 Jan Patočka zemřel v březnu po dlouhém policejním výslechu",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1978,
-    "text": "Vladimír Remek se na palubě Sojuzu 28 stal prvním kosmonautem mimo USA a SSSR"
+    "text": "Vladimír Remek se na palubě Sojuzu 28 stal prvním kosmonautem mimo USA a SSSR",
+    "rel": [
+      4,
+      1,
+      5,
+      0,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1980,
-    "text": "československý olympijský skokan Jiří Raška se stal národním hrdinou na olympiádě v Mexiku roku 1968 — jeho styl se stále napodobuje"
+    "text": "československý olympijský skokan Jiří Raška se stal národním hrdinou na olympiádě v Mexiku roku 1968 — jeho styl se stále napodobuje",
+    "rel": [
+      4,
+      1,
+      4,
+      1,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1918,
-    "text": "28. října byl v pražském Obecním domě vyhlášen samostatný československý stát"
+    "text": "28. října byl v pražském Obecním domě vyhlášen samostatný československý stát",
+    "rel": [
+      4,
+      5,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1918,
-    "text": "T. G. Masaryk byl zvolen prvním prezidentem Československé republiky"
+    "text": "T. G. Masaryk byl zvolen prvním prezidentem Československé republiky",
+    "rel": [
+      4,
+      2,
+      5,
+      0,
+      5,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1919,
-    "text": "československé legie a vojsko obsadily v krátké válce sporné území jižního Slovenska"
+    "text": "československé legie a vojsko obsadily v krátké válce sporné území jižního Slovenska",
+    "rel": [
+      4,
+      2,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1919,
-    "text": "byla založena Univerzita Komenského v Bratislavě a Masarykova univerzita v Brně"
+    "text": "byla založena Univerzita Komenského v Bratislavě a Masarykova univerzita v Brně",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      5,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1920,
-    "text": "Národní divadlo uvedlo Smetanovu Libuši k oslavě nové republiky"
+    "text": "Národní divadlo uvedlo Smetanovu Libuši k oslavě nové republiky",
+    "rel": [
+      4,
+      0,
+      2,
+      2,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1921,
-    "text": "na sjezdu v Praze se ustavila Komunistická strana Československa"
+    "text": "na sjezdu v Praze se ustavila Komunistická strana Československa",
+    "rel": [
+      4,
+      1,
+      3,
+      1,
+      5,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1922,
-    "text": "Jaroslav Hašek zemřel v Lipnici, dílo o dobrém vojáku Švejkovi zůstalo nedokončené"
+    "text": "Jaroslav Hašek zemřel v Lipnici, dílo o dobrém vojáku Švejkovi zůstalo nedokončené",
+    "rel": [
+      4,
+      0,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1923,
-    "text": "byl přijat zákon na ochranu republiky, reakce na vraždu ministra Rašína"
+    "text": "byl přijat zákon na ochranu republiky, reakce na vraždu ministra Rašína",
+    "rel": [
+      4,
+      2,
+      2,
+      3,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1924,
-    "text": "Bedřich Smetana měl po sto letech od narození rozsáhlé celonárodní oslavy"
+    "text": "Bedřich Smetana měl po sto letech od narození rozsáhlé celonárodní oslavy",
+    "rel": [
+      4,
+      1,
+      3,
+      3,
+      0,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1925,
-    "text": "agrárníci pod vedením Antonína Švehly vyhráli parlamentní volby"
+    "text": "agrárníci pod vedením Antonína Švehly vyhráli parlamentní volby",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1926,
-    "text": "byl dokončen monumentální Slovanský epos Alfonse Muchy"
+    "text": "byl dokončen monumentální Slovanský epos Alfonse Muchy",
+    "rel": [
+      4,
+      0,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1928,
-    "text": "ve Vysokých Tatrách byla otevřena vysokohorská léčebna a turistické chaty"
+    "text": "ve Vysokých Tatrách byla otevřena vysokohorská léčebna a turistické chaty",
+    "rel": [
+      4,
+      1,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1929,
-    "text": "byla dostavěna katedrála svatého Víta po téměř šesti stech letech"
+    "text": "byla dostavěna katedrála svatého Víta po téměř šesti stech letech",
+    "rel": [
+      4,
+      1,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1929,
-    "text": "Klement Gottwald se na sjezdu ujal vedení KSČ a stranu plně podřídil Moskvě"
+    "text": "Klement Gottwald se na sjezdu ujal vedení KSČ a stranu plně podřídil Moskvě",
+    "rel": [
+      4,
+      0,
+      2,
+      2,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1930,
-    "text": "sčítání lidu napočítalo v republice téměř 14,7 milionu obyvatel"
+    "text": "sčítání lidu napočítalo v republice téměř 14,7 milionu obyvatel",
+    "rel": [
+      4,
+      0,
+      1,
+      2,
+      0,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1928,
-    "text": "v Praze byl otevřen funkcionalistický Veletržní palác"
+    "text": "v Praze byl otevřen funkcionalistický Veletržní palác",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      4,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1933,
-    "text": "hospodářská krize vyhnala počet nezaměstnaných v Československu přes 700 tisíc"
+    "text": "hospodářská krize vyhnala počet nezaměstnaných v Československu přes 700 tisíc",
+    "rel": [
+      4,
+      5,
+      4,
+      2,
+      3,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1935,
-    "text": "Sudetoněmecká strana Konrada Henleina vyhrála v parlamentních volbách nejvíce hlasů"
+    "text": "Sudetoněmecká strana Konrada Henleina vyhrála v parlamentních volbách nejvíce hlasů",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1936,
-    "text": "začala výstavba rozsáhlého pohraničního opevnění proti hrozbě z Německa"
+    "text": "začala výstavba rozsáhlého pohraničního opevnění proti hrozbě z Německa",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1937,
-    "text": "automobilka Tatra začala vyrábět proudnicový vůz Tatra 87"
+    "text": "automobilka Tatra začala vyrábět proudnicový vůz Tatra 87",
+    "rel": [
+      4,
+      0,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1938,
-    "text": "Emil Hácha byl po Benešově odchodu zvolen prezidentem okleštěné druhé republiky"
+    "text": "Emil Hácha byl po Benešově odchodu zvolen prezidentem okleštěné druhé republiky",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1939,
-    "text": "Slovensko se 14. března odtrhlo a vyhlásilo samostatný stát pod ochranou Německa"
+    "text": "Slovensko se 14. března odtrhlo a vyhlásilo samostatný stát pod ochranou Německa",
+    "rel": [
+      4,
+      4,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1940,
-    "text": "tisíce československých letců a vojáků bojovaly ve Francii a v bitvě o Británii"
+    "text": "tisíce československých letců a vojáků bojovaly ve Francii a v bitvě o Británii",
+    "rel": [
+      2,
+      1,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1943,
-    "text": "Beneš podepsal v Moskvě spojeneckou smlouvu se Sovětským svazem"
+    "text": "Beneš podepsal v Moskvě spojeneckou smlouvu se Sovětským svazem",
+    "rel": [
+      3,
+      0,
+      2,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1944,
-    "text": "z terezínského ghetta odjely transporty do vyhlazovacího tábora Osvětim"
+    "text": "z terezínského ghetta odjely transporty do vyhlazovacího tábora Osvětim",
+    "rel": [
+      4,
+      3,
+      3,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1945,
-    "text": "Košický vládní program vytyčil poválečné uspořádání obnoveného Československa"
+    "text": "Košický vládní program vytyčil poválečné uspořádání obnoveného Československa",
+    "rel": [
+      4,
+      2,
+      2,
+      2,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1945,
-    "text": "na základě Benešových dekretů začal odsun německého obyvatelstva z pohraničí"
+    "text": "na základě Benešových dekretů začal odsun německého obyvatelstva z pohraničí",
+    "rel": [
+      4,
+      5,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1946,
-    "text": "ve svobodných volbách zvítězila komunistická strana a Gottwald sestavil vládu"
+    "text": "ve svobodných volbách zvítězila komunistická strana a Gottwald sestavil vládu",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1947,
-    "text": "československý hokejový tým získal v Praze svůj první titul mistra světa"
+    "text": "československý hokejový tým získal v Praze svůj první titul mistra světa",
+    "rel": [
+      4,
+      1,
+      3,
+      3,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1948,
-    "text": "byla přijata Ústava 9. května upevňující komunistickou moc; Beneš ji odmítl podepsat"
+    "text": "byla přijata Ústava 9. května upevňující komunistickou moc; Beneš ji odmítl podepsat",
+    "rel": [
+      4,
+      3,
+      3,
+      2,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1949,
-    "text": "Československo se stalo zakládajícím členem Rady vzájemné hospodářské pomoci"
+    "text": "Československo se stalo zakládajícím členem Rady vzájemné hospodářské pomoci",
+    "rel": [
+      4,
+      2,
+      2,
+      2,
+      5,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1950,
-    "text": "Václav Renč, Jan Zahradníček a další katoličtí literáti byli posláni do vězení"
+    "text": "Václav Renč, Jan Zahradníček a další katoličtí literáti byli posláni do vězení",
+    "rel": [
+      4,
+      1,
+      1,
+      3,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1951,
-    "text": "rozhlasová stanice Svobodná Evropa zahájila vysílání do Československa"
+    "text": "rozhlasová stanice Svobodná Evropa zahájila vysílání do Československa",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1952,
-    "text": "Emil Zátopek získal v Helsinkách tři zlaté olympijské medaile včetně maratonu"
+    "text": "Emil Zátopek získal v Helsinkách tři zlaté olympijské medaile včetně maratonu",
+    "rel": [
+      3,
+      1,
+      5,
+      0,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1953,
-    "text": "v březnu zemřeli v rozmezí několika dní Stalin i prezident Klement Gottwald"
+    "text": "v březnu zemřeli v rozmezí několika dní Stalin i prezident Klement Gottwald",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1953,
-    "text": "měnová reforma vyvolala v Plzni dělnické protesty, které potlačila armáda"
+    "text": "měnová reforma vyvolala v Plzni dělnické protesty, které potlačila armáda",
+    "rel": [
+      4,
+      5,
+      4,
+      2,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1954,
-    "text": "prezidentem byl Antonín Zápotocký a prvním tajemníkem KSČ Antonín Novotný"
+    "text": "prezidentem byl Antonín Zápotocký a prvním tajemníkem KSČ Antonín Novotný",
+    "rel": [
+      4,
+      0,
+      3,
+      2,
+      2,
+      1
+    ]
   },
   {
     "country": "CZ",
     "year": 1955,
-    "text": "Československo vstoupilo mezi zakládající členy Varšavské smlouvy"
+    "text": "Československo vstoupilo mezi zakládající členy Varšavské smlouvy",
+    "rel": [
+      4,
+      1,
+      3,
+      1,
+      5,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1957,
-    "text": "animovaný Krteček Zdeňka Milera debutoval filmem Jak krtek ke kalhotkám přišel"
+    "text": "animovaný Krteček Zdeňka Milera debutoval filmem Jak krtek ke kalhotkám přišel",
+    "rel": [
+      4,
+      1,
+      5,
+      2,
+      5,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1957,
-    "text": "po smrti Zápotockého se prezidentem stal Antonín Novotný"
+    "text": "po smrti Zápotockého se prezidentem stal Antonín Novotný",
+    "rel": [
+      4,
+      0,
+      3,
+      2,
+      2,
+      1
+    ]
   },
   {
     "country": "CZ",
     "year": 1959,
-    "text": "v Karlových Varech se konal první mezinárodní filmový festival jako každoroční přehlídka"
+    "text": "v Karlových Varech se konal první mezinárodní filmový festival jako každoroční přehlídka",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      5,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1960,
-    "text": "byla zrušena řada krajů a Československo bylo územně přerozděleno"
+    "text": "byla zrušena řada krajů a Československo bylo územně přerozděleno",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1962,
-    "text": "v Příbrami se rozjela těžba uranu pro sovětský jaderný program"
+    "text": "v Příbrami se rozjela těžba uranu pro sovětský jaderný program",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1963,
-    "text": "Kafkova konference v Liblicích zahájila opatrnou rehabilitaci zakázaného spisovatele"
+    "text": "Kafkova konference v Liblicích zahájila opatrnou rehabilitaci zakázaného spisovatele",
+    "rel": [
+      4,
+      0,
+      1,
+      4,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1964,
-    "text": "Ján Kadár a Elmar Klos natočili Obchod na korze, pozdějšího držitele Oscara"
+    "text": "Ján Kadár a Elmar Klos natočili Obchod na korze, pozdějšího držitele Oscara",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1966,
-    "text": "rozhlasová Nealkoholická vinárna U Pavouka přivedla na svět fiktivního génia Járu Cimrmana"
+    "text": "rozhlasová Nealkoholická vinárna U Pavouka přivedla na svět fiktivního génia Járu Cimrmana",
+    "rel": [
+      4,
+      1,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1966,
-    "text": "film Sedmikrásky Věry Chytilové pobouřil cenzory a byl na čas zakázán"
+    "text": "film Sedmikrásky Věry Chytilové pobouřil cenzory a byl na čas zakázán",
+    "rel": [
+      4,
+      0,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1967,
-    "text": "na sjezdu spisovatelů zazněla otevřená kritika režimu od Vaculíka a Kundery"
+    "text": "na sjezdu spisovatelů zazněla otevřená kritika režimu od Vaculíka a Kundery",
+    "rel": [
+      4,
+      1,
+      2,
+      3,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1968,
-    "text": "v lednu vystřídal Antonína Novotného ve vedení strany Alexander Dubček"
+    "text": "v lednu vystřídal Antonína Novotného ve vedení strany Alexander Dubček",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1968,
-    "text": "Ludvík Vaculík zveřejnil manifest Dva tisíce slov"
+    "text": "Ludvík Vaculík zveřejnil manifest Dva tisíce slov",
+    "rel": [
+      4,
+      2,
+      3,
+      1,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1968,
-    "text": "byla zrušena cenzura a obnoven federativní stát Čechů a Slováků"
+    "text": "byla zrušena cenzura a obnoven federativní stát Čechů a Slováků",
+    "rel": [
+      4,
+      4,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1968,
-    "text": "Věra Čáslavská získala v Mexiku čtyři zlaté olympijské medaile ve sportovní gymnastice"
+    "text": "Věra Čáslavská získala v Mexiku čtyři zlaté olympijské medaile ve sportovní gymnastice",
+    "rel": [
+      4,
+      2,
+      5,
+      0,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1968,
-    "text": "Marta Kubišová nazpívala Modlitbu pro Martu, symbol odporu proti okupaci"
+    "text": "Marta Kubišová nazpívala Modlitbu pro Martu, symbol odporu proti okupaci",
+    "rel": [
+      4,
+      2,
+      5,
+      0,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1969,
-    "text": "po vítězství nad SSSR na hokejovém šampionátu propukly v ulicích spontánní oslavy"
+    "text": "po vítězství nad SSSR na hokejovém šampionátu propukly v ulicích spontánní oslavy",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1969,
-    "text": "v dubnu nahradil Dubčeka ve vedení strany Gustáv Husák"
+    "text": "v dubnu nahradil Dubčeka ve vedení strany Gustáv Husák",
+    "rel": [
+      4,
+      3,
+      4,
+      0,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1971,
-    "text": "Olga Havlová a další zakládali zázemí pro pronásledované disidenty"
+    "text": "Olga Havlová a další zakládali zázemí pro pronásledované disidenty",
+    "rel": [
+      4,
+      1,
+      1,
+      3,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1974,
-    "text": "9. května byla v Praze otevřena první trasa metra, linka C"
+    "text": "9. května byla v Praze otevřena první trasa metra, linka C",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1975,
-    "text": "Martina Navrátilová požádala během US Open o azyl a emigrovala do USA"
+    "text": "Martina Navrátilová požádala během US Open o azyl a emigrovala do USA",
+    "rel": [
+      4,
+      1,
+      4,
+      1,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1976,
-    "text": "Antonín Panenka rozhodl finále mistrovství Evropy ve fotbale drzou penaltou proti Německu"
+    "text": "Antonín Panenka rozhodl finále mistrovství Evropy ve fotbale drzou penaltou proti Německu",
+    "rel": [
+      4,
+      2,
+      5,
+      0,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1977,
-    "text": "režim spustil kampaň Anticharta, v níž umělci hromadně odsoudili Chartu 77"
+    "text": "režim spustil kampaň Anticharta, v níž umělci hromadně odsoudili Chartu 77",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      3,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1981,
-    "text": "bratři Šťastní emigrovali do Kanady a začali hrát v NHL za Québec Nordiques"
+    "text": "bratři Šťastní emigrovali do Kanady a začali hrát v NHL za Québec Nordiques",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1981,
-    "text": "Ivan Lendl se prosadil mezi světovou tenisovou špičku"
+    "text": "Ivan Lendl se prosadil mezi světovou tenisovou špičku",
+    "rel": [
+      4,
+      1,
+      3,
+      1,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1982,
-    "text": "panelová sídliště pohltila většinu nové bytové výstavby v zemi"
+    "text": "panelová sídliště pohltila většinu nové bytové výstavby v zemi",
+    "rel": [
+      4,
+      4,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1983,
-    "text": "Miloš Forman natáčel v komunistické Praze oscarového Amadea"
+    "text": "Miloš Forman natáčel v komunistické Praze oscarového Amadea",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1983,
-    "text": "Ivan Lendl se poprvé stal světovou tenisovou jedničkou"
+    "text": "Ivan Lendl se poprvé stal světovou tenisovou jedničkou",
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1984,
-    "text": "básník Jaroslav Seifert získal jako první Čech Nobelovu cenu za literaturu"
+    "text": "básník Jaroslav Seifert získal jako první Čech Nobelovu cenu za literaturu",
+    "rel": [
+      4,
+      1,
+      4,
+      1,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1985,
-    "text": "Československo se v Praze stalo počtvrté v historii mistrem světa v ledním hokeji"
+    "text": "Československo se v Praze stalo počtvrté v historii mistrem světa v ledním hokeji",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1985,
-    "text": "Amadeus Miloše Formana získal osm Oscarů včetně ceny za nejlepší film a režii"
+    "text": "Amadeus Miloše Formana získal osm Oscarů včetně ceny za nejlepší film a režii",
+    "rel": [
+      3,
+      1,
+      4,
+      0,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1986,
-    "text": "spad z černobylské havárie zasáhl i části Československa"
+    "text": "spad z černobylské havárie zasáhl i části Československa",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1987,
-    "text": "do čela KSČ nastoupil Miloš Jakeš, přestavba zůstávala jen na papíře"
+    "text": "do čela KSČ nastoupil Miloš Jakeš, přestavba zůstávala jen na papíře",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1988,
-    "text": "25. března rozehnala v Bratislavě policie pokojnou Svíčkovou manifestaci za náboženskou svobodu"
+    "text": "25. března rozehnala v Bratislavě policie pokojnou Svíčkovou manifestaci za náboženskou svobodu",
+    "rel": [
+      4,
+      2,
+      2,
+      3,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1989,
-    "text": "během lednového Palachova týdne policie tvrdě potlačila vzpomínkové demonstrace"
+    "text": "během lednového Palachova týdne policie tvrdě potlačila vzpomínkové demonstrace",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1989,
-    "text": "petici Několik vět žádající svobodu podepsalo přes 40 tisíc lidí"
+    "text": "petici Několik vět žádající svobodu podepsalo přes 40 tisíc lidí",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1989,
-    "text": "17. listopadu rozbila policie studentský průvod na Národní třídě a spustila sametovou revoluci"
+    "text": "17. listopadu rozbila policie studentský průvod na Národní třídě a spustila sametovou revoluci",
+    "rel": [
+      4,
+      5,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1989,
-    "text": "generální stávka 27. listopadu na dvě hodiny zastavila celou zemi"
+    "text": "generální stávka 27. listopadu na dvě hodiny zastavila celou zemi",
+    "rel": [
+      4,
+      4,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1989,
-    "text": "29. prosince zvolilo Federální shromáždění Václava Havla prezidentem"
+    "text": "29. prosince zvolilo Federální shromáždění Václava Havla prezidentem",
+    "rel": [
+      4,
+      3,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1990,
-    "text": "v dubnu navštívil Prahu papež Jan Pavel II. jako první papež v českých dějinách"
+    "text": "v dubnu navštívil Prahu papež Jan Pavel II. jako první papež v českých dějinách",
+    "rel": [
+      4,
+      2,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1990,
-    "text": "v červnu se konaly první svobodné volby od roku 1946"
+    "text": "v červnu se konaly první svobodné volby od roku 1946",
+    "rel": [
+      4,
+      4,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1990,
-    "text": "spor o pomlčku v názvu státu rozvířil vztahy mezi Čechy a Slováky"
+    "text": "spor o pomlčku v názvu státu rozvířil vztahy mezi Čechy a Slováky",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1990,
-    "text": "Rolling Stones odehráli na strahovském stadionu koncert před statisíci diváků"
+    "text": "Rolling Stones odehráli na strahovském stadionu koncert před statisíci diváků",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1991,
-    "text": "automobilka Škoda Mladá Boleslav vstoupila do koncernu Volkswagen"
+    "text": "automobilka Škoda Mladá Boleslav vstoupila do koncernu Volkswagen",
+    "rel": [
+      3,
+      2,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1991,
-    "text": "poslední sovětští vojáci opustili území Československa"
+    "text": "poslední sovětští vojáci opustili území Československa",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1991,
-    "text": "parlament schválil lustrační zákon prověřující bývalé spolupracovníky StB"
+    "text": "parlament schválil lustrační zákon prověřující bývalé spolupracovníky StB",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1992,
-    "text": "20. března otevřela první československý McDonald's v pražské Vodičkově ulici"
+    "text": "20. března otevřela první československý McDonald's v pražské Vodičkově ulici",
+    "rel": [
+      4,
+      2,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1992,
-    "text": "volby vyhráli Václav Klaus v Česku a Vladimír Mečiar na Slovensku, dohodli rozdělení státu"
+    "text": "volby vyhráli Václav Klaus v Česku a Vladimír Mečiar na Slovensku, dohodli rozdělení státu",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1992,
-    "text": "rozběhla se kupónová privatizace a miliony lidí kupovaly investiční kupóny"
+    "text": "rozběhla se kupónová privatizace a miliony lidí kupovaly investiční kupóny",
+    "rel": [
+      4,
+      4,
+      5,
+      1,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1992,
-    "text": "historické centrum Prahy i Český Krumlov byly zapsány na seznam UNESCO"
+    "text": "historické centrum Prahy i Český Krumlov byly zapsány na seznam UNESCO",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1993,
-    "text": "1. ledna vznikla samostatná Česká republika a zanikl společný stát se Slovenskem"
+    "text": "1. ledna vznikla samostatná Česká republika a zanikl společný stát se Slovenskem",
+    "rel": [
+      4,
+      4,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1993,
-    "text": "Václav Havel byl zvolen prvním prezidentem samostatné České republiky"
+    "text": "Václav Havel byl zvolen prvním prezidentem samostatné České republiky",
+    "rel": [
+      4,
+      1,
+      5,
+      0,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1993,
-    "text": "byla zavedena samostatná česká koruna oddělená od slovenské"
+    "text": "byla zavedena samostatná česká koruna oddělená od slovenské",
+    "rel": [
+      4,
+      5,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1994,
-    "text": "americký prezident Bill Clinton zahrál během návštěvy Prahy v jazzovém klubu na saxofon"
+    "text": "americký prezident Bill Clinton zahrál během návštěvy Prahy v jazzovém klubu na saxofon",
+    "rel": [
+      4,
+      0,
+      3,
+      3,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1994,
-    "text": "spustilo komerční televize Nova, první soukromá celoplošná stanice"
+    "text": "spustilo komerční televize Nova, první soukromá celoplošná stanice",
+    "rel": [
+      4,
+      4,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1995,
-    "text": "Česká republika vstoupila jako první postkomunistická země do OECD"
+    "text": "Česká republika vstoupila jako první postkomunistická země do OECD",
+    "rel": [
+      3,
+      1,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1996,
-    "text": "Štěpánka Hilgertová získala v Atlantě zlato ve vodním slalomu na kajaku"
+    "text": "Štěpánka Hilgertová získala v Atlantě zlato ve vodním slalomu na kajaku",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1996,
-    "text": "v prvních volbách do Senátu byla obnovena dvoukomorová podoba parlamentu"
+    "text": "v prvních volbách do Senátu byla obnovena dvoukomorová podoba parlamentu",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      4,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1997,
-    "text": "rozsáhlé povodně na Moravě a ve Slezsku zabily desítky lidí a zatopily celé obce"
+    "text": "rozsáhlé povodně na Moravě a ve Slezsku zabily desítky lidí a zatopily celé obce",
+    "rel": [
+      4,
+      4,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1997,
-    "text": "film Kolja Jana Svěráka získal Oscara za nejlepší cizojazyčný film"
+    "text": "film Kolja Jana Svěráka získal Oscara za nejlepší cizojazyčný film",
+    "rel": [
+      4,
+      1,
+      5,
+      0,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1997,
-    "text": "spisovatel Bohumil Hrabal zemřel po pádu z okna nemocnice na Bulovce"
+    "text": "spisovatel Bohumil Hrabal zemřel po pádu z okna nemocnice na Bulovce",
+    "rel": [
+      4,
+      1,
+      4,
+      1,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1997,
-    "text": "Václav Klaus odstoupil po vypuknutí aféry kolem financování ODS"
+    "text": "Václav Klaus odstoupil po vypuknutí aféry kolem financování ODS",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1998,
-    "text": "hokejisté vedení brankářem Dominikem Haškem získali zlato na olympiádě v Naganu"
+    "text": "hokejisté vedení brankářem Dominikem Haškem získali zlato na olympiádě v Naganu",
+    "rel": [
+      4,
+      3,
+      5,
+      0,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1998,
-    "text": "vznikla menšinová vláda ČSSD opřená o opoziční smlouvu s ODS"
+    "text": "vznikla menšinová vláda ČSSD opřená o opoziční smlouvu s ODS",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1999,
-    "text": "12. března vstoupila Česká republika spolu s Polskem a Maďarskem do NATO"
+    "text": "12. března vstoupila Česká republika spolu s Polskem a Maďarskem do NATO",
+    "rel": [
+      4,
+      2,
+      4,
+      0,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1999,
-    "text": "iniciativa Děkujeme, odejděte vyzvala politiky opoziční smlouvy k odchodu"
+    "text": "iniciativa Děkujeme, odejděte vyzvala politiky opoziční smlouvy k odchodu",
+    "rel": [
+      4,
+      1,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2000,
-    "text": "Jan Železný získal v Sydney třetí olympijské zlato v hodu oštěpem za sebou"
+    "text": "Jan Železný získal v Sydney třetí olympijské zlato v hodu oštěpem za sebou",
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2000,
-    "text": "byla spuštěna jaderná elektrárna Temelín přes protesty Rakouska"
+    "text": "byla spuštěna jaderná elektrárna Temelín přes protesty Rakouska",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2000,
-    "text": "Český Krumlov a Praha lákaly rekordní počty zahraničních turistů na přelomu tisíciletí"
+    "text": "Český Krumlov a Praha lákaly rekordní počty zahraničních turistů na přelomu tisíciletí",
+    "rel": [
+      4,
+      2,
+      3,
+      1,
+      3,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2001,
-    "text": "spor o vedení v České televizi vyvolal vysílací stávku redaktorů a protesty na Václavském náměstí"
+    "text": "spor o vedení v České televizi vyvolal vysílací stávku redaktorů a protesty na Václavském náměstí",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 2001,
-    "text": "desetibojař Roman Šebrle jako první v historii překonal hranici 9000 bodů"
+    "text": "desetibojař Roman Šebrle jako první v historii překonal hranici 9000 bodů",
+    "rel": [
+      3,
+      0,
+      3,
+      2,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2002,
-    "text": "v srpnu zaplavila Vltava Prahu při nejhorších povodních v moderní historii"
+    "text": "v srpnu zaplavila Vltava Prahu při nejhorších povodních v moderní historii",
+    "rel": [
+      4,
+      4,
+      5,
+      0,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 2002,
-    "text": "voda zatopila pražské metro i pavilon slona v zoo, kde uhynul slon Kádir"
+    "text": "voda zatopila pražské metro i pavilon slona v zoo, kde uhynul slon Kádir",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2003,
-    "text": "Václav Klaus byl po Havlovi zvolen druhým prezidentem České republiky"
+    "text": "Václav Klaus byl po Havlovi zvolen druhým prezidentem České republiky",
+    "rel": [
+      4,
+      1,
+      4,
+      0,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2003,
-    "text": "v červnovém referendu schválilo přes 77 procent voličů vstup do Evropské unie"
+    "text": "v červnovém referendu schválilo přes 77 procent voličů vstup do Evropské unie",
+    "rel": [
+      4,
+      1,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 2004,
-    "text": "1. května se Česká republika stala členem Evropské unie"
+    "text": "1. května se Česká republika stala členem Evropské unie",
+    "rel": [
+      4,
+      3,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 2004,
-    "text": "fotbalisté postoupili na mistrovství Evropy v Portugalsku až do semifinále"
+    "text": "fotbalisté postoupili na mistrovství Evropy v Portugalsku až do semifinále",
+    "rel": [
+      3,
+      2,
+      4,
+      1,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2004,
-    "text": "Roman Šebrle se stal olympijským vítězem v desetiboji v Athénách"
+    "text": "Roman Šebrle se stal olympijským vítězem v desetiboji v Athénách",
+    "rel": [
+      3,
+      0,
+      3,
+      1,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2005,
-    "text": "hokejisté vedení Jaromírem Jágrem získali zlato na mistrovství světa ve Vídni"
+    "text": "hokejisté vedení Jaromírem Jágrem získali zlato na mistrovství světa ve Vídni",
+    "rel": [
+      3,
+      2,
+      4,
+      1,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2006,
-    "text": "patové volby vedly k měsícům bez funkční vlády, než nastoupil kabinet Mirka Topolánka"
+    "text": "patové volby vedly k měsícům bez funkční vlády, než nastoupil kabinet Mirka Topolánka",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2006,
-    "text": "Kateřina Neumannová získala v Turíně zlato v běhu na lyžích"
+    "text": "Kateřina Neumannová získala v Turíně zlato v běhu na lyžích",
+    "rel": [
+      3,
+      0,
+      3,
+      1,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2007,
-    "text": "21. prosince se Česká republika připojila k Schengenskému prostoru a zrušila hraniční kontroly"
+    "text": "21. prosince se Česká republika připojila k Schengenskému prostoru a zrušila hraniční kontroly",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 2008,
-    "text": "Karel Gott a Lucie Bílá patřili mezi nejprodávanější domácí hudebníky"
+    "text": "Karel Gott a Lucie Bílá patřili mezi nejprodávanější domácí hudebníky",
+    "rel": [
+      3,
+      1,
+      3,
+      1,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2009,
-    "text": "Česká republika poprvé předsedala Radě Evropské unie"
+    "text": "Česká republika poprvé předsedala Radě Evropské unie",
+    "rel": [
+      4,
+      1,
+      3,
+      1,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2009,
-    "text": "vláda Mirka Topolánka padla uprostřed českého předsednictví EU"
+    "text": "vláda Mirka Topolánka padla uprostřed českého předsednictví EU",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2010,
-    "text": "Petra Kvitová pronikla mezi světovou tenisovou špičku"
+    "text": "Petra Kvitová pronikla mezi světovou tenisovou špičku",
+    "rel": [
+      3,
+      0,
+      2,
+      1,
+      1,
+      1
+    ]
   },
   {
     "country": "CZ",
     "year": 2010,
-    "text": "Jáchymov a hornické památky Krušnohoří přitahovaly turisty jako kolébka radonové léčby"
+    "text": "Jáchymov a hornické památky Krušnohoří přitahovaly turisty jako kolébka radonové léčby",
+    "rel": [
+      4,
+      1,
+      1,
+      3,
+      2,
+      1
+    ]
   },
   {
     "country": "CZ",
     "year": 2011,
-    "text": "Petra Kvitová vyhrála Wimbledon jako první česká tenistka po dlouhé době"
+    "text": "Petra Kvitová vyhrála Wimbledon jako první česká tenistka po dlouhé době",
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2011,
-    "text": "18. prosince zemřel exprezident Václav Havel; jeho pohřeb se stal státním smutkem"
+    "text": "18. prosince zemřel exprezident Václav Havel; jeho pohřeb se stal státním smutkem",
+    "rel": [
+      4,
+      2,
+      5,
+      0,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 2012,
-    "text": "Barbora Špotáková obhájila v Londýně olympijské zlato v hodu oštěpem"
+    "text": "Barbora Špotáková obhájila v Londýně olympijské zlato v hodu oštěpem",
+    "rel": [
+      3,
+      0,
+      3,
+      1,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2012,
-    "text": "metanolová aféra s otráveným alkoholem si vyžádala desítky obětí a prohibici tvrdého lihu"
+    "text": "metanolová aféra s otráveným alkoholem si vyžádala desítky obětí a prohibici tvrdého lihu",
+    "rel": [
+      4,
+      4,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 2013,
-    "text": "Miloš Zeman se stal prvním přímo zvoleným prezidentem České republiky"
+    "text": "Miloš Zeman se stal prvním přímo zvoleným prezidentem České republiky",
+    "rel": [
+      4,
+      2,
+      5,
+      0,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 2013,
-    "text": "policejní razie kvůli kauze Nagyová svrhla vládu Petra Nečase"
+    "text": "policejní razie kvůli kauze Nagyová svrhla vládu Petra Nečase",
+    "rel": [
+      4,
+      1,
+      4,
+      1,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2013,
-    "text": "tornádo a přívalové povodně znovu zasáhly části Čech"
+    "text": "tornádo a přívalové povodně znovu zasáhly části Čech",
+    "rel": [
+      3,
+      3,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2014,
-    "text": "16. října a 3. prosince explodoval muniční areál ve Vrběticích a zabil dva lidi"
+    "text": "16. října a 3. prosince explodoval muniční areál ve Vrběticích a zabil dva lidi",
+    "rel": [
+      3,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2014,
-    "text": "Petra Kvitová podruhé zvítězila ve dvouhře na Wimbledonu"
+    "text": "Petra Kvitová podruhé zvítězila ve dvouhře na Wimbledonu",
+    "rel": [
+      3,
+      0,
+      3,
+      1,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2014,
-    "text": "nastoupila koaliční vláda Bohuslava Sobotky s hnutím ANO Andreje Babiše"
+    "text": "nastoupila koaliční vláda Bohuslava Sobotky s hnutím ANO Andreje Babiše",
+    "rel": [
+      4,
+      1,
+      3,
+      1,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2015,
-    "text": "společnost rozdělila evropská migrační krize a debata o uprchlických kvótách"
+    "text": "společnost rozdělila evropská migrační krize a debata o uprchlických kvótách",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 2016,
-    "text": "byl zaveden zkrácený jednoslovný název Česko, anglicky Czechia"
+    "text": "byl zaveden zkrácený jednoslovný název Česko, anglicky Czechia",
+    "rel": [
+      4,
+      1,
+      3,
+      1,
+      3,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2016,
-    "text": "spustila první vlna elektronické evidence tržeb"
+    "text": "spustila první vlna elektronické evidence tržeb",
+    "rel": [
+      4,
+      3,
+      3,
+      1,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2017,
-    "text": "hnutí ANO Andreje Babiše s přehledem vyhrálo parlamentní volby"
+    "text": "hnutí ANO Andreje Babiše s přehledem vyhrálo parlamentní volby",
+    "rel": [
+      4,
+      1,
+      4,
+      0,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2017,
-    "text": "Ester Ledecká vyhrála jako první žena celkové hodnocení Světového poháru ve snowboardingu"
+    "text": "Ester Ledecká vyhrála jako první žena celkové hodnocení Světového poháru ve snowboardingu",
+    "rel": [
+      3,
+      0,
+      2,
+      2,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2018,
-    "text": "Ester Ledecká získala v Pchjongčchangu zlato v superobřím slalomu i ve snowboardingu"
+    "text": "Ester Ledecká získala v Pchjongčchangu zlato v superobřím slalomu i ve snowboardingu",
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2018,
-    "text": "Miloš Zeman obhájil v přímé volbě prezidentský úřad proti Jiřímu Drahošovi"
+    "text": "Miloš Zeman obhájil v přímé volbě prezidentský úřad proti Jiřímu Drahošovi",
+    "rel": [
+      4,
+      1,
+      4,
+      0,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2019,
-    "text": "k 30. výročí sametové revoluce zaplnily náměstí největší demonstrace od roku 1989"
+    "text": "k 30. výročí sametové revoluce zaplnily náměstí největší demonstrace od roku 1989",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 2019,
-    "text": "hnutí Milion chvilek pro demokracii svolalo statisícové protesty proti premiéru Babišovi"
+    "text": "hnutí Milion chvilek pro demokracii svolalo statisícové protesty proti premiéru Babišovi",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 2019,
-    "text": "zemřel zpěvák Karel Gott; rozloučit se s ním přišly statisíce lidí"
+    "text": "zemřel zpěvák Karel Gott; rozloučit se s ním přišly statisíce lidí",
+    "rel": [
+      4,
+      2,
+      5,
+      0,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2020,
-    "text": "pandemie covidu-19 přinesla jaro v lockdownu a povinné roušky na veřejnosti"
+    "text": "pandemie covidu-19 přinesla jaro v lockdownu a povinné roušky na veřejnosti",
+    "rel": [
+      4,
+      5,
+      5,
+      0,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 2020,
-    "text": "z pražského Staroměstského náměstí byl po protestech odstraněn Mariánský sloup, později obnovený"
+    "text": "z pražského Staroměstského náměstí byl po protestech odstraněn Mariánský sloup, později obnovený",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2021,
-    "text": "17. dubna obvinil premiér Babiš ruskou tajnou službu GRU z výbuchů ve Vrběticích"
+    "text": "17. dubna obvinil premiér Babiš ruskou tajnou službu GRU z výbuchů ve Vrběticích",
+    "rel": [
+      4,
+      1,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 2021,
-    "text": "v červnu se obcemi na jižní Moravě prohnalo ničivé tornádo a zabilo šest lidí"
+    "text": "v červnu se obcemi na jižní Moravě prohnalo ničivé tornádo a zabilo šest lidí",
+    "rel": [
+      3,
+      3,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2021,
-    "text": "volby vyhrála koalice SPOLU a premiérem se stal Petr Fiala"
+    "text": "volby vyhrála koalice SPOLU a premiérem se stal Petr Fiala",
+    "rel": [
+      4,
+      1,
+      4,
+      0,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2022,
-    "text": "Česko přijalo statisíce uprchlíků po ruské invazi na Ukrajinu"
+    "text": "Česko přijalo statisíce uprchlíků po ruské invazi na Ukrajinu",
+    "rel": [
+      4,
+      3,
+      5,
+      0,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 2022,
-    "text": "ve druhém pololetí předsedalo Česko podruhé Radě Evropské unie"
+    "text": "ve druhém pololetí předsedalo Česko podruhé Radě Evropské unie",
+    "rel": [
+      4,
+      0,
+      2,
+      1,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2023,
-    "text": "28. ledna byl prezidentem zvolen generál Petr Pavel a porazil Andreje Babiše"
+    "text": "28. ledna byl prezidentem zvolen generál Petr Pavel a porazil Andreje Babiše",
+    "rel": [
+      3,
+      1,
+      5,
+      0,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2023,
-    "text": "21. prosince zastřelil student na Filozofické fakultě v Praze čtrnáct lidí při nejhorší střelbě v dějinách země"
+    "text": "21. prosince zastřelil student na Filozofické fakultě v Praze čtrnáct lidí při nejhorší střelbě v dějinách země",
+    "rel": [
+      3,
+      2,
+      5,
+      0,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2024,
-    "text": "Praha si připomněla padesát let provozu metra"
+    "text": "Praha si připomněla padesát let provozu metra",
+    "rel": [
+      3,
+      0,
+      2,
+      1,
+      0,
+      1
+    ]
   },
   {
     "country": "CZ",
     "year": 1927,
-    "text": "Josef Skupa rozjel v Plzni divadlo s loutkami Spejbla a Hurvínka"
+    "text": "Josef Skupa rozjel v Plzni divadlo s loutkami Spejbla a Hurvínka",
+    "rel": [
+      3,
+      1,
+      2,
+      2,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1962,
-    "text": "chemik Antonín Holý zahájil výzkum nukleotidů, z nějž později vzešly léky proti HIV"
+    "text": "chemik Antonín Holý zahájil výzkum nukleotidů, z nějž později vzešly léky proti HIV",
+    "rel": [
+      3,
+      0,
+      0,
+      4,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2001,
-    "text": "Holého látka tenofovir byla v USA schválena jako lék proti viru HIV"
+    "text": "Holého látka tenofovir byla v USA schválena jako lék proti viru HIV",
+    "rel": [
+      1,
+      0,
+      1,
+      4,
+      3,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1997,
-    "text": "rodačka z Prahy Madeleine Albrightová se stala první ženou v čele americké diplomacie"
+    "text": "rodačka z Prahy Madeleine Albrightová se stala první ženou v čele americké diplomacie",
+    "rel": [
+      1,
+      0,
+      3,
+      1,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1991,
-    "text": "Jaromír Jágr získal s Pittsburghem první z dvojice Stanleyových pohárů"
+    "text": "Jaromír Jágr získal s Pittsburghem první z dvojice Stanleyových pohárů",
+    "rel": [
+      1,
+      1,
+      3,
+      1,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1985,
-    "text": "Ivan Lendl ovládl French Open a získal první ze svých grandslamových titulů"
+    "text": "Ivan Lendl ovládl French Open a získal první ze svých grandslamových titulů",
+    "rel": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1990,
-    "text": "Václav Havel pronesl v americkém Kongresu vysoce ceněný projev o svobodě"
+    "text": "Václav Havel pronesl v americkém Kongresu vysoce ceněný projev o svobodě",
+    "rel": [
+      2,
+      0,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1996,
-    "text": "zemřela Olga Havlová, první dáma a zakladatelka nadace pro nemocné a postižené"
+    "text": "zemřela Olga Havlová, první dáma a zakladatelka nadace pro nemocné a postižené",
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 2006,
-    "text": "Pražský hrad a Karlův most patřily mezi nejnavštěvovanější památky střední Evropy"
+    "text": "Pražský hrad a Karlův most patřily mezi nejnavštěvovanější památky střední Evropy",
+    "rel": [
+      3,
+      1,
+      2,
+      1,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1956,
-    "text": "studentský majáles v Praze se proměnil v ojedinělý projev nespokojenosti s režimem"
+    "text": "studentský majáles v Praze se proměnil v ojedinělý projev nespokojenosti s režimem",
+    "rel": [
+      3,
+      1,
+      1,
+      4,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1969,
-    "text": "Federální shromáždění schválilo zákon o československé federaci dvou národů"
+    "text": "Federální shromáždění schválilo zákon o československé federaci dvou národů",
+    "rel": [
+      4,
+      2,
+      2,
+      1,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1977,
-    "text": "v samizdatu vznikla edice Petlice, jíž procházely zakázané rukopisy"
+    "text": "v samizdatu vznikla edice Petlice, jíž procházely zakázané rukopisy",
+    "rel": [
+      4,
+      1,
+      1,
+      3,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1989,
-    "text": "Občanské fórum se stalo hlavní silou sametové revoluce s heslem Pravda a láska"
+    "text": "Občanské fórum se stalo hlavní silou sametové revoluce s heslem Pravda a láska",
+    "rel": [
+      4,
+      4,
+      4,
+      0,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1990,
-    "text": "byla zrušena vedoucí úloha komunistické strany zakotvená v ústavě"
+    "text": "byla zrušena vedoucí úloha komunistické strany zakotvená v ústavě",
+    "rel": [
+      4,
+      4,
+      3,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1993,
-    "text": "Česká republika se stala členem Rady Evropy"
+    "text": "Česká republika se stala členem Rady Evropy",
+    "rel": [
+      3,
+      0,
+      1,
+      2,
+      3,
+      1
+    ]
   },
   {
     "country": "CZ",
     "year": 2008,
-    "text": "Václav Klaus odmítal podepsat Lisabonskou smlouvu a vyvolal spor o evropskou integraci"
+    "text": "Václav Klaus odmítal podepsat Lisabonskou smlouvu a vyvolal spor o evropskou integraci",
+    "rel": [
+      3,
+      0,
+      3,
+      1,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 2010,
-    "text": "volby otřásly tradičními stranami a do sněmovny vstoupily nové subjekty TOP 09 a Věci veřejné"
+    "text": "volby otřásly tradičními stranami a do sněmovny vstoupily nové subjekty TOP 09 a Věci veřejné",
+    "rel": [
+      3,
+      1,
+      3,
+      1,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "year": 1918,
-    "text": "vznik republiky doprovodilo strhávání symbolů Rakouska-Uherska v ulicích Prahy"
+    "text": "vznik republiky doprovodilo strhávání symbolů Rakouska-Uherska v ulicích Prahy",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 1958,
-    "text": "loutkové filmy Jiřího Trnky získaly mezinárodní festivalová ocenění"
+    "text": "loutkové filmy Jiřího Trnky získaly mezinárodní festivalová ocenění",
+    "rel": [
+      3,
+      0,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1969,
-    "text": "hokejové výhry nad SSSR vyústily v protisovětské demonstrace a poškození kanceláře Aeroflotu"
+    "text": "hokejové výhry nad SSSR vyústily v protisovětské demonstrace a poškození kanceláře Aeroflotu",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      3,
+      5
+    ]
   },
   {
     "country": "CZ",
     "year": 1990,
-    "text": "Alexander Dubček se stal předsedou Federálního shromáždění"
+    "text": "Alexander Dubček se stal předsedou Federálního shromáždění",
+    "rel": [
+      4,
+      0,
+      3,
+      2,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "year": 1993,
-    "text": "česká koruna se po rozdělení měny stala samostatnou platnou měnou"
+    "text": "česká koruna se po rozdělení měny stala samostatnou platnou měnou",
+    "rel": [
+      3,
+      4,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "year": 2016,
-    "text": "Věra Čáslavská, čtyřnásobná olympijská vítězka a symbol odporu z roku 1968, zemřela"
+    "text": "Věra Čáslavská, čtyřnásobná olympijská vítězka a symbol odporu z roku 1968, zemřela",
+    "rel": [
+      3,
+      0,
+      3,
+      1,
+      1,
+      2
+    ]
   }
 ]

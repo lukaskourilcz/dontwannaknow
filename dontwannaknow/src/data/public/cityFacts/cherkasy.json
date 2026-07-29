@@ -2,166 +2,430 @@
   {
     "city": "cherkasy",
     "year": 1927,
-    "text": "vodohospodářský profil města stoupal, jak se plánovala kaskáda na Dněpru"
+    "text": "vodohospodářský profil města stoupal, jak se plánovala kaskáda na Dněpru",
+    "rel": [
+      4,
+      1,
+      1,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1932,
-    "text": "hladomor (holodomor) zpustošil Čerkaskou oblast; celé vesnice se vylidnily"
+    "text": "hladomor (holodomor) zpustošil Čerkaskou oblast; celé vesnice se vylidnily",
+    "rel": [
+      4,
+      5,
+      4,
+      1,
+      5,
+      5
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1932,
-    "text": "holodomor katastrofálně zasáhl vesnice Čerkaské oblasti podél Dněpru"
+    "text": "holodomor katastrofálně zasáhl vesnice Čerkaské oblasti podél Dněpru",
+    "rel": [
+      4,
+      5,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1941,
-    "text": "wehrmacht obsadil Čerkasy v srpnu"
+    "text": "wehrmacht obsadil Čerkasy v srpnu",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1943,
-    "text": "v bitvě o korsuňsko-čerkaský kotel sovětské síly počátkem roku 1944 obklíčily německou skupinu"
+    "text": "v bitvě o korsuňsko-čerkaský kotel sovětské síly počátkem roku 1944 obklíčily německou skupinu",
+    "rel": [
+      4,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1944,
-    "text": "Čerkasy byly osvobozeny Rudou armádou po velké bitvě o obklíčení"
+    "text": "Čerkasy byly osvobozeny Rudou armádou po velké bitvě o obklíčení",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1954,
-    "text": "vznikla Čerkaská oblast s Čerkasy jako správním centrem"
+    "text": "vznikla Čerkaská oblast s Čerkasy jako správním centrem",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1961,
-    "text": "výše proti proudu se naplnila Kremenčucká přehrada, která překreslila čerkaské nábřeží"
+    "text": "výše proti proudu se naplnila Kremenčucká přehrada, která překreslila čerkaské nábřeží",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1962,
-    "text": "Kremenčucká přehrada zatopila historickou krajinu poblíž Čerkas"
+    "text": "Kremenčucká přehrada zatopila historickou krajinu poblíž Čerkas",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1965,
-    "text": "byl uveden do provozu závod na dusíkatá hnojiva Azot"
+    "text": "byl uveden do provozu závod na dusíkatá hnojiva Azot",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1975,
-    "text": "trolejbusová doprava se rozšířila do nových sídlišť"
+    "text": "trolejbusová doprava se rozšířila do nových sídlišť",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1922,
-    "text": "Čerkasy byly trhovým městem o asi 40 000 obyvatelích ve střední Ukrajině"
+    "text": "Čerkasy byly trhovým městem o asi 40 000 obyvatelích ve střední Ukrajině",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      1,
+      2
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1955,
-    "text": "otevřel se závod na chemická vlákna Chimvolokno — tehdy největší v Sovětském svazu"
+    "text": "otevřel se závod na chemická vlákna Chimvolokno — tehdy největší v Sovětském svazu",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1975,
-    "text": "Čerkasy hostily všeukrajinský literární festival Ševčenka"
+    "text": "Čerkasy hostily všeukrajinský literární festival Ševčenka",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      0,
+      2
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1959,
-    "text": "po vzniku Čerkaské oblasti vyrostlo město na 85 000 obyvatel"
+    "text": "po vzniku Čerkaské oblasti vyrostlo město na 85 000 obyvatel",
+    "rel": [
+      5,
+      2,
+      2,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1961,
-    "text": "na Dněpru byla otevřena říční stanice, brána lodní dopravy do města"
+    "text": "na Dněpru byla otevřena říční stanice, brána lodní dopravy do města",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1970,
-    "text": "díky chemickému průmyslu počet obyvatel Čerkas překročil 150 000"
+    "text": "díky chemickému průmyslu počet obyvatel Čerkas překročil 150 000",
+    "rel": [
+      5,
+      3,
+      2,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1975,
-    "text": "dokončením Kaňivské přehrady proti proudu byla uzavřena dněperská kaskáda; voda zatopila kolem dvaceti vesnic"
+    "text": "dokončením Kaňivské přehrady proti proudu byla uzavřena dněperská kaskáda; voda zatopila kolem dvaceti vesnic",
+    "rel": [
+      4,
+      3,
+      3,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1977,
-    "text": "Čerkasy se rozrostly na bezmála 230 000 obyvatel"
+    "text": "Čerkasy se rozrostly na bezmála 230 000 obyvatel",
+    "rel": [
+      5,
+      1,
+      1,
+      1,
+      3,
+      1
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1989,
-    "text": "Ševčenkův památník u Kaněva s hrobem básníka získal status národní rezervace"
+    "text": "Ševčenkův památník u Kaněva s hrobem básníka získal status národní rezervace",
+    "rel": [
+      3,
+      0,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1995,
-    "text": "čerkaský pedagogický institut byl povýšen na státní univerzitu nesoucí jméno Bohdana Chmelnyckého"
+    "text": "čerkaský pedagogický institut byl povýšen na státní univerzitu nesoucí jméno Bohdana Chmelnyckého",
+    "rel": [
+      5,
+      1,
+      2,
+      1,
+      3,
+      1
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1961,
-    "text": "po čerkaské hrázi přes Dněpr byl otevřen silniční přechod dlouhý přes kilometr"
+    "text": "po čerkaské hrázi přes Dněpr byl otevřen silniční přechod dlouhý přes kilometr",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1965,
-    "text": "závod Azot vypustil 14. března první dávku kapalného čpavku a stal se největším výrobcem dusíkatých hnojiv v zemi"
+    "text": "závod Azot vypustil 14. března první dávku kapalného čpavku a stal se největším výrobcem dusíkatých hnojiv v zemi",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1964,
-    "text": "z čerkaského závodu na opravu automobilů vyrostl pozdější výrobce autobusů Bohdan"
+    "text": "z čerkaského závodu na opravu automobilů vyrostl pozdější výrobce autobusů Bohdan",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1998,
-    "text": "po rekonstrukci opravárenského závodu začaly v Čerkasích vznikat vlastní autobusy značky Bohdan"
+    "text": "po rekonstrukci opravárenského závodu začaly v Čerkasích vznikat vlastní autobusy značky Bohdan",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1995,
-    "text": "v říjnu byl ve městě odhalen jezdecký pomník hetmana Bohdana Chmelnyckého"
+    "text": "v říjnu byl ve městě odhalen jezdecký pomník hetmana Bohdana Chmelnyckého",
+    "rel": [
+      5,
+      1,
+      3,
+      1,
+      3,
+      1
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1962,
-    "text": "stavba závodu Azot na severním okraji Čerkas se stala největší poválečnou investicí ve městě"
+    "text": "stavba závodu Azot na severním okraji Čerkas se stala největší poválečnou investicí ve městě",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "cherkasy",
     "year": 2001,
-    "text": "při prvním ukrajinském sčítání lidu mělo město kolem 295 000 obyvatel"
+    "text": "při prvním ukrajinském sčítání lidu mělo město kolem 295 000 obyvatel",
+    "rel": [
+      5,
+      0,
+      2,
+      1,
+      1,
+      1
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1959,
-    "text": "od května se rozběhly práce na čerkaské hrázi přes Dněpr, nejdelší v zemi"
+    "text": "od května se rozběhly práce na čerkaské hrázi přes Dněpr, nejdelší v zemi",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1971,
-    "text": "mezi lety 1959 a 1971 vyrostly v centru palác kultury, nádraží i hudebně-dramatické divadlo"
+    "text": "mezi lety 1959 a 1971 vyrostly v centru palác kultury, nádraží i hudebně-dramatické divadlo",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "cherkasy",
     "year": 2023,
-    "text": "ruské údery opakovaně zasáhly energetickou infrastrukturu Čerkaské oblasti"
+    "text": "ruské údery opakovaně zasáhly energetickou infrastrukturu Čerkaské oblasti",
+    "rel": [
+      4,
+      4,
+      4,
+      0,
+      2,
+      2
+    ]
   },
   {
     "city": "cherkasy",
     "year": 2024,
-    "text": "po zásahu dronů Šáhed do plynové infrastruktury musel závod Azot pozastavit výrobu hnojiv"
+    "text": "po zásahu dronů Šáhed do plynové infrastruktury musel závod Azot pozastavit výrobu hnojiv",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "cherkasy",
     "year": 1972,
-    "text": "čerkaský oblastní hudebně-dramatický soubor nesl jméno básníka Tarase Ševčenka"
+    "text": "čerkaský oblastní hudebně-dramatický soubor nesl jméno básníka Tarase Ševčenka",
+    "rel": [
+      5,
+      0,
+      2,
+      1,
+      1,
+      1
+    ]
   }
 ]

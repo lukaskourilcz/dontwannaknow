@@ -2,181 +2,469 @@
   {
     "city": "poltava",
     "year": 1923,
-    "text": "Korolenkův dům v Poltavě se po spisovatelově smrti zde v roce 1921 stal literárním muzeem"
+    "text": "Korolenkův dům v Poltavě se po spisovatelově smrti zde v roce 1921 stal literárním muzeem",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "poltava",
     "year": 1933,
-    "text": "holodomor zpustošil vesnice Poltavské oblasti, kde úmrtnost dosáhla extrémních úrovní"
+    "text": "holodomor zpustošil vesnice Poltavské oblasti, kde úmrtnost dosáhla extrémních úrovní",
+    "rel": [
+      4,
+      5,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "poltava",
     "year": 1941,
-    "text": "wehrmacht obsadil Poltavu 18. září"
+    "text": "wehrmacht obsadil Poltavu 18. září",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "poltava",
     "year": 1943,
-    "text": "sovětské síly osvobodily Poltavu 23. září"
+    "text": "sovětské síly osvobodily Poltavu 23. září",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "poltava",
     "year": 1944,
-    "text": "poltavské letiště hostilo americkou Osmou leteckou armádu v rámci operace Frantic"
+    "text": "poltavské letiště hostilo americkou Osmou leteckou armádu v rámci operace Frantic",
+    "rel": [
+      5,
+      3,
+      3,
+      4,
+      2,
+      4
+    ]
   },
   {
     "city": "poltava",
     "year": 1944,
-    "text": "noční nálet Luftwaffe zničil na zemi na poltavském letišti 47 bombardérů B-17"
+    "text": "noční nálet Luftwaffe zničil na zemi na poltavském letišti 47 bombardérů B-17",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      1,
+      3
+    ]
   },
   {
     "city": "poltava",
     "year": 1944,
-    "text": "americké B-17 z operace Frantic létaly z leteckých základen v Poltavě a Myrhorodu"
+    "text": "americké B-17 z operace Frantic létaly z leteckých základen v Poltavě a Myrhorodu",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      1,
+      2
+    ]
   },
   {
     "city": "poltava",
     "year": 1962,
-    "text": "těžební a zpracovatelský kombinát na železnou rudu Poltava zahájil provoz v Komsomolsku"
+    "text": "těžební a zpracovatelský kombinát na železnou rudu Poltava zahájil provoz v Komsomolsku",
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "poltava",
     "year": 1966,
-    "text": "turbínový závod vyráběl zařízení pro vodní elektrárny"
+    "text": "turbínový závod vyráběl zařízení pro vodní elektrárny",
+    "rel": [
+      5,
+      2,
+      2,
+      2,
+      3,
+      1
+    ]
   },
   {
     "city": "poltava",
     "year": 1979,
-    "text": "ve městě byla zahájena trolejbusová doprava"
+    "text": "ve městě byla zahájena trolejbusová doprava",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "poltava",
     "year": 1922,
-    "text": "Poltava si připomněla 250 let od bitvy u Poltavy z roku 1709 — klíčové pro ruské, švédské i ukrajinské dějiny"
+    "text": "Poltava si připomněla 250 let od bitvy u Poltavy z roku 1709 — klíčové pro ruské, švédské i ukrajinské dějiny",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      1,
+      2
+    ]
   },
   {
     "city": "poltava",
     "year": 1932,
-    "text": "holodomor zdecimoval Poltavský region; vesnice kolem města byly zcela opuštěny"
+    "text": "holodomor zdecimoval Poltavský region; vesnice kolem města byly zcela opuštěny",
+    "rel": [
+      5,
+      5,
+      5,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "poltava",
     "year": 1942,
-    "text": "wehrmacht vybudoval na letišti Poltava-Mirgorod velkou základnu Luftwaffe"
+    "text": "wehrmacht vybudoval na letišti Poltava-Mirgorod velkou základnu Luftwaffe",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "poltava",
     "year": 1955,
-    "text": "poltavské muzeum kozáckého dědictví se znovu otevřelo se sovětsky prověřenými exponáty"
+    "text": "poltavské muzeum kozáckého dědictví se znovu otevřelo se sovětsky prověřenými exponáty",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "poltava",
     "year": 1965,
-    "text": "poltavské oblastní divadlo uvádělo díla Mykoly Hohola v ukrajinskojazyčných inscenacích"
+    "text": "poltavské oblastní divadlo uvádělo díla Mykoly Hohola v ukrajinskojazyčných inscenacích",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "poltava",
     "year": 1975,
-    "text": "poltavský závod na diamantové nástroje se stal jedním z největších v SSSR"
+    "text": "poltavský závod na diamantové nástroje se stal jedním z největších v SSSR",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "poltava",
     "year": 1943,
-    "text": "při urputných bojích o opevněnou Poltavu se maršál Koněv rozhodl město obejít a hnát se k Dněpru"
+    "text": "při urputných bojích o opevněnou Poltavu se maršál Koněv rozhodl město obejít a hnát se k Dněpru",
+    "rel": [
+      5,
+      3,
+      1,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "poltava",
     "year": 1943,
-    "text": "ustupující wehrmacht srovnal se zemí téměř všechny budovy kromě soukromých domů; moderní Poltava je proto z velké části nová"
+    "text": "ustupující wehrmacht srovnal se zemí téměř všechny budovy kromě soukromých domů; moderní Poltava je proto z velké části nová",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "poltava",
     "year": 1945,
-    "text": "na obnově válkou zničené Poltavy se podíleli němečtí váleční zajatci"
+    "text": "na obnově válkou zničené Poltavy se podíleli němečtí váleční zajatci",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "poltava",
     "year": 1959,
-    "text": "Sovětský svaz si ražbou pamětní medaile připomněl 250. výročí bitvy u Poltavy z roku 1709"
+    "text": "Sovětský svaz si ražbou pamětní medaile připomněl 250. výročí bitvy u Poltavy z roku 1709",
+    "rel": [
+      2,
+      0,
+      1,
+      2,
+      1,
+      1
+    ]
   },
   {
     "city": "poltava",
     "year": 1959,
-    "text": "na ložisku Hlynsko-Rozbyšivske v Poltavské oblasti se začala těžit ropa"
+    "text": "na ložisku Hlynsko-Rozbyšivske v Poltavské oblasti se začala těžit ropa",
+    "rel": [
+      4,
+      1,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "poltava",
     "year": 1966,
-    "text": "v Poltavě byl založen závod na syntetické diamanty a diamantové kotouče — největší výrobce svého druhu v SSSR"
+    "text": "v Poltavě byl založen závod na syntetické diamanty a diamantové kotouče — největší výrobce svého druhu v SSSR",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "poltava",
     "year": 1969,
-    "text": "9. května, na Den vítězství, byl odhalen památník Vojácké slávy"
+    "text": "9. května, na Den vítězství, byl odhalen památník Vojácké slávy",
+    "rel": [
+      5,
+      1,
+      4,
+      1,
+      3,
+      1
+    ]
   },
   {
     "city": "poltava",
     "year": 1969,
-    "text": "Apollo 11 doletělo k Měsíci po dráze, již teoreticky vypočítal poltavský rodák Jurij Kondratjuk"
+    "text": "Apollo 11 doletělo k Měsíci po dráze, již teoreticky vypočítal poltavský rodák Jurij Kondratjuk",
+    "rel": [
+      1,
+      0,
+      3,
+      5,
+      1,
+      3
+    ]
   },
   {
     "city": "poltava",
     "year": 1989,
-    "text": "počet obyvatel Poltavy vyvrcholil na zhruba 289 tisících, hnaný stěhováním z venkova a lehkým průmyslem"
+    "text": "počet obyvatel Poltavy vyvrcholil na zhruba 289 tisících, hnaný stěhováním z venkova a lehkým průmyslem",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "poltava",
     "year": 2009,
-    "text": "27. června byl k 300. výročí bitvy u Poltavy odhalen nový památník za účasti ukrajinské i švédské delegace"
+    "text": "27. června byl k 300. výročí bitvy u Poltavy odhalen nový památník za účasti ukrajinské i švédské delegace",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "poltava",
     "year": 2016,
-    "text": "nedaleký Komsomolsk byl v rámci dekomunizace přejmenován na Horišni Plavni"
+    "text": "nedaleký Komsomolsk byl v rámci dekomunizace přejmenován na Horišni Plavni",
+    "rel": [
+      3,
+      1,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "poltava",
     "year": 2022,
-    "text": "po 24. únoru se Poltava, ležící ve středu země, stala zázemím i cílem ruských raketových úderů"
+    "text": "po 24. únoru se Poltava, ležící ve středu země, stala zázemím i cílem ruských raketových úderů",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "poltava",
     "year": 2024,
-    "text": "3. září zasáhly dvě ruské rakety vojenský institut spojů a nedalekou nemocnici; zahynulo na 59 lidí a stovky byly zraněny"
+    "text": "3. září zasáhly dvě ruské rakety vojenský institut spojů a nedalekou nemocnici; zahynulo na 59 lidí a stovky byly zraněny",
+    "rel": [
+      5,
+      4,
+      5,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "poltava",
     "year": 2025,
-    "text": "1. února zabila ruská střela Ch-22 při zásahu obytného domu patnáct lidí"
+    "text": "1. února zabila ruská střela Ch-22 při zásahu obytného domu patnáct lidí",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "poltava",
     "year": 1950,
-    "text": "městská přádelna a další lehký průmysl přitahovaly do poválečné Poltavy pracovní síly z okolního venkova"
+    "text": "městská přádelna a další lehký průmysl přitahovaly do poválečné Poltavy pracovní síly z okolního venkova",
+    "rel": [
+      5,
+      3,
+      2,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "poltava",
     "year": 1965,
-    "text": "na ložisku Šebelynka a v Poltavské oblasti rozvíjená těžba plynového kondenzátu z ní učinila jeden z energetických pilířů Ukrajiny"
+    "text": "na ložisku Šebelynka a v Poltavské oblasti rozvíjená těžba plynového kondenzátu z ní učinila jeden z energetických pilířů Ukrajiny",
+    "rel": [
+      4,
+      2,
+      2,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "poltava",
     "year": 1981,
-    "text": "muzeum bitvy u Poltavy a okolní památníky byly vyhlášeny Státní historicko-kulturní rezervací „Pole poltavské bitvy“"
+    "text": "muzeum bitvy u Poltavy a okolní památníky byly vyhlášeny Státní historicko-kulturní rezervací „Pole poltavské bitvy“",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "poltava",
     "year": 2022,
-    "text": "27. června zasáhly dvě ruské střely Ch-22 obchodní centrum Amstor v Kremenčuku v Poltavské oblasti a zabily 21 lidí"
+    "text": "27. června zasáhly dvě ruské střely Ch-22 obchodní centrum Amstor v Kremenčuku v Poltavské oblasti a zabily 21 lidí",
+    "rel": [
+      4,
+      3,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "poltava",
     "year": 2023,
-    "text": "Poltava se stala významným zázemím pro vnitřně vysídlené z Charkovska i jihu a pro logistiku směřující k frontě"
+    "text": "Poltava se stala významným zázemím pro vnitřně vysídlené z Charkovska i jihu a pro logistiku směřující k frontě",
+    "rel": [
+      5,
+      4,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "poltava",
     "year": 1958,
-    "text": "v Poltavě byl jako Avanhard založen fotbalový klub, pozdější Vorskla, jenž o dva roky později vstoupil do sovětské třídy B"
+    "text": "v Poltavě byl jako Avanhard založen fotbalový klub, pozdější Vorskla, jenž o dva roky později vstoupil do sovětské třídy B",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      2
+    ]
   }
 ]

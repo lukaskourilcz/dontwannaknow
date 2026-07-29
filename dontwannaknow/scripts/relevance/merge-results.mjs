@@ -3,7 +3,9 @@
 // Selže (exit 1), pokud jakémukoli záznamu chybí průchod, skóre je mimo
 // rozsah 0–5, chybí zdůvodnění nebo výsledek odkazuje na neznámý záznam.
 //
-// Použití: node scripts/relevance/merge-results.mjs --batches <dir> --results <dir> [--scored-at YYYY-MM-DD]
+// Použití: node scripts/relevance/merge-results.mjs --batches <dir> --results <dir> [--batches <dir2> --results <dir2>…] [--scored-at YYYY-MM-DD] [--keep-existing]
+// Dvojic --batches/--results může být víc (delta-skórování). --keep-existing
+// zachová dosavadní záznamy sidecarů a nové jen přidá či přepíše.
 
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { AXES, PASSES, PROMPT_VERSION } from "./prompts.mjs";
@@ -12,22 +14,36 @@ function arg(flag) {
   const i = process.argv.indexOf(flag);
   return i === -1 ? undefined : process.argv[i + 1];
 }
-const batchesDir = arg("--batches");
-const resultsDir = arg("--results");
+function args(flag) {
+  const values = [];
+  for (let i = 0; i < process.argv.length; i += 1) {
+    if (process.argv[i] === flag && process.argv[i + 1]) values.push(process.argv[i + 1]);
+  }
+  return values;
+}
+const batchesDirs = args("--batches");
+const resultsDirs = args("--results");
 const scoredAt = arg("--scored-at") ?? new Date().toISOString().slice(0, 10);
-if (!batchesDir || !resultsDir) {
-  console.error("Použití: merge-results.mjs --batches <dir> --results <dir>");
+const keepExisting = process.argv.includes("--keep-existing");
+if (!batchesDirs.length || batchesDirs.length !== resultsDirs.length) {
+  console.error("Použití: merge-results.mjs --batches <dir> --results <dir> [--batches … --results …]");
   process.exit(1);
 }
 
 const errors = [];
-const index = JSON.parse(await readFile(`${batchesDir}/index.json`, "utf8"));
+const pairs = batchesDirs.map((batches, i) => ({ batchesDir: batches, resultsDir: resultsDirs[i] }));
+const allBatches = [];
+for (const { batchesDir, resultsDir } of pairs) {
+  const index = JSON.parse(await readFile(`${batchesDir}/index.json`, "utf8"));
+  for (const batch of index.batches) allBatches.push({ ...batch, batchesDir, resultsDir });
+}
 
 // key → { dataset, scores: {axis: n}, rationales: {pass: text}, passes: Set }
 const merged = new Map();
 const axisByShort = new Map(Object.entries(AXES).map(([name, spec]) => [spec.short, name]));
 
-for (const batch of index.batches) {
+for (const batch of allBatches) {
+  const { batchesDir, resultsDir } = batch;
   const batchRecords = JSON.parse(await readFile(`${batchesDir}/${batch.file}`, "utf8")).records;
   const byId = new Map(batchRecords.map((r) => [r.id, r]));
   let result;
@@ -94,7 +110,15 @@ if (errors.length) {
 const outDir = new URL("../../src/data/relevance/", import.meta.url);
 await mkdir(outDir, { recursive: true });
 for (const [dataset, list] of byDataset) {
-  list.sort((a, b) => (a.key < b.key ? -1 : 1));
+  const byKey = new Map();
+  if (keepExisting) {
+    const existing = await readFile(new URL(`${dataset}.json`, outDir), "utf8")
+      .then(JSON.parse)
+      .catch(() => null);
+    for (const record of existing?.records ?? []) byKey.set(record.key, record);
+  }
+  for (const record of list) byKey.set(record.key, record);
+  const combined = [...byKey.values()].sort((a, b) => (a.key < b.key ? -1 : 1));
   await writeFile(
     new URL(`${dataset}.json`, outDir),
     `${JSON.stringify({
@@ -102,9 +126,9 @@ for (const [dataset, list] of byDataset) {
       model: "claude-fable-5",
       scoredAt,
       passes: Object.fromEntries(Object.entries(PASSES).map(([id, pass]) => [id, pass.axes])),
-      records: list,
+      records: combined,
     }, null, 1)}\n`,
   );
-  console.log(`src/data/relevance/${dataset}.json: ${list.length} záznamů.`);
+  console.log(`src/data/relevance/${dataset}.json: ${combined.length} záznamů.`);
 }
 console.log(`Sloučeno ${merged.size} záznamů bez chyb.`);

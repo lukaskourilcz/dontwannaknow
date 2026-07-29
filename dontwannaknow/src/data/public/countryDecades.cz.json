@@ -3,810 +3,1890 @@
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "government",
-    "text": "Československo bylo mladou demokracií v čele s prezidentem-filozofem T. G. Masarykem."
+    "text": "Československo bylo mladou demokracií v čele s prezidentem-filozofem T. G. Masarykem.",
+    "rel": [
+      4,
+      2,
+      4,
+      0,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "government",
-    "text": "Parlament zasedal v Praze a Alois Rašín navázal korunu na zlato."
+    "text": "Parlament zasedal v Praze a Alois Rašín navázal korunu na zlato.",
+    "rel": [
+      4,
+      4,
+      2,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "government",
-    "text": "Všeobecné volební právo zahrnovalo i ženy — v tehdejší Evropě vzácnost."
+    "text": "Všeobecné volební právo zahrnovalo i ženy — v tehdejší Evropě vzácnost.",
+    "rel": [
+      4,
+      3,
+      3,
+      2,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "clothes",
-    "text": "Ženy ve městech si nechávaly stříhat vlasy na mikádo a nosily flapper šaty se sníženým pasem."
+    "text": "Ženy ve městech si nechávaly stříhat vlasy na mikádo a nosily flapper šaty se sníženým pasem.",
+    "rel": [
+      4,
+      2,
+      3,
+      1,
+      1,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "clothes",
-    "text": "Muži v Praze nosili třídílné obleky s homburgem nebo měkkým plstěným kloboukem."
+    "text": "Muži v Praze nosili třídílné obleky s homburgem nebo měkkým plstěným kloboukem.",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "clothes",
-    "text": "Na Moravě a Slovensku se vyšívaný kroj stále nosil běžně do kostela."
+    "text": "Na Moravě a Slovensku se vyšívaný kroj stále nosil běžně do kostela.",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "clothes",
-    "text": "Baťa ve Zlíně vyráběl dostupné kožené boty, které se staly výrazným symbolem moderního životního stylu."
+    "text": "Baťa ve Zlíně vyráběl dostupné kožené boty, které se staly výrazným symbolem moderního životního stylu.",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "illnesses",
-    "text": "Tuberkulóza byla velkým zabijákem; celá sanatoria byla rozeseta po Tatrách i Krkonoších."
+    "text": "Tuberkulóza byla velkým zabijákem; celá sanatoria byla rozeseta po Tatrách i Krkonoších.",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "illnesses",
-    "text": "Záškrt si stále bral malé děti; na vesnicích bylo antitoxinu málo."
+    "text": "Záškrt si stále bral malé děti; na vesnicích bylo antitoxinu málo.",
+    "rel": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "illnesses",
-    "text": "Španělská chřipka právě odezněla a zanechala po sobě celou generaci vdov."
+    "text": "Španělská chřipka právě odezněla a zanechala po sobě celou generaci vdov.",
+    "rel": [
+      4,
+      4,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "dailyLife",
-    "text": "Pražské kavárny jako Slavia byly plné spisovatelů a novinářů; Kafka byl naživu až do roku 1924."
+    "text": "Pražské kavárny jako Slavia byly plné spisovatelů a novinářů; Kafka byl naživu až do roku 1924.",
+    "rel": [
+      3,
+      1,
+      3,
+      1,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "dailyLife",
-    "text": "Václavským náměstím rachotily tramvaje a káva stála pár haléřů."
+    "text": "Václavským náměstím rachotily tramvaje a káva stála pár haléřů.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "dailyLife",
-    "text": "Nedělní odpoledne znamenala procházku v parku a koncert dechovky."
+    "text": "Nedělní odpoledne znamenala procházku v parku a koncert dechovky.",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "food",
-    "text": "Neděle znamenala vepřové, knedlíky a zelí — věčné vepřo-knedlo-zelo."
+    "text": "Neděle znamenala vepřové, knedlíky a zelí — věčné vepřo-knedlo-zelo.",
+    "rel": [
+      4,
+      3,
+      5,
+      0,
+      4,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "food",
-    "text": "Plzeňský Prazdroj se už vyvážel do celého světa."
+    "text": "Plzeňský Prazdroj se už vyvážel do celého světa.",
+    "rel": [
+      4,
+      1,
+      3,
+      1,
+      3,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "food",
-    "text": "V chudších domácnostech byla káva často cikorková směs zvaná cikorka."
+    "text": "V chudších domácnostech byla káva často cikorková směs zvaná cikorka.",
+    "rel": [
+      4,
+      3,
+      4,
+      3,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "money",
-    "text": "Průmyslový dělník v Praze vydělával kolem 250 korun týdně."
+    "text": "Průmyslový dělník v Praze vydělával kolem 250 korun týdně.",
+    "rel": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "money",
-    "text": "Bochník tmavého chleba stál asi 2 koruny."
+    "text": "Bochník tmavého chleba stál asi 2 koruny.",
+    "rel": [
+      4,
+      3,
+      3,
+      3,
+      1,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "money",
-    "text": "Pár kožených bot od Bati přišel na 60 korun — pořádný výdaj."
+    "text": "Pár kožených bot od Bati přišel na 60 korun — pořádný výdaj.",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      1,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "bizarre",
-    "text": "Roboti dostali jméno právě tady — hra Karla Čapka R.U.R. měla premiéru v roce 1921."
+    "text": "Roboti dostali jméno právě tady — hra Karla Čapka R.U.R. měla premiéru v roce 1921.",
+    "rel": [
+      4,
+      0,
+      2,
+      1,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "bizarre",
-    "text": "Čeští lékaři tehdy vyvíjeli prototyp vůbec první kontaktní čočky na světě."
+    "text": "Čeští lékaři tehdy vyvíjeli prototyp vůbec první kontaktní čočky na světě.",
+    "rel": [
+      4,
+      0,
+      1,
+      4,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "beautiful",
-    "text": "Československo patřilo k deseti nejprůmyslovějším zemím na světě."
+    "text": "Československo patřilo k deseti nejprůmyslovějším zemím na světě.",
+    "rel": [
+      4,
+      2,
+      2,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1920,
     "bucket": "beautiful",
-    "text": "Janáčkovy opery měly premiéry v Brně a putovaly do celého světa."
+    "text": "Janáčkovy opery měly premiéry v Brně a putovaly do celého světa.",
+    "rel": [
+      4,
+      0,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "government",
-    "text": "Masaryk předal prezidentský úřad Edvardu Benešovi v roce 1935; republika se orientovala na západ, na Francii."
+    "text": "Masaryk předal prezidentský úřad Edvardu Benešovi v roce 1935; republika se orientovala na západ, na Francii.",
+    "rel": [
+      4,
+      1,
+      4,
+      1,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "government",
-    "text": "Mnichovská dohoda v roce 1938 přinutila zemi vzdát se Sudet."
+    "text": "Mnichovská dohoda v roce 1938 přinutila zemi vzdát se Sudet.",
+    "rel": [
+      4,
+      5,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "government",
-    "text": "Do března 1939 se zbytek Čech a Moravy stal nacistickým protektorátem."
+    "text": "Do března 1939 se zbytek Čech a Moravy stal nacistickým protektorátem.",
+    "rel": [
+      4,
+      5,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "clothes",
-    "text": "Šaty střižené do šíře a liščí kožešiny pro ženy do kina."
+    "text": "Šaty střižené do šíře a liščí kožešiny pro ženy do kina.",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "clothes",
-    "text": "Muži kombinovali tvídová saka s pumpkami na výlety za město."
+    "text": "Muži kombinovali tvídová saka s pumpkami na výlety za město.",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "clothes",
-    "text": "Baťovy továrny vyrobily ročně miliony plátěných letních bot."
+    "text": "Baťovy továrny vyrobily ročně miliony plátěných letních bot.",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "clothes",
-    "text": "Městská móda třicátých let nabízela delší sukně, zvýrazněný pas, halenky a praktické kostýmky."
+    "text": "Městská móda třicátých let nabízela delší sukně, zvýrazněný pas, halenky a praktické kostýmky.",
+    "rel": [
+      4,
+      2,
+      3,
+      1,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "illnesses",
-    "text": "Tuberkulóza i přes nové očkování BCG stále zabíjela tisíce lidí ročně."
+    "text": "Tuberkulóza i přes nové očkování BCG stále zabíjela tisíce lidí ročně.",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "illnesses",
-    "text": "Epidemie dětské obrny se vracely zejména v letních měsících."
+    "text": "Epidemie dětské obrny se vracely zejména v letních měsících.",
+    "rel": [
+      4,
+      3,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "illnesses",
-    "text": "Zápal plic byl vážnou diagnózou — antibiotika ještě neexistovala."
+    "text": "Zápal plic byl vážnou diagnózou — antibiotika ještě neexistovala.",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "dailyLife",
-    "text": "Z linky v Mladé Boleslavi sjížděla auta Škoda a z Prahy vyjížděly lokomotivy ČKD."
+    "text": "Z linky v Mladé Boleslavi sjížděla auta Škoda a z Prahy vyjížděly lokomotivy ČKD.",
+    "rel": [
+      4,
+      2,
+      3,
+      1,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "dailyLife",
-    "text": "Rádia měly měšťanské domácnosti; celé rodiny se scházely u večerního vysílání."
+    "text": "Rádia měly měšťanské domácnosti; celé rodiny se scházely u večerního vysílání.",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "dailyLife",
-    "text": "Swingové a trampské taneční večery patřily k pražskému kulturnímu životu."
+    "text": "Swingové a trampské taneční večery patřily k pražskému kulturnímu životu.",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "food",
-    "text": "Paukertův obložený chlebíček, uvedený už kolem roku 1916, zůstával oblíbenou součástí pražských lahůdkářství."
+    "text": "Paukertův obložený chlebíček, uvedený už kolem roku 1916, zůstával oblíbenou součástí pražských lahůdkářství.",
+    "rel": [
+      3,
+      1,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "food",
-    "text": "Plzeňské pivovary vařily i během krize — pivo zůstávalo levné."
+    "text": "Plzeňské pivovary vařily i během krize — pivo zůstávalo levné.",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      1,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "food",
-    "text": "Sádlo na chlebu s cibulí bylo vesnickou odpolední svačinou."
+    "text": "Sádlo na chlebu s cibulí bylo vesnickou odpolední svačinou.",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "money",
-    "text": "Hospodářská krize udeřila tvrdě — v roce 1933 byl bez práce skoro milion Čechoslováků."
+    "text": "Hospodářská krize udeřila tvrdě — v roce 1933 byl bez práce skoro milion Čechoslováků.",
+    "rel": [
+      4,
+      5,
+      5,
+      1,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "money",
-    "text": "Měsíční plat pražského úředníka činil kolem 1 200 korun."
+    "text": "Měsíční plat pražského úředníka činil kolem 1 200 korun.",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      1,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "money",
-    "text": "Po Mnichovu byla koruna devalvována a začalo se přidělovat na lístky."
+    "text": "Po Mnichovu byla koruna devalvována a začalo se přidělovat na lístky.",
+    "rel": [
+      4,
+      5,
+      4,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "bizarre",
-    "text": "Čechoslováci vynalezli kostkový cukr — a padák (Štefan Banič)."
+    "text": "Čechoslováci vynalezli kostkový cukr — a padák (Štefan Banič).",
+    "rel": [
+      3,
+      0,
+      1,
+      3,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "bizarre",
-    "text": "Nad Prahou bděla hliníková rozhledna, petřínská „mini-Eiffelovka“."
+    "text": "Nad Prahou bděla hliníková rozhledna, petřínská „mini-Eiffelovka“.",
+    "rel": [
+      4,
+      1,
+      3,
+      1,
+      4,
+      1
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "beautiful",
-    "text": "Architektura a funkcionalismus udělaly z Brna jednu ze světových metropolí designu."
+    "text": "Architektura a funkcionalismus udělaly z Brna jednu ze světových metropolí designu.",
+    "rel": [
+      4,
+      1,
+      2,
+      3,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1930,
     "bucket": "beautiful",
-    "text": "Českoslovenští lyžaři a gymnasté pravidelně získávali medaile na mezinárodních soutěžích."
+    "text": "Českoslovenští lyžaři a gymnasté pravidelně získávali medaile na mezinárodních soutěžích.",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "government",
-    "text": "Čechy a Morava byly spravovány jako nacistický protektorát; Reinhard Heydrich byl roku 1942 v Praze zavražděn."
+    "text": "Čechy a Morava byly spravovány jako nacistický protektorát; Reinhard Heydrich byl roku 1942 v Praze zavražděn.",
+    "rel": [
+      4,
+      4,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "government",
-    "text": "Za odplatu byla v červnu 1942 z mapy vymazána obec Lidice."
+    "text": "Za odplatu byla v červnu 1942 z mapy vymazána obec Lidice.",
+    "rel": [
+      4,
+      4,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "government",
-    "text": "Osvobození v roce 1945 přišlo zčásti od Rudé armády, zčásti od Pattonových vojáků."
+    "text": "Osvobození v roce 1945 přišlo zčásti od Rudé armády, zčásti od Pattonových vojáků.",
+    "rel": [
+      4,
+      5,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "government",
-    "text": "Komunistická strana převzala plnou moc únorovým převratem roku 1948."
+    "text": "Komunistická strana převzala plnou moc únorovým převratem roku 1948.",
+    "rel": [
+      4,
+      5,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "clothes",
-    "text": "Za války se na šaty přidělovaly lístky (Kleiderkarte); lidé párali staré závěsy, aby získali látku."
+    "text": "Za války se na šaty přidělovaly lístky (Kleiderkarte); lidé párali staré závěsy, aby získali látku.",
+    "rel": [
+      4,
+      5,
+      4,
+      2,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "clothes",
-    "text": "Z padákového hedvábí si pár šťastlivců po válce ušilo svatební šaty."
+    "text": "Z padákového hedvábí si pár šťastlivců po válce ušilo svatební šaty.",
+    "rel": [
+      4,
+      1,
+      2,
+      3,
+      0,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "clothes",
-    "text": "Poválečný komunistický styl upřednostňoval prosté vlněné šaty a beztvaré obleky."
+    "text": "Poválečný komunistický styl upřednostňoval prosté vlněné šaty a beztvaré obleky.",
+    "rel": [
+      4,
+      3,
+      3,
+      1,
+      3,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "illnesses",
-    "text": "Lidé, kteří přežili koncentrační tábory, si domů přinášeli tyfus a nemoci z hladovění."
+    "text": "Lidé, kteří přežili koncentrační tábory, si domů přinášeli tyfus a nemoci z hladovění.",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "illnesses",
-    "text": "Penicilin se do pražských nemocnic dostal až úplně na konci války."
+    "text": "Penicilin se do pražských nemocnic dostal až úplně na konci války.",
+    "rel": [
+      4,
+      2,
+      2,
+      3,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "illnesses",
-    "text": "Epidemie obrny ochromily až do roku 1948 tisíce českých dětí."
+    "text": "Epidemie obrny ochromily až do roku 1948 tisíce českých dětí.",
+    "rel": [
+      4,
+      4,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "dailyLife",
-    "text": "Zákazy vycházení, zatemnění a gestapo určovaly všední den od roku 1939 do roku 1945."
+    "text": "Zákazy vycházení, zatemnění a gestapo určovaly všední den od roku 1939 do roku 1945.",
+    "rel": [
+      4,
+      5,
+      5,
+      0,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "dailyLife",
-    "text": "Po válce byli vysídleni etničtí Němci a celé pohraniční vesnice se vylidnily."
+    "text": "Po válce byli vysídleni etničtí Němci a celé pohraniční vesnice se vylidnily.",
+    "rel": [
+      4,
+      5,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "dailyLife",
-    "text": "V roce 1948 jste mohli jít do vězení za poslech Rádia Svobodná Evropa."
+    "text": "V roce 1948 jste mohli jít do vězení za poslech Rádia Svobodná Evropa.",
+    "rel": [
+      4,
+      4,
+      3,
+      2,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "food",
-    "text": "Válečnou kávovou náhražkou byla pražená cikorka; pravá káva byla luxusem z černého trhu."
+    "text": "Válečnou kávovou náhražkou byla pražená cikorka; pravá káva byla luxusem z černého trhu.",
+    "rel": [
+      4,
+      4,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "food",
-    "text": "V dobách přídělů nahradily moučné knedlíky ty bramborové."
+    "text": "V dobách přídělů nahradily moučné knedlíky ty bramborové.",
+    "rel": [
+      4,
+      3,
+      3,
+      3,
+      1,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "food",
-    "text": "Po válce sytily města zásilky amerického konzervovaného mléka od UNRRA."
+    "text": "Po válce sytily města zásilky amerického konzervovaného mléka od UNRRA.",
+    "rel": [
+      4,
+      3,
+      3,
+      4,
+      1,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "money",
-    "text": "Měnová reforma v roce 1953 přes noc smetla úspory v poměru 50 ku 1."
+    "text": "Měnová reforma v roce 1953 přes noc smetla úspory v poměru 50 ku 1.",
+    "rel": [
+      4,
+      5,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "money",
-    "text": "Znárodnění průmyslu zabavilo majitelům továrny bez náhrady."
+    "text": "Znárodnění průmyslu zabavilo majitelům továrny bez náhrady.",
+    "rel": [
+      4,
+      4,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "money",
-    "text": "Dolary na černém trhu se obchodovaly za pětinásobek oficiálního kurzu."
+    "text": "Dolary na černém trhu se obchodovaly za pětinásobek oficiálního kurzu.",
+    "rel": [
+      4,
+      2,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "bizarre",
-    "text": "Výsadkáři vycvičení v Británii zabili v Praze třetího nejvýše postaveného nacistu."
+    "text": "Výsadkáři vycvičení v Británii zabili v Praze třetího nejvýše postaveného nacistu.",
+    "rel": [
+      4,
+      4,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "bizarre",
-    "text": "„Československý zázrak“ — být na obou frontách — nechal zemi kupodivu nedotčenou."
+    "text": "„Československý zázrak“ — být na obou frontách — nechal zemi kupodivu nedotčenou.",
+    "rel": [
+      4,
+      2,
+      2,
+      2,
+      3,
+      1
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "beautiful",
-    "text": "Osvobození Prahy Rudou armádou v květnu 1945 přineslo květiny a svezení na tancích."
+    "text": "Osvobození Prahy Rudou armádou v květnu 1945 přineslo květiny a svezení na tancích.",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1940,
     "bucket": "beautiful",
-    "text": "V nově otevřených koncertních sálech zněla Novosvětská symfonie Antonína Dvořáka."
+    "text": "V nově otevřených koncertních sálech zněla Novosvětská symfonie Antonína Dvořáka.",
+    "rel": [
+      4,
+      1,
+      2,
+      1,
+      1,
+      1
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "government",
-    "text": "Stalinistické Československo pořádalo zinscenované procesy — Rudolf Slánský a deset dalších byli v roce 1952 oběšeni."
+    "text": "Stalinistické Československo pořádalo zinscenované procesy — Rudolf Slánský a deset dalších byli v roce 1952 oběšeni.",
+    "rel": [
+      4,
+      4,
+      4,
+      1,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "government",
-    "text": "Prezident Klement Gottwald zemřel devět dní poté, co se zúčastnil Stalinova pohřbu."
+    "text": "Prezident Klement Gottwald zemřel devět dní poté, co se zúčastnil Stalinova pohřbu.",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "government",
-    "text": "Hospodářství plánovala v pětiletkách ministerstva po vzoru Gosplanu."
+    "text": "Hospodářství plánovala v pětiletkách ministerstva po vzoru Gosplanu.",
+    "rel": [
+      4,
+      4,
+      3,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "clothes",
-    "text": "Konfekční výroba nabízela omezený výběr podobných bavlněných šatů a barev."
+    "text": "Konfekční výroba nabízela omezený výběr podobných bavlněných šatů a barev.",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "clothes",
-    "text": "Pionýři nosili do školy rudé šátky."
+    "text": "Pionýři nosili do školy rudé šátky.",
+    "rel": [
+      4,
+      3,
+      5,
+      0,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "clothes",
-    "text": "Džíny ze západního Německa se objevovaly na černém trhu a byly velmi drahé."
+    "text": "Džíny ze západního Německa se objevovaly na černém trhu a byly velmi drahé.",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "clothes",
-    "text": "Při spartakiádních hromadných cvičeních nosili účastníci jednotné bílé trenýrky a trička."
+    "text": "Při spartakiádních hromadných cvičeních nosili účastníci jednotné bílé trenýrky a trička.",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "illnesses",
-    "text": "Plošné očkování vymýtilo záškrt; epidemie obrny definitivně skončily v roce 1960."
+    "text": "Plošné očkování vymýtilo záškrt; epidemie obrny definitivně skončily v roce 1960.",
+    "rel": [
+      4,
+      4,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "illnesses",
-    "text": "První operace srdce v Brně zachraňovaly životy, které by se před deseti lety ztratily."
+    "text": "První operace srdce v Brně zachraňovaly životy, které by se před deseti lety ztratily.",
+    "rel": [
+      4,
+      1,
+      1,
+      3,
+      4,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "illnesses",
-    "text": "Znečištěné ovzduší ze severočeských uhelných elektráren způsobovalo chronická plicní onemocnění."
+    "text": "Znečištěné ovzduší ze severočeských uhelných elektráren způsobovalo chronická plicní onemocnění.",
+    "rel": [
+      3,
+      3,
+      3,
+      2,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "dailyLife",
-    "text": "Na nedostatkové potraviny se tvořily ranní fronty; pro část rodin se symbolem volného času stávala víkendová chata."
+    "text": "Na nedostatkové potraviny se tvořily ranní fronty; pro část rodin se symbolem volného času stávala víkendová chata.",
+    "rel": [
+      4,
+      4,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "dailyLife",
-    "text": "Prvomájové průvody, závodní sbory a nucené „dobrovolné“ sobotní brigády byly běžné."
+    "text": "Prvomájové průvody, závodní sbory a nucené „dobrovolné“ sobotní brigády byly běžné.",
+    "rel": [
+      4,
+      4,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "dailyLife",
-    "text": "Dopisy od příbuzných ze Západu otevírala a četla tajná policie."
+    "text": "Dopisy od příbuzných ze Západu otevírala a četla tajná policie.",
+    "rel": [
+      4,
+      3,
+      3,
+      2,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "food",
-    "text": "Tatranky a oplatky patřily mezi oblíbené dětské dobroty."
+    "text": "Tatranky a oplatky patřily mezi oblíbené dětské dobroty.",
+    "rel": [
+      4,
+      2,
+      5,
+      0,
+      4,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "food",
-    "text": "Hovězí maso bývalo nedostatkové; mezi tradiční nedělní jídla patřilo vepřové koleno s hořčicí."
+    "text": "Hovězí maso bývalo nedostatkové; mezi tradiční nedělní jídla patřilo vepřové koleno s hořčicí.",
+    "rel": [
+      4,
+      3,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "food",
-    "text": "Mléko se rozváželo ve vratných skleněných lahvích."
+    "text": "Mléko se rozváželo ve vratných skleněných lahvích.",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      4,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "money",
-    "text": "Měsíční mzda dělníka byla kolem 1 400 Kčs; Škoda 1000 MB stála 44 000 Kčs."
+    "text": "Měsíční mzda dělníka byla kolem 1 400 Kčs; Škoda 1000 MB stála 44 000 Kčs.",
+    "rel": [
+      4,
+      3,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "money",
-    "text": "Bochník chleba stál 2 Kčs a držel se na té ceně desítky let."
+    "text": "Bochník chleba stál 2 Kčs a držel se na té ceně desítky let.",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "money",
-    "text": "Stát vykazoval plnou zaměstnanost; výběr povolání i kariérní postup však výrazně ovlivňoval režim."
+    "text": "Stát vykazoval plnou zaměstnanost; výběr povolání i kariérní postup však výrazně ovlivňoval režim.",
+    "rel": [
+      4,
+      4,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "bizarre",
-    "text": "Třicetimetrový kamenný Stalin se tyčil nad Prahou od roku 1955, než byl v roce 1962 odstřelen."
+    "text": "Třicetimetrový kamenný Stalin se tyčil nad Prahou od roku 1955, než byl v roce 1962 odstřelen.",
+    "rel": [
+      5,
+      1,
+      4,
+      2,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "beautiful",
-    "text": "Emil Zátopek vybojoval na olympiádě v Helsinkách v roce 1952 tři zlaté medaile."
+    "text": "Emil Zátopek vybojoval na olympiádě v Helsinkách v roce 1952 tři zlaté medaile.",
+    "rel": [
+      3,
+      2,
+      5,
+      0,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1950,
     "bucket": "beautiful",
-    "text": "Multimediální divadlo Laterna magika debutovalo na Expu 58 v Bruselu."
+    "text": "Multimediální divadlo Laterna magika debutovalo na Expu 58 v Bruselu.",
+    "rel": [
+      2,
+      1,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "government",
-    "text": "Alexander Dubček zahájil „socialismus s lidskou tváří“ — pražské jaro roku 1968."
+    "text": "Alexander Dubček zahájil „socialismus s lidskou tváří“ — pražské jaro roku 1968.",
+    "rel": [
+      4,
+      4,
+      5,
+      0,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "government",
-    "text": "21. srpna 1968 vjely tanky Varšavské smlouvy a reformy rozdrtily."
+    "text": "21. srpna 1968 vjely tanky Varšavské smlouvy a reformy rozdrtily.",
+    "rel": [
+      4,
+      5,
+      5,
+      0,
+      5,
+      5
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "government",
-    "text": "Země byla v roce 1960 přejmenována na Československou socialistickou republiku."
+    "text": "Země byla v roce 1960 přejmenována na Československou socialistickou republiku.",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      3,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "clothes",
-    "text": "Minisukně dorazily do Prahy v roce 1966 — butiky na Václavském náměstí prodaly první kusy."
+    "text": "Minisukně dorazily do Prahy v roce 1966 — butiky na Václavském náměstí prodaly první kusy.",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "clothes",
-    "text": "Pašované džíny Levi's byly mezi částí dospívajících vyhledávaným symbolem západní módy."
+    "text": "Pašované džíny Levi's byly mezi částí dospívajících vyhledávaným symbolem západní módy.",
+    "rel": [
+      4,
+      2,
+      3,
+      1,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "clothes",
-    "text": "Za dlouhé vlasy vás na začátku 60. let zmlátila policie, na jejich konci už byly v módě."
+    "text": "Za dlouhé vlasy vás na začátku 60. let zmlátila policie, na jejich konci už byly v módě.",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "illnesses",
-    "text": "Kouření bylo všudypřítomné — kouřilo přes 40 % dospělých Čechů, i těhotné ženy."
+    "text": "Kouření bylo všudypřítomné — kouřilo přes 40 % dospělých Čechů, i těhotné ženy.",
+    "rel": [
+      4,
+      4,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "illnesses",
-    "text": "Srdeční choroby předstihly tuberkulózu jako nejčastější příčinu úmrtí."
+    "text": "Srdeční choroby předstihly tuberkulózu jako nejčastější příčinu úmrtí.",
+    "rel": [
+      3,
+      1,
+      2,
+      3,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "illnesses",
-    "text": "Psychiatrické léčebny se od roku 1968 využívaly k zadržování disidentů."
+    "text": "Psychiatrické léčebny se od roku 1968 využívaly k zadržování disidentů.",
+    "rel": [
+      3,
+      1,
+      1,
+      4,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "dailyLife",
-    "text": "Československá nová vlna — Forman, Menzel, Chytilová — přinášela osobitý filmový jazyk a získávala zahraniční ocenění."
+    "text": "Československá nová vlna — Forman, Menzel, Chytilová — přinášela osobitý filmový jazyk a získávala zahraniční ocenění.",
+    "rel": [
+      3,
+      2,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "dailyLife",
-    "text": "Jan Palach se v lednu 1969 na Václavském náměstí upálil."
+    "text": "Jan Palach se v lednu 1969 na Václavském náměstí upálil.",
+    "rel": [
+      3,
+      3,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "dailyLife",
-    "text": "Sobotní dopoledne patřila „dobrovolným brigádám“; neděle chatě."
+    "text": "Sobotní dopoledne patřila „dobrovolným brigádám“; neděle chatě.",
+    "rel": [
+      3,
+      4,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "food",
-    "text": "Pivo bylo i nadále levnější než limonáda, i pro nezletilé."
+    "text": "Pivo bylo i nadále levnější než limonáda, i pro nezletilé.",
+    "rel": [
+      3,
+      3,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "food",
-    "text": "Bramboráky patřily mezi oblíbená jídla na chatách a chalupách."
+    "text": "Bramboráky patřily mezi oblíbená jídla na chatách a chalupách.",
+    "rel": [
+      3,
+      2,
+      4,
+      0,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "food",
-    "text": "Dovážené pomeranče z Kuby přišly jednou ročně, před Vánoci."
+    "text": "Dovážené pomeranče z Kuby přišly jednou ročně, před Vánoci.",
+    "rel": [
+      3,
+      3,
+      5,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "money",
-    "text": "Průměrná mzda dosáhla kolem 1 500 Kčs měsíčně; Škoda 100 stála 35 000 Kčs."
+    "text": "Průměrná mzda dosáhla kolem 1 500 Kčs měsíčně; Škoda 100 stála 35 000 Kčs.",
+    "rel": [
+      3,
+      3,
+      3,
+      3,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "money",
-    "text": "Dolary na černém trhu se obchodovaly za 30 Kčs oproti oficiálním 14 Kčs."
+    "text": "Dolary na černém trhu se obchodovaly za 30 Kčs oproti oficiálním 14 Kčs.",
+    "rel": [
+      3,
+      1,
+      2,
+      3,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "money",
-    "text": "Víkend v Tatrách v odborářském hotelu stál se vším všudy 80 Kčs."
+    "text": "Víkend v Tatrách v odborářském hotelu stál se vším všudy 80 Kčs.",
+    "rel": [
+      3,
+      2,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "bizarre",
-    "text": "Měkké kontaktní čočky vynalezl v Praze v roce 1961 Otto Wichterle pomocí stavebnice Merkur."
+    "text": "Měkké kontaktní čočky vynalezl v Praze v roce 1961 Otto Wichterle pomocí stavebnice Merkur.",
+    "rel": [
+      4,
+      0,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "bizarre",
-    "text": "Češi navrhli a postavili vlastní luxusní vůz Tatra 603 s motorem V8 — jen pro stranické funkcionáře."
+    "text": "Češi navrhli a postavili vlastní luxusní vůz Tatra 603 s motorem V8 — jen pro stranické funkcionáře.",
+    "rel": [
+      3,
+      0,
+      3,
+      2,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "beautiful",
-    "text": "Československo získalo na olympiádě v Mexiku v roce 1968 stříbro ve sportovní gymnastice — Věra Čáslavská se stala národní hrdinkou."
+    "text": "Československo získalo na olympiádě v Mexiku v roce 1968 stříbro ve sportovní gymnastice — Věra Čáslavská se stala národní hrdinkou.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1960,
     "bucket": "beautiful",
-    "text": "V Praze rozvíjelo divadlo Semafor písničkový kabaret navazující na tradici Voskovce a Wericha."
+    "text": "V Praze rozvíjelo divadlo Semafor písničkový kabaret navazující na tradici Voskovce a Wericha.",
+    "rel": [
+      3,
+      2,
+      4,
+      1,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "government",
-    "text": "Gustáv Husák řídil „normalizaci“ a čistky postihly mnoho lidí, kteří podpořili pražské jaro."
+    "text": "Gustáv Husák řídil „normalizaci“ a čistky postihly mnoho lidí, kteří podpořili pražské jaro.",
+    "rel": [
+      4,
+      4,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "government",
-    "text": "Charta 77, kterou podepsal Václav Havel a 240 dalších, požadovala lidská práva a posílala lidi do vězení."
+    "text": "Charta 77, kterou podepsal Václav Havel a 240 dalších, požadovala lidská práva a posílala lidi do vězení.",
+    "rel": [
+      3,
+      1,
+      3,
+      1,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "government",
-    "text": "Na mnoha pracovištích působily organizace komunistické strany a StB využívala síť informátorů."
+    "text": "Na mnoha pracovištích působily organizace komunistické strany a StB využívala síť informátorů.",
+    "rel": [
+      4,
+      4,
+      4,
+      1,
+      4,
+      5
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "clothes",
-    "text": "Vládl polyester — nežehlivé košile, kalhoty do zvonu, všechno v hnědé a oranžové."
+    "text": "Vládl polyester — nežehlivé košile, kalhoty do zvonu, všechno v hnědé a oranžové.",
+    "rel": [
+      3,
+      3,
+      5,
+      1,
+      2,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "clothes",
-    "text": "Prodejny Tuzexu prodávaly západní zboží za zvláštní měnu (bony), kterou jste si museli koupit v bance."
+    "text": "Prodejny Tuzexu prodávaly západní zboží za zvláštní měnu (bony), kterou jste si museli koupit v bance.",
+    "rel": [
+      3,
+      3,
+      5,
+      1,
+      3,
+      5
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "clothes",
-    "text": "Teplákové soupravy Adidas se mezi částí dospívajících staly nápadným symbolem statusu."
+    "text": "Teplákové soupravy Adidas se mezi částí dospívajících staly nápadným symbolem statusu.",
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "illnesses",
-    "text": "K častým příčinám úmrtí patřily choroby srdce a rakovina plic; délka života v Československu zaostávala za západní Evropou."
+    "text": "K častým příčinám úmrtí patřily choroby srdce a rakovina plic; délka života v Československu zaostávala za západní Evropou.",
+    "rel": [
+      3,
+      1,
+      2,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "illnesses",
-    "text": "Znečištěné ovzduší v severních Čechách způsobovalo rozsáhlá onemocnění dýchacích cest."
+    "text": "Znečištěné ovzduší v severních Čechách způsobovalo rozsáhlá onemocnění dýchacích cest.",
+    "rel": [
+      3,
+      3,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "illnesses",
-    "text": "Alkoholismus — vodka, pivo a slivovice — byl národní zdravotní krizí."
+    "text": "Alkoholismus — vodka, pivo a slivovice — byl národní zdravotní krizí.",
+    "rel": [
+      3,
+      3,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "dailyLife",
-    "text": "Undergroundová kapela The Plastic People of the Universe byla v roce 1976 souzena a uvězněna."
+    "text": "Undergroundová kapela The Plastic People of the Universe byla v roce 1976 souzena a uvězněna.",
+    "rel": [
+      3,
+      1,
+      2,
+      2,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "dailyLife",
-    "text": "Soboty se trávily na chatě; neděle znamenaly nacpaný vlak zpátky do Prahy."
+    "text": "Soboty se trávily na chatě; neděle znamenaly nacpaný vlak zpátky do Prahy.",
+    "rel": [
+      3,
+      4,
+      5,
+      0,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "dailyLife",
-    "text": "Dovolené se trávily v odborářských hotelech v Bulharsku nebo NDR — a jednou za deset let možná v Jugoslávii."
+    "text": "Dovolené se trávily v odborářských hotelech v Bulharsku nebo NDR — a jednou za deset let možná v Jugoslávii.",
+    "rel": [
+      3,
+      3,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "food",
-    "text": "Tatranky a Horalky, Kofola z pípy, kelímky Pribiňáčku."
+    "text": "Tatranky a Horalky, Kofola z pípy, kelímky Pribiňáčku.",
+    "rel": [
+      3,
+      3,
+      5,
+      0,
+      3,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "food",
-    "text": "Banány se v obchodech objevily dvakrát ročně a fronty se táhly přes několik bloků."
+    "text": "Banány se v obchodech objevily dvakrát ročně a fronty se táhly přes několik bloků.",
+    "rel": [
+      3,
+      3,
+      5,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "food",
-    "text": "Svíčková s houskovými knedlíky patřila k oblíbeným slavnostnějším nedělním obědům."
+    "text": "Svíčková s houskovými knedlíky patřila k oblíbeným slavnostnějším nedělním obědům.",
+    "rel": [
+      3,
+      2,
+      4,
+      0,
+      3,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "money",
-    "text": "Průměrná mzda byla kolem 2 400 Kčs měsíčně; Škoda 105 stála 60 000 Kčs a měla pětiletou čekací dobu."
+    "text": "Průměrná mzda byla kolem 2 400 Kčs měsíčně; Škoda 105 stála 60 000 Kčs a měla pětiletou čekací dobu.",
+    "rel": [
+      3,
+      4,
+      4,
+      2,
+      3,
+      5
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "money",
-    "text": "Nový byt (panelák) přiděloval stát — žádné kupování, žádné vybírání."
+    "text": "Nový byt (panelák) přiděloval stát — žádné kupování, žádné vybírání.",
+    "rel": [
+      3,
+      4,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "money",
-    "text": "Důchody činily 1 000–1 500 Kčs měsíčně a lidé z nich žili."
+    "text": "Důchody činily 1 000–1 500 Kčs měsíčně a lidé z nich žili.",
+    "rel": [
+      3,
+      3,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "bizarre",
-    "text": "Českoslovenští fanoušci rocku museli poslouchat západní hudbu na Rádiu Luxembourg pod dekou."
+    "text": "Českoslovenští fanoušci rocku museli poslouchat západní hudbu na Rádiu Luxembourg pod dekou.",
+    "rel": [
+      3,
+      2,
+      3,
+      2,
+      2,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "bizarre",
-    "text": "Dětský televizní pořad Večerníček začal v roce 1965 a pravidelně se vysílá dodnes."
+    "text": "Dětský televizní pořad Večerníček začal v roce 1965 a pravidelně se vysílá dodnes.",
+    "rel": [
+      3,
+      3,
+      5,
+      0,
+      5,
+      2
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "beautiful",
-    "text": "Československo vyhrálo mistrovství světa v ledním hokeji v letech 1972, 1976 a 1977 — a porazilo SSSR."
+    "text": "Československo vyhrálo mistrovství světa v ledním hokeji v letech 1972, 1976 a 1977 — a porazilo SSSR.",
+    "rel": [
+      3,
+      3,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "country": "CZ",
     "decadeStart": 1970,
     "bucket": "beautiful",
-    "text": "Olga Havlová vedla samizdatové kruhy, které udržovaly českou literaturu naživu v ilegalitě."
+    "text": "Olga Havlová vedla samizdatové kruhy, které udržovaly českou literaturu naživu v ilegalitě.",
+    "rel": [
+      3,
+      1,
+      1,
+      3,
+      3,
+      4
+    ]
   }
 ]

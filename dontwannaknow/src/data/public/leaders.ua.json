@@ -21,7 +21,7 @@
     "reception": [
       {
         "period": "1917–1918",
-        "text": "Do čela Rady byl podle Encyclopedia of Ukraine zvolen jako obecně uznávaná přední osobnost ukrajinského vědeckého i politického života; v únoru 1918 otiskl jeho článek o ukrajinské samosprávě i list The New York Times.",
+        "text": "O jeho tehdejší autoritě svědčí podle Encyclopedia of Ukraine to, že jej Rada zvolila předsedou 17. března 1917 ještě v nepřítomnosti, když se teprve vracel z vyhnanství v Moskvě.",
         "source": {
           "title": "Hrushevsky, Mykhailo",
           "publisher": "Encyclopedia of Ukraine (CIUS)",
@@ -31,8 +31,8 @@
         }
       },
       {
-        "period": "30. léta 20. století",
-        "text": "Sovětský režim jej podle Encyclopedia of Ukraine označoval za „nacionalistického historika“ a „ideologa ukrajinské kontrarevoluční buržoazie“ a jeho historickou školu potíral až do konce 80. let.",
+        "period": "30.–40. léta 20. století",
+        "text": "Sovětská moc podle Encyclopedia of Ukraine do roku 1934 rozbila jeho historickou školu a rezoluce ÚV KS(b)U z roku 1946 i pozdější sovětské publikace jej označovaly za „nacionalistického historika“ a „ideologa ukrajinské kontrarevoluční buržoazie“.",
         "source": {
           "title": "Hrushevsky, Mykhailo",
           "publisher": "Encyclopedia of Ukraine (CIUS)",
@@ -217,7 +217,7 @@
       },
       {
         "period": "20.–80. léta 20. století",
-        "text": "Sovětské zdroje jej podle Encyclopedia of Ukraine líčily jako „zrádce ukrajinského lidu“ a sovětský film jej zprvu zobrazoval jako zesměšněnou zápornou postavu.",
+        "text": "Sovětské úřady z něj podle Encyclopedia of Ukraine učinily symbol ukrajinského úsilí o nezávislost, v jejich podání byl ovšem „zrádcem ukrajinského lidu“.",
         "source": {
           "title": "Petliura, Symon",
           "publisher": "Encyclopedia of Ukraine (CIUS)",
@@ -489,7 +489,7 @@
     "reassessment": [
       {
         "period": "po 1991",
-        "text": "Historik Jaroslav Pelenski popisuje jeho éru jako oživení „kontrolovaného ukrajinského autonomismu“, které jeho nástupce ukončil návratem k přísné centralizaci.",
+        "text": "Historik Jaroslav Pelenski popisuje jeho éru let 1963–1972 jako oživení „kontrolovaného ukrajinského autonomismu“.",
         "source": {
           "title": "Shelest, Petro",
           "publisher": "Internet Encyclopedia of Ukraine, CIUS",
@@ -661,7 +661,7 @@
       },
       {
         "period": "1994",
-        "text": "Ve druhém kole voleb 10. července 1994 jej voliči, zejména na východě a jihu země, odmítli poměrem 45,1 % ku 52,1 % pro Leonida Kučmu.",
+        "text": "Ve druhém kole voleb 10. července 1994 jej voliči odmítli poměrem 45,1 % ku 52,1 % pro Leonida Kučmu.",
         "source": {
           "title": "Kravchuk, Leonid",
           "publisher": "Internet Encyclopedia of Ukraine, Canadian Institute of Ukrainian Studies",
@@ -1020,7 +1020,7 @@
     "reassessment": [
       {
         "period": "po 2014",
-        "text": "Pozdější analýzy uvádějí, že z asi 15 000 ukrajinských vojáků na Krymu zůstaly Kyjevu věrné jen zhruba dva tisíce a signatáři Budapešťského memoranda vojenský zásah odmítli, takže možnosti obrany poloostrova byly omezené.",
+        "text": "Pozdější analýzy uvádějí, že z asi 15 000 ukrajinských vojáků na Krymu jich po přeběhnutí většiny zůstaly Kyjevu věrné asi čtyři tisíce, z toho jen do dvou tisíc bojeschopných; signatáři Budapešťského memoranda vojenský zásah odmítli.",
         "source": {
           "title": "Could Ukraine have stopped Russia's illegal annexation of Crimea in 2014?",
           "publisher": "The Kyiv Independent",
@@ -1031,7 +1031,7 @@
       },
       {
         "period": "po 2014",
-        "text": "Otázka, zda se Krym dal v roce 2014 ubránit, zůstává předmětem sporů; bývalý šéf SBU Valentyn Nalyvajčenko klade odpovědnost za ztrátu poloostrova především na Viktora Janukovyče.",
+        "text": "Bývalý šéf SBU Valentyn Nalyvajčenko klade odpovědnost za ztrátu poloostrova především na Viktora Janukovyče, který podle něj Krym vydal záměrně; The Kyiv Independent popisuje obranu poloostrova v roce 2014 jako ochromenou rozkladem armády, politickým chaosem a chybějící zahraniční podporou.",
         "source": {
           "title": "Could Ukraine have stopped Russia's illegal annexation of Crimea in 2014?",
           "publisher": "The Kyiv Independent",
@@ -1095,11 +1095,11 @@
       },
       {
         "period": "2019",
-        "text": "Ve druhém kole voleb 21. dubna 2019 pro něj hlasovala jen asi čtvrtina voličů proti 73,2 % pro Volodymyra Zelenského; porážku anglická Wikipedie spojuje s frustrací voličů z vnímané stagnace a korupce.",
+        "text": "Ve druhém kole voleb 21. dubna 2019 získal 24,5 % hlasů proti 73,2 % pro Volodymyra Zelenského.",
         "source": {
-          "title": "Petro Poroshenko",
+          "title": "2019 Ukrainian presidential election",
           "publisher": "Wikipedie (anglická)",
-          "url": "https://en.wikipedia.org/wiki/Petro_Poroshenko",
+          "url": "https://en.wikipedia.org/wiki/2019_Ukrainian_presidential_election",
           "accessed": "2026-07-29",
           "licence": "CC BY-SA 4.0"
         }

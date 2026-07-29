@@ -2,106 +2,274 @@
   {
     "city": "havirov",
     "year": 1955,
-    "text": "Havířov byl založen od základů jako vzorové socialistické nové město pro ostravské horníky"
+    "text": "Havířov byl založen od základů jako vzorové socialistické nové město pro ostravské horníky",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "city": "havirov",
     "year": 1955,
-    "text": "první obytný blok na pozdější Hlavní třídě byl předán 4. prosince, čímž oficiálně začalo nové hornické město"
+    "text": "první obytný blok na pozdější Hlavní třídě byl předán 4. prosince, čímž oficiálně začalo nové hornické město",
+    "rel": [
+      5,
+      4,
+      2,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "havirov",
     "year": 1960,
-    "text": "centrální třídy vyrostly ve stylu 'socialistického realismu' s pastelovými fasádami"
+    "text": "centrální třídy vyrostly ve stylu 'socialistického realismu' s pastelovými fasádami",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "havirov",
     "year": 1960,
-    "text": "Havířov byl 4. prosince oficiálně povýšen na město s počtem obyvatel blížícím se již 30 000"
+    "text": "Havířov byl 4. prosince oficiálně povýšen na město s počtem obyvatel blížícím se již 30 000",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "havirov",
     "year": 1962,
-    "text": "centrální náměstí Republiky bylo dokončeno v takzvaném sorela stylu s podloubími bytových domů"
+    "text": "centrální náměstí Republiky bylo dokončeno v takzvaném sorela stylu s podloubími bytových domů",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "havirov",
     "year": 1968,
-    "text": "počet obyvatel překročil 70 000, čímž se Havířov nakrátko stal největším 'novým městem' v Československu"
+    "text": "počet obyvatel překročil 70 000, čímž se Havířov nakrátko stal největším 'novým městem' v Československu",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "havirov",
     "year": 1972,
-    "text": "sídliště Havířov-Šumbark zdvojnásobilo rozlohu města panelovými domy pro rodiny horníků"
+    "text": "sídliště Havířov-Šumbark zdvojnásobilo rozlohu města panelovými domy pro rodiny horníků",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "havirov",
     "year": 1975,
-    "text": "na Hlavní třídě se otevřel hotel Merkur s restaurací a tanečním parketem pro horníky z noční směny a jejich rodiny"
+    "text": "na Hlavní třídě se otevřel hotel Merkur s restaurací a tanečním parketem pro horníky z noční směny a jejich rodiny",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "havirov",
     "year": 1977,
-    "text": "Havířov hostil na stadionu Slavia krajská vystoupení spartakiády, kam byly autobusy svezeny tisíce školáků z okresu Karviná"
+    "text": "Havířov hostil na stadionu Slavia krajská vystoupení spartakiády, kam byly autobusy svezeny tisíce školáků z okresu Karviná",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      1,
+      3
+    ]
   },
   {
     "city": "havirov",
     "year": 1980,
-    "text": "počet obyvatel města vrcholil kolem 90 000, čímž se nakrátko stalo osmým největším městem v zemi"
+    "text": "počet obyvatel města vrcholil kolem 90 000, čímž se nakrátko stalo osmým největším městem v zemi",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "havirov",
     "year": 1944,
-    "text": "6. srpna obklíčily nacistické jednotky Životice, dnes součást Havířova, a zastřelily 36 mužů; obci se začalo říkat slezské Lidice"
+    "text": "6. srpna obklíčily nacistické jednotky Životice, dnes součást Havířova, a zastřelily 36 mužů; obci se začalo říkat slezské Lidice",
+    "rel": [
+      5,
+      3,
+      4,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "havirov",
     "year": 1947,
-    "text": "na podzim začala na pomezí Šumbarku a Šenova výstavba prvních obytných bloků pozdějšího Havířova"
+    "text": "na podzim začala na pomezí Šumbarku a Šenova výstavba prvních obytných bloků pozdějšího Havířova",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "havirov",
     "year": 1949,
-    "text": "bylo dokončeno prvních 96 bytů budoucího hornického města vyrůstajícího z několika zemědělských vsí"
+    "text": "bylo dokončeno prvních 96 bytů budoucího hornického města vyrůstajícího z několika zemědělských vsí",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "havirov",
     "year": 1955,
-    "text": "jméno Havířov, odvozené od slova havíř, vzešlo z celostátní soutěže, do níž přišlo přes dva tisíce návrhů"
+    "text": "jméno Havířov, odvozené od slova havíř, vzešlo z celostátní soutěže, do níž přišlo přes dva tisíce návrhů",
+    "rel": [
+      5,
+      1,
+      4,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "havirov",
     "year": 1955,
-    "text": "nové město bylo vyčleněno z katastrů obcí Dolní Bludovice, Šumbark a Šenov"
+    "text": "nové město bylo vyčleněno z katastrů obcí Dolní Bludovice, Šumbark a Šenov",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      5,
+      1
+    ]
   },
   {
     "city": "havirov",
     "year": 1961,
-    "text": "v říjnu se otevřel Kulturní dům Petra Bezruče, který se moderním vzhledem vymykal okolní socialistickorealistické zástavbě"
+    "text": "v říjnu se otevřel Kulturní dům Petra Bezruče, který se moderním vzhledem vymykal okolní socialistickorealistické zástavbě",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "havirov",
     "year": 1961,
-    "text": "7. července zahynulo při požáru na dole Dukla 108 horníků, jedno z nejhorších důlních neštěstí v dějinách Československa"
+    "text": "7. července zahynulo při požáru na dole Dukla 108 horníků, jedno z nejhorších důlních neštěstí v dějinách Československa",
+    "rel": [
+      5,
+      3,
+      5,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "havirov",
     "year": 1966,
-    "text": "do Havířova se přestěhoval hokejový klub, který přijal podle dolu Antonína Zápotockého název AZ Havířov"
+    "text": "do Havířova se přestěhoval hokejový klub, který přijal podle dolu Antonína Zápotockého název AZ Havířov",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "havirov",
     "year": 1969,
-    "text": "byla dokončena nádražní budova architekta Josefa Hrejsemnoua, ceněná ukázka takzvaného bruselského stylu"
+    "text": "byla dokončena nádražní budova architekta Josefa Hrejsemnoua, ceněná ukázka takzvaného bruselského stylu",
+    "rel": [
+      5,
+      1,
+      4,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "havirov",
     "year": 1973,
-    "text": "6. září se poprvé konala květinová slavnost Havířov v květech, jež se udržela do roku 1989 a obnovena byla v roce 2009"
+    "text": "6. září se poprvé konala květinová slavnost Havířov v květech, jež se udržela do roku 1989 a obnovena byla v roce 2009",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "havirov",
     "year": 1991,
-    "text": "sčítání napočítalo přes 86 tisíc obyvatel; poté začal s útlumem hornictví dlouhý pokles, byť Havířov zůstal nejmladším městem země"
+    "text": "sčítání napočítalo přes 86 tisíc obyvatel; poté začal s útlumem hornictví dlouhý pokles, byť Havířov zůstal nejmladším městem země",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      4
+    ]
   }
 ]

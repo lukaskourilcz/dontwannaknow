@@ -2,266 +2,690 @@
   {
     "city": "dnipro",
     "year": 1923,
-    "text": "brjanské hutě byly přejmenovány na Petrovského závod"
+    "text": "brjanské hutě byly přejmenovány na Petrovského závod",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      2,
+      1
+    ]
   },
   {
     "city": "dnipro",
     "year": 1926,
-    "text": "město bylo přejmenováno na Dněpropetrovsk podle bolševického vůdce Grigorije Petrovského"
+    "text": "město bylo přejmenováno na Dněpropetrovsk podle bolševického vůdce Grigorije Petrovského",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "dnipro",
     "year": 1929,
-    "text": "městský koksárenský a chemický kombinát zahájil plnou výrobu pro pětiletku"
+    "text": "městský koksárenský a chemický kombinát zahájil plnou výrobu pro pětiletku",
+    "rel": [
+      5,
+      3,
+      2,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "dnipro",
     "year": 1932,
-    "text": "výše proti proudu se otevřela vodní elektrárna DniproHES — vlajková loď sovětské industrializace"
+    "text": "výše proti proudu se otevřela vodní elektrárna DniproHES — vlajková loď sovětské industrializace",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "dnipro",
     "year": 1933,
-    "text": "holodomor zpustošil vesnice kolem Dněpropetrovsku, zatímco městští dělníci dostávali příděly"
+    "text": "holodomor zpustošil vesnice kolem Dněpropetrovsku, zatímco městští dělníci dostávali příděly",
+    "rel": [
+      4,
+      5,
+      4,
+      4,
+      5,
+      5
+    ]
   },
   {
     "city": "dnipro",
     "year": 1941,
-    "text": "sovětské síly vyhodily do povětří hráz DniproHES, aby zpomalily německý postup; tisíce sovětských civilistů po proudu se utopily"
+    "text": "sovětské síly vyhodily do povětří hráz DniproHES, aby zpomalily německý postup; tisíce sovětských civilistů po proudu se utopily",
+    "rel": [
+      4,
+      5,
+      4,
+      4,
+      5,
+      5
+    ]
   },
   {
     "city": "dnipro",
     "year": 1941,
-    "text": "wehrmacht obsadil město v srpnu"
+    "text": "wehrmacht obsadil město v srpnu",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "dnipro",
     "year": 1943,
-    "text": "sovětské síly znovu dobyly město 25. října během přechodu Dněpru"
+    "text": "sovětské síly znovu dobyly město 25. října během přechodu Dněpru",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "dnipro",
     "year": 1944,
-    "text": "město bylo osvobozeno sovětskými silami v říjnu"
+    "text": "město bylo osvobozeno sovětskými silami v říjnu",
+    "rel": [
+      5,
+      4,
+      3,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "dnipro",
     "year": 1944,
-    "text": "výroba elektřiny v DniproHES byla po sovětském znovudobytí částečně obnovena"
+    "text": "výroba elektřiny v DniproHES byla po sovětském znovudobytí částečně obnovena",
+    "rel": [
+      4,
+      4,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "dnipro",
     "year": 1951,
-    "text": "byl zřízen závod Pivdenmaš na výrobu mezikontinentálních balistických raket"
+    "text": "byl zřízen závod Pivdenmaš na výrobu mezikontinentálních balistických raket",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "dnipro",
     "year": 1954,
-    "text": "zřídila se zde konstrukční kancelář Michaila Jangela, sovětský program ICBM — což z Dnipra učinilo uzavřené město"
+    "text": "zřídila se zde konstrukční kancelář Michaila Jangela, sovětský program ICBM — což z Dnipra učinilo uzavřené město",
+    "rel": [
+      5,
+      4,
+      4,
+      4,
+      5,
+      5
+    ]
   },
   {
     "city": "dnipro",
     "year": 1959,
-    "text": "Leonid Brežněv, bývalý místní stranický šéf, prosazoval z Moskvy raketový průmysl města"
+    "text": "Leonid Brežněv, bývalý místní stranický šéf, prosazoval z Moskvy raketový průmysl města",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "dnipro",
     "year": 1965,
-    "text": "město bylo kvůli svým raketovým závodům oficiálně uzavřeno cizincům"
+    "text": "město bylo kvůli svým raketovým závodům oficiálně uzavřeno cizincům",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "dnipro",
     "year": 1967,
-    "text": "projekt dněpropetrovského metra byl poprvé navržen, ačkoli stavba byla ještě desítky let vzdálená"
+    "text": "projekt dněpropetrovského metra byl poprvé navržen, ačkoli stavba byla ještě desítky let vzdálená",
+    "rel": [
+      5,
+      0,
+      1,
+      3,
+      2,
+      1
+    ]
   },
   {
     "city": "dnipro",
     "year": 1976,
-    "text": "fotbalový klub Dnipro Dněpropetrovsk postoupil do sovětské nejvyšší ligy"
+    "text": "fotbalový klub Dnipro Dněpropetrovsk postoupil do sovětské nejvyšší ligy",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "dnipro",
     "year": 1923,
-    "text": "železniční dílny (později Dniprovahonmaš) byly přestavěny po škodách z občanské války"
+    "text": "železniční dílny (později Dniprovahonmaš) byly přestavěny po škodách z občanské války",
+    "rel": [
+      5,
+      2,
+      2,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "dnipro",
     "year": 1928,
-    "text": "město se stalo hlavním městem nové Dněpropetrovské oblasti"
+    "text": "město se stalo hlavním městem nové Dněpropetrovské oblasti",
+    "rel": [
+      5,
+      2,
+      3,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "dnipro",
     "year": 1932,
-    "text": "výše proti proudu se otevřela hráz DniproHES, která dodávala elektřinu rostoucím dněpropetrovským továrnám"
+    "text": "výše proti proudu se otevřela hráz DniproHES, která dodávala elektřinu rostoucím dněpropetrovským továrnám",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "dnipro",
     "year": 1937,
-    "text": "Stalinovy čistky odstranily téměř celý městský stranický výbor; druhý tajemník byl zastřelen"
+    "text": "Stalinovy čistky odstranily téměř celý městský stranický výbor; druhý tajemník byl zastřelen",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      2,
+      4
+    ]
   },
   {
     "city": "dnipro",
     "year": 1942,
-    "text": "wehrmacht srovnal se zemí židovskou čtvrť města; tisíce lidí byly zastřeleny v rokli u botanické zahrady"
+    "text": "wehrmacht srovnal se zemí židovskou čtvrť města; tisíce lidí byly zastřeleny v rokli u botanické zahrady",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "dnipro",
     "year": 1959,
-    "text": "konstrukční kancelář Južmaš Michaila Jangela postavila mezikontinentální raketu R-16 — nejsmrtonosnější sovětskou raketu své doby"
+    "text": "konstrukční kancelář Južmaš Michaila Jangela postavila mezikontinentální raketu R-16 — nejsmrtonosnější sovětskou raketu své doby",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "dnipro",
     "year": 1960,
-    "text": "katastrofa Nedělina v Ťuratamu zabila 78 lidí — včetně velitele Raketových vojsk strategického určení — při testu rakety R-16 z Južmaše"
+    "text": "katastrofa Nedělina v Ťuratamu zabila 78 lidí — včetně velitele Raketových vojsk strategického určení — při testu rakety R-16 z Južmaše",
+    "rel": [
+      1,
+      0,
+      2,
+      4,
+      1,
+      3
+    ]
   },
   {
     "city": "dnipro",
     "year": 1965,
-    "text": "status uzavřeného města učinil Dněpropetrovsk nepřístupným pro cizince až do roku 1990"
+    "text": "status uzavřeného města učinil Dněpropetrovsk nepřístupným pro cizince až do roku 1990",
+    "rel": [
+      5,
+      3,
+      5,
+      4,
+      4,
+      5
+    ]
   },
   {
     "city": "dnipro",
     "year": 1971,
-    "text": "Dněpropetrovský metalurgický institut vychovával titanové specialisty sovětského kosmického programu"
+    "text": "Dněpropetrovský metalurgický institut vychovával titanové specialisty sovětského kosmického programu",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "dnipro",
     "year": 1944,
-    "text": "do plné výroby se vrátily Petrovského hutě, klíčový dodavatel oceli pro frontu"
+    "text": "do plné výroby se vrátily Petrovského hutě, klíčový dodavatel oceli pro frontu",
+    "rel": [
+      5,
+      3,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "dnipro",
     "year": 1962,
-    "text": "raketárna Južmaš vynesla na oběžnou dráhu první sovětskou sluneční družici série DS — počátek dněpropetrovského kosmického programu"
+    "text": "raketárna Južmaš vynesla na oběžnou dráhu první sovětskou sluneční družici série DS — počátek dněpropetrovského kosmického programu",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "dnipro",
     "year": 1967,
-    "text": "Tsyklon, nosná raketa odvozená od mezikontinentální střely R-36, vznikla v konstrukční kanceláři Južnoje"
+    "text": "Tsyklon, nosná raketa odvozená od mezikontinentální střely R-36, vznikla v konstrukční kanceláři Južnoje",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      3,
+      2
+    ]
   },
   {
     "city": "dnipro",
     "year": 1979,
-    "text": "z raketového města řídil sovětský zbrojní program Leonid Brežněv, jehož kariéra začala v místním stranickém aparátu"
+    "text": "z raketového města řídil sovětský zbrojní program Leonid Brežněv, jehož kariéra začala v místním stranickém aparátu",
+    "rel": [
+      4,
+      1,
+      4,
+      2,
+      2,
+      4
+    ]
   },
   {
     "city": "dnipro",
     "year": 1991,
-    "text": "po vyhlášení ukrajinské nezávislosti se uzavřené město poprvé otevřelo cizincům"
+    "text": "po vyhlášení ukrajinské nezávislosti se uzavřené město poprvé otevřelo cizincům",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      5
+    ]
   },
   {
     "city": "dnipro",
     "year": 1995,
-    "text": "29. prosince byla otevřena první linka dněpropetrovského metra — první otevřená v postsovětském prostoru"
+    "text": "29. prosince byla otevřena první linka dněpropetrovského metra — první otevřená v postsovětském prostoru",
+    "rel": [
+      5,
+      3,
+      4,
+      4,
+      5,
+      3
+    ]
   },
   {
     "city": "dnipro",
     "year": 2014,
-    "text": "město se stalo logistickým a humanitárním zázemím války na Donbasu; Mečnikovova nemocnice začala přijímat tisíce raněných vojáků"
+    "text": "město se stalo logistickým a humanitárním zázemím války na Donbasu; Mečnikovova nemocnice začala přijímat tisíce raněných vojáků",
+    "rel": [
+      5,
+      3,
+      5,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "dnipro",
     "year": 2015,
-    "text": "27. května prohrál fotbalový klub Dnipro ve finále Evropské ligy ve Varšavě se Sevillou 2:3"
+    "text": "27. května prohrál fotbalový klub Dnipro ve finále Evropské ligy ve Varšavě se Sevillou 2:3",
+    "rel": [
+      5,
+      2,
+      5,
+      2,
+      1,
+      2
+    ]
   },
   {
     "city": "dnipro",
     "year": 2016,
-    "text": "19. května Nejvyšší rada přejmenovala město z Dněpropetrovsku na Dnipro v rámci zákonů o dekomunizaci"
+    "text": "19. května Nejvyšší rada přejmenovala město z Dněpropetrovsku na Dnipro v rámci zákonů o dekomunizaci",
+    "rel": [
+      5,
+      2,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "dnipro",
     "year": 2022,
-    "text": "po ruské invazi se Dnipro stalo hlavním týlovým uzlem; do oblasti přišly statisíce vnitřně vysídlených lidí"
+    "text": "po ruské invazi se Dnipro stalo hlavním týlovým uzlem; do oblasti přišly statisíce vnitřně vysídlených lidí",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "dnipro",
     "year": 2023,
-    "text": "14. ledna zasáhla ruská střela Ch-22 devítipatrový obytný dům; zahynulo 46 lidí včetně šesti dětí"
+    "text": "14. ledna zasáhla ruská střela Ch-22 devítipatrový obytný dům; zahynulo 46 lidí včetně šesti dětí",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "dnipro",
     "year": 2024,
-    "text": "21. listopadu Rusko poprvé v bojích použilo balistickou střelu Orešnik a zasáhlo jí raketárnu Pivdenmaš"
+    "text": "21. listopadu Rusko poprvé v bojích použilo balistickou střelu Orešnik a zasáhlo jí raketárnu Pivdenmaš",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "dnipro",
     "year": 1977,
-    "text": "počet obyvatel Dněpropetrovsku překročil milion; vedle starého Amurského mostu vyrostl druhý železniční most přes Dněpr"
+    "text": "počet obyvatel Dněpropetrovsku překročil milion; vedle starého Amurského mostu vyrostl druhý železniční most přes Dněpr",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "dnipro",
     "year": 1985,
-    "text": "z konstrukční kanceláře Južnoje vzlétla 13. dubna poprvé nosná raketa Zenit, odvozená od mezikontinentální střely R-36M"
+    "text": "z konstrukční kanceláře Južnoje vzlétla 13. dubna poprvé nosná raketa Zenit, odvozená od mezikontinentální střely R-36M",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "dnipro",
     "year": 1999,
-    "text": "21. dubna poprvé odstartovala konverzní nosná raketa Dnepr, přestavěná z vyřazené těžké rakety R-36M"
+    "text": "21. dubna poprvé odstartovala konverzní nosná raketa Dnepr, přestavěná z vyřazené těžké rakety R-36M",
+    "rel": [
+      5,
+      1,
+      1,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "dnipro",
     "year": 2012,
-    "text": "16. října byl otevřen komplex Menora se sedmi věžemi — jedno z největších židovských komunitních center na světě, financované Kolomojským a Boholjubovem"
+    "text": "16. října byl otevřen komplex Menora se sedmi věžemi — jedno z největších židovských komunitních center na světě, financované Kolomojským a Boholjubovem",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "dnipro",
     "year": 2014,
-    "text": "v březnu byl gubernátorem Dněpropetrovské oblasti jmenován oligarcha Ihor Kolomojskyj, který z vlastních prostředků financoval dobrovolnické prapory"
+    "text": "v březnu byl gubernátorem Dněpropetrovské oblasti jmenován oligarcha Ihor Kolomojskyj, který z vlastních prostředků financoval dobrovolnické prapory",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      5
+    ]
   },
   {
     "city": "dnipro",
     "year": 2014,
-    "text": "v dubnu vznikl dobrovolnický prapor Dnipro-1 cvičený v táborech u města a placený převážně z Kolomojského kapsy"
+    "text": "v dubnu vznikl dobrovolnický prapor Dnipro-1 cvičený v táborech u města a placený převážně z Kolomojského kapsy",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "dnipro",
     "year": 2017,
-    "text": "10. března byl založen fotbalový klub SK Dnipro-1, který převzal akademii a zázemí zaniklého Dnipra"
+    "text": "10. března byl založen fotbalový klub SK Dnipro-1, který převzal akademii a zázemí zaniklého Dnipra",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "dnipro",
     "year": 2019,
-    "text": "po letech finančních potíží, sankcích UEFA a stažení Kolomojského peněz byl tradiční klub FK Dnipro oficiálně rozpuštěn"
+    "text": "po letech finančních potíží, sankcích UEFA a stažení Kolomojského peněz byl tradiční klub FK Dnipro oficiálně rozpuštěn",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "dnipro",
     "year": 2019,
-    "text": "SK Dnipro-1 postoupil jako vítěz první ligy do ukrajinské Premjer-lihy"
+    "text": "SK Dnipro-1 postoupil jako vítěz první ligy do ukrajinské Premjer-lihy",
+    "rel": [
+      5,
+      1,
+      3,
+      1,
+      1,
+      1
+    ]
   },
   {
     "city": "dnipro",
     "year": 2022,
-    "text": "při plné invazi opustila turecká firma staveniště metra a odvezla techniku i dokumentaci, čímž dostavbu tří centrálních stanic znovu odložila"
+    "text": "při plné invazi opustila turecká firma staveniště metra a odvezla techniku i dokumentaci, čímž dostavbu tří centrálních stanic znovu odložila",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      4,
+      3
+    ]
   },
   {
     "city": "dnipro",
     "year": 2023,
-    "text": "23. března zasáhla ruská střela obytný komplex ve městě v den, kdy z Moskvy odjížděl čínský prezident Si Ťin-pching"
+    "text": "23. března zasáhla ruská střela obytný komplex ve městě v den, kdy z Moskvy odjížděl čínský prezident Si Ťin-pching",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "dnipro",
     "year": 2024,
-    "text": "3. července zabil ruský letecký úder na město pět lidí a desítky dalších zranil"
+    "text": "3. července zabil ruský letecký úder na město pět lidí a desítky dalších zranil",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      2,
+      2
+    ]
   },
   {
     "city": "dnipro",
     "year": 2024,
-    "text": "1. prosince zahynuli při ranním raketovém úderu na centrum města čtyři lidé a přes čtyřicet jich bylo zraněno"
+    "text": "1. prosince zahynuli při ranním raketovém úderu na centrum města čtyři lidé a přes čtyřicet jich bylo zraněno",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      2,
+      2
+    ]
   },
   {
     "city": "dnipro",
     "year": 2024,
-    "text": "v červenci se klub SK Dnipro-1 kvůli finančnímu kolapsu stáhl z profesionálního fotbalu"
+    "text": "v červenci se klub SK Dnipro-1 kvůli finančnímu kolapsu stáhl z profesionálního fotbalu",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "dnipro",
     "year": 2013,
-    "text": "u sídla konstrukční kanceláře Južnoje byl otevřen raketový park s exponáty Ciklon-3 a balistických střel"
+    "text": "u sídla konstrukční kanceláře Južnoje byl otevřen raketový park s exponáty Ciklon-3 a balistických střel",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "dnipro",
     "year": 2016,
-    "text": "firma Limak vyhrála mezinárodní tendr na dostavbu metra; práce financovala půjčka EBRD ve výši 304 milionů eur"
+    "text": "firma Limak vyhrála mezinárodní tendr na dostavbu metra; práce financovala půjčka EBRD ve výši 304 milionů eur",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      3
+    ]
   }
 ]

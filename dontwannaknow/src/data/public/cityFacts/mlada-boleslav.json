@@ -2,81 +2,209 @@
   {
     "city": "mlada-boleslav",
     "year": 1925,
-    "text": "Škodovy závody (Plzeň) převzaly místní automobilku Laurin & Klement a přejmenovaly ji na Škoda Auto"
+    "text": "Škodovy závody (Plzeň) převzaly místní automobilku Laurin & Klement a přejmenovaly ji na Škoda Auto",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "mlada-boleslav",
     "year": 1939,
-    "text": "Škoda Mladá Boleslav byla dána pod kontrolu Hermann-Göring-Werke a vyráběla vojenská vozidla pro wehrmacht"
+    "text": "Škoda Mladá Boleslav byla dána pod kontrolu Hermann-Göring-Werke a vyráběla vojenská vozidla pro wehrmacht",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "mlada-boleslav",
     "year": 1945,
-    "text": "americký nálet B-17 v květnu, těsně před osvobozením, zasáhl omylem závod Škody"
+    "text": "americký nálet B-17 v květnu, těsně před osvobozením, zasáhl omylem závod Škody",
+    "rel": [
+      5,
+      3,
+      3,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "mlada-boleslav",
     "year": 1964,
-    "text": "z linky sjel vůz Škoda 1000 MB — rodinné auto s motorem vzadu, které se stalo českou ikonou"
+    "text": "z linky sjel vůz Škoda 1000 MB — rodinné auto s motorem vzadu, které se stalo českou ikonou",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "mlada-boleslav",
     "year": 1976,
-    "text": "řada Škoda 105/120 nahradila model 1000 MB jako sériový sedan Československa"
+    "text": "řada Škoda 105/120 nahradila model 1000 MB jako sériový sedan Československa",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "mlada-boleslav",
     "year": 1949,
-    "text": "firma byla znárodněna jako Automobilové závody národní podnik (AZNP)"
+    "text": "firma byla znárodněna jako Automobilové závody národní podnik (AZNP)",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "mlada-boleslav",
     "year": 1959,
-    "text": "z boleslavských linek sjel vůz Škoda Octavia, populární model přelomu 50. a 60. let s tradiční koncepcí motoru vpředu"
+    "text": "z boleslavských linek sjel vůz Škoda Octavia, populární model přelomu 50. a 60. let s tradiční koncepcí motoru vpředu",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      2,
+      2
+    ]
   },
   {
     "city": "mlada-boleslav",
     "year": 1987,
-    "text": "začala výroba Škody Favorit s motorem vpředu a pohonem předních kol — auta, které mělo Škodu připravit na západní konkurenci"
+    "text": "začala výroba Škody Favorit s motorem vpředu a pohonem předních kol — auta, které mělo Škodu připravit na západní konkurenci",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "mlada-boleslav",
     "year": 1990,
-    "text": "9. prosince schválila Praha vstup koncernu Volkswagen do mladoboleslavské Škody a otevřela tím novou kapitolu firmy"
+    "text": "9. prosince schválila Praha vstup koncernu Volkswagen do mladoboleslavské Škody a otevřela tím novou kapitolu firmy",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "mlada-boleslav",
     "year": 1991,
-    "text": "28. března byla podepsána smlouva o společném podniku s Volkswagenem; 16. dubna získal koncern první 31% podíl ve Škodě"
+    "text": "28. března byla podepsána smlouva o společném podniku s Volkswagenem; 16. dubna získal koncern první 31% podíl ve Škodě",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "mlada-boleslav",
     "year": 1994,
-    "text": "ve městě sjel z linky první vůz Škoda Felicia, modernizace Favoritu vyvinutá už pod křídly Volkswagenu"
+    "text": "ve městě sjel z linky první vůz Škoda Felicia, modernizace Favoritu vyvinutá už pod křídly Volkswagenu",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "mlada-boleslav",
     "year": 1996,
-    "text": "Mladá Boleslav patřila díky Škodě dlouhodobě k okresům s nejvyššími mzdami a nejnižší nezaměstnaností v zemi"
+    "text": "Mladá Boleslav patřila díky Škodě dlouhodobě k okresům s nejvyššími mzdami a nejnižší nezaměstnaností v zemi",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "mlada-boleslav",
     "year": 2000,
-    "text": "30. května získal Volkswagen ve Škodě Auto stoprocentní podíl a firma se stala plnohodnotnou součástí koncernu"
+    "text": "30. května získal Volkswagen ve Škodě Auto stoprocentní podíl a firma se stala plnohodnotnou součástí koncernu",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "mlada-boleslav",
     "year": 2001,
-    "text": "ve městě byla zahájena výroba modelu Škoda Fabia, jednoho z pilířů úspěchu značky v zahraničí"
+    "text": "ve městě byla zahájena výroba modelu Škoda Fabia, jednoho z pilířů úspěchu značky v zahraničí",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "mlada-boleslav",
     "year": 2011,
-    "text": "25. května získal FK Mladá Boleslav český fotbalový pohár, když ve finále porazil Sigmu Olomouc po penaltovém rozstřelu 4:3"
+    "text": "25. května získal FK Mladá Boleslav český fotbalový pohár, když ve finále porazil Sigmu Olomouc po penaltovém rozstřelu 4:3",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      1,
+      2
+    ]
   },
   {
     "city": "mlada-boleslav",
     "year": 2021,
-    "text": "5. března sjel z mladoboleslavského závodu patnáctimiliontý vůz vyrobený ve městě od roku 1905"
+    "text": "5. března sjel z mladoboleslavského závodu patnáctimiliontý vůz vyrobený ve městě od roku 1905",
+    "rel": [
+      5,
+      0,
+      2,
+      2,
+      1,
+      2
+    ]
   }
 ]

@@ -2,71 +2,183 @@
   {
     "city": "uherske-hradiste",
     "year": 1948,
-    "text": "Státní bezpečnost (StB) otevřela v Uherském Hradišti velké výslechové středisko, které se v 50. letech proslavilo mučením"
+    "text": "Státní bezpečnost (StB) otevřela v Uherském Hradišti velké výslechové středisko, které se v 50. letech proslavilo mučením",
+    "rel": [
+      5,
+      3,
+      2,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "uherske-hradiste",
     "year": 1968,
-    "text": "region Slovácko byl baštou katolického reformního hnutí Pražského jara"
+    "text": "region Slovácko byl baštou katolického reformního hnutí Pražského jara",
+    "rel": [
+      4,
+      2,
+      2,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "uherske-hradiste",
     "year": 1922,
-    "text": "slovácký skanzen v Uherském Hradišti uchovával moravsko-slovenský selský život"
+    "text": "slovácký skanzen v Uherském Hradišti uchovával moravsko-slovenský selský život",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "uherske-hradiste",
     "year": 1942,
-    "text": "hradišťská židovská komunita byla deportována přes Osvětim; vrátilo se jen málo lidí"
+    "text": "hradišťská židovská komunita byla deportována přes Osvětim; vrátilo se jen málo lidí",
+    "rel": [
+      5,
+      4,
+      2,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "uherske-hradiste",
     "year": 1968,
-    "text": "folklorní festival Slovácký rok v nedalekém Kyjově přitahoval desetitisíce lidí"
+    "text": "folklorní festival Slovácký rok v nedalekém Kyjově přitahoval desetitisíce lidí",
+    "rel": [
+      4,
+      2,
+      4,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "uherske-hradiste",
     "year": 1975,
-    "text": "místní elektrotechnický závod Mesit dodával letecká zařízení pro sovětský kosmický program"
+    "text": "místní elektrotechnický závod Mesit dodával letecká zařízení pro sovětský kosmický program",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "uherske-hradiste",
     "year": 1945,
-    "text": "vzniklo Slovácké divadlo jako první profesionální scéna na Slovácku, otevřená inscenací Její pastorkyně"
+    "text": "vzniklo Slovácké divadlo jako první profesionální scéna na Slovácku, otevřená inscenací Její pastorkyně",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "uherske-hradiste",
     "year": 1957,
-    "text": "v kunovické Letu vzlétl pětimístný dvoumotorový letoun L-200 Morava, z 367 vyrobených kusů zamířila polovina do SSSR"
+    "text": "v kunovické Letu vzlétl pětimístný dvoumotorový letoun L-200 Morava, z 367 vyrobených kusů zamířila polovina do SSSR",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "uherske-hradiste",
     "year": 1969,
-    "text": "16. dubna poprvé vzlétl z Kunovic turbovrtulový L-410 Turbolet, později vyvážený do desítek zemí světa"
+    "text": "16. dubna poprvé vzlétl z Kunovic turbovrtulový L-410 Turbolet, později vyvážený do desítek zemí světa",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "uherske-hradiste",
     "year": 1997,
-    "text": "11. července zaplavila rozvodněná Morava město, v okrese bylo evakuováno na 20 tisíc lidí"
+    "text": "11. července zaplavila rozvodněná Morava město, v okrese bylo evakuováno na 20 tisíc lidí",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "uherske-hradiste",
     "year": 2003,
-    "text": "poprvé se konaly Slovácké slavnosti vína a otevřených památek, centrem prošel krojový průvod tisíců lidí"
+    "text": "poprvé se konaly Slovácké slavnosti vína a otevřených památek, centrem prošel krojový průvod tisíců lidí",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "uherske-hradiste",
     "year": 2010,
-    "text": "16. ledna byl po rekonstrukci otevřen Památník Velké Moravy ve Starém Městě s multimediální expozicí"
+    "text": "16. ledna byl po rekonstrukci otevřen Památník Velké Moravy ve Starém Městě s multimediální expozicí",
+    "rel": [
+      5,
+      1,
+      2,
+      1,
+      2,
+      2
+    ]
   },
   {
     "city": "uherske-hradiste",
     "year": 2022,
-    "text": "18. května porazilo 1. FC Slovácko ve finále MOL Cupu Spartu 3:1 a získalo první velkou trofej ve své historii"
+    "text": "18. května porazilo 1. FC Slovácko ve finále MOL Cupu Spartu 3:1 a získalo první velkou trofej ve své historii",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      1,
+      2
+    ]
   },
   {
     "city": "uherske-hradiste",
     "year": 2022,
-    "text": "21. dubna se kunovická Aircraft Industries po čtrnácti letech vrátila z ruských rukou k českému Omnipolu"
+    "text": "21. dubna se kunovická Aircraft Industries po čtrnácti letech vrátila z ruských rukou k českému Omnipolu",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      3,
+      3
+    ]
   }
 ]

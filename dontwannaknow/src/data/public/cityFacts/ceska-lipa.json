@@ -2,56 +2,144 @@
   {
     "city": "ceska-lipa",
     "year": 1938,
-    "text": "připojeno k Sudetengau spolu se zbytkem severočeského německy mluvícího území"
+    "text": "připojeno k Sudetengau spolu se zbytkem severočeského německy mluvícího území",
+    "rel": [
+      5,
+      5,
+      4,
+      0,
+      5,
+      2
+    ]
   },
   {
     "city": "ceska-lipa",
     "year": 1971,
-    "text": "těžba uranu v nedalekém Stráži pod Ralskem se rozšířila; přistěhovaly se tisíce rumunských a českých horníků"
+    "text": "těžba uranu v nedalekém Stráži pod Ralskem se rozšířila; přistěhovaly se tisíce rumunských a českých horníků",
+    "rel": [
+      4,
+      3,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "ceska-lipa",
     "year": 1922,
-    "text": "sušenkárna a cukrovinkárna Bohemia v České Lípě zaměstnávala několik set převážně ženských pracovnic"
+    "text": "sušenkárna a cukrovinkárna Bohemia v České Lípě zaměstnávala několik set převážně ženských pracovnic",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "ceska-lipa",
     "year": 1945,
-    "text": "německé obyvatelstvo bylo vyhnáno na základě Benešových dekretů; do prázdných domů se nastěhovali čeští a slovenští osídlenci"
+    "text": "německé obyvatelstvo bylo vyhnáno na základě Benešových dekretů; do prázdných domů se nastěhovali čeští a slovenští osídlenci",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      5
+    ]
   },
   {
     "city": "ceska-lipa",
     "year": 1965,
-    "text": "těžební uranový komplex Hamr na Jezeře zahájil chemické loužení rud — později spojované s rozsáhlou kontaminací podzemních vod"
+    "text": "těžební uranový komplex Hamr na Jezeře zahájil chemické loužení rud — později spojované s rozsáhlou kontaminací podzemních vod",
+    "rel": [
+      4,
+      2,
+      3,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "ceska-lipa",
     "year": 1973,
-    "text": "obrovská panelová sídliště zaplnila údolí, aby ubytovala rodiny horníků z uranových dolů přivedené odjinud"
+    "text": "obrovská panelová sídliště zaplnila údolí, aby ubytovala rodiny horníků z uranových dolů přivedené odjinud",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "ceska-lipa",
     "year": 1967,
-    "text": "ve Stráži pod Ralskem se rozjela těžba uranu chemickým loužením; do podloží bylo nakonec vtlačeno přes čtyři miliony tun kyseliny sírové"
+    "text": "ve Stráži pod Ralskem se rozjela těžba uranu chemickým loužením; do podloží bylo nakonec vtlačeno přes čtyři miliony tun kyseliny sírové",
+    "rel": [
+      4,
+      2,
+      2,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "ceska-lipa",
     "year": 1974,
-    "text": "blízká borská sklárna přijala značku Crystalex, odvozenou od pojmu český křišťál"
+    "text": "blízká borská sklárna přijala značku Crystalex, odvozenou od pojmu český křišťál",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "ceska-lipa",
     "year": 1980,
-    "text": "na sídlišti Špičák, dnes největším ve městě, se nastěhovalo prvních 240 rodin"
+    "text": "na sídlišti Špičák, dnes největším ve městě, se nastěhovalo prvních 240 rodin",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "ceska-lipa",
     "year": 1991,
-    "text": "vláda na konci roku zrušila vojenský prostor Ralsko, jejž do té doby plně využívala sovětská armáda"
+    "text": "vláda na konci roku zrušila vojenský prostor Ralsko, jejž do té doby plně využívala sovětská armáda",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "ceska-lipa",
     "year": 1996,
-    "text": "skončila těžba uranu ve Stráži pod Ralskem; pod zemí zůstaly miliony tun kyselých roztoků a začala dlouhá sanace"
+    "text": "skončila těžba uranu ve Stráži pod Ralskem; pod zemí zůstaly miliony tun kyselých roztoků a začala dlouhá sanace",
+    "rel": [
+      4,
+      3,
+      2,
+      3,
+      5,
+      4
+    ]
   }
 ]

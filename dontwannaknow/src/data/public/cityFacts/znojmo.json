@@ -2,66 +2,170 @@
   {
     "city": "znojmo",
     "year": 1938,
-    "text": "připojeno nacistickým Německem; znojemská česká menšina byla vyhnána a mnoho jejích představitelů zavražděno"
+    "text": "připojeno nacistickým Německem; znojemská česká menšina byla vyhnána a mnoho jejích představitelů zavražděno",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "znojmo",
     "year": 1945,
-    "text": "Rudá armáda obsadila Znojmo v květnu; byla obnovena česká svrchovanost a etničtí Němci vyhnáni"
+    "text": "Rudá armáda obsadila Znojmo v květnu; byla obnovena česká svrchovanost a etničtí Němci vyhnáni",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "znojmo",
     "year": 1961,
-    "text": "znojemské okurky — nakládané okurky nejslavnější československé značky — vstoupily do hromadné výroby"
+    "text": "znojemské okurky — nakládané okurky nejslavnější československé značky — vstoupily do hromadné výroby",
+    "rel": [
+      5,
+      2,
+      5,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "znojmo",
     "year": 1924,
-    "text": "znojemský region pěstování okurek byl oficiálně ochráněn značkou pro export"
+    "text": "znojemský region pěstování okurek byl oficiálně ochráněn značkou pro export",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "znojmo",
     "year": 1968,
-    "text": "letní festival klasické hudby kulturního centra Znojemská beseda začal jako kulturní výkladní skříň sovětské éry"
+    "text": "letní festival klasické hudby kulturního centra Znojemská beseda začal jako kulturní výkladní skříň sovětské éry",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "znojmo",
     "year": 1951,
-    "text": "podél rakouských hranic u Šatova jižně od Znojma začal komunistický režim budovat drátěné zátarasy železné opony"
+    "text": "podél rakouských hranic u Šatova jižně od Znojma začal komunistický režim budovat drátěné zátarasy železné opony",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "znojmo",
     "year": 1962,
-    "text": "románská rotunda svaté Kateřiny s freskami z roku 1134 zobrazujícími přemyslovskou dynastii byla prohlášena národní kulturní památkou"
+    "text": "románská rotunda svaté Kateřiny s freskami z roku 1134 zobrazujícími přemyslovskou dynastii byla prohlášena národní kulturní památkou",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "znojmo",
     "year": 1966,
-    "text": "poprvé se konalo Znojemské historické vinobraní, jehož ústřední postavou se stal král Jan Lucemburský"
+    "text": "poprvé se konalo Znojemské historické vinobraní, jehož ústřední postavou se stal král Jan Lucemburský",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "znojmo",
     "year": 1967,
-    "text": "vinobraní zažilo svůj vrchol — do města přišlo na 110 000 návštěvníků a vystoupilo kolem 600 účinkujících"
+    "text": "vinobraní zažilo svůj vrchol — do města přišlo na 110 000 návštěvníků a vystoupilo kolem 600 účinkujících",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      1,
+      3
+    ]
   },
   {
     "city": "znojmo",
     "year": 1974,
-    "text": "komunistický režim tradici znojemského historického vinobraní přerušil; obnovena byla až po roce 1989"
+    "text": "komunistický režim tradici znojemského historického vinobraní přerušil; obnovena byla až po roce 1989",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "znojmo",
     "year": 1985,
-    "text": "v nedalekých Dukovanech najel první reaktor jaderné elektrárny, jež se stala energetickou dominantou regionu"
+    "text": "v nedalekých Dukovanech najel první reaktor jaderné elektrárny, jež se stala energetickou dominantou regionu",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "znojmo",
     "year": 1991,
-    "text": "v kaňonu Dyje mezi Znojmem a Vranovem byl vyhlášen Národní park Podyjí, nejmenší národní park v zemi"
+    "text": "v kaňonu Dyje mezi Znojmem a Vranovem byl vyhlášen Národní park Podyjí, nejmenší národní park v zemi",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "znojmo",
     "year": 2009,
-    "text": "Znojemské pivo získalo evropské chráněné zeměpisné označení, jež váže jeho výrobu na město a okolí"
+    "text": "Znojemské pivo získalo evropské chráněné zeměpisné označení, jež váže jeho výrobu na město a okolí",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      2
+    ]
   }
 ]

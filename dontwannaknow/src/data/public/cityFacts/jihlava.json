@@ -2,121 +2,313 @@
   {
     "city": "jihlava",
     "year": 1923,
-    "text": "Jihlava-Iglau byla německy mluvícím jazykovým ostrovem uprostřed české Moravy, s německou většinou a živým německým tiskem"
+    "text": "Jihlava-Iglau byla německy mluvícím jazykovým ostrovem uprostřed české Moravy, s německou většinou a živým německým tiskem",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "jihlava",
     "year": 1929,
-    "text": "rodný dům Gustava Mahlera na Znojemské-Znaimer Strasse už byl nenápadným poutním místem přijíždějících hudebníků"
+    "text": "rodný dům Gustava Mahlera na Znojemské-Znaimer Strasse už byl nenápadným poutním místem přijíždějících hudebníků",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      2,
+      2
+    ]
   },
   {
     "city": "jihlava",
     "year": 1938,
-    "text": "okleštěná Česko-Slovenská republika zřídila v Jihlavě novou posádku, jak okolní sudetské oblasti pohlcovalo Německo"
+    "text": "okleštěná Česko-Slovenská republika zřídila v Jihlavě novou posádku, jak okolní sudetské oblasti pohlcovalo Německo",
+    "rel": [
+      5,
+      2,
+      2,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "jihlava",
     "year": 1939,
-    "text": "připojeno k nacistickému Německu; německy mluvící enkláva Jihlava-Iglau byla překreslena"
+    "text": "připojeno k nacistickému Německu; německy mluvící enkláva Jihlava-Iglau byla překreslena",
+    "rel": [
+      5,
+      5,
+      3,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "jihlava",
     "year": 1945,
-    "text": "etničtí Němci byli vyhnáni na základě Benešových dekretů"
+    "text": "etničtí Němci byli vyhnáni na základě Benešových dekretů",
+    "rel": [
+      5,
+      5,
+      4,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "jihlava",
     "year": 1945,
-    "text": "německy mluvící většina Jihlavy byla v létě vyhnána, čímž skončilo pět století německého městského života na Českomoravské vrchovině"
+    "text": "německy mluvící většina Jihlavy byla v létě vyhnána, čímž skončilo pět století německého městského života na Českomoravské vrchovině",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      5
+    ]
   },
   {
     "city": "jihlava",
     "year": 1956,
-    "text": "továrna Motorpal Jihlava vyráběla vstřikovací čerpadla pro nákladní vozy Tatra a traktory po celém bloku"
+    "text": "továrna Motorpal Jihlava vyráběla vstřikovací čerpadla pro nákladní vozy Tatra a traktory po celém bloku",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "jihlava",
     "year": 1958,
-    "text": "jihlavský hokejový klub Dukla byl přesunut k armádní posádce a okamžitě začal stoupat ligou"
+    "text": "jihlavský hokejový klub Dukla byl přesunut k armádní posádce a okamžitě začal stoupat ligou",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "jihlava",
     "year": 1967,
-    "text": "Dukla Jihlava vyhrála pod trenérem Jaroslavem Pitnerem s Jiřím Holíkem a Janem Suchým československý hokejový titul"
+    "text": "Dukla Jihlava vyhrála pod trenérem Jaroslavem Pitnerem s Jiřím Holíkem a Janem Suchým československý hokejový titul",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "jihlava",
     "year": 1971,
-    "text": "přádelna pletenin Modeta se rozšířila a stala se významným regionálním zaměstnavatelem"
+    "text": "přádelna pletenin Modeta se rozšířila a stala se významným regionálním zaměstnavatelem",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "jihlava",
     "year": 1972,
-    "text": "Dukla Jihlava vyhrála šest československých hokejových titulů v řadě, dynastie armádního klubu zrcadlící moskevský CSKA"
+    "text": "Dukla Jihlava vyhrála šest československých hokejových titulů v řadě, dynastie armádního klubu zrcadlící moskevský CSKA",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      3,
+      4
+    ]
   },
   {
     "city": "jihlava",
     "year": 1980,
-    "text": "městské hornické muzeum se znovu otevřelo ve středověké Bráně Matky Boží, připomínajíc středověké stříbrné bohatství Jihlavy"
+    "text": "městské hornické muzeum se znovu otevřelo ve středověké Bráně Matky Boží, připomínajíc středověké stříbrné bohatství Jihlavy",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "jihlava",
     "year": 1946,
-    "text": "v říjnu vznikl strojírenský závod PAL Jihlava, předchůdce dnešního Motorpalu vyrábějícího vstřikovací zařízení"
+    "text": "v říjnu vznikl strojírenský závod PAL Jihlava, předchůdce dnešního Motorpalu vyrábějícího vstřikovací zařízení",
+    "rel": [
+      5,
+      3,
+      2,
+      3,
+      5,
+      2
+    ]
   },
   {
     "city": "jihlava",
     "year": 1957,
-    "text": "veřejnosti byl zpřístupněn asi kilometr středověkého jihlavského podzemí, druhého největšího systému chodeb v zemi"
+    "text": "veřejnosti byl zpřístupněn asi kilometr středověkého jihlavského podzemí, druhého největšího systému chodeb v zemi",
+    "rel": [
+      5,
+      1,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "jihlava",
     "year": 1967,
-    "text": "Horácký zimní stadion, domov Dukly, byl zastřešen trvalou střechou"
+    "text": "Horácký zimní stadion, domov Dukly, byl zastřešen trvalou střechou",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      1
+    ]
   },
   {
     "city": "jihlava",
     "year": 1974,
-    "text": "Dukla Jihlava získala další československý hokejový titul, svůj sedmý"
+    "text": "Dukla Jihlava získala další československý hokejový titul, svůj sedmý",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      2,
+      2
+    ]
   },
   {
     "city": "jihlava",
     "year": 1985,
-    "text": "Dukla Jihlava vyhrála hokejovou ligu a dovršila druhou sérii čtyř titulů v řadě z let 1982 až 1985"
+    "text": "Dukla Jihlava vyhrála hokejovou ligu a dovršila druhou sérii čtyř titulů v řadě z let 1982 až 1985",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "jihlava",
     "year": 1991,
-    "text": "Dukla Jihlava získala svůj dvanáctý a poslední československý titul, než se po rozdělení státu liga rozpadla"
+    "text": "Dukla Jihlava získala svůj dvanáctý a poslední československý titul, než se po rozdělení státu liga rozpadla",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "jihlava",
     "year": 1993,
-    "text": "v Jihlavě byla založena firma Bosch Diesel, společný podnik s Motorpalem, jenž vyrostl v největší závod koncernu Bosch na světě pro vstřikování Common Rail"
+    "text": "v Jihlavě byla založena firma Bosch Diesel, společný podnik s Motorpalem, jenž vyrostl v největší závod koncernu Bosch na světě pro vstřikování Common Rail",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "jihlava",
     "year": 1997,
-    "text": "skupina středoškoláků vedená Markem Hovorkou založila Mezinárodní festival dokumentárních filmů Ji.hlava, dnes největší dokumentární festival ve střední a východní Evropě"
+    "text": "skupina středoškoláků vedená Markem Hovorkou založila Mezinárodní festival dokumentárních filmů Ji.hlava, dnes největší dokumentární festival ve střední a východní Evropě",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "jihlava",
     "year": 1999,
-    "text": "sezonou 1998/99 skončila pro slavnou Duklu éra nejvyšší soutěže a klub z extraligy sestoupil"
+    "text": "sezonou 1998/99 skončila pro slavnou Duklu éra nejvyšší soutěže a klub z extraligy sestoupil",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "jihlava",
     "year": 2001,
-    "text": "s nástupem krajské samosprávy se Jihlava stala sídlem nově pojmenovaného kraje Vysočina"
+    "text": "s nástupem krajské samosprávy se Jihlava stala sídlem nově pojmenovaného kraje Vysočina",
+    "rel": [
+      5,
+      3,
+      4,
+      0,
+      5,
+      2
+    ]
   },
   {
     "city": "jihlava",
     "year": 2008,
-    "text": "25. září byl po rekonstrukci znovu otevřen Dům Gustava Mahlera se stálou expozicí věnovanou skladatelovu jihlavskému mládí"
+    "text": "25. září byl po rekonstrukci znovu otevřen Dům Gustava Mahlera se stálou expozicí věnovanou skladatelovu jihlavskému mládí",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "jihlava",
     "year": 2010,
-    "text": "7. července, ke 150. výročí Mahlerova narození, byl otevřen park Gustava Mahlera s bronzovou sochou skladatele od Jana Koblasy"
+    "text": "7. července, ke 150. výročí Mahlerova narození, byl otevřen park Gustava Mahlera s bronzovou sochou skladatele od Jana Koblasy",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      1
+    ]
   }
 ]

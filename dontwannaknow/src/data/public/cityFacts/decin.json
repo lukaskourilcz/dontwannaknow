@@ -2,81 +2,209 @@
   {
     "city": "decin",
     "year": 1920,
-    "text": "labský říční přístav (tehdy Tetschen) odbavoval vývoz uhlí, skla a chemikálií"
+    "text": "labský říční přístav (tehdy Tetschen) odbavoval vývoz uhlí, skla a chemikálií",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "decin",
     "year": 1938,
-    "text": "připojeno k nacistickému Německu jako součást Sudet"
+    "text": "připojeno k nacistickému Německu jako součást Sudet",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      3
+    ]
   },
   {
     "city": "decin",
     "year": 1942,
-    "text": "Tetschen-Bodenbach byl pro říši klíčovým labským říčním přístavem a lodní doprava z Hamburku jezdila ve dne v noci"
+    "text": "Tetschen-Bodenbach byl pro říši klíčovým labským říčním přístavem a lodní doprava z Hamburku jezdila ve dne v noci",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "decin",
     "year": 1945,
-    "text": "obnovena česká svrchovanost; etničtí Němci byli vyhnáni"
+    "text": "obnovena česká svrchovanost; etničtí Němci byli vyhnáni",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      3
+    ]
   },
   {
     "city": "decin",
     "year": 1945,
-    "text": "město bylo osvobozeno Rudou armádou 8. května a Němci byli vyhnáni v letech 1945-46"
+    "text": "město bylo osvobozeno Rudou armádou 8. května a Němci byli vyhnáni v letech 1945-46",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "decin",
     "year": 1948,
-    "text": "papírna Děčín-Podmokly a železniční strojírenské dílny byly znárodněny v rámci poválečného převzetí"
+    "text": "papírna Děčín-Podmokly a železniční strojírenské dílny byly znárodněny v rámci poválečného převzetí",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "decin",
     "year": 1955,
-    "text": "děčínský zámek, opuštěný rodem Thun-Hohensteinů v roce 1932 a využívaný wehrmachtem, sloužil jako kasárna československé armády"
+    "text": "děčínský zámek, opuštěný rodem Thun-Hohensteinů v roce 1932 a využívaný wehrmachtem, sloužil jako kasárna československé armády",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "decin",
     "year": 1965,
-    "text": "Labe v Děčíně dosáhlo 6. června velké letní povodně, která zaplavila podmokelské nábřeží a kolejiště"
+    "text": "Labe v Děčíně dosáhlo 6. června velké letní povodně, která zaplavila podmokelské nábřeží a kolejiště",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "decin",
     "year": 1968,
-    "text": "sovětské tanky překročily nedaleko odsud Labe při invazi Varšavské smlouvy"
+    "text": "sovětské tanky překročily nedaleko odsud Labe při invazi Varšavské smlouvy",
+    "rel": [
+      5,
+      4,
+      3,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "decin",
     "year": 1971,
-    "text": "děčínský závod na syntetická vlákna zaměstnával tisíce lidí a byl po železničních dílnách největším jednotlivým pracovištěm ve městě"
+    "text": "děčínský závod na syntetická vlákna zaměstnával tisíce lidí a byl po železničních dílnách největším jednotlivým pracovištěm ve městě",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "decin",
     "year": 1973,
-    "text": "pískovcová krajina Českého Švýcarska nad Děčínem byla oblíbeným víkendovým cílem výletů Pražanů na autobusové lince do Hřenska"
+    "text": "pískovcová krajina Českého Švýcarska nad Děčínem byla oblíbeným víkendovým cílem výletů Pražanů na autobusové lince do Hřenska",
+    "rel": [
+      4,
+      1,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "decin",
     "year": 1979,
-    "text": "nová děčínská nemocnice se otevřela na kopci nad Bynovem a nahradila stísněné budovy z 19. století ve starém městě"
+    "text": "nová děčínská nemocnice se otevřela na kopci nad Bynovem a nahradila stísněné budovy z 19. století ve starém městě",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "decin",
     "year": 1949,
-    "text": "na Pastýřské stěně nad Podmokly byla otevřena zoologická zahrada, jedna z prvních v poválečném Československu"
+    "text": "na Pastýřské stěně nad Podmokly byla otevřena zoologická zahrada, jedna z prvních v poválečném Československu",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "decin",
     "year": 1968,
-    "text": "21. srpna překročily sovětské tanky hranici u Hřenska a jedna kolona mířila severními Čechami přes Rumburk"
+    "text": "21. srpna překročily sovětské tanky hranici u Hřenska a jedna kolona mířila severními Čechami přes Rumburk",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "decin",
     "year": 1983,
-    "text": "z nábřeží na vrchol Pastýřské stěny začal vozit návštěvníky výtah"
+    "text": "z nábřeží na vrchol Pastýřské stěny začal vozit návštěvníky výtah",
+    "rel": [
+      5,
+      1,
+      3,
+      1,
+      3,
+      1
+    ]
   },
   {
     "city": "decin",
     "year": 2002,
-    "text": "při srpnové povodni kulminovalo Labe v Děčíně na 12,30 metru a průtoku kolem 4 770 m³/s — největší zaznamenané záplavě v novodobé historii"
+    "text": "při srpnové povodni kulminovalo Labe v Děčíně na 12,30 metru a průtoku kolem 4 770 m³/s — největší zaznamenané záplavě v novodobé historii",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      3
+    ]
   }
 ]

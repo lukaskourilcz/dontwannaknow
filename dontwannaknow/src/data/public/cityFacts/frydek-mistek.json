@@ -2,101 +2,261 @@
   {
     "city": "frydek-mistek",
     "year": 1939,
-    "text": "čeští vojáci z Czajankových kasáren zahájili 14. března palbu na postupující jednotky wehrmachtu — jediný ozbrojený odpor proti okupaci"
+    "text": "čeští vojáci z Czajankových kasáren zahájili 14. března palbu na postupující jednotky wehrmachtu — jediný ozbrojený odpor proti okupaci",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      5
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 1943,
-    "text": "Frýdek a Místek byly pod nacistickou správou sloučeny do jednoho města"
+    "text": "Frýdek a Místek byly pod nacistickou správou sloučeny do jednoho města",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 1943,
-    "text": "Frýdek a Místek, oddělené řekou Ostravicí, byly za německé okupace konečně sloučeny do jedné obce"
+    "text": "Frýdek a Místek, oddělené řekou Ostravicí, byly za německé okupace konečně sloučeny do jedné obce",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 1945,
-    "text": "Rudá armáda osvobodila dvojměstí 4. května po bojích v podhůří Beskyd"
+    "text": "Rudá armáda osvobodila dvojměstí 4. května po bojích v podhůří Beskyd",
+    "rel": [
+      5,
+      5,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 1955,
-    "text": "Válcovny plechu Frýdek-Místek byly hlavním tuzemským výrobcem plechu pro karoserie automobilů a obaly"
+    "text": "Válcovny plechu Frýdek-Místek byly hlavním tuzemským výrobcem plechu pro karoserie automobilů a obaly",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 1960,
-    "text": "sloučení Frýdku a Místku bylo formálně potvrzeno a společný název přijat natrvalo"
+    "text": "sloučení Frýdku a Místku bylo formálně potvrzeno a společný název přijat natrvalo",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 1972,
-    "text": "v centru se otevřel hotel Beskydy, určený pro lyžaře cestující dále na Pustevny a Lysou horu"
+    "text": "v centru se otevřel hotel Beskydy, určený pro lyžaře cestující dále na Pustevny a Lysou horu",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 1975,
-    "text": "vznikla rozlehlá panelová sídliště, aby pojala dělníky oceláren dojíždějící do Ostravy"
+    "text": "vznikla rozlehlá panelová sídliště, aby pojala dělníky oceláren dojíždějící do Ostravy",
+    "rel": [
+      5,
+      4,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 1976,
-    "text": "textilní závody Slezan vyráběly damašek a len na vývoz do Sovětského svazu a na Blízký východ"
+    "text": "textilní závody Slezan vyráběly damašek a len na vývoz do Sovětského svazu a na Blízký východ",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 1979,
-    "text": "počet obyvatel města překročil 60 000, jak nová sídliště zaplnila svahy nad Ostravicí"
+    "text": "počet obyvatel města překročil 60 000, jak nová sídliště zaplnila svahy nad Ostravicí",
+    "rel": [
+      5,
+      2,
+      2,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 1946,
-    "text": "znárodněním čtyř velkých textilek vznikly Slezské bavlnářské závody, předchůdce pozdějšího Slezanu"
+    "text": "znárodněním čtyř velkých textilek vznikly Slezské bavlnářské závody, předchůdce pozdějšího Slezanu",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 1964,
-    "text": "27. června byla na jihozápadním okraji města otevřena přehrada Olešná, zásobárna vody pro průmysl"
+    "text": "27. června byla na jihozápadním okraji města otevřena přehrada Olešná, zásobárna vody pro průmysl",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 1969,
-    "text": "1. ledna začala na hřebeni Lysé hory, nejvyšší hory Beskyd, celoroční meteorologická služba"
+    "text": "1. ledna začala na hřebeni Lysé hory, nejvyšší hory Beskyd, celoroční meteorologická služba",
+    "rel": [
+      4,
+      0,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 1999,
-    "text": "30. srpna povýšil papež Jan Pavel II. frýdeckou poutní baziliku Navštívení Panny Marie, zvanou slezské Lurdy, na baziliku minor"
+    "text": "30. srpna povýšil papež Jan Pavel II. frýdeckou poutní baziliku Navštívení Panny Marie, zvanou slezské Lurdy, na baziliku minor",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 2005,
-    "text": "1. června se v rekreační oblasti Olešná otevřel letní aquapark s bazény a tobogány"
+    "text": "1. června se v rekreační oblasti Olešná otevřel letní aquapark s bazény a tobogány",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      3,
+      1
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 2006,
-    "text": "1. července se Frýdek-Místek stal statutárním městem"
+    "text": "1. července se Frýdek-Místek stal statutárním městem",
+    "rel": [
+      5,
+      1,
+      2,
+      1,
+      3,
+      1
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 2006,
-    "text": "30. listopadu přibyl u Olešné krytý celoroční aquapark, rok po letním koupališti"
+    "text": "30. listopadu přibyl u Olešné krytý celoroční aquapark, rok po letním koupališti",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      3,
+      1
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 2007,
-    "text": "Válcovny plechu se staly součástí ArcelorMittal Ostrava, což přineslo jejich největší vlnu investic"
+    "text": "Válcovny plechu se staly součástí ArcelorMittal Ostrava, což přineslo jejich největší vlnu investic",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 2008,
-    "text": "v listopadu zahájila výrobu automobilka Hyundai v nedalekých Nošovicích na Frýdecko-Místecku"
+    "text": "v listopadu zahájila výrobu automobilka Hyundai v nedalekých Nošovicích na Frýdecko-Místecku",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      4,
+      4
+    ]
   },
   {
     "city": "frydek-mistek",
     "year": 2008,
-    "text": "textilka Slezan zkrachovala pod tlakem levných asijských dovozů a hospodářské krize"
+    "text": "textilka Slezan zkrachovala pod tlakem levných asijských dovozů a hospodářské krize",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      4
+    ]
   }
 ]

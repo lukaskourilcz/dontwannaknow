@@ -2,206 +2,534 @@
   {
     "city": "hodonin",
     "year": 1920,
-    "text": "Hodonín byl trhovým městem o asi 12 000 obyvatelích na moravsko-slovenském pomezí — rodištěm Tomáše Garrigua Masaryka a místem, které jako prezident často navštěvoval"
+    "text": "Hodonín byl trhovým městem o asi 12 000 obyvatelích na moravsko-slovenském pomezí — rodištěm Tomáše Garrigua Masaryka a místem, které jako prezident často navštěvoval",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      3,
+      4
+    ]
   },
   {
     "city": "hodonin",
     "year": 1925,
-    "text": "Tabáková továrna Hodonín byla největší cigaretovou továrnou v Československu a hlavním zaměstnavatelem města"
+    "text": "Tabáková továrna Hodonín byla největší cigaretovou továrnou v Československu a hlavním zaměstnavatelem města",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "hodonin",
     "year": 1928,
-    "text": "na Masarykově náměstí byla odhalena monumentální socha T. G. Masaryka od Otakara Španiela (později stržená nacisty, obnovená komunisty, znovu stržená a poté opět vrácená)"
+    "text": "na Masarykově náměstí byla odhalena monumentální socha T. G. Masaryka od Otakara Španiela (později stržená nacisty, obnovená komunisty, znovu stržená a poté opět vrácená)",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      4,
+      5
+    ]
   },
   {
     "city": "hodonin",
     "year": 1932,
-    "text": "nedaleko u Hrušek byl objeven zemní plyn, čímž se rozjela jihomoravská těžba plynu"
+    "text": "nedaleko u Hrušek byl objeven zemní plyn, čímž se rozjela jihomoravská těžba plynu",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 1937,
-    "text": "T. G. Masaryk zemřel v září; město uspořádalo v jeho rodném domě smutek celonárodního rozsahu"
+    "text": "T. G. Masaryk zemřel v září; město uspořádalo v jeho rodném domě smutek celonárodního rozsahu",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      2,
+      4
+    ]
   },
   {
     "city": "hodonin",
     "year": 1939,
-    "text": "po nacistické okupaci byla hodonínská Masarykova socha odstraněna a město bylo v úředních německých dokumentech přejmenováno na Göding"
+    "text": "po nacistické okupaci byla hodonínská Masarykova socha odstraněna a město bylo v úředních německých dokumentech přejmenováno na Göding",
+    "rel": [
+      5,
+      4,
+      3,
+      2,
+      3,
+      4
+    ]
   },
   {
     "city": "hodonin",
     "year": 1942,
-    "text": "romský tábor v Hodoníně u Kunštátu sloužil k deportaci českých Romů do Osvětimi, kde téměř všichni zahynuli"
+    "text": "romský tábor v Hodoníně u Kunštátu sloužil k deportaci českých Romů do Osvětimi, kde téměř všichni zahynuli",
+    "rel": [
+      1,
+      1,
+      2,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "hodonin",
     "year": 1944,
-    "text": "spojenecké bombardování nedalekých kolejišť v Břeclavi a Bratislavě rozechvělo okna hodonínské tabákové továrny"
+    "text": "spojenecké bombardování nedalekých kolejišť v Břeclavi a Bratislavě rozechvělo okna hodonínské tabákové továrny",
+    "rel": [
+      5,
+      2,
+      2,
+      2,
+      1,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 1945,
-    "text": "rumunské a sovětské síly osvobodily Hodonín v dubnu po bojích podél řeky Moravy"
+    "text": "rumunské a sovětské síly osvobodily Hodonín v dubnu po bojích podél řeky Moravy",
+    "rel": [
+      5,
+      5,
+      3,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "hodonin",
     "year": 1946,
-    "text": "vinařské svahy nedalekých Mutěnic a Čejkovic obnovily vývoz a Hodonín se stal regionálním centrem obchodu s vínem"
+    "text": "vinařské svahy nedalekých Mutěnic a Čejkovic obnovily vývoz a Hodonín se stal regionálním centrem obchodu s vínem",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 1948,
-    "text": "komunistický převrat zasáhl Hodonín tvrdě — Masarykovo rodiště bylo symbolickou trofejí a režim jeho kult přísně řídil"
+    "text": "komunistický převrat zasáhl Hodonín tvrdě — Masarykovo rodiště bylo symbolickou trofejí a režim jeho kult přísně řídil",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "hodonin",
     "year": 1952,
-    "text": "Slovácké muzeum v Hodoníně se znovu otevřelo se zaměřením na lidový kroj, keramiku a mužský tanec verbuňk slováckého regionu"
+    "text": "Slovácké muzeum v Hodoníně se znovu otevřelo se zaměřením na lidový kroj, keramiku a mužský tanec verbuňk slováckého regionu",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 1959,
-    "text": "Hodonín získal tepelnou elektrárnu poháněnou místním lignitem — jednu z prvních takových elektráren na jižní Moravě"
+    "text": "Hodonín získal tepelnou elektrárnu poháněnou místním lignitem — jednu z prvních takových elektráren na jižní Moravě",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 1965,
-    "text": "nedaleký TON Bystřice (tehdy vyrábějící ohýbané židle Thonet) se stal jedním z největších československých vývozců nábytku"
+    "text": "nedaleký TON Bystřice (tehdy vyrábějící ohýbané židle Thonet) se stal jedním z největších československých vývozců nábytku",
+    "rel": [
+      3,
+      1,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 1968,
-    "text": "okresní výbor KSČ v Hodoníně nakrátko podpořil Dubčekovy reformy; mnoho členů bylo po sovětské invazi vyloučeno"
+    "text": "okresní výbor KSČ v Hodoníně nakrátko podpořil Dubčekovy reformy; mnoho členů bylo po sovětské invazi vyloučeno",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      3,
+      4
+    ]
   },
   {
     "city": "hodonin",
     "year": 1969,
-    "text": "jihomoravské nářečí a lidová hudba města se výrazně objevily v seriálu Československé televize 'Slovácký rok'"
+    "text": "jihomoravské nářečí a lidová hudba města se výrazně objevily v seriálu Československé televize 'Slovácký rok'",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      1,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 1973,
-    "text": "plynovod Hodonín — Břeclav začal zásobovat zemním plynem Brno a Prahu"
+    "text": "plynovod Hodonín — Břeclav začal zásobovat zemním plynem Brno a Prahu",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 1976,
-    "text": "mužský tanec slovácký verbuňk z hodonínského regionu byl dokumentován etnografy — měl být později zapsán organizací UNESCO"
+    "text": "mužský tanec slovácký verbuňk z hodonínského regionu byl dokumentován etnografy — měl být později zapsán organizací UNESCO",
+    "rel": [
+      4,
+      1,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 1979,
-    "text": "byl založen velký cyklistický závod Slovácký okruh Hodonín, který přitahoval jezdce z východního bloku"
+    "text": "byl založen velký cyklistický závod Slovácký okruh Hodonín, který přitahoval jezdce z východního bloku",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "hodonin",
     "year": 1980,
-    "text": "hodonínská tabáková továrna stále vyráběla klasické československé cigaretové značky jako Start a Sparta"
+    "text": "hodonínská tabáková továrna stále vyráběla klasické československé cigaretové značky jako Start a Sparta",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      2,
+      4
+    ]
   },
   {
     "city": "hodonin",
     "year": 1946,
-    "text": "v Hodoníně bylo zřízeno ústředí státního podniku Československé naftové závody, předchůdce Moravských naftových dolů"
+    "text": "v Hodoníně bylo zřízeno ústředí státního podniku Československé naftové závody, předchůdce Moravských naftových dolů",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 1953,
-    "text": "v novém hodonínském špitálu začaly první pokusy s léčivou jodobromovou solankou z vrtů u Lužic, základ pozdějších lázní"
+    "text": "v novém hodonínském špitálu začaly první pokusy s léčivou jodobromovou solankou z vrtů u Lužic, základ pozdějších lázní",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      4,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 1958,
-    "text": "po sloučení s podobným slovenským podnikem nese hodonínská těžební firma název Moravské naftové doly"
+    "text": "po sloučení s podobným slovenským podnikem nese hodonínská těžební firma název Moravské naftové doly",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      3,
+      1
+    ]
   },
   {
     "city": "hodonin",
     "year": 1959,
-    "text": "u Hrušek na Hodonínsku se rozjela těžba největšího československého ložiska ropy"
+    "text": "u Hrušek na Hodonínsku se rozjela těžba největšího československého ložiska ropy",
+    "rel": [
+      4,
+      2,
+      3,
+      4,
+      4,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 1960,
-    "text": "vznikla Galerie výtvarného umění, jež převzala dům i sbírky zaniklého Sdružení výtvarných umělců moravských"
+    "text": "vznikla Galerie výtvarného umění, jež převzala dům i sbírky zaniklého Sdružení výtvarných umělců moravských",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "hodonin",
     "year": 1968,
-    "text": "na podzim se socha T. G. Masaryka, dva měsíce po srpnové okupaci, vrátila na své místo na náměstí"
+    "text": "na podzim se socha T. G. Masaryka, dva měsíce po srpnové okupaci, vrátila na své místo na náměstí",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      2,
+      4
+    ]
   },
   {
     "city": "hodonin",
     "year": 1977,
-    "text": "normalizační moc nechala sochu T. G. Masaryka znovu odstranit, údajně kvůli rozšíření silnice"
+    "text": "normalizační moc nechala sochu T. G. Masaryka znovu odstranit, údajně kvůli rozšíření silnice",
+    "rel": [
+      5,
+      1,
+      4,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "hodonin",
     "year": 1979,
-    "text": "1. července byla slavnostně otevřena lázeňská léčebna využívající třetihorní jodobromovou solanku"
+    "text": "1. července byla slavnostně otevřena lázeňská léčebna využívající třetihorní jodobromovou solanku",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      5,
+      2
+    ]
   },
   {
     "city": "hodonin",
     "year": 1990,
-    "text": "7. března se socha T. G. Masaryka po čtyřech odstraněních vrátila na náměstí nadobro"
+    "text": "7. března se socha T. G. Masaryka po čtyřech odstraněních vrátila na náměstí nadobro",
+    "rel": [
+      5,
+      1,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "hodonin",
     "year": 1992,
-    "text": "Moravské naftové doly se přeměnily na akciovou společnost a slovenská část se osamostatnila"
+    "text": "Moravské naftové doly se přeměnily na akciovou společnost a slovenská část se osamostatnila",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "hodonin",
     "year": 1996,
-    "text": "Baťův kanál byl po desetiletích chátrání znovu zprovozněn, nyní jako turistická vodní cesta"
+    "text": "Baťův kanál byl po desetiletích chátrání znovu zprovozněn, nyní jako turistická vodní cesta",
+    "rel": [
+      4,
+      2,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 1997,
-    "text": "v polovině července dosáhla velká povodeň na Moravě Hodonína, v okrese bylo evakuováno přes deset tisíc lidí"
+    "text": "v polovině července dosáhla velká povodeň na Moravě Hodonína, v okrese bylo evakuováno přes deset tisíc lidí",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      3,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 2005,
-    "text": "slovácký verbuňk, tančený i na Hodonínsku, byl zapsán mezi mistrovská díla nehmotného dědictví UNESCO"
+    "text": "slovácký verbuňk, tančený i na Hodonínsku, byl zapsán mezi mistrovská díla nehmotného dědictví UNESCO",
+    "rel": [
+      4,
+      1,
+      4,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "hodonin",
     "year": 2006,
-    "text": "v hradní tabačce skončila po více než dvou stoletích výroba cigaret, firma Philip Morris areál opustila"
+    "text": "v hradní tabačce skončila po více než dvou stoletích výroba cigaret, firma Philip Morris areál opustila",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 2006,
-    "text": "v bývalých Dukelských kasárnách bylo otevřeno Muzeum naftového dobývání a geologie, jediné svého druhu v Česku"
+    "text": "v bývalých Dukelských kasárnách bylo otevřeno Muzeum naftového dobývání a geologie, jediné svého druhu v Česku",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "hodonin",
     "year": 2007,
-    "text": "po vstupu do Schengenu zanikl hraniční přechod Hodonín–Holíč, premiéři u mostu přes Moravu přeřezali závory"
+    "text": "po vstupu do Schengenu zanikl hraniční přechod Hodonín–Holíč, premiéři u mostu přes Moravu přeřezali závory",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "hodonin",
     "year": 2009,
-    "text": "před Vánocemi skončila těžba v Dole Mír u Mikulčic a zanikl tak poslední lignitový důl v Česku"
+    "text": "před Vánocemi skončila těžba v Dole Mír u Mikulčic a zanikl tak poslední lignitový důl v Česku",
+    "rel": [
+      4,
+      2,
+      3,
+      4,
+      4,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 2021,
-    "text": "24. června večer prošlo severními částmi Hodonína, Bažantnicí a Pánovem, ničivé tornádo síly IF4"
+    "text": "24. června večer prošlo severními částmi Hodonína, Bažantnicí a Pánovem, ničivé tornádo síly IF4",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 2021,
-    "text": "tornádo na Hodonínsku a Břeclavsku si vyžádalo šest mrtvých a stovky zraněných, šlo o nejsilnější doložené tornádo v dějinách Česka"
+    "text": "tornádo na Hodonínsku a Břeclavsku si vyžádalo šest mrtvých a stovky zraněných, šlo o nejsilnější doložené tornádo v dějinách Česka",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "hodonin",
     "year": 2021,
-    "text": "hodonínská nemocnice za tragickou noc ošetřila desítky zraněných, na obnovu věnovala nadace rodáka Karla Komárka 150 milionů korun"
+    "text": "hodonínská nemocnice za tragickou noc ošetřila desítky zraněných, na obnovu věnovala nadace rodáka Karla Komárka 150 milionů korun",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "hodonin",
     "year": 2025,
-    "text": "nová plavební komora Rohatec–Sudoměřice, první za devadesát let, prodloužila Baťův kanál až k Hodonínu"
+    "text": "nová plavební komora Rohatec–Sudoměřice, první za devadesát let, prodloužila Baťův kanál až k Hodonínu",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      4,
+      2
+    ]
   }
 ]

@@ -2,306 +2,794 @@
   {
     "city": "brno",
     "year": 1921,
-    "text": "zákonem z 28. ledna byla založena Masarykova univerzita v Brně, první česká univerzita ve městě"
+    "text": "zákonem z 28. ledna byla založena Masarykova univerzita v Brně, první česká univerzita ve městě",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "brno",
     "year": 1923,
-    "text": "Janáčkova opera Káťa Kabanová měla 23. listopadu premiéru v Národním divadle v Brně pod taktovkou dirigenta Františka Neumanna"
+    "text": "Janáčkova opera Káťa Kabanová měla 23. listopadu premiéru v Národním divadle v Brně pod taktovkou dirigenta Františka Neumanna",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1924,
-    "text": "opera Leoše Janáčka Příhody lišky Bystroušky měla 6. listopadu premiéru v brněnském divadle"
+    "text": "opera Leoše Janáčka Příhody lišky Bystroušky měla 6. listopadu premiéru v brněnském divadle",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1926,
-    "text": "Janáčkova Glagolská mše měla premiéru v Brně pod taktovkou Jaroslava Kvapila"
+    "text": "Janáčkova Glagolská mše měla premiéru v Brně pod taktovkou Jaroslava Kvapila",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 1928,
-    "text": "otevřel se první brněnský veletrh (Výstaviště) — středoevropská výkladní skříň veletrhů"
+    "text": "otevřel se první brněnský veletrh (Výstaviště) — středoevropská výkladní skříň veletrhů",
+    "rel": [
+      5,
+      3,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "brno",
     "year": 1928,
-    "text": "Leoš Janáček zemřel v srpnu v Ostravě a po pohřbu ve starobrněnském klášteře byl pohřben na brněnském Ústředním hřbitově"
+    "text": "Leoš Janáček zemřel v srpnu v Ostravě a po pohřbu ve starobrněnském klášteře byl pohřben na brněnském Ústředním hřbitově",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1929,
-    "text": "katedrála svatého Petra a Pavla na Petrově získala své dvě dnes ikonické novogotické věže, čímž se dokončila dlouhá rekonstrukce"
+    "text": "katedrála svatého Petra a Pavla na Petrově získala své dvě dnes ikonické novogotické věže, čímž se dokončila dlouhá rekonstrukce",
+    "rel": [
+      5,
+      1,
+      4,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1930,
-    "text": "Mies van der Rohe dokončil vilu Tugendhat — později zapsanou na seznam světového dědictví UNESCO"
+    "text": "Mies van der Rohe dokončil vilu Tugendhat — později zapsanou na seznam světového dědictví UNESCO",
+    "rel": [
+      5,
+      0,
+      4,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "brno",
     "year": 1931,
-    "text": "na České ulici se na úzké parcele otevřel kubo-funkcionalistický hotel Avion od Bohuslava Fuchse"
+    "text": "na České ulici se na úzké parcele otevřel kubo-funkcionalistický hotel Avion od Bohuslava Fuchse",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1932,
-    "text": "Mendelův klášter na Starém Brně už byl poutním místem mezinárodních genetiků, jak město udržovalo Mendelův kult"
+    "text": "Mendelův klášter na Starém Brně už byl poutním místem mezinárodních genetiků, jak město udržovalo Mendelův kult",
+    "rel": [
+      5,
+      0,
+      2,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1933,
-    "text": "vila Stiassni, navržená Ernstem Wiesnerem, byla dokončena v Pisárkách pro židovskou textilní rodinu"
+    "text": "vila Stiassni, navržená Ernstem Wiesnerem, byla dokončena v Pisárkách pro židovskou textilní rodinu",
+    "rel": [
+      5,
+      0,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1936,
-    "text": "kavárna Zeman na Kolišti od Bohuslava Fuchse byla centrem avantgardního společenského života města"
+    "text": "kavárna Zeman na Kolišti od Bohuslava Fuchse byla centrem avantgardního společenského života města",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1939,
-    "text": "začala nacistická okupace; pevnost Špilberk se stala vězením a popravištěm"
+    "text": "začala nacistická okupace; pevnost Špilberk se stala vězením a popravištěm",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "brno",
     "year": 1939,
-    "text": "gestapo zřídilo z Kounicových studentských kolejí vězení a popraviště, kde mělo být během války zabito přes 700 lidí"
+    "text": "gestapo zřídilo z Kounicových studentských kolejí vězení a popraviště, kde mělo být během války zabito přes 700 lidí",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "brno",
     "year": 1944,
-    "text": "listopadové spojenecké nálety mířily na brněnské seřaďovací nádraží a poškodily části Králova Pole"
+    "text": "listopadové spojenecké nálety mířily na brněnské seřaďovací nádraží a poškodily části Králova Pole",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1945,
-    "text": "'brněnský pochod smrti' vyhnal pěšky asi 27 000 etnických Němců směrem k Rakousku"
+    "text": "'brněnský pochod smrti' vyhnal pěšky asi 27 000 etnických Němců směrem k Rakousku",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      5,
+      5
+    ]
   },
   {
     "city": "brno",
     "year": 1945,
-    "text": "Rudá armáda vstoupila do Brna 26. dubna po bojích v jižních předměstích"
+    "text": "Rudá armáda vstoupila do Brna 26. dubna po bojích v jižních předměstích",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1946,
-    "text": "veletrh se znovu rozběhl jako Mezinárodní strojírenský veletrh Brno a stal se hlavní průmyslovou výkladní skříní sovětského bloku"
+    "text": "veletrh se znovu rozběhl jako Mezinárodní strojírenský veletrh Brno a stal se hlavní průmyslovou výkladní skříní sovětského bloku",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "brno",
     "year": 1948,
-    "text": "Zbrojovka Brno byla znárodněna a přeorientovala se na psací stroje, traktory a ruční palné zbraně"
+    "text": "Zbrojovka Brno byla znárodněna a přeorientovala se na psací stroje, traktory a ruční palné zbraně",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "brno",
     "year": 1956,
-    "text": "sloučením rozhlasového a krajského orchestru pod vedením Břetislava Bakaly vznikla Brněnská filharmonie"
+    "text": "sloučením rozhlasového a krajského orchestru pod vedením Břetislava Bakaly vznikla Brněnská filharmonie",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 1959,
-    "text": "otevřel se nový terminál letiště Brno-Tuřany, aby zvládl rostoucí provoz veletrhu"
+    "text": "otevřel se nový terminál letiště Brno-Tuřany, aby zvládl rostoucí provoz veletrhu",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 1965,
-    "text": "na Masarykově okruhu na okraji města se obnovila Velká cena Československa motoristických závodů"
+    "text": "na Masarykově okruhu na okraji města se obnovila Velká cena Československa motoristických závodů",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1968,
-    "text": "filmaři československé nové vlny využívali brněnské filmové ateliéry; někteří po sovětské invazi uprchli do zahraničí"
+    "text": "filmaři československé nové vlny využívali brněnské filmové ateliéry; někteří po sovětské invazi uprchli do zahraničí",
+    "rel": [
+      5,
+      1,
+      1,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1968,
-    "text": "tanky sovětské 38. armády vjely 21. srpna do Brna a na náměstí Svobody se proti okupaci shromáždily davy"
+    "text": "tanky sovětské 38. armády vjely 21. srpna do Brna a na náměstí Svobody se proti okupaci shromáždily davy",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "brno",
     "year": 1971,
-    "text": "brněnská přehrada v Kníničkách se opět naplnila na maximum jako hlavní letní místo ke koupání, kam se jezdilo tramvají číslo 1 a lodí"
+    "text": "brněnská přehrada v Kníničkách se opět naplnila na maximum jako hlavní letní místo ke koupání, kam se jezdilo tramvají číslo 1 a lodí",
+    "rel": [
+      5,
+      3,
+      5,
+      2,
+      3,
+      4
+    ]
   },
   {
     "city": "brno",
     "year": 1976,
-    "text": "Milan Kundera, narozený v Brně v roce 1929, přišel ve francouzském exilu o československé občanství poté, co vydal Valčík na rozloučenou"
+    "text": "Milan Kundera, narozený v Brně v roce 1929, přišel ve francouzském exilu o československé občanství poté, co vydal Valčík na rozloučenou",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1978,
-    "text": "brněnská motocyklová Velká cena se přesunula na nový 10,9kilometrový okruh u Ostrovačic, mimo veřejné silnice"
+    "text": "brněnská motocyklová Velká cena se přesunula na nový 10,9kilometrový okruh u Ostrovačic, mimo veřejné silnice",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 1980,
-    "text": "nový podchod brněnského hlavního nádraží se blížil dokončení v rámci plánů, nakonec opuštěných, na přesun nádraží jižním směrem"
+    "text": "nový podchod brněnského hlavního nádraží se blížil dokončení v rámci plánů, nakonec opuštěných, na přesun nádraží jižním směrem",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1940,
-    "text": "2. července byla na Svratce slavnostně uvedena do provozu Brněnská přehrada; jejímu vzniku padla za oběť zatopená vesnice Kníničky"
+    "text": "2. července byla na Svratce slavnostně uvedena do provozu Brněnská přehrada; jejímu vzniku padla za oběť zatopená vesnice Kníničky",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1941,
-    "text": "16. listopadu vypravilo gestapo z Brna první transport zdejších Židů na východ do Minsku, odkud se téměř nikdo nevrátil"
+    "text": "16. listopadu vypravilo gestapo z Brna první transport zdejších Židů na východ do Minsku, odkud se téměř nikdo nevrátil",
+    "rel": [
+      5,
+      4,
+      2,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "brno",
     "year": 1942,
-    "text": "z brněnského nádraží odjížděly transporty do terezínského ghetta; jen 19. března byl vypraven transport tisíce lidí"
+    "text": "z brněnského nádraží odjížděly transporty do terezínského ghetta; jen 19. března byl vypraven transport tisíce lidí",
+    "rel": [
+      5,
+      4,
+      2,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "brno",
     "year": 1944,
-    "text": "25. srpna zasáhl Brno první velký americký nálet mířený na zbrojní a letecké závody, který si vyžádal kolem 200 mrtvých"
+    "text": "25. srpna zasáhl Brno první velký americký nálet mířený na zbrojní a letecké závody, který si vyžádal kolem 200 mrtvých",
+    "rel": [
+      5,
+      4,
+      3,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "brno",
     "year": 1946,
-    "text": "15. března předala Zbrojovka prvním zákazníkům tři traktory Zetor 25 — značka se brzy stala československým exportním hitem"
+    "text": "15. března předala Zbrojovka prvním zákazníkům tři traktory Zetor 25 — značka se brzy stala československým exportním hitem",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1953,
-    "text": "na podzim se otevřel fotbalový a atletický stadion Za Lužánkami zápasem proti moskevskému Dynamu"
+    "text": "na podzim se otevřel fotbalový a atletický stadion Za Lužánkami zápasem proti moskevskému Dynamu",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 1961,
-    "text": "1. dubna vznikla sloučením obrazárny Moravského muzea a uměleckoprůmyslového muzea Moravská galerie, druhá největší sbírka umění v zemi"
+    "text": "1. dubna vznikla sloučením obrazárny Moravského muzea a uměleckoprůmyslového muzea Moravská galerie, druhá největší sbírka umění v zemi",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 1962,
-    "text": "hrad Špilberk byl prohlášen národní kulturní památkou a postupně se proměnil v sídlo Muzea města Brna"
+    "text": "hrad Špilberk byl prohlášen národní kulturní památkou a postupně se proměnil v sídlo Muzea města Brna",
+    "rel": [
+      5,
+      1,
+      3,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 1965,
-    "text": "ke stému výročí Mendelových pokusů se ve starobrněnském klášteře otevřelo Mendelianum a v srpnu se konalo mezinárodní mendelovské sympozium"
+    "text": "ke stému výročí Mendelových pokusů se ve starobrněnském klášteře otevřelo Mendelianum a v srpnu se konalo mezinárodní mendelovské sympozium",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1966,
-    "text": "hokejová Kometa pod hlavičkou ZKL Brno získala sedmý titul v řadě a uzavřela tak éru jedenácti československých mistrovských titulů"
+    "text": "hokejová Kometa pod hlavičkou ZKL Brno získala sedmý titul v řadě a uzavřela tak éru jedenácti československých mistrovských titulů",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      2,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1970,
-    "text": "dokončilo se sídliště Lesná, ceněná zahradní čtvrť panelových domů zasazená do lesního údolí na severu města"
+    "text": "dokončilo se sídliště Lesná, ceněná zahradní čtvrť panelových domů zasazená do lesního údolí na severu města",
+    "rel": [
+      5,
+      4,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1978,
-    "text": "fotbalová Zbrojovka Brno se stala mistrem československé ligy; nejlepším střelcem soutěže byl její Karel Kroupa"
+    "text": "fotbalová Zbrojovka Brno se stala mistrem československé ligy; nejlepším střelcem soutěže byl její Karel Kroupa",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 1987,
-    "text": "na okraji města se otevřel nový stálý Masarykův okruh, který Brnu vrátil podnik mistrovství světa silničních motocyklů"
+    "text": "na okraji města se otevřel nový stálý Masarykův okruh, který Brnu vrátil podnik mistrovství světa silničních motocyklů",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1989,
-    "text": "během sametové revoluce prošlo centrem Brna na 30 000 lidí žádajících konec vlády komunistů"
+    "text": "během sametové revoluce prošlo centrem Brna na 30 000 lidí žádajících konec vlády komunistů",
+    "rel": [
+      5,
+      5,
+      5,
+      0,
+      5,
+      4
+    ]
   },
   {
     "city": "brno",
     "year": 1992,
-    "text": "ve vile Tugendhat podepsali Václav Klaus a Vladimír Mečiar dohodu o rozdělení Československa"
+    "text": "ve vile Tugendhat podepsali Václav Klaus a Vladimír Mečiar dohodu o rozdělení Československa",
+    "rel": [
+      5,
+      3,
+      3,
+      2,
+      5,
+      5
+    ]
   },
   {
     "city": "brno",
     "year": 1993,
-    "text": "1. ledna začal v Brně působit Ústavní soud, záměrně umístěný jako protiváha pražské moci do druhého největšího města"
+    "text": "1. ledna začal v Brně působit Ústavní soud, záměrně umístěný jako protiváha pražské moci do druhého největšího města",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "brno",
     "year": 1996,
-    "text": "ligový zápas Boby Brno proti pražské Slavii přilákal na stadion Za Lužánkami kolem 44 000 diváků — rekord české ligy"
+    "text": "ligový zápas Boby Brno proti pražské Slavii přilákal na stadion Za Lužánkami kolem 44 000 diváků — rekord české ligy",
+    "rel": [
+      5,
+      1,
+      4,
+      2,
+      1,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 1998,
-    "text": "na hladině Brněnské přehrady se poprvé konal mezinárodní ohňostrojný festival Ignis Brunensis"
+    "text": "na hladině Brněnské přehrady se poprvé konal mezinárodní ohňostrojný festival Ignis Brunensis",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 1999,
-    "text": "u Modřic na jižním okraji vyrostlo nákupní a zábavní centrum Olympia, první moderní obchodní centrum brněnské aglomerace"
+    "text": "u Modřic na jižním okraji vyrostlo nákupní a zábavní centrum Olympia, první moderní obchodní centrum brněnské aglomerace",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 2000,
-    "text": "Brno se při krajské reformě stalo sídlem nově vzniklého Jihomoravského kraje"
+    "text": "Brno se při krajské reformě stalo sídlem nově vzniklého Jihomoravského kraje",
+    "rel": [
+      5,
+      1,
+      3,
+      0,
+      4,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 2001,
-    "text": "16. prosince zapsalo zasedání UNESCO v Helsinkách vilu Tugendhat na seznam světového dědictví"
+    "text": "16. prosince zapsalo zasedání UNESCO v Helsinkách vilu Tugendhat na seznam světového dědictví",
+    "rel": [
+      5,
+      1,
+      3,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 2003,
-    "text": "2. ledna zahájil v Brně činnost Nejvyšší správní soud, čímž se město dále profilovalo jako soudní centrum republiky"
+    "text": "2. ledna zahájil v Brně činnost Nejvyšší správní soud, čímž se město dále profilovalo jako soudní centrum republiky",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 2005,
-    "text": "23. března se otevřela Galerie Vaňkovka, postavená na místě bývalé strojírny mezi hlavním a autobusovým nádražím"
+    "text": "23. března se otevřela Galerie Vaňkovka, postavená na místě bývalé strojírny mezi hlavním a autobusovým nádražím",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 2008,
-    "text": "rozběhl se operní bienále Janáček Brno, jediný festival na světě uvádějící Janáčka tam, kde žil a tvořil"
+    "text": "rozběhl se operní bienále Janáček Brno, jediný festival na světě uvádějící Janáčka tam, kde žil a tvořil",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 2010,
-    "text": "rozjel se společný projekt kraje, města a Povodí Moravy na vyčištění Brněnské přehrady od sinic pomocí aeračních věží a dávkování síranu"
+    "text": "rozjel se společný projekt kraje, města a Povodí Moravy na vyčištění Brněnské přehrady od sinic pomocí aeračních věží a dávkování síranu",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 2011,
-    "text": "několik brněnských univerzit a ústavů založilo špičkové vědecké centrum CEITEC zaměřené na vědy o živé přírodě a nanotechnologie"
+    "text": "několik brněnských univerzit a ústavů založilo špičkové vědecké centrum CEITEC zaměřené na vědy o živé přírodě a nanotechnologie",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      3,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 2012,
-    "text": "v Bohunicích se otevřel univerzitní kampus Masarykovy univerzity, největší vysokoškolský areál v zemi"
+    "text": "v Bohunicích se otevřel univerzitní kampus Masarykovy univerzity, největší vysokoškolský areál v zemi",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 2012,
-    "text": "v srpnu byl zprovozněn 1,2kilometrový Královopolský tunel, klíčová část velkého městského okruhu spojující Brno s dálnicí D1"
+    "text": "v srpnu byl zprovozněn 1,2kilometrový Královopolský tunel, klíčová část velkého městského okruhu spojující Brno s dálnicí D1",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      4,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 2013,
-    "text": "ve Štýřicích byla dokončena 111 metrů vysoká AZ Tower, jež se stala nejvyšší budovou v České republice"
+    "text": "ve Štýřicích byla dokončena 111 metrů vysoká AZ Tower, jež se stala nejvyšší budovou v České republice",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "brno",
     "year": 2017,
-    "text": "hokejová Kometa Brno získala titul mistra extraligy, první pro klub od roku 1966"
+    "text": "hokejová Kometa Brno získala titul mistra extraligy, první pro klub od roku 1966",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      1,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 2018,
-    "text": "Kometa Brno obhájila mistrovský titul a slavila druhé vítězství v extralize za sebou"
+    "text": "Kometa Brno obhájila mistrovský titul a slavila druhé vítězství v extralize za sebou",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      1,
+      1
+    ]
   },
   {
     "city": "brno",
     "year": 2022,
-    "text": "Brno velkolepě oslavilo 200 let od narození Gregora Mendela; k výročí vědci sekvenovali jeho DNA z exhumovaných ostatků"
+    "text": "Brno velkolepě oslavilo 200 let od narození Gregora Mendela; k výročí vědci sekvenovali jeho DNA z exhumovaných ostatků",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      1,
+      3
+    ]
   },
   {
     "city": "brno",
     "year": 2022,
-    "text": "v prosinci se otevřelo prodloužení tramvaje k bohunickému kampusu a fakultní nemocnici"
+    "text": "v prosinci se otevřelo prodloužení tramvaje k bohunickému kampusu a fakultní nemocnici",
+    "rel": [
+      5,
+      2,
+      2,
+      1,
+      4,
+      1
+    ]
   }
 ]

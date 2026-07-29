@@ -2,56 +2,144 @@
   {
     "city": "sumperk",
     "year": 1938,
-    "text": "připojeno k Sudetengau"
+    "text": "připojeno k Sudetengau",
+    "rel": [
+      5,
+      5,
+      4,
+      0,
+      5,
+      1
+    ]
   },
   {
     "city": "sumperk",
     "year": 1945,
-    "text": "etnické německé obyvatelstvo bylo vyhnáno; textilní průmysl přešel pod českou správu"
+    "text": "etnické německé obyvatelstvo bylo vyhnáno; textilní průmysl přešel pod českou správu",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "sumperk",
     "year": 1948,
-    "text": "hedvábnické závody Hedva byly znárodněny a modernizovány v rámci socialistického plánování"
+    "text": "hedvábnické závody Hedva byly znárodněny a modernizovány v rámci socialistického plánování",
+    "rel": [
+      5,
+      3,
+      3,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "sumperk",
     "year": 1968,
-    "text": "šumperské oblastní divadlo uvedlo během Pražského jara českou adaptaci Brechtovy Matky Kuráže"
+    "text": "šumperské oblastní divadlo uvedlo během Pražského jara českou adaptaci Brechtovy Matky Kuráže",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      1,
+      3
+    ]
   },
   {
     "city": "sumperk",
     "year": 1975,
-    "text": "závod na tvrdé kovy Pramet zaměstnával několik tisíc lidí a vyvážel nástroje z karbidu wolframu po celém bloku"
+    "text": "závod na tvrdé kovy Pramet zaměstnával několik tisíc lidí a vyvážel nástroje z karbidu wolframu po celém bloku",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "sumperk",
     "year": 1951,
-    "text": "1. srpna zahájilo v budově bývalého německého spolkového domu činnost české profesionální divadlo"
+    "text": "1. srpna zahájilo v budově bývalého německého spolkového domu činnost české profesionální divadlo",
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "sumperk",
     "year": 1990,
-    "text": "z města i z okolí Jeseníků odešly po více než dvou desetiletích poslední sovětské jednotky"
+    "text": "z města i z okolí Jeseníků odešly po více než dvou desetiletích poslední sovětské jednotky",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "sumperk",
     "year": 1994,
-    "text": "v říjnu zničil požár interiér šumperského divadla a budova prošla několikaletou rekonstrukcí"
+    "text": "v říjnu zničil požár interiér šumperského divadla a budova prošla několikaletou rekonstrukcí",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "sumperk",
     "year": 1997,
-    "text": "červencová povodeň začala v Jeseníkách a na Šumpersku a Jesenicku si vyžádala pět životů a škody přes čtyři miliardy korun"
+    "text": "červencová povodeň začala v Jeseníkách a na Šumpersku a Jesenicku si vyžádala pět životů a škody přes čtyři miliardy korun",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      4,
+      4
+    ]
   },
   {
     "city": "sumperk",
     "year": 2000,
-    "text": "7. října se po obnově znovu otevřelo divadlo zničené před šesti lety požárem"
+    "text": "7. října se po obnově znovu otevřelo divadlo zničené před šesti lety požárem",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      3,
+      2
+    ]
   },
   {
     "city": "sumperk",
     "year": 2010,
-    "text": "v Geschaderově domě byla otevřena stálá expozice čarodějnických procesů, které na Šumpersku v 17. století poslaly na hranici přes sto lidí"
+    "text": "v Geschaderově domě byla otevřena stálá expozice čarodějnických procesů, které na Šumpersku v 17. století poslaly na hranici přes sto lidí",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      3
+    ]
   }
 ]

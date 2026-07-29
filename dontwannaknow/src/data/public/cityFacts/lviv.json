@@ -2,456 +2,1184 @@
   {
     "city": "lviv",
     "year": 1920,
-    "text": "Lvov (Lwów) byl po polsko-ukrajinské válce pevnou součástí meziválečného Polska"
+    "text": "Lvov (Lwów) byl po polsko-ukrajinské válce pevnou součástí meziválečného Polska",
+    "rel": [
+      5,
+      3,
+      4,
+      1,
+      4,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1921,
-    "text": "sovětsko-polská hranice byla stanovena v Rize, čímž Lvov pevně zůstal v meziválečném Polsku jako Lwów"
+    "text": "sovětsko-polská hranice byla stanovena v Rize, čímž Lvov pevně zůstal v meziválečném Polsku jako Lwów",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      4,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1924,
-    "text": "polský Sejm schválil zákon Lex Grabski omezující ukrajinskojazyčné vzdělávání ve východní Haliči"
+    "text": "polský Sejm schválil zákon Lex Grabski omezující ukrajinskojazyčné vzdělávání ve východní Haliči",
+    "rel": [
+      4,
+      3,
+      3,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1929,
-    "text": "Organizace ukrajinských nacionalistů byla založena na vídeňském kongresu se silnou účastí lvovských studentů"
+    "text": "Organizace ukrajinských nacionalistů byla založena na vídeňském kongresu se silnou účastí lvovských studentů",
+    "rel": [
+      3,
+      1,
+      2,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1934,
-    "text": "polský ministr vnitra Bronisław Pieracki byl zavražděn, což vyvolalo internaci lvovských aktivistů OUN v Bereze Kartuské"
+    "text": "polský ministr vnitra Bronisław Pieracki byl zavražděn, což vyvolalo internaci lvovských aktivistů OUN v Bereze Kartuské",
+    "rel": [
+      4,
+      2,
+      3,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1936,
-    "text": "komunistické nepokoje po pohřbu dělníka Władysława Kozaka byly krvavě potlačeny"
+    "text": "komunistické nepokoje po pohřbu dělníka Władysława Kozaka byly krvavě potlačeny",
+    "rel": [
+      5,
+      3,
+      3,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1939,
-    "text": "sovětská Rudá armáda obsadila město v září po paktu Molotov-Ribbentrop"
+    "text": "sovětská Rudá armáda obsadila město v září po paktu Molotov-Ribbentrop",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1940,
-    "text": "NKVD prováděla ze lvovského nádraží masové deportace polských a ukrajinských rodin do Kazachstánu a na Sibiř"
+    "text": "NKVD prováděla ze lvovského nádraží masové deportace polských a ukrajinských rodin do Kazachstánu a na Sibiř",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1941,
-    "text": "nacistické síly obsadily město; následovaly lvovské pogromy a lvovské ghetto"
+    "text": "nacistické síly obsadily město; následovaly lvovské pogromy a lvovské ghetto",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1941,
-    "text": "Jaroslav Stecko vyhlásil 30. června na Rynku č. 32 obnovení ukrajinské státnosti"
+    "text": "Jaroslav Stecko vyhlásil 30. června na Rynku č. 32 obnovení ukrajinské státnosti",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      4,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1941,
-    "text": "vězni NKVD byli před sovětským ústupem zmasakrováni v Brygidkách a dalších věznicích"
+    "text": "vězni NKVD byli před sovětským ústupem zmasakrováni v Brygidkách a dalších věznicích",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1942,
-    "text": "koncentrační tábor Janowska na okraji města se stal velkým místem vraždění"
+    "text": "koncentrační tábor Janowska na okraji města se stal velkým místem vraždění",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1943,
-    "text": "koncentrační tábor Janowska na okraji Lvova byl zlikvidován; bylo tam zabito několik desítek tisíc lidí"
+    "text": "koncentrační tábor Janowska na okraji Lvova byl zlikvidován; bylo tam zabito několik desítek tisíc lidí",
+    "rel": [
+      5,
+      4,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1943,
-    "text": "matematici lvovské školy se i poté, co byla většina z nich zabita nebo uprchla, dál scházeli ve Skotské kavárně"
+    "text": "matematici lvovské školy se i poté, co byla většina z nich zabita nebo uprchla, dál scházeli ve Skotské kavárně",
+    "rel": [
+      5,
+      0,
+      1,
+      4,
+      2,
+      5
+    ]
   },
   {
     "city": "lviv",
     "year": 1944,
-    "text": "Rudá armáda dobyla Lvov zpět v červenci"
+    "text": "Rudá armáda dobyla Lvov zpět v červenci",
+    "rel": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1944,
-    "text": "metropolita řeckokatolické církve Andrej Šeptyckyj zemřel 1. listopadu"
+    "text": "metropolita řeckokatolické církve Andrej Šeptyckyj zemřel 1. listopadu",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1945,
-    "text": "lvovský pseudosynod zlikvidoval Ukrajinskou řeckokatolickou církev a vynutil sjednocení s Ruskou pravoslavnou církví"
+    "text": "lvovský pseudosynod zlikvidoval Ukrajinskou řeckokatolickou církev a vynutil sjednocení s Ruskou pravoslavnou církví",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      5
+    ]
   },
   {
     "city": "lviv",
     "year": 1946,
-    "text": "polské obyvatelstvo města bylo přesunuto na západ; nastěhovali se Ukrajinci z polského území"
+    "text": "polské obyvatelstvo města bylo přesunuto na západ; nastěhovali se Ukrajinci z polského území",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      5
+    ]
   },
   {
     "city": "lviv",
     "year": 1946,
-    "text": "metropolita Josyf Slipyj byl odsouzen do pracovního tábora"
+    "text": "metropolita Josyf Slipyj byl odsouzen do pracovního tábora",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1948,
-    "text": "spisovatel Jaroslav Halan byl zavražděn sekerou studenty napojenými na OUN"
+    "text": "spisovatel Jaroslav Halan byl zavražděn sekerou studenty napojenými na OUN",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1950,
-    "text": "byla založena Lvovská autobuska, která měla později vyrábět městský autobus LAZ-695"
+    "text": "byla založena Lvovská autobuska, která měla později vyrábět městský autobus LAZ-695",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      2
+    ]
   },
   {
     "city": "lviv",
     "year": 1956,
-    "text": "lvovská televizní věž zahájila vysílání"
+    "text": "lvovská televizní věž zahájila vysílání",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "lviv",
     "year": 1959,
-    "text": "televizní továrna Kineskop začala vyrábět prototypy barevných obrazovek"
+    "text": "televizní továrna Kineskop začala vyrábět prototypy barevných obrazovek",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      2,
+      2
+    ]
   },
   {
     "city": "lviv",
     "year": 1961,
-    "text": "Ukrajinský svaz dělníků a rolníků vedený Levkem Lukjanenkem byl rozdrcen a jeho členové souzeni ve Lvově"
+    "text": "Ukrajinský svaz dělníků a rolníků vedený Levkem Lukjanenkem byl rozdrcen a jeho členové souzeni ve Lvově",
+    "rel": [
+      5,
+      1,
+      1,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1963,
-    "text": "Vjačeslav Čornovil začal dokumentovat politické procesy, což vedlo k jeho vlastnímu stíhání"
+    "text": "Vjačeslav Čornovil začal dokumentovat politické procesy, což vedlo k jeho vlastnímu stíhání",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1965,
-    "text": "Ivan Dzjuba a Vasyl Stus protestovali proti zatýkání lvovské inteligence v kině Ukrajina"
+    "text": "Ivan Dzjuba a Vasyl Stus protestovali proti zatýkání lvovské inteligence v kině Ukrajina",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1970,
-    "text": "Lvov se stal tichým centrem ukrajinské disidentské kultury a undergroundového samizdatu"
+    "text": "Lvov se stal tichým centrem ukrajinské disidentské kultury a undergroundového samizdatu",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1970,
-    "text": "okruh malíře Romana Selského dál vyučoval na Lvovském institutu užitého umění"
+    "text": "okruh malíře Romana Selského dál vyučoval na Lvovském institutu užitého umění",
+    "rel": [
+      5,
+      1,
+      1,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1972,
-    "text": "obnovená vlna zatýkání zasáhla lvovské šistdesjatnyky včetně Iryny Kalynec"
+    "text": "obnovená vlna zatýkání zasáhla lvovské šistdesjatnyky včetně Iryny Kalynec",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1978,
-    "text": "Oleksa Hirnyk se upálil u Ševčenkova pomníku v Kanivu, ale byl rodákem ze Lvovska protestujícím proti rusifikaci"
+    "text": "Oleksa Hirnyk se upálil u Ševčenkova pomníku v Kanivu, ale byl rodákem ze Lvovska protestujícím proti rusifikaci",
+    "rel": [
+      3,
+      1,
+      2,
+      4,
+      2,
+      2
+    ]
   },
   {
     "city": "lviv",
     "year": 1980,
-    "text": "ve Lvovské autobusce byla zahájena výroba městského autobusu LAZ-4202"
+    "text": "ve Lvovské autobusce byla zahájena výroba městského autobusu LAZ-4202",
+    "rel": [
+      5,
+      2,
+      3,
+      2,
+      3,
+      1
+    ]
   },
   {
     "city": "lviv",
     "year": 1922,
-    "text": "Lwów (tehdy polský) hostil Východní veletrh, významnou středoevropskou obchodní událost"
+    "text": "Lwów (tehdy polský) hostil Východní veletrh, významnou středoevropskou obchodní událost",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1924,
-    "text": "polskojazyčná Univerzita Jana Kazimíra byla po Varšavě druhá největší v Polsku"
+    "text": "polskojazyčná Univerzita Jana Kazimíra byla po Varšavě druhá největší v Polsku",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1930,
-    "text": "Lvovská matematická škola — Banach, Steinhaus, Mazur — pořádala své legendární pracovní schůzky ve Skotské kavárně"
+    "text": "Lvovská matematická škola — Banach, Steinhaus, Mazur — pořádala své legendární pracovní schůzky ve Skotské kavárně",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1938,
-    "text": "předválečné židovské obyvatelstvo města dosáhlo 110 000 — asi třetiny Lvova"
+    "text": "předválečné židovské obyvatelstvo města dosáhlo 110 000 — asi třetiny Lvova",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1939,
-    "text": "sovětská anexe: tajná policie pochytala polskou inteligenci a deportovala desetitisíce lidí na východ"
+    "text": "sovětská anexe: tajná policie pochytala polskou inteligenci a deportovala desetitisíce lidí na východ",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1940,
-    "text": "první sovětská deportační vlna ze Lvova poslala asi 40 000 Poláků do kazašských a sibiřských táborů"
+    "text": "první sovětská deportační vlna ze Lvova poslala asi 40 000 Poláků do kazašských a sibiřských táborů",
+    "rel": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1941,
-    "text": "jak se Sověti v červnu stahovali, zmasakrovala NKVD politické vězně ve lvovských věznicích Brygidki, Łącki a Zamarstynów"
+    "text": "jak se Sověti v červnu stahovali, zmasakrovala NKVD politické vězně ve lvovských věznicích Brygidki, Łącki a Zamarstynów",
+    "rel": [
+      5,
+      4,
+      4,
+      4,
+      5,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1942,
-    "text": "lvovské ghetto bylo uzavřeno; pracovní tábor Janowska na okraji běžel ve dne v noci"
+    "text": "lvovské ghetto bylo uzavřeno; pracovní tábor Janowska na okraji běžel ve dne v noci",
+    "rel": [
+      5,
+      5,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1944,
-    "text": "lvovsko-sandoměřská ofenziva v červenci osvobodila město; Rudá armáda poté vyhnala polsky mluvící obyvatelstvo na západ"
+    "text": "lvovsko-sandoměřská ofenziva v červenci osvobodila město; Rudá armáda poté vyhnala polsky mluvící obyvatelstvo na západ",
+    "rel": [
+      5,
+      5,
+      5,
+      3,
+      5,
+      5
+    ]
   },
   {
     "city": "lviv",
     "year": 1946,
-    "text": "sovětský 'lvovský sněm' zlikvidoval řeckokatolickou církev a násilně ji sloučil s ruským pravoslavným patriarchátem"
+    "text": "sovětský 'lvovský sněm' zlikvidoval řeckokatolickou církev a násilně ji sloučil s ruským pravoslavným patriarchátem",
+    "rel": [
+      5,
+      4,
+      4,
+      4,
+      5,
+      5
+    ]
   },
   {
     "city": "lviv",
     "year": 1965,
-    "text": "animační oddělení lvovského filmového studia vyrábělo sovětské hity a tiše pěstovalo ukrajinskojazyčnou tvorbu"
+    "text": "animační oddělení lvovského filmového studia vyrábělo sovětské hity a tiše pěstovalo ukrajinskojazyčnou tvorbu",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1970,
-    "text": "Lvovská státní univerzita otevřela na Univerzitní ulici nový fyzikální kampus"
+    "text": "Lvovská státní univerzita otevřela na Univerzitní ulici nový fyzikální kampus",
+    "rel": [
+      5,
+      1,
+      2,
+      1,
+      2,
+      1
+    ]
   },
   {
     "city": "lviv",
     "year": 1976,
-    "text": "mnoho zakladatelů Ukrajinské helsinské skupiny pocházelo ze lvovských intelektuálních kruhů"
+    "text": "mnoho zakladatelů Ukrajinské helsinské skupiny pocházelo ze lvovských intelektuálních kruhů",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1940,
-    "text": "po sovětské anexi byla univerzita přejmenována po Ivanu Frankovi a převedena na výuku v ukrajinštině a ruštině"
+    "text": "po sovětské anexi byla univerzita přejmenována po Ivanu Frankovi a převedena na výuku v ukrajinštině a ruštině",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1944,
-    "text": "po válce se Lvov stal správním centrem nově zřízené Lvovské oblasti Ukrajinské SSR"
+    "text": "po válce se Lvov stal správním centrem nově zřízené Lvovské oblasti Ukrajinské SSR",
+    "rel": [
+      5,
+      2,
+      2,
+      1,
+      5,
+      1
+    ]
   },
   {
     "city": "lviv",
     "year": 1945,
-    "text": "Lvovský automobilový závod LAZ zahájil činnost a stal se největším průmyslovým podnikem města"
+    "text": "Lvovský automobilový závod LAZ zahájil činnost a stal se největším průmyslovým podnikem města",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1946,
-    "text": "při poválečném odsunu opustilo Lvov asi 100 000 až 140 000 Poláků, kteří před válkou tvořili většinu města"
+    "text": "při poválečném odsunu opustilo Lvov asi 100 000 až 140 000 Poláků, kteří před válkou tvořili většinu města",
+    "rel": [
+      5,
+      5,
+      4,
+      4,
+      5,
+      5
+    ]
   },
   {
     "city": "lviv",
     "year": 1946,
-    "text": "srpnový pětiletý plán určil Lvov k přeměně ve velké sovětské průmyslové centrum"
+    "text": "srpnový pětiletý plán určil Lvov k přeměně ve velké sovětské průmyslové centrum",
+    "rel": [
+      5,
+      3,
+      2,
+      2,
+      5,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1950,
-    "text": "velitel UPA Roman Šuchevyč padl při sovětské operaci poblíž Bilohoršče na okraji Lvova"
+    "text": "velitel UPA Roman Šuchevyč padl při sovětské operaci poblíž Bilohoršče na okraji Lvova",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1957,
-    "text": "z linky nové televizní továrny sjel 2. října první přijímač značky Lviv"
+    "text": "z linky nové televizní továrny sjel 2. října první přijímač značky Lviv",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      4,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1959,
-    "text": "počet obyvatel poválečně rostoucího Lvova dosáhl 411 000"
+    "text": "počet obyvatel poválečně rostoucího Lvova dosáhl 411 000",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      2,
+      2
+    ]
   },
   {
     "city": "lviv",
     "year": 1963,
-    "text": "byl založen fotbalový klub Karpaty Lviv, nejmladší z velkých ukrajinských klubů"
+    "text": "byl založen fotbalový klub Karpaty Lviv, nejmladší z velkých ukrajinských klubů",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "lviv",
     "year": 1963,
-    "text": "18. srpna byl otevřen stadion Ukrajina úvodním zápasem Karpat proti vilniuskému Žalgirisu"
+    "text": "18. srpna byl otevřen stadion Ukrajina úvodním zápasem Karpat proti vilniuskému Žalgirisu",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      1
+    ]
   },
   {
     "city": "lviv",
     "year": 1969,
-    "text": "17. srpna se Karpaty staly jediným druholigovým týmem v dějinách SSSR, který vyhrál sovětský pohár, když porazily armádní SKA Rostov"
+    "text": "17. srpna se Karpaty staly jediným druholigovým týmem v dějinách SSSR, který vyhrál sovětský pohár, když porazily armádní SKA Rostov",
+    "rel": [
+      5,
+      3,
+      4,
+      4,
+      3,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1972,
-    "text": "12. ledna začala KGB při představení vánočního vertepu zatýkat lvovské šistdesjatnyky a věznit je v žaláři na Łąckého ulici"
+    "text": "12. ledna začala KGB při představení vánočního vertepu zatýkat lvovské šistdesjatnyky a věznit je v žaláři na Łąckého ulici",
+    "rel": [
+      5,
+      2,
+      2,
+      4,
+      4,
+      5
+    ]
   },
   {
     "city": "lviv",
     "year": 1974,
-    "text": "z Lvovského autobusového závodu sjel stotisící autobus LAZ"
+    "text": "z Lvovského autobusového závodu sjel stotisící autobus LAZ",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "lviv",
     "year": 1976,
-    "text": "Karpaty obsadily 4. místo v nejvyšší sovětské lize, svůj nejlepší výsledek, před návštěvami přes 30 000 diváků"
+    "text": "Karpaty obsadily 4. místo v nejvyšší sovětské lize, svůj nejlepší výsledek, před návštěvami přes 30 000 diváků",
+    "rel": [
+      5,
+      2,
+      4,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1979,
-    "text": "počet obyvatel města vzrostl industrializací na 665 000, převážně Ukrajinců s velkou ruskou menšinou"
+    "text": "počet obyvatel města vzrostl industrializací na 665 000, převážně Ukrajinců s velkou ruskou menšinou",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1987,
-    "text": "19. října vzniklo Tovarystvo leva, které oživovalo ukrajinskou kulturu a haličskou identitu města"
+    "text": "19. října vzniklo Tovarystvo leva, které oživovalo ukrajinskou kulturu a haličskou identitu města",
+    "rel": [
+      5,
+      2,
+      2,
+      4,
+      4,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1989,
-    "text": "17. září se ve městě sešlo asi 100 000 lidí na největší demonstraci za nezávislost Ukrajiny"
+    "text": "17. září se ve městě sešlo asi 100 000 lidí na největší demonstraci za nezávislost Ukrajiny",
+    "rel": [
+      5,
+      3,
+      5,
+      2,
+      5,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1990,
-    "text": "21. ledna se Lvov zapojil do živého řetězu napříč Ukrajinou připomínajícího sjednocení ukrajinských zemí z roku 1919"
+    "text": "21. ledna se Lvov zapojil do živého řetězu napříč Ukrajinou připomínajícího sjednocení ukrajinských zemí z roku 1919",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1990,
-    "text": "na jaře získalo hnutí Ruch většinu v městské radě a nad Lvovem zavlály modro-žluté vlajky"
+    "text": "na jaře získalo hnutí Ruch většinu v městské radě a nad Lvovem zavlály modro-žluté vlajky",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1990,
-    "text": "Vjačeslav Čornovil se stal předsedou Lvovské oblastní rady"
+    "text": "Vjačeslav Čornovil se stal předsedou Lvovské oblastní rady",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      3,
+      1
+    ]
   },
   {
     "city": "lviv",
     "year": 1990,
-    "text": "14. září byl před zraky desítek tisíc lidí stržen lvovský pomník Lenina, jediný na Ukrajině s jeho jménem v ukrajinštině"
+    "text": "14. září byl před zraky desítek tisíc lidí stržen lvovský pomník Lenina, jediný na Ukrajině s jeho jménem v ukrajinštině",
+    "rel": [
+      5,
+      3,
+      5,
+      3,
+      5,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 1991,
-    "text": "16. února zasedlo ve Lvově Haličské shromáždění oblastních rad Lvova, Ternopilu a Ivano-Frankivsku"
+    "text": "16. února zasedlo ve Lvově Haličské shromáždění oblastních rad Lvova, Ternopilu a Ivano-Frankivsku",
+    "rel": [
+      5,
+      1,
+      2,
+      4,
+      2,
+      2
+    ]
   },
   {
     "city": "lviv",
     "year": 1991,
-    "text": "25. srpna zaplavily ulice Lvova statisíce lidí slavících vyhlášení nezávislosti Ukrajiny"
+    "text": "25. srpna zaplavily ulice Lvova statisíce lidí slavících vyhlášení nezávislosti Ukrajiny",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1991,
-    "text": "1. prosince hlasovalo Lvovsko v referendu o nezávislosti Ukrajiny drtivou většinou pro"
+    "text": "1. prosince hlasovalo Lvovsko v referendu o nezávislosti Ukrajiny drtivou většinou pro",
+    "rel": [
+      4,
+      2,
+      5,
+      1,
+      5,
+      2
+    ]
   },
   {
     "city": "lviv",
     "year": 1992,
-    "text": "ostatky kardinála Josyfa Slipého byly přeneseny z Říma a 27. srpna uloženy v kryptě katedrály svatého Jiří"
+    "text": "ostatky kardinála Josyfa Slipého byly přeneseny z Říma a 27. srpna uloženy v kryptě katedrály svatého Jiří",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      3,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1993,
-    "text": "Lvovský polytechnický institut, nejstarší technická škola na Ukrajině, získal status univerzity"
+    "text": "Lvovský polytechnický institut, nejstarší technická škola na Ukrajině, získal status univerzity",
+    "rel": [
+      5,
+      1,
+      2,
+      2,
+      3,
+      1
+    ]
   },
   {
     "city": "lviv",
     "year": 1998,
-    "text": "5. prosince byl historický střed Lvova zapsán na seznam světového dědictví UNESCO"
+    "text": "5. prosince byl historický střed Lvova zapsán na seznam světového dědictví UNESCO",
+    "rel": [
+      5,
+      2,
+      4,
+      1,
+      5,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 2000,
-    "text": "lvovská opera byla u příležitosti stého výročí pojmenována po sopranistce Solomiji Krušelnycké"
+    "text": "lvovská opera byla u příležitosti stého výročí pojmenována po sopranistce Solomiji Krušelnycké",
+    "rel": [
+      5,
+      1,
+      2,
+      3,
+      2,
+      1
+    ]
   },
   {
     "city": "lviv",
     "year": 2001,
-    "text": "25. června navštívil Lvov papež Jan Pavel II. a před asi 1,2 milionu věřících blahořečil 28 řeckokatolických mučedníků"
+    "text": "25. června navštívil Lvov papež Jan Pavel II. a před asi 1,2 milionu věřících blahořečil 28 řeckokatolických mučedníků",
+    "rel": [
+      5,
+      4,
+      5,
+      3,
+      3,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 2002,
-    "text": "27. července se na letišti Sknyliv zřítil při letecké přehlídce stíhací Su-27 do davu; 77 obětí z toho udělalo nejhorší přehlídkovou leteckou katastrofu v dějinách"
+    "text": "27. července se na letišti Sknyliv zřítil při letecké přehlídce stíhací Su-27 do davu; 77 obětí z toho udělalo nejhorší přehlídkovou leteckou katastrofu v dějinách",
+    "rel": [
+      5,
+      3,
+      5,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 2009,
-    "text": "lvovský IT klastr založený firmami jako SoftServe a ELEKS proměnil město v přední ukrajinské centrum softwaru"
+    "text": "lvovský IT klastr založený firmami jako SoftServe a ELEKS proměnil město v přední ukrajinské centrum softwaru",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 2011,
-    "text": "pro mistrovství Evropy ve fotbale byla otevřena nová Aréna Lviv jako domácí stadion Karpat"
+    "text": "pro mistrovství Evropy ve fotbale byla otevřena nová Aréna Lviv jako domácí stadion Karpat",
+    "rel": [
+      5,
+      2,
+      4,
+      2,
+      4,
+      2
+    ]
   },
   {
     "city": "lviv",
     "year": 2012,
-    "text": "Lvov hostil tři zápasy skupinové fáze fotbalového Eura a otevřel nový terminál mezinárodního letiště"
+    "text": "Lvov hostil tři zápasy skupinové fáze fotbalového Eura a otevřel nový terminál mezinárodního letiště",
+    "rel": [
+      5,
+      3,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 2014,
-    "text": "během revoluce důstojnosti obsadili 23. ledna protestující budovu Lvovské oblastní správy"
+    "text": "během revoluce důstojnosti obsadili 23. ledna protestující budovu Lvovské oblastní správy",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 2015,
-    "text": "v rámci dekomunizace už Lvov prakticky neměl žádné ulice se sovětskými názvy"
+    "text": "v rámci dekomunizace už Lvov prakticky neměl žádné ulice se sovětskými názvy",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 2016,
-    "text": "po smrtelném požáru jediné městské skládky v Hrybovyčích, kde zahynuli tři lidé, propukla ve Lvově odpadová krize"
+    "text": "po smrtelném požáru jediné městské skládky v Hrybovyčích, kde zahynuli tři lidé, propukla ve Lvově odpadová krize",
+    "rel": [
+      5,
+      3,
+      4,
+      4,
+      2,
+      4
+    ]
   },
   {
     "city": "lviv",
     "year": 2020,
-    "text": "tradiční Karpaty Lviv vyhlásily kvůli dluhům a pandemii covidu bankrot a opustily nejvyšší soutěž"
+    "text": "tradiční Karpaty Lviv vyhlásily kvůli dluhům a pandemii covidu bankrot a opustily nejvyšší soutěž",
+    "rel": [
+      5,
+      1,
+      4,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 2022,
-    "text": "po ruské invazi se Lvov stal hlavním útočištěm a uzlem pro uprchlíky mířící na západ"
+    "text": "po ruské invazi se Lvov stal hlavním útočištěm a uzlem pro uprchlíky mířící na západ",
+    "rel": [
+      5,
+      4,
+      5,
+      1,
+      4,
+      5
+    ]
   },
   {
     "city": "lviv",
     "year": 2022,
-    "text": "v březnu obyvatelé balili sochy svatých latinské katedrály a zakrývali vitráže plechem před možným bombardováním"
+    "text": "v březnu obyvatelé balili sochy svatých latinské katedrály a zakrývali vitráže plechem před možným bombardováním",
+    "rel": [
+      5,
+      2,
+      3,
+      4,
+      2,
+      5
+    ]
   },
   {
     "city": "lviv",
     "year": 2022,
-    "text": "13. března zasáhly ruské rakety vojenský polygon v Javoriv u Lvova a zahynuly desítky lidí"
+    "text": "13. března zasáhly ruské rakety vojenský polygon v Javoriv u Lvova a zahynuly desítky lidí",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      3,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 2022,
-    "text": "18. března zničil ruský raketový úder lvovský závod na opravu letadel"
+    "text": "18. března zničil ruský raketový úder lvovský závod na opravu letadel",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      2,
+      2
+    ]
   },
   {
     "city": "lviv",
     "year": 2023,
-    "text": "6. července zabil ruský raketový úder na obytný dům deset lidí; šlo o nejtěžší útok na civilní cíle ve městě od začátku invaze"
+    "text": "6. července zabil ruský raketový úder na obytný dům deset lidí; šlo o nejtěžší útok na civilní cíle ve městě od začátku invaze",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      3,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 2024,
-    "text": "4. září zabil ruský raketový úder na obytné domy sedm lidí včetně tří dětí"
+    "text": "4. září zabil ruský raketový úder na obytné domy sedm lidí včetně tří dětí",
+    "rel": [
+      5,
+      3,
+      4,
+      3,
+      3,
+      2
+    ]
   },
   {
     "city": "lviv",
     "year": 1964,
-    "text": "lvovský pivovar s tradicí od roku 1715, za císařství jeden ze tří nejlepších v Rakousku-Uhersku, byl znárodněn a přejmenován na závod Kolos"
+    "text": "lvovský pivovar s tradicí od roku 1715, za císařství jeden ze tří nejlepších v Rakousku-Uhersku, byl znárodněn a přejmenován na závod Kolos",
+    "rel": [
+      5,
+      1,
+      3,
+      4,
+      2,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 1944,
-    "text": "v červenci stvrdili Sověti návrat do města masovou manifestací před budovou lvovské opery"
+    "text": "v červenci stvrdili Sověti návrat do města masovou manifestací před budovou lvovské opery",
+    "rel": [
+      5,
+      3,
+      2,
+      3,
+      2,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 2012,
-    "text": "byl založen Lvovský IT klastr, vůbec první formální sdružení svého druhu na Ukrajině, jež z města učinilo softwarové centrum"
+    "text": "byl založen Lvovský IT klastr, vůbec první formální sdružení svého druhu na Ukrajině, jež z města učinilo softwarové centrum",
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      3
+    ]
   },
   {
     "city": "lviv",
     "year": 2023,
-    "text": "navzdory válce, výpadkům proudu a stannému právu obnovil lvovský pivovar výrobu a stal se symbolem ukrajinské vytrvalosti"
+    "text": "navzdory válce, výpadkům proudu a stannému právu obnovil lvovský pivovar výrobu a stal se symbolem ukrajinské vytrvalosti",
+    "rel": [
+      5,
+      1,
+      3,
+      2,
+      1,
+      2
+    ]
   }
 ]
