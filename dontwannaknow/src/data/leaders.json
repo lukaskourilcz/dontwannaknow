@@ -1,1 +1,2286 @@
-[]
+[
+  {
+    "id": "cz-masaryk",
+    "country": "CZ",
+    "name": "Tomáš Garrigue Masaryk",
+    "office": "prezident Československé republiky",
+    "termStart": 1918,
+    "termEnd": 1935,
+    "cameToPower": "Za první světové války vedl zahraniční odboj proti Rakousku-Uhersku a 14. listopadu 1918 jej revoluční Národní shromáždění zvolilo prvním prezidentem Československé republiky.",
+    "summary": "Zakladatel a první prezident Československa, který určil demokratický charakter meziválečného státu.",
+    "achievements": [
+      "Za první světové války zorganizoval zahraniční odboj a československé legie a získal podporu prezidenta Wilsona pro rozbití Rakouska-Uherska.",
+      "V roce 1899 se zasadil o revizi antisemitsky vedeného procesu s Leopoldem Hilsnerem.",
+      "V roce 1919 podepsal zákon o založení Masarykovy univerzity v Brně.",
+      "V úřadu prezidenta byl potvrzen třemi opětovnými volbami (1920, 1927, 1934)."
+    ],
+    "controversies": [
+      "V letech 1877–1886 zpochybnil pravost Rukopisu královédvorského a zelenohorského, za což jej část tehdejší veřejnosti označovala za vlastizrádce.",
+      "Za vystoupení v hilsneriádě čelil ostrým útokům tisku i studentů a zvažoval odchod ze země.",
+      "Historikové citovaní anglickou Wikipedií dokládají, že sám užíval dobové stereotypy o židovském vlivu na tisk."
+    ],
+    "reception": [
+      {
+        "period": "1918–1935",
+        "text": "Národní shromáždění jej zvolilo prezidentem čtyřikrát (1918, 1920, 1927, 1934) a v roce 1930 přijalo zákon s větou „Tomáš Garrigue Masaryk zasloužil se o stát“; legionáři jej nazývali „tatíčkem“, komunisté a slovenští nacionalisté však pro něj podle české Wikipedie nikdy nehlasovali.",
+        "source": {
+          "title": "Tomáš Garrigue Masaryk (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Garrigue_Masaryk",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "dvacátá a třicátá léta",
+        "text": "Doma i v zahraničí byl podle anglické Wikipedie oceňován jako zakladatel státu a „prezident Osvoboditel“; kritika zaznívala z katolických kruhů vůči protestantovi v čele převážně katolické země.",
+        "source": {
+          "title": "Tomáš Garrigue Masaryk (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Garrigue_Masaryk",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1989",
+        "text": "Historiografie mu podle anglické Wikipedie přiznává zásluhy o udržení demokracie v meziválečném Československu, zároveň však kritičtěji než dříve zkoumá jeho rozpory a dobové předsudky.",
+        "source": {
+          "title": "Tomáš Garrigue Masaryk (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Garrigue_Masaryk",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Tomáš Garrigue Masaryk (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Garrigue_Masaryk",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Tomáš Garrigue Masaryk (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Garrigue_Masaryk",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-benes",
+    "country": "CZ",
+    "name": "Edvard Beneš",
+    "office": "prezident Československé republiky (1935–1938 a 1945–1948)",
+    "termStart": 1935,
+    "termEnd": 1948,
+    "cameToPower": "Po abdikaci T. G. Masaryka jej 18. prosince 1935 zvolilo Národní shromáždění prezidentem; po návratu z exilu byl roku 1945 v úřadu potvrzen a v červnu 1946 znovu zvolen.",
+    "summary": "Dlouholetý ministr zahraničí a druhý prezident Československa, jehož úřad rámují mnichovská dohoda 1938 a únor 1948.",
+    "achievements": [
+      "Jako ministr zahraničí (1918–1935) vybudoval československou diplomacii a působil ve vedení Společnosti národů.",
+      "Od roku 1939 vedl zahraniční odboj; exilové státní zřízení uznala v červenci 1940 Velká Británie a plného uznání dosáhlo v červenci 1941.",
+      "Dosáhl mezinárodního uznání předmnichovských hranic a obnovy Československa v roce 1945."
+    ],
+    "controversies": [
+      "Po přijetí mnichovské dohody abdikoval 5. října 1938 a odešel do Londýna, což mu část domácí veřejnosti zpočátku vyčítala.",
+      "Podepisoval dekrety o konfiskacích majetku a ztrátě občanství Němců a Maďarů; jejich provádění podle české Wikipedie mnohdy naplňovalo prvky kolektivní viny.",
+      "V únoru 1948 pod nátlakem přijal demisi nekomunistických ministrů a jmenoval vládu doplněnou komunisty, čímž se otevřela cesta k převzetí moci KSČ."
+    ],
+    "reception": [
+      {
+        "period": "1938–1945",
+        "text": "Po Mnichovu byl částí domácí veřejnosti kritizován za odchod ze země, během okupace však podle české Wikipedie získal v protektorátu značnou podporu obyvatelstva.",
+        "source": {
+          "title": "Edvard Beneš (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Edvard_Bene%C5%A1",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1945–1948",
+        "text": "Po návratu do Prahy v květnu 1945 byl přijímán jako představitel obnoveného státu a v červnu 1946 znovu zvolen; mezi lety 1926 a 1948 byl podle české Wikipedie osmnáctkrát navržen na Nobelovu cenu míru.",
+        "source": {
+          "title": "Edvard Beneš (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Edvard_Bene%C5%A1",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1989",
+        "text": "Česká historiografie jej podle české Wikipedie hodnotí rozporně: přiznává mu zásluhy o vznik a obnovu státu, kriticky však posuzuje mnichovskou porážku, spoléhání na Sovětský svaz i spoluodpovědnost za únor 1948.",
+        "source": {
+          "title": "Edvard Beneš (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Edvard_Bene%C5%A1",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "po 1989",
+        "text": "Část autorů, například George Kennan citovaný anglickou Wikipedií, soudí, že kapitulace roku 1938 zemi ušetřila zkázy po vzoru Polska; spory trvají — v roce 2025 iniciativa žádala doplnit jeho pomník o tabulku o odpovědnosti za únor 1948 a Společnost Edvarda Beneše to odmítla jako zjednodušující.",
+        "source": {
+          "title": "Edvard Beneš (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Edvard_Bene%C5%A1",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Edvard Beneš (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Edvard_Bene%C5%A1",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Edvard Beneš (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Edvard_Bene%C5%A1",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-hacha",
+    "country": "CZ",
+    "name": "Emil Hácha",
+    "office": "prezident Česko-Slovenské republiky, od března 1939 státní prezident Protektorátu Čechy a Morava",
+    "termStart": 1938,
+    "termEnd": 1945,
+    "cameToPower": "Po Benešově abdikaci jej 30. listopadu 1938 zvolilo Národní shromáždění prezidentem jako jediného kandidáta 272 z 312 hlasů.",
+    "summary": "Právník zvolený prezidentem po Mnichovu, který od března 1939 stál v čele Protektorátu Čechy a Morava.",
+    "achievements": [
+      "Před zvolením působil jako uznávaný právník a byl podle české Wikipedie přijatelný napříč hlavními politickými stranami.",
+      "V prvních letech protektorátu protestoval proti germanizaci a intervenoval za zatčené, mimo jiné žádal propuštění zatčených studentů."
+    ],
+    "controversies": [
+      "V noci ze 14. na 15. března 1939 v Berlíně pod Hitlerovou pohrůžkou bombardování Prahy podepsal prohlášení vkládající osud českého národa pod „ochranu Německé říše“.",
+      "Podle anglické Wikipedie podepisoval protektorátní předpisy vytvořené po vzoru nacistických rasových zákonů.",
+      "Po atentátu na Heydricha v květnu 1942 v rozhlasových projevech odsoudil odboj i exilovou vládu a odbojáře označil za „zločince“ a „zrádce“."
+    ],
+    "reception": [
+      {
+        "period": "1938–1939",
+        "text": "V době volby byl podle české Wikipedie vnímán jako respektovaný právník a úředník přijatelný napříč politickými stranami.",
+        "source": {
+          "title": "Emil Hácha (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Emil_H%C3%A1cha",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1939–1945",
+        "text": "Nacistická propaganda z něj podle české Wikipedie postupně učinila symbol protektorátní loajality; po příchodu Heydricha v září 1941 jeho skutečný vliv upadal.",
+        "source": {
+          "title": "Emil Hácha (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Emil_H%C3%A1cha",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1945",
+        "text": "Po osvobození byl 13. května 1945 zatčen, 27. června 1945 zemřel ve vězení na Pankráci a byl pohřben tajně; jméno na rodinném hrobě smělo být podle české Wikipedie doplněno až roku 1994.",
+        "source": {
+          "title": "Emil Hácha (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Emil_H%C3%A1cha",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "1945–1946",
+        "text": "Národní soud po válce konstatoval, že v důsledku špatného zdravotního stavu Hácha od ledna 1943 za své činy neodpovídal.",
+        "source": {
+          "title": "Emil Hácha (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Emil_H%C3%A1cha",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "po 1989",
+        "text": "Historikové se podle české i anglické Wikipedie rozcházejí: část jej líčí jako tragickou postavu sevřenou nátlakem a nemocí, část zdůrazňuje jeho podíl na kolaboraci včetně protižidovských předpisů.",
+        "source": {
+          "title": "Emil Hácha (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Emil_H%C3%A1cha",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Emil Hácha (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Emil_H%C3%A1cha",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Emil Hácha (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Emil_H%C3%A1cha",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-gottwald",
+    "country": "CZ",
+    "name": "Klement Gottwald",
+    "office": "prezident Československé republiky",
+    "termStart": 1948,
+    "termEnd": 1953,
+    "cameToPower": "Jako předseda vlády vynutil v únoru 1948 na prezidentu Benešovi přijetí demise nekomunistických ministrů a doplnění vlády komunisty; po Benešově abdikaci byl 14. června 1948 zvolen prezidentem.",
+    "summary": "První komunistický prezident Československa, s jehož vládou jsou spjaty politické procesy a přestavba státu podle sovětského vzoru.",
+    "achievements": [
+      "Pod jeho vedením zvítězila KSČ v parlamentních volbách v květnu 1946 a stal se předsedou vlády.",
+      "Za jeho vlády byla 9. května 1948 přijata nová ústava a zavedeno centrální plánování hospodářství s důrazem na těžký průmysl."
+    ],
+    "controversies": [
+      "V politických procesech jeho éry bylo podle české Wikipedie vyneseno přes 230 rozsudků smrti a více než 100 000 občanů odsouzeno k doživotí či mnohaletému vězení; popraveni byli mimo jiné Milada Horáková (1950) a Rudolf Slánský (1952).",
+      "Navzdory mezinárodním žádostem, včetně apelu Alberta Einsteina, neudělil milost Miladě Horákové, popravené 27. června 1950.",
+      "Za jeho vlády probíhala násilná kolektivizace zemědělství a desítky tisíc mužů prošly Pomocnými technickými prapory jako „protistátní živly“."
+    ],
+    "reception": [
+      {
+        "period": "1948–1953",
+        "text": "Režimní propaganda kolem něj budovala kult osobnosti: v lednu 1949 byl Zlín přejmenován na Gottwaldov a Československý rozhlas pořídil podle české Wikipedie nahrávky nejméně 81 jeho projevů.",
+        "source": {
+          "title": "Klement Gottwald (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Klement_Gottwald",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1950",
+        "text": "Podle ÚSTR provázely proces s Miladou Horákovou organizované rezoluce pracujících žádající přísné tresty; na hlavní proces navázalo 35 okrajových procesů s celkem 639 obžalovanými.",
+        "source": {
+          "title": "Dr. Horáková Milada a spol.",
+          "publisher": "Ústav pro studium totalitních režimů",
+          "url": "https://www.ustrcr.cz/uvod/skupina-vyzkumu/dr-horakova-milada-a-spol/",
+          "accessed": "2026-07-29",
+          "licence": "oficiální zdroj (citace pro ověření)"
+        }
+      },
+      {
+        "period": "1953–1962",
+        "text": "Po smrti 14. března 1953 bylo jeho nabalzamované tělo vystaveno v památníku na pražském Vítkově; veřejné vystavování podle anglické Wikipedie skončilo roku 1962.",
+        "source": {
+          "title": "Klement Gottwald (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Klement_Gottwald",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1989",
+        "text": "Historiografie jej podle české Wikipedie charakterizuje jako aktéra teroru a vykonstruovaných procesů; města mu v letech 2002–2019 odebírala čestná občanství a jeho sochy byly odstraňovány.",
+        "source": {
+          "title": "Klement Gottwald (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Klement_Gottwald",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2005",
+        "text": "V televizní divácké anketě z roku 2005 byl podle anglické Wikipedie označen za „největšího padoucha“ českých dějin s 26 % hlasů.",
+        "source": {
+          "title": "Klement Gottwald (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Klement_Gottwald",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Klement Gottwald (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Klement_Gottwald",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Klement Gottwald (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Klement_Gottwald",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Dr. Horáková Milada a spol.",
+        "publisher": "Ústav pro studium totalitních režimů",
+        "url": "https://www.ustrcr.cz/uvod/skupina-vyzkumu/dr-horakova-milada-a-spol/",
+        "accessed": "2026-07-29",
+        "licence": "oficiální zdroj (citace pro ověření)"
+      }
+    ]
+  },
+  {
+    "id": "cz-zapotocky",
+    "country": "CZ",
+    "name": "Antonín Zápotocký",
+    "office": "prezident Československé republiky",
+    "termStart": 1953,
+    "termEnd": 1957,
+    "cameToPower": "Dlouholetý předseda Ústřední rady odborů a od 15. června 1948 předseda vlády byl po smrti Klementa Gottwalda 21. března 1953 zvolen Národním shromážděním prezidentem republiky.",
+    "summary": "Prezident let 1953–1957, spojený především s měnovou reformou z června 1953 a s doznívajícími politickými procesy.",
+    "achievements": [
+      "Po osvobození v roce 1945 stál jako předseda Ústřední rady odborů v čele sjednoceného odborového hnutí.",
+      "Měnová reforma provedená 1. června 1953 podle literatury zastavila inflaci a odstranila černý trh.",
+      "V létě 1953 veřejně kritizoval násilnou kolektivizaci a připustil vystupování z družstev; během roku 1954 jednotná zemědělská družstva opustilo asi 70 tisíc rolníků."
+    ],
+    "controversies": [
+      "Krátce před měnovou reformou z 1. června 1953 veřejně popíral, že se chystá; reforma poté znehodnotila úspory obyvatel v poměru 5 : 1 u vkladů a až 50 : 1 u hotovosti.",
+      "Protesty proti měnové reformě, největší v Plzni v červnu 1953, potlačilo vojsko a Lidové milice.",
+      "V období politických procesů spolurozhodoval o zatčeních a internacích; v roce 1954 odmítl milost bývalému náčelníku StB Osvaldu Závodskému, popravenému 19. března 1954."
+    ],
+    "reception": [
+      {
+        "period": "1953–1957",
+        "text": "Dobová propaganda jej podle české Wikipedie označovala za „tátu dělníků“; mezi lidmi měl přezdívku „ušaté torpédo“.",
+        "source": {
+          "title": "Antonín Zápotocký (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Z%C3%A1potock%C3%BD",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "červen 1953",
+        "text": "Po měnové reformě, které předcházelo jeho veřejné ujištění, že se nechystá, propukly dělnické protesty, největší v Plzni; důvěra části dělnictva v jeho slovo tím podle literatury utrpěla.",
+        "source": {
+          "title": "Antonín Zápotocký (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Z%C3%A1potock%C3%BD",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1989",
+        "text": "Historiografie jej hodnotí rozporně: podle vzpomínek Václava Černého se snažil omezovat svévoli Státní bezpečnosti, zároveň však spolurozhodoval o zatčeních a nese spoluodpovědnost za represe první poloviny 50. let.",
+        "source": {
+          "title": "Antonín Zápotocký (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Z%C3%A1potock%C3%BD",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2021",
+        "text": "Historik Michal Stehlík v roce 2021 vyvrátil dlouho tradovaná tvrzení o Zápotockého údajném násilí na spoluvězních v koncentračním táboře Sachsenhausen.",
+        "source": {
+          "title": "Antonín Zápotocký (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Z%C3%A1potock%C3%BD",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Antonín Zápotocký (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Z%C3%A1potock%C3%BD",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Antonín Zápotocký (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Anton%C3%ADn_Z%C3%A1potock%C3%BD",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-novotny",
+    "country": "CZ",
+    "name": "Antonín Novotný",
+    "office": "prezident Československé republiky, od roku 1960 Československé socialistické republiky",
+    "termStart": 1957,
+    "termEnd": 1968,
+    "cameToPower": "Od 13. září 1953 stál v čele KSČ jako první tajemník; po smrti Antonína Zápotockého jej 19. listopadu 1957, i na osobní doporučení Nikity Chruščova, zvolilo Národní shromáždění prezidentem.",
+    "summary": "Souběžný držitel vedení KSČ a prezidentského úřadu, jehož éra spojovala centralistickou vládu 50. let s postupným uvolňováním let šedesátých.",
+    "achievements": [
+      "Prosadil ústavu schválenou Národním shromážděním 11. července 1960, jíž stát přijal název Československá socialistická republika.",
+      "Amnestie z roku 1960 propustila část odsouzených z politických procesů 50. let a postupně následovaly rehabilitace nespravedlivě odsouzených.",
+      "V roce 1965 schválil zásady ekonomické reformy připravené týmem Oty Šika.",
+      "V 60. letech za jeho vlády došlo ke kulturnímu uvolnění, v němž vznikla mimo jiné československá filmová nová vlna."
+    ],
+    "controversies": [
+      "V 50. letech působil ve vedení strany v době politických procesů a revizi rozsudků připouštěl jen postupně.",
+      "Zrušení Sboru pověřenců a omezování Slovenské národní rady posunulo stát k fakticky unitární podobě a prohlubovalo napětí mezi Prahou a Bratislavou.",
+      "Na podzim 1967 nechal zastavit Literární noviny a proti pochodu studentů ze strahovských kolejí v říjnu 1967 zasáhla policie."
+    ],
+    "reception": [
+      {
+        "period": "červen–říjen 1967",
+        "text": "Na IV. sjezdu Svazu československých spisovatelů v červnu 1967 a po strahovských událostech v říjnu 1967 sílila kritika jeho vedení ze strany spisovatelů a studentů.",
+        "source": {
+          "title": "Antonín Novotný (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Novotn%C3%BD",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "prosinec 1967 – březen 1968",
+        "text": "Ztratil podporu i uvnitř ÚV KSČ, kde se proti němu spojilo reformní křídlo s částí konzervativců; 5. ledna 1968 jej v čele strany nahradil Alexander Dubček a 22. března 1968 odstoupil i z prezidentského úřadu.",
+        "source": {
+          "title": "Antonín Novotný (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Novotn%C3%BD",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1989",
+        "text": "Historik Karel Kaplan v monografii Kronika komunistického Československa: Antonín Novotný – vzestup a pád „lidového“ aparátčíka (2011) popisuje jeho éru jako spojení postupné liberalizace s trvajícími autoritářskými zásahy.",
+        "source": {
+          "title": "Antonín Novotný (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Novotn%C3%BD",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "po 1989",
+        "text": "Historik Jiří Pernes uvádí, že prezidentskému úřadu se věnoval jen část pracovního týdne a přednost dával funkci prvního tajemníka; jako první hlava státu se nechával oslovovat „soudruhu prezidente“.",
+        "source": {
+          "title": "Antonín Novotný (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Novotn%C3%BD",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Antonín Novotný (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Novotn%C3%BD",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Antonín Novotný (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Anton%C3%ADn_Novotn%C3%BD",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-svoboda",
+    "country": "CZ",
+    "name": "Ludvík Svoboda",
+    "office": "prezident Československé socialistické republiky",
+    "termStart": 1968,
+    "termEnd": 1975,
+    "cameToPower": "Armádní generál, za druhé světové války velitel 1. československého armádního sboru v SSSR, byl 30. března 1968 na návrh Alexandra Dubčeka zvolen Národním shromážděním prezidentem; obdržel 282 z 288 hlasů.",
+    "summary": "Válečný velitel od Dukly, jehož prezidentství rámovaly pražské jaro, srpnová invaze 1968 a nástup normalizace.",
+    "achievements": [
+      "Za druhé světové války velel 1. československému armádnímu sboru v SSSR, mimo jiné v Karpatsko-dukelské operaci na podzim roku 1944.",
+      "Po srpnové invazi 1968 odmítl jmenovat tzv. dělnicko-rolnickou vládu Aloise Indry a v Moskvě podmiňoval jednání přizváním zatčeného Alexandra Dubčeka a dalších reformních politiků.",
+      "Podpořil ústavní zákon o československé federaci z října 1968."
+    ],
+    "controversies": [
+      "Jako ministr národní obrany uplatňoval v únorové krizi roku 1948 zásadu nevměšování armády do vnitropolitického sporu a v listopadu 1948 vstoupil do KSČ.",
+      "Podle členů československé delegace naléhal v Moskvě v srpnu 1968 na rychlé přijetí podmínek diktovaných sovětským vedením, tzv. moskevského protokolu.",
+      "Podpisem normalizačních zákonů, podporou nástupu Gustáva Husáka do čela KSČ v dubnu 1969 a setrváním v úřadu do roku 1975 se podílel na legitimizaci normalizace."
+    ],
+    "reception": [
+      {
+        "period": "1968",
+        "text": "Jako válečný hrdina přijatelný pro Čechy i Slováky patřil podle literatury k nejpopulárnějším osobnostem roku 1968; po srpnové invazi jej veřejnost vnímala jako obhájce zatčených reformních politiků.",
+        "source": {
+          "title": "Ludvík Svoboda (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Ludv%C3%ADk_Svoboda",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1968–1969",
+        "text": "Část reformního vedení mu naopak vyčítala nátlak na rychlé podepsání moskevského protokolu; s postupem normalizace jeho veřejná aktivita slábla.",
+        "source": {
+          "title": "Ludvík Svoboda (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Ludv%C3%ADk_Svoboda",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1989",
+        "text": "Historiografie jej hodnotí jako spornou postavu: oceňuje jeho vystoupení v Moskvě v srpnu 1968, vytýká mu však podpisy normalizačních zákonů a setrvání v úřadu při jejím prosazování.",
+        "source": {
+          "title": "Ludvík Svoboda (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Ludv%C3%ADk_Svoboda",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "současnost",
+        "text": "Na rozdíl od většiny představitelů komunistického režimu po něm zůstávají pojmenovány ulice a nábřeží, což bývá spojováno s jeho válečnou službou a vystupováním v roce 1968.",
+        "source": {
+          "title": "Ludvík Svoboda (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Ludv%C3%ADk_Svoboda",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Ludvík Svoboda (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Ludv%C3%ADk_Svoboda",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Ludvík Svoboda (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Ludv%C3%ADk_Svoboda",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-husak",
+    "country": "CZ",
+    "name": "Gustáv Husák",
+    "office": "první tajemník ÚV KSČ (od května 1971 generální tajemník) v letech 1969–1987, od 29. května 1975 zároveň prezident Československé socialistické republiky",
+    "termStart": 1969,
+    "termEnd": 1989,
+    "cameToPower": "Po srpnové invazi 1968 získal na moskevských jednáních důvěru sovětského vedení; v dubnu 1969 nahradil Alexandra Dubčeka v čele KSČ a 29. května 1975 byl zvolen také prezidentem.",
+    "summary": "Ústřední postava normalizace: v 50. letech odsouzený v politickém procesu, od roku 1969 nejvyšší představitel strany a od roku 1975 i státu.",
+    "achievements": [
+      "Jako místopředseda československé vlády od dubna 1968 patřil k předním iniciátorům ústavního zákona o federativním uspořádání republiky.",
+      "V listopadu 1989 odmítl nasazení síly proti demonstrantům; 10. prosince 1989 jmenoval vládu Mariána Čalfy a téhož dne abdikoval."
+    ],
+    "controversies": [
+      "Pod jeho vedením proběhly po roce 1969 rozsáhlé personální čistky ve všech odvětvích společenského a hospodářského života; vedoucí místa směli zastávat jen lidé, kteří schválili invazi z roku 1968.",
+      "V září 1969 prohlásil, že „hranice nejsou korzo, aby se tu někdo procházel“; následovalo opětovné uzavření cest na Západ.",
+      "Za jeho éry vedla Státní bezpečnost kampaň proti disentu, od roku 1977 zejména proti signatářům Charty 77."
+    ],
+    "reception": [
+      {
+        "period": "1968–1969",
+        "text": "V roce 1968 vystupoval jako slovenský reformní politik a spoluautor federalizace; po moskevských jednáních si jej sovětské vedení v čele s Leonidem Brežněvem vybralo jako záruku obratu politiky.",
+        "source": {
+          "title": "Gustáv Husák (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Gust%C3%A1v_Hus%C3%A1k",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "70.–80. léta",
+        "text": "Pro disent, od ledna 1977 reprezentovaný Chartou 77, ztělesňoval režim normalizačních represí vedených Státní bezpečností.",
+        "source": {
+          "title": "Gustáv Husák (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Gust%C3%A1v_Hus%C3%A1k",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1989",
+        "text": "Hodnocení zůstává rozporné: část výkladů zdůrazňuje, že byl 24. dubna 1954 v procesu se slovenskými „buržoazními nacionalisty“ odsouzen na doživotí a vinu přes mučení neuznal, jiná část jeho odpovědnost za normalizační represi; k literatuře patří monografie Michala Macháčka Gustáv Husák (2017).",
+        "source": {
+          "title": "Gustáv Husák (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Gust%C3%A1v_Hus%C3%A1k",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Gustáv Husák (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Gust%C3%A1v_Hus%C3%A1k",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Gustáv Husák (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Gust%C3%A1v_Hus%C3%A1k",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-havel",
+    "country": "CZ",
+    "name": "Václav Havel",
+    "office": "prezident ČSFR (1989–1992) a České republiky (1993–2003)",
+    "termStart": 1989,
+    "termEnd": 2003,
+    "cameToPower": "Po sametové revoluci jej 29. prosince 1989 jednomyslně zvolilo Federální shromáždění prezidentem; kandidaturu prosadilo Občanské fórum pod heslem „Havel na Hrad“.",
+    "summary": "Dramatik a bývalý disident, první polistopadový prezident, za jehož úřadu se země vrátila k demokracii a zakotvila v západních strukturách.",
+    "achievements": [
+      "Za jeho prezidentství byl dokončen odchod sovětských vojsk z Československa a v červenci 1991 zanikla Varšavská smlouva.",
+      "Dovedl Českou republiku ke vstupu do NATO v březnu 1999 a k pokročilé přípravě vstupu do Evropské unie.",
+      "Dlouhodobě prosazoval česko-německé usmíření, které vyústilo v Česko-německou deklaraci z roku 1997."
+    ],
+    "controversies": [
+      "Rozsáhlá amnestie z ledna 1990 propustila vedle politických vězňů i pachatele závažné trestné činnosti a byla kritizována v souvislosti s následným růstem kriminality.",
+      "Jeho omluva za poválečný odsun sudetských Němců narážela na odpor části české veřejnosti.",
+      "V roce 1999 veřejně podpořil bombardování Jugoslávie silami NATO."
+    ],
+    "reception": [
+      {
+        "period": "1989–1992",
+        "text": "Bezprostředně po revoluci měl podle české Wikipedie širokou domácí podporu a Federální shromáždění jej zvolilo jednomyslně; po volbách v červnu 1992, v nichž uspěli Václav Klaus a Vladimír Mečiar, rozdělení federace nedokázal zabránit a 20. července 1992 abdikoval.",
+        "source": {
+          "title": "Václav Havel (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/V%C3%A1clav_Havel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1993–2003",
+        "text": "Podle shrnutí anglické Wikipedie převyšovala jeho popularita v zahraničí popularitu doma; v domácí politice býval častým předmětem sporů a kritiky.",
+        "source": {
+          "title": "Václav Havel (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 2011",
+        "text": "Po jeho úmrtí v prosinci 2011 mu vzdali hold státníci včetně Baracka Obamy, Angely Merkelové a Lecha Wałęsy a petice s více než 80 000 podpisy vedla k přejmenování pražského letiště na Letiště Václava Havla Praha (říjen 2012).",
+        "source": {
+          "title": "Václav Havel (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "po 2011",
+        "text": "Historička Marci Shoreová připomíná, že jeho poselství o spoluodpovědnosti všech za minulost bylo doma nepopulární; historiografie dále diskutuje amnestii z roku 1990 a postoj k odsunu sudetských Němců.",
+        "source": {
+          "title": "Václav Havel (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Václav Havel (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/V%C3%A1clav_Havel",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Václav Havel (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-klaus",
+    "country": "CZ",
+    "name": "Václav Klaus",
+    "office": "prezident České republiky",
+    "termStart": 2003,
+    "termEnd": 2013,
+    "cameToPower": "Poslanci a senátoři jej zvolili prezidentem 28. února 2003 ve třetím kole volby 142 hlasy z 281; v únoru 2008 mandát obhájil rovněž ve třetím kole se 141 hlasy.",
+    "summary": "Ekonom a spolutvůrce transformace 90. let, jako prezident vyhraněný kritik evropské integrace a klimatické politiky.",
+    "achievements": [
+      "Jako federální ministr financí (od prosince 1989) a poté předseda české vlády (1992–1997) řídil ekonomickou transformaci včetně kuponové privatizace.",
+      "V dubnu 1991 založil Občanskou demokratickou stranu a ve volbách 1992 s ní zvítězil se ziskem kolem 30 % hlasů.",
+      "V roce 1992 s Vladimírem Mečiarem dojednal pokojné rozdělení Československa k 1. lednu 1993.",
+      "V roce 2009 podpisem dokončil českou ratifikaci Lisabonské smlouvy."
+    ],
+    "controversies": [
+      "Amnestie z ledna 2013 prominula tresty více než 111 000 osobám a podle článku II zastavila 327 dlouholetých trestních stíhání, včetně hospodářských kauz se škodami nejméně 18,6 miliardy korun.",
+      "V březnu 2013 kvůli amnestii, nedokončeným ratifikacím a nejmenování soudců schválil Senát 38 hlasy ústavní žalobu pro velezradu; Ústavní soud řízení zastavil, protože Klausovi mezitím skončil mandát.",
+      "Pád jeho vlády v listopadu 1997 provázely hospodářské potíže a skandál kolem financování ODS."
+    ],
+    "reception": [
+      {
+        "period": "1992–1997",
+        "text": "V první polovině 90. let byl podle české Wikipedie dominantní postavou pravice a symbolem rychlé transformace; v listopadu 1997 jej hospodářské potíže a skandál kolem financování ODS donutily k demisi.",
+        "source": {
+          "title": "Václav Klaus (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/V%C3%A1clav_Klaus",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2013",
+        "text": "S amnestií z ledna 2013 podle průzkumu agentury Median (3.–4. ledna 2013) nesouhlasilo 82,2 % dotázaných; petici proti ní podepsalo přes 112 000 lidí a více než 600 starostů na protest sundalo jeho portréty z úřadů a škol.",
+        "source": {
+          "title": "Amnestie Václava Klause (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Amnestie_V%C3%A1clava_Klause",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 2013",
+        "text": "Předseda Ústavního soudu Pavel Rychetský kritizoval, že amnestii z roku 2013 na rozdíl od všech amnestií od roku 1920 nepřipravila vláda, ale Hrad; amnestie zůstává hlavním sporným bodem hodnocení jeho prezidentství.",
+        "source": {
+          "title": "Amnestie Václava Klause (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Amnestie_V%C3%A1clava_Klause",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Václav Klaus (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/V%C3%A1clav_Klaus",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Amnestie Václava Klause (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Amnestie_V%C3%A1clava_Klause",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-zeman",
+    "country": "CZ",
+    "name": "Miloš Zeman",
+    "office": "prezident České republiky",
+    "termStart": 2013,
+    "termEnd": 2023,
+    "cameToPower": "V lednu 2013 zvítězil v první přímé volbě prezidenta, když ve druhém kole porazil Karla Schwarzenberga s 54,8 % hlasů; v lednu 2018 mandát obhájil proti Jiřímu Drahošovi s 51,36 %.",
+    "summary": "Bývalý předseda ČSSD a premiér, jehož desetileté prezidentství provázely spory o zahraniční orientaci země a polarizace veřejnosti.",
+    "achievements": [
+      "Jako předseda ČSSD (1993–2001) proměnil stranu v hlavní levicovou sílu: ve volbách 1996 získala 26,44 % hlasů oproti 6,53 % v roce 1992.",
+      "V letech 1998–2002 vedl po celé funkční období menšinovou vládu ČSSD, opřenou o tzv. opoziční smlouvu s ODS.",
+      "V roce 2013 se stal prvním prezidentem České republiky zvoleným v přímé volbě."
+    ],
+    "controversies": [
+      "Před rokem 2022 udržoval blízké vztahy k Rusku a Číně: v roce 2015 se zúčastnil moskevské přehlídky vítězství a v dubnu 2021 zpochybnil závěry o ruské odpovědnosti za výbuchy ve Vrběticích.",
+      "Soudy opakovaně rozhodly v jeho neprospěch ve sporu o nepravdivé tvrzení o novináři Ferdinandu Peroutkovi.",
+      "Odmítl jmenovat některé kandidáty na profesory, což vyvolalo protesty akademické obce."
+    ],
+    "reception": [
+      {
+        "period": "2013–2016",
+        "text": "Průzkumy citované anglickou Wikipedií zachycovaly kolísavou důvěru: v březnu 2016 mu důvěřovalo 62 % dotázaných, do prosince 2016 podíl klesl na 48 % po sérii kontroverzí.",
+        "source": {
+          "title": "Miloš Zeman (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2021",
+        "text": "Po zpochybnění ruské stopy ve Vrběticích v dubnu 2021 protestovaly v Praze tisíce lidí; část demonstrantů jej označovala za „sluhu“ Ruska a žádala jeho stíhání.",
+        "source": {
+          "title": "Miloš Zeman (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2013–2023",
+        "text": "Podle české Wikipedie byla společnost v pohledu na něj rozdělená: příznivci oceňovali přímý styl, kritici poukazovali na vulgární vyjadřování a prohlubování polarizace.",
+        "source": {
+          "title": "Miloš Zeman (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 2023",
+        "text": "Souhrny po konci mandátu v březnu 2023 popisují prezidentství jako polarizující, s výrazným obratem po ruské invazi na Ukrajinu v únoru 2022, kdy invazi odsoudil jako „zločin proti míru“ a v březnu 2022 udělil prezidentu Zelenskému Řád Bílého lva.",
+        "source": {
+          "title": "Miloš Zeman (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Miloš Zeman (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Miloš Zeman (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-pavel",
+    "country": "CZ",
+    "name": "Petr Pavel",
+    "office": "prezident České republiky",
+    "termStart": 2023,
+    "cameToPower": "V lednu 2023 zvítězil ve druhém kole přímé volby nad Andrejem Babišem s 58,32 % hlasů (3 359 301 hlasů); úřadu se ujal 9. března 2023.",
+    "summary": "Armádní generál a bývalý předseda vojenského výboru NATO, který jako prezident zdůrazňuje západní ukotvení země a podporu napadené Ukrajiny.",
+    "achievements": [
+      "V letech 2012–2015 byl náčelníkem Generálního štábu Armády České republiky.",
+      "V letech 2015–2018 předsedal vojenskému výboru NATO jako první zástupce zemí bývalé Varšavské smlouvy v této funkci.",
+      "Jako prezident od roku 2023 podporoval Ukrajinu proti ruské agresi a od ledna 2024 upozorňoval také na humanitární krizi v Pásmu Gazy."
+    ],
+    "controversies": [
+      "V letech 1985–1989 byl členem KSČ; členství později odsoudil a zveřejnil lustrační osvědčení z roku 1992, podle nějž nebyl spolupracovníkem StB.",
+      "Diskuse vyvolal jeho kurz vojenské rozvědky (1988–1991); Pavel uváděl, že absolventi mohli působit i jako diplomaté."
+    ],
+    "reception": [
+      {
+        "period": "2023",
+        "text": "Podle průzkumu CVVM citovaného českou Wikipedií vzrostla po jeho nástupu důvěra v úřad prezidenta z 38 na 58 % a Pavlovi samotnému důvěřovalo 59 % dotázaných, silněji lidé s vysokoškolským vzděláním.",
+        "source": {
+          "title": "Petr Pavel (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Petr_Pavel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2023",
+        "text": "Před druhým kolem volby čelil dezinformační kampani, včetně nepravdivých zpráv o mobilizaci či o jeho úmrtí; útoky podle zjištění citovaných českou Wikipedií směřovaly zejména z Ruska.",
+        "source": {
+          "title": "Petr Pavel (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Petr_Pavel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "note": "Úřad trvá; historiografické přehodnocení (reassessment) zatím není k dispozici, proto je pole vynecháno.",
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Petr Pavel (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Petr_Pavel",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "ua-hrusevskyj",
+    "country": "UA",
+    "name": "Mychajlo Hruševskyj",
+    "office": "předseda Ukrajinské centrální rady",
+    "termStart": 1917,
+    "termEnd": 1918,
+    "cameToPower": "Po únorové revoluci byl 17. března 1917 zvolen předsedou Ukrajinské centrální rady, revolučního parlamentu v Kyjevě, a to ještě v nepřítomnosti, když se vracel z ruského vyhnanství.",
+    "summary": "Historik a předseda Ukrajinské centrální rady, pod jehož vedením prošla Ukrajina v letech 1917–1918 cestou od požadavku autonomie k vyhlášení nezávislosti.",
+    "achievements": [
+      "Vedl Ukrajinskou centrální radu od národní autonomie v rámci demokratického Ruska až k vyhlášení plné nezávislosti Ukrajinské lidové republiky.",
+      "Dne 29. dubna 1918 Rada pod jeho předsednictvím přijala ústavu Ukrajinské lidové republiky.",
+      "Od roku 1898 vydával mnohasvazkové dílo Istorija Ukrajiny-Rusy, první rozsáhlou syntézu ukrajinských dějin.",
+      "Reorganizoval Ševčenkovu vědeckou společnost ve Lvově v instituci akademického typu a vychoval generaci ukrajinských historiků."
+    ],
+    "controversies": [
+      "Jeho politické působení ukončil 29. dubna 1918 převrat hejtmana Skoropadského podporovaný německou armádou, který Centrální radu rozehnal.",
+      "Návrat do sovětské Ukrajiny v roce 1924 skončil tiskovou kampaní proti němu a nuceným přesídlením do Moskvy v roce 1931."
+    ],
+    "reception": [
+      {
+        "period": "1917–1918",
+        "text": "Do čela Rady byl podle Encyclopedia of Ukraine zvolen jako obecně uznávaná přední osobnost ukrajinského vědeckého i politického života; v únoru 1918 otiskl jeho článek o ukrajinské samosprávě i list The New York Times.",
+        "source": {
+          "title": "Hrushevsky, Mykhailo",
+          "publisher": "Encyclopedia of Ukraine (CIUS)",
+          "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CH%5CR%5CHrushevskyMykhailo.htm",
+          "accessed": "2026-07-29",
+          "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+        }
+      },
+      {
+        "period": "30. léta 20. století",
+        "text": "Sovětský režim jej podle Encyclopedia of Ukraine označoval za „nacionalistického historika“ a „ideologa ukrajinské kontrarevoluční buržoazie“ a jeho historickou školu potíral až do konce 80. let.",
+        "source": {
+          "title": "Hrushevsky, Mykhailo",
+          "publisher": "Encyclopedia of Ukraine (CIUS)",
+          "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CH%5CR%5CHrushevskyMykhailo.htm",
+          "accessed": "2026-07-29",
+          "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1991",
+        "text": "Nezávislá Ukrajina jej uznává za svého předního historika; jeho portrét nese padesátihryvnová bankovka, pomníky stojí v Kyjevě i Lvově a jeho jméno nese kyjevská ulice, v níž sídlí parlament.",
+        "source": {
+          "title": "Mykhailo Hrushevsky",
+          "publisher": "Wikipedia (anglická)",
+          "url": "https://en.wikipedia.org/wiki/Mykhailo_Hrushevsky",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "po 1991",
+        "text": "Současná historiografie podle Encyclopedia of Ukraine zdůrazňuje jeho zakladatelský přínos ukrajinské národní identitě a dějepisectví, o hodnocení jeho politického působení se však debata vede dál.",
+        "source": {
+          "title": "Hrushevsky, Mykhailo",
+          "publisher": "Encyclopedia of Ukraine (CIUS)",
+          "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CH%5CR%5CHrushevskyMykhailo.htm",
+          "accessed": "2026-07-29",
+          "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Hrushevsky, Mykhailo",
+        "publisher": "Encyclopedia of Ukraine (CIUS)",
+        "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CH%5CR%5CHrushevskyMykhailo.htm",
+        "accessed": "2026-07-29",
+        "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+      },
+      {
+        "title": "Mykhailo Hrushevsky",
+        "publisher": "Wikipedia (anglická)",
+        "url": "https://en.wikipedia.org/wiki/Mykhailo_Hrushevsky",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "ua-skoropadskyj",
+    "country": "UA",
+    "name": "Pavlo Skoropadskyj",
+    "office": "hejtman Ukrajinského státu",
+    "termStart": 1918,
+    "termEnd": 1918,
+    "cameToPower": "K moci se dostal 29. dubna 1918 převratem proti Centrální radě, který mu 24. dubna 1918 předem přislíbil podpořit náčelník štábu německých vojsk Wilhelm Groener.",
+    "summary": "Bývalý carský generál, který jako hejtman Ukrajinského státu vládl v roce 1918 s oporou v německé armádě a konzervativních vrstvách.",
+    "achievements": [
+      "V listopadu 1918 jeho vláda založila Ukrajinskou akademii věd.",
+      "Za jeho vlády vznikly ukrajinské univerzity a školy a byla vybudována fungující státní správa.",
+      "Jeho stát navázal diplomatické styky se zahraničím a uzavřel mírovou smlouvu se sovětským Ruskem."
+    ],
+    "controversies": [
+      "Jeho režim rozpustil Centrální radu i pozemkové výbory, zrušil zákony Ukrajinské lidové republiky a zavedl cenzuru tisku.",
+      "Vláda opřená o velkostatkáře a doprovázená německými a rakouskými rekvizicemi obilí vyvolala rolnická povstání, stávky a atentáty, včetně zabití polního maršála Eichhorna.",
+      "V listopadu 1918 vyhlásil federaci s budoucím nebolševickým Ruskem, čímž ztratil zbytek podpory ukrajinského hnutí a proti jeho vládě vypuklo povstání."
+    ],
+    "reception": [
+      {
+        "period": "1918",
+        "text": "Ukrajinské demokratické strany podle Encyclopedia of Ukraine odmítly v jeho vládě zasednout a v květnu 1918 založily opoziční Ukrajinský národně-státní svaz; nespokojenost venkova se projevovala povstáními a sabotážemi.",
+        "source": {
+          "title": "Skoropadsky, Pavlo",
+          "publisher": "Encyclopedia of Ukraine (CIUS)",
+          "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CK%5CSkoropadskyPavlo.htm",
+          "accessed": "2026-07-29",
+          "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+        }
+      },
+      {
+        "period": "1918",
+        "text": "Ukrajinští nacionalisté jej podle dobových výtek shrnutých anglickou Wikipedií odsuzovali jako německého kolaboranta opřeného o velkostatkáře, jiným současníkům se jevil příliš proruský a diktátorský.",
+        "source": {
+          "title": "Pavlo Skoropadskyi",
+          "publisher": "Wikipedia (anglická)",
+          "url": "https://en.wikipedia.org/wiki/Pavlo_Skoropadskyi",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1991",
+        "text": "Historiografie zůstává rozdělena: část badatelů mu přičítá vybudování institucí a udržení relativního klidu uprostřed občanské války v Rusku, jiná jeho vládu popisuje jako režim závislý na německém velení.",
+        "source": {
+          "title": "Pavlo Skoropadskyi",
+          "publisher": "Wikipedia (anglická)",
+          "url": "https://en.wikipedia.org/wiki/Pavlo_Skoropadskyi",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "po 1991",
+        "text": "Encyclopedia of Ukraine zdůrazňuje, že jeho kabinet složený z ruských kadetů a monarchistů upřednostňoval zájmy německého velení a majetných vrstev před ukrajinským hnutím.",
+        "source": {
+          "title": "Skoropadsky, Pavlo",
+          "publisher": "Encyclopedia of Ukraine (CIUS)",
+          "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CK%5CSkoropadskyPavlo.htm",
+          "accessed": "2026-07-29",
+          "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+        }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Skoropadsky, Pavlo",
+        "publisher": "Encyclopedia of Ukraine (CIUS)",
+        "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CK%5CSkoropadskyPavlo.htm",
+        "accessed": "2026-07-29",
+        "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+      },
+      {
+        "title": "Pavlo Skoropadskyi",
+        "publisher": "Wikipedia (anglická)",
+        "url": "https://en.wikipedia.org/wiki/Pavlo_Skoropadskyi",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "ua-petljura",
+    "country": "UA",
+    "name": "Symon Petljura",
+    "office": "předseda Direktoria Ukrajinské lidové republiky",
+    "termStart": 1919,
+    "termEnd": 1926,
+    "cameToPower": "Po účasti na povstání proti hejtmanu Skoropadskému byl zvolen do Direktoria UNR jako vrchní ataman a 11. února 1919, po odstoupení Volodymyra Vynnyčenka, se postavil do jeho čela.",
+    "summary": "Vrchní ataman a předseda Direktoria Ukrajinské lidové republiky, který vedl ozbrojený zápas o nezávislost a jehož jméno zůstává spojeno s pogromy let 1919–1920.",
+    "achievements": [
+      "V letech 1919–1920 velel vojskům UNR ve válce proti Rudé armádě i Děnikinově Dobrovolnické armádě.",
+      "Varšavskou smlouvou z dubna 1920 získal polské spojenectví a 7. května 1920 spojená ukrajinsko-polská vojska obsadila Kyjev.",
+      "V pařížském exilu založil týdeník Tryzub a stál v čele exilové vlády UNR."
+    ],
+    "controversies": [
+      "Z 1 236 zaznamenaných násilných útoků na Židy na Ukrajině v letech 1918–1921 připadalo podle anglické Wikipedie 493 na vojska UNR, jimž velel.",
+      "Historici se rozcházejí v míře jeho odpovědnosti: rozkazy proti pogromům vydával, podle kritiků však pachatele dostatečně netrestal.",
+      "Varšavskou smlouvou uznal polský nárok na Halič, což mu vyneslo odpor haličských a části exilových Ukrajinců."
+    ],
+    "reception": [
+      {
+        "period": "1920–1926",
+        "text": "Část ukrajinské emigrace, zejména haličské, k němu byla podle Encyclopedia of Ukraine zprvu otevřeně nepřátelská kvůli spojenectví s Polskem; od poloviny 20. let však pro mnohé emigranty ztělesňoval zápas o nezávislost let 1917–1920.",
+        "source": {
+          "title": "Petliura, Symon",
+          "publisher": "Encyclopedia of Ukraine (CIUS)",
+          "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CP%5CE%5CPetliuraSymon.htm",
+          "accessed": "2026-07-29",
+          "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+        }
+      },
+      {
+        "period": "1926–1927",
+        "text": "Atentát Šoloma Schwarzbarda z 25. května 1926, který se odvolával na pogromové oběti ve své rodině, a jeho osvobození pařížskou porotou v říjnu 1927 ukázaly, že významná část dobové veřejnosti spojovala Petljuru s odpovědností za pogromy.",
+        "source": {
+          "title": "Symon Petliura",
+          "publisher": "Wikipedia (anglická)",
+          "url": "https://en.wikipedia.org/wiki/Symon_Petliura",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "20.–80. léta 20. století",
+        "text": "Sovětské zdroje jej podle Encyclopedia of Ukraine líčily jako „zrádce ukrajinského lidu“ a sovětský film jej zprvu zobrazoval jako zesměšněnou zápornou postavu.",
+        "source": {
+          "title": "Petliura, Symon",
+          "publisher": "Encyclopedia of Ukraine (CIUS)",
+          "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CP%5CE%5CPetliuraSymon.htm",
+          "accessed": "2026-07-29",
+          "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1991",
+        "text": "Historiografie zůstává rozdělena: část badatelů zdůrazňuje jeho doložené rozkazy proti pogromům, například výnos z 26. srpna 1919, jiní mu vytýkají, že násilí svých jednotek toleroval a nepostihoval.",
+        "source": {
+          "title": "Symon Petliura",
+          "publisher": "Wikipedia (anglická)",
+          "url": "https://en.wikipedia.org/wiki/Symon_Petliura",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "po 2009",
+        "text": "Ukrajinská města po něm pojmenovala ulice (Kyjev 2009, Izjum 2022), umístění jeho sochy v bývalé židovské čtvrti Vinnycje však v roce 2017 kritizoval Světový židovský kongres.",
+        "source": {
+          "title": "Symon Petliura",
+          "publisher": "Wikipedia (anglická)",
+          "url": "https://en.wikipedia.org/wiki/Symon_Petliura",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Petliura, Symon",
+        "publisher": "Encyclopedia of Ukraine (CIUS)",
+        "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CP%5CE%5CPetliuraSymon.htm",
+        "accessed": "2026-07-29",
+        "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+      },
+      {
+        "title": "Symon Petliura",
+        "publisher": "Wikipedia (anglická)",
+        "url": "https://en.wikipedia.org/wiki/Symon_Petliura",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "ua-kosior",
+    "country": "UA",
+    "name": "Stanislav Kosior",
+    "office": "první tajemník Komunistické strany (bolševiků) Ukrajiny",
+    "termStart": 1928,
+    "termEnd": 1938,
+    "cameToPower": "Do čela KP(b)U byl dosazen stranickým aparátem: po letech práce v sibiřských a moskevských organizacích strany se v červenci 1928 stal jejím generálním tajemníkem na Ukrajině.",
+    "summary": "Generální a poté první tajemník KP(b)U, pod jehož vedením proběhla na Ukrajině kolektivizace, hladomor let 1932–1933 a stalinský teror, jimž nakonec sám padl za oběť.",
+    "achievements": [
+      "V roce 1917 zasedal v petrohradském vojenském revolučním výboru a v roce 1918 patřil k zakladatelům KP(b)U.",
+      "V čele ukrajinské komunistické strany stál nepřetržitě od července 1928 do ledna 1938, od roku 1928 jako člen jejího politbyra."
+    ],
+    "controversies": [
+      "Prosazoval nucenou kolektivizaci: v únoru 1930 ohlásil, že Ukrajina bude plně kolektivizována během jarní setby, a 1. února 1932 spolupodepsal výnos odpírající osivovou pomoc kolchozům.",
+      "Navzdory hladovění na venkově podepsal 17. března 1932 výnos zostřující represe rolníků a 29. března 1932 prosadil deportaci 5 000 rolnických rodin z Polesí.",
+      "Podporoval stalinské čistky a spolupodepsal pět popravčích seznamů."
+    ],
+    "reception": [
+      {
+        "period": "1932",
+        "text": "Když v dubnu a červnu 1932 žádal Moskvu o potravinovou pomoc pro Ukrajinu, Stalin ji podle anglické Wikipedie odmítl a Kosiora považoval za nedostatečně tvrdého.",
+        "source": {
+          "title": "Stanislav Kosior",
+          "publisher": "Wikipedia (anglická)",
+          "url": "https://en.wikipedia.org/wiki/Stanislav_Kosior",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1938–1939",
+        "text": "Režim, jemuž sloužil, jej v květnu 1938 zatkl a označil za polského špiona; doznání z něj vyšetřovatelé NKVD vynutili mučením a 26. února 1939 byl popraven.",
+        "source": {
+          "title": "Stanislav Kosior",
+          "publisher": "Wikipedia (anglická)",
+          "url": "https://en.wikipedia.org/wiki/Stanislav_Kosior",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1956",
+        "text": "Po Chruščovově projevu o kultu osobnosti byl 14. března 1956 posmrtně rehabilitován jako oběť stalinských represí; jeho podíl na hladomoru sovětská rehabilitace neřešila.",
+        "source": {
+          "title": "Stanislav Kosior",
+          "publisher": "Wikipedia (anglická)",
+          "url": "https://en.wikipedia.org/wiki/Stanislav_Kosior",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "po 1991",
+        "text": "Kyjevský odvolací soud jej v roce 2010 zařadil mezi organizátory hladomoru-genocidy let 1932–1933; Encyclopedia of Ukraine spojuje jeho úřadování s přechodem od ukrajinizace k rusifikaci a s likvidací ukrajinské inteligence.",
+        "source": {
+          "title": "Kosior, Stanislav",
+          "publisher": "Encyclopedia of Ukraine (CIUS)",
+          "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CO%5CKosiorStanislav.htm",
+          "accessed": "2026-07-29",
+          "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Kosior, Stanislav",
+        "publisher": "Encyclopedia of Ukraine (CIUS)",
+        "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CO%5CKosiorStanislav.htm",
+        "accessed": "2026-07-29",
+        "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+      },
+      {
+        "title": "Stanislav Kosior",
+        "publisher": "Wikipedia (anglická)",
+        "url": "https://en.wikipedia.org/wiki/Stanislav_Kosior",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "ua-chruscov",
+    "country": "UA",
+    "name": "Nikita Chruščov",
+    "office": "první tajemník ÚV Komunistické strany (bolševiků) Ukrajiny",
+    "termStart": 1938,
+    "termEnd": 1949,
+    "cameToPower": "V lednu 1938 jej Stalin vyslal z Moskvy do Kyjeva do čela ukrajinské komunistické strany; funkci zastával s výjimkou většiny roku 1947 až do prosince 1949.",
+    "summary": "V letech 1938–1949 prováděl na sovětské Ukrajině moskevskou politiku — od závěrečné fáze velkého teroru přes sovětizaci západní Ukrajiny po poválečnou obnovu a hladomor let 1946–1947.",
+    "achievements": [
+      "Za jeho úřadování byly k Ukrajinské SSR připojeny Halič a Volyň (1939) a severní Bukovina (1940).",
+      "Od konce roku 1943 řídil poválečnou obnovu zničeného průmyslu a zemědělství republiky.",
+      "Během hladomoru 1946–1947 opakovaně žádal Stalina o pomoc; Moskva nakonec poskytla omezené dodávky potravin a peníze na bezplatné vývařovny."
+    ],
+    "controversies": [
+      "Po jeho příchodu v roce 1938 se zrychlilo zatýkání; podle Encyclopedia of Ukraine dohlížel na závěrečný rok tzv. ježovského teroru, v němž byly tisíce lidí včetně členů strany popraveny nebo uvězněny.",
+      "Vedl kampaň proti „ukrajinskému nacionalismu“ a vojenský postup proti UPA; sovětské orgány vykázaly za léta 1944–1946 na 110 825 zabitých „banditů“ a v letech 1944–1952 bylo na západní Ukrajině zatčeno kolem 600 000 lidí.",
+      "V roce 1946 musely kolchozy a sovchozy odevzdat státu 52 % úrody, což spolu se suchem přispělo k hladomoru let 1946–1947."
+    ],
+    "reception": [
+      {
+        "period": "1939–1941",
+        "text": "Podle anglické Wikipedie sovětská opatření po záboru — dosazování kádrů z východní Ukrajiny a předávání zkonfiskované půdy kolchozům místo rolníkům — obyvatele západní Ukrajiny rychle odcizila.",
+        "source": {
+          "title": "Nikita Khrushchev",
+          "publisher": "Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Nikita_Khrushchev",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1946–1947",
+        "text": "V Moskvě jeho postavení oslabilo: žádosti o pomoc při hladomoru narážely podle anglické Wikipedie na Stalinův hněv a v březnu 1947 byl ve funkci prvního tajemníka dočasně nahrazen Lazarem Kaganovičem.",
+        "source": {
+          "title": "Nikita Khrushchev",
+          "publisher": "Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Nikita_Khrushchev",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1991",
+        "text": "Encyclopedia of Ukraine hodnotí jeho ukrajinské působení jako nástroj sovětské centralizace a represí — včetně zavádění ruštiny do ukrajinských škol a perzekuce stovek ukrajinských intelektuálů.",
+        "source": {
+          "title": "Khrushchev, Nikita",
+          "publisher": "Internet Encyclopedia of Ukraine, CIUS",
+          "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CH%5CKhrushchevNikita.htm",
+          "accessed": "2026-07-29",
+          "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+        }
+      },
+      {
+        "period": "po 1991",
+        "text": "Historiografie shrnutá anglickou Wikipedií popisuje jeho ukrajinská léta jako horlivé provádění Stalinovy politiky; jeho přesná role při obraně Kyjeva v roce 1941 zůstává mezi historiky sporná.",
+        "source": {
+          "title": "Nikita Khrushchev",
+          "publisher": "Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Nikita_Khrushchev",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Khrushchev, Nikita",
+        "publisher": "Internet Encyclopedia of Ukraine, CIUS",
+        "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CH%5CKhrushchevNikita.htm",
+        "accessed": "2026-07-29",
+        "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+      },
+      {
+        "title": "Nikita Khrushchev",
+        "publisher": "Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Nikita_Khrushchev",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "ua-selest",
+    "country": "UA",
+    "name": "Petro Šelest",
+    "office": "první tajemník ÚV Komunistické strany Ukrajiny",
+    "termStart": 1963,
+    "termEnd": 1972,
+    "cameToPower": "Stranickým aparátem vystoupal k volbě prvním tajemníkem ÚV KSU 23. června 1963; v roce 1966 se stal i členem politbyra ÚV KSSS.",
+    "summary": "Za jeho vedení (1963–1972) se veřejný život na sovětské Ukrajině omezeně otevřel ukrajinskému jazyku a kultuře; jeho odvolání v květnu 1972 tuto etapu uzavřelo.",
+    "achievements": [
+      "Podporoval obnovenou, byť omezenou kulturní a školskou ukrajinizaci a jistou míru samostatnějšího hospodářského rozvoje republiky.",
+      "Toleroval část aktivit disentu a vlastenecky laděné texty ukrajinské inteligence.",
+      "V roce 1970 vydal knihu Ukrajino naše sovětská, připomínající kozáckou minulost a kulturní dědictví Ukrajiny."
+    ],
+    "controversies": [
+      "V roce 1968 patřil k hlavním zastáncům tvrdého postupu proti pražskému jaru; 3. srpna 1968 tajně převzal od Vasila Biľaka „zvací dopis“, který posloužil jako záminka srpnové invaze do Československa.",
+      "Za jeho úřadování proběhla v letech 1965–1966 vlna zatýkání ukrajinských kulturních aktivistů, tzv. šedesátníků; další rozsáhlá čistka začala v lednu 1972, v posledních měsících jeho vlády."
+    ],
+    "reception": [
+      {
+        "period": "1963–1971",
+        "text": "Ukrajinští disidenti jej podle anglické Wikipedie vnímali rozporně: část v něm viděla možnou oporu ukrajinské autonomie, jiní — mezi nimi Vjačeslav Čornovil — jej kritizovali jako typického sovětského funkcionáře odpovědného za zatýkání let 1965–1966.",
+        "source": {
+          "title": "Petro Shelest",
+          "publisher": "Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Petro_Shelest",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1972–1973",
+        "text": "Moskevské vedení v lednu 1972 napadlo „nacionální úchylky“ na Ukrajině a po Šelestově odvolání byla jeho kniha oficiálně odsouzena za „nacionalismus“, „idealizaci minulosti“ a „ekonomický autarkismus“.",
+        "source": {
+          "title": "Shelest, Petro",
+          "publisher": "Internet Encyclopedia of Ukraine, CIUS",
+          "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CH%5CShelestPetro.htm",
+          "accessed": "2026-07-29",
+          "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1991",
+        "text": "Historik Jaroslav Pelenski popisuje jeho éru jako oživení „kontrolovaného ukrajinského autonomismu“, které jeho nástupce ukončil návratem k přísné centralizaci.",
+        "source": {
+          "title": "Shelest, Petro",
+          "publisher": "Internet Encyclopedia of Ukraine, CIUS",
+          "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CH%5CShelestPetro.htm",
+          "accessed": "2026-07-29",
+          "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+        }
+      },
+      {
+        "period": "po 1991",
+        "text": "Historik Taras Kuzio v něm vidí představitele národně komunistického proudu v KSU, na nějž později navázal Leonid Kravčuk; jiná hodnocení připomínají jeho podíl na represích let 1965–1966 a na invazi do Československa v roce 1968.",
+        "source": {
+          "title": "Petro Shelest",
+          "publisher": "Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Petro_Shelest",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Shelest, Petro",
+        "publisher": "Internet Encyclopedia of Ukraine, CIUS",
+        "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CH%5CShelestPetro.htm",
+        "accessed": "2026-07-29",
+        "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+      },
+      {
+        "title": "Petro Shelest",
+        "publisher": "Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Petro_Shelest",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "ua-scerbyckyj",
+    "country": "UA",
+    "name": "Volodymyr Ščerbyckyj",
+    "office": "první tajemník ÚV Komunistické strany Ukrajiny",
+    "termStart": 1972,
+    "termEnd": 1989,
+    "cameToPower": "Do čela KSU nastoupil 25. května 1972 po odvolání Petra Šelesta; patřil k blízkým spojencům Leonida Brežněva z tzv. dněpropetrovské skupiny.",
+    "summary": "Sedmnáct let (1972–1989) vedl sovětskou Ukrajinu v duchu rusifikace, potlačování disentu a ideologického konzervatismu; do jeho éry spadá i havárie v Černobylu roku 1986.",
+    "achievements": [
+      "Od dubna 1971 byl členem politbyra ÚV KSSS, nejužšího sovětského vedení.",
+      "V čele KSU stál nepřetržitě sedmnáct let, do září 1989.",
+      "Za jeho vedení se na Ukrajině rychle rozšiřovala jaderná energetika."
+    ],
+    "controversies": [
+      "Po nástupu provedl čistku: z KSU bylo odstraněno zhruba 5 % členů a zatčeni byli přední intelektuálové včetně Vjačeslava Čornovola, Ivana Svitlyčného a Jevhena Sverstjuka; politolog Peter Reddaway zásah označil za nejtěžší jednotlivý úder KGB.",
+      "Z jeho iniciativy se veškerá stranická práce i sjezdy KSU vedly rusky; ukrajinské školství bylo omezováno a ukrajinských knih vycházelo méně než za Stalina.",
+      "Po havárii v Černobylu nechal 1. května 1986 na Gorbačovův pokyn proběhnout prvomájový průvod v centru Kyjeva navzdory zvýšené radiaci."
+    ],
+    "reception": [
+      {
+        "period": "1972–1985",
+        "text": "Podle anglické Wikipedie byl vnímán jako loajální Brežněvův spojenec z „dněpropetrovské skupiny“; tato podpora jej ve funkci držela i po Brežněvově smrti.",
+        "source": {
+          "title": "Volodymyr Shcherbytsky",
+          "publisher": "Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Volodymyr_Shcherbytsky",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1989",
+        "text": "V červenci 1989 požadovali stávkující horníci Donbasu jeho rezignaci, protesty organizovalo i nově založené hnutí Ruch; 28. září 1989 byl odvolán a nahrazen Volodymyrem Ivaškem.",
+        "source": {
+          "title": "Volodymyr Shcherbytsky",
+          "publisher": "Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Volodymyr_Shcherbytsky",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1991",
+        "text": "Politologové Karen Dawishová a Bruce Parrott řadí jeho vládu k nejkonzervativnějším a nejzkorumpovanějším mezi sovětskými republikami; v rámci dekomunizace byly po roce 2015 ulice s jeho jménem přejmenovány a v roce 2024 byla odstraněna jeho busta v rodném Verchňodniprovsku.",
+        "source": {
+          "title": "Volodymyr Shcherbytsky",
+          "publisher": "Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Volodymyr_Shcherbytsky",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1994–2003",
+        "text": "Část ukrajinských elit jej hodnotila smířlivěji: prezident Leonid Kravčuk o něm v roce 1994 mluvil pozitivně a v roce 2003 vláda oficiálně slavila 85. výročí jeho narození, což vyvolalo veřejné spory.",
+        "source": {
+          "title": "Volodymyr Shcherbytsky",
+          "publisher": "Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Volodymyr_Shcherbytsky",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Shcherbytsky, Volodymyr",
+        "publisher": "Internet Encyclopedia of Ukraine, CIUS",
+        "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CH%5CShcherbytskyVolodymyr.htm",
+        "accessed": "2026-07-29",
+        "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+      },
+      {
+        "title": "Volodymyr Shcherbytsky",
+        "publisher": "Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Volodymyr_Shcherbytsky",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "ua-kravcuk",
+    "country": "UA",
+    "name": "Leonid Kravčuk",
+    "office": "prezident Ukrajiny",
+    "termStart": 1991,
+    "termEnd": 1994,
+    "cameToPower": "Jako předseda Nejvyšší rady dovedl Ukrajinu k vyhlášení nezávislosti a 1. prosince 1991 byl zvolen prvním prezidentem s 61,6 % hlasů, souběžně s referendem o nezávislosti.",
+    "summary": "První prezident nezávislé Ukrajiny, který zemi provedl rozpadem Sovětského svazu a budováním vlastního státu.",
+    "achievements": [
+      "Dne 8. prosince 1991 podepsal Bělověžské dohody, které ukončily existenci Sovětského svazu.",
+      "Zahájil budování samostatných ozbrojených sil a institucí nového ukrajinského státu.",
+      "V lednu 1994 souhlasil s předáním sovětského jaderného arzenálu výměnou za bezpečnostní ujištění, což vyústilo v Budapešťské memorandum z prosince 1994.",
+      "V únoru 1994 přivedl Ukrajinu jako první zemi Společenství nezávislých států do programu NATO Partnerství pro mír."
+    ],
+    "controversies": [
+      "Za jeho úřadu klesl hrubý domácí produkt Ukrajiny zhruba o 40 % a inflace v roce 1993 dosáhla přibližně 5 000 %.",
+      "Jeho vláda místo hospodářských reforem rozdělovala levné úvěry a cenové kontroly a umožnila bývalé sovětské nomenklatuře přeměnit vliv v majetek."
+    ],
+    "reception": [
+      {
+        "period": "1991",
+        "text": "V prosincových volbách 1991 získal 61,6 % hlasů a nezávislost v souběžném referendu podpořilo 90,3 % hlasujících, což dokládá tehdejší širokou podporu jeho kurzu.",
+        "source": {
+          "title": "Kravchuk, Leonid",
+          "publisher": "Internet Encyclopedia of Ukraine, Canadian Institute of Ukrainian Studies",
+          "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CR%5CKravchukLeonid.htm",
+          "accessed": "2026-07-29",
+          "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+        }
+      },
+      {
+        "period": "1993–1994",
+        "text": "Hospodářský propad a hornické stávky v letech 1993–1994 jeho podporu oslabily; ruční vozíky pouličních prodejců lidé posměšně nazývali „kravčučky“.",
+        "source": {
+          "title": "Leonid Kravchuk",
+          "publisher": "Wikimedia Foundation (anglická Wikipedie)",
+          "url": "https://en.wikipedia.org/wiki/Leonid_Kravchuk",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1994",
+        "text": "Ve druhém kole voleb 10. července 1994 jej voliči, zejména na východě a jihu země, odmítli poměrem 45,1 % ku 52,1 % pro Leonida Kučmu.",
+        "source": {
+          "title": "Kravchuk, Leonid",
+          "publisher": "Internet Encyclopedia of Ukraine, Canadian Institute of Ukrainian Studies",
+          "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CR%5CKravchukLeonid.htm",
+          "accessed": "2026-07-29",
+          "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1994",
+        "text": "Encyclopedia of Ukraine hodnotí jeho úřad jako spojení úspěchů při budování nezávislého státu s výraznými selháními v hospodářské a ústavní politice.",
+        "source": {
+          "title": "Kravchuk, Leonid",
+          "publisher": "Internet Encyclopedia of Ukraine, Canadian Institute of Ukrainian Studies",
+          "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CR%5CKravchukLeonid.htm",
+          "accessed": "2026-07-29",
+          "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+        }
+      },
+      {
+        "period": "po 2000",
+        "text": "Historici Alexander Motyl a Taras Kuzio popisují jeho éru jako přechodné období, kdy vznikl stát, ale systémová reforma byla odložena a sovětské elity si udržely postavení.",
+        "source": {
+          "title": "Leonid Kravchuk",
+          "publisher": "Wikimedia Foundation (anglická Wikipedie)",
+          "url": "https://en.wikipedia.org/wiki/Leonid_Kravchuk",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Leonid Kravchuk",
+        "publisher": "Wikimedia Foundation (anglická Wikipedie)",
+        "url": "https://en.wikipedia.org/wiki/Leonid_Kravchuk",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Kravchuk, Leonid",
+        "publisher": "Internet Encyclopedia of Ukraine, Canadian Institute of Ukrainian Studies",
+        "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CR%5CKravchukLeonid.htm",
+        "accessed": "2026-07-29",
+        "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+      }
+    ]
+  },
+  {
+    "id": "ua-kucma",
+    "country": "UA",
+    "name": "Leonid Kučma",
+    "office": "prezident Ukrajiny",
+    "termStart": 1994,
+    "termEnd": 2005,
+    "cameToPower": "Bývalý premiér a ředitel strojírenského podniku Pivdenmaš zvítězil v červenci 1994 ve druhém kole prezidentských voleb s 52,1 % hlasů se slibem hospodářských reforem a užších vztahů s Ruskem.",
+    "summary": "Prezident dvou funkčních období, za něhož se hospodářství stabilizovalo, ale státní moc se propojila s oligarchickými skupinami a důvěru podlomil skandál kolem vraždy novináře Gongadzeho.",
+    "achievements": [
+      "Dne 28. června 1996 parlament přijal Ústavu Ukrajiny, která vymezila podobu státu a posílila prezidentské pravomoci.",
+      "V září 1996 byla zavedena nová měna hřivna, jež nahradila karbovanec a přispěla ke stabilizaci po hyperinflaci.",
+      "Privatizační kupony obdrželo 28,5 milionu občanů a podíl soukromého sektoru na hrubém domácím produktu dosáhl v roce 1996 55 %."
+    ],
+    "controversies": [
+      "„Kazetový skandál“: nahrávky jeho ochránce Mykoly Melnyčenka jej od roku 2000 spojovaly se zmizením novináře Heorhije Gongadzeho, jehož tělo bylo nalezeno v listopadu 2000; stíhání z roku 2011 soud zastavil pro nedostatek důkazů.",
+      "Jeho administrativa zavírala opoziční noviny, zadržovala novináře a podle historika Serhije Jekelčyka volně užívala volebních manipulací, mimo jiné ve volbách 1999.",
+      "Jeho politika umožnila vzestup oligarchických skupin, včetně podnikatelských vazeb rodiny na Viktora Pinčuka."
+    ],
+    "reception": [
+      {
+        "period": "1994",
+        "text": "Ve volbách 1994 jej podpořily především průmyslové oblasti východu a jihu, zatímco západ Ukrajiny hlasoval převážně proti němu.",
+        "source": {
+          "title": "Leonid Kuchma",
+          "publisher": "Wikimedia Foundation (anglická Wikipedie)",
+          "url": "https://en.wikipedia.org/wiki/Leonid_Kuchma",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2000–2001",
+        "text": "Po zveřejnění Melnyčenkových nahrávek vypukly protesty „Ukrajina bez Kučmy“ požadující jeho rezignaci a důvěra veřejnosti výrazně poklesla.",
+        "source": {
+          "title": "Leonid Kuchma",
+          "publisher": "Wikimedia Foundation (anglická Wikipedie)",
+          "url": "https://en.wikipedia.org/wiki/Leonid_Kuchma",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2002–2005",
+        "text": "Průzkum z roku 2002 uváděl, že plnou důvěru v něj mělo jen 8,6 % dotázaných; během oranžové revoluce na přelomu let 2004 a 2005 byl kritizován i za odlet do Moskvy, násilí proti demonstrantům však nenařídil.",
+        "source": {
+          "title": "Kuchma, Leonid",
+          "publisher": "Internet Encyclopedia of Ukraine, Canadian Institute of Ukrainian Studies",
+          "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CU%5CKuchmaLeonid.htm",
+          "accessed": "2026-07-29",
+          "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 2005",
+        "text": "Pozdější hodnocení mu přiznávají hospodářskou stabilizaci a mezinárodní ukotvení státu, současně jej popisují jako autoritářského prezidenta, který umožnil oligarchické ovládnutí institucí a potlačoval nezávislá média.",
+        "source": {
+          "title": "Leonid Kuchma",
+          "publisher": "Wikimedia Foundation (anglická Wikipedie)",
+          "url": "https://en.wikipedia.org/wiki/Leonid_Kuchma",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Leonid Kuchma",
+        "publisher": "Wikimedia Foundation (anglická Wikipedie)",
+        "url": "https://en.wikipedia.org/wiki/Leonid_Kuchma",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Kuchma, Leonid",
+        "publisher": "Internet Encyclopedia of Ukraine, Canadian Institute of Ukrainian Studies",
+        "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CU%5CKuchmaLeonid.htm",
+        "accessed": "2026-07-29",
+        "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)"
+      }
+    ]
+  },
+  {
+    "id": "ua-juscenko",
+    "country": "UA",
+    "name": "Viktor Juščenko",
+    "office": "prezident Ukrajiny",
+    "termStart": 2005,
+    "termEnd": 2010,
+    "cameToPower": "Po zfalšovaném druhém kole voleb 2004 a masových protestech oranžové revoluce nařídil Nejvyšší soud opakování hlasování, v němž v prosinci 2004 zvítězil s přibližně 52 % hlasů; úřad převzal 23. ledna 2005.",
+    "summary": "Prezident vzešlý z oranžové revoluce, který otevřel zemi Západu a svobodnějším médiím, jehož éru však ochromily spory uvnitř bývalého protestního tábora.",
+    "achievements": [
+      "Prosazoval směřování Ukrajiny k Evropské unii a NATO a zrušil vízovou povinnost pro občany Evropské unie.",
+      "Prosadil státní připomínání hladomoru z let 1932–1933 jako klíčové historické události.",
+      "Za jeho úřadu se rozšířila svoboda médií a Kyjev v roce 2005 hostil soutěž Eurovision Song Contest."
+    ],
+    "controversies": [
+      "V září 2005 odvolal vládu Julije Tymošenkové kvůli obviněním z korupce; rozkol obou lídrů oranžové revoluce pak provázel celé jeho funkční období.",
+      "V květnu 2007 odvolal tři soudce Ústavního soudu, aby zabránil rozhodnutí proti svým dekretům, což kritici označili za protiústavní krok.",
+      "Dne 22. ledna 2010 udělil Stepanu Banderovi titul Hrdina Ukrajiny; rozhodnutí odsoudil mimo jiné Evropský parlament a soudní cestou bylo v lednu 2011 zrušeno."
+    ],
+    "reception": [
+      {
+        "period": "2004–2005",
+        "text": "Po zpochybněných volbách v listopadu 2004 vyšly podle záznamů statisíce lidí demonstrovat na jeho podporu a v opakovaném hlasování zvítězil; nastupoval jako symbol naděje protestního hnutí.",
+        "source": {
+          "title": "Viktor Juščenko",
+          "publisher": "Wikimedia Foundation (česká Wikipedie)",
+          "url": "https://cs.wikipedia.org/wiki/Viktor_Ju%C5%A1%C4%8Denko",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2009",
+        "text": "V únoru 2009 si podle průzkumu téměř 70 % voličů přálo jeho odchod z funkce a v říjnu 2009 mu průzkumy přisuzovaly podporu kolem 7 %.",
+        "source": {
+          "title": "Viktor Yushchenko",
+          "publisher": "Wikimedia Foundation (anglická Wikipedie)",
+          "url": "https://en.wikipedia.org/wiki/Viktor_Yushchenko",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2010",
+        "text": "V prezidentských volbách v lednu 2010 získal jako úřadující prezident 5,45 % hlasů a vypadl už v prvním kole; širší podporu si udržel hlavně v Haliči.",
+        "source": {
+          "title": "Viktor Juščenko",
+          "publisher": "Wikimedia Foundation (česká Wikipedie)",
+          "url": "https://cs.wikipedia.org/wiki/Viktor_Ju%C5%A1%C4%8Denko",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 2010",
+        "text": "Pozdější hodnocení mu přiznávají demokratické otevření a svobodnější veřejný prostor, jeho vládu však popisují jako ochromenou spory a slabým vedením; část bývalých spojenců mu vyčítala zpronevěření se ideálům oranžové revoluce.",
+        "source": {
+          "title": "Viktor Yushchenko",
+          "publisher": "Wikimedia Foundation (anglická Wikipedie)",
+          "url": "https://en.wikipedia.org/wiki/Viktor_Yushchenko",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Viktor Yushchenko",
+        "publisher": "Wikimedia Foundation (anglická Wikipedie)",
+        "url": "https://en.wikipedia.org/wiki/Viktor_Yushchenko",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Viktor Juščenko",
+        "publisher": "Wikimedia Foundation (česká Wikipedie)",
+        "url": "https://cs.wikipedia.org/wiki/Viktor_Ju%C5%A1%C4%8Denko",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "ua-janukovyc",
+    "country": "UA",
+    "name": "Viktor Janukovyč",
+    "office": "prezident Ukrajiny",
+    "termStart": 2010,
+    "termEnd": 2014,
+    "cameToPower": "Po neúspěchu z roku 2004, kdy jeho vítězství zatížené podvody zrušil Nejvyšší soud, vyhrál v únoru 2010 druhé kolo prezidentských voleb se 48,95 % hlasů proti Juliji Tymošenkové; pozorovatelé OBSE tehdy volby označili za regulérní.",
+    "summary": "Prezident, jehož odmítnutí asociační dohody s Evropskou unií v listopadu 2013 vyvolalo protesty na Majdanu; po jejich krvavém vyústění v únoru 2014 uprchl do Ruska.",
+    "achievements": [
+      "V dubnu 2010 uzavřel Charkovské dohody, které prodloužily pronájem základny ruské Černomořské flotily na Krymu.",
+      "Vedl jednání o asociační dohodě Ukrajiny s Evropskou unií, kterou však nakonec odmítl podepsat."
+    ],
+    "controversies": [
+      "Rychle koncentroval moc: prokuratura i další instituce se podle dobových zjištění podřídily „prezidentskému týmu“ a vláda čelila obviněním z cenzury, perzekuce opozice a systémové korupce, symbolizované rezidencí Mežihirja.",
+      "V listopadu 2013 pod ruským hospodářským tlakem odmítl podepsat asociační dohodu s Evropskou unií, ačkoli ji parlament schvaloval, což vyvolalo protesty Euromajdanu.",
+      "Při potlačování protestů v únoru 2014 zahynulo téměř sto demonstrantů; 21. února podepsal dohodu s opozicí, v noci však uprchl a 22. února 2014 jej parlament zbavil úřadu."
+    ],
+    "reception": [
+      {
+        "period": "2010",
+        "text": "Volby, v nichž zvítězil, hodnotili pozorovatelé OBSE jako přesvědčivou ukázku demokratického hlasování bez známek závažných podvodů; opíral se o voliče východu a jihu země.",
+        "source": {
+          "title": "Viktor Yanukovych",
+          "publisher": "Wikimedia Foundation (anglická Wikipedie)",
+          "url": "https://en.wikipedia.org/wiki/Viktor_Yanukovych",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2013–2014",
+        "text": "Odmítnutí dohody s Evropskou unií v listopadu 2013 vyvolalo masové protesty Euromajdanu; po únorovém násilí roku 2014, při němž zahynuly desítky lidí, jej parlament zbavil úřadu.",
+        "source": {
+          "title": "Viktor Janukovyč",
+          "publisher": "Wikimedia Foundation (česká Wikipedie)",
+          "url": "https://cs.wikipedia.org/wiki/Viktor_Janukovy%C4%8D",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 2014",
+        "text": "Dne 24. ledna 2019 jej ukrajinský soud v nepřítomnosti odsoudil ke 13 letům vězení za vlastizradu poté, co 1. března 2014 požádal o ruskou vojenskou intervenci.",
+        "source": {
+          "title": "Viktor Janukovyč",
+          "publisher": "Wikimedia Foundation (česká Wikipedie)",
+          "url": "https://cs.wikipedia.org/wiki/Viktor_Janukovy%C4%8D",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "po 2014",
+        "text": "V průzkumech veřejného mínění je opakovaně řazen mezi nejhůře hodnocené prezidenty nezávislé Ukrajiny.",
+        "source": {
+          "title": "Viktor Yanukovych",
+          "publisher": "Wikimedia Foundation (anglická Wikipedie)",
+          "url": "https://en.wikipedia.org/wiki/Viktor_Yanukovych",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Viktor Yanukovych",
+        "publisher": "Wikimedia Foundation (anglická Wikipedie)",
+        "url": "https://en.wikipedia.org/wiki/Viktor_Yanukovych",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Viktor Janukovyč",
+        "publisher": "Wikimedia Foundation (česká Wikipedie)",
+        "url": "https://cs.wikipedia.org/wiki/Viktor_Janukovy%C4%8D",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "ua-turcynov",
+    "country": "UA",
+    "name": "Oleksandr Turčynov",
+    "office": "úřadující prezident Ukrajiny",
+    "termStart": 2014,
+    "termEnd": 2014,
+    "cameToPower": "Po útěku Viktora Janukovyče jej Verchovna rada 22. února 2014 zvolila svým předsedou a od 23. února 2014 vykonával pravomoci hlavy státu.",
+    "summary": "Přechodná hlava státu z jara 2014, během jejíhož úřadování Rusko anektovalo Krym a na Donbasu začala válka.",
+    "achievements": [
+      "Udržel ústavní kontinuitu státu a dovedl zemi k předčasným prezidentským volbám 25. května 2014.",
+      "V dubnu 2014, poté co proruští ozbrojenci nevyužili lhůtu k odzbrojení, zahájil tzv. protiteroristickou operaci na východě Ukrajiny.",
+      "Za jeho předsednictví parlamentu byla formálně obnovena ústava z roku 2004, která přenesla část pravomocí od prezidenta na Verchovnu radu."
+    ],
+    "controversies": [
+      "Jeho vedení nekladlo ruskému obsazování Krymu organizovaný vojenský odpor; sám později uvedl, že signatáři Budapešťského memoranda pomoc odmítli a „Ukrajina nedostala jediný náboj“.",
+      "V rozhovoru pro BBC připustil, že na jaře 2014 podepisoval rozkazy k vydávání zbraní dobrovolníkům bez jejich prověřování."
+    ],
+    "reception": [
+      {
+        "period": "únor–červen 2014",
+        "text": "Ruský prezident Vladimir Putin počátkem března 2014 prohlásil, že jej za legitimní hlavu ukrajinského státu nepovažuje; ukrajinský parlament a zahraniční pozorovatelé jej podle anglické Wikipedie naopak vnímali jako přechodnou hlavu státu řídící bezprecedentní krizi.",
+        "source": {
+          "title": "Oleksandr Turchynov",
+          "publisher": "Wikipedie (anglická)",
+          "url": "https://en.wikipedia.org/wiki/Oleksandr_Turchynov",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2017",
+        "text": "V průzkumu centra Sofia z června 2017 mu podle anglické Wikipedie zcela důvěřovalo 0,9 % dotázaných a 57,4 % mu zcela nedůvěřovalo.",
+        "source": {
+          "title": "Oleksandr Turchynov",
+          "publisher": "Wikipedie (anglická)",
+          "url": "https://en.wikipedia.org/wiki/Oleksandr_Turchynov",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 2014",
+        "text": "Pozdější analýzy uvádějí, že z asi 15 000 ukrajinských vojáků na Krymu zůstaly Kyjevu věrné jen zhruba dva tisíce a signatáři Budapešťského memoranda vojenský zásah odmítli, takže možnosti obrany poloostrova byly omezené.",
+        "source": {
+          "title": "Could Ukraine have stopped Russia's illegal annexation of Crimea in 2014?",
+          "publisher": "The Kyiv Independent",
+          "url": "https://kyivindependent.com/could-ukraine-have-defended-crimea-in-2014/",
+          "accessed": "2026-07-29",
+          "licence": "© The Kyiv Independent (citace pro ověření)"
+        }
+      },
+      {
+        "period": "po 2014",
+        "text": "Otázka, zda se Krym dal v roce 2014 ubránit, zůstává předmětem sporů; bývalý šéf SBU Valentyn Nalyvajčenko klade odpovědnost za ztrátu poloostrova především na Viktora Janukovyče.",
+        "source": {
+          "title": "Could Ukraine have stopped Russia's illegal annexation of Crimea in 2014?",
+          "publisher": "The Kyiv Independent",
+          "url": "https://kyivindependent.com/could-ukraine-have-defended-crimea-in-2014/",
+          "accessed": "2026-07-29",
+          "licence": "© The Kyiv Independent (citace pro ověření)"
+        }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Oleksandr Turchynov",
+        "publisher": "Wikipedie (anglická)",
+        "url": "https://en.wikipedia.org/wiki/Oleksandr_Turchynov",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Could Ukraine have stopped Russia's illegal annexation of Crimea in 2014?",
+        "publisher": "The Kyiv Independent",
+        "url": "https://kyivindependent.com/could-ukraine-have-defended-crimea-in-2014/",
+        "accessed": "2026-07-29",
+        "licence": "© The Kyiv Independent (citace pro ověření)"
+      }
+    ]
+  },
+  {
+    "id": "ua-porosenko",
+    "country": "UA",
+    "name": "Petro Porošenko",
+    "office": "prezident Ukrajiny",
+    "termStart": 2014,
+    "termEnd": 2019,
+    "cameToPower": "Předčasné prezidentské volby 25. května 2014 vyhrál již v prvním kole s 54,7 % hlasů.",
+    "summary": "Prezident let 2014–2019, jehož mandát určovala válka na Donbasu, sbližování s Evropskou unií a obnova armády.",
+    "achievements": [
+      "V červnu 2014 podepsal asociační dohodu mezi Ukrajinou a Evropskou unií.",
+      "V červnu 2017 vstoupil v platnost bezvízový styk ukrajinských občanů s Evropskou unií.",
+      "V prosinci 2018 podpořil sjednocovací sněm, z něhož vzešla autokefální Pravoslavná církev Ukrajiny nezávislá na moskevském patriarchátu.",
+      "Vedl obnovu armády oslabené za předchozí vlády a v květnu 2015 podepsal dekomunizační zákony o odstraňování komunistických symbolů a přejmenovávání veřejných míst."
+    ],
+    "controversies": [
+      "Dokumenty Panama Papers v roce 2016 odhalily offshorovou strukturu jeho holdingu vedenou přes kyperské a nizozemské firmy s efektivním zdaněním výrazně pod ukrajinskou sazbou.",
+      "Navzdory protioligarchické rétorice si ponechal podnikatelská aktiva včetně televize 5. kanál, kterou prodal až v listopadu 2021 pod tlakem protioligarchického zákona.",
+      "V lednu 2022 byl obviněn z vlastizrady kvůli nákupům uhlí z okupovaného Donbasu v letech 2014–2015; soud jej ponechal na svobodě pod dohledem a Porošenko vinu odmítá."
+    ],
+    "reception": [
+      {
+        "period": "2014",
+        "text": "Do úřadu nastupoval s mandátem z prvního kola voleb (54,7 % hlasů) a podle anglické Wikipedie s poměrně vysokou počáteční podporou veřejnosti.",
+        "source": {
+          "title": "Petro Poroshenko",
+          "publisher": "Wikipedie (anglická)",
+          "url": "https://en.wikipedia.org/wiki/Petro_Poroshenko",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2019",
+        "text": "Ve druhém kole voleb 21. dubna 2019 pro něj hlasovala jen asi čtvrtina voličů proti 73,2 % pro Volodymyra Zelenského; porážku anglická Wikipedie spojuje s frustrací voličů z vnímané stagnace a korupce.",
+        "source": {
+          "title": "Petro Poroshenko",
+          "publisher": "Wikipedie (anglická)",
+          "url": "https://en.wikipedia.org/wiki/Petro_Poroshenko",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 2019",
+        "text": "V retrospektivních průzkumech shrnutých anglickou Wikipedií je hodnocen jako nadprůměrný prezident.",
+        "source": {
+          "title": "Petro Poroshenko",
+          "publisher": "Wikipedie (anglická)",
+          "url": "https://en.wikipedia.org/wiki/Petro_Poroshenko",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2022",
+        "text": "Trestní stíhání za vlastizradu rozdělilo hodnocení jeho odkazu: část právních expertů považovala obvinění za věrohodná, zatímco podle průzkumu z ledna 2022 je téměř polovina Ukrajinců pokládala za politickou perzekuci.",
+        "source": {
+          "title": "Explainer: Is Poroshenko treason case justice or political persecution?",
+          "publisher": "The Kyiv Independent",
+          "url": "https://kyivindependent.com/explainer-is-poroshenko-treason-case-justice-or-political-persecution/",
+          "accessed": "2026-07-29",
+          "licence": "© The Kyiv Independent (citace pro ověření)"
+        }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Petro Poroshenko",
+        "publisher": "Wikipedie (anglická)",
+        "url": "https://en.wikipedia.org/wiki/Petro_Poroshenko",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "2019 Ukrainian presidential election",
+        "publisher": "Wikipedie (anglická)",
+        "url": "https://en.wikipedia.org/wiki/2019_Ukrainian_presidential_election",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Explainer: Is Poroshenko treason case justice or political persecution?",
+        "publisher": "The Kyiv Independent",
+        "url": "https://kyivindependent.com/explainer-is-poroshenko-treason-case-justice-or-political-persecution/",
+        "accessed": "2026-07-29",
+        "licence": "© The Kyiv Independent (citace pro ověření)"
+      }
+    ]
+  },
+  {
+    "id": "ua-zelenskyj",
+    "country": "UA",
+    "name": "Volodymyr Zelenskyj",
+    "office": "prezident Ukrajiny",
+    "termStart": 2019,
+    "cameToPower": "Jako herec a producent bez předchozí politické funkce zvítězil ve druhém kole prezidentských voleb 21. dubna 2019 se 73,2 % hlasů.",
+    "summary": "Prezident zvolený jako výraz nespokojenosti s politickým establishmentem, který se po ruské invazi v únoru 2022 stal válečnou hlavou státu.",
+    "achievements": [
+      "V září 2019 podepsal zrušení poslanecké imunity, jeden ze svých hlavních volebních slibů.",
+      "Jeho administrativa rozvinula digitalizaci státní správy včetně platformy Dija.",
+      "Po zahájení plnohodnotné ruské invaze 24. února 2022 zůstal v Kyjevě, odmítl nabídky na evakuaci a organizoval mezinárodní vojenskou a finanční podporu Ukrajiny.",
+      "V červnu 2022 získala Ukrajina status kandidátské země Evropské unie."
+    ],
+    "controversies": [
+      "Podle projektu Pandora Papers z října 2021 vybudoval od roku 2012 se společníky ze studia Kvartal 95 síť offshorových firem na Britských Panenských ostrovech, Kypru a v Belize; svůj podíl před volbami 2019 bezúplatně převedl na společníka.",
+      "Zákon z 22. července 2025, který podřídil protikorupční orgány NABU a SAPO generálnímu prokurátorovi, vyvolal první masové protesty od začátku invaze; 31. července 2025 podepsal normu, jež jejich nezávislost obnovila.",
+      "Řádné prezidentské volby v roce 2024 se kvůli válečnému stavu nekonaly a jeho funkční období pokračuje i po původním vypršení v květnu 2024."
+    ],
+    "reception": [
+      {
+        "period": "2019",
+        "text": "Ve druhém kole voleb v dubnu 2019 získal 73,2 % hlasů, což anglická Wikipedie popisuje jako dosud nejvýraznější vítězství v ukrajinských prezidentských volbách.",
+        "source": {
+          "title": "Volodymyr Zelenskyy",
+          "publisher": "Wikipedie (anglická)",
+          "url": "https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2022",
+        "text": "Po začátku plnohodnotné invaze v únoru 2022 dosáhla podle Kyjevského mezinárodního institutu sociologie (KIIS) důvěra v prezidenta 90 % dotázaných.",
+        "source": {
+          "title": "Dynamics of trust in President V. Zelenskyy in 2019-2025",
+          "publisher": "Kyjevský mezinárodní institut sociologie (KIIS)",
+          "url": "https://kiis.com.ua/?lang=eng&cat=reports&id=1542&page=1",
+          "accessed": "2026-07-29",
+          "licence": "oficiální zdroj (citace pro ověření)"
+        }
+      },
+      {
+        "period": "2024–2025",
+        "text": "Podle KIIS klesla důvěra v prosinci 2024 na 52 %, začátkem května 2025 stoupla na 74 % a na přelomu července a srpna 2025 činila 58 %.",
+        "source": {
+          "title": "Dynamics of trust in President V. Zelenskyy in 2019-2025",
+          "publisher": "Kyjevský mezinárodní institut sociologie (KIIS)",
+          "url": "https://kiis.com.ua/?lang=eng&cat=reports&id=1542&page=1",
+          "accessed": "2026-07-29",
+          "licence": "oficiální zdroj (citace pro ověření)"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "2022–2025",
+        "text": "Časopis Time jej vyhlásil osobností roku 2022 a průzkum agentury Rating jej v říjnu 2022 označil za druhého nejvýznamnějšího Ukrajince historie; celkové hodnocení jeho prezidentství zůstává za trvající války předběžné.",
+        "source": {
+          "title": "Volodymyr Zelenskyy",
+          "publisher": "Wikipedie (anglická)",
+          "url": "https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2025",
+        "text": "Evropská komisařka pro rozšíření Marta Kos po červencové krizi kolem NABU a SAPO uvedla, že parlament škodlivé hlasování napravil a klíčové záruky obnovil, výzvy však podle ní přetrvávají.",
+        "source": {
+          "title": "Following street protests, Zelensky signs law restoring independence of anti-graft bodies",
+          "publisher": "The Kyiv Independent",
+          "url": "https://kyivindependent.com/parliament-votes-on-bill-restoring-nabu-sapo-independence/",
+          "accessed": "2026-07-29",
+          "licence": "© The Kyiv Independent (citace pro ověření)"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Volodymyr Zelenskyy",
+        "publisher": "Wikipedie (anglická)",
+        "url": "https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "2019 Ukrainian presidential election",
+        "publisher": "Wikipedie (anglická)",
+        "url": "https://en.wikipedia.org/wiki/2019_Ukrainian_presidential_election",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Dynamics of trust in President V. Zelenskyy in 2019-2025",
+        "publisher": "Kyjevský mezinárodní institut sociologie (KIIS)",
+        "url": "https://kiis.com.ua/?lang=eng&cat=reports&id=1542&page=1",
+        "accessed": "2026-07-29",
+        "licence": "oficiální zdroj (citace pro ověření)"
+      },
+      {
+        "title": "Pandora Papers Reveal Offshore Holdings of Ukrainian President and his Inner Circle",
+        "publisher": "OCCRP",
+        "url": "https://www.occrp.org/en/project/the-pandora-papers/pandora-papers-reveal-offshore-holdings-of-ukrainian-president-and-his-inner-circle",
+        "accessed": "2026-07-29",
+        "licence": "© OCCRP (citace pro ověření)"
+      },
+      {
+        "title": "Following street protests, Zelensky signs law restoring independence of anti-graft bodies",
+        "publisher": "The Kyiv Independent",
+        "url": "https://kyivindependent.com/parliament-votes-on-bill-restoring-nabu-sapo-independence/",
+        "accessed": "2026-07-29",
+        "licence": "© The Kyiv Independent (citace pro ověření)"
+      }
+    ]
+  }
+]

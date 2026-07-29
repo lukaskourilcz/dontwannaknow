@@ -1,1 +1,1010 @@
-[]
+[
+  {
+    "id": "cz-masaryk",
+    "country": "CZ",
+    "name": "Tomáš Garrigue Masaryk",
+    "office": "prezident Československé republiky",
+    "termStart": 1918,
+    "termEnd": 1935,
+    "cameToPower": "Za první světové války vedl zahraniční odboj proti Rakousku-Uhersku a 14. listopadu 1918 jej revoluční Národní shromáždění zvolilo prvním prezidentem Československé republiky.",
+    "summary": "Zakladatel a první prezident Československa, který určil demokratický charakter meziválečného státu.",
+    "achievements": [
+      "Za první světové války zorganizoval zahraniční odboj a československé legie a získal podporu prezidenta Wilsona pro rozbití Rakouska-Uherska.",
+      "V roce 1899 se zasadil o revizi antisemitsky vedeného procesu s Leopoldem Hilsnerem.",
+      "V roce 1919 podepsal zákon o založení Masarykovy univerzity v Brně.",
+      "V úřadu prezidenta byl potvrzen třemi opětovnými volbami (1920, 1927, 1934)."
+    ],
+    "controversies": [
+      "V letech 1877–1886 zpochybnil pravost Rukopisu královédvorského a zelenohorského, za což jej část tehdejší veřejnosti označovala za vlastizrádce.",
+      "Za vystoupení v hilsneriádě čelil ostrým útokům tisku i studentů a zvažoval odchod ze země.",
+      "Historikové citovaní anglickou Wikipedií dokládají, že sám užíval dobové stereotypy o židovském vlivu na tisk."
+    ],
+    "reception": [
+      {
+        "period": "1918–1935",
+        "text": "Národní shromáždění jej zvolilo prezidentem čtyřikrát (1918, 1920, 1927, 1934) a v roce 1930 přijalo zákon s větou „Tomáš Garrigue Masaryk zasloužil se o stát“; legionáři jej nazývali „tatíčkem“, komunisté a slovenští nacionalisté však pro něj podle české Wikipedie nikdy nehlasovali.",
+        "source": {
+          "title": "Tomáš Garrigue Masaryk (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Garrigue_Masaryk",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "dvacátá a třicátá léta",
+        "text": "Doma i v zahraničí byl podle anglické Wikipedie oceňován jako zakladatel státu a „prezident Osvoboditel“; kritika zaznívala z katolických kruhů vůči protestantovi v čele převážně katolické země.",
+        "source": {
+          "title": "Tomáš Garrigue Masaryk (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Garrigue_Masaryk",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1989",
+        "text": "Historiografie mu podle anglické Wikipedie přiznává zásluhy o udržení demokracie v meziválečném Československu, zároveň však kritičtěji než dříve zkoumá jeho rozpory a dobové předsudky.",
+        "source": {
+          "title": "Tomáš Garrigue Masaryk (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Garrigue_Masaryk",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Tomáš Garrigue Masaryk (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Garrigue_Masaryk",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Tomáš Garrigue Masaryk (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Garrigue_Masaryk",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-benes",
+    "country": "CZ",
+    "name": "Edvard Beneš",
+    "office": "prezident Československé republiky (1935–1938 a 1945–1948)",
+    "termStart": 1935,
+    "termEnd": 1948,
+    "cameToPower": "Po abdikaci T. G. Masaryka jej 18. prosince 1935 zvolilo Národní shromáždění prezidentem; po návratu z exilu byl roku 1945 v úřadu potvrzen a v červnu 1946 znovu zvolen.",
+    "summary": "Dlouholetý ministr zahraničí a druhý prezident Československa, jehož úřad rámují mnichovská dohoda 1938 a únor 1948.",
+    "achievements": [
+      "Jako ministr zahraničí (1918–1935) vybudoval československou diplomacii a působil ve vedení Společnosti národů.",
+      "Od roku 1939 vedl zahraniční odboj; exilové státní zřízení uznala v červenci 1940 Velká Británie a plného uznání dosáhlo v červenci 1941.",
+      "Dosáhl mezinárodního uznání předmnichovských hranic a obnovy Československa v roce 1945."
+    ],
+    "controversies": [
+      "Po přijetí mnichovské dohody abdikoval 5. října 1938 a odešel do Londýna, což mu část domácí veřejnosti zpočátku vyčítala.",
+      "Podepisoval dekrety o konfiskacích majetku a ztrátě občanství Němců a Maďarů; jejich provádění podle české Wikipedie mnohdy naplňovalo prvky kolektivní viny.",
+      "V únoru 1948 pod nátlakem přijal demisi nekomunistických ministrů a jmenoval vládu doplněnou komunisty, čímž se otevřela cesta k převzetí moci KSČ."
+    ],
+    "reception": [
+      {
+        "period": "1938–1945",
+        "text": "Po Mnichovu byl částí domácí veřejnosti kritizován za odchod ze země, během okupace však podle české Wikipedie získal v protektorátu značnou podporu obyvatelstva.",
+        "source": {
+          "title": "Edvard Beneš (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Edvard_Bene%C5%A1",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1945–1948",
+        "text": "Po návratu do Prahy v květnu 1945 byl přijímán jako představitel obnoveného státu a v červnu 1946 znovu zvolen; mezi lety 1926 a 1948 byl podle české Wikipedie osmnáctkrát navržen na Nobelovu cenu míru.",
+        "source": {
+          "title": "Edvard Beneš (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Edvard_Bene%C5%A1",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1989",
+        "text": "Česká historiografie jej podle české Wikipedie hodnotí rozporně: přiznává mu zásluhy o vznik a obnovu státu, kriticky však posuzuje mnichovskou porážku, spoléhání na Sovětský svaz i spoluodpovědnost za únor 1948.",
+        "source": {
+          "title": "Edvard Beneš (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Edvard_Bene%C5%A1",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "po 1989",
+        "text": "Část autorů, například George Kennan citovaný anglickou Wikipedií, soudí, že kapitulace roku 1938 zemi ušetřila zkázy po vzoru Polska; spory trvají — v roce 2025 iniciativa žádala doplnit jeho pomník o tabulku o odpovědnosti za únor 1948 a Společnost Edvarda Beneše to odmítla jako zjednodušující.",
+        "source": {
+          "title": "Edvard Beneš (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Edvard_Bene%C5%A1",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Edvard Beneš (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Edvard_Bene%C5%A1",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Edvard Beneš (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Edvard_Bene%C5%A1",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-hacha",
+    "country": "CZ",
+    "name": "Emil Hácha",
+    "office": "prezident Česko-Slovenské republiky, od března 1939 státní prezident Protektorátu Čechy a Morava",
+    "termStart": 1938,
+    "termEnd": 1945,
+    "cameToPower": "Po Benešově abdikaci jej 30. listopadu 1938 zvolilo Národní shromáždění prezidentem jako jediného kandidáta 272 z 312 hlasů.",
+    "summary": "Právník zvolený prezidentem po Mnichovu, který od března 1939 stál v čele Protektorátu Čechy a Morava.",
+    "achievements": [
+      "Před zvolením působil jako uznávaný právník a byl podle české Wikipedie přijatelný napříč hlavními politickými stranami.",
+      "V prvních letech protektorátu protestoval proti germanizaci a intervenoval za zatčené, mimo jiné žádal propuštění zatčených studentů."
+    ],
+    "controversies": [
+      "V noci ze 14. na 15. března 1939 v Berlíně pod Hitlerovou pohrůžkou bombardování Prahy podepsal prohlášení vkládající osud českého národa pod „ochranu Německé říše“.",
+      "Podle anglické Wikipedie podepisoval protektorátní předpisy vytvořené po vzoru nacistických rasových zákonů.",
+      "Po atentátu na Heydricha v květnu 1942 v rozhlasových projevech odsoudil odboj i exilovou vládu a odbojáře označil za „zločince“ a „zrádce“."
+    ],
+    "reception": [
+      {
+        "period": "1938–1939",
+        "text": "V době volby byl podle české Wikipedie vnímán jako respektovaný právník a úředník přijatelný napříč politickými stranami.",
+        "source": {
+          "title": "Emil Hácha (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Emil_H%C3%A1cha",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1939–1945",
+        "text": "Nacistická propaganda z něj podle české Wikipedie postupně učinila symbol protektorátní loajality; po příchodu Heydricha v září 1941 jeho skutečný vliv upadal.",
+        "source": {
+          "title": "Emil Hácha (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Emil_H%C3%A1cha",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1945",
+        "text": "Po osvobození byl 13. května 1945 zatčen, 27. června 1945 zemřel ve vězení na Pankráci a byl pohřben tajně; jméno na rodinném hrobě smělo být podle české Wikipedie doplněno až roku 1994.",
+        "source": {
+          "title": "Emil Hácha (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Emil_H%C3%A1cha",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "1945–1946",
+        "text": "Národní soud po válce konstatoval, že v důsledku špatného zdravotního stavu Hácha od ledna 1943 za své činy neodpovídal.",
+        "source": {
+          "title": "Emil Hácha (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Emil_H%C3%A1cha",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "po 1989",
+        "text": "Historikové se podle české i anglické Wikipedie rozcházejí: část jej líčí jako tragickou postavu sevřenou nátlakem a nemocí, část zdůrazňuje jeho podíl na kolaboraci včetně protižidovských předpisů.",
+        "source": {
+          "title": "Emil Hácha (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Emil_H%C3%A1cha",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Emil Hácha (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Emil_H%C3%A1cha",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Emil Hácha (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Emil_H%C3%A1cha",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-gottwald",
+    "country": "CZ",
+    "name": "Klement Gottwald",
+    "office": "prezident Československé republiky",
+    "termStart": 1948,
+    "termEnd": 1953,
+    "cameToPower": "Jako předseda vlády vynutil v únoru 1948 na prezidentu Benešovi přijetí demise nekomunistických ministrů a doplnění vlády komunisty; po Benešově abdikaci byl 14. června 1948 zvolen prezidentem.",
+    "summary": "První komunistický prezident Československa, s jehož vládou jsou spjaty politické procesy a přestavba státu podle sovětského vzoru.",
+    "achievements": [
+      "Pod jeho vedením zvítězila KSČ v parlamentních volbách v květnu 1946 a stal se předsedou vlády.",
+      "Za jeho vlády byla 9. května 1948 přijata nová ústava a zavedeno centrální plánování hospodářství s důrazem na těžký průmysl."
+    ],
+    "controversies": [
+      "V politických procesech jeho éry bylo podle české Wikipedie vyneseno přes 230 rozsudků smrti a více než 100 000 občanů odsouzeno k doživotí či mnohaletému vězení; popraveni byli mimo jiné Milada Horáková (1950) a Rudolf Slánský (1952).",
+      "Navzdory mezinárodním žádostem, včetně apelu Alberta Einsteina, neudělil milost Miladě Horákové, popravené 27. června 1950.",
+      "Za jeho vlády probíhala násilná kolektivizace zemědělství a desítky tisíc mužů prošly Pomocnými technickými prapory jako „protistátní živly“."
+    ],
+    "reception": [
+      {
+        "period": "1948–1953",
+        "text": "Režimní propaganda kolem něj budovala kult osobnosti: v lednu 1949 byl Zlín přejmenován na Gottwaldov a Československý rozhlas pořídil podle české Wikipedie nahrávky nejméně 81 jeho projevů.",
+        "source": {
+          "title": "Klement Gottwald (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Klement_Gottwald",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1950",
+        "text": "Podle ÚSTR provázely proces s Miladou Horákovou organizované rezoluce pracujících žádající přísné tresty; na hlavní proces navázalo 35 okrajových procesů s celkem 639 obžalovanými.",
+        "source": {
+          "title": "Dr. Horáková Milada a spol.",
+          "publisher": "Ústav pro studium totalitních režimů",
+          "url": "https://www.ustrcr.cz/uvod/skupina-vyzkumu/dr-horakova-milada-a-spol/",
+          "accessed": "2026-07-29",
+          "licence": "oficiální zdroj (citace pro ověření)"
+        }
+      },
+      {
+        "period": "1953–1962",
+        "text": "Po smrti 14. března 1953 bylo jeho nabalzamované tělo vystaveno v památníku na pražském Vítkově; veřejné vystavování podle anglické Wikipedie skončilo roku 1962.",
+        "source": {
+          "title": "Klement Gottwald (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Klement_Gottwald",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1989",
+        "text": "Historiografie jej podle české Wikipedie charakterizuje jako aktéra teroru a vykonstruovaných procesů; města mu v letech 2002–2019 odebírala čestná občanství a jeho sochy byly odstraňovány.",
+        "source": {
+          "title": "Klement Gottwald (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Klement_Gottwald",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2005",
+        "text": "V televizní divácké anketě z roku 2005 byl podle anglické Wikipedie označen za „největšího padoucha“ českých dějin s 26 % hlasů.",
+        "source": {
+          "title": "Klement Gottwald (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Klement_Gottwald",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Klement Gottwald (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Klement_Gottwald",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Klement Gottwald (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Klement_Gottwald",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Dr. Horáková Milada a spol.",
+        "publisher": "Ústav pro studium totalitních režimů",
+        "url": "https://www.ustrcr.cz/uvod/skupina-vyzkumu/dr-horakova-milada-a-spol/",
+        "accessed": "2026-07-29",
+        "licence": "oficiální zdroj (citace pro ověření)"
+      }
+    ]
+  },
+  {
+    "id": "cz-zapotocky",
+    "country": "CZ",
+    "name": "Antonín Zápotocký",
+    "office": "prezident Československé republiky",
+    "termStart": 1953,
+    "termEnd": 1957,
+    "cameToPower": "Dlouholetý předseda Ústřední rady odborů a od 15. června 1948 předseda vlády byl po smrti Klementa Gottwalda 21. března 1953 zvolen Národním shromážděním prezidentem republiky.",
+    "summary": "Prezident let 1953–1957, spojený především s měnovou reformou z června 1953 a s doznívajícími politickými procesy.",
+    "achievements": [
+      "Po osvobození v roce 1945 stál jako předseda Ústřední rady odborů v čele sjednoceného odborového hnutí.",
+      "Měnová reforma provedená 1. června 1953 podle literatury zastavila inflaci a odstranila černý trh.",
+      "V létě 1953 veřejně kritizoval násilnou kolektivizaci a připustil vystupování z družstev; během roku 1954 jednotná zemědělská družstva opustilo asi 70 tisíc rolníků."
+    ],
+    "controversies": [
+      "Krátce před měnovou reformou z 1. června 1953 veřejně popíral, že se chystá; reforma poté znehodnotila úspory obyvatel v poměru 5 : 1 u vkladů a až 50 : 1 u hotovosti.",
+      "Protesty proti měnové reformě, největší v Plzni v červnu 1953, potlačilo vojsko a Lidové milice.",
+      "V období politických procesů spolurozhodoval o zatčeních a internacích; v roce 1954 odmítl milost bývalému náčelníku StB Osvaldu Závodskému, popravenému 19. března 1954."
+    ],
+    "reception": [
+      {
+        "period": "1953–1957",
+        "text": "Dobová propaganda jej podle české Wikipedie označovala za „tátu dělníků“; mezi lidmi měl přezdívku „ušaté torpédo“.",
+        "source": {
+          "title": "Antonín Zápotocký (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Z%C3%A1potock%C3%BD",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "červen 1953",
+        "text": "Po měnové reformě, které předcházelo jeho veřejné ujištění, že se nechystá, propukly dělnické protesty, největší v Plzni; důvěra části dělnictva v jeho slovo tím podle literatury utrpěla.",
+        "source": {
+          "title": "Antonín Zápotocký (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Z%C3%A1potock%C3%BD",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1989",
+        "text": "Historiografie jej hodnotí rozporně: podle vzpomínek Václava Černého se snažil omezovat svévoli Státní bezpečnosti, zároveň však spolurozhodoval o zatčeních a nese spoluodpovědnost za represe první poloviny 50. let.",
+        "source": {
+          "title": "Antonín Zápotocký (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Z%C3%A1potock%C3%BD",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2021",
+        "text": "Historik Michal Stehlík v roce 2021 vyvrátil dlouho tradovaná tvrzení o Zápotockého údajném násilí na spoluvězních v koncentračním táboře Sachsenhausen.",
+        "source": {
+          "title": "Antonín Zápotocký (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Z%C3%A1potock%C3%BD",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Antonín Zápotocký (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Z%C3%A1potock%C3%BD",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Antonín Zápotocký (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Anton%C3%ADn_Z%C3%A1potock%C3%BD",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-novotny",
+    "country": "CZ",
+    "name": "Antonín Novotný",
+    "office": "prezident Československé republiky, od roku 1960 Československé socialistické republiky",
+    "termStart": 1957,
+    "termEnd": 1968,
+    "cameToPower": "Od 13. září 1953 stál v čele KSČ jako první tajemník; po smrti Antonína Zápotockého jej 19. listopadu 1957, i na osobní doporučení Nikity Chruščova, zvolilo Národní shromáždění prezidentem.",
+    "summary": "Souběžný držitel vedení KSČ a prezidentského úřadu, jehož éra spojovala centralistickou vládu 50. let s postupným uvolňováním let šedesátých.",
+    "achievements": [
+      "Prosadil ústavu schválenou Národním shromážděním 11. července 1960, jíž stát přijal název Československá socialistická republika.",
+      "Amnestie z roku 1960 propustila část odsouzených z politických procesů 50. let a postupně následovaly rehabilitace nespravedlivě odsouzených.",
+      "V roce 1965 schválil zásady ekonomické reformy připravené týmem Oty Šika.",
+      "V 60. letech za jeho vlády došlo ke kulturnímu uvolnění, v němž vznikla mimo jiné československá filmová nová vlna."
+    ],
+    "controversies": [
+      "V 50. letech působil ve vedení strany v době politických procesů a revizi rozsudků připouštěl jen postupně.",
+      "Zrušení Sboru pověřenců a omezování Slovenské národní rady posunulo stát k fakticky unitární podobě a prohlubovalo napětí mezi Prahou a Bratislavou.",
+      "Na podzim 1967 nechal zastavit Literární noviny a proti pochodu studentů ze strahovských kolejí v říjnu 1967 zasáhla policie."
+    ],
+    "reception": [
+      {
+        "period": "červen–říjen 1967",
+        "text": "Na IV. sjezdu Svazu československých spisovatelů v červnu 1967 a po strahovských událostech v říjnu 1967 sílila kritika jeho vedení ze strany spisovatelů a studentů.",
+        "source": {
+          "title": "Antonín Novotný (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Novotn%C3%BD",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "prosinec 1967 – březen 1968",
+        "text": "Ztratil podporu i uvnitř ÚV KSČ, kde se proti němu spojilo reformní křídlo s částí konzervativců; 5. ledna 1968 jej v čele strany nahradil Alexander Dubček a 22. března 1968 odstoupil i z prezidentského úřadu.",
+        "source": {
+          "title": "Antonín Novotný (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Novotn%C3%BD",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1989",
+        "text": "Historik Karel Kaplan v monografii Kronika komunistického Československa: Antonín Novotný – vzestup a pád „lidového“ aparátčíka (2011) popisuje jeho éru jako spojení postupné liberalizace s trvajícími autoritářskými zásahy.",
+        "source": {
+          "title": "Antonín Novotný (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Novotn%C3%BD",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "po 1989",
+        "text": "Historik Jiří Pernes uvádí, že prezidentskému úřadu se věnoval jen část pracovního týdne a přednost dával funkci prvního tajemníka; jako první hlava státu se nechával oslovovat „soudruhu prezidente“.",
+        "source": {
+          "title": "Antonín Novotný (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Novotn%C3%BD",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Antonín Novotný (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Novotn%C3%BD",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Antonín Novotný (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Anton%C3%ADn_Novotn%C3%BD",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-svoboda",
+    "country": "CZ",
+    "name": "Ludvík Svoboda",
+    "office": "prezident Československé socialistické republiky",
+    "termStart": 1968,
+    "termEnd": 1975,
+    "cameToPower": "Armádní generál, za druhé světové války velitel 1. československého armádního sboru v SSSR, byl 30. března 1968 na návrh Alexandra Dubčeka zvolen Národním shromážděním prezidentem; obdržel 282 z 288 hlasů.",
+    "summary": "Válečný velitel od Dukly, jehož prezidentství rámovaly pražské jaro, srpnová invaze 1968 a nástup normalizace.",
+    "achievements": [
+      "Za druhé světové války velel 1. československému armádnímu sboru v SSSR, mimo jiné v Karpatsko-dukelské operaci na podzim roku 1944.",
+      "Po srpnové invazi 1968 odmítl jmenovat tzv. dělnicko-rolnickou vládu Aloise Indry a v Moskvě podmiňoval jednání přizváním zatčeného Alexandra Dubčeka a dalších reformních politiků.",
+      "Podpořil ústavní zákon o československé federaci z října 1968."
+    ],
+    "controversies": [
+      "Jako ministr národní obrany uplatňoval v únorové krizi roku 1948 zásadu nevměšování armády do vnitropolitického sporu a v listopadu 1948 vstoupil do KSČ.",
+      "Podle členů československé delegace naléhal v Moskvě v srpnu 1968 na rychlé přijetí podmínek diktovaných sovětským vedením, tzv. moskevského protokolu.",
+      "Podpisem normalizačních zákonů, podporou nástupu Gustáva Husáka do čela KSČ v dubnu 1969 a setrváním v úřadu do roku 1975 se podílel na legitimizaci normalizace."
+    ],
+    "reception": [
+      {
+        "period": "1968",
+        "text": "Jako válečný hrdina přijatelný pro Čechy i Slováky patřil podle literatury k nejpopulárnějším osobnostem roku 1968; po srpnové invazi jej veřejnost vnímala jako obhájce zatčených reformních politiků.",
+        "source": {
+          "title": "Ludvík Svoboda (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Ludv%C3%ADk_Svoboda",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1968–1969",
+        "text": "Část reformního vedení mu naopak vyčítala nátlak na rychlé podepsání moskevského protokolu; s postupem normalizace jeho veřejná aktivita slábla.",
+        "source": {
+          "title": "Ludvík Svoboda (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Ludv%C3%ADk_Svoboda",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1989",
+        "text": "Historiografie jej hodnotí jako spornou postavu: oceňuje jeho vystoupení v Moskvě v srpnu 1968, vytýká mu však podpisy normalizačních zákonů a setrvání v úřadu při jejím prosazování.",
+        "source": {
+          "title": "Ludvík Svoboda (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Ludv%C3%ADk_Svoboda",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "současnost",
+        "text": "Na rozdíl od většiny představitelů komunistického režimu po něm zůstávají pojmenovány ulice a nábřeží, což bývá spojováno s jeho válečnou službou a vystupováním v roce 1968.",
+        "source": {
+          "title": "Ludvík Svoboda (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Ludv%C3%ADk_Svoboda",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Ludvík Svoboda (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Ludv%C3%ADk_Svoboda",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Ludvík Svoboda (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Ludv%C3%ADk_Svoboda",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-husak",
+    "country": "CZ",
+    "name": "Gustáv Husák",
+    "office": "první tajemník ÚV KSČ (od května 1971 generální tajemník) v letech 1969–1987, od 29. května 1975 zároveň prezident Československé socialistické republiky",
+    "termStart": 1969,
+    "termEnd": 1989,
+    "cameToPower": "Po srpnové invazi 1968 získal na moskevských jednáních důvěru sovětského vedení; v dubnu 1969 nahradil Alexandra Dubčeka v čele KSČ a 29. května 1975 byl zvolen také prezidentem.",
+    "summary": "Ústřední postava normalizace: v 50. letech odsouzený v politickém procesu, od roku 1969 nejvyšší představitel strany a od roku 1975 i státu.",
+    "achievements": [
+      "Jako místopředseda československé vlády od dubna 1968 patřil k předním iniciátorům ústavního zákona o federativním uspořádání republiky.",
+      "V listopadu 1989 odmítl nasazení síly proti demonstrantům; 10. prosince 1989 jmenoval vládu Mariána Čalfy a téhož dne abdikoval."
+    ],
+    "controversies": [
+      "Pod jeho vedením proběhly po roce 1969 rozsáhlé personální čistky ve všech odvětvích společenského a hospodářského života; vedoucí místa směli zastávat jen lidé, kteří schválili invazi z roku 1968.",
+      "V září 1969 prohlásil, že „hranice nejsou korzo, aby se tu někdo procházel“; následovalo opětovné uzavření cest na Západ.",
+      "Za jeho éry vedla Státní bezpečnost kampaň proti disentu, od roku 1977 zejména proti signatářům Charty 77."
+    ],
+    "reception": [
+      {
+        "period": "1968–1969",
+        "text": "V roce 1968 vystupoval jako slovenský reformní politik a spoluautor federalizace; po moskevských jednáních si jej sovětské vedení v čele s Leonidem Brežněvem vybralo jako záruku obratu politiky.",
+        "source": {
+          "title": "Gustáv Husák (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Gust%C3%A1v_Hus%C3%A1k",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "70.–80. léta",
+        "text": "Pro disent, od ledna 1977 reprezentovaný Chartou 77, ztělesňoval režim normalizačních represí vedených Státní bezpečností.",
+        "source": {
+          "title": "Gustáv Husák (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Gust%C3%A1v_Hus%C3%A1k",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1989",
+        "text": "Hodnocení zůstává rozporné: část výkladů zdůrazňuje, že byl 24. dubna 1954 v procesu se slovenskými „buržoazními nacionalisty“ odsouzen na doživotí a vinu přes mučení neuznal, jiná část jeho odpovědnost za normalizační represi; k literatuře patří monografie Michala Macháčka Gustáv Husák (2017).",
+        "source": {
+          "title": "Gustáv Husák (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Gust%C3%A1v_Hus%C3%A1k",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Gustáv Husák (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Gust%C3%A1v_Hus%C3%A1k",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Gustáv Husák (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Gust%C3%A1v_Hus%C3%A1k",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-havel",
+    "country": "CZ",
+    "name": "Václav Havel",
+    "office": "prezident ČSFR (1989–1992) a České republiky (1993–2003)",
+    "termStart": 1989,
+    "termEnd": 2003,
+    "cameToPower": "Po sametové revoluci jej 29. prosince 1989 jednomyslně zvolilo Federální shromáždění prezidentem; kandidaturu prosadilo Občanské fórum pod heslem „Havel na Hrad“.",
+    "summary": "Dramatik a bývalý disident, první polistopadový prezident, za jehož úřadu se země vrátila k demokracii a zakotvila v západních strukturách.",
+    "achievements": [
+      "Za jeho prezidentství byl dokončen odchod sovětských vojsk z Československa a v červenci 1991 zanikla Varšavská smlouva.",
+      "Dovedl Českou republiku ke vstupu do NATO v březnu 1999 a k pokročilé přípravě vstupu do Evropské unie.",
+      "Dlouhodobě prosazoval česko-německé usmíření, které vyústilo v Česko-německou deklaraci z roku 1997."
+    ],
+    "controversies": [
+      "Rozsáhlá amnestie z ledna 1990 propustila vedle politických vězňů i pachatele závažné trestné činnosti a byla kritizována v souvislosti s následným růstem kriminality.",
+      "Jeho omluva za poválečný odsun sudetských Němců narážela na odpor části české veřejnosti.",
+      "V roce 1999 veřejně podpořil bombardování Jugoslávie silami NATO."
+    ],
+    "reception": [
+      {
+        "period": "1989–1992",
+        "text": "Bezprostředně po revoluci měl podle české Wikipedie širokou domácí podporu a Federální shromáždění jej zvolilo jednomyslně; po volbách v červnu 1992, v nichž uspěli Václav Klaus a Vladimír Mečiar, rozdělení federace nedokázal zabránit a 20. července 1992 abdikoval.",
+        "source": {
+          "title": "Václav Havel (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/V%C3%A1clav_Havel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1993–2003",
+        "text": "Podle shrnutí anglické Wikipedie převyšovala jeho popularita v zahraničí popularitu doma; v domácí politice býval častým předmětem sporů a kritiky.",
+        "source": {
+          "title": "Václav Havel (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 2011",
+        "text": "Po jeho úmrtí v prosinci 2011 mu vzdali hold státníci včetně Baracka Obamy, Angely Merkelové a Lecha Wałęsy a petice s více než 80 000 podpisy vedla k přejmenování pražského letiště na Letiště Václava Havla Praha (říjen 2012).",
+        "source": {
+          "title": "Václav Havel (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "po 2011",
+        "text": "Historička Marci Shoreová připomíná, že jeho poselství o spoluodpovědnosti všech za minulost bylo doma nepopulární; historiografie dále diskutuje amnestii z roku 1990 a postoj k odsunu sudetských Němců.",
+        "source": {
+          "title": "Václav Havel (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Václav Havel (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/V%C3%A1clav_Havel",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Václav Havel (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-klaus",
+    "country": "CZ",
+    "name": "Václav Klaus",
+    "office": "prezident České republiky",
+    "termStart": 2003,
+    "termEnd": 2013,
+    "cameToPower": "Poslanci a senátoři jej zvolili prezidentem 28. února 2003 ve třetím kole volby 142 hlasy z 281; v únoru 2008 mandát obhájil rovněž ve třetím kole se 141 hlasy.",
+    "summary": "Ekonom a spolutvůrce transformace 90. let, jako prezident vyhraněný kritik evropské integrace a klimatické politiky.",
+    "achievements": [
+      "Jako federální ministr financí (od prosince 1989) a poté předseda české vlády (1992–1997) řídil ekonomickou transformaci včetně kuponové privatizace.",
+      "V dubnu 1991 založil Občanskou demokratickou stranu a ve volbách 1992 s ní zvítězil se ziskem kolem 30 % hlasů.",
+      "V roce 1992 s Vladimírem Mečiarem dojednal pokojné rozdělení Československa k 1. lednu 1993.",
+      "V roce 2009 podpisem dokončil českou ratifikaci Lisabonské smlouvy."
+    ],
+    "controversies": [
+      "Amnestie z ledna 2013 prominula tresty více než 111 000 osobám a podle článku II zastavila 327 dlouholetých trestních stíhání, včetně hospodářských kauz se škodami nejméně 18,6 miliardy korun.",
+      "V březnu 2013 kvůli amnestii, nedokončeným ratifikacím a nejmenování soudců schválil Senát 38 hlasy ústavní žalobu pro velezradu; Ústavní soud řízení zastavil, protože Klausovi mezitím skončil mandát.",
+      "Pád jeho vlády v listopadu 1997 provázely hospodářské potíže a skandál kolem financování ODS."
+    ],
+    "reception": [
+      {
+        "period": "1992–1997",
+        "text": "V první polovině 90. let byl podle české Wikipedie dominantní postavou pravice a symbolem rychlé transformace; v listopadu 1997 jej hospodářské potíže a skandál kolem financování ODS donutily k demisi.",
+        "source": {
+          "title": "Václav Klaus (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/V%C3%A1clav_Klaus",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2013",
+        "text": "S amnestií z ledna 2013 podle průzkumu agentury Median (3.–4. ledna 2013) nesouhlasilo 82,2 % dotázaných; petici proti ní podepsalo přes 112 000 lidí a více než 600 starostů na protest sundalo jeho portréty z úřadů a škol.",
+        "source": {
+          "title": "Amnestie Václava Klause (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Amnestie_V%C3%A1clava_Klause",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 2013",
+        "text": "Předseda Ústavního soudu Pavel Rychetský kritizoval, že amnestii z roku 2013 na rozdíl od všech amnestií od roku 1920 nepřipravila vláda, ale Hrad; amnestie zůstává hlavním sporným bodem hodnocení jeho prezidentství.",
+        "source": {
+          "title": "Amnestie Václava Klause (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Amnestie_V%C3%A1clava_Klause",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Václav Klaus (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/V%C3%A1clav_Klaus",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Amnestie Václava Klause (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Amnestie_V%C3%A1clava_Klause",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-zeman",
+    "country": "CZ",
+    "name": "Miloš Zeman",
+    "office": "prezident České republiky",
+    "termStart": 2013,
+    "termEnd": 2023,
+    "cameToPower": "V lednu 2013 zvítězil v první přímé volbě prezidenta, když ve druhém kole porazil Karla Schwarzenberga s 54,8 % hlasů; v lednu 2018 mandát obhájil proti Jiřímu Drahošovi s 51,36 %.",
+    "summary": "Bývalý předseda ČSSD a premiér, jehož desetileté prezidentství provázely spory o zahraniční orientaci země a polarizace veřejnosti.",
+    "achievements": [
+      "Jako předseda ČSSD (1993–2001) proměnil stranu v hlavní levicovou sílu: ve volbách 1996 získala 26,44 % hlasů oproti 6,53 % v roce 1992.",
+      "V letech 1998–2002 vedl po celé funkční období menšinovou vládu ČSSD, opřenou o tzv. opoziční smlouvu s ODS.",
+      "V roce 2013 se stal prvním prezidentem České republiky zvoleným v přímé volbě."
+    ],
+    "controversies": [
+      "Před rokem 2022 udržoval blízké vztahy k Rusku a Číně: v roce 2015 se zúčastnil moskevské přehlídky vítězství a v dubnu 2021 zpochybnil závěry o ruské odpovědnosti za výbuchy ve Vrběticích.",
+      "Soudy opakovaně rozhodly v jeho neprospěch ve sporu o nepravdivé tvrzení o novináři Ferdinandu Peroutkovi.",
+      "Odmítl jmenovat některé kandidáty na profesory, což vyvolalo protesty akademické obce."
+    ],
+    "reception": [
+      {
+        "period": "2013–2016",
+        "text": "Průzkumy citované anglickou Wikipedií zachycovaly kolísavou důvěru: v březnu 2016 mu důvěřovalo 62 % dotázaných, do prosince 2016 podíl klesl na 48 % po sérii kontroverzí.",
+        "source": {
+          "title": "Miloš Zeman (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2021",
+        "text": "Po zpochybnění ruské stopy ve Vrběticích v dubnu 2021 protestovaly v Praze tisíce lidí; část demonstrantů jej označovala za „sluhu“ Ruska a žádala jeho stíhání.",
+        "source": {
+          "title": "Miloš Zeman (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2013–2023",
+        "text": "Podle české Wikipedie byla společnost v pohledu na něj rozdělená: příznivci oceňovali přímý styl, kritici poukazovali na vulgární vyjadřování a prohlubování polarizace.",
+        "source": {
+          "title": "Miloš Zeman (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 2023",
+        "text": "Souhrny po konci mandátu v březnu 2023 popisují prezidentství jako polarizující, s výrazným obratem po ruské invazi na Ukrajinu v únoru 2022, kdy invazi odsoudil jako „zločin proti míru“ a v březnu 2022 udělil prezidentu Zelenskému Řád Bílého lva.",
+        "source": {
+          "title": "Miloš Zeman (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Miloš Zeman (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Miloš Zeman (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-pavel",
+    "country": "CZ",
+    "name": "Petr Pavel",
+    "office": "prezident České republiky",
+    "termStart": 2023,
+    "cameToPower": "V lednu 2023 zvítězil ve druhém kole přímé volby nad Andrejem Babišem s 58,32 % hlasů (3 359 301 hlasů); úřadu se ujal 9. března 2023.",
+    "summary": "Armádní generál a bývalý předseda vojenského výboru NATO, který jako prezident zdůrazňuje západní ukotvení země a podporu napadené Ukrajiny.",
+    "achievements": [
+      "V letech 2012–2015 byl náčelníkem Generálního štábu Armády České republiky.",
+      "V letech 2015–2018 předsedal vojenskému výboru NATO jako první zástupce zemí bývalé Varšavské smlouvy v této funkci.",
+      "Jako prezident od roku 2023 podporoval Ukrajinu proti ruské agresi a od ledna 2024 upozorňoval také na humanitární krizi v Pásmu Gazy."
+    ],
+    "controversies": [
+      "V letech 1985–1989 byl členem KSČ; členství později odsoudil a zveřejnil lustrační osvědčení z roku 1992, podle nějž nebyl spolupracovníkem StB.",
+      "Diskuse vyvolal jeho kurz vojenské rozvědky (1988–1991); Pavel uváděl, že absolventi mohli působit i jako diplomaté."
+    ],
+    "reception": [
+      {
+        "period": "2023",
+        "text": "Podle průzkumu CVVM citovaného českou Wikipedií vzrostla po jeho nástupu důvěra v úřad prezidenta z 38 na 58 % a Pavlovi samotnému důvěřovalo 59 % dotázaných, silněji lidé s vysokoškolským vzděláním.",
+        "source": {
+          "title": "Petr Pavel (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Petr_Pavel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2023",
+        "text": "Před druhým kolem volby čelil dezinformační kampani, včetně nepravdivých zpráv o mobilizaci či o jeho úmrtí; útoky podle zjištění citovaných českou Wikipedií směřovaly zejména z Ruska.",
+        "source": {
+          "title": "Petr Pavel (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Petr_Pavel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "note": "Úřad trvá; historiografické přehodnocení (reassessment) zatím není k dispozici, proto je pole vynecháno.",
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Petr Pavel (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Petr_Pavel",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  }
+]
