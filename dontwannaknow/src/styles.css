@@ -333,24 +333,6 @@ button.secondary:hover,
   text-transform: uppercase;
 }
 
-.trust-index {
-  margin: 2.4rem 0 0;
-  padding: 0;
-  border-top: 1px solid var(--rule-strong);
-}
-
-.trust-index > div {
-  display: grid;
-  grid-template-columns: 11rem minmax(0, 1fr);
-  gap: 1.25rem;
-  padding: 0.85rem 0;
-  border-bottom: 1px solid var(--rule);
-}
-
-.trust-index dt { margin: 0; color: var(--green); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
-.trust-index dd { margin: 0; color: var(--muted); font: 450 0.9rem/1.5 var(--serif); }
-
-.hero-kicker,
 .form-overline,
 .cover-kicker,
 .eyebrow {
@@ -940,24 +922,6 @@ details[open] > summary .summary-action-close { display: inline; }
 .share-status { margin: 1.1rem 0 0; color: var(--muted); }
 .report-methodology { max-width: 48rem; margin: 0 auto 4rem; color: var(--muted); font-size: 0.82rem; line-height: 1.6; text-align: center; }
 
-.footer,
-.site-footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-top: 2rem;
-  padding: 1.4rem 0 0;
-  border-top: 3px double var(--rule-strong);
-  color: var(--muted);
-  font-size: 0.74rem;
-  line-height: 1.5;
-}
-
-.site-footer > div { max-width: 34rem; }
-.site-footer strong { color: var(--ink); font: 600 1rem/1 var(--display); }
-.site-footer p { margin: 0.4rem 0 0; }
-.footer-trust { max-width: 28rem; text-align: right; }
-
 .error-boundary {
   min-height: 60vh;
   display: grid;
@@ -1011,8 +975,6 @@ details[open] > summary .summary-action-close { display: inline; }
   .report-chapter > summary > small,
   .comparison-chapter > summary > small { justify-self: start; }
   .share-builder { grid-template-columns: 1fr; }
-  .footer { flex-direction: column; }
-  .footer-trust { text-align: left; }
 }
 
 @media (max-width: 390px) {
@@ -1036,7 +998,6 @@ details[open] > summary .summary-action-close { display: inline; }
   body { background: #fff; }
   .masthead-strip,
   .site-header,
-  .site-footer,
   .report-toolbar,
   .chapter-navigation,
   .share-panel { display: none !important; }

@@ -7,7 +7,4 @@ export const COPY = {
   privacy: "Nic, co zadáte do formuláře, se neposílá na server.",
   methodology:
     "Výsledek není osobním životopisem. Z ověřených dobových dat skládá obraz prostředí, ve kterém člověk vyrůstal.",
-  trust: "Bez AI. Bez osobních profilů na serveru. Z ověřených dobových dat.",
-  footer:
-    "Tehdejší svět vzniká soukromě ve vašem prohlížeči z ověřených dobových dat.",
 } as const;

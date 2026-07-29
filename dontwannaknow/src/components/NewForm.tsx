@@ -216,24 +216,9 @@ export default function NewForm({ onSubmit }: Props) {
     <div className="onboarding">
       <section className="onboarding-hero" aria-labelledby="hero-title">
         <div className="hero-copy">
-          <p className="hero-kicker">Soukromé osobní vydání</p>
           <h1 id="hero-title">{COPY.heroQuestion}</h1>
           <p className="hero-positioning">{COPY.positioning}</p>
           <p className="hero-description">{COPY.description}</p>
-          <dl className="trust-index" aria-label="Soukromí, metoda a rozsah">
-            <div>
-              <dt>Jen ve vašem prohlížeči</dt>
-              <dd>Nic z formuláře se neposílá na server; aplikace nemá účet ani databázi profilů.</dd>
-            </div>
-            <div>
-              <dt>Bez AI při tvorbě</dt>
-              <dd>Výběr faktů je deterministický a vychází výhradně z kurátorovaných místních dat.</dd>
-            </div>
-            <div>
-              <dt>Redakční kontrola</dt>
-              <dd>Citlivý historický kontext je označený a nikdy nestojí na začátku zprávy.</dd>
-            </div>
-          </dl>
         </div>
         <figure className="hero-archive-motif" aria-hidden="true">
           <div className="hero-plate">

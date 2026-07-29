@@ -134,14 +134,6 @@ function AppInner() {
         </AnimatePresence>
       </main>
 
-      <footer className="footer site-footer">
-        <div>
-          <strong>{COPY.brand}</strong>
-          <p>{COPY.footer}</p>
-        </div>
-        <p className="footer-trust">{COPY.trust}</p>
-      </footer>
-
       <Analytics beforeSend={(event) => ({ ...event, url: sanitizeAnalyticsUrl(event.url) })} />
     </div>
   );
