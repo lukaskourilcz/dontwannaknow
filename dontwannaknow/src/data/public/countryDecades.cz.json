@@ -1888,5 +1888,2285 @@
       3,
       4
     ]
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "government",
+    "text": "Veřejnému životu určovala rámec vedoucí úloha KSČ a kádrové posudky podle postoje k roku 1968 provázely přijetí na školu i postup v zaměstnání po celou dobu normalizace.",
+    "rel": [
+      4,
+      5,
+      5,
+      1,
+      4,
+      5
+    ],
+    "src": {
+      "t": "Normalizace",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Normalizace"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "government",
+    "text": "Státní bezpečnost získávala spolupracovníky i nevybíravými metodami a mnoho lidí vedlo takzvaný dvojí život — jiné názory říkali na veřejnosti a jiné doma.",
+    "rel": [
+      4,
+      4,
+      4,
+      1,
+      4,
+      5
+    ],
+    "src": {
+      "t": "Normalizace",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Normalizace"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "government",
+    "text": "Po zásahu proti studentskému průvodu na Národní třídě 17. listopadu 1989, při němž bylo zraněno 568 lidí, přišly statisícové demonstrace — na Letenskou pláň dorazilo koncem listopadu kolem 750 tisíc lidí a režim padl.",
+    "rel": [
+      4,
+      5,
+      5,
+      1,
+      5,
+      4
+    ],
+    "src": {
+      "t": "Sametová revoluce",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Sametová_revoluce"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "clothes",
+    "text": "Džíny ze Západu se běžně daly pořídit jen v Tuzexu za bony; italská značka Rifle se tam prodávala od roku 1968 a vedle ní i Levi's nebo Wrangler.",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Tuzex",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Tuzex"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "clothes",
+    "text": "Mladí si doma bělili džíny Savem na žádané „plísňáče“; látka tím ale trpěla, a tak se nosily potrhané nebo přešité na kraťasy.",
+    "rel": [
+      4,
+      2,
+      4,
+      2,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Ikony socialistické módy, které ovládly 70. a 80. léta: Plísňáky, jarmilky, teplákovka i ledvinka",
+      "p": "RetroMania.cz",
+      "u": "https://retromania.cz/51-ikony-socialisticke-mody-ktere-ovladly-70-a-80-leta-plisnaky-jarmilky-teplakovka-i-ledvinka.html"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "clothes",
+    "text": "Šusťákové teplákové soupravy se ze sportu přesunuly do běžného odívání a na tělocvik patřily bílé plátěné cvičky „jarmilky“, původně úbor ze spartakiády 1965.",
+    "rel": [
+      4,
+      3,
+      4,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Ikony socialistické módy, které ovládly 70. a 80. léta: Plísňáky, jarmilky, teplákovka i ledvinka",
+      "p": "RetroMania.cz",
+      "u": "https://retromania.cz/51-ikony-socialisticke-mody-ktere-ovladly-70-a-80-leta-plisnaky-jarmilky-teplakovka-i-ledvinka.html"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "illnesses",
+    "text": "Proti přenosné dětské obrně se očkovalo plošně od roku 1958 a od roku 1961 patřilo Československo k prvním zemím bez výskytu této nemoci.",
+    "rel": [
+      4,
+      3,
+      2,
+      3,
+      5,
+      3
+    ],
+    "src": {
+      "t": "Očkování proti dětské přenosné obrně",
+      "p": "Vakcíny.net",
+      "u": "https://www.vakciny.net/pravidelne_ockovani/OPV.htm"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "illnesses",
+    "text": "Školní třídy z měst a průmyslových oblastí se znečištěným ovzduším vyjížděly během školního roku na školy v přírodě za čerstvým vzduchem a pohybem.",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Škola v přírodě",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Škola_v_přírodě"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "illnesses",
+    "text": "Naděje dožití od poloviny 60. let stagnovala; úmrtnost dospělých na nemoci oběhové soustavy — infarkty a mozkové mrtvice — zůstávala vysoká a země se v mezinárodním srovnání propadala.",
+    "rel": [
+      4,
+      2,
+      2,
+      3,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Češi ztrácí v délce života, mohou za to komunisti",
+      "p": "Seznam Zprávy",
+      "u": "https://www.seznamzpravy.cz/clanek/fakta-nadeje-doziti-stredni-delka-zivota-219889"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "dailyLife",
+    "text": "Bydlení v panelovém domě bylo běžné: do začátku 90. let vzniklo v českých zemích asi 1,2 milionu panelových bytů a koncem 80. let v nich žily přes tři miliony lidí.",
+    "rel": [
+      4,
+      4,
+      5,
+      2,
+      5,
+      4
+    ],
+    "src": {
+      "t": "Panelové sídliště",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Panelové_sídliště"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "dailyLife",
+    "text": "Nové auto se kupovalo přes státní Mototechnu a na běžnou škodovku se bez známostí nebo příplatku bokem čekalo v pořadníku i několik let.",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Jak se kupovala auta za socialismu: Mototechna, Tuzex a omezená nabídka modelů",
+      "p": "Aktuálně.cz",
+      "u": "https://zpravy.aktualne.cz/ekonomika/auto/jak-se-kupovala-auta-za-socialismu-dlouhe-poradniky-omezeny/r~257fdf94dc2b11eca3c0ac1f6b220ee8/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "dailyLife",
+    "text": "Československá televize nabízela dva programy, od poloviny 70. let oba barevně v normě SECAM; večer se sledovaly Televizní noviny nebo estráda Televarieté.",
+    "rel": [
+      4,
+      3,
+      5,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Československá televize",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Československá_televize"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "food",
+    "text": "Banány a mandarinky se v obchodech objevovaly hlavně před Vánoci; zpráva o závozu se rychle roznesla a do fronty se spěchalo třeba i z práce.",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Fronta na banány: Kdo mohl, klidně kvůli oblíbenému ovoci utekl z práce",
+      "p": "Deník.cz",
+      "u": "https://www.denik.cz/spolecnost/banany-socialismus-nedostatkove-zbozi/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "food",
+    "text": "V samoobsluhách voněla mletá káva, mléko v sáčcích rádo protékalo a mezi stálice sortimentu patřily Tatranky, Kofila nebo Fidorka.",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      3,
+      2
+    ],
+    "src": {
+      "t": "Samoobsluhy za socialismu: Prázdné regály, vůně mleté kávy a fronty na banány",
+      "p": "Svět ženy",
+      "u": "https://www.svetzeny.cz/zabava/samoobsluhy-za-socialismu-prazdne-regaly-vune-mlete-kavy-fronty-na-banany-pripomenme-si-co"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "food",
+    "text": "Mnoho rodin si ovoce a zeleninu pěstovalo na zahrádkách a u chat a přebytky úrody prodávalo na městských tržištích, obvykle ve středu a v sobotu.",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Za socialismu jsme utíkali na chaty i zahrady. Pamatujete na skleníky z oken?",
+      "p": "Koktejl.cz",
+      "u": "https://www.koktejl.cz/zajimavosti/za-socialismu-jsme-utikali-na-chaty-skleniky-z-oken/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "money",
+    "text": "Průměrná hrubá měsíční mzda dosahovala v roce 1983 zhruba 2 808 Kčs.",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Přehled průměrných mezd a maloobchodních cen v bývalém Československu",
+      "p": "Český statistický úřad – Statistika&My",
+      "u": "https://statistikaamy.csu.gov.cz/prehled-prumernych-mezd-a-maloobchodnich-cen-v-byvalem-ceskoslovensku"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "money",
+    "text": "Za kilogram chleba se v roce 1983 platilo 2,60 Kčs, za půllitr lahvové desítky 1,70 Kčs a za kilogram kostkového cukru 8 Kčs.",
+    "rel": [
+      4,
+      2,
+      4,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Přehled průměrných mezd a maloobchodních cen v bývalém Československu",
+      "p": "Český statistický úřad – Statistika&My",
+      "u": "https://statistikaamy.csu.gov.cz/prehled-prumernych-mezd-a-maloobchodnich-cen-v-byvalem-ceskoslovensku"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "money",
+    "text": "Vedle koruny obíhaly tuzexové bony: koncem 80. let odpovídal jeden bon oficiálně čtyřem korunám a veksláci před Tuzexem je prodávali zhruba za pět.",
+    "rel": [
+      4,
+      3,
+      4,
+      3,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Socialistické okno na Západ: Tuzex a před ním veksláci a fronta na džíny. Svět jen pro vyvolené",
+      "p": "ČtiDoma.cz",
+      "u": "https://www.ctidoma.cz/clanek/zajimavosti/socialisticke-okno-na-zapad-tuzex-a-pred-nim-vekslaci-a-fronta-na-dziny-svet-jen-pro-vyvolene-79122"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "bizarre",
+    "text": "Na celostátní spartakiádě 1985 cvičilo na strahovském stadionu 189 512 cvičenců v patnácti skladbách a na tribunách se vystřídalo přes 1,2 milionu diváků.",
+    "rel": [
+      4,
+      3,
+      5,
+      2,
+      2,
+      4
+    ],
+    "src": {
+      "t": "Československá spartakiáda",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Československá_spartakiáda"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "bizarre",
+    "text": "Ve školách se sbírala plastová céčka z Jablonecka — hrála se s nimi „čára“, vyměňovala se a nejvíc platila průhledná s bublinkami nebo svítící.",
+    "rel": [
+      4,
+      2,
+      5,
+      2,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Céčka – barevný fenomén 80. let",
+      "p": "Kudy z nudy (CzechTourism)",
+      "u": "https://www.kudyznudy.cz/ceska-nej/prumysl/cecka-barevny-fenomen-80-let"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "bizarre",
+    "text": "Když v kruté zimě roku 1987 uvázly dodávky uhlí, školy vyhlásily mimořádné „uhelné prázdniny“ a děti získaly nečekaný čas na sáňkování a lyžování.",
+    "rel": [
+      4,
+      2,
+      4,
+      3,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Pamatujete na Vánoce za socíku? Fronty na stromečky, v televizi Tři oříšky pro Popelku a uhelné prázdniny",
+      "p": "Kupi.cz",
+      "u": "https://www.kupi.cz/magazin/clanek/16408-vanoce-socialismus"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "beautiful",
+    "text": "Podvečer patřil Večerníčku, který se od roku 1973 vysílal denně; v 80. letech běžely příběhy o Krtkovi, Maxipes Fík, Pat a Mat nebo Bob a Bobek — králíci z klobouku.",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Večerníček",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Večerníček"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "beautiful",
+    "text": "Víkendy trávila řada rodin na chatě nebo chalupě, která od jara do podzimu sloužila jako druhý domov.",
+    "rel": [
+      4,
+      3,
+      5,
+      0,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Za socialismu jsme utíkali na chaty i zahrady. Pamatujete na skleníky z oken?",
+      "p": "Koktejl.cz",
+      "u": "https://www.koktejl.cz/zajimavosti/za-socialismu-jsme-utikali-na-chaty-skleniky-z-oken/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "bucket": "beautiful",
+    "text": "K Vánocům patřil kapr s bramborovým salátem, vanilkové rohlíčky a pracny a v televizi pohádky, mezi nimi Tři oříšky pro Popelku.",
+    "rel": [
+      4,
+      3,
+      5,
+      0,
+      4,
+      2
+    ],
+    "src": {
+      "t": "Pamatujete na Vánoce za socíku? Fronty na stromečky, v televizi Tři oříšky pro Popelku a uhelné prázdniny",
+      "p": "Kupi.cz",
+      "u": "https://www.kupi.cz/magazin/clanek/16408-vanoce-socialismus"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "government",
+    "text": "V červnu 1990 proběhly první svobodné volby po pádu komunistického režimu; v české části federace k nim přišlo 96,8 procenta oprávněných voličů a zvítězilo Občanské fórum.",
+    "rel": [
+      4,
+      3,
+      5,
+      2,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Volby 1990 a 1992",
+      "p": "ČeskéNoviny.cz (ČTK)",
+      "u": "https://www.ceskenoviny.cz/zpravy/volby-1990-a-1992/13729"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "government",
+    "text": "Československo se k 1. lednu 1993 rozdělilo na dva samostatné státy dohodou politických reprezentací; referendum se nekonalo a v zahraničí se pro pokojný průběh ujalo označení „sametový rozvod“.",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      5,
+      4
+    ],
+    "src": {
+      "t": "Zánik Československa",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Z%C3%A1nik_%C4%8Ceskoslovenska"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "government",
+    "text": "Dne 12. března 1999 vstoupila Česká republika spolu s Polskem a Maďarskem do NATO; ratifikační listiny předali ministři zahraničí v americkém Independence.",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Severoatlantická aliance",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Severoatlantick%C3%A1_aliance"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "clothes",
+    "text": "Šusťákové soupravy patřily k typickému oblečení, ale koupit značkový kus nebylo začátkem dekády běžné, a tak mnoho maminek a babiček šilo vlastní soupravy ze šusťákoviny nakoupené v galanterii.",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      1,
+      3
+    ],
+    "src": {
+      "t": "V 90. letech jsme se „šusťákům“ smáli, byly symbol nevkusu. Dnes za starou soupravu dostanete majlant",
+      "p": "Poznatsvět.cz",
+      "u": "https://www.poznatsvet.cz/kultura-a-umeni/sustakova-souprava-90-leta-retro-trend/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "clothes",
+    "text": "Nejoblíbenějším materiálem dekády byla džínovina; nosily se džíny s vysokým pasem, střih „mom jeans“ i džínové bundy, často v záměrně obnošeném vzhledu.",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      2,
+      2
+    ],
+    "src": {
+      "t": "90. léta – džínovina, tři pásky & Tamagotchi. Vraťte se s námi v čase a připomeňme si módní trendy i katastrofy devadesátek",
+      "p": "CCC blog",
+      "u": "https://blog.ccc.eu/cz/90-leta-dzinovina-tri-pasky-tamagotchi-vratte-se-s-nami-v-case-a-pripomenme-si-modni-trendy-i-katastrofy-devadesatek/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "clothes",
+    "text": "K posluchačům alternativní hudby patřily kostkované košile, černé džíny a těžké šněrovací boty; ve druhé polovině dekády se rozšířily boty a tenisky na vysoké platformě.",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      1,
+      2
+    ],
+    "src": {
+      "t": "90. léta – džínovina, tři pásky & Tamagotchi. Vraťte se s námi v čase a připomeňme si módní trendy i katastrofy devadesátek",
+      "p": "CCC blog",
+      "u": "https://blog.ccc.eu/cz/90-leta-dzinovina-tri-pasky-tamagotchi-vratte-se-s-nami-v-case-a-pripomenme-si-modni-trendy-i-katastrofy-devadesatek/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "illnesses",
+    "text": "Od 1. ledna 1992 začala fungovat Všeobecná zdravotní pojišťovna zřízená zákonem č. 551/1991 Sb. a péči postupně hradilo veřejné zdravotní pojištění místo státního rozpočtu.",
+    "rel": [
+      4,
+      2,
+      2,
+      3,
+      5,
+      3
+    ],
+    "src": {
+      "t": "Všeobecná zdravotní pojišťovna České republiky",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/V%C5%A1eobecn%C3%A1_zdravotn%C3%AD_poji%C5%A1%C5%A5ovna_%C4%8Cesk%C3%A9_republiky"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "illnesses",
+    "text": "Kojenecká úmrtnost klesla v roce 1992 poprvé pod hranici deseti promile a během dekády se dále snižovala, nejvýrazněji u novorozenců.",
+    "rel": [
+      4,
+      1,
+      1,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Úmrtnost dětí do jednoho roku",
+      "p": "Český statistický úřad",
+      "u": "https://csu.gov.cz/csu/czso/13-7222-03--umrtnost_deti_do_jednoho_roku"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "illnesses",
+    "text": "Úmrtnost na nemoci srdce a cév v 90. letech klesala; podle lékařských studií k tomu přispěly změny stravy po roce 1989 — spotřeba másla se do roku 1993 snížila o více než 40 procent — a lepší lékařská péče.",
+    "rel": [
+      4,
+      3,
+      2,
+      4,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Decrease in cardiovascular disease mortality in the Czech Republic from 1984 to 1993 and its possible causes",
+      "p": "PubMed (Vnitřní lékařství)",
+      "u": "https://pubmed.ncbi.nlm.nih.gov/9333509/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "dailyLife",
+    "text": "Dne 4. února 1994 začala vysílat TV Nova, první česká celoplošná soukromá televize, a v prvních letech se její podíl na divácích pohyboval kolem 60 procent.",
+    "rel": [
+      4,
+      4,
+      5,
+      2,
+      4,
+      3
+    ],
+    "src": {
+      "t": "TV Nova",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/TV_Nova"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "dailyLife",
+    "text": "První mobilní telefonní síť spustila společnost Eurotel 12. září 1991 v analogovém systému NMT v pásmu 450 MHz.",
+    "rel": [
+      4,
+      1,
+      2,
+      3,
+      4,
+      2
+    ],
+    "src": {
+      "t": "Eurotel",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Eurotel"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "dailyLife",
+    "text": "Dne 13. února 1992 bylo v posluchárně ČVUT v pražských Dejvicích slavnostně předvedeno připojení Československa k internetu rychlostí 9,6 kilobitu za sekundu; země byla 39. připojeným státem.",
+    "rel": [
+      4,
+      1,
+      1,
+      4,
+      4,
+      2
+    ],
+    "src": {
+      "t": "Když internet dorazil do Česka. Připojení přes několikatunový počítač prováděl tým expertů",
+      "p": "ČVUT v Praze",
+      "u": "https://aktualne.cvut.cz/zpravy-z-medii/20190213-kdyz-internet-dorazil-do-ceska-pripojeni-pres-nekolikatunovy-pocitac"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "food",
+    "text": "První supermarket Mana otevřel nizozemský řetězec Ahold 6. června 1991 na jihlavském sídlišti Březinky; zákazníci si poprvé sami brali zboží z regálů do kovových košíků.",
+    "rel": [
+      4,
+      2,
+      3,
+      4,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Před 35 lety u nás otevřel první supermarket Mana. Lidé popíjeli kávu u masa a žasli nad regály",
+      "p": "Kupi.cz",
+      "u": "https://www.kupi.cz/magazin/clanek/45066-prvni-supermarket-mana-35-let"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "food",
+    "text": "Vůbec první hypermarket v zemi otevřel Globus 4. listopadu 1996 v Brně-Ivanovicích.",
+    "rel": [
+      4,
+      2,
+      2,
+      3,
+      4,
+      1
+    ],
+    "src": {
+      "t": "Globus (obchodní řetězec)",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Globus_(obchodn%C3%AD_%C5%99et%C4%9Bzec)"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "food",
+    "text": "První restauraci McDonald's v Československu otevřela společnost 20. března 1992 ve Vodičkově ulici v Praze.",
+    "rel": [
+      4,
+      2,
+      4,
+      2,
+      3,
+      2
+    ],
+    "src": {
+      "t": "McDonald's",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/McDonald%27s"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "money",
+    "text": "Po lednové liberalizaci cen vzrostly spotřebitelské ceny v roce 1991 o 56,6 procenta, nejvíce v celé polistopadové éře.",
+    "rel": [
+      4,
+      5,
+      4,
+      2,
+      3,
+      4
+    ],
+    "src": {
+      "t": "LISTOPAD 1989 - Inflace nejvýrazněji vzrostla v roce 1991, o 56,6 procenta",
+      "p": "Kurzy.cz (ČTK)",
+      "u": "https://www.kurzy.cz/zpravy/198856-listopad-1989-inflace-nejvyrazneji-vzrostla-v-roce-1991-o-56-6-procenta/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "money",
+    "text": "Měnová unie se Slovenskem skončila 8. února 1993; vznikla samostatná česká koruna a část starších federálních bankovek se v přechodném období označovala kolky.",
+    "rel": [
+      4,
+      4,
+      4,
+      2,
+      5,
+      3
+    ],
+    "src": {
+      "t": "Česká koruna",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_koruna"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "money",
+    "text": "V kupónové privatizaci si dospělí občané kupovali kupónovou knížku za 35 Kčs a známku za 1 000 Kčs; první vlny v roce 1992 se zúčastnilo 77 procent oprávněných.",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Kupónová privatizace",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Kup%C3%B3nov%C3%A1_privatizace"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "bizarre",
+    "text": "Harvardské investiční fondy Viktora Koženého lákaly v masivní reklamě na „jistotu desetinásobku“ a získaly kupónové knížky více než milionu občanů.",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Viktor Kožený",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Viktor_Ko%C5%BEen%C3%BD"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "bizarre",
+    "text": "Na zavedení bytové telefonní linky se ještě v roce 1994 čekalo zhruba čtyři roky a ke konci téhož roku evidoval operátor 635 tisíc nevyřízených žádostí.",
+    "rel": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Na telefon se čekalo i 15 let",
+      "p": "Euro.cz",
+      "u": "https://www.euro.cz/clanky/na-telefon-se-cekalo-i-15-let-888404/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "bizarre",
+    "text": "Děti nosily do škol elektronická zvířátka tamagoči, o která bylo třeba nepřetržitě pečovat, a o přestávkách se na chodbách hrálo o kartonová kolečka zvaná pogy.",
+    "rel": [
+      4,
+      2,
+      5,
+      1,
+      1,
+      2
+    ],
+    "src": {
+      "t": "Hračky a hry, které definovaly dětství v 80. a 90. letech: Tamagoči, POGY, Honzo, vstávej! či skákání gumy",
+      "p": "ReadZone.cz",
+      "u": "https://www.readzone.cz/hracky-a-hry-ktere-definovaly-detstvi-v-80-a-90-letech-tamagoci-pogy-honzo-vstavej-ci-skakani-gumy/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "beautiful",
+    "text": "Dne 18. srpna 1990 zahráli Rolling Stones na pražském Strahově zhruba stotisícovému publiku; koncert provázelo heslo „Tanky se valí ven, Stouni se valí sem“.",
+    "rel": [
+      4,
+      1,
+      3,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "The Rolling Stones v Československu",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/The_Rolling_Stones_v_%C4%8Ceskoslovensku"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "beautiful",
+    "text": "V roce 1992, ještě před rozdělením federace, byla na seznam světového dědictví UNESCO zapsána historická centra Prahy, Českého Krumlova a Telče.",
+    "rel": [
+      4,
+      1,
+      2,
+      2,
+      4,
+      2
+    ],
+    "src": {
+      "t": "30 let zpět: Telč, Český Krumlov a Praha součástí kulturního dědictví UNESCO",
+      "p": "ČT24",
+      "u": "https://ct24.ceskatelevize.cz/clanek/specialy/30-let-zpet-telc-cesky-krumlov-a-praha-soucasti-kulturniho-dedictvi-unesco-11834"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "bucket": "beautiful",
+    "text": "V únoru 1998 vyhráli čeští hokejisté olympijský turnaj v Naganu; vracející se tým vítaly cestou z letiště desetitisíce lidí a oslavy vyvrcholily na Staroměstském náměstí.",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Rok 1998: Zlatí hoši z Nagana. Po návratu vítězných hokejistů byla celá Praha na nohou",
+      "p": "Český rozhlas Plus",
+      "u": "https://plus.rozhlas.cz/rok-1998-zlati-hosi-z-nagana-po-navratu-viteznych-hokejistu-byla-cela-praha-na-7625062"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "government",
+    "text": "Česko vstoupilo 1. května 2004 do Evropské unie; v referendu v červnu 2003 vstup podpořilo 77,3 procenta hlasujících při účasti 55,2 procenta.",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      5,
+      3
+    ],
+    "src": {
+      "t": "Vstup České republiky do Evropské unie",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Vstup_%C4%8Cesk%C3%A9_republiky_do_Evropsk%C3%A9_unie"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "government",
+    "text": "V srpnu 2002 zasáhla zemi ničivá povodeň: škody dosáhly 73,3 miliardy korun, evakuováno bylo 225 tisíc lidí a voda zaplavila pražský Karlín i část metra.",
+    "rel": [
+      4,
+      3,
+      5,
+      2,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Povodeň v Česku (2002)",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Povode%C5%88_v_%C4%8Cesku_(2002)"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "government",
+    "text": "V únoru 2003 zvolil parlament ve třetím kole volby druhým prezidentem České republiky Václava Klause; ve funkci vystřídal Václava Havla.",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      3,
+      2
+    ],
+    "src": {
+      "t": "Volba prezidenta České republiky 2003",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Volba_prezidenta_%C4%8Cesk%C3%A9_republiky_2003"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "clothes",
+    "text": "Mnoho mladých žen nosilo bokovky — kalhoty začínající nízko na bocích — často doplněné krátkým topem a bundičkou, aby zůstal vidět pupík.",
+    "rel": [
+      3,
+      3,
+      4,
+      1,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Bokovky, kapsáče i teplákovky. Tohle se nosilo po roce 2000",
+      "p": "Proženy.cz",
+      "u": "https://www.prozeny.cz/clanek/bokovky-kapsace-i-teplakovky-tohle-se-nosilo-po-roce-2000-64921"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "clothes",
+    "text": "Teplákové soupravy se nosily nejen na sport, ale běžně i do města; vzorem byly zahraniční celebrity, které tepláky kombinovaly s luxusními kabelkami.",
+    "rel": [
+      3,
+      2,
+      3,
+      1,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Bokovky, kapsáče i teplákovky. Tohle se nosilo po roce 2000",
+      "p": "Proženy.cz",
+      "u": "https://www.prozeny.cz/clanek/bokovky-kapsace-i-teplakovky-tohle-se-nosilo-po-roce-2000-64921"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "clothes",
+    "text": "K výbavě patřily plastové skřipce do vlasů, džínové minisukně, cargo kalhoty s kapsami a lesklé materiály jako satén a třpytivá síťovina.",
+    "rel": [
+      3,
+      2,
+      4,
+      1,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Vydolujte ze skříně bokovky a skřipce. Móda Y2K slaví návrat",
+      "p": "Kupi.cz magazín",
+      "u": "https://www.kupi.cz/magazin/clanek/44319-moda-y2k-stylistka-radi-rafinovane"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "illnesses",
+    "text": "Od 1. ledna 2008 se ve zdravotnictví platily regulační poplatky — 30 korun za vyšetření u lékaře a 90 korun na pohotovosti; třicetikorunové poplatky byly od roku 2015 zrušeny.",
+    "rel": [
+      3,
+      3,
+      4,
+      1,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Regulační poplatek",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Regula%C4%8Dn%C3%AD_poplatek"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "illnesses",
+    "text": "V květnu 2009 se v Česku objevil první případ pandemické chřipky A(H1N1); nakazilo se 2 477 osob a očkovat se nechalo méně než jedno procento lidí.",
+    "rel": [
+      3,
+      2,
+      2,
+      3,
+      1,
+      2
+    ],
+    "src": {
+      "t": "Prasečí chřipka A(H1N1) byla menší pohromou, než se čekalo",
+      "p": "Deník.cz",
+      "u": "https://www.denik.cz/zdravi/praseci-chripka-a-h1n1-byla-mensi-pohromou-nez-se-cekalo-20140410.html"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "illnesses",
+    "text": "Střední délka života se dál prodlužovala; rostoucí trend trval od konce 80. let a zlepšení v prvním desetiletí 21. století bylo výraznější než v tom následujícím.",
+    "rel": [
+      3,
+      1,
+      1,
+      2,
+      4,
+      2
+    ],
+    "src": {
+      "t": "Aktuální populační vývoj v kostce",
+      "p": "Český statistický úřad",
+      "u": "https://csu.gov.cz/aktualni-populacni-vyvoj-v-kostce"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "dailyLife",
+    "text": "Ještě v roce 2005 se 63 procent domácností s internetem připojovalo vytáčeným připojením po telefonní lince a platilo za čas strávený online.",
+    "rel": [
+      3,
+      3,
+      4,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Rozšíření internetu v českých domácnostech; 2. čtvrtletí 2008",
+      "p": "Český statistický úřad",
+      "u": "https://csu.gov.cz/csu/czso/rozsireni_internetu_v_ceskych_domacnostech_2_ctvrtleti_2008"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "dailyLife",
+    "text": "Rychlejší internet se šířil až ve druhé polovině dekády: počet domácností s přípojkou ADSL vzrostl ze 40 tisíc v roce 2005 na 400 tisíc v polovině roku 2008.",
+    "rel": [
+      3,
+      3,
+      3,
+      3,
+      4,
+      2
+    ],
+    "src": {
+      "t": "Rozšíření internetu v českých domácnostech; 2. čtvrtletí 2008",
+      "p": "Český statistický úřad",
+      "u": "https://csu.gov.cz/csu/czso/rozsireni_internetu_v_ceskych_domacnostech_2_ctvrtleti_2008"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "dailyLife",
+    "text": "Ve městech vyrůstala obchodní centra; velký boom jejich výstavby probíhal v letech 2001 až 2002 a zejména v předkrizových letech 2005 až 2008.",
+    "rel": [
+      3,
+      3,
+      4,
+      1,
+      5,
+      3
+    ],
+    "src": {
+      "t": "Jde se na nákup! Supermarkety, hypermarkety a nákupní centra v Česku",
+      "p": "Česko v datech",
+      "u": "https://www.ceskovdatech.cz/clanek/91-jde-se-na-nakup-supermarkety-hypermarkety-a-nakupni-centra-v-cesku/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "food",
+    "text": "Hlavním místem nákupu potravin se zhruba od roku 2000 stávaly hypermarkety; supermarkety měly svůj nejvyšší, asi třicetiprocentní podíl na výdajích právě v roce 2000.",
+    "rel": [
+      3,
+      4,
+      3,
+      2,
+      5,
+      3
+    ],
+    "src": {
+      "t": "Jde se na nákup! Supermarkety, hypermarkety a nákupní centra v Česku",
+      "p": "Česko v datech",
+      "u": "https://www.ceskovdatech.cz/clanek/91-jde-se-na-nakup-supermarkety-hypermarkety-a-nakupni-centra-v-cesku/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "food",
+    "text": "Kofola se vrátila mezi běžné nápoje: v roce 2001 přišla reklamní kampaň se sloganem „Když ji miluješ, není co řešit“ a v roce 2002 koupila rodina Samarasových ochrannou známku i původní recepturu za 215 milionů korun.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Naše historie",
+      "p": "Kofola",
+      "u": "https://www.kofola.cz/nase-historie"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "food",
+    "text": "Ke konci dekády rostl zájem o biopotraviny: v roce 2007 za ně zákazníci utratili přibližně 1,3 miliardy korun a řetězce zaváděly vlastní bio řady, byť ceny byly zhruba dvojnásobné oproti běžným potravinám.",
+    "rel": [
+      3,
+      1,
+      2,
+      3,
+      3,
+      2
+    ],
+    "src": {
+      "t": "Prodej biopotravin v ČR vzrostl o desítky procent",
+      "p": "Bezpečnost potravin",
+      "u": "https://bezpecnostpotravin.cz/prodej-biopotravin-v-cr-vzrostl-o-desitky-procent/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "money",
+    "text": "Průměrná hrubá mzda činila v roce 2000 celkem 13 219 korun; nejrychleji rostla hned v letech 2001 a 2002, o 8,8 a 8 procent ročně.",
+    "rel": [
+      3,
+      3,
+      3,
+      3,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Od roku 2000 se průměrná mzda téměř zdvojnásobila",
+      "p": "Statistika a My (ČSÚ)",
+      "u": "https://statistikaamy.csu.gov.cz/od-roku-2000-se-prumerna-mzda-temer-zdvojnasobila"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "money",
+    "text": "Od roku 2005 zažívalo Česko hypoteční boom: úroky se držely pod 4,5 procenta a rekordním rokem byl 2007; po americké hypoteční krizi přišlo zpřísnění podmínek a prudký pokles.",
+    "rel": [
+      3,
+      3,
+      3,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Hypotéka včera a dnes",
+      "p": "E15 / FinExpert",
+      "u": "https://www.e15.cz/finexpert/bydlime/hypoteka-vcera-a-dnes-1341359"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "money",
+    "text": "Na konci dekády dopadla na zemi světová hospodářská krize; v roce 2009 česká ekonomika propadla o 4,5 procenta.",
+    "rel": [
+      3,
+      4,
+      4,
+      1,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Česko zažívá nejhorší recesi v historii",
+      "p": "ČT24",
+      "u": "https://ct24.ceskatelevize.cz/ekonomika/1112232-cesko-zaziva-nejhorsi-recesi-v-historii"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "bizarre",
+    "text": "Finále první řady soutěže Česko hledá SuperStar sledovalo v červnu 2004 rekordních 3,34 milionu diváků a o vítězce se rozhodovalo hlasy posílanými esemeskami.",
+    "rel": [
+      3,
+      3,
+      5,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Langerová, Vaňková, Issa či Anička Dajdou. První SuperStar byla odvysílána před 20 lety",
+      "p": "Žena.cz / Aktuálně.cz",
+      "u": "https://zena.aktualne.cz/celebrity/prvni-superstar-byla-odvysilana-pred-20-lety/r~22a8641ec03e11eeaf28ac1f6b220ee8"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "bizarre",
+    "text": "Na podzim 2005 běžely v televizi současně dvě konkurenční reality show, Big Brother na Nově a VyVolení na Primě; jejich souboj se přelil i na internetové portály Seznam a Centrum.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Big Brother a VyVolení – souboj reality show na webu",
+      "p": "Lupa.cz",
+      "u": "https://www.lupa.cz/clanky/big-brother-a-vyvoleni-8211-souboj-reality-show-na-webu/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "bizarre",
+    "text": "Připojování k internetu doprovázel charakteristický zvuk vytáčejícího modemu; data po telefonní lince tekla rychlostí nejvýše 56 kilobitů za sekundu.",
+    "rel": [
+      3,
+      2,
+      5,
+      1,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Vytáčené připojení",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Vyt%C3%A1%C4%8Den%C3%A9_p%C5%99ipojen%C3%AD"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "beautiful",
+    "text": "Hokejisté vybojovali v květnu 2005 na mistrovství světa ve Vídni zlato, když ve finále porazili Kanadu 3:0.",
+    "rel": [
+      3,
+      2,
+      4,
+      1,
+      1,
+      2
+    ],
+    "src": {
+      "t": "Mistrovství světa v ledním hokeji 2005",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Mistrovstv%C3%AD_sv%C4%9Bta_v_ledn%C3%ADm_hokeji_2005"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "beautiful",
+    "text": "Létání zlevnilo: nízkonákladové aerolinky SkyEurope létaly od února 2002, od dubna 2006 měly základnu v Praze a na palubě nabízely i točené pivo.",
+    "rel": [
+      3,
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "src": {
+      "t": "SkyEurope Airlines",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/SkyEurope_Airlines"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "bucket": "beautiful",
+    "text": "Od roku 2003 se k Vánocům každoročně vracela televizní reklama Kofoly s holčičkou a „zlatým“ prasátkem, která si získala diváky svým humorem.",
+    "rel": [
+      3,
+      1,
+      5,
+      1,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Historie vánočních kampaní Kofoly",
+      "p": "ScreenVoice.cz",
+      "u": "https://www.screenvoice.cz/aktuality/historie-vanocnich-kampani-kofoly-bez-velkych-zahnutych-zubu-nahoru-se-to-neobejde/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "government",
+    "text": "V lednu 2013 volili občané poprvé prezidenta přímo; ve druhém kole zvítězil Miloš Zeman nad Karlem Schwarzenbergem.",
+    "rel": [
+      3,
+      2,
+      5,
+      0,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Volba prezidenta České republiky 2013",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Volba_prezidenta_%C4%8Cesk%C3%A9_republiky_2013"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "government",
+    "text": "V červnu 2013 padla vláda Petra Nečase poté, co policie provedla noční razii na Úřadu vlády; premiér podal demisi 17. června.",
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Kauza Nagyová",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Kauza_Nagyov%C3%A1"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "government",
+    "text": "Od 1. prosince 2016 musely restaurace a ubytovací zařízení evidovat tržby elektronicky a na účtenkách přibyl fiskální kód odesílaný Finanční správě.",
+    "rel": [
+      3,
+      3,
+      4,
+      1,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Elektronická evidence tržeb",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Elektronick%C3%A1_evidence_tr%C5%BEeb"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "clothes",
+    "text": "Velkou část dekády vládly úzké skinny džíny, které nosily ženy i muži; ke konci desetiletí je začaly střídat rovné a zkrácené střihy.",
+    "rel": [
+      3,
+      3,
+      4,
+      1,
+      2,
+      2
+    ],
+    "src": {
+      "t": "2010s in fashion",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/2010s_in_fashion"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "clothes",
+    "text": "V polovině dekády se prosadil styl athleisure: legíny, tenisky a sportovní oblečení se běžně nosily i mimo cvičení.",
+    "rel": [
+      3,
+      2,
+      3,
+      1,
+      2,
+      2
+    ],
+    "src": {
+      "t": "2010s in fashion",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/2010s_in_fashion"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "clothes",
+    "text": "K městskému stylu první poloviny dekády patřily flanelové košile a brýle s výraznými obrubami, spojované se subkulturou hipsterů.",
+    "rel": [
+      3,
+      1,
+      3,
+      1,
+      2,
+      2
+    ],
+    "src": {
+      "t": "2010s in fashion",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/2010s_in_fashion"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "illnesses",
+    "text": "V září 2012 propukla metanolová aféra; otravy pančovaným alkoholem si vyžádaly desítky životů a vláda 14. září dočasně zakázala prodej lihovin s obsahem alkoholu nad 20 procent.",
+    "rel": [
+      3,
+      4,
+      5,
+      1,
+      2,
+      4
+    ],
+    "src": {
+      "t": "Metanolová aféra",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Metanolov%C3%A1_af%C3%A9ra"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "illnesses",
+    "text": "Třicetikorunové regulační poplatky u lékaře a v lékárně, zavedené v roce 2008, byly k 1. lednu 2015 zrušeny; zůstal jen devadesátikorunový poplatek za pohotovost.",
+    "rel": [
+      3,
+      3,
+      4,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Regulační poplatek",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Regula%C4%8Dn%C3%AD_poplatek"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "illnesses",
+    "text": "V roce 2019 se do země vrátily spalničky; jen od začátku roku do 17. března hygienici nahlásili 298 onemocnění.",
+    "rel": [
+      3,
+      1,
+      2,
+      3,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Spalničky, 1. 1. 2019 – 17. 3. 2019, ČR",
+      "p": "Státní zdravotní ústav",
+      "u": "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/a-z-infekce/s/spalnicky-szu/spalnicky-situace-cr/spalnicky-informace-o-aktualnim-vyskytu-v-cr-2019/spalnicky-1-1-2019-17-3-2019/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "dailyLife",
+    "text": "Internet v mobilu se z výjimky stal běžnou věcí: zatímco v roce 2010 se z telefonu připojovala 4 procenta osob starších šestnácti let, v roce 2019 už téměř dvě třetiny.",
+    "rel": [
+      3,
+      4,
+      4,
+      2,
+      5,
+      4
+    ],
+    "src": {
+      "t": "Internet používá přes 80 % obyvatel Česka",
+      "p": "Český statistický úřad",
+      "u": "https://csu.gov.cz/csu/czso/internet-pouziva-pres-80-obyvatel-ceska"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "dailyLife",
+    "text": "V roce 2019 používalo internet 81 procent obyvatel starších šestnácti let a podíl připojených seniorů nad 65 let se za dekádu ztrojnásobil na 39 procent.",
+    "rel": [
+      3,
+      3,
+      3,
+      3,
+      5,
+      3
+    ],
+    "src": {
+      "t": "Internet používá přes 80 % obyvatel Česka",
+      "p": "Český statistický úřad",
+      "u": "https://csu.gov.cz/csu/czso/internet-pouziva-pres-80-obyvatel-ceska"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "dailyLife",
+    "text": "Nakupování v e-shopech zevšednělo; v roce 2019 nakoupilo přes internet 59 procent osob a internetové bankovnictví používaly téměř dvě třetiny dospělých.",
+    "rel": [
+      3,
+      4,
+      4,
+      2,
+      5,
+      3
+    ],
+    "src": {
+      "t": "Internet používá přes 80 % obyvatel Česka",
+      "p": "Český statistický úřad",
+      "u": "https://csu.gov.cz/csu/czso/internet-pouziva-pres-80-obyvatel-ceska"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "food",
+    "text": "Na podzim 2009 se v pražských Klánovicích konaly první obnovené farmářské trhy a nákup přímo od pěstitelů se během dekády rozšířil po Praze i dalších českých městech.",
+    "rel": [
+      3,
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Farmářský trh",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Farm%C3%A1%C5%99sk%C3%BD_trh"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "food",
+    "text": "Rozmach zažily minipivovary: zatímco v roce 2013 jich v Česku působilo 192, v roce 2019 už 480.",
+    "rel": [
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "src": {
+      "t": "Minipivovar",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Minipivovar"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "food",
+    "text": "V roce 2017 se veřejně řešila dvojí kvalita potravin; test ministerstva zemědělství porovnal 21 dvojic stejných výrobků z Česka a Německa a zcela shodných bylo jen sedm.",
+    "rel": [
+      3,
+      2,
+      3,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Nové testy potravin: V pizze pro Němce je eidam a mozzarela, ve „stejné“ v Česku není ani sýr",
+      "p": "Česká televize",
+      "u": "https://ct24.ceskatelevize.cz/clanek/ekonomika/nove-testy-potravin-v-pizze-pro-nemce-je-eidam-a-mozzarela-ve-stejne-v-cesku-neni-ani-syr-89566"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "money",
+    "text": "Česká národní banka od 7. listopadu 2013 intervencemi oslabovala korunu a kurz držela nad hranicí 27 korun za euro až do 6. dubna 2017.",
+    "rel": [
+      3,
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Před šesti lety spustila centrální banka intervence k oslabení koruny",
+      "p": "Česká televize",
+      "u": "https://ct24.ceskatelevize.cz/clanek/ekonomika/pred-sesti-lety-spustila-centralni-banka-intervence-k-oslabeni-koruny-hlasovani-bylo-tehdy-tesne-57839"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "money",
+    "text": "Mzdy koncem dekády znatelně rostly; průměrná hrubá měsíční mzda dosáhla v roce 2019 částky 34 125 korun, meziročně o 7,1 procenta více.",
+    "rel": [
+      3,
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Průměrné mzdy – 4. čtvrtletí 2019",
+      "p": "Český statistický úřad",
+      "u": "https://csu.gov.cz/rychle-informace/prumerne-mzdy-4-ctvrtleti-2019"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "money",
+    "text": "Ceny bytů po roce 2015 rychle rostly — do roku 2019 se zvedly zhruba o polovinu — a dostupnost vlastního bydlení se zhoršovala.",
+    "rel": [
+      3,
+      4,
+      4,
+      1,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Rezidenční trh a ceny nemovitostí v České republice",
+      "p": "Česká národní banka",
+      "u": "https://www.cnb.cz/cs/menova-politika/zpravy-o-menove-politice/boxy-a-clanky/Rezidencni-trh-a-ceny-nemovitosti-v-Ceske-republice/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "bizarre",
+    "text": "V červenci 2016 se dala v Česku oficiálně stáhnout hra Pokémon Go a hráči s telefony v ruce obcházeli pokéstopy v ulicích i parcích.",
+    "rel": [
+      3,
+      2,
+      4,
+      1,
+      1,
+      2
+    ],
+    "src": {
+      "t": "Pokémon Go",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Pok%C3%A9mon_Go"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "bizarre",
+    "text": "Na jaře 2017 zaplavily obchody fidget spinnery — roztáčené hračky do ruky, kterých se v Česku do začátku srpna prodalo přes milion.",
+    "rel": [
+      3,
+      1,
+      4,
+      2,
+      0,
+      2
+    ],
+    "src": {
+      "t": "Fidget spinner",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Fidget_spinner"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "bizarre",
+    "text": "Rozmohlo se focení selfie; slovo, které Oxfordské slovníky vyhlásily slovem roku 2013, se ujalo i v češtině.",
+    "rel": [
+      3,
+      3,
+      4,
+      1,
+      4,
+      2
+    ],
+    "src": {
+      "t": "Selfie",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Selfie"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "beautiful",
+    "text": "Pražská náplavka na Rašínově nábřeží ožila; každou sobotu se na ní konaly farmářské trhy a u Vltavy probíhala řada kulturních akcí.",
+    "rel": [
+      4,
+      2,
+      3,
+      1,
+      3,
+      2
+    ],
+    "src": {
+      "t": "Rašínovo nábřeží",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Ra%C5%A1%C3%ADnovo_n%C3%A1b%C5%99e%C5%BE%C3%AD"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "beautiful",
+    "text": "Festival Colours of Ostrava se od roku 2012 konal v areálu národní kulturní památky Dolní Vítkovice a bývalé železárny tak každé léto ožívaly hudbou.",
+    "rel": [
+      4,
+      1,
+      3,
+      1,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Colours of Ostrava",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Colours_of_Ostrava"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "bucket": "beautiful",
+    "text": "Od roku 2013 se ve městech objevovala růžová sdílená kola Rekola, která si lidé odemykali přes mobilní aplikaci.",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Rekola",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Rekola"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "government",
+    "text": "Dne 12. března 2020 vyhlásila vláda kvůli šíření covidu-19 nouzový stav; postupně se zavřely školy, restaurace i hranice a veřejný život se na týdny zastavil.",
+    "rel": [
+      3,
+      5,
+      5,
+      0,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Pandemie covidu-19 v Česku",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Pandemie_covidu-19_v_%C4%8Cesku"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "government",
+    "text": "Ve sněmovních volbách v říjnu 2021 zvítězila koalice SPOLU se ziskem 27,79 % hlasů a premiérem se stal Petr Fiala; k urnám přišlo 65,43 % voličů.",
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      3,
+      2
+    ],
+    "src": {
+      "t": "Volby do Poslanecké sněmovny Parlamentu České republiky 2021",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Volby_do_Poslaneck%C3%A9_sn%C4%9Bmovny_Parlamentu_%C4%8Cesk%C3%A9_republiky_2021"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "government",
+    "text": "V lednu 2023 byl prezidentem zvolen Petr Pavel, který ve druhém kole získal 58,32 % hlasů; volební účast přes 70 % byla nejvyšší v celostátních volbách od roku 1998.",
+    "rel": [
+      3,
+      1,
+      4,
+      2,
+      3,
+      2
+    ],
+    "src": {
+      "t": "Volba prezidenta České republiky 2023",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Volba_prezidenta_%C4%8Cesk%C3%A9_republiky_2023"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "clothes",
+    "text": "Od 19. března 2020 nesměli lidé vycházet bez zakrytých úst a nosu; látkové roušky se v mnoha domácnostech šily doma a návody na jejich ušití se sdílely na sociálních sítích.",
+    "rel": [
+      3,
+      5,
+      5,
+      1,
+      2,
+      4
+    ],
+    "src": {
+      "t": "Pandemie covidu-19 v Česku",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Pandemie_covidu-19_v_%C4%8Cesku"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "clothes",
+    "text": "Od 25. února 2021 musely osoby starší 15 let nosit v obchodech a veřejné dopravě respirátor FFP2, případně dvě zdravotnické roušky přeložené přes sebe.",
+    "rel": [
+      3,
+      4,
+      5,
+      1,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Od čtvrtka budou v obchodech, provozovnách služeb, ambulantních zdravotnických zařízeních nebo veřejné dopravě povinné respirátory FFP2",
+      "p": "Ministerstvo zdravotnictví ČR",
+      "u": "https://mzd.gov.cz/tiskove-centrum-mz/od-ctvrtka-budou-v-obchodech-provozovnach-sluzeb-ambulantnich-zdravotnickych-zarizenich-nebo-verejne-doprave-povinne-respiratory-ffp2/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "clothes",
+    "text": "Kvůli zdražování i ohledu na životní prostředí rostla obliba oblečení z druhé ruky; v průzkumu z doby drahoty uvádělo nákupy v second handech 42 % dotázaných a rozšířily se výměnné akce zvané swapy.",
+    "rel": [
+      3,
+      3,
+      3,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Krize donutila Čechy šetřit i na oblečení. Našli levnější způsob, jak nakupovat",
+      "p": "Deník.cz",
+      "u": "https://www.denik.cz/ekonomika/jak-usetrit-na-obleceni-secondhand-vymeny-outlet.html"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "illnesses",
+    "text": "Pandemie covidu-19 zasáhla zemi v několika vlnách; do prosince 2023 v Česku s nemocí zemřelo přes 43 tisíc lidí.",
+    "rel": [
+      3,
+      5,
+      5,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Pandemie covidu-19 v Česku",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Pandemie_covidu-19_v_%C4%8Cesku"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "illnesses",
+    "text": "Očkování proti covidu-19 začalo 27. prosince 2020, den po dovozu prvních dávek vakcíny do země.",
+    "rel": [
+      3,
+      4,
+      4,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Pandemie covidu-19 v Česku",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Pandemie_covidu-19_v_%C4%8Cesku"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "illnesses",
+    "text": "Na jaře 2024 se černý kašel šířil nejvíce za posledních šedesát let; hygienici evidovali přes tři tisíce případů a zhruba třetinu nemocných tvořili dospívající mezi 15 a 19 lety.",
+    "rel": [
+      3,
+      1,
+      2,
+      4,
+      1,
+      2
+    ],
+    "src": {
+      "t": "V Česku přibylo od začátku roku přes 3100 případů černého kašle, to je nejvíc za 60 let",
+      "p": "ČT24, Česká televize",
+      "u": "https://ct24.ceskatelevize.cz/clanek/domaci/v-cesku-pribylo-od-zacatku-roku-pres-3100-pripadu-cerneho-kasle-to-je-nejvic-za-60-let-347256"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "dailyLife",
+    "text": "Školy se 11. března 2020 zavřely a výuka se přesunula k počítačům; Česká televize pro děti vysílala pořad UčíTelka.",
+    "rel": [
+      3,
+      4,
+      5,
+      1,
+      2,
+      4
+    ],
+    "src": {
+      "t": "Pandemie covidu-19 v Česku",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Pandemie_covidu-19_v_%C4%8Cesku"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "dailyLife",
+    "text": "Práce z domova se z výjimky stala běžnou praxí; v roce 2021 ji umožňovalo 60 % podniků a mezi firmami v IT službách téměř všechny.",
+    "rel": [
+      3,
+      4,
+      4,
+      2,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Práce na dálku se i díky pandemii stává běžnou",
+      "p": "Český statistický úřad",
+      "u": "https://csu.gov.cz/produkty/prace-na-dalku-se-i-diky-pandemii-stava-beznou"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "dailyLife",
+    "text": "Nakupování se přesunulo na internet: tržby e-shopů dosáhly v roce 2020 zhruba 196 miliard korun a před Vánoci si zákazníci až ve 45 % případů vyzvedávali zboží ve výdejnách a boxech.",
+    "rel": [
+      3,
+      3,
+      4,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Rekordní rok 2020 vystřelil českou e-commerce k 200 miliardám korun",
+      "p": "CzechCrunch",
+      "u": "https://cc.cz/2021/01/rekordni-rok-2020-vystrelil-ceskou-e-commerce-k-200-miliardam-korun-na-maloobchodu-se-podili-uz-ze-16/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "food",
+    "text": "Zavřené restaurace prodávaly jídlo výdejním okénkem a rozvoz rostl; služba Dáme jídlo hlásila na jaře 2020 meziroční nárůst objednávek o více než 60 %.",
+    "rel": [
+      3,
+      3,
+      4,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Rozvoz jídla zachraňuje restaurace. Oblibu si nejspíš podrží i po krizi",
+      "p": "Seznam Zprávy",
+      "u": "https://www.seznamzpravy.cz/clanek/rozvoz-jidla-zachranuje-restaurace-oblibu-si-nejspis-podrzi-i-po-krizi-99119"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "food",
+    "text": "Online supermarket Rohlik.cz, který vozil nákupy až ke dveřím, se v červenci 2021 stal prvním českým startupem s hodnotou přes miliardu dolarů.",
+    "rel": [
+      3,
+      1,
+      3,
+      3,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Tomáš Čupr to dokázal, hodnota Rohlik.cz překročila miliardu dolarů",
+      "p": "CzechCrunch",
+      "u": "https://cc.cz/2021/07/tomas-cupr-to-dokazal-rohlik-prekrocil-hodnotu-miliardy-dolaru-a-je-prvnim-ceskym-startupovym-jednorozcem/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "food",
+    "text": "V roce 2022 potraviny prudce zdražily: mouka stála meziročně o 61 % více, máslo zhruba o polovinu a cukr o třetinu.",
+    "rel": [
+      3,
+      5,
+      5,
+      2,
+      2,
+      4
+    ],
+    "src": {
+      "t": "Indexy spotřebitelských cen – inflace – září 2022",
+      "p": "Český statistický úřad",
+      "u": "https://csu.gov.cz/rychle-informace/indexy-spotrebitelskych-cen-inflace-zari-2022"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "money",
+    "text": "Inflace vyvrcholila v září 2022 na 18 %, nejvýše od roku 1993; zemní plyn tehdy meziročně zdražil o 85,9 % a elektřina o 37,8 %.",
+    "rel": [
+      3,
+      5,
+      5,
+      2,
+      2,
+      4
+    ],
+    "src": {
+      "t": "Indexy spotřebitelských cen – inflace – září 2022",
+      "p": "Český statistický úřad",
+      "u": "https://csu.gov.cz/rychle-informace/indexy-spotrebitelskych-cen-inflace-zari-2022"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "money",
+    "text": "Na podzim 2022 vláda zastropovala ceny energií: domácnosti a menší odběratelé měli od ledna 2023 platit nejvýše 6 korun za kilowatthodinu elektřiny a 3 koruny za kilowatthodinu plynu.",
+    "rel": [
+      3,
+      4,
+      4,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Zastropování cen energií v roce 2022",
+      "p": "CEDMO",
+      "u": "https://cedmohub.eu/cs/zastropovani-cen-energii-v-roce-2022/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "money",
+    "text": "Hotovost ustupovala: v roce 2021 probíhalo 87 % plateb kartou bezkontaktně a zhruba desetina populace platila chytrými hodinkami.",
+    "rel": [
+      3,
+      3,
+      4,
+      2,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Češi se odklánějí od hotovosti rychleji než zbytek světa, platí více kartou i hodinkami",
+      "p": "e15.cz",
+      "u": "https://www.e15.cz/tema/samoska-v-telefonu/cesi-se-odklaneji-od-hotovosti-rychleji-nez-zbytek-sveta-plati-vice-kartou-i-hodinkami-1381984"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "bizarre",
+    "text": "Když na jaře 2020 došla dezinfekce, dostaly firmy, školy i lihovary mimořádné povolení míchat podle receptury WHO směs Anti-COVID; výrobci jí distribuovali přes čtyři miliony litrů.",
+    "rel": [
+      3,
+      2,
+      3,
+      3,
+      1,
+      4
+    ],
+    "src": {
+      "t": "Firmy začaly ve velkém vyrábět dezinfekci Anti-COVID. Nejen pro stát",
+      "p": "Jihočeská hospodářská komora",
+      "u": "https://www.jhk.cz/aktuality/firmy-zacaly-ve-velkem-vyrabet-dezinfekci-anti-covid-nejen-pro-stat"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "bizarre",
+    "text": "Spotřeba piva klesla v roce 2020 na 135 litrů na obyvatele, nejméně od 60. let 20. století; v restauracích se místo obvyklé třetiny vypila jen čtvrtina piva.",
+    "rel": [
+      3,
+      2,
+      2,
+      3,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Spotřeba piva v Česku je nejnižší za posledních 60 let",
+      "p": "Český svaz pivovarů a sladoven",
+      "u": "https://ceske-pivo.cz/tz2021/spotreba-piva-v-cesku-je-nejnizsi-za-poslednich-60-let"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "bizarre",
+    "text": "Koncem února 2020 propukla nákupní horečka: z regálů mizely těstoviny, rýže, konzervy i mouka a internetové obchody s potravinami omezovaly počet kusů na jednu objednávku.",
+    "rel": [
+      3,
+      3,
+      4,
+      1,
+      0,
+      3
+    ],
+    "src": {
+      "t": "Těstoviny, rýže, konzervy, oleje. Nákupní panika už dorazila, hlásí e-shopy i řetězce",
+      "p": "Aktuálně.cz",
+      "u": "https://zpravy.aktualne.cz/finance/nakupovani/testoviny-ryze-konzervy-oleje-nakupni-panika-uz-dorazila-hla/r~eb71e88c589d11ea8362ac1f6b220ee8/"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "beautiful",
+    "text": "V covidovém roce 2020 jezdilo mnoho Čechů na dovolenou po vlastní zemi; ve třetím čtvrtletí vzrostl počet přenocování domácích hostů meziročně o 18 %.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Turistika za covidu",
+      "p": "Statistika&My, Český statistický úřad",
+      "u": "https://statistikaamy.csu.gov.cz/turistika-za-covidu"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "beautiful",
+    "text": "Jaro 2020 přineslo vlnu solidarity: dobrovolníci šili a rozdávali roušky a tým dobrovolníků COVID19CZ vyvinul nouzový plicní ventilátor CoroVent.",
+    "rel": [
+      3,
+      3,
+      4,
+      2,
+      1,
+      4
+    ],
+    "src": {
+      "t": "Pandemie covidu-19 v Česku",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Pandemie_covidu-19_v_%C4%8Cesku"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "bucket": "beautiful",
+    "text": "Znovu ožilo chataření a chalupaření: poptávka po rekreačních objektech stoupla během pandemie zhruba o 30 % a volné chaty se prodávaly během dnů až týdnů.",
+    "rel": [
+      3,
+      2,
+      3,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Ceny chat a chalup strmě rostou",
+      "p": "Novinky.cz",
+      "u": "https://www.novinky.cz/clanek/finance-ceny-chat-a-chalup-strme-rostou-40356189"
+    }
   }
 ]

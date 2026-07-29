@@ -706,6 +706,630 @@
    }
   },
   {
+   "key": "CZ|1980|Antonín Holý",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 1,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Holého výzkum měl obrovský pozdější význam, dobový všední den neměnil.",
+    "B": "V 80. letech ho veřejnost neznala; původ světových antivirotik překvapí i sečtělé.",
+    "C": "Holého výzkum ukazuje světovou vědu vznikající v tehdejším Československu."
+   }
+  },
+  {
+   "key": "CZ|1980|Bohumil Hrabal",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Hrabalovy zfilmované prózy formovaly kulturní zážitek dekády i dále.",
+    "B": "Menzelovy filmy zná většina; vydání Krále Jazzovou sekcí překvapí běžného čtenáře.",
+    "C": "Menzelovy adaptace a samizdatové vydání nesou příběh kultury 80. let."
+   }
+  },
+  {
+   "key": "CZ|1980|Dominik Hašek",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Hašek v Pardubicích byl sledovaný ligový fenomén, dopad hlavně pro fanoušky.",
+    "B": "Pardubické tituly znají hlavně fanoušci a východní Čechy; Hašek v Tesle překvapí mladší čtenáře.",
+    "C": "Ligové tituly a Zlaté hokejky jsou dílčí sportovní fakta."
+   }
+  },
+  {
+   "key": "CZ|1980|Hana Zagorová",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Zagorová patřila k rutině poslechu většiny; zákaz vystupování rezonoval.",
+    "B": "Devět Slavíků zná generace; zákaz po Několika větách běžného čtenáře překvapí.",
+    "C": "Zákaz vystupování po Několika větách vysvětluje mechanismus režimní perzekuce umělců."
+   }
+  },
+  {
+   "key": "CZ|1980|Ivan Lendl",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Lendlovy úspěchy lidé sledovali, běžný den ale neměnily.",
+    "B": "Lendl byl sportovní ikonou dekády; konkrétní čísla zná spíš poučený zájemce.",
+    "C": "Lendlova světová dominance byla sdílenou sportovní hrdostí dekády."
+   }
+  },
+  {
+   "key": "CZ|1980|Jarmila Kratochvílová",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Rekord Kratochvílové byl sdílený sportovní moment, ne změna rutiny.",
+    "B": "Rekord z roku 1983 je slavný; jeho dodnes trvající platnost překvapí běžného čtenáře.",
+    "C": "Dosud platný rekord a zlata z Helsinek byly velkým sdíleným momentem."
+   }
+  },
+  {
+   "key": "CZ|1980|Karel Gott",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Gott byl všudypřítomný v rádiu a televizi celé dekády ČSSR.",
+    "B": "Gott a Zlatý slavík byly všudypřítomné; přesný počet koncertů překvapí jen mírně.",
+    "C": "Gottova všudypřítomnost a Slavíci vystihují popkulturu normalizačních 80. let."
+   }
+  },
+  {
+   "key": "CZ|1980|Miloš Forman",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Formanův Amadeus vznikl v emigraci; do místního života pronikal jen zprostředkovaně.",
+    "B": "Osm Oscarů Amadea je známé; natáčení v Praze a Kroměříži zná poučený zájemce.",
+    "C": "Oscarový Amadeus natáčený v Praze byl výjimečný dotek světa s normalizací."
+   }
+  },
+  {
+   "key": "CZ|1990|Antonín Holý",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 5,
+    "recognition": 1,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Prodej patentů Gileadu založil globální antivirotika; dopad na domácnosti tehdy nepřímý.",
+    "B": "Prodej patentů Gileadu tehdy veřejnost nevnímala; spojení s Gileadem překvapí i sečtělé.",
+    "C": "Prodej patentů Gileadu ukazuje porevoluční propojení české vědy se světem."
+   }
+  },
+  {
+   "key": "CZ|1990|Bohumil Hrabal",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Vydávání spisů oslovilo čtenáře, literární odkaz trvá; všední den nezměnil.",
+    "B": "Hrabalova smrt 1997 rezonovala; devatenáctisvazkové spisy Pražské imaginace překvapí běžného čtenáře.",
+    "C": "Sebrané spisy a úmrtí jsou dílčí literární fakta."
+   }
+  },
+  {
+   "key": "CZ|1990|Dominik Hašek",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Nagano 1998 sledovala a slavila velká část země, epizodicky, ale silně.",
+    "B": "Nagano 1998 je téměř univerzální národní zážitek; Hart Trophy zná většina fanoušků.",
+    "C": "Nagano 1998 bylo celonárodním sdíleným zážitkem; vysvětluje atmosféru konce dekády."
+   }
+  },
+  {
+   "key": "CZ|1990|Jan Železný",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátně sledovaný sportovní triumf; světový rekord vydržel desítky let.",
+    "B": "Železného zlata sledovala celá země; přesný rekord 98,48 m si vybaví zájemce.",
+    "C": "Železného zlata a rekord byly velké sdílené sportovní momenty 90. let."
+   }
+  },
+  {
+   "key": "CZ|1990|Jaromír Jágr",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Jágrovy úspěchy v NHL se prožívaly na dálku, sdílená národní hrdost.",
+    "B": "Jágrovy Stanley Cupy jsou sdílenou vzpomínkou 90. let; rekordních 149 bodů zná zájemce.",
+    "C": "Jágrovy Stanley Cupy byly sdílenou hrdostí nově otevřené země."
+   }
+  },
+  {
+   "key": "CZ|1990|Karel Gott",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Nejprodávanější deska a Slavík — co domácnosti poslouchaly, bez hlubšího dopadu.",
+    "B": "Gott zůstal všudypřítomný; konkrétní album jako nejprodávanější deska 1992 zná zájemce.",
+    "C": "Slavík a prodejnost alba jsou dílčí fakta bez širšího příběhu."
+   }
+  },
+  {
+   "key": "CZ|1990|Lucie Bílá",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Muzikál a Slavík formovaly hudební mainstream dekády, běžný den měnily málo.",
+    "B": "Dracula i první Slavík Bílé patří k masové kultuře 90. let; detaily nepřekvapí.",
+    "C": "Muzikálová role a Slavík jsou dílčí popkulturní fakta."
+   }
+  },
+  {
+   "key": "CZ|1990|Zdeněk Svěrák",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Oscar za Kolju byl celonárodní kulturní událost s trvalým místem v paměti.",
+    "B": "Oscar za Kolju je sdílená národní událost; fakta jsou obecně známá.",
+    "C": "Oscarový Kolja byl sdílenou kulturní událostí a hrdostí 90. let."
+   }
+  },
+  {
+   "key": "CZ|2000|Aneta Langerová",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "SuperStar 2004 byla masový televizní a hlasovací fenomén, ale krátkodobý.",
+    "B": "První SuperStar 2004 sledovaly miliony; fakta jsou obecně známá.",
+    "C": "První SuperStar zachycuje nástup televizních talentových show, fenomén dekády."
+   }
+  },
+  {
+   "key": "CZ|2000|Antonín Holý",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 5,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Schválení tenofoviru a Truvady trvale změnilo léčbu HIV; doma spíš zdroj hrdosti.",
+    "B": "Holý se do povědomí dostával pomalu; světový úspěch Vireadu a Truvady překvapí i sečtělé.",
+    "C": "Schválení tenofoviru ukazuje světový dopad české vědy na léčbu AIDS."
+   }
+  },
+  {
+   "key": "CZ|2000|Jaromír Jágr",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Sledované hokejové úspěchy v zámoří a zlato 2005, národní televizní momenty.",
+    "B": "Zlato z Vídně 2005 slavila velká část země; pátá Art Ross je pro fanoušky.",
+    "C": "Trofeje a zlato z MS jsou dílčí sportovní fakta."
+   }
+  },
+  {
+   "key": "CZ|2000|Karel Gott",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Nejprodávanější album a Carnegie Hall — kulturní přítomnost, ne změna rutiny.",
+    "B": "Gott byl stále všudypřítomný; vystoupení v Carnegie Hall běžného čtenáře překvapí.",
+    "C": "Carnegie Hall a prodejnost alba jsou dílčí fakta."
+   }
+  },
+  {
+   "key": "CZ|2000|Kateřina Neumannová",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Olympijské zlato 2006 bylo velkým televizním okamžikem, význam jednotek let.",
+    "B": "Turínské zlato 2006 s dcerou v cíli si pamatuje značná část generace.",
+    "C": "Turínské zlato Neumannové bylo sdíleným národním okamžikem."
+   }
+  },
+  {
+   "key": "CZ|2000|Pavel Nedvěd",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Zlatý míč byl celonárodní pýcha fanoušků, rutinu domácností neměnil.",
+    "B": "Nedvědův Zlatý míč 2003 je sdílená vzpomínka; paralela s Masopustem je známá zájemcům.",
+    "C": "Nedvědův Zlatý míč byl sdílenou fotbalovou hrdostí dekády."
+   }
+  },
+  {
+   "key": "CZ|2000|Roman Šebrle",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Světový rekord a olympijské zlato, sdílené sportovní momenty dekády.",
+    "B": "Šebrleho rekord a zlato z Atén sledovala značná část generace; čísla zná zájemce.",
+    "C": "Světový rekord a olympijské zlato byly velké sdílené momenty."
+   }
+  },
+  {
+   "key": "CZ|2010|Antonín Holý",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 5,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Jeho sloučeniny trvale změnily světovou léčbu HIV; každodennost doma přímo neměnily.",
+    "B": "Po úmrtí 2012 se o Holém psalo; rozsah významu tenofoviru běžného čtenáře stále překvapí.",
+    "C": "Světové léky proti HIV z české laboratoře; jeho úmrtí uzavírá příběh."
+   }
+  },
+  {
+   "key": "CZ|2010|Barbora Špotáková",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Obhajoba olympijského zlata, sledovaný celonárodní moment bez dopadu na rutinu.",
+    "B": "Obhajoba z Londýna 2012 je široce sdílená; titul z roku 2017 zná spíš zájemce.",
+    "C": "Obhajoba olympijského zlata byla sdíleným sportovním momentem."
+   }
+  },
+  {
+   "key": "CZ|2010|Ester Ledecká",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Dvojité zlato 2018 bylo mimořádnou sdílenou událostí, sportovně-historická stopa.",
+    "B": "Dvojí zlato z Pchjongčchangu 2018 byla celonárodní senzace; fakta jsou známá.",
+    "C": "Unikátní dvojité zlato ve dvou sportech byl sdílený národní moment."
+   }
+  },
+  {
+   "key": "CZ|2010|Jaromír Jágr",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Návrat do Kladna zajímal hlavně fanoušky; místně silný, celostátně epizoda.",
+    "B": "Jágrův návrat do Kladna je široce známý; detail nepřekvapí.",
+    "C": "Návrat do Kladna je dílčí sportovní fakt."
+   }
+  },
+  {
+   "key": "CZ|2010|Karel Gott",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Úmrtí a rozloučení na Žofíně bylo celonárodní událostí s trvalou kulturní pamětí.",
+    "B": "Rozloučení na Žofíně v říjnu 2019 je téměř univerzální sdílená událost.",
+    "C": "Rozloučení s Gottem na Žofíně bylo celonárodní událostí uzavírající éru."
+   }
+  },
+  {
+   "key": "CZ|2010|Kateřina Tučková",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Literární cena a čtený román, dotkly se hlavně čtenářské obce.",
+    "B": "Žítkovské bohyně byly bestseller dekády; ocenění zná spíš čtenářská veřejnost.",
+    "C": "Literární cena je dílčí fakt bez širšího příběhu doby."
+   }
+  },
+  {
+   "key": "CZ|2010|Petr Čech",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Liga mistrů 2012 sledovaná v celé zemi, sportovní paměť dekády.",
+    "B": "Čech a triumf Chelsea 2012 patří k všeobecně sdíleným sportovním vzpomínkám.",
+    "C": "Čechova Liga mistrů byla sdílenou sportovní hrdostí dekády."
+   }
+  },
+  {
+   "key": "CZ|2010|Petra Kvitová",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Dva Wimbledony jako celonárodní televizní události, běžný den neměnily.",
+    "B": "Dva Wimbledony Kvitové zná většina generace; žádný překvapivý detail.",
+    "C": "Dva Wimbledony bez kontextu, holá sportovní fakta."
+   }
+  },
+  {
+   "key": "CZ|2020|Alena Mornštajnová",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Milion prodaných knih ovlivnil, co výrazná skupina čte, po řadu let.",
+    "B": "Mornštajnovou zná čtenářská většina; milion prodaných výtisků běžného čtenáře překvapí.",
+    "C": "Milion prodaných výtisků ukazuje čtenářský fenomén dekády."
+   }
+  },
+  {
+   "key": "CZ|2020|Barbora Krejčíková",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Grandslamové tituly jako sdílené televizní momenty, bez dlouhého dosahu na všední den.",
+    "B": "Dva grandslamy Krejčíkové zná značná část generace; detaily zná sportovní čtenář.",
+    "C": "Grandslamové tituly jsou dílčí sportovní fakta."
+   }
+  },
+  {
+   "key": "CZ|2020|David Pastrňák",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Zámořské hokejové úspěchy sledovala hlavně fanouškovská část veřejnosti.",
+    "B": "Pastrňák je hvězda dekády; 61 gólů a Richard Trophy znají hlavně fanoušci.",
+    "C": "Střelecké statistiky NHL jsou dílčí sportovní fakta."
+   }
+  },
+  {
+   "key": "CZ|2020|Ester Ledecká",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Obhajoba zlata 2022 — sledovaný sportovní moment s významem jednotek let.",
+    "B": "Třetí zlato z Pekingu 2022 sledovala velká část země; fakt je známý.",
+    "C": "Obhajoba zlata je dílčí sportovní fakt navazující na dřívější příběh."
+   }
+  },
+  {
+   "key": "CZ|2020|Ivan Trojan",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Filmová cena a role zajímaly diváky, běžný den neměnily.",
+    "B": "Trojan i Šarlatán jsou široce známé; Český lev je detail pro zájemce.",
+    "C": "Filmová cena je dílčí kulturní fakt."
+   }
+  },
+  {
+   "key": "CZ|2020|Lukáš Krpálek",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Olympijské zlato v Tokiu, velký sportovní moment s omezeným horizontem.",
+    "B": "Krpálkovo tokijské zlato je široce známé; žádný nový detail.",
+    "C": "Olympijské zlato je dílčí sportovní fakt."
+   }
+  },
+  {
+   "key": "CZ|2020|Markéta Vondroušová",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Nečekané wimbledonské vítězství 2023, celonárodně sledovaná epizoda.",
+    "B": "Wimbledon 2023 rezonoval; prvenství nenasazené vítězky od 1927 běžného čtenáře překvapí.",
+    "C": "Wimbledonská rarita je dílčí zajímavost bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|2020|Viktor Sheen",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Nejposlouchanější interpret formoval, co poslouchala mladá generace; horizont krátký.",
+    "B": "Mladá generace ho zná dobře, starší méně; prvenství na Spotify starší čtenáře překvapí.",
+    "C": "Dominance rapu ve streamingu zachycuje generační proměnu české popkultury."
+   }
+  },
+  {
    "key": "UA|1920|Les Kurbas",
    "scores": {
     "livedProximity": 4,
@@ -1407,6 +2031,614 @@
     "A": "Perzekuce disidenta v dobovém státě; dotkla se úzkého okruhu, vliv sahal až k nezávislosti.",
     "B": "Disidentovo věznění znal úzký okruh; obecné konstatování bez ostrého detailu.",
     "C": "Střídání vězení a svobody ilustruje osud disidentů, obecněji."
+   }
+  },
+  {
+   "key": "UA|1980|Lina Kostenko",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Ševčenkova cena potvrdila trvalý literární vliv, dotýkala se hlavně čtenářů.",
+    "B": "Marusju Čuraj četla vzdělaná část generace; Ševčenkova cena 1987 překvapí běžného čtenáře.",
+    "C": "Kostenko a Ševčenkova cena nesou příběh ukrajinské literatury pozdního SSSR."
+   }
+  },
+  {
+   "key": "UA|1980|Mykola Amosov",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Kyjevský kardioústav pomáhal pacientům a instituce trvá; všední den většiny neměnil.",
+    "B": "Amosov byl v SSSR slavný lékař i autor; institucionální detail z 1983 překvapí.",
+    "C": "Institucionální změna kliniky je dílčí fakt bez širšího příběhu."
+   }
+  },
+  {
+   "key": "UA|1980|Nazarij Jaremčuk",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Populární zpěvák se Smeričkou, kulturní kulisa spíše než změna dne.",
+    "B": "Smeričku znala velká část Ukrajiny; vedení souboru od 1982 zná spíš zájemce, mimo UA překvapí.",
+    "C": "Vedení souboru a titul jsou dílčí kulturní fakta."
+   }
+  },
+  {
+   "key": "UA|1980|Oleh Blochin",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Fotbalová hvězda republiky, sledované zápasy Dynama, sportovní paměť.",
+    "B": "Blochin byl ikonou; přesných 211 gólů a finále 1986 zná spíš fotbalový zájemce.",
+    "C": "Blochin a triumf 1986 nesou fotbalovou hrdost sovětské Ukrajiny."
+   }
+  },
+  {
+   "key": "UA|1980|Serhij Bubka",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "První šestimetrový skok a zlato — národní ikona s rekordy na desetiletí.",
+    "B": "Bubkova šestimetrová hranice a zlato ze Soulu byly celospolečenskou událostí.",
+    "C": "První šestimetrový skok a zlato byly sdílené sportovní momenty éry."
+   }
+  },
+  {
+   "key": "UA|1980|Sofija Rotaru",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Lavanda zněla z rádií po celé republice, popová stálice dekády.",
+    "B": "Rotaru a Lavanda zněly všude v SSSR; duet s Joalou zná pamětník i zájemce.",
+    "C": "Jedna píseň a stylový posun, dílčí popkulturní fakt."
+   }
+  },
+  {
+   "key": "UA|1980|Valerij Lobanovskyj",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Triumfy Dynama Kyjev byly masově prožívané a jeho trenérský odkaz trvá.",
+    "B": "Triumf Dynama 1986 prožila celá republika; fakta patří k obecné fotbalové paměti.",
+    "C": "Lobanovského Dynamo bylo sdíleným fenoménem a chloubou Kyjeva 80. let."
+   }
+  },
+  {
+   "key": "UA|1980|Viktor Petrenko",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Bronz z Calgary potěšil hlavně fanoušky krasobruslení, epizodický význam.",
+    "B": "Krasobruslení se sledovalo, ale bronz z Calgary si vybaví menšina; detail překvapí.",
+    "C": "Bronz z Calgary je dílčí sportovní fakt."
+   }
+  },
+  {
+   "key": "UA|1990|Andrij Ševčenko",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Hvězda Dynama sledovaná celou zemí, zápasy jako sdílené události.",
+    "B": "Ševčenko a Dynamo 90. let jsou sdílenou vzpomínkou; hattrick v Barceloně zná fanoušek.",
+    "C": "Ševčenkův vzestup s Dynamem byl sdíleným fotbalovým příběhem 90. let."
+   }
+  },
+  {
+   "key": "UA|1990|Borys Paton",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Vědecká autorita a první Hrdina Ukrajiny, mimo vědu bez dopadu na den.",
+    "B": "Patona jako šéfa akademie znala část veřejnosti; první Hrdina Ukrajiny 1998 překvapí.",
+    "C": "Funkce a titul jsou dílčí institucionální fakta."
+   }
+  },
+  {
+   "key": "UA|1990|Iryna Bilyk",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Milionové album určovalo, co se poslouchalo; popová vlna s krátkým horizontem.",
+    "B": "Bilyk byla popová hvězda 90. let; milion prodaných Farby překvapí běžného čtenáře.",
+    "C": "Milionové album ukazuje vznik domácí popové scény po nezávislosti."
+   }
+  },
+  {
+   "key": "UA|1990|Jurij Andruchovyč",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Klíčové romány 90. let formovaly literární scénu, dotkly se hlavně čtenářů.",
+    "B": "Bu-Ba-Bu a romány znala hlavně literární scéna; běžného čtenáře překvapí.",
+    "C": "Bu-Ba-Bu a romány zachycují literární kvas porevolučních 90. let."
+   }
+  },
+  {
+   "key": "UA|1990|Oksana Bajulová",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "První zlato samostatné Ukrajiny — sdílený symbolický moment mladého státu.",
+    "B": "První zlato samostatné Ukrajiny 1994 bylo velkou událostí; prvenství překvapí běžného čtenáře.",
+    "C": "První olympijské zlato samostatné Ukrajiny neslo symboliku nové státnosti."
+   }
+  },
+  {
+   "key": "UA|1990|Oksana Zabužko",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Román vyvolal celospolečenskou debatu a je označován za nejvlivnější knihu nezávislosti.",
+    "B": "Skandál kolem románu 1996 zasáhl čtenářskou veřejnost; jeho společenský dopad překvapí běžného čtenáře.",
+    "C": "Román, který dle ankety nejvíce ovlivnil společnost nezávislosti; vysvětluje kulturní přelom."
+   }
+  },
+  {
+   "key": "UA|1990|Serhij Bubka",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "35 světových rekordů, rekord 6,14 m vydržel do roku 2020, národní ikona.",
+    "B": "Bubka byl národním symbolem; 35 rekordů a platnost 6,14 m do 2020 překvapí.",
+    "C": "Bubkovy rekordy byly sdílenou hrdostí mladé nezávislé země."
+   }
+  },
+  {
+   "key": "UA|1990|Vladimir Kličko",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Olympijské zlato 1996 posílilo národní hrdost mladé Ukrajiny.",
+    "B": "Kličkové jsou národní ikony; olympijské zlato z Atlanty zná značná část generace.",
+    "C": "Olympijské zlato pro mladou Ukrajinu neslo národní hrdost."
+   }
+  },
+  {
+   "key": "UA|2000|Andrij Danylko",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Verka Serduchka byla celonárodní televizní fenomén, ale bez dopadu na rutinu domácností.",
+    "B": "Verka Serduchka byla všudypřítomný fenomén televize i Eurovize 2007; obecně známé.",
+    "C": "Verka Serduchka byla masový kulturní fenomén, který lidé dekády sdíleli."
+   }
+  },
+  {
+   "key": "UA|2000|Andrij Ševčenko",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Zlatý míč a čtvrtfinále MS — sdílené fotbalové momenty celé země.",
+    "B": "Zlatý míč 2004 a čtvrtfinále MS 2006 patří k všeobecné paměti dekády.",
+    "C": "Ševčenkův Zlatý míč a čtvrtfinále MS byly sdílenou fotbalovou hrdostí."
+   }
+  },
+  {
+   "key": "UA|2000|Ani Lorak",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Druhé místo na Eurovizi sledovala země u televize, epizoda jedné sezóny.",
+    "B": "Eurovize 2008 byla masově sledovaná, Lorak celebritou; druhé místo je široce známý fakt.",
+    "C": "Eurovizní úspěch je dílčí zajímavost bez širší souvislosti doby."
+   }
+  },
+  {
+   "key": "UA|2000|Jana Kločkovová",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Čtyři olympijská zlata potěšila zemi, význam v řádu jednotek let.",
+    "B": "Čtyři olympijská zlata Kločkovové slavila celá země; detaily závodů zná zájemce.",
+    "C": "Čtyři olympijská zlata Kločkovové byla sdíleným národním úspěchem."
+   }
+  },
+  {
+   "key": "UA|2000|Ruslana",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Vítězství v Eurovizi 2004 bylo celonárodním televizním svátkem a symbolem.",
+    "B": "Vítězství v Eurovizi 2004 je sdílená národní vzpomínka; rekordních 280 bodů zná zájemce.",
+    "C": "Ruslanino vítězství v Eurovizi bylo sdíleným národním momentem dekády."
+   }
+  },
+  {
+   "key": "UA|2000|Serhij Žadan",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Literární debuty s celostátním kulturním ohlasem, všední den čtenářů nezměnily.",
+    "B": "V nultých letech znala Žadana spíš čtenářská a studentská menšina; rané romány běžného čtenáře překvapí.",
+    "C": "Charkovská literární scéna a názvy románů zrcadlí postsovětskou dezorientaci dekády."
+   }
+  },
+  {
+   "key": "UA|2000|Svjatoslav Vakarčuk",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Okean Elzy formovali, co dekáda poslouchala, koncerty v desítkách měst.",
+    "B": "Okean Elzy a Vakarčuk byli všudypřítomní; alba i turné jsou obecně známé.",
+    "C": "Okean Elzy a turné zachycují ukrajinskojazyčný rock jako fenomén dekády."
+   }
+  },
+  {
+   "key": "UA|2000|Vladimir Kličko",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Mistrovské tituly v těžké váze byly sledované národní události.",
+    "B": "Kličkovy tituly sledovala většina země; konkrétní pásy a soupeře zná fanoušek.",
+    "C": "Kličkovy tituly mistra světa byly sdílenou sportovní hrdostí."
+   }
+  },
+  {
+   "key": "UA|2010|Elina Svitolinová",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Národní tenisová hrdost a mediální téma, každodennost neovlivnila.",
+    "B": "Svitolinová byla mediálně známá; přesné žebříčkové detaily zná spíš sportovní zájemce.",
+    "C": "Sportovní milník, národní prvenství, ale bez příběhu doby."
+   }
+  },
+  {
+   "key": "UA|2010|Jamala",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Vítězství s písní 1944 mělo celonárodní i politický přesah, rezonovalo léta.",
+    "B": "Vítězství na Eurovizi 2016 s písní 1944 sledovala prakticky celá země; velmi známé.",
+    "C": "Vítězná píseň o deportaci Tatarů propojuje rodinnou paměť s anexí Krymu."
+   }
+  },
+  {
+   "key": "UA|2010|Myroslav Slabošpyckyj",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 1,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Festivalový úspěch známý spíše kulturní veřejnosti, bez dopadu na domácnosti.",
+    "B": "Artový film znal úzký okruh; snímek celý ve znakovém jazyce překvapí i sečtělého člověka.",
+    "C": "Mezinárodní průlom ukrajinského filmu ukazuje kulturní emancipaci dekády."
+   }
+  },
+  {
+   "key": "UA|2010|Oksana Zabužko",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Literární cena s celostátní rezonancí mezi čtenáři, všední den nezměnila.",
+    "B": "Zabužko zná hlavně čtenářská veřejnost; cena Angelus překvapí běžného čtenáře.",
+    "C": "Román o třech epochách ukrajinských dějin otevírá práci s pamětí."
+   }
+  },
+  {
+   "key": "UA|2010|Oleh Verňajev",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 1,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Olympijské zlato jako národní svátek u obrazovek, krátkodobá epizoda.",
+    "B": "Gymnastiku sleduje menšina; olympijské zlato z Ria si vybaví hlavně sportovní fanoušci.",
+    "C": "Olympijské medaile jsou dílčí sportovní zajímavost bez širší souvislosti."
+   }
+  },
+  {
+   "key": "UA|2010|Serhij Žadan",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Oceňovaný román s celostátním kulturním významem, mimo čtenářskou obec bez dopadu.",
+    "B": "Po roce 2014 Žadanova známost výrazně vzrostla; konkrétní ocenění Vorošylovhradu překvapí běžného čtenáře.",
+    "C": "Vorošylovhrad o Donbasu nese kus příběhu regionu před válkou."
+   }
+  },
+  {
+   "key": "UA|2010|Vasyl Lomačenko",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Sportovní hvězda sledovaná celou zemí, přenosy jako událost, jinak beze změny všedního dne.",
+    "B": "Lomačenka zná značná část generace; detail rekordních dvanácti zápasů překvapí běžného čtenáře.",
+    "C": "Sportovní rekordy bez širšího kontextu doby, dílčí zajímavost."
+   }
+  },
+  {
+   "key": "UA|2010|Vladimir Kličko",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Kličkovy zápasy byly celonárodní televizní večery, konec vlády symbolická epizoda.",
+    "B": "Kličko je národní ikona, porážka s Furym široce sledovaná; přesná délka vlády méně známá.",
+    "C": "Kličko byl celonárodní symbol, konec jeho vlády rámuje dekádu."
+   }
+  },
+  {
+   "key": "UA|2020|Elina Svitolinová",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Olympijská medaile a wimbledonské semifinále, celonárodní sledovanost, sezónní epizody.",
+    "B": "Olympijská medaile a wimbledonský návrat byly široce sledované; detaily zná poučenější čtenář.",
+    "C": "Sportovní úspěchy, dílčí zajímavost bez širšího mechanismu doby."
+   }
+  },
+  {
+   "key": "UA|2020|Jaroslava Mahučichová",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Světový rekord a zlato jako národní symbol za války, každodennost beze změny.",
+    "B": "Světový rekord a zlato z Paříže 2024 byly velkou národní zprávou; široce známé.",
+    "C": "Světový rekord a zlato, samostatná sportovní událost bez souvislostí."
+   }
+  },
+  {
+   "key": "UA|2020|Mstyslav Černov",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Oscarový dokument o Mariupolu formoval, jak země i svět vidí válku.",
+    "B": "Oscar za 20 dní v Mariupolu byl celonárodně prožívaný moment; Pulitzer je méně známý.",
+    "C": "Oceněný dokument z Mariupolu vysvětluje, jak svět viděl válku očima svědků."
+   }
+  },
+  {
+   "key": "UA|2020|Oleh Psjuk",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Vítězství na Eurovizi 2022 bylo celonárodní válečné povzbuzení, sledované většinou domácností.",
+    "B": "Vítězství Kalush Orchestra 2022 je sdílená válečná vzpomínka; dražba trofeje na drony méně známá.",
+    "C": "Eurovizní vítězství a dražba trofeje na drony ukazují prolnutí kultury a války."
+   }
+  },
+  {
+   "key": "UA|2020|Oleksandr Usyk",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Usykův triumf sledovala celá země jako vzpruhu za války, rutinu nezměnil.",
+    "B": "Usykův absolutní titul 2024 byl celonárodní událostí i za války; obecně známé.",
+    "C": "Absolutní titul se stal sdíleným národním momentem hrdosti za války."
+   }
+  },
+  {
+   "key": "UA|2020|Serhij Žadan",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Mezinárodní literární ocenění charkovského autora, celostátní kulturní ohlas bez dopadu na rutinu.",
+    "B": "Za války se Žadan stal veřejnou postavou Charkova; německá cena je méně známý detail.",
+    "C": "Mírová cena charkovskému autorovi ukazuje roli kultury ve válečné dekádě."
    }
   }
  ]

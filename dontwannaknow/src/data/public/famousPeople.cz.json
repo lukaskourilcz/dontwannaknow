@@ -643,5 +643,785 @@
       3,
       2
     ]
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "name": "Karel Gott",
+    "role": "zpěvák",
+    "note": "V 80. letech odehrál kolem 258 koncertů ročně a v anketě Zlatý slavík zvítězil mimo jiné v letech 1980, 1981, 1983 a 1984.",
+    "rel": [
+      4,
+      3,
+      5,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Karel Gott",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Karel_Gott"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "name": "Hana Zagorová",
+    "role": "zpěvačka",
+    "note": "Anketu Zlatý slavík vyhrála devětkrát za sebou v letech 1977–1985; po podpisu petice Několik vět v červnu 1989 nesměla do pádu režimu veřejně vystupovat.",
+    "rel": [
+      4,
+      3,
+      5,
+      3,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Hana Zagorová",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Hana_Zagorová"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "name": "Ivan Lendl",
+    "role": "tenista",
+    "note": "Poprvé se stal světovou jedničkou v únoru 1983, v letech 1984–1987 vyhrál tři French Open a tři US Open a na čele žebříčku strávil celkem 270 týdnů.",
+    "rel": [
+      4,
+      2,
+      4,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Ivan Lendl",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Ivan_Lendl"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "name": "Jarmila Kratochvílová",
+    "role": "atletka",
+    "note": "V červenci 1983 zaběhla světový rekord na 800 m časem 1:53,28, nejdéle platný v ženské atletice, a na mistrovství světa 1983 v Helsinkách získala zlato na 400 m i 800 m.",
+    "rel": [
+      4,
+      2,
+      4,
+      3,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Jarmila Kratochvílová",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Jarmila_Kratochvílová"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "name": "Bohumil Hrabal",
+    "role": "spisovatel",
+    "note": "Jeho prózy Postřižiny (1980) a Slavnosti sněženek (1983) zfilmoval Jiří Menzel; román Obsluhoval jsem anglického krále vydala roku 1982 Jazzová sekce.",
+    "rel": [
+      4,
+      2,
+      4,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Bohumil Hrabal",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Bohumil_Hrabal"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "name": "Miloš Forman",
+    "role": "režisér",
+    "note": "Jeho film Amadeus (1984), natáčený mimo jiné v Praze a Kroměříži, získal osm Oscarů včetně ceny za nejlepší režii.",
+    "rel": [
+      2,
+      2,
+      4,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Miloš Forman",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Miloš_Forman"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "name": "Antonín Holý",
+    "role": "chemik",
+    "note": "Od roku 1976 vyvíjel s Erikem De Clercqem antivirové látky a roku 1983 se stal vedoucím skupiny chemie nukleových kyselin ÚOCHB; z výzkumu později vzešla antivirotika cidofovir a tenofovir.",
+    "rel": [
+      4,
+      1,
+      1,
+      4,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Antonín Holý",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Antonín_Holý"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "name": "Dominik Hašek",
+    "role": "hokejový brankář",
+    "note": "V 80. letech chytal za Teslu Pardubice, s níž vyhrál ligu v sezonách 1986/87 a 1988/89, a v letech 1987 a 1989 získal Zlatou hokejku.",
+    "rel": [
+      4,
+      2,
+      3,
+      3,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Dominik Hašek",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Dominik_Hašek"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "name": "Jaromír Jágr",
+    "role": "hokejista",
+    "note": "S Pittsburghem vyhrál Stanley Cup v letech 1991 a 1992 a v sezoně 1995/96 nasbíral 149 bodů, do té doby nejvíc od evropského hráče v NHL.",
+    "rel": [
+      2,
+      2,
+      5,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Jaromír Jágr",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Jarom%C3%ADr_J%C3%A1gr"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "name": "Dominik Hašek",
+    "role": "hokejový brankář",
+    "note": "Jako brankář Buffala získal v letech 1997 a 1998 Hart Memorial Trophy pro nejužitečnějšího hráče NHL a v roce 1998 dochytal tým k olympijskému zlatu v Naganu.",
+    "rel": [
+      3,
+      3,
+      5,
+      1,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Dominik Hašek",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Dominik_Ha%C5%A1ek"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "name": "Jan Železný",
+    "role": "oštěpař",
+    "note": "Olympijský vítěz z let 1992 a 1996; dne 25. května 1996 hodil v Jeně světový rekord 98,48 metru.",
+    "rel": [
+      3,
+      2,
+      5,
+      2,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Jan Železný",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Jan_%C5%BDelezn%C3%BD"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "name": "Lucie Bílá",
+    "role": "zpěvačka",
+    "note": "V roce 1995 zpívala hlavní ženskou roli v muzikálu Dracula a v roce 1996 získala prvního Českého slavíka v kategorii zpěvaček.",
+    "rel": [
+      3,
+      2,
+      5,
+      2,
+      3,
+      2
+    ],
+    "src": {
+      "t": "Lucie Bílá",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Lucie_B%C3%ADl%C3%A1"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "name": "Karel Gott",
+    "role": "zpěvák",
+    "note": "V obnovené anketě Český slavík zvítězil v roce 1996 a jeho album Když muž se ženou snídá bylo nejprodávanější deskou roku 1992.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      3,
+      2
+    ],
+    "src": {
+      "t": "Karel Gott",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Karel_Gott"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "name": "Zdeněk Svěrák",
+    "role": "herec a scenárista",
+    "note": "Napsal scénář k filmu Kolja (1996) a zahrál si v něm hlavní roli; snímek získal Oscara za nejlepší cizojazyčný film.",
+    "rel": [
+      3,
+      3,
+      5,
+      1,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Zdeněk Svěrák",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Zden%C4%9Bk_Sv%C4%9Br%C3%A1k"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "name": "Bohumil Hrabal",
+    "role": "spisovatel",
+    "note": "V letech 1991–1997 vycházely v nakladatelství Pražská imaginace jeho sebrané spisy v devatenácti svazcích; zemřel v únoru 1997.",
+    "rel": [
+      3,
+      1,
+      3,
+      3,
+      4,
+      2
+    ],
+    "src": {
+      "t": "Bohumil Hrabal",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Bohumil_Hrabal"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1990,
+    "name": "Antonín Holý",
+    "role": "chemik",
+    "note": "Patenty jeho antivirotik koupila v roce 1990 americká firma Gilead Sciences, s níž v 90. letech pokračoval ve vývoji léků proti virovým onemocněním.",
+    "rel": [
+      3,
+      1,
+      1,
+      4,
+      5,
+      3
+    ],
+    "src": {
+      "t": "Antonín Holý",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Hol%C3%BD"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "name": "Jaromír Jágr",
+    "role": "hokejista",
+    "note": "V sezoně 2000/01 získal svou pátou Art Ross Trophy pro nejproduktivnějšího hráče NHL a v roce 2005 vybojoval s reprezentací zlato na mistrovství světa ve Vídni.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      3,
+      2
+    ],
+    "src": {
+      "t": "Jaromír Jágr",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Jarom%C3%ADr_J%C3%A1gr"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "name": "Pavel Nedvěd",
+    "role": "fotbalista",
+    "note": "V roce 2003 získal jako druhý Čech po Josefu Masopustovi Zlatý míč pro nejlepšího fotbalistu Evropy; v dekádě hrál za Juventus Turín.",
+    "rel": [
+      3,
+      2,
+      5,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Pavel Nedvěd",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Pavel_Nedv%C4%9Bd"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "name": "Roman Šebrle",
+    "role": "desetibojař",
+    "note": "V roce 2001 vytvořil světový rekord 9 026 bodů a jako první v historii překonal hranici devíti tisíc; na olympiádě v Aténách 2004 získal zlato.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Roman Šebrle",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Roman_%C5%A0ebrle"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "name": "Kateřina Neumannová",
+    "role": "běžkyně na lyžích",
+    "note": "Na zimní olympiádě v Turíně 2006 vyhrála závod na 30 kilometrů volnou technikou a v roce 2005 se stala mistryní světa na 10 kilometrů.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Kateřina Neumannová",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Kate%C5%99ina_Neumannov%C3%A1"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "name": "Aneta Langerová",
+    "role": "zpěvačka",
+    "note": "V červnu 2004 zvítězila v první řadě soutěže Česko hledá SuperStar a téhož roku vydala debutové album Spousta andělů.",
+    "rel": [
+      3,
+      3,
+      5,
+      1,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Aneta Langerová",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Aneta_Langerov%C3%A1"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "name": "Karel Gott",
+    "role": "zpěvák",
+    "note": "V roce 2000 vystoupil v newyorské Carnegie Hall a jeho album Pokaždé se v roce 2002 stalo nejprodávanější deskou roku.",
+    "rel": [
+      3,
+      2,
+      4,
+      3,
+      3,
+      2
+    ],
+    "src": {
+      "t": "Karel Gott",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Karel_Gott"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2000,
+    "name": "Antonín Holý",
+    "role": "chemik",
+    "note": "Jeho antivirotika se prosadila ve světové medicíně: lék tenofovir (Viread) byl schválen v roce 2001 k léčbě AIDS a kombinovaný přípravek Truvada v roce 2004.",
+    "rel": [
+      3,
+      1,
+      2,
+      4,
+      5,
+      3
+    ],
+    "src": {
+      "t": "Antonín Holý",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Hol%C3%BD"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "name": "Petr Čech",
+    "role": "fotbalový brankář",
+    "note": "S Chelsea vyhrál v roce 2012 Ligu mistrů a kariéru ukončil v roce 2019 po angažmá v Arsenalu.",
+    "rel": [
+      3,
+      2,
+      5,
+      1,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Petr Čech",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Petr_%C4%8Cech"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "name": "Petra Kvitová",
+    "role": "tenistka",
+    "note": "Wimbledon vyhrála v letech 2011 a 2014.",
+    "rel": [
+      3,
+      2,
+      5,
+      1,
+      3,
+      2
+    ],
+    "src": {
+      "t": "Petra Kvitová",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Petra_Kvitov%C3%A1"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "name": "Ester Ledecká",
+    "role": "snowboardistka a lyžařka",
+    "note": "Na zimních hrách 2018 v Pchjongčchangu získala zlato v superobřím slalomu na lyžích i v paralelním obřím slalomu na snowboardu.",
+    "rel": [
+      3,
+      2,
+      5,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Ester Ledecká",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Ester_Ledeck%C3%A1"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "name": "Barbora Špotáková",
+    "role": "oštěpařka",
+    "note": "Na olympijských hrách v Londýně 2012 obhájila zlato v hodu oštěpem a v roce 2017 se stala mistryní světa.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Barbora Špotáková",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Barbora_%C5%A0pot%C3%A1kov%C3%A1"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "name": "Karel Gott",
+    "role": "zpěvák",
+    "note": "Koncertoval ještě v roce 2019; zemřel 1. října 2019 a rozloučit se s ním na pražský Žofín přišlo zhruba 50 tisíc lidí.",
+    "rel": [
+      3,
+      3,
+      5,
+      1,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Karel Gott",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Karel_Gott"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "name": "Jaromír Jágr",
+    "role": "hokejista",
+    "note": "V NHL hrál do ledna 2018, kdy se vrátil do Kladna a nastupoval za tamní Rytíře.",
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Jaromír Jágr",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Jarom%C3%ADr_J%C3%A1gr"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "name": "Kateřina Tučková",
+    "role": "spisovatelka",
+    "note": "Za román Žítkovské bohyně (2012) získala Cenu Josefa Škvoreckého.",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Kateřina Tučková",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Kate%C5%99ina_Tu%C4%8Dkov%C3%A1"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2010,
+    "name": "Antonín Holý",
+    "role": "chemik",
+    "note": "Jeho sloučeniny se staly základem léků proti HIV a žloutence typu B, včetně tenofoviru; zemřel v roce 2012.",
+    "rel": [
+      3,
+      1,
+      3,
+      3,
+      5,
+      3
+    ],
+    "src": {
+      "t": "Antonín Holý",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Hol%C3%BD"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "name": "Ester Ledecká",
+    "role": "snowboardistka a lyžařka",
+    "note": "Na zimních olympijských hrách v Pekingu 2022 obhájila zlato v paralelním obřím slalomu na snowboardu a získala tak třetí olympijské zlato.",
+    "rel": [
+      3,
+      2,
+      4,
+      1,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Ester Ledecká",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Ester_Ledeck%C3%A1"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "name": "Barbora Krejčíková",
+    "role": "tenistka",
+    "note": "Vyhrála dvouhru na French Open 2021 a ve Wimbledonu 2024 přidala druhý grandslamový titul.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Barbora Krejčíková",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Barbora_Krej%C4%8D%C3%ADkov%C3%A1"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "name": "Markéta Vondroušová",
+    "role": "tenistka",
+    "note": "V roce 2023 vyhrála Wimbledon jako první nenasazená vítězka ženské dvouhry od zavedení nasazování v roce 1927.",
+    "rel": [
+      3,
+      2,
+      4,
+      3,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Markéta Vondroušová",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Mark%C3%A9ta_Vondrou%C5%A1ov%C3%A1"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "name": "Lukáš Krpálek",
+    "role": "judista",
+    "note": "Na olympijských hrách v Tokiu, konaných v roce 2021, získal zlatou medaili v kategorii nad 100 kg.",
+    "rel": [
+      3,
+      2,
+      4,
+      1,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Lukáš Krpálek",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Luk%C3%A1%C5%A1_Krp%C3%A1lek"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "name": "David Pastrňák",
+    "role": "hokejista",
+    "note": "Útočník Bostonu Bruins vstřelil v sezoně NHL 2022/23 61 gólů a v roce 2020 získal Maurice Richard Trophy pro nejlepšího střelce ligy.",
+    "rel": [
+      3,
+      1,
+      4,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "David Pastrňák",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/David_Pastr%C5%88%C3%A1k"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "name": "Alena Mornštajnová",
+    "role": "spisovatelka",
+    "note": "V roce 2021 vydala román Listopád a do podzimu 2025 se jejích knih prodalo přes milion výtisků.",
+    "rel": [
+      3,
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Alena Mornštajnová",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Alena_Morn%C5%A1tajnov%C3%A1"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "name": "Ivan Trojan",
+    "role": "herec",
+    "note": "Za hlavní roli léčitele Jana Mikoláška ve filmu Šarlatán (2020) získal Českého lva za nejlepší mužský herecký výkon.",
+    "rel": [
+      3,
+      1,
+      4,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Ivan Trojan",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Ivan_Trojan"
+    }
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 2020,
+    "name": "Viktor Sheen",
+    "role": "rapper",
+    "note": "Spotify ho v prosinci 2021 vyhlásil nejposlouchanějším českým interpretem roku a jeho album Příběhy a sny (2021) se stalo nejprodávanější českou deskou roku 2022.",
+    "rel": [
+      3,
+      2,
+      3,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Viktor Sheen",
+      "p": "Wikipedie",
+      "u": "https://cs.wikipedia.org/wiki/Viktor_Sheen"
+    }
   }
 ]

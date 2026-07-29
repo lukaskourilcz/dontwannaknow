@@ -188,30 +188,32 @@ function countryFacts(person: Person): RawFact[] {
     });
   }
 
-  // Z každého tematického bloku vybíráme nejrelevantnější položku; skóre jen
-  // řadí, seedovaný rozptyl střídá blízké případy mezi osobami.
+  // Z každého tematického bloku vybíráme nejrelevantnější položky; skóre jen
+  // řadí, seedovaný rozptyl střídá blízké případy mezi osobami. Každodenní
+  // bloky dávají po dvou kandidátech, aby kapitola běžného dne nebyla chudá —
+  // rozpočty kapitol (4–8 položek) drží výběr, ne šířka kandidátů.
   const decadeRelevance = (fact: { rel?: number[] }) => expandRelevance(fact.rel);
   for (const { d, when, stage } of decades) {
     if (!d) continue;
     pickRelevant(d.government, 1, decadeRelevance).forEach((f) =>
       facts.push({ category: "government", text: `${capitalize(when)}: ${f.text}`, stage, ...extras(f) }),
     );
-    pickRelevant(d.clothes, 1, decadeRelevance).forEach((f) =>
+    pickRelevant(d.clothes, 2, decadeRelevance).forEach((f) =>
       facts.push({ category: "clothes", text: f.text, stage, ...extras(f) }),
     );
     pickRelevant(d.illnesses, 1, decadeRelevance).forEach((f) =>
       facts.push({ category: "illness", text: f.text, stage, ...extras(f) }),
     );
-    pickRelevant(d.dailyLife, 1, decadeRelevance).forEach((f) =>
+    pickRelevant(d.dailyLife, 2, decadeRelevance).forEach((f) =>
       facts.push({ category: "daily", text: f.text, stage, ...extras(f) }),
     );
-    pickRelevant(d.food, 1, decadeRelevance).forEach((f) =>
+    pickRelevant(d.food, 2, decadeRelevance).forEach((f) =>
       facts.push({ category: "food", text: f.text, stage, ...extras(f) }),
     );
-    pickRelevant(d.money, 1, decadeRelevance).forEach((f) =>
+    pickRelevant(d.money, 2, decadeRelevance).forEach((f) =>
       facts.push({ category: "money", text: f.text, stage, ...extras(f) }),
     );
-    pickRelevant(d.bizarre, 1, decadeRelevance).forEach((f) =>
+    pickRelevant(d.bizarre, 2, decadeRelevance).forEach((f) =>
       facts.push({ category: "bizarre", text: f.text, stage, ...extras(f) }),
     );
     pickRelevant(d.beautiful, 1, decadeRelevance).forEach((f) =>

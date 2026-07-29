@@ -2178,6 +2178,1926 @@
    }
   },
   {
+   "key": "CZ|1980|beautiful|K Vánocům patřil kapr s bramborovým salátem, vanilkové rohlíčky a pracny a v televizi pohádky, mezi nimi Tři oříšky pro Popelku.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Vánoční jídlo a pohádky jsou univerzální rituál trvající dodnes.",
+    "B": "Kapr, cukroví a Popelka jsou dodnes živá univerzální tradice; nulové překvapení.",
+    "C": "Vánoční zvyky jsou milé, ale nadčasové; málo specifické pro dekádu."
+   }
+  },
+  {
+   "key": "CZ|1980|beautiful|Podvečer patřil Večerníčku, který se od roku 1973 vysílal denně; v 80. letech běžely příběhy o Krtkovi, Maxipes Fík, Pat a Mat nebo Bob a Bobek — králíci z klobouku.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Večerníček byl denním rituálem dětí a rodin, trvá desetiletí.",
+    "B": "Večerníček s Fíkem a Patem a Matem je téměř univerzální; obecně známé.",
+    "C": "Večerníček nese sdílený večerní rituál dětství celé generace."
+   }
+  },
+  {
+   "key": "CZ|1980|beautiful|Víkendy trávila řada rodin na chatě nebo chalupě, která od jara do podzimu sloužila jako druhý domov.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Chalupaření určovalo víkendy řady rodin a přetrvalo dekády.",
+    "B": "Chataření je notoricky známý fenomén i univerzální rodinná zkušenost.",
+    "C": "Chataření vysvětluje únik do soukromí jako široký společenský mechanismus éry."
+   }
+  },
+  {
+   "key": "CZ|1980|bizarre|Když v kruté zimě roku 1987 uvázly dodávky uhlí, školy vyhlásily mimořádné „uhelné prázdniny“ a děti získaly nečekaný čas na sáňkování a lyžování.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Uhelné prázdniny změnily den rodin s dětmi jen krátkodobě.",
+    "B": "Uhelné prázdniny 1987 si tehdejší školáci pamatují; mladší čtenáře překvapí.",
+    "C": "Uhelné prázdniny spojují energetickou křehkost systému s dětským zážitkem."
+   }
+  },
+  {
+   "key": "CZ|1980|bizarre|Na celostátní spartakiádě 1985 cvičilo na strahovském stadionu 189 512 cvičenců v patnácti skladbách a na tribunách se vystřídalo přes 1,2 milionu diváků.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Nácviky a účast statisíců změnily rutinu výrazné skupiny dočasně.",
+    "B": "Spartakiádu 1985 zažila či sledovala většina; přesné počty jsou detail.",
+    "C": "Spartakiáda s čísly vysvětluje masovou režimní rituálnost, kterou zažily statisíce."
+   }
+  },
+  {
+   "key": "CZ|1980|bizarre|Ve školách se sbírala plastová céčka z Jablonecka — hrála se s nimi „čára“, vyměňovala se a nejvíc platila průhledná s bublinkami nebo svítící.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Dětská sběratelská móda, výrazná vzpomínka, ale sezónní epizoda.",
+    "B": "Céčka jsou ikonická dětská zkušenost 80. let; jablonecký původ a hodnoty variant detail.",
+    "C": "Céčka jsou konkrétní sdílená dětská zkušenost, kus příběhu doby."
+   }
+  },
+  {
+   "key": "CZ|1980|clothes|Džíny ze Západu se běžně daly pořídit jen v Tuzexu za bony; italská značka Rifle se tam prodávala od roku 1968 a vedle ní i Levi's nebo Wrangler.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Tuzex a bony formovaly nákupní chování výrazné skupiny po léta.",
+    "B": "Tuzex a bony pamatuje většina; značka Rifle od 1968 je detail pro poučené.",
+    "C": "Tuzex a bony vysvětlují mechanismus nedostatkové ekonomiky přes běžnou touhu po džínách."
+   }
+  },
+  {
+   "key": "CZ|1980|clothes|Mladí si doma bělili džíny Savem na žádané „plísňáče“; látka tím ale trpěla, a tak se nosily potrhané nebo přešité na kraťasy.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Módní praxe mladých, dobově výrazná, ale krátkodobá epizoda.",
+    "B": "Bělení džínů Savem na plísňáče je sdílená vzpomínka mladé generace 80. let.",
+    "C": "Domácí bělení džín ukazuje improvizaci a nedostupnost módy, kus příběhu doby."
+   }
+  },
+  {
+   "key": "CZ|1980|clothes|Šusťákové teplákové soupravy se ze sportu přesunuly do běžného odívání a na tělocvik patřily bílé plátěné cvičky „jarmilky“, původně úbor ze spartakiády 1965.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Běžné odívání a školní tělocvik většiny dětí, význam jednotek let.",
+    "B": "Jarmilky a šusťáky zná většina; původ ve spartakiádě 1965 překvapí běžného čtenáře.",
+    "C": "Šusťáky a jarmilky nesou konkrétní každodenní zkušenost školáků éry."
+   }
+  },
+  {
+   "key": "CZ|1980|dailyLife|Bydlení v panelovém domě bylo běžné: do začátku 90. let vzniklo v českých zemích asi 1,2 milionu panelových bytů a koncem 80. let v nich žily přes tři miliony lidí.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Panelové bydlení milionů lidí trvale změnilo města i každodennost.",
+    "B": "Panelákové bydlení je univerzální zkušenost; přesná čísla zná spíš poučený zájemce.",
+    "C": "Čísla o panelácích vysvětlují, kde a jak většina lidí bydlela."
+   }
+  },
+  {
+   "key": "CZ|1980|dailyLife|Nové auto se kupovalo přes státní Mototechnu a na běžnou škodovku se bez známostí nebo příplatku bokem čekalo v pořadníku i několik let.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Pořadníky na auta měnily plánování výrazné skupiny domácností roky.",
+    "B": "Pořadníky na škodovku u Mototechny jsou notoricky sdílená vzpomínka.",
+    "C": "Pořadník na škodovku vysvětluje mechanismus nedostatku, známostí a čekání."
+   }
+  },
+  {
+   "key": "CZ|1980|dailyLife|Československá televize nabízela dva programy, od poloviny 70. let oba barevně v normě SECAM; večer se sledovaly Televizní noviny nebo estráda Televarieté.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Dva programy určovaly večerní rutinu většiny domácností dekádu.",
+    "B": "Dva programy a Televarieté zná téměř každý pamětník; norma SECAM je detail.",
+    "C": "Dva programy a večerní rituály nesou kus sdílené každodennosti."
+   }
+  },
+  {
+   "key": "CZ|1980|food|Banány a mandarinky se v obchodech objevovaly hlavně před Vánoci; zpráva o závozu se rychle roznesla a do fronty se spěchalo třeba i z práce.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Fronty na nedostatkové ovoce byly opakovanou rutinou domácností.",
+    "B": "Fronty na banány před Vánoci jsou emblematická sdílená vzpomínka; obecně známé.",
+    "C": "Fronty na banány vysvětlují nedostatkovou ekonomiku skrze živý každodenní obraz."
+   }
+  },
+  {
+   "key": "CZ|1980|food|Mnoho rodin si ovoce a zeleninu pěstovalo na zahrádkách a u chat a přebytky úrody prodávalo na městských tržištích, obvykle ve středu a v sobotu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Zahrádkaření a prodej přebytků byly rutinou mnoha rodin po léta.",
+    "B": "Zahrádky a prodej přebytků na trzích zná většina rodin; nic překvapivého.",
+    "C": "Zahrádkaření a tržiště ukazují samozásobitelství jako odpověď na zásobování."
+   }
+  },
+  {
+   "key": "CZ|1980|food|V samoobsluhách voněla mletá káva, mléko v sáčcích rádo protékalo a mezi stálice sortimentu patřily Tatranky, Kofila nebo Fidorka.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Stálý sortiment samoobsluh rámoval, co lidé běžně kupovali a jedli.",
+    "B": "Sáčkové mléko, Tatranky a Kofila jsou téměř univerzální smyslová vzpomínka.",
+    "C": "Evokativní detail sortimentu, dílčí zajímavost bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1980|government|Po zásahu proti studentskému průvodu na Národní třídě 17. listopadu 1989, při němž bylo zraněno 568 lidí, přišly statisícové demonstrace — na Letenskou pláň dorazilo koncem listopadu kolem 750 tisíc lidí a režim padl.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Pád režimu trvale změnil zemi i každodennost všech domácností.",
+    "B": "Listopad 1989 zažila celá generace; konkrétní čísla mírně nad školní učivo.",
+    "C": "Konkrétní řetězec událostí vysvětlující pád režimu, zlom pro všechny obyvatele."
+   }
+  },
+  {
+   "key": "CZ|1980|government|Státní bezpečnost získávala spolupracovníky i nevybíravými metodami a mnoho lidí vedlo takzvaný dvojí život — jiné názory říkali na veřejnosti a jiné doma.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Dvojí život a strach z StB ovlivňovaly, co lidé směli říkat.",
+    "B": "Dvojí život za normalizace je široce sdílená zkušenost i známé téma.",
+    "C": "Mechanismus dvojího života vysvětluje každodenní psychologii normalizace."
+   }
+  },
+  {
+   "key": "CZ|1980|government|Veřejnému životu určovala rámec vedoucí úloha KSČ a kádrové posudky podle postoje k roku 1968 provázely přijetí na školu i postup v zaměstnání po celou dobu normalizace.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Kádrové posudky určovaly školu i kariéru většiny po celou normalizaci.",
+    "B": "Kádrové posudky a vedoucí úloha KSČ se dotkly prakticky každého; obecně známé.",
+    "C": "Vysvětluje mechanismus kádrových posudků, který určoval školu i kariéru celé generace."
+   }
+  },
+  {
+   "key": "CZ|1980|illnesses|Naděje dožití od poloviny 60. let stagnovala; úmrtnost dospělých na nemoci oběhové soustavy — infarkty a mozkové mrtvice — zůstávala vysoká a země se v mezinárodním srovnání propadala.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Stagnace zdraví je spíše statistický rámec než změna všedního dne.",
+    "B": "Stagnaci naděje dožití pamětník necítil přímo; mezinárodní propad překvapí běžného čtenáře.",
+    "C": "Stagnace dožití a kardiovaskulární úmrtnost vysvětlují zdravotní realitu dospělých v éře."
+   }
+  },
+  {
+   "key": "CZ|1980|illnesses|Proti přenosné dětské obrně se očkovalo plošně od roku 1958 a od roku 1961 patřilo Československo k prvním zemím bez výskytu této nemoci.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Plošné očkování všech dětí trvale odstranilo obávanou nemoc.",
+    "B": "Očkování si běžně nikdo nepamatuje; prvenství ČSSR v eliminaci obrny překvapí.",
+    "C": "Plošné očkování proti obrně vysvětluje zdravotní jistotu dětství, byť starší datace."
+   }
+  },
+  {
+   "key": "CZ|1980|illnesses|Školní třídy z měst a průmyslových oblastí se znečištěným ovzduším vyjížděly během školního roku na školy v přírodě za čerstvým vzduchem a pohybem.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Školy v přírodě byly rutinou městských školáků po řadu let.",
+    "B": "Školy v přírodě zažila velká část městských dětí; jev je obecně známý.",
+    "C": "Školy v přírodě spojují znečištěné ovzduší s konkrétní dětskou zkušeností — mechanismus doby."
+   }
+  },
+  {
+   "key": "CZ|1980|money|Průměrná hrubá měsíční mzda dosahovala v roce 1983 zhruba 2 808 Kčs.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Údaj o mzdě je cenný kontext, sám o sobě den neměnil.",
+    "B": "Mzdu kolem 2 800 Kčs si část pamětníků vybaví; číslo zná poučený zájemce.",
+    "C": "Samotné číslo mzdy je dílčí údaj bez příběhu; užitečné jen jako kotva."
+   }
+  },
+  {
+   "key": "CZ|1980|money|Vedle koruny obíhaly tuzexové bony: koncem 80. let odpovídal jeden bon oficiálně čtyřem korunám a veksláci před Tuzexem je prodávali zhruba za pět.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Bony a veksláci ovlivňovali nákupy výrazné skupiny po léta.",
+    "B": "Bony a veksláky zná většina; konkrétní kurzy překvapí běžného čtenáře.",
+    "C": "Bony a veksláci vysvětlují mechanismus dvojí měny a šedé ekonomiky."
+   }
+  },
+  {
+   "key": "CZ|1980|money|Za kilogram chleba se v roce 1983 platilo 2,60 Kčs, za půllitr lahvové desítky 1,70 Kčs a za kilogram kostkového cukru 8 Kčs.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Stabilní ceny základního zboží jsou kontext, ne změna rutiny.",
+    "B": "Stabilní ceny chleba a piva se pamatují dodnes; přesné hodnoty spíš pro zájemce.",
+    "C": "Konkrétní ceny ve vztahu ke mzdě dávají hmatatelný obraz kupní síly."
+   }
+  },
+  {
+   "key": "CZ|1990|beautiful|Dne 18. srpna 1990 zahráli Rolling Stones na pražském Strahově zhruba stotisícovému publiku; koncert provázelo heslo „Tanky se valí ven, Stouni se valí sem“.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Jednorázový koncert, silný symbol svobody, den většiny nezměnil.",
+    "B": "Koncert Stones 1990 zažil či sledoval velký okruh; heslo zná spíš zájemce.",
+    "C": "Koncert Stones s heslem nese euforii otevření Západu po revoluci."
+   }
+  },
+  {
+   "key": "CZ|1990|beautiful|V roce 1992, ještě před rozdělením federace, byla na seznam světového dědictví UNESCO zapsána historická centra Prahy, Českého Krumlova a Telče.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Trvalý status památek s dlouhodobým dopadem, běžný den nezměnil.",
+    "B": "Zápis do UNESCO 1992 běžný člověk přímo neprožil; fakt zná poučený zájemce.",
+    "C": "Zápis do UNESCO je dílčí prestižní fakt bez dopadu na každodennost."
+   }
+  },
+  {
+   "key": "CZ|1990|beautiful|V únoru 1998 vyhráli čeští hokejisté olympijský turnaj v Naganu; vracející se tým vítaly cestou z letiště desetitisíce lidí a oslavy vyvrcholily na Staroměstském náměstí.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celá země sledovala a slavila, změna rutiny jen krátká.",
+    "B": "Nagano 1998 je jedna z nejsilnějších sdílených vzpomínek dekády; obecně známé.",
+    "C": "Nagano je masově sdílený okamžik národní radosti, kus příběhu dekády."
+   }
+  },
+  {
+   "key": "CZ|1990|bizarre|Děti nosily do škol elektronická zvířátka tamagoči, o která bylo třeba nepřetržitě pečovat, a o přestávkách se na chodbách hrálo o kartonová kolečka zvaná pogy.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Dětské hračkové módy, výrazná vzpomínka, ale sezónní epizoda.",
+    "B": "Tamagoči a pogy jsou ikonická dětská zkušenost konce 90. let; obecně známé.",
+    "C": "Tamagoči a pogy jsou dílčí sdílená dětská zajímavost bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1990|bizarre|Harvardské investiční fondy Viktora Koženého lákaly v masivní reklamě na „jistotu desetinásobku“ a získaly kupónové knížky více než milionu občanů.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Přes milion občanů svěřil knížky fondům, ztráty se táhly léta.",
+    "B": "Reklamy Harvardských fondů a Kožený jsou notoricky pamatované; milion knížek detail.",
+    "C": "Harvardské fondy vysvětlují naivitu a rizika privatizace, dotkly se milionu lidí."
+   }
+  },
+  {
+   "key": "CZ|1990|bizarre|Na zavedení bytové telefonní linky se ještě v roce 1994 čekalo zhruba čtyři roky a ke konci téhož roku evidoval operátor 635 tisíc nevyřízených žádostí.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Statisíce domácností čekaly roky na telefon, problém během dekády zmizel.",
+    "B": "Čekání na telefonní linku zažila část domácností; rozsah 635 tisíc žádostí překvapí.",
+    "C": "Čtyřleté čekání na telefon ukazuje setrvačnost nedostatku i po revoluci."
+   }
+  },
+  {
+   "key": "CZ|1990|clothes|K posluchačům alternativní hudby patřily kostkované košile, černé džíny a těžké šněrovací boty; ve druhé polovině dekády se rozšířily boty a tenisky na vysoké platformě.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Subkulturní móda menšiny, sezónní trend platform ve druhé půli dekády.",
+    "B": "Grunge styl a platformy pamatuje hlavně tehdejší mládež, ne celá generace.",
+    "C": "Subkulturní oděv je dílčí zajímavost, spíš globální než česká specifika."
+   }
+  },
+  {
+   "key": "CZ|1990|clothes|Nejoblíbenějším materiálem dekády byla džínovina; nosily se džíny s vysokým pasem, střih „mom jeans“ i džínové bundy, často v záměrně obnošeném vzhledu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Džínovina určovala, co většina mladých nosila, po několik let.",
+    "B": "Džínovina a mom jeans byly všudypřítomné; módní obecnost bez překvapení.",
+    "C": "Popis módy džínoviny, dílčí dobový kolorit bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|1990|clothes|Šusťákové soupravy patřily k typickému oblečení, ale koupit značkový kus nebylo začátkem dekády běžné, a tak mnoho maminek a babiček šilo vlastní soupravy ze šusťákoviny nakoupené v galanterii.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Domácí šití souprav se týkalo části rodin počátkem dekády.",
+    "B": "Domácí šití šusťákovek pamatuje část rodin; mladší čtenáře překvapí.",
+    "C": "Domácí šití šusťáků ukazuje přechodovou ekonomiku nedostatku značek."
+   }
+  },
+  {
+   "key": "CZ|1990|dailyLife|Dne 13. února 1992 bylo v posluchárně ČVUT v pražských Dejvicích slavnostně předvedeno připojení Československa k internetu rychlostí 9,6 kilobitu za sekundu; země byla 39. připojeným státem.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 1,
+    "discovery": 4,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Připojení k internetu tehdy den nezměnilo, důsledky ale dalekosáhlé.",
+    "B": "Připojení k internetu 1992 zažili jen akademici; 39. země a rychlost překvapí i sečtělé.",
+    "C": "Slavnostní připojení k internetu je milník, ale bez dopadu na tehdejší každodennost."
+   }
+  },
+  {
+   "key": "CZ|1990|dailyLife|Dne 4. února 1994 začala vysílat TV Nova, první česká celoplošná soukromá televize, a v prvních letech se její podíl na divácích pohyboval kolem 60 procent.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Nova s 60% podílem změnila večery většiny domácností na roky.",
+    "B": "Start Novy 1994 je masově sdílený zážitek; podíl kolem 60 % je detail.",
+    "C": "Start Novy s 60% podílem nese proměnu sdílené večerní kultury."
+   }
+  },
+  {
+   "key": "CZ|1990|dailyLife|První mobilní telefonní síť spustila společnost Eurotel 12. září 1991 v analogovém systému NMT v pásmu 450 MHz.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Start mobilní sítě se zprvu dotkl úzké skupiny, důsledky dlouhodobé.",
+    "B": "Síť NMT 1991 zažil jen úzký okruh uživatelů; datum a technologie překvapí.",
+    "C": "Technické datum spuštění sítě; pro běžný život dekády okrajové."
+   }
+  },
+  {
+   "key": "CZ|1990|food|První restauraci McDonald's v Československu otevřela společnost 20. března 1992 ve Vodičkově ulici v Praze.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Symbol nové doby, zprvu jediná restaurace, dopad na den omezený.",
+    "B": "Otevření prvního McDonald's 1992 je široce vzpomínaná událost; přesné místo detail.",
+    "C": "Otevření McDonald's je symbol Západu, ale záznam nese jen datum a adresu."
+   }
+  },
+  {
+   "key": "CZ|1990|food|První supermarket Mana otevřel nizozemský řetězec Ahold 6. června 1991 na jihlavském sídlišti Březinky; zákazníci si poprvé sami brali zboží z regálů do kovových košíků.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Jedna prodejna zprvu, ale začátek trvalé proměny nakupování.",
+    "B": "První supermarkety pamatuje část generace; Mana v Jihlavě 1991 překvapí i sečtělé.",
+    "C": "První samoobslužný supermarket ukazuje proměnu nakupování na začátku transformace."
+   }
+  },
+  {
+   "key": "CZ|1990|food|Vůbec první hypermarket v zemi otevřel Globus 4. listopadu 1996 v Brně-Ivanovicích.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 1
+   },
+   "rationales": {
+    "A": "První hypermarket předznamenal trvalou změnu nákupních zvyklostí.",
+    "B": "První hypermarket zažili hlavně Brňané; prvenství Globusu 1996 překvapí běžného čtenáře.",
+    "C": "Holé datum a místo otevření hypermarketu bez místního důsledku pro čtenáře."
+   }
+  },
+  {
+   "key": "CZ|1990|government|Dne 12. března 1999 vstoupila Česká republika spolu s Polskem a Maďarskem do NATO; ratifikační listiny předali ministři zahraničí v americkém Independence.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Geopolitický krok s trvalým významem, ale bez dopadu na běžný den.",
+    "B": "Vstup do NATO 1999 část generace registruje; místo ratifikace je detail.",
+    "C": "Vstup do NATO je milník ukotvující směřování země, detail předání je okrajový."
+   }
+  },
+  {
+   "key": "CZ|1990|government|V červnu 1990 proběhly první svobodné volby po pádu komunistického režimu; v české části federace k nim přišlo 96,8 procenta oprávněných voličů a zvítězilo Občanské fórum.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Téměř všichni volili; volby stvrdily změnu režimu na léta dopředu.",
+    "B": "První svobodné volby 1990 zažili téměř všichni; účast 96,8 % je působivý detail.",
+    "C": "Účast 96,8 % vysvětluje euforii a význam prvních svobodných voleb."
+   }
+  },
+  {
+   "key": "CZ|1990|government|Československo se k 1. lednu 1993 rozdělilo na dva samostatné státy dohodou politických reprezentací; referendum se nekonalo a v zahraničí se pro pokojný průběh ujalo označení „sametový rozvod“.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Rozdělení státu trvale změnilo zemi, občanství i doklady.",
+    "B": "Rozdělení federace je klíčová sdílená událost; absence referenda vcelku známá.",
+    "C": "Rozdělení státu bez referenda — zásadní zlom s vysvětleným mechanismem dohody elit."
+   }
+  },
+  {
+   "key": "CZ|1990|illnesses|Kojenecká úmrtnost klesla v roce 1992 poprvé pod hranici deseti promile a během dekády se dále snižovala, nejvýrazněji u novorozenců.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 1,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Statistické zlepšení s dlouhodobým významem, přímo se dotklo rodin novorozenců.",
+    "B": "Statistiku kojenecké úmrtnosti pamětník nezažil; milník pod 10 promile překvapí.",
+    "C": "Pokles kojenecké úmrtnosti nese zlepšení života rodin v dekádě."
+   }
+  },
+  {
+   "key": "CZ|1990|illnesses|Od 1. ledna 1992 začala fungovat Všeobecná zdravotní pojišťovna zřízená zákonem č. 551/1991 Sb. a péči postupně hradilo veřejné zdravotní pojištění místo státního rozpočtu.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 5,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Systémová změna financování péče, trvalá, ale všední den měnila málo.",
+    "B": "Vznik VZP běžný člověk nevnímal jako zážitek; systémová změna překvapí běžného čtenáře.",
+    "C": "Vznik VZP vysvětluje systémovou změnu financování péče, byť sucho podané."
+   }
+  },
+  {
+   "key": "CZ|1990|illnesses|Úmrtnost na nemoci srdce a cév v 90. letech klesala; podle lékařských studií k tomu přispěly změny stravy po roce 1989 — spotřeba másla se do roku 1993 snížila o více než 40 procent — a lepší lékařská péče.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Změna stravy většiny domácností po 1989 s dlouhodobým zdravotním dopadem.",
+    "B": "Pokles kardiovaskulární úmrtnosti po změně stravy překvapí i sečtělé; osobně nevnímáno.",
+    "C": "Spojuje změnu stravy po 1989 s poklesem úmrtnosti — vysvětlený mechanismus."
+   }
+  },
+  {
+   "key": "CZ|1990|money|Měnová unie se Slovenskem skončila 8. února 1993; vznikla samostatná česká koruna a část starších federálních bankovek se v přechodném období označovala kolky.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Kolkování a nová měna se dotkly peněz všech, koruna trvá.",
+    "B": "Kolkované bankovky 1993 si pamětníci vybaví; přesné datum je detail.",
+    "C": "Kolkování bankovek je hmatatelný zážitek rozdělení měny."
+   }
+  },
+  {
+   "key": "CZ|1990|money|Po lednové liberalizaci cen vzrostly spotřebitelské ceny v roce 1991 o 56,6 procenta, nejvíce v celé polistopadové éře.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Skokové zdražení změnilo, co si domácnosti mohly koupit.",
+    "B": "Cenový šok 1991 pocítily všechny domácnosti; přesných 56,6 % zná zájemce.",
+    "C": "Inflace 56,6 % vysvětluje šok liberalizace cen, který pocítila každá domácnost."
+   }
+  },
+  {
+   "key": "CZ|1990|money|V kupónové privatizaci si dospělí občané kupovali kupónovou knížku za 35 Kčs a známku za 1 000 Kčs; první vlny v roce 1992 se zúčastnilo 77 procent oprávněných.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "77 procent dospělých se aktivně zapojilo, majetkové důsledky dlouhodobé.",
+    "B": "Kupónovou knížku měla většina dospělých; ceny a účast 77 % detail pro zájemce.",
+    "C": "Kupónová privatizace s cenami a účastí vysvětluje masový transformační mechanismus."
+   }
+  },
+  {
+   "key": "CZ|2000|beautiful|Hokejisté vybojovali v květnu 2005 na mistrovství světa ve Vídni zlato, když ve finále porazili Kanadu 3:0.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Hokejové zlato bylo krátkou celonárodní radostí bez dopadu na rutinu.",
+    "B": "Zlato z Vídně 2005 si sportovní veřejnost pamatuje, výsledek dohledatelný a známý.",
+    "C": "Hokejové zlato je dílčí sdílená radost bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|2000|beautiful|Létání zlevnilo: nízkonákladové aerolinky SkyEurope létaly od února 2002, od dubna 2006 měly základnu v Praze a na palubě nabízely i točené pivo.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Nízkonákladové létání otevřelo cesty menšině, ale nastartovalo trvalejší změnu cestování.",
+    "B": "SkyEurope si vybaví část cestujících; točené pivo na palubě překvapí.",
+    "C": "Zlevnění létání nese nově dostupné cestování, proměnu možností lidí."
+   }
+  },
+  {
+   "key": "CZ|2000|beautiful|Od roku 2003 se k Vánocům každoročně vracela televizní reklama Kofoly s holčičkou a „zlatým“ prasátkem, která si získala diváky svým humorem.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Populární vánoční reklama; kulturní vzpomínka, nikoli změna všedního dne.",
+    "B": "Vánoční prasátko Kofoly je sdílená vzpomínka většiny, všeobecně známé.",
+    "C": "Vánoční reklama je milý sdílený rituál, dílčí zajímavost."
+   }
+  },
+  {
+   "key": "CZ|2000|bizarre|Finále první řady soutěže Česko hledá SuperStar sledovalo v červnu 2004 rekordních 3,34 milionu diváků a o vítězce se rozhodovalo hlasy posílanými esemeskami.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "SuperStar sledovala třetina země, změnila večery a esemeskování; dosah kulturní, ne trvalý.",
+    "B": "První SuperStar byla masová sdílená událost; přesná sledovanost je méně známá.",
+    "C": "SuperStar s rekordní sledovaností nese masovou sdílenou zábavu éry."
+   }
+  },
+  {
+   "key": "CZ|2000|bizarre|Na podzim 2005 běžely v televizi současně dvě konkurenční reality show, Big Brother na Nově a VyVolení na Primě; jejich souboj se přelil i na internetové portály Seznam a Centrum.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Souboj reality show byl masovou televizní epizodou jedné sezóny.",
+    "B": "Souboj VyVolených a Big Brothera si generace pamatuje; přesah na portály detail.",
+    "C": "Souboj reality show ukazuje proměnu televizní kultury a její přesah na internet."
+   }
+  },
+  {
+   "key": "CZ|2000|bizarre|Připojování k internetu doprovázel charakteristický zvuk vytáčejícího modemu; data po telefonní lince tekla rychlostí nejvýše 56 kilobitů za sekundu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Zvuk modemu byl každodenní zkušeností připojených domácností, tehdy ještě menšiny.",
+    "B": "Zvuk vytáčeného modemu je téměř univerzální zkušenost, obecně známý fakt.",
+    "C": "Zvuk modemu je hmatatelná sdílená zkušenost připojování, kus příběhu doby."
+   }
+  },
+  {
+   "key": "CZ|2000|clothes|K výbavě patřily plastové skřipce do vlasů, džínové minisukně, cargo kalhoty s kapsami a lesklé materiály jako satén a třpytivá síťovina.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Dobové módní doplňky mladých; každodenně viditelné, význam jen v rámci dekády.",
+    "B": "Skřipce, minisukně a cargo kalhoty tvoří sdílený obraz dekády; nic překvapivého.",
+    "C": "Výčet módních doplňků, dobový kolorit bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|2000|clothes|Mnoho mladých žen nosilo bokovky — kalhoty začínající nízko na bocích — často doplněné krátkým topem a bundičkou, aby zůstal vidět pupík.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Celostátní móda mladých žen; viditelná změna oblékání, trvala jednotky let.",
+    "B": "Bokovky s viditelným pupíkem jsou emblematická móda dekády; obecně známé.",
+    "C": "Bokovky jsou dobový módní kolorit, dílčí zajímavost."
+   }
+  },
+  {
+   "key": "CZ|2000|clothes|Teplákové soupravy se nosily nejen na sport, ale běžně i do města; vzorem byly zahraniční celebrity, které tepláky kombinovaly s luxusními kabelkami.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Rozšířený módní trend části populace, dobově příznačný, ale pomíjivý.",
+    "B": "Tepláky do města pamatuje značná část mladé generace; módní obecnost.",
+    "C": "Tepláky do města jsou dílčí módní zajímavost napodobující globální trend."
+   }
+  },
+  {
+   "key": "CZ|2000|dailyLife|Ještě v roce 2005 se 63 procent domácností s internetem připojovalo vytáčeným připojením po telefonní lince a platilo za čas strávený online.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Vytáčené připojení určovalo, jak a kdy byly domácnosti online; brzy překonáno.",
+    "B": "Vytáčené připojení a placení za čas pamatují tehdejší uživatelé; podíl 63 % v 2005 překvapí.",
+    "C": "Vytáčené připojení a placení za čas online nese každodenní zkušenost domácností."
+   }
+  },
+  {
+   "key": "CZ|2000|dailyLife|Rychlejší internet se šířil až ve druhé polovině dekády: počet domácností s přípojkou ADSL vzrostl ze 40 tisíc v roce 2005 na 400 tisíc v polovině roku 2008.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Nástup rychlého internetu změnil domácí rutinu statisíců a předznamenal trvalou změnu.",
+    "B": "Nástup ADSL zažili uživatelé druhé půle dekády; konkrétní růst čísel překvapí.",
+    "C": "Růst ADSL je dílčí statistika navazující na předchozí, méně samostatného příběhu."
+   }
+  },
+  {
+   "key": "CZ|2000|dailyLife|Ve městech vyrůstala obchodní centra; velký boom jejich výstavby probíhal v letech 2001 až 2002 a zejména v předkrizových letech 2005 až 2008.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Obchodní centra trvale změnila nakupování i podobu měst.",
+    "B": "Boom obchodních center viděl každý obyvatel měst; obecně známý jev.",
+    "C": "Boom obchodních center nese viditelnou proměnu měst a trávení času."
+   }
+  },
+  {
+   "key": "CZ|2000|food|Hlavním místem nákupu potravin se zhruba od roku 2000 stávaly hypermarkety; supermarkety měly svůj nejvyšší, asi třicetiprocentní podíl na výdajích právě v roce 2000.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Přesun nákupů do hypermarketů změnil běžné nakupování většiny domácností natrvalo.",
+    "B": "Nástup hypermarketů si mnozí pamatují, přesný podíl supermarketů zná málokdo.",
+    "C": "Přesun nákupů do hypermarketů vysvětluje proměnu každodenní rutiny."
+   }
+  },
+  {
+   "key": "CZ|2000|food|Ke konci dekády rostl zájem o biopotraviny: v roce 2007 za ně zákazníci utratili přibližně 1,3 miliardy korun a řetězce zaváděly vlastní bio řady, byť ceny byly zhruba dvojnásobné oproti běžným potravinám.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Biopotraviny kupovala menšina; trend ale pokračoval i v dalších letech.",
+    "B": "Bio vlnu si vybaví část lidí, konkrétní útrata 1,3 miliardy překvapí.",
+    "C": "Zájem o biopotraviny je dílčí spotřební trend bez širšího vysvětlení."
+   }
+  },
+  {
+   "key": "CZ|2000|food|Kofola se vrátila mezi běžné nápoje: v roce 2001 přišla reklamní kampaň se sloganem „Když ji miluješ, není co řešit“ a v roce 2002 koupila rodina Samarasových ochrannou známku i původní recepturu za 215 milionů korun.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Návrat Kofoly ovlivnil nápojové zvyklosti a reklamní kulturu dekády.",
+    "B": "Slogan Kofoly zná většina generace; detail prodeje receptury je méně známý.",
+    "C": "Návrat Kofoly se sloganem nese kus dobové sdílené kultury; transakční detail navíc."
+   }
+  },
+  {
+   "key": "CZ|2000|government|V srpnu 2002 zasáhla zemi ničivá povodeň: škody dosáhly 73,3 miliardy korun, evakuováno bylo 225 tisíc lidí a voda zaplavila pražský Karlín i část metra.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Evakuace 225 tisíc lidí, obnova zaplavených čtvrtí trvala roky.",
+    "B": "Povodně 2002 jsou celonárodní sdílený zážitek; přesné škody a evakuace detail.",
+    "C": "Povodně 2002 s rozsahem evakuací nesou sdílenou zkušenost statisíců."
+   }
+  },
+  {
+   "key": "CZ|2000|government|V únoru 2003 zvolil parlament ve třetím kole volby druhým prezidentem České republiky Václava Klause; ve funkci vystřídal Václava Havla.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Celostátní politická událost; volba prezidenta běžný den nezměnila, ale rámovala dekádu.",
+    "B": "Volbu Klause 2003 registrovala značná část; třetí kolo je detail pro zájemce.",
+    "C": "Volba prezidenta parlamentem je dílčí politický fakt bez vysvětleného dopadu."
+   }
+  },
+  {
+   "key": "CZ|2000|government|Česko vstoupilo 1. května 2004 do Evropské unie; v referendu v červnu 2003 vstup podpořilo 77,3 procenta hlasujících při účasti 55,2 procenta.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Vstup do EU trvale změnil cestování, práci i zboží.",
+    "B": "Vstup do EU 2004 zažila celá generace; výsledky referenda vcelku známé.",
+    "C": "Vstup do EU s čísly referenda ukotvuje zásadní směřování země."
+   }
+  },
+  {
+   "key": "CZ|2000|illnesses|Od 1. ledna 2008 se ve zdravotnictví platily regulační poplatky — 30 korun za vyšetření u lékaře a 90 korun na pohotovosti; třicetikorunové poplatky byly od roku 2015 zrušeny.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Poplatky u lékaře se dotkly téměř všech domácností, platily zhruba sedm let.",
+    "B": "Třicetikorunové poplatky u lékaře pocítila většina; veřejně dobře známé.",
+    "C": "Regulační poplatky se dotkly každé návštěvy lékaře, kus příběhu doby."
+   }
+  },
+  {
+   "key": "CZ|2000|illnesses|Střední délka života se dál prodlužovala; rostoucí trend trval od konce 80. let a zlepšení v prvním desetiletí 21. století bylo výraznější než v tom následujícím.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 1,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Dlouhodobý demografický trend; v běžném dni nepostřehnutelný, ale trvale významný.",
+    "B": "Prodlužování života není prožitá vzpomínka; srovnání dekád zná poučený zájemce.",
+    "C": "Obecný trend prodlužování života bez konkrétního mechanismu či zážitku."
+   }
+  },
+  {
+   "key": "CZ|2000|illnesses|V květnu 2009 se v Česku objevil první případ pandemické chřipky A(H1N1); nakazilo se 2 477 osob a očkovat se nechalo méně než jedno procento lidí.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Celostátní epidemie s omezeným počtem nakažených; spíš mediální sezónní epizoda.",
+    "B": "Prasečí chřipku 2009 většina prožila jen okrajově; nízká proočkovanost překvapí.",
+    "C": "Prasečí chřipka s čísly je dílčí epizoda s malým skutečným dopadem."
+   }
+  },
+  {
+   "key": "CZ|2000|money|Na konci dekády dopadla na zemi světová hospodářská krize; v roce 2009 česká ekonomika propadla o 4,5 procenta.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Krize 2009 zasáhla práci a příjmy většiny; důsledky formovaly další roky.",
+    "B": "Krizi 2009 pocítila většina, propad HDP je obecně známý.",
+    "C": "Propad ekonomiky 2009 rámuje krizovou zkušenost konce dekády."
+   }
+  },
+  {
+   "key": "CZ|2000|money|Od roku 2005 zažívalo Česko hypoteční boom: úroky se držely pod 4,5 procenta a rekordním rokem byl 2007; po americké hypoteční krizi přišlo zpřísnění podmínek a prudký pokles.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Hypoteční boom rozhodl o bydlení mnoha rodin s dopady na desítky let.",
+    "B": "Hypoteční boom zažila část domácností; konkrétní průběh běžného čtenáře překvapí.",
+    "C": "Hypoteční boom a jeho konec vysvětlují dostupnost bydlení a dopad krize."
+   }
+  },
+  {
+   "key": "CZ|2000|money|Průměrná hrubá mzda činila v roce 2000 celkem 13 219 korun; nejrychleji rostla hned v letech 2001 a 2002, o 8,8 a 8 procent ročně.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Výše a růst mezd rámovaly rozpočty domácností v dané dekádě.",
+    "B": "Tehdejší výši mzdy si lidé rámcově vybaví, přesná čísla růstu překvapí.",
+    "C": "Mzdová čísla jsou kotva kupní síly, ale bez příběhu."
+   }
+  },
+  {
+   "key": "CZ|2010|beautiful|Festival Colours of Ostrava se od roku 2012 konal v areálu národní kulturní památky Dolní Vítkovice a bývalé železárny tak každé léto ožívaly hudbou.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Ostravský festival oživoval Vítkovice; každodenní dopad mimo léto malý.",
+    "B": "Colours v Dolních Vítkovicích zná festivalová a ostravská veřejnost, běžně známé.",
+    "C": "Colours v Dolních Vítkovicích nese proměnu průmyslového dědictví v kulturu."
+   }
+  },
+  {
+   "key": "CZ|2010|beautiful|Od roku 2013 se ve městech objevovala růžová sdílená kola Rekola, která si lidé odemykali přes mobilní aplikaci.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Sdílená kola užívala městská menšina; viditelný, ale úzký jev.",
+    "B": "Růžová Rekola si vybaví obyvatelé větších měst; počátek 2013 detail.",
+    "C": "Sdílená kola jsou dílčí městská novinka bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|2010|beautiful|Pražská náplavka na Rašínově nábřeží ožila; každou sobotu se na ní konaly farmářské trhy a u Vltavy probíhala řada kulturních akcí.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Pražská náplavka změnila víkendy obyvatel města; lokálně silné, celostátně okrajové.",
+    "B": "Náplavku zná hlavně pražská část kohorty, jev veřejně známý.",
+    "C": "Oživlá náplavka je pražská lokální zajímavost, pro celostátní kohortu dílčí."
+   }
+  },
+  {
+   "key": "CZ|2010|bizarre|Na jaře 2017 zaplavily obchody fidget spinnery — roztáčené hračky do ruky, kterých se v Česku do začátku srpna prodalo přes milion.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 0,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Fidget spinnery byly sezónní hračková móda zapomenutá do roka.",
+    "B": "Fidget spinnery si rodiče i děti pamatují; milion prodaných kusů překvapí.",
+    "C": "Fidget spinnery jsou krátkodobá móda, dílčí zajímavost s číslem."
+   }
+  },
+  {
+   "key": "CZ|2010|bizarre|Rozmohlo se focení selfie; slovo, které Oxfordské slovníky vyhlásily slovem roku 2013, se ujalo i v češtině.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Selfie se stalo trvalou součástí každodenního chování s telefonem.",
+    "B": "Selfie se ujalo plošně; volba slova roku 2013 je běžně citovaná.",
+    "C": "Selfie je globální jazykově-kulturní drobnost, dílčí zajímavost."
+   }
+  },
+  {
+   "key": "CZ|2010|bizarre|V červenci 2016 se dala v Česku oficiálně stáhnout hra Pokémon Go a hráči s telefony v ruce obcházeli pokéstopy v ulicích i parcích.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Pokémon Go byla masová, ale krátká letní vlna v ulicích.",
+    "B": "Pokémon Go léto 2016 zažila velká část mladší generace, obecně známé.",
+    "C": "Pokémon Go je dílčí sdílená letní epizoda bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|2010|clothes|K městskému stylu první poloviny dekády patřily flanelové košile a brýle s výraznými obrubami, spojované se subkulturou hipsterů.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Hipsterský styl se týkal městské subkultury, nikoli většiny.",
+    "B": "Hipsterský styl si vybaví hlavně městská část generace, běžně známý.",
+    "C": "Hipsterský styl je dílčí subkulturní kolorit bez širší souvislosti."
+   }
+  },
+  {
+   "key": "CZ|2010|clothes|V polovině dekády se prosadil styl athleisure: legíny, tenisky a sportovní oblečení se běžně nosily i mimo cvičení.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Athleisure změnil oblékání části populace; trend v rámci let.",
+    "B": "Athleisure zažila značná část městské generace, jev obecně popisovaný.",
+    "C": "Athleisure je dílčí módní trend bez české specifičnosti."
+   }
+  },
+  {
+   "key": "CZ|2010|clothes|Velkou část dekády vládly úzké skinny džíny, které nosily ženy i muži; ke konci desetiletí je začaly střídat rovné a zkrácené střihy.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Skinny džíny nosila velká část populace většinu dekády.",
+    "B": "Skinny džíny nosila velká část generace, módní posun je běžně známý.",
+    "C": "Skinny džíny jsou globální módní kolorit, dílčí zajímavost."
+   }
+  },
+  {
+   "key": "CZ|2010|dailyLife|Internet v mobilu se z výjimky stal běžnou věcí: zatímco v roce 2010 se z telefonu připojovala 4 procenta osob starších šestnácti let, v roce 2019 už téměř dvě třetiny.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Mobilní internet trvale změnil každodenní chování většiny populace.",
+    "B": "Nástup mobilního internetu prožila většina; strmost růstu ze 4 % překvapí.",
+    "C": "Skok od 4 % ke dvěma třetinám vysvětluje proměnu každodennosti mobilem."
+   }
+  },
+  {
+   "key": "CZ|2010|dailyLife|Nakupování v e-shopech zevšednělo; v roce 2019 nakoupilo přes internet 59 procent osob a internetové bankovnictví používaly téměř dvě třetiny dospělých.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "E-shopy a internetbanking trvale změnily nakupování a placení většiny dospělých.",
+    "B": "E-shopy a internetbanking zevšedněly pro většinu; konkrétní podíly méně známé.",
+    "C": "E-shopy a internetbanking dokládají proměnu běžných rutin."
+   }
+  },
+  {
+   "key": "CZ|2010|dailyLife|V roce 2019 používalo internet 81 procent obyvatel starších šestnácti let a podíl připojených seniorů nad 65 let se za dekádu ztrojnásobil na 39 procent.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Plošné rozšíření internetu včetně seniorů trvale proměnilo každodennost.",
+    "B": "Rozšíření internetu je prožité, ztrojnásobení podílu seniorů překvapí.",
+    "C": "Statistika připojení včetně seniorů nese digitalizaci společnosti."
+   }
+  },
+  {
+   "key": "CZ|2010|food|Na podzim 2009 se v pražských Klánovicích konaly první obnovené farmářské trhy a nákup přímo od pěstitelů se během dekády rozšířil po Praze i dalších českých městech.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Farmářské trhy změnily nákupy menšiny městských domácností, trend přetrval.",
+    "B": "Farmářské trhy zná hlavně městská generace; klánovický počátek překvapí.",
+    "C": "Návrat farmářských trhů nese proměnu vztahu k jídlu a veřejnému prostoru."
+   }
+  },
+  {
+   "key": "CZ|2010|food|Rozmach zažily minipivovary: zatímco v roce 2013 jich v Česku působilo 192, v roce 2019 už 480.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Minipivovary proměnily nabídku piva; každodenně se týkaly menšiny.",
+    "B": "Boom minipivovarů část lidí zažila; zdvojnásobení počtu na 480 překvapí.",
+    "C": "Růst minipivovarů je dílčí spotřební trend, zajímavost s čísly."
+   }
+  },
+  {
+   "key": "CZ|2010|food|V roce 2017 se veřejně řešila dvojí kvalita potravin; test ministerstva zemědělství porovnal 21 dvojic stejných výrobků z Česka a Německa a zcela shodných bylo jen sedm.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Dvojí kvalita byla široce diskutované spotřebitelské téma bez velké změny rutiny.",
+    "B": "Debatu o dvojí kvalitě si mnozí pamatují; výsledek testu zná zájemce.",
+    "C": "Dvojí kvalita potravin nese dobově silné téma vnímání druhořadosti."
+   }
+  },
+  {
+   "key": "CZ|2010|government|Od 1. prosince 2016 musely restaurace a ubytovací zařízení evidovat tržby elektronicky a na účtenkách přibyl fiskální kód odesílaný Finanční správě.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "EET změnila rutinu restaurací i podobu účtenek; režim trval jednotky let.",
+    "B": "EET zasáhla podnikatele i zákazníky, jde o všeobecně známé opatření.",
+    "C": "EET se hmatatelně promítlo do každé účtenky a debat o podnikání."
+   }
+  },
+  {
+   "key": "CZ|2010|government|V lednu 2013 volili občané poprvé prezidenta přímo; ve druhém kole zvítězil Miloš Zeman nad Karlem Schwarzenbergem.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "První přímá volba zapojila miliony voličů a trvale změnila volbu hlavy státu.",
+    "B": "První přímá volba prezidenta je celonárodní prožitá událost, školně známá.",
+    "C": "První přímá volba prezidenta je změna mechanismu, jíž se občané sami účastnili."
+   }
+  },
+  {
+   "key": "CZ|2010|government|V červnu 2013 padla vláda Petra Nečase poté, co policie provedla noční razii na Úřadu vlády; premiér podal demisi 17. června.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Pád vlády byl velkou politickou událostí bez přímé změny všedního dne.",
+    "B": "Pád Nečasovy vlády po razii si většina pamatuje, mediálně notoricky známý.",
+    "C": "Pád vlády po razii je dílčí politická epizoda bez vysvětleného dopadu na život."
+   }
+  },
+  {
+   "key": "CZ|2010|illnesses|Třicetikorunové regulační poplatky u lékaře a v lékárně, zavedené v roce 2008, byly k 1. lednu 2015 zrušeny; zůstal jen devadesátikorunový poplatek za pohotovost.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Zrušení poplatků se dotklo každé návštěvy lékaře; správní změna s dosahem let.",
+    "B": "Poplatky u lékaře platil skoro každý; přesné datum zrušení zná méně lidí.",
+    "C": "Zrušení poplatků je dílčí administrativní změna s malým příběhem."
+   }
+  },
+  {
+   "key": "CZ|2010|illnesses|V roce 2019 se do země vrátily spalničky; jen od začátku roku do 17. března hygienici nahlásili 298 onemocnění.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 1,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Návrat spalniček zasáhl stovky případů; hlavně mediální a odborné téma.",
+    "B": "Návrat spalniček zaznamenala menšina, konkrétní čísla běžného čtenáře překvapí.",
+    "C": "Návrat spalniček nese téma poklesu proočkovanosti, byť mechanismus jen naznačen."
+   }
+  },
+  {
+   "key": "CZ|2010|illnesses|V září 2012 propukla metanolová aféra; otravy pančovaným alkoholem si vyžádaly desítky životů a vláda 14. září dočasně zakázala prodej lihovin s obsahem alkoholu nad 20 procent.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Metanolová aféra a prohibice lihovin změnily nákupy a obavy většiny domácností.",
+    "B": "Metanolová aféra a prohibice zasáhly celou zemi, událost všeobecně známá.",
+    "C": "Metanolová aféra se zákazem prodeje zasáhla každodennost celé země; mechanismus popsán."
+   }
+  },
+  {
+   "key": "CZ|2010|money|Ceny bytů po roce 2015 rychle rostly — do roku 2019 se zvedly zhruba o polovinu — a dostupnost vlastního bydlení se zhoršovala.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Zdražení bytů zhoršilo dostupnost bydlení s dopady přesahujícími dekádu.",
+    "B": "Zdražování bytů pocítila většina generace, jev veřejně velmi známý.",
+    "C": "Růst cen bytů vysvětluje zhoršující se dostupnost bydlení, klíčovou zkušenost dekády."
+   }
+  },
+  {
+   "key": "CZ|2010|money|Mzdy koncem dekády znatelně rostly; průměrná hrubá měsíční mzda dosáhla v roce 2019 částky 34 125 korun, meziročně o 7,1 procenta více.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Rychlý růst mezd zvedal rozpočty domácností v závěru dekády.",
+    "B": "Růst mezd lidé pocítili, konkrétní částku zná spíše zájemce o ekonomiku.",
+    "C": "Mzdová statistika je kotva bez příběhu."
+   }
+  },
+  {
+   "key": "CZ|2010|money|Česká národní banka od 7. listopadu 2013 intervencemi oslabovala korunu a kurz držela nad hranicí 27 korun za euro až do 6. dubna 2017.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Intervence zdražily dovoz a zahraniční nákupy po několik let.",
+    "B": "Oslabení koruny pocítili hlavně cestující a spořící; detaily zná poučený zájemce.",
+    "C": "Intervence ČNB je technické opatření; dopad na běžný život nevysvětlen."
+   }
+  },
+  {
+   "key": "CZ|2020|beautiful|Jaro 2020 přineslo vlnu solidarity: dobrovolníci šili a rozdávali roušky a tým dobrovolníků COVID19CZ vyvinul nouzový plicní ventilátor CoroVent.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Šití roušek zapojilo mnoho domácností, šlo však o krátkou vlnu jara 2020.",
+    "B": "Vlnu solidarity a šití roušek si většina pamatuje; CoroVent zná méně lidí.",
+    "C": "Šití roušek a CoroVent vysvětlují vlnu občanské svépomoci."
+   }
+  },
+  {
+   "key": "CZ|2020|beautiful|V covidovém roce 2020 jezdilo mnoho Čechů na dovolenou po vlastní zemi; ve třetím čtvrtletí vzrostl počet přenocování domácích hostů meziročně o 18 %.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Dovolené doma změnily prázdninové plány části rodin v jedné sezóně.",
+    "B": "Dovolenou v Česku 2020 zažilo mnoho rodin; konkrétní růst přenocování detail.",
+    "C": "Dovolené doma ukazují, jak uzavřené hranice změnily léto."
+   }
+  },
+  {
+   "key": "CZ|2020|beautiful|Znovu ožilo chataření a chalupaření: poptávka po rekreačních objektech stoupla během pandemie zhruba o 30 % a volné chaty se prodávaly během dnů až týdnů.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Boom chat se týkal menšiny kupujících, ceny rekreačních objektů ovlivnil na roky.",
+    "B": "Návrat chalupaření zaznamenala část generace; růst poptávky o 30 % překvapí.",
+    "C": "Boom chataření spojuje pandemii s českou tradicí druhého bydlení."
+   }
+  },
+  {
+   "key": "CZ|2020|bizarre|Když na jaře 2020 došla dezinfekce, dostaly firmy, školy i lihovary mimořádné povolení míchat podle receptury WHO směs Anti-COVID; výrobci jí distribuovali přes čtyři miliony litrů.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Nouzová dezinfekce Anti-COVID byla plošná, ale krátkodobá epizoda jara 2020.",
+    "B": "Anti-COVID si část lidí pamatuje; čtyři miliony litrů a receptura WHO překvapí.",
+    "C": "Anti-COVID ukazuje improvizaci státu i firem v krizi."
+   }
+  },
+  {
+   "key": "CZ|2020|bizarre|Koncem února 2020 propukla nákupní horečka: z regálů mizely těstoviny, rýže, konzervy i mouka a internetové obchody s potravinami omezovaly počet kusů na jednu objednávku.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 0,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Nákupní horečka změnila regály a limity objednávek jen na dny až týdny.",
+    "B": "Vykoupené regály z února 2020 si většina pamatuje, jev obecně známý.",
+    "C": "Nákupní horečka zachycuje kolektivní nejistotu začátku pandemie."
+   }
+  },
+  {
+   "key": "CZ|2020|bizarre|Spotřeba piva klesla v roce 2020 na 135 litrů na obyvatele, nejméně od 60. let 20. století; v restauracích se místo obvyklé třetiny vypila jen čtvrtina piva.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Pokles spotřeby piva odrážel zavřené hospody, dotkl se hlavně jejich hostů.",
+    "B": "Pokles spotřeby piva běžný člověk nevnímal; minimum od 60. let překvapí.",
+    "C": "Pokles piva vypovídá o zavřených hospodách a změně zvyků."
+   }
+  },
+  {
+   "key": "CZ|2020|clothes|Kvůli zdražování i ohledu na životní prostředí rostla obliba oblečení z druhé ruky; v průzkumu z doby drahoty uvádělo nákupy v second handech 42 % dotázaných a rozšířily se výměnné akce zvané swapy.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Second handy a swapy změnily nákupní zvyky výrazné skupiny během drahoty.",
+    "B": "Second handy a swapy zná část generace; podíl 42 % překvapí.",
+    "C": "Second handy a swapy ukazují reakci na drahotu i změnu hodnot."
+   }
+  },
+  {
+   "key": "CZ|2020|clothes|Od 19. března 2020 nesměli lidé vycházet bez zakrytých úst a nosu; látkové roušky se v mnoha domácnostech šily doma a návody na jejich ušití se sdílely na sociálních sítích.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Povinné roušky změnily vycházení i domácí šití u většiny domácností.",
+    "B": "Domácí šití roušek je sdílená zkušenost naprosté většiny, obecně známé.",
+    "C": "Povinné roušky a domácí šití vysvětlují sdílenou improvizaci pandemického jara."
+   }
+  },
+  {
+   "key": "CZ|2020|clothes|Od 25. února 2021 musely osoby starší 15 let nosit v obchodech a veřejné dopravě respirátor FFP2, případně dvě zdravotnické roušky přeložené přes sebe.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 1,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní povinnost respirátorů změnila každodenní vybavení většiny, ale jen na měsíce.",
+    "B": "Povinné respirátory FFP2 nosil téměř každý; detail dvou roušek méně známý.",
+    "C": "Konkrétní povinnost respirátorů zachycuje každodenní realitu pandemických pravidel."
+   }
+  },
+  {
+   "key": "CZ|2020|dailyLife|Nakupování se přesunulo na internet: tržby e-shopů dosáhly v roce 2020 zhruba 196 miliard korun a před Vánoci si zákazníci až ve 45 % případů vyzvedávali zboží ve výdejnách a boxech.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Přesun nákupů na internet a do výdejen změnil zvyky výrazné skupiny trvaleji.",
+    "B": "Boom e-shopů a výdejen prožila většina; konkrétní tržby a podíly překvapí.",
+    "C": "Přesun nákupů online a výdejny popisují proměnu každodennosti."
+   }
+  },
+  {
+   "key": "CZ|2020|dailyLife|Práce z domova se z výjimky stala běžnou praxí; v roce 2021 ji umožňovalo 60 % podniků a mezi firmami v IT službách téměř všechny.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Práce z domova změnila pracovní den velké části zaměstnanců a zůstala i po pandemii.",
+    "B": "Home office se stal masovou zkušeností; podíl 60 % podniků méně známý.",
+    "C": "Home office jako trvalá změna pracovního života, s čísly."
+   }
+  },
+  {
+   "key": "CZ|2020|dailyLife|Školy se 11. března 2020 zavřely a výuka se přesunula k počítačům; Česká televize pro děti vysílala pořad UčíTelka.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Zavřené školy převrátily rutinu rodin s dětmi na měsíce, dopady ve vzdělávání trvaly léta.",
+    "B": "Zavřené školy a UčíTelku zažily rodiny s dětmi plošně, obecně známé.",
+    "C": "Zavřené školy a UčíTelka vysvětlují, jak fungoval život dětí."
+   }
+  },
+  {
+   "key": "CZ|2020|food|Online supermarket Rohlik.cz, který vozil nákupy až ke dveřím, se v červenci 2021 stal prvním českým startupem s hodnotou přes miliardu dolarů.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Miliardové ocenění startupu samo o sobě den běžných lidí nezměnilo.",
+    "B": "Rohlík zná hlavně městská klientela; status prvního unicornu překvapí.",
+    "C": "Milník startupu; místní dopad na běžný život jen naznačen."
+   }
+  },
+  {
+   "key": "CZ|2020|food|V roce 2022 potraviny prudce zdražily: mouka stála meziročně o 61 % více, máslo zhruba o polovinu a cukr o třetinu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Prudké zdražení základních potravin změnilo, co si domácnosti kupovaly a vařily.",
+    "B": "Zdražení potravin 2022 pocítil každý; přesná procenta u mouky méně známá.",
+    "C": "Konkrétní zdražení základních potravin vysvětluje pocit drahoty domácností."
+   }
+  },
+  {
+   "key": "CZ|2020|food|Zavřené restaurace prodávaly jídlo výdejním okénkem a rozvoz rostl; služba Dáme jídlo hlásila na jaře 2020 meziroční nárůst objednávek o více než 60 %.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Okénka a rozvoz změnily stravovací rutinu mnoha domácností po dobu uzavírek.",
+    "B": "Výdejní okénka si pamatuje většina; přesný růst rozvozu detail.",
+    "C": "Výdejní okénka a rozvoz ilustrují adaptaci gastronomie na lockdowny."
+   }
+  },
+  {
+   "key": "CZ|2020|government|Dne 12. března 2020 vyhlásila vláda kvůli šíření covidu-19 nouzový stav; postupně se zavřely školy, restaurace i hranice a veřejný život se na týdny zastavil.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Nouzový stav zavřel školy i obchody a změnil život prakticky všech.",
+    "B": "Vyhlášení nouzového stavu 2020 je univerzální prožitá zkušenost, všeobecně známé.",
+    "C": "Nouzový stav a uzavření země vysvětlují zlom, který zastavil každodenní život všech."
+   }
+  },
+  {
+   "key": "CZ|2020|government|V lednu 2023 byl prezidentem zvolen Petr Pavel, který ve druhém kole získal 58,32 % hlasů; volební účast přes 70 % byla nejvyšší v celostátních volbách od roku 1998.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Prezidentská volba s rekordní účastí; symbolická událost bez změny rutiny.",
+    "B": "Zvolení Pavla je čerstvá sdílená událost; rekordní účast od 1998 překvapí.",
+    "C": "Zvolení prezidenta s rekordní účastí je milník, ale bez příběhu dopadu."
+   }
+  },
+  {
+   "key": "CZ|2020|government|Ve sněmovních volbách v říjnu 2021 zvítězila koalice SPOLU se ziskem 27,79 % hlasů a premiérem se stal Petr Fiala; k urnám přišlo 65,43 % voličů.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Sněmovní volby vyměnily vládu; běžný den bezprostředně nezměnily.",
+    "B": "Volby 2021 a Fialovu vládu zná většina; přesná procenta detail.",
+    "C": "Volební výsledek s čísly, dílčí politický fakt bez vysvětleného dopadu."
+   }
+  },
+  {
+   "key": "CZ|2020|illnesses|Na jaře 2024 se černý kašel šířil nejvíce za posledních šedesát let; hygienici evidovali přes tři tisíce případů a zhruba třetinu nemocných tvořili dospívající mezi 15 a 19 lety.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 1,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Tři tisíce případů černého kašle zasáhly úzkou část populace, epizoda jedné sezóny.",
+    "B": "Epidemii černého kašle zaznamenala menšina; rekord za šedesát let překvapí i sečtělé.",
+    "C": "Zajímavý návrat černého kašle, ale bez širší souvislosti doby."
+   }
+  },
+  {
+   "key": "CZ|2020|illnesses|Očkování proti covidu-19 začalo 27. prosince 2020, den po dovozu prvních dávek vakcíny do země.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Očkování se během měsíců týkalo většiny dospělých a podmiňovalo běžné činnosti.",
+    "B": "Start očkování většina sledovala; přesné datum 27. prosince detail.",
+    "C": "Datum startu očkování, dílčí milník bez širšího mechanismu."
+   }
+  },
+  {
+   "key": "CZ|2020|illnesses|Pandemie covidu-19 zasáhla zemi v několika vlnách; do prosince 2023 v Česku s nemocí zemřelo přes 43 tisíc lidí.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Pandemie ve vlnách změnila chování, obavy i pravidla celé země na roky.",
+    "B": "Pandemii prožili všichni; přesný počet 43 tisíc zemřelých zná méně lidí.",
+    "C": "Souhrn dopadu pandemie s počtem obětí rámuje celou dekádu."
+   }
+  },
+  {
+   "key": "CZ|2020|money|Hotovost ustupovala: v roce 2021 probíhalo 87 % plateb kartou bezkontaktně a zhruba desetina populace platila chytrými hodinkami.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Bezkontaktní placení změnilo drobnou každodenní rutinu a trend trvá.",
+    "B": "Bezkontaktní placení zevšednělo pro většinu; podíl 87 % méně známý.",
+    "C": "Ústup hotovosti dokládá proměnu každodenního placení."
+   }
+  },
+  {
+   "key": "CZ|2020|money|Inflace vyvrcholila v září 2022 na 18 %, nejvýše od roku 1993; zemní plyn tehdy meziročně zdražil o 85,9 % a elektřina o 37,8 %.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Rekordní inflace a ceny energií zasáhly rozpočty prakticky všech domácností.",
+    "B": "Inflaci a drahé energie zažili všichni; přesný vrchol 18 % detail.",
+    "C": "Vrchol inflace a energií vysvětluje ekonomický tlak na domácnosti."
+   }
+  },
+  {
+   "key": "CZ|2020|money|Na podzim 2022 vláda zastropovala ceny energií: domácnosti a menší odběratelé měli od ledna 2023 platit nejvýše 6 korun za kilowatthodinu elektřiny a 3 koruny za kilowatthodinu plynu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Zastropování cen určilo účty za energie většiny domácností na topné sezóny.",
+    "B": "Zastropování energií se týkalo většiny domácností; přesné stropy zná méně lidí.",
+    "C": "Zastropování cen ukazuje státní reakci na energetickou krizi."
+   }
+  },
+  {
    "key": "UA|1920|beautiful|Divadlo Berezil pod vedením Lese Kurbase znovuobjevilo ukrajinské drama.",
    "scores": {
     "livedProximity": 3,
@@ -4319,6 +6239,1926 @@
     "A": "Cena džínů ilustruje černý trh; přímo se dotkla menšiny kupujících.",
     "B": "Cenu Levi's znali hlavně mladí ve městech; džíny za měsíční plat překvapí.",
     "C": "Levi's za měsíční plat vysvětluje hodnotu západního zboží."
+   }
+  },
+  {
+   "key": "UA|1980|beautiful|2. května 1986 porazilo Dynamo Kyjev v Lyonu Atlético Madrid 3:0 a získalo Pohár vítězů pohárů; branky vstřelili Zavarov, Blochin a Jevtušenko.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Triumf Dynama byl krátkou celonárodní oslavou bez trvalé změny všedního dne.",
+    "B": "Triumf Dynama 1986 pamatuje většina fanoušků generace; sportovně poučenému známé, střelci detail.",
+    "C": "Triumf Dynama Kyjev byl sdíleným zážitkem hrdosti."
+   }
+  },
+  {
+   "key": "UA|1980|beautiful|Poukaz do pionýrského tábora Artek na krymském pobřeží Černého moře patřil k ceněným odměnám; táborem s vlastním stadionem i filmovým studiem prošlo ročně až 27 000 dětí.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Artek byl ceněnou, ale výběrovou odměnou pro malou část dětí ročníku.",
+    "B": "Artek jako vysněná odměna sdílená dětská zkušenost; kapacita a vybavení zná zájemce.",
+    "C": "Artek ukazuje systém odměn a dětských táborů režimu."
+   }
+  },
+  {
+   "key": "UA|1980|beautiful|Symbolem Kyjeva byl kaštan: list jírovce nesl městský znak zavedený v roce 1969 a od roku 1973 se strom počítal k oficiálním symbolům města.",
+   "scores": {
+    "livedProximity": 5,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Kaštan jako symbol Kyjeva neformoval rutinu, jako znak města ale přetrval.",
+    "B": "Kaštan jako symbol znají hlavně Kyjevané; data zavedení znaku překvapí běžného čtenáře.",
+    "C": "Kaštan jako symbol města je dílčí zajímavost."
+   }
+  },
+  {
+   "key": "UA|1980|bizarre|Od 9. října 1989 vysílala ústřední televize seance psychoterapeuta Anatolije Kašpirovského, který diváky u obrazovek na dálku „léčil“ a uváděl je do hromadného transu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 5,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Televizní seance byly masově sledovanou, ale krátkou kuriozitou konce dekády.",
+    "B": "Kašpirovského televizní seance masově sledované; mladšího nebo českého čtenáře fenomén překvapí.",
+    "C": "Kašpirovskij ilustruje zvláštní atmosféru konce perestrojky."
+   }
+  },
+  {
+   "key": "UA|1980|bizarre|V kapse se pro jistotu nosila složená síťová taška avoska; název vychází z ruského „avos'“, tedy „třeba se poštěstí“, kdyby se v obchodě zrovna něco objevilo.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Avoska v kapse byla každodenním návykem éry nedostatku pro mnoho lidí.",
+    "B": "Avoska v kapse téměř univerzální; etymologii „avos'“ zná spíš poučený čtenář.",
+    "C": "Avoska v kapse zhušťuje každodenní zkušenost nedostatku."
+   }
+  },
+  {
+   "key": "UA|1980|bizarre|V létě se na ulicích prodával kvas, mírně perlivý nápoj z kvašeného žitného chleba, čepovaný přímo z velkých pouličních nádob.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Pouliční kvas byl běžnou letní drobností, sezónní součást městského dne.",
+    "B": "Pouliční sudy s kvasem sdílená letní vzpomínka; reálie širší veřejnosti známá.",
+    "C": "Pouliční kvas je milý detail bez širší souvislosti."
+   }
+  },
+  {
+   "key": "UA|1980|clothes|V mnoha domácnostech se šilo podle papírových střihů; v roce 1987 začal v Sovětském svazu jako první západní časopis vycházet Burda Moden, známý právě střihovými přílohami.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Domácí šití podle střihů bylo běžné v mnoha domácnostech, Burda je usnadnila.",
+    "B": "Domácí šití podle střihů pamatuje většina domácností; prvenství Burdy Moden 1987 překvapí.",
+    "C": "Domácí šití a Burda ukazují svépomoc i pootevírání Západu."
+   }
+  },
+  {
+   "key": "UA|1980|clothes|Západní oblečení se do státních obchodů téměř nedostávalo, a tak se shánělo přes překupníky zvané farcovščiki; oděvy a módní doplňky tvořily většinu tohoto černého trhu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Černý trh s oblečením byl sovětskou realitou, jíž řada domácností řešila šatník.",
+    "B": "Shánění západního oblečení sdílená zkušenost; pojem farcovščiki a podíl oděvů překvapí běžného čtenáře.",
+    "C": "Farcovščiki vysvětlují mechanismus nedostatku a černého trhu s módou."
+   }
+  },
+  {
+   "key": "UA|1980|clothes|Školáci vstupovali mezi 9. a 14. rokem do pionýrské organizace a k jejímu stejnokroji patřil červený šátek uvazovaný ke školní uniformě.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Pionýrský šátek nosila denně téměř celá školní generace až do konce režimu.",
+    "B": "Pionýrský šátek prožila prakticky každá školní generace; obecně známá reálie.",
+    "C": "Pionýrský šátek přibližuje povinnou dětskou socializaci v režimu."
+   }
+  },
+  {
+   "key": "UA|1980|dailyLife|Kyjevské metro se v 80. letech rozrůstalo: v prosinci 1980 přibyly stanice na Obolonu a 31. prosince 1989 se otevřel první úsek třetí linky se stanicemi Zoloti vorota, Palac sportu a Klovska.",
+   "scores": {
+    "livedProximity": 5,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Nové stanice metra změnily dojíždění Kyjevanů a město trvale.",
+    "B": "Nové stanice metra pamatují Kyjevané, jen část země; přesná data překvapí běžného čtenáře.",
+    "C": "Rozvoj metra je konkrétní, ale spíše výčet stanic."
+   }
+  },
+  {
+   "key": "UA|1980|dailyLife|Nová sídliště se stavěla jako mikrorajony z prefabrikovaných panelových domů, kde podle norem neměly být jesle, škola ani obchody dále než 500 metrů od bydliště.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Mikrorajony určily, kde a jak velká část lidí bydlela; sídliště stojí dodnes.",
+    "B": "Život v mikrorajonu sdílená zkušenost; norma 500 metrů občanské vybavenosti překvapí.",
+    "C": "Mikrorajony s normou 500 metrů vysvětlují logiku sovětského bydlení."
+   }
+  },
+  {
+   "key": "UA|1980|dailyLife|Večer ve 21 hodin se v mnoha domácnostech zapínaly televizní noviny Vremja; v 80. letech byla televize hlavním zdrojem zpráv pro 86 % sovětských dospělých.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Večerní Vremja bylo denní rutinou a hlavním zdrojem zpráv většiny domácností.",
+    "B": "Večerní Vremja téměř univerzální rituál; údaj 86 % zná spíš poučený čtenář.",
+    "C": "Večerní Vremja zachycuje sdílený mediální rytmus domácností."
+   }
+  },
+  {
+   "key": "UA|1980|food|Během protialkoholní kampaně po roce 1985 rostla domácí výroba samohonu a cukr, potřebný ke kvašení, se z regálů obchodů rychle ztrácel.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Protialkoholní kampaň vyprázdnila regály s cukrem a změnila zvyky domácností na roky.",
+    "B": "Mizející cukr a samohon za protialkoholní kampaně široce pamatované; poučenému čtenáři známé.",
+    "C": "Samohon a mizející cukr ukazují, jak lidé obcházeli kampaň."
+   }
+  },
+  {
+   "key": "UA|1980|food|Vedle státních obchodů fungovaly kolchozní trhy, kde se přebytky ze záhumenků prodávaly za volné ceny; soukromé záhumenky dávaly místy až 30 % zemědělské produkce.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Kolchozní trhy a záhumenky byly běžným zdrojem potravin mnoha domácností.",
+    "B": "Kolchozní trhy běžná zkušenost; podíl záhumenků až 30 % produkce překvapí.",
+    "C": "Kolchozní trhy a záhumenky vysvětlují souběh plánu a soukromé produkce."
+   }
+  },
+  {
+   "key": "UA|1980|food|Základem jídelníčku zůstávaly boršč, vareniky podávané se zakysanou smetanou a chléb, k němuž se přikusovalo i solené salo.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Boršč, vareniky a salo tvořily každodenní jídelníček po celé období.",
+    "B": "Boršč, vareniky a salo univerzální jídelníček; obecně známé.",
+    "C": "Boršč, vareniky a salo popisují každodenní stravu."
+   }
+  },
+  {
+   "key": "UA|1980|government|Havárii černobylské elektrárny z 26. dubna 1986 úřady veřejně přiznaly až 28. dubna a prvomájový průvod v Kyjevě se navzdory spadu konal, pouze ve zkrácené podobě.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Zatajení Černobylu vystavilo obyvatele spadu; havárie trvale změnila zemi.",
+    "B": "Utajení Černobylu a prvomájový průvod jsou sdílená vzpomínka; detail zkráceného průvodu známý zájemcům.",
+    "C": "Zamlčení Černobylu a prvomájový průvod otevírají pochopení režimu."
+   }
+  },
+  {
+   "key": "UA|1980|government|Komunistickou stranu Ukrajiny vedl v letech 1972–1989 Volodymyr Ščerbyckyj, věrný Moskvě; stranická jednání se za něj vedla v ruštině a ukrajinské školství se dále rusifikovalo.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Ščerbyckého rusifikace určovala jazyk škol a úřadů po většinu dekády.",
+    "B": "Ščerbyckého éru a rusifikaci školství pamatuje většina generace; poučenému čtenáři známé.",
+    "C": "Ščerbyckyj a rusifikace vysvětlují mocenský a jazykový rámec doby."
+   }
+  },
+  {
+   "key": "UA|1980|government|V září 1989 se v Kyjevě ustavil Ruch (Národní hnutí Ukrajiny za přestavbu), první masové opoziční hnutí vedle komunistické strany, které později sehrálo roli při obnovení nezávislosti.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Ruch zprvu zasáhl úzký okruh aktivních, ale spoluutvářel cestu k nezávislosti.",
+    "B": "Vznik Ruchu zaznamenala značná část generace; historicky poučený čtenář ho zná.",
+    "C": "Vznik Ruchu vysvětluje, jak se rodila opozice a nezávislost."
+   }
+  },
+  {
+   "key": "UA|1980|illnesses|Odbory přidělovaly pracujícím poukazy zvané putěvky na pobyty v sanatoriích a lázních a jejich cenu zčásti nebo zcela hradily.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Putěvky do sanatorií patřily k běžným benefitům velké části pracujících.",
+    "B": "Putěvky do sanatorií zažila většina pracujících rodin; mladšího čtenáře systém překvapí.",
+    "C": "Putěvky ukazují, jak odbory organizovaly odpočinek pracujících."
+   }
+  },
+  {
+   "key": "UA|1980|illnesses|Po havárii v Černobylu přibývalo u dětí zasažených radioaktivním jódem onemocnění štítné žlázy; do roku 2005 bylo v postižených oblastech zaznamenáno na 6 000 případů dětské rakoviny štítné žlázy, z velké části připisovaných havárii.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Nemoci štítné žlázy zasáhly část dětí, zdravotní důsledky havárie trvají.",
+    "B": "Strach o děti po Černobylu široce prožitý; číselný rozsah zná spíše poučený zájemce.",
+    "C": "Zdravotní dopad Černobylu na děti, klíčový pro pochopení éry."
+   }
+  },
+  {
+   "key": "UA|1980|illnesses|Zdravotní péče byla bezplatná a dostupná ve státních poliklinikách, nemocnicím však v 80. letech chyběly léky, přístroje i diagnostika a řada budov potřebovala rekonstrukci.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Bezplatná, ale podvybavená péče určovala zkušenost pacientů po celou dekádu.",
+    "B": "Bezplatné, ale nedostatkové zdravotnictví pamatuje většina; obecně známý obraz doby.",
+    "C": "Bezplatná, ale podvybavená péče vysvětluje paradox sovětského zdravotnictví."
+   }
+  },
+  {
+   "key": "UA|1980|money|Běžný dělník si v polovině 80. let vydělal kolem 210 rublů měsíčně, zatímco pracovníci v kultuře brali zhruba 123 rublů a lodní dopravci až 287 rublů.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Popisná mzdová čísla rámují rozpočty domácností, sama rutinu neměnila.",
+    "B": "Mzdové poměry lidé prožívali; konkrétní srovnání profesí překvapí běžného čtenáře.",
+    "C": "Konkrétní mzdy dávají měřítko životní úrovně a rozdílů."
+   }
+  },
+  {
+   "key": "UA|1980|money|Na nový automobil se čekalo v pořadnících i řadu let; velká část produkce vozů Volha byla navíc vyhrazena státním a stranickým institucím.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Pořadníky na auta se týkaly menšiny kupujících, čekání ale trvalo roky.",
+    "B": "Pořadníky na auta pamatuje většina; vyhrazení Volh institucím zná poučený zájemce.",
+    "C": "Pořadníky na auta ukazují přídělový systém i privilegia strany."
+   }
+  },
+  {
+   "key": "UA|1980|money|Nedostatek zboží patřil ke každodennosti plánované ekonomiky; jakmile se žádanější výrobky objevily v prodeji, stávaly se na ně dlouhé fronty.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Nedostatek a fronty určovaly, co lidé denně sehnali, po většinu dekády.",
+    "B": "Fronty a nedostatek zboží univerzální zkušenost; obecně známé školní učivo o plánované ekonomice.",
+    "C": "Fronty a nedostatek vysvětlují každodenní mechanismus plánované ekonomiky."
+   }
+  },
+  {
+   "key": "UA|1990|beautiful|Festival ukrajinsky zpívané hudby Červona ruta putoval každé dva roky po zemi — od Záporoží 1991 po Dnipropetrovsk 1999 — a pomáhal objevovat novou domácí scénu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Putovní festival oživoval ukrajinskou hudbu, přímo se dotkl části publika.",
+    "B": "Červonu rutu zná značná část generace fanoušků; putovní formát překvapí běžného čtenáře.",
+    "C": "Červona ruta zachycuje obrodu ukrajinsky zpívané hudby."
+   }
+  },
+  {
+   "key": "UA|1990|beautiful|Na výročí sjednocení z roku 1919 vytvořili lidé 21. ledna 1990 živý řetěz dlouhý asi 700 kilometrů z Ivano-Frankivska přes Lvov do Kyjeva; oficiálně se ho účastnilo na 450 tisíc lidí.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Živý řetěz byl jednodenní masový zážitek se symbolickým významem pro nezávislost.",
+    "B": "Živý řetěz 1990 pamatují účastníci a západ země; rozsah akce překvapí běžného čtenáře.",
+    "C": "Živý řetěz ukazuje masovou mobilizaci před nezávislostí."
+   }
+  },
+  {
+   "key": "UA|1990|beautiful|Od roku 1995 vysílala stanice ICTV první ukrajinskou televizní hitparádu Terytorija A, která pomohla k popularitě interpretům jako Iryna Bilyk nebo Oleksandr Ponomarjov.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Televizní hitparáda ovlivnila, co část domácností sledovala a poslouchala.",
+    "B": "Terytoriju A sledovala velká část mladé generace; prvenství hitparády překvapí mimo Ukrajinu.",
+    "C": "První hitparáda je dílčí kulturní zajímavost."
+   }
+  },
+  {
+   "key": "UA|1990|bizarre|Dvoukolový nákupní vozík, s nímž drobní obchodníci vozili zboží z Polska a Turecka, dostal lidový název „kravčučka“ podle prezidenta Leonida Kravčuka.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Kravčučka byla symbolem drobného obchodu, přímo měnila den hlavně obchodníkům.",
+    "B": "Kravčučku znal skoro každý drobný obchodník i domácnost; etymologie překvapí českého čtenáře.",
+    "C": "Kravčučka zhušťuje éru drobného přeshraničního obchodu do jednoho předmětu."
+   }
+  },
+  {
+   "key": "UA|1990|bizarre|Inflace došla tak daleko, že se v roce 1995 dostala do oběhu bankovka v hodnotě jednoho milionu karbovanců, zdobená pomníkem Tarase Ševčenka.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Milionová bankovka je barvitý detail inflace, sama o sobě den neměnila.",
+    "B": "Milionovou bankovku měla v ruce většina; detail výzdoby a kontext překvapí.",
+    "C": "Milionová bankovka konkretizuje absurditu hyperinflace."
+   }
+  },
+  {
+   "key": "UA|1990|bizarre|První hřivnové bankovky se vytiskly už v roce 1992 v Kanadě a čtyři roky pak čekaly ve skladech, než inflace klesla natolik, aby mohly do oběhu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 1,
+    "recognition": 1,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Uskladněné bankovky v Kanadě jsou zajímavost bez přímého dopadu na všední den.",
+    "B": "Skladování bankovek v Kanadě dobově skryté; málo známý detail překvapí i sečtělé.",
+    "C": "Hřivny čekající ve skladech vypráví kuriózní detail měnového plánu."
+   }
+  },
+  {
+   "key": "UA|1990|clothes|K poznávacím znakům desetiletí patřily turecké svetry, džíny doma „vařené“ v bělicím prostředku, kožené bundy a sportovní soupravy Adidas.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Vařené džíny a soupravy nosila výrazná část mladých po část dekády.",
+    "B": "Vařené džíny, kožené bundy a adidasky ikonická sdílená móda; poučenému čtenáři známý obraz.",
+    "C": "Vařené džíny a soupravy zachycují vizuální identitu dekády."
+   }
+  },
+  {
+   "key": "UA|1990|clothes|V roce 1997 se v kyjevském Domě herce konal první ukrajinský týden módy, pořádaný tehdy jako přehlídka konfekce pod názvem Fashion Seasons.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 1,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "První týden módy byl oborovou událostí úzké skupiny, běžný den nezměnil.",
+    "B": "První týden módy 1997 znal úzký okruh branže; běžného čtenáře údaj překvapí.",
+    "C": "První týden módy je dílčí kulturní milník."
+   }
+  },
+  {
+   "key": "UA|1990|clothes|Ze západní Evropy se začalo dovážet darované obnošené oblečení a vznikající trh se second handy zpřístupnil západní módu i lidem s malými příjmy.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Second handy zpřístupnily oblečení lidem s malými příjmy a trh se udržel.",
+    "B": "Second handy se západním oblečením zažila většina rodin s nižšími příjmy; jev poučeným známý.",
+    "C": "Second handy vysvětlují dostupnost západní módy v chudobě."
+   }
+  },
+  {
+   "key": "UA|1990|dailyLife|K večernímu rytmu domácností patřily první zahraniční telenovely; mexický seriál Bohatí také pláčou, vysílaný v letech 1991–1992, sledovala velká část země.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 1,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Telenovela měnila večerní rytmus velké části země, ale jen po dobu vysílání.",
+    "B": "Telenovelu Bohatí také pláčou sledovala velká část země; fenomén poučeným známý.",
+    "C": "Telenovely zachycují nový sdílený večerní rituál domácností."
+   }
+  },
+  {
+   "key": "UA|1990|dailyLife|Nákupy se přesunuly na rozlehlá tržiště; trh Sedmý kilometr u Oděsy, kde se prodávalo z lodních kontejnerů, se rozrostl v jedno z největších tržišť v Evropě.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Přesun nákupů na tržiště změnil běžné nakupování většiny domácností na léta.",
+    "B": "Nákupy na tržištích sdílená zkušenost; evropský primát Sedmého kilometru překvapí.",
+    "C": "Sedmý kilometr vysvětluje, jak tržiště nahradila obchodní síť."
+   }
+  },
+  {
+   "key": "UA|1990|dailyLife|Upadající městskou dopravu doplnily soukromé mikrobusy zvané maršrutky; jejich rozmach urychlil od roku 1996 levný a snadno opravitelný minibus GAZela za zhruba 8 000 dolarů.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Maršrutky přetvořily každodenní dojíždění ve městech a vydržely dlouho po dekádě.",
+    "B": "Maršrutky denní realita většiny měst; role GAZely a cena překvapí běžného čtenáře.",
+    "C": "Maršrutky a GAZela vysvětlují vznik náhradní městské dopravy."
+   }
+  },
+  {
+   "key": "UA|1990|food|Brambory vypěstované na zahrádkách u dač zachránily mnoho rodin před hladem a ovoce s bobulemi pomáhalo doplnit chybějící vitamíny.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Vlastní brambory z dač rozhodovaly o tom, co rodiny jedly v nejtěžších letech.",
+    "B": "Brambory z dač jako záchrana rodin téměř univerzální zkušenost krize; obecně známé.",
+    "C": "Brambory z dač vysvětlují strategii přežití rodin v krizi."
+   }
+  },
+  {
+   "key": "UA|1990|food|Od roku 1990 mířily do obchodů americké mražené kuřecí čtvrtky, kterým se podle prezidenta George Bushe staršího říkalo „Bushovy nožky“.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "„Bushovy nožky“ ovlivnily, co bylo v obchodech k jídlu, po několik let nedostatku.",
+    "B": "„Bushovy nožky“ sdílená vzpomínka na počátek 90. let; přezdívku zná poučený čtenář.",
+    "C": "Bushovy nožky spojují dovoz potravin s dobovou zkušeností."
+   }
+  },
+  {
+   "key": "UA|1990|food|Už od listopadu 1990 dostávali obyvatelé jednorázové kupony, bez nichž nešlo v obchodech nakoupit potraviny a další základní zboží.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Kupony podmiňovaly nákup potravin pro všechny domácnosti, epizoda trvala jednotky let.",
+    "B": "Kupony na nákup zažila většina domácností; konkrétní systém překvapí mladšího čtenáře.",
+    "C": "Kupony na potraviny ukazují mechanismus přídělového nákupu."
+   }
+  },
+  {
+   "key": "UA|1990|government|Budapešťským memorandem z 5. prosince 1994 se Ukrajina vzdala třetího největšího jaderného arzenálu světa výměnou za bezpečnostní ujištění Ruska, USA a Velké Británie.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 5,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Memorandum bylo diplomatickým aktem bez dopadu na všední den, s trvalými důsledky.",
+    "B": "Vzdání se arzenálu tehdy běžný život míjelo; dnes díky válce široce známé i novinovým čtenářům.",
+    "C": "Budapešťské memorandum vysvětluje jaderné odzbrojení s pozdějším dosahem."
+   }
+  },
+  {
+   "key": "UA|1990|government|V referendu 1. prosince 1991 podpořilo nezávislost Ukrajiny 92 % hlasujících při účasti 84 % a prvním prezidentem byl týž den zvolen Leonid Kravčuk.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Referendum o nezávislosti bylo hlasováním většiny a trvale změnilo zemi.",
+    "B": "Referendum o nezávislosti prožila celá země; základní, novinově známá fakta.",
+    "C": "Referendum o nezávislosti je zakládající okamžik, který prožila celá země."
+   }
+  },
+  {
+   "key": "UA|1990|government|Vlastní ústavu přijal parlament po celonočním jednání 28. června 1996 hlasy 315 ze 450 poslanců; Ukrajina byla posledním postsovětským státem, který si ústavu dal.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Přijetí ústavy nezměnilo nikomu rutinu, státní rámec ale formuje dodnes.",
+    "B": "Přijetí ústavy zaznamenala značná část; celonoční jednání a prvenství naposledy překvapí.",
+    "C": "Přijetí ústavy je důležitý milník státnosti s příběhem noci."
+   }
+  },
+  {
+   "key": "UA|1990|illnesses|Do roku 1995 bylo na Ukrajině známo jen několik případů HIV, poté se rozběhla prudká epidemie šířená zprvu hlavně mezi injekčními uživateli drog.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 5,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Začátek epidemie HIV zprvu dopadl na užší skupinu, důsledky ale trvale poznamenaly zemi.",
+    "B": "Nástup HIV epidemie tehdy vnímala menšina; rychlost a rozsah překvapí běžného čtenáře.",
+    "C": "Začátek epidemie HIV zachycuje sociální krizi dekády."
+   }
+  },
+  {
+   "key": "UA|1990|illnesses|Do země se vrátil záškrt: v roce 1991 hlásil Kyjev 372 případů, Lvov 190 a Charkov 129 a v polovině 90. let na epidemii odpověděly celostátní očkovací kampaně.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní návrat záškrtu s očkovacími kampaněmi zasáhl rodiny s dětmi zhruba v půli dekády.",
+    "B": "Záškrtovou epidemii a očkovací kampaně pamatuje menšina až část generace; návrat záškrtu překvapí i sečtělé.",
+    "C": "Návrat záškrtu vysvětluje rozpad zdravotního systému po SSSR."
+   }
+  },
+  {
+   "key": "UA|1990|illnesses|U dětí zasažených černobylskou havárií přibývaly během 90. let případy rakoviny štítné žlázy; radioaktivní jod-131 se do těla dostával především mlékem.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Nemoci dětí po Černobylu měnily obavy rodin a zdravotní dohled na desítky let.",
+    "B": "Obavy o děti po Černobylu široce sdílené; cesta jodu mlékem překvapí běžného čtenáře.",
+    "C": "Rakovina štítné žlázy z mléka vysvětluje mechanismus černobylského dopadu."
+   }
+  },
+  {
+   "key": "UA|1990|money|Měnová reforma v září 1996 vyměnila karbovance za hřivny v poměru 100 000 : 1 a během šestnácti dnů stáhla z oběhu asi 97 % staré měny.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Zavedení hřivny se dotklo peněz každé domácnosti a měna trvá dodnes.",
+    "B": "Výměnu za hřivny 1996 zažili všichni; poměr a rychlost stažení překvapí.",
+    "C": "Měnová reforma na hřivnu je zásadní zlom se zajímavými detaily."
+   }
+  },
+  {
+   "key": "UA|1990|money|V lednu 1992 nahradil rubl kupónový karbovanec, zamýšlený jako přechodná měna, který se však rychle znehodnocoval.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Výměna měny a znehodnocující se karbovanec dopadaly na úspory a ceny všech.",
+    "B": "Karbovanec a jeho znehodnocování prožil každý; poučeným známá měnová epizoda.",
+    "C": "Karbovanec nese příběh přechodné, rychle padající měny."
+   }
+  },
+  {
+   "key": "UA|1990|money|V roce 1993 dosáhla inflace přibližně 4 735 % a hospodářský propad patřil k nejhlubším mezi bývalými sovětskými republikami.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Hyperinflace 1993 znehodnotila platy i úspory a formovala celá devadesátá léta.",
+    "B": "Hyperinflaci 1993 prožila celá země; konkrétní číslo 4 735 % překvapí běžného čtenáře.",
+    "C": "Hyperinflace 4 735 % vysvětluje hloubku hospodářského propadu."
+   }
+  },
+  {
+   "key": "UA|2000|beautiful|O rok později hostil Kyjev Eurovizi ve svém Paláci sportu pod heslem „Awakening“ (Probuzení) a do soutěže se přihlásil tehdy rekordní počet 39 zemí.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Hostování Eurovize se přímo dotklo hlavně Kyjeva a televizního večera.",
+    "B": "Hostování Eurovize 2005 Kyjevané pamatují; rekordní počet zemí zná spíš zájemce.",
+    "C": "Hostování Eurovize je dílčí navazující zajímavost."
+   }
+  },
+  {
+   "key": "UA|2000|beautiful|V květnu 2004 vyhrála Ruslana s písní „Wild Dances“, inspirovanou huculským folklorem z Karpat, jako první ukrajinská interpretka Eurovizi.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Ruslanino vítězství bylo celonárodní radostí a posílilo kulturní sebevědomí.",
+    "B": "První vítězství na Eurovizi je sdílená národní vzpomínka a všeobecně známý fakt.",
+    "C": "Ruslanina Eurovize byla chvílí národní hrdosti a viditelnosti."
+   }
+  },
+  {
+   "key": "UA|2000|beautiful|V květnu 2009 vyhrál Šachtar Doněck v Istanbulu poslední ročník Poháru UEFA, když ve finále porazil Werder Brémy 2:1 po prodloužení; šlo o první velkou evropskou trofej klubu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Trofej Šachtaru potěšila fanoušky, běžný den mimo fotbal nezměnila.",
+    "B": "Triumf Šachtaru sledovala velká část země; detail finále zná fotbalový zájemce.",
+    "C": "Trofej Šachtaru byla sdíleným sportovním zážitkem země."
+   }
+  },
+  {
+   "key": "UA|2000|bizarre|Na Eurovizi 2007 vyslala země Verku Serduchku, komickou postavu průvodčí lůžkového vozu ve třpytivém stříbrném kostýmu, a ta s písní „Dancing Lasha Tumbai“ obsadila druhé místo.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Serduchka na Eurovizi byla sdíleným televizním okamžikem, den nezměnila.",
+    "B": "Verka Serduchka byla masový televizní zážitek; událost je široce známá.",
+    "C": "Verka Serduchka je sdílený popkulturní moment s dobovým humorem."
+   }
+  },
+  {
+   "key": "UA|2000|bizarre|V Kolomyji se v září 2000 otevřelo muzeum kraslic v nové budově ve tvaru obřího vejce, vysoké 14 metrů; jediné muzeum svého druhu na světě shromáždilo přes 10 000 kraslic.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Muzeum kraslic je místní kuriozita bez dopadu na všední den většiny.",
+    "B": "Regionální atrakce, zná ji menšina; unikátní muzeum-vejce překvapí i sečtělé.",
+    "C": "Muzeum kraslic je milá kuriozita bez širší souvislosti."
+   }
+  },
+  {
+   "key": "UA|2000|bizarre|V maršrutkách se jízdné platilo zvláštní štafetou: cestující vzadu posílali peníze dopředu přes ruce ostatních a drobné putovaly nazpět stejnou cestou.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Podávání jízdného přes ruce bylo denním rituálem cestujících v maršrutkách.",
+    "B": "Štafetu peněz v maršrutce zažil prakticky každý cestující; cizince i čtenáře mimo region překvapí.",
+    "C": "Štafeta jízdného zhušťuje důvěru a improvizaci každodenní dopravy."
+   }
+  },
+  {
+   "key": "UA|2000|clothes|Oblečení se běžně kupovalo na velkých tržištích, jako byl Sedmý kilometr u Oděsy, kde se vedle levného asijského zboží prodávaly i napodobeniny západních značek.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Tržiště byla hlavní cestou k oblečení pro většinu domácností po celou dekádu.",
+    "B": "Nákup oblečení na tržištích běžná zkušenost dekády; jev poučeným známý.",
+    "C": "Tržiště jako hlavní zdroj oblečení popisuje běžnou spotřebu."
+   }
+  },
+  {
+   "key": "UA|2000|clothes|V Kyjevě se od roku 1997 konal módní týden, od roku 2005 pod názvem Ukrainian Fashion Week, na kterém dvakrát ročně předváděli kolekce domácí návrháři.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Módní týden se týkal úzké branže, běžný šatník měnil jen nepřímo.",
+    "B": "Módní týden sledovala menšina; historie a přejmenování překvapí běžného čtenáře.",
+    "C": "Módní týden je dílčí zajímavost bez širší souvislosti."
+   }
+  },
+  {
+   "key": "UA|2000|clothes|V roce 2006 dali studenti univerzity v Černivcích vzniknout Dni vyšyvanky; vyšívaná košile se postupně vracela do běžného šatníku a třetí květnový čtvrtek se začal slavit po celé zemi.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Den vyšyvanky vznikl skromně, tradice postupně vrostla do každodennosti země.",
+    "B": "Den vyšyvanky se teprve šířil, zaznamenala část generace; studentský původ svátku překvapí.",
+    "C": "Den vyšyvanky nese příběh návratu národní identity do šatníku."
+   }
+  },
+  {
+   "key": "UA|2000|dailyLife|Internet pronikal do domácností pomalu: v roce 2000 jej používalo necelé jedno procento obyvatel, v roce 2009 už zhruba 18 procent, zpočátku hlavně přes vytáčené připojení a internetové kluby.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Pomalý nástup internetu měnil den zprvu menšině, ale odstartoval trvalou změnu.",
+    "B": "Vytáčené připojení a internetové kluby sdílená vzpomínka; tempo růstu zná poučený čtenář.",
+    "C": "Pomalý nástup internetu s kluby zachycuje digitální každodennost."
+   }
+  },
+  {
+   "key": "UA|2000|dailyLife|Mobilní telefon se během dekády změnil z drahé novinky v samozřejmost; jen operátor MTS (dřívější UMC) měl v listopadu 2009 kolem 17,7 milionu SIM karet.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Mobil se stal samozřejmostí a trvale změnil, jak se lidé domlouvali.",
+    "B": "Rozšíření mobilů prožila celá generace; konkrétní čísla operátora zná spíš zájemce.",
+    "C": "Rozšíření mobilů popisuje zásadní proměnu komunikace dekády."
+   }
+  },
+  {
+   "key": "UA|2000|dailyLife|Městskou dopravu z velké části obstarávaly maršrutky – soukromé mikrobusy jezdící po pevných trasách, do kterých se nastupovalo mávnutím u kraje silnice a vystupovalo na požádání.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Maršrutky byly každodenní dopravou většiny měst a vydržely i po dekádě.",
+    "B": "Maršrutky s mávnutím a výstupem na požádání univerzální městská zkušenost; reálie širší veřejnosti známá.",
+    "C": "Maršrutky s mávnutím vysvětlují, jak reálně fungovala městská doprava."
+   }
+  },
+  {
+   "key": "UA|2000|food|Mnoho rodin dál pěstovalo brambory, okurky a rajčata na dačách a zahrádkách a na zimu si zavařovalo zásoby, jak bylo zvykem z hubených devadesátých let.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Dače a zavařování dál určovaly jídelníček a sezónní rytmus mnoha rodin.",
+    "B": "Dače a zavařování jsou téměř univerzální prožitá zkušenost, obecně známý jev.",
+    "C": "Dačy a zavařování ukazují přetrvávající strategii soběstačnosti."
+   }
+  },
+  {
+   "key": "UA|2000|food|Rychlé občerstvení zdomácnělo: McDonald's měl v roce 2002 v zemi 49 restaurací a pobočka u kyjevského hlavního nádraží patřila k celosvětově nejvytíženějším.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Fastfood zdomácněl hlavně ve městech, běžný jídelníček měnil jen části lidí.",
+    "B": "McDonald's u nádraží zná generace Kyjevanů; globální vytíženost pobočky běžného čtenáře překvapí.",
+    "C": "McDonald's u nádraží ilustruje zdomácnění západní spotřeby."
+   }
+  },
+  {
+   "key": "UA|2000|food|Vedle tržišť rostly první velké řetězce; diskontní síť ATB z Dnipropetrovska otevírala ke konci dekády desítky prodejen ročně, jen v roce 2008 jich přibylo 75.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Nástup řetězců postupně měnil, kde lidé nakupují, a pokračoval i po dekádě.",
+    "B": "ATB zná v UA téměř každý; přesné tempo expanze překvapí jen málokoho poučeného.",
+    "C": "Nástup řetězců jako ATB popisuje proměnu nakupování."
+   }
+  },
+  {
+   "key": "UA|2000|government|Plynové spory s Ruskem doléhaly i na domácnosti: v lednu 2009 byl tranzit plynu přes Ukrajinu na téměř dva týdny zastaven a část průmyslu musela dočasně omezit provoz.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Plynová krize 2009 dočasně omezila průmysl a dotkla se domácností, téma trvalo dekádu.",
+    "B": "Plynovou krizi 2009 pocítila většina domácností i průmysl; novinově známá.",
+    "C": "Plynová krize 2009 vysvětluje závislost na Rusku i dopad na domácnosti."
+   }
+  },
+  {
+   "key": "UA|2000|government|Po zfalšovaném druhém kole prezidentských voleb v listopadu 2004 zaplnilo kyjevský Majdan stanové městečko oranžové revoluce; Nejvyšší soud výsledek zrušil a opakované hlasování 26. prosince 2004 vyhrál Viktor Juščenko.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Oranžová revoluce vtáhla velkou část země a trvale změnila politické sebevědomí.",
+    "B": "Oranžovou revoluci prožila prakticky celá země; mezinárodně známá událost.",
+    "C": "Oranžová revoluce je klíčová sdílená zkušenost, která proměnila zemi."
+   }
+  },
+  {
+   "key": "UA|2000|government|V roce 2000 otřásla zemí vražda novináře Heorhije Gongadzeho a zveřejněné nahrávky majora Melnyčenka, které naznačovaly zapojení prezidenta Kučmy; následovaly protesty hnutí „Ukrajina bez Kučmy“.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Kučmagate hýbal veřejným děním a důvěrou v stát, běžný den měnil méně.",
+    "B": "Kauza Gongadze a protesty hýbaly celou zemí; novinově dobře známá aféra.",
+    "C": "Gongadze a kazetový skandál vysvětlují krizi Kučmova režimu."
+   }
+  },
+  {
+   "key": "UA|2000|illnesses|Na přelomu října a listopadu 2009 zasáhla zemi pandemická chřipka H1N1: vláda na tři týdny zavřela školy, zakázala hromadné akce a devět oblastí vyhlásilo karanténu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Zavřené školy a zákaz akcí změnily na týdny rutinu většiny rodin, epizoda odezněla.",
+    "B": "Zavřené školy a karantény 2009 pamatuje většina rodin; rozsah opatření překvapí mimo Ukrajinu.",
+    "C": "Chřipková karanténa 2009 zachycuje zásah do každodenního života."
+   }
+  },
+  {
+   "key": "UA|2000|illnesses|Tuberkulóza zůstávala vážným problémem veřejného zdraví; v letech 2004–2005 přesahovala nemocnost 127 případů na 100 000 obyvatel a šířily se multirezistentní formy nemoci.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Tuberkulóza tížila veřejné zdraví dlouhodobě, přímo zasahovala menšinu domácností.",
+    "B": "Tuberkulózu jako problém vnímala menšina mimo zasažené; rozsah a rezistence překvapí.",
+    "C": "Tuberkulóza a rezistence ukazují stav veřejného zdraví."
+   }
+  },
+  {
+   "key": "UA|2000|illnesses|Ukrajina se potýkala s jednou z nejrozsáhlejších epidemií HIV v Evropě; k roku 2007 žilo s virem odhadem kolem 440 000 lidí a nákaza se šířila zprvu hlavně mezi injekčními uživateli drog.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Rozsáhlá epidemie HIV dopadala přímo na menšinu, strach a důsledky přetrvaly.",
+    "B": "Epidemii HIV osobně vnímala menšina; evropský rozsah čísel překvapí běžného čtenáře.",
+    "C": "Rozsah epidemie HIV vypovídá o sociálních problémech dekády."
+   }
+  },
+  {
+   "key": "UA|2000|money|Běžnou strategií rodin byla práce v zahraničí; jen v České republice vzrostl počet Ukrajinců z asi 8 500 v roce 1991 na zhruba 119 000 v roce 2011.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Práce v zahraničí rozdělovala rodiny a stala se trvalou strategií obživy.",
+    "B": "Práci v zahraničí zažila řada rodin; konkrétní čísla o ČR běžného čtenáře překvapí.",
+    "C": "Práce v zahraničí vysvětluje rodinnou strategii i česko-ukrajinskou vazbu."
+   }
+  },
+  {
+   "key": "UA|2000|money|Hřivna se od dubna 2005 držela na pevném kurzu 5,05 za americký dolar, na podzim 2008 však během finanční krize oslabila až k 7,88 hřivny za dolar.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Pevný kurz a pád hřivny 2008 dopadly na ceny a úspory, hlavně krátkodobě.",
+    "B": "Kurz 5,05 byl každodenní realitou; detail zná i poučený čtenář ekonomiky.",
+    "C": "Pevný kurz a pád hřivny přibližují dopad krize 2008."
+   }
+  },
+  {
+   "key": "UA|2000|money|Po krizových devadesátých letech přišlo oživení: rok 2000 byl prvním rokem hospodářského růstu od získání nezávislosti a do roku 2008 ekonomika rostla v průměru zhruba o sedm procent ročně.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Léta růstu zvedla příjmy a spotřebu většiny domácností po většinu dekády.",
+    "B": "Oživení dvoutisících let lidé pamatují; přesná čísla růstu zná spíš poučený zájemce.",
+    "C": "Návrat růstu po devadesátých letech rámuje náladu dekády."
+   }
+  },
+  {
+   "key": "UA|2010|beautiful|Od 11. června 2017 mohli lidé s biometrickým pasem cestovat do schengenského prostoru bez víz, až na 90 dní během každého půl roku.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Bezvízový styk trvale otevřel cestování do EU velké části obyvatel.",
+    "B": "Bezvízový styk 2017 změnil cestování milionům; jde o obecně známou událost.",
+    "C": "Bezvízový styk změnil možnosti cestování milionů a symbolizoval evropské směřování země."
+   }
+  },
+  {
+   "key": "UA|2010|beautiful|U Klevaně na Rivnensku se táhl Tunel lásky, několik kilometrů průmyslové železnice zarostlé do zelené klenby stromů, oblíbené místo procházek dvojic a fotografů.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Regionální turistická scenérie, oblíbená, ale bez dopadu na každodennost.",
+    "B": "Tunel lásky zná značná část generace z fotek; jeho existence běžného čtenáře překvapí.",
+    "C": "Malebné místo, dílčí zajímavost bez širšího příběhu doby."
+   }
+  },
+  {
+   "key": "UA|2010|beautiful|Zpěvačka Jamala vyhrála v roce 2016 soutěž Eurovision Song Contest s písní 1944 a Kyjev díky tomu v květnu 2017 soutěž hostil.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Vítězství Jamaly bylo sdílenou kulturní událostí; rutinu měnilo krátce.",
+    "B": "Vítězství Jamaly bylo celonárodní událostí; fakt zná většina čtenářů novin.",
+    "C": "Vítězství Jamaly a hostování Eurovize byly sdílené národní momenty dekády."
+   }
+  },
+  {
+   "key": "UA|2010|bizarre|Stanice kyjevského metra Arsenalna, hluboká 105,5 metru, platila tehdy za nejhlubší na světě; jízda po eskalátorech trvala až pět minut.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Denní rutina kyjevských cestujících; kuriozita s omezeným celostátním dopadem.",
+    "B": "Arsenalnu zná každý kyjevský cestující; světový primát překvapí běžného čtenáře.",
+    "C": "Rekordní hloubka metra je dílčí zajímavost bez širší souvislosti."
+   }
+  },
+  {
+   "key": "UA|2010|bizarre|V Oděse přetvořil umělec Alexandr Milov v roce 2015 sochu Lenina na Dartha Vadera; v helmě postavy je ukrytý wi-fi vysílač.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Oděská kuriozita; místně viditelná socha bez dopadu na všední den.",
+    "B": "Oděskou raritu zná menšina; Lenin proměněný v Vadera s wi-fi překvapí i sečtělé.",
+    "C": "Lenin-Vader vtipně zhmotňuje dekomunizaci; nese kus příběhu doby."
+   }
+  },
+  {
+   "key": "UA|2010|bizarre|Ve Lvově fungovalo muzeum věnované salu a z žertu o ukrajinské zálibě v sádle vzniklo i salo máčené v čokoládě.",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Lvovské muzeum sala je zábavná lokální atrakce bez dopadu na rutinu.",
+    "B": "Lvovské muzeum sala zná menšina; salo v čokoládě překvapí i sečtělého člověka.",
+    "C": "Muzeum sala je kuriozita ilustrující sebeironii, bez širšího kontextu."
+   }
+  },
+  {
+   "key": "UA|2010|clothes|Kloboučník Ruslan Baginskiy založil v roce 2015 ve Lvově značku pokrývek hlavy; jeho bekovky nosila Bella Hadid a v roce 2018 vytvořil klobouk pro Madonnu na obálku Vogue Italia.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 0,
+    "consequenceHorizon": 1,
+    "recognition": 1,
+    "discovery": 4,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Zahraniční sláva kloboučníka je zajímavost bez dopadu na všední den doma.",
+    "B": "Baginskiy je známý v módních kruzích; spojení Lvova s Madonnou překvapí i sečtělé.",
+    "C": "Kloboučník s celebritami je dílčí zajímavost bez místního dopadu."
+   }
+  },
+  {
+   "key": "UA|2010|clothes|Volné vyšívané šaty návrhářky Vity Kin se objevily na pařížském módním týdnu v roce 2015 a zahraniční módní časopisy je řadily mezi žádané kusy sezóny.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 1,
+    "recognition": 1,
+    "discovery": 4,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Úspěch šatů v Paříži se běžných domácností v zemi téměř nedotkl.",
+    "B": "Módní úspěch Vity Kin zná úzký okruh; sečtělého čtenáře detail překvapí.",
+    "C": "Úspěch návrhářky v Paříži je dílčí módní zajímavost."
+   }
+  },
+  {
+   "key": "UA|2010|clothes|Vyšívaná košile vyšyvanka se vracela z krojů do běžného šatníku; k oslavám Dne vyšyvanky se do roku 2015, i díky sbírce „Daruj vyšívanku obránci“, připojilo kolem 50 zemí světa.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Návrat vyšyvanky do šatníku se stal viditelným zvykem s trvajícím významem.",
+    "B": "Návrat vyšyvanky široce prožitý; mezinárodní rozsah Dne vyšyvanky překvapí běžného čtenáře.",
+    "C": "Návrat vyšyvanky nese příběh posílené národní identity."
+   }
+  },
+  {
+   "key": "UA|2010|dailyLife|Balíky se běžně posílaly přes soukromou síť Nova Poshta, která v roce 2018 doručila přes 174 milionů zásilek prostřednictvím asi šesti tisíc poboček po celé zemi.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Nova Poshta byla běžnou rutinou posílání balíků pro velkou část země.",
+    "B": "Nova Poshta byla každodenní infrastruktura; konkrétní objemy zná spíš zájemce.",
+    "C": "Nova Poshta jako každodenní infrastruktura ukazuje, jak fungovalo posílání zásilek místo státní pošty."
+   }
+  },
+  {
+   "key": "UA|2010|dailyLife|Rychlý mobilní internet dorazil pozdě: licence na sítě 3G získali operátoři Kyivstar, Vodafone a lifecell až v roce 2015 a 4G se spouštělo v roce 2018, později než ve většině Evropy.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Pozdní 3G/4G celostátně určovalo, jak lidé roky používali mobilní internet.",
+    "B": "Pozdní příchod 3G/4G zažil každý uživatel mobilu; zpoždění oproti Evropě překvapí běžného čtenáře.",
+    "C": "Pozdní nástup 3G/4G vysvětluje odlišnou digitální každodennost dekády."
+   }
+  },
+  {
+   "key": "UA|2010|dailyLife|V květnu 2017 stát v rámci sankcí zablokoval ruskou sociální síť VKontakte, do té doby čtvrtý nejnavštěvovanější web v zemi, a mnoho uživatelů si muselo zvykat na jiné sítě.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Blokace VKontakte změnila digitální návyky milionů uživatelů na delší dobu.",
+    "B": "Blokaci VKontakte pocítily miliony uživatelů; událost je mediálně známá.",
+    "C": "Blokace VKontakte vysvětluje střet politiky a digitálního každodenního života milionů uživatelů."
+   }
+  },
+  {
+   "key": "UA|2010|food|K žitnému chlebu se běžně podávalo salo, solené vepřové sádlo s česnekem a cibulí, tradiční součást ukrajinské kuchyně.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Běžná kulinární tradice; dokresluje stůl, ale nic zásadně neměnila.",
+    "B": "Salo s chlebem je univerzální kulinární zkušenost i školně známý symbol.",
+    "C": "Konkrétní jídelní zvyk, dílčí zajímavost bez širší souvislosti."
+   }
+  },
+  {
+   "key": "UA|2010|food|Levné nákupy zajišťoval diskontní řetězec ATB z Dnipra s asi 3 500 položkami, který se vypracoval v jednu z největších obchodních sítí země podle vzoru evropských diskontů, jako jsou Aldi a Lidl.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "ATB byl každodenním místem levných nákupů pro výraznou část domácností.",
+    "B": "V ATB nakupovala většina země; srovnání s diskonty je obecně známé.",
+    "C": "ATB ukazuje, kde a jak lidé levně nakupovali; nese kus příběhu doby."
+   }
+  },
+  {
+   "key": "UA|2010|food|Řetězec supermarketů Silpo začal od roku 2018 otevírat prodejny s autorským tematickým designem, od japonského divadla kabuki po počítačovou hru S.T.A.L.K.E.R.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Tematické prodejny Silpo jsou kuriozita bez zásadní změny rutiny.",
+    "B": "Tematická Silpa zná značná část městské generace; koncept běžného čtenáře mimo UA překvapí.",
+    "C": "Kuriozita designu prodejen, zajímavá, ale bez širšího vysvětlení doby."
+   }
+  },
+  {
+   "key": "UA|2010|government|Dekomunizační zákony z roku 2015 vedly k přejmenování 987 měst a obcí a více než 51 tisíc ulic; Dnipropetrovsk se v roce 2016 stal Dniprem.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 5,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Přejmenování měst a ulic změnilo adresy a mapy natrvalo, denní rutinu mírně.",
+    "B": "Přejmenování měst a ulic zažil každý; celkový rozsah 987 obcí běžného čtenáře překvapí.",
+    "C": "Dekomunizace přejmenování vysvětluje viditelnou proměnu veřejného prostoru."
+   }
+  },
+  {
+   "key": "UA|2010|government|Protesty Euromajdanu začaly v listopadu 2013 po odkladu podpisu asociační dohody s EU; při únorovém vyvrcholení v roce 2014 zahynulo v centru Kyjeva téměř sto demonstrantů a třináct policistů.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Euromajdan na měsíce ovládl veřejný život a trvale změnil směřování země.",
+    "B": "Euromajdan je určující sdílená zkušenost dekády; události zná většina čtenářů novin.",
+    "C": "Euromajdan je zlomová sdílená zkušenost, jež určila směřování země."
+   }
+  },
+  {
+   "key": "UA|2010|government|Válka na Donbasu začala v dubnu 2014 obsazením Slovjansku; do března 2016 bylo uvnitř země vysídleno asi 1,6 milionu lidí a přes milion dalších odešel do zahraničí.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Válka na Donbasu vysídlila miliony a trvale změnila život v zemi.",
+    "B": "Válku na Donbasu a vysídlení zažila celá země; přesná čísla zná poučený čtenář.",
+    "C": "Začátek války a vysídlení vysvětlují zásadní proměnu životů."
+   }
+  },
+  {
+   "key": "UA|2010|illnesses|Proočkovanost proti spalničkám mezitím klesla z asi 96 procent v roce 2008 na 42 procent na začátku epidemie v roce 2017, hluboko pod úroveň potřebnou pro kolektivní imunitu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Propad proočkovanosti byl pozadím epidemie, den měnil hlavně rodičům při rozhodování.",
+    "B": "Propad proočkovanosti na 42 % vnímala menšina; číslo překvapí i sečtělého člověka.",
+    "C": "Propad proočkovanosti vysvětluje mechanismus vzniku epidemie."
+   }
+  },
+  {
+   "key": "UA|2010|illnesses|Rozsáhlá zdravotnická reforma přijatá v říjnu 2017 začala od roku 2018 měnit primární péči; do té doby pacienti běžně dopláceli za formálně bezplatnou léčbu neformálními platbami zdravotníkům.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní reforma primární péče změnila přístup většiny domácností k lékaři na roky.",
+    "B": "Neformální platby zdravotníkům byly široce sdílená zkušenost; reformu zná čtenář novin.",
+    "C": "Vysvětluje mechanismus neformálních plateb a změnu systému zdravotnictví, který se dotýkal každého."
+   }
+  },
+  {
+   "key": "UA|2010|illnesses|V letech 2017 až 2019 zasáhla zemi jedna z největších evropských epidemií spalniček za dvacet let: onemocnělo přes 115 tisíc lidí a 41 jich zemřelo.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Epidemie spalniček zasáhla přes sto tisíc lidí a měnila chování rodin s dětmi.",
+    "B": "Epidemii spalniček zaznamenala značná část populace; evropský rozměr běžného čtenáře překvapí.",
+    "C": "Epidemie spalniček zachycuje zdravotní krizi zasahující rodiny."
+   }
+  },
+  {
+   "key": "UA|2010|money|Hřivna ztratila v letech 2014 a 2015 asi 70 procent hodnoty vůči dolaru a v únoru 2015 dosáhla rekordních 33 hřiven za dolar.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "70% devalvace hřivny zdražila život prakticky každé domácnosti na roky.",
+    "B": "Devalvaci 2014–2015 pocítil každý; fakt je široce mediálně známý.",
+    "C": "Prudká devalvace vysvětluje ekonomický otřes, který zasáhl úspory a ceny všech."
+   }
+  },
+  {
+   "key": "UA|2010|money|Miliony lidí jezdily za výdělkem do zahraničí, nejčastěji do Polska; v roce 2019 poslali pracovníci domů kolem 16 miliard dolarů, více než desetinu HDP.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Masová pracovní migrace formovala rodinné rozpočty a životy milionů na roky.",
+    "B": "Práce v Polsku se týkala milionů rodin; podíl remitencí na HDP zná poučený čtenář.",
+    "C": "Masová pracovní migrace a remitence vysvětlují fungování rodinných ekonomik celé éry."
+   }
+  },
+  {
+   "key": "UA|2010|money|Minimální mzda se od 1. ledna 2017 skokově zdvojnásobila z 1 600 hřiven na konci roku 2016 na 3 200 hřiven měsíčně.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Zdvojnásobení minimální mzdy citelně změnilo příjmy velké skupiny pracujících.",
+    "B": "Zdvojnásobení minimální mzdy pocítilo mnoho pracujících; skokový detail běžného čtenáře překvapí.",
+    "C": "Skokové zdvojnásobení minimální mzdy je hmatatelná změna příjmů, kus příběhu doby."
+   }
+  },
+  {
+   "key": "UA|2020|beautiful|Posluchači se obraceli k domácí hudbě: podíl ukrajinskojazyčných písní v top 100 na YouTube stoupl z asi 10 procent v roce 2021 na 55 procent v roce 2022 a 65 procent v roce 2023.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Obrat k ukrajinské hudbě změnil poslechové návyky velké části posluchačů.",
+    "B": "Obrat k ukrajinské hudbě prožila většina posluchačů; konkrétní skok podílů běžného čtenáře překvapí.",
+    "C": "Obrat k ukrajinskojazyčné hudbě vysvětluje kulturní proměnu identity za války."
+   }
+  },
+  {
+   "key": "UA|2020|beautiful|V květnu 2022 vyhrála skupina Kalush Orchestra s písní „Stefania“ Eurovizi v Turíně; šlo o třetí ukrajinské vítězství v soutěži a píseň získala nejvyšší počet diváckých bodů v její historii.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Vítězství Kalush Orchestra bylo silně sdílené kulturní vzepětí, rutinu měnilo málo.",
+    "B": "Vítězství Kalush Orchestra sledovala celá země; fakt je světově známý.",
+    "C": "Vítězství Kalush Orchestra bylo sdíleným emočním momentem válečného roku."
+   }
+  },
+  {
+   "key": "UA|2020|beautiful|V roce 2022 zažila země svatební vlnu: jen v Kyjevě se za pět měsíců od začátku invaze vzalo 9 120 párů oproti 1 110 za stejné období předchozího roku a obřad šlo nově stihnout v jediný den.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Svatební vlna se týkala tisíců párů, hlavně v Kyjevě; osobně zásadní, plošně omezená.",
+    "B": "Svatební vlnu vnímali hlavně Kyjevané; osminásobný nárůst sňatků překvapí i sečtělé.",
+    "C": "Svatební vlna vysvětluje, jak válka změnila životní rozhodování lidí."
+   }
+  },
+  {
+   "key": "UA|2020|bizarre|Jackrussellteriér Patron, pes-vyhledávač munice státní záchranné služby v Černihivu, dostal v květnu 2022 od prezidenta Zelenského Řád za odvahu a v listopadu 2022 ho UNICEF jmenoval ambasadorem dobré vůle.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Pes Patron je milovaný symbol; každodennost lidí neměnil.",
+    "B": "Psa Patrona zná velká část země; řád a ambasadorství UNICEF překvapí běžného čtenáře.",
+    "C": "Pes Patron byl sdílený národní symbol naděje během války."
+   }
+  },
+  {
+   "key": "UA|2020|bizarre|Když pošta Ukrpošta vydala 12. dubna 2022 známku s frází o ruské válečné lodi, čekaly na ni v Kyjevě fronty tisíců lidí a na eBay se přeprodávala od 1 000 dolarů za kus.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Fronty na známku byly sdílená, ale krátkodobá celostátní epizoda.",
+    "B": "Fronty na známku byly masovou událostí; přeprodej za tisíce dolarů překvapí běžného čtenáře.",
+    "C": "Fronty na známku zhmotňují sdílený vzdor; kus příběhu doby."
+   }
+  },
+  {
+   "key": "UA|2020|bizarre|Přes aplikaci Dija bylo od září 2024 možné uzavřít manželství online; během prvního měsíce se tak vzalo 435 párů.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Online sňatky přes Diju využily zatím jen stovky párů.",
+    "B": "Online sňatky přes Diju zná zatím menšina; možnost překvapí i sečtělého člověka.",
+    "C": "Online svatby přes Diju jsou dílčí zajímavost digitalizace."
+   }
+  },
+  {
+   "key": "UA|2020|clothes|Od 6. dubna 2020 patřila k běžnému oblečení rouška, kterou vláda nařídila nosit na veřejných místech.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Povinná rouška změnila oblékání většiny na měsíce, ale dočasně.",
+    "B": "Povinné roušky byly univerzální zkušeností i globálně známou samozřejmostí.",
+    "C": "Povinná rouška je dílčí detail, širší kontext pandemie nese jiný záznam."
+   }
+  },
+  {
+   "key": "UA|2020|clothes|Po únoru 2022 se v civilním šatníku rozšířila khaki barva a vojenské střihy po vzoru prezidenta Zelenského; pro mnoho lidí šlo o viditelný projev podpory armády.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Khaki móda po invazi byla viditelný, ale nepovinný trend části lidí.",
+    "B": "Khaki v civilní módě po invazi viděla většina; jev je mediálně popsaný.",
+    "C": "Khaki v civilním šatníku nese příběh společenské podpory armády."
+   }
+  },
+  {
+   "key": "UA|2020|clothes|Třetí čtvrtek v květnu oblékalo mnoho lidí do práce i do školy vyšívanku; svátek se pod názvem Světový den vyšyvanky slavil mezi Ukrajinci po celém světě.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Den vyšyvanky je rozšířený, ale jednodenní sváteční rituál.",
+    "B": "Den vyšyvanky slaví velká část společnosti; svátek zná i zahraniční čtenář zájemce.",
+    "C": "Den vyšyvanky ukazuje sdílený projev identity v běžném dni."
+   }
+  },
+  {
+   "key": "UA|2020|dailyLife|Během výpadků proudu sloužily takzvané body nezlomnosti — vytápěná místa s elektřinou, internetem, čajem a nabíječkami; koncem listopadu 2022 jich fungovalo přes 4 300.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Body nezlomnosti pomáhaly části lidí během sezónních výpadků proudu.",
+    "B": "Body nezlomnosti využívala velká část měst; jejich počet 4 300 běžného čtenáře překvapí.",
+    "C": "Body nezlomnosti vysvětlují, jak společnost prakticky zvládala výpadky proudu."
+   }
+  },
+  {
+   "key": "UA|2020|dailyLife|Po ruských úderech na energetiku na podzim 2022 žila města podle rozpisů odstávek elektřiny; po vlně útoků 18. listopadu 2022 zůstalo bez proudu přes 10 milionů lidí.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Rozpisy odstávek elektřiny řídily denní život milionů domácností po měsíce.",
+    "B": "Rozpisy odstávek zažila prakticky celá země; událost je světově medializovaná.",
+    "C": "Rozpisy odstávek elektřiny zásadně strukturovaly každodenní život milionů; klíč k pochopení období."
+   }
+  },
+  {
+   "key": "UA|2020|dailyLife|V únoru 2020 stát spustil aplikaci Dija s doklady v mobilu a od 23. srpna 2021 měly digitální pasy a občanské průkazy stejnou právní platnost jako papírové.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Dija trvale změnila, jak většina vyřizuje doklady a úřady.",
+    "B": "Diju používá většina populace; právní rovnocennost dokladů zná poučenější čtenář.",
+    "C": "Dija vysvětluje digitalizaci státu, která změnila každodenní úřadování."
+   }
+  },
+  {
+   "key": "UA|2020|food|McDonald's po začátku invaze v únoru 2022 uzavřel všech 109 poboček v zemi; když v září 2022 tři kyjevské restaurace obnovily aspoň rozvoz, stály před nimi hodinové fronty.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Zavření McDonald's byla viditelná změna pro městskou menšinu zákazníků.",
+    "B": "Zavření McDonald's zaznamenali hlavně obyvatelé měst; hodinové fronty při návratu překvapí běžného čtenáře.",
+    "C": "Zavření a návrat McDonald's s frontami vypráví o touze po normalitě."
+   }
+  },
+  {
+   "key": "UA|2020|food|Poté, co podnik Artemsil v Soledaru, největší producent soli v Evropě, v dubnu 2022 kvůli ostřelování zastavil těžbu, dovážela se kuchyňská sůl mimo jiné z Turecka a Rumunska.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Výpadek Artemsilu krátkodobě proměnil dostupnost a původ soli v obchodech.",
+    "B": "Zdražení a shánění soli 2022 lidé pamatují; Artemsil jako největší evropský producent překvapí i sečtělé.",
+    "C": "Výpadek domácí soli ukazuje, jak válka konkrétně proměnila obyčejný nákup."
+   }
+  },
+  {
+   "key": "UA|2020|food|UNESCO zapsalo v roce 2022 kulturu vaření ukrajinského boršče na seznam nehmotného kulturního dědictví vyžadujícího naléhavou ochranu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Zápis boršče do UNESCO je symbolický; jídelníček nezměnil.",
+    "B": "Zápis boršče do UNESCO byl široce slavená zpráva; zná ji čtenář novin i zájemce.",
+    "C": "Zápis boršče do UNESCO nese příběh kulturní identity v ohrožení."
+   }
+  },
+  {
+   "key": "UA|2020|government|Pandemii řídil stát takzvanou adaptivní karanténou: od dubna 2020 platila povinnost nosit na veřejných místech roušku, v listopadu 2020 vláda zkusila „víkendovou karanténu“ se zavřenými obchody a v lednu 2021 přišel zhruba třítýdenní lockdown.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Karantény a roušky změnily veřejný život většiny domácností na měsíce.",
+    "B": "Karantény a roušky zažili všichni; termín adaptivní karanténa zná poučenější čtenář.",
+    "C": "Adaptivní karanténa vysvětluje, jak stát konkrétně řídil pandemický každodenní život."
+   }
+  },
+  {
+   "key": "UA|2020|government|Po začátku ruské invaze 24. února 2022 vyhlásil prezident Volodymyr Zelenskyj válečný stav a všeobecnou mobilizaci; muži ve věku 18 až 60 let nesměli opustit zemi.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Válečný stav a mobilizace zásadně změnily život prakticky všech; důsledky trvalé.",
+    "B": "Mobilizace a zákaz vycestování jsou univerzální zkušenost i světově známý fakt.",
+    "C": "Válečný stav a mobilizace zásadně určily život každé rodiny; klíč k pochopení éry."
+   }
+  },
+  {
+   "key": "UA|2020|government|Válečný stav parlament od roku 2022 opakovaně prodlužoval po devadesáti dnech a celostátní volby se odkládaly, protože je ústava za válečného stavu zakazuje.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Prodlužování válečného stavu a odklad voleb dlouhodobě rámovaly veřejný život.",
+    "B": "Odklady voleb lidé vnímají; ústavní mechanismus prodlužování zná poučený čtenář.",
+    "C": "Vysvětluje ústavní mechanismus prodlužování válečného stavu a odkladu voleb."
+   }
+  },
+  {
+   "key": "UA|2020|illnesses|Na psychické dopady války odpovídal od května 2022 celostátní program duševního zdraví „Ty jak?“ („Jak se máš?“) iniciovaný Olenou Zelenskou s podporou WHO; ministerstvo zdravotnictví odhadovalo, že se válečný stres může dotknout asi 15 milionů lidí.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní program duševního zdraví; dopad na rutinu obtížně doložitelný, skóruji střízlivě.",
+    "B": "Program „Ty jak?“ zná značná část; odhad 15 milionů zasažených překvapí i sečtělé.",
+    "C": "Program duševního zdraví vysvětluje rozsah a řešení psychických dopadů války."
+   }
+  },
+  {
+   "key": "UA|2020|illnesses|Očkování proti covidu-19 začalo 24. února 2021 dodávkou půl milionu dávek vakcíny AstraZeneca; do září 2021 bylo očkováno přibližně 18 procent dospělých.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Očkovací kampaň se dotkla menšiny dospělých; význam jednotek let.",
+    "B": "Start očkování lidé zažili; nízkých 18 procent do září běžného čtenáře překvapí.",
+    "C": "Průběh a nízké tempo očkování vypovídá o zdravotní realitě dekády."
+   }
+  },
+  {
+   "key": "UA|2020|illnesses|První případ covidu-19 v zemi potvrdili 3. března 2020 v Černovické oblasti u muže, který se vracel z Itálie.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "První potvrzený případ je milník; sám o sobě den nezměnil.",
+    "B": "První případ covidu si pamatuje značná část; detail o Černovcích zná zájemce.",
+    "C": "Datum prvního případu je dílčí fakt bez vysvětlujícího mechanismu."
+   }
+  },
+  {
+   "key": "UA|2020|money|Národní banka po invazi zafixovala kurz na 29,25 hřivny za dolar a v červenci 2022 měnu devalvovala na 36,57 hřivny za dolar.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Fixace a devalvace kurzu promítla do cen pro většinu domácností.",
+    "B": "Fixaci a devalvaci kurzu pocítila většina; přesné hodnoty zná poučený čtenář.",
+    "C": "Fixace a devalvace kurzu nese kus ekonomického příběhu války."
+   }
+  },
+  {
+   "key": "UA|2020|money|Od 19. prosince 2021 stát vyplácel plně očkovaným v programu „jePidtrymka“ přes aplikaci Dija 1 000 hřiven, které šlo utratit za knihy, kino, divadlo, muzea, koncerty, sport nebo dopravu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 1,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Tisíc hřiven pro očkované byla dočasná pobídka pro část lidí.",
+    "B": "Tisícovku za očkování čerpaly miliony; omezení na kulturu překvapí běžného čtenáře mimo UA.",
+    "C": "Očkovací tisícovka přes Diju ukazuje konkrétní motivaci státu v každodenním životě."
+   }
+  },
+  {
+   "key": "UA|2020|money|Spotřebitelská inflace dosáhla v roce 2022 hodnoty 26,6 procenta, méně než očekávaných zhruba 30 procent; k mírnějšímu růstu cen přispělo i zmrazení tarifů za energie pro domácnosti.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Inflace 26,6 % zdražila nákupy prakticky všem po celý rok i déle.",
+    "B": "Válečnou inflaci pocítili všichni, přesné číslo méně; mírnější než čekaný růst překvapí.",
+    "C": "Válečná inflace a zmrazené tarify vysvětlují tlak na rodinné rozpočty."
    }
   }
  ]

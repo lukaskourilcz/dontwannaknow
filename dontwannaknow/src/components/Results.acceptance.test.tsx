@@ -72,4 +72,12 @@ describe("acceptance: Praha 1953 a Charkov 1991", () => {
       .filter((item) => item.relevance);
     expect(scored.length).toBeGreaterThan(5);
   });
+
+  it("fills the 1991 Kharkiv everyday chapters with real decade texture, not fallbacks", () => {
+    for (const chapterId of ["everyday-day", "different-from-today"] as const) {
+      const chapter = kharkivReport.chapters.find((candidate) => candidate.id === chapterId)!;
+      const realItems = chapter.items.filter((item) => !item.id.startsWith("fallback-"));
+      expect(realItems.length, chapterId).toBeGreaterThanOrEqual(4);
+    }
+  });
 });

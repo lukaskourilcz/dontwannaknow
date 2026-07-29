@@ -658,5 +658,765 @@
       3,
       4
     ]
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "name": "Sofija Rotaru",
+    "role": "zpěvačka",
+    "note": "V roce 1985 nazpívala s Jaakem Joalou píseň Lavanda, s níž se přiklonila k evropskému popu.",
+    "rel": [
+      3,
+      2,
+      5,
+      2,
+      3,
+      2
+    ],
+    "src": {
+      "t": "Sofia Rotaru",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Sofia_Rotaru"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "name": "Serhij Bubka",
+    "role": "tyčkař",
+    "note": "13. července 1985 v Paříži jako první tyčkař překonal šest metrů a na hrách v Soulu 1988 získal olympijské zlato.",
+    "rel": [
+      3,
+      2,
+      5,
+      2,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Sergey Bubka",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Sergey_Bubka"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "name": "Oleh Blochin",
+    "role": "fotbalista",
+    "note": "Nejlepší střelec historie sovětské ligy s 211 góly skóroval i ve vítězném finále Poháru vítězů pohárů 1986.",
+    "rel": [
+      3,
+      2,
+      5,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Oleh Blokhin",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Oleh_Blokhin"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "name": "Valerij Lobanovskyj",
+    "role": "fotbalový trenér",
+    "note": "Dovedl Dynamo Kyjev k vítězství v Poháru vítězů pohárů 1986 a sbornou SSSR do finále mistrovství Evropy 1988.",
+    "rel": [
+      3,
+      2,
+      5,
+      2,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Valeriy Lobanovskyi",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Valeriy_Lobanovskyi"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "name": "Lina Kostenko",
+    "role": "básnířka",
+    "note": "Za veršovaný román Marusja Čuraj a sbírku Neopakovatelnost obdržela v roce 1987 Ševčenkovu cenu.",
+    "rel": [
+      3,
+      1,
+      3,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Lina Kostenko",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Lina_Kostenko"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "name": "Mykola Amosov",
+    "role": "kardiochirurg",
+    "note": "Jeho kyjevská klinika se v roce 1983 změnila ve Výzkumný ústav kardiovaskulární chirurgie, který jako první ředitel vedl.",
+    "rel": [
+      3,
+      1,
+      4,
+      3,
+      4,
+      2
+    ],
+    "src": {
+      "t": "Nikolai Amosov",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Nikolai_Amosov"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "name": "Nazarij Jaremčuk",
+    "role": "zpěvák",
+    "note": "Od roku 1982 vedl soubor Smerička z Černovic a v roce 1987 obdržel titul národního umělce.",
+    "rel": [
+      3,
+      1,
+      4,
+      3,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Nazariy Yaremchuk",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Nazariy_Yaremchuk"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "name": "Viktor Petrenko",
+    "role": "krasobruslař",
+    "note": "Rodák z Oděsy získal na zimních olympijských hrách v Calgary 1988 bronzovou medaili.",
+    "rel": [
+      3,
+      1,
+      3,
+      3,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Viktor Petrenko",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Viktor_Petrenko"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "name": "Oksana Bajulová",
+    "role": "krasobruslařka",
+    "note": "Na olympiádě v Lillehammeru 1994 získala zlato a stala se první olympijskou vítězkou samostatné Ukrajiny.",
+    "rel": [
+      3,
+      2,
+      4,
+      3,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Oksana Baiul",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Oksana_Baiul"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "name": "Serhij Bubka",
+    "role": "tyčkař",
+    "note": "Celkem 35krát překonal světový rekord ve skoku o tyči; jeho venkovních 6,14 m z roku 1994 vydrželo až do roku 2020.",
+    "rel": [
+      3,
+      2,
+      5,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Sergey Bubka",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Sergey_Bubka"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "name": "Andrij Ševčenko",
+    "role": "fotbalista",
+    "note": "S Dynamem Kyjev vyhrál pět ligových titulů, v Lize mistrů 1997/98 vstřelil hattrick na hřišti Barcelony a v roce 1999 přestoupil do AC Milán.",
+    "rel": [
+      3,
+      2,
+      5,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Andriy Shevchenko",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Andriy_Shevchenko"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "name": "Vladimir Kličko",
+    "role": "boxer",
+    "note": "Na olympijských hrách v Atlantě 1996 vybojoval pro Ukrajinu zlato v supertěžké váze.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Wladimir Klitschko",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Wladimir_Klitschko"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "name": "Oksana Zabužko",
+    "role": "spisovatelka",
+    "note": "Její román Polní výzkum ukrajinského sexu (1996) vyvolal rozruch a v pozdější anketě byl označen za knihu, která nejvíce ovlivnila ukrajinskou společnost let nezávislosti.",
+    "rel": [
+      3,
+      2,
+      3,
+      3,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Oksana Zabuzhko",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Oksana_Zabuzhko"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "name": "Jurij Andruchovyč",
+    "role": "spisovatel",
+    "note": "Spoluzakladatel literární skupiny Bu-Ba-Bu vydal v 90. letech romány Rekreace (1992), Moskoviáda (1993) a Perverze (1996).",
+    "rel": [
+      3,
+      1,
+      2,
+      3,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Yuri Andrukhovych",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Yuri_Andrukhovych"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "name": "Iryna Bilyk",
+    "role": "zpěvačka",
+    "note": "V polovině 90. let patřila k nejpopulárnějším ukrajinským zpěvačkám a jejího alba Farby (1997) se na Ukrajině prodalo přes milion kusů.",
+    "rel": [
+      3,
+      2,
+      4,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Iryna Bilyk",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Iryna_Bilyk"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "name": "Borys Paton",
+    "role": "vědec",
+    "note": "Ředitel kyjevského Ústavu elektrického svařování a dlouholetý prezident akademie věd se v roce 1998 stal prvním nositelem titulu Hrdina Ukrajiny.",
+    "rel": [
+      3,
+      1,
+      3,
+      3,
+      3,
+      2
+    ],
+    "src": {
+      "t": "Borys Paton",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Borys_Paton"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "name": "Ruslana",
+    "role": "zpěvačka",
+    "note": "V roce 2004 vyhrála v Istanbulu Eurovizi s písní „Wild Dances“ a získala tehdy rekordních 280 bodů.",
+    "rel": [
+      3,
+      3,
+      5,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Ruslana",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Ruslana"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "name": "Andrij Ševčenko",
+    "role": "fotbalista",
+    "note": "Útočník AC Milán získal v roce 2004 Zlatý míč a v roce 2006 dovedl ukrajinskou reprezentaci do čtvrtfinále mistrovství světa.",
+    "rel": [
+      3,
+      2,
+      5,
+      1,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Andriy Shevchenko",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Andriy_Shevchenko"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "name": "Vladimir Kličko",
+    "role": "boxer",
+    "note": "V roce 2006 porazil Chrise Byrda a získal titul mistra světa IBF v těžké váze, v roce 2008 přidal pás organizace WBO.",
+    "rel": [
+      3,
+      2,
+      5,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Wladimir Klitschko",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Wladimir_Klitschko"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "name": "Jana Kločkovová",
+    "role": "plavkyně",
+    "note": "Na olympiádách v Sydney 2000 a v Athénách 2004 vyhrála čtyřikrát polohové závody na 200 a 400 metrů.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Yana Klochkova",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Yana_Klochkova"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "name": "Svjatoslav Vakarčuk",
+    "role": "zpěvák",
+    "note": "S rockovou skupinou Okean Elzy vydal alba Supersymetrija (2003) a Gloria (2005) a objel s nimi turné po desítkách měst.",
+    "rel": [
+      3,
+      2,
+      5,
+      1,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Okean Elzy",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Okean_Elzy"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "name": "Serhij Žadan",
+    "role": "spisovatel",
+    "note": "Charkovský básník a prozaik vydal romány Depeche Mode (2004) a Anarchy in the UKR (2005).",
+    "rel": [
+      3,
+      0,
+      2,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Serhiy Zhadan",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Serhiy_Zhadan"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "name": "Ani Lorak",
+    "role": "zpěvačka",
+    "note": "Na Eurovizi 2008 v Bělehradě obsadila s písní „Shady Lady“ druhé místo.",
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      2
+    ],
+    "src": {
+      "t": "Ani Lorak",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Ani_Lorak"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "name": "Andrij Danylko",
+    "role": "bavič",
+    "note": "Jeho scénická postava Verka Serduchka získala v roce 2007 na Eurovizi druhé místo s 235 body.",
+    "rel": [
+      3,
+      1,
+      5,
+      1,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Verka Serduchka",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Verka_Serduchka"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "name": "Jamala",
+    "role": "zpěvačka",
+    "note": "V roce 2016 vyhrála Eurovision Song Contest s písní 1944 o deportaci krymských Tatarů, inspirovanou osudem vlastní rodiny.",
+    "rel": [
+      3,
+      2,
+      5,
+      1,
+      3,
+      5
+    ],
+    "src": {
+      "t": "Jamala",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Jamala"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "name": "Vasyl Lomačenko",
+    "role": "boxer",
+    "note": "Po olympijských zlatech z let 2008 a 2012 získal jako profesionál tituly ve třech váhových kategoriích v rekordních dvanácti zápasech.",
+    "rel": [
+      3,
+      1,
+      3,
+      3,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Vasyl Lomachenko",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Vasyl_Lomachenko"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "name": "Elina Svitolinová",
+    "role": "tenistka",
+    "note": "V září 2017 se stala světovou trojkou, nejvýše postavenou ukrajinskou tenistkou historie, a v roce 2018 vyhrála Turnaj mistryň.",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Elina Svitolina",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Elina_Svitolina"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "name": "Vladimir Kličko",
+    "role": "boxer",
+    "note": "Jeho rekordně dlouhá vláda šampiona těžké váhy (4 382 dní) skončila porážkou od Tysona Furyho v listopadu 2015.",
+    "rel": [
+      3,
+      1,
+      5,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wladimir Klitschko",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Wladimir_Klitschko"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "name": "Serhij Žadan",
+    "role": "spisovatel",
+    "note": "Jeho román Vorošylovhrad získal cenu BBC Ukrajinská kniha roku 2010 a v roce 2014 titul Kniha desetiletí.",
+    "rel": [
+      3,
+      0,
+      3,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Serhiy Zhadan",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Serhiy_Zhadan"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "name": "Oksana Zabužko",
+    "role": "spisovatelka",
+    "note": "Její román Muzeum opuštěných tajemství (2009) o třech epochách ukrajinských dějin získal v roce 2013 středoevropskou cenu Angelus.",
+    "rel": [
+      3,
+      0,
+      2,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Oksana Zabuzhko",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Oksana_Zabuzhko"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "name": "Oleh Verňajev",
+    "role": "gymnasta",
+    "note": "Na hrách v Riu 2016 vybojoval zlato na bradlech, první ukrajinské gymnastické zlato od roku 2004, a přidal stříbro ve víceboji.",
+    "rel": [
+      3,
+      1,
+      2,
+      3,
+      1,
+      2
+    ],
+    "src": {
+      "t": "Oleg Verniaiev",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Oleg_Verniaiev"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "name": "Myroslav Slabošpyckyj",
+    "role": "režisér",
+    "note": "Jeho film Kmen (2014), natočený celý v ukrajinském znakovém jazyce bez titulků, získal hlavní cenu Týdne kritiky v Cannes.",
+    "rel": [
+      3,
+      0,
+      1,
+      4,
+      2,
+      3
+    ],
+    "src": {
+      "t": "The Tribe (2014 film)",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/The_Tribe_(2014_film)"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "name": "Oleksandr Usyk",
+    "role": "boxer",
+    "note": "V květnu 2024 porazil v Rijádu Tysona Furyho a stal se prvním absolutním mistrem světa v těžké váze éry čtyř pásů.",
+    "rel": [
+      3,
+      1,
+      5,
+      1,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Oleksandr Usyk",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Oleksandr_Usyk"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "name": "Elina Svitolinová",
+    "role": "tenistka",
+    "note": "Na olympijských hrách v Tokiu získala v roce 2021 první ukrajinskou tenisovou medaili a v roce 2023 postoupila po mateřské pauze do semifinále Wimbledonu.",
+    "rel": [
+      3,
+      1,
+      4,
+      2,
+      1,
+      2
+    ],
+    "src": {
+      "t": "Elina Svitolina",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Elina_Svitolina"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "name": "Jaroslava Mahučichová",
+    "role": "výškařka",
+    "note": "V červenci 2024 překonala v Paříži světový rekord ve skoku vysokém výkonem 2,10 metru a na hrách v Paříži 2024 získala olympijské zlato.",
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Yaroslava Mahuchikh",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Yaroslava_Mahuchikh"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "name": "Serhij Žadan",
+    "role": "spisovatel",
+    "note": "Charkovský básník a prozaik, autor románu Internát, obdržel v roce 2022 Mírovou cenu německých knihkupců.",
+    "rel": [
+      3,
+      0,
+      4,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Serhiy Zhadan",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Serhiy_Zhadan"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "name": "Mstyslav Černov",
+    "role": "dokumentarista",
+    "note": "Jeho film 20 dní v Mariupolu získal v březnu 2024 Oscara za nejlepší celovečerní dokument; v roce 2023 sdílel s kolegy z agentury AP Pulitzerovu cenu za veřejnou službu.",
+    "rel": [
+      3,
+      1,
+      4,
+      2,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Mstyslav Chernov",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Mstyslav_Chernov"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "name": "Oleh Psjuk",
+    "role": "rapper",
+    "note": "Frontman skupiny Kalush Orchestra, která v roce 2022 vyhrála Eurovizi s písní „Stefania“; vítěznou trofej kapela vydražila za 900 000 dolarů na nákup dronů.",
+    "rel": [
+      3,
+      2,
+      5,
+      2,
+      2,
+      4
+    ],
+    "src": {
+      "t": "Kalush Orchestra",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Kalush_Orchestra"
+    }
   }
 ]

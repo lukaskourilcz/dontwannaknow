@@ -1874,5 +1874,2285 @@
       3,
       3
     ]
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "government",
+    "text": "Komunistickou stranu Ukrajiny vedl v letech 1972–1989 Volodymyr Ščerbyckyj, věrný Moskvě; stranická jednání se za něj vedla v ruštině a ukrajinské školství se dále rusifikovalo.",
+    "rel": [
+      4,
+      3,
+      4,
+      2,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Volodymyr Shcherbytsky",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Volodymyr_Shcherbytsky"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "government",
+    "text": "Havárii černobylské elektrárny z 26. dubna 1986 úřady veřejně přiznaly až 28. dubna a prvomájový průvod v Kyjevě se navzdory spadu konal, pouze ve zkrácené podobě.",
+    "rel": [
+      4,
+      4,
+      5,
+      2,
+      5,
+      5
+    ],
+    "src": {
+      "t": "Chernobyl disaster",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Chernobyl_disaster"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "government",
+    "text": "V září 1989 se v Kyjevě ustavil Ruch (Národní hnutí Ukrajiny za přestavbu), první masové opoziční hnutí vedle komunistické strany, které později sehrálo roli při obnovení nezávislosti.",
+    "rel": [
+      4,
+      2,
+      3,
+      2,
+      4,
+      4
+    ],
+    "src": {
+      "t": "People's Movement of Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/People%27s_Movement_of_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "clothes",
+    "text": "Školáci vstupovali mezi 9. a 14. rokem do pionýrské organizace a k jejímu stejnokroji patřil červený šátek uvazovaný ke školní uniformě.",
+    "rel": [
+      4,
+      4,
+      5,
+      1,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Vladimir Lenin All-Union Pioneer Organization",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Vladimir_Lenin_All-Union_Pioneer_Organization"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "clothes",
+    "text": "Západní oblečení se do státních obchodů téměř nedostávalo, a tak se shánělo přes překupníky zvané farcovščiki; oděvy a módní doplňky tvořily většinu tohoto černého trhu.",
+    "rel": [
+      3,
+      3,
+      4,
+      3,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Fartsovka",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Fartsovka"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "clothes",
+    "text": "V mnoha domácnostech se šilo podle papírových střihů; v roce 1987 začal v Sovětském svazu jako první západní časopis vycházet Burda Moden, známý právě střihovými přílohami.",
+    "rel": [
+      3,
+      3,
+      4,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Burda Style",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Burda_Style"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "illnesses",
+    "text": "Po havárii v Černobylu přibývalo u dětí zasažených radioaktivním jódem onemocnění štítné žlázy; do roku 2005 bylo v postižených oblastech zaznamenáno na 6 000 případů dětské rakoviny štítné žlázy, z velké části připisovaných havárii.",
+    "rel": [
+      4,
+      2,
+      4,
+      2,
+      5,
+      4
+    ],
+    "src": {
+      "t": "Chernobyl disaster",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Chernobyl_disaster"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "illnesses",
+    "text": "Zdravotní péče byla bezplatná a dostupná ve státních poliklinikách, nemocnicím však v 80. letech chyběly léky, přístroje i diagnostika a řada budov potřebovala rekonstrukci.",
+    "rel": [
+      4,
+      3,
+      4,
+      1,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Healthcare in the Soviet Union",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Healthcare_in_the_Soviet_Union"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "illnesses",
+    "text": "Odbory přidělovaly pracujícím poukazy zvané putěvky na pobyty v sanatoriích a lázních a jejich cenu zčásti nebo zcela hradily.",
+    "rel": [
+      3,
+      3,
+      4,
+      3,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Sanatorium",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Sanatorium"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "dailyLife",
+    "text": "Kyjevské metro se v 80. letech rozrůstalo: v prosinci 1980 přibyly stanice na Obolonu a 31. prosince 1989 se otevřel první úsek třetí linky se stanicemi Zoloti vorota, Palac sportu a Klovska.",
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      2
+    ],
+    "src": {
+      "t": "Kyiv Metro",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Kyiv_Metro"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "dailyLife",
+    "text": "Nová sídliště se stavěla jako mikrorajony z prefabrikovaných panelových domů, kde podle norem neměly být jesle, škola ani obchody dále než 500 metrů od bydliště.",
+    "rel": [
+      4,
+      4,
+      4,
+      3,
+      5,
+      4
+    ],
+    "src": {
+      "t": "Microdistrict",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Microdistrict"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "dailyLife",
+    "text": "Večer ve 21 hodin se v mnoha domácnostech zapínaly televizní noviny Vremja; v 80. letech byla televize hlavním zdrojem zpráv pro 86 % sovětských dospělých.",
+    "rel": [
+      3,
+      4,
+      5,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Vremya",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Vremya"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "food",
+    "text": "Základem jídelníčku zůstávaly boršč, vareniky podávané se zakysanou smetanou a chléb, k němuž se přikusovalo i solené salo.",
+    "rel": [
+      4,
+      4,
+      5,
+      0,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Ukrainian cuisine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Ukrainian_cuisine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "food",
+    "text": "Vedle státních obchodů fungovaly kolchozní trhy, kde se přebytky ze záhumenků prodávaly za volné ceny; soukromé záhumenky dávaly místy až 30 % zemědělské produkce.",
+    "rel": [
+      4,
+      4,
+      4,
+      3,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Agriculture in the Soviet era",
+      "p": "Facts and Details",
+      "u": "https://factsanddetails.com/russia/Economics_Business_Agriculture/sub9_7e/entry-5179.html"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "food",
+    "text": "Během protialkoholní kampaně po roce 1985 rostla domácí výroba samohonu a cukr, potřebný ke kvašení, se z regálů obchodů rychle ztrácel.",
+    "rel": [
+      3,
+      4,
+      4,
+      2,
+      2,
+      4
+    ],
+    "src": {
+      "t": "Gorbachev's anti-alcohol campaign in 1985",
+      "p": "allperestroika.ru",
+      "u": "https://allperestroika.ru/en/soviet-anti-alcohol-campaign-1985.html"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "money",
+    "text": "Běžný dělník si v polovině 80. let vydělal kolem 210 rublů měsíčně, zatímco pracovníci v kultuře brali zhruba 123 rublů a lodní dopravci až 287 rublů.",
+    "rel": [
+      3,
+      3,
+      4,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Workers in Russia",
+      "p": "Facts and Details",
+      "u": "https://factsanddetails.com/russia/Economics_Business_Agriculture/sub9_7c/entry-5174.html"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "money",
+    "text": "Nedostatek zboží patřil ke každodennosti plánované ekonomiky; jakmile se žádanější výrobky objevily v prodeji, stávaly se na ně dlouhé fronty.",
+    "rel": [
+      3,
+      5,
+      5,
+      0,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Economy of the Soviet Union",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Economy_of_the_Soviet_Union"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "money",
+    "text": "Na nový automobil se čekalo v pořadnících i řadu let; velká část produkce vozů Volha byla navíc vyhrazena státním a stranickým institucím.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      2,
+      4
+    ],
+    "src": {
+      "t": "Automotive industry in the Soviet Union",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Automotive_industry_in_the_Soviet_Union"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "bizarre",
+    "text": "Od 9. října 1989 vysílala ústřední televize seance psychoterapeuta Anatolije Kašpirovského, který diváky u obrazovek na dálku „léčil“ a uváděl je do hromadného transu.",
+    "rel": [
+      3,
+      2,
+      5,
+      3,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Anatoly Kashpirovsky",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Anatoly_Kashpirovsky"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "bizarre",
+    "text": "V kapse se pro jistotu nosila složená síťová taška avoska; název vychází z ruského „avos'“, tedy „třeba se poštěstí“, kdyby se v obchodě zrovna něco objevilo.",
+    "rel": [
+      3,
+      3,
+      5,
+      2,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Avoska",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Avoska"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "bizarre",
+    "text": "V létě se na ulicích prodával kvas, mírně perlivý nápoj z kvašeného žitného chleba, čepovaný přímo z velkých pouličních nádob.",
+    "rel": [
+      3,
+      2,
+      5,
+      1,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Kvass",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Kvass"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "beautiful",
+    "text": "2. května 1986 porazilo Dynamo Kyjev v Lyonu Atlético Madrid 3:0 a získalo Pohár vítězů pohárů; branky vstřelili Zavarov, Blochin a Jevtušenko.",
+    "rel": [
+      4,
+      2,
+      4,
+      2,
+      1,
+      3
+    ],
+    "src": {
+      "t": "1986 European Cup Winners' Cup final",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/1986_European_Cup_Winners%27_Cup_final"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "beautiful",
+    "text": "Poukaz do pionýrského tábora Artek na krymském pobřeží Černého moře patřil k ceněným odměnám; táborem s vlastním stadionem i filmovým studiem prošlo ročně až 27 000 dětí.",
+    "rel": [
+      4,
+      1,
+      4,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Artek (camp)",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Artek_(camp)"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1980,
+    "bucket": "beautiful",
+    "text": "Symbolem Kyjeva byl kaštan: list jírovce nesl městský znak zavedený v roce 1969 a od roku 1973 se strom počítal k oficiálním symbolům města.",
+    "rel": [
+      5,
+      1,
+      3,
+      3,
+      4,
+      2
+    ],
+    "src": {
+      "t": "Coat of arms of Kyiv",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Kyiv"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "government",
+    "text": "V referendu 1. prosince 1991 podpořilo nezávislost Ukrajiny 92 % hlasujících při účasti 84 % a prvním prezidentem byl týž den zvolen Leonid Kravčuk.",
+    "rel": [
+      4,
+      3,
+      5,
+      1,
+      5,
+      5
+    ],
+    "src": {
+      "t": "1991 Ukrainian independence referendum",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/1991_Ukrainian_independence_referendum"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "government",
+    "text": "Budapešťským memorandem z 5. prosince 1994 se Ukrajina vzdala třetího největšího jaderného arzenálu světa výměnou za bezpečnostní ujištění Ruska, USA a Velké Británie.",
+    "rel": [
+      3,
+      0,
+      3,
+      2,
+      5,
+      4
+    ],
+    "src": {
+      "t": "Budapest Memorandum",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Budapest_Memorandum"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "government",
+    "text": "Vlastní ústavu přijal parlament po celonočním jednání 28. června 1996 hlasy 315 ze 450 poslanců; Ukrajina byla posledním postsovětským státem, který si ústavu dal.",
+    "rel": [
+      3,
+      1,
+      3,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Constitution of Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Constitution_of_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "clothes",
+    "text": "K poznávacím znakům desetiletí patřily turecké svetry, džíny doma „vařené“ v bělicím prostředku, kožené bundy a sportovní soupravy Adidas.",
+    "rel": [
+      3,
+      3,
+      5,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Мода на межі епох: як українці одягалися в перші роки незалежності",
+      "p": "Телеграф",
+      "u": "https://news.telegraf.com.ua/ukr/ukraina/2024-12-07/5889264-moda-na-mezhi-epokh-yak-ukraintsi-odyagalisya-v-pershi-roki-nezalezhnosti"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "clothes",
+    "text": "Ze západní Evropy se začalo dovážet darované obnošené oblečení a vznikající trh se second handy zpřístupnil západní módu i lidem s malými příjmy.",
+    "rel": [
+      3,
+      3,
+      4,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Secondhand on the Front Lines",
+      "p": "Air Mail",
+      "u": "https://airmail.news/issues/2023-9-16/secondhand-on-the-front-lines"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "clothes",
+    "text": "V roce 1997 se v kyjevském Domě herce konal první ukrajinský týden módy, pořádaný tehdy jako přehlídka konfekce pod názvem Fashion Seasons.",
+    "rel": [
+      3,
+      1,
+      1,
+      3,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Ukrainian Fashion Week",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Ukrainian_Fashion_Week"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "illnesses",
+    "text": "Do země se vrátil záškrt: v roce 1991 hlásil Kyjev 372 případů, Lvov 190 a Charkov 129 a v polovině 90. let na epidemii odpověděly celostátní očkovací kampaně.",
+    "rel": [
+      3,
+      3,
+      3,
+      4,
+      2,
+      4
+    ],
+    "src": {
+      "t": "Diphtheria in the Former Soviet Union: Reemergence of a Pandemic Disease",
+      "p": "Centers for Disease Control and Prevention (Emerging Infectious Diseases)",
+      "u": "https://wwwnc.cdc.gov/eid/article/4/4/98-0404_article"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "illnesses",
+    "text": "U dětí zasažených černobylskou havárií přibývaly během 90. let případy rakoviny štítné žlázy; radioaktivní jod-131 se do těla dostával především mlékem.",
+    "rel": [
+      3,
+      3,
+      3,
+      3,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Effects of the Chernobyl disaster",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Effects_of_the_Chernobyl_disaster"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "illnesses",
+    "text": "Do roku 1995 bylo na Ukrajině známo jen několik případů HIV, poté se rozběhla prudká epidemie šířená zprvu hlavně mezi injekčními uživateli drog.",
+    "rel": [
+      3,
+      2,
+      2,
+      3,
+      5,
+      3
+    ],
+    "src": {
+      "t": "HIV/AIDS in Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/HIV/AIDS_in_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "dailyLife",
+    "text": "Nákupy se přesunuly na rozlehlá tržiště; trh Sedmý kilometr u Oděsy, kde se prodávalo z lodních kontejnerů, se rozrostl v jedno z největších tržišť v Evropě.",
+    "rel": [
+      3,
+      4,
+      4,
+      3,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Seventh-Kilometer Market",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Seventh-Kilometer_Market"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "dailyLife",
+    "text": "Upadající městskou dopravu doplnily soukromé mikrobusy zvané maršrutky; jejich rozmach urychlil od roku 1996 levný a snadno opravitelný minibus GAZela za zhruba 8 000 dolarů.",
+    "rel": [
+      3,
+      4,
+      5,
+      3,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Marshrutka",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Marshrutka"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "dailyLife",
+    "text": "K večernímu rytmu domácností patřily první zahraniční telenovely; mexický seriál Bohatí také pláčou, vysílaný v letech 1991–1992, sledovala velká část země.",
+    "rel": [
+      3,
+      3,
+      5,
+      2,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Los ricos también lloran",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Los_ricos_tambi%C3%A9n_lloran"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "food",
+    "text": "Od roku 1990 mířily do obchodů americké mražené kuřecí čtvrtky, kterým se podle prezidenta George Bushe staršího říkalo „Bushovy nožky“.",
+    "rel": [
+      3,
+      3,
+      5,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Bush legs",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Bush_legs"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "food",
+    "text": "Brambory vypěstované na zahrádkách u dač zachránily mnoho rodin před hladem a ovoce s bobulemi pomáhalo doplnit chybějící vitamíny.",
+    "rel": [
+      3,
+      5,
+      5,
+      1,
+      2,
+      4
+    ],
+    "src": {
+      "t": "Dacha",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Dacha"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "food",
+    "text": "Už od listopadu 1990 dostávali obyvatelé jednorázové kupony, bez nichž nešlo v obchodech nakoupit potraviny a další základní zboží.",
+    "rel": [
+      3,
+      5,
+      4,
+      3,
+      2,
+      4
+    ],
+    "src": {
+      "t": "Ukrainian karbovanets",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Ukrainian_karbovanets"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "money",
+    "text": "V lednu 1992 nahradil rubl kupónový karbovanec, zamýšlený jako přechodná měna, který se však rychle znehodnocoval.",
+    "rel": [
+      3,
+      5,
+      5,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Ukrainian karbovanets",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Ukrainian_karbovanets"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "money",
+    "text": "V roce 1993 dosáhla inflace přibližně 4 735 % a hospodářský propad patřil k nejhlubším mezi bývalými sovětskými republikami.",
+    "rel": [
+      3,
+      5,
+      5,
+      3,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Economy of Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Economy_of_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "money",
+    "text": "Měnová reforma v září 1996 vyměnila karbovance za hřivny v poměru 100 000 : 1 a během šestnácti dnů stáhla z oběhu asi 97 % staré měny.",
+    "rel": [
+      3,
+      4,
+      5,
+      3,
+      5,
+      3
+    ],
+    "src": {
+      "t": "Hryvnia",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Hryvnia"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "bizarre",
+    "text": "Dvoukolový nákupní vozík, s nímž drobní obchodníci vozili zboží z Polska a Turecka, dostal lidový název „kravčučka“ podle prezidenta Leonida Kravčuka.",
+    "rel": [
+      3,
+      2,
+      5,
+      3,
+      2,
+      4
+    ],
+    "src": {
+      "t": "Kravchuchka",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Kravchuchka"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "bizarre",
+    "text": "Inflace došla tak daleko, že se v roce 1995 dostala do oběhu bankovka v hodnotě jednoho milionu karbovanců, zdobená pomníkem Tarase Ševčenka.",
+    "rel": [
+      3,
+      2,
+      4,
+      3,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Ukrainian karbovanets",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Ukrainian_karbovanets"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "bizarre",
+    "text": "První hřivnové bankovky se vytiskly už v roce 1992 v Kanadě a čtyři roky pak čekaly ve skladech, než inflace klesla natolik, aby mohly do oběhu.",
+    "rel": [
+      3,
+      1,
+      1,
+      4,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Hryvnia",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Hryvnia"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "beautiful",
+    "text": "Na výročí sjednocení z roku 1919 vytvořili lidé 21. ledna 1990 živý řetěz dlouhý asi 700 kilometrů z Ivano-Frankivska přes Lvov do Kyjeva; oficiálně se ho účastnilo na 450 tisíc lidí.",
+    "rel": [
+      3,
+      2,
+      3,
+      3,
+      3,
+      4
+    ],
+    "src": {
+      "t": "How Ukrainians created human chain in late USSR to mark anniversary of Ukraine's unification",
+      "p": "Euromaidan Press",
+      "u": "https://euromaidanpress.com/2020/01/22/how-ukrainians-created-human-chain-in-late-ussr-to-mark-anniversary-of-ukraines-unification-archival-photographs/"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "beautiful",
+    "text": "Festival ukrajinsky zpívané hudby Červona ruta putoval každé dva roky po zemi — od Záporoží 1991 po Dnipropetrovsk 1999 — a pomáhal objevovat novou domácí scénu.",
+    "rel": [
+      3,
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Chervona Ruta (festival)",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Chervona_Ruta_(festival)"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 1990,
+    "bucket": "beautiful",
+    "text": "Od roku 1995 vysílala stanice ICTV první ukrajinskou televizní hitparádu Terytorija A, která pomohla k popularitě interpretům jako Iryna Bilyk nebo Oleksandr Ponomarjov.",
+    "rel": [
+      3,
+      2,
+      4,
+      3,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Територія А",
+      "p": "Wikipedia",
+      "u": "https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D1%80%D0%B8%D1%82%D0%BE%D1%80%D1%96%D1%8F_%D0%90"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "government",
+    "text": "V roce 2000 otřásla zemí vražda novináře Heorhije Gongadzeho a zveřejněné nahrávky majora Melnyčenka, které naznačovaly zapojení prezidenta Kučmy; následovaly protesty hnutí „Ukrajina bez Kučmy“.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Cassette Scandal",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Cassette_Scandal"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "government",
+    "text": "Po zfalšovaném druhém kole prezidentských voleb v listopadu 2004 zaplnilo kyjevský Majdan stanové městečko oranžové revoluce; Nejvyšší soud výsledek zrušil a opakované hlasování 26. prosince 2004 vyhrál Viktor Juščenko.",
+    "rel": [
+      3,
+      4,
+      5,
+      1,
+      5,
+      5
+    ],
+    "src": {
+      "t": "Orange Revolution",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Orange_Revolution"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "government",
+    "text": "Plynové spory s Ruskem doléhaly i na domácnosti: v lednu 2009 byl tranzit plynu přes Ukrajinu na téměř dva týdny zastaven a část průmyslu musela dočasně omezit provoz.",
+    "rel": [
+      3,
+      3,
+      4,
+      2,
+      3,
+      4
+    ],
+    "src": {
+      "t": "2009 Russia–Ukraine gas dispute",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/2009_Russia%E2%80%93Ukraine_gas_dispute"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "clothes",
+    "text": "Oblečení se běžně kupovalo na velkých tržištích, jako byl Sedmý kilometr u Oděsy, kde se vedle levného asijského zboží prodávaly i napodobeniny západních značek.",
+    "rel": [
+      3,
+      4,
+      4,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Seventh-Kilometer Market",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Seventh-Kilometer_Market"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "clothes",
+    "text": "V roce 2006 dali studenti univerzity v Černivcích vzniknout Dni vyšyvanky; vyšívaná košile se postupně vracela do běžného šatníku a třetí květnový čtvrtek se začal slavit po celé zemi.",
+    "rel": [
+      3,
+      2,
+      3,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Vyshyvanka Day",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Vyshyvanka_Day"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "clothes",
+    "text": "V Kyjevě se od roku 1997 konal módní týden, od roku 2005 pod názvem Ukrainian Fashion Week, na kterém dvakrát ročně předváděli kolekce domácí návrháři.",
+    "rel": [
+      3,
+      1,
+      2,
+      3,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Ukrainian Fashion Week",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Ukrainian_Fashion_Week"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "illnesses",
+    "text": "Ukrajina se potýkala s jednou z nejrozsáhlejších epidemií HIV v Evropě; k roku 2007 žilo s virem odhadem kolem 440 000 lidí a nákaza se šířila zprvu hlavně mezi injekčními uživateli drog.",
+    "rel": [
+      3,
+      2,
+      2,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "HIV/AIDS in Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/HIV/AIDS_in_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "illnesses",
+    "text": "Tuberkulóza zůstávala vážným problémem veřejného zdraví; v letech 2004–2005 přesahovala nemocnost 127 případů na 100 000 obyvatel a šířily se multirezistentní formy nemoci.",
+    "rel": [
+      3,
+      2,
+      2,
+      3,
+      3,
+      3
+    ],
+    "src": {
+      "t": "World Tuberculosis Day: supporting Ukraine in scaling up TB diagnosis and treatment",
+      "p": "World Health Organization",
+      "u": "https://www.who.int/europe/news/item/23-03-2021-world-tuberculosis-day-supporting-ukraine-in-scaling-up-tb-diagnosis-and-treatment"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "illnesses",
+    "text": "Na přelomu října a listopadu 2009 zasáhla zemi pandemická chřipka H1N1: vláda na tři týdny zavřela školy, zakázala hromadné akce a devět oblastí vyhlásilo karanténu.",
+    "rel": [
+      3,
+      4,
+      4,
+      3,
+      1,
+      3
+    ],
+    "src": {
+      "t": "2009 swine flu pandemic in Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/2009_swine_flu_pandemic_in_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "dailyLife",
+    "text": "Mobilní telefon se během dekády změnil z drahé novinky v samozřejmost; jen operátor MTS (dřívější UMC) měl v listopadu 2009 kolem 17,7 milionu SIM karet.",
+    "rel": [
+      3,
+      5,
+      5,
+      2,
+      5,
+      3
+    ],
+    "src": {
+      "t": "Vodafone Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Vodafone_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "dailyLife",
+    "text": "Městskou dopravu z velké části obstarávaly maršrutky – soukromé mikrobusy jezdící po pevných trasách, do kterých se nastupovalo mávnutím u kraje silnice a vystupovalo na požádání.",
+    "rel": [
+      3,
+      4,
+      5,
+      1,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Marshrutka",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Marshrutka"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "dailyLife",
+    "text": "Internet pronikal do domácností pomalu: v roce 2000 jej používalo necelé jedno procento obyvatel, v roce 2009 už zhruba 18 procent, zpočátku hlavně přes vytáčené připojení a internetové kluby.",
+    "rel": [
+      3,
+      3,
+      4,
+      2,
+      5,
+      3
+    ],
+    "src": {
+      "t": "Internet in Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Internet_in_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "food",
+    "text": "Vedle tržišť rostly první velké řetězce; diskontní síť ATB z Dnipropetrovska otevírala ke konci dekády desítky prodejen ročně, jen v roce 2008 jich přibylo 75.",
+    "rel": [
+      3,
+      3,
+      4,
+      2,
+      4,
+      3
+    ],
+    "src": {
+      "t": "ATB-Market",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/ATB-Market"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "food",
+    "text": "Mnoho rodin dál pěstovalo brambory, okurky a rajčata na dačách a zahrádkách a na zimu si zavařovalo zásoby, jak bylo zvykem z hubených devadesátých let.",
+    "rel": [
+      3,
+      4,
+      5,
+      1,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Dacha",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Dacha"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "food",
+    "text": "Rychlé občerstvení zdomácnělo: McDonald's měl v roce 2002 v zemi 49 restaurací a pobočka u kyjevského hlavního nádraží patřila k celosvětově nejvytíženějším.",
+    "rel": [
+      3,
+      2,
+      4,
+      3,
+      3,
+      3
+    ],
+    "src": {
+      "t": "McDonald's Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/McDonald%27s_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "money",
+    "text": "Po krizových devadesátých letech přišlo oživení: rok 2000 byl prvním rokem hospodářského růstu od získání nezávislosti a do roku 2008 ekonomika rostla v průměru zhruba o sedm procent ročně.",
+    "rel": [
+      3,
+      4,
+      3,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Economy of Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Economy_of_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "money",
+    "text": "Hřivna se od dubna 2005 držela na pevném kurzu 5,05 za americký dolar, na podzim 2008 však během finanční krize oslabila až k 7,88 hřivny za dolar.",
+    "rel": [
+      3,
+      3,
+      4,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Ukrainian hryvnia",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Ukrainian_hryvnia"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "money",
+    "text": "Běžnou strategií rodin byla práce v zahraničí; jen v České republice vzrostl počet Ukrajinců z asi 8 500 v roce 1991 na zhruba 119 000 v roce 2011.",
+    "rel": [
+      3,
+      4,
+      4,
+      3,
+      5,
+      4
+    ],
+    "src": {
+      "t": "Ukrainians in the Czech Republic",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Ukrainians_in_the_Czech_Republic"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "bizarre",
+    "text": "V Kolomyji se v září 2000 otevřelo muzeum kraslic v nové budově ve tvaru obřího vejce, vysoké 14 metrů; jediné muzeum svého druhu na světě shromáždilo přes 10 000 kraslic.",
+    "rel": [
+      3,
+      0,
+      2,
+      4,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Pysanka Museum",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Pysanka_Museum"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "bizarre",
+    "text": "V maršrutkách se jízdné platilo zvláštní štafetou: cestující vzadu posílali peníze dopředu přes ruce ostatních a drobné putovaly nazpět stejnou cestou.",
+    "rel": [
+      3,
+      3,
+      5,
+      3,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Marshrutka",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Marshrutka"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "bizarre",
+    "text": "Na Eurovizi 2007 vyslala země Verku Serduchku, komickou postavu průvodčí lůžkového vozu ve třpytivém stříbrném kostýmu, a ta s písní „Dancing Lasha Tumbai“ obsadila druhé místo.",
+    "rel": [
+      3,
+      1,
+      5,
+      1,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Verka Serduchka",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Verka_Serduchka"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "beautiful",
+    "text": "V květnu 2004 vyhrála Ruslana s písní „Wild Dances“, inspirovanou huculským folklorem z Karpat, jako první ukrajinská interpretka Eurovizi.",
+    "rel": [
+      3,
+      2,
+      5,
+      0,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Ruslana",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Ruslana"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "beautiful",
+    "text": "O rok později hostil Kyjev Eurovizi ve svém Paláci sportu pod heslem „Awakening“ (Probuzení) a do soutěže se přihlásil tehdy rekordní počet 39 zemí.",
+    "rel": [
+      3,
+      1,
+      4,
+      2,
+      1,
+      2
+    ],
+    "src": {
+      "t": "Eurovision Song Contest 2005",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2005"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2000,
+    "bucket": "beautiful",
+    "text": "V květnu 2009 vyhrál Šachtar Doněck v Istanbulu poslední ročník Poháru UEFA, když ve finále porazil Werder Brémy 2:1 po prodloužení; šlo o první velkou evropskou trofej klubu.",
+    "rel": [
+      3,
+      1,
+      4,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "2009 UEFA Cup Final",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/2009_UEFA_Cup_Final"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "government",
+    "text": "Protesty Euromajdanu začaly v listopadu 2013 po odkladu podpisu asociační dohody s EU; při únorovém vyvrcholení v roce 2014 zahynulo v centru Kyjeva téměř sto demonstrantů a třináct policistů.",
+    "rel": [
+      3,
+      4,
+      5,
+      1,
+      5,
+      5
+    ],
+    "src": {
+      "t": "Euromaidan",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Euromaidan"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "government",
+    "text": "Válka na Donbasu začala v dubnu 2014 obsazením Slovjansku; do března 2016 bylo uvnitř země vysídleno asi 1,6 milionu lidí a přes milion dalších odešel do zahraničí.",
+    "rel": [
+      3,
+      5,
+      5,
+      2,
+      5,
+      5
+    ],
+    "src": {
+      "t": "War in Donbas",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/War_in_Donbas"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "government",
+    "text": "Dekomunizační zákony z roku 2015 vedly k přejmenování 987 měst a obcí a více než 51 tisíc ulic; Dnipropetrovsk se v roce 2016 stal Dniprem.",
+    "rel": [
+      3,
+      3,
+      4,
+      3,
+      5,
+      4
+    ],
+    "src": {
+      "t": "Decommunization in Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Decommunization_in_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "clothes",
+    "text": "Vyšívaná košile vyšyvanka se vracela z krojů do běžného šatníku; k oslavám Dne vyšyvanky se do roku 2015, i díky sbírce „Daruj vyšívanku obránci“, připojilo kolem 50 zemí světa.",
+    "rel": [
+      3,
+      3,
+      4,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "Vyshyvanka Day",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Vyshyvanka_Day"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "clothes",
+    "text": "Volné vyšívané šaty návrhářky Vity Kin se objevily na pařížském módním týdnu v roce 2015 a zahraniční módní časopisy je řadily mezi žádané kusy sezóny.",
+    "rel": [
+      2,
+      1,
+      1,
+      4,
+      1,
+      2
+    ],
+    "src": {
+      "t": "Vyshyvanka",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Vyshyvanka"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "clothes",
+    "text": "Kloboučník Ruslan Baginskiy založil v roce 2015 ve Lvově značku pokrývek hlavy; jeho bekovky nosila Bella Hadid a v roce 2018 vytvořil klobouk pro Madonnu na obálku Vogue Italia.",
+    "rel": [
+      2,
+      0,
+      1,
+      4,
+      1,
+      2
+    ],
+    "src": {
+      "t": "Ruslan Baginskiy",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Ruslan_Baginskiy"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "illnesses",
+    "text": "V letech 2017 až 2019 zasáhla zemi jedna z největších evropských epidemií spalniček za dvacet let: onemocnělo přes 115 tisíc lidí a 41 jich zemřelo.",
+    "rel": [
+      3,
+      3,
+      3,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Measles: a new danger for Ukraine's children!",
+      "p": "National Library of Medicine (PMC)",
+      "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10468189/"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "illnesses",
+    "text": "Proočkovanost proti spalničkám mezitím klesla z asi 96 procent v roce 2008 na 42 procent na začátku epidemie v roce 2017, hluboko pod úroveň potřebnou pro kolektivní imunitu.",
+    "rel": [
+      3,
+      2,
+      2,
+      4,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Measles: a new danger for Ukraine's children!",
+      "p": "National Library of Medicine (PMC)",
+      "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10468189/"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "illnesses",
+    "text": "Rozsáhlá zdravotnická reforma přijatá v říjnu 2017 začala od roku 2018 měnit primární péči; do té doby pacienti běžně dopláceli za formálně bezplatnou léčbu neformálními platbami zdravotníkům.",
+    "rel": [
+      3,
+      4,
+      4,
+      2,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Healthcare in Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Healthcare_in_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "dailyLife",
+    "text": "Rychlý mobilní internet dorazil pozdě: licence na sítě 3G získali operátoři Kyivstar, Vodafone a lifecell až v roce 2015 a 4G se spouštělo v roce 2018, později než ve většině Evropy.",
+    "rel": [
+      3,
+      4,
+      5,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "8 technological revolutions in Ukraine. The second revolution: high-speed mobile Internet",
+      "p": "TECHIIA Holding",
+      "u": "https://techiia.com/news/8-tehnologichnih-revolyucij-ukrayini-revolyuciya-druga-shvidkisnij-mobilnij-internet"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "dailyLife",
+    "text": "Balíky se běžně posílaly přes soukromou síť Nova Poshta, která v roce 2018 doručila přes 174 milionů zásilek prostřednictvím asi šesti tisíc poboček po celé zemi.",
+    "rel": [
+      3,
+      3,
+      5,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Nova Poshta",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Nova_Poshta"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "dailyLife",
+    "text": "V květnu 2017 stát v rámci sankcí zablokoval ruskou sociální síť VKontakte, do té doby čtvrtý nejnavštěvovanější web v zemi, a mnoho uživatelů si muselo zvykat na jiné sítě.",
+    "rel": [
+      3,
+      3,
+      4,
+      2,
+      3,
+      4
+    ],
+    "src": {
+      "t": "VKontakte",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/VKontakte"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "food",
+    "text": "Levné nákupy zajišťoval diskontní řetězec ATB z Dnipra s asi 3 500 položkami, který se vypracoval v jednu z největších obchodních sítí země podle vzoru evropských diskontů, jako jsou Aldi a Lidl.",
+    "rel": [
+      3,
+      3,
+      5,
+      1,
+      3,
+      3
+    ],
+    "src": {
+      "t": "ATB-Market",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/ATB-Market"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "food",
+    "text": "K žitnému chlebu se běžně podávalo salo, solené vepřové sádlo s česnekem a cibulí, tradiční součást ukrajinské kuchyně.",
+    "rel": [
+      3,
+      2,
+      5,
+      0,
+      3,
+      2
+    ],
+    "src": {
+      "t": "Salo (food)",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Salo_(food)"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "food",
+    "text": "Řetězec supermarketů Silpo začal od roku 2018 otevírat prodejny s autorským tematickým designem, od japonského divadla kabuki po počítačovou hru S.T.A.L.K.E.R.",
+    "rel": [
+      3,
+      1,
+      3,
+      3,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Silpo",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Silpo"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "money",
+    "text": "Hřivna ztratila v letech 2014 a 2015 asi 70 procent hodnoty vůči dolaru a v únoru 2015 dosáhla rekordních 33 hřiven za dolar.",
+    "rel": [
+      3,
+      5,
+      5,
+      1,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Ukrainian hryvnia",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Ukrainian_hryvnia"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "money",
+    "text": "Minimální mzda se od 1. ledna 2017 skokově zdvojnásobila z 1 600 hřiven na konci roku 2016 na 3 200 hřiven měsíčně.",
+    "rel": [
+      3,
+      4,
+      4,
+      3,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Minimum salary in Ukraine (2000–2026)",
+      "p": "Minfin Media",
+      "u": "https://index.minfin.com.ua/en/labour/salary/min/"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "money",
+    "text": "Miliony lidí jezdily za výdělkem do zahraničí, nejčastěji do Polska; v roce 2019 poslali pracovníci domů kolem 16 miliard dolarů, více než desetinu HDP.",
+    "rel": [
+      3,
+      4,
+      5,
+      2,
+      4,
+      5
+    ],
+    "src": {
+      "t": "Ukraine needs a whole new approach to labor migration",
+      "p": "Atlantic Council",
+      "u": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraine-needs-a-whole-new-approach-to-labor-migration/"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "bizarre",
+    "text": "V Oděse přetvořil umělec Alexandr Milov v roce 2015 sochu Lenina na Dartha Vadera; v helmě postavy je ukrytý wi-fi vysílač.",
+    "rel": [
+      4,
+      1,
+      2,
+      4,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Statue of Darth Vader",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Statue_of_Darth_Vader"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "bizarre",
+    "text": "Stanice kyjevského metra Arsenalna, hluboká 105,5 metru, platila tehdy za nejhlubší na světě; jízda po eskalátorech trvala až pět minut.",
+    "rel": [
+      4,
+      2,
+      4,
+      3,
+      3,
+      2
+    ],
+    "src": {
+      "t": "Arsenalna (Kyiv Metro)",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Arsenalna_(Kyiv_Metro)"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "bizarre",
+    "text": "Ve Lvově fungovalo muzeum věnované salu a z žertu o ukrajinské zálibě v sádle vzniklo i salo máčené v čokoládě.",
+    "rel": [
+      4,
+      1,
+      2,
+      4,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Salo (food)",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Salo_(food)"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "beautiful",
+    "text": "Zpěvačka Jamala vyhrála v roce 2016 soutěž Eurovision Song Contest s písní 1944 a Kyjev díky tomu v květnu 2017 soutěž hostil.",
+    "rel": [
+      3,
+      2,
+      5,
+      1,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Jamala",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Jamala"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "beautiful",
+    "text": "U Klevaně na Rivnensku se táhl Tunel lásky, několik kilometrů průmyslové železnice zarostlé do zelené klenby stromů, oblíbené místo procházek dvojic a fotografů.",
+    "rel": [
+      4,
+      1,
+      3,
+      3,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Tunnel of Love (railway)",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Tunnel_of_Love_(railway)"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2010,
+    "bucket": "beautiful",
+    "text": "Od 11. června 2017 mohli lidé s biometrickým pasem cestovat do schengenského prostoru bez víz, až na 90 dní během každého půl roku.",
+    "rel": [
+      3,
+      3,
+      5,
+      1,
+      4,
+      5
+    ],
+    "src": {
+      "t": "Ukraine–European Union relations",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Ukraine%E2%80%93European_Union_relations"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "government",
+    "text": "Pandemii řídil stát takzvanou adaptivní karanténou: od dubna 2020 platila povinnost nosit na veřejných místech roušku, v listopadu 2020 vláda zkusila „víkendovou karanténu“ se zavřenými obchody a v lednu 2021 přišel zhruba třítýdenní lockdown.",
+    "rel": [
+      3,
+      5,
+      4,
+      2,
+      2,
+      4
+    ],
+    "src": {
+      "t": "COVID-19 pandemic in Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "government",
+    "text": "Po začátku ruské invaze 24. února 2022 vyhlásil prezident Volodymyr Zelenskyj válečný stav a všeobecnou mobilizaci; muži ve věku 18 až 60 let nesměli opustit zemi.",
+    "rel": [
+      3,
+      5,
+      5,
+      0,
+      5,
+      5
+    ],
+    "src": {
+      "t": "Martial law in Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Martial_law_in_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "government",
+    "text": "Válečný stav parlament od roku 2022 opakovaně prodlužoval po devadesáti dnech a celostátní volby se odkládaly, protože je ústava za válečného stavu zakazuje.",
+    "rel": [
+      3,
+      3,
+      4,
+      2,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Martial law in Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Martial_law_in_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "clothes",
+    "text": "Od 6. dubna 2020 patřila k běžnému oblečení rouška, kterou vláda nařídila nosit na veřejných místech.",
+    "rel": [
+      3,
+      4,
+      5,
+      0,
+      2,
+      2
+    ],
+    "src": {
+      "t": "COVID-19 pandemic in Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "clothes",
+    "text": "Třetí čtvrtek v květnu oblékalo mnoho lidí do práce i do školy vyšívanku; svátek se pod názvem Světový den vyšyvanky slavil mezi Ukrajinci po celém světě.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Vyshyvanka Day",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Vyshyvanka_Day"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "clothes",
+    "text": "Po únoru 2022 se v civilním šatníku rozšířila khaki barva a vojenské střihy po vzoru prezidenta Zelenského; pro mnoho lidí šlo o viditelný projev podpory armády.",
+    "rel": [
+      3,
+      2,
+      4,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Khaki is the colour for Ukrainians showing support for military troops",
+      "p": "Euronews",
+      "u": "https://www.euronews.com/culture/2022/11/11/khaki-is-the-colour-for-ukrainians-showing-support-for-military-troops"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "illnesses",
+    "text": "První případ covidu-19 v zemi potvrdili 3. března 2020 v Černovické oblasti u muže, který se vracel z Itálie.",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "COVID-19 pandemic in Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "illnesses",
+    "text": "Očkování proti covidu-19 začalo 24. února 2021 dodávkou půl milionu dávek vakcíny AstraZeneca; do září 2021 bylo očkováno přibližně 18 procent dospělých.",
+    "rel": [
+      3,
+      3,
+      3,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "COVID-19 pandemic in Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "illnesses",
+    "text": "Na psychické dopady války odpovídal od května 2022 celostátní program duševního zdraví „Ty jak?“ („Jak se máš?“) iniciovaný Olenou Zelenskou s podporou WHO; ministerstvo zdravotnictví odhadovalo, že se válečný stres může dotknout asi 15 milionů lidí.",
+    "rel": [
+      3,
+      2,
+      3,
+      4,
+      3,
+      4
+    ],
+    "src": {
+      "t": "How are you? (mental health program)",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/How_are_you%3F"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "dailyLife",
+    "text": "V únoru 2020 stát spustil aplikaci Dija s doklady v mobilu a od 23. srpna 2021 měly digitální pasy a občanské průkazy stejnou právní platnost jako papírové.",
+    "rel": [
+      3,
+      4,
+      5,
+      2,
+      5,
+      4
+    ],
+    "src": {
+      "t": "Diia",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Diia"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "dailyLife",
+    "text": "Po ruských úderech na energetiku na podzim 2022 žila města podle rozpisů odstávek elektřiny; po vlně útoků 18. listopadu 2022 zůstalo bez proudu přes 10 milionů lidí.",
+    "rel": [
+      3,
+      5,
+      5,
+      1,
+      3,
+      5
+    ],
+    "src": {
+      "t": "Blackouts hit 10 million in Ukraine after Russian strikes",
+      "p": "Al Jazeera",
+      "u": "https://www.aljazeera.com/news/2022/11/18/10-million-ukrainians-without-power-after-russian-attacks"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "dailyLife",
+    "text": "Během výpadků proudu sloužily takzvané body nezlomnosti — vytápěná místa s elektřinou, internetem, čajem a nabíječkami; koncem listopadu 2022 jich fungovalo přes 4 300.",
+    "rel": [
+      3,
+      3,
+      4,
+      3,
+      2,
+      4
+    ],
+    "src": {
+      "t": "Points of Invincibility",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Points_of_Invincibility"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "food",
+    "text": "UNESCO zapsalo v roce 2022 kulturu vaření ukrajinského boršče na seznam nehmotného kulturního dědictví vyžadujícího naléhavou ochranu.",
+    "rel": [
+      3,
+      1,
+      4,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Borscht",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Borscht"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "food",
+    "text": "Poté, co podnik Artemsil v Soledaru, největší producent soli v Evropě, v dubnu 2022 kvůli ostřelování zastavil těžbu, dovážela se kuchyňská sůl mimo jiné z Turecka a Rumunska.",
+    "rel": [
+      3,
+      2,
+      3,
+      4,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Because of the war, Artemsil has shut down: Ukraine will have to import more salt from abroad",
+      "p": "Ukrajinska pravda",
+      "u": "https://www.pravda.com.ua/eng/news/2022/05/23/7348037/"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "food",
+    "text": "McDonald's po začátku invaze v únoru 2022 uzavřel všech 109 poboček v zemi; když v září 2022 tři kyjevské restaurace obnovily aspoň rozvoz, stály před nimi hodinové fronty.",
+    "rel": [
+      3,
+      2,
+      3,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "McDonald's Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/McDonald%27s_Ukraine"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "money",
+    "text": "Národní banka po invazi zafixovala kurz na 29,25 hřivny za dolar a v červenci 2022 měnu devalvovala na 36,57 hřivny za dolar.",
+    "rel": [
+      3,
+      4,
+      4,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Ukrainian hryvnia",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Ukrainian_hryvnia"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "money",
+    "text": "Spotřebitelská inflace dosáhla v roce 2022 hodnoty 26,6 procenta, méně než očekávaných zhruba 30 procent; k mírnějšímu růstu cen přispělo i zmrazení tarifů za energie pro domácnosti.",
+    "rel": [
+      3,
+      4,
+      3,
+      3,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Ministry of Economy: Consumer inflation on the outcomes of 2022 was 26.6% — significantly below forecasts",
+      "p": "Kabinet ministrů Ukrajiny (kmu.gov.ua)",
+      "u": "https://www.kmu.gov.ua/en/news/spozhyvcha-infliatsiia-za-pidsumkamy-2022-roku-stanovyla-266-tse-suttievo-menshe-prohnoziv"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "money",
+    "text": "Od 19. prosince 2021 stát vyplácel plně očkovaným v programu „jePidtrymka“ přes aplikaci Dija 1 000 hřiven, které šlo utratit za knihy, kino, divadlo, muzea, koncerty, sport nebo dopravu.",
+    "rel": [
+      3,
+      2,
+      4,
+      3,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Today the project ePidtrymka in the Diia application has officially launched — how to get UAH 1,000",
+      "p": "Kabinet ministrů Ukrajiny (kmu.gov.ua)",
+      "u": "https://www.kmu.gov.ua/en/news/sogodni-oficijnij-start-proektu-yepidtrimka-yak-podati-zayavku-na-otrimannya-1000-grn-u-zastosunku-diya"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "bizarre",
+    "text": "Když pošta Ukrpošta vydala 12. dubna 2022 známku s frází o ruské válečné lodi, čekaly na ni v Kyjevě fronty tisíců lidí a na eBay se přeprodávala od 1 000 dolarů za kus.",
+    "rel": [
+      3,
+      2,
+      4,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Russian warship, go fuck yourself",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Russian_warship,_go_fuck_yourself"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "bizarre",
+    "text": "Jackrussellteriér Patron, pes-vyhledávač munice státní záchranné služby v Černihivu, dostal v květnu 2022 od prezidenta Zelenského Řád za odvahu a v listopadu 2022 ho UNICEF jmenoval ambasadorem dobré vůle.",
+    "rel": [
+      3,
+      1,
+      4,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Patron (dog)",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Patron_(dog)"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "bizarre",
+    "text": "Přes aplikaci Dija bylo od září 2024 možné uzavřít manželství online; během prvního měsíce se tak vzalo 435 párů.",
+    "rel": [
+      3,
+      1,
+      2,
+      4,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Diia",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Diia"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "beautiful",
+    "text": "V květnu 2022 vyhrála skupina Kalush Orchestra s písní „Stefania“ Eurovizi v Turíně; šlo o třetí ukrajinské vítězství v soutěži a píseň získala nejvyšší počet diváckých bodů v její historii.",
+    "rel": [
+      3,
+      2,
+      5,
+      1,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Kalush Orchestra",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Kalush_Orchestra"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "beautiful",
+    "text": "V roce 2022 zažila země svatební vlnu: jen v Kyjevě se za pět měsíců od začátku invaze vzalo 9 120 párů oproti 1 110 za stejné období předchozího roku a obřad šlo nově stihnout v jediný den.",
+    "rel": [
+      3,
+      2,
+      3,
+      4,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Ukraine sees wartime marriage surge",
+      "p": "RTÉ",
+      "u": "https://www.rte.ie/news/ukraine/2022/0728/1312649-ukraine-weddings/"
+    }
+  },
+  {
+    "country": "UA",
+    "decadeStart": 2020,
+    "bucket": "beautiful",
+    "text": "Posluchači se obraceli k domácí hudbě: podíl ukrajinskojazyčných písní v top 100 na YouTube stoupl z asi 10 procent v roce 2021 na 55 procent v roce 2022 a 65 procent v roce 2023.",
+    "rel": [
+      3,
+      3,
+      4,
+      3,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Ukrainian songs flood YouTube charts as Russian influence wanes",
+      "p": "Euromaidan Press",
+      "u": "https://euromaidanpress.com/2023/09/28/ukrainian-songs-flood-youtube-charts-as-russian-influence-wanes/"
+    }
   }
 ]
