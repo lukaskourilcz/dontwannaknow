@@ -739,8 +739,6 @@ button.secondary:hover,
 }
 .item-depth > summary::-webkit-details-marker { display: none; }
 .item-depth-body { padding: 0.2rem 0 0.6rem; }
-.item-source { margin: 0.4rem 0 0; color: var(--muted); font: 450 0.85rem/1.5 var(--sans); }
-.item-source a { color: var(--green); }
 
 /* Vizitka lídra: strukturovaný profil, tonálně klidný, bez dekorace. */
 .leader-profile { margin-top: 0.4rem; padding: 1.1rem 1.2rem; border: 1px solid var(--rule); background: var(--surface); }

@@ -86,37 +86,19 @@ function confidenceMark(item: ReportItem): { label: string; className: string } 
   return null;
 }
 
-/** Hloubka na vyžádání: řádek se rozbalí do plnějšího příběhu se zdroji —
- * u lídrů do strukturovaného profilu, u záznamů do citace či poctivé
- * poznámky o interní rešerši. */
+/** Hloubka na vyžádání jen u lídrů: řádek se rozbalí do strukturovaného
+ * profilu s citacemi. Běžné záznamy nesou jen značku jistoty — citace
+ * zůstávají v datech pro audit, čtenáře odkazy neruší. */
 function ItemDepth({ item }: { item: ReportItem }) {
-  const confidence = confidenceMark(item);
-  if (!item.leader && !item.source && !confidence) return null;
+  if (!item.leader) return null;
   return (
     <details className="item-depth">
       <summary>
-        <span className="summary-action-open">{item.leader ? "Zobrazit profil a zdroje" : "Zobrazit zdroj"}</span>
+        <span className="summary-action-open">Zobrazit profil a zdroje</span>
         <span className="summary-action-close">Skrýt podrobnosti</span>
       </summary>
       <div className="item-depth-body">
-        {item.leader && <LeaderProfile leader={item.leader} />}
-        {item.source ? (
-          <p className="item-source">
-            Zdroj:{" "}
-            {item.source.url ? (
-              <a href={item.source.url} target="_blank" rel="noopener noreferrer">
-                {item.source.title}
-              </a>
-            ) : (
-              item.source.title
-            )}
-            {item.source.publisher ? ` · ${item.source.publisher}` : ""}
-          </p>
-        ) : (
-          <p className="item-source">
-            Záznam pochází z interní kurátorované rešerše a zatím čeká na vnější ověření.
-          </p>
-        )}
+        <LeaderProfile leader={item.leader} />
       </div>
     </details>
   );

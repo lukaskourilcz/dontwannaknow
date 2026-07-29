@@ -49,7 +49,8 @@ describe("acceptance: Praha 1953 a Charkov 1991", () => {
     const marks = [...container.querySelectorAll(".item-confidence")].map((el) => el.textContent);
     expect(marks).toContain("Doloženo");
     expect(marks).toContain("K ověření");
-    expect(container.querySelectorAll(".item-depth").length).toBeGreaterThan(0);
+    // Rozbalení patří jen profilům lídrů; běžné řádky odkazy nenesou.
+    expect(container.querySelectorAll(".item-depth .item-source").length).toBe(0);
   });
 
   it("keeps chapter budgets at 4–8 items despite richer data", () => {
