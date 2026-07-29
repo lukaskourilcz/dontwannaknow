@@ -4,8 +4,8 @@ Stav k 22. červenci 2026. Soubor původně vznikl před restartem Codex CLI a n
 
 ## Kde navázat
 
-- Git repozitář: `/Users/lukasbarsinbars/Developer/dontwannaknow/dontwannaknow`
-- Aplikace a `package.json`: `/Users/lukasbarsinbars/Developer/dontwannaknow/dontwannaknow/dontwannaknow`
+- Git repozitář: kořen tohoto repozitáře
+- Aplikace a `package.json`: podadresář `dontwannaknow/` v kořeni repozitáře
 - Větev: `main`
 - Remote: `origin` → `https://github.com/lukaskourilcz/dontwannaknow.git`
 - Tento dokument je součástí posledního checkpoint commitu; jeho hash zjistěte pomocí `git log -1 --oneline`.

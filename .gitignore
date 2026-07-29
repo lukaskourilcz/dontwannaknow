@@ -1,0 +1,9 @@
+
+# claude code: task-observer session log stays local
+.claude/observations/
+
+# claude code: ui-ux-pro-max search script bytecode
+__pycache__/
+
+# local capture tooling installed at the repo root
+/node_modules

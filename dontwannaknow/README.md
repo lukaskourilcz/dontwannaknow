@@ -25,6 +25,7 @@ Samostatně jsou dostupné `npm run typecheck`, `npm run lint`, `npm test`, `npm
 
 - `src/App.tsx` drží pouze stav cesty, obnovu fragmentu a lazy-loading výsledku.
 - `src/components/NewForm.tsx` obsluhuje jeden nebo dva profily a klientskou validaci.
+- `src/components/HeroArchive.tsx` drží statický hero poster a rozhoduje, zda prohlížeč dostane i WebGL vrstvu; `src/components/HeroScene.tsx` je ta vrstva a načítá se až po prvním vykreslení.
 - `src/lib/person.ts` je zdroj typu osoby, vztahů, normalizace a podporovaného rozsahu.
 - `src/lib/historicalLocation.ts` převádí moderní město a rok na tehdejší politický kontext.
 - `src/lib/facts.ts` vybírá kandidátní data; `src/lib/report.ts` je skládá do kapitol a vynucuje redakční pravidla.
@@ -35,7 +36,7 @@ Samostatně jsou dostupné `npm run typecheck`, `npm run lint`, `npm test`, `npm
 - `src/data/editorialRules.json` obsahuje ručně kontrolovatelná pravidla citlivosti a zařazení.
 - `src/data/dataSources.json` eviduje původ, stav ověření a veřejné použití každé editovatelné sady.
 
-Veřejný výběr je záměrně omezen na Česko a Ukrajinu. Starší data jiných zemí zůstávají v kořenových datových souborech a archivních katalozích, ale produkční moduly importují jen odvozenou CZ/UA vrstvu v `src/data/public`. Veřejný formulář, stav URL a generátor nepodporované země nepřijmou. Dlouhý korpus v `history.json` je také archivní rešerše: veřejná zpráva ho nepoužívá, dokud jeho záznamy neprojdou jednotlivou redakční kontrolou. Těžké datové a vizuální moduly se načítají až po vytvoření zprávy; PDF knihovna až při exportu. Sbalené kontextové kapitoly nevytvářejí svůj obsah před otevřením a týdenní vizualizace používá několik SVG cest místo tisíců samostatných uzlů.
+Veřejný výběr je záměrně omezen na Česko a Ukrajinu. Starší data jiných zemí zůstávají v kořenových datových souborech a archivních katalozích, ale produkční moduly importují jen odvozenou CZ/UA vrstvu v `src/data/public`. Veřejný formulář, stav URL a generátor nepodporované země nepřijmou. Dlouhý korpus v `history.json` je také archivní rešerše: veřejná zpráva ho nepoužívá, dokud jeho záznamy neprojdou jednotlivou redakční kontrolou. Těžké datové a vizuální moduly se načítají až po vytvoření zprávy; PDF knihovna až při exportu. Stejně tak three.js pro hero scénu: samostatný chunk, který se stahuje až v nečinnosti po prvním vykreslení, a jen když prohlížeč umí WebGL a nemá zapnutý režim úspory dat. Sbalené kontextové kapitoly nevytvářejí svůj obsah před otevřením a týdenní vizualizace používá několik SVG cest místo tisíců samostatných uzlů.
 
 ## Sdílení a soukromí
 

@@ -1,0 +1,16 @@
+{
+  "url": "http://localhost:5173/",
+  "devServer": null,
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "deviceScaleFactor": 2,
+  "fps": 30,
+  "scrollSeconds": "auto",
+  "holdFrames": 20,
+  "hideSelectors": [],
+  "extraCss": "",
+  "waitAfterLoadMs": 1000,
+  "gif": false
+}

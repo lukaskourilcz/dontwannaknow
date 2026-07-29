@@ -36,6 +36,7 @@ Validate mobile widths, long Czech strings, error/missing/loading/success states
 - Product/design audit: `docs/experience-overhaul.md`
 - Generated-media contract: `docs/generated-media.md`
 - Completed overhaul handoff: `docs/NEXT-AGENT-HANDOFF.md`
+- Next-phase brief (relevance scoring, sources, report modernization): `docs/fable-brief.md`
 - Architecture and operations: `README.md`, `DOCS.md`, `stack-and-scaling.md`, `NEEDED.md`
 
 ## Commands
@@ -61,3 +62,48 @@ Use the focused skills in `.claude/skills/`: `tehdejsi-svet-product`, `tehdejsi-
 Use reviewer definitions in `.claude/agents/` only for their distinct scopes: experience/design, editorial/history, accessibility/visual QA, and Higgsfield art direction. Use the real workflows in `.claude/commands/`: `/tehdejsi-design-audit`, `/tehdejsi-new-screen`, `/tehdejsi-content-review`, `/tehdejsi-visual-qa`, and `/tehdejsi-release-check`.
 
 `/audit-facts` is the separate read-only workflow for sampled web verification of source datasets; it reports findings and never edits historical data automatically.
+
+
+## Shared skills
+
+Four skills in `.claude/skills/` are vendored verbatim from upstream and kept
+identical across every repository. Each carries an `UPSTREAM.md` with its
+source, pinned commit, and license — re-vendor rather than hand-editing them.
+
+- **`task-observer`** — invoke at the **start of every task-oriented session**,
+  before producing deliverables. It records corrections and workflow friction in
+  an observation log so they can become skill improvements later. Its log lives
+  outside the repo; `.claude/observations/` is git-ignored.
+- **`stop-slop`** — apply to every piece of prose that ships: documentation,
+  `NEEDED.md` entries, UI copy, commit bodies, and pull-request descriptions.
+- **`ui-ux-pro-max`** — consult before visual or interaction decisions. Query
+  the bundled database with
+  `python3 .claude/skills/ui-ux-pro-max/scripts/search.py "<query>" --domain <domain>`
+  (domains: `ux`, `style`, `color`, `typography`, `product`, `chart`, `gsap`).
+  It is generic advice. **This repository's own design contract always wins**
+  where the two disagree — never let a generic recommendation override a
+  documented product invariant.
+- **`find-skills`** — use when a capability might already exist as an
+  installable skill instead of hand-rolling one. Its `npx skills` commands need
+  network access; fall back to working directly when that is unavailable.
+
+## Session routine & markdown conventions
+
+This repo follows a shared markdown contract (see the `session-start`,
+`session-end`, and `markdown-checkup` skills under `.claude/skills/`):
+
+- **`NEEDED.md`** — owner/agent action items. Each task:
+  `- [ ] **Title** — desc. [imp:1-5] [owner:me|ai] [time:30m] [kind:K]`, where
+  `[kind:K]` is one of `setup` `deploy` `legal` `content` `decision`.
+- **`about-project.md`** — project summary + the tech stack.
+- **`scaling.md`** — cost & scaling only (renamed from `stack-and-scaling.md`).
+- **`monetization.md`** — how the project could earn (options table).
+
+At session start, check `NEEDED.md` for `[owner:ai]` tasks that can now be done;
+at session end, update `NEEDED.md` (finished + newly-needed owner items).
+
+## Git workflow (every session)
+
+- **Commit frequently** in small, coherent steps — never batch a whole session into one commit.
+- **At the end of every session, push and merge to `main`** so the change redeploys immediately (this project auto-deploys from `main` on Vercel).
+- **Delete the merged / old branch** (local and remote) after merging, to keep the repo clean. Never leave stale branches behind.

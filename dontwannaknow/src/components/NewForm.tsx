@@ -1,9 +1,11 @@
-import { useState } from "react";
+import { useId, useMemo, useState } from "react";
 import { citiesFor } from "../data/cityCatalog";
 import type { SupportedCountry } from "../data/countryDecades";
 import { COPY } from "../copy";
+import HeroArchive from "./HeroArchive";
 import { parseDate } from "../lib/parseDate";
 import {
+  RELATIONSHIPS,
   SUPPORTED_YEAR_RANGE,
   normalizePerson,
   validatePerson,
@@ -20,21 +22,6 @@ type Draft = {
   country: SupportedCountry;
   citySlug: string;
 };
-
-/**
- * Editorial wording for the relationship control. Values stay the canonical
- * SubjectRelation keys; only the visible labels are person-centric here.
- */
-const RELATIONSHIP_OPTIONS: ReadonlyArray<{ value: SubjectRelation; label: string }> = [
-  { value: "mother", label: "Svět maminky" },
-  { value: "father", label: "Svět tatínka" },
-  { value: "grandmother", label: "Svět babičky" },
-  { value: "grandfather", label: "Svět dědečka" },
-  { value: "self", label: "Můj vlastní svět" },
-  { value: "partner", label: "Svět partnera či partnerky" },
-  { value: "friend", label: "Svět kamaráda či kamarádky" },
-  { value: "other", label: "Svět někoho jiného" },
-];
 
 const emptyDraft = (relationship: SubjectRelation = "mother"): Draft => ({
   relationship,
@@ -69,29 +56,45 @@ function PersonFields({
     <fieldset className="person-fields">
       {heading && <legend>{heading}</legend>}
 
-      <div className="field-grid">
-        <div className="field-group">
-          <label className="field-index-label" htmlFor={`${prefix}-relationship`}>
-            <span className="field-index" aria-hidden="true">01</span>
-            <span className="field-name">Váš vztah k tomuto člověku</span>
-          </label>
-          <select
-            id={`${prefix}-relationship`}
-            value={draft.relationship}
-            onChange={(event) => onChange({ ...draft, relationship: event.target.value as SubjectRelation })}
-          >
-            {RELATIONSHIP_OPTIONS.map((option) => (
-              <option key={option.value} value={option.value}>{option.label}</option>
-            ))}
-          </select>
-          <span className="field-hint">Vztah upraví oslovení, ale nemění výběr faktů.</span>
+      <fieldset className="form-section choice-fieldset relationship-section">
+        <legend className="field-label">Jaký je váš vztah k tomuto člověku?</legend>
+        <div className="relationship-grid">
+          {RELATIONSHIPS.map((relation) => (
+            <label
+              key={relation.value}
+              className={`relationship-chip${draft.relationship === relation.value ? " active" : ""}`}
+            >
+              <input
+                className="choice-input"
+                type="radio"
+                name={`${prefix}-relationship`}
+                value={relation.value}
+                checked={draft.relationship === relation.value}
+                onChange={() => onChange({ ...draft, relationship: relation.value })}
+              />
+              <span>{relation.label}</span>
+            </label>
+          ))}
         </div>
+      </fieldset>
 
-        <div className="field-group">
-          <label className="field-index-label" htmlFor={`${prefix}-birth-date`}>
-            <span className="field-index" aria-hidden="true">02</span>
-            <span className="field-name">Datum nebo rok narození</span>
-          </label>
+      <div className="form-grid">
+        <label className="form-field" htmlFor={`${prefix}-name`}>
+          <span className="field-label">Jak se tento člověk jmenuje?</span>
+          <input
+            id={`${prefix}-name`}
+            value={draft.name}
+            maxLength={60}
+            autoComplete="off"
+            aria-describedby={nameHintId}
+            onChange={(event) => onChange({ ...draft, name: event.target.value })}
+            placeholder="Křestní jméno (nepovinné)"
+          />
+          <span className="field-hint" id={nameHintId}>Jméno upraví oslovení na obálce, ale nemění výběr faktů.</span>
+        </label>
+
+        <label className="form-field" htmlFor={`${prefix}-birth-date`}>
+          <span className="field-label">Kdy se narodil?</span>
           <input
             id={`${prefix}-birth-date`}
             value={draft.birthDate}
@@ -102,57 +105,48 @@ function PersonFields({
             placeholder="např. 12. 4. 1953 nebo 1953"
           />
           <span className="field-hint" id={hintId}>
-            Stačí rok; celé datum navíc vypočte oblohu v den narození. Data od {SUPPORTED_YEAR_RANGE.min} do {SUPPORTED_YEAR_RANGE.max}.
+            Stačí rok. Pokrýváme ověřená data od {SUPPORTED_YEAR_RANGE.min} do {SUPPORTED_YEAR_RANGE.max}.
           </span>
           {errors.birthDate && <span className="field-error" id={dateErrorId}>{errors.birthDate}</span>}
-        </div>
+        </label>
 
-        <div className="field-group">
-          <span className="field-index-label">
-            <span className="field-index" aria-hidden="true">03</span>
-            <span className="field-name">Místo narození</span>
-          </span>
-          <div className="place-controls">
-            <select
-              value={draft.country}
-              aria-label="Země narození"
-              onChange={(event) => onChange({ ...draft, country: event.target.value as SupportedCountry, citySlug: "" })}
-            >
-              <option value="CZ">Česko</option>
-              <option value="UA">Ukrajina</option>
-            </select>
-            <select
-              id={`${prefix}-city`}
-              value={draft.citySlug}
-              aria-label="Město narození"
-              aria-invalid={Boolean(errors.city)}
-              aria-describedby={errors.city ? cityErrorId : undefined}
-              onChange={(event) => onChange({ ...draft, citySlug: event.target.value })}
-            >
-              <option value="">Vyberte město</option>
-              {cityOptions.map((city) => <option key={city.slug} value={city.slug}>{city.name}</option>)}
-            </select>
+        <fieldset className="form-field choice-fieldset country-field">
+          <legend className="field-label">Ve které dnešní zemi se narodil?</legend>
+          <div className="country-options">
+            {(["CZ", "UA"] as const).map((country) => (
+              <label
+                key={country}
+                className={`country-option${draft.country === country ? " active" : ""}`}
+              >
+                <input
+                  className="choice-input"
+                  type="radio"
+                  name={`${prefix}-country`}
+                  value={country}
+                  checked={draft.country === country}
+                  onChange={() => onChange({ ...draft, country, citySlug: "" })}
+                />
+                <span className="country-code" aria-hidden="true">{country}</span>
+                <span>{country === "CZ" ? "Česko" : "Ukrajina"}</span>
+              </label>
+            ))}
           </div>
-          <span className="field-hint">Podporujeme pečlivě vybraná města v Česku a na Ukrajině.</span>
-          {errors.city && <span className="field-error" id={cityErrorId}>{errors.city}</span>}
-        </div>
+        </fieldset>
 
-        <div className="field-group">
-          <label className="field-index-label" htmlFor={`${prefix}-name`}>
-            <span className="field-index" aria-hidden="true">04</span>
-            <span className="field-name">Křestní jméno <span className="field-optional">(nepovinné)</span></span>
-          </label>
-          <input
-            id={`${prefix}-name`}
-            value={draft.name}
-            maxLength={60}
-            autoComplete="off"
-            aria-describedby={nameHintId}
-            onChange={(event) => onChange({ ...draft, name: event.target.value })}
-            placeholder="Např. Marie"
-          />
-          <span className="field-hint" id={nameHintId}>Objeví se pouze na obálce vydání; do odkazu se nesdílí.</span>
-        </div>
+        <label className="form-field" htmlFor={`${prefix}-city`}>
+          <span className="field-label">Ve kterém městě?</span>
+          <select
+            id={`${prefix}-city`}
+            value={draft.citySlug}
+            aria-invalid={Boolean(errors.city)}
+            aria-describedby={errors.city ? cityErrorId : undefined}
+            onChange={(event) => onChange({ ...draft, citySlug: event.target.value })}
+          >
+            <option value="">Vyberte město</option>
+            {cityOptions.map((city) => <option key={city.slug} value={city.slug}>{city.name}</option>)}
+          </select>
+          {errors.city && <span className="field-error" id={cityErrorId}>{errors.city}</span>}
+        </label>
       </div>
     </fieldset>
   );
@@ -184,11 +178,16 @@ function personFromDraft(draft: Draft): { person?: Person; errors: DraftErrors }
 }
 
 export default function NewForm({ onSubmit }: Props) {
+  const formId = useId();
   const [primary, setPrimary] = useState<Draft>(emptyDraft());
   const [secondary, setSecondary] = useState<Draft>(emptyDraft("grandmother"));
   const [comparison, setComparison] = useState(false);
   const [primaryErrors, setPrimaryErrors] = useState<DraftErrors>({});
   const [secondaryErrors, setSecondaryErrors] = useState<DraftErrors>({});
+
+  // Drives the hero motif only. parseDate already rejects years outside the
+  // supported range, and the value never leaves the browser.
+  const heroYear = useMemo(() => parseDate(primary.birthDate)?.year ?? null, [primary.birthDate]);
 
   const submit = (event: React.FormEvent) => {
     event.preventDefault();
@@ -214,44 +213,19 @@ export default function NewForm({ onSubmit }: Props) {
 
   return (
     <div className="onboarding">
-      <section className="onboarding-hero" aria-labelledby="hero-title">
-        <div className="hero-copy">
-          <h1 id="hero-title">{COPY.heroQuestion}</h1>
-          <p className="hero-positioning">{COPY.positioning}</p>
-          <p className="hero-description">{COPY.description}</p>
-        </div>
-        <figure className="hero-archive-motif" aria-hidden="true">
-          <div className="hero-plate">
-            <picture>
-              <source
-                media="(max-width: 980px)"
-                srcSet="/media/hero-editorial-mobile.webp"
-                width="800"
-                height="600"
-              />
-              <img
-                src="/media/hero-editorial-desktop.webp"
-                width="720"
-                height="900"
-                alt=""
-                decoding="async"
-                fetchPriority="high"
-              />
-            </picture>
-          </div>
-          <figcaption>
-            <span>Obr. 01 — dobový archiv</span>
-            <span>1920–současnost</span>
-          </figcaption>
-        </figure>
+      <section className="onboarding-hero" aria-labelledby={`${formId}-title`}>
+        <h1 id={`${formId}-title`}>{COPY.heroQuestion}</h1>
+        <p className="hero-positioning">{COPY.positioning}</p>
+        <HeroArchive highlightYear={heroYear} />
+        <p className="hero-description">{COPY.description}</p>
       </section>
 
-      <form className="person-form" onSubmit={submit} noValidate aria-label="Údaje pro osobní vydání">
-        <div className="form-heading">
+      <form className="person-form-card" onSubmit={submit} noValidate aria-label="Údaje pro osobní vydání">
+        <div className="form-introduction">
+          <p className="form-overline">První člověk</p>
           <h2>Začněte tím, co bezpečně víte</h2>
-          <span className="form-heading-note">Stačí rok a město</span>
+          <p>Stačí rok a město narození. Jméno i přesný den jsou nepovinné.</p>
         </div>
-
         <PersonFields
           draft={primary}
           onChange={(next) => { setPrimary(next); setPrimaryErrors({}); }}
@@ -290,11 +264,6 @@ export default function NewForm({ onSubmit }: Props) {
             </button>
           )}
         </div>
-
-        <p className="privacy-line">
-          <span className="privacy-lock" aria-hidden="true">✓</span>
-          Nic, co zadáte do formuláře, se neposílá na server. Zpráva vzniká přímo ve vašem prohlížeči.
-        </p>
       </form>
     </div>
   );

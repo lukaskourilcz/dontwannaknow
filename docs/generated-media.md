@@ -22,7 +22,7 @@ Produkční asset nesmí být vydáván za historický doklad. Veškerý text, d
 
 | Asset ID | Stav a umístění | Poměr a text-safe zóna | Účel a fallback |
 | --- | --- | --- | --- |
-| `hero-editorial` | **Hotovo:** landing v `dontwannaknow/src/components/NewForm.tsx` | desktop 4:5 a mobile 4:3 | Zprostředkovává papír, časové spojnice a archivní vrstvení. CSS povrch zůstává fallbackem při chybě načtení. |
+| `hero-editorial` | **Hotovo:** poster pod kódovou scénou v `dontwannaknow/src/components/HeroArchive.tsx` | rám je 1:1 na desktopu i na úzkém displeji, výřezy zůstávají 4:5 a 4:3 pod `object-fit: cover` | Maluje okamžitě a je trvalým fallbackem bez WebGL, v režimu úspory dat a po ztrátě GL kontextu. |
 | `og-foundation` | `public/media/og-foundation.*`, podklad `og-image-source.svg` | 1200×630; bezpečný střed a levá textová třetina | Obecný sociální náhled bez osobních dat. Text a logo budou přidány deterministicky. |
 | `chapter-birth` | volitelný background motif obálky/začátku | 16:9 + 4:5 crop, pravá polovina bezpečná | Abstraktní kalendář a souhvězdí; fallback tvoří skutečný SkyMap nebo typografický rok. |
 | `chapter-everyday` | dělicí pás běžného dne | 3:1 + 1:1 crop | Neidentifikující fragmenty běžných materiálů; fallback je hairline/editorial rhythm. |
@@ -30,7 +30,7 @@ Produkční asset nesmí být vydáván za historický doklad. Veškerý text, d
 | `chapter-borders` | proměny států | 3:1 + 1:1 crop | Nefaktické abstraktní kontury; fallback je skutečný WorldMap. |
 | `comparison-divider` | Dva tehdejší světy | 3:1 + 1:1 crop | Dvě proplétající se časové osy bez národních systémů; fallback je typografická dvojice. |
 | `share-paper` | canvas share cards | bezešvá/velká 2400×1800 textura | Velmi jemná textura pod kódovým textem. Bez assetu canvas používá plnou papírovou barvu a kódové linky. |
-| `hero-loop` | volitelná landing motion vrstva | max. 3 s, WebM + MP4 + poster | Pomalé kreslení kontur/pohyb vrstev. Vypnuto pro reduced motion; statický poster povinný. |
+| `hero-loop` | **Vyřešeno kódem, negeneruje se:** `dontwannaknow/src/components/HeroScene.tsx` | rám plátna, bez souboru | Otáčivý archiv papírových listů v three.js místo videa: žádný vygenerovaný asset, žádná cena za produkci, deterministické z pevného seedu. Při reduced motion jediný statický snímek, poster zůstává povinný. |
 
 ## Produkční brief a negativa
 
