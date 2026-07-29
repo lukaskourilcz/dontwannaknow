@@ -44,12 +44,11 @@ describe("acceptance: Praha 1953 a Charkov 1991", () => {
     expect(leaderItems.every((item) => item.metadata.chapter === "generation-context")).toBe(true);
   });
 
-  it("distinguishes verified sources from internal research at a glance", () => {
+  it("keeps source confidence out of the reading surface entirely", () => {
     const { container } = render(<Results reports={[pragueReport]} people={[prague]} />);
-    const marks = [...container.querySelectorAll(".item-confidence")].map((el) => el.textContent);
-    expect(marks).toContain("Doloženo");
-    expect(marks).toContain("K ověření");
-    // Rozbalení patří jen profilům lídrů; běžné řádky odkazy nenesou.
+    // Žádné zdrojové značky ani odkazy v řádcích — jistota původu žije
+    // v datech a auditu, čtenářská plocha zůstává čistá.
+    expect(container.querySelectorAll(".item-confidence").length).toBe(0);
     expect(container.querySelectorAll(".item-depth .item-source").length).toBe(0);
   });
 

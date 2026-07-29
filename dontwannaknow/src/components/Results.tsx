@@ -73,22 +73,9 @@ function itemVariant(item: ReportItem): string {
   return "standard";
 }
 
-/** Značka jistoty: čtenář pozná doložený záznam od interní rešerše na první
- * pohled, bez čtení metodiky. Redakční poznámky značku nenesou. */
-function confidenceMark(item: ReportItem): { label: string; className: string } | null {
-  if (item.id.startsWith("fallback-") || item.category === "context") return null;
-  if (item.metadata.sourceConfidence === "verified" && item.source) {
-    return { label: "Doloženo", className: "confidence-verified" };
-  }
-  if (item.metadata.sourceConfidence === "review-needed") {
-    return { label: "K ověření", className: "confidence-review" };
-  }
-  return null;
-}
-
 /** Hloubka na vyžádání jen u lídrů: řádek se rozbalí do strukturovaného
- * profilu s citacemi. Běžné záznamy nesou jen značku jistoty — citace
- * zůstávají v datech pro audit, čtenáře odkazy neruší. */
+ * profilu s citacemi. Běžné záznamy žádné zdrojové značky nenesou —
+ * jistota původu i citace zůstávají v datech a auditu. */
 function ItemDepth({ item }: { item: ReportItem }) {
   if (!item.leader) return null;
   return (
@@ -106,7 +93,6 @@ function ItemDepth({ item }: { item: ReportItem }) {
 
 function ItemCard({ item }: { item: ReportItem }) {
   const variant = itemVariant(item);
-  const confidence = confidenceMark(item);
   const time = item.year
     ? `${item.year}${item.age !== undefined && item.age >= 0 ? ` · ${czAgePhrase(item.age)}` : ""}`
     : null;
@@ -114,10 +100,7 @@ function ItemCard({ item }: { item: ReportItem }) {
     <li className={`report-item item-${variant} tone-${item.metadata.tone} sensitivity-${item.metadata.sensitivity}`}>
       <div className="item-meta">
         <span className="item-kind">{itemKind(item)}</span>
-        <span className="item-meta-right">
-          {confidence && <span className={`item-confidence ${confidence.className}`}>{confidence.label}</span>}
-          {time && <span className="item-year">{time}</span>}
-        </span>
+        {time && <span className="item-year">{time}</span>}
       </div>
       <p>{richText(item.text)}</p>
       <ItemDepth item={item} />

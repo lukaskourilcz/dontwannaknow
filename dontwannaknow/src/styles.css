@@ -716,12 +716,6 @@ button.secondary:hover,
 .report-item.item-featured p,
 .report-item.item-local p { margin-top: 0.8rem; font-size: clamp(1.15rem, 2vw, 1.35rem); line-height: 1.5; }
 
-/* Jistota původu: text + barva, nikdy jen barva. */
-.item-meta-right { display: flex; flex: 0 0 auto; align-items: baseline; gap: 0.7rem; }
-.item-confidence { font-size: 0.62rem; font-weight: 750; letter-spacing: 0.1em; text-transform: uppercase; }
-.item-confidence.confidence-verified { color: var(--verified); }
-.item-confidence.confidence-review { color: var(--review); }
-
 /* Hloubka na vyžádání: jednořádkový fakt → plnější příběh se zdroji. */
 .item-depth { margin-top: 0.55rem; }
 .item-depth > summary {

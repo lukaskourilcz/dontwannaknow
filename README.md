@@ -15,7 +15,7 @@ Nejde o životopis ani AI-generovaný příběh. Výsledek je deterministicky se
 - Ukáže věkové milníky, změny hranic, dobové umění a při celém datu narození skutečně vypočtenou oblohu.
 - Ukáže, kdo stál v čele státu při narození a v dospívání — s doloženým, datovaným dobovým vnímáním, výsledky i kontroverzemi.
 - Řadí obsah podle redakčního skóre relevance (blízkost prožitku, dopad na všední den, rozpoznání, objev) vzniklého mimo běh aplikace; citlivostní a sdílecí pravidla mají vždy přednost.
-- U záznamů rozlišuje doložený zdroj („Doloženo“) od interní rešerše („K ověření“); úplné citace jsou vedené v datech.
+- Úplné citace záznamů jsou vedené v datové a auditní vrstvě; čtenářská plocha zůstává bez zdrojových značek.
 - Porovná dva tehdejší světy vedle sebe bez soutěžního hodnocení.
 - Nabídne jiný, ale stále reprodukovatelný výběr faktů.
 - Vytvoří památeční PDF a osobní obrázky pro krajinu, příspěvek i příběh přímo v prohlížeči.
