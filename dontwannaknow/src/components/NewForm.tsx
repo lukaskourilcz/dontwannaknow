@@ -214,16 +214,10 @@ export default function NewForm({ onSubmit }: Props) {
   return (
     <div className="onboarding">
       <section className="onboarding-hero" aria-labelledby={`${formId}-title`}>
-        <p className="hero-kicker">Soukromé osobní vydání</p>
         <h1 id={`${formId}-title`}>{COPY.heroQuestion}</h1>
         <p className="hero-positioning">{COPY.positioning}</p>
         <HeroArchive highlightYear={heroYear} />
         <p className="hero-description">{COPY.description}</p>
-        <ul className="trust-index" aria-label="Soukromí, metoda a rozsah">
-          <li><span>01</span><strong>Jen ve vašem prohlížeči</strong><small>Nic z formuláře se neposílá na server.</small></li>
-          <li><span>02</span><strong>Bez AI při tvorbě zprávy</strong><small>Výběr je deterministický a vychází z místních dat.</small></li>
-          <li><span>03</span><strong>Česko a Ukrajina</strong><small>Podporujeme pečlivě vybraná města od roku 1920.</small></li>
-        </ul>
       </section>
 
       <form className="person-form-card" onSubmit={submit} noValidate aria-label="Údaje pro osobní vydání">
@@ -269,14 +263,6 @@ export default function NewForm({ onSubmit }: Props) {
               Přidat druhého člověka pro porovnání
             </button>
           )}
-        </div>
-
-        <div className="privacy-note">
-          <span className="privacy-lock" aria-hidden="true">✓</span>
-          <div>
-            <strong>Soukromě ve vašem prohlížeči</strong>
-            <p>{COPY.privacy}</p>
-          </div>
         </div>
       </form>
     </div>
