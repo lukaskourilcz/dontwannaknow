@@ -1,0 +1,437 @@
+{
+ "promptVersion": "relevance-v1",
+ "model": "claude-fable-5",
+ "scoredAt": "2026-07-29",
+ "passes": {
+  "A": [
+   "livedProximity",
+   "everydayConsequence",
+   "consequenceHorizon"
+  ],
+  "B": [
+   "recognition",
+   "discovery"
+  ],
+  "C": [
+   "explanatoryPayload"
+  ]
+ },
+ "records": [
+  {
+   "key": "cz-benes",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Hlava státu v přelomových letech; dopad na všední den spíše zprostředkovaný událostmi.",
+    "B": "Beneš a Mnichov patří ke sdílené paměti i základnímu školnímu učivu.",
+    "C": "Úřad rámovaný Mnichovem a únorem vysvětluje zlomové mechanismy doby."
+   }
+  },
+  {
+   "key": "cz-gottwald",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Únor 1948 a přestavba státu změnily majetek, práci i to, co se smělo říkat.",
+    "B": "Únor 1948 a Gottwald jsou všeobecně známé školní učivo i prožitá zkušenost.",
+    "C": "Nástup komunismu, procesy a sovětizace formovaly každodennost celé generace."
+   }
+  },
+  {
+   "key": "cz-hacha",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Protektorátní správa zasáhla každodennost okupace; důsledky přesáhly dekádu.",
+    "B": "Za protektorátu jej znal každý; dnes běžně známý čtenářům novin.",
+    "C": "Přechod k protektorátu objasňuje, jak fungoval život pod okupací."
+   }
+  },
+  {
+   "key": "cz-havel",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Návrat demokracie změnil, co lidé směli říkat, kupovat a kam cestovat, trvale.",
+    "B": "Havel je téměř univerzální zkušenost polistopadové éry, obecně známý.",
+    "C": "Návrat k demokracii a západní ukotvení — proměna celé společnosti."
+   }
+  },
+  {
+   "key": "cz-husak",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 2,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Normalizace určovala kariéry, cenzuru a veřejné chování po dvacet let.",
+    "B": "Symbol normalizace zná každý pamětník; jeho odsouzení v 50. letech méně lidí.",
+    "C": "Ztělesnění normalizace, která určovala každodenní život dvou dekád."
+   }
+  },
+  {
+   "key": "cz-klaus",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Prezidentství v moderní zemi s omezeným průnikem do běžné rutiny domácností.",
+    "B": "Klaus a transformace 90. let jsou všeobecně známé současníkům.",
+    "C": "Spolutvůrce transformace 90. let, která přetvořila hospodářský život."
+   }
+  },
+  {
+   "key": "cz-masaryk",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Založení státu určilo občanství, instituce i veřejný život na generace.",
+    "B": "Masaryk je univerzálně sdílená postava první republiky i školní učivo.",
+    "C": "Zakladatel státu určující demokratický charakter celé meziválečné éry."
+   }
+  },
+  {
+   "key": "cz-novotny",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Dlouhá éra centralismu s postupným uvolňováním; každodenní dopad spíš plošně mírný.",
+    "B": "Prezident dvou dekád, pamětníci ho znali; dnes spíš pro poučené zájemce.",
+    "C": "Spojení centralismu 50. let s uvolňováním 60. let vysvětluje proměnu éry."
+   }
+  },
+  {
+   "key": "cz-pavel",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 1,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Nedávný úřad; dlouhodobé důsledky zatím nelze doložit, skóruji střízlivě.",
+    "B": "Úřadující prezident, známý prakticky všem obyvatelům.",
+    "C": "Současný prezident; kontext západního ukotvení, zatím bez hlubšího mechanismu."
+   }
+  },
+  {
+   "key": "cz-svoboda",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Rok 1968 a nástup normalizace změnily veřejný život na dvě dekády.",
+    "B": "Rok 1968 a Svoboda jsou sdílenou vzpomínkou generace i známou látkou.",
+    "C": "Pražské jaro, invaze a nástup normalizace — klíčové zlomy doby."
+   }
+  },
+  {
+   "key": "cz-zapotocky",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Měnová reforma 1953 přes noc znehodnotila úspory většiny domácností.",
+    "B": "Měnovou reformu 1953 si pamětníci vybaví; jméno zná většina čtenářů.",
+    "C": "Měnová reforma 1953 přímo zasáhla úspory a důvěru obyvatel."
+   }
+  },
+  {
+   "key": "cz-zeman",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Polarizující, ale běžný den většiny domácností se úřadem neměnil.",
+    "B": "Nedávné desetileté prezidentství, obecně známé celé veřejnosti.",
+    "C": "Polarizace a spory o orientaci nesou kus příběhu doby."
+   }
+  },
+  {
+   "key": "ua-chruscov",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Teror, sovětizace západu a hladomor 1946–1947 zasáhly většinu domácností.",
+    "B": "Chruščov je známý, ale jeho ukrajinské období běžného čtenáře překvapí.",
+    "C": "Provádění moskevské politiky od teroru po sovětizaci vysvětluje mechanismus doby."
+   }
+  },
+  {
+   "key": "ua-hrusevskyj",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Revoluční léta 1917–1918 rozvrátila každodennost; státní tradice přetrvala v paměti.",
+    "B": "Na Ukrajině ikona (bankovka); běžného českého čtenáře jeho role překvapí.",
+    "C": "Cesta od autonomie k nezávislosti otevírá pochopení zrodu ukrajinské státnosti."
+   }
+  },
+  {
+   "key": "ua-janukovyc",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Odmítnutí dohody spustilo Majdan; důsledky přesáhly dekádu.",
+    "B": "Majdan a útěk 2014 jsou univerzálně známé pamětníkům i veřejnosti.",
+    "C": "Odmítnutí asociace a Majdan otevírají pochopení zlomu roku 2014."
+   }
+  },
+  {
+   "key": "ua-juscenko",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Politické otevření a svobodnější média; běžná rutina se měnila jen omezeně.",
+    "B": "Oranžová revoluce byla masová zkušenost i mezinárodně sledovaná událost.",
+    "C": "Oranžová revoluce a otevření Západu — proměna veřejného života."
+   }
+  },
+  {
+   "key": "ua-kosior",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 3,
+    "discovery": 4,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Kolektivizace a hladomor změnily, co lidé jedli a zda přežili; trvalá stopa.",
+    "B": "Vůdce KP(b)U za hladomoru; i sečtělého čtenáře jeho jméno překvapí.",
+    "C": "Kolektivizace, hladomor a teror určily osud venkovské populace éry."
+   }
+  },
+  {
+   "key": "ua-kravcuk",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Nezávislost a rozpad SSSR změnily měnu, hranice i každodenní ekonomiku trvale.",
+    "B": "První prezident nezávislosti, sdílená vzpomínka; jméno zná většina čtenářů.",
+    "C": "Rozpad SSSR a budování státu — zásadní zlom pro obyvatele."
+   }
+  },
+  {
+   "key": "ua-kucma",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 1,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Stabilizace hospodářství a oligarchizace formovaly poměry zhruba dekádu.",
+    "B": "Dvě funkční období 90. let; kauza Gongadze je známá čtenářům novin.",
+    "C": "Propojení moci s oligarchy vysvětluje, jak stát 90. let fungoval."
+   }
+  },
+  {
+   "key": "ua-petljura",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Válka o nezávislost a pogromy zasáhly bezpečí a živobytí obyvatel.",
+    "B": "Výrazná postava zápasu o nezávislost; českému čtenáři spíš neznámá.",
+    "C": "Zápas o nezávislost a stín pogromů vysvětlují chaos let 1919–1920."
+   }
+  },
+  {
+   "key": "ua-porosenko",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 3,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Válečný mandát a evropské sbližování formovaly zemi po zbytek dekády.",
+    "B": "Nedávný prezident válečných let 2014–2019, obecně známý.",
+    "C": "Válka na Donbasu a sbližování s EU rámovaly život let 2014–2019."
+   }
+  },
+  {
+   "key": "ua-scerbyckyj",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Sedmnáct let rusifikace a cenzury určovalo školu, jazyk i veřejný projev.",
+    "B": "Sedmnáct let v čele, pamětníci ho znali; českého čtenáře jméno překvapí.",
+    "C": "Sedmnáct let rusifikace a konzervatismu včetně Černobylu rámuje každodennost."
+   }
+  },
+  {
+   "key": "ua-selest",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Omezené kulturní uvolnění se dotklo hlavně veřejného a kulturního života.",
+    "B": "Éra omezeného kulturního uvolnění; mimo poučené zájemce téměř neznámá.",
+    "C": "Omezené otevření ukrajinské kultuře a jeho konec vysvětlují dynamiku éry."
+   }
+  },
+  {
+   "key": "ua-skoropadskyj",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Roční hejtmanát změnil poměry dočasně; režim rychle padl.",
+    "B": "Krátká hejtmanská epizoda 1918; mimo Ukrajinu málo známá, čtenáře překvapí.",
+    "C": "Hejtmanát s německou oporou vysvětluje mocenský mechanismus roku 1918."
+   }
+  },
+  {
+   "key": "ua-turcynov",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Krátký úřad, ale anexe Krymu a začátek války změnily život mnoha domácností.",
+    "B": "Krátké úřadování v přelomovém jaru 2014; detail zná spíš poučený zájemce.",
+    "C": "Anexe Krymu a začátek války na Donbasu — klíčový přelom doby."
+   }
+  },
+  {
+   "key": "ua-zelenskyj",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 5,
+    "recognition": 5,
+    "discovery": 0,
+    "explanatoryPayload": 5
+   },
+   "rationales": {
+    "A": "Plnohodnotná invaze 2022 změnila bezpečí, bydlení i každodennost celé země.",
+    "B": "Úřadující válečný prezident, celosvětově i doma všeobecně známý.",
+    "C": "Od protestní volby k válečné hlavě státu — určující příběh současnosti."
+   }
+  }
+ ]
+}
