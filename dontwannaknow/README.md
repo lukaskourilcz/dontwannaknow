@@ -28,6 +28,8 @@ Samostatně jsou dostupné `npm run typecheck`, `npm run lint`, `npm test`, `npm
 - `src/lib/person.ts` je zdroj typu osoby, vztahů, normalizace a podporovaného rozsahu.
 - `src/lib/historicalLocation.ts` převádí moderní město a rok na tehdejší politický kontext.
 - `src/lib/facts.ts` vybírá kandidátní data; `src/lib/report.ts` je skládá do kapitol a vynucuje redakční pravidla.
+- `src/lib/relevance.ts` čte build-time skóre relevance (`src/data/relevance/`, pipeline ve `scripts/relevance/`); brány citlivosti, sdílení a věku skóre vždy přebijí.
+- `src/data/leaders.json` nese zdrojované profily politických lídrů; `src/data/provenance/` per-record citace veřejných záznamů.
 - `src/components/Results.tsx` vykresluje osobní cestu od narození po dospívání a znovu používá mapu, oblohu, umění i vizualizace času.
 - `src/lib/share.ts`, `src/lib/shareImage.ts` a `src/lib/pdf.ts` zajišťují soukromé sdílení, obrázky a památeční PDF přímo v prohlížeči.
 - `src/data/editorialRules.json` obsahuje ručně kontrolovatelná pravidla citlivosti a zařazení.

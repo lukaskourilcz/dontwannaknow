@@ -384,12 +384,22 @@ export function composeChapters(
   const changing = choose("changing-world", ["city", "local", "beautiful", "world"], 7, {
     predicate: (fact) => fact.year === undefined || (fact.year >= person.birthYear && fact.year <= person.birthYear + 18),
   });
-  const contextItems = avoidConsecutiveDifficult(
-    choose("generation-context", ["local", "world", "government", "illness"], 8, {
+  // Profily lídrů mají v kapitole souvislostí rezervovaná místa — kdo stál
+  // v čele, je hlavní otázka čtenáře a nesmí ji vytlačit lépe skórovaná
+  // událost. Brány (citlivost, sdílení, věk) platí i pro ně beze změny.
+  const withinFormativeYears = (fact: Fact) =>
+    fact.year === undefined || (fact.year >= person.birthYear && fact.year <= person.birthYear + 18);
+  const leaderItems = choose("generation-context", ["government"], 2, {
+    allowDifficult: true,
+    predicate: (fact) => Boolean(fact.leader) && withinFormativeYears(fact),
+  });
+  const contextItems = avoidConsecutiveDifficult([
+    ...leaderItems,
+    ...choose("generation-context", ["local", "world", "government", "illness"], 8 - leaderItems.length, {
       allowDifficult: true,
-      predicate: (fact) => fact.year === undefined || (fact.year >= person.birthYear && fact.year <= person.birthYear + 18),
+      predicate: (fact) => !fact.leader && withinFormativeYears(fact),
     }),
-  );
+  ]);
 
   return [
     {

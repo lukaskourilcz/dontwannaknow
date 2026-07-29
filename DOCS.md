@@ -10,11 +10,13 @@ Veřejné rozhraní je pouze česky. Podporovaný rozsah je od roku 1920 do aktu
 
 1. `normalizePerson` vytvoří stabilní profil bez odvozování výběru faktů ze jména.
 2. `resolveHistoricalLocation` přiřadí dobový název města, tehdejší stát a případný širší celek.
-3. `reportFor` načte lokální, zemské, kulturní a společné kandidáty pod stabilním seedem.
-4. `annotateFact` doplní kapitolu, tón, citlivost, geografický rozsah, důvěru zdroje a bezpečnost pro sdílení.
-5. `composeChapters` vytvoří chronologickou cestu: začátek příběhu, první roky, běžný den, dospívání, rozdíly oproti dnešku, proměny, širší kontext a život v číslech.
-6. Složitý obsah se nevyskytuje v prvních položkách, není za sebou, zůstává v samostatné sbalené kapitole a nesmí být výchozí sdílenou kartou.
-7. Varianta zprávy je součástí seedu i sdíleného stavu, takže „Ukázat jiný výběr“ zůstává reprodukovatelné.
+3. `reportFor` načte jen řezy dané osoby (město, země) a kandidáty vybírá pod stabilním seedem.
+4. `annotateFact` doplní kapitolu, tón, citlivost, geografický rozsah, důvěru zdroje a bezpečnost pro sdílení; citlivost daná daty funguje jako podlaha a datový zákaz sdílení nejde přebít.
+5. Výběr řadí build-time skóre relevance (`src/lib/relevance.ts`): šest nezávislých os vzniklých kurátorskými průchody mimo běh aplikace, commitnutých v `src/data/relevance/` a propsaných do veřejných dat jako kompaktní pole `rel`. Deterministické brány skóre vždy přebijí — skóre jen řadí, co brány pustily; seedovaný rozptyl střídá blízké případy mezi osobami.
+6. `composeChapters` vytvoří chronologickou cestu: začátek příběhu, první roky, běžný den, dospívání, rozdíly oproti dnešku, proměny, širší kontext a život v číslech. Každá kapitola nese záruku mixu (aspoň jedna položka s vysokým rozpoznáním a jedna s vysokým objevem, pokud je brány pustily).
+7. Složitý obsah se nevyskytuje v prvních položkách, není za sebou, zůstává v samostatné sbalené kapitole a nesmí být výchozí sdílenou kartou.
+8. Varianta zprávy je součástí seedu i sdíleného stavu, takže „Ukázat jiný výběr“ zůstává reprodukovatelné.
+9. Lídři formativních let (`src/data/leaders.json`) se zobrazují jako strukturovaná vizitka s datovaným, citovaným dobovým vnímáním; politické profily se nikdy nesdílejí.
 
 ## Historický kontext
 
@@ -39,7 +41,7 @@ Vercel Analytics nedostává vlastní události s profilem a `beforeSend` odstra
 
 ## Výkon
 
-Formulář načte samostatný malý katalog měst, ne velký městský archiv. Veřejné moduly používají generovanou `src/data/public` vrstvu s městy, souřadnicemi, městskými fakty a zemskými daty pouze pro CZ/UA; úplné zdroje zůstávají archivované mimo produkční graf. `Results`, mapa, obloha, umění a číselné vizualizace jsou lazy-loaded; velké faktové datasety přicházejí až při vytvoření zprávy a PDF stack až při exportu. Produkční build vypisuje aktuální velikosti chunků, které je třeba sledovat při rozšiřování dat.
+Formulář načte samostatný malý katalog měst, ne velký městský archiv. Veřejné moduly používají generovanou `src/data/public` vrstvu pouze pro CZ/UA, dělenou na běhové řezy: městská fakta po městech (`public/cityFacts/<město>.json`) a národní sady po zemích (`<sada>.cz|ua.json`). Zpráva tak načítá jen řezy dané osoby — datový chunk zprávy je ~25 kB místo dřívějších ~135 kB a vstupní chunk prvního vykreslení data neobsahuje vůbec. `Results`, mapa, obloha, umění a číselné vizualizace jsou lazy-loaded; PDF stack až při exportu. Produkční build vypisuje aktuální velikosti chunků, které je třeba sledovat při rozšiřování dat.
 
 ## Redakční data a `/dev`
 
@@ -47,7 +49,9 @@ Datové zdroje jsou v `dontwannaknow/src/data`. `editorialRules.json` obsahuje r
 
 Starší globální `culture.json` a další nepodporované mezinárodní zdroje zůstávají zachované pro případnou budoucí redakční migraci, ale veřejná zpráva je nepoužívá: obsahovaly převážně americké návyky, které nebylo poctivé vydávat za českou nebo ukrajinskou zkušenost.
 
-`npm run audit:content` kontroluje aktuálnost a CZ/UA hranice veřejné datové vrstvy, evidenci zdrojů, syntaxi JSON, přesné duplicity, roky v budoucnosti, identifikátory a datové typy redakčních pravidel, bezpečnost složitého obsahu, starou veřejnou značku a podezřele absolutní formulace. `npm run fix:duplicates` provede pouze mechanickou deduplikaci identických JSON záznamů; významové duplicity vyžadují redakční kontrolu.
+Skóre relevance vzniká reprodukovatelnou pipeline v `scripts/relevance/`: `prompts.mjs` je jediný zdroj pravdy os i verze promptu, `gen-batches.mjs` připraví dávky (s `--only-missing` pro delta-skórování nových záznamů), `merge-results.mjs` slije výsledky do sidecarů `src/data/relevance/` se zdůvodněními a verzí. Per-record citace žijí v `src/data/provenance/<sada>.json` (title, publisher, url, accessed, licence, klíčované obsahem záznamu) a build je propisuje do veřejných dat jako kompaktní `src`; záznam s doloženým zdrojem se čtenáři značí „Doloženo“, ostatní poctivě „K ověření“.
+
+`npm run audit:content` kontroluje aktuálnost a CZ/UA hranice veřejné datové vrstvy, evidenci zdrojů, syntaxi JSON, přesné duplicity, roky v budoucnosti, identifikátory a datové typy redakčních pravidel, bezpečnost složitého obsahu, starou veřejnou značku a podezřele absolutní formulace. Nad skóre a citacemi vynucuje rozsahy 0–5, úplné pokrytí, zdůvodnění a verzi promptu, žádné osiřelé klíče, úplnost citací a strukturu profilů lídrů (datované a zdrojované vnímání, `shareSafe: false`). `npm run fix:duplicates` provede pouze mechanickou deduplikaci identických JSON záznamů; významové duplicity vyžadují redakční kontrolu.
 
 ## Ověření
 
