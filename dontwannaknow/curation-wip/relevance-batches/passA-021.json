@@ -1,0 +1,456 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "frydek-mistek|1999|30. srpna povýšil papež Jan Pavel II. frýdeckou poutní baziliku Navštívení Panny Marie, zvanou slezské Lurdy, na baziliku minor",
+   "country": "CZ",
+   "city": "frydek-mistek",
+   "year": 1999,
+   "text": "30. srpna povýšil papež Jan Pavel II. frýdeckou poutní baziliku Navštívení Panny Marie, zvanou slezské Lurdy, na baziliku minor"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "frydek-mistek|2005|1. června se v rekreační oblasti Olešná otevřel letní aquapark s bazény a tobogány",
+   "country": "CZ",
+   "city": "frydek-mistek",
+   "year": 2005,
+   "text": "1. června se v rekreační oblasti Olešná otevřel letní aquapark s bazény a tobogány"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "frydek-mistek|2006|1. července se Frýdek-Místek stal statutárním městem",
+   "country": "CZ",
+   "city": "frydek-mistek",
+   "year": 2006,
+   "text": "1. července se Frýdek-Místek stal statutárním městem"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "frydek-mistek|2006|30. listopadu přibyl u Olešné krytý celoroční aquapark, rok po letním koupališti",
+   "country": "CZ",
+   "city": "frydek-mistek",
+   "year": 2006,
+   "text": "30. listopadu přibyl u Olešné krytý celoroční aquapark, rok po letním koupališti"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "frydek-mistek|2007|Válcovny plechu se staly součástí ArcelorMittal Ostrava, což přineslo jejich největší vlnu investic",
+   "country": "CZ",
+   "city": "frydek-mistek",
+   "year": 2007,
+   "text": "Válcovny plechu se staly součástí ArcelorMittal Ostrava, což přineslo jejich největší vlnu investic"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "frydek-mistek|2008|v listopadu zahájila výrobu automobilka Hyundai v nedalekých Nošovicích na Frýdecko-Místecku",
+   "country": "CZ",
+   "city": "frydek-mistek",
+   "year": 2008,
+   "text": "v listopadu zahájila výrobu automobilka Hyundai v nedalekých Nošovicích na Frýdecko-Místecku"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "frydek-mistek|2008|textilka Slezan zkrachovala pod tlakem levných asijských dovozů a hospodářské krize",
+   "country": "CZ",
+   "city": "frydek-mistek",
+   "year": 2008,
+   "text": "textilka Slezan zkrachovala pod tlakem levných asijských dovozů a hospodářské krize"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "trinec|1946|po zániku Báňské a hutní společnosti se znárodněné Třinecké železárny staly jejich nástupcem",
+   "country": "CZ",
+   "city": "trinec",
+   "year": 1946,
+   "text": "po zániku Báňské a hutní společnosti se znárodněné Třinecké železárny staly jejich nástupcem"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "trinec|1969|12. září se k 130. výročí závodu otevřelo muzeum Třineckých železáren, první hutnické muzeum v zemi",
+   "country": "CZ",
+   "city": "trinec",
+   "year": 1969,
+   "text": "12. září se k 130. výročí závodu otevřelo muzeum Třineckých železáren, první hutnické muzeum v zemi"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "trinec|1996|většinovým vlastníkem Třineckých železáren se stala Moravia Steel, dnes největší český výrobce oceli",
+   "country": "CZ",
+   "city": "trinec",
+   "year": 1996,
+   "text": "většinovým vlastníkem Třineckých železáren se stala Moravia Steel, dnes největší český výrobce oceli"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "trinec|2011|hokejisté HC Oceláři Třinec získali svůj první titul mistra české extraligy",
+   "country": "CZ",
+   "city": "trinec",
+   "year": 2011,
+   "text": "hokejisté HC Oceláři Třinec získali svůj první titul mistra české extraligy"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "trinec|2014|12. září se otevřela nová Werk Arena, moderní hokejový stánek pro více než pět tisíc diváků",
+   "country": "CZ",
+   "city": "trinec",
+   "year": 2014,
+   "text": "12. září se otevřela nová Werk Arena, moderní hokejový stánek pro více než pět tisíc diváků"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "trinec|2019|Oceláři Třinec získali druhý extraligový titul a zahájili éru dominance",
+   "country": "CZ",
+   "city": "trinec",
+   "year": 2019,
+   "text": "Oceláři Třinec získali druhý extraligový titul a zahájili éru dominance"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "trinec|2024|Oceláři Třinec dovršili sérii čtyř titulů v řadě z let 2021 až 2024, celkem šestou trofejí za sebou",
+   "country": "CZ",
+   "city": "trinec",
+   "year": 2024,
+   "text": "Oceláři Třinec dovršili sérii čtyř titulů v řadě z let 2021 až 2024, celkem šestou trofejí za sebou"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "cesky-tesin|1945|v srpnu vzniklo Těšínské divadlo, první profesionální scéna ve městě; první představení se hrálo v říjnu",
+   "country": "CZ",
+   "city": "cesky-tesin",
+   "year": 1945,
+   "text": "v srpnu vzniklo Těšínské divadlo, první profesionální scéna ve městě; první představení se hrálo v říjnu"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "cesky-tesin|1949|do Českého Těšína bylo přeloženo polské gymnázium Juliusze Słowackého, jediná polská střední škola v zemi",
+   "country": "CZ",
+   "city": "cesky-tesin",
+   "year": 1949,
+   "text": "do Českého Těšína bylo přeloženo polské gymnázium Juliusze Słowackého, jediná polská střední škola v zemi"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "cesky-tesin|1951|při Těšínském divadle vznikla Scena Polska, jediné profesionální polské divadlo mimo Polsko",
+   "country": "CZ",
+   "city": "cesky-tesin",
+   "year": 1951,
+   "text": "při Těšínském divadle vznikla Scena Polska, jediné profesionální polské divadlo mimo Polsko"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "cesky-tesin|1961|Těšínské divadlo se přestěhovalo do nové účelové budovy",
+   "country": "CZ",
+   "city": "cesky-tesin",
+   "year": 1961,
+   "text": "Těšínské divadlo se přestěhovalo do nové účelové budovy"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "cesky-tesin|1991|1. ledna přijala scéna dnešní název Těšínské divadlo Český Těšín",
+   "country": "CZ",
+   "city": "cesky-tesin",
+   "year": 1991,
+   "text": "1. ledna přijala scéna dnešní název Těšínské divadlo Český Těšín"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "cesky-tesin|2007|21. prosince vstoupily Česko i Polsko do Schengenu a hraniční kontroly na Olze mezi Českým Těšínem a Cieszynem zanikly",
+   "country": "CZ",
+   "city": "cesky-tesin",
+   "year": 2007,
+   "text": "21. prosince vstoupily Česko i Polsko do Schengenu a hraniční kontroly na Olze mezi Českým Těšínem a Cieszynem zanikly"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "cesky-tesin|2012|v červnu se přes Olzu otevřela nová lávka pro pěší a cyklisty v rámci přeshraničního projektu Zahrada dvou břehů",
+   "country": "CZ",
+   "city": "cesky-tesin",
+   "year": 2012,
+   "text": "v červnu se přes Olzu otevřela nová lávka pro pěší a cyklisty v rámci přeshraničního projektu Zahrada dvou břehů"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "havirov|1944|6. srpna obklíčily nacistické jednotky Životice, dnes součást Havířova, a zastřelily 36 mužů; obci se začalo říkat slezské Lidice",
+   "country": "CZ",
+   "city": "havirov",
+   "year": 1944,
+   "text": "6. srpna obklíčily nacistické jednotky Životice, dnes součást Havířova, a zastřelily 36 mužů; obci se začalo říkat slezské Lidice"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "havirov|1947|na podzim začala na pomezí Šumbarku a Šenova výstavba prvních obytných bloků pozdějšího Havířova",
+   "country": "CZ",
+   "city": "havirov",
+   "year": 1947,
+   "text": "na podzim začala na pomezí Šumbarku a Šenova výstavba prvních obytných bloků pozdějšího Havířova"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "havirov|1949|bylo dokončeno prvních 96 bytů budoucího hornického města vyrůstajícího z několika zemědělských vsí",
+   "country": "CZ",
+   "city": "havirov",
+   "year": 1949,
+   "text": "bylo dokončeno prvních 96 bytů budoucího hornického města vyrůstajícího z několika zemědělských vsí"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "havirov|1955|jméno Havířov, odvozené od slova havíř, vzešlo z celostátní soutěže, do níž přišlo přes dva tisíce návrhů",
+   "country": "CZ",
+   "city": "havirov",
+   "year": 1955,
+   "text": "jméno Havířov, odvozené od slova havíř, vzešlo z celostátní soutěže, do níž přišlo přes dva tisíce návrhů"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "havirov|1955|nové město bylo vyčleněno z katastrů obcí Dolní Bludovice, Šumbark a Šenov",
+   "country": "CZ",
+   "city": "havirov",
+   "year": 1955,
+   "text": "nové město bylo vyčleněno z katastrů obcí Dolní Bludovice, Šumbark a Šenov"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "havirov|1961|v říjnu se otevřel Kulturní dům Petra Bezruče, který se moderním vzhledem vymykal okolní socialistickorealistické zástavbě",
+   "country": "CZ",
+   "city": "havirov",
+   "year": 1961,
+   "text": "v říjnu se otevřel Kulturní dům Petra Bezruče, který se moderním vzhledem vymykal okolní socialistickorealistické zástavbě"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "havirov|1961|7. července zahynulo při požáru na dole Dukla 108 horníků, jedno z nejhorších důlních neštěstí v dějinách Československa",
+   "country": "CZ",
+   "city": "havirov",
+   "year": 1961,
+   "text": "7. července zahynulo při požáru na dole Dukla 108 horníků, jedno z nejhorších důlních neštěstí v dějinách Československa"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "havirov|1966|do Havířova se přestěhoval hokejový klub, který přijal podle dolu Antonína Zápotockého název AZ Havířov",
+   "country": "CZ",
+   "city": "havirov",
+   "year": 1966,
+   "text": "do Havířova se přestěhoval hokejový klub, který přijal podle dolu Antonína Zápotockého název AZ Havířov"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "havirov|1969|byla dokončena nádražní budova architekta Josefa Hrejsemnoua, ceněná ukázka takzvaného bruselského stylu",
+   "country": "CZ",
+   "city": "havirov",
+   "year": 1969,
+   "text": "byla dokončena nádražní budova architekta Josefa Hrejsemnoua, ceněná ukázka takzvaného bruselského stylu"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "havirov|1973|6. září se poprvé konala květinová slavnost Havířov v květech, jež se udržela do roku 1989 a obnovena byla v roce 2009",
+   "country": "CZ",
+   "city": "havirov",
+   "year": 1973,
+   "text": "6. září se poprvé konala květinová slavnost Havířov v květech, jež se udržela do roku 1989 a obnovena byla v roce 2009"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "havirov|1991|sčítání napočítalo přes 86 tisíc obyvatel; poté začal s útlumem hornictví dlouhý pokles, byť Havířov zůstal nejmladším městem země",
+   "country": "CZ",
+   "city": "havirov",
+   "year": 1991,
+   "text": "sčítání napočítalo přes 86 tisíc obyvatel; poté začal s útlumem hornictví dlouhý pokles, byť Havířov zůstal nejmladším městem země"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "karvina|1952|byl založen házenkářský klub, pozdější HCB Karviná, nejúspěšnější český házenkářský oddíl s mnoha tituly",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1952,
+   "text": "byl založen házenkářský klub, pozdější HCB Karviná, nejúspěšnější český házenkářský oddíl s mnoha tituly"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "karvina|1957|na řece Lučině byla u Karviné dokončena přehrada Žermanice, zásobující vodou průmysl Ostravska",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1957,
+   "text": "na řece Lučině byla u Karviné dokončena přehrada Žermanice, zásobující vodou průmysl Ostravska"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "karvina|1960|při územní reformě byl zrušen okres Český Těšín a sloučen do okresu Karviná",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1960,
+   "text": "při územní reformě byl zrušen okres Český Těšín a sloučen do okresu Karviná"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "karvina|1972|házenkáři Karviné získali svůj první československý ligový titul",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1972,
+   "text": "házenkáři Karviné získali svůj první československý ligový titul"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "karvina|1980|kostel svatého Petra z Alkantary v Karviné-Dolech se vlivem poddolování naklonil o 6,8 stupně, více než věž v Pise",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1980,
+   "text": "kostel svatého Petra z Alkantary v Karviné-Dolech se vlivem poddolování naklonil o 6,8 stupně, více než věž v Pise"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "karvina|1990|při důlním neštěstí u Karviné zahynulo 30 horníků, po desetiletí nejtěžší havárie tohoto druhu v Česku",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1990,
+   "text": "při důlním neštěstí u Karviné zahynulo 30 horníků, po desetiletí nejtěžší havárie tohoto druhu v Česku"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "karvina|1990|v Karviné vznikla Obchodně podnikatelská fakulta, nejprve pod Masarykovou univerzitou",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1990,
+   "text": "v Karviné vznikla Obchodně podnikatelská fakulta, nejprve pod Masarykovou univerzitou"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "karvina|1991|karvinská fakulta se stala součástí nově zřízené Slezské univerzity v Opavě",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1991,
+   "text": "karvinská fakulta se stala součástí nově zřízené Slezské univerzity v Opavě"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "karvina|1997|červencová povodeň zasáhla Karvinsko a rozvodněná Olše patřila k nejhorším v dějinách města",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1997,
+   "text": "červencová povodeň zasáhla Karvinsko a rozvodněná Olše patřila k nejhorším v dějinách města"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "karvina|1997|po rozsáhlé rekonstrukci se veřejnosti otevřel zámek Fryštát, někdejší sídlo rodu Larisch-Mönnich",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1997,
+   "text": "po rozsáhlé rekonstrukci se veřejnosti otevřel zámek Fryštát, někdejší sídlo rodu Larisch-Mönnich"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "karvina|2003|Karviná získala status statutárního města",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 2003,
+   "text": "Karviná získala status statutárního města"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "karvina|2016|fotbalisté MFK Karviná postoupili poprvé v historii do nejvyšší české soutěže",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 2016,
+   "text": "fotbalisté MFK Karviná postoupili poprvé v historii do nejvyšší české soutěže"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "karvina|2018|20. prosince zahynulo při výbuchu metanu v dole ČSM ve Stonavě u Karviné 13 horníků, většinou polské národnosti",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 2018,
+   "text": "20. prosince zahynulo při výbuchu metanu v dole ČSM ve Stonavě u Karviné 13 horníků, většinou polské národnosti"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "karvina|2021|na přelomu února byly trvale uzavřeny doly ČSA a Darkov a skončila tak velká těžba uhlí přímo ve městě",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 2021,
+   "text": "na přelomu února byly trvale uzavřeny doly ČSA a Darkov a skončila tak velká těžba uhlí přímo ve městě"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1927|vodohospodářský profil města stoupal, jak se plánovala kaskáda na Dněpru",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1927,
+   "text": "vodohospodářský profil města stoupal, jak se plánovala kaskáda na Dněpru"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1932|hladomor (holodomor) zpustošil Čerkaskou oblast; celé vesnice se vylidnily",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1932,
+   "text": "hladomor (holodomor) zpustošil Čerkaskou oblast; celé vesnice se vylidnily"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1932|holodomor katastrofálně zasáhl vesnice Čerkaské oblasti podél Dněpru",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1932,
+   "text": "holodomor katastrofálně zasáhl vesnice Čerkaské oblasti podél Dněpru"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1941|wehrmacht obsadil Čerkasy v srpnu",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1941,
+   "text": "wehrmacht obsadil Čerkasy v srpnu"
+  }
+ ]
+}

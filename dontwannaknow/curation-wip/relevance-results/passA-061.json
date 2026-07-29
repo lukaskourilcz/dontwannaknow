@@ -1,0 +1,70 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "scores": [
+  {
+   "id": "r0",
+   "key": "UA|1970|Sergei Parajanov",
+   "lp": 4,
+   "ec": 1,
+   "ch": 3,
+   "rationale": "Uvěznění filmaře v UkrSSR; každodennost běžných lidí přímo nezměnilo, symbol represe kulturní obce."
+  },
+  {
+   "id": "r1",
+   "key": "UA|1970|Vyacheslav Chornovil",
+   "lp": 4,
+   "ec": 1,
+   "ch": 4,
+   "rationale": "Perzekuce disidenta v dobovém státě; dotkla se úzkého okruhu, vliv sahal až k nezávislosti."
+  },
+  {
+   "id": "r2",
+   "key": "UA|1970|Mykola Rudenko",
+   "lp": 4,
+   "ec": 1,
+   "ch": 4,
+   "rationale": "Založení Ukrajinské helsinské skupiny; běžný den nezměnilo, disent měl dlouhodobé důsledky."
+  },
+  {
+   "id": "r3",
+   "key": "UA|1970|Sofia Rotaru",
+   "lp": 4,
+   "ec": 3,
+   "ch": 4,
+   "rationale": "Celosvazově populární zpěvačka z Ukrajiny; její písně zněly z rádií a televize běžných domácností."
+  },
+  {
+   "id": "r4",
+   "key": "UA|1970|Volodymyr Ivasyuk",
+   "lp": 4,
+   "ec": 3,
+   "ch": 4,
+   "rationale": "Červona ruta byla masově zpívaný hit; jeho smrt 1979 silně rezonovala, píseň zlidověla."
+  },
+  {
+   "id": "r5",
+   "key": "UA|1970|Valeriy Lobanovskyi",
+   "lp": 4,
+   "ec": 3,
+   "ch": 4,
+   "rationale": "Úspěch Dynama Kyjev 1975 sledovala velká část domácností; fotbalová éra formovala město i zemi."
+  },
+  {
+   "id": "r6",
+   "key": "UA|1970|Oleg Blokhin",
+   "lp": 4,
+   "ec": 3,
+   "ch": 3,
+   "rationale": "Zlatý míč 1975 pro hráče Dynama; celonárodní sportovní událost sledovaná u televizí."
+  },
+  {
+   "id": "r7",
+   "key": "UA|1970|Lina Kostenko",
+   "lp": 4,
+   "ec": 1,
+   "ch": 3,
+   "rationale": "Zákaz publikování dopadl na literární obec; běžnou každodennost většiny nezměnil."
+  }
+ ]
+}

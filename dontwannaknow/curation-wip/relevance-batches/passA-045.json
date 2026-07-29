@@ -1,0 +1,406 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "countryEvents",
+   "key": "CZ|1950|katolické kláštery byly přes noc zrušeny v rámci „Akce K“; přes 2 000 řeholníků skončilo v pracovních táborech",
+   "country": "CZ",
+   "year": 1950,
+   "text": "katolické kláštery byly přes noc zrušeny v rámci „Akce K“; přes 2 000 řeholníků skončilo v pracovních táborech"
+  },
+  {
+   "id": "r1",
+   "dataset": "countryEvents",
+   "key": "CZ|1950|Milada Horáková byla popravena po televizí přenášeném vykonstruovaném procesu",
+   "country": "CZ",
+   "year": 1950,
+   "text": "Milada Horáková byla popravena po televizí přenášeném vykonstruovaném procesu"
+  },
+  {
+   "id": "r2",
+   "dataset": "countryEvents",
+   "key": "CZ|1951|rodina Bártových přeletěla s celým osobním vlakem přes železnou oponu do západního Německa",
+   "country": "CZ",
+   "year": 1951,
+   "text": "rodina Bártových přeletěla s celým osobním vlakem přes železnou oponu do západního Německa"
+  },
+  {
+   "id": "r3",
+   "dataset": "countryEvents",
+   "key": "CZ|1954|v červenci proběhl první ročník Karlovarského filmového festivalu pod socialistickou záštitou",
+   "country": "CZ",
+   "year": 1954,
+   "text": "v červenci proběhl první ročník Karlovarského filmového festivalu pod socialistickou záštitou"
+  },
+  {
+   "id": "r4",
+   "dataset": "countryEvents",
+   "key": "CZ|1956|Chruščovův tajný projev vyvolal v Praze opatrnou destalinizaci; Stalinovo tělo později opustilo mauzoleum na Pankráci",
+   "country": "CZ",
+   "year": 1956,
+   "text": "Chruščovův tajný projev vyvolal v Praze opatrnou destalinizaci; Stalinovo tělo později opustilo mauzoleum na Pankráci"
+  },
+  {
+   "id": "r5",
+   "dataset": "countryEvents",
+   "key": "CZ|1958|Československo hostilo mistrovství světa v ledním hokeji v Praze a Bratislavě",
+   "country": "CZ",
+   "year": 1958,
+   "text": "Československo hostilo mistrovství světa v ledním hokeji v Praze a Bratislavě"
+  },
+  {
+   "id": "r6",
+   "dataset": "countryEvents",
+   "key": "CZ|1960|země byla přejmenována na Československou socialistickou republiku a nová ústava vyhlásila „dovršení socialismu“",
+   "country": "CZ",
+   "year": 1960,
+   "text": "země byla přejmenována na Československou socialistickou republiku a nová ústava vyhlásila „dovršení socialismu“"
+  },
+  {
+   "id": "r7",
+   "dataset": "countryEvents",
+   "key": "CZ|1963|exportní podnik Sigma Pumpy se stal největším československým zdrojem deviz mimo Škodu",
+   "country": "CZ",
+   "year": 1963,
+   "text": "exportní podnik Sigma Pumpy se stal největším československým zdrojem deviz mimo Škodu"
+  },
+  {
+   "id": "r8",
+   "dataset": "countryEvents",
+   "key": "CZ|1965|film Miloše Formana Lásky jedné plavovlásky získal ceny v Benátkách a vyvolal nesouhlas cenzorů",
+   "country": "CZ",
+   "year": 1965,
+   "text": "film Miloše Formana Lásky jedné plavovlásky získal ceny v Benátkách a vyvolal nesouhlas cenzorů"
+  },
+  {
+   "id": "r9",
+   "dataset": "countryEvents",
+   "key": "CZ|1966|Bohumil Hrabal vydal Ostře sledované vlaky; filmová adaptace získala o rok později Oscara",
+   "country": "CZ",
+   "year": 1966,
+   "text": "Bohumil Hrabal vydal Ostře sledované vlaky; filmová adaptace získala o rok později Oscara"
+  },
+  {
+   "id": "r10",
+   "dataset": "countryEvents",
+   "key": "CZ|1970|Husákova „normalizace“ vyloučila ze strany 500 000 členů KSČ",
+   "country": "CZ",
+   "year": 1970,
+   "text": "Husákova „normalizace“ vyloučila ze strany 500 000 členů KSČ"
+  },
+  {
+   "id": "r11",
+   "dataset": "countryEvents",
+   "key": "CZ|1971|pětiletka husákovské éry kladla důraz na spotřební zboží, aby uklidnila obyvatelstvo — paneláky a škodovky pro všechny",
+   "country": "CZ",
+   "year": 1971,
+   "text": "pětiletka husákovské éry kladla důraz na spotřební zboží, aby uklidnila obyvatelstvo — paneláky a škodovky pro všechny"
+  },
+  {
+   "id": "r12",
+   "dataset": "countryEvents",
+   "key": "CZ|1973|Československá televize zahájila barevné vysílání",
+   "country": "CZ",
+   "year": 1973,
+   "text": "Československá televize zahájila barevné vysílání"
+  },
+  {
+   "id": "r13",
+   "dataset": "countryEvents",
+   "key": "CZ|1975|Československo podepsalo Helsinský závěrečný akt, který poskytl právní oporu pro budoucí Chartu 77",
+   "country": "CZ",
+   "year": 1975,
+   "text": "Československo podepsalo Helsinský závěrečný akt, který poskytl právní oporu pro budoucí Chartu 77"
+  },
+  {
+   "id": "r14",
+   "dataset": "countryEvents",
+   "key": "CZ|1976|Karel Gott vydal píseň „Lady Carneval“ — současně hit v Česku i v západním Německu",
+   "country": "CZ",
+   "year": 1976,
+   "text": "Karel Gott vydal píseň „Lady Carneval“ — současně hit v Česku i v západním Německu"
+  },
+  {
+   "id": "r15",
+   "dataset": "countryEvents",
+   "key": "CZ|1979|v procesu s Výborem na obranu nespravedlivě stíhaných (VONS) byli uvězněni Václav Havel, Jiří Dienstbier a další",
+   "country": "CZ",
+   "year": 1979,
+   "text": "v procesu s Výborem na obranu nespravedlivě stíhaných (VONS) byli uvězněni Václav Havel, Jiří Dienstbier a další"
+  },
+  {
+   "id": "r16",
+   "dataset": "countryEvents",
+   "key": "UA|1922|Ukrajinská SSR formálně vstoupila do Sovětského svazu 30. prosince",
+   "country": "UA",
+   "year": 1922,
+   "text": "Ukrajinská SSR formálně vstoupila do Sovětského svazu 30. prosince"
+  },
+  {
+   "id": "r17",
+   "dataset": "countryEvents",
+   "key": "UA|1925|korenizace vyvrcholila — 78 % škol v Ukrajinské SSR vyučovalo v ukrajinštině",
+   "country": "UA",
+   "year": 1925,
+   "text": "korenizace vyvrcholila — 78 % škol v Ukrajinské SSR vyučovalo v ukrajinštině"
+  },
+  {
+   "id": "r18",
+   "dataset": "countryEvents",
+   "key": "UA|1928|první pětiletka zahájila masovou industrializaci v Donbasu a v Podněpří",
+   "country": "UA",
+   "year": 1928,
+   "text": "první pětiletka zahájila masovou industrializaci v Donbasu a v Podněpří"
+  },
+  {
+   "id": "r19",
+   "dataset": "countryEvents",
+   "key": "UA|1929|začala nucená kolektivizace; „rozkulačování“ deportovalo desítky tisíc rolnických rodin",
+   "country": "UA",
+   "year": 1929,
+   "text": "začala nucená kolektivizace; „rozkulačování“ deportovalo desítky tisíc rolnických rodin"
+  },
+  {
+   "id": "r20",
+   "dataset": "countryEvents",
+   "key": "UA|1931|ředitel divadla Berezil Les Kurbas hájil svou tvorbu na slyšeních komunistické strany — o šest let později byl zastřelen",
+   "country": "UA",
+   "year": 1931,
+   "text": "ředitel divadla Berezil Les Kurbas hájil svou tvorbu na slyšeních komunistické strany — o šest let později byl zastřelen"
+  },
+  {
+   "id": "r21",
+   "dataset": "countryEvents",
+   "key": "UA|1934|hlavní město Ukrajinské SSR se přesunulo z Charkova do Kyjeva; Rada lidových komisařů se usídlila v nové Mariinské čtvrti",
+   "country": "UA",
+   "year": 1934,
+   "text": "hlavní město Ukrajinské SSR se přesunulo z Charkova do Kyjeva; Rada lidových komisařů se usídlila v nové Mariinské čtvrti"
+  },
+  {
+   "id": "r22",
+   "dataset": "countryEvents",
+   "key": "UA|1935|donbaský horník Alexej Stachanov vytěžil za jednu směnu 102 tun uhlí a zahájil stachanovské hnutí",
+   "country": "UA",
+   "year": 1935,
+   "text": "donbaský horník Alexej Stachanov vytěžil za jednu směnu 102 tun uhlí a zahájil stachanovské hnutí"
+  },
+  {
+   "id": "r23",
+   "dataset": "countryEvents",
+   "key": "UA|1936|nová sovětská ústava slíbila každému Ukrajinci totéž „právo na práci“, které holodomor milionům lidí upřel",
+   "country": "UA",
+   "year": 1936,
+   "text": "nová sovětská ústava slíbila každému Ukrajinci totéž „právo na práci“, které holodomor milionům lidí upřel"
+  },
+  {
+   "id": "r24",
+   "dataset": "countryEvents",
+   "key": "UA|1938|Nikita Chruščov vystřídal Stanislava Kosiora ve funkci prvního tajemníka Ukrajinské SSR — a pokračoval v čistkách",
+   "country": "UA",
+   "year": 1938,
+   "text": "Nikita Chruščov vystřídal Stanislava Kosiora ve funkci prvního tajemníka Ukrajinské SSR — a pokračoval v čistkách"
+  },
+  {
+   "id": "r25",
+   "dataset": "countryEvents",
+   "key": "UA|1940|Bukovina a Besarábie byly anektovány Rumunsku a připojeny k Ukrajinské a Moldavské SSR",
+   "country": "UA",
+   "year": 1940,
+   "text": "Bukovina a Besarábie byly anektovány Rumunsku a připojeny k Ukrajinské a Moldavské SSR"
+  },
+  {
+   "id": "r26",
+   "dataset": "countryEvents",
+   "key": "UA|1942|popraviště v Babím Jaru zůstávalo v provozu; SS tam během roku zastřelili dalších odhadem 70 000 lidí",
+   "country": "UA",
+   "year": 1942,
+   "text": "popraviště v Babím Jaru zůstávalo v provozu; SS tam během roku zastřelili dalších odhadem 70 000 lidí"
+  },
+  {
+   "id": "r27",
+   "dataset": "countryEvents",
+   "key": "UA|1944|Stalin v květnu deportoval do Střední Asie krymské Tatary, ukrajinské povolžské Němce a ukrajinské Řeky",
+   "country": "UA",
+   "year": 1944,
+   "text": "Stalin v květnu deportoval do Střední Asie krymské Tatary, ukrajinské povolžské Němce a ukrajinské Řeky"
+  },
+  {
+   "id": "r28",
+   "dataset": "countryEvents",
+   "key": "UA|1947|nový hladomor na jižní Ukrajině si vyžádal až milion obětí; režim jej v zahraničí popíral",
+   "country": "UA",
+   "year": 1947,
+   "text": "nový hladomor na jižní Ukrajině si vyžádal až milion obětí; režim jej v zahraničí popíral"
+  },
+  {
+   "id": "r29",
+   "dataset": "countryEvents",
+   "key": "UA|1949|operace „Západ“ deportovala kolem 200 000 západních Ukrajinců jako údajné sympatizanty UPA",
+   "country": "UA",
+   "year": 1949,
+   "text": "operace „Západ“ deportovala kolem 200 000 západních Ukrajinců jako údajné sympatizanty UPA"
+  },
+  {
+   "id": "r30",
+   "dataset": "countryEvents",
+   "key": "UA|1953|poststalinská amnestie propustila vězně z gulagů, ale většinu ukrajinských politických vězňů se netýkala",
+   "country": "UA",
+   "year": 1953,
+   "text": "poststalinská amnestie propustila vězně z gulagů, ale většinu ukrajinských politických vězňů se netýkala"
+  },
+  {
+   "id": "r31",
+   "dataset": "countryEvents",
+   "key": "UA|1956|Chruščovův tajný projev nakrátko otevřel prostor pro vydávání knih v ukrajinštině v Kyjevě",
+   "country": "UA",
+   "year": 1956,
+   "text": "Chruščovův tajný projev nakrátko otevřel prostor pro vydávání knih v ukrajinštině v Kyjevě"
+  },
+  {
+   "id": "r32",
+   "dataset": "countryEvents",
+   "key": "UA|1959|Stepan Bandera byl v Mnichově zavražděn agentem KGB pomocí kyanidové pistole",
+   "country": "UA",
+   "year": 1959,
+   "text": "Stepan Bandera byl v Mnichově zavražděn agentem KGB pomocí kyanidové pistole"
+  },
+  {
+   "id": "r33",
+   "dataset": "countryEvents",
+   "key": "UA|1961|druhá vlna sovětské měnové reformy proměnila 10 starých rublů na jeden nový — ukrajinští důchodci opět přišli o úspory",
+   "country": "UA",
+   "year": 1961,
+   "text": "druhá vlna sovětské měnové reformy proměnila 10 starých rublů na jeden nový — ukrajinští důchodci opět přišli o úspory"
+  },
+  {
+   "id": "r34",
+   "dataset": "countryEvents",
+   "key": "UA|1962|při masakru v Novočerkassku na jihu Ruska byli zabiti stávkující dělníci z továrny zásobující ukrajinské závody",
+   "country": "UA",
+   "year": 1962,
+   "text": "při masakru v Novočerkassku na jihu Ruska byli zabiti stávkující dělníci z továrny zásobující ukrajinské závody"
+  },
+  {
+   "id": "r35",
+   "dataset": "countryEvents",
+   "key": "UA|1963|Vasyl Symonenko, přední mladý ukrajinský básník období tání, zemřel ve 28 letech na následky zranění po zbití agenty napojenými na KGB",
+   "country": "UA",
+   "year": 1963,
+   "text": "Vasyl Symonenko, přední mladý ukrajinský básník období tání, zemřel ve 28 letech na následky zranění po zbití agenty napojenými na KGB"
+  },
+  {
+   "id": "r36",
+   "dataset": "countryEvents",
+   "key": "UA|1966|ve velkých městech začala první vlna zatýkání ukrajinských disidentů — generace „šedesátníků“",
+   "country": "UA",
+   "year": 1966,
+   "text": "ve velkých městech začala první vlna zatýkání ukrajinských disidentů — generace „šedesátníků“"
+  },
+  {
+   "id": "r37",
+   "dataset": "countryEvents",
+   "key": "UA|1968|ukrajinští disidenti protestovali proti invazi vojsk Varšavské smlouvy do Československa; mnozí byli zatčeni",
+   "country": "UA",
+   "year": 1968,
+   "text": "ukrajinští disidenti protestovali proti invazi vojsk Varšavské smlouvy do Československa; mnozí byli zatčeni"
+  },
+  {
+   "id": "r38",
+   "dataset": "countryEvents",
+   "key": "UA|1972|Volodymyr Ščerbycký se ujal funkce prvního tajemníka a okamžitě rozpoutal novou vlnu zatýkání po celé Ukrajině",
+   "country": "UA",
+   "year": 1972,
+   "text": "Volodymyr Ščerbycký se ujal funkce prvního tajemníka a okamžitě rozpoutal novou vlnu zatýkání po celé Ukrajině"
+  },
+  {
+   "id": "r39",
+   "dataset": "countryEvents",
+   "key": "UA|1973|Sergej Paradžanov byl odsouzen k pěti letům nucených prací za „navádění k sebevraždě“ a další obvinění",
+   "country": "UA",
+   "year": 1973,
+   "text": "Sergej Paradžanov byl odsouzen k pěti letům nucených prací za „navádění k sebevraždě“ a další obvinění"
+  },
+  {
+   "id": "r40",
+   "dataset": "countryEvents",
+   "key": "UA|1974|Alexandr Solženicyn byl vyhoštěn ze Sovětského svazu; ukrajinské samizdatové kruhy ho četly tajně",
+   "country": "UA",
+   "year": 1974,
+   "text": "Alexandr Solženicyn byl vyhoštěn ze Sovětského svazu; ukrajinské samizdatové kruhy ho četly tajně"
+  },
+  {
+   "id": "r41",
+   "dataset": "countryEvents",
+   "key": "UA|1977|zakladatelé Ukrajinské helsinské skupiny dostali dlouhé tresty v gulagu",
+   "country": "UA",
+   "year": 1977,
+   "text": "zakladatelé Ukrajinské helsinské skupiny dostali dlouhé tresty v gulagu"
+  },
+  {
+   "id": "r42",
+   "dataset": "countryEvents",
+   "key": "UA|1978|sovětský Antonov An-22 stanovil nové rekordy v nosnosti — byl navržen v Kyjevě",
+   "country": "UA",
+   "year": 1978,
+   "text": "sovětský Antonov An-22 stanovil nové rekordy v nosnosti — byl navržen v Kyjevě"
+  },
+  {
+   "id": "r43",
+   "dataset": "countryEvents",
+   "key": "CZ|1924|nově vzniklá Komunistická strana Československa (KSČ) vstoupila do Kominterny v Moskvě",
+   "country": "CZ",
+   "year": 1924,
+   "text": "nově vzniklá Komunistická strana Československa (KSČ) vstoupila do Kominterny v Moskvě"
+  },
+  {
+   "id": "r44",
+   "dataset": "countryEvents",
+   "key": "CZ|1925|strojírenský závod Aero ve Vysočanech vyrobil první automobily československé konstrukce",
+   "country": "CZ",
+   "year": 1925,
+   "text": "strojírenský závod Aero ve Vysočanech vyrobil první automobily československé konstrukce"
+  },
+  {
+   "id": "r45",
+   "dataset": "countryEvents",
+   "key": "CZ|1927|plzeňský pivovar Pilsner Urquell zahájil celoroční vývoz lahvového piva po celé Evropě",
+   "country": "CZ",
+   "year": 1927,
+   "text": "plzeňský pivovar Pilsner Urquell zahájil celoroční vývoz lahvového piva po celé Evropě"
+  },
+  {
+   "id": "r46",
+   "dataset": "countryEvents",
+   "key": "CZ|1928|Československo oslavilo desáté výročí Výstavou soudobé kultury v Brně",
+   "country": "CZ",
+   "year": 1928,
+   "text": "Československo oslavilo desáté výročí Výstavou soudobé kultury v Brně"
+  },
+  {
+   "id": "r47",
+   "dataset": "countryEvents",
+   "key": "CZ|1930|pravidelné vysílání Československého rozhlasu dosáhlo zhruba 250 000 koncesovaných přijímačů",
+   "country": "CZ",
+   "year": 1930,
+   "text": "pravidelné vysílání Československého rozhlasu dosáhlo zhruba 250 000 koncesovaných přijímačů"
+  },
+  {
+   "id": "r48",
+   "dataset": "countryEvents",
+   "key": "CZ|1931|v Brně se konala světová premiéra Janáčkovy opery Z mrtvého domu",
+   "country": "CZ",
+   "year": 1931,
+   "text": "v Brně se konala světová premiéra Janáčkovy opery Z mrtvého domu"
+  },
+  {
+   "id": "r49",
+   "dataset": "countryEvents",
+   "key": "CZ|1932|Československo vyváželo z Jablonce téměř třetinu světové produkce bižuterie",
+   "country": "CZ",
+   "year": 1932,
+   "text": "Československo vyváželo z Jablonce téměř třetinu světové produkce bižuterie"
+  }
+ ]
+}

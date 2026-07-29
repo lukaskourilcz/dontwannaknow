@@ -1,0 +1,456 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1942|v zajateckém táboře Stalag 355 na okraji města zahynulo za války přes 65 000 lidí",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1942,
+   "text": "v zajateckém táboře Stalag 355 na okraji města zahynulo za války přes 65 000 lidí"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1954|16. ledna přejmenoval výnos Nejvyššího sovětu Proskurov na Chmelnyckyj po hetmanu Bohdanu Chmelnyckém",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1954,
+   "text": "16. ledna přejmenoval výnos Nejvyššího sovětu Proskurov na Chmelnyckyj po hetmanu Bohdanu Chmelnyckém"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1981|u Netišyna severně od města začala stavba Chmelnycké jaderné elektrárny",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1981,
+   "text": "u Netišyna severně od města začala stavba Chmelnycké jaderné elektrárny"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1987|31. prosince byl spuštěn první blok Chmelnycké jaderné elektrárny",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1987,
+   "text": "31. prosince byl spuštěn první blok Chmelnycké jaderné elektrárny"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1990|moratorium na výstavbu jaderných bloků zastavilo rozestavěné reaktory Chmelnycké elektrárny",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1990,
+   "text": "moratorium na výstavbu jaderných bloků zastavilo rozestavěné reaktory Chmelnycké elektrárny"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1995|rozlehlé tržiště na ploše přes 18 hektarů učinilo z Chmelnyckého jedno z největších obchodních center východní Evropy",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1995,
+   "text": "rozlehlé tržiště na ploše přes 18 hektarů učinilo z Chmelnyckého jedno z největších obchodních center východní Evropy"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|2004|8. srpna byl k energetické soustavě připojen druhý blok Chmelnycké jaderné elektrárny",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 2004,
+   "text": "8. srpna byl k energetické soustavě připojen druhý blok Chmelnycké jaderné elektrárny"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|2023|v noci na 13. května zasáhl ruský úder vojenské letiště ve Starokostjantynivu v kraji",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 2023,
+   "text": "v noci na 13. května zasáhl ruský úder vojenské letiště ve Starokostjantynivu v kraji"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1941|Černihiv padl 9. září, krátce před uzavřením kyjevského kotle",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1941,
+   "text": "Černihiv padl 9. září, krátce před uzavřením kyjevského kotle"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1961|městský stadion byl pojmenován po Juriji Gagarinovi",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1961,
+   "text": "městský stadion byl pojmenován po Juriji Gagarinovi"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1964|Jurij Gagarin osobně navštívil stadion nesoucí jeho jméno",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1964,
+   "text": "Jurij Gagarin osobně navštívil stadion nesoucí jeho jméno"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "chernihiv|2022|3. března zabilo svržení nejméně osmi neřízených leteckých pum desítky civilistů v obytné čtvrti",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 2022,
+   "text": "3. března zabilo svržení nejméně osmi neřízených leteckých pum desítky civilistů v obytné čtvrti"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "chernihiv|2022|16. března zahynulo nejméně sedmnáct lidí čekajících ve frontě na chleba u obchodu",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 2022,
+   "text": "16. března zahynulo nejméně sedmnáct lidí čekajících ve frontě na chleba u obchodu"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "chernihiv|2022|31. března ukrajinské síly prolomily obklíčení města, které Rusové nikdy nedobyli; obléhání poničilo zhruba 70 procent zástavby",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 2022,
+   "text": "31. března ukrajinské síly prolomily obklíčení města, které Rusové nikdy nedobyli; obléhání poničilo zhruba 70 procent zástavby"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "chernihiv|2023|19. srpna zasáhla ruská střela náměstí u Ševčenkova činoherního divadla a zabila sedm lidí, mezi nimi šestileté dítě",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 2023,
+   "text": "19. srpna zasáhla ruská střela náměstí u Ševčenkova činoherního divadla a zabila sedm lidí, mezi nimi šestileté dítě"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "kyiv|1957|kyjevská konzervatoř dala vzniknout silné klavírní škole, z níž vzešel Volodymyr Horowitz jako kyjevský rodák světového věhlasu",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1957,
+   "text": "kyjevská konzervatoř dala vzniknout silné klavírní škole, z níž vzešel Volodymyr Horowitz jako kyjevský rodák světového věhlasu"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "kyiv|1965|5. listopadu se otevřela stanice metra Hidropark na ostrovech uprostřed Dněpru, brána k městským plážím a rekreační zóně",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1965,
+   "text": "5. listopadu se otevřela stanice metra Hidropark na ostrovech uprostřed Dněpru, brána k městským plážím a rekreační zóně"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "kyiv|1970|17. dubna byl na Velké Vasylkivské otevřen Palác Ukrajina, největší kyjevský koncertní sál s hledištěm pro 3 714 diváků",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1970,
+   "text": "17. dubna byl na Velké Vasylkivské otevřen Palác Ukrajina, největší kyjevský koncertní sál s hledištěm pro 3 714 diváků"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "kyiv|1970|na levém břehu se naplno rozvinula obytná čtvrť Rusanivka, vystavěná na náplavech mezi kanály jako vzorové sovětské sídliště",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1970,
+   "text": "na levém břehu se naplno rozvinula obytná čtvrť Rusanivka, vystavěná na náplavech mezi kanály jako vzorové sovětské sídliště"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "kyiv|1974|otevřením Moskevského (dnes Severního) mostu se odstartovala výstavba rozsáhlých sídlišť Troješčyna a Vyhurivščyna na levém břehu",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1974,
+   "text": "otevřením Moskevského (dnes Severního) mostu se odstartovala výstavba rozsáhlých sídlišť Troješčyna a Vyhurivščyna na levém břehu"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "kyiv|1975|Dynamo Kyjev k Poháru vítězů pohárů přidalo i Superpohár UEFA, když ve dvojzápase přehrálo Bayern Mnichov 3:0",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1975,
+   "text": "Dynamo Kyjev k Poháru vítězů pohárů přidalo i Superpohár UEFA, když ve dvojzápase přehrálo Bayern Mnichov 3:0"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "kyiv|1975|Oleh Blochin se ziskem Zlatého míče stal prvním fotbalistou ze Sovětského svazu oceněným touto trofejí",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1975,
+   "text": "Oleh Blochin se ziskem Zlatého míče stal prvním fotbalistou ze Sovětského svazu oceněným touto trofejí"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "kyiv|1980|19. prosince dojelo metro do tehdy největší obytné čtvrti na severu města stanicí Obolon; téhož dne se na Podolu otevřely stanice Tarasa Ševčenka a Počajna",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1980,
+   "text": "19. prosince dojelo metro do tehdy největší obytné čtvrti na severu města stanicí Obolon; téhož dne se na Podolu otevřely stanice Tarasa Ševčenka a Počajna"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "kyiv|1986|Dynamo Kyjev s polovinou sovětské reprezentace ve svých řadách kralovalo pod Lobanovským evropskému fotbalu",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1986,
+   "text": "Dynamo Kyjev s polovinou sovětské reprezentace ve svých řadách kralovalo pod Lobanovským evropskému fotbalu"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "kyiv|1988|21. prosince poprvé vzlétl ze svatošynského letiště obří dopravní letoun Antonov An-225 Mrija, postavený pro přepravu raketoplánu Buran",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1988,
+   "text": "21. prosince poprvé vzlétl ze svatošynského letiště obří dopravní letoun Antonov An-225 Mrija, postavený pro přepravu raketoplánu Buran"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "kyiv|1989|otevřela se třetí, Syrecko-pečerská linka kyjevského metra",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1989,
+   "text": "otevřela se třetí, Syrecko-pečerská linka kyjevského metra"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "kyiv|2001|k desátému výročí nezávislosti byl pod Majdanem otevřen Globus, první velké podzemní nákupní centrum na Ukrajině",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2001,
+   "text": "k desátému výročí nezávislosti byl pod Majdanem otevřen Globus, první velké podzemní nákupní centrum na Ukrajině"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "kyiv|2005|kyjevský funikulár spojující horní město s Podolem od roku 1905 prošel rozsáhlou rekonstrukcí",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2005,
+   "text": "kyjevský funikulár spojující horní město s Podolem od roku 1905 prošel rozsáhlou rekonstrukcí"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "kyiv|2022|u letiště Hostomel byl během bojů zničen jediný dokončený Antonov An-225 Mrija, největší letadlo světa",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2022,
+   "text": "u letiště Hostomel byl během bojů zničen jediný dokončený Antonov An-225 Mrija, největší letadlo světa"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "kyiv|2023|29. března stát vypověděl Moskvě podřízené Ukrajinské pravoslavné církvi nájem v Horní lávře a nařídil mnichům opustit areál Kyjevskopečerské lávry",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2023,
+   "text": "29. března stát vypověděl Moskvě podřízené Ukrajinské pravoslavné církvi nájem v Horní lávře a nařídil mnichům opustit areál Kyjevskopečerské lávry"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "kyiv|2023|v noci na 29. prosince zasáhla Kyjev jedna z největších náletových vln války; útok po celé Ukrajině zabil přes třicet lidí",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2023,
+   "text": "v noci na 29. prosince zasáhla Kyjev jedna z největších náletových vln války; útok po celé Ukrajině zabil přes třicet lidí"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "kyiv|2024|7. února zabil ranní útok řízených střel v Kyjevě několik lidí a vyvolal požár obytného domu v Holosijivském rajonu",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2024,
+   "text": "7. února zabil ranní útok řízených střel v Kyjevě několik lidí a vyvolal požár obytného domu v Holosijivském rajonu"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "kyiv|2024|v noci na 8. ledna Rusko poprvé nasadilo proti Kyjevu hypersonické střely; salva napříč zemí zabila desítky lidí",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2024,
+   "text": "v noci na 8. ledna Rusko poprvé nasadilo proti Kyjevu hypersonické střely; salva napříč zemí zabila desítky lidí"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "kyiv|2024|počet obyvatel se za války propadl, jak statisíce Kyjevanů uprchly před útoky na energetickou síť a opakovanými výpadky proudu",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2024,
+   "text": "počet obyvatel se za války propadl, jak statisíce Kyjevanů uprchly před útoky na energetickou síť a opakovanými výpadky proudu"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "odesa|1954|na hlavě vlnolamu byl po válečných škodách znovu vztyčen Voroncovský maják, sestavený z litinových prstenců odlitých v Kronštadtu",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1954,
+   "text": "na hlavě vlnolamu byl po válečných škodách znovu vztyčen Voroncovský maják, sestavený z litinových prstenců odlitých v Kronštadtu"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "odesa|1955|loď Šota Rustaveli a další osobní zaoceánské parníky Černomořské námořní plavby zahájily oblíbené linky z Oděsy do Středomoří i ke Krymu a Kavkazu",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1955,
+   "text": "loď Šota Rustaveli a další osobní zaoceánské parníky Černomořské námořní plavby zahájily oblíbené linky z Oděsy do Středomoří i ke Krymu a Kavkazu"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "odesa|1966|otevřel se nový oděský námořní vokzal (Morvokzal), jenž dokázal odbavit pět lodí najednou",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1966,
+   "text": "otevřel se nový oděský námořní vokzal (Morvokzal), jenž dokázal odbavit pět lodí najednou"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "odesa|1985|Černomořská námořní plavba se sídlem v Oděse patřila se stovkami plavidel k největším rejdařstvím Evropy a druhým největším na světě",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1985,
+   "text": "Černomořská námořní plavba se sídlem v Oděse patřila se stovkami plavidel k největším rejdařstvím Evropy a druhým největším na světě"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "odesa|1996|rozpad Černomořské námořní plavby a zánik linky Oděsa–Krym–Kavkaz připravil tisíce námořníků o práci a uvolnil cestu novému turistickému přístavu",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1996,
+   "text": "rozpad Černomořské námořní plavby a zánik linky Oděsa–Krym–Kavkaz připravil tisíce námořníků o práci a uvolnil cestu novému turistickému přístavu"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "odesa|2001|vznikl mezinárodní Jazz Carnaval, jenž navázal na pověst Oděsy coby kolébky sovětského jazzu a od roku 2011 nese jméno Odessa JazzFest",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2001,
+   "text": "vznikl mezinárodní Jazz Carnaval, jenž navázal na pověst Oděsy coby kolébky sovětského jazzu a od roku 2011 nese jméno Odessa JazzFest"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "odesa|2005|u Potěmkinových schodů byl 2. září uveden do provozu nový funikulár, jenž nahradil dřívější svahovou dráhu",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2005,
+   "text": "u Potěmkinových schodů byl 2. září uveden do provozu nový funikulár, jenž nahradil dřívější svahovou dráhu"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "odesa|2023|25. ledna zapsal Výbor pro světové dědictví historické centrum Oděsy na seznam UNESCO a zároveň na seznam dědictví v ohrožení kvůli ruské válce",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2023,
+   "text": "25. ledna zapsal Výbor pro světové dědictví historické centrum Oděsy na seznam UNESCO a zároveň na seznam dědictví v ohrožení kvůli ruské válce"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "odesa|2023|v noci na 23. července zničil ruský útok kromě Preobraženské katedrály i devatenáctipatrový hotel Oděsa u Morvokzalu a desítky architektonických památek v centru",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2023,
+   "text": "v noci na 23. července zničil ruský útok kromě Preobraženské katedrály i devatenáctipatrový hotel Oděsa u Morvokzalu a desítky architektonických památek v centru"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "odesa|2023|6. listopadu poškodil ruský nálet budovu Oděského muzea umění a další objekty v přístavním městě, klíčovém uzlu vývozu obilí",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2023,
+   "text": "6. listopadu poškodil ruský nálet budovu Oděského muzea umění a další objekty v přístavním městě, klíčovém uzlu vývozu obilí"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "odesa|2024|6. března vybuchla ruská střela poblíž setkání prezidenta Zelenského s řeckým premiérem Mitsotakisem; útok zabil pět lidí",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2024,
+   "text": "6. března vybuchla ruská střela poblíž setkání prezidenta Zelenského s řeckým premiérem Mitsotakisem; útok zabil pět lidí"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "odesa|2024|15. března zasáhl balistický úder rekreační oblast Oděsy a zabil 21 lidí; mnozí zahynuli při druhém dopadu mezi přivolanými záchranáři",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2024,
+   "text": "15. března zasáhl balistický úder rekreační oblast Oděsy a zabil 21 lidí; mnozí zahynuli při druhém dopadu mezi přivolanými záchranáři"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "mariupol|2014|11. května uspořádali separatisté v Doněcké oblasti včetně Mariupolu referendum o samostatnosti, které Kyjev ani Západ neuznaly",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 2014,
+   "text": "11. května uspořádali separatisté v Doněcké oblasti včetně Mariupolu referendum o samostatnosti, které Kyjev ani Západ neuznaly"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "mariupol|2014|13. června ráno vztyčily ukrajinské síly po operaci k osvobození města státní vlajku nad mariupolskou radnicí",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 2014,
+   "text": "13. června ráno vztyčily ukrajinské síly po operaci k osvobození města státní vlajku nad mariupolskou radnicí"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "mariupol|2022|od 24. února postupovala ruská vojska k Mariupolu ze tří stran a do 1. března město zcela obklíčila",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 2022,
+   "text": "od 24. února postupovala ruská vojska k Mariupolu ze tří stran a do 1. března město zcela obklíčila"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "mariupol|2022|do 2. března přišel Mariupol o elektřinu, vodu i plyn; tento den se stal počátkem ruské blokády města",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 2022,
+   "text": "do 2. března přišel Mariupol o elektřinu, vodu i plyn; tento den se stal počátkem ruské blokády města"
+  }
+ ]
+}

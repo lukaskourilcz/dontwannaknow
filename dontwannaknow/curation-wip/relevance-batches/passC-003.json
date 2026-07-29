@@ -1,0 +1,906 @@
+{
+ "pass": "C",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "prague|1978|12. srpna se otevřela linka metra A mezi Dejvickou (tehdy Leninova) a náměstím Míru",
+   "country": "CZ",
+   "city": "prague",
+   "year": 1978,
+   "text": "12. srpna se otevřela linka metra A mezi Dejvickou (tehdy Leninova) a náměstím Míru"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "prague|1979|na Vyšehradě se otevřel Palác kultury, aby hostil jak sjezdy strany, tak rockové koncerty",
+   "country": "CZ",
+   "city": "prague",
+   "year": 1979,
+   "text": "na Vyšehradě se otevřel Palác kultury, aby hostil jak sjezdy strany, tak rockové koncerty"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "prague|1980|letoun Inex-Adria DC-9 se v říjnu zřítil při přiblížení do Suchdola, ačkoli většina velkých pražských zpráv toho roku se týkala pohřbu Jana Wericha 31. října",
+   "country": "CZ",
+   "city": "prague",
+   "year": 1980,
+   "text": "letoun Inex-Adria DC-9 se v říjnu zřítil při přiblížení do Suchdola, ačkoli většina velkých pražských zpráv toho roku se týkala pohřbu Jana Wericha 31. října"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "teplice|1920|Teplice byly německy mluvícím lázeňským městem s dlouhou historií návštěv Goetha a Beethovena",
+   "country": "CZ",
+   "city": "teplice",
+   "year": 1920,
+   "text": "Teplice byly německy mluvícím lázeňským městem s dlouhou historií návštěv Goetha a Beethovena"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "teplice|1924|teplické lázně po válečném zhroucení opět přitahovaly středoevropské návštěvníky pro své horké prameny",
+   "country": "CZ",
+   "city": "teplice",
+   "year": 1924,
+   "text": "teplické lázně po válečném zhroucení opět přitahovaly středoevropské návštěvníky pro své horké prameny"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "teplice|1938|připojeno k nacistickému Německu jako součást Sudet",
+   "country": "CZ",
+   "city": "teplice",
+   "year": 1938,
+   "text": "připojeno k nacistickému Německu jako součást Sudet"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "teplice|1938|Teplitz-Schönau byl 1. října připojen k říši a lázeňská sezona probíhala do roku 1939 pod svastikou",
+   "country": "CZ",
+   "city": "teplice",
+   "year": 1938,
+   "text": "Teplitz-Schönau byl 1. října připojen k říši a lázeňská sezona probíhala do roku 1939 pod svastikou"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "teplice|1945|na konci války vráceno Československu",
+   "country": "CZ",
+   "city": "teplice",
+   "year": 1945,
+   "text": "na konci války vráceno Československu"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "teplice|1945|teplická německá většina byla v letech 1945-46 vyhnána a charakter lázeňského města se navždy změnil",
+   "country": "CZ",
+   "city": "teplice",
+   "year": 1945,
+   "text": "teplická německá většina byla v letech 1945-46 vyhnána a charakter lázeňského města se navždy změnil"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "teplice|1952|teplické muzeum skla v krajském muzeu na Zámku otevřelo novou expozici o severočeském sklářském průmyslu",
+   "country": "CZ",
+   "city": "teplice",
+   "year": 1952,
+   "text": "teplické muzeum skla v krajském muzeu na Zámku otevřelo novou expozici o severočeském sklářském průmyslu"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "teplice|1956|Krušnohorské divadlo v Teplicích obnovilo se státní dotací pravidelnou operní produkci",
+   "country": "CZ",
+   "city": "teplice",
+   "year": 1956,
+   "text": "Krušnohorské divadlo v Teplicích obnovilo se státní dotací pravidelnou operní produkci"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "teplice|1969|sklárny Skloexport v Teplicích vyvážely lustry z nedalekých továren v Novém Boru a Kamenickém Šenově do celého světa",
+   "country": "CZ",
+   "city": "teplice",
+   "year": 1969,
+   "text": "sklárny Skloexport v Teplicích vyvážely lustry z nedalekých továren v Novém Boru a Kamenickém Šenově do celého světa"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "teplice|1972|lesy Krušných hor nad Teplicemi viditelně odumíraly vlivem sirného spadu z hnědouhelných elektráren mostecké pánve",
+   "country": "CZ",
+   "city": "teplice",
+   "year": 1972,
+   "text": "lesy Krušných hor nad Teplicemi viditelně odumíraly vlivem sirného spadu z hnědouhelných elektráren mostecké pánve"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "teplice|1976|zdejší koncerty mládeže se staly klíčovými shromaždišti českého undergroundového rocku",
+   "country": "CZ",
+   "city": "teplice",
+   "year": 1976,
+   "text": "zdejší koncerty mládeže se staly klíčovými shromaždišti českého undergroundového rocku"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "teplice|1976|FK Teplice hrál druhou ligu a stadion Stínadla byl ohniskem víkendového života navzdory skromným výsledkům týmu",
+   "country": "CZ",
+   "city": "teplice",
+   "year": 1976,
+   "text": "FK Teplice hrál druhou ligu a stadion Stínadla byl ohniskem víkendového života navzdory skromným výsledkům týmu"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "teplice|1979|teplické zimní inverze zachycovaly oxid siřičitý tak silně, že školy v pánvi byly v lednu a únoru pravidelně zavírány",
+   "country": "CZ",
+   "city": "teplice",
+   "year": 1979,
+   "text": "teplické zimní inverze zachycovaly oxid siřičitý tak silně, že školy v pánvi byly v lednu a únoru pravidelně zavírány"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1920|město (tehdy Aussig) bylo centrem chemického průmyslu severních Čech, převážně německy mluvící",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1920,
+   "text": "město (tehdy Aussig) bylo centrem chemického průmyslu severních Čech, převážně německy mluvící"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1923|mýdlárna Schicht v Ústí-Střekově byla největší továrnou na mýdlo ve střední Evropě a vyvážela po celém Balkáně",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1923,
+   "text": "mýdlárna Schicht v Ústí-Střekově byla největší továrnou na mýdlo ve střední Evropě a vyvážela po celém Balkáně"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1930|Aussig bylo chemickým hlavním městem Československa, kde obří závody Spolchemie vévodily panoramatu nábřeží",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1930,
+   "text": "Aussig bylo chemickým hlavním městem Československa, kde obří závody Spolchemie vévodily panoramatu nábřeží"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1938|připojeno k nacistickému Německu jako součást Sudet",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1938,
+   "text": "připojeno k nacistickému Německu jako součást Sudet"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1938|město bylo 1. října připojeno k říši jako Aussig v Sudetech a z radnice visely Henleinovy vlajky",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1938,
+   "text": "město bylo 1. října připojeno k říši jako Aussig v Sudetech a z radnice visely Henleinovy vlajky"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1944|spojenecké bombardování 17. dubna zasáhlo Schicht a kolejiště a zabilo stovky lidí",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1944,
+   "text": "spojenecké bombardování 17. dubna zasáhlo Schicht a kolejiště a zabilo stovky lidí"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1945|31. července došlo na Benešově mostě k 'ústeckému masakru' etnických Němců",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1945,
+   "text": "31. července došlo na Benešově mostě k 'ústeckému masakru' etnických Němců"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1946|organizované vyhnání ústecké německé většiny vyprázdnilo celé ulice a navždy změnilo charakter města",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1946,
+   "text": "organizované vyhnání ústecké německé většiny vyprázdnilo celé ulice a navždy změnilo charakter města"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1953|Spolchemie vyráběla oxid titaničitý a kyselinu sírovou pro nový socialistický plán těžkého průmyslu",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1953,
+   "text": "Spolchemie vyráběla oxid titaničitý a kyselinu sírovou pro nový socialistický plán těžkého průmyslu"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1968|sovětské tanky překročily 21. srpna Benešův most a na týdny zaparkovaly na Mírovém náměstí",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1968,
+   "text": "sovětské tanky překročily 21. srpna Benešův most a na týdny zaparkovaly na Mírovém náměstí"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1971|nové sídliště Mariánská skála, stěna paneláků na útesu nad Labem, se otevřelo novým příchozím z vnitrozemních Čech",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1971,
+   "text": "nové sídliště Mariánská skála, stěna paneláků na útesu nad Labem, se otevřelo novým příchozím z vnitrozemních Čech"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1975|nedaleké uhelné elektrárny způsobovaly dramatické znečištění ovzduší v celém regionu",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1975,
+   "text": "nedaleké uhelné elektrárny způsobovaly dramatické znečištění ovzduší v celém regionu"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1980|silniční Mariánský most se teprve plánoval, ale město se při většině přejezdů přes řeku stále spoléhalo na Benešův most z roku 1934",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1980,
+   "text": "silniční Mariánský most se teprve plánoval, ale město se při většině přejezdů přes řeku stále spoléhalo na Benešův most z roku 1934"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "zlin|1923|Tomáš Baťa byl zvolen starostou a okamžitě svázal územní plánování města s růstem své obuvnické továrny",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1923,
+   "text": "Tomáš Baťa byl zvolen starostou a okamžitě svázal územní plánování města s růstem své obuvnické továrny"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "zlin|1924|Baťa zavedl slavnou baťovskou cenu 39 haléřů na botu Baťa T, čímž pomohl zlínské firmě dobýt trh v době krize",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1924,
+   "text": "Baťa zavedl slavnou baťovskou cenu 39 haléřů na botu Baťa T, čímž pomohl zlínské firmě dobýt trh v době krize"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "zlin|1925|Tomáš Baťa rozšířil svůj obuvnický továrenský komplex na soběstačné firemní město",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1925,
+   "text": "Tomáš Baťa rozšířil svůj obuvnický továrenský komplex na soběstačné firemní město"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "zlin|1927|na kopcích západně od továrny začaly vyrůstat první standardizované kolonie baťovských dělnických domků z červených cihel, navržené Františkem Lydiem Gahurou",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1927,
+   "text": "na kopcích západně od továrny začaly vyrůstat první standardizované kolonie baťovských dělnických domků z červených cihel, navržené Františkem Lydiem Gahurou"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "zlin|1931|ve Zlíně se otevřelo Velké kino s kapacitou 2 500 míst, tehdy největší kino ve střední Evropě",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1931,
+   "text": "ve Zlíně se otevřelo Velké kino s kapacitou 2 500 míst, tehdy největší kino ve střední Evropě"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "zlin|1932|Tomáš Baťa zahynul při letecké havárii na letišti v Otrokovicích za špatného počasí",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1932,
+   "text": "Tomáš Baťa zahynul při letecké havárii na letišti v Otrokovicích za špatného počasí"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "zlin|1935|otevřel se Památník Tomáše Bati od Gahury, aby vystavoval letadlo De Havilland, ve kterém zakladatel zahynul",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1935,
+   "text": "otevřel se Památník Tomáše Bati od Gahury, aby vystavoval letadlo De Havilland, ve kterém zakladatel zahynul"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "zlin|1938|otevřela se budova č. 21, šestnáctipatrový baťovský mrakodrap s výtahovou kanceláří pro Jana Antonína Baťu, jako nejvyšší budova v Československu",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1938,
+   "text": "otevřela se budova č. 21, šestnáctipatrový baťovský mrakodrap s výtahovou kanceláří pro Jana Antonína Baťu, jako nejvyšší budova v Československu"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "zlin|1939|firma Baťa byla po nacistické okupaci dána pod německou správu",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1939,
+   "text": "firma Baťa byla po nacistické okupaci dána pod německou správu"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "zlin|1939|baťovské filmové ateliéry na Kudlově vyráběly týdeníky, reklamy a první animované krátké filmy budoucí zlínské školy",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1939,
+   "text": "baťovské filmové ateliéry na Kudlově vyráběly týdeníky, reklamy a první animované krátké filmy budoucí zlínské školy"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "zlin|1945|spojenecké bomby a ustupující německé jednotky poškodily továrenskou čtvrť 20. listopadu 1944 a znovu před osvobozením počátkem května 1945",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1945,
+   "text": "spojenecké bomby a ustupující německé jednotky poškodily továrenskou čtvrť 20. listopadu 1944 a znovu před osvobozením počátkem května 1945"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "zlin|1948|baťovské podniky byly znárodněny a přejmenovány na Svit, zatímco dědici rodiny odešli do exilu",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1948,
+   "text": "baťovské podniky byly znárodněny a přejmenovány na Svit, zatímco dědici rodiny odešli do exilu"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "zlin|1949|město bylo přejmenováno na Gottwaldov — a zůstalo jím až do roku 1989",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1949,
+   "text": "město bylo přejmenováno na Gottwaldov — a zůstalo jím až do roku 1989"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "zlin|1953|animační studio Karla Zemana na Kudlově uvedlo Cestu do pravěku, milník československého filmu",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1953,
+   "text": "animační studio Karla Zemana na Kudlově uvedlo Cestu do pravěku, milník československého filmu"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "zlin|1961|ve Velkém kině začal Zlínský filmový festival pro děti a vyrostl v jeden z nejdéle pořádaných dětských filmových festivalů na světě",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1961,
+   "text": "ve Velkém kině začal Zlínský filmový festival pro děti a vyrostl v jeden z nejdéle pořádaných dětských filmových festivalů na světě"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "zlin|1968|občané Gottwaldova patřili během Pražského jara k nejhlasitějším při petičních výzvách za obnovení starého názvu, ale změna byla za normalizace zrušena",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1968,
+   "text": "občané Gottwaldova patřili během Pražského jara k nejhlasitějším při petičních výzvách za obnovení starého názvu, ale změna byla za normalizace zrušena"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "zlin|1969|zlínská dětská filmová studia dál vyráběla klasickou českou animaci",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1969,
+   "text": "zlínská dětská filmová studia dál vyráběla klasickou českou animaci"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "zlin|1972|město vyrostlo na přes 80 000 obyvatel, jak nové paneláky zaplnily svahy nad starým baťovským městem",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1972,
+   "text": "město vyrostlo na přes 80 000 obyvatel, jak nové paneláky zaplnily svahy nad starým baťovským městem"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "zlin|1976|závody Svit vyráběly pro trh RVHP více než 100 milionů párů bot ročně",
+   "country": "CZ",
+   "city": "zlin",
+   "year": 1976,
+   "text": "závody Svit vyráběly pro trh RVHP více než 100 milionů párů bot ročně"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "chomutov|1938|město (tehdy Komotau) bylo nacistickým Německem připojeno k Sudetengau",
+   "country": "CZ",
+   "city": "chomutov",
+   "year": 1938,
+   "text": "město (tehdy Komotau) bylo nacistickým Německem připojeno k Sudetengau"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "chomutov|1945|německé obyvatelstvo bylo vyhnáno na základě Benešových dekretů a nahrazeno českými osídlenci",
+   "country": "CZ",
+   "city": "chomutov",
+   "year": 1945,
+   "text": "německé obyvatelstvo bylo vyhnáno na základě Benešových dekretů a nahrazeno českými osídlenci"
+  },
+  {
+   "id": "r50",
+   "dataset": "cityFacts",
+   "key": "chomutov|1969|chomutovská elektrárna a ocelárny Válcovny trub se za socialismu staly významnými regionálními zaměstnavateli",
+   "country": "CZ",
+   "city": "chomutov",
+   "year": 1969,
+   "text": "chomutovská elektrárna a ocelárny Válcovny trub se za socialismu staly významnými regionálními zaměstnavateli"
+  },
+  {
+   "id": "r51",
+   "dataset": "cityFacts",
+   "key": "jablonec|1920|Jablonec (tehdy Gablonz) byl světovým hlavním městem skleněné bižuterie a ozdobných korálků",
+   "country": "CZ",
+   "city": "jablonec",
+   "year": 1920,
+   "text": "Jablonec (tehdy Gablonz) byl světovým hlavním městem skleněné bižuterie a ozdobných korálků"
+  },
+  {
+   "id": "r52",
+   "dataset": "cityFacts",
+   "key": "jablonec|1938|po Mnichovské dohodě připojen nacistickým Německem; korálky z Říšské župy Sudety se dál vyvážely do zahraničí",
+   "country": "CZ",
+   "city": "jablonec",
+   "year": 1938,
+   "text": "po Mnichovské dohodě připojen nacistickým Německem; korálky z Říšské župy Sudety se dál vyvážely do zahraničí"
+  },
+  {
+   "id": "r53",
+   "dataset": "cityFacts",
+   "key": "jablonec|1945|německé sklářské obyvatelstvo bylo vyhnáno a celé korálkářské dílny byly rozebrány",
+   "country": "CZ",
+   "city": "jablonec",
+   "year": 1945,
+   "text": "německé sklářské obyvatelstvo bylo vyhnáno a celé korálkářské dílny byly rozebrány"
+  },
+  {
+   "id": "r54",
+   "dataset": "cityFacts",
+   "key": "jablonec|1971|exportní kombinát Jablonex prodával československou bižuterii po celém světě",
+   "country": "CZ",
+   "city": "jablonec",
+   "year": 1971,
+   "text": "exportní kombinát Jablonex prodával československou bižuterii po celém světě"
+  },
+  {
+   "id": "r55",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1925|Škodovy závody (Plzeň) převzaly místní automobilku Laurin & Klement a přejmenovaly ji na Škoda Auto",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1925,
+   "text": "Škodovy závody (Plzeň) převzaly místní automobilku Laurin & Klement a přejmenovaly ji na Škoda Auto"
+  },
+  {
+   "id": "r56",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1939|Škoda Mladá Boleslav byla dána pod kontrolu Hermann-Göring-Werke a vyráběla vojenská vozidla pro wehrmacht",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1939,
+   "text": "Škoda Mladá Boleslav byla dána pod kontrolu Hermann-Göring-Werke a vyráběla vojenská vozidla pro wehrmacht"
+  },
+  {
+   "id": "r57",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1945|americký nálet B-17 v květnu, těsně před osvobozením, zasáhl omylem závod Škody",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1945,
+   "text": "americký nálet B-17 v květnu, těsně před osvobozením, zasáhl omylem závod Škody"
+  },
+  {
+   "id": "r58",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1964|z linky sjel vůz Škoda 1000 MB — rodinné auto s motorem vzadu, které se stalo českou ikonou",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1964,
+   "text": "z linky sjel vůz Škoda 1000 MB — rodinné auto s motorem vzadu, které se stalo českou ikonou"
+  },
+  {
+   "id": "r59",
+   "dataset": "cityFacts",
+   "key": "prostejov|1920|Prostějov byl 'hanáckým Manchesterem' — hlavním městem textilu a krejčovství",
+   "country": "CZ",
+   "city": "prostejov",
+   "year": 1920,
+   "text": "Prostějov byl 'hanáckým Manchesterem' — hlavním městem textilu a krejčovství"
+  },
+  {
+   "id": "r60",
+   "dataset": "cityFacts",
+   "key": "prostejov|1968|oděvní závod OP Prostějov oblékal do pánských obleků půlku Československa",
+   "country": "CZ",
+   "city": "prostejov",
+   "year": 1968,
+   "text": "oděvní závod OP Prostějov oblékal do pánských obleků půlku Československa"
+  },
+  {
+   "id": "r61",
+   "dataset": "cityFacts",
+   "key": "prerov|1939|Přerov se stal za nacistické okupace strategickým železničním uzlem Reichsbahn spojujícím Vídeň s Krakovem",
+   "country": "CZ",
+   "city": "prerov",
+   "year": 1939,
+   "text": "Přerov se stal za nacistické okupace strategickým železničním uzlem Reichsbahn spojujícím Vídeň s Krakovem"
+  },
+  {
+   "id": "r62",
+   "dataset": "cityFacts",
+   "key": "prerov|1945|při masakru na 'Švédských šancích' v červnu zabili českoslovenští vojáci stovky etnických německých civilistů",
+   "country": "CZ",
+   "city": "prerov",
+   "year": 1945,
+   "text": "při masakru na 'Švédských šancích' v červnu zabili českoslovenští vojáci stovky etnických německých civilistů"
+  },
+  {
+   "id": "r63",
+   "dataset": "cityFacts",
+   "key": "prerov|1971|optická továrna Meopta zásobovala čočkami a fotoaparáty celý východní blok",
+   "country": "CZ",
+   "city": "prerov",
+   "year": 1971,
+   "text": "optická továrna Meopta zásobovala čočkami a fotoaparáty celý východní blok"
+  },
+  {
+   "id": "r64",
+   "dataset": "cityFacts",
+   "key": "ceska-lipa|1938|připojeno k Sudetengau spolu se zbytkem severočeského německy mluvícího území",
+   "country": "CZ",
+   "city": "ceska-lipa",
+   "year": 1938,
+   "text": "připojeno k Sudetengau spolu se zbytkem severočeského německy mluvícího území"
+  },
+  {
+   "id": "r65",
+   "dataset": "cityFacts",
+   "key": "ceska-lipa|1971|těžba uranu v nedalekém Stráži pod Ralskem se rozšířila; přistěhovaly se tisíce rumunských a českých horníků",
+   "country": "CZ",
+   "city": "ceska-lipa",
+   "year": 1971,
+   "text": "těžba uranu v nedalekém Stráži pod Ralskem se rozšířila; přistěhovaly se tisíce rumunských a českých horníků"
+  },
+  {
+   "id": "r66",
+   "dataset": "cityFacts",
+   "key": "trebic|1942|třebíčská židovská komunita byla deportována do Terezína; dobře zachovalé ghetto se mělo později stát památkou UNESCO",
+   "country": "CZ",
+   "city": "trebic",
+   "year": 1942,
+   "text": "třebíčská židovská komunita byla deportována do Terezína; dobře zachovalé ghetto se mělo později stát památkou UNESCO"
+  },
+  {
+   "id": "r67",
+   "dataset": "cityFacts",
+   "key": "trebic|1975|poblíž začala stavba jaderné elektrárny Dukovany — jednoho z největších českých průmyslových projektů té doby",
+   "country": "CZ",
+   "city": "trebic",
+   "year": 1975,
+   "text": "poblíž začala stavba jaderné elektrárny Dukovany — jednoho z největších českých průmyslových projektů té doby"
+  },
+  {
+   "id": "r68",
+   "dataset": "cityFacts",
+   "key": "trutnov|1938|připojeno k Sudetengau; do roku 1945 převážně německy mluvící",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1938,
+   "text": "připojeno k Sudetengau; do roku 1945 převážně německy mluvící"
+  },
+  {
+   "id": "r69",
+   "dataset": "cityFacts",
+   "key": "trutnov|1945|etničtí Němci byli vyhnáni; v továrnách je nahradili čeští osídlenci",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1945,
+   "text": "etničtí Němci byli vyhnáni; v továrnách je nahradili čeští osídlenci"
+  },
+  {
+   "id": "r70",
+   "dataset": "cityFacts",
+   "key": "trutnov|1969|město se stalo 'bránou' k lyžování v Krkonoších a rostlo s víkendovými výletníky z Prahy",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1969,
+   "text": "město se stalo 'bránou' k lyžování v Krkonoších a rostlo s víkendovými výletníky z Prahy"
+  },
+  {
+   "id": "r71",
+   "dataset": "cityFacts",
+   "key": "trinec|1929|Třinecké železárny se staly po Vítkovicích největším výrobcem oceli v Československu",
+   "country": "CZ",
+   "city": "trinec",
+   "year": 1929,
+   "text": "Třinecké železárny se staly po Vítkovicích největším výrobcem oceli v Československu"
+  },
+  {
+   "id": "r72",
+   "dataset": "cityFacts",
+   "key": "trinec|1968|sovětské tanky vyjely údolím řeky Olše kolem třineckých závodů",
+   "country": "CZ",
+   "city": "trinec",
+   "year": 1968,
+   "text": "sovětské tanky vyjely údolím řeky Olše kolem třineckých závodů"
+  },
+  {
+   "id": "r73",
+   "dataset": "cityFacts",
+   "key": "tabor|1942|táborská synagoga byla za válečných let vypálena; židovská komunita města byla deportována a téměř celá zavražděna",
+   "country": "CZ",
+   "city": "tabor",
+   "year": 1942,
+   "text": "táborská synagoga byla za válečných let vypálena; židovská komunita města byla deportována a téměř celá zavražděna"
+  },
+  {
+   "id": "r74",
+   "dataset": "cityFacts",
+   "key": "tabor|1969|poblíž se vyráběly traktory národního podniku ROH Lánov a motorky ČZ",
+   "country": "CZ",
+   "city": "tabor",
+   "year": 1969,
+   "text": "poblíž se vyráběly traktory národního podniku ROH Lánov a motorky ČZ"
+  },
+  {
+   "id": "r75",
+   "dataset": "cityFacts",
+   "key": "znojmo|1938|připojeno nacistickým Německem; znojemská česká menšina byla vyhnána a mnoho jejích představitelů zavražděno",
+   "country": "CZ",
+   "city": "znojmo",
+   "year": 1938,
+   "text": "připojeno nacistickým Německem; znojemská česká menšina byla vyhnána a mnoho jejích představitelů zavražděno"
+  },
+  {
+   "id": "r76",
+   "dataset": "cityFacts",
+   "key": "znojmo|1945|Rudá armáda obsadila Znojmo v květnu; byla obnovena česká svrchovanost a etničtí Němci vyhnáni",
+   "country": "CZ",
+   "city": "znojmo",
+   "year": 1945,
+   "text": "Rudá armáda obsadila Znojmo v květnu; byla obnovena česká svrchovanost a etničtí Němci vyhnáni"
+  },
+  {
+   "id": "r77",
+   "dataset": "cityFacts",
+   "key": "znojmo|1961|znojemské okurky — nakládané okurky nejslavnější československé značky — vstoupily do hromadné výroby",
+   "country": "CZ",
+   "city": "znojmo",
+   "year": 1961,
+   "text": "znojemské okurky — nakládané okurky nejslavnější československé značky — vstoupily do hromadné výroby"
+  },
+  {
+   "id": "r78",
+   "dataset": "cityFacts",
+   "key": "pribram|1948|po komunistickém převratu se příbramské uranové doly staly nejhoršími pracovními tábory Československa pro politické vězně",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1948,
+   "text": "po komunistickém převratu se příbramské uranové doly staly nejhoršími pracovními tábory Československa pro politické vězně"
+  },
+  {
+   "id": "r79",
+   "dataset": "cityFacts",
+   "key": "pribram|1955|tisíce politických vězňů zemřely na silikózu a ozáření v příbramsko-jáchymovském uranovém gulagu",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1955,
+   "text": "tisíce politických vězňů zemřely na silikózu a ozáření v příbramsko-jáchymovském uranovém gulagu"
+  },
+  {
+   "id": "r80",
+   "dataset": "cityFacts",
+   "key": "pribram|1969|těžba uranu dosáhla vrcholů sovětských kvót; vězni byli nahrazeni placenými civilními horníky",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1969,
+   "text": "těžba uranu dosáhla vrcholů sovětských kvót; vězni byli nahrazeni placenými civilními horníky"
+  },
+  {
+   "id": "r81",
+   "dataset": "cityFacts",
+   "key": "cheb|1938|Cheb (Eger) se stal jedním z prvních sudetských měst, která hostila shromáždění Konrada Henleina, než byl připojen",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 1938,
+   "text": "Cheb (Eger) se stal jedním z prvních sudetských měst, která hostila shromáždění Konrada Henleina, než byl připojen"
+  },
+  {
+   "id": "r82",
+   "dataset": "cityFacts",
+   "key": "cheb|1945|jednotky americké 3. armády se v květnu spojily s Rudou armádou u Chebu a dokončily tak české tažení",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 1945,
+   "text": "jednotky americké 3. armády se v květnu spojily s Rudou armádou u Chebu a dokončily tak české tažení"
+  },
+  {
+   "id": "r83",
+   "dataset": "cityFacts",
+   "key": "cheb|1968|místní kasárna pohraniční stráže byla horkým místem, jak vojska Varšavské smlouvy překročila hranici z východního Německa",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 1968,
+   "text": "místní kasárna pohraniční stráže byla horkým místem, jak vojska Varšavské smlouvy překročila hranici z východního Německa"
+  },
+  {
+   "id": "r84",
+   "dataset": "cityFacts",
+   "key": "kolin|1942|kolínská židovská komunita o více než 2 000 lidech byla deportována přes Terezín do Osvětimi",
+   "country": "CZ",
+   "city": "kolin",
+   "year": 1942,
+   "text": "kolínská židovská komunita o více než 2 000 lidech byla deportována přes Terezín do Osvětimi"
+  },
+  {
+   "id": "r85",
+   "dataset": "cityFacts",
+   "key": "kolin|1970|předchůdce automobilky TPCA — železniční závody Tatra-Kolín — zásoboval motory celý východní blok",
+   "country": "CZ",
+   "city": "kolin",
+   "year": 1970,
+   "text": "předchůdce automobilky TPCA — železniční závody Tatra-Kolín — zásoboval motory celý východní blok"
+  },
+  {
+   "id": "r86",
+   "dataset": "cityFacts",
+   "key": "pisek|1945|Písek byl osvobozen americkou 3. armádou; občané si dlouho pamatovali americké džípy na náměstí",
+   "country": "CZ",
+   "city": "pisek",
+   "year": 1945,
+   "text": "Písek byl osvobozen americkou 3. armádou; občané si dlouho pamatovali americké džípy na náměstí"
+  },
+  {
+   "id": "r87",
+   "dataset": "cityFacts",
+   "key": "pisek|1976|pletárna Jitex Písek se rozrostla v jednu z největších ve střední Evropě",
+   "country": "CZ",
+   "city": "pisek",
+   "year": 1976,
+   "text": "pletárna Jitex Písek se rozrostla v jednu z největších ve střední Evropě"
+  },
+  {
+   "id": "r88",
+   "dataset": "cityFacts",
+   "key": "kromeriz|1948|Arcibiskupský zámek a zahrady (od roku 1998 památka UNESCO) byly za komunistů znárodněny",
+   "country": "CZ",
+   "city": "kromeriz",
+   "year": 1948,
+   "text": "Arcibiskupský zámek a zahrady (od roku 1998 památka UNESCO) byly za komunistů znárodněny"
+  },
+  {
+   "id": "r89",
+   "dataset": "cityFacts",
+   "key": "kromeriz|1968|Kroměříž hostila tajné schůzky disidentských katolických kněží vzdorujících státním zásahům",
+   "country": "CZ",
+   "city": "kromeriz",
+   "year": 1968,
+   "text": "Kroměříž hostila tajné schůzky disidentských katolických kněží vzdorujících státním zásahům"
+  },
+  {
+   "id": "r90",
+   "dataset": "cityFacts",
+   "key": "sumperk|1938|připojeno k Sudetengau",
+   "country": "CZ",
+   "city": "sumperk",
+   "year": 1938,
+   "text": "připojeno k Sudetengau"
+  },
+  {
+   "id": "r91",
+   "dataset": "cityFacts",
+   "key": "sumperk|1945|etnické německé obyvatelstvo bylo vyhnáno; textilní průmysl přešel pod českou správu",
+   "country": "CZ",
+   "city": "sumperk",
+   "year": 1945,
+   "text": "etnické německé obyvatelstvo bylo vyhnáno; textilní průmysl přešel pod českou správu"
+  },
+  {
+   "id": "r92",
+   "dataset": "cityFacts",
+   "key": "vsetin|1944|vsetínští partyzáni ve valašských kopcích (operace Tepliček) bojovali proti nacistickým protipartyzánským zátahům",
+   "country": "CZ",
+   "city": "vsetin",
+   "year": 1944,
+   "text": "vsetínští partyzáni ve valašských kopcích (operace Tepliček) bojovali proti nacistickým protipartyzánským zátahům"
+  },
+  {
+   "id": "r93",
+   "dataset": "cityFacts",
+   "key": "vsetin|1969|zbrojní závod Zbrojovka Vsetín dodával ruční palné zbraně na celý trh RVHP",
+   "country": "CZ",
+   "city": "vsetin",
+   "year": 1969,
+   "text": "zbrojní závod Zbrojovka Vsetín dodával ruční palné zbraně na celý trh RVHP"
+  },
+  {
+   "id": "r94",
+   "dataset": "cityFacts",
+   "key": "valasske-mezirici|1968|závod Tesla VM vyráběl žárovky a elektroniku — významný zaměstnavatel valašského regionu",
+   "country": "CZ",
+   "city": "valasske-mezirici",
+   "year": 1968,
+   "text": "závod Tesla VM vyráběl žárovky a elektroniku — významný zaměstnavatel valašského regionu"
+  },
+  {
+   "id": "r95",
+   "dataset": "cityFacts",
+   "key": "litvinov|1944|hydrogenační závod na syntetická paliva v Litvínově byl opakovaně bombardován americkou Osmou leteckou armádou",
+   "country": "CZ",
+   "city": "litvinov",
+   "year": 1944,
+   "text": "hydrogenační závod na syntetická paliva v Litvínově byl opakovaně bombardován americkou Osmou leteckou armádou"
+  },
+  {
+   "id": "r96",
+   "dataset": "cityFacts",
+   "key": "litvinov|1965|rafinerie Chemopetrol a petrochemický komplex Litvínov-Záluží učinily z města jedno z nejznečištěnějších v Evropě",
+   "country": "CZ",
+   "city": "litvinov",
+   "year": 1965,
+   "text": "rafinerie Chemopetrol a petrochemický komplex Litvínov-Záluží učinily z města jedno z nejznečištěnějších v Evropě"
+  },
+  {
+   "id": "r97",
+   "dataset": "cityFacts",
+   "key": "breclav|1938|Břeclav na nové německé hranici s Moravou se stala přísně kontrolovaným přechodem",
+   "country": "CZ",
+   "city": "breclav",
+   "year": 1938,
+   "text": "Břeclav na nové německé hranici s Moravou se stala přísně kontrolovaným přechodem"
+  },
+  {
+   "id": "r98",
+   "dataset": "cityFacts",
+   "key": "breclav|1968|sovětské tanky překročily v srpnu při invazi Varšavské smlouvy hranici u Břeclavi",
+   "country": "CZ",
+   "city": "breclav",
+   "year": 1968,
+   "text": "sovětské tanky překročily v srpnu při invazi Varšavské smlouvy hranici u Břeclavi"
+  },
+  {
+   "id": "r99",
+   "dataset": "cityFacts",
+   "key": "novy-jicin|1938|připojeno k Sudetengau; převážně německy mluvící",
+   "country": "CZ",
+   "city": "novy-jicin",
+   "year": 1938,
+   "text": "připojeno k Sudetengau; převážně německy mluvící"
+  }
+ ]
+}

@@ -1,0 +1,456 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "odesa|1944|osvobození bylo vyvrcholením oděské útočné operace 3. ukrajinského frontu od 26. března do 14. dubna",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1944,
+   "text": "osvobození bylo vyvrcholením oděské útočné operace 3. ukrajinského frontu od 26. března do 14. dubna"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "odesa|1954|Oděský filmový ateliér po válečné odmlce naplno obnovil výrobu hraných filmů",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1954,
+   "text": "Oděský filmový ateliér po válečné odmlce naplno obnovil výrobu hraných filmů"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "odesa|1958|fotbalový klub založený roku 1936 jako Dynamo přijal název Čornomorec Oděsa",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1958,
+   "text": "fotbalový klub založený roku 1936 jako Dynamo přijal název Čornomorec Oděsa"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "odesa|1973|1. dubna se poprvé konala Humorina, oděský festival humoru, jenž se pak slavil každoročně",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1973,
+   "text": "1. dubna se poprvé konala Humorina, oděský festival humoru, jenž se pak slavil každoročně"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "odesa|1974|Čornomorec Oděsa získal bronz v sovětské nejvyšší lize a postoupil do Poháru UEFA",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1974,
+   "text": "Čornomorec Oděsa získal bronz v sovětské nejvyšší lize a postoupil do Poháru UEFA"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "odesa|1986|Oděsu ležící asi 550 km od Černobylu zachvátily po havárii reaktoru obavy z radiace",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1986,
+   "text": "Oděsu ležící asi 550 km od Černobylu zachvátily po havárii reaktoru obavy z radiace"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "odesa|1989|na sedmém kilometru silnice z města vznikla tržnice 7. kilometr, později jedno z největších tržišť pod širým nebem v Evropě",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1989,
+   "text": "na sedmém kilometru silnice z města vznikla tržnice 7. kilometr, později jedno z největších tržišť pod širým nebem v Evropě"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "odesa|1991|24. srpna vyhlásila Ukrajina nezávislost; oděský přístav vzápětí zasáhl rozpad sovětských obchodních vazeb",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1991,
+   "text": "24. srpna vyhlásila Ukrajina nezávislost; oděský přístav vzápětí zasáhl rozpad sovětských obchodních vazeb"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "odesa|1992|vypukl rusko-ukrajinský spor o Černomořskou flotilu, jejíž síly sahaly od Oděsy po Sevastopol",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1992,
+   "text": "vypukl rusko-ukrajinský spor o Černomořskou flotilu, jejíž síly sahaly od Oděsy po Sevastopol"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "odesa|1994|Čornomorec Oděsa získal ukrajinský pohár ve druhém ročníku samostatné soutěže",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1994,
+   "text": "Čornomorec Oděsa získal ukrajinský pohár ve druhém ročníku samostatné soutěže"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "odesa|1995|nejdelší jednorázová výprava oděskými katakombami urazila během 27 hodin asi 40 km",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1995,
+   "text": "nejdelší jednorázová výprava oděskými katakombami urazila během 27 hodin asi 40 km"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "odesa|1997|28. května podepsaly Rusko a Ukrajina dohody o rozdělení Černomořské flotily; Ukrajina získala 150 jejích zařízení",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1997,
+   "text": "28. května podepsaly Rusko a Ukrajina dohody o rozdělení Černomořské flotily; Ukrajina získala 150 jejích zařízení"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "odesa|2001|sčítání lidu napočítalo v Oděse 62 % Ukrajinců, 29 % Rusů a šestiprocentní bulharskou menšinu",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2001,
+   "text": "sčítání lidu napočítalo v Oděse 62 % Ukrajinců, 29 % Rusů a šestiprocentní bulharskou menšinu"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "odesa|2005|tržiště 7. kilometr s asi 16 000 obchodníky bylo největším zaměstnavatelem v regionu",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2005,
+   "text": "tržiště 7. kilometr s asi 16 000 obchodníky bylo největším zaměstnavatelem v regionu"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "odesa|2014|2. května zahynulo 48 lidí, většina v hořícím Domě odborů na Kulikově poli během střetů proukrajinských a proruských skupin",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2014,
+   "text": "2. května zahynulo 48 lidí, většina v hořícím Domě odborů na Kulikově poli během střetů proukrajinských a proruských skupin"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "odesa|2014|27. května se starostou stal Hennadij Truchanov a v čele radnice setrval přes deset let",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2014,
+   "text": "27. května se starostou stal Hennadij Truchanov a v čele radnice setrval přes deset let"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "odesa|2015|30. května jmenoval prezident Porošenko gubernátorem Oděské oblasti bývalého gruzínského prezidenta Michaila Saakašviliho",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2015,
+   "text": "30. května jmenoval prezident Porošenko gubernátorem Oděské oblasti bývalého gruzínského prezidenta Michaila Saakašviliho"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "odesa|2016|9. listopadu Saakašvili rezignoval na post gubernátora a obvinil vedení země z krytí korupce",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2016,
+   "text": "9. listopadu Saakašvili rezignoval na post gubernátora a obvinil vedení země z krytí korupce"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "odesa|2022|24. února odmítla posádka 13 pohraničníků na Hadím ostrově jihovýchodně od Oděsy vzdát se ruskému křižníku Moskva",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2022,
+   "text": "24. února odmítla posádka 13 pohraničníků na Hadím ostrově jihovýchodně od Oděsy vzdát se ruskému křižníku Moskva"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "odesa|2022|30. června se ruské síly stáhly z Hadího ostrova po 126 dnech okupace",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2022,
+   "text": "30. června se ruské síly stáhly z Hadího ostrova po 126 dnech okupace"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "odesa|2022|23. července, den po podpisu obilné dohody, zasáhly oděský přístav ruské střely Kalibr",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2022,
+   "text": "23. července, den po podpisu obilné dohody, zasáhly oděský přístav ruské střely Kalibr"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "odesa|2022|1. srpna vyplula z přístavu loď Razoni s 26 000 tunami kukuřice jako první zásilka obilné iniciativy",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2022,
+   "text": "1. srpna vyplula z přístavu loď Razoni s 26 000 tunami kukuřice jako první zásilka obilné iniciativy"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "odesa|2023|23. července zničila ruská raketa hlavní oltář Preobraženské katedrály v centru zapsaném na seznamu UNESCO",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2023,
+   "text": "23. července zničila ruská raketa hlavní oltář Preobraženské katedrály v centru zapsaném na seznamu UNESCO"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "odesa|2023|oděským přístavem a sousedním Pivdenným procházela většina ukrajinského obilí vyváženého přes Černé moře",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2023,
+   "text": "oděským přístavem a sousedním Pivdenným procházela většina ukrajinského obilí vyváženého přes Černé moře"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "odesa|2024|v listopadu zabil balistický útok na město deset lidí, mezi nimi sedm policistů a zdravotníka",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2024,
+   "text": "v listopadu zabil balistický útok na město deset lidí, mezi nimi sedm policistů a zdravotníka"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "odesa|2025|u radnice byl zabedněn pomník Alexandra Puškina v rámci odstraňování ruských symbolů z města",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2025,
+   "text": "u radnice byl zabedněn pomník Alexandra Puškina v rámci odstraňování ruských symbolů z města"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "odesa|2025|15. října zbavil prezident Zelenskyj starostu Truchanova ukrajinského občanství kvůli podezření z ruského pasu",
+   "country": "UA",
+   "city": "odesa",
+   "year": 2025,
+   "text": "15. října zbavil prezident Zelenskyj starostu Truchanova ukrajinského občanství kvůli podezření z ruského pasu"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "kherson|1941|po bojích od 15. do 18. srpna obsadila wehrmacht město a uvrhla obyvatele do tříleté okupace",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1941,
+   "text": "po bojích od 15. do 18. srpna obsadila wehrmacht město a uvrhla obyvatele do tříleté okupace"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "kherson|1943|během německé okupace bylo zavražděno na 17 000 obyvatel a dalších 15 000 odvlečeno na nucené práce do Říše",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1943,
+   "text": "během německé okupace bylo zavražděno na 17 000 obyvatel a dalších 15 000 odvlečeno na nucené práce do Říše"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "kherson|1944|13. března osvobodily město jednotky Rudé armády vedené generálem Margelovem",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1944,
+   "text": "13. března osvobodily město jednotky Rudé armády vedené generálem Margelovem"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "kherson|1944|30. března se Cherson stal hlavním městem nově zřízené Chersonské oblasti",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1944,
+   "text": "30. března se Cherson stal hlavním městem nově zřízené Chersonské oblasti"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "kherson|1985|24. prosince byl přes Dněpr otevřen Antonivský silniční most spojující město s levým břehem",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1985,
+   "text": "24. prosince byl přes Dněpr otevřen Antonivský silniční most spojující město s levým břehem"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "kherson|1991|1. prosince hlasovala Chersonská oblast v referendu drtivě pro nezávislost Ukrajiny",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1991,
+   "text": "1. prosince hlasovala Chersonská oblast v referendu drtivě pro nezávislost Ukrajiny"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "kherson|2022|2. března obsadily ruské síly Cherson jako jediné dobyté oblastní centrum invaze",
+   "country": "UA",
+   "city": "kherson",
+   "year": 2022,
+   "text": "2. března obsadily ruské síly Cherson jako jediné dobyté oblastní centrum invaze"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "kherson|2022|27. září uspořádali okupanti zinscenované referendum, po němž Putin 30. září vyhlásil anexi oblasti",
+   "country": "UA",
+   "city": "kherson",
+   "year": 2022,
+   "text": "27. září uspořádali okupanti zinscenované referendum, po němž Putin 30. září vyhlásil anexi oblasti"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "kherson|2022|11. listopadu osvobodila ukrajinská armáda Cherson po osmiměsíční okupaci",
+   "country": "UA",
+   "city": "kherson",
+   "year": 2022,
+   "text": "11. listopadu osvobodila ukrajinská armáda Cherson po osmiměsíční okupaci"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "kherson|2022|při ústupu zničili Rusové Antonivský most a odřízli pravý břeh Dněpru",
+   "country": "UA",
+   "city": "kherson",
+   "year": 2022,
+   "text": "při ústupu zničili Rusové Antonivský most a odřízli pravý břeh Dněpru"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "kherson|2023|6. června protrhli Rusové Kachovskou přehradu a záplavy na dolním Dněpru vyhnaly tisíce lidí z domovů",
+   "country": "UA",
+   "city": "kherson",
+   "year": 2023,
+   "text": "6. června protrhli Rusové Kachovskou přehradu a záplavy na dolním Dněpru vyhnaly tisíce lidí z domovů"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "kherson|2024|od léta zahájili Rusové cílené nálety dronů na civilisty na pravém břehu Dněpru, jež místní nazývají hon na lidi",
+   "country": "UA",
+   "city": "kherson",
+   "year": 2024,
+   "text": "od léta zahájili Rusové cílené nálety dronů na civilisty na pravém břehu Dněpru, jež místní nazývají hon na lidi"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "kherson|2025|OSN označila ruskou kampaň dronů kolem Chersonu za zločin proti lidskosti; jen za půl roku zabila 84 civilistů",
+   "country": "UA",
+   "city": "kherson",
+   "year": 2025,
+   "text": "OSN označila ruskou kampaň dronů kolem Chersonu za zločin proti lidskosti; jen za půl roku zabila 84 civilistů"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "dnipro|1944|do plné výroby se vrátily Petrovského hutě, klíčový dodavatel oceli pro frontu",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1944,
+   "text": "do plné výroby se vrátily Petrovského hutě, klíčový dodavatel oceli pro frontu"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "dnipro|1962|raketárna Južmaš vynesla na oběžnou dráhu první sovětskou sluneční družici série DS — počátek dněpropetrovského kosmického programu",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1962,
+   "text": "raketárna Južmaš vynesla na oběžnou dráhu první sovětskou sluneční družici série DS — počátek dněpropetrovského kosmického programu"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "dnipro|1967|Tsyklon, nosná raketa odvozená od mezikontinentální střely R-36, vznikla v konstrukční kanceláři Južnoje",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1967,
+   "text": "Tsyklon, nosná raketa odvozená od mezikontinentální střely R-36, vznikla v konstrukční kanceláři Južnoje"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "dnipro|1979|z raketového města řídil sovětský zbrojní program Leonid Brežněv, jehož kariéra začala v místním stranickém aparátu",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1979,
+   "text": "z raketového města řídil sovětský zbrojní program Leonid Brežněv, jehož kariéra začala v místním stranickém aparátu"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "dnipro|1991|po vyhlášení ukrajinské nezávislosti se uzavřené město poprvé otevřelo cizincům",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1991,
+   "text": "po vyhlášení ukrajinské nezávislosti se uzavřené město poprvé otevřelo cizincům"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "dnipro|1995|29. prosince byla otevřena první linka dněpropetrovského metra — první otevřená v postsovětském prostoru",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1995,
+   "text": "29. prosince byla otevřena první linka dněpropetrovského metra — první otevřená v postsovětském prostoru"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "dnipro|2014|město se stalo logistickým a humanitárním zázemím války na Donbasu; Mečnikovova nemocnice začala přijímat tisíce raněných vojáků",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 2014,
+   "text": "město se stalo logistickým a humanitárním zázemím války na Donbasu; Mečnikovova nemocnice začala přijímat tisíce raněných vojáků"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "dnipro|2015|27. května prohrál fotbalový klub Dnipro ve finále Evropské ligy ve Varšavě se Sevillou 2:3",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 2015,
+   "text": "27. května prohrál fotbalový klub Dnipro ve finále Evropské ligy ve Varšavě se Sevillou 2:3"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "dnipro|2016|19. května Nejvyšší rada přejmenovala město z Dněpropetrovsku na Dnipro v rámci zákonů o dekomunizaci",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 2016,
+   "text": "19. května Nejvyšší rada přejmenovala město z Dněpropetrovsku na Dnipro v rámci zákonů o dekomunizaci"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "dnipro|2022|po ruské invazi se Dnipro stalo hlavním týlovým uzlem; do oblasti přišly statisíce vnitřně vysídlených lidí",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 2022,
+   "text": "po ruské invazi se Dnipro stalo hlavním týlovým uzlem; do oblasti přišly statisíce vnitřně vysídlených lidí"
+  }
+ ]
+}

@@ -1,0 +1,546 @@
+{
+ "pass": "B",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "pribram|1963|20. července se na Vysoké u Příbramě otevřel památník Antonína Dvořáka, který zde trávil léta a načerpal inspiraci pro operu Rusalka",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1963,
+   "text": "20. července se na Vysoké u Příbramě otevřel památník Antonína Dvořáka, který zde trávil léta a načerpal inspiraci pro operu Rusalka"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "pribram|1978|27. dubna zachvátil areál Svaté Hory ničivý požár; basiliku samotnou zachránily před plameny stovky hasičů ze čtyř desítek jednotek",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1978,
+   "text": "27. dubna zachvátil areál Svaté Hory ničivý požár; basiliku samotnou zachránily před plameny stovky hasičů ze čtyř desítek jednotek"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "pribram|1978|po více než šesti stoletích skončila historická těžba stříbrných a olověných rud na Březových Horách",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1978,
+   "text": "po více než šesti stoletích skončila historická těžba stříbrných a olověných rud na Březových Horách"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "pribram|1990|ke Svaté Hoře se vrátili redemptoristé, které odtud komunistický režim roku 1950 vyhnal, a opět převzali péči o poutní místo",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1990,
+   "text": "ke Svaté Hoře se vrátili redemptoristé, které odtud komunistický režim roku 1950 vyhnal, a opět převzali péči o poutní místo"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "pribram|1991|po více než čtyřech desetiletích skončila těžba uranu na Příbramsku, jež dala přes 48 tisíc tun uranu a patřila k největším v Evropě",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1991,
+   "text": "po více než čtyřech desetiletích skončila těžba uranu na Příbramsku, jež dala přes 48 tisíc tun uranu a patřila k největším v Evropě"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "pribram|1991|šachta číslo 16 u Hájů dosáhla hloubky 1838 metrů, v té době nejhlubší rudný důl v Evropě, než těžba skončila",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1991,
+   "text": "šachta číslo 16 u Hájů dosáhla hloubky 1838 metrů, v té době nejhlubší rudný důl v Evropě, než těžba skončila"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "pribram|2005|po rozsáhlé rekonstrukci se veřejnosti otevřel Památník Vojna, bývalý největší uranový pracovní tábor v Československu",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 2005,
+   "text": "po rozsáhlé rekonstrukci se veřejnosti otevřel Památník Vojna, bývalý největší uranový pracovní tábor v Československu"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "jihlava|1946|v říjnu vznikl strojírenský závod PAL Jihlava, předchůdce dnešního Motorpalu vyrábějícího vstřikovací zařízení",
+   "country": "CZ",
+   "city": "jihlava",
+   "year": 1946,
+   "text": "v říjnu vznikl strojírenský závod PAL Jihlava, předchůdce dnešního Motorpalu vyrábějícího vstřikovací zařízení"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "jihlava|1957|veřejnosti byl zpřístupněn asi kilometr středověkého jihlavského podzemí, druhého největšího systému chodeb v zemi",
+   "country": "CZ",
+   "city": "jihlava",
+   "year": 1957,
+   "text": "veřejnosti byl zpřístupněn asi kilometr středověkého jihlavského podzemí, druhého největšího systému chodeb v zemi"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "jihlava|1967|Horácký zimní stadion, domov Dukly, byl zastřešen trvalou střechou",
+   "country": "CZ",
+   "city": "jihlava",
+   "year": 1967,
+   "text": "Horácký zimní stadion, domov Dukly, byl zastřešen trvalou střechou"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "jihlava|1974|Dukla Jihlava získala další československý hokejový titul, svůj sedmý",
+   "country": "CZ",
+   "city": "jihlava",
+   "year": 1974,
+   "text": "Dukla Jihlava získala další československý hokejový titul, svůj sedmý"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "jihlava|1985|Dukla Jihlava vyhrála hokejovou ligu a dovršila druhou sérii čtyř titulů v řadě z let 1982 až 1985",
+   "country": "CZ",
+   "city": "jihlava",
+   "year": 1985,
+   "text": "Dukla Jihlava vyhrála hokejovou ligu a dovršila druhou sérii čtyř titulů v řadě z let 1982 až 1985"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "jihlava|1991|Dukla Jihlava získala svůj dvanáctý a poslední československý titul, než se po rozdělení státu liga rozpadla",
+   "country": "CZ",
+   "city": "jihlava",
+   "year": 1991,
+   "text": "Dukla Jihlava získala svůj dvanáctý a poslední československý titul, než se po rozdělení státu liga rozpadla"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "jihlava|1993|v Jihlavě byla založena firma Bosch Diesel, společný podnik s Motorpalem, jenž vyrostl v největší závod koncernu Bosch na světě pro vstřikování Common Rail",
+   "country": "CZ",
+   "city": "jihlava",
+   "year": 1993,
+   "text": "v Jihlavě byla založena firma Bosch Diesel, společný podnik s Motorpalem, jenž vyrostl v největší závod koncernu Bosch na světě pro vstřikování Common Rail"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "jihlava|1997|skupina středoškoláků vedená Markem Hovorkou založila Mezinárodní festival dokumentárních filmů Ji.hlava, dnes největší dokumentární festival ve střední a východní Evropě",
+   "country": "CZ",
+   "city": "jihlava",
+   "year": 1997,
+   "text": "skupina středoškoláků vedená Markem Hovorkou založila Mezinárodní festival dokumentárních filmů Ji.hlava, dnes největší dokumentární festival ve střední a východní Evropě"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "jihlava|1999|sezonou 1998/99 skončila pro slavnou Duklu éra nejvyšší soutěže a klub z extraligy sestoupil",
+   "country": "CZ",
+   "city": "jihlava",
+   "year": 1999,
+   "text": "sezonou 1998/99 skončila pro slavnou Duklu éra nejvyšší soutěže a klub z extraligy sestoupil"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "jihlava|2001|s nástupem krajské samosprávy se Jihlava stala sídlem nově pojmenovaného kraje Vysočina",
+   "country": "CZ",
+   "city": "jihlava",
+   "year": 2001,
+   "text": "s nástupem krajské samosprávy se Jihlava stala sídlem nově pojmenovaného kraje Vysočina"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "jihlava|2008|25. září byl po rekonstrukci znovu otevřen Dům Gustava Mahlera se stálou expozicí věnovanou skladatelovu jihlavskému mládí",
+   "country": "CZ",
+   "city": "jihlava",
+   "year": 2008,
+   "text": "25. září byl po rekonstrukci znovu otevřen Dům Gustava Mahlera se stálou expozicí věnovanou skladatelovu jihlavskému mládí"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "jihlava|2010|7. července, ke 150. výročí Mahlerova narození, byl otevřen park Gustava Mahlera s bronzovou sochou skladatele od Jana Koblasy",
+   "country": "CZ",
+   "city": "jihlava",
+   "year": 2010,
+   "text": "7. července, ke 150. výročí Mahlerova narození, byl otevřen park Gustava Mahlera s bronzovou sochou skladatele od Jana Koblasy"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "trebic|1985|12. února dosáhl kritického stavu první blok nedaleké jaderné elektrárny Dukovany, vůbec první reaktor na českém území, a 24. února byl připojen k síti",
+   "country": "CZ",
+   "city": "trebic",
+   "year": 1985,
+   "text": "12. února dosáhl kritického stavu první blok nedaleké jaderné elektrárny Dukovany, vůbec první reaktor na českém území, a 24. února byl připojen k síti"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "trebic|1987|do června byly uvedeny do provozu všechny čtyři bloky VVER-440 elektrárny Dukovany, necelé tři a půl roku po připojení prvního",
+   "country": "CZ",
+   "city": "trebic",
+   "year": 1987,
+   "text": "do června byly uvedeny do provozu všechny čtyři bloky VVER-440 elektrárny Dukovany, necelé tři a půl roku po připojení prvního"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "trebic|2002|při srpnových povodních ohrozila rozvodněná Jihlava město, historické centrum však uchránily nově nasazené vakové jezy",
+   "country": "CZ",
+   "city": "trebic",
+   "year": 2002,
+   "text": "při srpnových povodních ohrozila rozvodněná Jihlava město, historické centrum však uchránily nově nasazené vakové jezy"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "trebic|2003|židovská čtvrť, starý židovský hřbitov a bazilika svatého Prokopa byly zapsány na seznam UNESCO; zdejší ghetto se stalo prvním samostatně zapsaným židovským památným místem mimo Izrael",
+   "country": "CZ",
+   "city": "trebic",
+   "year": 2003,
+   "text": "židovská čtvrť, starý židovský hřbitov a bazilika svatého Prokopa byly zapsány na seznam UNESCO; zdejší ghetto se stalo prvním samostatně zapsaným židovským památným místem mimo Izrael"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "trebic|2003|zapsaná židovská čtvrť dochovala na 120 domů a dvě synagogy, Přední a Zadní, a patří k nejlépe zachovaným v Evropě",
+   "country": "CZ",
+   "city": "trebic",
+   "year": 2003,
+   "text": "zapsaná židovská čtvrť dochovala na 120 domů a dvě synagogy, Přední a Zadní, a patří k nejlépe zachovaným v Evropě"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "trebic|2015|bývalá Baťova továrna v Borovině, pozdější závod BOPO, ožila po rekonstrukci jako brownfield s ekotechnickým centrem Alternátor",
+   "country": "CZ",
+   "city": "trebic",
+   "year": 2015,
+   "text": "bývalá Baťova továrna v Borovině, pozdější závod BOPO, ožila po rekonstrukci jako brownfield s ekotechnickým centrem Alternátor"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "trebic|2016|Státní úřad pro jadernou bezpečnost vydal všem čtyřem blokům Dukovan časově neomezené povolení k provozu",
+   "country": "CZ",
+   "city": "trebic",
+   "year": 2016,
+   "text": "Státní úřad pro jadernou bezpečnost vydal všem čtyřem blokům Dukovan časově neomezené povolení k provozu"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "trebic|2022|rozvodněná Jihlava připomněla dvacáté výročí povodní z roku 2002, jež před zatopením centra zachránily vakové jezy",
+   "country": "CZ",
+   "city": "trebic",
+   "year": 2022,
+   "text": "rozvodněná Jihlava připomněla dvacáté výročí povodní z roku 2002, jež před zatopením centra zachránily vakové jezy"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "zdar-nad-sazavou|1949|obce Město Žďár a Zámek Žďár se sloučily a sídlo bylo oficiálně přejmenováno na Žďár nad Sázavou, sídlo politického okresu",
+   "country": "CZ",
+   "city": "zdar-nad-sazavou",
+   "year": 1949,
+   "text": "obce Město Žďár a Zámek Žďár se sloučily a sídlo bylo oficiálně přejmenováno na Žďár nad Sázavou, sídlo politického okresu"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "zdar-nad-sazavou|1992|závod ZĎAS byl zprivatizován a 30. dubna vznikla akciová společnost vyrábějící tvářecí stroje, kovací lisy a odlitky",
+   "country": "CZ",
+   "city": "zdar-nad-sazavou",
+   "year": 1992,
+   "text": "závod ZĎAS byl zprivatizován a 30. dubna vznikla akciová společnost vyrábějící tvářecí stroje, kovací lisy a odlitky"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "zdar-nad-sazavou|2012|v listopadu skončila přestavba a rozšíření relaxačního centra s bazény, wellness a saunami",
+   "country": "CZ",
+   "city": "zdar-nad-sazavou",
+   "year": 2012,
+   "text": "v listopadu skončila přestavba a rozšíření relaxačního centra s bazény, wellness a saunami"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "zdar-nad-sazavou|2014|správu poutního kostela na Zelené hoře převzala místní římskokatolická farnost, jež od té doby památku UNESCO spravuje",
+   "country": "CZ",
+   "city": "zdar-nad-sazavou",
+   "year": 2014,
+   "text": "správu poutního kostela na Zelené hoře převzala místní římskokatolická farnost, jež od té doby památku UNESCO spravuje"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "zdar-nad-sazavou|2015|1. srpna otevřelo v přestavěném pivovaru zámeckého areálu Kinských Muzeum nové generace, mapující bezmála osm století dějin Žďáru",
+   "country": "CZ",
+   "city": "zdar-nad-sazavou",
+   "year": 2015,
+   "text": "1. srpna otevřelo v přestavěném pivovaru zámeckého areálu Kinských Muzeum nové generace, mapující bezmála osm století dějin Žďáru"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "zdar-nad-sazavou|2018|začala rozsáhlá obnova exteriéru i interiéru Santiniho kostela na Zelené hoře, jež s přestávkami trvala do roku 2024",
+   "country": "CZ",
+   "city": "zdar-nad-sazavou",
+   "year": 2018,
+   "text": "začala rozsáhlá obnova exteriéru i interiéru Santiniho kostela na Zelené hoře, jež s přestávkami trvala do roku 2024"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "zdar-nad-sazavou|2022|poutní kostel svatého Jana Nepomuckého na Zelené hoře oslavil 300 let od svého vysvěcení 27. září 1722",
+   "country": "CZ",
+   "city": "zdar-nad-sazavou",
+   "year": 2022,
+   "text": "poutní kostel svatého Jana Nepomuckého na Zelené hoře oslavil 300 let od svého vysvěcení 27. září 1722"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "zdar-nad-sazavou|2024|Žďár připomněl 30 let od zápisu kostela na Zelené hoře na seznam UNESCO a dokončil obnovu okolního ambitu i jeho původní štukové výzdoby",
+   "country": "CZ",
+   "city": "zdar-nad-sazavou",
+   "year": 2024,
+   "text": "Žďár připomněl 30 let od zápisu kostela na Zelené hoře na seznam UNESCO a dokončil obnovu okolního ambitu i jeho původní štukové výzdoby"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "zdar-nad-sazavou|2002|do strojíren ZĎAS vstoupily jako strategický většinový vlastník slovenské Železiarne Podbrezová",
+   "country": "CZ",
+   "city": "zdar-nad-sazavou",
+   "year": 2002,
+   "text": "do strojíren ZĎAS vstoupily jako strategický většinový vlastník slovenské Železiarne Podbrezová"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "kladno|1972|15. února se v Kladně narodil hokejista Jaromír Jágr, odchovanec místního Poldi Kladno",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1972,
+   "text": "15. února se v Kladně narodil hokejista Jaromír Jágr, odchovanec místního Poldi Kladno"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "kladno|1985|Poldi Kladno získala svůj poslední československý titul z éry dominance z přelomu 70. a 80. let, kdy klubem prošla celá generace reprezentantů",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1985,
+   "text": "Poldi Kladno získala svůj poslední československý titul z éry dominance z přelomu 70. a 80. let, kdy klubem prošla celá generace reprezentantů"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "kladno|1988|šestnáctiletý Jaromír Jágr nastoupil za seniorský tým Poldi Kladno v nejvyšší soutěži a hned upoutal pozornost skautů",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1988,
+   "text": "šestnáctiletý Jaromír Jágr nastoupil za seniorský tým Poldi Kladno v nejvyšší soutěži a hned upoutal pozornost skautů"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "kladno|1989|na sklonku komunistického režimu zaměstnávala Poldovka přes 20 000 lidí a byla jedním z největších podniků v zemi",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1989,
+   "text": "na sklonku komunistického režimu zaměstnávala Poldovka přes 20 000 lidí a byla jedním z největších podniků v zemi"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "kladno|1990|Jaromír Jágr odešel z Kladna do zámoří a stal se prvním Čechem draftovaným do NHL bez nutnosti emigrace",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1990,
+   "text": "Jaromír Jágr odešel z Kladna do zámoří a stal se prvním Čechem draftovaným do NHL bez nutnosti emigrace"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "kladno|1992|Poldi se přeměnila na akciovou společnost holdingového typu a vláda rozhodla o jejím rychlém zprivatizování",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1992,
+   "text": "Poldi se přeměnila na akciovou společnost holdingového typu a vláda rozhodla o jejím rychlém zprivatizování"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "kladno|1993|11. srpna schválila vláda privatizaci akciové společnosti Poldi; dražbu vyhrál Vladimír Stehlík s nabídkou 1,75 miliardy korun",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1993,
+   "text": "11. srpna schválila vláda privatizaci akciové společnosti Poldi; dražbu vyhrál Vladimír Stehlík s nabídkou 1,75 miliardy korun"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "kladno|1995|v červenci byla výroba v Poldi ocel zastavena údajně pro nedostatek zakázek a tisíce zaměstnanců přišly o práci",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1995,
+   "text": "v červenci byla výroba v Poldi ocel zastavena údajně pro nedostatek zakázek a tisíce zaměstnanců přišly o práci"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "kladno|1997|kladenská Poldi se zhroutila do konkurzu a symbolicky tak skončila éra města jako bašty českého ocelářství",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1997,
+   "text": "kladenská Poldi se zhroutila do konkurzu a symbolicky tak skončila éra města jako bašty českého ocelářství"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "kladno|2001|29. listopadu zahynuli při výbuchu metanu na Dole Schoeller čtyři horníci, což urychlilo rozhodnutí o konci těžby",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 2001,
+   "text": "29. listopadu zahynuli při výbuchu metanu na Dole Schoeller čtyři horníci, což urychlilo rozhodnutí o konci těžby"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "kladno|2002|29. června vyjel z Dolu Schoeller poslední vozík s uhlím a staletá historie hornictví na Kladensku definitivně skončila",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 2002,
+   "text": "29. června vyjel z Dolu Schoeller poslední vozík s uhlím a staletá historie hornictví na Kladensku definitivně skončila"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "kladno|2011|Jaromír Jágr převzal většinový podíl v rodném klubu, který byl přejmenován na Rytíře Kladno",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 2011,
+   "text": "Jaromír Jágr převzal většinový podíl v rodném klubu, který byl přejmenován na Rytíře Kladno"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "kladno|2014|z chátrajícího Poldi Kladno odešel hokej do nové haly a část areálu hutě začala sloužit drobnějším firmám",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 2014,
+   "text": "z chátrajícího Poldi Kladno odešel hokej do nové haly a část areálu hutě začala sloužit drobnějším firmám"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "kladno|2019|Rytíři Kladno se po letech v nižší soutěži vrátili do extraligy, často v sestavě s hrajícím majitelem Jaromírem Jágrem",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 2019,
+   "text": "Rytíři Kladno se po letech v nižší soutěži vrátili do extraligy, často v sestavě s hrajícím majitelem Jaromírem Jágrem"
+  },
+  {
+   "id": "r50",
+   "dataset": "cityFacts",
+   "key": "kladno|2025|Jaromír Jágr prodal většinový podíl v Rytířích Kladno; po více než třiceti letech tak skončila éra rodinného vlastnictví klubu",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 2025,
+   "text": "Jaromír Jágr prodal většinový podíl v Rytířích Kladno; po více než třiceti letech tak skončila éra rodinného vlastnictví klubu"
+  },
+  {
+   "id": "r51",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1959|z boleslavských linek sjel vůz Škoda Octavia, populární model přelomu 50. a 60. let s tradiční koncepcí motoru vpředu",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1959,
+   "text": "z boleslavských linek sjel vůz Škoda Octavia, populární model přelomu 50. a 60. let s tradiční koncepcí motoru vpředu"
+  },
+  {
+   "id": "r52",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1987|začala výroba Škody Favorit s motorem vpředu a pohonem předních kol — auta, které mělo Škodu připravit na západní konkurenci",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1987,
+   "text": "začala výroba Škody Favorit s motorem vpředu a pohonem předních kol — auta, které mělo Škodu připravit na západní konkurenci"
+  },
+  {
+   "id": "r53",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1990|9. prosince schválila Praha vstup koncernu Volkswagen do mladoboleslavské Škody a otevřela tím novou kapitolu firmy",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1990,
+   "text": "9. prosince schválila Praha vstup koncernu Volkswagen do mladoboleslavské Škody a otevřela tím novou kapitolu firmy"
+  },
+  {
+   "id": "r54",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1991|28. března byla podepsána smlouva o společném podniku s Volkswagenem; 16. dubna získal koncern první 31% podíl ve Škodě",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1991,
+   "text": "28. března byla podepsána smlouva o společném podniku s Volkswagenem; 16. dubna získal koncern první 31% podíl ve Škodě"
+  },
+  {
+   "id": "r55",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1994|ve městě sjel z linky první vůz Škoda Felicia, modernizace Favoritu vyvinutá už pod křídly Volkswagenu",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1994,
+   "text": "ve městě sjel z linky první vůz Škoda Felicia, modernizace Favoritu vyvinutá už pod křídly Volkswagenu"
+  },
+  {
+   "id": "r56",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1996|Mladá Boleslav patřila díky Škodě dlouhodobě k okresům s nejvyššími mzdami a nejnižší nezaměstnaností v zemi",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1996,
+   "text": "Mladá Boleslav patřila díky Škodě dlouhodobě k okresům s nejvyššími mzdami a nejnižší nezaměstnaností v zemi"
+  },
+  {
+   "id": "r57",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|2000|30. května získal Volkswagen ve Škodě Auto stoprocentní podíl a firma se stala plnohodnotnou součástí koncernu",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 2000,
+   "text": "30. května získal Volkswagen ve Škodě Auto stoprocentní podíl a firma se stala plnohodnotnou součástí koncernu"
+  },
+  {
+   "id": "r58",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|2001|ve městě byla zahájena výroba modelu Škoda Fabia, jednoho z pilířů úspěchu značky v zahraničí",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 2001,
+   "text": "ve městě byla zahájena výroba modelu Škoda Fabia, jednoho z pilířů úspěchu značky v zahraničí"
+  },
+  {
+   "id": "r59",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|2011|25. května získal FK Mladá Boleslav český fotbalový pohár, když ve finále porazil Sigmu Olomouc po penaltovém rozstřelu 4:3",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 2011,
+   "text": "25. května získal FK Mladá Boleslav český fotbalový pohár, když ve finále porazil Sigmu Olomouc po penaltovém rozstřelu 4:3"
+  }
+ ]
+}

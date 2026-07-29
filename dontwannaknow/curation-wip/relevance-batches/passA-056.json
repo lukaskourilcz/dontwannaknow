@@ -1,0 +1,456 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "countryDecades",
+   "key": "CZ|1960|illnesses|Srdeční choroby předstihly tuberkulózu jako nejčastější příčinu úmrtí.",
+   "country": "CZ",
+   "decadeStart": 1960,
+   "bucket": "illnesses",
+   "text": "Srdeční choroby předstihly tuberkulózu jako nejčastější příčinu úmrtí."
+  },
+  {
+   "id": "r1",
+   "dataset": "countryDecades",
+   "key": "CZ|1960|illnesses|Psychiatrické léčebny se od roku 1968 využívaly k zadržování disidentů.",
+   "country": "CZ",
+   "decadeStart": 1960,
+   "bucket": "illnesses",
+   "text": "Psychiatrické léčebny se od roku 1968 využívaly k zadržování disidentů."
+  },
+  {
+   "id": "r2",
+   "dataset": "countryDecades",
+   "key": "CZ|1960|dailyLife|Československá nová vlna — Forman, Menzel, Chytilová — přinášela osobitý filmový jazyk a získávala zahraniční ocenění.",
+   "country": "CZ",
+   "decadeStart": 1960,
+   "bucket": "dailyLife",
+   "text": "Československá nová vlna — Forman, Menzel, Chytilová — přinášela osobitý filmový jazyk a získávala zahraniční ocenění."
+  },
+  {
+   "id": "r3",
+   "dataset": "countryDecades",
+   "key": "CZ|1960|dailyLife|Jan Palach se v lednu 1969 na Václavském náměstí upálil.",
+   "country": "CZ",
+   "decadeStart": 1960,
+   "bucket": "dailyLife",
+   "text": "Jan Palach se v lednu 1969 na Václavském náměstí upálil."
+  },
+  {
+   "id": "r4",
+   "dataset": "countryDecades",
+   "key": "CZ|1960|dailyLife|Sobotní dopoledne patřila „dobrovolným brigádám“; neděle chatě.",
+   "country": "CZ",
+   "decadeStart": 1960,
+   "bucket": "dailyLife",
+   "text": "Sobotní dopoledne patřila „dobrovolným brigádám“; neděle chatě."
+  },
+  {
+   "id": "r5",
+   "dataset": "countryDecades",
+   "key": "CZ|1960|food|Pivo bylo i nadále levnější než limonáda, i pro nezletilé.",
+   "country": "CZ",
+   "decadeStart": 1960,
+   "bucket": "food",
+   "text": "Pivo bylo i nadále levnější než limonáda, i pro nezletilé."
+  },
+  {
+   "id": "r6",
+   "dataset": "countryDecades",
+   "key": "CZ|1960|food|Bramboráky patřily mezi oblíbená jídla na chatách a chalupách.",
+   "country": "CZ",
+   "decadeStart": 1960,
+   "bucket": "food",
+   "text": "Bramboráky patřily mezi oblíbená jídla na chatách a chalupách."
+  },
+  {
+   "id": "r7",
+   "dataset": "countryDecades",
+   "key": "CZ|1960|food|Dovážené pomeranče z Kuby přišly jednou ročně, před Vánoci.",
+   "country": "CZ",
+   "decadeStart": 1960,
+   "bucket": "food",
+   "text": "Dovážené pomeranče z Kuby přišly jednou ročně, před Vánoci."
+  },
+  {
+   "id": "r8",
+   "dataset": "countryDecades",
+   "key": "CZ|1960|money|Průměrná mzda dosáhla kolem 1 500 Kčs měsíčně; Škoda 100 stála 35 000 Kčs.",
+   "country": "CZ",
+   "decadeStart": 1960,
+   "bucket": "money",
+   "text": "Průměrná mzda dosáhla kolem 1 500 Kčs měsíčně; Škoda 100 stála 35 000 Kčs."
+  },
+  {
+   "id": "r9",
+   "dataset": "countryDecades",
+   "key": "CZ|1960|money|Dolary na černém trhu se obchodovaly za 30 Kčs oproti oficiálním 14 Kčs.",
+   "country": "CZ",
+   "decadeStart": 1960,
+   "bucket": "money",
+   "text": "Dolary na černém trhu se obchodovaly za 30 Kčs oproti oficiálním 14 Kčs."
+  },
+  {
+   "id": "r10",
+   "dataset": "countryDecades",
+   "key": "CZ|1960|money|Víkend v Tatrách v odborářském hotelu stál se vším všudy 80 Kčs.",
+   "country": "CZ",
+   "decadeStart": 1960,
+   "bucket": "money",
+   "text": "Víkend v Tatrách v odborářském hotelu stál se vším všudy 80 Kčs."
+  },
+  {
+   "id": "r11",
+   "dataset": "countryDecades",
+   "key": "CZ|1960|bizarre|Měkké kontaktní čočky vynalezl v Praze v roce 1961 Otto Wichterle pomocí stavebnice Merkur.",
+   "country": "CZ",
+   "decadeStart": 1960,
+   "bucket": "bizarre",
+   "text": "Měkké kontaktní čočky vynalezl v Praze v roce 1961 Otto Wichterle pomocí stavebnice Merkur."
+  },
+  {
+   "id": "r12",
+   "dataset": "countryDecades",
+   "key": "CZ|1960|bizarre|Češi navrhli a postavili vlastní luxusní vůz Tatra 603 s motorem V8 — jen pro stranické funkcionáře.",
+   "country": "CZ",
+   "decadeStart": 1960,
+   "bucket": "bizarre",
+   "text": "Češi navrhli a postavili vlastní luxusní vůz Tatra 603 s motorem V8 — jen pro stranické funkcionáře."
+  },
+  {
+   "id": "r13",
+   "dataset": "countryDecades",
+   "key": "CZ|1960|beautiful|Československo získalo na olympiádě v Mexiku v roce 1968 stříbro ve sportovní gymnastice — Věra Čáslavská se stala národní hrdinkou.",
+   "country": "CZ",
+   "decadeStart": 1960,
+   "bucket": "beautiful",
+   "text": "Československo získalo na olympiádě v Mexiku v roce 1968 stříbro ve sportovní gymnastice — Věra Čáslavská se stala národní hrdinkou."
+  },
+  {
+   "id": "r14",
+   "dataset": "countryDecades",
+   "key": "CZ|1960|beautiful|V Praze rozvíjelo divadlo Semafor písničkový kabaret navazující na tradici Voskovce a Wericha.",
+   "country": "CZ",
+   "decadeStart": 1960,
+   "bucket": "beautiful",
+   "text": "V Praze rozvíjelo divadlo Semafor písničkový kabaret navazující na tradici Voskovce a Wericha."
+  },
+  {
+   "id": "r15",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|government|Gustáv Husák řídil „normalizaci“ a čistky postihly mnoho lidí, kteří podpořili pražské jaro.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "government",
+   "text": "Gustáv Husák řídil „normalizaci“ a čistky postihly mnoho lidí, kteří podpořili pražské jaro."
+  },
+  {
+   "id": "r16",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|government|Charta 77, kterou podepsal Václav Havel a 240 dalších, požadovala lidská práva a posílala lidi do vězení.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "government",
+   "text": "Charta 77, kterou podepsal Václav Havel a 240 dalších, požadovala lidská práva a posílala lidi do vězení."
+  },
+  {
+   "id": "r17",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|government|Na mnoha pracovištích působily organizace komunistické strany a StB využívala síť informátorů.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "government",
+   "text": "Na mnoha pracovištích působily organizace komunistické strany a StB využívala síť informátorů."
+  },
+  {
+   "id": "r18",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|clothes|Vládl polyester — nežehlivé košile, kalhoty do zvonu, všechno v hnědé a oranžové.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "clothes",
+   "text": "Vládl polyester — nežehlivé košile, kalhoty do zvonu, všechno v hnědé a oranžové."
+  },
+  {
+   "id": "r19",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|clothes|Prodejny Tuzexu prodávaly západní zboží za zvláštní měnu (bony), kterou jste si museli koupit v bance.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "clothes",
+   "text": "Prodejny Tuzexu prodávaly západní zboží za zvláštní měnu (bony), kterou jste si museli koupit v bance."
+  },
+  {
+   "id": "r20",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|clothes|Teplákové soupravy Adidas se mezi částí dospívajících staly nápadným symbolem statusu.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "clothes",
+   "text": "Teplákové soupravy Adidas se mezi částí dospívajících staly nápadným symbolem statusu."
+  },
+  {
+   "id": "r21",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|illnesses|K častým příčinám úmrtí patřily choroby srdce a rakovina plic; délka života v Československu zaostávala za západní Evropou.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "illnesses",
+   "text": "K častým příčinám úmrtí patřily choroby srdce a rakovina plic; délka života v Československu zaostávala za západní Evropou."
+  },
+  {
+   "id": "r22",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|illnesses|Znečištěné ovzduší v severních Čechách způsobovalo rozsáhlá onemocnění dýchacích cest.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "illnesses",
+   "text": "Znečištěné ovzduší v severních Čechách způsobovalo rozsáhlá onemocnění dýchacích cest."
+  },
+  {
+   "id": "r23",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|illnesses|Alkoholismus — vodka, pivo a slivovice — byl národní zdravotní krizí.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "illnesses",
+   "text": "Alkoholismus — vodka, pivo a slivovice — byl národní zdravotní krizí."
+  },
+  {
+   "id": "r24",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|dailyLife|Undergroundová kapela The Plastic People of the Universe byla v roce 1976 souzena a uvězněna.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "dailyLife",
+   "text": "Undergroundová kapela The Plastic People of the Universe byla v roce 1976 souzena a uvězněna."
+  },
+  {
+   "id": "r25",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|dailyLife|Soboty se trávily na chatě; neděle znamenaly nacpaný vlak zpátky do Prahy.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "dailyLife",
+   "text": "Soboty se trávily na chatě; neděle znamenaly nacpaný vlak zpátky do Prahy."
+  },
+  {
+   "id": "r26",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|dailyLife|Dovolené se trávily v odborářských hotelech v Bulharsku nebo NDR — a jednou za deset let možná v Jugoslávii.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "dailyLife",
+   "text": "Dovolené se trávily v odborářských hotelech v Bulharsku nebo NDR — a jednou za deset let možná v Jugoslávii."
+  },
+  {
+   "id": "r27",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|food|Tatranky a Horalky, Kofola z pípy, kelímky Pribiňáčku.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "food",
+   "text": "Tatranky a Horalky, Kofola z pípy, kelímky Pribiňáčku."
+  },
+  {
+   "id": "r28",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|food|Banány se v obchodech objevily dvakrát ročně a fronty se táhly přes několik bloků.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "food",
+   "text": "Banány se v obchodech objevily dvakrát ročně a fronty se táhly přes několik bloků."
+  },
+  {
+   "id": "r29",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|food|Svíčková s houskovými knedlíky patřila k oblíbeným slavnostnějším nedělním obědům.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "food",
+   "text": "Svíčková s houskovými knedlíky patřila k oblíbeným slavnostnějším nedělním obědům."
+  },
+  {
+   "id": "r30",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|money|Průměrná mzda byla kolem 2 400 Kčs měsíčně; Škoda 105 stála 60 000 Kčs a měla pětiletou čekací dobu.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "money",
+   "text": "Průměrná mzda byla kolem 2 400 Kčs měsíčně; Škoda 105 stála 60 000 Kčs a měla pětiletou čekací dobu."
+  },
+  {
+   "id": "r31",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|money|Nový byt (panelák) přiděloval stát — žádné kupování, žádné vybírání.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "money",
+   "text": "Nový byt (panelák) přiděloval stát — žádné kupování, žádné vybírání."
+  },
+  {
+   "id": "r32",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|money|Důchody činily 1 000–1 500 Kčs měsíčně a lidé z nich žili.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "money",
+   "text": "Důchody činily 1 000–1 500 Kčs měsíčně a lidé z nich žili."
+  },
+  {
+   "id": "r33",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|bizarre|Českoslovenští fanoušci rocku museli poslouchat západní hudbu na Rádiu Luxembourg pod dekou.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "bizarre",
+   "text": "Českoslovenští fanoušci rocku museli poslouchat západní hudbu na Rádiu Luxembourg pod dekou."
+  },
+  {
+   "id": "r34",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|bizarre|Dětský televizní pořad Večerníček začal v roce 1965 a pravidelně se vysílá dodnes.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "bizarre",
+   "text": "Dětský televizní pořad Večerníček začal v roce 1965 a pravidelně se vysílá dodnes."
+  },
+  {
+   "id": "r35",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|beautiful|Československo vyhrálo mistrovství světa v ledním hokeji v letech 1972, 1976 a 1977 — a porazilo SSSR.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "beautiful",
+   "text": "Československo vyhrálo mistrovství světa v ledním hokeji v letech 1972, 1976 a 1977 — a porazilo SSSR."
+  },
+  {
+   "id": "r36",
+   "dataset": "countryDecades",
+   "key": "CZ|1970|beautiful|Olga Havlová vedla samizdatové kruhy, které udržovaly českou literaturu naživu v ilegalitě.",
+   "country": "CZ",
+   "decadeStart": 1970,
+   "bucket": "beautiful",
+   "text": "Olga Havlová vedla samizdatové kruhy, které udržovaly českou literaturu naživu v ilegalitě."
+  },
+  {
+   "id": "r37",
+   "dataset": "countryDecades",
+   "key": "UA|1920|government|Po krvavé občanské válce byla Ukrajina v prosinci 1922 začleněna do nově vzniklého SSSR.",
+   "country": "UA",
+   "decadeStart": 1920,
+   "bucket": "government",
+   "text": "Po krvavé občanské válce byla Ukrajina v prosinci 1922 začleněna do nově vzniklého SSSR."
+  },
+  {
+   "id": "r38",
+   "dataset": "countryDecades",
+   "key": "UA|1920|government|Začátek 20. let přinesl NEP (Novou ekonomickou politiku) — krátké uvolnění trhu, sedláci si směli ponechat obilí.",
+   "country": "UA",
+   "decadeStart": 1920,
+   "bucket": "government",
+   "text": "Začátek 20. let přinesl NEP (Novou ekonomickou politiku) — krátké uvolnění trhu, sedláci si směli ponechat obilí."
+  },
+  {
+   "id": "r39",
+   "dataset": "countryDecades",
+   "key": "UA|1920|government|Politika korenizace nakrátko podporovala ukrajinský jazyk a kulturu ve školách.",
+   "country": "UA",
+   "decadeStart": 1920,
+   "bucket": "government",
+   "text": "Politika korenizace nakrátko podporovala ukrajinský jazyk a kulturu ve školách."
+  },
+  {
+   "id": "r40",
+   "dataset": "countryDecades",
+   "key": "UA|1920|clothes|Vyšívané košile (vyšyvanky) byly na vesnicích každodenním lidovým oděvem.",
+   "country": "UA",
+   "decadeStart": 1920,
+   "bucket": "clothes",
+   "text": "Vyšívané košile (vyšyvanky) byly na vesnicích každodenním lidovým oděvem."
+  },
+  {
+   "id": "r41",
+   "dataset": "countryDecades",
+   "key": "UA|1920|clothes|Dělnice ve městech nosily prosté bavlněné halenky a skládané sukně.",
+   "country": "UA",
+   "decadeStart": 1920,
+   "bucket": "clothes",
+   "text": "Dělnice ve městech nosily prosté bavlněné halenky a skládané sukně."
+  },
+  {
+   "id": "r42",
+   "dataset": "countryDecades",
+   "key": "UA|1920|clothes|Na zimu kožichy (kožuch) a plstěné boty (valenky).",
+   "country": "UA",
+   "decadeStart": 1920,
+   "bucket": "clothes",
+   "text": "Na zimu kožichy (kožuch) a plstěné boty (valenky)."
+  },
+  {
+   "id": "r43",
+   "dataset": "countryDecades",
+   "key": "UA|1920|clothes|Vdané ženy nosily všeobecně šátky.",
+   "country": "UA",
+   "decadeStart": 1920,
+   "bucket": "clothes",
+   "text": "Vdané ženy nosily všeobecně šátky."
+  },
+  {
+   "id": "r44",
+   "dataset": "countryDecades",
+   "key": "UA|1920|illnesses|Tyfus a cholera z občanské války zpustošily Kyjev a Charkov.",
+   "country": "UA",
+   "decadeStart": 1920,
+   "bucket": "illnesses",
+   "text": "Tyfus a cholera z občanské války zpustošily Kyjev a Charkov."
+  },
+  {
+   "id": "r45",
+   "dataset": "countryDecades",
+   "key": "UA|1920|illnesses|Hladomor v letech 1921–22 zabil na jihu Ukrajiny statisíce lidí.",
+   "country": "UA",
+   "decadeStart": 1920,
+   "bucket": "illnesses",
+   "text": "Hladomor v letech 1921–22 zabil na jihu Ukrajiny statisíce lidí."
+  },
+  {
+   "id": "r46",
+   "dataset": "countryDecades",
+   "key": "UA|1920|illnesses|Ve městech byla endemická tuberkulóza.",
+   "country": "UA",
+   "decadeStart": 1920,
+   "bucket": "illnesses",
+   "text": "Ve městech byla endemická tuberkulóza."
+  },
+  {
+   "id": "r47",
+   "dataset": "countryDecades",
+   "key": "UA|1920|dailyLife|V Charkově (hlavním městě do roku 1934) a v Kyjevě se otevírala divadla hrající v ukrajinštině.",
+   "country": "UA",
+   "decadeStart": 1920,
+   "bucket": "dailyLife",
+   "text": "V Charkově (hlavním městě do roku 1934) a v Kyjevě se otevírala divadla hrající v ukrajinštině."
+  },
+  {
+   "id": "r48",
+   "dataset": "countryDecades",
+   "key": "UA|1920|dailyLife|Spisovatelé jako Mykola Chvyljovyj zahájili „popravenou renesanci“ — většina z nich 30. léta nepřežila.",
+   "country": "UA",
+   "decadeStart": 1920,
+   "bucket": "dailyLife",
+   "text": "Spisovatelé jako Mykola Chvyljovyj zahájili „popravenou renesanci“ — většina z nich 30. léta nepřežila."
+  },
+  {
+   "id": "r49",
+   "dataset": "countryDecades",
+   "key": "UA|1920|dailyLife|Elektrifikace dosáhla velkých měst; vesnice stále používaly petrolejové lampy.",
+   "country": "UA",
+   "decadeStart": 1920,
+   "bucket": "dailyLife",
+   "text": "Elektrifikace dosáhla velkých měst; vesnice stále používaly petrolejové lampy."
+  }
+ ]
+}

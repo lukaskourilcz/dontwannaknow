@@ -1,0 +1,406 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "countryEvents",
+   "key": "CZ|1974|otevřený dopis Václava Havla Husákovi koloval v samizdatu",
+   "country": "CZ",
+   "year": 1974,
+   "text": "otevřený dopis Václava Havla Husákovi koloval v samizdatu"
+  },
+  {
+   "id": "r1",
+   "dataset": "countryEvents",
+   "key": "CZ|1976|členové skupiny Plastic People of the Universe byli souzeni a uvězněni za „organizované výtržnictví“",
+   "country": "CZ",
+   "year": 1976,
+   "text": "členové skupiny Plastic People of the Universe byli souzeni a uvězněni za „organizované výtržnictví“"
+  },
+  {
+   "id": "r2",
+   "dataset": "countryEvents",
+   "key": "CZ|1977|v lednu byla zveřejněna Charta 77; 242 prvních signatářů čelilo represím",
+   "country": "CZ",
+   "year": 1977,
+   "text": "v lednu byla zveřejněna Charta 77; 242 prvních signatářů čelilo represím"
+  },
+  {
+   "id": "r3",
+   "dataset": "countryEvents",
+   "key": "CZ|1978|Vladimír Remek se stal prvním Čechoslovákem ve vesmíru",
+   "country": "CZ",
+   "year": 1978,
+   "text": "Vladimír Remek se stal prvním Čechoslovákem ve vesmíru"
+  },
+  {
+   "id": "r4",
+   "dataset": "countryEvents",
+   "key": "CZ|1979|v undergroundu kolovaly eseje na památku Jana Patočky, který zemřel po policejním výslechu v roce 1977",
+   "country": "CZ",
+   "year": 1979,
+   "text": "v undergroundu kolovaly eseje na památku Jana Patočky, který zemřel po policejním výslechu v roce 1977"
+  },
+  {
+   "id": "r5",
+   "dataset": "countryEvents",
+   "key": "CZ|1980|po vypuknutí polských stávek byli disidenti z Charty 77 zatýkáni",
+   "country": "CZ",
+   "year": 1980,
+   "text": "po vypuknutí polských stávek byli disidenti z Charty 77 zatýkáni"
+  },
+  {
+   "id": "r6",
+   "dataset": "countryEvents",
+   "key": "UA|1920|polsko-sovětská válka se přehnala západní Ukrajinou; fronty se přesouvaly týden co týden",
+   "country": "UA",
+   "year": 1920,
+   "text": "polsko-sovětská válka se přehnala západní Ukrajinou; fronty se přesouvaly týden co týden"
+  },
+  {
+   "id": "r7",
+   "dataset": "countryEvents",
+   "key": "UA|1922|Ukrajinská SSR se formálně stala součástí nově vzniklého Sovětského svazu",
+   "country": "UA",
+   "year": 1922,
+   "text": "Ukrajinská SSR se formálně stala součástí nově vzniklého Sovětského svazu"
+  },
+  {
+   "id": "r8",
+   "dataset": "countryEvents",
+   "key": "UA|1923|oficiálně byla zahájena korenizace — školství a správa v ukrajinštině",
+   "country": "UA",
+   "year": 1923,
+   "text": "oficiálně byla zahájena korenizace — školství a správa v ukrajinštině"
+  },
+  {
+   "id": "r9",
+   "dataset": "countryEvents",
+   "key": "UA|1928|Oleksandr Dovženko uvedl premiéru filmu Zvenyhora — prvního ukrajinského filmového uměleckého díla",
+   "country": "UA",
+   "year": 1928,
+   "text": "Oleksandr Dovženko uvedl premiéru filmu Zvenyhora — prvního ukrajinského filmového uměleckého díla"
+  },
+  {
+   "id": "r10",
+   "dataset": "countryEvents",
+   "key": "UA|1930|premiéru měl Dovženkův film Země; později byl označen za jeden z nejlepších filmů všech dob",
+   "country": "UA",
+   "year": 1930,
+   "text": "premiéru měl Dovženkův film Země; později byl označen za jeden z nejlepších filmů všech dob"
+  },
+  {
+   "id": "r11",
+   "dataset": "countryEvents",
+   "key": "UA|1932|začaly nucené odběry obilí; vypukl hladomor zvaný holodomor",
+   "country": "UA",
+   "year": 1932,
+   "text": "začaly nucené odběry obilí; vypukl hladomor zvaný holodomor"
+  },
+  {
+   "id": "r12",
+   "dataset": "countryEvents",
+   "key": "UA|1933|hladomor vyvrcholil; odhadem 3 až 5 milionů Ukrajinců zemřelo hlady",
+   "country": "UA",
+   "year": 1933,
+   "text": "hladomor vyvrcholil; odhadem 3 až 5 milionů Ukrajinců zemřelo hlady"
+  },
+  {
+   "id": "r13",
+   "dataset": "countryEvents",
+   "key": "UA|1933|Mykola Skrypnyk, architekt ukrajinizace, spáchal v Charkově sebevraždu, když byla tato politika zvrácena",
+   "country": "UA",
+   "year": 1933,
+   "text": "Mykola Skrypnyk, architekt ukrajinizace, spáchal v Charkově sebevraždu, když byla tato politika zvrácena"
+  },
+  {
+   "id": "r14",
+   "dataset": "countryEvents",
+   "key": "UA|1937|Velký teror si vyžádal životy Lese Kurbase, Mykoly Kuliše a většiny ukrajinské intelektuální elity",
+   "country": "UA",
+   "year": 1937,
+   "text": "Velký teror si vyžádal životy Lese Kurbase, Mykoly Kuliše a většiny ukrajinské intelektuální elity"
+  },
+  {
+   "id": "r15",
+   "dataset": "countryEvents",
+   "key": "UA|1939|západní Ukrajinu — včetně Lvova — zabrala Polsku Rudá armáda",
+   "country": "UA",
+   "year": 1939,
+   "text": "západní Ukrajinu — včetně Lvova — zabrala Polsku Rudá armáda"
+  },
+  {
+   "id": "r16",
+   "dataset": "countryEvents",
+   "key": "UA|1941|v červnu zaútočilo nacistické Německo; při masakru v Babím Jaru v Kyjevě bylo v září za dva dny zabito 33 771 lidí",
+   "country": "UA",
+   "year": 1941,
+   "text": "v červnu zaútočilo nacistické Německo; při masakru v Babím Jaru v Kyjevě bylo v září za dva dny zabito 33 771 lidí"
+  },
+  {
+   "id": "r17",
+   "dataset": "countryEvents",
+   "key": "UA|1942|OUN-B založila na Volyni Ukrajinskou povstaleckou armádu (UPA) (sám Bandera byl tehdy stále v nacistické vazbě)",
+   "country": "UA",
+   "year": 1942,
+   "text": "OUN-B založila na Volyni Ukrajinskou povstaleckou armádu (UPA) (sám Bandera byl tehdy stále v nacistické vazbě)"
+  },
+  {
+   "id": "r18",
+   "dataset": "countryEvents",
+   "key": "UA|1943|Rudá armáda v listopadu po rozsáhlém přechodu Dněpru znovu dobyla Kyjev",
+   "country": "UA",
+   "year": 1943,
+   "text": "Rudá armáda v listopadu po rozsáhlém přechodu Dněpru znovu dobyla Kyjev"
+  },
+  {
+   "id": "r19",
+   "dataset": "countryEvents",
+   "key": "UA|1944|Stalin nechal hromadně deportovat krymské Tatary do Střední Asie",
+   "country": "UA",
+   "year": 1944,
+   "text": "Stalin nechal hromadně deportovat krymské Tatary do Střední Asie"
+  },
+  {
+   "id": "r20",
+   "dataset": "countryEvents",
+   "key": "UA|1946|poválečný hladomor si na jižní Ukrajině vyžádal až milion obětí",
+   "country": "UA",
+   "year": 1946,
+   "text": "poválečný hladomor si na jižní Ukrajině vyžádal až milion obětí"
+  },
+  {
+   "id": "r21",
+   "dataset": "countryEvents",
+   "key": "UA|1949|po úplné rekonstrukci byl v Kyjevě znovu otevřen bulvár Chreščatyk",
+   "country": "UA",
+   "year": 1949,
+   "text": "po úplné rekonstrukci byl v Kyjevě znovu otevřen bulvár Chreščatyk"
+  },
+  {
+   "id": "r22",
+   "dataset": "countryEvents",
+   "key": "UA|1950|velitel UPA Roman Šuchevyč byl zabit sovětskými silami",
+   "country": "UA",
+   "year": 1950,
+   "text": "velitel UPA Roman Šuchevyč byl zabit sovětskými silami"
+  },
+  {
+   "id": "r23",
+   "dataset": "countryEvents",
+   "key": "UA|1954|Krym byl převeden z Ruské SFSR pod Ukrajinskou SSR",
+   "country": "UA",
+   "year": 1954,
+   "text": "Krym byl převeden z Ruské SFSR pod Ukrajinskou SSR"
+  },
+  {
+   "id": "r24",
+   "dataset": "countryEvents",
+   "key": "UA|1956|Chruščov na XX. sjezdu strany odsoudil Stalina",
+   "country": "UA",
+   "year": 1956,
+   "text": "Chruščov na XX. sjezdu strany odsoudil Stalina"
+  },
+  {
+   "id": "r25",
+   "dataset": "countryEvents",
+   "key": "UA|1960|ve Lvově se po desetiletích konal první celoukrajinský Ševčenkův festival",
+   "country": "UA",
+   "year": 1960,
+   "text": "ve Lvově se po desetiletích konal první celoukrajinský Ševčenkův festival"
+  },
+  {
+   "id": "r26",
+   "dataset": "countryEvents",
+   "key": "UA|1961|sesuv bahna v Kurenivce si po protržení hráze vyžádal v Kyjevě stovky obětí",
+   "country": "UA",
+   "year": 1961,
+   "text": "sesuv bahna v Kurenivce si po protržení hráze vyžádal v Kyjevě stovky obětí"
+  },
+  {
+   "id": "r27",
+   "dataset": "countryEvents",
+   "key": "UA|1964|Brežněv, narozený na Ukrajině, vystřídal Chruščova",
+   "country": "UA",
+   "year": 1964,
+   "text": "Brežněv, narozený na Ukrajině, vystřídal Chruščova"
+  },
+  {
+   "id": "r28",
+   "dataset": "countryEvents",
+   "key": "UA|1965|premiéru měl film Sergeje Paradžanova Stíny zapomenutých předků",
+   "country": "UA",
+   "year": 1965,
+   "text": "premiéru měl film Sergeje Paradžanova Stíny zapomenutých předků"
+  },
+  {
+   "id": "r29",
+   "dataset": "countryEvents",
+   "key": "UA|1968|ukrajinští spisovatelé protestovali proti procesu s disidenty Ivanem Dziubou a dalšími",
+   "country": "UA",
+   "year": 1968,
+   "text": "ukrajinští spisovatelé protestovali proti procesu s disidenty Ivanem Dziubou a dalšími"
+  },
+  {
+   "id": "r30",
+   "dataset": "countryEvents",
+   "key": "UA|1972|Volodymyr Ščerbycký se stal vůdcem strany; začalo hromadné zatýkání disidentů",
+   "country": "UA",
+   "year": 1972,
+   "text": "Volodymyr Ščerbycký se stal vůdcem strany; začalo hromadné zatýkání disidentů"
+  },
+  {
+   "id": "r31",
+   "dataset": "countryEvents",
+   "key": "UA|1971|poezie Liny Kostenkové již nesměla vycházet; na dalších 16 let dostala zákaz publikování",
+   "country": "UA",
+   "year": 1971,
+   "text": "poezie Liny Kostenkové již nesměla vycházet; na dalších 16 let dostala zákaz publikování"
+  },
+  {
+   "id": "r32",
+   "dataset": "countryEvents",
+   "key": "UA|1975|Dynamo Kyjev vyhrálo Pohár vítězů pohárů — první sovětský klub, který získal evropskou trofej",
+   "country": "UA",
+   "year": 1975,
+   "text": "Dynamo Kyjev vyhrálo Pohár vítězů pohárů — první sovětský klub, který získal evropskou trofej"
+  },
+  {
+   "id": "r33",
+   "dataset": "countryEvents",
+   "key": "UA|1975|Oleg Blochin získal Zlatý míč",
+   "country": "UA",
+   "year": 1975,
+   "text": "Oleg Blochin získal Zlatý míč"
+  },
+  {
+   "id": "r34",
+   "dataset": "countryEvents",
+   "key": "UA|1976|byla založena Ukrajinská helsinská skupina; její členové během následujících let čelili věznění a vyhnanství",
+   "country": "UA",
+   "year": 1976,
+   "text": "byla založena Ukrajinská helsinská skupina; její členové během následujících let čelili věznění a vyhnanství"
+  },
+  {
+   "id": "r35",
+   "dataset": "countryEvents",
+   "key": "UA|1979|skladatel Volodymyr Ivasjuk byl nalezen oběšený v lese poblíž Lvova",
+   "country": "UA",
+   "year": 1979,
+   "text": "skladatel Volodymyr Ivasjuk byl nalezen oběšený v lese poblíž Lvova"
+  },
+  {
+   "id": "r36",
+   "dataset": "countryEvents",
+   "key": "UA|1980|kyjevský Republikový stadion hostil sedm fotbalových zápasů olympijských her Moskva 1980",
+   "country": "UA",
+   "year": 1980,
+   "text": "kyjevský Republikový stadion hostil sedm fotbalových zápasů olympijských her Moskva 1980"
+  },
+  {
+   "id": "r37",
+   "dataset": "countryEvents",
+   "key": "CZ|1922|koruna byla stabilizována po záměrné deflaci, kterou prosadil ministr financí Alois Rašín",
+   "country": "CZ",
+   "year": 1922,
+   "text": "koruna byla stabilizována po záměrné deflaci, kterou prosadil ministr financí Alois Rašín"
+  },
+  {
+   "id": "r38",
+   "dataset": "countryEvents",
+   "key": "CZ|1923|skupina Hradu kolem Masaryka zahájila pozemkovou reformu, jež přerozdělila bývalá šlechtická panství",
+   "country": "CZ",
+   "year": 1923,
+   "text": "skupina Hradu kolem Masaryka zahájila pozemkovou reformu, jež přerozdělila bývalá šlechtická panství"
+  },
+  {
+   "id": "r39",
+   "dataset": "countryEvents",
+   "key": "CZ|1926|nová československá koaliční vláda poprvé přivedla k moci německé strany",
+   "country": "CZ",
+   "year": 1926,
+   "text": "nová československá koaliční vláda poprvé přivedla k moci německé strany"
+  },
+  {
+   "id": "r40",
+   "dataset": "countryEvents",
+   "key": "CZ|1927|rozluštění chetitského klínového písma Bedřichem Hrozným zapsalo českou vědu na světovou mapu",
+   "country": "CZ",
+   "year": 1927,
+   "text": "rozluštění chetitského klínového písma Bedřichem Hrozným zapsalo českou vědu na světovou mapu"
+  },
+  {
+   "id": "r41",
+   "dataset": "countryEvents",
+   "key": "CZ|1930|Československý rozhlas zahájil pravidelné večerní vysílání z Vinohrad",
+   "country": "CZ",
+   "year": 1930,
+   "text": "Československý rozhlas zahájil pravidelné večerní vysílání z Vinohrad"
+  },
+  {
+   "id": "r42",
+   "dataset": "countryEvents",
+   "key": "CZ|1931|do výroby se dostala Tatra T57, která hromadně motorizovala střední třídu",
+   "country": "CZ",
+   "year": 1931,
+   "text": "do výroby se dostala Tatra T57, která hromadně motorizovala střední třídu"
+  },
+  {
+   "id": "r43",
+   "dataset": "countryEvents",
+   "key": "CZ|1933|Konrad Henlein založil Sudetoněmeckou stranu, budoucí nacistickou pátou kolonu",
+   "country": "CZ",
+   "year": 1933,
+   "text": "Konrad Henlein založil Sudetoněmeckou stranu, budoucí nacistickou pátou kolonu"
+  },
+  {
+   "id": "r44",
+   "dataset": "countryEvents",
+   "key": "CZ|1936|Československo podepsalo smlouvy o vzájemné obraně s Francií a SSSR",
+   "country": "CZ",
+   "year": 1936,
+   "text": "Československo podepsalo smlouvy o vzájemné obraně s Francií a SSSR"
+  },
+  {
+   "id": "r45",
+   "dataset": "countryEvents",
+   "key": "CZ|1940|v Londýně byla uznána československá exilová vláda v čele s Benešem",
+   "country": "CZ",
+   "year": 1940,
+   "text": "v Londýně byla uznána československá exilová vláda v čele s Benešem"
+  },
+  {
+   "id": "r46",
+   "dataset": "countryEvents",
+   "key": "CZ|1941|Heydrich přijel do Prahy jako zastupující říšský protektor a rozpoutal vlnu poprav",
+   "country": "CZ",
+   "year": 1941,
+   "text": "Heydrich přijel do Prahy jako zastupující říšský protektor a rozpoutal vlnu poprav"
+  },
+  {
+   "id": "r47",
+   "dataset": "countryEvents",
+   "key": "CZ|1944|v srpnu vypuklo v Banské Bystrici Slovenské národní povstání",
+   "country": "CZ",
+   "year": 1944,
+   "text": "v srpnu vypuklo v Banské Bystrici Slovenské národní povstání"
+  },
+  {
+   "id": "r48",
+   "dataset": "countryEvents",
+   "key": "CZ|1947|sucho a špatná úroda donutily Československo přijmout sovětské obilí poté, co pod sovětským nátlakem odmítlo Marshallův plán",
+   "country": "CZ",
+   "year": 1947,
+   "text": "sucho a špatná úroda donutily Československo přijmout sovětské obilí poté, co pod sovětským nátlakem odmítlo Marshallův plán"
+  },
+  {
+   "id": "r49",
+   "dataset": "countryEvents",
+   "key": "CZ|1948|červencový sokolský slet se stal největším nekomunistickým shromážděním od převratu; režim zakročil",
+   "country": "CZ",
+   "year": 1948,
+   "text": "červencový sokolský slet se stal největším nekomunistickým shromážděním od převratu; režim zakročil"
+  }
+ ]
+}

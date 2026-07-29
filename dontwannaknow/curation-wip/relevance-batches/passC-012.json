@@ -1,0 +1,906 @@
+{
+ "pass": "C",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "kherson|1944|osvobození Rudou armádou v březnu",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1944,
+   "text": "osvobození Rudou armádou v březnu"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "kherson|1944|sovětské síly osvobodily město 13. března",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1944,
+   "text": "sovětské síly osvobodily město 13. března"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "kherson|1956|Kachovská přehrada se naplnila a proměnila ekonomiku dolního Dněpru kolem Chersonu",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1956,
+   "text": "Kachovská přehrada se naplnila a proměnila ekonomiku dolního Dněpru kolem Chersonu"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "kherson|1957|Severokrymský kanál začal přivádět dněperskou vodu přes Chersonskou oblast k zavlažování Krymu",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1957,
+   "text": "Severokrymský kanál začal přivádět dněperskou vodu přes Chersonskou oblast k zavlažování Krymu"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "kherson|1965|Chersonský bavlnářský kombinát se stal jedním z největších textilních závodů v SSSR",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1965,
+   "text": "Chersonský bavlnářský kombinát se stal jedním z největších textilních závodů v SSSR"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "kherson|1972|městská loděnice spustila na vodu supertanker Krym, tehdy největší tanker postavený v SSSR",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1972,
+   "text": "městská loděnice spustila na vodu supertanker Krym, tehdy největší tanker postavený v SSSR"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "kherson|1978|Chersonský závod na obilní kombajny vyráběl ve velkém kombajn Niva",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1978,
+   "text": "Chersonský závod na obilní kombajny vyráběl ve velkém kombajn Niva"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1919|proskurovský pogrom zabil 15. února odhadem 1 500–1 700 Židů",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1919,
+   "text": "proskurovský pogrom zabil 15. února odhadem 1 500–1 700 Židů"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1923|město si po sovětském převzetí ponechalo název Proskurov",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1923,
+   "text": "město si po sovětském převzetí ponechalo název Proskurov"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1933|holodomor si vybral těžkou daň na vesnicích Proskurovské oblasti",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1933,
+   "text": "holodomor si vybral těžkou daň na vesnicích Proskurovské oblasti"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1941|wehrmacht obsadil město v červenci; židovské obyvatelstvo bylo z velké části zavražděno do roku 1943",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1941,
+   "text": "wehrmacht obsadil město v červenci; židovské obyvatelstvo bylo z velké části zavražděno do roku 1943"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1944|osvobozeno Rudou armádou v březnu",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1944,
+   "text": "osvobozeno Rudou armádou v březnu"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1944|sovětské síly osvobodily Proskurov 25. března během proskurovsko-černivecké ofenzivy",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1944,
+   "text": "sovětské síly osvobodily Proskurov 25. března během proskurovsko-černivecké ofenzivy"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1954|město bylo přejmenováno na Chmelnyckyj k 300. výročí Perejaslavské dohody",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1954,
+   "text": "město bylo přejmenováno na Chmelnyckyj k 300. výročí Perejaslavské dohody"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1969|Chmelnyckého transformátorový závod se stal průmyslovou vlajkovou lodí města",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1969,
+   "text": "Chmelnyckého transformátorový závod se stal průmyslovou vlajkovou lodí města"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1979|venkovní tržiště města v Kamenecké ulici přitahovalo zákazníky z celé Podolie",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1979,
+   "text": "venkovní tržiště města v Kamenecké ulici přitahovalo zákazníky z celé Podolie"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1929|závod na železnou rudu Kryvorižstal se stal vlajkovou lodí sovětské metalurgie",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1929,
+   "text": "závod na železnou rudu Kryvorižstal se stal vlajkovou lodí sovětské metalurgie"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1929|trust na železnou rudu Kryvbasruda sloučil doly podél řeky Saksahaň",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1929,
+   "text": "trust na železnou rudu Kryvbasruda sloučil doly podél řeky Saksahaň"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1934|byla zahájena stavba oceláren Kryvorižstal",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1934,
+   "text": "byla zahájena stavba oceláren Kryvorižstal"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1941|v srpnu obsazeno nacistickými silami",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1941,
+   "text": "v srpnu obsazeno nacistickými silami"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1941|wehrmacht obsadil město v srpnu",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1941,
+   "text": "wehrmacht obsadil město v srpnu"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1944|osvobozeno Rudou armádou v únoru",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1944,
+   "text": "osvobozeno Rudou armádou v únoru"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1944|sovětské síly osvobodily město 22. února",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1944,
+   "text": "sovětské síly osvobodily město 22. února"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1957|vysoká pec Kryvorižstal č. 1 byla přestavěna na rekordní kapacitu",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1957,
+   "text": "vysoká pec Kryvorižstal č. 1 byla přestavěna na rekordní kapacitu"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1965|Leonid Brežněv, narozený v nedalekém Kamjanském, prosazoval z politbyra těžbu železa v Kryvbasu",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1965,
+   "text": "Leonid Brežněv, narozený v nedalekém Kamjanském, prosazoval z politbyra těžbu železa v Kryvbasu"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1973|komplex Kryvorižstal vyráběl více oceli než několik celých evropských zemí",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1973,
+   "text": "komplex Kryvorižstal vyráběl více oceli než několik celých evropských zemí"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1974|tramvajová síť Kryvbasu byla rozšířena na jednu z nejdelších v Evropě, táhnoucí se podél lineárního města",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1974,
+   "text": "tramvajová síť Kryvbasu byla rozšířena na jednu z nejdelších v Evropě, táhnoucí se podél lineárního města"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1980|obří vysoká pec Kryvorižstal č. 9 byla uvedena do provozu jako tehdy největší na světě",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1980,
+   "text": "obří vysoká pec Kryvorižstal č. 9 byla uvedena do provozu jako tehdy největší na světě"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "kyiv|1920|Kyjev během občanské války opakovaně střídal majitele mezi rudými, bílými, Ukrajinci a Poláky",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1920,
+   "text": "Kyjev během občanské války opakovaně střídal majitele mezi rudými, bílými, Ukrajinci a Poláky"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "kyiv|1923|kyjevská tramvajová síť byla po škodách z občanské války obnovena a počet cestujících se zotavil",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1923,
+   "text": "kyjevská tramvajová síť byla po škodách z občanské války obnovena a počet cestujících se zotavil"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "kyiv|1924|kyjevská konzervatoř byla reorganizována pod Lysenkovým jménem",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1924,
+   "text": "kyjevská konzervatoř byla reorganizována pod Lysenkovým jménem"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "kyiv|1925|divadlo Berezil pod vedením Lese Kurbase nakrátko procházelo Kyjevem, než se usadilo v Charkově",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1925,
+   "text": "divadlo Berezil pod vedením Lese Kurbase nakrátko procházelo Kyjevem, než se usadilo v Charkově"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "kyiv|1927|na Brest-litevské třídě byly založeny Dovženkovy filmové ateliéry jako Kyjevská filmová továrna",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1927,
+   "text": "na Brest-litevské třídě byly založeny Dovženkovy filmové ateliéry jako Kyjevská filmová továrna"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "kyiv|1928|Oleksandr Dovženko natočil v kyjevském studiu film Zvenyhora",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1928,
+   "text": "Oleksandr Dovženko natočil v kyjevském studiu film Zvenyhora"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "kyiv|1929|měl premiéru Dovženkův film Arsenal, dramatizující kyjevské povstání v Arsenalu z roku 1918",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1929,
+   "text": "měl premiéru Dovženkův film Arsenal, dramatizující kyjevské povstání v Arsenalu z roku 1918"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "kyiv|1930|Michajlovský zlatohlavý klášter byl v rámci militantní ateistické kampaně určen k demolici",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1930,
+   "text": "Michajlovský zlatohlavý klášter byl v rámci militantní ateistické kampaně určen k demolici"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "kyiv|1932|rekvizice za holodomoru dosáhly vesnic Kyjevské oblasti a uprchlíci zaplavili město",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1932,
+   "text": "rekvizice za holodomoru dosáhly vesnic Kyjevské oblasti a uprchlíci zaplavili město"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "kyiv|1934|sem bylo z Charkova přesunuto hlavní město Ukrajinské SSR",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1934,
+   "text": "sem bylo z Charkova přesunuto hlavní město Ukrajinské SSR"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "kyiv|1934|Michajlovský zlatohlavý chrám z jedenáctého století byl odstřelen, aby uvolnil místo vládní čtvrti",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1934,
+   "text": "Michajlovský zlatohlavý chrám z jedenáctého století byl odstřelen, aby uvolnil místo vládní čtvrti"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "kyiv|1935|otevřela se nová budova nádraží Kyjiv-pasažyrskyj od Verbyckého",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1935,
+   "text": "otevřela se nová budova nádraží Kyjiv-pasažyrskyj od Verbyckého"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "kyiv|1936|Dynamo Kyjev hrálo v úvodní sezoně sovětské fotbalové ligy",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1936,
+   "text": "Dynamo Kyjev hrálo v úvodní sezoně sovětské fotbalové ligy"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "kyiv|1937|čistky NKVD se prohnaly vedením ukrajinské komunistické strany v Kyjevě, s masovými popravami v Bykivni",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1937,
+   "text": "čistky NKVD se prohnaly vedením ukrajinské komunistické strany v Kyjevě, s masovými popravami v Bykivni"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "kyiv|1938|přijel Nikita Chruščov jako první tajemník ukrajinské komunistické strany",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1938,
+   "text": "přijel Nikita Chruščov jako první tajemník ukrajinské komunistické strany"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "kyiv|1939|na levém břehu se otevřela Všeukrajinská zemědělská výstava, později komplex VDNCh",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1939,
+   "text": "na levém břehu se otevřela Všeukrajinská zemědělská výstava, později komplex VDNCh"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "kyiv|1941|masakr v rokli Babí Jar — 33 771 kyjevských Židů zastřeleno za 36 hodin ve dnech 29.–30. září",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1941,
+   "text": "masakr v rokli Babí Jar — 33 771 kyjevských Židů zastřeleno za 36 hodin ve dnech 29.–30. září"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "kyiv|1941|bitva o obklíčení východně od města skončila v září zajetím zhruba 600 000 sovětských vojáků",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1941,
+   "text": "bitva o obklíčení východně od města skončila v září zajetím zhruba 600 000 sovětských vojáků"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "kyiv|1941|rádiem odpalované miny nastražené NKVD zničily po vstupu Němců velkou část Chreščatyku",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1941,
+   "text": "rádiem odpalované miny nastražené NKVD zničily po vstupu Němců velkou část Chreščatyku"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "kyiv|1942|hráči Dynama a Startu se v takzvaném zápase smrti na stadionu Zenit utkali s týmy Luftwaffe",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1942,
+   "text": "hráči Dynama a Startu se v takzvaném zápase smrti na stadionu Zenit utkali s týmy Luftwaffe"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "kyiv|1943|Rudá armáda dobyla Kyjev zpět v listopadu po obrovském přechodu Dněpru",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1943,
+   "text": "Rudá armáda dobyla Kyjev zpět v listopadu po obrovském přechodu Dněpru"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "kyiv|1943|vězni z koncentračního tábora Syrec byli nuceni exhumovat a pálit těla v Babím Jaru",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1943,
+   "text": "vězni z koncentračního tábora Syrec byli nuceni exhumovat a pálit těla v Babím Jaru"
+  },
+  {
+   "id": "r50",
+   "dataset": "cityFacts",
+   "key": "kyiv|1944|Patonův institut elektrického svařování obnovil práci na automatickém svařování pod tavidlem pro výrobu T-34",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1944,
+   "text": "Patonův institut elektrického svařování obnovil práci na automatickém svařování pod tavidlem pro výrobu T-34"
+  },
+  {
+   "id": "r51",
+   "dataset": "cityFacts",
+   "key": "kyiv|1946|podél přestavěného Chreščatyku byla obnovena trolejbusová doprava",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1946,
+   "text": "podél přestavěného Chreščatyku byla obnovena trolejbusová doprava"
+  },
+  {
+   "id": "r52",
+   "dataset": "cityFacts",
+   "key": "kyiv|1947|Kyjevskou oblast znovu zasáhl hladomor, jak byly vymáhány poválečné kvóty na obilí",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1947,
+   "text": "Kyjevskou oblast znovu zasáhl hladomor, jak byly vymáhány poválečné kvóty na obilí"
+  },
+  {
+   "id": "r53",
+   "dataset": "cityFacts",
+   "key": "kyiv|1949|bulvár Chreščatyk byl po úplné rekonstrukci z trosek znovu otevřen",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1949,
+   "text": "bulvár Chreščatyk byl po úplné rekonstrukci z trosek znovu otevřen"
+  },
+  {
+   "id": "r54",
+   "dataset": "cityFacts",
+   "key": "kyiv|1951|Volodymyr Sosjura byl v Pravdě odsouzen za báseň Miluj Ukrajinu",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1951,
+   "text": "Volodymyr Sosjura byl v Pravdě odsouzen za báseň Miluj Ukrajinu"
+  },
+  {
+   "id": "r55",
+   "dataset": "cityFacts",
+   "key": "kyiv|1953|obří sesuv půdy na Kurenivce uvedla do pohybu kašovitá hmota ze skládky cihelny v Babím Jaru",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1953,
+   "text": "obří sesuv půdy na Kurenivce uvedla do pohybu kašovitá hmota ze skládky cihelny v Babím Jaru"
+  },
+  {
+   "id": "r56",
+   "dataset": "cityFacts",
+   "key": "kyiv|1956|v budově Nejvyšší rady (Verchovna rada) se konalo první zasedání poté, co začala destalinizace",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1956,
+   "text": "v budově Nejvyšší rady (Verchovna rada) se konalo první zasedání poté, co začala destalinizace"
+  },
+  {
+   "id": "r57",
+   "dataset": "cityFacts",
+   "key": "kyiv|1960|otevřelo se kyjevské metro — první systém metra na Ukrajině",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1960,
+   "text": "otevřelo se kyjevské metro — první systém metra na Ukrajině"
+  },
+  {
+   "id": "r58",
+   "dataset": "cityFacts",
+   "key": "kyiv|1961|kurenivský bahnotok 13. března zabil stovky lidí, když se protrhla hráz v Babím Jaru",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1961,
+   "text": "kurenivský bahnotok 13. března zabil stovky lidí, když se protrhla hráz v Babím Jaru"
+  },
+  {
+   "id": "r59",
+   "dataset": "cityFacts",
+   "key": "kyiv|1963|prvním tajemníkem Komunistické strany Ukrajiny se stal Petro Šelest",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1963,
+   "text": "prvním tajemníkem Komunistické strany Ukrajiny se stal Petro Šelest"
+  },
+  {
+   "id": "r60",
+   "dataset": "cityFacts",
+   "key": "kyiv|1964|požár v knihovně Akademie věd zničil rozsáhlou sbírku ukrajinik, o níž se obecně soudilo, že šlo o žhářství namířené proti ukrajinským kulturním materiálům",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1964,
+   "text": "požár v knihovně Akademie věd zničil rozsáhlou sbírku ukrajinik, o níž se obecně soudilo, že šlo o žhářství namířené proti ukrajinským kulturním materiálům"
+  },
+  {
+   "id": "r61",
+   "dataset": "cityFacts",
+   "key": "kyiv|1965|Sergej Paradžanov natočil v Dovženkových ateliérech film Stíny zapomenutých předků",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1965,
+   "text": "Sergej Paradžanov natočil v Dovženkových ateliérech film Stíny zapomenutých předků"
+  },
+  {
+   "id": "r62",
+   "dataset": "cityFacts",
+   "key": "kyiv|1965|Ivan Dzjuba protestoval proti zatýkání intelektuálů na promítání Paradžanovových Stínů zapomenutých předků v kině Ukrajina",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1965,
+   "text": "Ivan Dzjuba protestoval proti zatýkání intelektuálů na promítání Paradžanovových Stínů zapomenutých předků v kině Ukrajina"
+  },
+  {
+   "id": "r63",
+   "dataset": "cityFacts",
+   "key": "kyiv|1965|Viktor Někrasov, autor knihy Ve stalingradských zákopech, byl stálým hostem kavárny Pasáž, než později emigroval",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1965,
+   "text": "Viktor Někrasov, autor knihy Ve stalingradských zákopech, byl stálým hostem kavárny Pasáž, než později emigroval"
+  },
+  {
+   "id": "r64",
+   "dataset": "cityFacts",
+   "key": "kyiv|1967|Dynamo Kyjev znovu vyhrálo pod Viktorem Maslovem sovětskou nejvyšší ligu",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1967,
+   "text": "Dynamo Kyjev znovu vyhrálo pod Viktorem Maslovem sovětskou nejvyšší ligu"
+  },
+  {
+   "id": "r65",
+   "dataset": "cityFacts",
+   "key": "kyiv|1968|severně od města se naplnila Kyjevská vodní elektrárna a přehradní nádrž Kyjevské moře",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1968,
+   "text": "severně od města se naplnila Kyjevská vodní elektrárna a přehradní nádrž Kyjevské moře"
+  },
+  {
+   "id": "r66",
+   "dataset": "cityFacts",
+   "key": "kyiv|1970|na levém břehu se rozvinula výšková čtvrť na bulváru Družby národů",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1970,
+   "text": "na levém břehu se rozvinula výšková čtvrť na bulváru Družby národů"
+  },
+  {
+   "id": "r67",
+   "dataset": "cityFacts",
+   "key": "kyiv|1972|Šelest byl odvolán a pod Ščerbyckým následovala vlna zatýkání intelektuálů ze šedesátých let (šistdesjatnyky)",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1972,
+   "text": "Šelest byl odvolán a pod Ščerbyckým následovala vlna zatýkání intelektuálů ze šedesátých let (šistdesjatnyky)"
+  },
+  {
+   "id": "r68",
+   "dataset": "cityFacts",
+   "key": "kyiv|1973|Volodymyr Ščerbyckyj upevnil moc a zrychlila se rusifikace kyjevských škol",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1973,
+   "text": "Volodymyr Ščerbyckyj upevnil moc a zrychlila se rusifikace kyjevských škol"
+  },
+  {
+   "id": "r69",
+   "dataset": "cityFacts",
+   "key": "kyiv|1975|Dynamo Kyjev vyhrálo Pohár vítězů pohárů — první sovětský klub, který získal evropskou trofej",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1975,
+   "text": "Dynamo Kyjev vyhrálo Pohár vítězů pohárů — první sovětský klub, který získal evropskou trofej"
+  },
+  {
+   "id": "r70",
+   "dataset": "cityFacts",
+   "key": "kyiv|1976|byla dokončena rekonstrukce zvonice Kyjevskopečerské lávry",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1976,
+   "text": "byla dokončena rekonstrukce zvonice Kyjevskopečerské lávry"
+  },
+  {
+   "id": "r71",
+   "dataset": "cityFacts",
+   "key": "kyiv|1977|otevřel se nový terminál letiště Boryspil pro odbavení mezinárodního provozu",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1977,
+   "text": "otevřel se nový terminál letiště Boryspil pro odbavení mezinárodního provozu"
+  },
+  {
+   "id": "r72",
+   "dataset": "cityFacts",
+   "key": "kyiv|1978|Republikový stadion byl v souvislosti s olympijskými přípravami přestavěn na 100 000 míst a přejmenován",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1978,
+   "text": "Republikový stadion byl v souvislosti s olympijskými přípravami přestavěn na 100 000 míst a přejmenován"
+  },
+  {
+   "id": "r73",
+   "dataset": "cityFacts",
+   "key": "kyiv|1979|symfonie skladatele Boryse Ljatošynského byly oživeny v Národní filharmonii",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1979,
+   "text": "symfonie skladatele Boryse Ljatošynského byly oživeny v Národní filharmonii"
+  },
+  {
+   "id": "r74",
+   "dataset": "cityFacts",
+   "key": "kyiv|1980|Kyjev hostil na Republikovém stadionu předkolo fotbalových zápasů moskevské olympiády",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1980,
+   "text": "Kyjev hostil na Republikovém stadionu předkolo fotbalových zápasů moskevské olympiády"
+  },
+  {
+   "id": "r75",
+   "dataset": "cityFacts",
+   "key": "luhansk|1935|město bylo přejmenováno na Vorošilovgrad po maršálu Vorošilovovi",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1935,
+   "text": "město bylo přejmenováno na Vorošilovgrad po maršálu Vorošilovovi"
+  },
+  {
+   "id": "r76",
+   "dataset": "cityFacts",
+   "key": "luhansk|1937|Luhanské lokomotivní závody vyráběly ve velkém nákladní lokomotivu třídy FD",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1937,
+   "text": "Luhanské lokomotivní závody vyráběly ve velkém nákladní lokomotivu třídy FD"
+  },
+  {
+   "id": "r77",
+   "dataset": "cityFacts",
+   "key": "luhansk|1941|obsazeno wehrmachtem v červenci 1942 (a osvobozeno v únoru 1943)",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1941,
+   "text": "obsazeno wehrmachtem v červenci 1942 (a osvobozeno v únoru 1943)"
+  },
+  {
+   "id": "r78",
+   "dataset": "cityFacts",
+   "key": "luhansk|1941|Vorošilovgradská vyšší vojenská letecká škola byla evakuována na východ",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1941,
+   "text": "Vorošilovgradská vyšší vojenská letecká škola byla evakuována na východ"
+  },
+  {
+   "id": "r79",
+   "dataset": "cityFacts",
+   "key": "luhansk|1942|wehrmacht a italské síly obsadily město v červenci",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1942,
+   "text": "wehrmacht a italské síly obsadily město v červenci"
+  },
+  {
+   "id": "r80",
+   "dataset": "cityFacts",
+   "key": "luhansk|1943|sovětské síly dobyly Vorošilovgrad zpět 14. února",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1943,
+   "text": "sovětské síly dobyly Vorošilovgrad zpět 14. února"
+  },
+  {
+   "id": "r81",
+   "dataset": "cityFacts",
+   "key": "luhansk|1956|městská továrna na parní lokomotivy byla jednou z největších v SSSR",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1956,
+   "text": "městská továrna na parní lokomotivy byla jednou z největších v SSSR"
+  },
+  {
+   "id": "r82",
+   "dataset": "cityFacts",
+   "key": "luhansk|1958|během destalinizace přejmenováno zpět na Luhansk",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1958,
+   "text": "během destalinizace přejmenováno zpět na Luhansk"
+  },
+  {
+   "id": "r83",
+   "dataset": "cityFacts",
+   "key": "luhansk|1958|město se v období destalinizace nakrátko vrátilo k názvu Luhansk",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1958,
+   "text": "město se v období destalinizace nakrátko vrátilo k názvu Luhansk"
+  },
+  {
+   "id": "r84",
+   "dataset": "cityFacts",
+   "key": "luhansk|1970|za Brežněva opět přejmenováno na Vorošilovgrad",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1970,
+   "text": "za Brežněva opět přejmenováno na Vorošilovgrad"
+  },
+  {
+   "id": "r85",
+   "dataset": "cityFacts",
+   "key": "luhansk|1970|Vorošilovgrad byl jako název města obnoven Brežněvovým dekretem",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1970,
+   "text": "Vorošilovgrad byl jako název města obnoven Brežněvovým dekretem"
+  },
+  {
+   "id": "r86",
+   "dataset": "cityFacts",
+   "key": "luhansk|1972|Zorja Vorošilovgrad vyhrála fotbalový titul v sovětské nejvyšší lize",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1972,
+   "text": "Zorja Vorošilovgrad vyhrála fotbalový titul v sovětské nejvyšší lize"
+  },
+  {
+   "id": "r87",
+   "dataset": "cityFacts",
+   "key": "luhansk|1979|uhelné doly města plnily výrobní cíle i přesto, že se donbaské sloje prohlubovaly",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1979,
+   "text": "uhelné doly města plnily výrobní cíle i přesto, že se donbaské sloje prohlubovaly"
+  },
+  {
+   "id": "r88",
+   "dataset": "cityFacts",
+   "key": "lviv|1920|Lvov (Lwów) byl po polsko-ukrajinské válce pevnou součástí meziválečného Polska",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1920,
+   "text": "Lvov (Lwów) byl po polsko-ukrajinské válce pevnou součástí meziválečného Polska"
+  },
+  {
+   "id": "r89",
+   "dataset": "cityFacts",
+   "key": "lviv|1921|sovětsko-polská hranice byla stanovena v Rize, čímž Lvov pevně zůstal v meziválečném Polsku jako Lwów",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1921,
+   "text": "sovětsko-polská hranice byla stanovena v Rize, čímž Lvov pevně zůstal v meziválečném Polsku jako Lwów"
+  },
+  {
+   "id": "r90",
+   "dataset": "cityFacts",
+   "key": "lviv|1924|polský Sejm schválil zákon Lex Grabski omezující ukrajinskojazyčné vzdělávání ve východní Haliči",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1924,
+   "text": "polský Sejm schválil zákon Lex Grabski omezující ukrajinskojazyčné vzdělávání ve východní Haliči"
+  },
+  {
+   "id": "r91",
+   "dataset": "cityFacts",
+   "key": "lviv|1929|Organizace ukrajinských nacionalistů byla založena na vídeňském kongresu se silnou účastí lvovských studentů",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1929,
+   "text": "Organizace ukrajinských nacionalistů byla založena na vídeňském kongresu se silnou účastí lvovských studentů"
+  },
+  {
+   "id": "r92",
+   "dataset": "cityFacts",
+   "key": "lviv|1934|polský ministr vnitra Bronisław Pieracki byl zavražděn, což vyvolalo internaci lvovských aktivistů OUN v Bereze Kartuské",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1934,
+   "text": "polský ministr vnitra Bronisław Pieracki byl zavražděn, což vyvolalo internaci lvovských aktivistů OUN v Bereze Kartuské"
+  },
+  {
+   "id": "r93",
+   "dataset": "cityFacts",
+   "key": "lviv|1936|komunistické nepokoje po pohřbu dělníka Władysława Kozaka byly krvavě potlačeny",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1936,
+   "text": "komunistické nepokoje po pohřbu dělníka Władysława Kozaka byly krvavě potlačeny"
+  },
+  {
+   "id": "r94",
+   "dataset": "cityFacts",
+   "key": "lviv|1939|sovětská Rudá armáda obsadila město v září po paktu Molotov-Ribbentrop",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1939,
+   "text": "sovětská Rudá armáda obsadila město v září po paktu Molotov-Ribbentrop"
+  },
+  {
+   "id": "r95",
+   "dataset": "cityFacts",
+   "key": "lviv|1940|NKVD prováděla ze lvovského nádraží masové deportace polských a ukrajinských rodin do Kazachstánu a na Sibiř",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1940,
+   "text": "NKVD prováděla ze lvovského nádraží masové deportace polských a ukrajinských rodin do Kazachstánu a na Sibiř"
+  },
+  {
+   "id": "r96",
+   "dataset": "cityFacts",
+   "key": "lviv|1941|nacistické síly obsadily město; následovaly lvovské pogromy a lvovské ghetto",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1941,
+   "text": "nacistické síly obsadily město; následovaly lvovské pogromy a lvovské ghetto"
+  },
+  {
+   "id": "r97",
+   "dataset": "cityFacts",
+   "key": "lviv|1941|Jaroslav Stecko vyhlásil 30. června na Rynku č. 32 obnovení ukrajinské státnosti",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1941,
+   "text": "Jaroslav Stecko vyhlásil 30. června na Rynku č. 32 obnovení ukrajinské státnosti"
+  },
+  {
+   "id": "r98",
+   "dataset": "cityFacts",
+   "key": "lviv|1941|vězni NKVD byli před sovětským ústupem zmasakrováni v Brygidkách a dalších věznicích",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1941,
+   "text": "vězni NKVD byli před sovětským ústupem zmasakrováni v Brygidkách a dalších věznicích"
+  },
+  {
+   "id": "r99",
+   "dataset": "cityFacts",
+   "key": "lviv|1942|koncentrační tábor Janowska na okraji města se stal velkým místem vraždění",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1942,
+   "text": "koncentrační tábor Janowska na okraji města se stal velkým místem vraždění"
+  }
+ ]
+}

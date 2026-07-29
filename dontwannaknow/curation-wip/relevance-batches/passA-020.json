@@ -1,0 +1,456 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "kladno|1990|Jaromír Jágr odešel z Kladna do zámoří a stal se prvním Čechem draftovaným do NHL bez nutnosti emigrace",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1990,
+   "text": "Jaromír Jágr odešel z Kladna do zámoří a stal se prvním Čechem draftovaným do NHL bez nutnosti emigrace"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "kladno|1992|Poldi se přeměnila na akciovou společnost holdingového typu a vláda rozhodla o jejím rychlém zprivatizování",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1992,
+   "text": "Poldi se přeměnila na akciovou společnost holdingového typu a vláda rozhodla o jejím rychlém zprivatizování"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "kladno|1993|11. srpna schválila vláda privatizaci akciové společnosti Poldi; dražbu vyhrál Vladimír Stehlík s nabídkou 1,75 miliardy korun",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1993,
+   "text": "11. srpna schválila vláda privatizaci akciové společnosti Poldi; dražbu vyhrál Vladimír Stehlík s nabídkou 1,75 miliardy korun"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "kladno|1995|v červenci byla výroba v Poldi ocel zastavena údajně pro nedostatek zakázek a tisíce zaměstnanců přišly o práci",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1995,
+   "text": "v červenci byla výroba v Poldi ocel zastavena údajně pro nedostatek zakázek a tisíce zaměstnanců přišly o práci"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "kladno|1997|kladenská Poldi se zhroutila do konkurzu a symbolicky tak skončila éra města jako bašty českého ocelářství",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1997,
+   "text": "kladenská Poldi se zhroutila do konkurzu a symbolicky tak skončila éra města jako bašty českého ocelářství"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "kladno|2001|29. listopadu zahynuli při výbuchu metanu na Dole Schoeller čtyři horníci, což urychlilo rozhodnutí o konci těžby",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 2001,
+   "text": "29. listopadu zahynuli při výbuchu metanu na Dole Schoeller čtyři horníci, což urychlilo rozhodnutí o konci těžby"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "kladno|2002|29. června vyjel z Dolu Schoeller poslední vozík s uhlím a staletá historie hornictví na Kladensku definitivně skončila",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 2002,
+   "text": "29. června vyjel z Dolu Schoeller poslední vozík s uhlím a staletá historie hornictví na Kladensku definitivně skončila"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "kladno|2011|Jaromír Jágr převzal většinový podíl v rodném klubu, který byl přejmenován na Rytíře Kladno",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 2011,
+   "text": "Jaromír Jágr převzal většinový podíl v rodném klubu, který byl přejmenován na Rytíře Kladno"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "kladno|2014|z chátrajícího Poldi Kladno odešel hokej do nové haly a část areálu hutě začala sloužit drobnějším firmám",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 2014,
+   "text": "z chátrajícího Poldi Kladno odešel hokej do nové haly a část areálu hutě začala sloužit drobnějším firmám"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "kladno|2019|Rytíři Kladno se po letech v nižší soutěži vrátili do extraligy, často v sestavě s hrajícím majitelem Jaromírem Jágrem",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 2019,
+   "text": "Rytíři Kladno se po letech v nižší soutěži vrátili do extraligy, často v sestavě s hrajícím majitelem Jaromírem Jágrem"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "kladno|2025|Jaromír Jágr prodal většinový podíl v Rytířích Kladno; po více než třiceti letech tak skončila éra rodinného vlastnictví klubu",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 2025,
+   "text": "Jaromír Jágr prodal většinový podíl v Rytířích Kladno; po více než třiceti letech tak skončila éra rodinného vlastnictví klubu"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1959|z boleslavských linek sjel vůz Škoda Octavia, populární model přelomu 50. a 60. let s tradiční koncepcí motoru vpředu",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1959,
+   "text": "z boleslavských linek sjel vůz Škoda Octavia, populární model přelomu 50. a 60. let s tradiční koncepcí motoru vpředu"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1987|začala výroba Škody Favorit s motorem vpředu a pohonem předních kol — auta, které mělo Škodu připravit na západní konkurenci",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1987,
+   "text": "začala výroba Škody Favorit s motorem vpředu a pohonem předních kol — auta, které mělo Škodu připravit na západní konkurenci"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1990|9. prosince schválila Praha vstup koncernu Volkswagen do mladoboleslavské Škody a otevřela tím novou kapitolu firmy",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1990,
+   "text": "9. prosince schválila Praha vstup koncernu Volkswagen do mladoboleslavské Škody a otevřela tím novou kapitolu firmy"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1991|28. března byla podepsána smlouva o společném podniku s Volkswagenem; 16. dubna získal koncern první 31% podíl ve Škodě",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1991,
+   "text": "28. března byla podepsána smlouva o společném podniku s Volkswagenem; 16. dubna získal koncern první 31% podíl ve Škodě"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1994|ve městě sjel z linky první vůz Škoda Felicia, modernizace Favoritu vyvinutá už pod křídly Volkswagenu",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1994,
+   "text": "ve městě sjel z linky první vůz Škoda Felicia, modernizace Favoritu vyvinutá už pod křídly Volkswagenu"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1996|Mladá Boleslav patřila díky Škodě dlouhodobě k okresům s nejvyššími mzdami a nejnižší nezaměstnaností v zemi",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1996,
+   "text": "Mladá Boleslav patřila díky Škodě dlouhodobě k okresům s nejvyššími mzdami a nejnižší nezaměstnaností v zemi"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|2000|30. května získal Volkswagen ve Škodě Auto stoprocentní podíl a firma se stala plnohodnotnou součástí koncernu",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 2000,
+   "text": "30. května získal Volkswagen ve Škodě Auto stoprocentní podíl a firma se stala plnohodnotnou součástí koncernu"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|2001|ve městě byla zahájena výroba modelu Škoda Fabia, jednoho z pilířů úspěchu značky v zahraničí",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 2001,
+   "text": "ve městě byla zahájena výroba modelu Škoda Fabia, jednoho z pilířů úspěchu značky v zahraničí"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|2011|25. května získal FK Mladá Boleslav český fotbalový pohár, když ve finále porazil Sigmu Olomouc po penaltovém rozstřelu 4:3",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 2011,
+   "text": "25. května získal FK Mladá Boleslav český fotbalový pohár, když ve finále porazil Sigmu Olomouc po penaltovém rozstřelu 4:3"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|2021|5. března sjel z mladoboleslavského závodu patnáctimiliontý vůz vyrobený ve městě od roku 1905",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 2021,
+   "text": "5. března sjel z mladoboleslavského závodu patnáctimiliontý vůz vyrobený ve městě od roku 1905"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "opava|1945|Rudá armáda osvobodila Opavu 22. dubna po několikadenních bojích, při nichž bylo zničeno přes polovinu budov ve městě",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1945,
+   "text": "Rudá armáda osvobodila Opavu 22. dubna po několikadenních bojích, při nichž bylo zničeno přes polovinu budov ve městě"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "opava|1947|po vysídlení Němců se z dvojjazyčného slezského města stalo město převážně české, doplněné osídlenci z vnitrozemí",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1947,
+   "text": "po vysídlení Němců se z dvojjazyčného slezského města stalo město převážně české, doplněné osídlenci z vnitrozemí"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "opava|1955|Slezské zemské muzeum sídlilo v opravené reprezentativní budově z 90. let 19. století a budovalo jednu z největších sbírek v zemi",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1955,
+   "text": "Slezské zemské muzeum sídlilo v opravené reprezentativní budově z 90. let 19. století a budovalo jednu z největších sbírek v zemi"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "opava|1960|strojírna Ostroj dodávala důlní stroje a zařízení pro ostravsko-karvinský revír a patřila k pilířům opavského průmyslu",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1960,
+   "text": "strojírna Ostroj dodávala důlní stroje a zařízení pro ostravsko-karvinský revír a patřila k pilířům opavského průmyslu"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "opava|1965|sušenkárna v Opavě, pozdější Opavia, byla po celé zemi známá výrobou oplatek a sušenek",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1965,
+   "text": "sušenkárna v Opavě, pozdější Opavia, byla po celé zemi známá výrobou oplatek a sušenek"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "opava|1970|Opava si i v období normalizace držela pověst kulturního centra českého Slezska se Slezským divadlem a muzeem",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1970,
+   "text": "Opava si i v období normalizace držela pověst kulturního centra českého Slezska se Slezským divadlem a muzeem"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "opava|1991|9. července vznikla zákonem Slezská univerzita se sídlem v Opavě; jako jediná z nových porevolučních univerzit vyrostla na zelené louce",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1991,
+   "text": "9. července vznikla zákonem Slezská univerzita se sídlem v Opavě; jako jediná z nových porevolučních univerzit vyrostla na zelené louce"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "opava|1997|při červencových povodních zaplavila řeka Opava část města a zasáhla i opavské průmyslové podniky",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1997,
+   "text": "při červencových povodních zaplavila řeka Opava část města a zasáhla i opavské průmyslové podniky"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "opava|2000|Slezské zemské muzeum se stalo třetím největším muzeem v zemi s několika miliony sbírkových předmětů",
+   "country": "CZ",
+   "city": "opava",
+   "year": 2000,
+   "text": "Slezské zemské muzeum se stalo třetím největším muzeem v zemi s několika miliony sbírkových předmětů"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "opava|2009|Ostroj prošel po sérii vlastnických změn restrukturalizací a z někdejšího kolosu se stala štíhlejší strojírenská firma",
+   "country": "CZ",
+   "city": "opava",
+   "year": 2009,
+   "text": "Ostroj prošel po sérii vlastnických změn restrukturalizací a z někdejšího kolosu se stala štíhlejší strojírenská firma"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "opava|2024|v září zasáhla Opavu povodeň na řece Opavě, která místy připomněla katastrofu roku 1997",
+   "country": "CZ",
+   "city": "opava",
+   "year": 2024,
+   "text": "v září zasáhla Opavu povodeň na řece Opavě, která místy připomněla katastrofu roku 1997"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "krnov|1946|po vysídlení německého obyvatelstva ztratil Krnov většinu předválečných obyvatel a byl dosídlen Čechy z vnitrozemí",
+   "country": "CZ",
+   "city": "krnov",
+   "year": 1946,
+   "text": "po vysídlení německého obyvatelstva ztratil Krnov většinu předválečných obyvatel a byl dosídlen Čechy z vnitrozemí"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "krnov|1960|varhanářská firma v Krnově patřila pod značkou Rieger-Kloss k předním světovým výrobcům a vývozcům píšťalových varhan",
+   "country": "CZ",
+   "city": "krnov",
+   "year": 1960,
+   "text": "varhanářská firma v Krnově patřila pod značkou Rieger-Kloss k předním světovým výrobcům a vývozcům píšťalových varhan"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "krnov|1970|krnovské varhany mířily do koncertních síní a kostelů po celém světě, mimo jiné do USA, Číny a Koreje",
+   "country": "CZ",
+   "city": "krnov",
+   "year": 1970,
+   "text": "krnovské varhany mířily do koncertních síní a kostelů po celém světě, mimo jiné do USA, Číny a Koreje"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "krnov|1985|textilka Karnola zaměstnávala tisíce lidí a spolu s varhanářstvím tvořila páteř krnovského průmyslu",
+   "country": "CZ",
+   "city": "krnov",
+   "year": 1985,
+   "text": "textilka Karnola zaměstnávala tisíce lidí a spolu s varhanářstvím tvořila páteř krnovského průmyslu"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "krnov|1997|v červenci zaplavila řeka Opava téměř celé město; povodeň na čtyři týdny zastavila i výrobu varhan a způsobila obrovské škody",
+   "country": "CZ",
+   "city": "krnov",
+   "year": 1997,
+   "text": "v červenci zaplavila řeka Opava téměř celé město; povodeň na čtyři týdny zastavila i výrobu varhan a způsobila obrovské škody"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "krnov|2015|po více než století skončila v Krnově sériová výroba varhan značky Rieger-Kloss",
+   "country": "CZ",
+   "city": "krnov",
+   "year": 2015,
+   "text": "po více než století skončila v Krnově sériová výroba varhan značky Rieger-Kloss"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "krnov|2024|14. a 15. září zaplavila řeka Opava zhruba 80 procent Krnova; hladina překonala katastrofu roku 1997 zhruba o půldruhého metru",
+   "country": "CZ",
+   "city": "krnov",
+   "year": 2024,
+   "text": "14. a 15. září zaplavila řeka Opava zhruba 80 procent Krnova; hladina překonala katastrofu roku 1997 zhruba o půldruhého metru"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "krnov|2025|předběžné škody jen na majetku města po povodni přesáhly miliardu korun a obnova Krnova se protáhla na roky",
+   "country": "CZ",
+   "city": "krnov",
+   "year": 2025,
+   "text": "předběžné škody jen na majetku města po povodni přesáhly miliardu korun a obnova Krnova se protáhla na roky"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "novy-jicin|1946|po vysídlení Němců přišel Nový Jičín o velkou část obyvatel a do měšťanských domů na náměstí se nastěhovali čeští osídlenci",
+   "country": "CZ",
+   "city": "novy-jicin",
+   "year": 1946,
+   "text": "po vysídlení Němců přišel Nový Jičín o velkou část obyvatel a do měšťanských domů na náměstí se nastěhovali čeští osídlenci"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "novy-jicin|1949|znárodněná kloboučnická výroba byla soustředěna do národního podniku Tonak, navazujícího na slavnou tradici firmy Hückel",
+   "country": "CZ",
+   "city": "novy-jicin",
+   "year": 1949,
+   "text": "znárodněná kloboučnická výroba byla soustředěna do národního podniku Tonak, navazujícího na slavnou tradici firmy Hückel"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "novy-jicin|1970|Tonak patřil mezi největší světové výrobce plstěných klobouků a Nový Jičín si vysloužil přezdívku město klobouků",
+   "country": "CZ",
+   "city": "novy-jicin",
+   "year": 1970,
+   "text": "Tonak patřil mezi největší světové výrobce plstěných klobouků a Nový Jičín si vysloužil přezdívku město klobouků"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "novy-jicin|1980|renesanční Masarykovo náměstí s podloubím zůstalo i v období normalizace dochovaným historickým jádrem města",
+   "country": "CZ",
+   "city": "novy-jicin",
+   "year": 1980,
+   "text": "renesanční Masarykovo náměstí s podloubím zůstalo i v období normalizace dochovaným historickým jádrem města"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "novy-jicin|1993|strojírenský závod Autopal se po privatizaci stal součástí nadnárodní automobilové výroby v Novém Jičíně",
+   "country": "CZ",
+   "city": "novy-jicin",
+   "year": 1993,
+   "text": "strojírenský závod Autopal se po privatizaci stal součástí nadnárodní automobilové výroby v Novém Jičíně"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "novy-jicin|2000|automobilový dodavatel klimatizační a chladicí techniky v Novém Jičíně přešel pod americký koncern Visteon",
+   "country": "CZ",
+   "city": "novy-jicin",
+   "year": 2000,
+   "text": "automobilový dodavatel klimatizační a chladicí techniky v Novém Jičíně přešel pod americký koncern Visteon"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "novy-jicin|2015|tradiční Tonak slavil přes dvě století existence a zůstal posledním velkým výrobcem plstěných klobouků v zemi",
+   "country": "CZ",
+   "city": "novy-jicin",
+   "year": 2015,
+   "text": "tradiční Tonak slavil přes dvě století existence a zůstal posledním velkým výrobcem plstěných klobouků v zemi"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "frydek-mistek|1946|znárodněním čtyř velkých textilek vznikly Slezské bavlnářské závody, předchůdce pozdějšího Slezanu",
+   "country": "CZ",
+   "city": "frydek-mistek",
+   "year": 1946,
+   "text": "znárodněním čtyř velkých textilek vznikly Slezské bavlnářské závody, předchůdce pozdějšího Slezanu"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "frydek-mistek|1964|27. června byla na jihozápadním okraji města otevřena přehrada Olešná, zásobárna vody pro průmysl",
+   "country": "CZ",
+   "city": "frydek-mistek",
+   "year": 1964,
+   "text": "27. června byla na jihozápadním okraji města otevřena přehrada Olešná, zásobárna vody pro průmysl"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "frydek-mistek|1969|1. ledna začala na hřebeni Lysé hory, nejvyšší hory Beskyd, celoroční meteorologická služba",
+   "country": "CZ",
+   "city": "frydek-mistek",
+   "year": 1969,
+   "text": "1. ledna začala na hřebeni Lysé hory, nejvyšší hory Beskyd, celoroční meteorologická služba"
+  }
+ ]
+}

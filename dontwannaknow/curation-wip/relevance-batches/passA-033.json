@@ -1,0 +1,456 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1943|od 15. do 18. prosince proběhl charkovský proces — vůbec první soud spojeneckých mocností s nacistickými válečnými zločinci",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1943,
+   "text": "od 15. do 18. prosince proběhl charkovský proces — vůbec první soud spojeneckých mocností s nacistickými válečnými zločinci"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1949|Charkovský traktorový závod zahájil výrobu pásového traktoru DT-54, vyráběného až do počátku 60. let",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1949,
+   "text": "Charkovský traktorový závod zahájil výrobu pásového traktoru DT-54, vyráběného až do počátku 60. let"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1952|2. listopadu se otevřela nová budova nádraží Pivdennyj vokzal ve stylu stalinského empíru namísto té zničené za války",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1952,
+   "text": "2. listopadu se otevřela nová budova nádraží Pivdennyj vokzal ve stylu stalinského empíru namísto té zničené za války"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1955|závod FED zahájil výrobu dálkoměrného fotoaparátu FED 2, jehož se do roku 1970 vyrobilo přes 1,6 milionu kusů",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1955,
+   "text": "závod FED zahájil výrobu dálkoměrného fotoaparátu FED 2, jehož se do roku 1970 vyrobilo přes 1,6 milionu kusů"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1956|ze Šebelynského ložiska, jež rozvíjeli charkovští inženýři, začala těžba zemního plynu — jednoho z největších v SSSR",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1956,
+   "text": "ze Šebelynského ložiska, jež rozvíjeli charkovští inženýři, začala těžba zemního plynu — jednoho z největších v SSSR"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1970|Charkovský turbínový závod Turboatom vyvinul výkonnou parní turbínu pro jaderné elektrárny s reaktory RBMK",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1970,
+   "text": "Charkovský turbínový závod Turboatom vyvinul výkonnou parní turbínu pro jaderné elektrárny s reaktory RBMK"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1971|ekonom Simon Kuznets, rodák z Charkova, získal Nobelovu cenu za ekonomii za výzkum hospodářského růstu",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1971,
+   "text": "ekonom Simon Kuznets, rodák z Charkova, získal Nobelovu cenu za ekonomii za výzkum hospodářského růstu"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1975|23. srpna se otevřelo charkovské metro, šesté v SSSR, právě na výročí osvobození města",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1975,
+   "text": "23. srpna se otevřelo charkovské metro, šesté v SSSR, právě na výročí osvobození města"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1984|10. srpna byla otevřena druhá, Saltivská linka metra obsluhující obří sídliště na severovýchodě města",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1984,
+   "text": "10. srpna byla otevřena druhá, Saltivská linka metra obsluhující obří sídliště na severovýchodě města"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1986|24. října prodloužila Saltivská linka metra ke stanici Heroiv Praci na okraji největšího sídliště",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1986,
+   "text": "24. října prodloužila Saltivská linka metra ke stanici Heroiv Praci na okraji největšího sídliště"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1988|Metalist Charkov získal sovětský pohár, když ve finále porazil Dynamo Moskva 2:0 — největší klubový úspěch sovětské éry",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1988,
+   "text": "Metalist Charkov získal sovětský pohár, když ve finále porazil Dynamo Moskva 2:0 — největší klubový úspěch sovětské éry"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1989|Saltivka platila za největší panelové sídliště Ukrajiny i bývalého SSSR s více než 400 tisíci obyvateli",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1989,
+   "text": "Saltivka platila za největší panelové sídliště Ukrajiny i bývalého SSSR s více než 400 tisíci obyvateli"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1991|stanice metra Dzeržynska byla 27. srpna přejmenována na Universytet poté, co náměstí Dzeržinského dostalo jméno náměstí Svobody",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1991,
+   "text": "stanice metra Dzeržynska byla 27. srpna přejmenována na Universytet poté, co náměstí Dzeržinského dostalo jméno náměstí Svobody"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1995|6. května se otevřela stanice metra Děržprom na nové Oleksijivské lince — třetí v charkovském systému",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1995,
+   "text": "6. května se otevřela stanice metra Děržprom na nové Oleksijivské lince — třetí v charkovském systému"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2009|stadion Metalist prošel rekonstrukcí s charakteristickou střechou na „pavoučích nohách“ před fotbalovým EURO 2012",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2009,
+   "text": "stadion Metalist prošel rekonstrukcí s charakteristickou střechou na „pavoučích nohách“ před fotbalovým EURO 2012"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2012|Charkov hostil tři zápasy skupiny B na EURO 2012; všechny tři tu odehrálo Nizozemsko na stadionu Metalist",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2012,
+   "text": "Charkov hostil tři zápasy skupiny B na EURO 2012; všechny tři tu odehrálo Nizozemsko na stadionu Metalist"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2014|6. dubna obsadili proruští demonstranti budovu oblastní správy a vyhlásili tzv. Charkovskou lidovou republiku",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2014,
+   "text": "6. dubna obsadili proruští demonstranti budovu oblastní správy a vyhlásili tzv. Charkovskou lidovou republiku"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2014|obsazenou oblastní správu vyklidila jednotka speciálních sil za patnáct minut bez jediného výstřelu a zatkla 65 osob",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2014,
+   "text": "obsazenou oblastní správu vyklidila jednotka speciálních sil za patnáct minut bez jediného výstřelu a zatkla 65 osob"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2014|28. září strhli aktivisté na náměstí Svobody největší Leninovu sochu v zemi, vysokou 8,5 metru",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2014,
+   "text": "28. září strhli aktivisté na náměstí Svobody největší Leninovu sochu v zemi, vysokou 8,5 metru"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2016|v rámci dekomunizace bylo 17. května přejmenováno několik stanic metra včetně Radjanské armiji na Armijska",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2016,
+   "text": "v rámci dekomunizace bylo 17. května přejmenováno několik stanic metra včetně Radjanské armiji na Armijska"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2022|24. února zahájilo Rusko bitvu o Charkov; město leží jen 30 km od ruských hranic",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2022,
+   "text": "24. února zahájilo Rusko bitvu o Charkov; město leží jen 30 km od ruských hranic"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2022|1. března zasáhla raketa budovu oblastní správy na náměstí Svobody a zničila i slovinský konzulát",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2022,
+   "text": "1. března zasáhla raketa budovu oblastní správy na náměstí Svobody a zničila i slovinský konzulát"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2022|17. března zapálilo ruské ostřelování raketomety Grad tržnici Barabaševo, jednu z největších ve východní Evropě",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2022,
+   "text": "17. března zapálilo ruské ostřelování raketomety Grad tržnici Barabaševo, jednu z největších ve východní Evropě"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2022|v Saltivce zahynul při ostřelování Borys Romančenko, jenž přežil čtyři nacistické koncentrační tábory",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2022,
+   "text": "v Saltivce zahynul při ostřelování Borys Romančenko, jenž přežil čtyři nacistické koncentrační tábory"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2022|6. září zahájila ukrajinská armáda protiofenzívu, jež během dní osvobodila Izjum, Kupjansk a tisíce kilometrů čtverečních oblasti",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2022,
+   "text": "6. září zahájila ukrajinská armáda protiofenzívu, jež během dní osvobodila Izjum, Kupjansk a tisíce kilometrů čtverečních oblasti"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2023|od 1. září se kvůli ostřelování učily tisíce žáků v desítkách improvizovaných tříd ve stanicích charkovského metra",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2023,
+   "text": "od 1. září se kvůli ostřelování učily tisíce žáků v desítkách improvizovaných tříd ve stanicích charkovského metra"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2024|23. května zničila ruská raketa tiskárnu Faktor-Druk; zahynulo sedm lidí a shořelo přes 50 000 knih",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2024,
+   "text": "23. května zničila ruská raketa tiskárnu Faktor-Druk; zahynulo sedm lidí a shořelo přes 50 000 knih"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2024|25. května zabil ruský letecký úder na hypermarket Epicentr 19 lidí a desítky zranil",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2024,
+   "text": "25. května zabil ruský letecký úder na hypermarket Epicentr 19 lidí a desítky zranil"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2024|26. července byly v rámci derusifikace přejmenovány stanice metra i ulice — stanice Heroiv Praci se stala Saltivskou",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2024,
+   "text": "26. července byly v rámci derusifikace přejmenovány stanice metra i ulice — stanice Heroiv Praci se stala Saltivskou"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2025|tržnice Barabaševo znovu vzplála po ruském úderu klouzavými bombami a raketami",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2025,
+   "text": "tržnice Barabaševo znovu vzplála po ruském úderu klouzavými bombami a raketami"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "poltava|1943|při urputných bojích o opevněnou Poltavu se maršál Koněv rozhodl město obejít a hnát se k Dněpru",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1943,
+   "text": "při urputných bojích o opevněnou Poltavu se maršál Koněv rozhodl město obejít a hnát se k Dněpru"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "poltava|1943|ustupující wehrmacht srovnal se zemí téměř všechny budovy kromě soukromých domů; moderní Poltava je proto z velké části nová",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1943,
+   "text": "ustupující wehrmacht srovnal se zemí téměř všechny budovy kromě soukromých domů; moderní Poltava je proto z velké části nová"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "poltava|1945|na obnově válkou zničené Poltavy se podíleli němečtí váleční zajatci",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1945,
+   "text": "na obnově válkou zničené Poltavy se podíleli němečtí váleční zajatci"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "poltava|1959|Sovětský svaz si ražbou pamětní medaile připomněl 250. výročí bitvy u Poltavy z roku 1709",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1959,
+   "text": "Sovětský svaz si ražbou pamětní medaile připomněl 250. výročí bitvy u Poltavy z roku 1709"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "poltava|1959|na ložisku Hlynsko-Rozbyšivske v Poltavské oblasti se začala těžit ropa",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1959,
+   "text": "na ložisku Hlynsko-Rozbyšivske v Poltavské oblasti se začala těžit ropa"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "poltava|1966|v Poltavě byl založen závod na syntetické diamanty a diamantové kotouče — největší výrobce svého druhu v SSSR",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1966,
+   "text": "v Poltavě byl založen závod na syntetické diamanty a diamantové kotouče — největší výrobce svého druhu v SSSR"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "poltava|1969|9. května, na Den vítězství, byl odhalen památník Vojácké slávy",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1969,
+   "text": "9. května, na Den vítězství, byl odhalen památník Vojácké slávy"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "poltava|1969|Apollo 11 doletělo k Měsíci po dráze, již teoreticky vypočítal poltavský rodák Jurij Kondratjuk",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1969,
+   "text": "Apollo 11 doletělo k Měsíci po dráze, již teoreticky vypočítal poltavský rodák Jurij Kondratjuk"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "poltava|1989|počet obyvatel Poltavy vyvrcholil na zhruba 289 tisících, hnaný stěhováním z venkova a lehkým průmyslem",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1989,
+   "text": "počet obyvatel Poltavy vyvrcholil na zhruba 289 tisících, hnaný stěhováním z venkova a lehkým průmyslem"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "poltava|2009|27. června byl k 300. výročí bitvy u Poltavy odhalen nový památník za účasti ukrajinské i švédské delegace",
+   "country": "UA",
+   "city": "poltava",
+   "year": 2009,
+   "text": "27. června byl k 300. výročí bitvy u Poltavy odhalen nový památník za účasti ukrajinské i švédské delegace"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "poltava|2016|nedaleký Komsomolsk byl v rámci dekomunizace přejmenován na Horišni Plavni",
+   "country": "UA",
+   "city": "poltava",
+   "year": 2016,
+   "text": "nedaleký Komsomolsk byl v rámci dekomunizace přejmenován na Horišni Plavni"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "poltava|2022|po 24. únoru se Poltava, ležící ve středu země, stala zázemím i cílem ruských raketových úderů",
+   "country": "UA",
+   "city": "poltava",
+   "year": 2022,
+   "text": "po 24. únoru se Poltava, ležící ve středu země, stala zázemím i cílem ruských raketových úderů"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "poltava|2024|3. září zasáhly dvě ruské rakety vojenský institut spojů a nedalekou nemocnici; zahynulo na 59 lidí a stovky byly zraněny",
+   "country": "UA",
+   "city": "poltava",
+   "year": 2024,
+   "text": "3. září zasáhly dvě ruské rakety vojenský institut spojů a nedalekou nemocnici; zahynulo na 59 lidí a stovky byly zraněny"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "poltava|2025|1. února zabila ruská střela Ch-22 při zásahu obytného domu patnáct lidí",
+   "country": "UA",
+   "city": "poltava",
+   "year": 2025,
+   "text": "1. února zabila ruská střela Ch-22 při zásahu obytného domu patnáct lidí"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "odesa|1941|8. srpna začalo 73denní obléhání; rumunská armáda u města utrpěla na 93 000 ztrát",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1941,
+   "text": "8. srpna začalo 73denní obléhání; rumunská armáda u města utrpěla na 93 000 ztrát"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "odesa|1941|22. října vybuchla v rumunském velitelství nálož nastražená Sověty a zabila velitele generála Glogojeana s desítkami důstojníků",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1941,
+   "text": "22. října vybuchla v rumunském velitelství nálož nastražená Sověty a zabila velitele generála Glogojeana s desítkami důstojníků"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "odesa|1941|16. října vstoupila rumunská vojska do města a učinila z něj správní centrum okupovaného Podněstří",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1941,
+   "text": "16. října vstoupila rumunská vojska do města a učinila z něj správní centrum okupovaného Podněstří"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "odesa|1942|do poloviny března zavraždila rumunská správa s pomocí einsatzgruppen ve městě až 25 000 Židů a přes 35 000 jich deportovala",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1942,
+   "text": "do poloviny března zavraždila rumunská správa s pomocí einsatzgruppen ve městě až 25 000 Židů a přes 35 000 jich deportovala"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "odesa|1942|12. července popravili Rumuni zajatého velitele katakombových partyzánů Vladimira Molodcova, jenž odmítl prosit o milost",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1942,
+   "text": "12. července popravili Rumuni zajatého velitele katakombových partyzánů Vladimira Molodcova, jenž odmítl prosit o milost"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "odesa|1944|10. dubna osvobodily město jednotky 3. ukrajinského frontu a nad budovou opery vyvěsily rudý prapor",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1944,
+   "text": "10. dubna osvobodily město jednotky 3. ukrajinského frontu a nad budovou opery vyvěsily rudý prapor"
+  }
+ ]
+}

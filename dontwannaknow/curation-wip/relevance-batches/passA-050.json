@@ -1,0 +1,406 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "countryEvents",
+   "key": "CZ|2023|28. ledna byl prezidentem zvolen generál Petr Pavel a porazil Andreje Babiše",
+   "country": "CZ",
+   "year": 2023,
+   "text": "28. ledna byl prezidentem zvolen generál Petr Pavel a porazil Andreje Babiše"
+  },
+  {
+   "id": "r1",
+   "dataset": "countryEvents",
+   "key": "CZ|2023|21. prosince zastřelil student na Filozofické fakultě v Praze čtrnáct lidí při nejhorší střelbě v dějinách země",
+   "country": "CZ",
+   "year": 2023,
+   "text": "21. prosince zastřelil student na Filozofické fakultě v Praze čtrnáct lidí při nejhorší střelbě v dějinách země"
+  },
+  {
+   "id": "r2",
+   "dataset": "countryEvents",
+   "key": "CZ|2024|Praha si připomněla padesát let provozu metra",
+   "country": "CZ",
+   "year": 2024,
+   "text": "Praha si připomněla padesát let provozu metra"
+  },
+  {
+   "id": "r3",
+   "dataset": "countryEvents",
+   "key": "CZ|1927|Josef Skupa rozjel v Plzni divadlo s loutkami Spejbla a Hurvínka",
+   "country": "CZ",
+   "year": 1927,
+   "text": "Josef Skupa rozjel v Plzni divadlo s loutkami Spejbla a Hurvínka"
+  },
+  {
+   "id": "r4",
+   "dataset": "countryEvents",
+   "key": "CZ|1962|chemik Antonín Holý zahájil výzkum nukleotidů, z nějž později vzešly léky proti HIV",
+   "country": "CZ",
+   "year": 1962,
+   "text": "chemik Antonín Holý zahájil výzkum nukleotidů, z nějž později vzešly léky proti HIV"
+  },
+  {
+   "id": "r5",
+   "dataset": "countryEvents",
+   "key": "CZ|2001|Holého látka tenofovir byla v USA schválena jako lék proti viru HIV",
+   "country": "CZ",
+   "year": 2001,
+   "text": "Holého látka tenofovir byla v USA schválena jako lék proti viru HIV"
+  },
+  {
+   "id": "r6",
+   "dataset": "countryEvents",
+   "key": "CZ|1997|rodačka z Prahy Madeleine Albrightová se stala první ženou v čele americké diplomacie",
+   "country": "CZ",
+   "year": 1997,
+   "text": "rodačka z Prahy Madeleine Albrightová se stala první ženou v čele americké diplomacie"
+  },
+  {
+   "id": "r7",
+   "dataset": "countryEvents",
+   "key": "CZ|1991|Jaromír Jágr získal s Pittsburghem první z dvojice Stanleyových pohárů",
+   "country": "CZ",
+   "year": 1991,
+   "text": "Jaromír Jágr získal s Pittsburghem první z dvojice Stanleyových pohárů"
+  },
+  {
+   "id": "r8",
+   "dataset": "countryEvents",
+   "key": "CZ|1985|Ivan Lendl ovládl French Open a získal první ze svých grandslamových titulů",
+   "country": "CZ",
+   "year": 1985,
+   "text": "Ivan Lendl ovládl French Open a získal první ze svých grandslamových titulů"
+  },
+  {
+   "id": "r9",
+   "dataset": "countryEvents",
+   "key": "CZ|1990|Václav Havel pronesl v americkém Kongresu vysoce ceněný projev o svobodě",
+   "country": "CZ",
+   "year": 1990,
+   "text": "Václav Havel pronesl v americkém Kongresu vysoce ceněný projev o svobodě"
+  },
+  {
+   "id": "r10",
+   "dataset": "countryEvents",
+   "key": "CZ|1996|zemřela Olga Havlová, první dáma a zakladatelka nadace pro nemocné a postižené",
+   "country": "CZ",
+   "year": 1996,
+   "text": "zemřela Olga Havlová, první dáma a zakladatelka nadace pro nemocné a postižené"
+  },
+  {
+   "id": "r11",
+   "dataset": "countryEvents",
+   "key": "CZ|2006|Pražský hrad a Karlův most patřily mezi nejnavštěvovanější památky střední Evropy",
+   "country": "CZ",
+   "year": 2006,
+   "text": "Pražský hrad a Karlův most patřily mezi nejnavštěvovanější památky střední Evropy"
+  },
+  {
+   "id": "r12",
+   "dataset": "countryEvents",
+   "key": "CZ|1956|studentský majáles v Praze se proměnil v ojedinělý projev nespokojenosti s režimem",
+   "country": "CZ",
+   "year": 1956,
+   "text": "studentský majáles v Praze se proměnil v ojedinělý projev nespokojenosti s režimem"
+  },
+  {
+   "id": "r13",
+   "dataset": "countryEvents",
+   "key": "CZ|1969|Federální shromáždění schválilo zákon o československé federaci dvou národů",
+   "country": "CZ",
+   "year": 1969,
+   "text": "Federální shromáždění schválilo zákon o československé federaci dvou národů"
+  },
+  {
+   "id": "r14",
+   "dataset": "countryEvents",
+   "key": "CZ|1977|v samizdatu vznikla edice Petlice, jíž procházely zakázané rukopisy",
+   "country": "CZ",
+   "year": 1977,
+   "text": "v samizdatu vznikla edice Petlice, jíž procházely zakázané rukopisy"
+  },
+  {
+   "id": "r15",
+   "dataset": "countryEvents",
+   "key": "CZ|1989|Občanské fórum se stalo hlavní silou sametové revoluce s heslem Pravda a láska",
+   "country": "CZ",
+   "year": 1989,
+   "text": "Občanské fórum se stalo hlavní silou sametové revoluce s heslem Pravda a láska"
+  },
+  {
+   "id": "r16",
+   "dataset": "countryEvents",
+   "key": "CZ|1990|byla zrušena vedoucí úloha komunistické strany zakotvená v ústavě",
+   "country": "CZ",
+   "year": 1990,
+   "text": "byla zrušena vedoucí úloha komunistické strany zakotvená v ústavě"
+  },
+  {
+   "id": "r17",
+   "dataset": "countryEvents",
+   "key": "CZ|1993|Česká republika se stala členem Rady Evropy",
+   "country": "CZ",
+   "year": 1993,
+   "text": "Česká republika se stala členem Rady Evropy"
+  },
+  {
+   "id": "r18",
+   "dataset": "countryEvents",
+   "key": "CZ|2008|Václav Klaus odmítal podepsat Lisabonskou smlouvu a vyvolal spor o evropskou integraci",
+   "country": "CZ",
+   "year": 2008,
+   "text": "Václav Klaus odmítal podepsat Lisabonskou smlouvu a vyvolal spor o evropskou integraci"
+  },
+  {
+   "id": "r19",
+   "dataset": "countryEvents",
+   "key": "CZ|2010|volby otřásly tradičními stranami a do sněmovny vstoupily nové subjekty TOP 09 a Věci veřejné",
+   "country": "CZ",
+   "year": 2010,
+   "text": "volby otřásly tradičními stranami a do sněmovny vstoupily nové subjekty TOP 09 a Věci veřejné"
+  },
+  {
+   "id": "r20",
+   "dataset": "countryEvents",
+   "key": "CZ|1918|vznik republiky doprovodilo strhávání symbolů Rakouska-Uherska v ulicích Prahy",
+   "country": "CZ",
+   "year": 1918,
+   "text": "vznik republiky doprovodilo strhávání symbolů Rakouska-Uherska v ulicích Prahy"
+  },
+  {
+   "id": "r21",
+   "dataset": "countryEvents",
+   "key": "CZ|1958|loutkové filmy Jiřího Trnky získaly mezinárodní festivalová ocenění",
+   "country": "CZ",
+   "year": 1958,
+   "text": "loutkové filmy Jiřího Trnky získaly mezinárodní festivalová ocenění"
+  },
+  {
+   "id": "r22",
+   "dataset": "countryEvents",
+   "key": "CZ|1969|hokejové výhry nad SSSR vyústily v protisovětské demonstrace a poškození kanceláře Aeroflotu",
+   "country": "CZ",
+   "year": 1969,
+   "text": "hokejové výhry nad SSSR vyústily v protisovětské demonstrace a poškození kanceláře Aeroflotu"
+  },
+  {
+   "id": "r23",
+   "dataset": "countryEvents",
+   "key": "CZ|1990|Alexander Dubček se stal předsedou Federálního shromáždění",
+   "country": "CZ",
+   "year": 1990,
+   "text": "Alexander Dubček se stal předsedou Federálního shromáždění"
+  },
+  {
+   "id": "r24",
+   "dataset": "countryEvents",
+   "key": "CZ|1993|česká koruna se po rozdělení měny stala samostatnou platnou měnou",
+   "country": "CZ",
+   "year": 1993,
+   "text": "česká koruna se po rozdělení měny stala samostatnou platnou měnou"
+  },
+  {
+   "id": "r25",
+   "dataset": "countryEvents",
+   "key": "CZ|2016|Věra Čáslavská, čtyřnásobná olympijská vítězka a symbol odporu z roku 1968, zemřela",
+   "country": "CZ",
+   "year": 2016,
+   "text": "Věra Čáslavská, čtyřnásobná olympijská vítězka a symbol odporu z roku 1968, zemřela"
+  },
+  {
+   "id": "r26",
+   "dataset": "countryEvents",
+   "key": "UA|1917|v Kyjevě vznikla Ústřední rada (Centralna rada) jako orgán ukrajinské autonomie",
+   "country": "UA",
+   "year": 1917,
+   "text": "v Kyjevě vznikla Ústřední rada (Centralna rada) jako orgán ukrajinské autonomie"
+  },
+  {
+   "id": "r27",
+   "dataset": "countryEvents",
+   "key": "UA|1917|Mychajlo Hruševskyj se stal předsedou Ústřední rady — první ukrajinskou hlavou státu",
+   "country": "UA",
+   "year": 1917,
+   "text": "Mychajlo Hruševskyj se stal předsedou Ústřední rady — první ukrajinskou hlavou státu"
+  },
+  {
+   "id": "r28",
+   "dataset": "countryEvents",
+   "key": "UA|1917|třetí univerzál vyhlásil Ukrajinskou lidovou republiku, zatím v rámci federativního Ruska",
+   "country": "UA",
+   "year": 1917,
+   "text": "třetí univerzál vyhlásil Ukrajinskou lidovou republiku, zatím v rámci federativního Ruska"
+  },
+  {
+   "id": "r29",
+   "dataset": "countryEvents",
+   "key": "UA|1917|v Charkově byla vyhlášena sovětská ukrajinská republika jako protiváha Ústřední radě",
+   "country": "UA",
+   "year": 1917,
+   "text": "v Charkově byla vyhlášena sovětská ukrajinská republika jako protiváha Ústřední radě"
+  },
+  {
+   "id": "r30",
+   "dataset": "countryEvents",
+   "key": "UA|1918|čtvrtý univerzál 22. ledna prohlásil Ukrajinskou lidovou republiku za nezávislou a svrchovanou",
+   "country": "UA",
+   "year": 1918,
+   "text": "čtvrtý univerzál 22. ledna prohlásil Ukrajinskou lidovou republiku za nezávislou a svrchovanou"
+  },
+  {
+   "id": "r31",
+   "dataset": "countryEvents",
+   "key": "UA|1918|v bitvě u Krut padla pod náporem bolševiků hrstka mladých ukrajinských studentů a kadetů",
+   "country": "UA",
+   "year": 1918,
+   "text": "v bitvě u Krut padla pod náporem bolševiků hrstka mladých ukrajinských studentů a kadetů"
+  },
+  {
+   "id": "r32",
+   "dataset": "countryEvents",
+   "key": "UA|1918|Pavlo Skoropadskyj se s německou podporou chopil moci jako hejtman Ukrajinského státu",
+   "country": "UA",
+   "year": 1918,
+   "text": "Pavlo Skoropadskyj se s německou podporou chopil moci jako hejtman Ukrajinského státu"
+  },
+  {
+   "id": "r33",
+   "dataset": "countryEvents",
+   "key": "UA|1918|Direktorium vedené spisovatelem Volodymyrem Vynnyčenkem svrhlo hejtmana Skoropadského",
+   "country": "UA",
+   "year": 1918,
+   "text": "Direktorium vedené spisovatelem Volodymyrem Vynnyčenkem svrhlo hejtmana Skoropadského"
+  },
+  {
+   "id": "r34",
+   "dataset": "countryEvents",
+   "key": "UA|1918|ve Lvově byla po rozpadu Rakouska-Uherska vyhlášena Západoukrajinská lidová republika",
+   "country": "UA",
+   "year": 1918,
+   "text": "ve Lvově byla po rozpadu Rakouska-Uherska vyhlášena Západoukrajinská lidová republika"
+  },
+  {
+   "id": "r35",
+   "dataset": "countryEvents",
+   "key": "UA|1919|Akt zluky 22. ledna na Sofijském náměstí symbolicky sjednotil východní a západní Ukrajinu",
+   "country": "UA",
+   "year": 1919,
+   "text": "Akt zluky 22. ledna na Sofijském náměstí symbolicky sjednotil východní a západní Ukrajinu"
+  },
+  {
+   "id": "r36",
+   "dataset": "countryEvents",
+   "key": "UA|1919|Symon Petljura se ujal vedení Direktoria poté, co Vynnyčenko odstoupil",
+   "country": "UA",
+   "year": 1919,
+   "text": "Symon Petljura se ujal vedení Direktoria poté, co Vynnyčenko odstoupil"
+  },
+  {
+   "id": "r37",
+   "dataset": "countryEvents",
+   "key": "UA|1919|během občanské války zahynuly v pogromech na Ukrajině desetitisíce Židů",
+   "country": "UA",
+   "year": 1919,
+   "text": "během občanské války zahynuly v pogromech na Ukrajině desetitisíce Židů"
+  },
+  {
+   "id": "r38",
+   "dataset": "countryEvents",
+   "key": "UA|1919|anarchista Nestor Machno ovládal se svou povstaleckou armádou rozsáhlé území jihu Ukrajiny",
+   "country": "UA",
+   "year": 1919,
+   "text": "anarchista Nestor Machno ovládal se svou povstaleckou armádou rozsáhlé území jihu Ukrajiny"
+  },
+  {
+   "id": "r39",
+   "dataset": "countryEvents",
+   "key": "UA|1919|v Oděse vznikla nově znárodněná Oděská filmová studia",
+   "country": "UA",
+   "year": 1919,
+   "text": "v Oděse vznikla nově znárodněná Oděská filmová studia"
+  },
+  {
+   "id": "r40",
+   "dataset": "countryEvents",
+   "key": "UA|1920|Symon Petljura podepsal s Piłsudského Polskem Varšavskou smlouvu o spojenectví",
+   "country": "UA",
+   "year": 1920,
+   "text": "Symon Petljura podepsal s Piłsudského Polskem Varšavskou smlouvu o spojenectví"
+  },
+  {
+   "id": "r41",
+   "dataset": "countryEvents",
+   "key": "UA|1921|Rudá armáda definitivně rozdrtila Machnovo anarchistické hnutí na jihu Ukrajiny",
+   "country": "UA",
+   "year": 1921,
+   "text": "Rudá armáda definitivně rozdrtila Machnovo anarchistické hnutí na jihu Ukrajiny"
+  },
+  {
+   "id": "r42",
+   "dataset": "countryEvents",
+   "key": "UA|1926|Symon Petljura byl v Paříži zavražděn Šolomem Schwartzbardem, jenž byl poté osvobozen",
+   "country": "UA",
+   "year": 1926,
+   "text": "Symon Petljura byl v Paříži zavražděn Šolomem Schwartzbardem, jenž byl poté osvobozen"
+  },
+  {
+   "id": "r43",
+   "dataset": "countryEvents",
+   "key": "UA|1932|v Charkovském fyzikálně-technickém institutu se poprvé v SSSR podařilo rozštěpit atomové jádro",
+   "country": "UA",
+   "year": 1932,
+   "text": "v Charkovském fyzikálně-technickém institutu se poprvé v SSSR podařilo rozštěpit atomové jádro"
+  },
+  {
+   "id": "r44",
+   "dataset": "countryEvents",
+   "key": "UA|1933|spisovatel Mykola Chvyljovyj spáchal v Charkově sebevraždu na protest proti čistkám",
+   "country": "UA",
+   "year": 1933,
+   "text": "spisovatel Mykola Chvyljovyj spáchal v Charkově sebevraždu na protest proti čistkám"
+  },
+  {
+   "id": "r45",
+   "dataset": "countryEvents",
+   "key": "UA|1937|Marija Prymačenková získala za své naivní malby zlatou medaili na Světové výstavě v Paříži",
+   "country": "UA",
+   "year": 1937,
+   "text": "Marija Prymačenková získala za své naivní malby zlatou medaili na Světové výstavě v Paříži"
+  },
+  {
+   "id": "r46",
+   "dataset": "countryEvents",
+   "key": "UA|1939|v březnu vyhlásila Podkarpatská Ukrajina nezávislost, vzápětí ji však obsadilo Maďarsko",
+   "country": "UA",
+   "year": 1939,
+   "text": "v březnu vyhlásila Podkarpatská Ukrajina nezávislost, vzápětí ji však obsadilo Maďarsko"
+  },
+  {
+   "id": "r47",
+   "dataset": "countryEvents",
+   "key": "UA|1952|konstrukční kancelář Olega Antonova přesídlila do Kyjeva",
+   "country": "UA",
+   "year": 1952,
+   "text": "konstrukční kancelář Olega Antonova přesídlila do Kyjeva"
+  },
+  {
+   "id": "r48",
+   "dataset": "countryEvents",
+   "key": "UA|1953|v Kyjevě byl otevřen Patonův most — první celosvařovaný most na světě",
+   "country": "UA",
+   "year": 1953,
+   "text": "v Kyjevě byl otevřen Patonův most — první celosvařovaný most na světě"
+  },
+  {
+   "id": "r49",
+   "dataset": "countryEvents",
+   "key": "UA|1954|v Dnipropetrovsku vznikla raketová konstrukční kancelář Pivdenne pod vedením Mychajla Janhela",
+   "country": "UA",
+   "year": 1954,
+   "text": "v Dnipropetrovsku vznikla raketová konstrukční kancelář Pivdenne pod vedením Mychajla Janhela"
+  }
+ ]
+}

@@ -1,0 +1,456 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "odesa|1946|sídlo Černomořské flotily v Sevastopolu zachovalo Oděse roli obchodního přístavu spíše než vojenské základny",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1946,
+   "text": "sídlo Černomořské flotily v Sevastopolu zachovalo Oděse roli obchodního přístavu spíše než vojenské základny"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "odesa|1948|Oděské divadlo opery a baletu se po válečných škodách znovu naplno otevřelo",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1948,
+   "text": "Oděské divadlo opery a baletu se po válečných škodách znovu naplno otevřelo"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "odesa|1957|Chruščovovo tání přineslo oděské klubové hudbě nové svobody; do filharmonie se vrátil jazz",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1957,
+   "text": "Chruščovovo tání přineslo oděské klubové hudbě nové svobody; do filharmonie se vrátil jazz"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "odesa|1961|letovisko Arkadia bylo přebudováno na sovětskou 'zdravotně-rekreační' zónu se sanatorii pro odborářské pracovníky",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1961,
+   "text": "letovisko Arkadia bylo přebudováno na sovětskou 'zdravotně-rekreační' zónu se sanatorii pro odborářské pracovníky"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "odesa|1964|sovětský humorista Michail Žvaneckij zahájil svou celoživotní literární spolupráci s oděskými rodáky Romanem Karcevem a Viktorem Iljčenkem",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1964,
+   "text": "sovětský humorista Michail Žvaneckij zahájil svou celoživotní literární spolupráci s oděskými rodáky Romanem Karcevem a Viktorem Iljčenkem"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "odesa|1971|druhá vlna cholerové epidemie z Íránu dosáhla Oděsy; na týdny byl zaveden cordon sanitaire",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1971,
+   "text": "druhá vlna cholerové epidemie z Íránu dosáhla Oděsy; na týdny byl zaveden cordon sanitaire"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "odesa|1973|animovaný film Oděského filmového ateliéru se stal sovětským hitem a režiséři nové vlny tohoto studia zahájili své kariéry",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1973,
+   "text": "animovaný film Oděského filmového ateliéru se stal sovětským hitem a režiséři nové vlny tohoto studia zahájili své kariéry"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "odesa|1979|do konce 70. let emigrovalo ve třetí vlně poválečné židovské emigrace asi 70 000 oděských Židů do Izraele a USA",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1979,
+   "text": "do konce 70. let emigrovalo ve třetí vlně poválečné židovské emigrace asi 70 000 oděských Židů do Izraele a USA"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "odesa|1980|Černomořská námořní plavba zaměstnávala asi 27 000 námořníků — jednu z největších jednotlivých pracovních sil v Ukrajinské SSR",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1980,
+   "text": "Černomořská námořní plavba zaměstnávala asi 27 000 námořníků — jednu z největších jednotlivých pracovních sil v Ukrajinské SSR"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "poltava|1923|Korolenkův dům v Poltavě se po spisovatelově smrti zde v roce 1921 stal literárním muzeem",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1923,
+   "text": "Korolenkův dům v Poltavě se po spisovatelově smrti zde v roce 1921 stal literárním muzeem"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "poltava|1933|holodomor zpustošil vesnice Poltavské oblasti, kde úmrtnost dosáhla extrémních úrovní",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1933,
+   "text": "holodomor zpustošil vesnice Poltavské oblasti, kde úmrtnost dosáhla extrémních úrovní"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "poltava|1941|wehrmacht obsadil Poltavu 18. září",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1941,
+   "text": "wehrmacht obsadil Poltavu 18. září"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "poltava|1943|sovětské síly osvobodily Poltavu 23. září",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1943,
+   "text": "sovětské síly osvobodily Poltavu 23. září"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "poltava|1944|poltavské letiště hostilo americkou Osmou leteckou armádu v rámci operace Frantic",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1944,
+   "text": "poltavské letiště hostilo americkou Osmou leteckou armádu v rámci operace Frantic"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "poltava|1944|noční nálet Luftwaffe zničil na zemi na poltavském letišti 47 bombardérů B-17",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1944,
+   "text": "noční nálet Luftwaffe zničil na zemi na poltavském letišti 47 bombardérů B-17"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "poltava|1944|americké B-17 z operace Frantic létaly z leteckých základen v Poltavě a Myrhorodu",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1944,
+   "text": "americké B-17 z operace Frantic létaly z leteckých základen v Poltavě a Myrhorodu"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "poltava|1962|těžební a zpracovatelský kombinát na železnou rudu Poltava zahájil provoz v Komsomolsku",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1962,
+   "text": "těžební a zpracovatelský kombinát na železnou rudu Poltava zahájil provoz v Komsomolsku"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "poltava|1966|turbínový závod vyráběl zařízení pro vodní elektrárny",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1966,
+   "text": "turbínový závod vyráběl zařízení pro vodní elektrárny"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "poltava|1979|ve městě byla zahájena trolejbusová doprava",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1979,
+   "text": "ve městě byla zahájena trolejbusová doprava"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1925|Krymská astrofyzikální observatoř byla reorganizována v Simeizu se silnými vazbami na sevastopolské námořnictvo",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1925,
+   "text": "Krymská astrofyzikální observatoř byla reorganizována v Simeizu se silnými vazbami na sevastopolské námořnictvo"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1929|městská ponorková základna byla rozšířena pro nové lodě Černomořské flotily",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1929,
+   "text": "městská ponorková základna byla rozšířena pro nové lodě Černomořské flotily"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1941|začalo druhé obléhání Sevastopolu; město se 250 dní bránilo wehrmachtu",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1941,
+   "text": "začalo druhé obléhání Sevastopolu; město se 250 dní bránilo wehrmachtu"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1942|Sevastopol padl v červenci německým silám po dosud nejdelším obléhání města za druhé světové války",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1942,
+   "text": "Sevastopol padl v červenci německým silám po dosud nejdelším obléhání města za druhé světové války"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1942|město padlo 4. července po obléhání Mansteinovy 11. armády a zůstalo v troskách",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1942,
+   "text": "město padlo 4. července po obléhání Mansteinovy 11. armády a zůstalo v troskách"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1944|Rudá armáda dobyla Sevastopol zpět 9. května po krymské ofenzivě",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1944,
+   "text": "Rudá armáda dobyla Sevastopol zpět 9. května po krymské ofenzivě"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1948|město dostalo přímou republikovou podřízenost oddělenou od Krymské oblasti",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1948,
+   "text": "město dostalo přímou republikovou podřízenost oddělenou od Krymské oblasti"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1954|Sevastopol byl spolu s Krymem převeden z Ruské SFSR do Ukrajinské SSR",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1954,
+   "text": "Sevastopol byl spolu s Krymem převeden z Ruské SFSR do Ukrajinské SSR"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1954|Chruščovovo převedení Krymu do Ukrajinské SSR bylo místně připomenuto, ale námořní status Sevastopolu zůstal zachován",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1954,
+   "text": "Chruščovovo převedení Krymu do Ukrajinské SSR bylo místně připomenuto, ale námořní status Sevastopolu zůstal zachován"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1955|bitevní loď Novorossijsk vybuchla v sevastopolském přístavu a zabila přes 600 námořníků",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1955,
+   "text": "bitevní loď Novorossijsk vybuchla v sevastopolském přístavu a zabila přes 600 námořníků"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1957|Panoráma obléhání let 1854-55 bylo po válečné evakuaci a restaurování znovu otevřeno",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1957,
+   "text": "Panoráma obléhání let 1854-55 bylo po válečné evakuaci a restaurování znovu otevřeno"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1965|Sevastopolu byl spolu s Oděsou udělen status 'města-hrdiny'",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1965,
+   "text": "Sevastopolu byl spolu s Oděsou udělen status 'města-hrdiny'"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1972|dioráma útoku na Sapunskou horu bylo velkou turistickou atrakcí pro sovětské veterány",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1972,
+   "text": "dioráma útoku na Sapunskou horu bylo velkou turistickou atrakcí pro sovětské veterány"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1978|jako sídlo Černomořské flotily byl Sevastopol uzavřeným městem — cizinci a turisté měli vstup zakázán",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1978,
+   "text": "jako sídlo Černomořské flotily byl Sevastopol uzavřeným městem — cizinci a turisté měli vstup zakázán"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1978|režim uzavřeného města znamenal, že nerezidenti potřebovali k návštěvě povolení",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1978,
+   "text": "režim uzavřeného města znamenal, že nerezidenti potřebovali k návštěvě povolení"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "simferopol|1921|Krym se stal Krymskou ASSR se Simferopolem jako hlavním městem",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1921,
+   "text": "Krym se stal Krymskou ASSR se Simferopolem jako hlavním městem"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "simferopol|1931|Krymskotatarský pedagogický institut sjednotil přípravu učitelů v tatarském jazyce",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1931,
+   "text": "Krymskotatarský pedagogický institut sjednotil přípravu učitelů v tatarském jazyce"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "simferopol|1937|krymskotatarský politický vůdce Veli Ibraimov byl už zastřelen v roce 1928 a jeho spolupracovníci byli nyní odstraněni v čistkách",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1937,
+   "text": "krymskotatarský politický vůdce Veli Ibraimov byl už zastřelen v roce 1928 a jeho spolupracovníci byli nyní odstraněni v čistkách"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "simferopol|1941|wehrmacht obsadil město 1. listopadu; následovalo masové vraždění Židů a Krymčaků",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1941,
+   "text": "wehrmacht obsadil město 1. listopadu; následovalo masové vraždění Židů a Krymčaků"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "simferopol|1942|Einsatzgruppe D zastřelila v oblasti Simferopolu asi 14 000 Krymčaků, Židů a Romů",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1942,
+   "text": "Einsatzgruppe D zastřelila v oblasti Simferopolu asi 14 000 Krymčaků, Židů a Romů"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "simferopol|1944|Rudá armáda osvobodila město v dubnu",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1944,
+   "text": "Rudá armáda osvobodila město v dubnu"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "simferopol|1944|Stalin deportoval ze simferopolských kolejišť celé krymskotatarské obyvatelstvo do Střední Asie",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1944,
+   "text": "Stalin deportoval ze simferopolských kolejišť celé krymskotatarské obyvatelstvo do Střední Asie"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "simferopol|1944|sovětské síly osvobodily město 13. dubna",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1944,
+   "text": "sovětské síly osvobodily město 13. dubna"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "simferopol|1945|krymskotatarské místní názvy po celé oblasti byly hromadným dekretem rusifikovány",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1945,
+   "text": "krymskotatarské místní názvy po celé oblasti byly hromadným dekretem rusifikovány"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "simferopol|1954|Simferopol se spolu se zbytkem Krymu stal součástí Ukrajinské SSR",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1954,
+   "text": "Simferopol se spolu se zbytkem Krymu stal součástí Ukrajinské SSR"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "simferopol|1954|Krymská oblast byla převedena do Ukrajinské SSR se Simferopolem jako svým správním centrem",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1954,
+   "text": "Krymská oblast byla převedena do Ukrajinské SSR se Simferopolem jako svým správním centrem"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "simferopol|1959|otevřela se nejdelší trolejbusová linka na světě ze Simferopolu do Jalty přes Angarský průsmyk",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1959,
+   "text": "otevřela se nejdelší trolejbusová linka na světě ze Simferopolu do Jalty přes Angarský průsmyk"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "simferopol|1967|krymští Tataři byli oficiálně rehabilitováni, ale stále jim byl zakázán návrat na Krym",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1967,
+   "text": "krymští Tataři byli oficiálně rehabilitováni, ale stále jim byl zakázán návrat na Krym"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "simferopol|1970|simferopolské letiště odbavovalo miliony sovětských dovolenkářů mířících každé léto na Krym",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1970,
+   "text": "simferopolské letiště odbavovalo miliony sovětských dovolenkářů mířících každé léto na Krym"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "simferopol|1979|městská tržnice Centralnyj prodávala produkty z okolních krymských sadů a vinic",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1979,
+   "text": "městská tržnice Centralnyj prodávala produkty z okolních krymských sadů a vinic"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|1929|zachovalé tělo Mykoly Pyrohova v jeho usedlosti-muzeu jižně od města bylo znovu nabalzamováno",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 1929,
+   "text": "zachovalé tělo Mykoly Pyrohova v jeho usedlosti-muzeu jižně od města bylo znovu nabalzamováno"
+  }
+ ]
+}

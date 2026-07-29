@@ -1,0 +1,879 @@
+{
+ "pass": "C",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "donetsk|1990|Sergej Bubka uspořádal ve městě první ročník mítinku Pole Vault Stars a překonal halový světový rekord výkonem 6,05 m",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1990,
+   "text": "Sergej Bubka uspořádal ve městě první ročník mítinku Pole Vault Stars a překonal halový světový rekord výkonem 6,05 m"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "donetsk|1993|na svém doněckém mítinku Bubka zdolal halových 6,15 m — rekord, který vydržel jednadvacet let",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1993,
+   "text": "na svém doněckém mítinku Bubka zdolal halových 6,15 m — rekord, který vydržel jednadvacet let"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "donetsk|1999|Doněcké divadlo opery a baletu bylo pojmenováno po tenoristovi Anatoliji Solovjaněnkovi, rodáku z města, jenž téhož roku zemřel",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1999,
+   "text": "Doněcké divadlo opery a baletu bylo pojmenováno po tenoristovi Anatoliji Solovjaněnkovi, rodáku z města, jenž téhož roku zemřel"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "donetsk|2014|7. srpna začala bitva o Ilovajsk; ukrajinské jednotky byly koncem měsíce sevřeny a při ústupu z obklíčení 29. srpna pobity v palbě",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2014,
+   "text": "7. srpna začala bitva o Ilovajsk; ukrajinské jednotky byly koncem měsíce sevřeny a při ústupu z obklíčení 29. srpna pobity v palbě"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "donetsk|2015|v polovině února padla po obklíčení železniční křižovatka Debalceve; 18. února z ní Kyjev stáhl své jednotky",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2015,
+   "text": "v polovině února padla po obklíčení železniční křižovatka Debalceve; 18. února z ní Kyjev stáhl své jednotky"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "donetsk|2017|1. února propukla u Avdijivky na předměstí města jedna z nejtěžších zimních bitev na frontové linii",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2017,
+   "text": "1. února propukla u Avdijivky na předměstí města jedna z nejtěžších zimních bitev na frontové linii"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "donetsk|2023|11. ledna oznámila wagnerovská skupina dobytí nedalekého Soledaru s největším solným dolem v Evropě — městečko zůstalo srovnané se zemí",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2023,
+   "text": "11. ledna oznámila wagnerovská skupina dobytí nedalekého Soledaru s největším solným dolem v Evropě — městečko zůstalo srovnané se zemí"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "donetsk|2024|okupovaný Doněck vstoupil do jedenáctého roku pod kontrolou samozvané republiky, odříznutý od zbytku Ukrajiny",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2024,
+   "text": "okupovaný Doněck vstoupil do jedenáctého roku pod kontrolou samozvané republiky, odříznutý od zbytku Ukrajiny"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "luhansk|1943|v lednu byla v Krasnodonu většina členů Mladé gardy umučena a svržena do 53 metrů hluboké jámy dolu č. 5",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1943,
+   "text": "v lednu byla v Krasnodonu většina členů Mladé gardy umučena a svržena do 53 metrů hluboké jámy dolu č. 5"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "luhansk|1946|spisovatel Alexandr Fadějev vydal román Mladá garda o krasnodonském podzemním odboji, jenž se stal pilířem sovětského válečného kultu",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1946,
+   "text": "spisovatel Alexandr Fadějev vydal román Mladá garda o krasnodonském podzemním odboji, jenž se stal pilířem sovětského válečného kultu"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "luhansk|1953|městská patronka — luhanská muniční továrna — rozšířila výrobu o nové výkonné strojní vybavení vedle nábojů",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1953,
+   "text": "městská patronka — luhanská muniční továrna — rozšířila výrobu o nové výkonné strojní vybavení vedle nábojů"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "luhansk|1970|v Krasnodonu byl otevřen pamětní komplex Mladé gardy s muzeem, kam mířily školní výpravy z celého svazu",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1970,
+   "text": "v Krasnodonu byl otevřen pamětní komplex Mladé gardy s muzeem, kam mířily školní výpravy z celého svazu"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "luhansk|1982|u dolu č. 5 v Krasnodonu byl odhalen pomník Nepokoření připomínající popravené členy Mladé gardy",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1982,
+   "text": "u dolu č. 5 v Krasnodonu byl odhalen pomník Nepokoření připomínající popravené členy Mladé gardy"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "luhansk|2010|76 % akcií lokomotivky Luhanskteplovoz koupila za 52 milionů dolarů dceřiná firma ruského holdingu Transmašholding",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 2010,
+   "text": "76 % akcií lokomotivky Luhanskteplovoz koupila za 52 milionů dolarů dceřiná firma ruského holdingu Transmašholding"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "luhansk|2014|2. června zasáhl letecký úder budovu okupované oblastní správy; zahynulo osm civilistů a desítky byly zraněny",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 2014,
+   "text": "2. června zasáhl letecký úder budovu okupované oblastní správy; zahynulo osm civilistů a desítky byly zraněny"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "luhansk|2014|27. dubna sehrála Zorja Luhansk poslední domácí zápas na stadionu Avanhard, než se klub odstěhoval do Záporoží",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 2014,
+   "text": "27. dubna sehrála Zorja Luhansk poslední domácí zápas na stadionu Avanhard, než se klub odstěhoval do Záporoží"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "luhansk|2014|5. září zmrazila první minská dohoda frontu u Luhansku; přes řeku Severní Doněc u Ščastja a Stanyce Luhanské vedla léta linie rozhraní",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 2014,
+   "text": "5. září zmrazila první minská dohoda frontu u Luhansku; přes řeku Severní Doněc u Ščastja a Stanyce Luhanské vedla léta linie rozhraní"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "luhansk|2016|Zorja Luhansk se v exilu probojovala do skupiny Evropské ligy a hostila Manchester United, Fenerbahçe i Feyenoord",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 2016,
+   "text": "Zorja Luhansk se v exilu probojovala do skupiny Evropské ligy a hostila Manchester United, Fenerbahçe i Feyenoord"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "luhansk|2022|lokomotivka Luhanskteplovoz, na okupovaném území od roku 2014 odstavená, byla z velké části rozkradena a vybavení odvezeno do Ruska",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 2022,
+   "text": "lokomotivka Luhanskteplovoz, na okupovaném území od roku 2014 odstavená, byla z velké části rozkradena a vybavení odvezeno do Ruska"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1942|25. června zničilo bombardování budovu Panorámatu; dělníci stačili z plátna vyříznout 86 fragmentů",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1942,
+   "text": "25. června zničilo bombardování budovu Panorámatu; dělníci stačili z plátna vyříznout 86 fragmentů"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1954|ke stému výročí první obrany bylo 16. října znovuotevřeno zrekonstruované Panoráma, které podle Roubauda obnovilo sedmnáct moskevských malířů",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1954,
+   "text": "ke stému výročí první obrany bylo 16. října znovuotevřeno zrekonstruované Panoráma, které podle Roubauda obnovilo sedmnáct moskevských malířů"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1959|5. listopadu byl na Nachimovově náměstí odhalen obnovený pomník admirála Nachimova; sovětský Lenin z jeho podstavce z roku 1932 byl přemístěn",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1959,
+   "text": "5. listopadu byl na Nachimovově náměstí odhalen obnovený pomník admirála Nachimova; sovětský Lenin z jeho podstavce z roku 1932 byl přemístěn"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1961|v inkermanských štolách, jež za obrany ukrývaly polní špitál i sklady munice, vznikl vinařský závod Inkerman",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1961,
+   "text": "v inkermanských štolách, jež za obrany ukrývaly polní špitál i sklady munice, vznikl vinařský závod Inkerman"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "sevastopol|2008|v červenci byl u poslední linie obrany z léta 1942 otevřen pamětní komplex 35. pobřežní baterie",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 2008,
+   "text": "v červenci byl u poslední linie obrany z léta 1942 otevřen pamětní komplex 35. pobřežní baterie"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "sevastopol|2023|13. září zasáhly střely Storm Shadow suchý dok loděnice Sevmorzavod; vyřazena byla výsadková loď Minsk a ponorka Rostov na Donu",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 2023,
+   "text": "13. září zasáhly střely Storm Shadow suchý dok loděnice Sevmorzavod; vyřazena byla výsadková loď Minsk a ponorka Rostov na Donu"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "sevastopol|2024|14. února potopily námořní drony Magura V5 u Alupky výsadkovou loď Caesar Kunikov mířící k základně",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 2024,
+   "text": "14. února potopily námořní drony Magura V5 u Alupky výsadkovou loď Caesar Kunikov mířící k základně"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "sevastopol|2024|v květnu zasáhly ukrajinské střely trajekty v Kerčském průlivu, jež Rusku sloužily k přepravě vojenského nákladu po železnici",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 2024,
+   "text": "v květnu zasáhly ukrajinské střely trajekty v Kerčském průlivu, jež Rusku sloužily k přepravě vojenského nákladu po železnici"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "sevastopol|2024|kvůli neustálým úderům přesunula Černomořská flotila těžiště svých sil pryč ze Sevastopolu a kdysi neporušitelná základna ztratila funkci",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 2024,
+   "text": "kvůli neustálým úderům přesunula Černomořská flotila těžiště svých sil pryč ze Sevastopolu a kdysi neporušitelná základna ztratila funkci"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "simferopol|1951|podle návrhu architekta Duškina bylo dostavěno nádraží ve stalinském slohu se 42 metrů vysokou věží a hodinami se zvěrokruhem",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1951,
+   "text": "podle návrhu architekta Duškina bylo dostavěno nádraží ve stalinském slohu se 42 metrů vysokou věží a hodinami se zvěrokruhem"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "simferopol|1955|vykopávky Neapole Skythské odkryly mauzoleum s desítkami hrobů skythské šlechty se zbraněmi, koňmi a zlatem",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1955,
+   "text": "vykopávky Neapole Skythské odkryly mauzoleum s desítkami hrobů skythské šlechty se zbraněmi, koňmi a zlatem"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "simferopol|1967|v srpnu vydalo prezidium Nejvyššího sovětu dekret, který sice zprostil krymské Tatary obvinění z kolaborace, ale návrat jim fakticky zapovídal",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1967,
+   "text": "v srpnu vydalo prezidium Nejvyššího sovětu dekret, který sice zprostil krymské Tatary obvinění z kolaborace, ale návrat jim fakticky zapovídal"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "simferopol|1989|do města se začaly vracet tisíce krymských Tatarů z vyhnanství ve Střední Asii; vyrůstaly živelné osady na okrajích Simferopolu",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1989,
+   "text": "do města se začaly vracet tisíce krymských Tatarů z vyhnanství ve Střední Asii; vyrůstaly živelné osady na okrajích Simferopolu"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "simferopol|1991|26. června zvolil druhý Kurultaj v Simferopolu Medžlis krymskotatarského národa v čele s Mustafou Džemilevem",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1991,
+   "text": "26. června zvolil druhý Kurultaj v Simferopolu Medžlis krymskotatarského národa v čele s Mustafou Džemilevem"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "simferopol|2014|Tavrijská národní univerzita, založená ve městě roku 1918, přerušila po anexi činnost a o dva roky později se přestěhovala do Kyjeva",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 2014,
+   "text": "Tavrijská národní univerzita, založená ve městě roku 1918, přerušila po anexi činnost a o dva roky později se přestěhovala do Kyjeva"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "simferopol|2014|po anexi byl zakázán krymskotatarský telekanál ATR a vůdci Medžlisu Džemilevovi byl zapovězen vstup na poloostrov",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 2014,
+   "text": "po anexi byl zakázán krymskotatarský telekanál ATR a vůdci Medžlisu Džemilevovi byl zapovězen vstup na poloostrov"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "simferopol|2022|9. srpna otřásla nedalekou leteckou základnou Saky u Novofedorivky série explozí, jež zničila kolem devíti ruských bojových letadel",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 2022,
+   "text": "9. srpna otřásla nedalekou leteckou základnou Saky u Novofedorivky série explozí, jež zničila kolem devíti ruských bojových letadel"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "simferopol|2023|okupační letiště zůstávalo pro civilní dopravu od počátku invaze uzavřené; vzdušný prostor nad poloostrovem byl bojovou zónou",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 2023,
+   "text": "okupační letiště zůstávalo pro civilní dopravu od počátku invaze uzavřené; vzdušný prostor nad poloostrovem byl bojovou zónou"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "simferopol|2024|město se stalo zázemím a logistickým uzlem ruské okupace celého poloostrova, opakovaně cílem dronů a sabotáží",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 2024,
+   "text": "město se stalo zázemím a logistickým uzlem ruské okupace celého poloostrova, opakovaně cílem dronů a sabotáží"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "simferopol|2025|po jedenácti letech ruské správy zůstával Medžlis zakázán a krymskotatarský život na poloostrově pod tlakem represí",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 2025,
+   "text": "po jedenácti letech ruské správy zůstával Medžlis zakázán a krymskotatarský život na poloostrově pod tlakem represí"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1964|18. července byl otevřen Varvarivský most přes Jižní Buh — otočný most s největším rozpětím pole v Evropě",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1964,
+   "text": "18. července byl otevřen Varvarivský most přes Jižní Buh — otočný most s největším rozpětím pole v Evropě"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1977|koncem roku se otevřela nová mykolajivská zoo, považovaná za nejlepší v Sovětském svazu",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1977,
+   "text": "koncem roku se otevřela nová mykolajivská zoo, považovaná za nejlepší v Sovětském svazu"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1980|za účasti francouzské firmy Pechiney byl postaven hlinikárenský závod, jediný výrobce oxidu hlinitého na Ukrajině",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1980,
+   "text": "za účasti francouzské firmy Pechiney byl postaven hlinikárenský závod, jediný výrobce oxidu hlinitého na Ukrajině"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1993|mykolajivská zoo se jako první ukrajinská zoologická zahrada stala členem Evropské asociace zoo a akvárií",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1993,
+   "text": "mykolajivská zoo se jako první ukrajinská zoologická zahrada stala členem Evropské asociace zoo a akvárií"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|2022|29. srpna začala z mykolajivského směru jižní protiofenziva, jež do listopadu vytlačila ruské síly z pravého břehu Dněpru",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 2022,
+   "text": "29. srpna začala z mykolajivského směru jižní protiofenziva, jež do listopadu vytlačila ruské síly z pravého břehu Dněpru"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1953|po válce zničená charkovská zoo, nejstarší na Ukrajině z roku 1895, dokončila obnovu a znovu se naplno otevřela návštěvníkům",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1953,
+   "text": "po válce zničená charkovská zoo, nejstarší na Ukrajině z roku 1895, dokončila obnovu a znovu se naplno otevřela návštěvníkům"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1957|v bývalé Mordvinovské synagoze se z podnětu astronoma Mykoly Barabašova otevřelo charkovské planetárium",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1957,
+   "text": "v bývalé Mordvinovské synagoze se z podnětu astronoma Mykoly Barabašova otevřelo charkovské planetárium"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1961|válkou vypálený konstruktivistický Dům projektů byl přestavěn ve stalinském stylu na hlavní budovu Charkovské univerzity",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1961,
+   "text": "válkou vypálený konstruktivistický Dům projektů byl přestavěn ve stalinském stylu na hlavní budovu Charkovské univerzity"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2017|konstruktivistický Děržprom byl zapsán na předběžný seznam světového dědictví UNESCO jako největší stavba svého slohu",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2017,
+   "text": "konstruktivistický Děržprom byl zapsán na předběžný seznam světového dědictví UNESCO jako největší stavba svého slohu"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2022|7. května zničil ruský raketový úder muzeum filozofa Hryhorije Skovorody v Skovorodynivce právě v roce 300. výročí jeho narození",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2022,
+   "text": "7. května zničil ruský raketový úder muzeum filozofa Hryhorije Skovorody v Skovorodynivce právě v roce 300. výročí jeho narození"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2024|23. ledna zabil přímý zásah pětipatrového obytného domu raketami šest lidí a 57 jich zranil, mezi nimi osm dětí",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2024,
+   "text": "23. ledna zabil přímý zásah pětipatrového obytného domu raketami šest lidí a 57 jich zranil, mezi nimi osm dětí"
+  },
+  {
+   "id": "r50",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2024|10. května zahájilo Rusko pozemní ofenzívu přes hranici směrem na Vovčansk a Lypci a otevřelo nový front u Charkova",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2024,
+   "text": "10. května zahájilo Rusko pozemní ofenzívu přes hranici směrem na Vovčansk a Lypci a otevřelo nový front u Charkova"
+  },
+  {
+   "id": "r51",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2024|31. října poškodil ruský úder Děržprom, ikonu konstruktivismu, jen pár dní po petici za jeho zápis na seznam UNESCO",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2024,
+   "text": "31. října poškodil ruský úder Děržprom, ikonu konstruktivismu, jen pár dní po petici za jeho zápis na seznam UNESCO"
+  },
+  {
+   "id": "r52",
+   "dataset": "cityFacts",
+   "key": "kharkiv|2024|od léta čelily severní okraje Charkova klouzavým bombám KAB, jež srovnávaly celé sekce panelových domů",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 2024,
+   "text": "od léta čelily severní okraje Charkova klouzavým bombám KAB, jež srovnávaly celé sekce panelových domů"
+  },
+  {
+   "id": "r53",
+   "dataset": "cityFacts",
+   "key": "poltava|1950|městská přádelna a další lehký průmysl přitahovaly do poválečné Poltavy pracovní síly z okolního venkova",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1950,
+   "text": "městská přádelna a další lehký průmysl přitahovaly do poválečné Poltavy pracovní síly z okolního venkova"
+  },
+  {
+   "id": "r54",
+   "dataset": "cityFacts",
+   "key": "poltava|1965|na ložisku Šebelynka a v Poltavské oblasti rozvíjená těžba plynového kondenzátu z ní učinila jeden z energetických pilířů Ukrajiny",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1965,
+   "text": "na ložisku Šebelynka a v Poltavské oblasti rozvíjená těžba plynového kondenzátu z ní učinila jeden z energetických pilířů Ukrajiny"
+  },
+  {
+   "id": "r55",
+   "dataset": "cityFacts",
+   "key": "poltava|1981|muzeum bitvy u Poltavy a okolní památníky byly vyhlášeny Státní historicko-kulturní rezervací „Pole poltavské bitvy“",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1981,
+   "text": "muzeum bitvy u Poltavy a okolní památníky byly vyhlášeny Státní historicko-kulturní rezervací „Pole poltavské bitvy“"
+  },
+  {
+   "id": "r56",
+   "dataset": "cityFacts",
+   "key": "poltava|2022|27. června zasáhly dvě ruské střely Ch-22 obchodní centrum Amstor v Kremenčuku v Poltavské oblasti a zabily 21 lidí",
+   "country": "UA",
+   "city": "poltava",
+   "year": 2022,
+   "text": "27. června zasáhly dvě ruské střely Ch-22 obchodní centrum Amstor v Kremenčuku v Poltavské oblasti a zabily 21 lidí"
+  },
+  {
+   "id": "r57",
+   "dataset": "cityFacts",
+   "key": "poltava|2023|Poltava se stala významným zázemím pro vnitřně vysídlené z Charkovska i jihu a pro logistiku směřující k frontě",
+   "country": "UA",
+   "city": "poltava",
+   "year": 2023,
+   "text": "Poltava se stala významným zázemím pro vnitřně vysídlené z Charkovska i jihu a pro logistiku směřující k frontě"
+  },
+  {
+   "id": "r58",
+   "dataset": "cityFacts",
+   "key": "poltava|1958|v Poltavě byl jako Avanhard založen fotbalový klub, pozdější Vorskla, jenž o dva roky později vstoupil do sovětské třídy B",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1958,
+   "text": "v Poltavě byl jako Avanhard založen fotbalový klub, pozdější Vorskla, jenž o dva roky později vstoupil do sovětské třídy B"
+  },
+  {
+   "id": "r59",
+   "dataset": "cityFacts",
+   "key": "kherson|1951|v říjnu byla založena Chersonská loděnice jako jeden z hlavních sovětských závodů na stavbu obchodních lodí",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1951,
+   "text": "v říjnu byla založena Chersonská loděnice jako jeden z hlavních sovětských závodů na stavbu obchodních lodí"
+  },
+  {
+   "id": "r60",
+   "dataset": "cityFacts",
+   "key": "kherson|1960|v Chersonu byla zahájena trolejbusová doprava",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1960,
+   "text": "v Chersonu byla zahájena trolejbusová doprava"
+  },
+  {
+   "id": "r61",
+   "dataset": "cityFacts",
+   "key": "kherson|1988|u obce Osokorivka byl postaven pomník melounu, první a největší svého druhu na Ukrajině a symbol chersonského zemědělství",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1988,
+   "text": "u obce Osokorivka byl postaven pomník melounu, první a největší svého druhu na Ukrajině a symbol chersonského zemědělství"
+  },
+  {
+   "id": "r62",
+   "dataset": "cityFacts",
+   "key": "kherson|2010|byl vyhlášen národní přírodní park Oleškivské písky, největší písečná plocha v Evropě jihovýchodně od města",
+   "country": "UA",
+   "city": "kherson",
+   "year": 2010,
+   "text": "byl vyhlášen národní přírodní park Oleškivské písky, největší písečná plocha v Evropě jihovýchodně od města"
+  },
+  {
+   "id": "r63",
+   "dataset": "cityFacts",
+   "key": "kherson|2023|8. června ostřelovali Rusové evakuační místa v zaplaveném Chersonu; ze zatopeného ostrova Korabel bylo evakuováno přes 2 400 lidí",
+   "country": "UA",
+   "city": "kherson",
+   "year": 2023,
+   "text": "8. června ostřelovali Rusové evakuační místa v zaplaveném Chersonu; ze zatopeného ostrova Korabel bylo evakuováno přes 2 400 lidí"
+  },
+  {
+   "id": "r64",
+   "dataset": "cityFacts",
+   "key": "kherson|2024|po osvobození se pravobřežní Cherson stal frontovým městem pod každodenní ruskou dělostřeleckou palbou z levého břehu",
+   "country": "UA",
+   "city": "kherson",
+   "year": 2024,
+   "text": "po osvobození se pravobřežní Cherson stal frontovým městem pod každodenní ruskou dělostřeleckou palbou z levého břehu"
+  },
+  {
+   "id": "r65",
+   "dataset": "cityFacts",
+   "key": "lviv|1964|lvovský pivovar s tradicí od roku 1715, za císařství jeden ze tří nejlepších v Rakousku-Uhersku, byl znárodněn a přejmenován na závod Kolos",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1964,
+   "text": "lvovský pivovar s tradicí od roku 1715, za císařství jeden ze tří nejlepších v Rakousku-Uhersku, byl znárodněn a přejmenován na závod Kolos"
+  },
+  {
+   "id": "r66",
+   "dataset": "cityFacts",
+   "key": "lviv|1944|v červenci stvrdili Sověti návrat do města masovou manifestací před budovou lvovské opery",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1944,
+   "text": "v červenci stvrdili Sověti návrat do města masovou manifestací před budovou lvovské opery"
+  },
+  {
+   "id": "r67",
+   "dataset": "cityFacts",
+   "key": "lviv|2012|byl založen Lvovský IT klastr, vůbec první formální sdružení svého druhu na Ukrajině, jež z města učinilo softwarové centrum",
+   "country": "UA",
+   "city": "lviv",
+   "year": 2012,
+   "text": "byl založen Lvovský IT klastr, vůbec první formální sdružení svého druhu na Ukrajině, jež z města učinilo softwarové centrum"
+  },
+  {
+   "id": "r68",
+   "dataset": "cityFacts",
+   "key": "lviv|2023|navzdory válce, výpadkům proudu a stannému právu obnovil lvovský pivovar výrobu a stal se symbolem ukrajinské vytrvalosti",
+   "country": "UA",
+   "city": "lviv",
+   "year": 2023,
+   "text": "navzdory válce, výpadkům proudu a stannému právu obnovil lvovský pivovar výrobu a stal se symbolem ukrajinské vytrvalosti"
+  },
+  {
+   "id": "r69",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1946|básnířka Rose Ausländerová po sovětském obsazení rodného města natrvalo odešla do New Yorku",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1946,
+   "text": "básnířka Rose Ausländerová po sovětském obsazení rodného města natrvalo odešla do New Yorku"
+  },
+  {
+   "id": "r70",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1955|rozhodnutím vlády Ukrajinské SSR byla bývalá rezidence bukovinských metropolitů předána Černivecké univerzitě",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1955,
+   "text": "rozhodnutím vlády Ukrajinské SSR byla bývalá rezidence bukovinských metropolitů předána Černivecké univerzitě"
+  },
+  {
+   "id": "r71",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1958|v Černivcích vznikl jako Avanhard fotbalový klub, pozdější Bukovyna, jenž o dva roky později vstoupil do sovětské třídy B",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1958,
+   "text": "v Černivcích vznikl jako Avanhard fotbalový klub, pozdější Bukovyna, jenž o dva roky později vstoupil do sovětské třídy B"
+  },
+  {
+   "id": "r72",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|2022|daleko v týlu na rumunských hranicích se Černivci staly bezpečným útočištěm i odpočinkovou zastávkou pro uprchlíky mířící za hranici",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 2022,
+   "text": "daleko v týlu na rumunských hranicích se Černivci staly bezpečným útočištěm i odpočinkovou zastávkou pro uprchlíky mířící za hranici"
+  },
+  {
+   "id": "r73",
+   "dataset": "countryEvents",
+   "key": "CZ|1920|Československo přijalo svou první demokratickou ústavu",
+   "country": "CZ",
+   "year": 1920,
+   "text": "Československo přijalo svou první demokratickou ústavu"
+  },
+  {
+   "id": "r74",
+   "dataset": "countryEvents",
+   "key": "CZ|1921|Karel Čapek uvedl premiéru R.U.R. a daroval světu slovo „robot“",
+   "country": "CZ",
+   "year": 1921,
+   "text": "Karel Čapek uvedl premiéru R.U.R. a daroval světu slovo „robot“"
+  },
+  {
+   "id": "r75",
+   "dataset": "countryEvents",
+   "key": "CZ|1923|ministr financí Alois Rašín byl v Praze zavražděn mladým anarchistou",
+   "country": "CZ",
+   "year": 1923,
+   "text": "ministr financí Alois Rašín byl v Praze zavražděn mladým anarchistou"
+  },
+  {
+   "id": "r76",
+   "dataset": "countryEvents",
+   "key": "CZ|1924|Franz Kafka zemřel v sanatoriu nedaleko Vídně ve věku 40 let",
+   "country": "CZ",
+   "year": 1924,
+   "text": "Franz Kafka zemřel v sanatoriu nedaleko Vídně ve věku 40 let"
+  },
+  {
+   "id": "r77",
+   "dataset": "countryEvents",
+   "key": "CZ|1925|Tomáš Baťa otevřel ve Zlíně svůj rozsáhlý komplex obuvnické továrny",
+   "country": "CZ",
+   "year": 1925,
+   "text": "Tomáš Baťa otevřel ve Zlíně svůj rozsáhlý komplex obuvnické továrny"
+  },
+  {
+   "id": "r78",
+   "dataset": "countryEvents",
+   "key": "CZ|1930|Janáčkova opera Z mrtvého domu měla 12. dubna posmrtnou premiéru v Brně",
+   "country": "CZ",
+   "year": 1930,
+   "text": "Janáčkova opera Z mrtvého domu měla 12. dubna posmrtnou premiéru v Brně"
+  },
+  {
+   "id": "r79",
+   "dataset": "countryEvents",
+   "key": "CZ|1929|krach na newyorské burze otřásl československým průmyslem",
+   "country": "CZ",
+   "year": 1929,
+   "text": "krach na newyorské burze otřásl československým průmyslem"
+  },
+  {
+   "id": "r80",
+   "dataset": "countryEvents",
+   "key": "CZ|1932|Tomáš Baťa zahynul při letecké havárii u Otrokovic",
+   "country": "CZ",
+   "year": 1932,
+   "text": "Tomáš Baťa zahynul při letecké havárii u Otrokovic"
+  },
+  {
+   "id": "r81",
+   "dataset": "countryEvents",
+   "key": "CZ|1934|Československo získalo na fotbalovém mistrovství světa stříbro po prohře s Itálií",
+   "country": "CZ",
+   "year": 1934,
+   "text": "Československo získalo na fotbalovém mistrovství světa stříbro po prohře s Itálií"
+  },
+  {
+   "id": "r82",
+   "dataset": "countryEvents",
+   "key": "CZ|1935|T. G. Masaryk odstoupil; prezidentem se stal Edvard Beneš",
+   "country": "CZ",
+   "year": 1935,
+   "text": "T. G. Masaryk odstoupil; prezidentem se stal Edvard Beneš"
+  },
+  {
+   "id": "r83",
+   "dataset": "countryEvents",
+   "key": "CZ|1937|zemřel T. G. Masaryk; jeho pohřeb se stal národní událostí",
+   "country": "CZ",
+   "year": 1937,
+   "text": "zemřel T. G. Masaryk; jeho pohřeb se stal národní událostí"
+  },
+  {
+   "id": "r84",
+   "dataset": "countryEvents",
+   "key": "CZ|1938|Mnichovská dohoda předala Sudety Hitlerovi bez hlasu Čechů",
+   "country": "CZ",
+   "year": 1938,
+   "text": "Mnichovská dohoda předala Sudety Hitlerovi bez hlasu Čechů"
+  },
+  {
+   "id": "r85",
+   "dataset": "countryEvents",
+   "key": "CZ|1939|Německo v březnu obsadilo zbytek Čech a Moravy; vysoké školy byly uzavřeny",
+   "country": "CZ",
+   "year": 1939,
+   "text": "Německo v březnu obsadilo zbytek Čech a Moravy; vysoké školy byly uzavřeny"
+  },
+  {
+   "id": "r86",
+   "dataset": "countryEvents",
+   "key": "CZ|1942|v Praze byl spáchán atentát na Reinharda Heydricha; v odvetě byly Lidice srovnány se zemí",
+   "country": "CZ",
+   "year": 1942,
+   "text": "v Praze byl spáchán atentát na Reinharda Heydricha; v odvetě byly Lidice srovnány se zemí"
+  },
+  {
+   "id": "r87",
+   "dataset": "countryEvents",
+   "key": "CZ|1945|Praha v květnu povstala proti nacistům; 9. května vstoupila do města Rudá armáda",
+   "country": "CZ",
+   "year": 1945,
+   "text": "Praha v květnu povstala proti nacistům; 9. května vstoupila do města Rudá armáda"
+  },
+  {
+   "id": "r88",
+   "dataset": "countryEvents",
+   "key": "CZ|1946|hudební festival Pražské jaro založil Rafael Kubelík",
+   "country": "CZ",
+   "year": 1946,
+   "text": "hudební festival Pražské jaro založil Rafael Kubelík"
+  },
+  {
+   "id": "r89",
+   "dataset": "countryEvents",
+   "key": "CZ|1948|v únoru proběhl komunistický převrat; Jan Masaryk byl nalezen mrtev pod svým oknem",
+   "country": "CZ",
+   "year": 1948,
+   "text": "v únoru proběhl komunistický převrat; Jan Masaryk byl nalezen mrtev pod svým oknem"
+  },
+  {
+   "id": "r90",
+   "dataset": "countryEvents",
+   "key": "CZ|1952|Rudolf Slánský a deset dalších komunistů byli po vykonstruovaném procesu popraveni",
+   "country": "CZ",
+   "year": 1952,
+   "text": "Rudolf Slánský a deset dalších komunistů byli po vykonstruovaném procesu popraveni"
+  },
+  {
+   "id": "r91",
+   "dataset": "countryEvents",
+   "key": "CZ|1953|měnová reforma znehodnotila úspory ze dne na den v poměru 50 ku 1",
+   "country": "CZ",
+   "year": 1953,
+   "text": "měnová reforma znehodnotila úspory ze dne na den v poměru 50 ku 1"
+  },
+  {
+   "id": "r92",
+   "dataset": "countryEvents",
+   "key": "CZ|1955|v Praze byl odhalen největší Stalinův pomník na světě — 30 metrů vysoký",
+   "country": "CZ",
+   "year": 1955,
+   "text": "v Praze byl odhalen největší Stalinův pomník na světě — 30 metrů vysoký"
+  },
+  {
+   "id": "r93",
+   "dataset": "countryEvents",
+   "key": "CZ|1958|Československý pavilon na Expu 58 v Bruselu představil Laternu magiku",
+   "country": "CZ",
+   "year": 1958,
+   "text": "Československý pavilon na Expu 58 v Bruselu představil Laternu magiku"
+  },
+  {
+   "id": "r94",
+   "dataset": "countryEvents",
+   "key": "CZ|1961|Otto Wichterle vynalezl u svého kuchyňského stolu měkkou kontaktní čočku",
+   "country": "CZ",
+   "year": 1961,
+   "text": "Otto Wichterle vynalezl u svého kuchyňského stolu měkkou kontaktní čočku"
+  },
+  {
+   "id": "r95",
+   "dataset": "countryEvents",
+   "key": "CZ|1962|Stalinův pomník byl odstřelen",
+   "country": "CZ",
+   "year": 1962,
+   "text": "Stalinův pomník byl odstřelen"
+  },
+  {
+   "id": "r96",
+   "dataset": "countryEvents",
+   "key": "CZ|1967|Ostře sledované vlaky Jiřího Menzela získaly Oscara za nejlepší cizojazyčný film",
+   "country": "CZ",
+   "year": 1967,
+   "text": "Ostře sledované vlaky Jiřího Menzela získaly Oscara za nejlepší cizojazyčný film"
+  },
+  {
+   "id": "r97",
+   "dataset": "countryEvents",
+   "key": "CZ|1968|„socialismus s lidskou tváří“ Alexandra Dubčeka byl v srpnu rozdrcen tanky Varšavské smlouvy",
+   "country": "CZ",
+   "year": 1968,
+   "text": "„socialismus s lidskou tváří“ Alexandra Dubčeka byl v srpnu rozdrcen tanky Varšavské smlouvy"
+  },
+  {
+   "id": "r98",
+   "dataset": "countryEvents",
+   "key": "CZ|1969|student Jan Palach se 16. ledna upálil na Václavském náměstí",
+   "country": "CZ",
+   "year": 1969,
+   "text": "student Jan Palach se 16. ledna upálil na Václavském náměstí"
+  },
+  {
+   "id": "r99",
+   "dataset": "countryEvents",
+   "key": "CZ|1972|Československo se v Praze stalo mistrem světa v ledním hokeji",
+   "country": "CZ",
+   "year": 1972,
+   "text": "Československo se v Praze stalo mistrem světa v ledním hokeji"
+  }
+ ]
+}

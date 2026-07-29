@@ -1,0 +1,906 @@
+{
+ "pass": "C",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "lviv|1943|koncentrační tábor Janowska na okraji Lvova byl zlikvidován; bylo tam zabito několik desítek tisíc lidí",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1943,
+   "text": "koncentrační tábor Janowska na okraji Lvova byl zlikvidován; bylo tam zabito několik desítek tisíc lidí"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "lviv|1943|matematici lvovské školy se i poté, co byla většina z nich zabita nebo uprchla, dál scházeli ve Skotské kavárně",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1943,
+   "text": "matematici lvovské školy se i poté, co byla většina z nich zabita nebo uprchla, dál scházeli ve Skotské kavárně"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "lviv|1944|Rudá armáda dobyla Lvov zpět v červenci",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1944,
+   "text": "Rudá armáda dobyla Lvov zpět v červenci"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "lviv|1944|metropolita řeckokatolické církve Andrej Šeptyckyj zemřel 1. listopadu",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1944,
+   "text": "metropolita řeckokatolické církve Andrej Šeptyckyj zemřel 1. listopadu"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "lviv|1945|lvovský pseudosynod zlikvidoval Ukrajinskou řeckokatolickou církev a vynutil sjednocení s Ruskou pravoslavnou církví",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1945,
+   "text": "lvovský pseudosynod zlikvidoval Ukrajinskou řeckokatolickou církev a vynutil sjednocení s Ruskou pravoslavnou církví"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "lviv|1946|polské obyvatelstvo města bylo přesunuto na západ; nastěhovali se Ukrajinci z polského území",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1946,
+   "text": "polské obyvatelstvo města bylo přesunuto na západ; nastěhovali se Ukrajinci z polského území"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "lviv|1946|metropolita Josyf Slipyj byl odsouzen do pracovního tábora",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1946,
+   "text": "metropolita Josyf Slipyj byl odsouzen do pracovního tábora"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "lviv|1948|spisovatel Jaroslav Halan byl zavražděn sekerou studenty napojenými na OUN",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1948,
+   "text": "spisovatel Jaroslav Halan byl zavražděn sekerou studenty napojenými na OUN"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "lviv|1950|byla založena Lvovská autobuska, která měla později vyrábět městský autobus LAZ-695",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1950,
+   "text": "byla založena Lvovská autobuska, která měla později vyrábět městský autobus LAZ-695"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "lviv|1956|lvovská televizní věž zahájila vysílání",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1956,
+   "text": "lvovská televizní věž zahájila vysílání"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "lviv|1959|televizní továrna Kineskop začala vyrábět prototypy barevných obrazovek",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1959,
+   "text": "televizní továrna Kineskop začala vyrábět prototypy barevných obrazovek"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "lviv|1961|Ukrajinský svaz dělníků a rolníků vedený Levkem Lukjanenkem byl rozdrcen a jeho členové souzeni ve Lvově",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1961,
+   "text": "Ukrajinský svaz dělníků a rolníků vedený Levkem Lukjanenkem byl rozdrcen a jeho členové souzeni ve Lvově"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "lviv|1963|Vjačeslav Čornovil začal dokumentovat politické procesy, což vedlo k jeho vlastnímu stíhání",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1963,
+   "text": "Vjačeslav Čornovil začal dokumentovat politické procesy, což vedlo k jeho vlastnímu stíhání"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "lviv|1965|Ivan Dzjuba a Vasyl Stus protestovali proti zatýkání lvovské inteligence v kině Ukrajina",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1965,
+   "text": "Ivan Dzjuba a Vasyl Stus protestovali proti zatýkání lvovské inteligence v kině Ukrajina"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "lviv|1970|Lvov se stal tichým centrem ukrajinské disidentské kultury a undergroundového samizdatu",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1970,
+   "text": "Lvov se stal tichým centrem ukrajinské disidentské kultury a undergroundového samizdatu"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "lviv|1970|okruh malíře Romana Selského dál vyučoval na Lvovském institutu užitého umění",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1970,
+   "text": "okruh malíře Romana Selského dál vyučoval na Lvovském institutu užitého umění"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "lviv|1972|obnovená vlna zatýkání zasáhla lvovské šistdesjatnyky včetně Iryny Kalynec",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1972,
+   "text": "obnovená vlna zatýkání zasáhla lvovské šistdesjatnyky včetně Iryny Kalynec"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "lviv|1978|Oleksa Hirnyk se upálil u Ševčenkova pomníku v Kanivu, ale byl rodákem ze Lvovska protestujícím proti rusifikaci",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1978,
+   "text": "Oleksa Hirnyk se upálil u Ševčenkova pomníku v Kanivu, ale byl rodákem ze Lvovska protestujícím proti rusifikaci"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "lviv|1980|ve Lvovské autobusce byla zahájena výroba městského autobusu LAZ-4202",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1980,
+   "text": "ve Lvovské autobusce byla zahájena výroba městského autobusu LAZ-4202"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "mariupol|1924|po raných sovětských reorganizacích bylo město přejmenováno zpět na Mariupol z jeho podoby řeckého původu",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1924,
+   "text": "po raných sovětských reorganizacích bylo město přejmenováno zpět na Mariupol z jeho podoby řeckého původu"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "mariupol|1933|otevřela se metalurgická huť Azovstal — jedna z vlajkových oceláren SSSR",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1933,
+   "text": "otevřela se metalurgická huť Azovstal — jedna z vlajkových oceláren SSSR"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "mariupol|1933|holodomor zasáhl obzvláště tvrdě okolní řecké vesnice v Pryazoví",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1933,
+   "text": "holodomor zasáhl obzvláště tvrdě okolní řecké vesnice v Pryazoví"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "mariupol|1937|řecká operace NKVD se zaměřila na pontský řecký obyvatelstvo Mariupolu masovým zatýkáním a popravami",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1937,
+   "text": "řecká operace NKVD se zaměřila na pontský řecký obyvatelstvo Mariupolu masovým zatýkáním a popravami"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "mariupol|1941|v říjnu obsazeno wehrmachtem; mariupolští Židé byli zavražděni v rokli Agrobaza",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1941,
+   "text": "v říjnu obsazeno wehrmachtem; mariupolští Židé byli zavražděni v rokli Agrobaza"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "mariupol|1941|wehrmacht obsadil město v říjnu",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1941,
+   "text": "wehrmacht obsadil město v říjnu"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "mariupol|1941|v protitankovém příkopu Agrobaza východně od města bylo zastřeleno asi 9 000 Židů",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1941,
+   "text": "v protitankovém příkopu Agrobaza východně od města bylo zastřeleno asi 9 000 Židů"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "mariupol|1943|osvobozeno Rudou armádou v září",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1943,
+   "text": "osvobozeno Rudou armádou v září"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "mariupol|1943|sovětské síly osvobodily město 10. září po donbaské ofenzivě",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1943,
+   "text": "sovětské síly osvobodily město 10. září po donbaské ofenzivě"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "mariupol|1953|po Stalinově smrti bylo město nakrátko přejmenováno zpět na Mariupol, ale Ždanov byl zachován",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1953,
+   "text": "po Stalinově smrti bylo město nakrátko přejmenováno zpět na Mariupol, ale Ždanov byl zachován"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "mariupol|1958|byla uvedena do provozu vysoká pec Azovstal č. 3",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1958,
+   "text": "byla uvedena do provozu vysoká pec Azovstal č. 3"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "mariupol|1968|hutě Iljičova ocelárna byly modernizovány plynulým litím",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1968,
+   "text": "hutě Iljičova ocelárna byly modernizovány plynulým litím"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "mariupol|1975|Azovstal a Iljičova ocelárna dohromady zaměstnávaly asi 50 000 dělníků",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1975,
+   "text": "Azovstal a Iljičova ocelárna dohromady zaměstnávaly asi 50 000 dělníků"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "mariupol|1975|závod na těžké strojírenství Azovmaš vyráběl zařízení pro Bajkalsko-amurskou magistrálu",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1975,
+   "text": "závod na těžké strojírenství Azovmaš vyráběl zařízení pro Bajkalsko-amurskou magistrálu"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "mariupol|1920|Rudá armáda na jaře vyhnala síly bílého generála Děnikina; přístav obnovil na podzim vývoz obilí",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1920,
+   "text": "Rudá armáda na jaře vyhnala síly bílého generála Děnikina; přístav obnovil na podzim vývoz obilí"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "mariupol|1923|Mariupol se stal správním centrem okruhu; pontská řecká komunita o asi 80 000 lidech byla stále největší v SSSR",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1923,
+   "text": "Mariupol se stal správním centrem okruhu; pontská řecká komunita o asi 80 000 lidech byla stále největší v SSSR"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "mariupol|1929|huť Azovstal byla vyměřena na zelené louce východně od řeky Kalmius — největší jednotlivý průmyslový projekt první pětiletky",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1929,
+   "text": "huť Azovstal byla vyměřena na zelené louce východně od řeky Kalmius — největší jednotlivý průmyslový projekt první pětiletky"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "mariupol|1932|holodomor dosáhl okraje města; vesnice pryazovského řeckého a ukrajinského pásu se vylidnily",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1932,
+   "text": "holodomor dosáhl okraje města; vesnice pryazovského řeckého a ukrajinského pásu se vylidnily"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "mariupol|1939|Iljičova ocelárna byla přestavěna a vyráběla pancéřové pláty pro nové tanky T-34 Rudé armády",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1939,
+   "text": "Iljičova ocelárna byla přestavěna a vyráběla pancéřové pláty pro nové tanky T-34 Rudé armády"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "mariupol|1940|námořní přístav odbavil rekordní náklad donbaského uhlí mířícího do černomořských destinací",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1940,
+   "text": "námořní přístav odbavil rekordní náklad donbaského uhlí mířícího do černomořských destinací"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "mariupol|1942|wehrmacht vedl režim nucené práce; tisíce obyvatel Mariupolu byly odvlečeny do táborů Ostarbeiterů v říši",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1942,
+   "text": "wehrmacht vedl režim nucené práce; tisíce obyvatel Mariupolu byly odvlečeny do táborů Ostarbeiterů v říši"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "mariupol|1947|první poválečná vysoká pec Azovstalu byla zapálena po téměř úplném válečném zničení",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1947,
+   "text": "první poválečná vysoká pec Azovstalu byla zapálena po téměř úplném válečném zničení"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "mariupol|1949|přestavěné centrum města vyrostlo na Leninově prospektu s klasicistními socialisticko-realistickými fasádami",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1949,
+   "text": "přestavěné centrum města vyrostlo na Leninově prospektu s klasicistními socialisticko-realistickými fasádami"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "mariupol|1955|loděnice Ždanov spustila na vodu své první zaoceánské tankery pro Černomořskou námořní plavbu",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1955,
+   "text": "loděnice Ždanov spustila na vodu své první zaoceánské tankery pro Černomořskou námořní plavbu"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "mariupol|1961|koksárenská baterie Azovstalu č. 4 učinila z hutí na několik let největšího jednotlivého výrobce oceli v SSSR",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1961,
+   "text": "koksárenská baterie Azovstalu č. 4 učinila z hutí na několik let největšího jednotlivého výrobce oceli v SSSR"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "mariupol|1965|černomořské pobřeží východně od města se stalo pásem sovětských letních táborů se sanatorii pro rodiny ocelářů",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1965,
+   "text": "černomořské pobřeží východně od města se stalo pásem sovětských letních táborů se sanatorii pro rodiny ocelářů"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "mariupol|1970|ždanovské činoherní divadlo na centrálním náměstí hostilo pravidelná zájezdová představení z Kyjeva a Moskvy",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1970,
+   "text": "ždanovské činoherní divadlo na centrálním náměstí hostilo pravidelná zájezdová představení z Kyjeva a Moskvy"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "mariupol|1971|Azovstal získal Leninův řád na počest válečné obrany města a poválečné rekonstrukce",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1971,
+   "text": "Azovstal získal Leninův řád na počest válečné obrany města a poválečné rekonstrukce"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "mariupol|1977|vzduch nad Ždanovem byl sovětskými úřady oficiálně klasifikován jako 'nezdravý' — ale žádný závod výrobu neomezil",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1977,
+   "text": "vzduch nad Ždanovem byl sovětskými úřady oficiálně klasifikován jako 'nezdravý' — ale žádný závod výrobu neomezil"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "mariupol|1979|město poprvé dosáhlo počtu půl milionu obyvatel",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1979,
+   "text": "město poprvé dosáhlo počtu půl milionu obyvatel"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "mariupol|1980|lodní kontejnery a nákladní vagony vyrobené v Mariupolu se rozjely po celém sovětském bloku; závod Azovmaš byl jedním z největších vývozců v Ukrajinské SSR",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1980,
+   "text": "lodní kontejnery a nákladní vagony vyrobené v Mariupolu se rozjely po celém sovětském bloku; závod Azovmaš byl jedním z největších vývozců v Ukrajinské SSR"
+  },
+  {
+   "id": "r50",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1920|mykolajivské loděnice byly významným námořním centrem carského Ruska a rychle se opět zapojily do práce pro Sověty",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1920,
+   "text": "mykolajivské loděnice byly významným námořním centrem carského Ruska a rychle se opět zapojily do práce pro Sověty"
+  },
+  {
+   "id": "r51",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1922|loděnice André Marti byla pojmenována po francouzském komunistickém vzbouřenci z černomořské intervence roku 1919",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1922,
+   "text": "loděnice André Marti byla pojmenována po francouzském komunistickém vzbouřenci z černomořské intervence roku 1919"
+  },
+  {
+   "id": "r52",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1929|městské loděnice spustily na vodu křižník Červona Ukrajina pro Černomořskou flotilu",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1929,
+   "text": "městské loděnice spustily na vodu křižník Červona Ukrajina pro Černomořskou flotilu"
+  },
+  {
+   "id": "r53",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1937|ředitel loděnice Konstantin Vasilevskij byl spolu s velkou částí technického personálu odstraněn v čistkách",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1937,
+   "text": "ředitel loděnice Konstantin Vasilevskij byl spolu s velkou částí technického personálu odstraněn v čistkách"
+  },
+  {
+   "id": "r54",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1941|wehrmacht obsadil loděnice v srpnu",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1941,
+   "text": "wehrmacht obsadil loděnice v srpnu"
+  },
+  {
+   "id": "r55",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1941|wehrmacht obsadil Mykolajiv v srpnu spolu s nedokončenou bitevní lodí Sovětská Ukrajina na skluzu",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1941,
+   "text": "wehrmacht obsadil Mykolajiv v srpnu spolu s nedokončenou bitevní lodí Sovětská Ukrajina na skluzu"
+  },
+  {
+   "id": "r56",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1944|Rudá armáda dobyla město zpět v březnu",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1944,
+   "text": "Rudá armáda dobyla město zpět v březnu"
+  },
+  {
+   "id": "r57",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1944|sovětští námořníci pod vedením Konstantina Olšanského se v březnu vylodili v přístavu při téměř sebevražedném výsadku, který pomohl město osvobodit",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1944,
+   "text": "sovětští námořníci pod vedením Konstantina Olšanského se v březnu vylodili v přístavu při téměř sebevražedném výsadku, který pomohl město osvobodit"
+  },
+  {
+   "id": "r58",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1950|loděnice č. 444 obnovila stavbu křižníků a spustila na vodu třídu Sverdlov",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1950,
+   "text": "loděnice č. 444 obnovila stavbu křižníků a spustila na vodu třídu Sverdlov"
+  },
+  {
+   "id": "r59",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1972|zde byla položena kýl letadlové lodi Kyjev — první třídy Kyjev",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1972,
+   "text": "zde byla položena kýl letadlové lodi Kyjev — první třídy Kyjev"
+  },
+  {
+   "id": "r60",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1972|v Černomořské loděnici byl spuštěn na vodu křižník nesoucí letadla Kyjev",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1972,
+   "text": "v Černomořské loděnici byl spuštěn na vodu křižník nesoucí letadla Kyjev"
+  },
+  {
+   "id": "r61",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1975|byl spuštěn na vodu letadlový křižník Minsk, čímž se upevnila role Mykolajiva jako jediné loděnice SSSR stavějící letadlové lodě",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1975,
+   "text": "byl spuštěn na vodu letadlový křižník Minsk, čímž se upevnila role Mykolajiva jako jediné loděnice SSSR stavějící letadlové lodě"
+  },
+  {
+   "id": "r62",
+   "dataset": "cityFacts",
+   "key": "odesa|1920|sovětské síly definitivně obsadily město po letech střídání moci za občanské války",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1920,
+   "text": "sovětské síly definitivně obsadily město po letech střídání moci za občanské války"
+  },
+  {
+   "id": "r63",
+   "dataset": "cityFacts",
+   "key": "odesa|1920|Rudá armáda definitivně obsadila město v únoru, čímž ukončila francouzskou a bělogvardějskou intervenci",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1920,
+   "text": "Rudá armáda definitivně obsadila město v únoru, čímž ukončila francouzskou a bělogvardějskou intervenci"
+  },
+  {
+   "id": "r64",
+   "dataset": "cityFacts",
+   "key": "odesa|1923|Oděský filmový ateliér byl reorganizován a začali tam pracovat bratři Vasiljevové",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1923,
+   "text": "Oděský filmový ateliér byl reorganizován a začali tam pracovat bratři Vasiljevové"
+  },
+  {
+   "id": "r65",
+   "dataset": "cityFacts",
+   "key": "odesa|1925|Sergej Ejzenštejn natočil film Křižník Potěmkin včetně scény na Potěmkinových schodech",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1925,
+   "text": "Sergej Ejzenštejn natočil film Křižník Potěmkin včetně scény na Potěmkinových schodech"
+  },
+  {
+   "id": "r66",
+   "dataset": "cityFacts",
+   "key": "odesa|1926|spisovatel Isaak Babel vydal Oděské povídky čerpající z gangsterů z Moldavanky kolem Miška Japončika",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1926,
+   "text": "spisovatel Isaak Babel vydal Oděské povídky čerpající z gangsterů z Moldavanky kolem Miška Japončika"
+  },
+  {
+   "id": "r67",
+   "dataset": "cityFacts",
+   "key": "odesa|1928|román Jurije Oleši Závist popsal novou sovětskou oděskou inteligenci",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1928,
+   "text": "román Jurije Oleši Závist popsal novou sovětskou oděskou inteligenci"
+  },
+  {
+   "id": "r68",
+   "dataset": "cityFacts",
+   "key": "odesa|1932|uprchlíci před holodomorem z okolních vesnic byli na okraji města vraceni zpět",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1932,
+   "text": "uprchlíci před holodomorem z okolních vesnic byli na okraji města vraceni zpět"
+  },
+  {
+   "id": "r69",
+   "dataset": "cityFacts",
+   "key": "odesa|1933|oděský přístav odbavoval rekordní vývoz obilí, i když venkov hladověl",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1933,
+   "text": "oděský přístav odbavoval rekordní vývoz obilí, i když venkov hladověl"
+  },
+  {
+   "id": "r70",
+   "dataset": "cityFacts",
+   "key": "odesa|1934|jazzový orchestr Leonida Utěsova vystupoval ve filmu Veselí chlapíci a popularizoval oděský hudební styl",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1934,
+   "text": "jazzový orchestr Leonida Utěsova vystupoval ve filmu Veselí chlapíci a popularizoval oděský hudební styl"
+  },
+  {
+   "id": "r71",
+   "dataset": "cityFacts",
+   "key": "odesa|1937|spisovatel Isaak Babel byl zatčen a později během Velkého teroru zastřelen",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1937,
+   "text": "spisovatel Isaak Babel byl zatčen a později během Velkého teroru zastřelen"
+  },
+  {
+   "id": "r72",
+   "dataset": "cityFacts",
+   "key": "odesa|1941|Oděsa se před pádem 73 dní bránila rumunským a německým silám",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1941,
+   "text": "Oděsa se před pádem 73 dní bránila rumunským a německým silám"
+  },
+  {
+   "id": "r73",
+   "dataset": "cityFacts",
+   "key": "odesa|1941|od října se město stalo hlavním městem rumunsky okupovaného Podněstří",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1941,
+   "text": "od října se město stalo hlavním městem rumunsky okupovaného Podněstří"
+  },
+  {
+   "id": "r74",
+   "dataset": "cityFacts",
+   "key": "odesa|1941|po bombardování rumunského velitelství byly tisíce Židů zaživa upáleny ve skladech střelného prachu na Lustdorfské cestě",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1941,
+   "text": "po bombardování rumunského velitelství byly tisíce Židů zaživa upáleny ve skladech střelného prachu na Lustdorfské cestě"
+  },
+  {
+   "id": "r75",
+   "dataset": "cityFacts",
+   "key": "odesa|1942|rumunsky okupovaná Oděsa byla dějištěm oděského masakru Židů",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1942,
+   "text": "rumunsky okupovaná Oděsa byla dějištěm oděského masakru Židů"
+  },
+  {
+   "id": "r76",
+   "dataset": "cityFacts",
+   "key": "odesa|1943|v oděských katakombách operovali partyzáni pod vedením Vladimira Molodcova-Badajeva",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1943,
+   "text": "v oděských katakombách operovali partyzáni pod vedením Vladimira Molodcova-Badajeva"
+  },
+  {
+   "id": "r77",
+   "dataset": "cityFacts",
+   "key": "odesa|1944|Rudá armáda dobyla město zpět v dubnu",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1944,
+   "text": "Rudá armáda dobyla město zpět v dubnu"
+  },
+  {
+   "id": "r78",
+   "dataset": "cityFacts",
+   "key": "odesa|1945|tržnice Privoz obnovila plný provoz jako hlavní potravinové centrum města",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1945,
+   "text": "tržnice Privoz obnovila plný provoz jako hlavní potravinové centrum města"
+  },
+  {
+   "id": "r79",
+   "dataset": "cityFacts",
+   "key": "odesa|1949|Oděský filmový ateliér obnovil produkci po válečné evakuaci z Taškentu",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1949,
+   "text": "Oděský filmový ateliér obnovil produkci po válečné evakuaci z Taškentu"
+  },
+  {
+   "id": "r80",
+   "dataset": "cityFacts",
+   "key": "odesa|1953|Potěmkinovy schody byly přejmenovány na Bulvárové schody a zrestaurovány",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1953,
+   "text": "Potěmkinovy schody byly přejmenovány na Bulvárové schody a zrestaurovány"
+  },
+  {
+   "id": "r81",
+   "dataset": "cityFacts",
+   "key": "odesa|1955|Mark Berness vystupoval v Oděské filharmonii před plnými sály",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1955,
+   "text": "Mark Berness vystupoval v Oděské filharmonii před plnými sály"
+  },
+  {
+   "id": "r82",
+   "dataset": "cityFacts",
+   "key": "odesa|1960|severně od města začala stavba průmyslového přístavu Južnyj",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1960,
+   "text": "severně od města začala stavba průmyslového přístavu Južnyj"
+  },
+  {
+   "id": "r83",
+   "dataset": "cityFacts",
+   "key": "odesa|1965|Oděse byl Sovětským svazem udělen status 'města-hrdiny'",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1965,
+   "text": "Oděse byl Sovětským svazem udělen status 'města-hrdiny'"
+  },
+  {
+   "id": "r84",
+   "dataset": "cityFacts",
+   "key": "odesa|1966|komik Roman Karcev začal vystupovat v oděském estrádním divadle Parnas-2",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1966,
+   "text": "komik Roman Karcev začal vystupovat v oděském estrádním divadle Parnas-2"
+  },
+  {
+   "id": "r85",
+   "dataset": "cityFacts",
+   "key": "odesa|1967|Michail Žvaneckij začal psát pro Arkadije Rajkina, zatímco působil v Oděse",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1967,
+   "text": "Michail Žvaneckij začal psát pro Arkadije Rajkina, zatímco působil v Oděse"
+  },
+  {
+   "id": "r86",
+   "dataset": "cityFacts",
+   "key": "odesa|1970|propuknutí cholery vynutilo na týdny karanténu celého města",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1970,
+   "text": "propuknutí cholery vynutilo na týdny karanténu celého města"
+  },
+  {
+   "id": "r87",
+   "dataset": "cityFacts",
+   "key": "odesa|1972|mnoho oděských Židů začalo emigrovat poté, co Sověti pod americkým tlakem uvolnili výjezdní víza",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1972,
+   "text": "mnoho oděských Židů začalo emigrovat poté, co Sověti pod americkým tlakem uvolnili výjezdní víza"
+  },
+  {
+   "id": "r88",
+   "dataset": "cityFacts",
+   "key": "odesa|1975|Černomořská námořní plavba se sídlem v Oděse provozovala jedno z největších obchodních loďstev na světě",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1975,
+   "text": "Černomořská námořní plavba se sídlem v Oděse provozovala jedno z největších obchodních loďstev na světě"
+  },
+  {
+   "id": "r89",
+   "dataset": "cityFacts",
+   "key": "odesa|1976|Kira Muratová natočila v Oděském filmovém ateliéru film Dlouhé loučení, ačkoli jej cenzoři odložili",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1976,
+   "text": "Kira Muratová natočila v Oděském filmovém ateliéru film Dlouhé loučení, ačkoli jej cenzoři odložili"
+  },
+  {
+   "id": "r90",
+   "dataset": "cityFacts",
+   "key": "odesa|1978|v Centralnyj se otevřel nový terminál oděského letiště",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1978,
+   "text": "v Centralnyj se otevřel nový terminál oděského letiště"
+  },
+  {
+   "id": "r91",
+   "dataset": "cityFacts",
+   "key": "odesa|1921|hladomor let 1921-22 zasáhl oděské zázemí; městské židovské charity a Americký židovský společný distribuční výbor (Joint) provozovaly na Děribasovské ulici vývařovny",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1921,
+   "text": "hladomor let 1921-22 zasáhl oděské zázemí; městské židovské charity a Americký židovský společný distribuční výbor (Joint) provozovaly na Děribasovské ulici vývařovny"
+  },
+  {
+   "id": "r92",
+   "dataset": "cityFacts",
+   "key": "odesa|1924|Oděský filmový ateliér éry Mosfilmu se znovu otevřel na Francouzském bulváru s novými zvukovými ateliéry",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1924,
+   "text": "Oděský filmový ateliér éry Mosfilmu se znovu otevřel na Francouzském bulváru s novými zvukovými ateliéry"
+  },
+  {
+   "id": "r93",
+   "dataset": "cityFacts",
+   "key": "odesa|1927|100. výročí Oděské opery (postavené roku 1810, přestavěné roku 1887) přivedlo do rokokového divadla na Lanžeronovské sovětské velikány",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1927,
+   "text": "100. výročí Oděské opery (postavené roku 1810, přestavěné roku 1887) přivedlo do rokokového divadla na Lanžeronovské sovětské velikány"
+  },
+  {
+   "id": "r94",
+   "dataset": "cityFacts",
+   "key": "odesa|1929|spisovatelé Ilja Ilf a Jevgenij Petrov čerpali pro Dvanáct křesel z oděských typů; oba ve městě vyrostli",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1929,
+   "text": "spisovatelé Ilja Ilf a Jevgenij Petrov čerpali pro Dvanáct křesel z oděských typů; oba ve městě vyrostli"
+  },
+  {
+   "id": "r95",
+   "dataset": "cityFacts",
+   "key": "odesa|1931|Mosfilm a Oděský filmový ateliér vyráběly němé komedie, které vyvážely oděský smysl pro humor po celém SSSR",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1931,
+   "text": "Mosfilm a Oděský filmový ateliér vyráběly němé komedie, které vyvážely oděský smysl pro humor po celém SSSR"
+  },
+  {
+   "id": "r96",
+   "dataset": "cityFacts",
+   "key": "odesa|1936|Pionýrský park mezi Děribasovskou a tržnicí Privoz se otevřel pro letní aktivity dětí z dělnických rodin",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1936,
+   "text": "Pionýrský park mezi Děribasovskou a tržnicí Privoz se otevřel pro letní aktivity dětí z dělnických rodin"
+  },
+  {
+   "id": "r97",
+   "dataset": "cityFacts",
+   "key": "odesa|1938|židovské obyvatelstvo města o asi 200 000 lidech stále tvořilo třetinu Oděsy",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1938,
+   "text": "židovské obyvatelstvo města o asi 200 000 lidech stále tvořilo třetinu Oděsy"
+  },
+  {
+   "id": "r98",
+   "dataset": "cityFacts",
+   "key": "odesa|1940|Sověti odstranili z obchodů staré nápisy v jidiš a nahradili je ruskými a ukrajinskými",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1940,
+   "text": "Sověti odstranili z obchodů staré nápisy v jidiš a nahradili je ruskými a ukrajinskými"
+  },
+  {
+   "id": "r99",
+   "dataset": "cityFacts",
+   "key": "odesa|1944|po osvobození zůstalo ve městě jen asi 600 oděských předválečných Židů",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1944,
+   "text": "po osvobození zůstalo ve městě jen asi 600 oděských předválečných Židů"
+  }
+ ]
+}

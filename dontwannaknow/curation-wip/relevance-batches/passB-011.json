@@ -1,0 +1,546 @@
+{
+ "pass": "B",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "ostrava|1994|30. června opustil Důl Odra v Přívoze poslední vozík s uhlím a ukončil 212 let těžby přímo v Ostravě",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1994,
+   "text": "30. června opustil Důl Odra v Přívoze poslední vozík s uhlím a ukončil 212 let těžby přímo v Ostravě"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "ostrava|1997|v červenci zaplavila Odra a Opava asi třetinu města při katastrofální povodni",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1997,
+   "text": "v červenci zaplavila Odra a Opava asi třetinu města při katastrofální povodni"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "ostrava|1998|27. září ráno odpíchla vysoká pec číslo 1 ve Vítkovicích naposledy a skončilo tak 162 let výroby surového železa",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1998,
+   "text": "27. září ráno odpíchla vysoká pec číslo 1 ve Vítkovicích naposledy a skončilo tak 162 let výroby surového železa"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "ostrava|2001|Ostrava se stala krajským městem nově vzniklého Moravskoslezského kraje",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 2001,
+   "text": "Ostrava se stala krajským městem nově vzniklého Moravskoslezského kraje"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "ostrava|2002|areál dolu Hlubina, koksovny a vysokých pecí Dolní oblasti Vítkovic byl prohlášen národní kulturní památkou",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 2002,
+   "text": "areál dolu Hlubina, koksovny a vysokých pecí Dolní oblasti Vítkovic byl prohlášen národní kulturní památkou"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "ostrava|2007|1. srpna se z Nové huti stala ArcelorMittal Ostrava, největší huť v zemi",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 2007,
+   "text": "1. srpna se z Nové huti stala ArcelorMittal Ostrava, největší huť v zemi"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "ostrava|2008|Usain Bolt zaběhl na Zlaté tretně dvoustovku za 19,83 sekundy, dodnes nejrychlejší čas na české půdě",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 2008,
+   "text": "Usain Bolt zaběhl na Zlaté tretně dvoustovku za 19,83 sekundy, dodnes nejrychlejší čas na české půdě"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "ostrava|2012|v přestavěném plynojemu Dolní oblasti Vítkovic se otevřel multifunkční sál Gong a do areálu se přestěhoval festival Colours of Ostrava",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 2012,
+   "text": "v přestavěném plynojemu Dolní oblasti Vítkovic se otevřel multifunkční sál Gong a do areálu se přestěhoval festival Colours of Ostrava"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "ostrava|2015|nad vysokou pecí číslo 1 se otevřela prosklená vyhlídková Bolt Tower; Baník zároveň 30. května odehrál poslední zápas na Bazalech",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 2015,
+   "text": "nad vysokou pecí číslo 1 se otevřela prosklená vyhlídková Bolt Tower; Baník zároveň 30. května odehrál poslední zápas na Bazalech"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "ostrava|2016|v květnu vyhlásila těžební společnost OKD úpadek s dluhy přesahujícími sedmnáct miliard korun",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 2016,
+   "text": "v květnu vyhlásila těžební společnost OKD úpadek s dluhy přesahujícími sedmnáct miliard korun"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "ostrava|2024|po zastavení výroby na konci roku 2023 zamířila do úpadku huť Liberty Ostrava, dříve Nová huť a ArcelorMittal",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 2024,
+   "text": "po zastavení výroby na konci roku 2023 zamířila do úpadku huť Liberty Ostrava, dříve Nová huť a ArcelorMittal"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "ostrava|2024|v polovině září zaplavila Ostravu povodeň po bouři Boris a statisíce lidí zůstaly bez teplé vody",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 2024,
+   "text": "v polovině září zaplavila Ostravu povodeň po bouři Boris a statisíce lidí zůstaly bez teplé vody"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "plzen|1940|Škodovy závody pod německou správou vyráběly pro wehrmacht děla, tanky a munici a patřily k hlavním zbrojním centrům třetí říše",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1940,
+   "text": "Škodovy závody pod německou správou vyráběly pro wehrmacht děla, tanky a munici a patřily k hlavním zbrojním centrům třetí říše"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "plzen|1943|spojenecké nálety na Škodovy závody zesílily a obyvatelé Plzně začali pravidelně vyhledávat protiletecké kryty",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1943,
+   "text": "spojenecké nálety na Škodovy závody zesílily a obyvatelé Plzně začali pravidelně vyhledávat protiletecké kryty"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "plzen|1945|25. dubna provedla americká 8. letecká armáda poslední velký nálet těžkých bombardérů v Evropě a zničila kolem 70 procent Škodových závodů",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1945,
+   "text": "25. dubna provedla americká 8. letecká armáda poslední velký nálet těžkých bombardérů v Evropě a zničila kolem 70 procent Škodových závodů"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "plzen|1945|při dubnových náletech zahynuly v Plzni stovky lidí jen pár dní předtím, než do města dorazili Američané",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1945,
+   "text": "při dubnových náletech zahynuly v Plzni stovky lidí jen pár dní předtím, než do města dorazili Američané"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "plzen|1951|21. prosince byly znárodněné Škodovy závody přejmenovány na Závody V. I. Lenina, zkráceně ZVIL",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1951,
+   "text": "21. prosince byly znárodněné Škodovy závody přejmenovány na Závody V. I. Lenina, zkráceně ZVIL"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "plzen|1953|po potlačení červnového povstání následovaly zatýkání, vykonstruované procesy a tresty pro dělníky Škodovky",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1953,
+   "text": "po potlačení červnového povstání následovaly zatýkání, vykonstruované procesy a tresty pro dělníky Škodovky"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "plzen|1982|Škoda Plzeň dodávala lokomotivy a trolejbusy do celého východního bloku i do Sovětského svazu",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1982,
+   "text": "Škoda Plzeň dodávala lokomotivy a trolejbusy do celého východního bloku i do Sovětského svazu"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "plzen|1990|Plzeň poprvé po desetiletích slavila 6. května osvobození americkou armádou veřejně a za účasti amerických veteránů",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1990,
+   "text": "Plzeň poprvé po desetiletích slavila 6. května osvobození americkou armádou veřejně a za účasti amerických veteránů"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "plzen|1991|v Plzni vznikla Západočeská univerzita sloučením vysoké školy strojní a pedagogické fakulty",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1991,
+   "text": "v Plzni vznikla Západočeská univerzita sloučením vysoké školy strojní a pedagogické fakulty"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "plzen|1994|1. září vznikl Plzeňský Prazdroj jako akciová společnost, na konci 90. let ovládnutá koncernem SABMiller",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1994,
+   "text": "1. září vznikl Plzeňský Prazdroj jako akciová společnost, na konci 90. let ovládnutá koncernem SABMiller"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "plzen|1998|koncern Škoda se po finančních potížích rozpadl na samostatné firmy a tisíce lidí přišly o práci",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1998,
+   "text": "koncern Škoda se po finančních potížích rozpadl na samostatné firmy a tisíce lidí přišly o práci"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "plzen|2005|k 60. výročí osvobození byl otevřen Patton Memorial Pilsen, jediné české muzeum věnované americké armádě",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 2005,
+   "text": "k 60. výročí osvobození byl otevřen Patton Memorial Pilsen, jediné české muzeum věnované americké armádě"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "plzen|2008|Techmania Science Center otevřela v bývalých halách Škodovky první expozice popularizující vědu a techniku",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 2008,
+   "text": "Techmania Science Center otevřela v bývalých halách Škodovky první expozice popularizující vědu a techniku"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "plzen|2011|FC Viktoria Plzeň získala pod trenérem Pavlem Vrbou vůbec první ligový titul ve své historii a otevřela přestavěnou Doosan Arenu",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 2011,
+   "text": "FC Viktoria Plzeň získala pod trenérem Pavlem Vrbou vůbec první ligový titul ve své historii a otevřela přestavěnou Doosan Arenu"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "plzen|2011|na podzim nastoupila Viktoria poprvé do skupinové fáze Ligy mistrů",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 2011,
+   "text": "na podzim nastoupila Viktoria poprvé do skupinové fáze Ligy mistrů"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "plzen|2013|Viktoria Plzeň získala druhý ligový titul a stala se stálicí domácí špičky",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 2013,
+   "text": "Viktoria Plzeň získala druhý ligový titul a stala se stálicí domácí špičky"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "plzen|2013|4. listopadu otevřela Techmania nové 3D planetárium, první svého druhu v Česku",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 2013,
+   "text": "4. listopadu otevřela Techmania nové 3D planetárium, první svého druhu v Česku"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "plzen|2015|Plzeň byla po celý rok Evropským hlavním městem kultury a uspořádala přes šest set akcí, mimo jiné v areálu DEPO2015",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 2015,
+   "text": "Plzeň byla po celý rok Evropským hlavním městem kultury a uspořádala přes šest set akcí, mimo jiné v areálu DEPO2015"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "plzen|2015|Viktoria Plzeň získala třetí ligový titul a o rok později jej obhájila",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 2015,
+   "text": "Viktoria Plzeň získala třetí ligový titul a o rok později jej obhájila"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "plzen|2018|Viktoria Plzeň vybojovala další mistrovský titul a znovu se probojovala do skupiny Ligy mistrů",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 2018,
+   "text": "Viktoria Plzeň vybojovala další mistrovský titul a znovu se probojovala do skupiny Ligy mistrů"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "plzen|2022|Viktoria Plzeň získala šestý ligový titul a opět postoupila do skupinové fáze Ligy mistrů",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 2022,
+   "text": "Viktoria Plzeň získala šestý ligový titul a opět postoupila do skupinové fáze Ligy mistrů"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "most|1947|25. května se na trati kolem starého pivovaru ve starém Mostě jely první automobilové závody, vzdálený předchůdce pozdějšího autodromu",
+   "country": "CZ",
+   "city": "most",
+   "year": 1947,
+   "text": "25. května se na trati kolem starého pivovaru ve starém Mostě jely první automobilové závody, vzdálený předchůdce pozdějšího autodromu"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "most|1967|do nového města na jihu se začali stěhovat první obyvatelé z postupně bouraných čtvrtí starého Mostu",
+   "country": "CZ",
+   "city": "most",
+   "year": 1967,
+   "text": "do nového města na jihu se začali stěhovat první obyvatelé z postupně bouraných čtvrtí starého Mostu"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "most|1975|přesun kostela Nanebevzetí Panny Marie po kolejích sledovaly na konci října televizní štáby z celého světa",
+   "country": "CZ",
+   "city": "most",
+   "year": 1975,
+   "text": "přesun kostela Nanebevzetí Panny Marie po kolejích sledovaly na konci října televizní štáby z celého světa"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "most|1976|po dokončení přesunu zůstal gotický kostel jediným dochovaným objektem zbořeného starého města",
+   "country": "CZ",
+   "city": "most",
+   "year": 1976,
+   "text": "po dokončení přesunu zůstal gotický kostel jediným dochovaným objektem zbořeného starého města"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "most|1983|v místě bývalého povrchového dolu Vrbenský byl otevřen Autodrom Most, první stálý závodní okruh v Československu",
+   "country": "CZ",
+   "city": "most",
+   "year": 1983,
+   "text": "v místě bývalého povrchového dolu Vrbenský byl otevřen Autodrom Most, první stálý závodní okruh v Československu"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "most|1987|demolice posledních zbytků starého Mostu byly dokončeny a povrchový důl postoupil až k okraji nového města",
+   "country": "CZ",
+   "city": "most",
+   "year": 1987,
+   "text": "demolice posledních zbytků starého Mostu byly dokončeny a povrchový důl postoupil až k okraji nového města"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "most|2008|v říjnu začalo napouštění zbytkové jámy bývalého lomu Ležáky vodou z Ohře, čímž se začalo rodit jezero Most",
+   "country": "CZ",
+   "city": "most",
+   "year": 2008,
+   "text": "v říjnu začalo napouštění zbytkové jámy bývalého lomu Ležáky vodou z Ohře, čímž se začalo rodit jezero Most"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "most|2014|v září bylo po šesti letech dokončeno napouštění jezera Most o ploše přes tři sta hektarů na místě zatopeného dolu",
+   "country": "CZ",
+   "city": "most",
+   "year": 2014,
+   "text": "v září bylo po šesti letech dokončeno napouštění jezera Most o ploše přes tři sta hektarů na místě zatopeného dolu"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "most|2020|rekultivované okolí jezera Most se postupně otevíralo veřejnosti jako rekreační zázemí na místě bývalého starého města",
+   "country": "CZ",
+   "city": "most",
+   "year": 2020,
+   "text": "rekultivované okolí jezera Most se postupně otevíralo veřejnosti jako rekreační zázemí na místě bývalého starého města"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "litvinov|1945|v Horním Litvínově vznikl hokejový klub, pozdější HC Litvínov, pod názvem SK SZ Horní Litvínov",
+   "country": "CZ",
+   "city": "litvinov",
+   "year": 1945,
+   "text": "v Horním Litvínově vznikl hokejový klub, pozdější HC Litvínov, pod názvem SK SZ Horní Litvínov"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "litvinov|1959|litvínovští hokejisté postoupili do nejvyšší soutěže, kterou od té doby drží nepřetržitě jako jediný klub vedle Pardubic",
+   "country": "CZ",
+   "city": "litvinov",
+   "year": 1959,
+   "text": "litvínovští hokejisté postoupili do nejvyšší soutěže, kterou od té doby drží nepřetržitě jako jediný klub vedle Pardubic"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "litvinov|1960|závod v Záluží nesoucí Stalinovo jméno byl po destalinizaci přejmenován a stal se základem chemičky Chemopetrol",
+   "country": "CZ",
+   "city": "litvinov",
+   "year": 1960,
+   "text": "závod v Záluží nesoucí Stalinovo jméno byl po destalinizaci přejmenován a stal se základem chemičky Chemopetrol"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "litvinov|1982|Chemopetrol patřil k největším zaměstnavatelům severních Čech a zásoboval celé Československo plasty a pohonnými hmotami",
+   "country": "CZ",
+   "city": "litvinov",
+   "year": 1982,
+   "text": "Chemopetrol patřil k největším zaměstnavatelům severních Čech a zásoboval celé Československo plasty a pohonnými hmotami"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "litvinov|1994|po privatizaci se z chemičky stal Chemopetrol Litvínov, později začleněný do skupiny Unipetrol",
+   "country": "CZ",
+   "city": "litvinov",
+   "year": 1994,
+   "text": "po privatizaci se z chemičky stal Chemopetrol Litvínov, později začleněný do skupiny Unipetrol"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "litvinov|2008|sídliště Janov se stalo dějištěm napětí a demonstrací, na něž se soustředila celostátní pozornost",
+   "country": "CZ",
+   "city": "litvinov",
+   "year": 2008,
+   "text": "sídliště Janov se stalo dějištěm napětí a demonstrací, na něž se soustředila celostátní pozornost"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "litvinov|2015|HC Litvínov získal po sedmizápasovém finále proti Třinci vůbec první mistrovský titul ve své dlouhé historii",
+   "country": "CZ",
+   "city": "litvinov",
+   "year": 2015,
+   "text": "HC Litvínov získal po sedmizápasovém finále proti Třinci vůbec první mistrovský titul ve své dlouhé historii"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "litvinov|2015|rozhodující branku finále vstřelil František Lukeš a do prázdné branky pojistil titul s Viktorem Hüblem",
+   "country": "CZ",
+   "city": "litvinov",
+   "year": 2015,
+   "text": "rozhodující branku finále vstřelil František Lukeš a do prázdné branky pojistil titul s Viktorem Hüblem"
+  },
+  {
+   "id": "r50",
+   "dataset": "cityFacts",
+   "key": "cheb|1945|25. dubna obsadila Cheb 97. pěší divize americké armády a město se stalo jedním z prvních větších českých sídel osvobozených Američany",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 1945,
+   "text": "25. dubna obsadila Cheb 97. pěší divize americké armády a město se stalo jedním z prvních větších českých sídel osvobozených Američany"
+  },
+  {
+   "id": "r51",
+   "dataset": "cityFacts",
+   "key": "cheb|1945|koncem dubna se Konrad Henlein pokusil s jednotkami SS dobýt Cheb zpět, byl však odražen; boje o město a letiště si vyžádaly desítky životů",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 1945,
+   "text": "koncem dubna se Konrad Henlein pokusil s jednotkami SS dobýt Cheb zpět, byl však odražen; boje o město a letiště si vyžádaly desítky životů"
+  },
+  {
+   "id": "r52",
+   "dataset": "cityFacts",
+   "key": "cheb|1946|německá většina obyvatel Chebu byla vysídlena a do pohraničního města přišli čeští a slovenští osídlenci z vnitrozemí",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 1946,
+   "text": "německá většina obyvatel Chebu byla vysídlena a do pohraničního města přišli čeští a slovenští osídlenci z vnitrozemí"
+  },
+  {
+   "id": "r53",
+   "dataset": "cityFacts",
+   "key": "cheb|1951|podél hranice u Chebu vyrostlo zostřené pásmo ostrahy a ve městě vznikla silná posádka pohraniční stráže",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 1951,
+   "text": "podél hranice u Chebu vyrostlo zostřené pásmo ostrahy a ve městě vznikla silná posádka pohraniční stráže"
+  },
+  {
+   "id": "r54",
+   "dataset": "cityFacts",
+   "key": "cheb|1953|vylidněné vesnice v hraničním pásmu kolem Chebu byly srovnány se zemí a oblast se proměnila v nepřístupnou zónu",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 1953,
+   "text": "vylidněné vesnice v hraničním pásmu kolem Chebu byly srovnány se zemí a oblast se proměnila v nepřístupnou zónu"
+  },
+  {
+   "id": "r55",
+   "dataset": "cityFacts",
+   "key": "cheb|1978|nedaleká přírodní rezervace Soos s rašeliništi a vývěry minerálních pramenů zpřístupnila návštěvníkům naučnou stezku",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 1978,
+   "text": "nedaleká přírodní rezervace Soos s rašeliništi a vývěry minerálních pramenů zpřístupnila návštěvníkům naučnou stezku"
+  },
+  {
+   "id": "r56",
+   "dataset": "cityFacts",
+   "key": "cheb|1990|po pádu železné opony se hraniční přechod u Chebu otevřel a městem začaly proudit davy z obou stran hranice",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 1990,
+   "text": "po pádu železné opony se hraniční přechod u Chebu otevřel a městem začaly proudit davy z obou stran hranice"
+  },
+  {
+   "id": "r57",
+   "dataset": "cityFacts",
+   "key": "cheb|2004|po vstupu Česka do Evropské unie ztratila chebská hranice se sjednoceným Německem svůj dosavadní střežený charakter",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 2004,
+   "text": "po vstupu Česka do Evropské unie ztratila chebská hranice se sjednoceným Německem svůj dosavadní střežený charakter"
+  },
+  {
+   "id": "r58",
+   "dataset": "cityFacts",
+   "key": "teplice|1948|teplické lázně byly znárodněny a horké prameny začaly sloužit odborářské a státem řízené rekreaci",
+   "country": "CZ",
+   "city": "teplice",
+   "year": 1948,
+   "text": "teplické lázně byly znárodněny a horké prameny začaly sloužit odborářské a státem řízené rekreaci"
+  },
+  {
+   "id": "r59",
+   "dataset": "cityFacts",
+   "key": "teplice|1961|sklárny v okolí Teplic a v Dubí vyvážely užitkové i ozdobné sklo do zemí východního bloku i na Západ",
+   "country": "CZ",
+   "city": "teplice",
+   "year": 1961,
+   "text": "sklárny v okolí Teplic a v Dubí vyvážely užitkové i ozdobné sklo do zemí východního bloku i na Západ"
+  }
+ ]
+}

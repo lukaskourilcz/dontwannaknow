@@ -1,0 +1,308 @@
+[
+  {
+    "id": "cz-havel",
+    "country": "CZ",
+    "name": "Václav Havel",
+    "office": "prezident ČSFR (1989–1992) a České republiky (1993–2003)",
+    "termStart": 1989,
+    "termEnd": 2003,
+    "cameToPower": "Po sametové revoluci jej 29. prosince 1989 jednomyslně zvolilo Federální shromáždění prezidentem; kandidaturu prosadilo Občanské fórum pod heslem „Havel na Hrad“.",
+    "summary": "Dramatik a bývalý disident, první polistopadový prezident, za jehož úřadu se země vrátila k demokracii a zakotvila v západních strukturách.",
+    "achievements": [
+      "Za jeho prezidentství byl dokončen odchod sovětských vojsk z Československa a v červenci 1991 zanikla Varšavská smlouva.",
+      "Dovedl Českou republiku ke vstupu do NATO v březnu 1999 a k pokročilé přípravě vstupu do Evropské unie.",
+      "Dlouhodobě prosazoval česko-německé usmíření, které vyústilo v Česko-německou deklaraci z roku 1997."
+    ],
+    "controversies": [
+      "Rozsáhlá amnestie z ledna 1990 propustila vedle politických vězňů i pachatele závažné trestné činnosti a byla kritizována v souvislosti s následným růstem kriminality.",
+      "Jeho omluva za poválečný odsun sudetských Němců narážela na odpor části české veřejnosti.",
+      "V roce 1999 veřejně podpořil bombardování Jugoslávie silami NATO."
+    ],
+    "reception": [
+      {
+        "period": "1989–1992",
+        "text": "Bezprostředně po revoluci měl podle české Wikipedie širokou domácí podporu a Federální shromáždění jej zvolilo jednomyslně; po volbách v červnu 1992, v nichž uspěli Václav Klaus a Vladimír Mečiar, rozdělení federace nedokázal zabránit a 20. července 1992 abdikoval.",
+        "source": {
+          "title": "Václav Havel (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/V%C3%A1clav_Havel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "1993–2003",
+        "text": "Podle shrnutí anglické Wikipedie převyšovala jeho popularita v zahraničí popularitu doma; v domácí politice býval častým předmětem sporů a kritiky.",
+        "source": {
+          "title": "Václav Havel (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 2011",
+        "text": "Po jeho úmrtí v prosinci 2011 mu vzdali hold státníci včetně Baracka Obamy, Angely Merkelové a Lecha Wałęsy a petice s více než 80 000 podpisy vedla k přejmenování pražského letiště na Letiště Václava Havla Praha (říjen 2012).",
+        "source": {
+          "title": "Václav Havel (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "po 2011",
+        "text": "Historička Marci Shoreová připomíná, že jeho poselství o spoluodpovědnosti všech za minulost bylo doma nepopulární; historiografie dále diskutuje amnestii z roku 1990 a postoj k odsunu sudetských Němců.",
+        "source": {
+          "title": "Václav Havel (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Václav Havel (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/V%C3%A1clav_Havel",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Václav Havel (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-klaus",
+    "country": "CZ",
+    "name": "Václav Klaus",
+    "office": "prezident České republiky",
+    "termStart": 2003,
+    "termEnd": 2013,
+    "cameToPower": "Poslanci a senátoři jej zvolili prezidentem 28. února 2003 ve třetím kole volby 142 hlasy z 281; v únoru 2008 mandát obhájil rovněž ve třetím kole se 141 hlasy.",
+    "summary": "Ekonom a spolutvůrce transformace 90. let, jako prezident vyhraněný kritik evropské integrace a klimatické politiky.",
+    "achievements": [
+      "Jako federální ministr financí (od prosince 1989) a poté předseda české vlády (1992–1997) řídil ekonomickou transformaci včetně kuponové privatizace.",
+      "V dubnu 1991 založil Občanskou demokratickou stranu a ve volbách 1992 s ní zvítězil se ziskem kolem 30 % hlasů.",
+      "V roce 1992 s Vladimírem Mečiarem dojednal pokojné rozdělení Československa k 1. lednu 1993.",
+      "V roce 2009 podpisem dokončil českou ratifikaci Lisabonské smlouvy."
+    ],
+    "controversies": [
+      "Amnestie z ledna 2013 prominula tresty více než 111 000 osobám a podle článku II zastavila 327 dlouholetých trestních stíhání, včetně hospodářských kauz se škodami nejméně 18,6 miliardy korun.",
+      "V březnu 2013 kvůli amnestii, nedokončeným ratifikacím a nejmenování soudců schválil Senát 38 hlasy ústavní žalobu pro velezradu; Ústavní soud řízení zastavil, protože Klausovi mezitím skončil mandát.",
+      "Pád jeho vlády v listopadu 1997 provázely hospodářské potíže a skandál kolem financování ODS."
+    ],
+    "reception": [
+      {
+        "period": "1992–1997",
+        "text": "V první polovině 90. let byl podle české Wikipedie dominantní postavou pravice a symbolem rychlé transformace; v listopadu 1997 jej hospodářské potíže a skandál kolem financování ODS donutily k demisi.",
+        "source": {
+          "title": "Václav Klaus (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/V%C3%A1clav_Klaus",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2013",
+        "text": "S amnestií z ledna 2013 podle průzkumu agentury Median (3.–4. ledna 2013) nesouhlasilo 82,2 % dotázaných; petici proti ní podepsalo přes 112 000 lidí a více než 600 starostů na protest sundalo jeho portréty z úřadů a škol.",
+        "source": {
+          "title": "Amnestie Václava Klause (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Amnestie_V%C3%A1clava_Klause",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 2013",
+        "text": "Předseda Ústavního soudu Pavel Rychetský kritizoval, že amnestii z roku 2013 na rozdíl od všech amnestií od roku 1920 nepřipravila vláda, ale Hrad; amnestie zůstává hlavním sporným bodem hodnocení jeho prezidentství.",
+        "source": {
+          "title": "Amnestie Václava Klause (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Amnestie_V%C3%A1clava_Klause",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Václav Klaus (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/V%C3%A1clav_Klaus",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Amnestie Václava Klause (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Amnestie_V%C3%A1clava_Klause",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-zeman",
+    "country": "CZ",
+    "name": "Miloš Zeman",
+    "office": "prezident České republiky",
+    "termStart": 2013,
+    "termEnd": 2023,
+    "cameToPower": "V lednu 2013 zvítězil v první přímé volbě prezidenta, když ve druhém kole porazil Karla Schwarzenberga s 54,8 % hlasů; v lednu 2018 mandát obhájil proti Jiřímu Drahošovi s 51,36 %.",
+    "summary": "Bývalý předseda ČSSD a premiér, jehož desetileté prezidentství provázely spory o zahraniční orientaci země a polarizace veřejnosti.",
+    "achievements": [
+      "Jako předseda ČSSD (1993–2001) proměnil stranu v hlavní levicovou sílu: ve volbách 1996 získala 26,44 % hlasů oproti 6,53 % v roce 1992.",
+      "V letech 1998–2002 vedl po celé funkční období menšinovou vládu ČSSD, opřenou o tzv. opoziční smlouvu s ODS.",
+      "V roce 2013 se stal prvním prezidentem České republiky zvoleným v přímé volbě."
+    ],
+    "controversies": [
+      "Před rokem 2022 udržoval blízké vztahy k Rusku a Číně: v roce 2015 se zúčastnil moskevské přehlídky vítězství a v dubnu 2021 zpochybnil závěry o ruské odpovědnosti za výbuchy ve Vrběticích.",
+      "Soudy opakovaně rozhodly v jeho neprospěch ve sporu o nepravdivé tvrzení o novináři Ferdinandu Peroutkovi.",
+      "Odmítl jmenovat některé kandidáty na profesory, což vyvolalo protesty akademické obce."
+    ],
+    "reception": [
+      {
+        "period": "2013–2016",
+        "text": "Průzkumy citované anglickou Wikipedií zachycovaly kolísavou důvěru: v březnu 2016 mu důvěřovalo 62 % dotázaných, do prosince 2016 podíl klesl na 48 % po sérii kontroverzí.",
+        "source": {
+          "title": "Miloš Zeman (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2021",
+        "text": "Po zpochybnění ruské stopy ve Vrběticích v dubnu 2021 protestovaly v Praze tisíce lidí; část demonstrantů jej označovala za „sluhu“ Ruska a žádala jeho stíhání.",
+        "source": {
+          "title": "Miloš Zeman (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2013–2023",
+        "text": "Podle české Wikipedie byla společnost v pohledu na něj rozdělená: příznivci oceňovali přímý styl, kritici poukazovali na vulgární vyjadřování a prohlubování polarizace.",
+        "source": {
+          "title": "Miloš Zeman (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 2023",
+        "text": "Souhrny po konci mandátu v březnu 2023 popisují prezidentství jako polarizující, s výrazným obratem po ruské invazi na Ukrajinu v únoru 2022, kdy invazi odsoudil jako „zločin proti míru“ a v březnu 2022 udělil prezidentu Zelenskému Řád Bílého lva.",
+        "source": {
+          "title": "Miloš Zeman (anglická Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Miloš Zeman (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      },
+      {
+        "title": "Miloš Zeman (anglická Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
+    "id": "cz-pavel",
+    "country": "CZ",
+    "name": "Petr Pavel",
+    "office": "prezident České republiky",
+    "termStart": 2023,
+    "cameToPower": "V lednu 2023 zvítězil ve druhém kole přímé volby nad Andrejem Babišem s 58,32 % hlasů (3 359 301 hlasů); úřadu se ujal 9. března 2023.",
+    "summary": "Armádní generál a bývalý předseda vojenského výboru NATO, který jako prezident zdůrazňuje západní ukotvení země a podporu napadené Ukrajiny.",
+    "achievements": [
+      "V letech 2012–2015 byl náčelníkem Generálního štábu Armády České republiky.",
+      "V letech 2015–2018 předsedal vojenskému výboru NATO jako první zástupce zemí bývalé Varšavské smlouvy v této funkci.",
+      "Jako prezident od roku 2023 podporoval Ukrajinu proti ruské agresi a od ledna 2024 upozorňoval také na humanitární krizi v Pásmu Gazy."
+    ],
+    "controversies": [
+      "V letech 1985–1989 byl členem KSČ; členství později odsoudil a zveřejnil lustrační osvědčení z roku 1992, podle nějž nebyl spolupracovníkem StB.",
+      "Diskuse vyvolal jeho kurz vojenské rozvědky (1988–1991); Pavel uváděl, že absolventi mohli působit i jako diplomaté."
+    ],
+    "reception": [
+      {
+        "period": "2023",
+        "text": "Podle průzkumu CVVM citovaného českou Wikipedií vzrostla po jeho nástupu důvěra v úřad prezidenta z 38 na 58 % a Pavlovi samotnému důvěřovalo 59 % dotázaných, silněji lidé s vysokoškolským vzděláním.",
+        "source": {
+          "title": "Petr Pavel (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Petr_Pavel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      },
+      {
+        "period": "2023",
+        "text": "Před druhým kolem volby čelil dezinformační kampani, včetně nepravdivých zpráv o mobilizaci či o jeho úmrtí; útoky podle zjištění citovaných českou Wikipedií směřovaly zejména z Ruska.",
+        "source": {
+          "title": "Petr Pavel (česká Wikipedie)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://cs.wikipedia.org/wiki/Petr_Pavel",
+          "accessed": "2026-07-29",
+          "licence": "CC BY-SA 4.0"
+        }
+      }
+    ],
+    "note": "Úřad trvá; historiografické přehodnocení (reassessment) zatím není k dispozici, proto je pole vynecháno.",
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      {
+        "title": "Petr Pavel (česká Wikipedie)",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://cs.wikipedia.org/wiki/Petr_Pavel",
+        "accessed": "2026-07-29",
+        "licence": "CC BY-SA 4.0"
+      }
+    ]
+  }
+]

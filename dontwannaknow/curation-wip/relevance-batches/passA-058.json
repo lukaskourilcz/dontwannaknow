@@ -1,0 +1,456 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "countryDecades",
+   "key": "UA|1940|money|Vojenské penze a podpory válečným vdovám byly pro miliony lidí jedinou stálou hotovostí.",
+   "country": "UA",
+   "decadeStart": 1940,
+   "bucket": "money",
+   "text": "Vojenské penze a podpory válečným vdovám byly pro miliony lidí jedinou stálou hotovostí."
+  },
+  {
+   "id": "r1",
+   "dataset": "countryDecades",
+   "key": "UA|1940|bizarre|Stoupenci Stepana Bandery bojovali proti nacistům, pak proti Sovětům, až do 50. let.",
+   "country": "UA",
+   "decadeStart": 1940,
+   "bucket": "bizarre",
+   "text": "Stoupenci Stepana Bandery bojovali proti nacistům, pak proti Sovětům, až do 50. let."
+  },
+  {
+   "id": "r2",
+   "dataset": "countryDecades",
+   "key": "UA|1940|bizarre|Rudá armáda překročila v říjnu 1943 pod palbou Dněpr — bitva o rozsahu Stalingradu.",
+   "country": "UA",
+   "decadeStart": 1940,
+   "bucket": "bizarre",
+   "text": "Rudá armáda překročila v říjnu 1943 pod palbou Dněpr — bitva o rozsahu Stalingradu."
+  },
+  {
+   "id": "r3",
+   "dataset": "countryDecades",
+   "key": "UA|1940|beautiful|Olha Kobyljanská a další spisovatelky byly v poválečných letech znovu objeveny.",
+   "country": "UA",
+   "decadeStart": 1940,
+   "bucket": "beautiful",
+   "text": "Olha Kobyljanská a další spisovatelky byly v poválečných letech znovu objeveny."
+  },
+  {
+   "id": "r4",
+   "dataset": "countryDecades",
+   "key": "UA|1940|beautiful|Kyjevský Chreščatyk se znovu otevřel v roce 1949 — široké bulváry a pastelové fasády.",
+   "country": "UA",
+   "decadeStart": 1940,
+   "bucket": "beautiful",
+   "text": "Kyjevský Chreščatyk se znovu otevřel v roce 1949 — široké bulváry a pastelové fasády."
+  },
+  {
+   "id": "r5",
+   "dataset": "countryDecades",
+   "key": "UA|1950|government|Nikita Chruščov — který byl ve 30. a 40. letech ukrajinským stranickým bossem — stál v čele SSSR.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "government",
+   "text": "Nikita Chruščov — který byl ve 30. a 40. letech ukrajinským stranickým bossem — stál v čele SSSR."
+  },
+  {
+   "id": "r6",
+   "dataset": "countryDecades",
+   "key": "UA|1950|government|Krym byl v roce 1954 převeden z Ruské SFSR do Ukrajinské SSR.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "government",
+   "text": "Krym byl v roce 1954 převeden z Ruské SFSR do Ukrajinské SSR."
+  },
+  {
+   "id": "r7",
+   "dataset": "countryDecades",
+   "key": "UA|1950|government|Chruščovův „tajný projev“ z roku 1956 odsoudil Stalina a přinesl krátké uvolnění.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "government",
+   "text": "Chruščovův „tajný projev“ z roku 1956 odsoudil Stalina a přinesl krátké uvolnění."
+  },
+  {
+   "id": "r8",
+   "dataset": "countryDecades",
+   "key": "UA|1950|clothes|Bavlněné šaty s květinovými vzory, šátky, podkolenky — vzhled sovětské hospodyně.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "clothes",
+   "text": "Bavlněné šaty s květinovými vzory, šátky, podkolenky — vzhled sovětské hospodyně."
+  },
+  {
+   "id": "r9",
+   "dataset": "countryDecades",
+   "key": "UA|1950|clothes|Chlapci ve školních uniformách s rudými pionýrskými šátky.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "clothes",
+   "text": "Chlapci ve školních uniformách s rudými pionýrskými šátky."
+  },
+  {
+   "id": "r10",
+   "dataset": "countryDecades",
+   "key": "UA|1950|clothes|V kolchozech prošívané kabáty a gumové holínky.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "clothes",
+   "text": "V kolchozech prošívané kabáty a gumové holínky."
+  },
+  {
+   "id": "r11",
+   "dataset": "countryDecades",
+   "key": "UA|1950|illnesses|Hromadné očkovací kampaně do roku 1960 ukončily na Ukrajině záškrt, obrnu a neštovice.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "illnesses",
+   "text": "Hromadné očkovací kampaně do roku 1960 ukončily na Ukrajině záškrt, obrnu a neštovice."
+  },
+  {
+   "id": "r12",
+   "dataset": "countryDecades",
+   "key": "UA|1950|illnesses|Na venkově západní Ukrajiny byla stále běžná tuberkulóza.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "illnesses",
+   "text": "Na venkově západní Ukrajiny byla stále běžná tuberkulóza."
+  },
+  {
+   "id": "r13",
+   "dataset": "countryDecades",
+   "key": "UA|1950|illnesses|Průmyslové znečištění v Donbasu začalo způsobovat chronická onemocnění dýchacích cest.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "illnesses",
+   "text": "Průmyslové znečištění v Donbasu začalo způsobovat chronická onemocnění dýchacích cest."
+  },
+  {
+   "id": "r14",
+   "dataset": "countryDecades",
+   "key": "UA|1950|dailyLife|Chruščovky — pětipatrové panelové domy — od roku 1956 rostly všude.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "dailyLife",
+   "text": "Chruščovky — pětipatrové panelové domy — od roku 1956 rostly všude."
+  },
+  {
+   "id": "r15",
+   "dataset": "countryDecades",
+   "key": "UA|1950|dailyLife|Společné kuchyně byly stále standardem; vlastní koupelna byla luxusem.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "dailyLife",
+   "text": "Společné kuchyně byly stále standardem; vlastní koupelna byla luxusem."
+  },
+  {
+   "id": "r16",
+   "dataset": "countryDecades",
+   "key": "UA|1950|dailyLife|Černobílá televize dorazila do bytů na konci 50. let.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "dailyLife",
+   "text": "Černobílá televize dorazila do bytů na konci 50. let."
+  },
+  {
+   "id": "r17",
+   "dataset": "countryDecades",
+   "key": "UA|1950|food|Boršč, kaše, salo, vareniky — beze změny.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "food",
+   "text": "Boršč, kaše, salo, vareniky — beze změny."
+  },
+  {
+   "id": "r18",
+   "dataset": "countryDecades",
+   "key": "UA|1950|food|Zmrzlina (moroženoje) byla sovětským úspěchem — 10 kopějek za vanilkový kelímek.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "food",
+   "text": "Zmrzlina (moroženoje) byla sovětským úspěchem — 10 kopějek za vanilkový kelímek."
+  },
+  {
+   "id": "r19",
+   "dataset": "countryDecades",
+   "key": "UA|1950|food|V létě stávaly na mnoha městských rozích stánky s kvasem.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "food",
+   "text": "V létě stávaly na mnoha městských rozích stánky s kvasem."
+  },
+  {
+   "id": "r20",
+   "dataset": "countryDecades",
+   "key": "UA|1950|money|Měnová reforma z roku 1961 vyměnila 10 starých rublů za 1 nový — ale reálné ceny zůstaly stejné.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "money",
+   "text": "Měnová reforma z roku 1961 vyměnila 10 starých rublů za 1 nový — ale reálné ceny zůstaly stejné."
+  },
+  {
+   "id": "r21",
+   "dataset": "countryDecades",
+   "key": "UA|1950|money|Průměrný dělník vydělával 80–100 rublů měsíčně.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "money",
+   "text": "Průměrný dělník vydělával 80–100 rublů měsíčně."
+  },
+  {
+   "id": "r22",
+   "dataset": "countryDecades",
+   "key": "UA|1950|money|Bochník chleba stál 16 kopějek a tak to zůstalo 30 let.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "money",
+   "text": "Bochník chleba stál 16 kopějek a tak to zůstalo 30 let."
+  },
+  {
+   "id": "r23",
+   "dataset": "countryDecades",
+   "key": "UA|1950|bizarre|Chruščovův zeť vedl redakci deníku Pravda, jeden z příkladů rodinných vazeb v nejvyšších patrech moci.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "bizarre",
+   "text": "Chruščovův zeť vedl redakci deníku Pravda, jeden z příkladů rodinných vazeb v nejvyšších patrech moci."
+  },
+  {
+   "id": "r24",
+   "dataset": "countryDecades",
+   "key": "UA|1950|bizarre|Jaderná havárie v Kyštymu z roku 1957 byla po desetiletí utajována — stejně jako ty pozdější.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "bizarre",
+   "text": "Jaderná havárie v Kyštymu z roku 1957 byla po desetiletí utajována — stejně jako ty pozdější."
+  },
+  {
+   "id": "r25",
+   "dataset": "countryDecades",
+   "key": "UA|1950|beautiful|Dynamo Kyjev zahájilo svou desítky let trvající éru sovětských fotbalových mistrů.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "beautiful",
+   "text": "Dynamo Kyjev zahájilo svou desítky let trvající éru sovětských fotbalových mistrů."
+  },
+  {
+   "id": "r26",
+   "dataset": "countryDecades",
+   "key": "UA|1950|beautiful|Vynořil se ukrajinský básník Vasyl Symonenko a generace „šedesátníků“.",
+   "country": "UA",
+   "decadeStart": 1950,
+   "bucket": "beautiful",
+   "text": "Vynořil se ukrajinský básník Vasyl Symonenko a generace „šedesátníků“."
+  },
+  {
+   "id": "r27",
+   "dataset": "countryDecades",
+   "key": "UA|1960|government|Leonid Brežněv — narozený v Kamjanském na Ukrajině — se stal v roce 1964 sovětským vůdcem.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "government",
+   "text": "Leonid Brežněv — narozený v Kamjanském na Ukrajině — se stal v roce 1964 sovětským vůdcem."
+  },
+  {
+   "id": "r28",
+   "dataset": "countryDecades",
+   "key": "UA|1960|government|Zesílila politika rusifikace — ukrajinské školy přecházely na ruštinu.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "government",
+   "text": "Zesílila politika rusifikace — ukrajinské školy přecházely na ruštinu."
+  },
+  {
+   "id": "r29",
+   "dataset": "countryDecades",
+   "key": "UA|1960|government|První procesy s ukrajinskými disidenty z řad intelektuálů se konaly v letech 1965–66.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "government",
+   "text": "První procesy s ukrajinskými disidenty z řad intelektuálů se konaly v letech 1965–66."
+  },
+  {
+   "id": "r30",
+   "dataset": "countryDecades",
+   "key": "UA|1960|clothes|Sovětské minisukně dorazily pozdě, až v roce 1968, a jen do měst.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "clothes",
+   "text": "Sovětské minisukně dorazily pozdě, až v roce 1968, a jen do měst."
+  },
+  {
+   "id": "r31",
+   "dataset": "countryDecades",
+   "key": "UA|1960|clothes|Chlapci nosili školní uniformu s mosaznými knoflíky a brigadýrku.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "clothes",
+   "text": "Chlapci nosili školní uniformu s mosaznými knoflíky a brigadýrku."
+  },
+  {
+   "id": "r32",
+   "dataset": "countryDecades",
+   "key": "UA|1960|clothes|Vyšívaná vyšyvanka zažila lidové oživení mezi mládeží „šedesátníků“.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "clothes",
+   "text": "Vyšívaná vyšyvanka zažila lidové oživení mezi mládeží „šedesátníků“."
+  },
+  {
+   "id": "r33",
+   "dataset": "countryDecades",
+   "key": "UA|1960|illnesses|Sovětské zdravotnictví deklarovalo širokou dostupnost lékařské péče; lékaři brali kolem 70 rublů měsíčně.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "illnesses",
+   "text": "Sovětské zdravotnictví deklarovalo širokou dostupnost lékařské péče; lékaři brali kolem 70 rublů měsíčně."
+  },
+  {
+   "id": "r34",
+   "dataset": "countryDecades",
+   "key": "UA|1960|illnesses|Kouření — papirosy Bělomorkanal — bylo všudypřítomné.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "illnesses",
+   "text": "Kouření — papirosy Bělomorkanal — bylo všudypřítomné."
+  },
+  {
+   "id": "r35",
+   "dataset": "countryDecades",
+   "key": "UA|1960|illnesses|Tuberkulóza konečně ustupovala; nemoci spojené s alkoholem přibývaly.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "illnesses",
+   "text": "Tuberkulóza konečně ustupovala; nemoci spojené s alkoholem přibývaly."
+  },
+  {
+   "id": "r36",
+   "dataset": "countryDecades",
+   "key": "UA|1960|dailyLife|„Chruščovovo tání“ povolilo na deset let knihy v ukrajinštině — za Brežněva byly opět zakázány.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "dailyLife",
+   "text": "„Chruščovovo tání“ povolilo na deset let knihy v ukrajinštině — za Brežněva byly opět zakázány."
+  },
+  {
+   "id": "r37",
+   "dataset": "countryDecades",
+   "key": "UA|1960|dailyLife|Dněperská vodní elektrárna byla obnovena a Ukrajina vyráběla elektřinu pro polovinu SSSR.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "dailyLife",
+   "text": "Dněperská vodní elektrárna byla obnovena a Ukrajina vyráběla elektřinu pro polovinu SSSR."
+  },
+  {
+   "id": "r38",
+   "dataset": "countryDecades",
+   "key": "UA|1960|dailyLife|Pionýrské letní tábory v Karpatech a na Krymu.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "dailyLife",
+   "text": "Pionýrské letní tábory v Karpatech a na Krymu."
+  },
+  {
+   "id": "r39",
+   "dataset": "countryDecades",
+   "key": "UA|1960|food|Sovětské kuchařky propagovaly stejných pár tuctů jídel ve všech 15 republikách.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "food",
+   "text": "Sovětské kuchařky propagovaly stejných pár tuctů jídel ve všech 15 republikách."
+  },
+  {
+   "id": "r40",
+   "dataset": "countryDecades",
+   "key": "UA|1960|food|Uzeniny byly nedostatkové — Ukrajinci jezdili vlakem do Moskvy, aby je sehnali.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "food",
+   "text": "Uzeniny byly nedostatkové — Ukrajinci jezdili vlakem do Moskvy, aby je sehnali."
+  },
+  {
+   "id": "r41",
+   "dataset": "countryDecades",
+   "key": "UA|1960|food|Krymská vína a sovětské šampaňské na zvláštní příležitosti.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "food",
+   "text": "Krymská vína a sovětské šampaňské na zvláštní příležitosti."
+  },
+  {
+   "id": "r42",
+   "dataset": "countryDecades",
+   "key": "UA|1960|money|Průměrný dělník vydělával kolem 120 rublů měsíčně.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "money",
+   "text": "Průměrný dělník vydělával kolem 120 rublů měsíčně."
+  },
+  {
+   "id": "r43",
+   "dataset": "countryDecades",
+   "key": "UA|1960|money|Vůz „Volha“ GAZ-21 stál 5 500 rublů — pět let úspor.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "money",
+   "text": "Vůz „Volha“ GAZ-21 stál 5 500 rublů — pět let úspor."
+  },
+  {
+   "id": "r44",
+   "dataset": "countryDecades",
+   "key": "UA|1960|money|Byt přiděloval stát; nemohli jste ho koupit ani prodat.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "money",
+   "text": "Byt přiděloval stát; nemohli jste ho koupit ani prodat."
+  },
+  {
+   "id": "r45",
+   "dataset": "countryDecades",
+   "key": "UA|1960|bizarre|Antonov An-22, tehdy největší letadlo na světě, byl postaven v Kyjevě v roce 1965.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "bizarre",
+   "text": "Antonov An-22, tehdy největší letadlo na světě, byl postaven v Kyjevě v roce 1965."
+  },
+  {
+   "id": "r46",
+   "dataset": "countryDecades",
+   "key": "UA|1960|bizarre|Ukrajinský disident Vjačeslav Čornovil sestavil první samizdatový „Ukrajinský věstník“.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "bizarre",
+   "text": "Ukrajinský disident Vjačeslav Čornovil sestavil první samizdatový „Ukrajinský věstník“."
+  },
+  {
+   "id": "r47",
+   "dataset": "countryDecades",
+   "key": "UA|1960|beautiful|Snímek Serhije Paradžanova „Stíny zapomenutých předků“ (1965) se stal milníkem světové kinematografie.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "beautiful",
+   "text": "Snímek Serhije Paradžanova „Stíny zapomenutých předků“ (1965) se stal milníkem světové kinematografie."
+  },
+  {
+   "id": "r48",
+   "dataset": "countryDecades",
+   "key": "UA|1960|beautiful|Borys Olijnyk a Lina Kostenková oživili ukrajinskou poezii.",
+   "country": "UA",
+   "decadeStart": 1960,
+   "bucket": "beautiful",
+   "text": "Borys Olijnyk a Lina Kostenková oživili ukrajinskou poezii."
+  },
+  {
+   "id": "r49",
+   "dataset": "countryDecades",
+   "key": "UA|1970|government|Volodymyr Ščerbyckyj řídil Ukrajinskou SSR od roku 1972 — ryzí Brežněvův věrný.",
+   "country": "UA",
+   "decadeStart": 1970,
+   "bucket": "government",
+   "text": "Volodymyr Ščerbyckyj řídil Ukrajinskou SSR od roku 1972 — ryzí Brežněvův věrný."
+  }
+ ]
+}

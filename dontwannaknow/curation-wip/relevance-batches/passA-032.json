@@ -1,0 +1,456 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "kyiv|1961|počet obyvatel poprvé v dějinách města překročil milion",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1961,
+   "text": "počet obyvatel poprvé v dějinách města překročil milion"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "kyiv|1965|metro překročilo Dněpr po nově postaveném metromostě a dosáhlo rozrůstajících se sídlišť na levém břehu v Darnyci",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1965,
+   "text": "metro překročilo Dněpr po nově postaveném metromostě a dosáhlo rozrůstajících se sídlišť na levém břehu v Darnyci"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "kyiv|1966|29. září se v Babím Jaru konalo první neoficiální pietní shromáždění; projev Ivana Dzjuby pak koloval mezi disidenty v samizdatu",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1966,
+   "text": "29. září se v Babím Jaru konalo první neoficiální pietní shromáždění; projev Ivana Dzjuby pak koloval mezi disidenty v samizdatu"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "kyiv|1969|Arsenalna v hloubce přes 105 metrů zůstává nejhlubší stanicí metra na světě díky vysokému dněperskému břehu",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1969,
+   "text": "Arsenalna v hloubce přes 105 metrů zůstává nejhlubší stanicí metra na světě díky vysokému dněperskému břehu"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "kyiv|1976|v Babím Jaru byl odhalen sovětský pomník „sovětským občanům a válečným zajatcům“, v nápisu však bez jediné zmínky o Židech",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1976,
+   "text": "v Babím Jaru byl odhalen sovětský pomník „sovětským občanům a válečným zajatcům“, v nápisu však bez jediné zmínky o Židech"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "kyiv|1979|sčítání lidu napočítalo přes 2,1 milionu obyvatel a Kyjev se zařadil mezi největší města Sovětského svazu",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1979,
+   "text": "sčítání lidu napočítalo přes 2,1 milionu obyvatel a Kyjev se zařadil mezi největší města Sovětského svazu"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "kyiv|1981|k blížícímu se 1500. výročí byla restaurována Zlatá brána z jedenáctého století s rekonstrukční nadstavbou",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1981,
+   "text": "k blížícímu se 1500. výročí byla restaurována Zlatá brána z jedenáctého století s rekonstrukční nadstavbou"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "kyiv|1982|22. května se slavilo oficiální 1500. výročí založení města; na nábřeží byl odhalen pomník zakladatelům Kyje, Ščeka, Choryva a Lybid",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1982,
+   "text": "22. května se slavilo oficiální 1500. výročí založení města; na nábřeží byl odhalen pomník zakladatelům Kyje, Ščeka, Choryva a Lybid"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "kyiv|1982|k jubileu byl na Chreščatyku otevřen Ukrajinský dům, tehdy jako muzeum Lenina",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1982,
+   "text": "k jubileu byl na Chreščatyku otevřen Ukrajinský dům, tehdy jako muzeum Lenina"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "kyiv|1986|26. dubna vybuchl reaktor v Černobylu sto kilometrů severně a radioaktivní mrak zasáhl i Kyjev",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1986,
+   "text": "26. dubna vybuchl reaktor v Černobylu sto kilometrů severně a radioaktivní mrak zasáhl i Kyjev"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "kyiv|1986|1. května se navzdory zvýšené radiaci konal prvomájový průvod, který Moskva odmítla zrušit; teprve poté byly z města evakuovány statisíce dětí",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1986,
+   "text": "1. května se navzdory zvýšené radiaci konal prvomájový průvod, který Moskva odmítla zrušit; teprve poté byly z města evakuovány statisíce dětí"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "kyiv|1986|Dynamo Kyjev porazilo ve finále Poháru vítězů pohárů Atlético Madrid 3:0; útočník Ihor Bělanov pak získal Zlatý míč",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1986,
+   "text": "Dynamo Kyjev porazilo ve finále Poháru vítězů pohárů Atlético Madrid 3:0; útočník Ihor Bělanov pak získal Zlatý míč"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "kyiv|1989|na zářijovém ustavujícím sjezdu vzniklo v Kyjevě Lidové hnutí Ukrajiny (Ruch) v čele s básníkem Ivanem Dračem",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1989,
+   "text": "na zářijovém ustavujícím sjezdu vzniklo v Kyjevě Lidové hnutí Ukrajiny (Ruch) v čele s básníkem Ivanem Dračem"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "kyiv|1990|21. ledna spojil živý řetěz statisíců lidí Kyjev s Ivano-Frankivskem na památku slučovacího aktu ukrajinských zemí z roku 1919",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1990,
+   "text": "21. ledna spojil živý řetěz statisíců lidí Kyjev s Ivano-Frankivskem na památku slučovacího aktu ukrajinských zemí z roku 1919"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "kyiv|1990|2. října zahájili studenti na Náměstí Říjnové revoluce hladovku zvanou Revoluce na žule a vynutili si demisi premiéra Masola",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1990,
+   "text": "2. října zahájili studenti na Náměstí Říjnové revoluce hladovku zvanou Revoluce na žule a vynutili si demisi premiéra Masola"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "kyiv|1991|24. srpna vyhlásila Nejvyšší rada nezávislost Ukrajiny; v prosincovém referendu ji potvrdilo přes 92 procent hlasujících",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1991,
+   "text": "24. srpna vyhlásila Nejvyšší rada nezávislost Ukrajiny; v prosincovém referendu ji potvrdilo přes 92 procent hlasujících"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "kyiv|1991|29. září byl k 50. výročí masakru odhalen v Babím Jaru pomník ve tvaru menory, věnovaný židovským obětem",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1991,
+   "text": "29. září byl k 50. výročí masakru odhalen v Babím Jaru pomník ve tvaru menory, věnovaný židovským obětem"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "kyiv|1996|v rámci měnové reformy nahradila karbovanec nová národní měna hřivna v poměru 100 000 ku jedné",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1996,
+   "text": "v rámci měnové reformy nahradila karbovanec nová národní měna hřivna v poměru 100 000 ku jedné"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "kyiv|1999|Dynamo Kyjev pod Lobanovským s Andrijem Ševčenkem dohrálo až do semifinále Ligy mistrů, kde nestačilo na Bayern Mnichov",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1999,
+   "text": "Dynamo Kyjev pod Lobanovským s Andrijem Ševčenkem dohrálo až do semifinále Ligy mistrů, kde nestačilo na Bayern Mnichov"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "kyiv|2000|v září zmizel novinář Heorhij Gongadze; nahrávky pořízené v kanceláři prezidenta Kučmy rozpoutaly hnutí Ukrajina bez Kučmy",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2000,
+   "text": "v září zmizel novinář Heorhij Gongadze; nahrávky pořízené v kanceláři prezidenta Kučmy rozpoutaly hnutí Ukrajina bez Kučmy"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "kyiv|2001|k desátému výročí nezávislosti byl na Majdanu vztyčen sloup s figurou Berehyně na místě dříve stržené sochy Lenina",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2001,
+   "text": "k desátému výročí nezávislosti byl na Majdanu vztyčen sloup s figurou Berehyně na místě dříve stržené sochy Lenina"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "kyiv|2004|od 21. listopadu vyrostlo na Majdanu stanové městečko oranžové revoluce; po zfalšovaných volbách nařídil Nejvyšší soud opakování druhého kola",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2004,
+   "text": "od 21. listopadu vyrostlo na Majdanu stanové městečko oranžové revoluce; po zfalšovaných volbách nařídil Nejvyšší soud opakování druhého kola"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "kyiv|2004|8. prosince stálo na Majdanu téměř milion lidí; opakované volby nakonec vyhrál Viktor Juščenko",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2004,
+   "text": "8. prosince stálo na Majdanu téměř milion lidí; opakované volby nakonec vyhrál Viktor Juščenko"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "kyiv|2008|k 75. výročí holodomoru bylo na svazích nad Dněprem otevřeno Národní muzeum hladomoru se sochou Hořká památka dětství",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2008,
+   "text": "k 75. výročí holodomoru bylo na svazích nad Dněprem otevřeno Národní muzeum hladomoru se sochou Hořká památka dětství"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "kyiv|2011|po přestavbě k mistrovství Evropy byl s membránovou střechou a kapacitou přes 69 000 míst znovu otevřen Olympijský stadion",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2011,
+   "text": "po přestavbě k mistrovství Evropy byl s membránovou střechou a kapacitou přes 69 000 míst znovu otevřen Olympijský stadion"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "kyiv|2012|1. července hostil Olympijský stadion finále mistrovství Evropy ve fotbale mezi Španělskem a Itálií",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2012,
+   "text": "1. července hostil Olympijský stadion finále mistrovství Evropy ve fotbale mezi Španělskem a Itálií"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "kyiv|2013|21. listopadu se na Majdanu sešli první demonstranti poté, co vláda odložila podpis asociační dohody s Evropskou unií",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2013,
+   "text": "21. listopadu se na Majdanu sešli první demonstranti poté, co vláda odložila podpis asociační dohody s Evropskou unií"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "kyiv|2013|30. listopadu rozehnaly speciální jednotky Berkut studenty na Majdanu; brutalita druhý den vyhnala do ulic přes půl milionu Kyjevanů",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2013,
+   "text": "30. listopadu rozehnaly speciální jednotky Berkut studenty na Majdanu; brutalita druhý den vyhnala do ulic přes půl milionu Kyjevanů"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "kyiv|2013|8. prosince strhli demonstranti sochu Lenina u Besarabského trhu a zahájili tím vlnu boření Leninů zvanou leninopad",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2013,
+   "text": "8. prosince strhli demonstranti sochu Lenina u Besarabského trhu a zahájili tím vlnu boření Leninů zvanou leninopad"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "kyiv|2014|20. února zabili odstřelovači na Instytutské ulici desítky demonstrantů; obětem Revoluce důstojnosti se začalo říkat Nebeská setnina",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2014,
+   "text": "20. února zabili odstřelovači na Instytutské ulici desítky demonstrantů; obětem Revoluce důstojnosti se začalo říkat Nebeská setnina"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "kyiv|2014|koncem února uprchl prezident Janukovyč z Kyjeva do Ruska; v květnu byl už v prvním kole zvolen prezidentem Petro Porošenko",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2014,
+   "text": "koncem února uprchl prezident Janukovyč z Kyjeva do Ruska; v květnu byl už v prvním kole zvolen prezidentem Petro Porošenko"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "kyiv|2018|Nejvyšší rada předala Ondřejský chrám do užívání cařihradskému patriarchátu, čímž připravila půdu pro autokefalitu",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2018,
+   "text": "Nejvyšší rada předala Ondřejský chrám do užívání cařihradskému patriarchátu, čímž připravila půdu pro autokefalitu"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "kyiv|2019|6. ledna předal cařihradský patriarcha Bartoloměj v chrámu sv. Jiří tomos o autokefalitě nové Pravoslavné církve Ukrajiny",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2019,
+   "text": "6. ledna předal cařihradský patriarcha Bartoloměj v chrámu sv. Jiří tomos o autokefalitě nové Pravoslavné církve Ukrajiny"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "kyiv|2022|24. února zahájilo Rusko invazi; vzdušný výsadek se týž den pokusil dobýt letiště Hostomel s Antonovovými závody severozápadně od města",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2022,
+   "text": "24. února zahájilo Rusko invazi; vzdušný výsadek se týž den pokusil dobýt letiště Hostomel s Antonovovými závody severozápadně od města"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "kyiv|2022|1. března zasáhly ruské střely u Babího Jaru televizní věž, zabily pět lidí a poškodily areál památníku holokaustu",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2022,
+   "text": "1. března zasáhly ruské střely u Babího Jaru televizní věž, zabily pět lidí a poškodily areál památníku holokaustu"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "kyiv|2022|po nezdařeném obklíčení stáhlo Rusko koncem března vojska z Kyjevské oblasti, aniž proniklo do samotného města",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2022,
+   "text": "po nezdařeném obklíčení stáhlo Rusko koncem března vojska z Kyjevské oblasti, aniž proniklo do samotného města"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "kyiv|2022|1. dubna se po odchodu okupantů objevily v Buči a Irpini stovky zavražděných civilistů; jen v Buči jich napočítali přes 450",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2022,
+   "text": "1. dubna se po odchodu okupantů objevily v Buči a Irpini stovky zavražděných civilistů; jen v Buči jich napočítali přes 450"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "kyiv|2022|24. srpna, v půl roku invaze, byly na Chreščatyku k výročí nezávislosti vystaveny desítky zničených ruských tanků a techniky",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2022,
+   "text": "24. srpna, v půl roku invaze, byly na Chreščatyku k výročí nezávislosti vystaveny desítky zničených ruských tanků a techniky"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "kyiv|2022|10. října zasáhla po výbuchu na Krymském mostě centrum Kyjeva vlna desítek řízených střel a dronů",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2022,
+   "text": "10. října zasáhla po výbuchu na Krymském mostě centrum Kyjeva vlna desítek řízených střel a dronů"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "kyiv|2022|od října mířily ruské útoky na energetickou síť a Kyjev zažil v zimě opakované plánované i nouzové výpadky proudu",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2022,
+   "text": "od října mířily ruské útoky na energetickou síť a Kyjev zažil v zimě opakované plánované i nouzové výpadky proudu"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "kyiv|2023|v srpnu nahradil na štítu pomníku Matka vlast sovětské kladivo a srp ukrajinský trojzubec",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2023,
+   "text": "v srpnu nahradil na štítu pomníku Matka vlast sovětské kladivo a srp ukrajinský trojzubec"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "kyiv|2023|15. září zapsalo UNESCO katedrálu sv. Sofie a Kyjevskopečerskou lávru na seznam světového dědictví v ohrožení kvůli ruské válce",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2023,
+   "text": "15. září zapsalo UNESCO katedrálu sv. Sofie a Kyjevskopečerskou lávru na seznam světového dědictví v ohrožení kvůli ruské válce"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "kyiv|2024|8. července zasáhla ruská střela největší dětskou nemocnici Ochmatdyt; celodenní salva po Ukrajině zabila přes čtyřicet lidí",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 2024,
+   "text": "8. července zasáhla ruská střela největší dětskou nemocnici Ochmatdyt; celodenní salva po Ukrajině zabila přes čtyřicet lidí"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1940|v charkovském závodě č. 183 začala sériová výroba tanku T-34 — nejvyráběnějšího tanku druhé světové války",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1940,
+   "text": "v charkovském závodě č. 183 začala sériová výroba tanku T-34 — nejvyráběnějšího tanku druhé světové války"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1941|20. až 24. října obsadil wehrmacht město během první bitvy o Charkov v závěru operace Barbarossa",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1941,
+   "text": "20. až 24. října obsadil wehrmacht město během první bitvy o Charkov v závěru operace Barbarossa"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1941|tankový závod č. 183 byl v září evakuován po železnici do Nižního Tagilu, kde výroba T-34 pokračovala už v prosinci",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1941,
+   "text": "tankový závod č. 183 byl v září evakuován po železnici do Nižního Tagilu, kde výroba T-34 pokračovala už v prosinci"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1942|v pojízdných plynových komorách tu Němci poprvé testovali vraždění lidí výfukovými plyny",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1942,
+   "text": "v pojízdných plynových komorách tu Němci poprvé testovali vraždění lidí výfukovými plyny"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1943|v únoru Rudá armáda město dobyla zpět, než ho Mansteinovy tankové divize v březnu znovu obsadily",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1943,
+   "text": "v únoru Rudá armáda město dobyla zpět, než ho Mansteinovy tankové divize v březnu znovu obsadily"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1943|závěrečná bělgorodsko-charkovská operace osvobodila město 23. srpna a otevřela cestu k osvobození levobřežní Ukrajiny",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1943,
+   "text": "závěrečná bělgorodsko-charkovská operace osvobodila město 23. srpna a otevřela cestu k osvobození levobřežní Ukrajiny"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1943|město bylo za války zničeno ze 70 % a patřilo po Stalingradu k nejvíce zpustošeným sovětským městům",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1943,
+   "text": "město bylo za války zničeno ze 70 % a patřilo po Stalingradu k nejvíce zpustošeným sovětským městům"
+  }
+ ]
+}

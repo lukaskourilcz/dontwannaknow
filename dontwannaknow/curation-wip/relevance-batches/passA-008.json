@@ -1,0 +1,456 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "novy-jicin|1965|Tonak Nový Jičín byl největším výrobcem klobouků v Československu a vyvážel do více než 70 zemí",
+   "country": "CZ",
+   "city": "novy-jicin",
+   "year": 1965,
+   "text": "Tonak Nový Jičín byl největším výrobcem klobouků v Československu a vyvážel do více než 70 zemí"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "krnov|1945|bitva o Krnov v květnu byla posledním bojem v českých zemích, jak se Rudá armáda probíjela Slezskem",
+   "country": "CZ",
+   "city": "krnov",
+   "year": 1945,
+   "text": "bitva o Krnov v květnu byla posledním bojem v českých zemích, jak se Rudá armáda probíjela Slezskem"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "krnov|1968|textilky Karnola zaměstnávaly tisíce žen po celém městě",
+   "country": "CZ",
+   "city": "krnov",
+   "year": 1968,
+   "text": "textilky Karnola zaměstnávaly tisíce žen po celém městě"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "uherske-hradiste|1948|Státní bezpečnost (StB) otevřela v Uherském Hradišti velké výslechové středisko, které se v 50. letech proslavilo mučením",
+   "country": "CZ",
+   "city": "uherske-hradiste",
+   "year": 1948,
+   "text": "Státní bezpečnost (StB) otevřela v Uherském Hradišti velké výslechové středisko, které se v 50. letech proslavilo mučením"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "uherske-hradiste|1968|region Slovácko byl baštou katolického reformního hnutí Pražského jara",
+   "country": "CZ",
+   "city": "uherske-hradiste",
+   "year": 1968,
+   "text": "region Slovácko byl baštou katolického reformního hnutí Pražského jara"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "litomerice|1944|podzemní komplex Richard u Litoměřic se stal továrnou na zbraně V s otrockou prací",
+   "country": "CZ",
+   "city": "litomerice",
+   "year": 1944,
+   "text": "podzemní komplex Richard u Litoměřic se stal továrnou na zbraně V s otrockou prací"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "litomerice|1945|tisíce vězňů koncentračních táborů z komplexu Richard zemřely na pochodech smrti těsně před osvobozením",
+   "country": "CZ",
+   "city": "litomerice",
+   "year": 1945,
+   "text": "tisíce vězňů koncentračních táborů z komplexu Richard zemřely na pochodech smrti těsně před osvobozením"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "hodonin|1920|Hodonín byl trhovým městem o asi 12 000 obyvatelích na moravsko-slovenském pomezí — rodištěm Tomáše Garrigua Masaryka a místem, které jako prezident často navštěvoval",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1920,
+   "text": "Hodonín byl trhovým městem o asi 12 000 obyvatelích na moravsko-slovenském pomezí — rodištěm Tomáše Garrigua Masaryka a místem, které jako prezident často navštěvoval"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "hodonin|1925|Tabáková továrna Hodonín byla největší cigaretovou továrnou v Československu a hlavním zaměstnavatelem města",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1925,
+   "text": "Tabáková továrna Hodonín byla největší cigaretovou továrnou v Československu a hlavním zaměstnavatelem města"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "hodonin|1928|na Masarykově náměstí byla odhalena monumentální socha T. G. Masaryka od Otakara Španiela (později stržená nacisty, obnovená komunisty, znovu stržená a poté opět vrácená)",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1928,
+   "text": "na Masarykově náměstí byla odhalena monumentální socha T. G. Masaryka od Otakara Španiela (později stržená nacisty, obnovená komunisty, znovu stržená a poté opět vrácená)"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "hodonin|1932|nedaleko u Hrušek byl objeven zemní plyn, čímž se rozjela jihomoravská těžba plynu",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1932,
+   "text": "nedaleko u Hrušek byl objeven zemní plyn, čímž se rozjela jihomoravská těžba plynu"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "hodonin|1937|T. G. Masaryk zemřel v září; město uspořádalo v jeho rodném domě smutek celonárodního rozsahu",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1937,
+   "text": "T. G. Masaryk zemřel v září; město uspořádalo v jeho rodném domě smutek celonárodního rozsahu"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "hodonin|1939|po nacistické okupaci byla hodonínská Masarykova socha odstraněna a město bylo v úředních německých dokumentech přejmenováno na Göding",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1939,
+   "text": "po nacistické okupaci byla hodonínská Masarykova socha odstraněna a město bylo v úředních německých dokumentech přejmenováno na Göding"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "hodonin|1942|romský tábor v Hodoníně u Kunštátu sloužil k deportaci českých Romů do Osvětimi, kde téměř všichni zahynuli",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1942,
+   "text": "romský tábor v Hodoníně u Kunštátu sloužil k deportaci českých Romů do Osvětimi, kde téměř všichni zahynuli"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "hodonin|1944|spojenecké bombardování nedalekých kolejišť v Břeclavi a Bratislavě rozechvělo okna hodonínské tabákové továrny",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1944,
+   "text": "spojenecké bombardování nedalekých kolejišť v Břeclavi a Bratislavě rozechvělo okna hodonínské tabákové továrny"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "hodonin|1945|rumunské a sovětské síly osvobodily Hodonín v dubnu po bojích podél řeky Moravy",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1945,
+   "text": "rumunské a sovětské síly osvobodily Hodonín v dubnu po bojích podél řeky Moravy"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "hodonin|1946|vinařské svahy nedalekých Mutěnic a Čejkovic obnovily vývoz a Hodonín se stal regionálním centrem obchodu s vínem",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1946,
+   "text": "vinařské svahy nedalekých Mutěnic a Čejkovic obnovily vývoz a Hodonín se stal regionálním centrem obchodu s vínem"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "hodonin|1948|komunistický převrat zasáhl Hodonín tvrdě — Masarykovo rodiště bylo symbolickou trofejí a režim jeho kult přísně řídil",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1948,
+   "text": "komunistický převrat zasáhl Hodonín tvrdě — Masarykovo rodiště bylo symbolickou trofejí a režim jeho kult přísně řídil"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "hodonin|1952|Slovácké muzeum v Hodoníně se znovu otevřelo se zaměřením na lidový kroj, keramiku a mužský tanec verbuňk slováckého regionu",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1952,
+   "text": "Slovácké muzeum v Hodoníně se znovu otevřelo se zaměřením na lidový kroj, keramiku a mužský tanec verbuňk slováckého regionu"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "hodonin|1959|Hodonín získal tepelnou elektrárnu poháněnou místním lignitem — jednu z prvních takových elektráren na jižní Moravě",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1959,
+   "text": "Hodonín získal tepelnou elektrárnu poháněnou místním lignitem — jednu z prvních takových elektráren na jižní Moravě"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "hodonin|1965|nedaleký TON Bystřice (tehdy vyrábějící ohýbané židle Thonet) se stal jedním z největších československých vývozců nábytku",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1965,
+   "text": "nedaleký TON Bystřice (tehdy vyrábějící ohýbané židle Thonet) se stal jedním z největších československých vývozců nábytku"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "hodonin|1968|okresní výbor KSČ v Hodoníně nakrátko podpořil Dubčekovy reformy; mnoho členů bylo po sovětské invazi vyloučeno",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1968,
+   "text": "okresní výbor KSČ v Hodoníně nakrátko podpořil Dubčekovy reformy; mnoho členů bylo po sovětské invazi vyloučeno"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "hodonin|1969|jihomoravské nářečí a lidová hudba města se výrazně objevily v seriálu Československé televize 'Slovácký rok'",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1969,
+   "text": "jihomoravské nářečí a lidová hudba města se výrazně objevily v seriálu Československé televize 'Slovácký rok'"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "hodonin|1973|plynovod Hodonín — Břeclav začal zásobovat zemním plynem Brno a Prahu",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1973,
+   "text": "plynovod Hodonín — Břeclav začal zásobovat zemním plynem Brno a Prahu"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "hodonin|1976|mužský tanec slovácký verbuňk z hodonínského regionu byl dokumentován etnografy — měl být později zapsán organizací UNESCO",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1976,
+   "text": "mužský tanec slovácký verbuňk z hodonínského regionu byl dokumentován etnografy — měl být později zapsán organizací UNESCO"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "hodonin|1979|byl založen velký cyklistický závod Slovácký okruh Hodonín, který přitahoval jezdce z východního bloku",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1979,
+   "text": "byl založen velký cyklistický závod Slovácký okruh Hodonín, který přitahoval jezdce z východního bloku"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "hodonin|1980|hodonínská tabáková továrna stále vyráběla klasické československé cigaretové značky jako Start a Sparta",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1980,
+   "text": "hodonínská tabáková továrna stále vyráběla klasické československé cigaretové značky jako Start a Sparta"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "zdar-nad-sazavou|1951|nový strojírenský závod ZĎAS proměnil malé trhové městečko v socialistické průmyslové centrum",
+   "country": "CZ",
+   "city": "zdar-nad-sazavou",
+   "year": 1951,
+   "text": "nový strojírenský závod ZĎAS proměnil malé trhové městečko v socialistické průmyslové centrum"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|1995|historické centrum s chrámem svaté Barbory a Sedleckou kostnicí bylo zapsáno jako památka UNESCO",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 1995,
+   "text": "historické centrum s chrámem svaté Barbory a Sedleckou kostnicí bylo zapsáno jako památka UNESCO"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "cesky-tesin|1920|Versailleská smlouva rozdělila staré habsburské město napůl — Český Těšín na české straně, Cieszyn na polské",
+   "country": "CZ",
+   "city": "cesky-tesin",
+   "year": 1920,
+   "text": "Versailleská smlouva rozdělila staré habsburské město napůl — Český Těšín na české straně, Cieszyn na polské"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "cesky-tesin|1938|Polsko v říjnu nakrátko anektovalo Český Těšín, než ho následující rok zabralo nacistické Německo",
+   "country": "CZ",
+   "city": "cesky-tesin",
+   "year": 1938,
+   "text": "Polsko v říjnu nakrátko anektovalo Český Těšín, než ho následující rok zabralo nacistické Německo"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "cesky-tesin|1945|československo-polská hranice byla obnovena podél řeky Olše",
+   "country": "CZ",
+   "city": "cesky-tesin",
+   "year": 1945,
+   "text": "československo-polská hranice byla obnovena podél řeky Olše"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "havlickuv-brod|1945|město, od roku 1945 pojmenované po disidentském novináři Karlu Havlíčku Borovském, se stalo regionálním dopravním uzlem",
+   "country": "CZ",
+   "city": "havlickuv-brod",
+   "year": 1945,
+   "text": "město, od roku 1945 pojmenované po disidentském novináři Karlu Havlíčku Borovském, se stalo regionálním dopravním uzlem"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "havlickuv-brod|1922|město, stále nazývané Německý Brod, leželo na železniční křižovatce mezi Prahou a Brnem na historické habsburské trati",
+   "country": "CZ",
+   "city": "havlickuv-brod",
+   "year": 1922,
+   "text": "město, stále nazývané Německý Brod, leželo na železniční křižovatce mezi Prahou a Brnem na historické habsburské trati"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "havlickuv-brod|1928|v jeho bývalém rodném domě se otevřelo muzeum Havlíčka Borovského",
+   "country": "CZ",
+   "city": "havlickuv-brod",
+   "year": 1928,
+   "text": "v jeho bývalém rodném domě se otevřelo muzeum Havlíčka Borovského"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "havlickuv-brod|1939|za nacistické okupace byl obnoven název Deutschbrod a na české obyvatelstvo byl vyvíjen nátlak",
+   "country": "CZ",
+   "city": "havlickuv-brod",
+   "year": 1939,
+   "text": "za nacistické okupace byl obnoven název Deutschbrod a na české obyvatelstvo byl vyvíjen nátlak"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "havlickuv-brod|1948|ČKD-Havlíčkův Brod byl znárodněn a reorganizován jako klíčový těžkostrojírenský závod regionu Vysočina",
+   "country": "CZ",
+   "city": "havlickuv-brod",
+   "year": 1948,
+   "text": "ČKD-Havlíčkův Brod byl znárodněn a reorganizován jako klíčový těžkostrojírenský závod regionu Vysočina"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "havlickuv-brod|1958|havlíčkobrodská nemocnice byla přestavěna jako regionální centrum pro vysokou plošinu Vysočiny",
+   "country": "CZ",
+   "city": "havlickuv-brod",
+   "year": 1958,
+   "text": "havlíčkobrodská nemocnice byla přestavěna jako regionální centrum pro vysokou plošinu Vysočiny"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "havlickuv-brod|1968|'filmové centrum' vydavatele Bedřicha Pejchla se stalo střediskem promítání filmů české nové vlny, než ho normalizace uzavřela",
+   "country": "CZ",
+   "city": "havlickuv-brod",
+   "year": 1968,
+   "text": "'filmové centrum' vydavatele Bedřicha Pejchla se stalo střediskem promítání filmů české nové vlny, než ho normalizace uzavřela"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "havlickuv-brod|1976|textilka Pleas se rozrostla v jednoho z největších výrobců punčochového zboží na střední Moravě",
+   "country": "CZ",
+   "city": "havlickuv-brod",
+   "year": 1976,
+   "text": "textilka Pleas se rozrostla v jednoho z největších výrobců punčochového zboží na střední Moravě"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|1920|Kutná Hora byla tichým středověkým hornickým městem o asi 15 000 obyvatelích — její stříbrné dny dávno minuly a její kostnice už lákala turisty",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 1920,
+   "text": "Kutná Hora byla tichým středověkým hornickým městem o asi 15 000 obyvatelích — její stříbrné dny dávno minuly a její kostnice už lákala turisty"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|1928|místní továrna ČKD-Kutná Hora začala vyrábět důlní zařízení pro příbramské stříbrné a uranové doly",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 1928,
+   "text": "místní továrna ČKD-Kutná Hora začala vyrábět důlní zařízení pro příbramské stříbrné a uranové doly"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|1942|pyramida lebek v sedlecké kostnici byla vyfotografována pro nacistickou propagandu o 'slovanském primitivismu'",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 1942,
+   "text": "pyramida lebek v sedlecké kostnici byla vyfotografována pro nacistickou propagandu o 'slovanském primitivismu'"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|1945|Kutná Hora byla osvobozena v květnu silami Rudé armády postupujícími severně od Prahy",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 1945,
+   "text": "Kutná Hora byla osvobozena v květnu silami Rudé armády postupujícími severně od Prahy"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|1949|chrám svaté Barbory byl znárodněn; jeho gotická okna byla opravena ze státních prostředků",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 1949,
+   "text": "chrám svaté Barbory byl znárodněn; jeho gotická okna byla opravena ze státních prostředků"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|1968|místní tabáková továrna zaměstnávala několik set žen — největší nehornický zaměstnavatel v oblasti",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 1968,
+   "text": "místní tabáková továrna zaměstnávala několik set žen — největší nehornický zaměstnavatel v oblasti"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|1975|Česká státní mincovna přesunula zařízení do Kutné Hory — dědičky tradice stříbrných mincí, která zde běžela od 13. století",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 1975,
+   "text": "Česká státní mincovna přesunula zařízení do Kutné Hory — dědičky tradice stříbrných mincí, která zde běžela od 13. století"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "valasske-mezirici|1923|Cíglerova sklárna v nedalekých Valašských Kloboukách získala na pařížském Expu ocenění za český křišťál",
+   "country": "CZ",
+   "city": "valasske-mezirici",
+   "year": 1923,
+   "text": "Cíglerova sklárna v nedalekých Valašských Kloboukách získala na pařížském Expu ocenění za český křišťál"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "valasske-mezirici|1939|valašské vesnice kolem města ukrývaly české vojáky ustupující před německou okupací",
+   "country": "CZ",
+   "city": "valasske-mezirici",
+   "year": 1939,
+   "text": "valašské vesnice kolem města ukrývaly české vojáky ustupující před německou okupací"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "valasske-mezirici|1944|nacistické protipartyzánské zátahy ve vsetínských kopcích vypálily několik okolních vesnic",
+   "country": "CZ",
+   "city": "valasske-mezirici",
+   "year": 1944,
+   "text": "nacistické protipartyzánské zátahy ve vsetínských kopcích vypálily několik okolních vesnic"
+  }
+ ]
+}

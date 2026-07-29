@@ -1,0 +1,546 @@
+{
+ "pass": "B",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "pardubice|1942|na popravišti v Zámečku, vile Larischů, nacisté od 3. června do 9. července zastřelili 194 vlastenců z východních Čech",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1942,
+   "text": "na popravišti v Zámečku, vile Larischů, nacisté od 3. června do 9. července zastřelili 194 vlastenců z východních Čech"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "pardubice|1942|24. června bylo v Zámečku popraveno 33 obyvatel vyhlazené obce Ležáky, kteří pomáhali parašutistům skupiny Silver A",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1942,
+   "text": "24. června bylo v Zámečku popraveno 33 obyvatel vyhlazené obce Ležáky, kteří pomáhali parašutistům skupiny Silver A"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "pardubice|1950|15. října zahájila výuku Vysoká škola chemická, pozdější Univerzita Pardubice, vyrostlá z místních chemických závodů",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1950,
+   "text": "15. října zahájila výuku Vysoká škola chemická, pozdější Univerzita Pardubice, vyrostlá z místních chemických závodů"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "pardubice|1964|závody o plochodrážní Zlatou přilbu se přesunuly na nový stadion ve Svítkově; komunistický režim je v letech 1952 až 1960 nepovolil",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1964,
+   "text": "závody o plochodrážní Zlatou přilbu se přesunuly na nový stadion ve Svítkově; komunistický režim je v letech 1952 až 1960 nepovolil"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "pardubice|1987|15. března získali hokejisté Tesly s brankářem Dominikem Haškem druhý mistrovský titul",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1987,
+   "text": "15. března získali hokejisté Tesly s brankářem Dominikem Haškem druhý mistrovský titul"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "pardubice|1989|pardubická Tesla vybojovala další titul, naposledy v dresu s Haškem, Šejbou i Janeckým",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1989,
+   "text": "pardubická Tesla vybojovala další titul, naposledy v dresu s Haškem, Šejbou i Janeckým"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "pardubice|1991|11. května proběhl první ročník Aviatické pouti připomínkou letu Jana Kašpara z Pardubic do Prahy z roku 1911",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1991,
+   "text": "11. května proběhl první ročník Aviatické pouti připomínkou letu Jana Kašpara z Pardubic do Prahy z roku 1911"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "pardubice|1991|po pádu režimu vyšlo najevo, že Československo vyvezlo stovky tun Semtexu do Kaddáfího Libye a dalších nestabilních států",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1991,
+   "text": "po pádu režimu vyšlo najevo, že Československo vyvezlo stovky tun Semtexu do Kaddáfího Libye a dalších nestabilních států"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "pardubice|1994|vojenské pardubické letiště přešlo na civilní provoz a o rok později získalo status mezinárodního letiště",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1994,
+   "text": "vojenské pardubické letiště přešlo na civilní provoz a o rok později získalo status mezinárodního letiště"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "pardubice|1997|vynálezce Semtexu, chemik Stanislav Brebera, zemřel; jeho trhavinu mezitím proslavily teroristické útoky po celém světě",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1997,
+   "text": "vynálezce Semtexu, chemik Stanislav Brebera, zemřel; jeho trhavinu mezitím proslavily teroristické útoky po celém světě"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "pardubice|2005|hokejisté pod kapitánem Jiřím Dopitou a se slovenským brankářem Jánem Lašákem získali čtvrtý mistrovský titul",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 2005,
+   "text": "hokejisté pod kapitánem Jiřím Dopitou a se slovenským brankářem Jánem Lašákem získali čtvrtý mistrovský titul"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "pardubice|2010|klub vybojoval pátý titul; současný název HC Dynamo Pardubice přijal až v roce 2015",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 2010,
+   "text": "klub vybojoval pátý titul; současný název HC Dynamo Pardubice přijal až v roce 2015"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "trutnov|1940|v Horním Starém Městě vznikl pracovní tábor pro židovské ženy, jež dřely ve lnářských přádelnách; roku 1944 se stal pobočkou koncentračního tábora Gross-Rosen",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1940,
+   "text": "v Horním Starém Městě vznikl pracovní tábor pro židovské ženy, jež dřely ve lnářských přádelnách; roku 1944 se stal pobočkou koncentračního tábora Gross-Rosen"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "trutnov|1945|9. května dorazila Rudá armáda na takřka liduprázdné náměstí; mezi prvními ji vítali vězni z poboček Gross-Rosen, zatímco řada Němců ze strachu volila sebevraždu",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1945,
+   "text": "9. května dorazila Rudá armáda na takřka liduprázdné náměstí; mezi prvními ji vítali vězni z poboček Gross-Rosen, zatímco řada Němců ze strachu volila sebevraždu"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "trutnov|1946|vznikly České lnářské textilní závody s více než padesáti pobočkami — největší lnářský podnik v republice",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1946,
+   "text": "vznikly České lnářské textilní závody s více než padesáti pobočkami — největší lnářský podnik v republice"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "trutnov|1957|v Poříčí na úpatí Krkonoš byla spuštěna uhelná elektrárna Poříčí II, jež dodnes zásobuje město teplem",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1957,
+   "text": "v Poříčí na úpatí Krkonoš byla spuštěna uhelná elektrárna Poříčí II, jež dodnes zásobuje město teplem"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "trutnov|1987|první pokus o trutnovský rockový open-air s kořeny v undergroundu rozehnala Státní bezpečnost; spjat byl i s Václavem Havlem",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1987,
+   "text": "první pokus o trutnovský rockový open-air s kořeny v undergroundu rozehnala Státní bezpečnost; spjat byl i s Václavem Havlem"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "trutnov|1990|po sametové revoluci se festival Trutnov Open Air poprvé konal svobodně Na Bojišti a stal se nejstarší trvající přehlídkou svého druhu v zemi",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1990,
+   "text": "po sametové revoluci se festival Trutnov Open Air poprvé konal svobodně Na Bojišti a stal se nejstarší trvající přehlídkou svého druhu v zemi"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "trutnov|1991|k 28. únoru zanikl státní podnik Texlen; privatizace a tlak levného textilu odstartovaly úpadek slavné lnářské tradice",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1991,
+   "text": "k 28. únoru zanikl státní podnik Texlen; privatizace a tlak levného textilu odstartovaly úpadek slavné lnářské tradice"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "trutnov|1997|červencová velká voda zasáhla Trutnovsko, rozvodněná Úpa zaplavovala domy a sklepy a způsobila škody za desítky milionů",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1997,
+   "text": "červencová velká voda zasáhla Trutnovsko, rozvodněná Úpa zaplavovala domy a sklepy a způsobila škody za desítky milionů"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "trutnov|2007|Texlen, vyhlášený svými ubrusy a plachtami, ukončil výrobu — neustál konkurenci levných látek z Asie a rostoucích cen energií",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 2007,
+   "text": "Texlen, vyhlášený svými ubrusy a plachtami, ukončil výrobu — neustál konkurenci levných látek z Asie a rostoucích cen energií"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "trutnov|2020|legendární festival se přestěhoval do Brna a přijal název TrutnOFF BrnoON poté, co město změnilo územní plán pozemků Na Bojišti",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 2020,
+   "text": "legendární festival se přestěhoval do Brna a přijal název TrutnOFF BrnoON poté, co město změnilo územní plán pozemků Na Bojišti"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "havlickuv-brod|1945|5. května oznámil starosta Antonín Šouba z radničního balkonu změnu jména Německého Brodu na Havlíčkův Brod",
+   "country": "CZ",
+   "city": "havlickuv-brod",
+   "year": 1945,
+   "text": "5. května oznámil starosta Antonín Šouba z radničního balkonu změnu jména Německého Brodu na Havlíčkův Brod"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "havlickuv-brod|1948|místní tiskárna se po znárodnění stala jedním ze závodů státního podniku Východočeské tiskárny",
+   "country": "CZ",
+   "city": "havlickuv-brod",
+   "year": 1948,
+   "text": "místní tiskárna se po znárodnění stala jedním ze závodů státního podniku Východočeské tiskárny"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "havlickuv-brod|1991|v Kulturním domě Ostrov se konal první Podzimní knižní veletrh, nejstarší a dodnes oblíbená přehlídka českých nakladatelů",
+   "country": "CZ",
+   "city": "havlickuv-brod",
+   "year": 1991,
+   "text": "v Kulturním domě Ostrov se konal první Podzimní knižní veletrh, nejstarší a dodnes oblíbená přehlídka českých nakladatelů"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "havlickuv-brod|1991|k 1. dubnu se havlíčkobrodská tiskárna osamostatnila jako státní podnik a brzy zamířila do kupónové privatizace",
+   "country": "CZ",
+   "city": "havlickuv-brod",
+   "year": 1991,
+   "text": "k 1. dubnu se havlíčkobrodská tiskárna osamostatnila jako státní podnik a brzy zamířila do kupónové privatizace"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "havlickuv-brod|1998|hokejový oddíl přijal název HC Rebel, pod nímž se proslavil ve druhé nejvyšší soutěži",
+   "country": "CZ",
+   "city": "havlickuv-brod",
+   "year": 1998,
+   "text": "hokejový oddíl přijal název HC Rebel, pod nímž se proslavil ve druhé nejvyšší soutěži"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "havlickuv-brod|2023|12. prosince byl po letech příprav otevřen jihovýchodní obchvat, který odvedl tranzitní dopravu z centra města",
+   "country": "CZ",
+   "city": "havlickuv-brod",
+   "year": 2023,
+   "text": "12. prosince byl po letech příprav otevřen jihovýchodní obchvat, který odvedl tranzitní dopravu z centra města"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|1945|14. června byl na náměstí odhalen pomník se jmény 150 obětí války z řad kutnohorských občanů",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 1945,
+   "text": "14. června byl na náměstí odhalen pomník se jmény 150 obětí války z řad kutnohorských občanů"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|1961|31. srpna bylo historické jádro města vyhlášeno městskou památkovou rezervací, na dlouho jedinou ve středních Čechách",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 1961,
+   "text": "31. srpna bylo historické jádro města vyhlášeno městskou památkovou rezervací, na dlouho jedinou ve středních Čechách"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|1992|americký Philip Morris zprivatizoval státní tabákový monopol se sídlem v Kutné Hoře, šlo o jednu z největších zahraničních investic v zemi",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 1992,
+   "text": "americký Philip Morris zprivatizoval státní tabákový monopol se sídlem v Kutné Hoře, šlo o jednu z největších zahraničních investic v zemi"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|1993|v sedlecké továrně se rozběhla licenční výroba Marlbora; vedle světových značek se tu dál balily i tuzemské Petra, Sparta a Start",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 1993,
+   "text": "v sedlecké továrně se rozběhla licenční výroba Marlbora; vedle světových značek se tu dál balily i tuzemské Petra, Sparta a Start"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|1998|armáda předala zchátralou jezuitskou kolej, sloužící od 18. století jako kasárna a sklady, k využití pro galerii",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 1998,
+   "text": "armáda předala zchátralou jezuitskou kolej, sloužící od 18. století jako kasárna a sklady, k využití pro galerii"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|2009|po osmileté obnově se znovu otevřela sedlecká katedrála Nanebevzetí Panny Marie přestavěná Santinim",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 2009,
+   "text": "po osmileté obnově se znovu otevřela sedlecká katedrála Nanebevzetí Panny Marie přestavěná Santinim"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|2010|v zrekonstruované jezuitské koleji zahájila provoz GASK, Galerie Středočeského kraje, druhá největší galerie v zemi",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 2010,
+   "text": "v zrekonstruované jezuitské koleji zahájila provoz GASK, Galerie Středočeského kraje, druhá největší galerie v zemi"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|2020|od 1. ledna zavedla sedlecká kostnice plošný zákaz fotografování, aby zabránila nevhodným selfie na místě ostatků desítek tisíc zemřelých",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 2020,
+   "text": "od 1. ledna zavedla sedlecká kostnice plošný zákaz fotografování, aby zabránila nevhodným selfie na místě ostatků desítek tisíc zemřelých"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "kutna-hora|2025|od 1. října začala kostnice v Sedlci pouštět návštěvníky jen na předem rezervované časové vstupy kvůli náporu turistů",
+   "country": "CZ",
+   "city": "kutna-hora",
+   "year": 2025,
+   "text": "od 1. října začala kostnice v Sedlci pouštět návštěvníky jen na předem rezervované časové vstupy kvůli náporu turistů"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "kolin|1945|poslední spojenecký nálet 18. dubna srovnal se zemí kolínské seřaďovací nádraží i Draslovku a zabil desítky lidí",
+   "country": "CZ",
+   "city": "kolin",
+   "year": 1945,
+   "text": "poslední spojenecký nálet 18. dubna srovnal se zemí kolínské seřaďovací nádraží i Draslovku a zabil desítky lidí"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "kolin|1948|20. července vznikly Lučební závody Kolín, vyčleněné z chemického koncernu Synthesia",
+   "country": "CZ",
+   "city": "kolin",
+   "year": 1948,
+   "text": "20. července vznikly Lučební závody Kolín, vyčleněné z chemického koncernu Synthesia"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "kolin|1955|23. ledna otevřel třináctý zimní stadion v republice a kolínští hokejisté poprvé vyjeli na vlastní led",
+   "country": "CZ",
+   "city": "kolin",
+   "year": 1955,
+   "text": "23. ledna otevřel třináctý zimní stadion v republice a kolínští hokejisté poprvé vyjeli na vlastní led"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "kolin|1958|renesanční synagoga, po pražské nejstarší a nejcennější svého druhu v Čechách, byla prohlášena kulturní památkou",
+   "country": "CZ",
+   "city": "kolin",
+   "year": 1958,
+   "text": "renesanční synagoga, po pražské nejstarší a nejcennější svého druhu v Čechách, byla prohlášena kulturní památkou"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "kolin|1969|rafinérie Koramo zaregistrovala ochrannou známku celoročního oleje MOGUL SUPER a stala se největším výrobcem motorových olejů v Československu",
+   "country": "CZ",
+   "city": "kolin",
+   "year": 1969,
+   "text": "rafinérie Koramo zaregistrovala ochrannou známku celoročního oleje MOGUL SUPER a stala se největším výrobcem motorových olejů v Československu"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "kolin|2005|automobilka TPCA v Ovčárech zahájila výrobu městských vozů Toyota Aygo, Peugeot 107 a Citroën C1, takzvaných kolínských trojčat",
+   "country": "CZ",
+   "city": "kolin",
+   "year": 2005,
+   "text": "automobilka TPCA v Ovčárech zahájila výrobu městských vozů Toyota Aygo, Peugeot 107 a Citroën C1, takzvaných kolínských trojčat"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "kolin|2006|několikadenní únik kyanidů z Lučebních závodů Draslovka otrávil přes 80 kilometrů toku Labe — největší ekologická havárie na řece za desítky let",
+   "country": "CZ",
+   "city": "kolin",
+   "year": 2006,
+   "text": "několikadenní únik kyanidů z Lučebních závodů Draslovka otrávil přes 80 kilometrů toku Labe — největší ekologická havárie na řece za desítky let"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "kolin|2012|7. prosince byl po čtyřech letech stavby otevřen jižní obchvat města na silnici I/38, který svedl tranzitní dopravu mimo centrum",
+   "country": "CZ",
+   "city": "kolin",
+   "year": 2012,
+   "text": "7. prosince byl po čtyřech letech stavby otevřen jižní obchvat města na silnici I/38, který svedl tranzitní dopravu mimo centrum"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "kolin|2021|Toyota převzala kolínský závod cele do svého vlastnictví, přejmenovala jej na Toyota Motor Manufacturing Czech Republic a spustila výrobu modelů Yaris a Aygo X",
+   "country": "CZ",
+   "city": "kolin",
+   "year": 2021,
+   "text": "Toyota převzala kolínský závod cele do svého vlastnictví, přejmenovala jej na Toyota Motor Manufacturing Czech Republic a spustila výrobu modelů Yaris a Aygo X"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "olomouc|1950|při Akci K přepadla StB v dubnu mužské kláštery a olomoucký arcibiskup Josef Matocha skončil na jedenáct let v domácím vězení na své rezidenci",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1950,
+   "text": "při Akci K přepadla StB v dubnu mužské kláštery a olomoucký arcibiskup Josef Matocha skončil na jedenáct let v domácím vězení na své rezidenci"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "olomouc|1953|měnová reforma z 1. června znehodnotila úspory a vyvolala i v olomouckých závodech vlnu dělnické nevole",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1953,
+   "text": "měnová reforma z 1. června znehodnotila úspory a vyvolala i v olomouckých závodech vlnu dělnické nevole"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "olomouc|1968|po vyhnání polské jednotky obsadila město v srpnu sovětská armáda, která pak v Olomouci zůstala dlouhých třiadvacet let",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1968,
+   "text": "po vyhnání polské jednotky obsadila město v srpnu sovětská armáda, která pak v Olomouci zůstala dlouhých třiadvacet let"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "olomouc|1968|počátkem října převzala sovětská vojska kasárna Prokopa Holého i Jana Jiskry a usadila se ve městě nadlouho",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1968,
+   "text": "počátkem října převzala sovětská vojska kasárna Prokopa Holého i Jana Jiskry a usadila se ve městě nadlouho"
+  },
+  {
+   "id": "r50",
+   "dataset": "cityFacts",
+   "key": "olomouc|1989|v listopadu se na náměstí scházely desítky tisíc lidí a studenti Univerzity Palackého obklíčili sídlo KSČ papírovou zdí",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1989,
+   "text": "v listopadu se na náměstí scházely desítky tisíc lidí a studenti Univerzity Palackého obklíčili sídlo KSČ papírovou zdí"
+  },
+  {
+   "id": "r51",
+   "dataset": "cityFacts",
+   "key": "olomouc|1990|Univerzita Palackého udělila 28. května čestný doktorát Václavu Havlovi jako první vysoká škola v Československu",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1990,
+   "text": "Univerzita Palackého udělila 28. května čestný doktorát Václavu Havlovi jako první vysoká škola v Československu"
+  },
+  {
+   "id": "r52",
+   "dataset": "cityFacts",
+   "key": "olomouc|1991|v červnu opustily Olomouc poslední sovětské jednotky a uvolnily rozsáhlá kasárna východně od Holické ulice",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1991,
+   "text": "v červnu opustily Olomouc poslední sovětské jednotky a uvolnily rozsáhlá kasárna východně od Holické ulice"
+  },
+  {
+   "id": "r53",
+   "dataset": "cityFacts",
+   "key": "olomouc|1992|fotbalová Sigma došla v Poháru UEFA až do čtvrtfinále, kde ji zastavil Real Madrid; cestou porazila Hamburger SV 4:1",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1992,
+   "text": "fotbalová Sigma došla v Poháru UEFA až do čtvrtfinále, kde ji zastavil Real Madrid; cestou porazila Hamburger SV 4:1"
+  },
+  {
+   "id": "r54",
+   "dataset": "cityFacts",
+   "key": "olomouc|1995|papež Jan Pavel II. svatořečil 21. května na letišti v Neředíně Jana Sarkandera a Zdislavu z Lemberka a baziliku na Svatém Kopečku povýšil na Basilica minor",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1995,
+   "text": "papež Jan Pavel II. svatořečil 21. května na letišti v Neředíně Jana Sarkandera a Zdislavu z Lemberka a baziliku na Svatém Kopečku povýšil na Basilica minor"
+  },
+  {
+   "id": "r55",
+   "dataset": "cityFacts",
+   "key": "olomouc|1997|v červenci zaplavila Olomouc nejničivější povodeň za sto let, voda odřízla město od světa a v Černovíru strhla na sedmdesát domů",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1997,
+   "text": "v červenci zaplavila Olomouc nejničivější povodeň za sto let, voda odřízla město od světa a v Černovíru strhla na sedmdesát domů"
+  },
+  {
+   "id": "r56",
+   "dataset": "cityFacts",
+   "key": "olomouc|2000|sloup Nejsvětější Trojice na Horním náměstí byl 2. prosince zapsán na Seznam světového dědictví UNESCO",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 2000,
+   "text": "sloup Nejsvětější Trojice na Horním náměstí byl 2. prosince zapsán na Seznam světového dědictví UNESCO"
+  },
+  {
+   "id": "r57",
+   "dataset": "cityFacts",
+   "key": "olomouc|2013|na místě bývalé potravinářské továrny Milo bylo otevřeno nákupní centrum Galerie Šantovka, k němuž vedla nově postavená tramvajová trať",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 2013,
+   "text": "na místě bývalé potravinářské továrny Milo bylo otevřeno nákupní centrum Galerie Šantovka, k němuž vedla nově postavená tramvajová trať"
+  },
+  {
+   "id": "r58",
+   "dataset": "cityFacts",
+   "key": "prerov|1946|znárodněné přerovské optické závody byly v březnu sloučeny do národního podniku Meopta, zkratky pro mechanickou optickou výrobu",
+   "country": "CZ",
+   "city": "prerov",
+   "year": 1946,
+   "text": "znárodněné přerovské optické závody byly v březnu sloučeny do národního podniku Meopta, zkratky pro mechanickou optickou výrobu"
+  },
+  {
+   "id": "r59",
+   "dataset": "cityFacts",
+   "key": "prerov|1968|Přerovské chemické závody zahájily výrobu titanové běloby, navrženou od počátku jako provoz bez odpadu",
+   "country": "CZ",
+   "city": "prerov",
+   "year": 1968,
+   "text": "Přerovské chemické závody zahájily výrobu titanové běloby, navrženou od počátku jako provoz bez odpadu"
+  }
+ ]
+}

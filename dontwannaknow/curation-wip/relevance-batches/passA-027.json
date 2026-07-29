@@ -1,0 +1,456 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1920|mykolajivské loděnice byly významným námořním centrem carského Ruska a rychle se opět zapojily do práce pro Sověty",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1920,
+   "text": "mykolajivské loděnice byly významným námořním centrem carského Ruska a rychle se opět zapojily do práce pro Sověty"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1922|loděnice André Marti byla pojmenována po francouzském komunistickém vzbouřenci z černomořské intervence roku 1919",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1922,
+   "text": "loděnice André Marti byla pojmenována po francouzském komunistickém vzbouřenci z černomořské intervence roku 1919"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1929|městské loděnice spustily na vodu křižník Červona Ukrajina pro Černomořskou flotilu",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1929,
+   "text": "městské loděnice spustily na vodu křižník Červona Ukrajina pro Černomořskou flotilu"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1937|ředitel loděnice Konstantin Vasilevskij byl spolu s velkou částí technického personálu odstraněn v čistkách",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1937,
+   "text": "ředitel loděnice Konstantin Vasilevskij byl spolu s velkou částí technického personálu odstraněn v čistkách"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1941|wehrmacht obsadil loděnice v srpnu",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1941,
+   "text": "wehrmacht obsadil loděnice v srpnu"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1941|wehrmacht obsadil Mykolajiv v srpnu spolu s nedokončenou bitevní lodí Sovětská Ukrajina na skluzu",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1941,
+   "text": "wehrmacht obsadil Mykolajiv v srpnu spolu s nedokončenou bitevní lodí Sovětská Ukrajina na skluzu"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1944|Rudá armáda dobyla město zpět v březnu",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1944,
+   "text": "Rudá armáda dobyla město zpět v březnu"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1944|sovětští námořníci pod vedením Konstantina Olšanského se v březnu vylodili v přístavu při téměř sebevražedném výsadku, který pomohl město osvobodit",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1944,
+   "text": "sovětští námořníci pod vedením Konstantina Olšanského se v březnu vylodili v přístavu při téměř sebevražedném výsadku, který pomohl město osvobodit"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1950|loděnice č. 444 obnovila stavbu křižníků a spustila na vodu třídu Sverdlov",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1950,
+   "text": "loděnice č. 444 obnovila stavbu křižníků a spustila na vodu třídu Sverdlov"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1972|zde byla položena kýl letadlové lodi Kyjev — první třídy Kyjev",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1972,
+   "text": "zde byla položena kýl letadlové lodi Kyjev — první třídy Kyjev"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1972|v Černomořské loděnici byl spuštěn na vodu křižník nesoucí letadla Kyjev",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1972,
+   "text": "v Černomořské loděnici byl spuštěn na vodu křižník nesoucí letadla Kyjev"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1975|byl spuštěn na vodu letadlový křižník Minsk, čímž se upevnila role Mykolajiva jako jediné loděnice SSSR stavějící letadlové lodě",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1975,
+   "text": "byl spuštěn na vodu letadlový křižník Minsk, čímž se upevnila role Mykolajiva jako jediné loděnice SSSR stavějící letadlové lodě"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "odesa|1920|sovětské síly definitivně obsadily město po letech střídání moci za občanské války",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1920,
+   "text": "sovětské síly definitivně obsadily město po letech střídání moci za občanské války"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "odesa|1920|Rudá armáda definitivně obsadila město v únoru, čímž ukončila francouzskou a bělogvardějskou intervenci",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1920,
+   "text": "Rudá armáda definitivně obsadila město v únoru, čímž ukončila francouzskou a bělogvardějskou intervenci"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "odesa|1923|Oděský filmový ateliér byl reorganizován a začali tam pracovat bratři Vasiljevové",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1923,
+   "text": "Oděský filmový ateliér byl reorganizován a začali tam pracovat bratři Vasiljevové"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "odesa|1925|Sergej Ejzenštejn natočil film Křižník Potěmkin včetně scény na Potěmkinových schodech",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1925,
+   "text": "Sergej Ejzenštejn natočil film Křižník Potěmkin včetně scény na Potěmkinových schodech"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "odesa|1926|spisovatel Isaak Babel vydal Oděské povídky čerpající z gangsterů z Moldavanky kolem Miška Japončika",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1926,
+   "text": "spisovatel Isaak Babel vydal Oděské povídky čerpající z gangsterů z Moldavanky kolem Miška Japončika"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "odesa|1928|román Jurije Oleši Závist popsal novou sovětskou oděskou inteligenci",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1928,
+   "text": "román Jurije Oleši Závist popsal novou sovětskou oděskou inteligenci"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "odesa|1932|uprchlíci před holodomorem z okolních vesnic byli na okraji města vraceni zpět",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1932,
+   "text": "uprchlíci před holodomorem z okolních vesnic byli na okraji města vraceni zpět"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "odesa|1933|oděský přístav odbavoval rekordní vývoz obilí, i když venkov hladověl",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1933,
+   "text": "oděský přístav odbavoval rekordní vývoz obilí, i když venkov hladověl"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "odesa|1934|jazzový orchestr Leonida Utěsova vystupoval ve filmu Veselí chlapíci a popularizoval oděský hudební styl",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1934,
+   "text": "jazzový orchestr Leonida Utěsova vystupoval ve filmu Veselí chlapíci a popularizoval oděský hudební styl"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "odesa|1937|spisovatel Isaak Babel byl zatčen a později během Velkého teroru zastřelen",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1937,
+   "text": "spisovatel Isaak Babel byl zatčen a později během Velkého teroru zastřelen"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "odesa|1941|Oděsa se před pádem 73 dní bránila rumunským a německým silám",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1941,
+   "text": "Oděsa se před pádem 73 dní bránila rumunským a německým silám"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "odesa|1941|od října se město stalo hlavním městem rumunsky okupovaného Podněstří",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1941,
+   "text": "od října se město stalo hlavním městem rumunsky okupovaného Podněstří"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "odesa|1941|po bombardování rumunského velitelství byly tisíce Židů zaživa upáleny ve skladech střelného prachu na Lustdorfské cestě",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1941,
+   "text": "po bombardování rumunského velitelství byly tisíce Židů zaživa upáleny ve skladech střelného prachu na Lustdorfské cestě"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "odesa|1942|rumunsky okupovaná Oděsa byla dějištěm oděského masakru Židů",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1942,
+   "text": "rumunsky okupovaná Oděsa byla dějištěm oděského masakru Židů"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "odesa|1943|v oděských katakombách operovali partyzáni pod vedením Vladimira Molodcova-Badajeva",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1943,
+   "text": "v oděských katakombách operovali partyzáni pod vedením Vladimira Molodcova-Badajeva"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "odesa|1944|Rudá armáda dobyla město zpět v dubnu",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1944,
+   "text": "Rudá armáda dobyla město zpět v dubnu"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "odesa|1945|tržnice Privoz obnovila plný provoz jako hlavní potravinové centrum města",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1945,
+   "text": "tržnice Privoz obnovila plný provoz jako hlavní potravinové centrum města"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "odesa|1949|Oděský filmový ateliér obnovil produkci po válečné evakuaci z Taškentu",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1949,
+   "text": "Oděský filmový ateliér obnovil produkci po válečné evakuaci z Taškentu"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "odesa|1953|Potěmkinovy schody byly přejmenovány na Bulvárové schody a zrestaurovány",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1953,
+   "text": "Potěmkinovy schody byly přejmenovány na Bulvárové schody a zrestaurovány"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "odesa|1955|Mark Berness vystupoval v Oděské filharmonii před plnými sály",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1955,
+   "text": "Mark Berness vystupoval v Oděské filharmonii před plnými sály"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "odesa|1960|severně od města začala stavba průmyslového přístavu Južnyj",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1960,
+   "text": "severně od města začala stavba průmyslového přístavu Južnyj"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "odesa|1965|Oděse byl Sovětským svazem udělen status 'města-hrdiny'",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1965,
+   "text": "Oděse byl Sovětským svazem udělen status 'města-hrdiny'"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "odesa|1966|komik Roman Karcev začal vystupovat v oděském estrádním divadle Parnas-2",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1966,
+   "text": "komik Roman Karcev začal vystupovat v oděském estrádním divadle Parnas-2"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "odesa|1967|Michail Žvaneckij začal psát pro Arkadije Rajkina, zatímco působil v Oděse",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1967,
+   "text": "Michail Žvaneckij začal psát pro Arkadije Rajkina, zatímco působil v Oděse"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "odesa|1970|propuknutí cholery vynutilo na týdny karanténu celého města",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1970,
+   "text": "propuknutí cholery vynutilo na týdny karanténu celého města"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "odesa|1972|mnoho oděských Židů začalo emigrovat poté, co Sověti pod americkým tlakem uvolnili výjezdní víza",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1972,
+   "text": "mnoho oděských Židů začalo emigrovat poté, co Sověti pod americkým tlakem uvolnili výjezdní víza"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "odesa|1975|Černomořská námořní plavba se sídlem v Oděse provozovala jedno z největších obchodních loďstev na světě",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1975,
+   "text": "Černomořská námořní plavba se sídlem v Oděse provozovala jedno z největších obchodních loďstev na světě"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "odesa|1976|Kira Muratová natočila v Oděském filmovém ateliéru film Dlouhé loučení, ačkoli jej cenzoři odložili",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1976,
+   "text": "Kira Muratová natočila v Oděském filmovém ateliéru film Dlouhé loučení, ačkoli jej cenzoři odložili"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "odesa|1978|v Centralnyj se otevřel nový terminál oděského letiště",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1978,
+   "text": "v Centralnyj se otevřel nový terminál oděského letiště"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "odesa|1921|hladomor let 1921-22 zasáhl oděské zázemí; městské židovské charity a Americký židovský společný distribuční výbor (Joint) provozovaly na Děribasovské ulici vývařovny",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1921,
+   "text": "hladomor let 1921-22 zasáhl oděské zázemí; městské židovské charity a Americký židovský společný distribuční výbor (Joint) provozovaly na Děribasovské ulici vývařovny"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "odesa|1924|Oděský filmový ateliér éry Mosfilmu se znovu otevřel na Francouzském bulváru s novými zvukovými ateliéry",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1924,
+   "text": "Oděský filmový ateliér éry Mosfilmu se znovu otevřel na Francouzském bulváru s novými zvukovými ateliéry"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "odesa|1927|100. výročí Oděské opery (postavené roku 1810, přestavěné roku 1887) přivedlo do rokokového divadla na Lanžeronovské sovětské velikány",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1927,
+   "text": "100. výročí Oděské opery (postavené roku 1810, přestavěné roku 1887) přivedlo do rokokového divadla na Lanžeronovské sovětské velikány"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "odesa|1929|spisovatelé Ilja Ilf a Jevgenij Petrov čerpali pro Dvanáct křesel z oděských typů; oba ve městě vyrostli",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1929,
+   "text": "spisovatelé Ilja Ilf a Jevgenij Petrov čerpali pro Dvanáct křesel z oděských typů; oba ve městě vyrostli"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "odesa|1931|Mosfilm a Oděský filmový ateliér vyráběly němé komedie, které vyvážely oděský smysl pro humor po celém SSSR",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1931,
+   "text": "Mosfilm a Oděský filmový ateliér vyráběly němé komedie, které vyvážely oděský smysl pro humor po celém SSSR"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "odesa|1936|Pionýrský park mezi Děribasovskou a tržnicí Privoz se otevřel pro letní aktivity dětí z dělnických rodin",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1936,
+   "text": "Pionýrský park mezi Děribasovskou a tržnicí Privoz se otevřel pro letní aktivity dětí z dělnických rodin"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "odesa|1938|židovské obyvatelstvo města o asi 200 000 lidech stále tvořilo třetinu Oděsy",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1938,
+   "text": "židovské obyvatelstvo města o asi 200 000 lidech stále tvořilo třetinu Oděsy"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "odesa|1940|Sověti odstranili z obchodů staré nápisy v jidiš a nahradili je ruskými a ukrajinskými",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1940,
+   "text": "Sověti odstranili z obchodů staré nápisy v jidiš a nahradili je ruskými a ukrajinskými"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "odesa|1944|po osvobození zůstalo ve městě jen asi 600 oděských předválečných Židů",
+   "country": "UA",
+   "city": "odesa",
+   "year": 1944,
+   "text": "po osvobození zůstalo ve městě jen asi 600 oděských předválečných Židů"
+  }
+ ]
+}

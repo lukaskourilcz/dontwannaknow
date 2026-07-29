@@ -1,0 +1,456 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "ostrava|1967|koksovna Ostrava-Hrabová a další těžké závody uvolňovaly tolik spadu, že sníh v podhůří Beskyd byl viditelně šedý",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1967,
+   "text": "koksovna Ostrava-Hrabová a další těžké závody uvolňovaly tolik spadu, že sníh v podhůří Beskyd byl viditelně šedý"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "ostrava|1968|sovětské tanky obsadily vítkovické železárny; dělníci vstoupili do stávky",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1968,
+   "text": "sovětské tanky obsadily vítkovické železárny; dělníci vstoupili do stávky"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "ostrava|1969|důl Antonína Zápotockého v okrese Karviná ohlásil dosud nejhlubší díla v ostravsko-karvinském revíru",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1969,
+   "text": "důl Antonína Zápotockého v okrese Karviná ohlásil dosud nejhlubší díla v ostravsko-karvinském revíru"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "ostrava|1970|Ostrava patřila k městům s nejhorším znečištěním ovzduší v Evropě; respirační onemocnění byla endemická",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1970,
+   "text": "Ostrava patřila k městům s nejhorším znečištěním ovzduší v Evropě; respirační onemocnění byla endemická"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "ostrava|1974|ostravsko-karvinský revír dosáhl svého vrcholu roční těžby přes 24 milionů tun černého uhlí",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1974,
+   "text": "ostravsko-karvinský revír dosáhl svého vrcholu roční těžby přes 24 milionů tun černého uhlí"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "ostrava|1976|Baník Ostrava vyhrál pod trenérem Evženem Hadamczikem československou fotbalovou ligu",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1976,
+   "text": "Baník Ostrava vyhrál pod trenérem Evženem Hadamczikem československou fotbalovou ligu"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "ostrava|1977|nový Sýkorův most přes Ostravici a podchod nádraží Ostrava-Svinov tvořily součást ambiciózní rekonstrukce centra města",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1977,
+   "text": "nový Sýkorův most přes Ostravici a podchod nádraží Ostrava-Svinov tvořily součást ambiciózní rekonstrukce centra města"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "ostrava|1980|Baník Ostrava vyhrál československou ligu podruhé, kdy mezi hrdiny sezony patřil Verner Lička",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1980,
+   "text": "Baník Ostrava vyhrál československou ligu podruhé, kdy mezi hrdiny sezony patřil Verner Lička"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "pardubice|1920|steeplechase Velká pardubická se obnovila na pardubickém závodišti na trati považované za nejtěžší v kontinentální Evropě",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1920,
+   "text": "steeplechase Velká pardubická se obnovila na pardubickém závodišti na trati považované za nejtěžší v kontinentální Evropě"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "pardubice|1924|steeplechase Velká pardubická byla už padesát let starou institucí",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1924,
+   "text": "steeplechase Velká pardubická byla už padesát let starou institucí"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "pardubice|1924|továrna Telegrafia zahájila výrobu rozhlasových přijímačů, čímž se Pardubice staly centrem rané české spotřební elektroniky",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1924,
+   "text": "továrna Telegrafia zahájila výrobu rozhlasových přijímačů, čímž se Pardubice staly centrem rané české spotřební elektroniky"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "pardubice|1931|rafinerie Fanto (později Paramo) už chrlila z východní strany města maziva a dehet",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1931,
+   "text": "rafinerie Fanto (později Paramo) už chrlila z východní strany města maziva a dehet"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "pardubice|1934|Petrof posílal z bubenečského překladiště koncertní křídla do Tokia a Buenos Aires, exportní pýcha první republiky",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1934,
+   "text": "Petrof posílal z bubenečského překladiště koncertní křídla do Tokia a Buenos Aires, exportní pýcha první republiky"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "pardubice|1937|továrna Explosia v Semtíně, postavená Škodou ve 20. letech, dodávala důlní a vojenské výbušniny",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1937,
+   "text": "továrna Explosia v Semtíně, postavená Škodou ve 20. letech, dodávala důlní a vojenské výbušniny"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "pardubice|1944|rafinerie Fanto byla 24. srpna bombardována letectvem USAAF, zahynuly desítky dělníků a vypukly požáry, které hořely dny",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1944,
+   "text": "rafinerie Fanto byla 24. srpna bombardována letectvem USAAF, zahynuly desítky dělníků a vypukly požáry, které hořely dny"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "pardubice|1949|rafinerie Paramo obnovila po válečných škodách plnou výrobu, kdy novou krakovací jednotka zvyšovala produkci",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1949,
+   "text": "rafinerie Paramo obnovila po válečných škodách plnou výrobu, kdy novou krakovací jednotka zvyšovala produkci"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "pardubice|1955|pardubický hokejový tým Tesla postoupil do nejvyšší soutěže a měl v 70. letech dominovat domácímu hokeji",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1955,
+   "text": "pardubický hokejový tým Tesla postoupil do nejvyšší soutěže a měl v 70. letech dominovat domácímu hokeji"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "pardubice|1957|Velkou pardubickou vyhrál ruský jezdec Vladimir Prachov na koni Epigraph, první sovětské vítězství v závodě",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1957,
+   "text": "Velkou pardubickou vyhrál ruský jezdec Vladimir Prachov na koni Epigraph, první sovětské vítězství v závodě"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "pardubice|1963|pardubický perník z rodinného podniku Goldfeinů, po roce 1948 znárodněného jako Východočeské pekárny, byl opět národní pochoutkou",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1963,
+   "text": "pardubický perník z rodinného podniku Goldfeinů, po roce 1948 znárodněného jako Východočeské pekárny, byl opět národní pochoutkou"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "pardubice|1964|chemik Stanislav Brebera vynalezl v závodě Synthesia plastickou trhavinu Semtex",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1964,
+   "text": "chemik Stanislav Brebera vynalezl v závodě Synthesia plastickou trhavinu Semtex"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "pardubice|1968|VCHZ Synthesia v Semtíně byla hlavním československým výrobcem nitrocelulózy a barviv a zaměstnávala přes 8 000 lidí",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1968,
+   "text": "VCHZ Synthesia v Semtíně byla hlavním československým výrobcem nitrocelulózy a barviv a zaměstnávala přes 8 000 lidí"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "pardubice|1972|v Synthesii byla zahájena hromadná výroba Semtexu na vývoz do spřátelených států",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1972,
+   "text": "v Synthesii byla zahájena hromadná výroba Semtexu na vývoz do spřátelených států"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "pardubice|1973|hokejová Tesla Pardubice vyhrála pod trenérem Stanislavem Neveselým svůj první československý titul",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1973,
+   "text": "hokejová Tesla Pardubice vyhrála pod trenérem Stanislavem Neveselým svůj první československý titul"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "pardubice|1980|byl dokončen nový podchod a nástupiště pardubického hlavního nádraží, jelikož se koridor stal jedním z nejrušnějších v zemi",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1980,
+   "text": "byl dokončen nový podchod a nástupiště pardubického hlavního nádraží, jelikož se koridor stal jedním z nejrušnějších v zemi"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "plzen|1920|pivovar Pilsner Urquell obnovil plnou mírovou výrobu a vývoz do Vídně a Mnichova",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1920,
+   "text": "pivovar Pilsner Urquell obnovil plnou mírovou výrobu a vývoz do Vídně a Mnichova"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "plzen|1922|Škoda Auto v Mladé Boleslavi se sloučila do plzeňských Škodových závodů, ačkoli auta zůstala v Mladé Boleslavi",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1922,
+   "text": "Škoda Auto v Mladé Boleslavi se sloučila do plzeňských Škodových závodů, ačkoli auta zůstala v Mladé Boleslavi"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "plzen|1923|Velká synagoga, dokončená v roce 1893, už byla známá jako druhá největší v Evropě a sobotní dominanta plzeňského života",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1923,
+   "text": "Velká synagoga, dokončená v roce 1893, už byla známá jako druhá největší v Evropě a sobotní dominanta plzeňského života"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "plzen|1925|plzeňský trolejbusový pokus z roku 1916 byl nahrazen tramvajemi; síť byla prodloužena do Doubravky",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1925,
+   "text": "plzeňský trolejbusový pokus z roku 1916 byl nahrazen tramvajemi; síť byla prodloužena do Doubravky"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "plzen|1928|Škodovy závody zaměstnávaly přes 30 000 dělníků — zbrojní výroba, lokomotivy a strojírenství",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1928,
+   "text": "Škodovy závody zaměstnávaly přes 30 000 dělníků — zbrojní výroba, lokomotivy a strojírenství"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "plzen|1933|fotbalový klub SK Plzeň se sloučil do Viktorie Plzeň, která hrála na hřišti Štruncovy sady u Radbuzy",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1933,
+   "text": "fotbalový klub SK Plzeň se sloučil do Viktorie Plzeň, která hrála na hřišti Štruncovy sady u Radbuzy"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "plzen|1938|romány Karla Klostermanna ze šumavských lesů se po celé Plzni četly, jak sudetoněmečtí sousedé odcházeli do říše",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1938,
+   "text": "romány Karla Klostermanna ze šumavských lesů se po celé Plzni četly, jak sudetoněmečtí sousedé odcházeli do říše"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "plzen|1939|nacistické Německo zabavilo Škodovy závody pro válečnou mašinérii wehrmachtu",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1939,
+   "text": "nacistické Německo zabavilo Škodovy závody pro válečnou mašinérii wehrmachtu"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "plzen|1941|plzeňští Židé byli v lednu deportováni ve třech transportech do Terezína, synagoga byla zamčena a vyprázdněna",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1941,
+   "text": "plzeňští Židé byli v lednu deportováni ve třech transportech do Terezína, synagoga byla zamčena a vyprázdněna"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "plzen|1942|RAF provedla masivní noční nálet na Škodovy závody",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1942,
+   "text": "RAF provedla masivní noční nálet na Škodovy závody"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "plzen|1944|letouny Mosquito RAF zasáhly Škodovy závody v noci při následných náletech v dubnu a květnu",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1944,
+   "text": "letouny Mosquito RAF zasáhly Škodovy závody v noci při následných náletech v dubnu a květnu"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "plzen|1945|Plzeň byla 6. května osvobozena 3. armádou generála Pattona — jediné velké české město osvobozené Američany",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1945,
+   "text": "Plzeň byla 6. května osvobozena 3. armádou generála Pattona — jediné velké české město osvobozené Američany"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "plzen|1945|americká 16. obrněná divize vjela ráno 6. května do Plzně za scén jásotu a házela z džípů čokoládu",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1945,
+   "text": "americká 16. obrněná divize vjela ráno 6. května do Plzně za scén jásotu a házela z džípů čokoládu"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "plzen|1946|Plzeň zvolila radu vedenou sociálními demokraty, jedno z mála velkých českých měst, kde komunisté nevyhráli volby",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1946,
+   "text": "Plzeň zvolila radu vedenou sociálními demokraty, jedno z mála velkých českých měst, kde komunisté nevyhráli volby"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "plzen|1953|1. června vypuklo plzeňské povstání; tisíce dělníků Škodovky protestovaly proti měnové reformě",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1953,
+   "text": "1. června vypuklo plzeňské povstání; tisíce dělníků Škodovky protestovaly proti měnové reformě"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "plzen|1953|dělníci Škodovky 1. června rozbili komunistické kanceláře, házeli z oken busty Stalina a byli rozehnáni armádou a milicí",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1953,
+   "text": "dělníci Škodovky 1. června rozbili komunistické kanceláře, házeli z oken busty Stalina a byli rozehnáni armádou a milicí"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "plzen|1962|nákladní vozy Škoda 706 sjíždějící z linky v Plzni byly stálicí na každé silnici od Aše po Košice",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1962,
+   "text": "nákladní vozy Škoda 706 sjíždějící z linky v Plzni byly stálicí na každé silnici od Aše po Košice"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "plzen|1968|sovětské jednotky obsadily 21. srpna Škodovy závody, ale byly přivítány celoměstskou generální stávkou",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1968,
+   "text": "sovětské jednotky obsadily 21. srpna Škodovy závody, ale byly přivítány celoměstskou generální stávkou"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "plzen|1971|sídliště Plzeň-Doubravka se blížilo dokončení jako jedno z největších panelových sídlišť v západních Čechách",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1971,
+   "text": "sídliště Plzeň-Doubravka se blížilo dokončení jako jedno z největších panelových sídlišť v západních Čechách"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "plzen|1973|Pilsner Urquell oslavil 130 let od uvaření první várky spodně kvašeného ležáku v roce 1842",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1973,
+   "text": "Pilsner Urquell oslavil 130 let od uvaření první várky spodně kvašeného ležáku v roce 1842"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "plzen|1975|plzeňská zoo na Lochotíně, založená v roce 1926, otevřela svůj nový medvědinec a rozšířila africkou sekci",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1975,
+   "text": "plzeňská zoo na Lochotíně, založená v roce 1926, otevřela svůj nový medvědinec a rozšířila africkou sekci"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "plzen|1978|sportovní hala V Lochotíně hostila házenkářské a basketbalové reprezentační zápasy, jelikož basketbalová Škoda Plzeň byla národní velmocí",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1978,
+   "text": "sportovní hala V Lochotíně hostila házenkářské a basketbalové reprezentační zápasy, jelikož basketbalová Škoda Plzeň byla národní velmocí"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "plzen|1980|nové autobusové nádraží CAN na Husově ulici se otevřelo, aby zvládlo dopravu z celých západních Čech",
+   "country": "CZ",
+   "city": "plzen",
+   "year": 1980,
+   "text": "nové autobusové nádraží CAN na Husově ulici se otevřelo, aby zvládlo dopravu z celých západních Čech"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "prague|1920|29. února byla přijata československá ústava, která ustanovila Prahu hlavním městem nové republiky",
+   "country": "CZ",
+   "city": "prague",
+   "year": 1920,
+   "text": "29. února byla přijata československá ústava, která ustanovila Prahu hlavním městem nové republiky"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "prague|1920|Národní divadlo uvedlo k založení republiky Smetanovu Libuši",
+   "country": "CZ",
+   "city": "prague",
+   "year": 1920,
+   "text": "Národní divadlo uvedlo k založení republiky Smetanovu Libuši"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "prague|1921|Karel Čapek uvedl ve Vinohradském divadle premiéru R.U.R., čímž dal světu slovo 'robot'",
+   "country": "CZ",
+   "city": "prague",
+   "year": 1921,
+   "text": "Karel Čapek uvedl ve Vinohradském divadle premiéru R.U.R., čímž dal světu slovo 'robot'"
+  }
+ ]
+}

@@ -1,0 +1,906 @@
+{
+ "pass": "C",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1962|Lev Landau, který do roku 1937 vyučoval na Charkovské univerzitě, získal Nobelovu cenu za fyziku",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1962,
+   "text": "Lev Landau, který do roku 1937 vyučoval na Charkovské univerzitě, získal Nobelovu cenu za fyziku"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "kharkiv|1975|Charkovský letecký závod vyráběl Tupolev Tu-134 — tažného koně Aeroflotu a dopravců východního bloku",
+   "country": "UA",
+   "city": "kharkiv",
+   "year": 1975,
+   "text": "Charkovský letecký závod vyráběl Tupolev Tu-134 — tažného koně Aeroflotu a dopravců východního bloku"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "lviv|1922|Lwów (tehdy polský) hostil Východní veletrh, významnou středoevropskou obchodní událost",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1922,
+   "text": "Lwów (tehdy polský) hostil Východní veletrh, významnou středoevropskou obchodní událost"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "lviv|1924|polskojazyčná Univerzita Jana Kazimíra byla po Varšavě druhá největší v Polsku",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1924,
+   "text": "polskojazyčná Univerzita Jana Kazimíra byla po Varšavě druhá největší v Polsku"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "lviv|1930|Lvovská matematická škola — Banach, Steinhaus, Mazur — pořádala své legendární pracovní schůzky ve Skotské kavárně",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1930,
+   "text": "Lvovská matematická škola — Banach, Steinhaus, Mazur — pořádala své legendární pracovní schůzky ve Skotské kavárně"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "lviv|1938|předválečné židovské obyvatelstvo města dosáhlo 110 000 — asi třetiny Lvova",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1938,
+   "text": "předválečné židovské obyvatelstvo města dosáhlo 110 000 — asi třetiny Lvova"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "lviv|1939|sovětská anexe: tajná policie pochytala polskou inteligenci a deportovala desetitisíce lidí na východ",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1939,
+   "text": "sovětská anexe: tajná policie pochytala polskou inteligenci a deportovala desetitisíce lidí na východ"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "lviv|1940|první sovětská deportační vlna ze Lvova poslala asi 40 000 Poláků do kazašských a sibiřských táborů",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1940,
+   "text": "první sovětská deportační vlna ze Lvova poslala asi 40 000 Poláků do kazašských a sibiřských táborů"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "lviv|1941|jak se Sověti v červnu stahovali, zmasakrovala NKVD politické vězně ve lvovských věznicích Brygidki, Łącki a Zamarstynów",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1941,
+   "text": "jak se Sověti v červnu stahovali, zmasakrovala NKVD politické vězně ve lvovských věznicích Brygidki, Łącki a Zamarstynów"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "lviv|1942|lvovské ghetto bylo uzavřeno; pracovní tábor Janowska na okraji běžel ve dne v noci",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1942,
+   "text": "lvovské ghetto bylo uzavřeno; pracovní tábor Janowska na okraji běžel ve dne v noci"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "lviv|1944|lvovsko-sandoměřská ofenziva v červenci osvobodila město; Rudá armáda poté vyhnala polsky mluvící obyvatelstvo na západ",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1944,
+   "text": "lvovsko-sandoměřská ofenziva v červenci osvobodila město; Rudá armáda poté vyhnala polsky mluvící obyvatelstvo na západ"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "lviv|1946|sovětský 'lvovský sněm' zlikvidoval řeckokatolickou církev a násilně ji sloučil s ruským pravoslavným patriarchátem",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1946,
+   "text": "sovětský 'lvovský sněm' zlikvidoval řeckokatolickou církev a násilně ji sloučil s ruským pravoslavným patriarchátem"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "lviv|1965|animační oddělení lvovského filmového studia vyrábělo sovětské hity a tiše pěstovalo ukrajinskojazyčnou tvorbu",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1965,
+   "text": "animační oddělení lvovského filmového studia vyrábělo sovětské hity a tiše pěstovalo ukrajinskojazyčnou tvorbu"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "lviv|1970|Lvovská státní univerzita otevřela na Univerzitní ulici nový fyzikální kampus",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1970,
+   "text": "Lvovská státní univerzita otevřela na Univerzitní ulici nový fyzikální kampus"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "lviv|1976|mnoho zakladatelů Ukrajinské helsinské skupiny pocházelo ze lvovských intelektuálních kruhů",
+   "country": "UA",
+   "city": "lviv",
+   "year": 1976,
+   "text": "mnoho zakladatelů Ukrajinské helsinské skupiny pocházelo ze lvovských intelektuálních kruhů"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "dnipro|1923|železniční dílny (později Dniprovahonmaš) byly přestavěny po škodách z občanské války",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1923,
+   "text": "železniční dílny (později Dniprovahonmaš) byly přestavěny po škodách z občanské války"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "dnipro|1928|město se stalo hlavním městem nové Dněpropetrovské oblasti",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1928,
+   "text": "město se stalo hlavním městem nové Dněpropetrovské oblasti"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "dnipro|1932|výše proti proudu se otevřela hráz DniproHES, která dodávala elektřinu rostoucím dněpropetrovským továrnám",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1932,
+   "text": "výše proti proudu se otevřela hráz DniproHES, která dodávala elektřinu rostoucím dněpropetrovským továrnám"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "dnipro|1937|Stalinovy čistky odstranily téměř celý městský stranický výbor; druhý tajemník byl zastřelen",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1937,
+   "text": "Stalinovy čistky odstranily téměř celý městský stranický výbor; druhý tajemník byl zastřelen"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "dnipro|1942|wehrmacht srovnal se zemí židovskou čtvrť města; tisíce lidí byly zastřeleny v rokli u botanické zahrady",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1942,
+   "text": "wehrmacht srovnal se zemí židovskou čtvrť města; tisíce lidí byly zastřeleny v rokli u botanické zahrady"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "dnipro|1959|konstrukční kancelář Južmaš Michaila Jangela postavila mezikontinentální raketu R-16 — nejsmrtonosnější sovětskou raketu své doby",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1959,
+   "text": "konstrukční kancelář Južmaš Michaila Jangela postavila mezikontinentální raketu R-16 — nejsmrtonosnější sovětskou raketu své doby"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "dnipro|1960|katastrofa Nedělina v Ťuratamu zabila 78 lidí — včetně velitele Raketových vojsk strategického určení — při testu rakety R-16 z Južmaše",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1960,
+   "text": "katastrofa Nedělina v Ťuratamu zabila 78 lidí — včetně velitele Raketových vojsk strategického určení — při testu rakety R-16 z Južmaše"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "dnipro|1965|status uzavřeného města učinil Dněpropetrovsk nepřístupným pro cizince až do roku 1990",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1965,
+   "text": "status uzavřeného města učinil Dněpropetrovsk nepřístupným pro cizince až do roku 1990"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "dnipro|1971|Dněpropetrovský metalurgický institut vychovával titanové specialisty sovětského kosmického programu",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1971,
+   "text": "Dněpropetrovský metalurgický institut vychovával titanové specialisty sovětského kosmického programu"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "donetsk|1923|město (tehdy Juzovka) bylo přejmenováno na Stalin poté, co nové jméno zvolilo dělnické shromáždění",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1923,
+   "text": "město (tehdy Juzovka) bylo přejmenováno na Stalin poté, co nové jméno zvolilo dělnické shromáždění"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "donetsk|1932|těžba uhlí v Donbasu se stala největší v Sovětském svazu a produkovala 60 % veškerého uhlí SSSR",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1932,
+   "text": "těžba uhlí v Donbasu se stala největší v Sovětském svazu a produkovala 60 % veškerého uhlí SSSR"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "donetsk|1936|stachanovské hnutí (vzniklé v roce 1935 v nedalekém městě Stachanov) přetvořilo továrenské cíle po celém Stalinu",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1936,
+   "text": "stachanovské hnutí (vzniklé v roce 1935 v nedalekém městě Stachanov) přetvořilo továrenské cíle po celém Stalinu"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "donetsk|1942|asi 25 000 doněckých Židů bylo zavražděno v městské šachtě (Jámě) a na dalších místech vraždění wehrmachtu",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1942,
+   "text": "asi 25 000 doněckých Židů bylo zavražděno v městské šachtě (Jámě) a na dalších místech vraždění wehrmachtu"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "donetsk|1955|Chruščov — který byl před válkou stranickým šéfem Stalina — prosadil masivní reinvestice do Donbasu",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1955,
+   "text": "Chruščov — který byl před válkou stranickým šéfem Stalina — prosadil masivní reinvestice do Donbasu"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "donetsk|1970|fotbalový klub Šachtar Doněck se vyšvihl mezi adepty na Sovětský pohár",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1970,
+   "text": "fotbalový klub Šachtar Doněck se vyšvihl mezi adepty na Sovětský pohár"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "donetsk|1976|město získalo Leninův řád za splnění kvót těžby uhlí v Donbasu",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1976,
+   "text": "město získalo Leninův řád za splnění kvót těžby uhlí v Donbasu"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|1921|anarchistická Černá armáda Nestora Machna byla v záporožských stepích poražena Rudou armádou",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 1921,
+   "text": "anarchistická Černá armáda Nestora Machna byla v záporožských stepích poražena Rudou armádou"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|1923|město bylo přejmenováno z Alexandrovska na Záporoží (v carských průvodcích je město stále uváděno jako Alexandrovsk)",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 1923,
+   "text": "město bylo přejmenováno z Alexandrovska na Záporoží (v carských průvodcích je město stále uváděno jako Alexandrovsk)"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|1934|v blízkosti ostrova Chortycja se otevřel traktorový závod Communard (Kommunar)",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 1934,
+   "text": "v blízkosti ostrova Chortycja se otevřel traktorový závod Communard (Kommunar)"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|1947|přestavěná hráz DniproHES byla podruhé slavnostně otevřena a obnovila dodávky elektřiny na jihovýchod",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 1947,
+   "text": "přestavěná hráz DniproHES byla podruhé slavnostně otevřena a obnovila dodávky elektřiny na jihovýchod"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|1959|Záporoží se stalo jedním z hlavních měst výroby hliníku v SSSR",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 1959,
+   "text": "Záporoží se stalo jedním z hlavních měst výroby hliníku v SSSR"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|1965|ostrov Chortycja — posvátné místo paměti ukrajinských kozáků — byl otevřen jako přírodní rezervace sovětské éry",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 1965,
+   "text": "ostrov Chortycja — posvátné místo paměti ukrajinských kozáků — byl otevřen jako přírodní rezervace sovětské éry"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|1973|začala stavba Záporožské jaderné elektrárny (v 80. letech největší v Evropě)",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 1973,
+   "text": "začala stavba Záporožské jaderné elektrárny (v 80. letech největší v Evropě)"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1922|nové sovětské úřady znovu zahájily těžbu železné rudy zastavenou během občanské války",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1922,
+   "text": "nové sovětské úřady znovu zahájily těžbu železné rudy zastavenou během občanské války"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1933|uprchlíci před holodomorem z okolních farem rozšířili pracovní sílu; mnozí zemřeli hlady v dělnických barácích závodu",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1933,
+   "text": "uprchlíci před holodomorem z okolních farem rozšířili pracovní sílu; mnozí zemřeli hlady v dělnických barácích závodu"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1955|obří komplex železné rudy Kryvbas sloučil desítky jednotlivých dolů",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1955,
+   "text": "obří komplex železné rudy Kryvbas sloučil desítky jednotlivých dolů"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1980|výroba železa ve městě zásobovala čtvrtinu veškeré sovětské oceli",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1980,
+   "text": "výroba železa ve městě zásobovala čtvrtinu veškeré sovětské oceli"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1933|mykolajivské loděnice spustily na vodu křižník Vorošilov",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1933,
+   "text": "mykolajivské loděnice spustily na vodu křižník Vorošilov"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1935|mykolajivské loděnice spustily na vodu své první zaoceánské válečné lodě pro sovětskou Černomořskou flotilu",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1935,
+   "text": "mykolajivské loděnice spustily na vodu své první zaoceánské válečné lodě pro sovětskou Černomořskou flotilu"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1947|přestavěná Černomořská loděnice spustila na vodu svůj první poválečný kýl těžkého křižníku",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1947,
+   "text": "přestavěná Černomořská loděnice spustila na vodu svůj první poválečný kýl těžkého křižníku"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1955|mykolajivské loděnice spustily na vodu předchůdce prvního sovětského vrtulníkového křižníku třídy Moskva",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1955,
+   "text": "mykolajivské loděnice spustily na vodu předchůdce prvního sovětského vrtulníkového křižníku třídy Moskva"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1968|v mykolajivských loděnicích začala stavba prvních skutečných letadlových lodí sovětského námořnictva",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1968,
+   "text": "v mykolajivských loděnicích začala stavba prvních skutečných letadlových lodí sovětského námořnictva"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1980|mykolajivské loděnice zaměstnávaly asi 30 000 lidí ve třech obřích závodech",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1980,
+   "text": "mykolajivské loděnice zaměstnávaly asi 30 000 lidí ve třech obřích závodech"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "luhansk|1922|Luhansk byl přestavěn na významné koksárenské a uhelné centrum Donbasu",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1922,
+   "text": "Luhansk byl přestavěn na významné koksárenské a uhelné centrum Donbasu"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "luhansk|1965|luhanské lokomotivní závody vyráběly dieselové lokomotivy, které jezdily na každé sovětské lokálce",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1965,
+   "text": "luhanské lokomotivní závody vyráběly dieselové lokomotivy, které jezdily na každé sovětské lokálce"
+  },
+  {
+   "id": "r50",
+   "dataset": "cityFacts",
+   "key": "luhansk|1972|těžba uhlí v Donbasu vrcholila; Luhansk byl srdcem energetické ekonomiky SSSR",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1972,
+   "text": "těžba uhlí v Donbasu vrcholila; Luhansk byl srdcem energetické ekonomiky SSSR"
+  },
+  {
+   "id": "r51",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|1925|nové vinnycké letiště se stalo jedním z prvních v Ukrajinské SSR",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 1925,
+   "text": "nové vinnycké letiště se stalo jedním z prvních v Ukrajinské SSR"
+  },
+  {
+   "id": "r52",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|1943|hroby vinnyckého masakru objevené wehrmachtem ukrývaly přes 9 000 obětí NKVD",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 1943,
+   "text": "hroby vinnyckého masakru objevené wehrmachtem ukrývaly přes 9 000 obětí NKVD"
+  },
+  {
+   "id": "r53",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|1955|Vinnycký traktorový závod zahájil výrobu",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 1955,
+   "text": "Vinnycký traktorový závod zahájil výrobu"
+  },
+  {
+   "id": "r54",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|1972|Vinnycja byla domovem Pirogovovy lékařské univerzity, která školila lékaře po celém sovětském bloku",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 1972,
+   "text": "Vinnycja byla domovem Pirogovovy lékařské univerzity, která školila lékaře po celém sovětském bloku"
+  },
+  {
+   "id": "r55",
+   "dataset": "cityFacts",
+   "key": "poltava|1922|Poltava si připomněla 250 let od bitvy u Poltavy z roku 1709 — klíčové pro ruské, švédské i ukrajinské dějiny",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1922,
+   "text": "Poltava si připomněla 250 let od bitvy u Poltavy z roku 1709 — klíčové pro ruské, švédské i ukrajinské dějiny"
+  },
+  {
+   "id": "r56",
+   "dataset": "cityFacts",
+   "key": "poltava|1932|holodomor zdecimoval Poltavský region; vesnice kolem města byly zcela opuštěny",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1932,
+   "text": "holodomor zdecimoval Poltavský region; vesnice kolem města byly zcela opuštěny"
+  },
+  {
+   "id": "r57",
+   "dataset": "cityFacts",
+   "key": "poltava|1942|wehrmacht vybudoval na letišti Poltava-Mirgorod velkou základnu Luftwaffe",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1942,
+   "text": "wehrmacht vybudoval na letišti Poltava-Mirgorod velkou základnu Luftwaffe"
+  },
+  {
+   "id": "r58",
+   "dataset": "cityFacts",
+   "key": "poltava|1955|poltavské muzeum kozáckého dědictví se znovu otevřelo se sovětsky prověřenými exponáty",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1955,
+   "text": "poltavské muzeum kozáckého dědictví se znovu otevřelo se sovětsky prověřenými exponáty"
+  },
+  {
+   "id": "r59",
+   "dataset": "cityFacts",
+   "key": "poltava|1965|poltavské oblastní divadlo uvádělo díla Mykoly Hohola v ukrajinskojazyčných inscenacích",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1965,
+   "text": "poltavské oblastní divadlo uvádělo díla Mykoly Hohola v ukrajinskojazyčných inscenacích"
+  },
+  {
+   "id": "r60",
+   "dataset": "cityFacts",
+   "key": "poltava|1975|poltavský závod na diamantové nástroje se stal jedním z největších v SSSR",
+   "country": "UA",
+   "city": "poltava",
+   "year": 1975,
+   "text": "poltavský závod na diamantové nástroje se stal jedním z největších v SSSR"
+  },
+  {
+   "id": "r61",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1922|Čerkasy byly trhovým městem o asi 40 000 obyvatelích ve střední Ukrajině",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1922,
+   "text": "Čerkasy byly trhovým městem o asi 40 000 obyvatelích ve střední Ukrajině"
+  },
+  {
+   "id": "r62",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1955|otevřel se závod na chemická vlákna Chimvolokno — tehdy největší v Sovětském svazu",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1955,
+   "text": "otevřel se závod na chemická vlákna Chimvolokno — tehdy největší v Sovětském svazu"
+  },
+  {
+   "id": "r63",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1975|Čerkasy hostily všeukrajinský literární festival Ševčenka",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1975,
+   "text": "Čerkasy hostily všeukrajinský literární festival Ševčenka"
+  },
+  {
+   "id": "r64",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1923|Sevastopol se stal sídlem nového velitelství sovětské Černomořské flotily",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1923,
+   "text": "Sevastopol se stal sídlem nového velitelství sovětské Černomořské flotily"
+  },
+  {
+   "id": "r65",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1925|sovětské námořnictvo znovu otevřelo Sevastopolskou námořní akademii",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1925,
+   "text": "sovětské námořnictvo znovu otevřelo Sevastopolskou námořní akademii"
+  },
+  {
+   "id": "r66",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1944|Rudá armáda osvobodila město v květnu; přes 90 % budov bylo zničeno",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1944,
+   "text": "Rudá armáda osvobodila město v květnu; přes 90 % budov bylo zničeno"
+  },
+  {
+   "id": "r67",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1948|Sevastopol byl oficiálně uzavřen cizincům a reorganizován jako město 'republikové podřízenosti'",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1948,
+   "text": "Sevastopol byl oficiálně uzavřen cizincům a reorganizován jako město 'republikové podřízenosti'"
+  },
+  {
+   "id": "r68",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1957|město bylo oficiálně přestavěno v neoklasicisticko-sovětské architektuře — jedné z nejosobitějších v SSSR",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1957,
+   "text": "město bylo oficiálně přestavěno v neoklasicisticko-sovětské architektuře — jedné z nejosobitějších v SSSR"
+  },
+  {
+   "id": "r69",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1975|Černomořská flotila byla po Severní druhou největší sovětskou flotilou",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1975,
+   "text": "Černomořská flotila byla po Severní druhou největší sovětskou flotilou"
+  },
+  {
+   "id": "r70",
+   "dataset": "cityFacts",
+   "key": "simferopol|1921|Krym se stal autonomní republikou v rámci Ruské SFSR; Simferopol se stal jejím hlavním městem",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1921,
+   "text": "Krym se stal autonomní republikou v rámci Ruské SFSR; Simferopol se stal jejím hlavním městem"
+  },
+  {
+   "id": "r71",
+   "dataset": "cityFacts",
+   "key": "simferopol|1945|po deportaci krymských Tatarů bylo město znovuosídleno ruskými a ukrajinskými osídlenci",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1945,
+   "text": "po deportaci krymských Tatarů bylo město znovuosídleno ruskými a ukrajinskými osídlenci"
+  },
+  {
+   "id": "r72",
+   "dataset": "cityFacts",
+   "key": "simferopol|1957|simferopolský vinný palác Massandra postavený KGB se rozšířil, aby zásoboval sovětské olympijské sportovce",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1957,
+   "text": "simferopolský vinný palác Massandra postavený KGB se rozšířil, aby zásoboval sovětské olympijské sportovce"
+  },
+  {
+   "id": "r73",
+   "dataset": "cityFacts",
+   "key": "simferopol|1959|simferopolské letiště bylo modernizováno, aby zvládlo vlnu sovětských turistů mířících do Jalty a Alušty",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1959,
+   "text": "simferopolské letiště bylo modernizováno, aby zvládlo vlnu sovětských turistů mířících do Jalty a Alušty"
+  },
+  {
+   "id": "r74",
+   "dataset": "cityFacts",
+   "key": "simferopol|1965|město se stalo branou pro více než milion sovětských turistů ročně navštěvujících krymskou riviéru",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1965,
+   "text": "město se stalo branou pro více než milion sovětských turistů ročně navštěvujících krymskou riviéru"
+  },
+  {
+   "id": "r75",
+   "dataset": "cityFacts",
+   "key": "simferopol|1976|pionýrský tábor Artek v nedalekém Hurzufu hostil děti z celého východního bloku",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1976,
+   "text": "pionýrský tábor Artek v nedalekém Hurzufu hostil děti z celého východního bloku"
+  },
+  {
+   "id": "r76",
+   "dataset": "cityFacts",
+   "key": "kherson|1922|Cherson byl historickým kozáckým přístavem v ústí Dněpru, nyní reorganizovaným jako sovětský okruh",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1922,
+   "text": "Cherson byl historickým kozáckým přístavem v ústí Dněpru, nyní reorganizovaným jako sovětský okruh"
+  },
+  {
+   "id": "r77",
+   "dataset": "cityFacts",
+   "key": "kherson|1932|holodomor zasáhl obzvláště tvrdě řecké a bulharské vesnice Chersonského regionu",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1932,
+   "text": "holodomor zasáhl obzvláště tvrdě řecké a bulharské vesnice Chersonského regionu"
+  },
+  {
+   "id": "r78",
+   "dataset": "cityFacts",
+   "key": "kherson|1955|chersonské loděnice stavěly říční tankery pro Dněpr",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1955,
+   "text": "chersonské loděnice stavěly říční tankery pro Dněpr"
+  },
+  {
+   "id": "r79",
+   "dataset": "cityFacts",
+   "key": "kherson|1965|Cherson se stal hlavním ukrajinským producentem melounů a cukrových melounů pro sovětský trh",
+   "country": "UA",
+   "city": "kherson",
+   "year": 1965,
+   "text": "Cherson se stal hlavním ukrajinským producentem melounů a cukrových melounů pro sovětský trh"
+  },
+  {
+   "id": "r80",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1922|Černihiv byl malým správním centrem s katedrálami z 11. století",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1922,
+   "text": "Černihiv byl malým správním centrem s katedrálami z 11. století"
+  },
+  {
+   "id": "r81",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1932|holodomor zasáhl Černihovský region tvrdě; vylidňování venkova pokračovalo až do roku 1934",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1932,
+   "text": "holodomor zasáhl Černihovský region tvrdě; vylidňování venkova pokračovalo až do roku 1934"
+  },
+  {
+   "id": "r82",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1943|Rudá armáda osvobodila Černihiv v září po měsících partyzánské činnosti v polesských lesích",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1943,
+   "text": "Rudá armáda osvobodila Černihiv v září po měsících partyzánské činnosti v polesských lesích"
+  },
+  {
+   "id": "r83",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1948|černihovský vlnařský textilní kombinát obnovil plnou výrobu",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1948,
+   "text": "černihovský vlnařský textilní kombinát obnovil plnou výrobu"
+  },
+  {
+   "id": "r84",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1971|černihovský závod na syntetická vlákna byl jedním z největších nehutních zaměstnavatelů na Ukrajině",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1971,
+   "text": "černihovský závod na syntetická vlákna byl jedním z největších nehutních zaměstnavatelů na Ukrajině"
+  },
+  {
+   "id": "r85",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1922|Proskurov byl reorganizován do nové Vinnycké oblasti jako malé správní centrum",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1922,
+   "text": "Proskurov byl reorganizován do nové Vinnycké oblasti jako malé správní centrum"
+  },
+  {
+   "id": "r86",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1932|holodomor byl v proskurovském okrese krutý; v nevyužívaných hřbitovních parcelách se kopaly hromadné hroby",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1932,
+   "text": "holodomor byl v proskurovském okrese krutý; v nevyužívaných hřbitovních parcelách se kopaly hromadné hroby"
+  },
+  {
+   "id": "r87",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1942|proskurovské židovské ghetto bylo zlikvidováno v říjnu a listopadu; přeživší Židé byli posláni do Belzecu a dalších vyhlazovacích táborů",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1942,
+   "text": "proskurovské židovské ghetto bylo zlikvidováno v říjnu a listopadu; přeživší Židé byli posláni do Belzecu a dalších vyhlazovacích táborů"
+  },
+  {
+   "id": "r88",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1955|z velké části přestavěné centrum města se vyznačovalo sovětskými veřejnými budovami kolem náměstí Hetmana Chmelnyckého",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1955,
+   "text": "z velké části přestavěné centrum města se vyznačovalo sovětskými veřejnými budovami kolem náměstí Hetmana Chmelnyckého"
+  },
+  {
+   "id": "r89",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1972|archiv NKVD/KGB Chmelnyckého regionu o obětech z let 1937-38 zůstal po celé sovětské období utajen",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1972,
+   "text": "archiv NKVD/KGB Chmelnyckého regionu o obětech z let 1937-38 zůstal po celé sovětské období utajen"
+  },
+  {
+   "id": "r90",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1922|Czernowitz (Cernăuți) bylo rumunsky spravované kulturní hlavní město s rumunským, německým, ukrajinským, polským a jidiš tiskem",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1922,
+   "text": "Czernowitz (Cernăuți) bylo rumunsky spravované kulturní hlavní město s rumunským, německým, ukrajinským, polským a jidiš tiskem"
+  },
+  {
+   "id": "r91",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1924|německojazyčná Univerzita v Czernowitzu vychovala ze svého kulturně smíšeného prostředí básníka Paula Celana, Rose Ausländerovou a další",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1924,
+   "text": "německojazyčná Univerzita v Czernowitzu vychovala ze svého kulturně smíšeného prostředí básníka Paula Celana, Rose Ausländerovou a další"
+  },
+  {
+   "id": "r92",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1937|bukovinští Židé — jen v Czernowitzu jich bylo asi 50 000 — čelili rostoucímu rumunskému fašismu",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1937,
+   "text": "bukovinští Židé — jen v Czernowitzu jich bylo asi 50 000 — čelili rostoucímu rumunskému fašismu"
+  },
+  {
+   "id": "r93",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1942|starosta Traian Popovici zachránil asi 20 000 czernowitzských Židů před deportací tím, že jim udělil pracovní povolení",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1942,
+   "text": "starosta Traian Popovici zachránil asi 20 000 czernowitzských Židů před deportací tím, že jim udělil pracovní povolení"
+  },
+  {
+   "id": "r94",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1947|sovětské úřady přejmenovaly Černivci na jejich moderní ukrajinskou podobu a obnovily ústřední instituce",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1947,
+   "text": "sovětské úřady přejmenovaly Černivci na jejich moderní ukrajinskou podobu a obnovily ústřední instituce"
+  },
+  {
+   "id": "r95",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1958|Univerzita v Černivcích po válce znovu otevřela výuku v ukrajinštině",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1958,
+   "text": "Univerzita v Černivcích po válce znovu otevřela výuku v ukrajinštině"
+  },
+  {
+   "id": "r96",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1976|černivecká 'paranormální panika' z listopadu a prosince 1976 přinesla masovou hysterii kvůli fámám o dětech s kožními nemocemi",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1976,
+   "text": "černivecká 'paranormální panika' z listopadu a prosince 1976 přinesla masovou hysterii kvůli fámám o dětech s kožními nemocemi"
+  },
+  {
+   "id": "r97",
+   "dataset": "cityFacts",
+   "key": "kyiv|1945|počet obyvatel se z válečného minima kolem 180 000 vyšplhal zpět ke zhruba půl milionu, jak se vraceli evakuovaní",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1945,
+   "text": "počet obyvatel se z válečného minima kolem 180 000 vyšplhal zpět ke zhruba půl milionu, jak se vraceli evakuovaní"
+  },
+  {
+   "id": "r98",
+   "dataset": "cityFacts",
+   "key": "kyiv|1950|obnovené Dovženkovy ateliéry rozjely poválečnou produkci sovětsko-ukrajinských celovečerních filmů",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1950,
+   "text": "obnovené Dovženkovy ateliéry rozjely poválečnou produkci sovětsko-ukrajinských celovečerních filmů"
+  },
+  {
+   "id": "r99",
+   "dataset": "cityFacts",
+   "key": "kyiv|1957|Trukhanivský ostrov spojila s pravým břehem nová visutá lávka pro pěší, jež se pod davy lidí znatelně rozhoupe",
+   "country": "UA",
+   "city": "kyiv",
+   "year": 1957,
+   "text": "Trukhanivský ostrov spojila s pravým břehem nová visutá lávka pro pěší, jež se pod davy lidí znatelně rozhoupe"
+  }
+ ]
+}

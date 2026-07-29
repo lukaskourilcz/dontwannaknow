@@ -1,0 +1,546 @@
+{
+ "pass": "B",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "luhansk|2014|11. května separatisté uspořádali sporné referendum o nezávislosti republiky",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 2014,
+   "text": "11. května separatisté uspořádali sporné referendum o nezávislosti republiky"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "luhansk|2014|v červnu byl nad městem sestřelen ukrajinský vojenský transportní letoun Il-76 se 49 lidmi na palubě",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 2014,
+   "text": "v červnu byl nad městem sestřelen ukrajinský vojenský transportní letoun Il-76 se 49 lidmi na palubě"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "luhansk|2022|po pádu Sjeverodoněcku a 3. července i Lysyčansku se celá Luhanská oblast poprvé ocitla pod ruskou kontrolou",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 2022,
+   "text": "po pádu Sjeverodoněcku a 3. července i Lysyčansku se celá Luhanská oblast poprvé ocitla pod ruskou kontrolou"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "mariupol|1948|město bylo přejmenováno na Ždanov po sovětském funkcionáři Andreji Ždanovovi, který se zde narodil",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1948,
+   "text": "město bylo přejmenováno na Ždanov po sovětském funkcionáři Andreji Ždanovovi, který se zde narodil"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "mariupol|1959|huť Azovstal disponovala šesti vysokými pecemi a tuctem martinských pecí a patřila k největším ocelárnám SSSR",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1959,
+   "text": "huť Azovstal disponovala šesti vysokými pecemi a tuctem martinských pecí a patřila k největším ocelárnám SSSR"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "mariupol|1987|v Sartaně u města bylo založeno Muzeum historie a etnografie Řeků Azovského moře",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1987,
+   "text": "v Sartaně u města bylo založeno Muzeum historie a etnografie Řeků Azovského moře"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "mariupol|1989|během perestrojky bylo městu vráceno historické řecké jméno Mariupol",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1989,
+   "text": "během perestrojky bylo městu vráceno historické řecké jméno Mariupol"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "mariupol|1991|po referendu se Mariupol stal součástí nezávislé Ukrajiny; přístav i hutě zůstaly pilíři ekonomiky",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 1991,
+   "text": "po referendu se Mariupol stal součástí nezávislé Ukrajiny; přístav i hutě zůstaly pilíři ekonomiky"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "mariupol|2014|9. května si srážky mezi ukrajinskými silami a separatisty u hořící policejní stanice vyžádaly desítky životů",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 2014,
+   "text": "9. května si srážky mezi ukrajinskými silami a separatisty u hořící policejní stanice vyžádaly desítky životů"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "mariupol|2014|13. června osvobodily město jednotky včetně nově vzniklého praporu Azov — jedno z prvních větších vítězství války",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 2014,
+   "text": "13. června osvobodily město jednotky včetně nově vzniklého praporu Azov — jedno z prvních větších vítězství války"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "mariupol|2015|24. ledna dopadlo na čtvrť Schidnyj během půl minuty přes 150 raket Grad; zahynulo 31 civilistů",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 2015,
+   "text": "24. ledna dopadlo na čtvrť Schidnyj během půl minuty přes 150 raket Grad; zahynulo 31 civilistů"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "mariupol|2021|Mariupol zůstával největším přístavem ukrajinského Azovského moře a sídlem velitelství pluku Azov",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 2021,
+   "text": "Mariupol zůstával největším přístavem ukrajinského Azovského moře a sídlem velitelství pluku Azov"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "mariupol|2022|od konce února sevřela město ruská vojska; obléhání zničilo či poškodilo na 90 % budov",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 2022,
+   "text": "od konce února sevřela město ruská vojska; obléhání zničilo či poškodilo na 90 % budov"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "mariupol|2022|9. března zničil ruský nálet porodnici č. 3; mezi oběťmi byla těhotná žena i novorozeně",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 2022,
+   "text": "9. března zničil ruský nálet porodnici č. 3; mezi oběťmi byla těhotná žena i novorozeně"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "mariupol|2022|16. března dvě pětisetkilové bomby zničily činoherní divadlo, kam se ukryly stovky civilistů; venku stál na zemi nápis 'DĚTI'",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 2022,
+   "text": "16. března dvě pětisetkilové bomby zničily činoherní divadlo, kam se ukryly stovky civilistů; venku stál na zemi nápis 'DĚTI'"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "mariupol|2022|15. dubna padla Iljičova ocelárna se 14 000 zaměstnanci; zbylí obránci ustoupili do Azovstalu",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 2022,
+   "text": "15. dubna padla Iljičova ocelárna se 14 000 zaměstnanci; zbylí obránci ustoupili do Azovstalu"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "mariupol|2022|poslední obránci se přes osmdesát dní drželi v podzemí oceláren Azovstal, než se v polovině května vzdali",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 2022,
+   "text": "poslední obránci se přes osmdesát dní drželi v podzemí oceláren Azovstal, než se v polovině května vzdali"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "mariupol|2022|21. května Rusko oznámilo dobytí Mariupolu; odhady civilních obětí obléhání sahají od deseti tisíc výše",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 2022,
+   "text": "21. května Rusko oznámilo dobytí Mariupolu; odhady civilních obětí obléhání sahají od deseti tisíc výše"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "mariupol|2024|dokument 20 dní v Mariupolu režiséra Mstyslava Černova získal Oscara — první v dějinách Ukrajiny",
+   "country": "UA",
+   "city": "mariupol",
+   "year": 2024,
+   "text": "dokument 20 dní v Mariupolu režiséra Mstyslava Černova získal Oscara — první v dějinách Ukrajiny"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1947|Admirálská a inženýrská škola se po válce obnovila jako kádrová líheň sovětského loďařství",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1947,
+   "text": "Admirálská a inženýrská škola se po válce obnovila jako kádrová líheň sovětského loďařství"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1962|v Černomořské loděnici byl spuštěn na vodu protiponorkový vrtulníkový křižník Moskva, první svého druhu v SSSR",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1962,
+   "text": "v Černomořské loděnici byl spuštěn na vodu protiponorkový vrtulníkový křižník Moskva, první svého druhu v SSSR"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1982|byl zde položen kýl těžkého letadlového křižníku Leonid Brežněv, pozdějšího Admirála Kuzněcova",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1982,
+   "text": "byl zde položen kýl těžkého letadlového křižníku Leonid Brežněv, pozdějšího Admirála Kuzněcova"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1985|Černomořská loděnice spustila na vodu Leonida Brežněva, jedinou dodnes sloužící ruskou letadlovou loď, později přejmenovanou na Admirála Kuzněcova",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1985,
+   "text": "Černomořská loděnice spustila na vodu Leonida Brežněva, jedinou dodnes sloužící ruskou letadlovou loď, později přejmenovanou na Admirála Kuzněcova"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1988|v loděnici byl spuštěn na vodu nedokončený letadlový křižník Riga, brzy přejmenovaný na Varjag",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1988,
+   "text": "v loděnici byl spuštěn na vodu nedokončený letadlový křižník Riga, brzy přejmenovaný na Varjag"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1988|zde byl položen kýl Uljanovsku, první sovětské letadlové lodi na jaderný pohon, plánované na výtlak 85 000 tun",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1988,
+   "text": "zde byl položen kýl Uljanovsku, první sovětské letadlové lodi na jaderný pohon, plánované na výtlak 85 000 tun"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1990|rozestavěný Admirál Kuzněcov dostal v říjnu své definitivní jméno po sovětském admirálovi flotily",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1990,
+   "text": "rozestavěný Admirál Kuzněcov dostal v říjnu své definitivní jméno po sovětském admirálovi flotily"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1991|rozpadem SSSR zůstala jediná loděnice schopná stavět letadlové lodě na ukrajinském území — Rusko tuto kapacitu uvnitř svých hranic už nikdy nezískalo",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1991,
+   "text": "rozpadem SSSR zůstala jediná loděnice schopná stavět letadlové lodě na ukrajinském území — Rusko tuto kapacitu uvnitř svých hranic už nikdy nezískalo"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1992|v únoru začalo šrotování rozestavěného jaderného Uljanovsku, dokončeného asi ze 40 % — stavba padla s rozpočtem zaniklého svazu",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1992,
+   "text": "v únoru začalo šrotování rozestavěného jaderného Uljanovsku, dokončeného asi ze 40 % — stavba padla s rozpočtem zaniklého svazu"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|1998|nedokončený trup Varjagu Ukrajina prodala za 20 milionů dolarů kupci, který tvrdil, že z lodi udělá plovoucí kasino v Macau",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 1998,
+   "text": "nedokončený trup Varjagu Ukrajina prodala za 20 milionů dolarů kupci, který tvrdil, že z lodi udělá plovoucí kasino v Macau"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|2014|proruští aktivisté se pokusili obsadit krajskou správu, ale byli místními zatlačeni a město zůstalo pod ukrajinskou kontrolou",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 2014,
+   "text": "proruští aktivisté se pokusili obsadit krajskou správu, ale byli místními zatlačeni a město zůstalo pod ukrajinskou kontrolou"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|2020|Volodymyr Zelenskyj jmenoval v listopadu gubernátorem Mykolajivské oblasti Vitalije Kima",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 2020,
+   "text": "Volodymyr Zelenskyj jmenoval v listopadu gubernátorem Mykolajivské oblasti Vitalije Kima"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|2020|Černomořská loděnice po vyhlášení bankrotu prakticky ukončila provoz a její haly chátraly",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 2020,
+   "text": "Černomořská loděnice po vyhlášení bankrotu prakticky ukončila provoz a její haly chátraly"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|2022|město se po únorovém vpádu ubránilo a stalo se hrází na ruské cestě k Oděse",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 2022,
+   "text": "město se po únorovém vpádu ubránilo a stalo se hrází na ruské cestě k Oděse"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|2022|7. března zasáhl ruský úder kasárna 79. výsadkové brigády v Soljanech",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 2022,
+   "text": "7. března zasáhl ruský úder kasárna 79. výsadkové brigády v Soljanech"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|2022|18. března ruská raketa zasáhla ubytovnu námořní pěchoty na severním okraji města; zahynulo přes sto vojáků",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 2022,
+   "text": "18. března ruská raketa zasáhla ubytovnu námořní pěchoty na severním okraji města; zahynulo přes sto vojáků"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|2022|29. března zničila raketa Kalibr půl budovy krajské správy; zahynuly desítky lidí, gubernátor Kim přežil jen proto, že zaspal",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 2022,
+   "text": "29. března zničila raketa Kalibr půl budovy krajské správy; zahynuly desítky lidí, gubernátor Kim přežil jen proto, že zaspal"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|2022|v dubnu Rusové vyhodili do vzduchu přivaděč z Dněpru a město muselo do vodovodu pouštět slanou vodu z limanu, která zkorodovala stovky kilometrů potrubí",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 2022,
+   "text": "v dubnu Rusové vyhodili do vzduchu přivaděč z Dněpru a město muselo do vodovodu pouštět slanou vodu z limanu, která zkorodovala stovky kilometrů potrubí"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|2022|10. listopadu osvobodila ukrajinská armáda Snihurivku, jediné okupované město oblasti",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 2022,
+   "text": "10. listopadu osvobodila ukrajinská armáda Snihurivku, jediné okupované město oblasti"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "mykolaiv|2025|po letech bez kvalitní vody zahájilo město dodávky z nově vybudovaného přivaděče",
+   "country": "UA",
+   "city": "mykolaiv",
+   "year": 2025,
+   "text": "po letech bez kvalitní vody zahájilo město dodávky z nově vybudovaného přivaděče"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1944|po osvobození bylo zničeno přes 90 % budov a obnova města trvala až do roku 1957",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1944,
+   "text": "po osvobození bylo zničeno přes 90 % budov a obnova města trvala až do roku 1957"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1957|architekti vyslaní z Moskvy se odklonili od stalinských plánů a obnovili město v rázu připomínajícím ruské město 19. století",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1957,
+   "text": "architekti vyslaní z Moskvy se odklonili od stalinských plánů a obnovili město v rázu připomínajícím ruské město 19. století"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1991|rozpadem SSSR připadl Sevastopol s námořní základnou nezávislé Ukrajině",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1991,
+   "text": "rozpadem SSSR připadl Sevastopol s námořní základnou nezávislé Ukrajině"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1992|začal spor o dělení bývalé sovětské Černomořské flotily i o základnu v Sevastopolu",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1992,
+   "text": "začal spor o dělení bývalé sovětské Černomořské flotily i o základnu v Sevastopolu"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1993|ruský parlament v červenci prohlásil Sevastopol za ruské území; Kyjev to odsoudil jako zásah do své celistvosti",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1993,
+   "text": "ruský parlament v červenci prohlásil Sevastopol za ruské území; Kyjev to odsoudil jako zásah do své celistvosti"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1996|ruská Rada federace přijala usnesení nárokující Sevastopol pro Rusko, výkonná moc se však od nezávazného aktu distancovala",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1996,
+   "text": "ruská Rada federace přijala usnesení nárokující Sevastopol pro Rusko, výkonná moc se však od nezávazného aktu distancovala"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "sevastopol|1997|dohoda o dělení flotily přiřkla Rusku 81,7 % plavidel a pronájem základny na dvacet let za zhruba 98 milionů dolarů ročně",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 1997,
+   "text": "dohoda o dělení flotily přiřkla Rusku 81,7 % plavidel a pronájem základny na dvacet let za zhruba 98 milionů dolarů ročně"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "sevastopol|2010|Charkovské dohody prodloužily ruský pronájem základny výměnou za slevu na plyn",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 2010,
+   "text": "Charkovské dohody prodloužily ruský pronájem základny výměnou za slevu na plyn"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "sevastopol|2014|7. března městská rada odhlasovala připojení Sevastopolu k Ruské federaci jako samostatného subjektu",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 2014,
+   "text": "7. března městská rada odhlasovala připojení Sevastopolu k Ruské federaci jako samostatného subjektu"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "sevastopol|2014|po anexi se Sevastopol stal jedním ze dvou ruských měst federálního významu vedle Moskvy a Petrohradu",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 2014,
+   "text": "po anexi se Sevastopol stal jedním ze dvou ruských měst federálního významu vedle Moskvy a Petrohradu"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "sevastopol|2018|23. prosince vyjel přes nově otevřený Kerčský most první vlak — z Petrohradu do Sevastopolu",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 2018,
+   "text": "23. prosince vyjel přes nově otevřený Kerčský most první vlak — z Petrohradu do Sevastopolu"
+  },
+  {
+   "id": "r50",
+   "dataset": "cityFacts",
+   "key": "sevastopol|2020|v srpnu byla otevřena dálnice Tavrida spojující Kerč přes Simferopol se Sevastopolem",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 2020,
+   "text": "v srpnu byla otevřena dálnice Tavrida spojující Kerč přes Simferopol se Sevastopolem"
+  },
+  {
+   "id": "r51",
+   "dataset": "cityFacts",
+   "key": "sevastopol|2022|29. října zasáhl základnu Černomořské flotily dosud největší útok bezpilotními čluny a drony od začátku invaze",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 2022,
+   "text": "29. října zasáhl základnu Černomořské flotily dosud největší útok bezpilotními čluny a drony od začátku invaze"
+  },
+  {
+   "id": "r52",
+   "dataset": "cityFacts",
+   "key": "sevastopol|2023|22. září zasáhly velitelství Černomořské flotily střely Storm Shadow a budovu zčásti zničily",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 2023,
+   "text": "22. září zasáhly velitelství Černomořské flotily střely Storm Shadow a budovu zčásti zničily"
+  },
+  {
+   "id": "r53",
+   "dataset": "cityFacts",
+   "key": "sevastopol|2023|ruská flotila začala kvůli opakovaným úderům přesouvat lodě ze Sevastopolu do vzdálenějšího Novorossijsku",
+   "country": "UA",
+   "city": "sevastopol",
+   "year": 2023,
+   "text": "ruská flotila začala kvůli opakovaným úderům přesouvat lodě ze Sevastopolu do vzdálenějšího Novorossijsku"
+  },
+  {
+   "id": "r54",
+   "dataset": "cityFacts",
+   "key": "simferopol|1944|18. května začala před úsvitem deportace celého krymskotatarského národa; do Střední Asie bylo vyhnáno přes 200 000 lidí",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1944,
+   "text": "18. května začala před úsvitem deportace celého krymskotatarského národa; do Střední Asie bylo vyhnáno přes 200 000 lidí"
+  },
+  {
+   "id": "r55",
+   "dataset": "cityFacts",
+   "key": "simferopol|1945|po deportaci byla Krymská ASSR zrušena a Krym snížen na pouhou oblast",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1945,
+   "text": "po deportaci byla Krymská ASSR zrušena a Krym snížen na pouhou oblast"
+  },
+  {
+   "id": "r56",
+   "dataset": "cityFacts",
+   "key": "simferopol|1989|Nejvyšší sovět v listopadu odsoudil deportaci a vyzval k návratu krymských Tatarů; začala hlavní vlna repatriace",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1989,
+   "text": "Nejvyšší sovět v listopadu odsoudil deportaci a vyzval k návratu krymských Tatarů; začala hlavní vlna repatriace"
+  },
+  {
+   "id": "r57",
+   "dataset": "cityFacts",
+   "key": "simferopol|1991|lednové referendum schválilo 94 % hlasů obnovení Krymské ASSR, zrušené po deportaci roku 1945",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 1991,
+   "text": "lednové referendum schválilo 94 % hlasů obnovení Krymské ASSR, zrušené po deportaci roku 1945"
+  },
+  {
+   "id": "r58",
+   "dataset": "cityFacts",
+   "key": "simferopol|2014|27. února před úsvitem obsadily neoznačené ruské jednotky budovu krymského parlamentu",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 2014,
+   "text": "27. února před úsvitem obsadily neoznačené ruské jednotky budovu krymského parlamentu"
+  },
+  {
+   "id": "r59",
+   "dataset": "cityFacts",
+   "key": "simferopol|2014|11. března přijal krymský parlament deklaraci nezávislosti s cílem připojit poloostrov k Rusku",
+   "country": "UA",
+   "city": "simferopol",
+   "year": 2014,
+   "text": "11. března přijal krymský parlament deklaraci nezávislosti s cílem připojit poloostrov k Rusku"
+  }
+ ]
+}

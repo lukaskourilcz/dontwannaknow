@@ -1,0 +1,546 @@
+{
+ "pass": "B",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|2007|ocelárna Kryvorižstal se stala součástí koncernu ArcelorMittal a jeho největším závodem na Ukrajině",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 2007,
+   "text": "ocelárna Kryvorižstal se stala součástí koncernu ArcelorMittal a jeho největším závodem na Ukrajině"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|2019|rodák Volodymyr Zelenskyj vyhrál prezidentské volby a opustil studio Kvartal 95",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 2019,
+   "text": "rodák Volodymyr Zelenskyj vyhrál prezidentské volby a opustil studio Kvartal 95"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|2021|těžba v dolech Kryvbasu dosáhla hloubky 1200 až 1400 metrů a přiblížila se kritické kapacitě těžních věží",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 2021,
+   "text": "těžba v dolech Kryvbasu dosáhla hloubky 1200 až 1400 metrů a přiblížila se kritické kapacitě těžních věží"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|2022|město se táhne v úzkém pásu 126 kilometrů podél řeky Inhulec, čímž je nejdelším městem Evropy",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 2022,
+   "text": "město se táhne v úzkém pásu 126 kilometrů podél řeky Inhulec, čímž je nejdelším městem Evropy"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|2023|31. července zničily dvě ruské balistické střely část devítipatrového domu a univerzitní budovy; zahynulo šest lidí a přes osmdesát jich bylo zraněno",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 2023,
+   "text": "31. července zničily dvě ruské balistické střely část devítipatrového domu a univerzitní budovy; zahynulo šest lidí a přes osmdesát jich bylo zraněno"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|2023|14. září zasáhly Iskandery obytnou čtvrť v Zelenského rodném městě",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 2023,
+   "text": "14. září zasáhly Iskandery obytnou čtvrť v Zelenského rodném městě"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|2024|8. července zabil ruský raketový úder na administrativní budovu úpravny uhlí deset lidí a přes padesát jich zranil",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 2024,
+   "text": "8. července zabil ruský raketový úder na administrativní budovu úpravny uhlí deset lidí a přes padesát jich zranil"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|2024|12. června zahynulo při zásahu obytného domu nejméně devět lidí, mezi zraněnými bylo pět dětí",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 2024,
+   "text": "12. června zahynulo při zásahu obytného domu nejméně devět lidí, mezi zraněnými bylo pět dětí"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|2024|24. prosince zasáhla balistická střela obytný dům, zabila jednoho člověka a patnáct jich zranila",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 2024,
+   "text": "24. prosince zasáhla balistická střela obytný dům, zabila jednoho člověka a patnáct jich zranila"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|2025|doly Kryvbasu zajišťovaly přes 80 procent ukrajinské těžby železné rudy",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 2025,
+   "text": "doly Kryvbasu zajišťovaly přes 80 procent ukrajinské těžby železné rudy"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|2004|Kryvorižstal vyráběl zhruba pětinu veškeré ukrajinské oceli — kolem 6,7 milionu tun ročně",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 2004,
+   "text": "Kryvorižstal vyráběl zhruba pětinu veškeré ukrajinské oceli — kolem 6,7 milionu tun ročně"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "dnipro|2013|u sídla konstrukční kanceláře Južnoje byl otevřen raketový park s exponáty Ciklon-3 a balistických střel",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 2013,
+   "text": "u sídla konstrukční kanceláře Južnoje byl otevřen raketový park s exponáty Ciklon-3 a balistických střel"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "dnipro|2016|firma Limak vyhrála mezinárodní tendr na dostavbu metra; práce financovala půjčka EBRD ve výši 304 milionů eur",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 2016,
+   "text": "firma Limak vyhrála mezinárodní tendr na dostavbu metra; práce financovala půjčka EBRD ve výši 304 milionů eur"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|2022|od září byly všechny bloky Záporožské jaderné elektrárny postupně odstaveny do studeného či horkého stavu",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 2022,
+   "text": "od září byly všechny bloky Záporožské jaderné elektrárny postupně odstaveny do studeného či horkého stavu"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|1947|v usedlosti Vyšňa na jihozápadním okraji města bylo otevřeno muzeum chirurga Mykoly Pyrohova",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 1947,
+   "text": "v usedlosti Vyšňa na jihozápadním okraji města bylo otevřeno muzeum chirurga Mykoly Pyrohova"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|1944|město osvobodila 20. března vojska 1. ukrajinského frontu během proskurovsko-černivecké ofenzivy",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 1944,
+   "text": "město osvobodila 20. března vojska 1. ukrajinského frontu během proskurovsko-černivecké ofenzivy"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|1996|Petro Porošenko získal vinnyckou cukrovinkářskou továrnu a založil koncern Roshen z písmen svého příjmení",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 1996,
+   "text": "Petro Porošenko získal vinnyckou cukrovinkářskou továrnu a založil koncern Roshen z písmen svého příjmení"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|2011|fontána Roshen na Pivdennom Buhu byla slavnostně otevřena 4. září spolu s nově upraveným nábřežím",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 2011,
+   "text": "fontána Roshen na Pivdennom Buhu byla slavnostně otevřena 4. září spolu s nově upraveným nábřežím"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|2012|Roshen v srpnu uvedl do provozu druhou vinnyckou cukrovinkářskou továrnu s roční kapacitou 120 000 tun",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 2012,
+   "text": "Roshen v srpnu uvedl do provozu druhou vinnyckou cukrovinkářskou továrnu s roční kapacitou 120 000 tun"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|2020|Švýcarsko podepsalo dohodu o dodávce ojetých tramvají Tram 2000 z curyšského dopravního podniku do Vinnycje",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 2020,
+   "text": "Švýcarsko podepsalo dohodu o dodávce ojetých tramvají Tram 2000 z curyšského dopravního podniku do Vinnycje"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|2006|ve spolupráci s Curychem začala Vinnycja přebírat vyřazené švýcarské tramvaje pro modernizaci sítě",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 2006,
+   "text": "ve spolupráci s Curychem začala Vinnycja přebírat vyřazené švýcarské tramvaje pro modernizaci sítě"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|2022|6. března zasáhlo letiště u Havryšivky osm řízených střel Ch-101 odpálených z Černého moře",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 2022,
+   "text": "6. března zasáhlo letiště u Havryšivky osm řízených střel Ch-101 odpálených z Černého moře"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|1965|vinnycký závod na valivá ložiska VPZ se zařadil mezi přední dodavatele sovětského strojírenství",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 1965,
+   "text": "vinnycký závod na valivá ložiska VPZ se zařadil mezi přední dodavatele sovětského strojírenství"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|1989|od roku 1959 vzrostl počet obyvatel Vinnycje z asi 122 000 na zhruba 374 000",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 1989,
+   "text": "od roku 1959 vzrostl počet obyvatel Vinnycje z asi 122 000 na zhruba 374 000"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|2024|do Vinnycje dorazily další z desítek tramvají darovaných curyšským dopravním podnikem VBZ",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 2024,
+   "text": "do Vinnycje dorazily další z desítek tramvají darovaných curyšským dopravním podnikem VBZ"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|2017|sedmou sezonu spustila multimediální fontána Roshen velkolepou show 29. dubna na nábřeží",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 2017,
+   "text": "sedmou sezonu spustila multimediální fontána Roshen velkolepou show 29. dubna na nábřeží"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1961|po čerkaské hrázi přes Dněpr byl otevřen silniční přechod dlouhý přes kilometr",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1961,
+   "text": "po čerkaské hrázi přes Dněpr byl otevřen silniční přechod dlouhý přes kilometr"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1965|závod Azot vypustil 14. března první dávku kapalného čpavku a stal se největším výrobcem dusíkatých hnojiv v zemi",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1965,
+   "text": "závod Azot vypustil 14. března první dávku kapalného čpavku a stal se největším výrobcem dusíkatých hnojiv v zemi"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1964|z čerkaského závodu na opravu automobilů vyrostl pozdější výrobce autobusů Bohdan",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1964,
+   "text": "z čerkaského závodu na opravu automobilů vyrostl pozdější výrobce autobusů Bohdan"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1998|po rekonstrukci opravárenského závodu začaly v Čerkasích vznikat vlastní autobusy značky Bohdan",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1998,
+   "text": "po rekonstrukci opravárenského závodu začaly v Čerkasích vznikat vlastní autobusy značky Bohdan"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1995|v říjnu byl ve městě odhalen jezdecký pomník hetmana Bohdana Chmelnyckého",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1995,
+   "text": "v říjnu byl ve městě odhalen jezdecký pomník hetmana Bohdana Chmelnyckého"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1962|stavba závodu Azot na severním okraji Čerkas se stala největší poválečnou investicí ve městě",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1962,
+   "text": "stavba závodu Azot na severním okraji Čerkas se stala největší poválečnou investicí ve městě"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "cherkasy|2001|při prvním ukrajinském sčítání lidu mělo město kolem 295 000 obyvatel",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 2001,
+   "text": "při prvním ukrajinském sčítání lidu mělo město kolem 295 000 obyvatel"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1959|od května se rozběhly práce na čerkaské hrázi přes Dněpr, nejdelší v zemi",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1959,
+   "text": "od května se rozběhly práce na čerkaské hrázi přes Dněpr, nejdelší v zemi"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1971|mezi lety 1959 a 1971 vyrostly v centru palác kultury, nádraží i hudebně-dramatické divadlo",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1971,
+   "text": "mezi lety 1959 a 1971 vyrostly v centru palác kultury, nádraží i hudebně-dramatické divadlo"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "cherkasy|2023|ruské údery opakovaně zasáhly energetickou infrastrukturu Čerkaské oblasti",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 2023,
+   "text": "ruské údery opakovaně zasáhly energetickou infrastrukturu Čerkaské oblasti"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "cherkasy|2024|po zásahu dronů Šáhed do plynové infrastruktury musel závod Azot pozastavit výrobu hnojiv",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 2024,
+   "text": "po zásahu dronů Šáhed do plynové infrastruktury musel závod Azot pozastavit výrobu hnojiv"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1972|čerkaský oblastní hudebně-dramatický soubor nesl jméno básníka Tarase Ševčenka",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1972,
+   "text": "čerkaský oblastní hudebně-dramatický soubor nesl jméno básníka Tarase Ševčenka"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1941|v březnu byl do Proskurova přenesen správní střed Kamenecko-podolské oblasti",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1941,
+   "text": "v březnu byl do Proskurova přenesen správní střed Kamenecko-podolské oblasti"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1969|transformátorový závod Ukrelektroapparat dodával výrobky do více než třiceti zemí světa",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1969,
+   "text": "transformátorový závod Ukrelektroapparat dodával výrobky do více než třiceti zemí světa"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1990|venkovní oděvní tržiště v devadesátých letech patřilo k největším obchodním centrům ve východní Evropě",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1990,
+   "text": "venkovní oděvní tržiště v devadesátých letech patřilo k největším obchodním centrům ve východní Evropě"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|2020|v listopadu byly obnoveny práce na nedostavěném třetím a čtvrtém bloku Chmelnycké jaderné elektrárny",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 2020,
+   "text": "v listopadu byly obnoveny práce na nedostavěném třetím a čtvrtém bloku Chmelnycké jaderné elektrárny"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|2021|v listopadu získala společnost Westinghouse zakázku na reaktory AP1000 pro Chmelnyckou elektrárnu",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 2021,
+   "text": "v listopadu získala společnost Westinghouse zakázku na reaktory AP1000 pro Chmelnyckou elektrárnu"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1975|u Chmelnycké jaderné elektrárny vzniklo uzavřené sídlo energetiků Netišyn",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1975,
+   "text": "u Chmelnycké jaderné elektrárny vzniklo uzavřené sídlo energetiků Netišyn"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1989|při sovětském sčítání lidu žilo v Chmelnyckém kolem 237 000 obyvatel",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1989,
+   "text": "při sovětském sčítání lidu žilo v Chmelnyckém kolem 237 000 obyvatel"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|2024|v lednu oznámil Energoatom plány na dostavbu dalších bloků Chmelnycké jaderné elektrárny",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 2024,
+   "text": "v lednu oznámil Energoatom plány na dostavbu dalších bloků Chmelnycké jaderné elektrárny"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|1983|u Netišyna byla zahájena stavba druhého reaktoru Chmelnycké jaderné elektrárny",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 1983,
+   "text": "u Netišyna byla zahájena stavba druhého reaktoru Chmelnycké jaderné elektrárny"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "khmelnytskyi|2023|v noci na 13. května vyvolal ruský dronový a raketový úder ve městě rozsáhlé požáry skladu munice",
+   "country": "UA",
+   "city": "khmelnytskyi",
+   "year": 2023,
+   "text": "v noci na 13. května vyvolal ruský dronový a raketový úder ve městě rozsáhlé požáry skladu munice"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1963|na podzim byla u černihovského závodu na chemická vlákna spuštěna druhá výrobní etapa",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1963,
+   "text": "na podzim byla u černihovského závodu na chemická vlákna spuštěna druhá výrobní etapa"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1964|černihovský kombinát chemických vláken dosáhl plné projektované kapacity 61 000 tun ročně",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1964,
+   "text": "černihovský kombinát chemických vláken dosáhl plné projektované kapacity 61 000 tun ročně"
+  },
+  {
+   "id": "r50",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1958|v letech 1952 až 1958 proběhla rozsáhlá obnova Boriso-hlibského soboru z 12. století",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1958,
+   "text": "v letech 1952 až 1958 proběhla rozsáhlá obnova Boriso-hlibského soboru z 12. století"
+  },
+  {
+   "id": "r51",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1979|v Boriso-hlibském soboru byla otevřena expozice muzea lidového a dekorativního umění",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1979,
+   "text": "v Boriso-hlibském soboru byla otevřena expozice muzea lidového a dekorativního umění"
+  },
+  {
+   "id": "r52",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1976|byl postaven pivovar Desna podle českých technologií, jeden z nejmodernějších v Sovětském svazu",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1976,
+   "text": "byl postaven pivovar Desna podle českých technologií, jeden z nejmodernějších v Sovětském svazu"
+  },
+  {
+   "id": "r53",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1988|pivovar Desna uvařil nové pivo pojmenované Černihivske k 1300. výročí města",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1988,
+   "text": "pivovar Desna uvařil nové pivo pojmenované Černihivske k 1300. výročí města"
+  },
+  {
+   "id": "r54",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1996|v září získala belgická skupina Interbrew většinový podíl v pivovaru Desna",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1996,
+   "text": "v září získala belgická skupina Interbrew většinový podíl v pivovaru Desna"
+  },
+  {
+   "id": "r55",
+   "dataset": "cityFacts",
+   "key": "chernihiv|2022|4. dubna ruská vojska podle ukrajinských úřadů opustila Černihovskou oblast po neúspěšném obléhání",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 2022,
+   "text": "4. dubna ruská vojska podle ukrajinských úřadů opustila Černihovskou oblast po neúspěšném obléhání"
+  },
+  {
+   "id": "r56",
+   "dataset": "cityFacts",
+   "key": "chernihiv|2006|pivovar Desna se stal součástí nadnárodní skupiny Anheuser-Busch InBev",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 2006,
+   "text": "pivovar Desna se stal součástí nadnárodní skupiny Anheuser-Busch InBev"
+  },
+  {
+   "id": "r57",
+   "dataset": "cityFacts",
+   "key": "chernihiv|2022|jarní obléhání zničilo nebo poškodilo zhruba sedmdesát procent městské zástavby",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 2022,
+   "text": "jarní obléhání zničilo nebo poškodilo zhruba sedmdesát procent městské zástavby"
+  },
+  {
+   "id": "r58",
+   "dataset": "cityFacts",
+   "key": "vinnytsia|1942|pro Hitlerův štáb Werwolf budovali nuceně nasazení dělníci u Stryžavky bunkry i přistávací dráhu",
+   "country": "UA",
+   "city": "vinnytsia",
+   "year": 1942,
+   "text": "pro Hitlerův štáb Werwolf budovali nuceně nasazení dělníci u Stryžavky bunkry i přistávací dráhu"
+  },
+  {
+   "id": "r59",
+   "dataset": "cityFacts",
+   "key": "chernihiv|2022|na jaře těžce poškodily ruské střely i městský stadion, který poté vyplenili rabující",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 2022,
+   "text": "na jaře těžce poškodily ruské střely i městský stadion, který poté vyplenili rabující"
+  }
+ ]
+}

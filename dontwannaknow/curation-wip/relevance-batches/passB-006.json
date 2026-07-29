@@ -1,0 +1,546 @@
+{
+ "pass": "B",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "prostejov|1968|oděvní závod OP Prostějov oblékal do pánských obleků půlku Československa",
+   "country": "CZ",
+   "city": "prostejov",
+   "year": 1968,
+   "text": "oděvní závod OP Prostějov oblékal do pánských obleků půlku Československa"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "prerov|1939|Přerov se stal za nacistické okupace strategickým železničním uzlem Reichsbahn spojujícím Vídeň s Krakovem",
+   "country": "CZ",
+   "city": "prerov",
+   "year": 1939,
+   "text": "Přerov se stal za nacistické okupace strategickým železničním uzlem Reichsbahn spojujícím Vídeň s Krakovem"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "prerov|1945|při masakru na 'Švédských šancích' v červnu zabili českoslovenští vojáci stovky etnických německých civilistů",
+   "country": "CZ",
+   "city": "prerov",
+   "year": 1945,
+   "text": "při masakru na 'Švédských šancích' v červnu zabili českoslovenští vojáci stovky etnických německých civilistů"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "prerov|1971|optická továrna Meopta zásobovala čočkami a fotoaparáty celý východní blok",
+   "country": "CZ",
+   "city": "prerov",
+   "year": 1971,
+   "text": "optická továrna Meopta zásobovala čočkami a fotoaparáty celý východní blok"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "ceska-lipa|1938|připojeno k Sudetengau spolu se zbytkem severočeského německy mluvícího území",
+   "country": "CZ",
+   "city": "ceska-lipa",
+   "year": 1938,
+   "text": "připojeno k Sudetengau spolu se zbytkem severočeského německy mluvícího území"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "ceska-lipa|1971|těžba uranu v nedalekém Stráži pod Ralskem se rozšířila; přistěhovaly se tisíce rumunských a českých horníků",
+   "country": "CZ",
+   "city": "ceska-lipa",
+   "year": 1971,
+   "text": "těžba uranu v nedalekém Stráži pod Ralskem se rozšířila; přistěhovaly se tisíce rumunských a českých horníků"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "trebic|1942|třebíčská židovská komunita byla deportována do Terezína; dobře zachovalé ghetto se mělo později stát památkou UNESCO",
+   "country": "CZ",
+   "city": "trebic",
+   "year": 1942,
+   "text": "třebíčská židovská komunita byla deportována do Terezína; dobře zachovalé ghetto se mělo později stát památkou UNESCO"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "trebic|1975|poblíž začala stavba jaderné elektrárny Dukovany — jednoho z největších českých průmyslových projektů té doby",
+   "country": "CZ",
+   "city": "trebic",
+   "year": 1975,
+   "text": "poblíž začala stavba jaderné elektrárny Dukovany — jednoho z největších českých průmyslových projektů té doby"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "trutnov|1938|připojeno k Sudetengau; do roku 1945 převážně německy mluvící",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1938,
+   "text": "připojeno k Sudetengau; do roku 1945 převážně německy mluvící"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "trutnov|1945|etničtí Němci byli vyhnáni; v továrnách je nahradili čeští osídlenci",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1945,
+   "text": "etničtí Němci byli vyhnáni; v továrnách je nahradili čeští osídlenci"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "trutnov|1969|město se stalo 'bránou' k lyžování v Krkonoších a rostlo s víkendovými výletníky z Prahy",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1969,
+   "text": "město se stalo 'bránou' k lyžování v Krkonoších a rostlo s víkendovými výletníky z Prahy"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "trinec|1929|Třinecké železárny se staly po Vítkovicích největším výrobcem oceli v Československu",
+   "country": "CZ",
+   "city": "trinec",
+   "year": 1929,
+   "text": "Třinecké železárny se staly po Vítkovicích největším výrobcem oceli v Československu"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "trinec|1968|sovětské tanky vyjely údolím řeky Olše kolem třineckých závodů",
+   "country": "CZ",
+   "city": "trinec",
+   "year": 1968,
+   "text": "sovětské tanky vyjely údolím řeky Olše kolem třineckých závodů"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "tabor|1942|táborská synagoga byla za válečných let vypálena; židovská komunita města byla deportována a téměř celá zavražděna",
+   "country": "CZ",
+   "city": "tabor",
+   "year": 1942,
+   "text": "táborská synagoga byla za válečných let vypálena; židovská komunita města byla deportována a téměř celá zavražděna"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "tabor|1969|poblíž se vyráběly traktory národního podniku ROH Lánov a motorky ČZ",
+   "country": "CZ",
+   "city": "tabor",
+   "year": 1969,
+   "text": "poblíž se vyráběly traktory národního podniku ROH Lánov a motorky ČZ"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "znojmo|1938|připojeno nacistickým Německem; znojemská česká menšina byla vyhnána a mnoho jejích představitelů zavražděno",
+   "country": "CZ",
+   "city": "znojmo",
+   "year": 1938,
+   "text": "připojeno nacistickým Německem; znojemská česká menšina byla vyhnána a mnoho jejích představitelů zavražděno"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "znojmo|1945|Rudá armáda obsadila Znojmo v květnu; byla obnovena česká svrchovanost a etničtí Němci vyhnáni",
+   "country": "CZ",
+   "city": "znojmo",
+   "year": 1945,
+   "text": "Rudá armáda obsadila Znojmo v květnu; byla obnovena česká svrchovanost a etničtí Němci vyhnáni"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "znojmo|1961|znojemské okurky — nakládané okurky nejslavnější československé značky — vstoupily do hromadné výroby",
+   "country": "CZ",
+   "city": "znojmo",
+   "year": 1961,
+   "text": "znojemské okurky — nakládané okurky nejslavnější československé značky — vstoupily do hromadné výroby"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "pribram|1948|po komunistickém převratu se příbramské uranové doly staly nejhoršími pracovními tábory Československa pro politické vězně",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1948,
+   "text": "po komunistickém převratu se příbramské uranové doly staly nejhoršími pracovními tábory Československa pro politické vězně"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "pribram|1955|tisíce politických vězňů zemřely na silikózu a ozáření v příbramsko-jáchymovském uranovém gulagu",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1955,
+   "text": "tisíce politických vězňů zemřely na silikózu a ozáření v příbramsko-jáchymovském uranovém gulagu"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "pribram|1969|těžba uranu dosáhla vrcholů sovětských kvót; vězni byli nahrazeni placenými civilními horníky",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1969,
+   "text": "těžba uranu dosáhla vrcholů sovětských kvót; vězni byli nahrazeni placenými civilními horníky"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "cheb|1938|Cheb (Eger) se stal jedním z prvních sudetských měst, která hostila shromáždění Konrada Henleina, než byl připojen",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 1938,
+   "text": "Cheb (Eger) se stal jedním z prvních sudetských měst, která hostila shromáždění Konrada Henleina, než byl připojen"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "cheb|1945|jednotky americké 3. armády se v květnu spojily s Rudou armádou u Chebu a dokončily tak české tažení",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 1945,
+   "text": "jednotky americké 3. armády se v květnu spojily s Rudou armádou u Chebu a dokončily tak české tažení"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "cheb|1968|místní kasárna pohraniční stráže byla horkým místem, jak vojska Varšavské smlouvy překročila hranici z východního Německa",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 1968,
+   "text": "místní kasárna pohraniční stráže byla horkým místem, jak vojska Varšavské smlouvy překročila hranici z východního Německa"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "kolin|1942|kolínská židovská komunita o více než 2 000 lidech byla deportována přes Terezín do Osvětimi",
+   "country": "CZ",
+   "city": "kolin",
+   "year": 1942,
+   "text": "kolínská židovská komunita o více než 2 000 lidech byla deportována přes Terezín do Osvětimi"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "kolin|1970|předchůdce automobilky TPCA — železniční závody Tatra-Kolín — zásoboval motory celý východní blok",
+   "country": "CZ",
+   "city": "kolin",
+   "year": 1970,
+   "text": "předchůdce automobilky TPCA — železniční závody Tatra-Kolín — zásoboval motory celý východní blok"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "pisek|1945|Písek byl osvobozen americkou 3. armádou; občané si dlouho pamatovali americké džípy na náměstí",
+   "country": "CZ",
+   "city": "pisek",
+   "year": 1945,
+   "text": "Písek byl osvobozen americkou 3. armádou; občané si dlouho pamatovali americké džípy na náměstí"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "pisek|1976|pletárna Jitex Písek se rozrostla v jednu z největších ve střední Evropě",
+   "country": "CZ",
+   "city": "pisek",
+   "year": 1976,
+   "text": "pletárna Jitex Písek se rozrostla v jednu z největších ve střední Evropě"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "kromeriz|1948|Arcibiskupský zámek a zahrady (od roku 1998 památka UNESCO) byly za komunistů znárodněny",
+   "country": "CZ",
+   "city": "kromeriz",
+   "year": 1948,
+   "text": "Arcibiskupský zámek a zahrady (od roku 1998 památka UNESCO) byly za komunistů znárodněny"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "kromeriz|1968|Kroměříž hostila tajné schůzky disidentských katolických kněží vzdorujících státním zásahům",
+   "country": "CZ",
+   "city": "kromeriz",
+   "year": 1968,
+   "text": "Kroměříž hostila tajné schůzky disidentských katolických kněží vzdorujících státním zásahům"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "sumperk|1938|připojeno k Sudetengau",
+   "country": "CZ",
+   "city": "sumperk",
+   "year": 1938,
+   "text": "připojeno k Sudetengau"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "sumperk|1945|etnické německé obyvatelstvo bylo vyhnáno; textilní průmysl přešel pod českou správu",
+   "country": "CZ",
+   "city": "sumperk",
+   "year": 1945,
+   "text": "etnické německé obyvatelstvo bylo vyhnáno; textilní průmysl přešel pod českou správu"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "vsetin|1944|vsetínští partyzáni ve valašských kopcích (operace Tepliček) bojovali proti nacistickým protipartyzánským zátahům",
+   "country": "CZ",
+   "city": "vsetin",
+   "year": 1944,
+   "text": "vsetínští partyzáni ve valašských kopcích (operace Tepliček) bojovali proti nacistickým protipartyzánským zátahům"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "vsetin|1969|zbrojní závod Zbrojovka Vsetín dodával ruční palné zbraně na celý trh RVHP",
+   "country": "CZ",
+   "city": "vsetin",
+   "year": 1969,
+   "text": "zbrojní závod Zbrojovka Vsetín dodával ruční palné zbraně na celý trh RVHP"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "valasske-mezirici|1968|závod Tesla VM vyráběl žárovky a elektroniku — významný zaměstnavatel valašského regionu",
+   "country": "CZ",
+   "city": "valasske-mezirici",
+   "year": 1968,
+   "text": "závod Tesla VM vyráběl žárovky a elektroniku — významný zaměstnavatel valašského regionu"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "litvinov|1944|hydrogenační závod na syntetická paliva v Litvínově byl opakovaně bombardován americkou Osmou leteckou armádou",
+   "country": "CZ",
+   "city": "litvinov",
+   "year": 1944,
+   "text": "hydrogenační závod na syntetická paliva v Litvínově byl opakovaně bombardován americkou Osmou leteckou armádou"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "litvinov|1965|rafinerie Chemopetrol a petrochemický komplex Litvínov-Záluží učinily z města jedno z nejznečištěnějších v Evropě",
+   "country": "CZ",
+   "city": "litvinov",
+   "year": 1965,
+   "text": "rafinerie Chemopetrol a petrochemický komplex Litvínov-Záluží učinily z města jedno z nejznečištěnějších v Evropě"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "breclav|1938|Břeclav na nové německé hranici s Moravou se stala přísně kontrolovaným přechodem",
+   "country": "CZ",
+   "city": "breclav",
+   "year": 1938,
+   "text": "Břeclav na nové německé hranici s Moravou se stala přísně kontrolovaným přechodem"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "breclav|1968|sovětské tanky překročily v srpnu při invazi Varšavské smlouvy hranici u Břeclavi",
+   "country": "CZ",
+   "city": "breclav",
+   "year": 1968,
+   "text": "sovětské tanky překročily v srpnu při invazi Varšavské smlouvy hranici u Břeclavi"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "novy-jicin|1938|připojeno k Sudetengau; převážně německy mluvící",
+   "country": "CZ",
+   "city": "novy-jicin",
+   "year": 1938,
+   "text": "připojeno k Sudetengau; převážně německy mluvící"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "novy-jicin|1965|Tonak Nový Jičín byl největším výrobcem klobouků v Československu a vyvážel do více než 70 zemí",
+   "country": "CZ",
+   "city": "novy-jicin",
+   "year": 1965,
+   "text": "Tonak Nový Jičín byl největším výrobcem klobouků v Československu a vyvážel do více než 70 zemí"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "krnov|1945|bitva o Krnov v květnu byla posledním bojem v českých zemích, jak se Rudá armáda probíjela Slezskem",
+   "country": "CZ",
+   "city": "krnov",
+   "year": 1945,
+   "text": "bitva o Krnov v květnu byla posledním bojem v českých zemích, jak se Rudá armáda probíjela Slezskem"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "krnov|1968|textilky Karnola zaměstnávaly tisíce žen po celém městě",
+   "country": "CZ",
+   "city": "krnov",
+   "year": 1968,
+   "text": "textilky Karnola zaměstnávaly tisíce žen po celém městě"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "uherske-hradiste|1948|Státní bezpečnost (StB) otevřela v Uherském Hradišti velké výslechové středisko, které se v 50. letech proslavilo mučením",
+   "country": "CZ",
+   "city": "uherske-hradiste",
+   "year": 1948,
+   "text": "Státní bezpečnost (StB) otevřela v Uherském Hradišti velké výslechové středisko, které se v 50. letech proslavilo mučením"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "uherske-hradiste|1968|region Slovácko byl baštou katolického reformního hnutí Pražského jara",
+   "country": "CZ",
+   "city": "uherske-hradiste",
+   "year": 1968,
+   "text": "region Slovácko byl baštou katolického reformního hnutí Pražského jara"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "litomerice|1944|podzemní komplex Richard u Litoměřic se stal továrnou na zbraně V s otrockou prací",
+   "country": "CZ",
+   "city": "litomerice",
+   "year": 1944,
+   "text": "podzemní komplex Richard u Litoměřic se stal továrnou na zbraně V s otrockou prací"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "litomerice|1945|tisíce vězňů koncentračních táborů z komplexu Richard zemřely na pochodech smrti těsně před osvobozením",
+   "country": "CZ",
+   "city": "litomerice",
+   "year": 1945,
+   "text": "tisíce vězňů koncentračních táborů z komplexu Richard zemřely na pochodech smrti těsně před osvobozením"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "hodonin|1920|Hodonín byl trhovým městem o asi 12 000 obyvatelích na moravsko-slovenském pomezí — rodištěm Tomáše Garrigua Masaryka a místem, které jako prezident často navštěvoval",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1920,
+   "text": "Hodonín byl trhovým městem o asi 12 000 obyvatelích na moravsko-slovenském pomezí — rodištěm Tomáše Garrigua Masaryka a místem, které jako prezident často navštěvoval"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "hodonin|1925|Tabáková továrna Hodonín byla největší cigaretovou továrnou v Československu a hlavním zaměstnavatelem města",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1925,
+   "text": "Tabáková továrna Hodonín byla největší cigaretovou továrnou v Československu a hlavním zaměstnavatelem města"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "hodonin|1928|na Masarykově náměstí byla odhalena monumentální socha T. G. Masaryka od Otakara Španiela (později stržená nacisty, obnovená komunisty, znovu stržená a poté opět vrácená)",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1928,
+   "text": "na Masarykově náměstí byla odhalena monumentální socha T. G. Masaryka od Otakara Španiela (později stržená nacisty, obnovená komunisty, znovu stržená a poté opět vrácená)"
+  },
+  {
+   "id": "r50",
+   "dataset": "cityFacts",
+   "key": "hodonin|1932|nedaleko u Hrušek byl objeven zemní plyn, čímž se rozjela jihomoravská těžba plynu",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1932,
+   "text": "nedaleko u Hrušek byl objeven zemní plyn, čímž se rozjela jihomoravská těžba plynu"
+  },
+  {
+   "id": "r51",
+   "dataset": "cityFacts",
+   "key": "hodonin|1937|T. G. Masaryk zemřel v září; město uspořádalo v jeho rodném domě smutek celonárodního rozsahu",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1937,
+   "text": "T. G. Masaryk zemřel v září; město uspořádalo v jeho rodném domě smutek celonárodního rozsahu"
+  },
+  {
+   "id": "r52",
+   "dataset": "cityFacts",
+   "key": "hodonin|1939|po nacistické okupaci byla hodonínská Masarykova socha odstraněna a město bylo v úředních německých dokumentech přejmenováno na Göding",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1939,
+   "text": "po nacistické okupaci byla hodonínská Masarykova socha odstraněna a město bylo v úředních německých dokumentech přejmenováno na Göding"
+  },
+  {
+   "id": "r53",
+   "dataset": "cityFacts",
+   "key": "hodonin|1942|romský tábor v Hodoníně u Kunštátu sloužil k deportaci českých Romů do Osvětimi, kde téměř všichni zahynuli",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1942,
+   "text": "romský tábor v Hodoníně u Kunštátu sloužil k deportaci českých Romů do Osvětimi, kde téměř všichni zahynuli"
+  },
+  {
+   "id": "r54",
+   "dataset": "cityFacts",
+   "key": "hodonin|1944|spojenecké bombardování nedalekých kolejišť v Břeclavi a Bratislavě rozechvělo okna hodonínské tabákové továrny",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1944,
+   "text": "spojenecké bombardování nedalekých kolejišť v Břeclavi a Bratislavě rozechvělo okna hodonínské tabákové továrny"
+  },
+  {
+   "id": "r55",
+   "dataset": "cityFacts",
+   "key": "hodonin|1945|rumunské a sovětské síly osvobodily Hodonín v dubnu po bojích podél řeky Moravy",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1945,
+   "text": "rumunské a sovětské síly osvobodily Hodonín v dubnu po bojích podél řeky Moravy"
+  },
+  {
+   "id": "r56",
+   "dataset": "cityFacts",
+   "key": "hodonin|1946|vinařské svahy nedalekých Mutěnic a Čejkovic obnovily vývoz a Hodonín se stal regionálním centrem obchodu s vínem",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1946,
+   "text": "vinařské svahy nedalekých Mutěnic a Čejkovic obnovily vývoz a Hodonín se stal regionálním centrem obchodu s vínem"
+  },
+  {
+   "id": "r57",
+   "dataset": "cityFacts",
+   "key": "hodonin|1948|komunistický převrat zasáhl Hodonín tvrdě — Masarykovo rodiště bylo symbolickou trofejí a režim jeho kult přísně řídil",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1948,
+   "text": "komunistický převrat zasáhl Hodonín tvrdě — Masarykovo rodiště bylo symbolickou trofejí a režim jeho kult přísně řídil"
+  },
+  {
+   "id": "r58",
+   "dataset": "cityFacts",
+   "key": "hodonin|1952|Slovácké muzeum v Hodoníně se znovu otevřelo se zaměřením na lidový kroj, keramiku a mužský tanec verbuňk slováckého regionu",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1952,
+   "text": "Slovácké muzeum v Hodoníně se znovu otevřelo se zaměřením na lidový kroj, keramiku a mužský tanec verbuňk slováckého regionu"
+  },
+  {
+   "id": "r59",
+   "dataset": "cityFacts",
+   "key": "hodonin|1959|Hodonín získal tepelnou elektrárnu poháněnou místním lignitem — jednu z prvních takových elektráren na jižní Moravě",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1959,
+   "text": "Hodonín získal tepelnou elektrárnu poháněnou místním lignitem — jednu z prvních takových elektráren na jižní Moravě"
+  }
+ ]
+}

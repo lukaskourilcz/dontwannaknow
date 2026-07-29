@@ -1,0 +1,546 @@
+{
+ "pass": "B",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "valasske-mezirici|1960|21. ledna rozhodla československá vláda o stavbě nového dehtochemického závodu ve Valašském Meziříčí, základu pozdější Dezy",
+   "country": "CZ",
+   "city": "valasske-mezirici",
+   "year": 1960,
+   "text": "21. ledna rozhodla československá vláda o stavbě nového dehtochemického závodu ve Valašském Meziříčí, základu pozdější Dezy"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "valasske-mezirici|1968|spuštěním primární destilace dehtu ve Valašském Meziříčí skončilo zpracování dehtu v Ostravě, o rok dříve sem přesídlilo ředitelství podniku",
+   "country": "CZ",
+   "city": "valasske-mezirici",
+   "year": 1968,
+   "text": "spuštěním primární destilace dehtu ve Valašském Meziříčí skončilo zpracování dehtu v Ostravě, o rok dříve sem přesídlilo ředitelství podniku"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "valasske-mezirici|1991|Deza založila se společností Cabot společný podnik CS Cabot na výrobu sazí, dvě nové výrobní linky najely v roce 1994",
+   "country": "CZ",
+   "city": "valasske-mezirici",
+   "year": 1991,
+   "text": "Deza založila se společností Cabot společný podnik CS Cabot na výrobu sazí, dvě nové výrobní linky najely v roce 1994"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "valasske-mezirici|1992|po privatizaci vznikla Moravská gobelínová manufaktura, pokračovatelka dílny založené Rudolfem Schlattauerem roku 1898",
+   "country": "CZ",
+   "city": "valasske-mezirici",
+   "year": 1992,
+   "text": "po privatizaci vznikla Moravská gobelínová manufaktura, pokračovatelka dílny založené Rudolfem Schlattauerem roku 1898"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "valasske-mezirici|2003|vyhasla poslední sklářská pec v Krásně nad Bečvou, sklárny osvětlovacího skla ukončily 148 let trvající výrobu",
+   "country": "CZ",
+   "city": "valasske-mezirici",
+   "year": 2003,
+   "text": "vyhasla poslední sklářská pec v Krásně nad Bečvou, sklárny osvětlovacího skla ukončily 148 let trvající výrobu"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "valasske-mezirici|2020|20. září otrávil kyanid řeku Bečvu od Valašského Meziříčí, jed unikající kanálem v Juřince usmrtil přes dvacet tun ryb na desítkách kilometrů toku",
+   "country": "CZ",
+   "city": "valasske-mezirici",
+   "year": 2020,
+   "text": "20. září otrávil kyanid řeku Bečvu od Valašského Meziříčí, jed unikající kanálem v Juřince usmrtil přes dvacet tun ryb na desítkách kilometrů toku"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "valasske-mezirici|2024|olomoucký krajský soud pravomocně zprostil obžaloby ředitele firmy Energoaqua v kauze otravy Bečvy, viník havárie potrestán nebyl",
+   "country": "CZ",
+   "city": "valasske-mezirici",
+   "year": 2024,
+   "text": "olomoucký krajský soud pravomocně zprostil obžaloby ředitele firmy Energoaqua v kauze otravy Bečvy, viník havárie potrestán nebyl"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "hodonin|1946|v Hodoníně bylo zřízeno ústředí státního podniku Československé naftové závody, předchůdce Moravských naftových dolů",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1946,
+   "text": "v Hodoníně bylo zřízeno ústředí státního podniku Československé naftové závody, předchůdce Moravských naftových dolů"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "hodonin|1953|v novém hodonínském špitálu začaly první pokusy s léčivou jodobromovou solankou z vrtů u Lužic, základ pozdějších lázní",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1953,
+   "text": "v novém hodonínském špitálu začaly první pokusy s léčivou jodobromovou solankou z vrtů u Lužic, základ pozdějších lázní"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "hodonin|1958|po sloučení s podobným slovenským podnikem nese hodonínská těžební firma název Moravské naftové doly",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1958,
+   "text": "po sloučení s podobným slovenským podnikem nese hodonínská těžební firma název Moravské naftové doly"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "hodonin|1959|u Hrušek na Hodonínsku se rozjela těžba největšího československého ložiska ropy",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1959,
+   "text": "u Hrušek na Hodonínsku se rozjela těžba největšího československého ložiska ropy"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "hodonin|1960|vznikla Galerie výtvarného umění, jež převzala dům i sbírky zaniklého Sdružení výtvarných umělců moravských",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1960,
+   "text": "vznikla Galerie výtvarného umění, jež převzala dům i sbírky zaniklého Sdružení výtvarných umělců moravských"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "hodonin|1968|na podzim se socha T. G. Masaryka, dva měsíce po srpnové okupaci, vrátila na své místo na náměstí",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1968,
+   "text": "na podzim se socha T. G. Masaryka, dva měsíce po srpnové okupaci, vrátila na své místo na náměstí"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "hodonin|1977|normalizační moc nechala sochu T. G. Masaryka znovu odstranit, údajně kvůli rozšíření silnice",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1977,
+   "text": "normalizační moc nechala sochu T. G. Masaryka znovu odstranit, údajně kvůli rozšíření silnice"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "hodonin|1979|1. července byla slavnostně otevřena lázeňská léčebna využívající třetihorní jodobromovou solanku",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1979,
+   "text": "1. července byla slavnostně otevřena lázeňská léčebna využívající třetihorní jodobromovou solanku"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "hodonin|1990|7. března se socha T. G. Masaryka po čtyřech odstraněních vrátila na náměstí nadobro",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1990,
+   "text": "7. března se socha T. G. Masaryka po čtyřech odstraněních vrátila na náměstí nadobro"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "hodonin|1992|Moravské naftové doly se přeměnily na akciovou společnost a slovenská část se osamostatnila",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1992,
+   "text": "Moravské naftové doly se přeměnily na akciovou společnost a slovenská část se osamostatnila"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "hodonin|1996|Baťův kanál byl po desetiletích chátrání znovu zprovozněn, nyní jako turistická vodní cesta",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1996,
+   "text": "Baťův kanál byl po desetiletích chátrání znovu zprovozněn, nyní jako turistická vodní cesta"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "hodonin|1997|v polovině července dosáhla velká povodeň na Moravě Hodonína, v okrese bylo evakuováno přes deset tisíc lidí",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 1997,
+   "text": "v polovině července dosáhla velká povodeň na Moravě Hodonína, v okrese bylo evakuováno přes deset tisíc lidí"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "hodonin|2005|slovácký verbuňk, tančený i na Hodonínsku, byl zapsán mezi mistrovská díla nehmotného dědictví UNESCO",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 2005,
+   "text": "slovácký verbuňk, tančený i na Hodonínsku, byl zapsán mezi mistrovská díla nehmotného dědictví UNESCO"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "hodonin|2006|v hradní tabačce skončila po více než dvou stoletích výroba cigaret, firma Philip Morris areál opustila",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 2006,
+   "text": "v hradní tabačce skončila po více než dvou stoletích výroba cigaret, firma Philip Morris areál opustila"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "hodonin|2006|v bývalých Dukelských kasárnách bylo otevřeno Muzeum naftového dobývání a geologie, jediné svého druhu v Česku",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 2006,
+   "text": "v bývalých Dukelských kasárnách bylo otevřeno Muzeum naftového dobývání a geologie, jediné svého druhu v Česku"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "hodonin|2007|po vstupu do Schengenu zanikl hraniční přechod Hodonín–Holíč, premiéři u mostu přes Moravu přeřezali závory",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 2007,
+   "text": "po vstupu do Schengenu zanikl hraniční přechod Hodonín–Holíč, premiéři u mostu přes Moravu přeřezali závory"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "hodonin|2009|před Vánocemi skončila těžba v Dole Mír u Mikulčic a zanikl tak poslední lignitový důl v Česku",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 2009,
+   "text": "před Vánocemi skončila těžba v Dole Mír u Mikulčic a zanikl tak poslední lignitový důl v Česku"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "hodonin|2021|24. června večer prošlo severními částmi Hodonína, Bažantnicí a Pánovem, ničivé tornádo síly IF4",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 2021,
+   "text": "24. června večer prošlo severními částmi Hodonína, Bažantnicí a Pánovem, ničivé tornádo síly IF4"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "hodonin|2021|tornádo na Hodonínsku a Břeclavsku si vyžádalo šest mrtvých a stovky zraněných, šlo o nejsilnější doložené tornádo v dějinách Česka",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 2021,
+   "text": "tornádo na Hodonínsku a Břeclavsku si vyžádalo šest mrtvých a stovky zraněných, šlo o nejsilnější doložené tornádo v dějinách Česka"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "hodonin|2021|hodonínská nemocnice za tragickou noc ošetřila desítky zraněných, na obnovu věnovala nadace rodáka Karla Komárka 150 milionů korun",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 2021,
+   "text": "hodonínská nemocnice za tragickou noc ošetřila desítky zraněných, na obnovu věnovala nadace rodáka Karla Komárka 150 milionů korun"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "hodonin|2025|nová plavební komora Rohatec–Sudoměřice, první za devadesát let, prodloužila Baťův kanál až k Hodonínu",
+   "country": "CZ",
+   "city": "hodonin",
+   "year": 2025,
+   "text": "nová plavební komora Rohatec–Sudoměřice, první za devadesát let, prodloužila Baťův kanál až k Hodonínu"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "ceske-budejovice|1946|městský zimní stadion, dnešní Budvar aréna, otevřel v říjnu své brány a stal se nejdéle nepřetržitě fungujícím krytým zimním stadionem v českých zemích",
+   "country": "CZ",
+   "city": "ceske-budejovice",
+   "year": 1946,
+   "text": "městský zimní stadion, dnešní Budvar aréna, otevřel v říjnu své brány a stal se nejdéle nepřetržitě fungujícím krytým zimním stadionem v českých zemích"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "ceske-budejovice|1948|po znárodnění byl Budvar i konkurenční Měšťanský pivovar sloučen do národního podniku Jihočeské pivovary",
+   "country": "CZ",
+   "city": "ceske-budejovice",
+   "year": 1948,
+   "text": "po znárodnění byl Budvar i konkurenční Měšťanský pivovar sloučen do národního podniku Jihočeské pivovary"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "ceske-budejovice|1967|státní pivovar dostal dnešní jméno Budějovický Budvar, národní podnik, které nese jako české státní podnikání dodnes",
+   "country": "CZ",
+   "city": "ceske-budejovice",
+   "year": 1967,
+   "text": "státní pivovar dostal dnešní jméno Budějovický Budvar, národní podnik, které nese jako české státní podnikání dodnes"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "ceske-budejovice|1987|asi pětadvacet kilometrů severně začala stavba jaderné elektrárny Temelín, původně plánované pro čtyři sovětské reaktory VVER o výkonu 1000 MW",
+   "country": "CZ",
+   "city": "ceske-budejovice",
+   "year": 1987,
+   "text": "asi pětadvacet kilometrů severně začala stavba jaderné elektrárny Temelín, původně plánované pro čtyři sovětské reaktory VVER o výkonu 1000 MW"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "ceske-budejovice|1991|zákonem byla 28. září založena Jihočeská univerzita v Českých Budějovicích sloučením dvou stávajících vysokých škol ve městě",
+   "country": "CZ",
+   "city": "ceske-budejovice",
+   "year": 1991,
+   "text": "zákonem byla 28. září založena Jihočeská univerzita v Českých Budějovicích sloučením dvou stávajících vysokých škol ve městě"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "ceske-budejovice|2000|první blok Temelína dodal 21. prosince poprvé elektřinu do sítě poté, co bylo v červenci zavezeno palivo",
+   "country": "CZ",
+   "city": "ceske-budejovice",
+   "year": 2000,
+   "text": "první blok Temelína dodal 21. prosince poprvé elektřinu do sítě poté, co bylo v červenci zavezeno palivo"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "ceske-budejovice|2000|12. prosince podepsali premiér Zeman a kancléř Schüssel takzvaný Melský protokol, jenž měl nadstandardními bezpečnostními opatřeními kolem Temelína utišit rakouský odpor",
+   "country": "CZ",
+   "city": "ceske-budejovice",
+   "year": 2000,
+   "text": "12. prosince podepsali premiér Zeman a kancléř Schüssel takzvaný Melský protokol, jenž měl nadstandardními bezpečnostními opatřeními kolem Temelína utišit rakouský odpor"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "ceske-budejovice|2000|České Budějovice se staly krajským městem nově zřízeného samosprávného Jihočeského kraje",
+   "country": "CZ",
+   "city": "ceske-budejovice",
+   "year": 2000,
+   "text": "České Budějovice se staly krajským městem nově zřízeného samosprávného Jihočeského kraje"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "ceske-budejovice|2002|v srpnu zaplavila město katastrofální povodeň na Vltavě a Malši s místy až pětisetletou vodou",
+   "country": "CZ",
+   "city": "ceske-budejovice",
+   "year": 2002,
+   "text": "v srpnu zaplavila město katastrofální povodeň na Vltavě a Malši s místy až pětisetletou vodou"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "ceske-budejovice|2003|na jaře zahájil zkušební provoz druhý blok Temelína a elektrárna se stala největším energetickým zdrojem v České republice",
+   "country": "CZ",
+   "city": "ceske-budejovice",
+   "year": 2003,
+   "text": "na jaře zahájil zkušební provoz druhý blok Temelína a elektrárna se stala největším energetickým zdrojem v České republice"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "ceske-budejovice|2007|Anheuser-Busch se stal americkým dovozcem piva Budvaru, které se kvůli nedořešenému sporu o značku prodávalo v USA pod jménem Czechvar",
+   "country": "CZ",
+   "city": "ceske-budejovice",
+   "year": 2007,
+   "text": "Anheuser-Busch se stal americkým dovozcem piva Budvaru, které se kvůli nedořešenému sporu o značku prodávalo v USA pod jménem Czechvar"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "ceske-budejovice|2009|evropský soud potvrdil právo Budvaru na značku Budweiser v Německu a Rakousku a odmítl odvolání Anheuser-Busch",
+   "country": "CZ",
+   "city": "ceske-budejovice",
+   "year": 2009,
+   "text": "evropský soud potvrdil právo Budvaru na značku Budweiser v Německu a Rakousku a odmítl odvolání Anheuser-Busch"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "ceske-budejovice|2011|Soudní dvůr EU rozhodl, že Anheuser-Busch InBev i Budvar mohou ve Velké Británii prodávat pivo pod značkou Budweiser, protože tak oba činí po desítky let",
+   "country": "CZ",
+   "city": "ceske-budejovice",
+   "year": 2011,
+   "text": "Soudní dvůr EU rozhodl, že Anheuser-Busch InBev i Budvar mohou ve Velké Británii prodávat pivo pod značkou Budweiser, protože tak oba činí po desítky let"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "ceske-budejovice|2018|Budvar poprvé vyvezl přes milion hektolitrů piva za rok, rekordních 1,075 milionu hl do 79 zemí",
+   "country": "CZ",
+   "city": "ceske-budejovice",
+   "year": 2018,
+   "text": "Budvar poprvé vyvezl přes milion hektolitrů piva za rok, rekordních 1,075 milionu hl do 79 zemí"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "ceske-budejovice|2020|hokejový Motor České Budějovice se po sezoně přerušené pandemií vrátil do nejvyšší soutěže, sedm let poté, co o extraligovou licenci přišel",
+   "country": "CZ",
+   "city": "ceske-budejovice",
+   "year": 2020,
+   "text": "hokejový Motor České Budějovice se po sezoně přerušené pandemií vrátil do nejvyšší soutěže, sedm let poté, co o extraligovou licenci přišel"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "tabor|1948|ve své vile v Sezimově Ústí jižně od Tábora zemřel 3. září bývalý prezident Edvard Beneš a byl pochován v hrobce vedle vily",
+   "country": "CZ",
+   "city": "tabor",
+   "year": 1948,
+   "text": "ve své vile v Sezimově Ústí jižně od Tábora zemřel 3. září bývalý prezident Edvard Beneš a byl pochován v hrobce vedle vily"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "tabor|1950|v nedaleké Plané nad Lužnicí se rozběhla průmyslová výroba syntetického vlákna silon, vynalezeného Ottou Wichterlem",
+   "country": "CZ",
+   "city": "tabor",
+   "year": 1950,
+   "text": "v nedaleké Plané nad Lužnicí se rozběhla průmyslová výroba syntetického vlákna silon, vynalezeného Ottou Wichterlem"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "tabor|1974|motorový vůz Elinka z roku 1903, nejstarší elektrické drážní vozidlo v českých zemích, byl zařazen do sbírek Národního technického muzea",
+   "country": "CZ",
+   "city": "tabor",
+   "year": 1974,
+   "text": "motorový vůz Elinka z roku 1903, nejstarší elektrické drážní vozidlo v českých zemích, byl zařazen do sbírek Národního technického muzea"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "tabor|2002|srpnové povodně zničily údolí Lužnice kolem Tábora; v okrese byly poškozeny stovky domů, přes tisíc lidí evakuováno a osm jich zahynulo",
+   "country": "CZ",
+   "city": "tabor",
+   "year": 2002,
+   "text": "srpnové povodně zničily údolí Lužnice kolem Tábora; v okrese byly poškozeny stovky domů, přes tisíc lidí evakuováno a osm jich zahynulo"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "tabor|2014|skončilo rozsáhlé odbahnění nádrže Jordán z roku 1492, nejstarší přehradní nádrže ve střední Evropě; odtěženo bylo na 270 tisíc krychlových metrů sedimentu",
+   "country": "CZ",
+   "city": "tabor",
+   "year": 2014,
+   "text": "skončilo rozsáhlé odbahnění nádrže Jordán z roku 1492, nejstarší přehradní nádrže ve střední Evropě; odtěženo bylo na 270 tisíc krychlových metrů sedimentu"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "tabor|2020|k 600. výročí husitského založení Tábora otevřelo Husitské muzeum novou stálou expozici Tábor, bašta spravedlivých a královské město",
+   "country": "CZ",
+   "city": "tabor",
+   "year": 2020,
+   "text": "k 600. výročí husitského založení Tábora otevřelo Husitské muzeum novou stálou expozici Tábor, bašta spravedlivých a královské město"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "tabor|2023|vila Edvarda Beneše v Sezimově Ústí, kterou Hana Benešová odkázala Husitskému muzeu, byla 1. července trvale zpřístupněna veřejnosti",
+   "country": "CZ",
+   "city": "tabor",
+   "year": 2023,
+   "text": "vila Edvarda Beneše v Sezimově Ústí, kterou Hana Benešová odkázala Husitskému muzeu, byla 1. července trvale zpřístupněna veřejnosti"
+  },
+  {
+   "id": "r50",
+   "dataset": "cityFacts",
+   "key": "pisek|1954|v červenci zatopila historické centrum ničivá povodeň na Otavě, největší na řece za téměř padesát let, dokud ji nepřekonal srpen 2002",
+   "country": "CZ",
+   "city": "pisek",
+   "year": 1954,
+   "text": "v červenci zatopila historické centrum ničivá povodeň na Otavě, největší na řece za téměř padesát let, dokud ji nepřekonal srpen 2002"
+  },
+  {
+   "id": "r51",
+   "dataset": "cityFacts",
+   "key": "pisek|1996|Prácheňské muzeum v dochovaném křídle přemyslovského hradu získalo po rekonstrukci ocenění Evropské muzeum roku",
+   "country": "CZ",
+   "city": "pisek",
+   "year": 1996,
+   "text": "Prácheňské muzeum v dochovaném křídle přemyslovského hradu získalo po rekonstrukci ocenění Evropské muzeum roku"
+  },
+  {
+   "id": "r52",
+   "dataset": "cityFacts",
+   "key": "pisek|1998|středověký Kamenný most, nejstarší dochovaný kamenný most v Čechách, prošel generální opravou se statickým zajištěním pilířů, jež mu pomohla přečkat povodeň 2002",
+   "country": "CZ",
+   "city": "pisek",
+   "year": 1998,
+   "text": "středověký Kamenný most, nejstarší dochovaný kamenný most v Čechách, prošel generální opravou se statickým zajištěním pilířů, jež mu pomohla přečkat povodeň 2002"
+  },
+  {
+   "id": "r53",
+   "dataset": "cityFacts",
+   "key": "pisek|2002|při srpnové povodni vystoupala Otava z běžného metr a půl na přes devět metrů a Kamenný most zmizel zcela pod vodou, jež strhla zábradlí, chrliče i barokní sochu anděla",
+   "country": "CZ",
+   "city": "pisek",
+   "year": 2002,
+   "text": "při srpnové povodni vystoupala Otava z běžného metr a půl na přes devět metrů a Kamenný most zmizel zcela pod vodou, jež strhla zábradlí, chrliče i barokní sochu anděla"
+  },
+  {
+   "id": "r54",
+   "dataset": "cityFacts",
+   "key": "pisek|2004|30. června skončila staletá vojenská posádková historie Písku slavnostním vyřazením posledních historických praporů na náměstí",
+   "country": "CZ",
+   "city": "pisek",
+   "year": 2004,
+   "text": "30. června skončila staletá vojenská posádková historie Písku slavnostním vyřazením posledních historických praporů na náměstí"
+  },
+  {
+   "id": "r55",
+   "dataset": "cityFacts",
+   "key": "pisek|2008|18. března byl na Kamenný most po povodňových škodách vrácen restaurovaný kamenný kříž; originály soch dnes ukrývá Prácheňské muzeum",
+   "country": "CZ",
+   "city": "pisek",
+   "year": 2008,
+   "text": "18. března byl na Kamenný most po povodňových škodách vrácen restaurovaný kamenný kříž; originály soch dnes ukrývá Prácheňské muzeum"
+  },
+  {
+   "id": "r56",
+   "dataset": "cityFacts",
+   "key": "pisek|2009|bývalá sladovna na břehu Otavy se znovu otevřela jako kulturní centrum a brzy proslula jako galerie hraní pro děti",
+   "country": "CZ",
+   "city": "pisek",
+   "year": 2009,
+   "text": "bývalá sladovna na břehu Otavy se znovu otevřela jako kulturní centrum a brzy proslula jako galerie hraní pro děti"
+  },
+  {
+   "id": "r57",
+   "dataset": "cityFacts",
+   "key": "pisek|2017|město připomnělo 130 let veřejného elektrického osvětlení, které zde František Křižík poprvé rozsvítil roku 1887 jako vůbec první v českých zemích",
+   "country": "CZ",
+   "city": "pisek",
+   "year": 2017,
+   "text": "město připomnělo 130 let veřejného elektrického osvětlení, které zde František Křižík poprvé rozsvítil roku 1887 jako vůbec první v českých zemích"
+  },
+  {
+   "id": "r58",
+   "dataset": "cityFacts",
+   "key": "pribram|1953|historické hornické město Březové Hory s proslulými hlubokými šachtami ztratilo samostatnost a bylo připojeno k Příbrami",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1953,
+   "text": "historické hornické město Březové Hory s proslulými hlubokými šachtami ztratilo samostatnost a bylo připojeno k Příbrami"
+  },
+  {
+   "id": "r59",
+   "dataset": "cityFacts",
+   "key": "pribram|1959|7. dubna se nad Příbramí snesl meteorit, vůbec první v dějinách, jehož dráhu i heliocentrickou orbitu se podařilo určit z fotografií ondřejovské hvězdárny",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1959,
+   "text": "7. dubna se nad Příbramí snesl meteorit, vůbec první v dějinách, jehož dráhu i heliocentrickou orbitu se podařilo určit z fotografií ondřejovské hvězdárny"
+  }
+ ]
+}

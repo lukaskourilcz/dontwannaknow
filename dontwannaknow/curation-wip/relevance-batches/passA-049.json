@@ -1,0 +1,406 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "countryEvents",
+   "key": "CZ|1999|12. března vstoupila Česká republika spolu s Polskem a Maďarskem do NATO",
+   "country": "CZ",
+   "year": 1999,
+   "text": "12. března vstoupila Česká republika spolu s Polskem a Maďarskem do NATO"
+  },
+  {
+   "id": "r1",
+   "dataset": "countryEvents",
+   "key": "CZ|1999|iniciativa Děkujeme, odejděte vyzvala politiky opoziční smlouvy k odchodu",
+   "country": "CZ",
+   "year": 1999,
+   "text": "iniciativa Děkujeme, odejděte vyzvala politiky opoziční smlouvy k odchodu"
+  },
+  {
+   "id": "r2",
+   "dataset": "countryEvents",
+   "key": "CZ|2000|Jan Železný získal v Sydney třetí olympijské zlato v hodu oštěpem za sebou",
+   "country": "CZ",
+   "year": 2000,
+   "text": "Jan Železný získal v Sydney třetí olympijské zlato v hodu oštěpem za sebou"
+  },
+  {
+   "id": "r3",
+   "dataset": "countryEvents",
+   "key": "CZ|2000|byla spuštěna jaderná elektrárna Temelín přes protesty Rakouska",
+   "country": "CZ",
+   "year": 2000,
+   "text": "byla spuštěna jaderná elektrárna Temelín přes protesty Rakouska"
+  },
+  {
+   "id": "r4",
+   "dataset": "countryEvents",
+   "key": "CZ|2000|Český Krumlov a Praha lákaly rekordní počty zahraničních turistů na přelomu tisíciletí",
+   "country": "CZ",
+   "year": 2000,
+   "text": "Český Krumlov a Praha lákaly rekordní počty zahraničních turistů na přelomu tisíciletí"
+  },
+  {
+   "id": "r5",
+   "dataset": "countryEvents",
+   "key": "CZ|2001|spor o vedení v České televizi vyvolal vysílací stávku redaktorů a protesty na Václavském náměstí",
+   "country": "CZ",
+   "year": 2001,
+   "text": "spor o vedení v České televizi vyvolal vysílací stávku redaktorů a protesty na Václavském náměstí"
+  },
+  {
+   "id": "r6",
+   "dataset": "countryEvents",
+   "key": "CZ|2001|desetibojař Roman Šebrle jako první v historii překonal hranici 9000 bodů",
+   "country": "CZ",
+   "year": 2001,
+   "text": "desetibojař Roman Šebrle jako první v historii překonal hranici 9000 bodů"
+  },
+  {
+   "id": "r7",
+   "dataset": "countryEvents",
+   "key": "CZ|2002|v srpnu zaplavila Vltava Prahu při nejhorších povodních v moderní historii",
+   "country": "CZ",
+   "year": 2002,
+   "text": "v srpnu zaplavila Vltava Prahu při nejhorších povodních v moderní historii"
+  },
+  {
+   "id": "r8",
+   "dataset": "countryEvents",
+   "key": "CZ|2002|voda zatopila pražské metro i pavilon slona v zoo, kde uhynul slon Kádir",
+   "country": "CZ",
+   "year": 2002,
+   "text": "voda zatopila pražské metro i pavilon slona v zoo, kde uhynul slon Kádir"
+  },
+  {
+   "id": "r9",
+   "dataset": "countryEvents",
+   "key": "CZ|2003|Václav Klaus byl po Havlovi zvolen druhým prezidentem České republiky",
+   "country": "CZ",
+   "year": 2003,
+   "text": "Václav Klaus byl po Havlovi zvolen druhým prezidentem České republiky"
+  },
+  {
+   "id": "r10",
+   "dataset": "countryEvents",
+   "key": "CZ|2003|v červnovém referendu schválilo přes 77 procent voličů vstup do Evropské unie",
+   "country": "CZ",
+   "year": 2003,
+   "text": "v červnovém referendu schválilo přes 77 procent voličů vstup do Evropské unie"
+  },
+  {
+   "id": "r11",
+   "dataset": "countryEvents",
+   "key": "CZ|2004|1. května se Česká republika stala členem Evropské unie",
+   "country": "CZ",
+   "year": 2004,
+   "text": "1. května se Česká republika stala členem Evropské unie"
+  },
+  {
+   "id": "r12",
+   "dataset": "countryEvents",
+   "key": "CZ|2004|fotbalisté postoupili na mistrovství Evropy v Portugalsku až do semifinále",
+   "country": "CZ",
+   "year": 2004,
+   "text": "fotbalisté postoupili na mistrovství Evropy v Portugalsku až do semifinále"
+  },
+  {
+   "id": "r13",
+   "dataset": "countryEvents",
+   "key": "CZ|2004|Roman Šebrle se stal olympijským vítězem v desetiboji v Athénách",
+   "country": "CZ",
+   "year": 2004,
+   "text": "Roman Šebrle se stal olympijským vítězem v desetiboji v Athénách"
+  },
+  {
+   "id": "r14",
+   "dataset": "countryEvents",
+   "key": "CZ|2005|hokejisté vedení Jaromírem Jágrem získali zlato na mistrovství světa ve Vídni",
+   "country": "CZ",
+   "year": 2005,
+   "text": "hokejisté vedení Jaromírem Jágrem získali zlato na mistrovství světa ve Vídni"
+  },
+  {
+   "id": "r15",
+   "dataset": "countryEvents",
+   "key": "CZ|2006|patové volby vedly k měsícům bez funkční vlády, než nastoupil kabinet Mirka Topolánka",
+   "country": "CZ",
+   "year": 2006,
+   "text": "patové volby vedly k měsícům bez funkční vlády, než nastoupil kabinet Mirka Topolánka"
+  },
+  {
+   "id": "r16",
+   "dataset": "countryEvents",
+   "key": "CZ|2006|Kateřina Neumannová získala v Turíně zlato v běhu na lyžích",
+   "country": "CZ",
+   "year": 2006,
+   "text": "Kateřina Neumannová získala v Turíně zlato v běhu na lyžích"
+  },
+  {
+   "id": "r17",
+   "dataset": "countryEvents",
+   "key": "CZ|2007|21. prosince se Česká republika připojila k Schengenskému prostoru a zrušila hraniční kontroly",
+   "country": "CZ",
+   "year": 2007,
+   "text": "21. prosince se Česká republika připojila k Schengenskému prostoru a zrušila hraniční kontroly"
+  },
+  {
+   "id": "r18",
+   "dataset": "countryEvents",
+   "key": "CZ|2008|Karel Gott a Lucie Bílá patřili mezi nejprodávanější domácí hudebníky",
+   "country": "CZ",
+   "year": 2008,
+   "text": "Karel Gott a Lucie Bílá patřili mezi nejprodávanější domácí hudebníky"
+  },
+  {
+   "id": "r19",
+   "dataset": "countryEvents",
+   "key": "CZ|2009|Česká republika poprvé předsedala Radě Evropské unie",
+   "country": "CZ",
+   "year": 2009,
+   "text": "Česká republika poprvé předsedala Radě Evropské unie"
+  },
+  {
+   "id": "r20",
+   "dataset": "countryEvents",
+   "key": "CZ|2009|vláda Mirka Topolánka padla uprostřed českého předsednictví EU",
+   "country": "CZ",
+   "year": 2009,
+   "text": "vláda Mirka Topolánka padla uprostřed českého předsednictví EU"
+  },
+  {
+   "id": "r21",
+   "dataset": "countryEvents",
+   "key": "CZ|2010|Petra Kvitová pronikla mezi světovou tenisovou špičku",
+   "country": "CZ",
+   "year": 2010,
+   "text": "Petra Kvitová pronikla mezi světovou tenisovou špičku"
+  },
+  {
+   "id": "r22",
+   "dataset": "countryEvents",
+   "key": "CZ|2010|Jáchymov a hornické památky Krušnohoří přitahovaly turisty jako kolébka radonové léčby",
+   "country": "CZ",
+   "year": 2010,
+   "text": "Jáchymov a hornické památky Krušnohoří přitahovaly turisty jako kolébka radonové léčby"
+  },
+  {
+   "id": "r23",
+   "dataset": "countryEvents",
+   "key": "CZ|2011|Petra Kvitová vyhrála Wimbledon jako první česká tenistka po dlouhé době",
+   "country": "CZ",
+   "year": 2011,
+   "text": "Petra Kvitová vyhrála Wimbledon jako první česká tenistka po dlouhé době"
+  },
+  {
+   "id": "r24",
+   "dataset": "countryEvents",
+   "key": "CZ|2011|18. prosince zemřel exprezident Václav Havel; jeho pohřeb se stal státním smutkem",
+   "country": "CZ",
+   "year": 2011,
+   "text": "18. prosince zemřel exprezident Václav Havel; jeho pohřeb se stal státním smutkem"
+  },
+  {
+   "id": "r25",
+   "dataset": "countryEvents",
+   "key": "CZ|2012|Barbora Špotáková obhájila v Londýně olympijské zlato v hodu oštěpem",
+   "country": "CZ",
+   "year": 2012,
+   "text": "Barbora Špotáková obhájila v Londýně olympijské zlato v hodu oštěpem"
+  },
+  {
+   "id": "r26",
+   "dataset": "countryEvents",
+   "key": "CZ|2012|metanolová aféra s otráveným alkoholem si vyžádala desítky obětí a prohibici tvrdého lihu",
+   "country": "CZ",
+   "year": 2012,
+   "text": "metanolová aféra s otráveným alkoholem si vyžádala desítky obětí a prohibici tvrdého lihu"
+  },
+  {
+   "id": "r27",
+   "dataset": "countryEvents",
+   "key": "CZ|2013|Miloš Zeman se stal prvním přímo zvoleným prezidentem České republiky",
+   "country": "CZ",
+   "year": 2013,
+   "text": "Miloš Zeman se stal prvním přímo zvoleným prezidentem České republiky"
+  },
+  {
+   "id": "r28",
+   "dataset": "countryEvents",
+   "key": "CZ|2013|policejní razie kvůli kauze Nagyová svrhla vládu Petra Nečase",
+   "country": "CZ",
+   "year": 2013,
+   "text": "policejní razie kvůli kauze Nagyová svrhla vládu Petra Nečase"
+  },
+  {
+   "id": "r29",
+   "dataset": "countryEvents",
+   "key": "CZ|2013|tornádo a přívalové povodně znovu zasáhly části Čech",
+   "country": "CZ",
+   "year": 2013,
+   "text": "tornádo a přívalové povodně znovu zasáhly části Čech"
+  },
+  {
+   "id": "r30",
+   "dataset": "countryEvents",
+   "key": "CZ|2014|16. října a 3. prosince explodoval muniční areál ve Vrběticích a zabil dva lidi",
+   "country": "CZ",
+   "year": 2014,
+   "text": "16. října a 3. prosince explodoval muniční areál ve Vrběticích a zabil dva lidi"
+  },
+  {
+   "id": "r31",
+   "dataset": "countryEvents",
+   "key": "CZ|2014|Petra Kvitová podruhé zvítězila ve dvouhře na Wimbledonu",
+   "country": "CZ",
+   "year": 2014,
+   "text": "Petra Kvitová podruhé zvítězila ve dvouhře na Wimbledonu"
+  },
+  {
+   "id": "r32",
+   "dataset": "countryEvents",
+   "key": "CZ|2014|nastoupila koaliční vláda Bohuslava Sobotky s hnutím ANO Andreje Babiše",
+   "country": "CZ",
+   "year": 2014,
+   "text": "nastoupila koaliční vláda Bohuslava Sobotky s hnutím ANO Andreje Babiše"
+  },
+  {
+   "id": "r33",
+   "dataset": "countryEvents",
+   "key": "CZ|2015|společnost rozdělila evropská migrační krize a debata o uprchlických kvótách",
+   "country": "CZ",
+   "year": 2015,
+   "text": "společnost rozdělila evropská migrační krize a debata o uprchlických kvótách"
+  },
+  {
+   "id": "r34",
+   "dataset": "countryEvents",
+   "key": "CZ|2016|byl zaveden zkrácený jednoslovný název Česko, anglicky Czechia",
+   "country": "CZ",
+   "year": 2016,
+   "text": "byl zaveden zkrácený jednoslovný název Česko, anglicky Czechia"
+  },
+  {
+   "id": "r35",
+   "dataset": "countryEvents",
+   "key": "CZ|2016|spustila první vlna elektronické evidence tržeb",
+   "country": "CZ",
+   "year": 2016,
+   "text": "spustila první vlna elektronické evidence tržeb"
+  },
+  {
+   "id": "r36",
+   "dataset": "countryEvents",
+   "key": "CZ|2017|hnutí ANO Andreje Babiše s přehledem vyhrálo parlamentní volby",
+   "country": "CZ",
+   "year": 2017,
+   "text": "hnutí ANO Andreje Babiše s přehledem vyhrálo parlamentní volby"
+  },
+  {
+   "id": "r37",
+   "dataset": "countryEvents",
+   "key": "CZ|2017|Ester Ledecká vyhrála jako první žena celkové hodnocení Světového poháru ve snowboardingu",
+   "country": "CZ",
+   "year": 2017,
+   "text": "Ester Ledecká vyhrála jako první žena celkové hodnocení Světového poháru ve snowboardingu"
+  },
+  {
+   "id": "r38",
+   "dataset": "countryEvents",
+   "key": "CZ|2018|Ester Ledecká získala v Pchjongčchangu zlato v superobřím slalomu i ve snowboardingu",
+   "country": "CZ",
+   "year": 2018,
+   "text": "Ester Ledecká získala v Pchjongčchangu zlato v superobřím slalomu i ve snowboardingu"
+  },
+  {
+   "id": "r39",
+   "dataset": "countryEvents",
+   "key": "CZ|2018|Miloš Zeman obhájil v přímé volbě prezidentský úřad proti Jiřímu Drahošovi",
+   "country": "CZ",
+   "year": 2018,
+   "text": "Miloš Zeman obhájil v přímé volbě prezidentský úřad proti Jiřímu Drahošovi"
+  },
+  {
+   "id": "r40",
+   "dataset": "countryEvents",
+   "key": "CZ|2019|k 30. výročí sametové revoluce zaplnily náměstí největší demonstrace od roku 1989",
+   "country": "CZ",
+   "year": 2019,
+   "text": "k 30. výročí sametové revoluce zaplnily náměstí největší demonstrace od roku 1989"
+  },
+  {
+   "id": "r41",
+   "dataset": "countryEvents",
+   "key": "CZ|2019|hnutí Milion chvilek pro demokracii svolalo statisícové protesty proti premiéru Babišovi",
+   "country": "CZ",
+   "year": 2019,
+   "text": "hnutí Milion chvilek pro demokracii svolalo statisícové protesty proti premiéru Babišovi"
+  },
+  {
+   "id": "r42",
+   "dataset": "countryEvents",
+   "key": "CZ|2019|zemřel zpěvák Karel Gott; rozloučit se s ním přišly statisíce lidí",
+   "country": "CZ",
+   "year": 2019,
+   "text": "zemřel zpěvák Karel Gott; rozloučit se s ním přišly statisíce lidí"
+  },
+  {
+   "id": "r43",
+   "dataset": "countryEvents",
+   "key": "CZ|2020|pandemie covidu-19 přinesla jaro v lockdownu a povinné roušky na veřejnosti",
+   "country": "CZ",
+   "year": 2020,
+   "text": "pandemie covidu-19 přinesla jaro v lockdownu a povinné roušky na veřejnosti"
+  },
+  {
+   "id": "r44",
+   "dataset": "countryEvents",
+   "key": "CZ|2020|z pražského Staroměstského náměstí byl po protestech odstraněn Mariánský sloup, později obnovený",
+   "country": "CZ",
+   "year": 2020,
+   "text": "z pražského Staroměstského náměstí byl po protestech odstraněn Mariánský sloup, později obnovený"
+  },
+  {
+   "id": "r45",
+   "dataset": "countryEvents",
+   "key": "CZ|2021|17. dubna obvinil premiér Babiš ruskou tajnou službu GRU z výbuchů ve Vrběticích",
+   "country": "CZ",
+   "year": 2021,
+   "text": "17. dubna obvinil premiér Babiš ruskou tajnou službu GRU z výbuchů ve Vrběticích"
+  },
+  {
+   "id": "r46",
+   "dataset": "countryEvents",
+   "key": "CZ|2021|v červnu se obcemi na jižní Moravě prohnalo ničivé tornádo a zabilo šest lidí",
+   "country": "CZ",
+   "year": 2021,
+   "text": "v červnu se obcemi na jižní Moravě prohnalo ničivé tornádo a zabilo šest lidí"
+  },
+  {
+   "id": "r47",
+   "dataset": "countryEvents",
+   "key": "CZ|2021|volby vyhrála koalice SPOLU a premiérem se stal Petr Fiala",
+   "country": "CZ",
+   "year": 2021,
+   "text": "volby vyhrála koalice SPOLU a premiérem se stal Petr Fiala"
+  },
+  {
+   "id": "r48",
+   "dataset": "countryEvents",
+   "key": "CZ|2022|Česko přijalo statisíce uprchlíků po ruské invazi na Ukrajinu",
+   "country": "CZ",
+   "year": 2022,
+   "text": "Česko přijalo statisíce uprchlíků po ruské invazi na Ukrajinu"
+  },
+  {
+   "id": "r49",
+   "dataset": "countryEvents",
+   "key": "CZ|2022|ve druhém pololetí předsedalo Česko podruhé Radě Evropské unie",
+   "country": "CZ",
+   "year": 2022,
+   "text": "ve druhém pololetí předsedalo Česko podruhé Radě Evropské unie"
+  }
+ ]
+}

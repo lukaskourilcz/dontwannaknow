@@ -1,0 +1,406 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "countryEvents",
+   "key": "UA|2022|ukrajinské síly potopily v Černém moři ruský křižník Moskva",
+   "country": "UA",
+   "year": 2022,
+   "text": "ukrajinské síly potopily v Černém moři ruský křižník Moskva"
+  },
+  {
+   "id": "r1",
+   "dataset": "countryEvents",
+   "key": "UA|2022|Kalush Orchestra vyhrál pro Ukrajinu Eurovizi s písní Stefania",
+   "country": "UA",
+   "year": 2022,
+   "text": "Kalush Orchestra vyhrál pro Ukrajinu Eurovizi s písní Stefania"
+  },
+  {
+   "id": "r2",
+   "dataset": "countryEvents",
+   "key": "UA|2022|Ukrajina získala status kandidátské země Evropské unie",
+   "country": "UA",
+   "year": 2022,
+   "text": "Ukrajina získala status kandidátské země Evropské unie"
+  },
+  {
+   "id": "r3",
+   "dataset": "countryEvents",
+   "key": "UA|2022|ukrajinské protiofenzivy osvobodily Charkovskou oblast a město Cherson",
+   "country": "UA",
+   "year": 2022,
+   "text": "ukrajinské protiofenzivy osvobodily Charkovskou oblast a město Cherson"
+  },
+  {
+   "id": "r4",
+   "dataset": "countryEvents",
+   "key": "UA|2022|výbuch poškodil Kerčský most spojující Rusko s okupovaným Krymem",
+   "country": "UA",
+   "year": 2022,
+   "text": "výbuch poškodil Kerčský most spojující Rusko s okupovaným Krymem"
+  },
+  {
+   "id": "r5",
+   "dataset": "countryEvents",
+   "key": "UA|2022|Rusko po předstíraných referendech vyhlásilo anexi čtyř ukrajinských oblastí",
+   "country": "UA",
+   "year": 2022,
+   "text": "Rusko po předstíraných referendech vyhlásilo anexi čtyř ukrajinských oblastí"
+  },
+  {
+   "id": "r6",
+   "dataset": "countryEvents",
+   "key": "UA|2022|Volodymyr Zelenskyj během válečné cesty promluvil před americkým Kongresem",
+   "country": "UA",
+   "year": 2022,
+   "text": "Volodymyr Zelenskyj během válečné cesty promluvil před americkým Kongresem"
+  },
+  {
+   "id": "r7",
+   "dataset": "countryEvents",
+   "key": "UA|2022|zemřel Leonid Kravčuk, první prezident nezávislé Ukrajiny",
+   "country": "UA",
+   "year": 2022,
+   "text": "zemřel Leonid Kravčuk, první prezident nezávislé Ukrajiny"
+  },
+  {
+   "id": "r8",
+   "dataset": "countryEvents",
+   "key": "UA|2023|Mezinárodní trestní soud vydal zatykač na Vladimira Putina kvůli deportacím ukrajinských dětí",
+   "country": "UA",
+   "year": 2023,
+   "text": "Mezinárodní trestní soud vydal zatykač na Vladimira Putina kvůli deportacím ukrajinských dětí"
+  },
+  {
+   "id": "r9",
+   "dataset": "countryEvents",
+   "key": "UA|2023|protržení Kachovské přehrady způsobilo rozsáhlé záplavy podél dolního Dněpru",
+   "country": "UA",
+   "year": 2023,
+   "text": "protržení Kachovské přehrady způsobilo rozsáhlé záplavy podél dolního Dněpru"
+  },
+  {
+   "id": "r10",
+   "dataset": "countryEvents",
+   "key": "UA|2023|do kin vstoupila ukrajinská animovaná pohádka Mavka: Lesní píseň",
+   "country": "UA",
+   "year": 2023,
+   "text": "do kin vstoupila ukrajinská animovaná pohádka Mavka: Lesní píseň"
+  },
+  {
+   "id": "r11",
+   "dataset": "countryEvents",
+   "key": "UA|2024|ukrajinská armáda pronikla do ruské Kurské oblasti",
+   "country": "UA",
+   "year": 2024,
+   "text": "ukrajinská armáda pronikla do ruské Kurské oblasti"
+  },
+  {
+   "id": "r12",
+   "dataset": "countryEvents",
+   "key": "UA|2024|Oleksandr Usyk porazil Tysona Furyho a stal se absolutním mistrem světa těžké váhy",
+   "country": "UA",
+   "year": 2024,
+   "text": "Oleksandr Usyk porazil Tysona Furyho a stal se absolutním mistrem světa těžké váhy"
+  },
+  {
+   "id": "r13",
+   "dataset": "countryEvents",
+   "key": "UA|1918|Pavlo Tyčyna vydal básnickou sbírku Sluneční klarinety",
+   "country": "UA",
+   "year": 1918,
+   "text": "Pavlo Tyčyna vydal básnickou sbírku Sluneční klarinety"
+  },
+  {
+   "id": "r14",
+   "dataset": "countryEvents",
+   "key": "UA|1922|ukrajinský sbor zazpíval v Carnegie Hall koledu Ščedryk, pozdější Carol of the Bells",
+   "country": "UA",
+   "year": 1922,
+   "text": "ukrajinský sbor zazpíval v Carnegie Hall koledu Ščedryk, pozdější Carol of the Bells"
+  },
+  {
+   "id": "r15",
+   "dataset": "countryEvents",
+   "key": "UA|1929|premiéru měl Dovženkův film Arsenal",
+   "country": "UA",
+   "year": 1929,
+   "text": "premiéru měl Dovženkův film Arsenal"
+  },
+  {
+   "id": "r16",
+   "dataset": "countryEvents",
+   "key": "UA|1933|satirik Ostap Vyšňa byl zatčen a poslán do gulagu",
+   "country": "UA",
+   "year": 1933,
+   "text": "satirik Ostap Vyšňa byl zatčen a poslán do gulagu"
+  },
+  {
+   "id": "r17",
+   "dataset": "countryEvents",
+   "key": "UA|1937|v karelském Sandarmochu byla u výročí revoluce postřílena stovka ukrajinských umělců a vědců",
+   "country": "UA",
+   "year": 1937,
+   "text": "v karelském Sandarmochu byla u výročí revoluce postřílena stovka ukrajinských umělců a vědců"
+  },
+  {
+   "id": "r18",
+   "dataset": "countryEvents",
+   "key": "UA|1941|při nacistické okupaci byl vyhozen do povětří Uspenský chrám Kyjevskopečerské lávry",
+   "country": "UA",
+   "year": 1941,
+   "text": "při nacistické okupaci byl vyhozen do povětří Uspenský chrám Kyjevskopečerské lávry"
+  },
+  {
+   "id": "r19",
+   "dataset": "countryEvents",
+   "key": "UA|1947|poprvé vzlétl Antonov An-2 — nejvíce vyráběný dvojplošník na světě",
+   "country": "UA",
+   "year": 1947,
+   "text": "poprvé vzlétl Antonov An-2 — nejvíce vyráběný dvojplošník na světě"
+  },
+  {
+   "id": "r20",
+   "dataset": "countryEvents",
+   "key": "UA|1951|třetí symfonie Boryse Ljatošynského byla odsouzena jako formalistická",
+   "country": "UA",
+   "year": 1951,
+   "text": "třetí symfonie Boryse Ljatošynského byla odsouzena jako formalistická"
+  },
+  {
+   "id": "r21",
+   "dataset": "countryEvents",
+   "key": "UA|1957|kyjevské filmové studio dostalo jméno po Oleksandru Dovženkovi",
+   "country": "UA",
+   "year": 1957,
+   "text": "kyjevské filmové studio dostalo jméno po Oleksandru Dovženkovi"
+  },
+  {
+   "id": "r22",
+   "dataset": "countryEvents",
+   "key": "UA|1965|poprvé vzlétl Antonov An-22 Antej — největší turbovrtulové letadlo světa",
+   "country": "UA",
+   "year": 1965,
+   "text": "poprvé vzlétl Antonov An-22 Antej — největší turbovrtulové letadlo světa"
+  },
+  {
+   "id": "r23",
+   "dataset": "countryEvents",
+   "key": "UA|1979|Lina Kostenková po letech zákazu vydala román ve verších Marusja Čurajová",
+   "country": "UA",
+   "year": 1979,
+   "text": "Lina Kostenková po letech zákazu vydala román ve verších Marusja Čurajová"
+  },
+  {
+   "id": "r24",
+   "dataset": "countryEvents",
+   "key": "UA|1983|Serhij Bubka získal v Helsinkách první z šesti titulů mistra světa v skoku o tyči",
+   "country": "UA",
+   "year": 1983,
+   "text": "Serhij Bubka získal v Helsinkách první z šesti titulů mistra světa v skoku o tyči"
+  },
+  {
+   "id": "r25",
+   "dataset": "countryEvents",
+   "key": "UA|1990|Kyjevský chrám sv. Žofie a Kyjevskopečerská lávra byly zapsány na seznam UNESCO",
+   "country": "UA",
+   "year": 1990,
+   "text": "Kyjevský chrám sv. Žofie a Kyjevskopečerská lávra byly zapsány na seznam UNESCO"
+  },
+  {
+   "id": "r26",
+   "dataset": "countryEvents",
+   "key": "UA|1994|osmnáctiletý Andrij Ševčenko debutoval v prvním týmu Dynama Kyjev",
+   "country": "UA",
+   "year": 1994,
+   "text": "osmnáctiletý Andrij Ševčenko debutoval v prvním týmu Dynama Kyjev"
+  },
+  {
+   "id": "r27",
+   "dataset": "countryEvents",
+   "key": "UA|1996|Ukrajina obsadila ve své olympijské premiéře v Atlantě deváté místo v medailovém pořadí",
+   "country": "UA",
+   "year": 1996,
+   "text": "Ukrajina obsadila ve své olympijské premiéře v Atlantě deváté místo v medailovém pořadí"
+  },
+  {
+   "id": "r28",
+   "dataset": "countryEvents",
+   "key": "UA|1998|historické centrum Lvova bylo zapsáno na seznam světového dědictví UNESCO",
+   "country": "UA",
+   "year": 1998,
+   "text": "historické centrum Lvova bylo zapsáno na seznam světového dědictví UNESCO"
+  },
+  {
+   "id": "r29",
+   "dataset": "countryEvents",
+   "key": "UA|2000|Wladimir Klička získal porážkou Chrise Byrda svůj první světový titul WBO",
+   "country": "UA",
+   "year": 2000,
+   "text": "Wladimir Klička získal porážkou Chrise Byrda svůj první světový titul WBO"
+  },
+  {
+   "id": "r30",
+   "dataset": "countryEvents",
+   "key": "UA|2008|šavlistka Olha Charlanová vybojovala v Pekingu olympijské zlato v družstvech",
+   "country": "UA",
+   "year": 2008,
+   "text": "šavlistka Olha Charlanová vybojovala v Pekingu olympijské zlato v družstvech"
+  },
+  {
+   "id": "r31",
+   "dataset": "countryEvents",
+   "key": "UA|2015|Verchovna rada přijala dekomunizační zákony zakazující sovětské symboly",
+   "country": "UA",
+   "year": 2015,
+   "text": "Verchovna rada přijala dekomunizační zákony zakazující sovětské symboly"
+  },
+  {
+   "id": "r32",
+   "dataset": "countryEvents",
+   "key": "UA|2015|Marija Muzyčuková se stala mistryní světa v šachu žen",
+   "country": "UA",
+   "year": 2015,
+   "text": "Marija Muzyčuková se stala mistryní světa v šachu žen"
+  },
+  {
+   "id": "r33",
+   "dataset": "countryEvents",
+   "key": "UA|2015|začal se vysílat televizní seriál Sluha lidu s Volodymyrem Zelenským v hlavní roli",
+   "country": "UA",
+   "year": 2015,
+   "text": "začal se vysílat televizní seriál Sluha lidu s Volodymyrem Zelenským v hlavní roli"
+  },
+  {
+   "id": "r34",
+   "dataset": "countryEvents",
+   "key": "UA|2017|Ukrajinci získali bezvízový styk se zeměmi schengenského prostoru",
+   "country": "UA",
+   "year": 2017,
+   "text": "Ukrajinci získali bezvízový styk se zeměmi schengenského prostoru"
+  },
+  {
+   "id": "r35",
+   "dataset": "countryEvents",
+   "key": "UA|2018|sjednocovací sněm v Kyjevě ustavil samostatnou Pravoslavnou církev Ukrajiny",
+   "country": "UA",
+   "year": 2018,
+   "text": "sjednocovací sněm v Kyjevě ustavil samostatnou Pravoslavnou církev Ukrajiny"
+  },
+  {
+   "id": "r36",
+   "dataset": "countryEvents",
+   "key": "UA|2023|Jaroslava Mahučichová se v Budapešti stala mistryní světa ve skoku do výšky",
+   "country": "UA",
+   "year": 2023,
+   "text": "Jaroslava Mahučichová se v Budapešti stala mistryní světa ve skoku do výšky"
+  },
+  {
+   "id": "r37",
+   "dataset": "countryEvents",
+   "key": "UA|2024|Jaroslava Mahučichová překonala 37 let starý světový rekord ve skoku do výšky a získala v Paříži zlato",
+   "country": "UA",
+   "year": 2024,
+   "text": "Jaroslava Mahučichová překonala 37 let starý světový rekord ve skoku do výšky a získala v Paříži zlato"
+  },
+  {
+   "id": "r38",
+   "dataset": "countryEvents",
+   "key": "UA|2025|v Istanbulu se po třech letech znovu sešli vyjednavači Ukrajiny a Ruska",
+   "country": "UA",
+   "year": 2025,
+   "text": "v Istanbulu se po třech letech znovu sešli vyjednavači Ukrajiny a Ruska"
+  },
+  {
+   "id": "r39",
+   "dataset": "countryEvents",
+   "key": "UA|2025|Ukrajina a Rusko provedly největší výměnu zajatců od začátku plné invaze",
+   "country": "UA",
+   "year": 2025,
+   "text": "Ukrajina a Rusko provedly největší výměnu zajatců od začátku plné invaze"
+  },
+  {
+   "id": "r40",
+   "dataset": "countryEvents",
+   "key": "UA|1922|vznikla filmová organizace VUFKU, přezdívaná ukrajinský Hollywood",
+   "country": "UA",
+   "year": 1922,
+   "text": "vznikla filmová organizace VUFKU, přezdívaná ukrajinský Hollywood"
+  },
+  {
+   "id": "r41",
+   "dataset": "countryEvents",
+   "key": "UA|1927|v Kyjevě byl založen fotbalový klub Dynamo Kyjev",
+   "country": "UA",
+   "year": 1927,
+   "text": "v Kyjevě byl založen fotbalový klub Dynamo Kyjev"
+  },
+  {
+   "id": "r42",
+   "dataset": "countryEvents",
+   "key": "UA|1928|v Charkově byl otevřen Děržprom — první mrakodrap Sovětského svazu v konstruktivistickém stylu",
+   "country": "UA",
+   "year": 1928,
+   "text": "v Charkově byl otevřen Děržprom — první mrakodrap Sovětského svazu v konstruktivistickém stylu"
+  },
+  {
+   "id": "r43",
+   "dataset": "countryEvents",
+   "key": "UA|1934|v Kyjevě vznikl Patonův institut elektrického svařování",
+   "country": "UA",
+   "year": 1934,
+   "text": "v Kyjevě vznikl Patonův institut elektrického svařování"
+  },
+  {
+   "id": "r44",
+   "dataset": "countryEvents",
+   "key": "UA|1985|Antonov An-124 Ruslan ustavil 21 leteckých rekordů a vyzvedl náklad přes 171 tun",
+   "country": "UA",
+   "year": 1985,
+   "text": "Antonov An-124 Ruslan ustavil 21 leteckých rekordů a vyzvedl náklad přes 171 tun"
+  },
+  {
+   "id": "r45",
+   "dataset": "countryEvents",
+   "key": "UA|2007|Verka Serďučka obsadila na Eurovizi druhé místo s písní Dancing Lasha Tumbai",
+   "country": "UA",
+   "year": 2007,
+   "text": "Verka Serďučka obsadila na Eurovizi druhé místo s písní Dancing Lasha Tumbai"
+  },
+  {
+   "id": "r46",
+   "dataset": "countryEvents",
+   "key": "UA|2011|zpěvačka Mika Newton skončila na Eurovizi čtvrtá",
+   "country": "UA",
+   "year": 2011,
+   "text": "zpěvačka Mika Newton skončila na Eurovizi čtvrtá"
+  },
+  {
+   "id": "r47",
+   "dataset": "countryEvents",
+   "key": "UA|2013|Zlata Ohnevyč obsadila na Eurovizi s písní Gravity třetí místo",
+   "country": "UA",
+   "year": 2013,
+   "text": "Zlata Ohnevyč obsadila na Eurovizi s písní Gravity třetí místo"
+  },
+  {
+   "id": "r48",
+   "dataset": "countryEvents",
+   "key": "UA|2003|Vitalij Klička podlehl Lennoxi Lewisovi technickým KO až po hluboké tržné ráně nad okem",
+   "country": "UA",
+   "year": 2003,
+   "text": "Vitalij Klička podlehl Lennoxi Lewisovi technickým KO až po hluboké tržné ráně nad okem"
+  },
+  {
+   "id": "r49",
+   "dataset": "countryEvents",
+   "key": "UA|2012|Andrij Ševčenko se dvěma góly proti Švédsku na ME ukončil reprezentační kariéru jako rekordní střelec",
+   "country": "UA",
+   "year": 2012,
+   "text": "Andrij Ševčenko se dvěma góly proti Švédsku na ME ukončil reprezentační kariéru jako rekordní střelec"
+  }
+ ]
+}

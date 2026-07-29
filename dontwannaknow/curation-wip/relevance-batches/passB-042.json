@@ -1,0 +1,486 @@
+{
+ "pass": "B",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "countryEvents",
+   "key": "CZ|1918|vznik republiky doprovodilo strhávání symbolů Rakouska-Uherska v ulicích Prahy",
+   "country": "CZ",
+   "year": 1918,
+   "text": "vznik republiky doprovodilo strhávání symbolů Rakouska-Uherska v ulicích Prahy"
+  },
+  {
+   "id": "r1",
+   "dataset": "countryEvents",
+   "key": "CZ|1958|loutkové filmy Jiřího Trnky získaly mezinárodní festivalová ocenění",
+   "country": "CZ",
+   "year": 1958,
+   "text": "loutkové filmy Jiřího Trnky získaly mezinárodní festivalová ocenění"
+  },
+  {
+   "id": "r2",
+   "dataset": "countryEvents",
+   "key": "CZ|1969|hokejové výhry nad SSSR vyústily v protisovětské demonstrace a poškození kanceláře Aeroflotu",
+   "country": "CZ",
+   "year": 1969,
+   "text": "hokejové výhry nad SSSR vyústily v protisovětské demonstrace a poškození kanceláře Aeroflotu"
+  },
+  {
+   "id": "r3",
+   "dataset": "countryEvents",
+   "key": "CZ|1990|Alexander Dubček se stal předsedou Federálního shromáždění",
+   "country": "CZ",
+   "year": 1990,
+   "text": "Alexander Dubček se stal předsedou Federálního shromáždění"
+  },
+  {
+   "id": "r4",
+   "dataset": "countryEvents",
+   "key": "CZ|1993|česká koruna se po rozdělení měny stala samostatnou platnou měnou",
+   "country": "CZ",
+   "year": 1993,
+   "text": "česká koruna se po rozdělení měny stala samostatnou platnou měnou"
+  },
+  {
+   "id": "r5",
+   "dataset": "countryEvents",
+   "key": "CZ|2016|Věra Čáslavská, čtyřnásobná olympijská vítězka a symbol odporu z roku 1968, zemřela",
+   "country": "CZ",
+   "year": 2016,
+   "text": "Věra Čáslavská, čtyřnásobná olympijská vítězka a symbol odporu z roku 1968, zemřela"
+  },
+  {
+   "id": "r6",
+   "dataset": "countryEvents",
+   "key": "UA|1917|v Kyjevě vznikla Ústřední rada (Centralna rada) jako orgán ukrajinské autonomie",
+   "country": "UA",
+   "year": 1917,
+   "text": "v Kyjevě vznikla Ústřední rada (Centralna rada) jako orgán ukrajinské autonomie"
+  },
+  {
+   "id": "r7",
+   "dataset": "countryEvents",
+   "key": "UA|1917|Mychajlo Hruševskyj se stal předsedou Ústřední rady — první ukrajinskou hlavou státu",
+   "country": "UA",
+   "year": 1917,
+   "text": "Mychajlo Hruševskyj se stal předsedou Ústřední rady — první ukrajinskou hlavou státu"
+  },
+  {
+   "id": "r8",
+   "dataset": "countryEvents",
+   "key": "UA|1917|třetí univerzál vyhlásil Ukrajinskou lidovou republiku, zatím v rámci federativního Ruska",
+   "country": "UA",
+   "year": 1917,
+   "text": "třetí univerzál vyhlásil Ukrajinskou lidovou republiku, zatím v rámci federativního Ruska"
+  },
+  {
+   "id": "r9",
+   "dataset": "countryEvents",
+   "key": "UA|1917|v Charkově byla vyhlášena sovětská ukrajinská republika jako protiváha Ústřední radě",
+   "country": "UA",
+   "year": 1917,
+   "text": "v Charkově byla vyhlášena sovětská ukrajinská republika jako protiváha Ústřední radě"
+  },
+  {
+   "id": "r10",
+   "dataset": "countryEvents",
+   "key": "UA|1918|čtvrtý univerzál 22. ledna prohlásil Ukrajinskou lidovou republiku za nezávislou a svrchovanou",
+   "country": "UA",
+   "year": 1918,
+   "text": "čtvrtý univerzál 22. ledna prohlásil Ukrajinskou lidovou republiku za nezávislou a svrchovanou"
+  },
+  {
+   "id": "r11",
+   "dataset": "countryEvents",
+   "key": "UA|1918|v bitvě u Krut padla pod náporem bolševiků hrstka mladých ukrajinských studentů a kadetů",
+   "country": "UA",
+   "year": 1918,
+   "text": "v bitvě u Krut padla pod náporem bolševiků hrstka mladých ukrajinských studentů a kadetů"
+  },
+  {
+   "id": "r12",
+   "dataset": "countryEvents",
+   "key": "UA|1918|Pavlo Skoropadskyj se s německou podporou chopil moci jako hejtman Ukrajinského státu",
+   "country": "UA",
+   "year": 1918,
+   "text": "Pavlo Skoropadskyj se s německou podporou chopil moci jako hejtman Ukrajinského státu"
+  },
+  {
+   "id": "r13",
+   "dataset": "countryEvents",
+   "key": "UA|1918|Direktorium vedené spisovatelem Volodymyrem Vynnyčenkem svrhlo hejtmana Skoropadského",
+   "country": "UA",
+   "year": 1918,
+   "text": "Direktorium vedené spisovatelem Volodymyrem Vynnyčenkem svrhlo hejtmana Skoropadského"
+  },
+  {
+   "id": "r14",
+   "dataset": "countryEvents",
+   "key": "UA|1918|ve Lvově byla po rozpadu Rakouska-Uherska vyhlášena Západoukrajinská lidová republika",
+   "country": "UA",
+   "year": 1918,
+   "text": "ve Lvově byla po rozpadu Rakouska-Uherska vyhlášena Západoukrajinská lidová republika"
+  },
+  {
+   "id": "r15",
+   "dataset": "countryEvents",
+   "key": "UA|1919|Akt zluky 22. ledna na Sofijském náměstí symbolicky sjednotil východní a západní Ukrajinu",
+   "country": "UA",
+   "year": 1919,
+   "text": "Akt zluky 22. ledna na Sofijském náměstí symbolicky sjednotil východní a západní Ukrajinu"
+  },
+  {
+   "id": "r16",
+   "dataset": "countryEvents",
+   "key": "UA|1919|Symon Petljura se ujal vedení Direktoria poté, co Vynnyčenko odstoupil",
+   "country": "UA",
+   "year": 1919,
+   "text": "Symon Petljura se ujal vedení Direktoria poté, co Vynnyčenko odstoupil"
+  },
+  {
+   "id": "r17",
+   "dataset": "countryEvents",
+   "key": "UA|1919|během občanské války zahynuly v pogromech na Ukrajině desetitisíce Židů",
+   "country": "UA",
+   "year": 1919,
+   "text": "během občanské války zahynuly v pogromech na Ukrajině desetitisíce Židů"
+  },
+  {
+   "id": "r18",
+   "dataset": "countryEvents",
+   "key": "UA|1919|anarchista Nestor Machno ovládal se svou povstaleckou armádou rozsáhlé území jihu Ukrajiny",
+   "country": "UA",
+   "year": 1919,
+   "text": "anarchista Nestor Machno ovládal se svou povstaleckou armádou rozsáhlé území jihu Ukrajiny"
+  },
+  {
+   "id": "r19",
+   "dataset": "countryEvents",
+   "key": "UA|1919|v Oděse vznikla nově znárodněná Oděská filmová studia",
+   "country": "UA",
+   "year": 1919,
+   "text": "v Oděse vznikla nově znárodněná Oděská filmová studia"
+  },
+  {
+   "id": "r20",
+   "dataset": "countryEvents",
+   "key": "UA|1920|Symon Petljura podepsal s Piłsudského Polskem Varšavskou smlouvu o spojenectví",
+   "country": "UA",
+   "year": 1920,
+   "text": "Symon Petljura podepsal s Piłsudského Polskem Varšavskou smlouvu o spojenectví"
+  },
+  {
+   "id": "r21",
+   "dataset": "countryEvents",
+   "key": "UA|1921|Rudá armáda definitivně rozdrtila Machnovo anarchistické hnutí na jihu Ukrajiny",
+   "country": "UA",
+   "year": 1921,
+   "text": "Rudá armáda definitivně rozdrtila Machnovo anarchistické hnutí na jihu Ukrajiny"
+  },
+  {
+   "id": "r22",
+   "dataset": "countryEvents",
+   "key": "UA|1926|Symon Petljura byl v Paříži zavražděn Šolomem Schwartzbardem, jenž byl poté osvobozen",
+   "country": "UA",
+   "year": 1926,
+   "text": "Symon Petljura byl v Paříži zavražděn Šolomem Schwartzbardem, jenž byl poté osvobozen"
+  },
+  {
+   "id": "r23",
+   "dataset": "countryEvents",
+   "key": "UA|1932|v Charkovském fyzikálně-technickém institutu se poprvé v SSSR podařilo rozštěpit atomové jádro",
+   "country": "UA",
+   "year": 1932,
+   "text": "v Charkovském fyzikálně-technickém institutu se poprvé v SSSR podařilo rozštěpit atomové jádro"
+  },
+  {
+   "id": "r24",
+   "dataset": "countryEvents",
+   "key": "UA|1933|spisovatel Mykola Chvyljovyj spáchal v Charkově sebevraždu na protest proti čistkám",
+   "country": "UA",
+   "year": 1933,
+   "text": "spisovatel Mykola Chvyljovyj spáchal v Charkově sebevraždu na protest proti čistkám"
+  },
+  {
+   "id": "r25",
+   "dataset": "countryEvents",
+   "key": "UA|1937|Marija Prymačenková získala za své naivní malby zlatou medaili na Světové výstavě v Paříži",
+   "country": "UA",
+   "year": 1937,
+   "text": "Marija Prymačenková získala za své naivní malby zlatou medaili na Světové výstavě v Paříži"
+  },
+  {
+   "id": "r26",
+   "dataset": "countryEvents",
+   "key": "UA|1939|v březnu vyhlásila Podkarpatská Ukrajina nezávislost, vzápětí ji však obsadilo Maďarsko",
+   "country": "UA",
+   "year": 1939,
+   "text": "v březnu vyhlásila Podkarpatská Ukrajina nezávislost, vzápětí ji však obsadilo Maďarsko"
+  },
+  {
+   "id": "r27",
+   "dataset": "countryEvents",
+   "key": "UA|1952|konstrukční kancelář Olega Antonova přesídlila do Kyjeva",
+   "country": "UA",
+   "year": 1952,
+   "text": "konstrukční kancelář Olega Antonova přesídlila do Kyjeva"
+  },
+  {
+   "id": "r28",
+   "dataset": "countryEvents",
+   "key": "UA|1953|v Kyjevě byl otevřen Patonův most — první celosvařovaný most na světě",
+   "country": "UA",
+   "year": 1953,
+   "text": "v Kyjevě byl otevřen Patonův most — první celosvařovaný most na světě"
+  },
+  {
+   "id": "r29",
+   "dataset": "countryEvents",
+   "key": "UA|1954|v Dnipropetrovsku vznikla raketová konstrukční kancelář Pivdenne pod vedením Mychajla Janhela",
+   "country": "UA",
+   "year": 1954,
+   "text": "v Dnipropetrovsku vznikla raketová konstrukční kancelář Pivdenne pod vedením Mychajla Janhela"
+  },
+  {
+   "id": "r30",
+   "dataset": "countryEvents",
+   "key": "UA|1954|tři obrazy Kateryny Bilokurové byly vystaveny v pařížském Louvru a obdivoval je i Picasso",
+   "country": "UA",
+   "year": 1954,
+   "text": "tři obrazy Kateryny Bilokurové byly vystaveny v pařížském Louvru a obdivoval je i Picasso"
+  },
+  {
+   "id": "r31",
+   "dataset": "countryEvents",
+   "key": "UA|1960|v Kyjevě byla otevřena první linka metra — třetí v celém Sovětském svazu",
+   "country": "UA",
+   "year": 1960,
+   "text": "v Kyjevě byla otevřena první linka metra — třetí v celém Sovětském svazu"
+  },
+  {
+   "id": "r32",
+   "dataset": "countryEvents",
+   "key": "UA|1962|Pavlo Popovyč se na lodi Vostok 4 stal prvním kosmonautem ukrajinského původu",
+   "country": "UA",
+   "year": 1962,
+   "text": "Pavlo Popovyč se na lodi Vostok 4 stal prvním kosmonautem ukrajinského původu"
+  },
+  {
+   "id": "r33",
+   "dataset": "countryEvents",
+   "key": "UA|1968|Brežněvův režim zakázal román Olese Hončara Sobor (Chrám)",
+   "country": "UA",
+   "year": 1968,
+   "text": "Brežněvův režim zakázal román Olese Hončara Sobor (Chrám)"
+  },
+  {
+   "id": "r34",
+   "dataset": "countryEvents",
+   "key": "UA|1975|Dynamo Kyjev získalo i evropský Superpohár, když přehrálo Bayern Mnichov",
+   "country": "UA",
+   "year": 1975,
+   "text": "Dynamo Kyjev získalo i evropský Superpohár, když přehrálo Bayern Mnichov"
+  },
+  {
+   "id": "r35",
+   "dataset": "countryEvents",
+   "key": "UA|1979|ukrajinská gymnastka Larysa Latyninová zůstávala s 18 olympijskými medailemi rekordmankou her",
+   "country": "UA",
+   "year": 1979,
+   "text": "ukrajinská gymnastka Larysa Latyninová zůstávala s 18 olympijskými medailemi rekordmankou her"
+  },
+  {
+   "id": "r36",
+   "dataset": "countryEvents",
+   "key": "UA|1982|poprvé vzlétl těžký transportní letoun Antonov An-124 Ruslan, navržený v Kyjevě",
+   "country": "UA",
+   "year": 1982,
+   "text": "poprvé vzlétl těžký transportní letoun Antonov An-124 Ruslan, navržený v Kyjevě"
+  },
+  {
+   "id": "r37",
+   "dataset": "countryEvents",
+   "key": "UA|1985|ukrajinský disidentský básník Vasyl Stus zemřel v sovětském táboře Perm-36",
+   "country": "UA",
+   "year": 1985,
+   "text": "ukrajinský disidentský básník Vasyl Stus zemřel v sovětském táboře Perm-36"
+  },
+  {
+   "id": "r38",
+   "dataset": "countryEvents",
+   "key": "UA|1985|Serhij Bubka se v Paříži stal prvním tyčkařem, který překonal šest metrů",
+   "country": "UA",
+   "year": 1985,
+   "text": "Serhij Bubka se v Paříži stal prvním tyčkařem, který překonal šest metrů"
+  },
+  {
+   "id": "r39",
+   "dataset": "countryEvents",
+   "key": "UA|1986|Dynamo Kyjev podruhé vyhrálo Pohár vítězů pohárů, ve finále porazilo Atlético Madrid 3:0",
+   "country": "UA",
+   "year": 1986,
+   "text": "Dynamo Kyjev podruhé vyhrálo Pohár vítězů pohárů, ve finále porazilo Atlético Madrid 3:0"
+  },
+  {
+   "id": "r40",
+   "dataset": "countryEvents",
+   "key": "UA|1986|v dubnu vybuchl čtvrtý reaktor jaderné elektrárny Černobyl poblíž Pripjati",
+   "country": "UA",
+   "year": 1986,
+   "text": "v dubnu vybuchl čtvrtý reaktor jaderné elektrárny Černobyl poblíž Pripjati"
+  },
+  {
+   "id": "r41",
+   "dataset": "countryEvents",
+   "key": "UA|1986|fotbalista Ihor Bilanov získal Zlatý míč",
+   "country": "UA",
+   "year": 1986,
+   "text": "fotbalista Ihor Bilanov získal Zlatý míč"
+  },
+  {
+   "id": "r42",
+   "dataset": "countryEvents",
+   "key": "UA|1986|v Kyjevě byla založena rocková kapela Vopli Vidopljasova",
+   "country": "UA",
+   "year": 1986,
+   "text": "v Kyjevě byla založena rocková kapela Vopli Vidopljasova"
+  },
+  {
+   "id": "r43",
+   "dataset": "countryEvents",
+   "key": "UA|1988|Serhij Bubka získal na olympijských hrách v Soulu zlatou medaili v skoku o tyči",
+   "country": "UA",
+   "year": 1988,
+   "text": "Serhij Bubka získal na olympijských hrách v Soulu zlatou medaili v skoku o tyči"
+  },
+  {
+   "id": "r44",
+   "dataset": "countryEvents",
+   "key": "UA|1988|poprvé vzlétl Antonov An-225 Mrija — největší a nejtěžší letadlo světa",
+   "country": "UA",
+   "year": 1988,
+   "text": "poprvé vzlétl Antonov An-225 Mrija — největší a nejtěžší letadlo světa"
+  },
+  {
+   "id": "r45",
+   "dataset": "countryEvents",
+   "key": "UA|1989|Antonov An-225 Mrija ustavil při jediném letu na 110 leteckých rekordů",
+   "country": "UA",
+   "year": 1989,
+   "text": "Antonov An-225 Mrija ustavil při jediném letu na 110 leteckých rekordů"
+  },
+  {
+   "id": "r46",
+   "dataset": "countryEvents",
+   "key": "UA|1989|vzniklo opoziční hnutí Ruch usilující o ukrajinskou samostatnost",
+   "country": "UA",
+   "year": 1989,
+   "text": "vzniklo opoziční hnutí Ruch usilující o ukrajinskou samostatnost"
+  },
+  {
+   "id": "r47",
+   "dataset": "countryEvents",
+   "key": "UA|1989|nový jazykový zákon učinil z ukrajinštiny jediný státní jazyk Ukrajinské SSR",
+   "country": "UA",
+   "year": 1989,
+   "text": "nový jazykový zákon učinil z ukrajinštiny jediný státní jazyk Ukrajinské SSR"
+  },
+  {
+   "id": "r48",
+   "dataset": "countryEvents",
+   "key": "UA|1989|Nejvyšší sovět zrušil zákaz návratu krymských Tatarů do vlasti",
+   "country": "UA",
+   "year": 1989,
+   "text": "Nejvyšší sovět zrušil zákaz návratu krymských Tatarů do vlasti"
+  },
+  {
+   "id": "r49",
+   "dataset": "countryEvents",
+   "key": "UA|1990|studentská hladovka na kyjevském náměstí, takzvaná revoluce na žule, svrhla premiéra",
+   "country": "UA",
+   "year": 1990,
+   "text": "studentská hladovka na kyjevském náměstí, takzvaná revoluce na žule, svrhla premiéra"
+  },
+  {
+   "id": "r50",
+   "dataset": "countryEvents",
+   "key": "UA|1990|lidský řetěz spojil Kyjev a Lvov na památku Aktu zluky",
+   "country": "UA",
+   "year": 1990,
+   "text": "lidský řetěz spojil Kyjev a Lvov na památku Aktu zluky"
+  },
+  {
+   "id": "r51",
+   "dataset": "countryEvents",
+   "key": "UA|1990|Verchovna rada 16. července přijala Deklaraci o státní svrchovanosti",
+   "country": "UA",
+   "year": 1990,
+   "text": "Verchovna rada 16. července přijala Deklaraci o státní svrchovanosti"
+  },
+  {
+   "id": "r52",
+   "dataset": "countryEvents",
+   "key": "UA|1990|film Kiry Muratovové Astenický syndrom získal cenu na Berlinale",
+   "country": "UA",
+   "year": 1990,
+   "text": "film Kiry Muratovové Astenický syndrom získal cenu na Berlinale"
+  },
+  {
+   "id": "r53",
+   "dataset": "countryEvents",
+   "key": "UA|1991|Verchovna rada 24. srpna vyhlásila nezávislost Ukrajiny po nezdařeném moskevském puči",
+   "country": "UA",
+   "year": 1991,
+   "text": "Verchovna rada 24. srpna vyhlásila nezávislost Ukrajiny po nezdařeném moskevském puči"
+  },
+  {
+   "id": "r54",
+   "dataset": "countryEvents",
+   "key": "UA|1991|v referendu se přes 90 % voličů vyslovilo pro nezávislost; prezidentem byl zvolen Leonid Kravčuk",
+   "country": "UA",
+   "year": 1991,
+   "text": "v referendu se přes 90 % voličů vyslovilo pro nezávislost; prezidentem byl zvolen Leonid Kravčuk"
+  },
+  {
+   "id": "r55",
+   "dataset": "countryEvents",
+   "key": "UA|1992|Ukrajina sehrála v Užhorodě svůj první mezistátní fotbalový zápas proti Maďarsku",
+   "country": "UA",
+   "year": 1992,
+   "text": "Ukrajina sehrála v Užhorodě svůj první mezistátní fotbalový zápas proti Maďarsku"
+  },
+  {
+   "id": "r56",
+   "dataset": "countryEvents",
+   "key": "UA|1994|Budapešťské memorandum: Ukrajina se vzdala třetího největšího jaderného arzenálu světa",
+   "country": "UA",
+   "year": 1994,
+   "text": "Budapešťské memorandum: Ukrajina se vzdala třetího největšího jaderného arzenálu světa"
+  },
+  {
+   "id": "r57",
+   "dataset": "countryEvents",
+   "key": "UA|1994|prezidentem byl zvolen Leonid Kučma",
+   "country": "UA",
+   "year": 1994,
+   "text": "prezidentem byl zvolen Leonid Kučma"
+  },
+  {
+   "id": "r58",
+   "dataset": "countryEvents",
+   "key": "UA|1994|ve Lvově založil Svjatoslav Vakarčuk rockovou kapelu Okean Elzy",
+   "country": "UA",
+   "year": 1994,
+   "text": "ve Lvově založil Svjatoslav Vakarčuk rockovou kapelu Okean Elzy"
+  },
+  {
+   "id": "r59",
+   "dataset": "countryEvents",
+   "key": "UA|1994|poprvé vzlétl transportní letoun Antonov An-70",
+   "country": "UA",
+   "year": 1994,
+   "text": "poprvé vzlétl transportní letoun Antonov An-70"
+  }
+ ]
+}

@@ -1,0 +1,906 @@
+{
+ "pass": "C",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "jihlava|1972|Dukla Jihlava vyhrála šest československých hokejových titulů v řadě, dynastie armádního klubu zrcadlící moskevský CSKA",
+   "country": "CZ",
+   "city": "jihlava",
+   "year": 1972,
+   "text": "Dukla Jihlava vyhrála šest československých hokejových titulů v řadě, dynastie armádního klubu zrcadlící moskevský CSKA"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "jihlava|1980|městské hornické muzeum se znovu otevřelo ve středověké Bráně Matky Boží, připomínajíc středověké stříbrné bohatství Jihlavy",
+   "country": "CZ",
+   "city": "jihlava",
+   "year": 1980,
+   "text": "městské hornické muzeum se znovu otevřelo ve středověké Bráně Matky Boží, připomínajíc středověké stříbrné bohatství Jihlavy"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "karvina|1922|Karviná ležela po rozdělení Těšínského Slezska s Polskem v roce 1920 na nové československé straně řeky Olše",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1922,
+   "text": "Karviná ležela po rozdělení Těšínského Slezska s Polskem v roce 1920 na nové československé straně řeky Olše"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "karvina|1938|v říjnu během mnichovské krize nakrátko anektována Polskem, poté Německem",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1938,
+   "text": "v říjnu během mnichovské krize nakrátko anektována Polskem, poté Německem"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "karvina|1945|na konci války vrácena Československu",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1945,
+   "text": "na konci války vrácena Československu"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "karvina|1945|Rudá armáda počátkem května vrátila Karvinou Československu a polská správa skončila",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1945,
+   "text": "Rudá armáda počátkem května vrátila Karvinou Československu a polská správa skončila"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "karvina|1948|uhelné doly OKD-Karviná byly znárodněny a sloučeny pod správu Ostravsko-karvinského revíru",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1948,
+   "text": "uhelné doly OKD-Karviná byly znárodněny a sloučeny pod správu Ostravsko-karvinského revíru"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "karvina|1955|staré historické centrum Karviné-Dolů se začalo propadat do vytěžených uhelných slojí a bylo postupně bouráno",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1955,
+   "text": "staré historické centrum Karviné-Dolů se začalo propadat do vytěžených uhelných slojí a bylo postupně bouráno"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "karvina|1960|obec Karviná byla rozšířena o Fryštát, jehož staré náměstí se stalo novým centrem města",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1960,
+   "text": "obec Karviná byla rozšířena o Fryštát, jehož staré náměstí se stalo novým centrem města"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "karvina|1968|poddolování poškodilo většinu starého farního kostela svatého Petra v Karviné-Dolech, který se začal znatelně naklánět",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1968,
+   "text": "poddolování poškodilo většinu starého farního kostela svatého Petra v Karviné-Dolech, který se začal znatelně naklánět"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "karvina|1972|velká část historického starého města byla zbourána kvůli poklesům půdy způsobeným těžbou",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1972,
+   "text": "velká část historického starého města byla zbourána kvůli poklesům půdy způsobeným těžbou"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "karvina|1975|ostravsko-karvinský revír měl vrchol zaměstnanosti kolem 110 000 horníků ve všech dolech",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1975,
+   "text": "ostravsko-karvinský revír měl vrchol zaměstnanosti kolem 110 000 horníků ve všech dolech"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "karvina|1980|nakloněný kostel svatého Petra v Karviné-Dolech se odchýlil 6,8 stupně od svislice, čímž se stal nejdramatičtější památkou na poddolování ve střední Evropě",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1980,
+   "text": "nakloněný kostel svatého Petra v Karviné-Dolech se odchýlil 6,8 stupně od svislice, čímž se stal nejdramatičtější památkou na poddolování ve střední Evropě"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "kladno|1920|ocelárna POLDI a okolní uhelné doly učinily z Kladna komunistickou dělnickou baštu",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1920,
+   "text": "ocelárna POLDI a okolní uhelné doly učinily z Kladna komunistickou dělnickou baštu"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "kladno|1921|ocelárna Poldi zaměstnávala přes 12 000 lidí a byla hlavním československým výrobcem ušlechtilých legovaných ocelí",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1921,
+   "text": "ocelárna Poldi zaměstnávala přes 12 000 lidí a byla hlavním československým výrobcem ušlechtilých legovaných ocelí"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "kladno|1925|horníci na dolech Mayrau a Schoeller se ve 20. letech opakovaně připojovali ke stávkám a dali Kladnu jeho rudou pověst",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1925,
+   "text": "horníci na dolech Mayrau a Schoeller se ve 20. letech opakovaně připojovali ke stávkám a dali Kladnu jeho rudou pověst"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "kladno|1932|velká kladenská stávka v listopadu a prosinci trvala šest týdnů a podporoval ji celostátní list komunistické strany",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1932,
+   "text": "velká kladenská stávka v listopadu a prosinci trvala šest týdnů a podporoval ji celostátní list komunistické strany"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "kladno|1937|kladenský fotbalový klub SK Kladno si po dlouhém šplhání vybojoval postup do nejvyšší soutěže",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1937,
+   "text": "kladenský fotbalový klub SK Kladno si po dlouhém šplhání vybojoval postup do nejvyšší soutěže"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "kladno|1945|na konci války osvobozeno Rudou armádou",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1945,
+   "text": "na konci války osvobozeno Rudou armádou"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "kladno|1945|Rudá armáda vstoupila do Kladna 9. května a ocelárna Poldi obnovila během několika týdnů pod dělnickými výbory výrobu",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1945,
+   "text": "Rudá armáda vstoupila do Kladna 9. května a ocelárna Poldi obnovila během několika týdnů pod dělnickými výbory výrobu"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "kladno|1948|kladenští oceláři patřili mezi první, kdo podpořili únorový komunistický převrat",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1948,
+   "text": "kladenští oceláři patřili mezi první, kdo podpořili únorový komunistický převrat"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "kladno|1948|Poldi byla přejmenována na Spojené ocelárny Poldi Kladno a stala se vzorovým příkladem komunistického plánu těžkého průmyslu",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1948,
+   "text": "Poldi byla přejmenována na Spojené ocelárny Poldi Kladno a stala se vzorovým příkladem komunistického plánu těžkého průmyslu"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "kladno|1959|hokej Poldi Kladno byl národní velmocí a posílal do reprezentace hráče jako Stanislava Prýla",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1959,
+   "text": "hokej Poldi Kladno byl národní velmocí a posílal do reprezentace hráče jako Stanislava Prýla"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "kladno|1965|národní podnik POLDI zaměstnával v celém regionu desetitisíce lidí",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1965,
+   "text": "národní podnik POLDI zaměstnával v celém regionu desetitisíce lidí"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "kladno|1965|kladenský důl Mayrau stále pracoval s parním těžním strojem z 80. let 19. století, jedním z posledních v Čechách",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1965,
+   "text": "kladenský důl Mayrau stále pracoval s parním těžním strojem z 80. let 19. století, jedním z posledních v Čechách"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "kladno|1975|hokejová Poldi Kladno vyhrála s Milanem Novým, Jiřím Bublou a otcem teprve dospívajícího Jaromíra Jágra na tribuně československý titul",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1975,
+   "text": "hokejová Poldi Kladno vyhrála s Milanem Novým, Jiřím Bublou a otcem teprve dospívajícího Jaromíra Jágra na tribuně československý titul"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "kladno|1976|Poldi Kladno obhájila titul československého hokejového mistra a zahájila tak téměř desetiletou nadvládu",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1976,
+   "text": "Poldi Kladno obhájila titul československého hokejového mistra a zahájila tak téměř desetiletou nadvládu"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "kladno|1980|Poldi Kladno vyhrála čtvrtý titul za šest let; sportovní hala na Sletišti byla každé úterý a pátek nejhlučnějším místem ve městě",
+   "country": "CZ",
+   "city": "kladno",
+   "year": 1980,
+   "text": "Poldi Kladno vyhrála čtvrtý titul za šest let; sportovní hala na Sletišti byla každé úterý a pátek nejhlučnějším místem ve městě"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "liberec|1920|město (tehdy Reichenberg) bylo asi z 80 % německy mluvící",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1920,
+   "text": "město (tehdy Reichenberg) bylo asi z 80 % německy mluvící"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "liberec|1923|liberecké hlavní nádraží bylo rušným uzlem německy mluvícího textilního regionu s přímými vlaky do Drážďan a Vídně",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1923,
+   "text": "liberecké hlavní nádraží bylo rušným uzlem německy mluvícího textilního regionu s přímými vlaky do Drážďan a Vídně"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "liberec|1924|Severočeské muzeum se znovu otevřelo, aby vystavilo textil a secesní sklo, jimiž byl Reichenberg-Liberec proslulý",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1924,
+   "text": "Severočeské muzeum se znovu otevřelo, aby vystavilo textil a secesní sklo, jimiž byl Reichenberg-Liberec proslulý"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "liberec|1933|Sudetoněmecká vlastenecká fronta Konrada Henleina byla založena v Aši, ale už pořádala shromáždění na liberecké radnici",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1933,
+   "text": "Sudetoněmecká vlastenecká fronta Konrada Henleina byla založena v Aši, ale už pořádala shromáždění na liberecké radnici"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "liberec|1938|připojen k nacistickému Německu jako sídlo Říšské župy Sudety",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1938,
+   "text": "připojen k nacistickému Německu jako sídlo Říšské župy Sudety"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "liberec|1938|Henleinova Sudetoněmecká strana uspořádala na Tržním náměstí své poslední velké shromáždění před zářijovou anexí",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1938,
+   "text": "Henleinova Sudetoněmecká strana uspořádala na Tržním náměstí své poslední velké shromáždění před zářijovou anexí"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "liberec|1945|etničtí Němci byli vyhnáni na základě Benešových dekretů",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1945,
+   "text": "etničtí Němci byli vyhnáni na základě Benešových dekretů"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "liberec|1945|organizované vyhánění německého obyvatelstva města začalo v létě se shromaždištěm v textilní továrně na Zhořelecké",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1945,
+   "text": "organizované vyhánění německého obyvatelstva města začalo v létě se shromaždištěm v textilní továrně na Zhořelecké"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "liberec|1946|České státní divadlo F. X. Šaldy zahájilo svou první poválečnou sezonu poté, co byl německý divadelní personál vyhnán",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1946,
+   "text": "České státní divadlo F. X. Šaldy zahájilo svou první poválečnou sezonu poté, co byl německý divadelní personál vyhnán"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "liberec|1952|nová liberecká zoo na Lidových sadech, založená v roce 1919 a nejstarší v českých zemích, otevřela svůj pavilon lvů",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1952,
+   "text": "nová liberecká zoo na Lidových sadech, založená v roce 1919 a nejstarší v českých zemích, otevřela svůj pavilon lvů"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "liberec|1958|skokanský můstek na Ještědu hostil mistrovství světa FIS v severském lyžování a přitáhl davy z celého města",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1958,
+   "text": "skokanský můstek na Ještědu hostil mistrovství světa FIS v severském lyžování a přitáhl davy z celého města"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "liberec|1963|v noci na 31. ledna zničil požár starý dřevěný horský hotel na Ještědu, což podnítilo slavnou Hubáčkovu přestavbu",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1963,
+   "text": "v noci na 31. ledna zničil požár starý dřevěný horský hotel na Ještědu, což podnítilo slavnou Hubáčkovu přestavbu"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "liberec|1965|vozovka LIAZ v Liberci-Mníšku vyráběla v licenci nákladní vozy Škoda 706 RT a rychle rostla",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1965,
+   "text": "vozovka LIAZ v Liberci-Mníšku vyráběla v licenci nákladní vozy Škoda 706 RT a rychle rostla"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "liberec|1968|sovětské tanky obsadily centrální náměstí; při demonstracích bylo zastřeleno devět civilistů",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1968,
+   "text": "sovětské tanky obsadily centrální náměstí; při demonstracích bylo zastřeleno devět civilistů"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "liberec|1968|21. srpna tanky vystřelily do davu u podloubí radnice a mrtví byli ponecháni pod oblouky celý den",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1968,
+   "text": "21. srpna tanky vystřelily do davu u podloubí radnice a mrtví byli ponecháni pod oblouky celý den"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "liberec|1970|Karel Hubáček ze SIALu získal za návrh ještědské věže Perretovu cenu, ještě než byla dokončena",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1970,
+   "text": "Karel Hubáček ze SIALu získal za návrh ještědské věže Perretovu cenu, ještě než byla dokončena"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "liberec|1973|otevřel se televizní vysílač s hotelem na Ještědu — hyperboloidní dominanta viditelná po celých severních Čechách",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1973,
+   "text": "otevřel se televizní vysílač s hotelem na Ještědu — hyperboloidní dominanta viditelná po celých severních Čechách"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "liberec|1978|obří komplex obchodních domů Babylon ještě nebyl postaven, ale nové centrum Plaza a liberecké výstaviště lákaly davy na jarní veletrh",
+   "country": "CZ",
+   "city": "liberec",
+   "year": 1978,
+   "text": "obří komplex obchodních domů Babylon ještě nebyl postaven, ale nové centrum Plaza a liberecké výstaviště lákaly davy na jarní veletrh"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "most|1932|mostecká hornická stávka začala 21. března a rozšířila se po celé severočeské hnědouhelné pánvi",
+   "country": "CZ",
+   "city": "most",
+   "year": 1932,
+   "text": "mostecká hornická stávka začala 21. března a rozšířila se po celé severočeské hnědouhelné pánvi"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "most|1938|připojeno k nacistickému Německu jako součást Sudet",
+   "country": "CZ",
+   "city": "most",
+   "year": 1938,
+   "text": "připojeno k nacistickému Německu jako součást Sudet"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "most|1938|Brüx byl připojen k říši a v nedalekém Záluží byl postaven závod na syntetická paliva Hermann Göring Werke",
+   "country": "CZ",
+   "city": "most",
+   "year": 1938,
+   "text": "Brüx byl připojen k říši a v nedalekém Záluží byl postaven závod na syntetická paliva Hermann Göring Werke"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "most|1944|závod na syntetická paliva v Záluží u Mostu byl od května opakovaně bombardován letouny USAAF a RAF",
+   "country": "CZ",
+   "city": "most",
+   "year": 1944,
+   "text": "závod na syntetická paliva v Záluží u Mostu byl od května opakovaně bombardován letouny USAAF a RAF"
+  },
+  {
+   "id": "r50",
+   "dataset": "cityFacts",
+   "key": "most|1945|na konci války vrácen Československu",
+   "country": "CZ",
+   "city": "most",
+   "year": 1945,
+   "text": "na konci války vrácen Československu"
+  },
+  {
+   "id": "r51",
+   "dataset": "cityFacts",
+   "key": "most|1946|německé obyvatelstvo bylo vyhnáno a do prázdných mosteckých domů se nastěhovali čeští osídlenci z vnitrozemí a z Volyně",
+   "country": "CZ",
+   "city": "most",
+   "year": 1946,
+   "text": "německé obyvatelstvo bylo vyhnáno a do prázdných mosteckých domů se nastěhovali čeští osídlenci z vnitrozemí a z Volyně"
+  },
+  {
+   "id": "r52",
+   "dataset": "cityFacts",
+   "key": "most|1964|začala demolice starého města kvůli rozšíření hnědouhelných povrchových dolů",
+   "country": "CZ",
+   "city": "most",
+   "year": 1964,
+   "text": "začala demolice starého města kvůli rozšíření hnědouhelných povrchových dolů"
+  },
+  {
+   "id": "r53",
+   "dataset": "cityFacts",
+   "key": "most|1964|vláda rozhodla zbourat historické staré město Mostu, aby bylo možné vytěžit hnědé uhlí pod ním",
+   "country": "CZ",
+   "city": "most",
+   "year": 1964,
+   "text": "vláda rozhodla zbourat historické staré město Mostu, aby bylo možné vytěžit hnědé uhlí pod ním"
+  },
+  {
+   "id": "r54",
+   "dataset": "cityFacts",
+   "key": "most|1965|pár kilometrů jižně od odsouzeného starého centra začala stavba nového města Most",
+   "country": "CZ",
+   "city": "most",
+   "year": 1965,
+   "text": "pár kilometrů jižně od odsouzeného starého centra začala stavba nového města Most"
+  },
+  {
+   "id": "r55",
+   "dataset": "cityFacts",
+   "key": "most|1975|pozdně gotický kostel Nanebevzetí Panny Marie byl po kolejích přesunut o 841 metrů, aby jej zachránili před uhelnou těžbou — světově proslulý inženýrský počin",
+   "country": "CZ",
+   "city": "most",
+   "year": 1975,
+   "text": "pozdně gotický kostel Nanebevzetí Panny Marie byl po kolejích přesunut o 841 metrů, aby jej zachránili před uhelnou těžbou — světově proslulý inženýrský počin"
+  },
+  {
+   "id": "r56",
+   "dataset": "cityFacts",
+   "key": "most|1978|demolice starého města Mostu byla z velké části dokončena; zůstal jen přesunutý kostel a hrstka budov",
+   "country": "CZ",
+   "city": "most",
+   "year": 1978,
+   "text": "demolice starého města Mostu byla z velké části dokončena; zůstal jen přesunutý kostel a hrstka budov"
+  },
+  {
+   "id": "r57",
+   "dataset": "cityFacts",
+   "key": "most|1979|Severočeské hnědouhelné doly vykázaly roční těžbu hnědého uhlí v mostecké pánvi přes 70 milionů tun",
+   "country": "CZ",
+   "city": "most",
+   "year": 1979,
+   "text": "Severočeské hnědouhelné doly vykázaly roční těžbu hnědého uhlí v mostecké pánvi přes 70 milionů tun"
+  },
+  {
+   "id": "r58",
+   "dataset": "cityFacts",
+   "key": "olomouc|1920|Olomouc-Hodolany a sedm dalších vesnic se sloučilo do Velké Olomouce, čímž skončila kompaktní stopa habsburského pevnostního města",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1920,
+   "text": "Olomouc-Hodolany a sedm dalších vesnic se sloučilo do Velké Olomouce, čímž skončila kompaktní stopa habsburského pevnostního města"
+  },
+  {
+   "id": "r59",
+   "dataset": "cityFacts",
+   "key": "olomouc|1921|sloup Nejsvětější Trojice na Horním náměstí byl 167 let starý a zůstával dominantním znakem každého olomouckého průvodu",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1921,
+   "text": "sloup Nejsvětější Trojice na Horním náměstí byl 167 let starý a zůstával dominantním znakem každého olomouckého průvodu"
+  },
+  {
+   "id": "r60",
+   "dataset": "cityFacts",
+   "key": "olomouc|1926|Československý rozhlas Olomouc zahájil vysílání jako třetí regionální studio v zemi",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1926,
+   "text": "Československý rozhlas Olomouc zahájil vysílání jako třetí regionální studio v zemi"
+  },
+  {
+   "id": "r61",
+   "dataset": "cityFacts",
+   "key": "olomouc|1939|olomouckou synagogu v březnu zapálily nacistické polovojenské jednotky",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1939,
+   "text": "olomouckou synagogu v březnu zapálily nacistické polovojenské jednotky"
+  },
+  {
+   "id": "r62",
+   "dataset": "cityFacts",
+   "key": "olomouc|1939|starou olomouckou synagogu naproti nádraží zapálili příslušníci SS v březnu, několik dní po okupaci",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1939,
+   "text": "starou olomouckou synagogu naproti nádraží zapálili příslušníci SS v březnu, několik dní po okupaci"
+  },
+  {
+   "id": "r63",
+   "dataset": "cityFacts",
+   "key": "olomouc|1942|olomoucká židovská komunita o zhruba 3 500 lidech byla ve dvou transportech deportována do Terezína",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1942,
+   "text": "olomoucká židovská komunita o zhruba 3 500 lidech byla ve dvou transportech deportována do Terezína"
+  },
+  {
+   "id": "r64",
+   "dataset": "cityFacts",
+   "key": "olomouc|1945|město bylo osvobozeno Rudou armádou v květnu",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1945,
+   "text": "město bylo osvobozeno Rudou armádou v květnu"
+  },
+  {
+   "id": "r65",
+   "dataset": "cityFacts",
+   "key": "olomouc|1946|zákonem byla znovu obnovena Univerzita Palackého, čímž ožila instituce zrušená v roce 1860",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1946,
+   "text": "zákonem byla znovu obnovena Univerzita Palackého, čímž ožila instituce zrušená v roce 1860"
+  },
+  {
+   "id": "r66",
+   "dataset": "cityFacts",
+   "key": "olomouc|1948|továrna na čerpadla Sigma Lutín jižně od města byla znárodněna a měla se stát hlavním průmyslovým zaměstnavatelem města",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1948,
+   "text": "továrna na čerpadla Sigma Lutín jižně od města byla znárodněna a měla se stát hlavním průmyslovým zaměstnavatelem města"
+  },
+  {
+   "id": "r67",
+   "dataset": "cityFacts",
+   "key": "olomouc|1955|orloj na radnici byl po válečném poškození přestavěn v socialisticko-realistickém stylu",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1955,
+   "text": "orloj na radnici byl po válečném poškození přestavěn v socialisticko-realistickém stylu"
+  },
+  {
+   "id": "r68",
+   "dataset": "cityFacts",
+   "key": "olomouc|1955|přestavěný orloj zobrazoval místo svatých chemiky, zámečníky a sportovce a každé poledne se shromažďovaly davy, aby se podívaly",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1955,
+   "text": "přestavěný orloj zobrazoval místo svatých chemiky, zámečníky a sportovce a každé poledne se shromažďovaly davy, aby se podívaly"
+  },
+  {
+   "id": "r69",
+   "dataset": "cityFacts",
+   "key": "olomouc|1965|krajská povodeň na Moravě v červenci zaplavila Olomouc-Černovír a několik hodolanských ulic",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1965,
+   "text": "krajská povodeň na Moravě v červenci zaplavila Olomouc-Černovír a několik hodolanských ulic"
+  },
+  {
+   "id": "r70",
+   "dataset": "cityFacts",
+   "key": "olomouc|1971|fotbalový klub Sigma Olomouc postoupil do druhé ligy, čímž začal jeho vzestup k nejvyšší soutěži",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1971,
+   "text": "fotbalový klub Sigma Olomouc postoupil do druhé ligy, čímž začal jeho vzestup k nejvyšší soutěži"
+  },
+  {
+   "id": "r71",
+   "dataset": "cityFacts",
+   "key": "olomouc|1973|olomoucké tvarůžky z Loštic dál plnily svou pronikavou nezaměnitelnou vůní pulty obchodů po celé zemi",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1973,
+   "text": "olomoucké tvarůžky z Loštic dál plnily svou pronikavou nezaměnitelnou vůní pulty obchodů po celé zemi"
+  },
+  {
+   "id": "r72",
+   "dataset": "cityFacts",
+   "key": "olomouc|1976|zahradnická výstava Flora Olomouc se konala ve Smetanových sadech, dvakrát ročně stálice pro zahrádkáře z celé země",
+   "country": "CZ",
+   "city": "olomouc",
+   "year": 1976,
+   "text": "zahradnická výstava Flora Olomouc se konala ve Smetanových sadech, dvakrát ročně stálice pro zahrádkáře z celé země"
+  },
+  {
+   "id": "r73",
+   "dataset": "cityFacts",
+   "key": "opava|1928|Troppau-Opava bylo česko-německé dvojjazyčné město o asi 35 000 obyvatelích s gymnáziem s německou jazykovou většinou",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1928,
+   "text": "Troppau-Opava bylo česko-německé dvojjazyčné město o asi 35 000 obyvatelích s gymnáziem s německou jazykovou většinou"
+  },
+  {
+   "id": "r74",
+   "dataset": "cityFacts",
+   "key": "opava|1938|připojeno k nacistickému Německu jako součást Sudet (tehdy Troppau)",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1938,
+   "text": "připojeno k nacistickému Německu jako součást Sudet (tehdy Troppau)"
+  },
+  {
+   "id": "r75",
+   "dataset": "cityFacts",
+   "key": "opava|1938|Opava byla připojena k říši a stala se hlavním městem nové provincie Sudetengau",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1938,
+   "text": "Opava byla připojena k říši a stala se hlavním městem nové provincie Sudetengau"
+  },
+  {
+   "id": "r76",
+   "dataset": "cityFacts",
+   "key": "opava|1945|bitva o Opavu v dubnu zahrnovala těžké pouliční boje mezi Rudou armádou a wehrmachtem",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1945,
+   "text": "bitva o Opavu v dubnu zahrnovala těžké pouliční boje mezi Rudou armádou a wehrmachtem"
+  },
+  {
+   "id": "r77",
+   "dataset": "cityFacts",
+   "key": "opava|1945|město bylo téměř zničeno v těžkých bojích mezi 22. dubnem a 6. květnem, jak se Rudá armáda probíjela k Olomouci",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1945,
+   "text": "město bylo téměř zničeno v těžkých bojích mezi 22. dubnem a 6. květnem, jak se Rudá armáda probíjela k Olomouci"
+  },
+  {
+   "id": "r78",
+   "dataset": "cityFacts",
+   "key": "opava|1946|německé obyvatelstvo bylo v letních transportech vyhnáno a k znovuosídlení byli přivedeni čeští a slovenští osídlenci",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1946,
+   "text": "německé obyvatelstvo bylo v letních transportech vyhnáno a k znovuosídlení byli přivedeni čeští a slovenští osídlenci"
+  },
+  {
+   "id": "r79",
+   "dataset": "cityFacts",
+   "key": "opava|1958|předchůdce Slezské univerzity, pedagogický institut, byl založen v Opavě jako součást poválečné obnovy regionu",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1958,
+   "text": "předchůdce Slezské univerzity, pedagogický institut, byl založen v Opavě jako součást poválečné obnovy regionu"
+  },
+  {
+   "id": "r80",
+   "dataset": "cityFacts",
+   "key": "opava|1959|strojírenský závod Ostroj byl největším opavským zaměstnavatelem a vyráběl důlní stroje pro ostravský revír",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1959,
+   "text": "strojírenský závod Ostroj byl největším opavským zaměstnavatelem a vyráběl důlní stroje pro ostravský revír"
+  },
+  {
+   "id": "r81",
+   "dataset": "cityFacts",
+   "key": "opava|1968|sovětské tanky zde při invazi Varšavské smlouvy překročily polskou hranici",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1968,
+   "text": "sovětské tanky zde při invazi Varšavské smlouvy překročily polskou hranici"
+  },
+  {
+   "id": "r82",
+   "dataset": "cityFacts",
+   "key": "opava|1968|sovětské tanky parkovaly na opavském Horním náměstí ve dnech 21.–22. srpna a občané čmárali křídou nápisy na zdi katedrály",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1968,
+   "text": "sovětské tanky parkovaly na opavském Horním náměstí ve dnech 21.–22. srpna a občané čmárali křídou nápisy na zdi katedrály"
+  },
+  {
+   "id": "r83",
+   "dataset": "cityFacts",
+   "key": "opava|1974|sušenkárna Opavia, dlouholetý výrobce oplatek Tatranky a Disko, byla regionálně dobře známou značkou",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1974,
+   "text": "sušenkárna Opavia, dlouholetý výrobce oplatek Tatranky a Disko, byla regionálně dobře známou značkou"
+  },
+  {
+   "id": "r84",
+   "dataset": "cityFacts",
+   "key": "opava|1980|přestavěné Slezské divadlo na Horním náměstí uvádělo pod dirigentem Išou Krejčím pravidelný operní a operetní repertoár",
+   "country": "CZ",
+   "city": "opava",
+   "year": 1980,
+   "text": "přestavěné Slezské divadlo na Horním náměstí uvádělo pod dirigentem Išou Krejčím pravidelný operní a operetní repertoár"
+  },
+  {
+   "id": "r85",
+   "dataset": "cityFacts",
+   "key": "ostrava|1923|vítkovické železárny se rozšířily; přes 20 000 dělníků — největší ocelárna v Československu",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1923,
+   "text": "vítkovické železárny se rozšířily; přes 20 000 dělníků — největší ocelárna v Československu"
+  },
+  {
+   "id": "r86",
+   "dataset": "cityFacts",
+   "key": "ostrava|1924|sloučením sedmi obcí do jednoho uhelného a ocelářského města vznikla Moravská Ostrava",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1924,
+   "text": "sloučením sedmi obcí do jednoho uhelného a ocelářského města vznikla Moravská Ostrava"
+  },
+  {
+   "id": "r87",
+   "dataset": "cityFacts",
+   "key": "ostrava|1928|na Prokešově náměstí se otevřela Nová radnice ovlivněná Bauhausem se svou 75metrovou věží, nejvyšší radnice v Československu",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1928,
+   "text": "na Prokešově náměstí se otevřela Nová radnice ovlivněná Bauhausem se svou 75metrovou věží, nejvyšší radnice v Československu"
+  },
+  {
+   "id": "r88",
+   "dataset": "cityFacts",
+   "key": "ostrava|1930|počet obyvatel Velké Ostravy překročil 125 000, z nichž zhruba pětina deklarovala německou národnost",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1930,
+   "text": "počet obyvatel Velké Ostravy překročil 125 000, z nichž zhruba pětina deklarovala německou národnost"
+  },
+  {
+   "id": "r89",
+   "dataset": "cityFacts",
+   "key": "ostrava|1939|německé jednotky překročily 14. března večer hranici v Bohumíně a obsadily Ostravu několik hodin před zbytkem Čech a Moravy",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1939,
+   "text": "německé jednotky překročily 14. března večer hranici v Bohumíně a obsadily Ostravu několik hodin před zbytkem Čech a Moravy"
+  },
+  {
+   "id": "r90",
+   "dataset": "cityFacts",
+   "key": "ostrava|1942|první transport ostravských Židů do Niska odjel již v roce 1939; v roce 1942 byla zbývající komunita deportována do Terezína",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1942,
+   "text": "první transport ostravských Židů do Niska odjel již v roce 1939; v roce 1942 byla zbývající komunita deportována do Terezína"
+  },
+  {
+   "id": "r91",
+   "dataset": "cityFacts",
+   "key": "ostrava|1944|americké bombardéry opakovaně zasáhly vítkovické železárny mezi srpnem a prosincem",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1944,
+   "text": "americké bombardéry opakovaně zasáhly vítkovické železárny mezi srpnem a prosincem"
+  },
+  {
+   "id": "r92",
+   "dataset": "cityFacts",
+   "key": "ostrava|1945|ostravsko-opavská operace skončila koncem dubna osvobozením Rudou armádou",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1945,
+   "text": "ostravsko-opavská operace skončila koncem dubna osvobozením Rudou armádou"
+  },
+  {
+   "id": "r93",
+   "dataset": "cityFacts",
+   "key": "ostrava|1949|západně od starého města bylo zahájeno nové město Poruba v monumentálním socialisticko-realistickém stylu, navržené k ubytování ocelářů",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1949,
+   "text": "západně od starého města bylo zahájeno nové město Poruba v monumentálním socialisticko-realistickém stylu, navržené k ubytování ocelářů"
+  },
+  {
+   "id": "r94",
+   "dataset": "cityFacts",
+   "key": "ostrava|1951|začala stavba Nové Huti (NHKG) — vzorové socialistické ocelárny",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1951,
+   "text": "začala stavba Nové Huti (NHKG) — vzorové socialistické ocelárny"
+  },
+  {
+   "id": "r95",
+   "dataset": "cityFacts",
+   "key": "ostrava|1952|v Kunčicích byla v Nové Huti Klementa Gottwalda odpíchnuta první surová ocel",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1952,
+   "text": "v Kunčicích byla v Nové Huti Klementa Gottwalda odpíchnuta první surová ocel"
+  },
+  {
+   "id": "r96",
+   "dataset": "cityFacts",
+   "key": "ostrava|1955|otevřel se Dům kultury vítkovických železáren, předimenzovaný kamenem obkladaný chrám dělnického sebezdokonalování",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1955,
+   "text": "otevřel se Dům kultury vítkovických železáren, předimenzovaný kamenem obkladaný chrám dělnického sebezdokonalování"
+  },
+  {
+   "id": "r97",
+   "dataset": "cityFacts",
+   "key": "ostrava|1961|letiště Ostrava-Mošnov, přestavěné z vojenské základny, se otevřelo civilnímu provozu",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1961,
+   "text": "letiště Ostrava-Mošnov, přestavěné z vojenské základny, se otevřelo civilnímu provozu"
+  },
+  {
+   "id": "r98",
+   "dataset": "cityFacts",
+   "key": "ostrava|1964|Baník Ostrava se natrvalo probojoval do československé nejvyšší fotbalové soutěže a stadion Bazaly se stal stálicí sobotních odpolední",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1964,
+   "text": "Baník Ostrava se natrvalo probojoval do československé nejvyšší fotbalové soutěže a stadion Bazaly se stal stálicí sobotních odpolední"
+  },
+  {
+   "id": "r99",
+   "dataset": "cityFacts",
+   "key": "ostrava|1966|pivovar Ostravar, založený v roce 1897, vyráběl asi 400 000 hektolitrů pro žíznivé hornické a ocelářské dělníky",
+   "country": "CZ",
+   "city": "ostrava",
+   "year": 1966,
+   "text": "pivovar Ostravar, založený v roce 1897, vyráběl asi 400 000 hektolitrů pro žíznivé hornické a ocelářské dělníky"
+  }
+ ]
+}

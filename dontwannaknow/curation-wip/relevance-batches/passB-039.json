@@ -1,0 +1,486 @@
+{
+ "pass": "B",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "countryEvents",
+   "key": "UA|1948|ukrajinské biologii a agronomii byl vnucen lysenkismus, který vrátil sovětskou genetiku o generaci zpět",
+   "country": "UA",
+   "year": 1948,
+   "text": "ukrajinské biologii a agronomii byl vnucen lysenkismus, který vrátil sovětskou genetiku o generaci zpět"
+  },
+  {
+   "id": "r1",
+   "dataset": "countryEvents",
+   "key": "UA|1953|po Stalinově smrti propustily následné amnestie mnoho ukrajinských politických vězňů — většina však zůstala v gulagu",
+   "country": "UA",
+   "year": 1953,
+   "text": "po Stalinově smrti propustily následné amnestie mnoho ukrajinských politických vězňů — většina však zůstala v gulagu"
+  },
+  {
+   "id": "r2",
+   "dataset": "countryEvents",
+   "key": "UA|1954|Krym byl 19. února převeden z Ruské SFSR pod Ukrajinskou SSR",
+   "country": "UA",
+   "year": 1954,
+   "text": "Krym byl 19. února převeden z Ruské SFSR pod Ukrajinskou SSR"
+  },
+  {
+   "id": "r3",
+   "dataset": "countryEvents",
+   "key": "UA|1956|Chruščovův tajný projev nakrátko otevřel prostor pro vydávání knih v ukrajinštině",
+   "country": "UA",
+   "year": 1956,
+   "text": "Chruščovův tajný projev nakrátko otevřel prostor pro vydávání knih v ukrajinštině"
+  },
+  {
+   "id": "r4",
+   "dataset": "countryEvents",
+   "key": "UA|1965|ve velkých městech proběhla první vlna hromadného zatýkání ukrajinských intelektuálů, takzvaných šedesátníků (šistdesjatnyků)",
+   "country": "UA",
+   "year": 1965,
+   "text": "ve velkých městech proběhla první vlna hromadného zatýkání ukrajinských intelektuálů, takzvaných šedesátníků (šistdesjatnyků)"
+  },
+  {
+   "id": "r5",
+   "dataset": "countryEvents",
+   "key": "UA|1968|ukrajinští disidenti protestovali proti invazi vojsk Varšavské smlouvy do Československa a byli uvězněni",
+   "country": "UA",
+   "year": 1968,
+   "text": "ukrajinští disidenti protestovali proti invazi vojsk Varšavské smlouvy do Československa a byli uvězněni"
+  },
+  {
+   "id": "r6",
+   "dataset": "countryEvents",
+   "key": "UA|1972|Volodymyr Ščerbycký rozpoutal po celé Ukrajině novou vlnu zatýkání",
+   "country": "UA",
+   "year": 1972,
+   "text": "Volodymyr Ščerbycký rozpoutal po celé Ukrajině novou vlnu zatýkání"
+  },
+  {
+   "id": "r7",
+   "dataset": "countryEvents",
+   "key": "UA|1976|Ukrajinskou helsinskou skupinu založil Mykola Rudenko a deset dalších",
+   "country": "UA",
+   "year": 1976,
+   "text": "Ukrajinskou helsinskou skupinu založil Mykola Rudenko a deset dalších"
+  },
+  {
+   "id": "r8",
+   "dataset": "countryEvents",
+   "key": "UA|1979|skladatel Volodymyr Ivasjuk, autor písně „Červona ruta“, byl za podezřelých okolností nalezen oběšený v lese poblíž Lvova",
+   "country": "UA",
+   "year": 1979,
+   "text": "skladatel Volodymyr Ivasjuk, autor písně „Červona ruta“, byl za podezřelých okolností nalezen oběšený v lese poblíž Lvova"
+  },
+  {
+   "id": "r9",
+   "dataset": "countryEvents",
+   "key": "CZ|1918|28. října byl v pražském Obecním domě vyhlášen samostatný československý stát",
+   "country": "CZ",
+   "year": 1918,
+   "text": "28. října byl v pražském Obecním domě vyhlášen samostatný československý stát"
+  },
+  {
+   "id": "r10",
+   "dataset": "countryEvents",
+   "key": "CZ|1918|T. G. Masaryk byl zvolen prvním prezidentem Československé republiky",
+   "country": "CZ",
+   "year": 1918,
+   "text": "T. G. Masaryk byl zvolen prvním prezidentem Československé republiky"
+  },
+  {
+   "id": "r11",
+   "dataset": "countryEvents",
+   "key": "CZ|1919|československé legie a vojsko obsadily v krátké válce sporné území jižního Slovenska",
+   "country": "CZ",
+   "year": 1919,
+   "text": "československé legie a vojsko obsadily v krátké válce sporné území jižního Slovenska"
+  },
+  {
+   "id": "r12",
+   "dataset": "countryEvents",
+   "key": "CZ|1919|byla založena Univerzita Komenského v Bratislavě a Masarykova univerzita v Brně",
+   "country": "CZ",
+   "year": 1919,
+   "text": "byla založena Univerzita Komenského v Bratislavě a Masarykova univerzita v Brně"
+  },
+  {
+   "id": "r13",
+   "dataset": "countryEvents",
+   "key": "CZ|1920|Národní divadlo uvedlo Smetanovu Libuši k oslavě nové republiky",
+   "country": "CZ",
+   "year": 1920,
+   "text": "Národní divadlo uvedlo Smetanovu Libuši k oslavě nové republiky"
+  },
+  {
+   "id": "r14",
+   "dataset": "countryEvents",
+   "key": "CZ|1921|na sjezdu v Praze se ustavila Komunistická strana Československa",
+   "country": "CZ",
+   "year": 1921,
+   "text": "na sjezdu v Praze se ustavila Komunistická strana Československa"
+  },
+  {
+   "id": "r15",
+   "dataset": "countryEvents",
+   "key": "CZ|1922|Jaroslav Hašek zemřel v Lipnici, dílo o dobrém vojáku Švejkovi zůstalo nedokončené",
+   "country": "CZ",
+   "year": 1922,
+   "text": "Jaroslav Hašek zemřel v Lipnici, dílo o dobrém vojáku Švejkovi zůstalo nedokončené"
+  },
+  {
+   "id": "r16",
+   "dataset": "countryEvents",
+   "key": "CZ|1923|byl přijat zákon na ochranu republiky, reakce na vraždu ministra Rašína",
+   "country": "CZ",
+   "year": 1923,
+   "text": "byl přijat zákon na ochranu republiky, reakce na vraždu ministra Rašína"
+  },
+  {
+   "id": "r17",
+   "dataset": "countryEvents",
+   "key": "CZ|1924|Bedřich Smetana měl po sto letech od narození rozsáhlé celonárodní oslavy",
+   "country": "CZ",
+   "year": 1924,
+   "text": "Bedřich Smetana měl po sto letech od narození rozsáhlé celonárodní oslavy"
+  },
+  {
+   "id": "r18",
+   "dataset": "countryEvents",
+   "key": "CZ|1925|agrárníci pod vedením Antonína Švehly vyhráli parlamentní volby",
+   "country": "CZ",
+   "year": 1925,
+   "text": "agrárníci pod vedením Antonína Švehly vyhráli parlamentní volby"
+  },
+  {
+   "id": "r19",
+   "dataset": "countryEvents",
+   "key": "CZ|1926|byl dokončen monumentální Slovanský epos Alfonse Muchy",
+   "country": "CZ",
+   "year": 1926,
+   "text": "byl dokončen monumentální Slovanský epos Alfonse Muchy"
+  },
+  {
+   "id": "r20",
+   "dataset": "countryEvents",
+   "key": "CZ|1928|ve Vysokých Tatrách byla otevřena vysokohorská léčebna a turistické chaty",
+   "country": "CZ",
+   "year": 1928,
+   "text": "ve Vysokých Tatrách byla otevřena vysokohorská léčebna a turistické chaty"
+  },
+  {
+   "id": "r21",
+   "dataset": "countryEvents",
+   "key": "CZ|1929|byla dostavěna katedrála svatého Víta po téměř šesti stech letech",
+   "country": "CZ",
+   "year": 1929,
+   "text": "byla dostavěna katedrála svatého Víta po téměř šesti stech letech"
+  },
+  {
+   "id": "r22",
+   "dataset": "countryEvents",
+   "key": "CZ|1929|Klement Gottwald se na sjezdu ujal vedení KSČ a stranu plně podřídil Moskvě",
+   "country": "CZ",
+   "year": 1929,
+   "text": "Klement Gottwald se na sjezdu ujal vedení KSČ a stranu plně podřídil Moskvě"
+  },
+  {
+   "id": "r23",
+   "dataset": "countryEvents",
+   "key": "CZ|1930|sčítání lidu napočítalo v republice téměř 14,7 milionu obyvatel",
+   "country": "CZ",
+   "year": 1930,
+   "text": "sčítání lidu napočítalo v republice téměř 14,7 milionu obyvatel"
+  },
+  {
+   "id": "r24",
+   "dataset": "countryEvents",
+   "key": "CZ|1928|v Praze byl otevřen funkcionalistický Veletržní palác",
+   "country": "CZ",
+   "year": 1928,
+   "text": "v Praze byl otevřen funkcionalistický Veletržní palác"
+  },
+  {
+   "id": "r25",
+   "dataset": "countryEvents",
+   "key": "CZ|1933|hospodářská krize vyhnala počet nezaměstnaných v Československu přes 700 tisíc",
+   "country": "CZ",
+   "year": 1933,
+   "text": "hospodářská krize vyhnala počet nezaměstnaných v Československu přes 700 tisíc"
+  },
+  {
+   "id": "r26",
+   "dataset": "countryEvents",
+   "key": "CZ|1935|Sudetoněmecká strana Konrada Henleina vyhrála v parlamentních volbách nejvíce hlasů",
+   "country": "CZ",
+   "year": 1935,
+   "text": "Sudetoněmecká strana Konrada Henleina vyhrála v parlamentních volbách nejvíce hlasů"
+  },
+  {
+   "id": "r27",
+   "dataset": "countryEvents",
+   "key": "CZ|1936|začala výstavba rozsáhlého pohraničního opevnění proti hrozbě z Německa",
+   "country": "CZ",
+   "year": 1936,
+   "text": "začala výstavba rozsáhlého pohraničního opevnění proti hrozbě z Německa"
+  },
+  {
+   "id": "r28",
+   "dataset": "countryEvents",
+   "key": "CZ|1937|automobilka Tatra začala vyrábět proudnicový vůz Tatra 87",
+   "country": "CZ",
+   "year": 1937,
+   "text": "automobilka Tatra začala vyrábět proudnicový vůz Tatra 87"
+  },
+  {
+   "id": "r29",
+   "dataset": "countryEvents",
+   "key": "CZ|1938|Emil Hácha byl po Benešově odchodu zvolen prezidentem okleštěné druhé republiky",
+   "country": "CZ",
+   "year": 1938,
+   "text": "Emil Hácha byl po Benešově odchodu zvolen prezidentem okleštěné druhé republiky"
+  },
+  {
+   "id": "r30",
+   "dataset": "countryEvents",
+   "key": "CZ|1939|Slovensko se 14. března odtrhlo a vyhlásilo samostatný stát pod ochranou Německa",
+   "country": "CZ",
+   "year": 1939,
+   "text": "Slovensko se 14. března odtrhlo a vyhlásilo samostatný stát pod ochranou Německa"
+  },
+  {
+   "id": "r31",
+   "dataset": "countryEvents",
+   "key": "CZ|1940|tisíce československých letců a vojáků bojovaly ve Francii a v bitvě o Británii",
+   "country": "CZ",
+   "year": 1940,
+   "text": "tisíce československých letců a vojáků bojovaly ve Francii a v bitvě o Británii"
+  },
+  {
+   "id": "r32",
+   "dataset": "countryEvents",
+   "key": "CZ|1943|Beneš podepsal v Moskvě spojeneckou smlouvu se Sovětským svazem",
+   "country": "CZ",
+   "year": 1943,
+   "text": "Beneš podepsal v Moskvě spojeneckou smlouvu se Sovětským svazem"
+  },
+  {
+   "id": "r33",
+   "dataset": "countryEvents",
+   "key": "CZ|1944|z terezínského ghetta odjely transporty do vyhlazovacího tábora Osvětim",
+   "country": "CZ",
+   "year": 1944,
+   "text": "z terezínského ghetta odjely transporty do vyhlazovacího tábora Osvětim"
+  },
+  {
+   "id": "r34",
+   "dataset": "countryEvents",
+   "key": "CZ|1945|Košický vládní program vytyčil poválečné uspořádání obnoveného Československa",
+   "country": "CZ",
+   "year": 1945,
+   "text": "Košický vládní program vytyčil poválečné uspořádání obnoveného Československa"
+  },
+  {
+   "id": "r35",
+   "dataset": "countryEvents",
+   "key": "CZ|1945|na základě Benešových dekretů začal odsun německého obyvatelstva z pohraničí",
+   "country": "CZ",
+   "year": 1945,
+   "text": "na základě Benešových dekretů začal odsun německého obyvatelstva z pohraničí"
+  },
+  {
+   "id": "r36",
+   "dataset": "countryEvents",
+   "key": "CZ|1946|ve svobodných volbách zvítězila komunistická strana a Gottwald sestavil vládu",
+   "country": "CZ",
+   "year": 1946,
+   "text": "ve svobodných volbách zvítězila komunistická strana a Gottwald sestavil vládu"
+  },
+  {
+   "id": "r37",
+   "dataset": "countryEvents",
+   "key": "CZ|1947|československý hokejový tým získal v Praze svůj první titul mistra světa",
+   "country": "CZ",
+   "year": 1947,
+   "text": "československý hokejový tým získal v Praze svůj první titul mistra světa"
+  },
+  {
+   "id": "r38",
+   "dataset": "countryEvents",
+   "key": "CZ|1948|byla přijata Ústava 9. května upevňující komunistickou moc; Beneš ji odmítl podepsat",
+   "country": "CZ",
+   "year": 1948,
+   "text": "byla přijata Ústava 9. května upevňující komunistickou moc; Beneš ji odmítl podepsat"
+  },
+  {
+   "id": "r39",
+   "dataset": "countryEvents",
+   "key": "CZ|1949|Československo se stalo zakládajícím členem Rady vzájemné hospodářské pomoci",
+   "country": "CZ",
+   "year": 1949,
+   "text": "Československo se stalo zakládajícím členem Rady vzájemné hospodářské pomoci"
+  },
+  {
+   "id": "r40",
+   "dataset": "countryEvents",
+   "key": "CZ|1950|Václav Renč, Jan Zahradníček a další katoličtí literáti byli posláni do vězení",
+   "country": "CZ",
+   "year": 1950,
+   "text": "Václav Renč, Jan Zahradníček a další katoličtí literáti byli posláni do vězení"
+  },
+  {
+   "id": "r41",
+   "dataset": "countryEvents",
+   "key": "CZ|1951|rozhlasová stanice Svobodná Evropa zahájila vysílání do Československa",
+   "country": "CZ",
+   "year": 1951,
+   "text": "rozhlasová stanice Svobodná Evropa zahájila vysílání do Československa"
+  },
+  {
+   "id": "r42",
+   "dataset": "countryEvents",
+   "key": "CZ|1952|Emil Zátopek získal v Helsinkách tři zlaté olympijské medaile včetně maratonu",
+   "country": "CZ",
+   "year": 1952,
+   "text": "Emil Zátopek získal v Helsinkách tři zlaté olympijské medaile včetně maratonu"
+  },
+  {
+   "id": "r43",
+   "dataset": "countryEvents",
+   "key": "CZ|1953|v březnu zemřeli v rozmezí několika dní Stalin i prezident Klement Gottwald",
+   "country": "CZ",
+   "year": 1953,
+   "text": "v březnu zemřeli v rozmezí několika dní Stalin i prezident Klement Gottwald"
+  },
+  {
+   "id": "r44",
+   "dataset": "countryEvents",
+   "key": "CZ|1953|měnová reforma vyvolala v Plzni dělnické protesty, které potlačila armáda",
+   "country": "CZ",
+   "year": 1953,
+   "text": "měnová reforma vyvolala v Plzni dělnické protesty, které potlačila armáda"
+  },
+  {
+   "id": "r45",
+   "dataset": "countryEvents",
+   "key": "CZ|1954|prezidentem byl Antonín Zápotocký a prvním tajemníkem KSČ Antonín Novotný",
+   "country": "CZ",
+   "year": 1954,
+   "text": "prezidentem byl Antonín Zápotocký a prvním tajemníkem KSČ Antonín Novotný"
+  },
+  {
+   "id": "r46",
+   "dataset": "countryEvents",
+   "key": "CZ|1955|Československo vstoupilo mezi zakládající členy Varšavské smlouvy",
+   "country": "CZ",
+   "year": 1955,
+   "text": "Československo vstoupilo mezi zakládající členy Varšavské smlouvy"
+  },
+  {
+   "id": "r47",
+   "dataset": "countryEvents",
+   "key": "CZ|1957|animovaný Krteček Zdeňka Milera debutoval filmem Jak krtek ke kalhotkám přišel",
+   "country": "CZ",
+   "year": 1957,
+   "text": "animovaný Krteček Zdeňka Milera debutoval filmem Jak krtek ke kalhotkám přišel"
+  },
+  {
+   "id": "r48",
+   "dataset": "countryEvents",
+   "key": "CZ|1957|po smrti Zápotockého se prezidentem stal Antonín Novotný",
+   "country": "CZ",
+   "year": 1957,
+   "text": "po smrti Zápotockého se prezidentem stal Antonín Novotný"
+  },
+  {
+   "id": "r49",
+   "dataset": "countryEvents",
+   "key": "CZ|1959|v Karlových Varech se konal první mezinárodní filmový festival jako každoroční přehlídka",
+   "country": "CZ",
+   "year": 1959,
+   "text": "v Karlových Varech se konal první mezinárodní filmový festival jako každoroční přehlídka"
+  },
+  {
+   "id": "r50",
+   "dataset": "countryEvents",
+   "key": "CZ|1960|byla zrušena řada krajů a Československo bylo územně přerozděleno",
+   "country": "CZ",
+   "year": 1960,
+   "text": "byla zrušena řada krajů a Československo bylo územně přerozděleno"
+  },
+  {
+   "id": "r51",
+   "dataset": "countryEvents",
+   "key": "CZ|1962|v Příbrami se rozjela těžba uranu pro sovětský jaderný program",
+   "country": "CZ",
+   "year": 1962,
+   "text": "v Příbrami se rozjela těžba uranu pro sovětský jaderný program"
+  },
+  {
+   "id": "r52",
+   "dataset": "countryEvents",
+   "key": "CZ|1963|Kafkova konference v Liblicích zahájila opatrnou rehabilitaci zakázaného spisovatele",
+   "country": "CZ",
+   "year": 1963,
+   "text": "Kafkova konference v Liblicích zahájila opatrnou rehabilitaci zakázaného spisovatele"
+  },
+  {
+   "id": "r53",
+   "dataset": "countryEvents",
+   "key": "CZ|1964|Ján Kadár a Elmar Klos natočili Obchod na korze, pozdějšího držitele Oscara",
+   "country": "CZ",
+   "year": 1964,
+   "text": "Ján Kadár a Elmar Klos natočili Obchod na korze, pozdějšího držitele Oscara"
+  },
+  {
+   "id": "r54",
+   "dataset": "countryEvents",
+   "key": "CZ|1966|rozhlasová Nealkoholická vinárna U Pavouka přivedla na svět fiktivního génia Járu Cimrmana",
+   "country": "CZ",
+   "year": 1966,
+   "text": "rozhlasová Nealkoholická vinárna U Pavouka přivedla na svět fiktivního génia Járu Cimrmana"
+  },
+  {
+   "id": "r55",
+   "dataset": "countryEvents",
+   "key": "CZ|1966|film Sedmikrásky Věry Chytilové pobouřil cenzory a byl na čas zakázán",
+   "country": "CZ",
+   "year": 1966,
+   "text": "film Sedmikrásky Věry Chytilové pobouřil cenzory a byl na čas zakázán"
+  },
+  {
+   "id": "r56",
+   "dataset": "countryEvents",
+   "key": "CZ|1967|na sjezdu spisovatelů zazněla otevřená kritika režimu od Vaculíka a Kundery",
+   "country": "CZ",
+   "year": 1967,
+   "text": "na sjezdu spisovatelů zazněla otevřená kritika režimu od Vaculíka a Kundery"
+  },
+  {
+   "id": "r57",
+   "dataset": "countryEvents",
+   "key": "CZ|1968|v lednu vystřídal Antonína Novotného ve vedení strany Alexander Dubček",
+   "country": "CZ",
+   "year": 1968,
+   "text": "v lednu vystřídal Antonína Novotného ve vedení strany Alexander Dubček"
+  },
+  {
+   "id": "r58",
+   "dataset": "countryEvents",
+   "key": "CZ|1968|Ludvík Vaculík zveřejnil manifest Dva tisíce slov",
+   "country": "CZ",
+   "year": 1968,
+   "text": "Ludvík Vaculík zveřejnil manifest Dva tisíce slov"
+  },
+  {
+   "id": "r59",
+   "dataset": "countryEvents",
+   "key": "CZ|1968|byla zrušena cenzura a obnoven federativní stát Čechů a Slováků",
+   "country": "CZ",
+   "year": 1968,
+   "text": "byla zrušena cenzura a obnoven federativní stát Čechů a Slováků"
+  }
+ ]
+}

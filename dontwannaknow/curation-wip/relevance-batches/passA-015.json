@@ -1,0 +1,456 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "ceska-lipa|1996|skončila těžba uranu ve Stráži pod Ralskem; pod zemí zůstaly miliony tun kyselých roztoků a začala dlouhá sanace",
+   "country": "CZ",
+   "city": "ceska-lipa",
+   "year": 1996,
+   "text": "skončila těžba uranu ve Stráži pod Ralskem; pod zemí zůstaly miliony tun kyselých roztoků a začala dlouhá sanace"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "decin|1949|na Pastýřské stěně nad Podmokly byla otevřena zoologická zahrada, jedna z prvních v poválečném Československu",
+   "country": "CZ",
+   "city": "decin",
+   "year": 1949,
+   "text": "na Pastýřské stěně nad Podmokly byla otevřena zoologická zahrada, jedna z prvních v poválečném Československu"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "decin|1968|21. srpna překročily sovětské tanky hranici u Hřenska a jedna kolona mířila severními Čechami přes Rumburk",
+   "country": "CZ",
+   "city": "decin",
+   "year": 1968,
+   "text": "21. srpna překročily sovětské tanky hranici u Hřenska a jedna kolona mířila severními Čechami přes Rumburk"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "decin|1983|z nábřeží na vrchol Pastýřské stěny začal vozit návštěvníky výtah",
+   "country": "CZ",
+   "city": "decin",
+   "year": 1983,
+   "text": "z nábřeží na vrchol Pastýřské stěny začal vozit návštěvníky výtah"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "decin|2002|při srpnové povodni kulminovalo Labe v Děčíně na 12,30 metru a průtoku kolem 4 770 m³/s — největší zaznamenané záplavě v novodobé historii",
+   "country": "CZ",
+   "city": "decin",
+   "year": 2002,
+   "text": "při srpnové povodni kulminovalo Labe v Děčíně na 12,30 metru a průtoku kolem 4 770 m³/s — největší zaznamenané záplavě v novodobé historii"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1945|31. července vybuchl muniční sklad v Krásném Březně; exploze zabila 27 lidí a stala se záminkou k masakru Němců na mostě",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1945,
+   "text": "31. července vybuchl muniční sklad v Krásném Březně; exploze zabila 27 lidí a stala se záminkou k masakru Němců na mostě"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1951|z bývalých Schichtových závodů na Střekově vznikly Severočeské tukové závody, pozdější Setuza",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1951,
+   "text": "z bývalých Schichtových závodů na Střekově vznikly Severočeské tukové závody, pozdější Setuza"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1991|28. září byla slavnostně otevřena Univerzita Jana Evangelisty Purkyně se třemi fakultami",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1991,
+   "text": "28. září byla slavnostně otevřena Univerzita Jana Evangelisty Purkyně se třemi fakultami"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|1998|30. července byl otevřen Mariánský most architekta Romana Kouckého, zařazený mezi deset nejkrásnějších staveb desetiletí ve světě",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 1998,
+   "text": "30. července byl otevřen Mariánský most architekta Romana Kouckého, zařazený mezi deset nejkrásnějších staveb desetiletí ve světě"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|2002|13. srpna zastavila kvůli velké vodě provoz Spolchemie; Labe pak ve městě kulminovalo na 11,96 metru",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 2002,
+   "text": "13. srpna zastavila kvůli velké vodě provoz Spolchemie; Labe pak ve městě kulminovalo na 11,96 metru"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "usti-nad-labem|2010|7. prosince se rozjela kabinová lanovka od obchodního centra Forum na vrch Větruše, nejdelší visutá lanovka v zemi bez samostatných podpěr",
+   "country": "CZ",
+   "city": "usti-nad-labem",
+   "year": 2010,
+   "text": "7. prosince se rozjela kabinová lanovka od obchodního centra Forum na vrch Větruše, nejdelší visutá lanovka v zemi bez samostatných podpěr"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "litomerice|1944|v podzemních štolách Richard vznikl koncentrační tábor Litoměřice, pobočka Flossenbürgu; prošlo jím na 18 400 vězňů",
+   "country": "CZ",
+   "city": "litomerice",
+   "year": 1944,
+   "text": "v podzemních štolách Richard vznikl koncentrační tábor Litoměřice, pobočka Flossenbürgu; prošlo jím na 18 400 vězňů"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "litomerice|1945|v krematoriu tábora bylo zpopelněno přes 30 000 obětí litoměřického tábora, věznice v Malé pevnosti a terezínského ghetta",
+   "country": "CZ",
+   "city": "litomerice",
+   "year": 1945,
+   "text": "v krematoriu tábora bylo zpopelněno přes 30 000 obětí litoměřického tábora, věznice v Malé pevnosti a terezínského ghetta"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "litomerice|1969|při oslavách 750 let města se poprvé uspořádala celonárodní zahradnická výstava pod názvem Zahrada Čech",
+   "country": "CZ",
+   "city": "litomerice",
+   "year": 1969,
+   "text": "při oslavách 750 let města se poprvé uspořádala celonárodní zahradnická výstava pod názvem Zahrada Čech"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "litomerice|1972|Zahrada Čech se stala vládou uznanou celostátní výstavou ovoce, zeleniny, vína, chmele a školkařských výpěstků",
+   "country": "CZ",
+   "city": "litomerice",
+   "year": 1972,
+   "text": "Zahrada Čech se stala vládou uznanou celostátní výstavou ovoce, zeleniny, vína, chmele a školkařských výpěstků"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "chomutov|1975|u Kamencového jezera se otevřel lesopark Walthera Markela, základ pozdějšího Podkrušnohorského zooparku",
+   "country": "CZ",
+   "city": "chomutov",
+   "year": 1975,
+   "text": "u Kamencového jezera se otevřel lesopark Walthera Markela, základ pozdějšího Podkrušnohorského zooparku"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "chomutov|1982|naběhly poslední bloky elektrárny Prunéřov II, spalující hnědé uhlí z okolních povrchových dolů",
+   "country": "CZ",
+   "city": "chomutov",
+   "year": 1982,
+   "text": "naběhly poslední bloky elektrárny Prunéřov II, spalující hnědé uhlí z okolních povrchových dolů"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "chomutov|2012|hokejisté se po vítězné baráži poprvé probojovali do extraligy a přijali nový název Piráti Chomutov",
+   "country": "CZ",
+   "city": "chomutov",
+   "year": 2012,
+   "text": "hokejisté se po vítězné baráži poprvé probojovali do extraligy a přijali nový název Piráti Chomutov"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "chomutov|2020|v červnu byla po více než padesáti letech provozu odstavena starší elektrárna Prunéřov I",
+   "country": "CZ",
+   "city": "chomutov",
+   "year": 2020,
+   "text": "v červnu byla po více než padesáti letech provozu odstavena starší elektrárna Prunéřov I"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "hradec-kralove|1959|vznikl Pedagogický institut, zárodek dnešní Univerzity Hradec Králové, jež současný název nese od roku 2000",
+   "country": "CZ",
+   "city": "hradec-kralove",
+   "year": 1959,
+   "text": "vznikl Pedagogický institut, zárodek dnešní Univerzity Hradec Králové, jež současný název nese od roku 2000"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "hradec-kralove|1960|v Malšovicích byl otevřen Všesportovní stadion s charakteristickými osvětlovacími stožáry přezdívanými 'lízátka'",
+   "country": "CZ",
+   "city": "hradec-kralove",
+   "year": 1960,
+   "text": "v Malšovicích byl otevřen Všesportovní stadion s charakteristickými osvětlovacími stožáry přezdívanými 'lízátka'"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "hradec-kralove|1973|na jihu města se začalo stavět Moravské Předměstí, největší panelové sídliště ve východních Čechách s více než deseti tisíci byty",
+   "country": "CZ",
+   "city": "hradec-kralove",
+   "year": 1973,
+   "text": "na jihu města se začalo stavět Moravské Předměstí, největší panelové sídliště ve východních Čechách s více než deseti tisíci byty"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "hradec-kralove|1993|k 31. květnu byl zrušen 47. průzkumný letecký pluk, jehož stroje MiG-21R létaly z hradeckého letiště od konce 60. let",
+   "country": "CZ",
+   "city": "hradec-kralove",
+   "year": 1993,
+   "text": "k 31. květnu byl zrušen 47. průzkumný letecký pluk, jehož stroje MiG-21R létaly z hradeckého letiště od konce 60. let"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "hradec-kralove|1993|na okraji centra se otevřelo kongresové centrum Aldis, projektované již v 80. letech",
+   "country": "CZ",
+   "city": "hradec-kralove",
+   "year": 1993,
+   "text": "na okraji centra se otevřelo kongresové centrum Aldis, projektované již v 80. letech"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "hradec-kralove|1994|ke konci roku byl rozpuštěn poslední stíhací pluk hradeckého letiště a armáda základnu postupně opustila",
+   "country": "CZ",
+   "city": "hradec-kralove",
+   "year": 1994,
+   "text": "ke konci roku byl rozpuštěn poslední stíhací pluk hradeckého letiště a armáda základnu postupně opustila"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "hradec-kralove|1997|při červencové povodni protrhla Orlice hráz a zaplavila Malšovice, univerzitní koleje i všesportovní stadion",
+   "country": "CZ",
+   "city": "hradec-kralove",
+   "year": 1997,
+   "text": "při červencové povodni protrhla Orlice hráz a zaplavila Malšovice, univerzitní koleje i všesportovní stadion"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "hradec-kralove|2000|22. listopadu otevřelo obchodní centrum Futurum na Brněnské třídě, jedno z prvních nákupních center v zemi",
+   "country": "CZ",
+   "city": "hradec-kralove",
+   "year": 2000,
+   "text": "22. listopadu otevřelo obchodní centrum Futurum na Brněnské třídě, jedno z prvních nákupních center v zemi"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "hradec-kralove|2008|25. září byla otevřena nová Studijní a vědecká knihovna od Projektil architektů, betonová budova s půdorysem ve tvaru X",
+   "country": "CZ",
+   "city": "hradec-kralove",
+   "year": 2008,
+   "text": "25. září byla otevřena nová Studijní a vědecká knihovna od Projektil architektů, betonová budova s půdorysem ve tvaru X"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "hradec-kralove|2021|fotbalisté FC Hradec Králové postoupili zpět do první ligy, dva ročníky však museli odehrát v azylu v Mladé Boleslavi",
+   "country": "CZ",
+   "city": "hradec-kralove",
+   "year": 2021,
+   "text": "fotbalisté FC Hradec Králové postoupili zpět do první ligy, dva ročníky však museli odehrát v azylu v Mladé Boleslavi"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "hradec-kralove|2023|3. září byla na místě starého Všesportovního stadionu otevřena Malšovická aréna; nad novou tribunou zůstala zachována stará 'lízátka'",
+   "country": "CZ",
+   "city": "hradec-kralove",
+   "year": 2023,
+   "text": "3. září byla na místě starého Všesportovního stadionu otevřena Malšovická aréna; nad novou tribunou zůstala zachována stará 'lízátka'"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "pardubice|1942|na popravišti v Zámečku, vile Larischů, nacisté od 3. června do 9. července zastřelili 194 vlastenců z východních Čech",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1942,
+   "text": "na popravišti v Zámečku, vile Larischů, nacisté od 3. června do 9. července zastřelili 194 vlastenců z východních Čech"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "pardubice|1942|24. června bylo v Zámečku popraveno 33 obyvatel vyhlazené obce Ležáky, kteří pomáhali parašutistům skupiny Silver A",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1942,
+   "text": "24. června bylo v Zámečku popraveno 33 obyvatel vyhlazené obce Ležáky, kteří pomáhali parašutistům skupiny Silver A"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "pardubice|1950|15. října zahájila výuku Vysoká škola chemická, pozdější Univerzita Pardubice, vyrostlá z místních chemických závodů",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1950,
+   "text": "15. října zahájila výuku Vysoká škola chemická, pozdější Univerzita Pardubice, vyrostlá z místních chemických závodů"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "pardubice|1964|závody o plochodrážní Zlatou přilbu se přesunuly na nový stadion ve Svítkově; komunistický režim je v letech 1952 až 1960 nepovolil",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1964,
+   "text": "závody o plochodrážní Zlatou přilbu se přesunuly na nový stadion ve Svítkově; komunistický režim je v letech 1952 až 1960 nepovolil"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "pardubice|1987|15. března získali hokejisté Tesly s brankářem Dominikem Haškem druhý mistrovský titul",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1987,
+   "text": "15. března získali hokejisté Tesly s brankářem Dominikem Haškem druhý mistrovský titul"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "pardubice|1989|pardubická Tesla vybojovala další titul, naposledy v dresu s Haškem, Šejbou i Janeckým",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1989,
+   "text": "pardubická Tesla vybojovala další titul, naposledy v dresu s Haškem, Šejbou i Janeckým"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "pardubice|1991|11. května proběhl první ročník Aviatické pouti připomínkou letu Jana Kašpara z Pardubic do Prahy z roku 1911",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1991,
+   "text": "11. května proběhl první ročník Aviatické pouti připomínkou letu Jana Kašpara z Pardubic do Prahy z roku 1911"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "pardubice|1991|po pádu režimu vyšlo najevo, že Československo vyvezlo stovky tun Semtexu do Kaddáfího Libye a dalších nestabilních států",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1991,
+   "text": "po pádu režimu vyšlo najevo, že Československo vyvezlo stovky tun Semtexu do Kaddáfího Libye a dalších nestabilních států"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "pardubice|1994|vojenské pardubické letiště přešlo na civilní provoz a o rok později získalo status mezinárodního letiště",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1994,
+   "text": "vojenské pardubické letiště přešlo na civilní provoz a o rok později získalo status mezinárodního letiště"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "pardubice|1997|vynálezce Semtexu, chemik Stanislav Brebera, zemřel; jeho trhavinu mezitím proslavily teroristické útoky po celém světě",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 1997,
+   "text": "vynálezce Semtexu, chemik Stanislav Brebera, zemřel; jeho trhavinu mezitím proslavily teroristické útoky po celém světě"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "pardubice|2005|hokejisté pod kapitánem Jiřím Dopitou a se slovenským brankářem Jánem Lašákem získali čtvrtý mistrovský titul",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 2005,
+   "text": "hokejisté pod kapitánem Jiřím Dopitou a se slovenským brankářem Jánem Lašákem získali čtvrtý mistrovský titul"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "pardubice|2010|klub vybojoval pátý titul; současný název HC Dynamo Pardubice přijal až v roce 2015",
+   "country": "CZ",
+   "city": "pardubice",
+   "year": 2010,
+   "text": "klub vybojoval pátý titul; současný název HC Dynamo Pardubice přijal až v roce 2015"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "trutnov|1940|v Horním Starém Městě vznikl pracovní tábor pro židovské ženy, jež dřely ve lnářských přádelnách; roku 1944 se stal pobočkou koncentračního tábora Gross-Rosen",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1940,
+   "text": "v Horním Starém Městě vznikl pracovní tábor pro židovské ženy, jež dřely ve lnářských přádelnách; roku 1944 se stal pobočkou koncentračního tábora Gross-Rosen"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "trutnov|1945|9. května dorazila Rudá armáda na takřka liduprázdné náměstí; mezi prvními ji vítali vězni z poboček Gross-Rosen, zatímco řada Němců ze strachu volila sebevraždu",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1945,
+   "text": "9. května dorazila Rudá armáda na takřka liduprázdné náměstí; mezi prvními ji vítali vězni z poboček Gross-Rosen, zatímco řada Němců ze strachu volila sebevraždu"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "trutnov|1946|vznikly České lnářské textilní závody s více než padesáti pobočkami — největší lnářský podnik v republice",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1946,
+   "text": "vznikly České lnářské textilní závody s více než padesáti pobočkami — největší lnářský podnik v republice"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "trutnov|1957|v Poříčí na úpatí Krkonoš byla spuštěna uhelná elektrárna Poříčí II, jež dodnes zásobuje město teplem",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1957,
+   "text": "v Poříčí na úpatí Krkonoš byla spuštěna uhelná elektrárna Poříčí II, jež dodnes zásobuje město teplem"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "trutnov|1987|první pokus o trutnovský rockový open-air s kořeny v undergroundu rozehnala Státní bezpečnost; spjat byl i s Václavem Havlem",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1987,
+   "text": "první pokus o trutnovský rockový open-air s kořeny v undergroundu rozehnala Státní bezpečnost; spjat byl i s Václavem Havlem"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "trutnov|1990|po sametové revoluci se festival Trutnov Open Air poprvé konal svobodně Na Bojišti a stal se nejstarší trvající přehlídkou svého druhu v zemi",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1990,
+   "text": "po sametové revoluci se festival Trutnov Open Air poprvé konal svobodně Na Bojišti a stal se nejstarší trvající přehlídkou svého druhu v zemi"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "trutnov|1991|k 28. únoru zanikl státní podnik Texlen; privatizace a tlak levného textilu odstartovaly úpadek slavné lnářské tradice",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1991,
+   "text": "k 28. únoru zanikl státní podnik Texlen; privatizace a tlak levného textilu odstartovaly úpadek slavné lnářské tradice"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "trutnov|1997|červencová velká voda zasáhla Trutnovsko, rozvodněná Úpa zaplavovala domy a sklepy a způsobila škody za desítky milionů",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1997,
+   "text": "červencová velká voda zasáhla Trutnovsko, rozvodněná Úpa zaplavovala domy a sklepy a způsobila škody za desítky milionů"
+  }
+ ]
+}

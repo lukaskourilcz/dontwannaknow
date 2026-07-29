@@ -1,0 +1,546 @@
+{
+ "pass": "B",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "havirov|1973|6. září se poprvé konala květinová slavnost Havířov v květech, jež se udržela do roku 1989 a obnovena byla v roce 2009",
+   "country": "CZ",
+   "city": "havirov",
+   "year": 1973,
+   "text": "6. září se poprvé konala květinová slavnost Havířov v květech, jež se udržela do roku 1989 a obnovena byla v roce 2009"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "havirov|1991|sčítání napočítalo přes 86 tisíc obyvatel; poté začal s útlumem hornictví dlouhý pokles, byť Havířov zůstal nejmladším městem země",
+   "country": "CZ",
+   "city": "havirov",
+   "year": 1991,
+   "text": "sčítání napočítalo přes 86 tisíc obyvatel; poté začal s útlumem hornictví dlouhý pokles, byť Havířov zůstal nejmladším městem země"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "karvina|1952|byl založen házenkářský klub, pozdější HCB Karviná, nejúspěšnější český házenkářský oddíl s mnoha tituly",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1952,
+   "text": "byl založen házenkářský klub, pozdější HCB Karviná, nejúspěšnější český házenkářský oddíl s mnoha tituly"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "karvina|1957|na řece Lučině byla u Karviné dokončena přehrada Žermanice, zásobující vodou průmysl Ostravska",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1957,
+   "text": "na řece Lučině byla u Karviné dokončena přehrada Žermanice, zásobující vodou průmysl Ostravska"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "karvina|1960|při územní reformě byl zrušen okres Český Těšín a sloučen do okresu Karviná",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1960,
+   "text": "při územní reformě byl zrušen okres Český Těšín a sloučen do okresu Karviná"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "karvina|1972|házenkáři Karviné získali svůj první československý ligový titul",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1972,
+   "text": "házenkáři Karviné získali svůj první československý ligový titul"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "karvina|1980|kostel svatého Petra z Alkantary v Karviné-Dolech se vlivem poddolování naklonil o 6,8 stupně, více než věž v Pise",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1980,
+   "text": "kostel svatého Petra z Alkantary v Karviné-Dolech se vlivem poddolování naklonil o 6,8 stupně, více než věž v Pise"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "karvina|1990|při důlním neštěstí u Karviné zahynulo 30 horníků, po desetiletí nejtěžší havárie tohoto druhu v Česku",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1990,
+   "text": "při důlním neštěstí u Karviné zahynulo 30 horníků, po desetiletí nejtěžší havárie tohoto druhu v Česku"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "karvina|1990|v Karviné vznikla Obchodně podnikatelská fakulta, nejprve pod Masarykovou univerzitou",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1990,
+   "text": "v Karviné vznikla Obchodně podnikatelská fakulta, nejprve pod Masarykovou univerzitou"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "karvina|1991|karvinská fakulta se stala součástí nově zřízené Slezské univerzity v Opavě",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1991,
+   "text": "karvinská fakulta se stala součástí nově zřízené Slezské univerzity v Opavě"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "karvina|1997|červencová povodeň zasáhla Karvinsko a rozvodněná Olše patřila k nejhorším v dějinách města",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1997,
+   "text": "červencová povodeň zasáhla Karvinsko a rozvodněná Olše patřila k nejhorším v dějinách města"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "karvina|1997|po rozsáhlé rekonstrukci se veřejnosti otevřel zámek Fryštát, někdejší sídlo rodu Larisch-Mönnich",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 1997,
+   "text": "po rozsáhlé rekonstrukci se veřejnosti otevřel zámek Fryštát, někdejší sídlo rodu Larisch-Mönnich"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "karvina|2003|Karviná získala status statutárního města",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 2003,
+   "text": "Karviná získala status statutárního města"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "karvina|2016|fotbalisté MFK Karviná postoupili poprvé v historii do nejvyšší české soutěže",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 2016,
+   "text": "fotbalisté MFK Karviná postoupili poprvé v historii do nejvyšší české soutěže"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "karvina|2018|20. prosince zahynulo při výbuchu metanu v dole ČSM ve Stonavě u Karviné 13 horníků, většinou polské národnosti",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 2018,
+   "text": "20. prosince zahynulo při výbuchu metanu v dole ČSM ve Stonavě u Karviné 13 horníků, většinou polské národnosti"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "karvina|2021|na přelomu února byly trvale uzavřeny doly ČSA a Darkov a skončila tak velká těžba uhlí přímo ve městě",
+   "country": "CZ",
+   "city": "karvina",
+   "year": 2021,
+   "text": "na přelomu února byly trvale uzavřeny doly ČSA a Darkov a skončila tak velká těžba uhlí přímo ve městě"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1927|vodohospodářský profil města stoupal, jak se plánovala kaskáda na Dněpru",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1927,
+   "text": "vodohospodářský profil města stoupal, jak se plánovala kaskáda na Dněpru"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1932|hladomor (holodomor) zpustošil Čerkaskou oblast; celé vesnice se vylidnily",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1932,
+   "text": "hladomor (holodomor) zpustošil Čerkaskou oblast; celé vesnice se vylidnily"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1932|holodomor katastrofálně zasáhl vesnice Čerkaské oblasti podél Dněpru",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1932,
+   "text": "holodomor katastrofálně zasáhl vesnice Čerkaské oblasti podél Dněpru"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1941|wehrmacht obsadil Čerkasy v srpnu",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1941,
+   "text": "wehrmacht obsadil Čerkasy v srpnu"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1943|v bitvě o korsuňsko-čerkaský kotel sovětské síly počátkem roku 1944 obklíčily německou skupinu",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1943,
+   "text": "v bitvě o korsuňsko-čerkaský kotel sovětské síly počátkem roku 1944 obklíčily německou skupinu"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1944|Čerkasy byly osvobozeny Rudou armádou po velké bitvě o obklíčení",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1944,
+   "text": "Čerkasy byly osvobozeny Rudou armádou po velké bitvě o obklíčení"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1954|vznikla Čerkaská oblast s Čerkasy jako správním centrem",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1954,
+   "text": "vznikla Čerkaská oblast s Čerkasy jako správním centrem"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1961|výše proti proudu se naplnila Kremenčucká přehrada, která překreslila čerkaské nábřeží",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1961,
+   "text": "výše proti proudu se naplnila Kremenčucká přehrada, která překreslila čerkaské nábřeží"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1962|Kremenčucká přehrada zatopila historickou krajinu poblíž Čerkas",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1962,
+   "text": "Kremenčucká přehrada zatopila historickou krajinu poblíž Čerkas"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1965|byl uveden do provozu závod na dusíkatá hnojiva Azot",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1965,
+   "text": "byl uveden do provozu závod na dusíkatá hnojiva Azot"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "cherkasy|1975|trolejbusová doprava se rozšířila do nových sídlišť",
+   "country": "UA",
+   "city": "cherkasy",
+   "year": 1975,
+   "text": "trolejbusová doprava se rozšířila do nových sídlišť"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1923|dřevěný kostel svaté Kateřiny a další středověké památky města byly v raných sovětských dobách zařazeny pod ochranu památek",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1923,
+   "text": "dřevěný kostel svaté Kateřiny a další středověké památky města byly v raných sovětských dobách zařazeny pod ochranu památek"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1933|holodomor zasáhl vesnice Černihovské oblasti se zvláštní silou",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1933,
+   "text": "holodomor zasáhl vesnice Černihovské oblasti se zvláštní silou"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1941|wehrmacht obsadil město v září; kostely z dob Kyjevské Rusi byly poškozeny",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1941,
+   "text": "wehrmacht obsadil město v září; kostely z dob Kyjevské Rusi byly poškozeny"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1941|wehrmacht obsadil Černihiv 9. září po těžkém bombardování historického centra",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1941,
+   "text": "wehrmacht obsadil Černihiv 9. září po těžkém bombardování historického centra"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1943|sovětské síly osvobodily Černihiv 21. září",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1943,
+   "text": "sovětské síly osvobodily Černihiv 21. září"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1962|byl uveden do provozu černihovský závod na syntetická vlákna Chimvolokno",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1962,
+   "text": "byl uveden do provozu černihovský závod na syntetická vlákna Chimvolokno"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1968|Černihovský kombinát na česanou vlnu se stal předním textilním výrobcem v SSSR",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1968,
+   "text": "Černihovský kombinát na česanou vlnu se stal předním textilním výrobcem v SSSR"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1975|černihovské závody na chemická vlákna a syntetické textilie byly významnými sovětskými zaměstnavateli",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1975,
+   "text": "černihovské závody na chemická vlákna a syntetické textilie byly významnými sovětskými zaměstnavateli"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "chernihiv|1975|v Černihivu byla zahájena trolejbusová doprava",
+   "country": "UA",
+   "city": "chernihiv",
+   "year": 1975,
+   "text": "v Černihivu byla zahájena trolejbusová doprava"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1920|Czernowitz byl mezi válkami součástí Rumunska — mnohojazyčné židovsko-rumunsko-ukrajinsko-německé město",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1920,
+   "text": "Czernowitz byl mezi válkami součástí Rumunska — mnohojazyčné židovsko-rumunsko-ukrajinsko-německé město"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1922|město zůstávalo jako Cernăuți součástí meziválečného Rumunska s mnohojazyčným židovským, rumunským, ukrajinským a německým obyvatelstvem",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1922,
+   "text": "město zůstávalo jako Cernăuți součástí meziválečného Rumunska s mnohojazyčným židovským, rumunským, ukrajinským a německým obyvatelstvem"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1927|královským dekretem se rumunština stala jediným jazykem státní správy v Cernăuți",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1927,
+   "text": "královským dekretem se rumunština stala jediným jazykem státní správy v Cernăuți"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1930|ve městě žil a tvořil jidiš básník Itzik Manger",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1930,
+   "text": "ve městě žil a tvořil jidiš básník Itzik Manger"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1937|budoucí básník Paul Celan navštěvoval městské gymnázium pod svým rodným jménem Antschel",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1937,
+   "text": "budoucí básník Paul Celan navštěvoval městské gymnázium pod svým rodným jménem Antschel"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1940|Sovětský svaz anektoval Bukovinu; město se stalo Černivci v Ukrajinské SSR",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1940,
+   "text": "Sovětský svaz anektoval Bukovinu; město se stalo Černivci v Ukrajinské SSR"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1941|rumunské síly město znovu obsadily; bylo zřízeno ghetto a desítky tisíc Židů byly deportovány do Podněstří",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1941,
+   "text": "rumunské síly město znovu obsadily; bylo zřízeno ghetto a desítky tisíc Židů byly deportovány do Podněstří"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1941|rumunské síly a Einsatzkommando 10b zřídily v říjnu ghetto v Cernăuți",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1941,
+   "text": "rumunské síly a Einsatzkommando 10b zřídily v říjnu ghetto v Cernăuți"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1942|deportace z ghetta do Podněstří poslaly desetitisíce bukovinských Židů na smrt",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1942,
+   "text": "deportace z ghetta do Podněstří poslaly desetitisíce bukovinských Židů na smrt"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1944|sovětské znovuobsazení; rumunsky a německy mluvící obyvatelstvo bylo z velké části vyhnáno nebo uprchlo",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1944,
+   "text": "sovětské znovuobsazení; rumunsky a německy mluvící obyvatelstvo bylo z velké části vyhnáno nebo uprchlo"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1944|sovětské síly znovu dobyly Černivci 29. března",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1944,
+   "text": "sovětské síly znovu dobyly Černivci 29. března"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1945|město bylo začleněno do Ukrajinské SSR jako centrum Černivecké oblasti",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1945,
+   "text": "město bylo začleněno do Ukrajinské SSR jako centrum Černivecké oblasti"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1947|Paul Celan emigroval na západ a nakonec napsal Fugu smrti na památku táborů",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1947,
+   "text": "Paul Celan emigroval na západ a nakonec napsal Fugu smrti na památku táborů"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1955|Černivecká přádelna bavlny se stala významným zaměstnavatelem dělnic z okolních bukovinských vesnic",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1955,
+   "text": "Černivecká přádelna bavlny se stala významným zaměstnavatelem dělnic z okolních bukovinských vesnic"
+  },
+  {
+   "id": "r50",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1965|Volodymyr Ivasjuk, budoucí skladatel písně Červona ruta, byl ve městě studentem",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1965,
+   "text": "Volodymyr Ivasjuk, budoucí skladatel písně Červona ruta, byl ve městě studentem"
+  },
+  {
+   "id": "r51",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1971|Sofia Rotaru se proslavila zpěvem písně Červona ruta na koncertech v okolí Černivců",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1971,
+   "text": "Sofia Rotaru se proslavila zpěvem písně Červona ruta na koncertech v okolí Černivců"
+  },
+  {
+   "id": "r52",
+   "dataset": "cityFacts",
+   "key": "chernivtsi|1979|tělo skladatele Volodymyra Ivasjuka bylo nalezeno oběšené poblíž Lvova, ale jeho černivečtí truchlící proměnili pohřeb v národní protest",
+   "country": "UA",
+   "city": "chernivtsi",
+   "year": 1979,
+   "text": "tělo skladatele Volodymyra Ivasjuka bylo nalezeno oběšené poblíž Lvova, ale jeho černivečtí truchlící proměnili pohřeb v národní protest"
+  },
+  {
+   "id": "r53",
+   "dataset": "cityFacts",
+   "key": "dnipro|1923|brjanské hutě byly přejmenovány na Petrovského závod",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1923,
+   "text": "brjanské hutě byly přejmenovány na Petrovského závod"
+  },
+  {
+   "id": "r54",
+   "dataset": "cityFacts",
+   "key": "dnipro|1926|město bylo přejmenováno na Dněpropetrovsk podle bolševického vůdce Grigorije Petrovského",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1926,
+   "text": "město bylo přejmenováno na Dněpropetrovsk podle bolševického vůdce Grigorije Petrovského"
+  },
+  {
+   "id": "r55",
+   "dataset": "cityFacts",
+   "key": "dnipro|1929|městský koksárenský a chemický kombinát zahájil plnou výrobu pro pětiletku",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1929,
+   "text": "městský koksárenský a chemický kombinát zahájil plnou výrobu pro pětiletku"
+  },
+  {
+   "id": "r56",
+   "dataset": "cityFacts",
+   "key": "dnipro|1932|výše proti proudu se otevřela vodní elektrárna DniproHES — vlajková loď sovětské industrializace",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1932,
+   "text": "výše proti proudu se otevřela vodní elektrárna DniproHES — vlajková loď sovětské industrializace"
+  },
+  {
+   "id": "r57",
+   "dataset": "cityFacts",
+   "key": "dnipro|1933|holodomor zpustošil vesnice kolem Dněpropetrovsku, zatímco městští dělníci dostávali příděly",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1933,
+   "text": "holodomor zpustošil vesnice kolem Dněpropetrovsku, zatímco městští dělníci dostávali příděly"
+  },
+  {
+   "id": "r58",
+   "dataset": "cityFacts",
+   "key": "dnipro|1941|sovětské síly vyhodily do povětří hráz DniproHES, aby zpomalily německý postup; tisíce sovětských civilistů po proudu se utopily",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1941,
+   "text": "sovětské síly vyhodily do povětří hráz DniproHES, aby zpomalily německý postup; tisíce sovětských civilistů po proudu se utopily"
+  },
+  {
+   "id": "r59",
+   "dataset": "cityFacts",
+   "key": "dnipro|1941|wehrmacht obsadil město v srpnu",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 1941,
+   "text": "wehrmacht obsadil město v srpnu"
+  }
+ ]
+}

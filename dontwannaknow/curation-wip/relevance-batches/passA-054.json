@@ -1,0 +1,454 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "countryEvents",
+   "key": "UA|1945|Ukrajinská SSR se s vlastním křeslem stala zakládajícím členem Organizace spojených národů",
+   "country": "UA",
+   "year": 1945,
+   "text": "Ukrajinská SSR se s vlastním křeslem stala zakládajícím členem Organizace spojených národů"
+  },
+  {
+   "id": "r1",
+   "dataset": "countryEvents",
+   "key": "UA|1945|Československo postoupilo Sovětskému svazu Podkarpatskou Rus, jež připadla Ukrajinské SSR",
+   "country": "UA",
+   "year": 1945,
+   "text": "Československo postoupilo Sovětskému svazu Podkarpatskou Rus, jež připadla Ukrajinské SSR"
+  },
+  {
+   "id": "r2",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|government|Československo bylo mladou demokracií v čele s prezidentem-filozofem T. G. Masarykem.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "government",
+   "text": "Československo bylo mladou demokracií v čele s prezidentem-filozofem T. G. Masarykem."
+  },
+  {
+   "id": "r3",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|government|Parlament zasedal v Praze a Alois Rašín navázal korunu na zlato.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "government",
+   "text": "Parlament zasedal v Praze a Alois Rašín navázal korunu na zlato."
+  },
+  {
+   "id": "r4",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|government|Všeobecné volební právo zahrnovalo i ženy — v tehdejší Evropě vzácnost.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "government",
+   "text": "Všeobecné volební právo zahrnovalo i ženy — v tehdejší Evropě vzácnost."
+  },
+  {
+   "id": "r5",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|clothes|Ženy ve městech si nechávaly stříhat vlasy na mikádo a nosily flapper šaty se sníženým pasem.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "clothes",
+   "text": "Ženy ve městech si nechávaly stříhat vlasy na mikádo a nosily flapper šaty se sníženým pasem."
+  },
+  {
+   "id": "r6",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|clothes|Muži v Praze nosili třídílné obleky s homburgem nebo měkkým plstěným kloboukem.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "clothes",
+   "text": "Muži v Praze nosili třídílné obleky s homburgem nebo měkkým plstěným kloboukem."
+  },
+  {
+   "id": "r7",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|clothes|Na Moravě a Slovensku se vyšívaný kroj stále nosil běžně do kostela.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "clothes",
+   "text": "Na Moravě a Slovensku se vyšívaný kroj stále nosil běžně do kostela."
+  },
+  {
+   "id": "r8",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|clothes|Baťa ve Zlíně vyráběl dostupné kožené boty, které se staly výrazným symbolem moderního životního stylu.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "clothes",
+   "text": "Baťa ve Zlíně vyráběl dostupné kožené boty, které se staly výrazným symbolem moderního životního stylu."
+  },
+  {
+   "id": "r9",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|illnesses|Tuberkulóza byla velkým zabijákem; celá sanatoria byla rozeseta po Tatrách i Krkonoších.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "illnesses",
+   "text": "Tuberkulóza byla velkým zabijákem; celá sanatoria byla rozeseta po Tatrách i Krkonoších."
+  },
+  {
+   "id": "r10",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|illnesses|Záškrt si stále bral malé děti; na vesnicích bylo antitoxinu málo.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "illnesses",
+   "text": "Záškrt si stále bral malé děti; na vesnicích bylo antitoxinu málo."
+  },
+  {
+   "id": "r11",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|illnesses|Španělská chřipka právě odezněla a zanechala po sobě celou generaci vdov.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "illnesses",
+   "text": "Španělská chřipka právě odezněla a zanechala po sobě celou generaci vdov."
+  },
+  {
+   "id": "r12",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|dailyLife|Pražské kavárny jako Slavia byly plné spisovatelů a novinářů; Kafka byl naživu až do roku 1924.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "dailyLife",
+   "text": "Pražské kavárny jako Slavia byly plné spisovatelů a novinářů; Kafka byl naživu až do roku 1924."
+  },
+  {
+   "id": "r13",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|dailyLife|Václavským náměstím rachotily tramvaje a káva stála pár haléřů.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "dailyLife",
+   "text": "Václavským náměstím rachotily tramvaje a káva stála pár haléřů."
+  },
+  {
+   "id": "r14",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|dailyLife|Nedělní odpoledne znamenala procházku v parku a koncert dechovky.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "dailyLife",
+   "text": "Nedělní odpoledne znamenala procházku v parku a koncert dechovky."
+  },
+  {
+   "id": "r15",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|food|Neděle znamenala vepřové, knedlíky a zelí — věčné vepřo-knedlo-zelo.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "food",
+   "text": "Neděle znamenala vepřové, knedlíky a zelí — věčné vepřo-knedlo-zelo."
+  },
+  {
+   "id": "r16",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|food|Plzeňský Prazdroj se už vyvážel do celého světa.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "food",
+   "text": "Plzeňský Prazdroj se už vyvážel do celého světa."
+  },
+  {
+   "id": "r17",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|food|V chudších domácnostech byla káva často cikorková směs zvaná cikorka.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "food",
+   "text": "V chudších domácnostech byla káva často cikorková směs zvaná cikorka."
+  },
+  {
+   "id": "r18",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|money|Průmyslový dělník v Praze vydělával kolem 250 korun týdně.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "money",
+   "text": "Průmyslový dělník v Praze vydělával kolem 250 korun týdně."
+  },
+  {
+   "id": "r19",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|money|Bochník tmavého chleba stál asi 2 koruny.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "money",
+   "text": "Bochník tmavého chleba stál asi 2 koruny."
+  },
+  {
+   "id": "r20",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|money|Pár kožených bot od Bati přišel na 60 korun — pořádný výdaj.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "money",
+   "text": "Pár kožených bot od Bati přišel na 60 korun — pořádný výdaj."
+  },
+  {
+   "id": "r21",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|bizarre|Roboti dostali jméno právě tady — hra Karla Čapka R.U.R. měla premiéru v roce 1921.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "bizarre",
+   "text": "Roboti dostali jméno právě tady — hra Karla Čapka R.U.R. měla premiéru v roce 1921."
+  },
+  {
+   "id": "r22",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|bizarre|Čeští lékaři tehdy vyvíjeli prototyp vůbec první kontaktní čočky na světě.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "bizarre",
+   "text": "Čeští lékaři tehdy vyvíjeli prototyp vůbec první kontaktní čočky na světě."
+  },
+  {
+   "id": "r23",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|beautiful|Československo patřilo k deseti nejprůmyslovějším zemím na světě.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "beautiful",
+   "text": "Československo patřilo k deseti nejprůmyslovějším zemím na světě."
+  },
+  {
+   "id": "r24",
+   "dataset": "countryDecades",
+   "key": "CZ|1920|beautiful|Janáčkovy opery měly premiéry v Brně a putovaly do celého světa.",
+   "country": "CZ",
+   "decadeStart": 1920,
+   "bucket": "beautiful",
+   "text": "Janáčkovy opery měly premiéry v Brně a putovaly do celého světa."
+  },
+  {
+   "id": "r25",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|government|Masaryk předal prezidentský úřad Edvardu Benešovi v roce 1935; republika se orientovala na západ, na Francii.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "government",
+   "text": "Masaryk předal prezidentský úřad Edvardu Benešovi v roce 1935; republika se orientovala na západ, na Francii."
+  },
+  {
+   "id": "r26",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|government|Mnichovská dohoda v roce 1938 přinutila zemi vzdát se Sudet.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "government",
+   "text": "Mnichovská dohoda v roce 1938 přinutila zemi vzdát se Sudet."
+  },
+  {
+   "id": "r27",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|government|Do března 1939 se zbytek Čech a Moravy stal nacistickým protektorátem.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "government",
+   "text": "Do března 1939 se zbytek Čech a Moravy stal nacistickým protektorátem."
+  },
+  {
+   "id": "r28",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|clothes|Šaty střižené do šíře a liščí kožešiny pro ženy do kina.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "clothes",
+   "text": "Šaty střižené do šíře a liščí kožešiny pro ženy do kina."
+  },
+  {
+   "id": "r29",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|clothes|Muži kombinovali tvídová saka s pumpkami na výlety za město.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "clothes",
+   "text": "Muži kombinovali tvídová saka s pumpkami na výlety za město."
+  },
+  {
+   "id": "r30",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|clothes|Baťovy továrny vyrobily ročně miliony plátěných letních bot.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "clothes",
+   "text": "Baťovy továrny vyrobily ročně miliony plátěných letních bot."
+  },
+  {
+   "id": "r31",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|clothes|Městská móda třicátých let nabízela delší sukně, zvýrazněný pas, halenky a praktické kostýmky.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "clothes",
+   "text": "Městská móda třicátých let nabízela delší sukně, zvýrazněný pas, halenky a praktické kostýmky."
+  },
+  {
+   "id": "r32",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|illnesses|Tuberkulóza i přes nové očkování BCG stále zabíjela tisíce lidí ročně.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "illnesses",
+   "text": "Tuberkulóza i přes nové očkování BCG stále zabíjela tisíce lidí ročně."
+  },
+  {
+   "id": "r33",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|illnesses|Epidemie dětské obrny se vracely zejména v letních měsících.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "illnesses",
+   "text": "Epidemie dětské obrny se vracely zejména v letních měsících."
+  },
+  {
+   "id": "r34",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|illnesses|Zápal plic byl vážnou diagnózou — antibiotika ještě neexistovala.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "illnesses",
+   "text": "Zápal plic byl vážnou diagnózou — antibiotika ještě neexistovala."
+  },
+  {
+   "id": "r35",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|dailyLife|Z linky v Mladé Boleslavi sjížděla auta Škoda a z Prahy vyjížděly lokomotivy ČKD.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "dailyLife",
+   "text": "Z linky v Mladé Boleslavi sjížděla auta Škoda a z Prahy vyjížděly lokomotivy ČKD."
+  },
+  {
+   "id": "r36",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|dailyLife|Rádia měly měšťanské domácnosti; celé rodiny se scházely u večerního vysílání.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "dailyLife",
+   "text": "Rádia měly měšťanské domácnosti; celé rodiny se scházely u večerního vysílání."
+  },
+  {
+   "id": "r37",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|dailyLife|Swingové a trampské taneční večery patřily k pražskému kulturnímu životu.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "dailyLife",
+   "text": "Swingové a trampské taneční večery patřily k pražskému kulturnímu životu."
+  },
+  {
+   "id": "r38",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|food|Paukertův obložený chlebíček, uvedený už kolem roku 1916, zůstával oblíbenou součástí pražských lahůdkářství.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "food",
+   "text": "Paukertův obložený chlebíček, uvedený už kolem roku 1916, zůstával oblíbenou součástí pražských lahůdkářství."
+  },
+  {
+   "id": "r39",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|food|Plzeňské pivovary vařily i během krize — pivo zůstávalo levné.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "food",
+   "text": "Plzeňské pivovary vařily i během krize — pivo zůstávalo levné."
+  },
+  {
+   "id": "r40",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|food|Sádlo na chlebu s cibulí bylo vesnickou odpolední svačinou.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "food",
+   "text": "Sádlo na chlebu s cibulí bylo vesnickou odpolední svačinou."
+  },
+  {
+   "id": "r41",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|money|Hospodářská krize udeřila tvrdě — v roce 1933 byl bez práce skoro milion Čechoslováků.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "money",
+   "text": "Hospodářská krize udeřila tvrdě — v roce 1933 byl bez práce skoro milion Čechoslováků."
+  },
+  {
+   "id": "r42",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|money|Měsíční plat pražského úředníka činil kolem 1 200 korun.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "money",
+   "text": "Měsíční plat pražského úředníka činil kolem 1 200 korun."
+  },
+  {
+   "id": "r43",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|money|Po Mnichovu byla koruna devalvována a začalo se přidělovat na lístky.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "money",
+   "text": "Po Mnichovu byla koruna devalvována a začalo se přidělovat na lístky."
+  },
+  {
+   "id": "r44",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|bizarre|Čechoslováci vynalezli kostkový cukr — a padák (Štefan Banič).",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "bizarre",
+   "text": "Čechoslováci vynalezli kostkový cukr — a padák (Štefan Banič)."
+  },
+  {
+   "id": "r45",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|bizarre|Nad Prahou bděla hliníková rozhledna, petřínská „mini-Eiffelovka“.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "bizarre",
+   "text": "Nad Prahou bděla hliníková rozhledna, petřínská „mini-Eiffelovka“."
+  },
+  {
+   "id": "r46",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|beautiful|Architektura a funkcionalismus udělaly z Brna jednu ze světových metropolí designu.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "beautiful",
+   "text": "Architektura a funkcionalismus udělaly z Brna jednu ze světových metropolí designu."
+  },
+  {
+   "id": "r47",
+   "dataset": "countryDecades",
+   "key": "CZ|1930|beautiful|Českoslovenští lyžaři a gymnasté pravidelně získávali medaile na mezinárodních soutěžích.",
+   "country": "CZ",
+   "decadeStart": 1930,
+   "bucket": "beautiful",
+   "text": "Českoslovenští lyžaři a gymnasté pravidelně získávali medaile na mezinárodních soutěžích."
+  },
+  {
+   "id": "r48",
+   "dataset": "countryDecades",
+   "key": "CZ|1940|government|Čechy a Morava byly spravovány jako nacistický protektorát; Reinhard Heydrich byl roku 1942 v Praze zavražděn.",
+   "country": "CZ",
+   "decadeStart": 1940,
+   "bucket": "government",
+   "text": "Čechy a Morava byly spravovány jako nacistický protektorát; Reinhard Heydrich byl roku 1942 v Praze zavražděn."
+  },
+  {
+   "id": "r49",
+   "dataset": "countryDecades",
+   "key": "CZ|1940|government|Za odplatu byla v červnu 1942 z mapy vymazána obec Lidice.",
+   "country": "CZ",
+   "decadeStart": 1940,
+   "bucket": "government",
+   "text": "Za odplatu byla v červnu 1942 z mapy vymazána obec Lidice."
+  }
+ ]
+}

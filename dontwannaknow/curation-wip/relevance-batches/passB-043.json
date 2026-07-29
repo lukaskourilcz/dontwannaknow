@@ -1,0 +1,486 @@
+{
+ "pass": "B",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "countryEvents",
+   "key": "UA|1994|krasobruslařka Oksana Bajulová získala Ukrajině první zimní olympijské zlato",
+   "country": "UA",
+   "year": 1994,
+   "text": "krasobruslařka Oksana Bajulová získala Ukrajině první zimní olympijské zlato"
+  },
+  {
+   "id": "r1",
+   "dataset": "countryEvents",
+   "key": "UA|1996|Ukrajina 28. června přijala svou novou ústavu",
+   "country": "UA",
+   "year": 1996,
+   "text": "Ukrajina 28. června přijala svou novou ústavu"
+  },
+  {
+   "id": "r2",
+   "dataset": "countryEvents",
+   "key": "UA|1996|Ukrajina zavedla vlastní měnu hřivnu namísto přechodného karbovance",
+   "country": "UA",
+   "year": 1996,
+   "text": "Ukrajina zavedla vlastní měnu hřivnu namísto přechodného karbovance"
+  },
+  {
+   "id": "r3",
+   "dataset": "countryEvents",
+   "key": "UA|1996|Ukrajina poprvé startovala jako samostatný stát na letních olympijských hrách v Atlantě",
+   "country": "UA",
+   "year": 1996,
+   "text": "Ukrajina poprvé startovala jako samostatný stát na letních olympijských hrách v Atlantě"
+  },
+  {
+   "id": "r4",
+   "dataset": "countryEvents",
+   "key": "UA|1996|Wladimir Klička získal v Atlantě olympijské zlato v boxu supertěžké váhy",
+   "country": "UA",
+   "year": 1996,
+   "text": "Wladimir Klička získal v Atlantě olympijské zlato v boxu supertěžké váhy"
+  },
+  {
+   "id": "r5",
+   "dataset": "countryEvents",
+   "key": "UA|1996|gymnastka Lilija Podkopajevová získala v Atlantě zlato ve víceboji i v prostných",
+   "country": "UA",
+   "year": 1996,
+   "text": "gymnastka Lilija Podkopajevová získala v Atlantě zlato ve víceboji i v prostných"
+  },
+  {
+   "id": "r6",
+   "dataset": "countryEvents",
+   "key": "UA|1996|zápasník Vjačeslav Olijnyk získal v Atlantě olympijské zlato v řecko-římském zápase",
+   "country": "UA",
+   "year": 1996,
+   "text": "zápasník Vjačeslav Olijnyk získal v Atlantě olympijské zlato v řecko-římském zápase"
+  },
+  {
+   "id": "r7",
+   "dataset": "countryEvents",
+   "key": "UA|1997|Ukrajina a Rusko podepsaly smlouvu o přátelství i o rozdělení Černomořské flotily",
+   "country": "UA",
+   "year": 1997,
+   "text": "Ukrajina a Rusko podepsaly smlouvu o přátelství i o rozdělení Černomořské flotily"
+  },
+  {
+   "id": "r8",
+   "dataset": "countryEvents",
+   "key": "UA|1997|Leonid Kadenjuk se na raketoplánu Columbia stal prvním kosmonautem nezávislé Ukrajiny",
+   "country": "UA",
+   "year": 1997,
+   "text": "Leonid Kadenjuk se na raketoplánu Columbia stal prvním kosmonautem nezávislé Ukrajiny"
+  },
+  {
+   "id": "r9",
+   "dataset": "countryEvents",
+   "key": "UA|1997|Dynamo Kyjev se Ševčenkovým hattrickem rozdrtilo na Camp Nou Barcelonu 4:0",
+   "country": "UA",
+   "year": 1997,
+   "text": "Dynamo Kyjev se Ševčenkovým hattrickem rozdrtilo na Camp Nou Barcelonu 4:0"
+  },
+  {
+   "id": "r10",
+   "dataset": "countryEvents",
+   "key": "UA|1999|Dynamo Kyjev pod Lobanovským postoupilo se Ševčenkem a Rebrovem do semifinále Ligy mistrů",
+   "country": "UA",
+   "year": 1999,
+   "text": "Dynamo Kyjev pod Lobanovským postoupilo se Ševčenkem a Rebrovem do semifinále Ligy mistrů"
+  },
+  {
+   "id": "r11",
+   "dataset": "countryEvents",
+   "key": "UA|1999|Andrij Ševčenko přestoupil z Dynama Kyjev do AC Milán",
+   "country": "UA",
+   "year": 1999,
+   "text": "Andrij Ševčenko přestoupil z Dynama Kyjev do AC Milán"
+  },
+  {
+   "id": "r12",
+   "dataset": "countryEvents",
+   "key": "UA|1999|Vitalij Klička získal svůj první světový titul v boxu těžké váhy",
+   "country": "UA",
+   "year": 1999,
+   "text": "Vitalij Klička získal svůj první světový titul v boxu těžké váhy"
+  },
+  {
+   "id": "r13",
+   "dataset": "countryEvents",
+   "key": "UA|1999|Leonid Kučma byl zvolen prezidentem podruhé",
+   "country": "UA",
+   "year": 1999,
+   "text": "Leonid Kučma byl zvolen prezidentem podruhé"
+  },
+  {
+   "id": "r14",
+   "dataset": "countryEvents",
+   "key": "UA|2000|vypukla kauza kazet a protesty Ukrajina bez Kučmy po vraždě novináře Heorhije Gongadzeho",
+   "country": "UA",
+   "year": 2000,
+   "text": "vypukla kauza kazet a protesty Ukrajina bez Kučmy po vraždě novináře Heorhije Gongadzeho"
+  },
+  {
+   "id": "r15",
+   "dataset": "countryEvents",
+   "key": "UA|2000|plavkyně Jana Kločkovová získala v Sydney dvě olympijská zlata",
+   "country": "UA",
+   "year": 2000,
+   "text": "plavkyně Jana Kločkovová získala v Sydney dvě olympijská zlata"
+  },
+  {
+   "id": "r16",
+   "dataset": "countryEvents",
+   "key": "UA|2002|zemřel dlouholetý trenér Dynama Kyjev Valerij Lobanovskyj",
+   "country": "UA",
+   "year": 2002,
+   "text": "zemřel dlouholetý trenér Dynama Kyjev Valerij Lobanovskyj"
+  },
+  {
+   "id": "r17",
+   "dataset": "countryEvents",
+   "key": "UA|2002|Ruslan Ponomarjov se stal nejmladším mistrem světa v šachu v historii FIDE",
+   "country": "UA",
+   "year": 2002,
+   "text": "Ruslan Ponomarjov se stal nejmladším mistrem světa v šachu v historii FIDE"
+  },
+  {
+   "id": "r18",
+   "dataset": "countryEvents",
+   "key": "UA|2003|Andrij Ševčenko vyhrál s AC Milán Ligu mistrů a proměnil rozhodující penaltu",
+   "country": "UA",
+   "year": 2003,
+   "text": "Andrij Ševčenko vyhrál s AC Milán Ligu mistrů a proměnil rozhodující penaltu"
+  },
+  {
+   "id": "r19",
+   "dataset": "countryEvents",
+   "key": "UA|2003|při sporu o ostrov Tuzla v Kerčském průlivu vzrostlo napětí mezi Ukrajinou a Ruskem",
+   "country": "UA",
+   "year": 2003,
+   "text": "při sporu o ostrov Tuzla v Kerčském průlivu vzrostlo napětí mezi Ukrajinou a Ruskem"
+  },
+  {
+   "id": "r20",
+   "dataset": "countryEvents",
+   "key": "UA|2003|Ukrajina poprvé vystoupila v soutěži Eurovize",
+   "country": "UA",
+   "year": 2003,
+   "text": "Ukrajina poprvé vystoupila v soutěži Eurovize"
+  },
+  {
+   "id": "r21",
+   "dataset": "countryEvents",
+   "key": "UA|2004|Ruslana vyhrála pro Ukrajinu Eurovizi s písní Wild Dances",
+   "country": "UA",
+   "year": 2004,
+   "text": "Ruslana vyhrála pro Ukrajinu Eurovizi s písní Wild Dances"
+  },
+  {
+   "id": "r22",
+   "dataset": "countryEvents",
+   "key": "UA|2004|Andrij Ševčenko získal Zlatý míč",
+   "country": "UA",
+   "year": 2004,
+   "text": "Andrij Ševčenko získal Zlatý míč"
+  },
+  {
+   "id": "r23",
+   "dataset": "countryEvents",
+   "key": "UA|2004|Vasyl Virastjuk se stal nejsilnějším mužem světa",
+   "country": "UA",
+   "year": 2004,
+   "text": "Vasyl Virastjuk se stal nejsilnějším mužem světa"
+  },
+  {
+   "id": "r24",
+   "dataset": "countryEvents",
+   "key": "UA|2004|Jana Kločkovová obhájila v Aténách dvě olympijská zlata v plavání",
+   "country": "UA",
+   "year": 2004,
+   "text": "Jana Kločkovová obhájila v Aténách dvě olympijská zlata v plavání"
+  },
+  {
+   "id": "r25",
+   "dataset": "countryEvents",
+   "key": "UA|2004|Viktor Juščenko byl během prezidentské kampaně otráven dioxinem",
+   "country": "UA",
+   "year": 2004,
+   "text": "Viktor Juščenko byl během prezidentské kampaně otráven dioxinem"
+  },
+  {
+   "id": "r26",
+   "dataset": "countryEvents",
+   "key": "UA|2004|vypukla Oranžová revoluce po zfalšovaných prezidentských volbách",
+   "country": "UA",
+   "year": 2004,
+   "text": "vypukla Oranžová revoluce po zfalšovaných prezidentských volbách"
+  },
+  {
+   "id": "r27",
+   "dataset": "countryEvents",
+   "key": "UA|2004|Vitalij Klička porazil Corrie Sanderse a získal titul mistra světa WBC",
+   "country": "UA",
+   "year": 2004,
+   "text": "Vitalij Klička porazil Corrie Sanderse a získal titul mistra světa WBC"
+  },
+  {
+   "id": "r28",
+   "dataset": "countryEvents",
+   "key": "UA|2005|Viktor Juščenko byl po opakovaných volbách inaugurován prezidentem",
+   "country": "UA",
+   "year": 2005,
+   "text": "Viktor Juščenko byl po opakovaných volbách inaugurován prezidentem"
+  },
+  {
+   "id": "r29",
+   "dataset": "countryEvents",
+   "key": "UA|2006|Ukrajina ve své premiéře na mistrovství světa ve fotbale dosáhla čtvrtfinále",
+   "country": "UA",
+   "year": 2006,
+   "text": "Ukrajina ve své premiéře na mistrovství světa ve fotbale dosáhla čtvrtfinále"
+  },
+  {
+   "id": "r30",
+   "dataset": "countryEvents",
+   "key": "UA|2006|Verchovna rada uznala holodomor za genocidu ukrajinského národa",
+   "country": "UA",
+   "year": 2006,
+   "text": "Verchovna rada uznala holodomor za genocidu ukrajinského národa"
+  },
+  {
+   "id": "r31",
+   "dataset": "countryEvents",
+   "key": "UA|2006|Wladimir Klička zahájil své rekordně dlouhé panování v boxu těžké váhy",
+   "country": "UA",
+   "year": 2006,
+   "text": "Wladimir Klička zahájil své rekordně dlouhé panování v boxu těžké váhy"
+  },
+  {
+   "id": "r32",
+   "dataset": "countryEvents",
+   "key": "UA|2006|novoroční spor o plyn s Ruskem nakrátko přerušil dodávky do Evropy",
+   "country": "UA",
+   "year": 2006,
+   "text": "novoroční spor o plyn s Ruskem nakrátko přerušil dodávky do Evropy"
+  },
+  {
+   "id": "r33",
+   "dataset": "countryEvents",
+   "key": "UA|2008|na summitu NATO v Bukurešti dostala Ukrajina příslib budoucího členství bez akčního plánu",
+   "country": "UA",
+   "year": 2008,
+   "text": "na summitu NATO v Bukurešti dostala Ukrajina příslib budoucího členství bez akčního plánu"
+  },
+  {
+   "id": "r34",
+   "dataset": "countryEvents",
+   "key": "UA|2008|oranžová koalice Juščenka a Tymošenkové se rozpadla",
+   "country": "UA",
+   "year": 2008,
+   "text": "oranžová koalice Juščenka a Tymošenkové se rozpadla"
+  },
+  {
+   "id": "r35",
+   "dataset": "countryEvents",
+   "key": "UA|2008|boxer Vasyl Lomačenko získal v Pekingu olympijské zlato v boxu pérové váhy",
+   "country": "UA",
+   "year": 2008,
+   "text": "boxer Vasyl Lomačenko získal v Pekingu olympijské zlato v boxu pérové váhy"
+  },
+  {
+   "id": "r36",
+   "dataset": "countryEvents",
+   "key": "UA|2008|Vitalij Klička se po čtyřleté přestávce vrátil do ringu a získal zpět titul WBC",
+   "country": "UA",
+   "year": 2008,
+   "text": "Vitalij Klička se po čtyřleté přestávce vrátil do ringu a získal zpět titul WBC"
+  },
+  {
+   "id": "r37",
+   "dataset": "countryEvents",
+   "key": "UA|2009|Šachtar Doněck vyhrál poslední ročník Poháru UEFA, ve finále zdolal Werder Brémy",
+   "country": "UA",
+   "year": 2009,
+   "text": "Šachtar Doněck vyhrál poslední ročník Poháru UEFA, ve finále zdolal Werder Brémy"
+  },
+  {
+   "id": "r38",
+   "dataset": "countryEvents",
+   "key": "UA|2009|lednový spor o plyn s Ruskem na dva týdny zastavil tranzit plynu přes Ukrajinu",
+   "country": "UA",
+   "year": 2009,
+   "text": "lednový spor o plyn s Ruskem na dva týdny zastavil tranzit plynu přes Ukrajinu"
+  },
+  {
+   "id": "r39",
+   "dataset": "countryEvents",
+   "key": "UA|2010|prezidentem byl zvolen Viktor Janukovyč",
+   "country": "UA",
+   "year": 2010,
+   "text": "prezidentem byl zvolen Viktor Janukovyč"
+  },
+  {
+   "id": "r40",
+   "dataset": "countryEvents",
+   "key": "UA|2011|bývalá premiérka Julija Tymošenková byla odsouzena k sedmi letům vězení",
+   "country": "UA",
+   "year": 2011,
+   "text": "bývalá premiérka Julija Tymošenková byla odsouzena k sedmi letům vězení"
+  },
+  {
+   "id": "r41",
+   "dataset": "countryEvents",
+   "key": "UA|2012|Ukrajina spolu s Polskem uspořádala fotbalové mistrovství Evropy",
+   "country": "UA",
+   "year": 2012,
+   "text": "Ukrajina spolu s Polskem uspořádala fotbalové mistrovství Evropy"
+  },
+  {
+   "id": "r42",
+   "dataset": "countryEvents",
+   "key": "UA|2012|Vasyl Lomačenko obhájil v Londýně olympijské zlato, tentokrát v lehké váze",
+   "country": "UA",
+   "year": 2012,
+   "text": "Vasyl Lomačenko obhájil v Londýně olympijské zlato, tentokrát v lehké váze"
+  },
+  {
+   "id": "r43",
+   "dataset": "countryEvents",
+   "key": "UA|2012|Oleksandr Usyk získal v Londýně olympijské zlato v boxu těžké váhy",
+   "country": "UA",
+   "year": 2012,
+   "text": "Oleksandr Usyk získal v Londýně olympijské zlato v boxu těžké váhy"
+  },
+  {
+   "id": "r44",
+   "dataset": "countryEvents",
+   "key": "UA|2013|v listopadu vypukl Euromajdan poté, co Janukovyč odmítl podepsat asociační dohodu s EU",
+   "country": "UA",
+   "year": 2013,
+   "text": "v listopadu vypukl Euromajdan poté, co Janukovyč odmítl podepsat asociační dohodu s EU"
+  },
+  {
+   "id": "r45",
+   "dataset": "countryEvents",
+   "key": "UA|2013|noční zásah jednotek Berkut proti studentům na Majdanu rozhořel revoluci důstojnosti",
+   "country": "UA",
+   "year": 2013,
+   "text": "noční zásah jednotek Berkut proti studentům na Majdanu rozhořel revoluci důstojnosti"
+  },
+  {
+   "id": "r46",
+   "dataset": "countryEvents",
+   "key": "UA|2014|v únoru padla na Majdanu nebeská setnina a prezident Janukovyč uprchl ze země",
+   "country": "UA",
+   "year": 2014,
+   "text": "v únoru padla na Majdanu nebeská setnina a prezident Janukovyč uprchl ze země"
+  },
+  {
+   "id": "r47",
+   "dataset": "countryEvents",
+   "key": "UA|2014|Rusko v březnu anektovalo Krym",
+   "country": "UA",
+   "year": 2014,
+   "text": "Rusko v březnu anektovalo Krym"
+  },
+  {
+   "id": "r48",
+   "dataset": "countryEvents",
+   "key": "UA|2014|na východě země vypukla válka v Donbasu",
+   "country": "UA",
+   "year": 2014,
+   "text": "na východě země vypukla válka v Donbasu"
+  },
+  {
+   "id": "r49",
+   "dataset": "countryEvents",
+   "key": "UA|2014|nad východní Ukrajinou byl sestřelen malajsijský let MH17 se 298 lidmi na palubě",
+   "country": "UA",
+   "year": 2014,
+   "text": "nad východní Ukrajinou byl sestřelen malajsijský let MH17 se 298 lidmi na palubě"
+  },
+  {
+   "id": "r50",
+   "dataset": "countryEvents",
+   "key": "UA|2014|prezidentem byl zvolen Petro Porošenko",
+   "country": "UA",
+   "year": 2014,
+   "text": "prezidentem byl zvolen Petro Porošenko"
+  },
+  {
+   "id": "r51",
+   "dataset": "countryEvents",
+   "key": "UA|2014|Ukrajina podepsala asociační dohodu s Evropskou unií",
+   "country": "UA",
+   "year": 2014,
+   "text": "Ukrajina podepsala asociační dohodu s Evropskou unií"
+  },
+  {
+   "id": "r52",
+   "dataset": "countryEvents",
+   "key": "UA|2014|Vitalij Klička se stal starostou Kyjeva",
+   "country": "UA",
+   "year": 2014,
+   "text": "Vitalij Klička se stal starostou Kyjeva"
+  },
+  {
+   "id": "r53",
+   "dataset": "countryEvents",
+   "key": "UA|2014|byla podepsána první minská dohoda o příměří v Donbasu",
+   "country": "UA",
+   "year": 2014,
+   "text": "byla podepsána první minská dohoda o příměří v Donbasu"
+  },
+  {
+   "id": "r54",
+   "dataset": "countryEvents",
+   "key": "UA|2014|ukrajinská ženská štafeta získala v Soči olympijské zlato v biatlonu",
+   "country": "UA",
+   "year": 2014,
+   "text": "ukrajinská ženská štafeta získala v Soči olympijské zlato v biatlonu"
+  },
+  {
+   "id": "r55",
+   "dataset": "countryEvents",
+   "key": "UA|2014|němý film Plemja Myroslava Slabošpyckého zvítězil na Týdnu kritiky v Cannes",
+   "country": "UA",
+   "year": 2014,
+   "text": "němý film Plemja Myroslava Slabošpyckého zvítězil na Týdnu kritiky v Cannes"
+  },
+  {
+   "id": "r56",
+   "dataset": "countryEvents",
+   "key": "UA|2015|byla podepsána druhá minská dohoda",
+   "country": "UA",
+   "year": 2015,
+   "text": "byla podepsána druhá minská dohoda"
+  },
+  {
+   "id": "r57",
+   "dataset": "countryEvents",
+   "key": "UA|2016|Džamala vyhrála pro Ukrajinu Eurovizi s písní 1944",
+   "country": "UA",
+   "year": 2016,
+   "text": "Džamala vyhrála pro Ukrajinu Eurovizi s písní 1944"
+  },
+  {
+   "id": "r58",
+   "dataset": "countryEvents",
+   "key": "UA|2016|Andrij Ševčenko se stal trenérem ukrajinské fotbalové reprezentace",
+   "country": "UA",
+   "year": 2016,
+   "text": "Andrij Ševčenko se stal trenérem ukrajinské fotbalové reprezentace"
+  },
+  {
+   "id": "r59",
+   "dataset": "countryEvents",
+   "key": "UA|2017|Kyjev hostil soutěž Eurovize po vítězství Džamaly",
+   "country": "UA",
+   "year": 2017,
+   "text": "Kyjev hostil soutěž Eurovize po vítězství Džamaly"
+  }
+ ]
+}

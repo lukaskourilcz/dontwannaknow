@@ -1,0 +1,456 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "prostejov|1973|prostějovská básnická soutěž 'Wolkrův Prostějov' se stala přední celostátní soutěží mladé poezie",
+   "country": "CZ",
+   "city": "prostejov",
+   "year": 1973,
+   "text": "prostějovská básnická soutěž 'Wolkrův Prostějov' se stala přední celostátní soutěží mladé poezie"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "sumperk|1948|hedvábnické závody Hedva byly znárodněny a modernizovány v rámci socialistického plánování",
+   "country": "CZ",
+   "city": "sumperk",
+   "year": 1948,
+   "text": "hedvábnické závody Hedva byly znárodněny a modernizovány v rámci socialistického plánování"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "sumperk|1968|šumperské oblastní divadlo uvedlo během Pražského jara českou adaptaci Brechtovy Matky Kuráže",
+   "country": "CZ",
+   "city": "sumperk",
+   "year": 1968,
+   "text": "šumperské oblastní divadlo uvedlo během Pražského jara českou adaptaci Brechtovy Matky Kuráže"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "sumperk|1975|závod na tvrdé kovy Pramet zaměstnával několik tisíc lidí a vyvážel nástroje z karbidu wolframu po celém bloku",
+   "country": "CZ",
+   "city": "sumperk",
+   "year": 1975,
+   "text": "závod na tvrdé kovy Pramet zaměstnával několik tisíc lidí a vyvážel nástroje z karbidu wolframu po celém bloku"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "tabor|1920|Tábor — založený husity v roce 1420 — oslavil své 500. výročí národními slavnostmi",
+   "country": "CZ",
+   "city": "tabor",
+   "year": 1920,
+   "text": "Tábor — založený husity v roce 1420 — oslavil své 500. výročí národními slavnostmi"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "tabor|1945|Tábor byl osvobozen jednotkami americké 3. armády ještě před vytyčením sovětských zón",
+   "country": "CZ",
+   "city": "tabor",
+   "year": 1945,
+   "text": "Tábor byl osvobozen jednotkami americké 3. armády ještě před vytyčením sovětských zón"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "tabor|1962|mlékárenský kombinát Madeta soustředil jihočeskou výrobu mléka v Táboře a Českých Budějovicích",
+   "country": "CZ",
+   "city": "tabor",
+   "year": 1962,
+   "text": "mlékárenský kombinát Madeta soustředil jihočeskou výrobu mléka v Táboře a Českých Budějovicích"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "tabor|1976|každoroční festival Husitské dny se stal velkou regionální slavností",
+   "country": "CZ",
+   "city": "tabor",
+   "year": 1976,
+   "text": "každoroční festival Husitské dny se stal velkou regionální slavností"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "trebic|1920|třebíčská židovská čtvrť a bazilika svatého Prokopa už přitahovaly meziválečné turisty",
+   "country": "CZ",
+   "city": "trebic",
+   "year": 1920,
+   "text": "třebíčská židovská čtvrť a bazilika svatého Prokopa už přitahovaly meziválečné turisty"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "trebic|1945|2. ukrajinský front Rudé armády osvobodil Třebíč v květnu",
+   "country": "CZ",
+   "city": "trebic",
+   "year": 1945,
+   "text": "2. ukrajinský front Rudé armády osvobodil Třebíč v květnu"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "trebic|1968|obuvnická továrna BOPO (nástupce Bati) zaměstnávala několik tisíc lidí a vyráběla většinu československé dětské obuvi",
+   "country": "CZ",
+   "city": "trebic",
+   "year": 1968,
+   "text": "obuvnická továrna BOPO (nástupce Bati) zaměstnávala několik tisíc lidí a vyráběla většinu československé dětské obuvi"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "trebic|1980|první reaktorový blok nedaleké elektrárny Dukovany byl uváděn do provozu",
+   "country": "CZ",
+   "city": "trebic",
+   "year": 1980,
+   "text": "první reaktorový blok nedaleké elektrárny Dukovany byl uváděn do provozu"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "trutnov|1922|lnářské závody Texlen — jedny z nejstarších v Čechách — vyráběly prostěradla pro armádu nové republiky",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1922,
+   "text": "lnářské závody Texlen — jedny z nejstarších v Čechách — vyráběly prostěradla pro armádu nové republiky"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "trutnov|1968|trutnovský lyžařský areál Špindlerův Mlýn hostil první mezinárodní lyžařskou akci ve východním bloku po roce 1968",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1968,
+   "text": "trutnovský lyžařský areál Špindlerův Mlýn hostil první mezinárodní lyžařskou akci ve východním bloku po roce 1968"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "trutnov|1979|Krkonošský národní park (založený v roce 1963) si připomněl desetiletí svého rozšiřování kolem Trutnova",
+   "country": "CZ",
+   "city": "trutnov",
+   "year": 1979,
+   "text": "Krkonošský národní park (založený v roce 1963) si připomněl desetiletí svého rozšiřování kolem Trutnova"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "trinec|1920|Třinec byl z rakouského Slezska začleněn do Československa a řeka Olše se stala polskou hranicí",
+   "country": "CZ",
+   "city": "trinec",
+   "year": 1920,
+   "text": "Třinec byl z rakouského Slezska začleněn do Československa a řeka Olše se stala polskou hranicí"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "trinec|1945|polské síly Rudé armády osvobodily Třinec v květnu",
+   "country": "CZ",
+   "city": "trinec",
+   "year": 1945,
+   "text": "polské síly Rudé armády osvobodily Třinec v květnu"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "trinec|1960|třinecké železárny zdvojnásobily výrobu, aby zásobovaly těžký průmysl sovětského bloku",
+   "country": "CZ",
+   "city": "trinec",
+   "year": 1960,
+   "text": "třinecké železárny zdvojnásobily výrobu, aby zásobovaly těžký průmysl sovětského bloku"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "trinec|1976|hokejový klub HC Třinec postoupil do československé nejvyšší ligy",
+   "country": "CZ",
+   "city": "trinec",
+   "year": 1976,
+   "text": "hokejový klub HC Třinec postoupil do československé nejvyšší ligy"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "uherske-hradiste|1922|slovácký skanzen v Uherském Hradišti uchovával moravsko-slovenský selský život",
+   "country": "CZ",
+   "city": "uherske-hradiste",
+   "year": 1922,
+   "text": "slovácký skanzen v Uherském Hradišti uchovával moravsko-slovenský selský život"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "uherske-hradiste|1942|hradišťská židovská komunita byla deportována přes Osvětim; vrátilo se jen málo lidí",
+   "country": "CZ",
+   "city": "uherske-hradiste",
+   "year": 1942,
+   "text": "hradišťská židovská komunita byla deportována přes Osvětim; vrátilo se jen málo lidí"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "uherske-hradiste|1968|folklorní festival Slovácký rok v nedalekém Kyjově přitahoval desetitisíce lidí",
+   "country": "CZ",
+   "city": "uherske-hradiste",
+   "year": 1968,
+   "text": "folklorní festival Slovácký rok v nedalekém Kyjově přitahoval desetitisíce lidí"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "uherske-hradiste|1975|místní elektrotechnický závod Mesit dodával letecká zařízení pro sovětský kosmický program",
+   "country": "CZ",
+   "city": "uherske-hradiste",
+   "year": 1975,
+   "text": "místní elektrotechnický závod Mesit dodával letecká zařízení pro sovětský kosmický program"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "vsetin|1920|Vsetín byl historickým hlavním městem Valašska (moravského Valašska) — pastevecké horské oblasti",
+   "country": "CZ",
+   "city": "vsetin",
+   "year": 1920,
+   "text": "Vsetín byl historickým hlavním městem Valašska (moravského Valašska) — pastevecké horské oblasti"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "vsetin|1945|protipartyzánské represálie u Vsetína zahrnovaly 19. dubna vypálení Ploštiny, při kterém zahynulo 27 vesničanů",
+   "country": "CZ",
+   "city": "vsetin",
+   "year": 1945,
+   "text": "protipartyzánské represálie u Vsetína zahrnovaly 19. dubna vypálení Ploštiny, při kterém zahynulo 27 vesničanů"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "vsetin|1955|závod na elektromotory MEZ Vsetín se rozrostl v jeden z největších v Československu",
+   "country": "CZ",
+   "city": "vsetin",
+   "year": 1955,
+   "text": "závod na elektromotory MEZ Vsetín se rozrostl v jeden z největších v Československu"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "vsetin|1972|Vsetín hostil mistrovství Československa v cyklistice na úpatí Beskyd",
+   "country": "CZ",
+   "city": "vsetin",
+   "year": 1972,
+   "text": "Vsetín hostil mistrovství Československa v cyklistice na úpatí Beskyd"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "cesky-tesin|1958|polské divadlo v Českém Těšíně — jediné polskojazyčné divadlo v Československu — uvedlo pod socialistickou záštitou Wyspiańského",
+   "country": "CZ",
+   "city": "cesky-tesin",
+   "year": 1958,
+   "text": "polské divadlo v Českém Těšíně — jediné polskojazyčné divadlo v Československu — uvedlo pod socialistickou záštitou Wyspiańského"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "cesky-tesin|1972|polská menšina města byla oficiálně uznána ve školních osnovách v celém regionu Těšínsko",
+   "country": "CZ",
+   "city": "cesky-tesin",
+   "year": 1972,
+   "text": "polská menšina města byla oficiálně uznána ve školních osnovách v celém regionu Těšínsko"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "cheb|1922|Cheb byl západním okrajem Čech, převážně německy mluvící, se slavnou kronikou Valdštejnovy vraždy ze 17. století",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 1922,
+   "text": "Cheb byl západním okrajem Čech, převážně německy mluvící, se slavnou kronikou Valdštejnovy vraždy ze 17. století"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "cheb|1946|německé obyvatelstvo bylo vyhnáno; ze středověkého centra s Valdštejnovým domem se stalo české muzeum pod širým nebem",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 1946,
+   "text": "německé obyvatelstvo bylo vyhnáno; ze středověkého centra s Valdštejnovým domem se stalo české muzeum pod širým nebem"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "cheb|1975|chebské železniční spojení se západním Německem se stalo nejpřísněji kontrolovaným československým hraničním přechodem",
+   "country": "CZ",
+   "city": "cheb",
+   "year": 1975,
+   "text": "chebské železniční spojení se západním Německem se stalo nejpřísněji kontrolovaným československým hraničním přechodem"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "chomutov|1928|chomutovské závody Mannesmann na bezešvé trubky byly předním evropským výrobcem ocelových trubek",
+   "country": "CZ",
+   "city": "chomutov",
+   "year": 1928,
+   "text": "chomutovské závody Mannesmann na bezešvé trubky byly předním evropským výrobcem ocelových trubek"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "chomutov|1942|závody Mannesmann vyráběly pod německou správou ocelové trubky pro stavbu ponorek",
+   "country": "CZ",
+   "city": "chomutov",
+   "year": 1942,
+   "text": "závody Mannesmann vyráběly pod německou správou ocelové trubky pro stavbu ponorek"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "chomutov|1973|povrchová těžba v podhůří Krušných hor kolem Chomutova srovnávala se zemí celé vesnice",
+   "country": "CZ",
+   "city": "chomutov",
+   "year": 1973,
+   "text": "povrchová těžba v podhůří Krušných hor kolem Chomutova srovnávala se zemí celé vesnice"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "prerov|1922|přerovské železniční dílny patřily k nejrušnějším osobním přestupním uzlům v zemi",
+   "country": "CZ",
+   "city": "prerov",
+   "year": 1922,
+   "text": "přerovské železniční dílny patřily k nejrušnějším osobním přestupním uzlům v zemi"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "prerov|1968|mikroskopy a dalekohledy ze závodu Meopta vybavovaly armády východního bloku",
+   "country": "CZ",
+   "city": "prerov",
+   "year": 1968,
+   "text": "mikroskopy a dalekohledy ze závodu Meopta vybavovaly armády východního bloku"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "pribram|1920|Příbram měla asi 30 000 obyvatel a byla hlavním městem těžby stříbra ve středních Čechách",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1920,
+   "text": "Příbram měla asi 30 000 obyvatel a byla hlavním městem těžby stříbra ve středních Čechách"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "pribram|1942|Příbramská hornická škola školila inženýry pro celé říšské úsilí o těžbu uranu",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1942,
+   "text": "Příbramská hornická škola školila inženýry pro celé říšské úsilí o těžbu uranu"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "pribram|1976|příbramská pouť ke katedrále na Svaté Hoře přitahovala desetitisíce katolíků v tichém vzdoru proti socialistické ortodoxii",
+   "country": "CZ",
+   "city": "pribram",
+   "year": 1976,
+   "text": "příbramská pouť ke katedrále na Svaté Hoře přitahovala desetitisíce katolíků v tichém vzdoru proti socialistické ortodoxii"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "znojmo|1924|znojemský region pěstování okurek byl oficiálně ochráněn značkou pro export",
+   "country": "CZ",
+   "city": "znojmo",
+   "year": 1924,
+   "text": "znojemský region pěstování okurek byl oficiálně ochráněn značkou pro export"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "znojmo|1968|letní festival klasické hudby kulturního centra Znojemská beseda začal jako kulturní výkladní skříň sovětské éry",
+   "country": "CZ",
+   "city": "znojmo",
+   "year": 1968,
+   "text": "letní festival klasické hudby kulturního centra Znojemská beseda začal jako kulturní výkladní skříň sovětské éry"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "jablonec|1950|československé sklářské školy v Jablonci a Železném Brodě obnovily s českými učni výrobu korálků",
+   "country": "CZ",
+   "city": "jablonec",
+   "year": 1950,
+   "text": "československé sklářské školy v Jablonci a Železném Brodě obnovily s českými učni výrobu korálků"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "jablonec|1968|značka Bižuterie Jablonec vznikla jako oficiální socialistická spotřební řada korálkové bižuterie",
+   "country": "CZ",
+   "city": "jablonec",
+   "year": 1968,
+   "text": "značka Bižuterie Jablonec vznikla jako oficiální socialistická spotřební řada korálkové bižuterie"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1976|řada Škoda 105/120 nahradila model 1000 MB jako sériový sedan Československa",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1976,
+   "text": "řada Škoda 105/120 nahradila model 1000 MB jako sériový sedan Československa"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "mlada-boleslav|1949|firma byla znárodněna jako Automobilové závody národní podnik (AZNP)",
+   "country": "CZ",
+   "city": "mlada-boleslav",
+   "year": 1949,
+   "text": "firma byla znárodněna jako Automobilové závody národní podnik (AZNP)"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "prague|1942|18. června oblehlo gestapo pravoslavný chrám Cyrila a Metoděje v Resslově ulici, kde se po atentátu ukrývali parašutisté; sedm z nich po několikahodinovém boji padlo nebo zvolilo smrt vlastní rukou",
+   "country": "CZ",
+   "city": "prague",
+   "year": 1942,
+   "text": "18. června oblehlo gestapo pravoslavný chrám Cyrila a Metoděje v Resslově ulici, kde se po atentátu ukrývali parašutisté; sedm z nich po několikahodinovém boji padlo nebo zvolilo smrt vlastní rukou"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "prague|1942|úkryt výsadkářů v kryptě kostela prozradil za vypsanou odměnu zrádce Karel Čurda, který se sám přihlásil gestapu",
+   "country": "CZ",
+   "city": "prague",
+   "year": 1942,
+   "text": "úkryt výsadkářů v kryptě kostela prozradil za vypsanou odměnu zrádce Karel Čurda, který se sám přihlásil gestapu"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "prague|1945|14. února svrhly americké bombardéry kvůli navigační chybě bomby na město místo na Drážďany a zahynulo přes 700 lidí, mnoho z nich na Vinohradech a Vyšehradě",
+   "country": "CZ",
+   "city": "prague",
+   "year": 1945,
+   "text": "14. února svrhly americké bombardéry kvůli navigační chybě bomby na město místo na Drážďany a zahynulo přes 700 lidí, mnoho z nich na Vinohradech a Vyšehradě"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "prague|1945|při únorovém náletu vyhořel Emauzský klášter a jeho zničený kostel byl veřejnosti znovu otevřen až po více než šedesáti letech",
+   "country": "CZ",
+   "city": "prague",
+   "year": 1945,
+   "text": "při únorovém náletu vyhořel Emauzský klášter a jeho zničený kostel byl veřejnosti znovu otevřen až po více než šedesáti letech"
+  }
+ ]
+}

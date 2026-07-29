@@ -1,0 +1,456 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "cityFacts",
+   "key": "dnipro|2023|14. ledna zasáhla ruská střela Ch-22 devítipatrový obytný dům; zahynulo 46 lidí včetně šesti dětí",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 2023,
+   "text": "14. ledna zasáhla ruská střela Ch-22 devítipatrový obytný dům; zahynulo 46 lidí včetně šesti dětí"
+  },
+  {
+   "id": "r1",
+   "dataset": "cityFacts",
+   "key": "dnipro|2024|21. listopadu Rusko poprvé v bojích použilo balistickou střelu Orešnik a zasáhlo jí raketárnu Pivdenmaš",
+   "country": "UA",
+   "city": "dnipro",
+   "year": 2024,
+   "text": "21. listopadu Rusko poprvé v bojích použilo balistickou střelu Orešnik a zasáhlo jí raketárnu Pivdenmaš"
+  },
+  {
+   "id": "r2",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|1944|obnova hráze DniproHES po ústupu Němců se stala jednou z vlajkových poválečných staveb",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 1944,
+   "text": "obnova hráze DniproHES po ústupu Němců se stala jednou z vlajkových poválečných staveb"
+  },
+  {
+   "id": "r3",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|1959|ze závodu Kommunar vyjel první lidový vůz ZAZ-965 Záporožec",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 1959,
+   "text": "ze závodu Kommunar vyjel první lidový vůz ZAZ-965 Záporožec"
+  },
+  {
+   "id": "r4",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|1965|v září získal kozácký ostrov Chortycja status státní historicko-kulturní rezervace",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 1965,
+   "text": "v září získal kozácký ostrov Chortycja status státní historicko-kulturní rezervace"
+  },
+  {
+   "id": "r5",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|1966|do sériové výroby vstoupil ZAZ-966 se vzduchem chlazeným motorem vzadu",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 1966,
+   "text": "do sériové výroby vstoupil ZAZ-966 se vzduchem chlazeným motorem vzadu"
+  },
+  {
+   "id": "r6",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|1984|u Enerhodaru byl spuštěn první blok Záporožské jaderné elektrárny — později největší v Evropě",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 1984,
+   "text": "u Enerhodaru byl spuštěn první blok Záporožské jaderné elektrárny — později největší v Evropě"
+  },
+  {
+   "id": "r7",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|1993|v dubnu byl ostrov Chortycja povýšen na národní rezervaci, symbol ukrajinské kozácké paměti",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 1993,
+   "text": "v dubnu byl ostrov Chortycja povýšen na národní rezervaci, symbol ukrajinské kozácké paměti"
+  },
+  {
+   "id": "r8",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|1995|uvedením šestého bloku dosáhla Záporožská jaderná elektrárna plného výkonu přes 6 000 megawattů",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 1995,
+   "text": "uvedením šestého bloku dosáhla Záporožská jaderná elektrárna plného výkonu přes 6 000 megawattů"
+  },
+  {
+   "id": "r9",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|2022|4. března ruská armáda po nočním ostřelování obsadila Záporožskou jadernou elektrárnu — největší v Evropě",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 2022,
+   "text": "4. března ruská armáda po nočním ostřelování obsadila Záporožskou jadernou elektrárnu — největší v Evropě"
+  },
+  {
+   "id": "r10",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|2022|30. září zabil ruský raketový úder na humanitární kolonu na okraji města desítky čekajících civilistů",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 2022,
+   "text": "30. září zabil ruský raketový úder na humanitární kolonu na okraji města desítky čekajících civilistů"
+  },
+  {
+   "id": "r11",
+   "dataset": "cityFacts",
+   "key": "zaporizhzhia|2022|30. září Moskva vyhlásila anexi Záporožské oblasti po takzvaném referendu, které svět odsoudil jako fingované",
+   "country": "UA",
+   "city": "zaporizhzhia",
+   "year": 2022,
+   "text": "30. září Moskva vyhlásila anexi Záporožské oblasti po takzvaném referendu, které svět odsoudil jako fingované"
+  },
+  {
+   "id": "r12",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1944|po osvobození se těžba železné rudy v Kryvbasu obnovovala v troskách zničených dolů",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1944,
+   "text": "po osvobození se těžba železné rudy v Kryvbasu obnovovala v troskách zničených dolů"
+  },
+  {
+   "id": "r13",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1978|25. ledna se zde narodil Volodymyr Zelenskyj, pozdější prezident Ukrajiny",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1978,
+   "text": "25. ledna se zde narodil Volodymyr Zelenskyj, pozdější prezident Ukrajiny"
+  },
+  {
+   "id": "r14",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|1991|ocelárna Kryvorižstal se po vyhlášení nezávislosti stala jedním z největších průmyslových podniků Ukrajiny",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 1991,
+   "text": "ocelárna Kryvorižstal se po vyhlášení nezávislosti stala jedním z největších průmyslových podniků Ukrajiny"
+  },
+  {
+   "id": "r15",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|2004|kontroverzní prodej Kryvorižstalu podnikatelům spřízněným s prezidentem Kučmou za zlomek hodnoty vyvolal vlnu kritiky",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 2004,
+   "text": "kontroverzní prodej Kryvorižstalu podnikatelům spřízněným s prezidentem Kučmou za zlomek hodnoty vyvolal vlnu kritiky"
+  },
+  {
+   "id": "r16",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|2005|24. října koupil ocelárnu Kryvorižstal v reprivatizační aukci koncern Mittal Steel za 4,8 miliardy dolarů",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 2005,
+   "text": "24. října koupil ocelárnu Kryvorižstal v reprivatizační aukci koncern Mittal Steel za 4,8 miliardy dolarů"
+  },
+  {
+   "id": "r17",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|2022|14. září zasáhly ruské střely přehradu na řece Inhulec; prudce stoupající hladina si vynutila evakuace v rodném městě prezidenta",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 2022,
+   "text": "14. září zasáhly ruské střely přehradu na řece Inhulec; prudce stoupající hladina si vynutila evakuace v rodném městě prezidenta"
+  },
+  {
+   "id": "r18",
+   "dataset": "cityFacts",
+   "key": "kryvyi-rih|2023|13. června zničila ruská střela vchod obytného domu; zahynulo dvanáct lidí",
+   "country": "UA",
+   "city": "kryvyi-rih",
+   "year": 2023,
+   "text": "13. června zničila ruská střela vchod obytného domu; zahynulo dvanáct lidí"
+  },
+  {
+   "id": "r19",
+   "dataset": "cityFacts",
+   "key": "donetsk|1943|po dvouleté okupaci zůstalo město v troskách; ustupující wehrmacht vyhodil do povětří doly i hutě",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1943,
+   "text": "po dvouleté okupaci zůstalo město v troskách; ustupující wehrmacht vyhodil do povětří doly i hutě"
+  },
+  {
+   "id": "r20",
+   "dataset": "cityFacts",
+   "key": "donetsk|1961|při destalinizaci dostalo město jméno Doněck podle řeky Severní Doněc; název Stalino zmizel z map",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1961,
+   "text": "při destalinizaci dostalo město jméno Doněck podle řeky Severní Doněc; název Stalino zmizel z map"
+  },
+  {
+   "id": "r21",
+   "dataset": "cityFacts",
+   "key": "donetsk|1965|ve městě vzniklo Doněcké vědecké centrum Akademie věd Ukrajinské SSR",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1965,
+   "text": "ve městě vzniklo Doněcké vědecké centrum Akademie věd Ukrajinské SSR"
+  },
+  {
+   "id": "r22",
+   "dataset": "cityFacts",
+   "key": "donetsk|1970|díky růžovým záhonům po celém městě se Doněcku ujala přezdívka 'město milionu růží'",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1970,
+   "text": "díky růžovým záhonům po celém městě se Doněcku ujala přezdívka 'město milionu růží'"
+  },
+  {
+   "id": "r23",
+   "dataset": "cityFacts",
+   "key": "donetsk|1978|patnáctiletý tyčkař Sergej Bubka přesídlil do Doněcka za trenérem Vitalijem Petrovem a začal zde svou kariéru",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1978,
+   "text": "patnáctiletý tyčkař Sergej Bubka přesídlil do Doněcka za trenérem Vitalijem Petrovem a začal zde svou kariéru"
+  },
+  {
+   "id": "r24",
+   "dataset": "cityFacts",
+   "key": "donetsk|1991|s rozpadem SSSR se Doněck stal součástí nezávislé Ukrajiny; následoval úpadek uhelného průmyslu",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1991,
+   "text": "s rozpadem SSSR se Doněck stal součástí nezávislé Ukrajiny; následoval úpadek uhelného průmyslu"
+  },
+  {
+   "id": "r25",
+   "dataset": "cityFacts",
+   "key": "donetsk|1995|rodák Rinat Achmetov skupoval během divoké privatizace doly a hutě Donbasu a stal se nejbohatším Ukrajincem",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 1995,
+   "text": "rodák Rinat Achmetov skupoval během divoké privatizace doly a hutě Donbasu a stal se nejbohatším Ukrajincem"
+  },
+  {
+   "id": "r26",
+   "dataset": "cityFacts",
+   "key": "donetsk|2000|Achmetov založil holding System Capital Management, který ovládl uhlí, ocel a energetiku regionu",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2000,
+   "text": "Achmetov založil holding System Capital Management, který ovládl uhlí, ocel a energetiku regionu"
+  },
+  {
+   "id": "r27",
+   "dataset": "cityFacts",
+   "key": "donetsk|2009|29. srpna byla otevřena Donbas Arena, první stadion kategorie elite ve východní Evropě s kapacitou přes 50 000 diváků",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2009,
+   "text": "29. srpna byla otevřena Donbas Arena, první stadion kategorie elite ve východní Evropě s kapacitou přes 50 000 diváků"
+  },
+  {
+   "id": "r28",
+   "dataset": "cityFacts",
+   "key": "donetsk|2009|Šachtar Doněck vyhrál 20. května v Istanbulu Pohár UEFA výhrou 2:1 nad Werderem Brémy — první evropská trofej ukrajinského klubu",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2009,
+   "text": "Šachtar Doněck vyhrál 20. května v Istanbulu Pohár UEFA výhrou 2:1 nad Werderem Brémy — první evropská trofej ukrajinského klubu"
+  },
+  {
+   "id": "r29",
+   "dataset": "cityFacts",
+   "key": "donetsk|2011|mezinárodní letiště dostalo jméno po skladateli Sergeji Prokofjevovi, narozeném v doněcké gubernii roku 1891",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2011,
+   "text": "mezinárodní letiště dostalo jméno po skladateli Sergeji Prokofjevovi, narozeném v doněcké gubernii roku 1891"
+  },
+  {
+   "id": "r30",
+   "dataset": "cityFacts",
+   "key": "donetsk|2012|Donbas Arena hostila zápasy Eura 2012 včetně semifinále Portugalsko–Španělsko",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2012,
+   "text": "Donbas Arena hostila zápasy Eura 2012 včetně semifinále Portugalsko–Španělsko"
+  },
+  {
+   "id": "r31",
+   "dataset": "cityFacts",
+   "key": "donetsk|2014|v dubnu obsadili ozbrojenci budovy správy a vyhlásili Doněckou lidovou republiku",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2014,
+   "text": "v dubnu obsadili ozbrojenci budovy správy a vyhlásili Doněckou lidovou republiku"
+  },
+  {
+   "id": "r32",
+   "dataset": "cityFacts",
+   "key": "donetsk|2014|26. května se rozhořela první bitva o doněcké letiště; ukrajinští výsadkáři po náletech separatisty vytlačili",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2014,
+   "text": "26. května se rozhořela první bitva o doněcké letiště; ukrajinští výsadkáři po náletech separatisty vytlačili"
+  },
+  {
+   "id": "r33",
+   "dataset": "cityFacts",
+   "key": "donetsk|2014|17. července byl nad územím ovládaným separatisty u Hrabového sestřelen Boeing letu MH17; zahynulo všech 298 lidí na palubě",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2014,
+   "text": "17. července byl nad územím ovládaným separatisty u Hrabového sestřelen Boeing letu MH17; zahynulo všech 298 lidí na palubě"
+  },
+  {
+   "id": "r34",
+   "dataset": "cityFacts",
+   "key": "donetsk|2014|v září začala druhá, mnohem ničivější bitva o letiště, v níž jeho obránci dostali přezdívku 'kyborgové'",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2014,
+   "text": "v září začala druhá, mnohem ničivější bitva o letiště, v níž jeho obránci dostali přezdívku 'kyborgové'"
+  },
+  {
+   "id": "r35",
+   "dataset": "cityFacts",
+   "key": "donetsk|2015|21. ledna padlo letiště do rukou separatistů; moderní terminál Prokofjevova letiště byl srovnán se zemí",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2015,
+   "text": "21. ledna padlo letiště do rukou separatistů; moderní terminál Prokofjevova letiště byl srovnán se zemí"
+  },
+  {
+   "id": "r36",
+   "dataset": "cityFacts",
+   "key": "donetsk|2017|Šachtar i jeho fanoušci žili v exilu — klub od roku 2014 hrával domácí zápasy mimo okupované město",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2017,
+   "text": "Šachtar i jeho fanoušci žili v exilu — klub od roku 2014 hrával domácí zápasy mimo okupované město"
+  },
+  {
+   "id": "r37",
+   "dataset": "cityFacts",
+   "key": "donetsk|2022|v září uspořádaly okupační úřady pseudoreferendum o připojení k Rusku, které svět odmítl jako podvod",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2022,
+   "text": "v září uspořádaly okupační úřady pseudoreferendum o připojení k Rusku, které svět odmítl jako podvod"
+  },
+  {
+   "id": "r38",
+   "dataset": "cityFacts",
+   "key": "donetsk|2022|30. září Putin oznámil anexi Doněcké oblasti, ač Rusko nikdy neovládlo celé její území",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2022,
+   "text": "30. září Putin oznámil anexi Doněcké oblasti, ač Rusko nikdy neovládlo celé její území"
+  },
+  {
+   "id": "r39",
+   "dataset": "cityFacts",
+   "key": "donetsk|2023|centrum města čelilo opakovanému ostřelování; život ve frontovém Doněcku zůstával v sevření války",
+   "country": "UA",
+   "city": "donetsk",
+   "year": 2023,
+   "text": "centrum města čelilo opakovanému ostřelování; život ve frontovém Doněcku zůstával v sevření války"
+  },
+  {
+   "id": "r40",
+   "dataset": "cityFacts",
+   "key": "luhansk|1942|v nedalekém Krasnodonu vznikla podzemní mládežnická organizace Mladá garda, jejíž členové byli záhy popraveni",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1942,
+   "text": "v nedalekém Krasnodonu vznikla podzemní mládežnická organizace Mladá garda, jejíž členové byli záhy popraveni"
+  },
+  {
+   "id": "r41",
+   "dataset": "cityFacts",
+   "key": "luhansk|1943|Rudá armáda osvobodila Vorošilovgrad 14. února jako jedno z prvních osvobozených oblastních center Ukrajiny",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1943,
+   "text": "Rudá armáda osvobodila Vorošilovgrad 14. února jako jedno z prvních osvobozených oblastních center Ukrajiny"
+  },
+  {
+   "id": "r42",
+   "dataset": "cityFacts",
+   "key": "luhansk|1952|místní lokomotivka začala vyrábět výkonné parní lokomotivy řady LV, jedny z posledních sovětských parostrojů",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1952,
+   "text": "místní lokomotivka začala vyrábět výkonné parní lokomotivy řady LV, jedny z posledních sovětských parostrojů"
+  },
+  {
+   "id": "r43",
+   "dataset": "cityFacts",
+   "key": "luhansk|1956|vorošilovgradská lokomotivka patřila mezi tři největší výrobce lokomotiv v SSSR",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1956,
+   "text": "vorošilovgradská lokomotivka patřila mezi tři největší výrobce lokomotiv v SSSR"
+  },
+  {
+   "id": "r44",
+   "dataset": "cityFacts",
+   "key": "luhansk|1963|ve městě se narodil tyčkař Sergej Bubka, pozdější první člověk, který skočil přes šest metrů",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1963,
+   "text": "ve městě se narodil tyčkař Sergej Bubka, pozdější první člověk, který skočil přes šest metrů"
+  },
+  {
+   "id": "r45",
+   "dataset": "cityFacts",
+   "key": "luhansk|1965|první dieselové lokomotivy řady M62 z vorošilovgradské továrny zamířily v září do Polska",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1965,
+   "text": "první dieselové lokomotivy řady M62 z vorošilovgradské továrny zamířily v září do Polska"
+  },
+  {
+   "id": "r46",
+   "dataset": "cityFacts",
+   "key": "luhansk|1972|Zorja Vorošilovgrad jako první mimostoličný klub vyhrála sovětskou nejvyšší fotbalovou ligu",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1972,
+   "text": "Zorja Vorošilovgrad jako první mimostoličný klub vyhrála sovětskou nejvyšší fotbalovou ligu"
+  },
+  {
+   "id": "r47",
+   "dataset": "cityFacts",
+   "key": "luhansk|1989|počet obyvatel Luhansku se za pozdního SSSR přiblížil půl milionu po desetiletích bytové i průmyslové výstavby",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1989,
+   "text": "počet obyvatel Luhansku se za pozdního SSSR přiblížil půl milionu po desetiletích bytové i průmyslové výstavby"
+  },
+  {
+   "id": "r48",
+   "dataset": "cityFacts",
+   "key": "luhansk|1991|po nezávislosti Ukrajiny zasáhla Luhansk hluboká deindustrializace; oblast během následujících let ztratila pětinu obyvatel",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 1991,
+   "text": "po nezávislosti Ukrajiny zasáhla Luhansk hluboká deindustrializace; oblast během následujících let ztratila pětinu obyvatel"
+  },
+  {
+   "id": "r49",
+   "dataset": "cityFacts",
+   "key": "luhansk|2014|28. dubna ozbrojenci vyhlásili Luhanskou lidovou republiku a obsadili budovu tajné služby",
+   "country": "UA",
+   "city": "luhansk",
+   "year": 2014,
+   "text": "28. dubna ozbrojenci vyhlásili Luhanskou lidovou republiku a obsadili budovu tajné služby"
+  }
+ ]
+}

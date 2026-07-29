@@ -1,0 +1,406 @@
+{
+ "pass": "A",
+ "promptVersion": "relevance-v1",
+ "records": [
+  {
+   "id": "r0",
+   "dataset": "countryEvents",
+   "key": "CZ|1968|Věra Čáslavská získala v Mexiku čtyři zlaté olympijské medaile ve sportovní gymnastice",
+   "country": "CZ",
+   "year": 1968,
+   "text": "Věra Čáslavská získala v Mexiku čtyři zlaté olympijské medaile ve sportovní gymnastice"
+  },
+  {
+   "id": "r1",
+   "dataset": "countryEvents",
+   "key": "CZ|1968|Marta Kubišová nazpívala Modlitbu pro Martu, symbol odporu proti okupaci",
+   "country": "CZ",
+   "year": 1968,
+   "text": "Marta Kubišová nazpívala Modlitbu pro Martu, symbol odporu proti okupaci"
+  },
+  {
+   "id": "r2",
+   "dataset": "countryEvents",
+   "key": "CZ|1969|po vítězství nad SSSR na hokejovém šampionátu propukly v ulicích spontánní oslavy",
+   "country": "CZ",
+   "year": 1969,
+   "text": "po vítězství nad SSSR na hokejovém šampionátu propukly v ulicích spontánní oslavy"
+  },
+  {
+   "id": "r3",
+   "dataset": "countryEvents",
+   "key": "CZ|1969|v dubnu nahradil Dubčeka ve vedení strany Gustáv Husák",
+   "country": "CZ",
+   "year": 1969,
+   "text": "v dubnu nahradil Dubčeka ve vedení strany Gustáv Husák"
+  },
+  {
+   "id": "r4",
+   "dataset": "countryEvents",
+   "key": "CZ|1971|Olga Havlová a další zakládali zázemí pro pronásledované disidenty",
+   "country": "CZ",
+   "year": 1971,
+   "text": "Olga Havlová a další zakládali zázemí pro pronásledované disidenty"
+  },
+  {
+   "id": "r5",
+   "dataset": "countryEvents",
+   "key": "CZ|1974|9. května byla v Praze otevřena první trasa metra, linka C",
+   "country": "CZ",
+   "year": 1974,
+   "text": "9. května byla v Praze otevřena první trasa metra, linka C"
+  },
+  {
+   "id": "r6",
+   "dataset": "countryEvents",
+   "key": "CZ|1975|Martina Navrátilová požádala během US Open o azyl a emigrovala do USA",
+   "country": "CZ",
+   "year": 1975,
+   "text": "Martina Navrátilová požádala během US Open o azyl a emigrovala do USA"
+  },
+  {
+   "id": "r7",
+   "dataset": "countryEvents",
+   "key": "CZ|1976|Antonín Panenka rozhodl finále mistrovství Evropy ve fotbale drzou penaltou proti Německu",
+   "country": "CZ",
+   "year": 1976,
+   "text": "Antonín Panenka rozhodl finále mistrovství Evropy ve fotbale drzou penaltou proti Německu"
+  },
+  {
+   "id": "r8",
+   "dataset": "countryEvents",
+   "key": "CZ|1977|režim spustil kampaň Anticharta, v níž umělci hromadně odsoudili Chartu 77",
+   "country": "CZ",
+   "year": 1977,
+   "text": "režim spustil kampaň Anticharta, v níž umělci hromadně odsoudili Chartu 77"
+  },
+  {
+   "id": "r9",
+   "dataset": "countryEvents",
+   "key": "CZ|1981|bratři Šťastní emigrovali do Kanady a začali hrát v NHL za Québec Nordiques",
+   "country": "CZ",
+   "year": 1981,
+   "text": "bratři Šťastní emigrovali do Kanady a začali hrát v NHL za Québec Nordiques"
+  },
+  {
+   "id": "r10",
+   "dataset": "countryEvents",
+   "key": "CZ|1981|Ivan Lendl se prosadil mezi světovou tenisovou špičku",
+   "country": "CZ",
+   "year": 1981,
+   "text": "Ivan Lendl se prosadil mezi světovou tenisovou špičku"
+  },
+  {
+   "id": "r11",
+   "dataset": "countryEvents",
+   "key": "CZ|1982|panelová sídliště pohltila většinu nové bytové výstavby v zemi",
+   "country": "CZ",
+   "year": 1982,
+   "text": "panelová sídliště pohltila většinu nové bytové výstavby v zemi"
+  },
+  {
+   "id": "r12",
+   "dataset": "countryEvents",
+   "key": "CZ|1983|Miloš Forman natáčel v komunistické Praze oscarového Amadea",
+   "country": "CZ",
+   "year": 1983,
+   "text": "Miloš Forman natáčel v komunistické Praze oscarového Amadea"
+  },
+  {
+   "id": "r13",
+   "dataset": "countryEvents",
+   "key": "CZ|1983|Ivan Lendl se poprvé stal světovou tenisovou jedničkou",
+   "country": "CZ",
+   "year": 1983,
+   "text": "Ivan Lendl se poprvé stal světovou tenisovou jedničkou"
+  },
+  {
+   "id": "r14",
+   "dataset": "countryEvents",
+   "key": "CZ|1984|básník Jaroslav Seifert získal jako první Čech Nobelovu cenu za literaturu",
+   "country": "CZ",
+   "year": 1984,
+   "text": "básník Jaroslav Seifert získal jako první Čech Nobelovu cenu za literaturu"
+  },
+  {
+   "id": "r15",
+   "dataset": "countryEvents",
+   "key": "CZ|1985|Československo se v Praze stalo počtvrté v historii mistrem světa v ledním hokeji",
+   "country": "CZ",
+   "year": 1985,
+   "text": "Československo se v Praze stalo počtvrté v historii mistrem světa v ledním hokeji"
+  },
+  {
+   "id": "r16",
+   "dataset": "countryEvents",
+   "key": "CZ|1985|Amadeus Miloše Formana získal osm Oscarů včetně ceny za nejlepší film a režii",
+   "country": "CZ",
+   "year": 1985,
+   "text": "Amadeus Miloše Formana získal osm Oscarů včetně ceny za nejlepší film a režii"
+  },
+  {
+   "id": "r17",
+   "dataset": "countryEvents",
+   "key": "CZ|1986|spad z černobylské havárie zasáhl i části Československa",
+   "country": "CZ",
+   "year": 1986,
+   "text": "spad z černobylské havárie zasáhl i části Československa"
+  },
+  {
+   "id": "r18",
+   "dataset": "countryEvents",
+   "key": "CZ|1987|do čela KSČ nastoupil Miloš Jakeš, přestavba zůstávala jen na papíře",
+   "country": "CZ",
+   "year": 1987,
+   "text": "do čela KSČ nastoupil Miloš Jakeš, přestavba zůstávala jen na papíře"
+  },
+  {
+   "id": "r19",
+   "dataset": "countryEvents",
+   "key": "CZ|1988|25. března rozehnala v Bratislavě policie pokojnou Svíčkovou manifestaci za náboženskou svobodu",
+   "country": "CZ",
+   "year": 1988,
+   "text": "25. března rozehnala v Bratislavě policie pokojnou Svíčkovou manifestaci za náboženskou svobodu"
+  },
+  {
+   "id": "r20",
+   "dataset": "countryEvents",
+   "key": "CZ|1989|během lednového Palachova týdne policie tvrdě potlačila vzpomínkové demonstrace",
+   "country": "CZ",
+   "year": 1989,
+   "text": "během lednového Palachova týdne policie tvrdě potlačila vzpomínkové demonstrace"
+  },
+  {
+   "id": "r21",
+   "dataset": "countryEvents",
+   "key": "CZ|1989|petici Několik vět žádající svobodu podepsalo přes 40 tisíc lidí",
+   "country": "CZ",
+   "year": 1989,
+   "text": "petici Několik vět žádající svobodu podepsalo přes 40 tisíc lidí"
+  },
+  {
+   "id": "r22",
+   "dataset": "countryEvents",
+   "key": "CZ|1989|17. listopadu rozbila policie studentský průvod na Národní třídě a spustila sametovou revoluci",
+   "country": "CZ",
+   "year": 1989,
+   "text": "17. listopadu rozbila policie studentský průvod na Národní třídě a spustila sametovou revoluci"
+  },
+  {
+   "id": "r23",
+   "dataset": "countryEvents",
+   "key": "CZ|1989|generální stávka 27. listopadu na dvě hodiny zastavila celou zemi",
+   "country": "CZ",
+   "year": 1989,
+   "text": "generální stávka 27. listopadu na dvě hodiny zastavila celou zemi"
+  },
+  {
+   "id": "r24",
+   "dataset": "countryEvents",
+   "key": "CZ|1989|29. prosince zvolilo Federální shromáždění Václava Havla prezidentem",
+   "country": "CZ",
+   "year": 1989,
+   "text": "29. prosince zvolilo Federální shromáždění Václava Havla prezidentem"
+  },
+  {
+   "id": "r25",
+   "dataset": "countryEvents",
+   "key": "CZ|1990|v dubnu navštívil Prahu papež Jan Pavel II. jako první papež v českých dějinách",
+   "country": "CZ",
+   "year": 1990,
+   "text": "v dubnu navštívil Prahu papež Jan Pavel II. jako první papež v českých dějinách"
+  },
+  {
+   "id": "r26",
+   "dataset": "countryEvents",
+   "key": "CZ|1990|v červnu se konaly první svobodné volby od roku 1946",
+   "country": "CZ",
+   "year": 1990,
+   "text": "v červnu se konaly první svobodné volby od roku 1946"
+  },
+  {
+   "id": "r27",
+   "dataset": "countryEvents",
+   "key": "CZ|1990|spor o pomlčku v názvu státu rozvířil vztahy mezi Čechy a Slováky",
+   "country": "CZ",
+   "year": 1990,
+   "text": "spor o pomlčku v názvu státu rozvířil vztahy mezi Čechy a Slováky"
+  },
+  {
+   "id": "r28",
+   "dataset": "countryEvents",
+   "key": "CZ|1990|Rolling Stones odehráli na strahovském stadionu koncert před statisíci diváků",
+   "country": "CZ",
+   "year": 1990,
+   "text": "Rolling Stones odehráli na strahovském stadionu koncert před statisíci diváků"
+  },
+  {
+   "id": "r29",
+   "dataset": "countryEvents",
+   "key": "CZ|1991|automobilka Škoda Mladá Boleslav vstoupila do koncernu Volkswagen",
+   "country": "CZ",
+   "year": 1991,
+   "text": "automobilka Škoda Mladá Boleslav vstoupila do koncernu Volkswagen"
+  },
+  {
+   "id": "r30",
+   "dataset": "countryEvents",
+   "key": "CZ|1991|poslední sovětští vojáci opustili území Československa",
+   "country": "CZ",
+   "year": 1991,
+   "text": "poslední sovětští vojáci opustili území Československa"
+  },
+  {
+   "id": "r31",
+   "dataset": "countryEvents",
+   "key": "CZ|1991|parlament schválil lustrační zákon prověřující bývalé spolupracovníky StB",
+   "country": "CZ",
+   "year": 1991,
+   "text": "parlament schválil lustrační zákon prověřující bývalé spolupracovníky StB"
+  },
+  {
+   "id": "r32",
+   "dataset": "countryEvents",
+   "key": "CZ|1992|20. března otevřela první československý McDonald's v pražské Vodičkově ulici",
+   "country": "CZ",
+   "year": 1992,
+   "text": "20. března otevřela první československý McDonald's v pražské Vodičkově ulici"
+  },
+  {
+   "id": "r33",
+   "dataset": "countryEvents",
+   "key": "CZ|1992|volby vyhráli Václav Klaus v Česku a Vladimír Mečiar na Slovensku, dohodli rozdělení státu",
+   "country": "CZ",
+   "year": 1992,
+   "text": "volby vyhráli Václav Klaus v Česku a Vladimír Mečiar na Slovensku, dohodli rozdělení státu"
+  },
+  {
+   "id": "r34",
+   "dataset": "countryEvents",
+   "key": "CZ|1992|rozběhla se kupónová privatizace a miliony lidí kupovaly investiční kupóny",
+   "country": "CZ",
+   "year": 1992,
+   "text": "rozběhla se kupónová privatizace a miliony lidí kupovaly investiční kupóny"
+  },
+  {
+   "id": "r35",
+   "dataset": "countryEvents",
+   "key": "CZ|1992|historické centrum Prahy i Český Krumlov byly zapsány na seznam UNESCO",
+   "country": "CZ",
+   "year": 1992,
+   "text": "historické centrum Prahy i Český Krumlov byly zapsány na seznam UNESCO"
+  },
+  {
+   "id": "r36",
+   "dataset": "countryEvents",
+   "key": "CZ|1993|1. ledna vznikla samostatná Česká republika a zanikl společný stát se Slovenskem",
+   "country": "CZ",
+   "year": 1993,
+   "text": "1. ledna vznikla samostatná Česká republika a zanikl společný stát se Slovenskem"
+  },
+  {
+   "id": "r37",
+   "dataset": "countryEvents",
+   "key": "CZ|1993|Václav Havel byl zvolen prvním prezidentem samostatné České republiky",
+   "country": "CZ",
+   "year": 1993,
+   "text": "Václav Havel byl zvolen prvním prezidentem samostatné České republiky"
+  },
+  {
+   "id": "r38",
+   "dataset": "countryEvents",
+   "key": "CZ|1993|byla zavedena samostatná česká koruna oddělená od slovenské",
+   "country": "CZ",
+   "year": 1993,
+   "text": "byla zavedena samostatná česká koruna oddělená od slovenské"
+  },
+  {
+   "id": "r39",
+   "dataset": "countryEvents",
+   "key": "CZ|1994|americký prezident Bill Clinton zahrál během návštěvy Prahy v jazzovém klubu na saxofon",
+   "country": "CZ",
+   "year": 1994,
+   "text": "americký prezident Bill Clinton zahrál během návštěvy Prahy v jazzovém klubu na saxofon"
+  },
+  {
+   "id": "r40",
+   "dataset": "countryEvents",
+   "key": "CZ|1994|spustilo komerční televize Nova, první soukromá celoplošná stanice",
+   "country": "CZ",
+   "year": 1994,
+   "text": "spustilo komerční televize Nova, první soukromá celoplošná stanice"
+  },
+  {
+   "id": "r41",
+   "dataset": "countryEvents",
+   "key": "CZ|1995|Česká republika vstoupila jako první postkomunistická země do OECD",
+   "country": "CZ",
+   "year": 1995,
+   "text": "Česká republika vstoupila jako první postkomunistická země do OECD"
+  },
+  {
+   "id": "r42",
+   "dataset": "countryEvents",
+   "key": "CZ|1996|Štěpánka Hilgertová získala v Atlantě zlato ve vodním slalomu na kajaku",
+   "country": "CZ",
+   "year": 1996,
+   "text": "Štěpánka Hilgertová získala v Atlantě zlato ve vodním slalomu na kajaku"
+  },
+  {
+   "id": "r43",
+   "dataset": "countryEvents",
+   "key": "CZ|1996|v prvních volbách do Senátu byla obnovena dvoukomorová podoba parlamentu",
+   "country": "CZ",
+   "year": 1996,
+   "text": "v prvních volbách do Senátu byla obnovena dvoukomorová podoba parlamentu"
+  },
+  {
+   "id": "r44",
+   "dataset": "countryEvents",
+   "key": "CZ|1997|rozsáhlé povodně na Moravě a ve Slezsku zabily desítky lidí a zatopily celé obce",
+   "country": "CZ",
+   "year": 1997,
+   "text": "rozsáhlé povodně na Moravě a ve Slezsku zabily desítky lidí a zatopily celé obce"
+  },
+  {
+   "id": "r45",
+   "dataset": "countryEvents",
+   "key": "CZ|1997|film Kolja Jana Svěráka získal Oscara za nejlepší cizojazyčný film",
+   "country": "CZ",
+   "year": 1997,
+   "text": "film Kolja Jana Svěráka získal Oscara za nejlepší cizojazyčný film"
+  },
+  {
+   "id": "r46",
+   "dataset": "countryEvents",
+   "key": "CZ|1997|spisovatel Bohumil Hrabal zemřel po pádu z okna nemocnice na Bulovce",
+   "country": "CZ",
+   "year": 1997,
+   "text": "spisovatel Bohumil Hrabal zemřel po pádu z okna nemocnice na Bulovce"
+  },
+  {
+   "id": "r47",
+   "dataset": "countryEvents",
+   "key": "CZ|1997|Václav Klaus odstoupil po vypuknutí aféry kolem financování ODS",
+   "country": "CZ",
+   "year": 1997,
+   "text": "Václav Klaus odstoupil po vypuknutí aféry kolem financování ODS"
+  },
+  {
+   "id": "r48",
+   "dataset": "countryEvents",
+   "key": "CZ|1998|hokejisté vedení brankářem Dominikem Haškem získali zlato na olympiádě v Naganu",
+   "country": "CZ",
+   "year": 1998,
+   "text": "hokejisté vedení brankářem Dominikem Haškem získali zlato na olympiádě v Naganu"
+  },
+  {
+   "id": "r49",
+   "dataset": "countryEvents",
+   "key": "CZ|1998|vznikla menšinová vláda ČSSD opřená o opoziční smlouvu s ODS",
+   "country": "CZ",
+   "year": 1998,
+   "text": "vznikla menšinová vláda ČSSD opřená o opoziční smlouvu s ODS"
+  }
+ ]
+}

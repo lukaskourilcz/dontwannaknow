@@ -1,0 +1,210 @@
+[
+  {
+    "id": "ua-hrusevskyj",
+    "country": "UA",
+    "name": "Mychajlo Hruševskyj",
+    "office": "předseda Ukrajinské centrální rady",
+    "termStart": 1917,
+    "termEnd": 1918,
+    "cameToPower": "Po únorové revoluci byl 17. března 1917 zvolen předsedou Ukrajinské centrální rady, revolučního parlamentu v Kyjevě, a to ještě v nepřítomnosti, když se vracel z ruského vyhnanství.",
+    "summary": "Historik a předseda Ukrajinské centrální rady, pod jehož vedením prošla Ukrajina v letech 1917–1918 cestou od požadavku autonomie k vyhlášení nezávislosti.",
+    "achievements": [
+      "Vedl Ukrajinskou centrální radu od národní autonomie v rámci demokratického Ruska až k vyhlášení plné nezávislosti Ukrajinské lidové republiky.",
+      "Dne 29. dubna 1918 Rada pod jeho předsednictvím přijala ústavu Ukrajinské lidové republiky.",
+      "Od roku 1898 vydával mnohasvazkové dílo Istorija Ukrajiny-Rusy, první rozsáhlou syntézu ukrajinských dějin.",
+      "Reorganizoval Ševčenkovu vědeckou společnost ve Lvově v instituci akademického typu a vychoval generaci ukrajinských historiků."
+    ],
+    "controversies": [
+      "Jeho politické působení ukončil 29. dubna 1918 převrat hejtmana Skoropadského podporovaný německou armádou, který Centrální radu rozehnal.",
+      "Návrat do sovětské Ukrajiny v roce 1924 skončil tiskovou kampaní proti němu a nuceným přesídlením do Moskvy v roce 1931."
+    ],
+    "reception": [
+      {
+        "period": "1917–1918",
+        "text": "O jeho tehdejší autoritě svědčí podle Encyclopedia of Ukraine to, že jej Rada zvolila předsedou 17. března 1917 ještě v nepřítomnosti, když se teprve vracel z vyhnanství v Moskvě.",
+        "source": { "title": "Hrushevsky, Mykhailo", "publisher": "Encyclopedia of Ukraine (CIUS)", "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CH%5CR%5CHrushevskyMykhailo.htm", "accessed": "2026-07-29", "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)" }
+      },
+      {
+        "period": "30.–40. léta 20. století",
+        "text": "Sovětská moc podle Encyclopedia of Ukraine do roku 1934 rozbila jeho historickou školu a rezoluce ÚV KS(b)U z roku 1946 i pozdější sovětské publikace jej označovaly za „nacionalistického historika“ a „ideologa ukrajinské kontrarevoluční buržoazie“.",
+        "source": { "title": "Hrushevsky, Mykhailo", "publisher": "Encyclopedia of Ukraine (CIUS)", "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CH%5CR%5CHrushevskyMykhailo.htm", "accessed": "2026-07-29", "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)" }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1991",
+        "text": "Nezávislá Ukrajina jej uznává za svého předního historika; jeho portrét nese padesátihryvnová bankovka, pomníky stojí v Kyjevě i Lvově a jeho jméno nese kyjevská ulice, v níž sídlí parlament.",
+        "source": { "title": "Mykhailo Hrushevsky", "publisher": "Wikipedia (anglická)", "url": "https://en.wikipedia.org/wiki/Mykhailo_Hrushevsky", "accessed": "2026-07-29", "licence": "CC BY-SA 4.0" }
+      },
+      {
+        "period": "po 1991",
+        "text": "Současná historiografie podle Encyclopedia of Ukraine zdůrazňuje jeho zakladatelský přínos ukrajinské národní identitě a dějepisectví, o hodnocení jeho politického působení se však debata vede dál.",
+        "source": { "title": "Hrushevsky, Mykhailo", "publisher": "Encyclopedia of Ukraine (CIUS)", "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CH%5CR%5CHrushevskyMykhailo.htm", "accessed": "2026-07-29", "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)" }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      { "title": "Hrushevsky, Mykhailo", "publisher": "Encyclopedia of Ukraine (CIUS)", "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CH%5CR%5CHrushevskyMykhailo.htm", "accessed": "2026-07-29", "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)" },
+      { "title": "Mykhailo Hrushevsky", "publisher": "Wikipedia (anglická)", "url": "https://en.wikipedia.org/wiki/Mykhailo_Hrushevsky", "accessed": "2026-07-29", "licence": "CC BY-SA 4.0" }
+    ]
+  },
+  {
+    "id": "ua-skoropadskyj",
+    "country": "UA",
+    "name": "Pavlo Skoropadskyj",
+    "office": "hejtman Ukrajinského státu",
+    "termStart": 1918,
+    "termEnd": 1918,
+    "cameToPower": "K moci se dostal 29. dubna 1918 převratem proti Centrální radě, který mu 24. dubna 1918 předem přislíbil podpořit náčelník štábu německých vojsk Wilhelm Groener.",
+    "summary": "Bývalý carský generál, který jako hejtman Ukrajinského státu vládl v roce 1918 s oporou v německé armádě a konzervativních vrstvách.",
+    "achievements": [
+      "V listopadu 1918 jeho vláda založila Ukrajinskou akademii věd.",
+      "Za jeho vlády vznikly ukrajinské univerzity a školy a byla vybudována fungující státní správa.",
+      "Jeho stát navázal diplomatické styky se zahraničím a uzavřel mírovou smlouvu se sovětským Ruskem."
+    ],
+    "controversies": [
+      "Jeho režim rozpustil Centrální radu i pozemkové výbory, zrušil zákony Ukrajinské lidové republiky a zavedl cenzuru tisku.",
+      "Vláda opřená o velkostatkáře a doprovázená německými a rakouskými rekvizicemi obilí vyvolala rolnická povstání, stávky a atentáty, včetně zabití polního maršála Eichhorna.",
+      "V listopadu 1918 vyhlásil federaci s budoucím nebolševickým Ruskem, čímž ztratil zbytek podpory ukrajinského hnutí a proti jeho vládě vypuklo povstání."
+    ],
+    "reception": [
+      {
+        "period": "1918",
+        "text": "Ukrajinské demokratické strany podle Encyclopedia of Ukraine odmítly v jeho vládě zasednout a v květnu 1918 založily opoziční Ukrajinský národně-státní svaz; nespokojenost venkova se projevovala povstáními a sabotážemi.",
+        "source": { "title": "Skoropadsky, Pavlo", "publisher": "Encyclopedia of Ukraine (CIUS)", "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CK%5CSkoropadskyPavlo.htm", "accessed": "2026-07-29", "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)" }
+      },
+      {
+        "period": "1918",
+        "text": "Ukrajinští nacionalisté jej podle dobových výtek shrnutých anglickou Wikipedií odsuzovali jako německého kolaboranta opřeného o velkostatkáře, jiným současníkům se jevil příliš proruský a diktátorský.",
+        "source": { "title": "Pavlo Skoropadskyi", "publisher": "Wikipedia (anglická)", "url": "https://en.wikipedia.org/wiki/Pavlo_Skoropadskyi", "accessed": "2026-07-29", "licence": "CC BY-SA 4.0" }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1991",
+        "text": "Historiografie zůstává rozdělena: část badatelů mu přičítá vybudování institucí a udržení relativního klidu uprostřed občanské války v Rusku, jiná jeho vládu popisuje jako režim závislý na německém velení.",
+        "source": { "title": "Pavlo Skoropadskyi", "publisher": "Wikipedia (anglická)", "url": "https://en.wikipedia.org/wiki/Pavlo_Skoropadskyi", "accessed": "2026-07-29", "licence": "CC BY-SA 4.0" }
+      },
+      {
+        "period": "po 1991",
+        "text": "Encyclopedia of Ukraine zdůrazňuje, že jeho kabinet složený z ruských kadetů a monarchistů upřednostňoval zájmy německého velení a majetných vrstev před ukrajinským hnutím.",
+        "source": { "title": "Skoropadsky, Pavlo", "publisher": "Encyclopedia of Ukraine (CIUS)", "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CK%5CSkoropadskyPavlo.htm", "accessed": "2026-07-29", "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)" }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "mild",
+    "shareSafe": false,
+    "sources": [
+      { "title": "Skoropadsky, Pavlo", "publisher": "Encyclopedia of Ukraine (CIUS)", "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CK%5CSkoropadskyPavlo.htm", "accessed": "2026-07-29", "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)" },
+      { "title": "Pavlo Skoropadskyi", "publisher": "Wikipedia (anglická)", "url": "https://en.wikipedia.org/wiki/Pavlo_Skoropadskyi", "accessed": "2026-07-29", "licence": "CC BY-SA 4.0" }
+    ]
+  },
+  {
+    "id": "ua-petljura",
+    "country": "UA",
+    "name": "Symon Petljura",
+    "office": "předseda Direktoria Ukrajinské lidové republiky",
+    "termStart": 1919,
+    "termEnd": 1926,
+    "cameToPower": "Po účasti na povstání proti hejtmanu Skoropadskému byl zvolen do Direktoria UNR jako vrchní ataman a 11. února 1919, po odstoupení Volodymyra Vynnyčenka, se postavil do jeho čela.",
+    "summary": "Vrchní ataman a předseda Direktoria Ukrajinské lidové republiky, který vedl ozbrojený zápas o nezávislost a jehož jméno zůstává spojeno s pogromy let 1919–1920.",
+    "achievements": [
+      "V letech 1919–1920 velel vojskům UNR ve válce proti Rudé armádě i Děnikinově Dobrovolnické armádě.",
+      "Varšavskou smlouvou z dubna 1920 získal polské spojenectví a 7. května 1920 spojená ukrajinsko-polská vojska obsadila Kyjev.",
+      "V pařížském exilu založil týdeník Tryzub a stál v čele exilové vlády UNR."
+    ],
+    "controversies": [
+      "Z 1 236 zaznamenaných násilných útoků na Židy na Ukrajině v letech 1918–1921 připadalo podle anglické Wikipedie 493 na vojska UNR, jimž velel.",
+      "Historici se rozcházejí v míře jeho odpovědnosti: rozkazy proti pogromům vydával, podle kritiků však pachatele dostatečně netrestal.",
+      "Varšavskou smlouvou uznal polský nárok na Halič, což mu vyneslo odpor haličských a části exilových Ukrajinců."
+    ],
+    "reception": [
+      {
+        "period": "1920–1926",
+        "text": "Část ukrajinské emigrace, zejména haličské, k němu byla podle Encyclopedia of Ukraine zprvu otevřeně nepřátelská kvůli spojenectví s Polskem; od poloviny 20. let však pro mnohé emigranty ztělesňoval zápas o nezávislost let 1917–1920.",
+        "source": { "title": "Petliura, Symon", "publisher": "Encyclopedia of Ukraine (CIUS)", "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CP%5CE%5CPetliuraSymon.htm", "accessed": "2026-07-29", "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)" }
+      },
+      {
+        "period": "1926–1927",
+        "text": "Atentát Šoloma Schwarzbarda z 25. května 1926, který se odvolával na pogromové oběti ve své rodině, a jeho osvobození pařížskou porotou v říjnu 1927 ukázaly, že významná část dobové veřejnosti spojovala Petljuru s odpovědností za pogromy.",
+        "source": { "title": "Symon Petliura", "publisher": "Wikipedia (anglická)", "url": "https://en.wikipedia.org/wiki/Symon_Petliura", "accessed": "2026-07-29", "licence": "CC BY-SA 4.0" }
+      },
+      {
+        "period": "20.–80. léta 20. století",
+        "text": "Sovětské úřady z něj podle Encyclopedia of Ukraine učinily symbol ukrajinského úsilí o nezávislost, v jejich podání byl ovšem „zrádcem ukrajinského lidu“.",
+        "source": { "title": "Petliura, Symon", "publisher": "Encyclopedia of Ukraine (CIUS)", "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CP%5CE%5CPetliuraSymon.htm", "accessed": "2026-07-29", "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)" }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1991",
+        "text": "Historiografie zůstává rozdělena: část badatelů zdůrazňuje jeho doložené rozkazy proti pogromům, například výnos z 26. srpna 1919, jiní mu vytýkají, že násilí svých jednotek toleroval a nepostihoval.",
+        "source": { "title": "Symon Petliura", "publisher": "Wikipedia (anglická)", "url": "https://en.wikipedia.org/wiki/Symon_Petliura", "accessed": "2026-07-29", "licence": "CC BY-SA 4.0" }
+      },
+      {
+        "period": "po 2009",
+        "text": "Ukrajinská města po něm pojmenovala ulice (Kyjev 2009, Izjum 2022), umístění jeho sochy v bývalé židovské čtvrti Vinnycje však v roce 2017 kritizoval Světový židovský kongres.",
+        "source": { "title": "Symon Petliura", "publisher": "Wikipedia (anglická)", "url": "https://en.wikipedia.org/wiki/Symon_Petliura", "accessed": "2026-07-29", "licence": "CC BY-SA 4.0" }
+      }
+    ],
+    "contested": true,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      { "title": "Petliura, Symon", "publisher": "Encyclopedia of Ukraine (CIUS)", "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CP%5CE%5CPetliuraSymon.htm", "accessed": "2026-07-29", "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)" },
+      { "title": "Symon Petliura", "publisher": "Wikipedia (anglická)", "url": "https://en.wikipedia.org/wiki/Symon_Petliura", "accessed": "2026-07-29", "licence": "CC BY-SA 4.0" }
+    ]
+  },
+  {
+    "id": "ua-kosior",
+    "country": "UA",
+    "name": "Stanislav Kosior",
+    "office": "první tajemník Komunistické strany (bolševiků) Ukrajiny",
+    "termStart": 1928,
+    "termEnd": 1938,
+    "cameToPower": "Do čela KP(b)U byl dosazen stranickým aparátem: po letech práce v sibiřských a moskevských organizacích strany se v červenci 1928 stal jejím generálním tajemníkem na Ukrajině.",
+    "summary": "Generální a poté první tajemník KP(b)U, pod jehož vedením proběhla na Ukrajině kolektivizace, hladomor let 1932–1933 a stalinský teror, jimž nakonec sám padl za oběť.",
+    "achievements": [
+      "V roce 1917 zasedal v petrohradském vojenském revolučním výboru a v roce 1918 patřil k zakladatelům KP(b)U.",
+      "V čele ukrajinské komunistické strany stál nepřetržitě od července 1928 do ledna 1938, od roku 1928 jako člen jejího politbyra."
+    ],
+    "controversies": [
+      "Prosazoval nucenou kolektivizaci: v únoru 1930 ohlásil, že Ukrajina bude plně kolektivizována během jarní setby, a 1. února 1932 spolupodepsal výnos odpírající osivovou pomoc kolchozům.",
+      "Navzdory hladovění na venkově podepsal 17. března 1932 výnos zostřující represe rolníků a 29. března 1932 prosadil deportaci 5 000 rolnických rodin z Polesí.",
+      "Podporoval stalinské čistky a spolupodepsal pět popravčích seznamů."
+    ],
+    "reception": [
+      {
+        "period": "1932",
+        "text": "Když v dubnu a červnu 1932 žádal Moskvu o potravinovou pomoc pro Ukrajinu, Stalin ji podle anglické Wikipedie odmítl a Kosiora považoval za nedostatečně tvrdého.",
+        "source": { "title": "Stanislav Kosior", "publisher": "Wikipedia (anglická)", "url": "https://en.wikipedia.org/wiki/Stanislav_Kosior", "accessed": "2026-07-29", "licence": "CC BY-SA 4.0" }
+      },
+      {
+        "period": "1938–1939",
+        "text": "Režim, jemuž sloužil, jej v květnu 1938 zatkl a označil za polského špiona; doznání z něj vyšetřovatelé NKVD vynutili mučením a 26. února 1939 byl popraven.",
+        "source": { "title": "Stanislav Kosior", "publisher": "Wikipedia (anglická)", "url": "https://en.wikipedia.org/wiki/Stanislav_Kosior", "accessed": "2026-07-29", "licence": "CC BY-SA 4.0" }
+      }
+    ],
+    "reassessment": [
+      {
+        "period": "po 1956",
+        "text": "Po Chruščovově projevu o kultu osobnosti byl 14. března 1956 posmrtně rehabilitován jako oběť stalinských represí; jeho podíl na hladomoru sovětská rehabilitace neřešila.",
+        "source": { "title": "Stanislav Kosior", "publisher": "Wikipedia (anglická)", "url": "https://en.wikipedia.org/wiki/Stanislav_Kosior", "accessed": "2026-07-29", "licence": "CC BY-SA 4.0" }
+      },
+      {
+        "period": "po 1991",
+        "text": "Kyjevský odvolací soud jej v roce 2010 zařadil mezi organizátory hladomoru-genocidy let 1932–1933; Encyclopedia of Ukraine spojuje jeho úřadování s přechodem od ukrajinizace k rusifikaci a s likvidací ukrajinské inteligence.",
+        "source": { "title": "Kosior, Stanislav", "publisher": "Encyclopedia of Ukraine (CIUS)", "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CO%5CKosiorStanislav.htm", "accessed": "2026-07-29", "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)" }
+      }
+    ],
+    "contested": false,
+    "sensitivity": "difficult",
+    "shareSafe": false,
+    "sources": [
+      { "title": "Kosior, Stanislav", "publisher": "Encyclopedia of Ukraine (CIUS)", "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CO%5CKosiorStanislav.htm", "accessed": "2026-07-29", "licence": "© Canadian Institute of Ukrainian Studies (citace pro ověření)" },
+      { "title": "Stanislav Kosior", "publisher": "Wikipedia (anglická)", "url": "https://en.wikipedia.org/wiki/Stanislav_Kosior", "accessed": "2026-07-29", "licence": "CC BY-SA 4.0" }
+    ]
+  }
+]
