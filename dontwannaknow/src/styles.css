@@ -635,12 +635,41 @@ button.secondary:hover,
 .comparison-chapter {
   min-width: 0;
   scroll-margin-top: 1rem;
-  padding: clamp(3rem, 7vw, 5.5rem) 0;
+  padding: clamp(2.5rem, 5vw, 4rem) 0;
   border-bottom: 1px solid var(--rule);
 }
 
 .chapter-content { min-width: 0; }
 .chapter-header { max-width: 44rem; margin-bottom: 2.2rem; }
+
+/* Na šířce desktopu nese kapitolu redakční sloupec: číslo, název a úvod
+   vlevo, obsah v měřených sloupcích vpravo. Krátká kapitola tak působí
+   záměrně a text se nikdy neroztahuje přes celou šířku. Šířka sloupce je
+   volena tak, aby položky držely čitelnou míru ~45–55 znaků na řádek; pod
+   prahem nese hlavičku celá šířka. Při 200% zoomu se dotaz v rem sám
+   rozpadne do jednoho sloupce. */
+@media (min-width: 68rem) {
+  .report-chapter > .chapter-content,
+  .report-chapter .chapter-content-expanded {
+    display: grid;
+    grid-template-columns: minmax(12rem, 16rem) minmax(0, 1fr);
+    column-gap: clamp(2rem, 4vw, 3.5rem);
+    align-items: start;
+  }
+  .report-chapter > .chapter-content > .chapter-header,
+  .report-chapter .chapter-content-expanded > .chapter-intro {
+    position: sticky;
+    top: 2rem;
+    grid-column: 1;
+    max-width: none;
+    margin-bottom: 0;
+  }
+  .report-chapter > .chapter-content:not(.chapter-content-expanded) > :not(.chapter-header),
+  .report-chapter .chapter-content-expanded > :not(.chapter-intro) { grid-column: 2; }
+  .report-chapter > .chapter-content > .chapter-header h2 {
+    font-size: clamp(1.6rem, 2.2vw, 2.1rem);
+  }
+}
 .chapter-eyebrow {
   margin: 0 0 0.9rem;
   color: var(--green);
@@ -664,10 +693,13 @@ button.secondary:hover,
   font: 450 1.05rem/1.6 var(--serif);
 }
 
+/* Sazba položek do měřených sloupců. Dobové záznamy jsou krátké (běžně jedna
+   až dvě věty), proto nikdy nesázíme text přes celou šířku zprávy — sloupec
+   drží čitelnou míru řádku a vodorovný prostor nese struktura, ne prázdno. */
 .report-items {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0 clamp(1.5rem, 3vw, 3rem);
+  gap: 0 clamp(1.25rem, 2.5vw, 2.25rem);
   margin: 0;
   padding: 0;
   list-style: none;
@@ -679,10 +711,48 @@ button.secondary:hover,
   border-top: 1px solid var(--rule);
   background: transparent;
 }
-.report-item.item-featured,
-.report-item.item-local,
+
+/* Přes obě kolonky jdou jen skutečné výplně šířky: kontextová vsuvka,
+   poznámka o chybějících datech a osamocený záznam kapitoly. Text v nich
+   drží měřenou míru a metadata visí u pravého okraje, takže linka je
+   ukotvená obsahem na obou koncích i u jednovětého záznamu. Zdůraznění
+   běžné položky nese typografie a zelená linka, nikoli šířka — dobové
+   záznamy jsou příliš krátké, aby širokou sazbu unesly. */
 .report-item.item-difficult,
-.report-item.item-missing { grid-column: 1 / -1; }
+.report-item.item-missing,
+.report-items > .report-item:only-child { grid-column: 1 / -1; }
+
+/* Zavěšená metadata mají smysl jen tam, kde je na ně místo — tedy od šířky,
+   kde jsou položky ve dvou sloupcích, a jen v osobním vydání. V jednom
+   sloupci (mobil, 200% zoom) i v úzkých sloupcích srovnání zůstává původní
+   tok: popisek nad textem. */
+@media (min-width: 681px) {
+  .report-chapter .report-item.item-difficult,
+  .report-chapter .report-item.item-missing,
+  .report-chapter .report-items > .report-item:only-child {
+    display: grid;
+    grid-template-columns: minmax(0, 34rem) minmax(0, auto);
+    column-gap: clamp(1.5rem, 3vw, 3rem);
+    align-items: start;
+  }
+  .report-chapter .report-item.item-difficult > p,
+  .report-chapter .report-item.item-missing > p,
+  .report-chapter .report-items > .report-item:only-child > p { grid-column: 1; grid-row: 1; margin-top: 0; }
+  .report-chapter .report-item.item-difficult > .item-meta,
+  .report-chapter .report-item.item-missing > .item-meta,
+  .report-chapter .report-items > .report-item:only-child > .item-meta {
+    grid-column: 2;
+    grid-row: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.3rem;
+    text-align: right;
+  }
+  .report-chapter .report-item.item-difficult > .item-depth,
+  .report-chapter .report-item.item-missing > .item-depth,
+  .report-chapter .report-items > .report-item:only-child > .item-depth { grid-column: 1; }
+}
+
 .report-item.item-featured,
 .report-item.item-local { padding: 1.5rem 0; border-top: 2px solid var(--green); }
 .report-item.item-difficult { padding: 1.5rem 0 1.5rem 1.4rem; border-top: 1px solid var(--rule); border-left: 2px solid var(--difficult); }
@@ -696,7 +766,8 @@ button.secondary:hover,
 .report-item.item-difficult .item-kind { color: var(--difficult); }
 .report-item p { max-width: 44rem; margin: 0.7rem 0 0; font: 450 1.02rem/1.6 var(--serif); overflow-wrap: anywhere; }
 .report-item.item-featured p,
-.report-item.item-local p { margin-top: 0.8rem; font-size: clamp(1.15rem, 2vw, 1.35rem); line-height: 1.5; }
+.report-item.item-local p { margin-top: 0.8rem; font-size: 1.12rem; line-height: 1.55; }
+.report-chapter .report-items > .report-item:only-child p { font-size: clamp(1.15rem, 2vw, 1.3rem); line-height: 1.5; }
 
 /* Hloubka na vyžádání: jednořádkový fakt → plnější příběh se zdroji. */
 .item-depth { margin-top: 0.55rem; }

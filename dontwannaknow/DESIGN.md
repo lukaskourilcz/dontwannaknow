@@ -42,13 +42,15 @@ Mezery používají stupnici `0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4.5, 7rem`. Sémant
 - Tmavě zelená je strukturální barva značky, korálová zvýrazňuje hlavní akci, zaostření a drobné navigační body.
 - Obálka je výrazná, ale ne překryvná. Navigace ani nástroje výsledku nejsou sticky, aby na malých displejích nezakrývaly obsah.
 - Kapitoly jsou odlišeny číslováním, nadpisem a rytmem. Typ obsahu nesmí být rozpoznatelný jen barvou.
+- Na desktopu nese kapitolu redakční sloupec: číslo, název a úvod vlevo (ukotvené při čtení), záznamy ve dvou měřených sloupcích vpravo. Vodorovný prostor patří struktuře, nikoli roztaženému textu.
+- Dobový záznam je běžně jedna až dvě věty, proto se nikdy nesází přes celou šířku zprávy. Míra řádku zůstává v rozsahu ~45–55 znaků; zdůraznění nese typografie a zelená linka, ne šířka. Přes obě kolonky jdou jen citlivá vsuvka, poznámka o chybějících datech a osamocený záznam kapitoly — a i u nich text drží měřenou míru a metadata visí u pravého okraje, aby byla linka ukotvená obsahem na obou koncích.
 - Citlivý historický kontext je sbalený, jasně pojmenovaný a nikdy nesdílí vizuální skupinu s odlehčenou kartou.
 - Dobový detail, místní souvislost, kultura, kontrast, zvýraznění, obtížný kontext a chybějící data jsou varianty jednoho metadata-driven reportového prvku, ne samostatné konkurenční karty.
 - Tmavé plochy používají explicitní `on-dark` role. Korálové primární tlačítko používá tmavý inkoust, aby běžný text splnil AA kontrast.
 
 ## Responzivní pravidla
 
-Rozložení musí fungovat od 320 px bez vodorovného posuvu. Mřížky se skládají do jednoho sloupce, dlouhé české názvy se mohou zalomit, SVG respektují kontejner a všechny interaktivní prvky mají minimální výšku 44 px. Mobilní obsah nesmí záviset na hoveru. Respektuje se `prefers-reduced-motion` a tisková pravidla skrývají ovládací prvky bez změny významu zprávy.
+Rozložení musí fungovat od 320 px bez vodorovného posuvu. Redakční sloupec kapitoly a zavěšená metadata jsou výhradně desktopové: pod prahem 68 rem nese hlavičku celá šířka a pod 681 px se vše skládá do jednoho sloupce, takže při 200% zoomu se rozvržení rozpadne samo a text nikdy neztratí čitelnou míru. Mřížky se skládají do jednoho sloupce, dlouhé české názvy se mohou zalomit, SVG respektují kontejner a všechny interaktivní prvky mají minimální výšku 44 px. Mobilní obsah nesmí záviset na hoveru. Respektuje se `prefers-reduced-motion` a tisková pravidla skrývají ovládací prvky bez změny významu zprávy.
 
 Generativní dekorace nejsou podmínkou layoutu. Responzivní hero používá dva kontrolované WebP výřezy a zachovává CSS fallback. Zbývající sloty, bezpečné zóny, provenance, povinný průzkum levných či bezplatných generátorů a autentické-UI pravidlo jsou v `../docs/generated-media.md`. Bez schváleného výstupu nevznikají placeholder assety.
 
