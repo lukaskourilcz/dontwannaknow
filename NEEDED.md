@@ -20,6 +20,12 @@ jazycích a animovaný náhled byl nahraný znovu z aktuálního designu.
 
 ## Produkční ověření
 
+- [ ] Otevřít landing na skutečném starším telefonu a ověřit hero scénu v three.js: plynulost, teplotu zařízení a spotřebu baterie. Emulátor ani SwiftShader tohle neukážou. Když bude scéna těžká, snížit `SHEET_COUNT` v `dontwannaknow/src/components/HeroScene.tsx`. `[imp:3]` `[owner:me]` `[time:30m]` `[kind:decision]`
+- [ ] Zapnout si v systému „omezit pohyb“ a zkontrolovat, že hero rám ukáže jediný statický snímek bez animace. `[imp:2]` `[owner:me]` `[time:30m]` `[kind:decision]`
+
+## Portfolio a náhledy
+
+- [ ] Nahrát animovaný náhled projektu znovu (`media/preview.webm`, `preview.mp4`, `preview-poster.png`) — současný záznam ukazuje landing bez hero scény. Spustit `preview-video` skill. `[imp:2]` `[owner:ai]` `[time:30m]` `[kind:content]`
 
 ## Právní a redakční rozhodnutí
 
