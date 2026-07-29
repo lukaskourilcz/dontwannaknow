@@ -50,7 +50,7 @@ Mezery používají stupnici `0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4.5, 7rem`. Sémant
 
 Rozložení musí fungovat od 320 px bez vodorovného posuvu. Mřížky se skládají do jednoho sloupce, dlouhé české názvy se mohou zalomit, SVG respektují kontejner a všechny interaktivní prvky mají minimální výšku 44 px. Mobilní obsah nesmí záviset na hoveru. Respektuje se `prefers-reduced-motion` a tisková pravidla skrývají ovládací prvky bez změny významu zprávy.
 
-Generativní dekorace nejsou podmínkou layoutu. Responzivní hero používá dva kontrolované WebP výřezy a zachovává CSS fallback. Zbývající sloty, bezpečné zóny, provenance, povinný průzkum levných či bezplatných generátorů a autentické-UI pravidlo jsou v `../docs/generated-media.md`. Bez schváleného výstupu nevznikají placeholder assety.
+Generativní dekorace nejsou podmínkou layoutu. Hero rám vykresluje kód: pomalu se otáčející šroubovice papírových listů v three.js, která zastupuje rozsah ročníků a při zadaném roku narození sjede na příslušnou vrstvu a označí ji korálovou záložkou. Nese jen procedurální linky, nikdy čitelný text ani údaj. Pod scénou zůstávají dva kontrolované WebP výřezy jako poster i jako trvalý fallback pro prohlížeč bez WebGL, režim úspory dat a ztracený GL kontext. Při `prefers-reduced-motion` se vykreslí jediný statický snímek scény bez smyčky; smyčka se zastaví i mimo obrazovku a na skryté záložce. Celý rám je dekorativní a `aria-hidden`, takže na rozdíl od mapy, oblohy a share canvasu nemá textové shrnutí — nenese žádnou informaci. Zbývající sloty, bezpečné zóny, provenance, povinný průzkum levných či bezplatných generátorů a autentické-UI pravidlo jsou v `../docs/generated-media.md`. Bez schváleného výstupu nevznikají placeholder assety.
 
 ## Nepoužívat
 
