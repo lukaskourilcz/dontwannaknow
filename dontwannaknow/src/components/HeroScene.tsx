@@ -69,7 +69,7 @@ const MAX_PIXEL_RATIO = 1.9;
 // floats in empty green.
 const COLUMN_HALF_WIDTH = RADIUS * 1.19 + SHEET_WIDTH / 2;
 const COLUMN_WIDTH_SHARE = 0.72;
-const MIN_CAMERA_DISTANCE = 7;
+const MIN_CAMERA_DISTANCE = 5.6;
 const MAX_CAMERA_DISTANCE = 11;
 /** Share of the visible half-height at which the column has fully dissolved. */
 const FADE_EDGE = 0.94;
