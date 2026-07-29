@@ -10,7 +10,12 @@
       2,
       4,
       4
-    ]
+    ],
+    "src": {
+      "t": "Polish–Soviet War",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Polish%E2%80%93Soviet_War"
+    }
   },
   {
     "country": "UA",
@@ -36,7 +41,12 @@
       3,
       3,
       4
-    ]
+    ],
+    "src": {
+      "t": "Korenizatsiia",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Korenizatsiia"
+    }
   },
   {
     "country": "UA",
@@ -75,7 +85,12 @@
       1,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "Holodomor",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Holodomor"
+    }
   },
   {
     "country": "UA",
@@ -88,7 +103,12 @@
       1,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "Holodomor",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Holodomor"
+    }
   },
   {
     "country": "UA",
@@ -114,7 +134,12 @@
       3,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "Sandarmokh",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Sandarmokh"
+    }
   },
   {
     "country": "UA",
@@ -127,7 +152,12 @@
       1,
       5,
       4
-    ]
+    ],
+    "src": {
+      "t": "Soviet invasion of Poland",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland"
+    }
   },
   {
     "country": "UA",
@@ -140,7 +170,12 @@
       1,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "Kiev and Babi Yar",
+      "p": "United States Holocaust Memorial Museum – Holocaust Encyclopedia",
+      "u": "https://encyclopedia.ushmm.org/content/en/article/kiev-and-babi-yar"
+    }
   },
   {
     "country": "UA",
@@ -153,7 +188,12 @@
       3,
       4,
       3
-    ]
+    ],
+    "src": {
+      "t": "Ukrainian Insurgent Army",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Ukrainian_Insurgent_Army"
+    }
   },
   {
     "country": "UA",
@@ -166,7 +206,12 @@
       1,
       4,
       3
-    ]
+    ],
+    "src": {
+      "t": "Battle of Kiev (1943)",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Battle_of_Kiev_(1943)"
+    }
   },
   {
     "country": "UA",
@@ -179,7 +224,12 @@
       1,
       5,
       4
-    ]
+    ],
+    "src": {
+      "t": "Deportation of the Crimean Tatars",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Deportation_of_the_Crimean_Tatars"
+    }
   },
   {
     "country": "UA",
@@ -192,7 +242,12 @@
       3,
       4,
       4
-    ]
+    ],
+    "src": {
+      "t": "Голод в Українській РСР (1946—1947)",
+      "p": "Wikipedia (ukrajinská)",
+      "u": "https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B4_%D0%B2_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D1%96%D0%B9_%D0%A0%D0%A1%D0%A0_(1946%E2%80%941947)"
+    }
   },
   {
     "country": "UA",
@@ -270,7 +325,12 @@
       4,
       4,
       4
-    ]
+    ],
+    "src": {
+      "t": "Kurenivka mudslide",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Kurenivka_mudslide"
+    }
   },
   {
     "country": "UA",
@@ -322,7 +382,12 @@
       3,
       4,
       4
-    ]
+    ],
+    "src": {
+      "t": "Volodymyr Shcherbytsky",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Volodymyr_Shcherbytsky"
+    }
   },
   {
     "country": "UA",
@@ -387,7 +452,12 @@
       4,
       3,
       4
-    ]
+    ],
+    "src": {
+      "t": "Volodymyr Ivasiuk",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Volodymyr_Ivasiuk"
+    }
   },
   {
     "country": "UA",
@@ -439,7 +509,12 @@
       1,
       5,
       4
-    ]
+    ],
+    "src": {
+      "t": "Five-year plan",
+      "p": "Encyclopedia of Ukraine (Canadian Institute of Ukrainian Studies)",
+      "u": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CF%5CI%5CFive6yearplan.htm"
+    }
   },
   {
     "country": "UA",
@@ -452,7 +527,12 @@
       1,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "Kulak",
+      "p": "Internet Encyclopedia of Ukraine",
+      "u": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CU%5CKulak.htm"
+    }
   },
   {
     "country": "UA",
@@ -491,7 +571,12 @@
       1,
       3,
       4
-    ]
+    ],
+    "src": {
+      "t": "Alexei Stakhanov",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Alexei_Stakhanov"
+    }
   },
   {
     "country": "UA",
@@ -530,7 +615,12 @@
       2,
       5,
       3
-    ]
+    ],
+    "src": {
+      "t": "Soviet occupation of Bessarabia and Northern Bukovina",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Soviet_occupation_of_Bessarabia_and_Northern_Bukovina"
+    }
   },
   {
     "country": "UA",
@@ -569,7 +659,12 @@
       3,
       4,
       4
-    ]
+    ],
+    "src": {
+      "t": "Голод в Українській РСР (1946—1947)",
+      "p": "Wikipedia (ukrajinská)",
+      "u": "https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B4_%D0%B2_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D1%96%D0%B9_%D0%A0%D0%A1%D0%A0_(1946%E2%80%941947)"
+    }
   },
   {
     "country": "UA",
@@ -764,7 +859,12 @@
       2,
       2,
       4
-    ]
+    ],
+    "src": {
+      "t": "New Economic Policy",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/New_Economic_Policy"
+    }
   },
   {
     "country": "UA",
@@ -777,7 +877,12 @@
       3,
       3,
       4
-    ]
+    ],
+    "src": {
+      "t": "Ukrainization",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Ukrainization"
+    }
   },
   {
     "country": "UA",
@@ -829,7 +934,12 @@
       1,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "Collectivization in the Ukrainian Soviet Socialist Republic",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Collectivization_in_the_Ukrainian_Soviet_Socialist_Republic"
+    }
   },
   {
     "country": "UA",
@@ -842,7 +952,12 @@
       1,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "Famine-Genocide of 1932–3",
+      "p": "Internet Encyclopedia of Ukraine",
+      "u": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CF%5CA%5CFamine6Genocideof1932hD73.htm"
+    }
   },
   {
     "country": "UA",
@@ -868,7 +983,12 @@
       3,
       5,
       3
-    ]
+    ],
+    "src": {
+      "t": "Kharkiv",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Kharkiv"
+    }
   },
   {
     "country": "UA",
@@ -894,7 +1014,12 @@
       1,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "Soviet annexation of Eastern Galicia and Volhynia",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Soviet_annexation_of_Eastern_Galicia_and_Volhynia"
+    }
   },
   {
     "country": "UA",
@@ -920,7 +1045,12 @@
       1,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "Babi Yar",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Babi_Yar"
+    }
   },
   {
     "country": "UA",
@@ -959,7 +1089,12 @@
       2,
       5,
       4
-    ]
+    ],
+    "src": {
+      "t": "Deportation of the Crimean Tatars",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Deportation_of_the_Crimean_Tatars"
+    }
   },
   {
     "country": "UA",
@@ -972,7 +1107,12 @@
       3,
       5,
       4
-    ]
+    ],
+    "src": {
+      "t": "Synod of Lviv (1946)",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Synod_of_Lviv_(1946)"
+    }
   },
   {
     "country": "UA",
@@ -985,7 +1125,12 @@
       3,
       5,
       4
-    ]
+    ],
+    "src": {
+      "t": "Operation Vistula",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Operation_Vistula"
+    }
   },
   {
     "country": "UA",
@@ -1024,7 +1169,12 @@
       1,
       5,
       4
-    ]
+    ],
+    "src": {
+      "t": "1954 transfer of Crimea",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/1954_transfer_of_Crimea"
+    }
   },
   {
     "country": "UA",
@@ -1219,7 +1369,12 @@
       3,
       3,
       4
-    ]
+    ],
+    "src": {
+      "t": "West Ukrainian People's Republic",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/West_Ukrainian_People%27s_Republic"
+    }
   },
   {
     "country": "UA",
@@ -1258,7 +1413,12 @@
       2,
       5,
       3
-    ]
+    ],
+    "src": {
+      "t": "Pogroms during the Russian Civil War",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Pogroms_during_the_Russian_Civil_War"
+    }
   },
   {
     "country": "UA",
@@ -1271,7 +1431,12 @@
       3,
       2,
       4
-    ]
+    ],
+    "src": {
+      "t": "Nestor Makhno",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Nestor_Makhno"
+    }
   },
   {
     "country": "UA",
@@ -1375,7 +1540,12 @@
       3,
       3,
       4
-    ]
+    ],
+    "src": {
+      "t": "Carpatho-Ukraine",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Carpatho-Ukraine"
+    }
   },
   {
     "country": "UA",
@@ -1440,7 +1610,12 @@
       2,
       5,
       3
-    ]
+    ],
+    "src": {
+      "t": "Kyiv Metro",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Kyiv_Metro"
+    }
   },
   {
     "country": "UA",
@@ -1557,7 +1732,12 @@
       0,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "Chernobyl disaster",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Chernobyl_disaster"
+    }
   },
   {
     "country": "UA",
@@ -1635,7 +1815,12 @@
       2,
       4,
       4
-    ]
+    ],
+    "src": {
+      "t": "People's Movement of Ukraine",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/People%27s_Movement_of_Ukraine"
+    }
   },
   {
     "country": "UA",
@@ -1648,7 +1833,12 @@
       3,
       5,
       4
-    ]
+    ],
+    "src": {
+      "t": "On Languages in the Ukrainian SSR",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/On_Languages_in_the_Ukrainian_SSR"
+    }
   },
   {
     "country": "UA",
@@ -1674,7 +1864,12 @@
       4,
       3,
       4
-    ]
+    ],
+    "src": {
+      "t": "Revolution on Granite",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Revolution_on_Granite"
+    }
   },
   {
     "country": "UA",
@@ -1687,7 +1882,12 @@
       3,
       2,
       4
-    ]
+    ],
+    "src": {
+      "t": "Unification Act",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Unification_Act"
+    }
   },
   {
     "country": "UA",
@@ -1726,7 +1926,12 @@
       0,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "Declaration of Independence of Ukraine",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Declaration_of_Independence_of_Ukraine"
+    }
   },
   {
     "country": "UA",
@@ -1739,7 +1944,12 @@
       1,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "1991 Ukrainian independence referendum",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/1991_Ukrainian_independence_referendum"
+    }
   },
   {
     "country": "UA",
@@ -1843,7 +2053,12 @@
       0,
       5,
       4
-    ]
+    ],
+    "src": {
+      "t": "Ukrainian hryvnia",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Ukrainian_hryvnia"
+    }
   },
   {
     "country": "UA",
@@ -1999,7 +2214,12 @@
       2,
       4,
       4
-    ]
+    ],
+    "src": {
+      "t": "Cassette Scandal",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Cassette_Scandal"
+    }
   },
   {
     "country": "UA",
@@ -2090,7 +2310,12 @@
       0,
       3,
       4
-    ]
+    ],
+    "src": {
+      "t": "Ruslana",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Ruslana"
+    }
   },
   {
     "country": "UA",
@@ -2142,7 +2367,12 @@
       1,
       4,
       4
-    ]
+    ],
+    "src": {
+      "t": "Viktor Yushchenko",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Viktor_Yushchenko"
+    }
   },
   {
     "country": "UA",
@@ -2155,7 +2385,12 @@
       0,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "Orange Revolution",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Orange_Revolution"
+    }
   },
   {
     "country": "UA",
@@ -2233,7 +2468,12 @@
       1,
       3,
       4
-    ]
+    ],
+    "src": {
+      "t": "2005–06 Russia–Ukraine gas dispute",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Russia%E2%80%93Ukraine_gas_dispute"
+    }
   },
   {
     "country": "UA",
@@ -2311,7 +2551,12 @@
       1,
       3,
       4
-    ]
+    ],
+    "src": {
+      "t": "2009 Russia–Ukraine gas dispute",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/2009_Russia%E2%80%93Ukraine_gas_dispute"
+    }
   },
   {
     "country": "UA",
@@ -2324,7 +2569,12 @@
       0,
       4,
       4
-    ]
+    ],
+    "src": {
+      "t": "2010 Ukrainian presidential election",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/2010_Ukrainian_presidential_election"
+    }
   },
   {
     "country": "UA",
@@ -2350,7 +2600,12 @@
       0,
       3,
       3
-    ]
+    ],
+    "src": {
+      "t": "UEFA Euro 2012",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/UEFA_Euro_2012"
+    }
   },
   {
     "country": "UA",
@@ -2389,7 +2644,12 @@
       0,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "Euromaidan",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Euromaidan"
+    }
   },
   {
     "country": "UA",
@@ -2402,7 +2662,12 @@
       1,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "30 November 2013 attack on protesters",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/30_November_2013_attack_on_protesters"
+    }
   },
   {
     "country": "UA",
@@ -2415,7 +2680,12 @@
       0,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "Revolution of Dignity",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Revolution_of_Dignity"
+    }
   },
   {
     "country": "UA",
@@ -2428,7 +2698,12 @@
       0,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "Annexation of Crimea by the Russian Federation",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation"
+    }
   },
   {
     "country": "UA",
@@ -2441,7 +2716,12 @@
       0,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "War in Donbas",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/War_in_Donbas"
+    }
   },
   {
     "country": "UA",
@@ -2454,7 +2734,12 @@
       0,
       4,
       4
-    ]
+    ],
+    "src": {
+      "t": "Malaysia Airlines Flight 17",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_17"
+    }
   },
   {
     "country": "UA",
@@ -2480,7 +2765,12 @@
       1,
       5,
       4
-    ]
+    ],
+    "src": {
+      "t": "European Union–Ukraine Association Agreement",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/European_Union%E2%80%93Ukraine_Association_Agreement"
+    }
   },
   {
     "country": "UA",
@@ -2610,7 +2900,12 @@
       2,
       5,
       4
-    ]
+    ],
+    "src": {
+      "t": "Orthodox Church of Ukraine",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Orthodox_Church_of_Ukraine"
+    }
   },
   {
     "country": "UA",
@@ -2636,7 +2931,12 @@
       0,
       4,
       4
-    ]
+    ],
+    "src": {
+      "t": "2019 Ukrainian presidential election",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/2019_Ukrainian_presidential_election"
+    }
   },
   {
     "country": "UA",
@@ -2688,7 +2988,12 @@
       0,
       5,
       5
-    ]
+    ],
+    "src": {
+      "t": "Russian invasion of Ukraine",
+      "p": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine"
+    }
   },
   {
     "country": "UA",
@@ -2714,7 +3019,12 @@
       0,
       5,
       4
-    ]
+    ],
+    "src": {
+      "t": "Bucha massacre",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Bucha_massacre"
+    }
   },
   {
     "country": "UA",
@@ -2766,7 +3076,12 @@
       1,
       4,
       4
-    ]
+    ],
+    "src": {
+      "t": "Russian invasion of Ukraine",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine"
+    }
   },
   {
     "country": "UA",
@@ -2792,7 +3107,12 @@
       1,
       4,
       4
-    ]
+    ],
+    "src": {
+      "t": "Russian annexation of Donetsk, Kherson, Luhansk and Zaporizhzhia oblasts",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Russian_annexation_of_Donetsk,_Kherson,_Luhansk_and_Zaporizhzhia_oblasts"
+    }
   },
   {
     "country": "UA",
@@ -2844,7 +3164,12 @@
       1,
       4,
       4
-    ]
+    ],
+    "src": {
+      "t": "Destruction of the Kakhovka Dam",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Destruction_of_the_Kakhovka_Dam"
+    }
   },
   {
     "country": "UA",
@@ -3130,7 +3455,12 @@
       1,
       4,
       4
-    ]
+    ],
+    "src": {
+      "t": "Decommunization in Ukraine",
+      "p": "Wikipedia (anglická)",
+      "u": "https://en.wikipedia.org/wiki/Decommunization_in_Ukraine"
+    }
   },
   {
     "country": "UA",
@@ -3169,7 +3499,12 @@
       1,
       4,
       4
-    ]
+    ],
+    "src": {
+      "t": "Visa requirements for Ukrainian citizens",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Visa_requirements_for_Ukrainian_citizens"
+    }
   },
   {
     "country": "UA",
@@ -3390,6 +3725,11 @@
       2,
       5,
       4
-    ]
+    ],
+    "src": {
+      "t": "Carpathian Ruthenia",
+      "p": "Wikipedia (EN)",
+      "u": "https://en.wikipedia.org/wiki/Carpathian_Ruthenia"
+    }
   }
 ]
