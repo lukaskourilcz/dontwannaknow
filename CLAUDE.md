@@ -36,6 +36,7 @@ Validate mobile widths, long Czech strings, error/missing/loading/success states
 - Product/design audit: `docs/experience-overhaul.md`
 - Generated-media contract: `docs/generated-media.md`
 - Completed overhaul handoff: `docs/NEXT-AGENT-HANDOFF.md`
+- Next-phase brief (relevance scoring, sources, report modernization): `docs/fable-brief.md`
 - Architecture and operations: `README.md`, `DOCS.md`, `stack-and-scaling.md`, `NEEDED.md`
 
 ## Commands
