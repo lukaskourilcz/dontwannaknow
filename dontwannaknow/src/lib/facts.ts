@@ -16,6 +16,7 @@ import { contemporariesFor } from "../data/wikidataPeople";
 import { mediaFor } from "../data/media";
 import { writersAtBirth } from "../data/writers";
 import { pickN } from "./random";
+import { expandRelevance, pickRelevant, type RelevanceScores } from "./relevance";
 import { capitalize } from "./text";
 import { czYears, czAgePhrase } from "./czech";
 import { CURRENT_YEAR } from "./datetime";
@@ -27,6 +28,7 @@ import {
   composeChapters,
   selectShareItem,
   type EditorialMetadata,
+  type FactSource,
   type LifeMilestone,
   type ReportChapter,
   type ReportItem,
@@ -71,9 +73,25 @@ export type Fact = {
   year?: number;
   stage?: "birth-era" | "teenage-era";
   metadata: EditorialMetadata;
+  /** Build-time skóre relevance (commitnutý JSON); běh je jen čte a řadí. */
+  relevance?: RelevanceScores;
+  /** Doložený zdroj záznamu; bez něj záznam zůstává review-needed. */
+  source?: FactSource;
+  /** Jistota původu daná datovou sadou (World Bank → verified apod.). */
+  sourceConfidence?: "verified" | "review-needed";
 };
 
-type RawFact = Pick<Fact, "category" | "text" | "year" | "stage">;
+type RawFact = Pick<Fact, "category" | "text" | "year" | "stage" | "relevance" | "source" | "sourceConfidence">;
+
+/** Převod kompaktních běhových metadat záznamu (rel/src) na tvar Fact. */
+function extras(record: { rel?: number[]; src?: { t: string; p?: string; u?: string } }): Pick<Fact, "relevance" | "source"> {
+  return {
+    relevance: expandRelevance(record.rel),
+    source: record.src
+      ? { title: record.src.t, publisher: record.src.p, url: record.src.u }
+      : undefined,
+  };
+}
 
 export type PersonReport = {
   person: Person;
@@ -82,6 +100,12 @@ export type PersonReport = {
   milestones: LifeMilestone[];
   chapters: ReportChapter[];
   shareItem: ReportItem | null;
+};
+
+const WORLD_BANK_SOURCE: FactSource = {
+  title: "World Bank Open Data",
+  publisher: "Světová banka",
+  url: "https://data.worldbank.org/",
 };
 
 function ageAt(birthYear: number, year: number): number {
@@ -156,32 +180,34 @@ function countryFacts(person: Person): RawFact[] {
     });
   }
 
+  // Z každého tematického bloku vybíráme nejrelevantnější položku; skóre jen
+  // řadí, seedovaný rozptyl střídá blízké případy mezi osobami.
+  const decadeRelevance = (fact: { rel?: number[] }) => expandRelevance(fact.rel);
   for (const { d, when, stage } of decades) {
     if (!d) continue;
-    // Pick a couple from each thematic bucket.
-    pickN(d.government, 1).forEach((t) =>
-      facts.push({ category: "government", text: `${capitalize(when)}: ${t}`, stage }),
+    pickRelevant(d.government, 1, decadeRelevance).forEach((f) =>
+      facts.push({ category: "government", text: `${capitalize(when)}: ${f.text}`, stage, ...extras(f) }),
     );
-    pickN(d.clothes, 1).forEach((t) =>
-      facts.push({ category: "clothes", text: t, stage }),
+    pickRelevant(d.clothes, 1, decadeRelevance).forEach((f) =>
+      facts.push({ category: "clothes", text: f.text, stage, ...extras(f) }),
     );
-    pickN(d.illnesses, 1).forEach((t) =>
-      facts.push({ category: "illness", text: t, stage }),
+    pickRelevant(d.illnesses, 1, decadeRelevance).forEach((f) =>
+      facts.push({ category: "illness", text: f.text, stage, ...extras(f) }),
     );
-    pickN(d.dailyLife, 1).forEach((t) =>
-      facts.push({ category: "daily", text: t, stage }),
+    pickRelevant(d.dailyLife, 1, decadeRelevance).forEach((f) =>
+      facts.push({ category: "daily", text: f.text, stage, ...extras(f) }),
     );
-    pickN(d.food, 1).forEach((t) =>
-      facts.push({ category: "food", text: t, stage }),
+    pickRelevant(d.food, 1, decadeRelevance).forEach((f) =>
+      facts.push({ category: "food", text: f.text, stage, ...extras(f) }),
     );
-    pickN(d.money, 1).forEach((t) =>
-      facts.push({ category: "money", text: t, stage }),
+    pickRelevant(d.money, 1, decadeRelevance).forEach((f) =>
+      facts.push({ category: "money", text: f.text, stage, ...extras(f) }),
     );
-    pickN(d.bizarre, 1).forEach((t) =>
-      facts.push({ category: "bizarre", text: t, stage }),
+    pickRelevant(d.bizarre, 1, decadeRelevance).forEach((f) =>
+      facts.push({ category: "bizarre", text: f.text, stage, ...extras(f) }),
     );
-    pickN(d.beautiful, 1).forEach((t) =>
-      facts.push({ category: "beautiful", text: t, stage }),
+    pickRelevant(d.beautiful, 1, decadeRelevance).forEach((f) =>
+      facts.push({ category: "beautiful", text: f.text, stage, ...extras(f) }),
     );
   }
 
@@ -222,13 +248,14 @@ function countryFacts(person: Person): RawFact[] {
     birthYear,
     Math.min(CURRENT_YEAR, birthYear + 18),
   );
-  pickN(countryEvents, 4).forEach((e) => {
+  pickRelevant(countryEvents, 4, (e) => expandRelevance(e.rel)).forEach((e) => {
     const age = ageAt(birthYear, e.year);
     const when = czAgePhrase(age);
     facts.push({
       category: "local",
       year: e.year,
       text: `${capitalize(when)} (${e.year}): ${e.text}.`,
+      ...extras(e),
     });
   });
 
@@ -241,11 +268,12 @@ function countryFacts(person: Person): RawFact[] {
   const uniqueFamous = Array.from(
     new Map(famous.map((entry) => [entry.person.name, entry])).values(),
   );
-  pickN(uniqueFamous, 5).forEach(({ person: p, stage }) => {
+  pickRelevant(uniqueFamous, 5, (entry) => expandRelevance(entry.person.rel)).forEach(({ person: p, stage }) => {
     facts.push({
       category: "famous",
       text: `**${p.name}** — ${p.role}${p.note ? `: ${p.note}` : ""}.`,
       stage,
+      ...extras(p),
     });
   });
 
@@ -263,13 +291,14 @@ function buildReport(person: Person, cityEvents: Awaited<ReturnType<typeof cityF
   // ── City-specific events during the formative years ─────────────────
   if (city) {
     const formativeCityEvents = cityEvents.filter((event) => event.year <= birthYear + 18);
-    pickN(formativeCityEvents, 10).forEach((e) => {
+    pickRelevant(formativeCityEvents, 10, (e) => expandRelevance(e.rel)).forEach((e) => {
       const age = ageAt(birthYear, e.year);
       const when = czAgePhrase(age);
       facts.push({
         category: "city",
         year: e.year,
         text: `${capitalize(when)} (${e.year}, ${city.name}): ${e.text}.`,
+        ...extras(e),
       });
     });
   }
@@ -350,6 +379,8 @@ function buildReport(person: Person, cityEvents: Awaited<ReturnType<typeof cityF
       facts.push({
         category: "everyday",
         text: `${countryLabel}, ${birthYear}: ${parts.join(", ")} (data Světové banky).`,
+        source: WORLD_BANK_SOURCE,
+        sourceConfidence: "verified",
       });
     }
   }
@@ -380,6 +411,8 @@ function buildReport(person: Person, cityEvents: Awaited<ReturnType<typeof cityF
       facts.push({
         category: "everyday",
         text: `Porodnost — ${where}, ${birthYear}: ${bits.join("; ")}.`,
+        source: WORLD_BANK_SOURCE,
+        sourceConfidence: "verified",
       });
     }
 
@@ -396,6 +429,8 @@ function buildReport(person: Person, cityEvents: Awaited<ReturnType<typeof cityF
       facts.push({
         category: "illness",
         text: `Úmrtnost — ${where}, ${birthYear}: ${bits.join("; ")}.`,
+        source: WORLD_BANK_SOURCE,
+        sourceConfidence: "verified",
       });
     }
   }
@@ -409,6 +444,8 @@ function buildReport(person: Person, cityEvents: Awaited<ReturnType<typeof cityF
     facts.push({
       category: "contemporaries",
       text: `Stejný rok narození má také **${c.name}** · obor: ${c.role}.`,
+      source: { title: "Wikidata", url: "https://www.wikidata.org/" },
+      sourceConfidence: "verified",
     });
   });
 

@@ -1,4 +1,6 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { AXES } from "./relevance/prompts.mjs";
+import { recordKey } from "./relevance/record-key.mjs";
 
 const data = new URL("../src/data/", import.meta.url);
 const output = new URL("../src/data/public/", import.meta.url);
@@ -8,6 +10,52 @@ const readJson = async (relativePath) =>
   JSON.parse(await readFile(new URL(relativePath, data), "utf8"));
 
 const serialized = (value) => `${JSON.stringify(value, null, 2)}\n`;
+
+// ── Sidecary: skóre relevance a per-record provenience ──────────────────
+// Commitnuté sidecary (src/data/relevance/, src/data/provenance/) se do
+// veřejných záznamů slévají kompaktně: `rel` je šestice 0–5 v pořadí os,
+// `src` nese jen titul/vydavatele/URL. Zdůvodnění a verze promptu zůstávají
+// build-side pro audit — čtenáři se neposílají.
+const AXES_ORDER = Object.keys(AXES);
+
+async function loadRelevance(dataset) {
+  try {
+    const sidecar = JSON.parse(await readFile(new URL(`relevance/${dataset}.json`, data), "utf8"));
+    return new Map(sidecar.records.map((record) => [
+      record.key,
+      AXES_ORDER.map((axis) => record.scores[axis]),
+    ]));
+  } catch {
+    return new Map();
+  }
+}
+
+async function loadProvenance(dataset) {
+  try {
+    const sidecar = JSON.parse(await readFile(new URL(`provenance/${dataset}.json`, data), "utf8"));
+    return new Map(sidecar.records.map((record) => [
+      record.key,
+      {
+        t: record.title,
+        ...(record.publisher ? { p: record.publisher } : {}),
+        ...(record.url ? { u: record.url } : {}),
+      },
+    ]));
+  } catch {
+    return new Map();
+  }
+}
+
+async function withExtras(records, dataset) {
+  const relevance = await loadRelevance(dataset);
+  const provenance = await loadProvenance(dataset);
+  return records.map((record) => {
+    const key = recordKey(dataset, record);
+    const rel = relevance.get(key);
+    const src = provenance.get(key);
+    return { ...record, ...(rel ? { rel } : {}), ...(src ? { src } : {}) };
+  });
+}
 
 function parseSupportedCities(source) {
   const cities = [];
@@ -49,14 +97,16 @@ const cityFacts = (await readJson("cityFacts.json")).filter((record) => citySlug
 const bySupportedCountry = (records) =>
   records.filter((record) => supportedCountries.has(String(record.country).toUpperCase()));
 
+const scoredCityFacts = await withExtras(cityFacts, "cityFacts");
+
 const generated = {
   "cities.json": cities,
   "cityCoords.json": cityCoordinates,
-  "cityFacts.cz.json": cityFacts.filter((record) => cityCountries.get(record.city) === "CZ"),
-  "cityFacts.ua.json": cityFacts.filter((record) => cityCountries.get(record.city) === "UA"),
-  "countryDecades.json": bySupportedCountry(await readJson("countryDecades.json")),
-  "countryEvents.json": bySupportedCountry(await readJson("countryEvents.json")),
-  "famousPeople.json": bySupportedCountry(await readJson("famousPeople.json")),
+  "cityFacts.cz.json": scoredCityFacts.filter((record) => cityCountries.get(record.city) === "CZ"),
+  "cityFacts.ua.json": scoredCityFacts.filter((record) => cityCountries.get(record.city) === "UA"),
+  "countryDecades.json": await withExtras(bySupportedCountry(await readJson("countryDecades.json")), "countryDecades"),
+  "countryEvents.json": await withExtras(bySupportedCountry(await readJson("countryEvents.json")), "countryEvents"),
+  "famousPeople.json": await withExtras(bySupportedCountry(await readJson("famousPeople.json")), "famousPeople"),
   "wikidataPeople.json": bySupportedCountry(await readJson("generated/wikidataPeople.json")),
   "worldBank.json": Object.fromEntries(
     Object.entries(await readJson("generated/worldBank.json"))

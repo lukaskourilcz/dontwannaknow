@@ -26,6 +26,11 @@ export function createSeededRandom(seed: string | number): RandomSource {
 
 let activeRandom: RandomSource = Math.random;
 
+/** Aktuální (seedovaný) zdroj náhody — pro selektory mimo tento modul. */
+export function getActiveRandom(): RandomSource {
+  return activeRandom;
+}
+
 export function withSeededRandom<T>(seed: string | number, task: () => T): T {
   const previous = activeRandom;
   activeRandom = createSeededRandom(seed);

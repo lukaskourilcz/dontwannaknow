@@ -1,11 +1,13 @@
 export { CITIES, citiesFor, findCity, type City } from "./cityCatalog";
 import { findCity } from "./cityCatalog";
 
+import type { RecordExtras } from "./_grouped";
+
 export type CityFact = {
   city: string;
   year: number;
   text: string;
-};
+} & RecordExtras;
 
 export async function cityFactsFor(
   citySlug: string,

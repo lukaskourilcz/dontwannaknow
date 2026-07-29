@@ -7,8 +7,12 @@
 // expects. Keeping this transformation in one module avoids parallel grouping
 // implementations in the runtime and the editor.
 
-export type CountryDecadeRow = { country: string; decadeStart: number; bucket: string; text: string };
-export type FamousPersonRow = { country: string; decadeStart: number; name: string; role: string; note?: string };
+/** Kompaktní běhová metadata záznamu: skóre relevance (šestice 0–5 v pořadí
+ * RELEVANCE_AXES) a případný doložený zdroj. Připojuje build-public-data.mjs. */
+export type RecordExtras = { rel?: number[]; src?: { t: string; p?: string; u?: string } };
+
+export type CountryDecadeRow = { country: string; decadeStart: number; bucket: string; text: string } & RecordExtras;
+export type FamousPersonRow = { country: string; decadeStart: number; name: string; role: string; note?: string } & RecordExtras;
 export type MediaRow = { country: string; decadeStart: number; kind: string; text: string };
 export type SlangRow = { decadeStart: number; phrase: string; meaning: string };
 export type BabyNamesRow = { country: string; decadeStart: number; sex: string; name: string };
@@ -37,7 +41,10 @@ export const COUNTRY_DECADE_BUCKETS = [
 ] as const;
 type Bucket = (typeof COUNTRY_DECADE_BUCKETS)[number];
 
-export type CountryDecadeShape = { country: string; decadeStart: number } & Record<Bucket, string[]>;
+/** Jednotlivý dobový postřeh: text + kompaktní metadata (skóre, zdroj). */
+export type DecadeFact = { text: string } & RecordExtras;
+
+export type CountryDecadeShape = { country: string; decadeStart: number } & Record<Bucket, DecadeFact[]>;
 
 export function regroupCountryDecades(rows: CountryDecadeRow[]): CountryDecadeShape[] {
   return groupOrdered(rows, (r) => `${r.country}|${r.decadeStart}`).map((group) => {
@@ -48,7 +55,10 @@ export function regroupCountryDecades(rows: CountryDecadeRow[]): CountryDecadeSh
     };
     for (const r of group) {
       if ((COUNTRY_DECADE_BUCKETS as readonly string[]).includes(r.bucket)) {
-        rec[r.bucket as Bucket].push(r.text);
+        const fact: DecadeFact = { text: r.text };
+        if (r.rel) fact.rel = r.rel;
+        if (r.src) fact.src = r.src;
+        rec[r.bucket as Bucket].push(fact);
       }
     }
     return rec;
@@ -59,7 +69,7 @@ export function regroupCountryDecades(rows: CountryDecadeRow[]): CountryDecadeSh
 export type FamousByDecadeShape = {
   country: string;
   decadeStart: number;
-  people: { name: string; role: string; note?: string }[];
+  people: ({ name: string; role: string; note?: string } & RecordExtras)[];
 };
 
 export function regroupFamousPeople(rows: FamousPersonRow[]): FamousByDecadeShape[] {
@@ -67,8 +77,10 @@ export function regroupFamousPeople(rows: FamousPersonRow[]): FamousByDecadeShap
     country: group[0].country,
     decadeStart: group[0].decadeStart,
     people: group.map((r) => {
-      const person: { name: string; role: string; note?: string } = { name: r.name, role: r.role };
+      const person: { name: string; role: string; note?: string } & RecordExtras = { name: r.name, role: r.role };
       if (r.note != null && r.note !== "") person.note = r.note;
+      if (r.rel) person.rel = r.rel;
+      if (r.src) person.src = r.src;
       return person;
     }),
   }));

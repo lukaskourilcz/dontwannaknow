@@ -1,5 +1,7 @@
 import { readFile, readdir } from "node:fs/promises";
 import { extname, join, relative } from "node:path";
+import { recordKey } from "./relevance/record-key.mjs";
+import { AXES, PASSES, PROMPT_VERSION } from "./relevance/prompts.mjs";
 
 const root = new URL("../", import.meta.url);
 const dataDirectory = new URL("../src/data/", import.meta.url);
@@ -245,6 +247,133 @@ if (/data\/history/.test(factsModule)) {
   errors.push("src/lib/facts.ts: archivní history.json nesmí vstupovat do veřejného generátoru.");
 }
 warnings.push(`${archivedHistory.length} dlouhých historických rešerší čeká v archivu na jednotlivou redakční kontrolu.`);
+// ── Skóre relevance a per-record provenience ────────────────────────────
+// Neexistuje lidská revizní fronta: co agent zapíše, to se nasadí. Proto musí
+// build spadnout na jakékoli malformované dávce — rozsahy, chybějící
+// zdůvodnění, osiřelé klíče, neúplné pokrytí i podezřele „dramatická“ skóre.
+const difficultPatterns = editorialRules
+  .filter((rule) => rule.sensitivity === "difficult")
+  .map((rule) => new RegExp(rule.pattern, "i"));
+const relevanceAxes = Object.keys(AXES);
+const relevanceDatasets = {
+  cityFacts: ["cityFacts.cz.json", "cityFacts.ua.json"],
+  countryEvents: ["countryEvents.json"],
+  countryDecades: ["countryDecades.json"],
+  famousPeople: ["famousPeople.json"],
+  leaders: ["leaders.json"],
+};
+
+for (const [dataset, publicFiles] of Object.entries(relevanceDatasets)) {
+  const sidecarUrl = new URL(`../src/data/relevance/${dataset}.json`, import.meta.url);
+  const sidecarText = await readFile(sidecarUrl, "utf8").catch(() => null);
+  const publicRecords = [];
+  for (const filename of publicFiles) {
+    const content = await readFile(new URL(`../src/data/public/${filename}`, import.meta.url), "utf8").catch(() => null);
+    if (content) publicRecords.push(...JSON.parse(content));
+  }
+  if (!publicRecords.length && !sidecarText) continue;
+  if (!sidecarText) {
+    warnings.push(`relevance/${dataset}.json: skórování zatím chybí — záznamy se řadí neutrálně.`);
+    continue;
+  }
+  let sidecar;
+  try {
+    sidecar = JSON.parse(sidecarText);
+  } catch (error) {
+    errors.push(`relevance/${dataset}.json: neplatný JSON (${error.message}).`);
+    continue;
+  }
+  if (sidecar.promptVersion !== PROMPT_VERSION) {
+    errors.push(`relevance/${dataset}.json: verze promptu „${sidecar.promptVersion}“ neodpovídá aktuální „${PROMPT_VERSION}“.`);
+  }
+  if (!String(sidecar.model ?? "").trim()) errors.push(`relevance/${dataset}.json: chybí model.`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(String(sidecar.scoredAt ?? ""))) {
+    errors.push(`relevance/${dataset}.json: chybí datum skórování (scoredAt).`);
+  }
+  const publicKeys = new Set(publicRecords.map((record) => recordKey(dataset, record)));
+  const sidecarKeys = new Set();
+  for (const [index, record] of (sidecar.records ?? []).entries()) {
+    const label = `relevance/${dataset}.json[${index}]`;
+    if (!record.key || sidecarKeys.has(record.key)) {
+      errors.push(`${label}: chybějící nebo duplicitní klíč.`);
+      continue;
+    }
+    sidecarKeys.add(record.key);
+    if (!publicKeys.has(record.key)) {
+      errors.push(`${label}: osiřelé skóre — klíč neodpovídá žádnému veřejnému záznamu (${record.key.slice(0, 60)}…).`);
+      continue;
+    }
+    for (const axis of relevanceAxes) {
+      const value = record.scores?.[axis];
+      if (!Number.isInteger(value) || value < 0 || value > 5) {
+        errors.push(`${label}: osa ${axis} má hodnotu ${value} mimo rozsah 0–5.`);
+      }
+    }
+    for (const pass of Object.keys(PASSES)) {
+      if (!String(record.rationales?.[pass] ?? "").trim()) {
+        errors.push(`${label}: chybí zdůvodnění průchodu ${pass}.`);
+      }
+    }
+    // „Zajímavé“ nesmí kolabovat do „dramatické“: záznam spadající do obtížné
+    // citlivosti nesmí nést plošné maximum, které by ovládlo každé řazení.
+    const values = relevanceAxes.map((axis) => record.scores?.[axis]).filter(Number.isInteger);
+    const textPart = record.key.split("|").at(-1) ?? "";
+    if (difficultPatterns.some((pattern) => pattern.test(textPart)) && values.length && values.every((value) => value === 5)) {
+      errors.push(`${label}: obtížný záznam s plošným maximem — podezření na skórování dramatičnosti.`);
+    }
+  }
+  for (const key of publicKeys) {
+    if (!sidecarKeys.has(key)) errors.push(`relevance/${dataset}.json: chybí skóre pro veřejný záznam ${key.slice(0, 60)}….`);
+  }
+
+  // Kompaktní pole `rel` ve veřejných souborech musí odpovídat smlouvě.
+  for (const filename of publicFiles) {
+    const content = await readFile(new URL(`../src/data/public/${filename}`, import.meta.url), "utf8").catch(() => null);
+    if (!content) continue;
+    for (const [index, record] of JSON.parse(content).entries()) {
+      if (record.rel !== undefined) {
+        if (!Array.isArray(record.rel) || record.rel.length !== relevanceAxes.length ||
+          record.rel.some((value) => !Number.isInteger(value) || value < 0 || value > 5)) {
+          errors.push(`public/${filename}[${index}]: pole rel neodpovídá šestici celých čísel 0–5.`);
+        }
+      }
+      if (record.src !== undefined && !String(record.src.t ?? "").trim()) {
+        errors.push(`public/${filename}[${index}]: zdroj bez titulu.`);
+      }
+    }
+  }
+
+  // Per-record provenience: úplná citace, žádné osiřelé klíče.
+  const provenanceText = await readFile(new URL(`../src/data/provenance/${dataset}.json`, import.meta.url), "utf8").catch(() => null);
+  if (provenanceText) {
+    let provenance;
+    try {
+      provenance = JSON.parse(provenanceText);
+    } catch (error) {
+      errors.push(`provenance/${dataset}.json: neplatný JSON (${error.message}).`);
+      provenance = null;
+    }
+    const provenanceKeys = new Set();
+    for (const [index, record] of (provenance?.records ?? []).entries()) {
+      const label = `provenance/${dataset}.json[${index}]`;
+      if (!record.key || provenanceKeys.has(record.key)) errors.push(`${label}: chybějící nebo duplicitní klíč.`);
+      provenanceKeys.add(record.key);
+      if (record.key && !publicKeys.has(record.key)) {
+        errors.push(`${label}: osiřelá citace — klíč neodpovídá žádnému veřejnému záznamu.`);
+      }
+      for (const field of ["title", "publisher", "url", "accessed", "licence"]) {
+        if (!String(record[field] ?? "").trim()) errors.push(`${label}: chybí pole ${field}.`);
+      }
+      if (record.accessed && !/^\d{4}-\d{2}-\d{2}$/.test(record.accessed)) {
+        errors.push(`${label}: datum přístupu není ve tvaru RRRR-MM-DD.`);
+      }
+      if (record.url && !/^https?:\/\//.test(record.url)) {
+        errors.push(`${label}: URL nezačíná http(s).`);
+      }
+    }
+  }
+}
+
 const overclaim = /všichni|každého teenagera|každé rodiny|nikdo neznal|nepochybně|určitě prožil/i;
 for (const record of supportedTexture) {
   if (overclaim.test(record.text)) {

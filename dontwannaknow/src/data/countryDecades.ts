@@ -1,5 +1,7 @@
 import countryDecadesJson from "./public/countryDecades.json";
-import { regroupCountryDecades } from "./_grouped";
+import { regroupCountryDecades, type DecadeFact } from "./_grouped";
+
+export type { DecadeFact } from "./_grouped";
 
 // Public per-country, per-decade snapshots. Broader source material remains in
 // the archive, while this runtime module only exposes the generated CZ/UA layer.
@@ -31,14 +33,14 @@ export function countryLabelFor(country: SupportedCountry, birthYear: number): s
 export type CountryDecade = {
   country: SupportedCountry;
   decadeStart: number;
-  government: string[];
-  clothes: string[];
-  illnesses: string[];
-  dailyLife: string[];
-  food: string[];
-  money: string[];
-  bizarre: string[];
-  beautiful: string[];
+  government: DecadeFact[];
+  clothes: DecadeFact[];
+  illnesses: DecadeFact[];
+  dailyLife: DecadeFact[];
+  food: DecadeFact[];
+  money: DecadeFact[];
+  bizarre: DecadeFact[];
+  beautiful: DecadeFact[];
 };
 
 export const COUNTRY_DECADES: CountryDecade[] = regroupCountryDecades(countryDecadesJson) as unknown as CountryDecade[];

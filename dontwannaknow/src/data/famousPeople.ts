@@ -6,11 +6,13 @@ import { regroupFamousPeople } from "./_grouped";
 
 import type { Country } from "./countryDecades";
 
+import type { RecordExtras } from "./_grouped";
+
 export type FamousPerson = {
   name: string;
   role: string; // writer, politician, actor, painter, musician, etc.
   note?: string; // single-line context
-};
+} & RecordExtras;
 
 export type FamousByDecade = {
   country: Exclude<Country, "INTL">;

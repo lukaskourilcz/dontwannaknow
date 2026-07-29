@@ -1,8 +1,16 @@
 import type { Fact, FactCategory } from "./facts";
 import type { Person } from "./person";
 import type { ResolvedHistoricalContext } from "./historicalLocation";
-import { stableHash } from "./random";
+import { getActiveRandom, stableHash } from "./random";
+import { compositeRelevance, RELEVANCE_JITTER, type RelevanceScores } from "./relevance";
 import editorialRulesJson from "../data/editorialRules.json";
+
+/** Doložený zdroj jednoho záznamu (per-record provenance). */
+export type FactSource = {
+  title: string;
+  publisher?: string;
+  url?: string;
+};
 
 export type FactTone = "warm" | "playful" | "neutral" | "serious";
 export type FactSensitivity = "none" | "mild" | "difficult";
@@ -43,6 +51,8 @@ export type ReportItem = {
   year?: number;
   age?: number;
   metadata: EditorialMetadata;
+  relevance?: RelevanceScores;
+  source?: FactSource;
 };
 
 export type LifeMilestone = {
@@ -102,7 +112,7 @@ function scopeForCategory(category: FactCategory): GeographicScope {
 }
 
 export function annotateFact(
-  fact: Pick<Fact, "category" | "text" | "year" | "stage">,
+  fact: Pick<Fact, "category" | "text" | "year" | "stage" | "relevance" | "source" | "sourceConfidence">,
   context: ResolvedHistoricalContext,
 ): Fact {
   const override = EDITORIAL_RULES.find(({ matcher }) => matcher.test(fact.text))?.rule;
@@ -120,7 +130,11 @@ export function annotateFact(
     historicalEntityId: override?.historicalEntityId ?? (["city", "local", "government"].includes(fact.category)
       ? context.historicalStateId
       : undefined),
-    sourceConfidence: override?.sourceConfidence ?? (difficult ? "review-needed" : "verified"),
+    // Poctivost původu: redakční pravidlo může jistotu jen snížit; jinak platí
+    // per-record údaj z dat (doložený zdroj → verified, jinak review-needed).
+    sourceConfidence: override?.sourceConfidence
+      ?? fact.sourceConfidence
+      ?? (fact.source ? "verified" : "review-needed"),
     reviewRequired: override?.reviewRequired ?? difficult,
     ageFrom: override?.ageFrom,
     ageTo: override?.ageTo,
@@ -136,6 +150,8 @@ function toItem(fact: Fact, birthYear: number): ReportItem {
     year: fact.year,
     age: fact.year === undefined ? undefined : fact.year - birthYear,
     metadata: fact.metadata,
+    relevance: fact.relevance,
+    source: fact.source,
   };
 }
 
@@ -161,6 +177,44 @@ export function uniqueReportItems(items: ReportItem[]): ReportItem[] {
   return Array.from(new Map(items.map((item) => [item.text, item])).values());
 }
 
+/** Práh, od kterého osu považujeme za „vysokou“ pro záruku mixu kapitoly. */
+const MIX_THRESHOLD = 4;
+
+/** Záruka mixu: kapitola má nést aspoň jeden záznam s vysokou hodnotou
+ * rozpoznání („ano, přesně“) a jeden s vysokou hodnotou objevu („to jsem
+ * nevěděl/a“), pokud je brány vůbec pustily. Nikdy nezačíná obtížným záznamem,
+ * existuje-li jiná možnost. Pracuje výhradně nad množinou, která už prošla
+ * všemi filtry — záruka nikdy neobejde brány. */
+function ensureMix(ordered: Fact[], count: number): Fact[] {
+  const selected = ordered.slice(0, count);
+  const rest = ordered.slice(count);
+  const has = (axis: "recognition" | "discovery", list: Fact[] = selected) =>
+    list.some((fact) => (fact.relevance?.[axis] ?? 0) >= MIX_THRESHOLD);
+
+  for (const axis of ["recognition", "discovery"] as const) {
+    if (has(axis)) continue;
+    const candidate = rest.find((fact) => (fact.relevance?.[axis] ?? 0) >= MIX_THRESHOLD);
+    if (!candidate) continue;
+    const other = axis === "recognition" ? "discovery" : "recognition";
+    for (let index = selected.length - 1; index >= 0; index -= 1) {
+      const withoutIndex = selected.filter((_, position) => position !== index);
+      if (!has(other) || has(other, withoutIndex)) {
+        selected[index] = candidate;
+        break;
+      }
+    }
+  }
+
+  if (selected.length > 1 && selected[0].metadata.sensitivity === "difficult") {
+    const firstSafe = selected.findIndex((fact) => fact.metadata.sensitivity !== "difficult");
+    if (firstSafe > 0) {
+      const [safe] = selected.splice(firstSafe, 1);
+      selected.unshift(safe);
+    }
+  }
+  return selected;
+}
+
 function take(
   facts: Fact[],
   categories: FactCategory[],
@@ -175,42 +229,59 @@ function take(
   } = {},
 ): ReportItem[] {
   const rank = new Map(categories.map((category, index) => [category, index]));
-  return uniqueReportItems(
-    facts
-      .filter((fact) => {
-        const wasMovedByEditorialRule = fact.metadata.chapter !== chapterForCategory[fact.category];
-        return fact.metadata.chapter === options.chapter || (!wasMovedByEditorialRule && rank.has(fact.category));
-      })
-      .filter((fact) => options.allowDifficult || fact.metadata.sensitivity !== "difficult")
-      .filter((fact) => !options.safeOnly || fact.metadata.sensitivity === "none")
-      .filter((fact) => !options.exclude?.has(fact.text))
-      .filter((fact) => options.predicate?.(fact) ?? true)
-      .filter((fact) => {
-        if (fact.year === undefined) return true;
-        const age = fact.year - birthYear;
-        return (
-          (fact.metadata.ageFrom === undefined || age >= fact.metadata.ageFrom) &&
-          (fact.metadata.ageTo === undefined || age <= fact.metadata.ageTo)
-        );
-      })
-      .sort((a, b) => {
-        const category = (rank.get(a.category) ?? 99) - (rank.get(b.category) ?? 99);
-        if (category) return category;
-        const featured = Number(b.metadata.featured) - Number(a.metadata.featured);
-        if (featured) return featured;
-        return 0;
-      })
-      .map((fact) => toItem(fact, birthYear)),
-  ).slice(0, count);
+  const random = getActiveRandom();
+  // Tvrdé brány: kapitola/kategorie, citlivost, sdílená unikátnost, predikáty
+  // a věkové okno. Skóre relevance nastupuje až po nich a jen řadí.
+  const gated = facts
+    .filter((fact) => {
+      const wasMovedByEditorialRule = fact.metadata.chapter !== chapterForCategory[fact.category];
+      return fact.metadata.chapter === options.chapter || (!wasMovedByEditorialRule && rank.has(fact.category));
+    })
+    .filter((fact) => options.allowDifficult || fact.metadata.sensitivity !== "difficult")
+    .filter((fact) => !options.safeOnly || fact.metadata.sensitivity === "none")
+    .filter((fact) => !options.exclude?.has(fact.text))
+    .filter((fact) => options.predicate?.(fact) ?? true)
+    .filter((fact) => {
+      if (fact.year === undefined) return true;
+      const age = fact.year - birthYear;
+      return (
+        (fact.metadata.ageFrom === undefined || age >= fact.metadata.ageFrom) &&
+        (fact.metadata.ageTo === undefined || age <= fact.metadata.ageTo)
+      );
+    });
+
+  const seenTexts = new Set<string>();
+  const unique = gated.filter((fact) => {
+    if (seenTexts.has(fact.text)) return false;
+    seenTexts.add(fact.text);
+    return true;
+  });
+
+  // Řazení: složené skóre relevance vede; redakční pořadí kategorií a příznak
+  // featured jen jemně přibržďují; seedovaný rozptyl střídá blízké případy.
+  const orderedPool = unique
+    .map((fact) => ({
+      fact,
+      sortKey:
+        compositeRelevance(fact.relevance) +
+        (rank.size - (rank.get(fact.category) ?? rank.size)) * 0.5 +
+        (fact.metadata.featured ? 0.5 : 0) +
+        random() * RELEVANCE_JITTER,
+    }))
+    .sort((a, b) => b.sortKey - a.sortKey)
+    .map((entry) => entry.fact);
+
+  return ensureMix(orderedPool, count).map((fact) => toItem(fact, birthYear));
 }
 
 function avoidConsecutiveDifficult(items: ReportItem[]): ReportItem[] {
   const safe = items.filter((item) => item.metadata.sensitivity !== "difficult");
+  // Obtížných záznamů nikdy víc než bezpečných (a max 3), aby se neřadily za
+  // sebou a kapitola jimi nikdy nezačínala, dokud existuje jiná možnost.
   const difficult = items
     .filter((item) => item.metadata.sensitivity === "difficult")
-    .slice(0, Math.min(3, safe.length + 1));
+    .slice(0, Math.min(3, Math.max(safe.length, 1)));
   const out: ReportItem[] = [];
-  if (difficult.length > safe.length) out.push(difficult.shift()!);
   while (safe.length || difficult.length) {
     if (safe.length) out.push(safe.shift()!);
     if (difficult.length) out.push(difficult.shift()!);

@@ -4,12 +4,13 @@
 import countryEventsJson from "./public/countryEvents.json";
 
 import type { Country } from "./countryDecades";
+import type { RecordExtras } from "./_grouped";
 
 export type CountryYearEvent = {
   country: Exclude<Country, "INTL">;
   year: number;
   text: string;
-};
+} & RecordExtras;
 
 export const COUNTRY_EVENTS: CountryYearEvent[] = countryEventsJson as CountryYearEvent[];
 
