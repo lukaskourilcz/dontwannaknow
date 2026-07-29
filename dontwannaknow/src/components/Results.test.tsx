@@ -99,7 +99,7 @@ describe("Results", () => {
     expect(container.querySelectorAll(".comparison-people > article")).toHaveLength(2);
     expect(container.querySelectorAll(".comparison-chapter")).toHaveLength(7);
     expect(screen.getByRole("navigation", { name: "Kapitoly srovnání" })).toBeInTheDocument();
-    const factTexts = [...container.querySelectorAll(".comparison-report .report-item p")]
+    const factTexts = [...container.querySelectorAll(".comparison-report .report-item > p")]
       .map((element) => element.textContent?.replace(/\s+/g, " ").trim());
     expect(new Set(factTexts).size).toBe(factTexts.length);
     expect(container.querySelectorAll(".comparison-shared").length).toBeGreaterThan(0);

@@ -8,6 +8,7 @@ import { artForBirthYear } from "../data/artByDecade";
 import { birthDateUTC, daysSince, weeksSince } from "../lib/datetime";
 import { czAgePhrase } from "../lib/czech";
 import LifeGrid from "./LifeGrid";
+import LeaderProfile from "./LeaderProfile";
 import SharePanel from "./SharePanel";
 import { COPY } from "../copy";
 
@@ -72,8 +73,58 @@ function itemVariant(item: ReportItem): string {
   return "standard";
 }
 
+/** Značka jistoty: čtenář pozná doložený záznam od interní rešerše na první
+ * pohled, bez čtení metodiky. Redakční poznámky značku nenesou. */
+function confidenceMark(item: ReportItem): { label: string; className: string } | null {
+  if (item.id.startsWith("fallback-") || item.category === "context") return null;
+  if (item.metadata.sourceConfidence === "verified" && item.source) {
+    return { label: "Doloženo", className: "confidence-verified" };
+  }
+  if (item.metadata.sourceConfidence === "review-needed") {
+    return { label: "K ověření", className: "confidence-review" };
+  }
+  return null;
+}
+
+/** Hloubka na vyžádání: řádek se rozbalí do plnějšího příběhu se zdroji —
+ * u lídrů do strukturovaného profilu, u záznamů do citace či poctivé
+ * poznámky o interní rešerši. */
+function ItemDepth({ item }: { item: ReportItem }) {
+  const confidence = confidenceMark(item);
+  if (!item.leader && !item.source && !confidence) return null;
+  return (
+    <details className="item-depth">
+      <summary>
+        <span className="summary-action-open">{item.leader ? "Zobrazit profil a zdroje" : "Zobrazit zdroj"}</span>
+        <span className="summary-action-close">Skrýt podrobnosti</span>
+      </summary>
+      <div className="item-depth-body">
+        {item.leader && <LeaderProfile leader={item.leader} />}
+        {item.source ? (
+          <p className="item-source">
+            Zdroj:{" "}
+            {item.source.url ? (
+              <a href={item.source.url} target="_blank" rel="noopener noreferrer">
+                {item.source.title}
+              </a>
+            ) : (
+              item.source.title
+            )}
+            {item.source.publisher ? ` · ${item.source.publisher}` : ""}
+          </p>
+        ) : (
+          <p className="item-source">
+            Záznam pochází z interní kurátorované rešerše a zatím čeká na vnější ověření.
+          </p>
+        )}
+      </div>
+    </details>
+  );
+}
+
 function ItemCard({ item }: { item: ReportItem }) {
   const variant = itemVariant(item);
+  const confidence = confidenceMark(item);
   const time = item.year
     ? `${item.year}${item.age !== undefined && item.age >= 0 ? ` · ${czAgePhrase(item.age)}` : ""}`
     : null;
@@ -81,9 +132,13 @@ function ItemCard({ item }: { item: ReportItem }) {
     <li className={`report-item item-${variant} tone-${item.metadata.tone} sensitivity-${item.metadata.sensitivity}`}>
       <div className="item-meta">
         <span className="item-kind">{itemKind(item)}</span>
-        {time && <span className="item-year">{time}</span>}
+        <span className="item-meta-right">
+          {confidence && <span className={`item-confidence ${confidence.className}`}>{confidence.label}</span>}
+          {time && <span className="item-year">{time}</span>}
+        </span>
       </div>
       <p>{richText(item.text)}</p>
+      <ItemDepth item={item} />
     </li>
   );
 }

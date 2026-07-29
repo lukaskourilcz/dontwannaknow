@@ -4,15 +4,16 @@ import { goneCountriesAlive } from "../data/countries";
 import { statsForYear } from "../data/stats";
 import {
   decadeFactsFor,
+  loadCountryDecades,
   countryLabelFor,
   type CountryDecade,
 } from "../data/countryDecades";
-import { culturalFiguresFor } from "../data/famousPeople";
-import { eventsForCountry } from "../data/countryEvents";
+import { culturalFiguresFor, loadFamousPeople } from "../data/famousPeople";
+import { eventsForCountry, loadCountryEvents } from "../data/countryEvents";
 import { cityFactsFor } from "../data/cities";
 import { findCity } from "../data/cityCatalog";
-import { worldBankFor, worldBankLatest } from "../data/worldBank";
-import { contemporariesFor } from "../data/wikidataPeople";
+import { loadWorldBank, worldBankFor, worldBankLatest } from "../data/worldBank";
+import { contemporariesFor, loadWikidataPeople } from "../data/wikidataPeople";
 import { mediaFor } from "../data/media";
 import { writersAtBirth } from "../data/writers";
 import { pickN } from "./random";
@@ -34,6 +35,7 @@ import {
   type ReportItem,
 } from "./report";
 import { resolveHistoricalLocation, type ResolvedHistoricalContext } from "./historicalLocation";
+import { leadersOverlapping, type Leader } from "../data/leaders";
 import type { Person } from "./person";
 
 export type { Person } from "./person";
@@ -79,9 +81,15 @@ export type Fact = {
   source?: FactSource;
   /** Jistota původu daná datovou sadou (World Bank → verified apod.). */
   sourceConfidence?: "verified" | "review-needed";
+  /** Citlivostní podlaha daná daty — pravidla ji mohou jen zvýšit. */
+  sensitivity?: "none" | "mild" | "difficult";
+  /** Datový zákaz sdílení (false nejde ničím přebít). */
+  shareSafe?: boolean;
+  /** Strukturovaný profil lídra pro „malou vizitku“ ve zprávě. */
+  leader?: Leader;
 };
 
-type RawFact = Pick<Fact, "category" | "text" | "year" | "stage" | "relevance" | "source" | "sourceConfidence">;
+type RawFact = Pick<Fact, "category" | "text" | "year" | "stage" | "relevance" | "source" | "sourceConfidence" | "sensitivity" | "shareSafe" | "leader">;
 
 /** Převod kompaktních běhových metadat záznamu (rel/src) na tvar Fact. */
 function extras(record: { rel?: number[]; src?: { t: string; p?: string; u?: string } }): Pick<Fact, "relevance" | "source"> {
@@ -280,7 +288,42 @@ function countryFacts(person: Person): RawFact[] {
   return facts;
 }
 
-function buildReport(person: Person, cityEvents: Awaited<ReturnType<typeof cityFactsFor>>, excludeWorld = false): PersonReport {
+/** Kdo stál v čele státu (nebo strany, pod níž se reálně žilo) při narození
+ * a v letech dospívání. Profily jdou vždy do kapitoly širších souvislostí —
+ * politický obsah je tonálně oddělený a nikdy se nesdílí. */
+function leaderFacts(person: Person, leaders: Leader[]): RawFact[] {
+  const { birthYear } = person;
+  const inOffice = (leader: Leader, year: number) =>
+    leader.termStart <= year && (leader.termEnd ?? CURRENT_YEAR) >= year;
+  const atBirth = leaders.find((leader) => inOffice(leader, birthYear));
+  const teenYear = birthYear + 15;
+  const atTeen = teenYear <= CURRENT_YEAR
+    ? leaders.find((leader) => leader.id !== atBirth?.id && inOffice(leader, teenYear))
+    : undefined;
+
+  return [
+    { leader: atBirth, when: "v roce narození" },
+    { leader: atTeen, when: "v letech dospívání" },
+  ].flatMap(({ leader, when }) => {
+    if (!leader) return [];
+    const term = `${leader.termStart}–${leader.termEnd ?? "dosud"}`;
+    return [{
+      category: "government" as const,
+      year: Math.max(leader.termStart, birthYear),
+      text: `V čele ${when}: **${leader.name}** — ${leader.office} (${term}).`,
+      leader,
+      sensitivity: leader.sensitivity,
+      shareSafe: leader.shareSafe,
+      relevance: expandRelevance(leader.rel),
+      source: leader.sources?.[0]
+        ? { title: leader.sources[0].title, publisher: leader.sources[0].publisher, url: leader.sources[0].url }
+        : undefined,
+      sourceConfidence: leader.sources?.length ? "verified" as const : "review-needed" as const,
+    }];
+  });
+}
+
+function buildReport(person: Person, cityEvents: Awaited<ReturnType<typeof cityFactsFor>>, leaders: Leader[], excludeWorld = false): PersonReport {
   const { birthYear } = person;
   const birthStats = statsForYear(birthYear);
   const countryLabel = countryLabelFor(person.country, birthYear);
@@ -438,6 +481,9 @@ function buildReport(person: Person, cityEvents: Awaited<ReturnType<typeof cityF
   // ── Country-specific texture, famous people, and local events ───────
   facts.push(...countryFacts(person));
 
+  // ── Hlavy státu a lídři formativních let (strukturované profily) ─────
+  facts.push(...leaderFacts(person, leaders));
+
   // ── Famous contemporaries — notable people born in the same decade and
   //    country (from Wikidata, ranked by Wikipedia sitelinks). Additive. ──
   pickN(contemporariesFor(person.country, birthYear), 6).forEach((c) => {
@@ -483,6 +529,15 @@ export async function reportFor(person: Person, excludeWorld = false): Promise<P
     person.variant,
     Number(excludeWorld),
   ].join(":");
-  const cityEvents = await cityFactsFor(person.citySlug, person.birthYear);
-  return withSeededRandom(seed, () => buildReport(person, cityEvents, excludeWorld));
+  // Načtou se jen řezy dané osoby: fakta jejího města a data její země.
+  const [cityEvents, leaders] = await Promise.all([
+    cityFactsFor(person.citySlug, person.birthYear),
+    leadersOverlapping(person.country, person.birthYear, Math.min(CURRENT_YEAR, person.birthYear + 18)),
+    loadCountryDecades(person.country),
+    loadCountryEvents(person.country),
+    loadFamousPeople(person.country),
+    loadWikidataPeople(person.country),
+    loadWorldBank(person.country),
+  ]);
+  return withSeededRandom(seed, () => buildReport(person, cityEvents, leaders, excludeWorld));
 }

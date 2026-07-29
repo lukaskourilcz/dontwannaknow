@@ -23,12 +23,20 @@ const publicDir = new URL("../../src/data/public/", import.meta.url);
 const readJson = async (name) => JSON.parse(await readFile(new URL(name, publicDir), "utf8"));
 
 async function loadRecords() {
-  const cityCz = await readJson("cityFacts.cz.json");
-  const cityUa = await readJson("cityFacts.ua.json");
-  const events = await readJson("countryEvents.json");
-  const decades = await readJson("countryDecades.json");
-  const famous = await readJson("famousPeople.json");
-  const leaders = await readJson("leaders.json").catch(() => []);
+  const { readdir } = await import("node:fs/promises");
+  const cities = JSON.parse(await readFile(new URL("cities.json", publicDir), "utf8"));
+  const countryBySlug = new Map(cities.map((city) => [city.slug, city.country]));
+  const cityFactFiles = await readdir(new URL("cityFacts/", publicDir)).catch(() => []);
+  const allCityFacts = [];
+  for (const file of cityFactFiles) {
+    allCityFacts.push(...await readJson(`cityFacts/${file}`));
+  }
+  const cityCz = allCityFacts.filter((record) => countryBySlug.get(record.city) === "CZ");
+  const cityUa = allCityFacts.filter((record) => countryBySlug.get(record.city) === "UA");
+  const events = [...await readJson("countryEvents.cz.json"), ...await readJson("countryEvents.ua.json")];
+  const decades = [...await readJson("countryDecades.cz.json"), ...await readJson("countryDecades.ua.json")];
+  const famous = [...await readJson("famousPeople.cz.json"), ...await readJson("famousPeople.ua.json")];
+  const leaders = [...await readJson("leaders.cz.json").catch(() => []), ...await readJson("leaders.ua.json").catch(() => [])];
 
   const records = [];
   for (const [country, list] of [["CZ", cityCz], ["UA", cityUa]]) {

@@ -4,8 +4,7 @@
 // decade approximations (stats.ts) when there's no World Bank datum (its
 // series generally begin in 1960).
 
-import wbJson from "./public/worldBank.json";
-import type { Country } from "./countryDecades";
+import type { Country, SupportedCountry } from "./countryDecades";
 
 export type WorldBankStat = {
   pop?: number; // total population
@@ -18,13 +17,23 @@ export type WorldBankStat = {
 };
 
 type WorldBankData = Record<string, Record<string, WorldBankStat>>;
-const WB = wbJson as WorldBankData;
+const WB: WorldBankData = {};
 
 // App country code -> World Bank ISO-3 code.
 const ISO3: Partial<Record<Exclude<Country, "INTL">, string>> = {
   CZ: "CZE",
   UA: "UKR",
 };
+
+/** Líné načtení řad jedné země (včetně světového srovnání WLD). */
+export async function loadWorldBank(country: SupportedCountry): Promise<void> {
+  const iso = ISO3[country];
+  if (iso && WB[iso]) return;
+  const module = country === "CZ"
+    ? await import("./public/worldBank.cz.json")
+    : await import("./public/worldBank.ua.json");
+  Object.assign(WB, module.default as WorldBankData);
+}
 
 /** World Bank figures for a country in a given year, or null if none. */
 export function worldBankFor(country: Country, year: number): WorldBankStat | null {

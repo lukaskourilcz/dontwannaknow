@@ -716,6 +716,44 @@ button.secondary:hover,
 .report-item.item-featured p,
 .report-item.item-local p { margin-top: 0.8rem; font-size: clamp(1.15rem, 2vw, 1.35rem); line-height: 1.5; }
 
+/* Jistota původu: text + barva, nikdy jen barva. */
+.item-meta-right { display: flex; flex: 0 0 auto; align-items: baseline; gap: 0.7rem; }
+.item-confidence { font-size: 0.62rem; font-weight: 750; letter-spacing: 0.1em; text-transform: uppercase; }
+.item-confidence.confidence-verified { color: var(--verified); }
+.item-confidence.confidence-review { color: var(--review); }
+
+/* Hloubka na vyžádání: jednořádkový fakt → plnější příběh se zdroji. */
+.item-depth { margin-top: 0.55rem; }
+.item-depth > summary {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+  color: var(--green);
+  font: 650 0.72rem/1 var(--sans);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  text-underline-offset: 3px;
+}
+.item-depth > summary::-webkit-details-marker { display: none; }
+.item-depth-body { padding: 0.2rem 0 0.6rem; }
+.item-source { margin: 0.4rem 0 0; color: var(--muted); font: 450 0.85rem/1.5 var(--sans); }
+.item-source a { color: var(--green); }
+
+/* Vizitka lídra: strukturovaný profil, tonálně klidný, bez dekorace. */
+.leader-profile { margin-top: 0.4rem; padding: 1.1rem 1.2rem; border: 1px solid var(--rule); background: var(--surface); }
+.leader-head h3 { margin: 0; font: 560 1.25rem/1.15 var(--display); overflow-wrap: anywhere; }
+.leader-office { margin: 0.3rem 0 0; color: var(--muted); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+.leader-path { margin: 0.8rem 0 0; font: 450 0.95rem/1.55 var(--serif); }
+.leader-section { margin-top: 0.9rem; }
+.leader-section h4 { margin: 0 0 0.35rem; color: var(--green); font: 700 0.68rem/1 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; }
+.leader-section ul { margin: 0; padding-left: 1.1rem; }
+.leader-section li { margin: 0.3rem 0; font: 450 0.95rem/1.55 var(--serif); overflow-wrap: anywhere; }
+.leader-source-link { color: var(--muted); font-size: 0.8rem; overflow-wrap: anywhere; }
+.leader-contested { margin: 0.9rem 0 0; padding-left: 0.9rem; border-left: 2px solid var(--review); color: var(--muted); font: 450 0.9rem/1.5 var(--serif); }
+
 .report-chapter > summary,
 .comparison-chapter > summary {
   min-height: 64px;

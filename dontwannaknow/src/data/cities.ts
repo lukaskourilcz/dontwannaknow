@@ -16,10 +16,9 @@ export async function cityFactsFor(
 ): Promise<CityFact[]> {
   const city = findCity(citySlug);
   if (!city) return [];
-  const module = city.country === "CZ"
-    ? await import("./public/cityFacts.cz.json")
-    : await import("./public/cityFacts.ua.json");
-  const facts = module.default as CityFact[];
+  // Řez po městech: zpráva načítá jen fakta svého města, ne celou zemi.
+  const module = await import(`./public/cityFacts/${citySlug}.json`).catch(() => null);
+  const facts = (module?.default ?? []) as CityFact[];
   return facts.filter(
     (fact) =>
       fact.city === citySlug &&

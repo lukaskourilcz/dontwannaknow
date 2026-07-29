@@ -1,0 +1,704 @@
+[
+  {
+    "country": "CZ",
+    "decadeStart": 1900,
+    "people": [
+      {
+        "name": "Kurt Gödel",
+        "role": "computer scientist",
+        "birthYear": 1906,
+        "wikidataId": "Q41390"
+      },
+      {
+        "name": "Jaroslav Seifert",
+        "role": "spisovatel",
+        "birthYear": 1901,
+        "wikidataId": "Q102483"
+      },
+      {
+        "name": "Julius Fučík",
+        "role": "spisovatel",
+        "birthYear": 1903,
+        "wikidataId": "Q142059"
+      },
+      {
+        "name": "Antonín Novotný",
+        "role": "spisovatel",
+        "birthYear": 1904,
+        "wikidataId": "Q156494"
+      },
+      {
+        "name": "Věra Menčíková",
+        "role": "chess player",
+        "birthYear": 1906,
+        "wikidataId": "Q157867"
+      },
+      {
+        "name": "Oldřich Nejedlý",
+        "role": "association football player",
+        "birthYear": 1909,
+        "wikidataId": "Q266489"
+      },
+      {
+        "name": "Jiří Wolker",
+        "role": "spisovatel",
+        "birthYear": 1900,
+        "wikidataId": "Q158379"
+      },
+      {
+        "name": "Vítězslav Nezval",
+        "role": "screenwriter",
+        "birthYear": 1900,
+        "wikidataId": "Q471184"
+      },
+      {
+        "name": "František Plánička",
+        "role": "association football player",
+        "birthYear": 1904,
+        "wikidataId": "Q379"
+      },
+      {
+        "name": "Alice Herzová-Sommerová",
+        "role": "writer",
+        "birthYear": 1903,
+        "wikidataId": "Q63556"
+      },
+      {
+        "name": "Salo Flohr",
+        "role": "writer",
+        "birthYear": 1908,
+        "wikidataId": "Q317890"
+      },
+      {
+        "name": "Milada Horáková",
+        "role": "politician",
+        "birthYear": 1901,
+        "wikidataId": "Q274152"
+      }
+    ]
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1910,
+    "people": [
+      {
+        "name": "Gustáv Husák",
+        "role": "advokát",
+        "birthYear": 1913,
+        "wikidataId": "Q157651"
+      },
+      {
+        "name": "Bohumil Hrabal",
+        "role": "screenwriter",
+        "birthYear": 1914,
+        "wikidataId": "Q242130"
+      },
+      {
+        "name": "Peter Weiss",
+        "role": "screenwriter",
+        "birthYear": 1916,
+        "wikidataId": "Q57312"
+      },
+      {
+        "name": "Josef Bican",
+        "role": "association football coach",
+        "birthYear": 1913,
+        "wikidataId": "Q352017"
+      },
+      {
+        "name": "Herbert Lom",
+        "role": "herec",
+        "birthYear": 1917,
+        "wikidataId": "Q165357"
+      },
+      {
+        "name": "Jozef Gabčík",
+        "role": "military personnel",
+        "birthYear": 1912,
+        "wikidataId": "Q432927"
+      },
+      {
+        "name": "Lída Baarová",
+        "role": "herec",
+        "birthYear": 1914,
+        "wikidataId": "Q235968"
+      },
+      {
+        "name": "Karel Zeman",
+        "role": "screenwriter",
+        "birthYear": 1910,
+        "wikidataId": "Q282000"
+      },
+      {
+        "name": "Rafael Kubelík",
+        "role": "composer",
+        "birthYear": 1914,
+        "wikidataId": "Q158017"
+      },
+      {
+        "name": "Jiří Trnka",
+        "role": "screenwriter",
+        "birthYear": 1912,
+        "wikidataId": "Q362319"
+      },
+      {
+        "name": "Antonín Mrkos",
+        "role": "astronomer",
+        "birthYear": 1918,
+        "wikidataId": "Q58960"
+      },
+      {
+        "name": "Ferdinand Daučík",
+        "role": "association football coach",
+        "birthYear": 1910,
+        "wikidataId": "Q463807"
+      }
+    ]
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1920,
+    "people": [
+      {
+        "name": "Milan Kundera",
+        "role": "screenwriter",
+        "birthYear": 1929,
+        "wikidataId": "Q93166"
+      },
+      {
+        "name": "Alexander Dubček",
+        "role": "politician",
+        "birthYear": 1921,
+        "wikidataId": "Q150543"
+      },
+      {
+        "name": "Emil Zátopek",
+        "role": "military officer",
+        "birthYear": 1922,
+        "wikidataId": "Q52589"
+      },
+      {
+        "name": "Ladislav Kubala",
+        "role": "association football player",
+        "birthYear": 1927,
+        "wikidataId": "Q295732"
+      },
+      {
+        "name": "Dana Zátopková",
+        "role": "athlete",
+        "birthYear": 1922,
+        "wikidataId": "Q234408"
+      },
+      {
+        "name": "Věra Chytilová",
+        "role": "screenwriter",
+        "birthYear": 1929,
+        "wikidataId": "Q235032"
+      },
+      {
+        "name": "Zdeněk Miler",
+        "role": "screenwriter",
+        "birthYear": 1921,
+        "wikidataId": "Q169027"
+      },
+      {
+        "name": "Pavel Kohout",
+        "role": "screenwriter",
+        "birthYear": 1928,
+        "wikidataId": "Q163557"
+      },
+      {
+        "name": "Robert Maxwell",
+        "role": "screenwriter",
+        "birthYear": 1923,
+        "wikidataId": "Q333468"
+      },
+      {
+        "name": "Karel Reisz",
+        "role": "screenwriter",
+        "birthYear": 1926,
+        "wikidataId": "Q167023"
+      },
+      {
+        "name": "Rudolf Vrba",
+        "role": "spisovatel",
+        "birthYear": 1924,
+        "wikidataId": "Q469726"
+      },
+      {
+        "name": "Josef Škvorecký",
+        "role": "spisovatel",
+        "birthYear": 1924,
+        "wikidataId": "Q333741"
+      }
+    ]
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1930,
+    "people": [
+      {
+        "name": "Václav Havel",
+        "role": "poet",
+        "birthYear": 1936,
+        "wikidataId": "Q36233"
+      },
+      {
+        "name": "Madeleine Albrightová",
+        "role": "writer",
+        "birthYear": 1937,
+        "wikidataId": "Q174438"
+      },
+      {
+        "name": "Miloš Forman",
+        "role": "screenwriter",
+        "birthYear": 1932,
+        "wikidataId": "Q51525"
+      },
+      {
+        "name": "Tom Stoppard",
+        "role": "screenwriter",
+        "birthYear": 1937,
+        "wikidataId": "Q294773"
+      },
+      {
+        "name": "Josef Masopust",
+        "role": "association football coach",
+        "birthYear": 1931,
+        "wikidataId": "Q223158"
+      },
+      {
+        "name": "Karel Gott",
+        "role": "herec",
+        "birthYear": 1939,
+        "wikidataId": "Q333187"
+      },
+      {
+        "name": "Jiří Menzel",
+        "role": "screenwriter",
+        "birthYear": 1938,
+        "wikidataId": "Q352030"
+      },
+      {
+        "name": "Alfred Brendel",
+        "role": "writer",
+        "birthYear": 1931,
+        "wikidataId": "Q84148"
+      },
+      {
+        "name": "Karel Schwarzenberg",
+        "role": "politik",
+        "birthYear": 1937,
+        "wikidataId": "Q58195"
+      },
+      {
+        "name": "Michal Kováč",
+        "role": "politician",
+        "birthYear": 1930,
+        "wikidataId": "Q356990"
+      },
+      {
+        "name": "Ivan Klíma",
+        "role": "spisovatel",
+        "birthYear": 1931,
+        "wikidataId": "Q506582"
+      },
+      {
+        "name": "Jan Švankmajer",
+        "role": "screenwriter",
+        "birthYear": 1934,
+        "wikidataId": "Q316165"
+      }
+    ]
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1940,
+    "people": [
+      {
+        "name": "Miloš Zeman",
+        "role": "politician",
+        "birthYear": 1944,
+        "wikidataId": "Q29032"
+      },
+      {
+        "name": "Václav Klaus",
+        "role": "teacher",
+        "birthYear": 1941,
+        "wikidataId": "Q57434"
+      },
+      {
+        "name": "Ivana Trumpová",
+        "role": "actor",
+        "birthYear": 1949,
+        "wikidataId": "Q242351"
+      },
+      {
+        "name": "Jan Palach",
+        "role": "university student",
+        "birthYear": 1948,
+        "wikidataId": "Q192893"
+      },
+      {
+        "name": "Ivan Gašparovič",
+        "role": "teacher",
+        "birthYear": 1941,
+        "wikidataId": "Q57295"
+      },
+      {
+        "name": "Věra Čáslavská",
+        "role": "politician",
+        "birthYear": 1942,
+        "wikidataId": "Q229503"
+      },
+      {
+        "name": "Ivan Reitman",
+        "role": "film producer",
+        "birthYear": 1946,
+        "wikidataId": "Q380272"
+      },
+      {
+        "name": "Antonín Panenka",
+        "role": "association football player",
+        "birthYear": 1948,
+        "wikidataId": "Q204978"
+      },
+      {
+        "name": "Vladimír Mečiar",
+        "role": "lawyer",
+        "birthYear": 1942,
+        "wikidataId": "Q316526"
+      },
+      {
+        "name": "Ivo Viktor",
+        "role": "coach",
+        "birthYear": 1942,
+        "wikidataId": "Q374824"
+      },
+      {
+        "name": "Dominik Duka",
+        "role": "bishop",
+        "birthYear": 1943,
+        "wikidataId": "Q45146"
+      },
+      {
+        "name": "Jan Kodeš",
+        "role": "tenista",
+        "birthYear": 1946,
+        "wikidataId": "Q317431"
+      }
+    ]
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1950,
+    "people": [
+      {
+        "name": "Martina Navrátilová",
+        "role": "writer",
+        "birthYear": 1956,
+        "wikidataId": "Q54545"
+      },
+      {
+        "name": "Andrej Babiš",
+        "role": "businessperson",
+        "birthYear": 1954,
+        "wikidataId": "Q10819807"
+      },
+      {
+        "name": "Mirek Topolánek",
+        "role": "politik",
+        "birthYear": 1956,
+        "wikidataId": "Q155880"
+      },
+      {
+        "name": "Jan Fischer",
+        "role": "politik",
+        "birthYear": 1951,
+        "wikidataId": "Q193675"
+      },
+      {
+        "name": "Vladimír Špidla",
+        "role": "historian",
+        "birthYear": 1951,
+        "wikidataId": "Q32777"
+      },
+      {
+        "name": "Jarmila Kratochvílová",
+        "role": "coach",
+        "birthYear": 1951,
+        "wikidataId": "Q233683"
+      },
+      {
+        "name": "Jiří Paroubek",
+        "role": "politik",
+        "birthYear": 1952,
+        "wikidataId": "Q161671"
+      },
+      {
+        "name": "Anton Ondruš",
+        "role": "association football player",
+        "birthYear": 1950,
+        "wikidataId": "Q592314"
+      },
+      {
+        "name": "Ondrej Nepela",
+        "role": "figure skating coach",
+        "birthYear": 1951,
+        "wikidataId": "Q452152"
+      },
+      {
+        "name": "Patrik Ouředník",
+        "role": "writer",
+        "birthYear": 1957,
+        "wikidataId": "Q439209"
+      },
+      {
+        "name": "Libuše Šafránková",
+        "role": "herec",
+        "birthYear": 1953,
+        "wikidataId": "Q254289"
+      },
+      {
+        "name": "Zdeněk Nehoda",
+        "role": "association football coach",
+        "birthYear": 1952,
+        "wikidataId": "Q169043"
+      }
+    ]
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1960,
+    "people": [
+      {
+        "name": "Petr Pavel",
+        "role": "politician",
+        "birthYear": 1961,
+        "wikidataId": "Q2080040"
+      },
+      {
+        "name": "Andrej Kiska",
+        "role": "politician",
+        "birthYear": 1963,
+        "wikidataId": "Q12762303"
+      },
+      {
+        "name": "Ivan Lendl",
+        "role": "art collector",
+        "birthYear": 1960,
+        "wikidataId": "Q182736"
+      },
+      {
+        "name": "Petr Fiala",
+        "role": "politician",
+        "birthYear": 1964,
+        "wikidataId": "Q3377548"
+      },
+      {
+        "name": "Petr Nečas",
+        "role": "politician",
+        "birthYear": 1964,
+        "wikidataId": "Q35786"
+      },
+      {
+        "name": "Jana Novotná",
+        "role": "coach",
+        "birthYear": 1968,
+        "wikidataId": "Q229121"
+      },
+      {
+        "name": "Jan Železný",
+        "role": "sports official",
+        "birthYear": 1966,
+        "wikidataId": "Q193187"
+      },
+      {
+        "name": "Ivan Hašek",
+        "role": "association football coach",
+        "birthYear": 1963,
+        "wikidataId": "Q31376"
+      },
+      {
+        "name": "Ľubomír Moravčík",
+        "role": "coach",
+        "birthYear": 1965,
+        "wikidataId": "Q344759"
+      },
+      {
+        "name": "Ľubomír Luhový",
+        "role": "association football coach",
+        "birthYear": 1967,
+        "wikidataId": "Q47536"
+      },
+      {
+        "name": "Pavel Černý",
+        "role": "association football player",
+        "birthYear": 1962,
+        "wikidataId": "Q31370"
+      },
+      {
+        "name": "Hana Mandlíková",
+        "role": "coach",
+        "birthYear": 1962,
+        "wikidataId": "Q255011"
+      }
+    ]
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1970,
+    "people": [
+      {
+        "name": "Zuzana Čaputová",
+        "role": "lawyer",
+        "birthYear": 1973,
+        "wikidataId": "Q26273268"
+      },
+      {
+        "name": "Pavel Nedvěd",
+        "role": "fotbalista",
+        "birthYear": 1972,
+        "wikidataId": "Q171295"
+      },
+      {
+        "name": "Silvia Saint",
+        "role": "pornographic actor",
+        "birthYear": 1976,
+        "wikidataId": "Q487141"
+      },
+      {
+        "name": "Jan Koller",
+        "role": "fotbalista",
+        "birthYear": 1973,
+        "wikidataId": "Q152340"
+      },
+      {
+        "name": "Karel Poborský",
+        "role": "entrepreneur",
+        "birthYear": 1972,
+        "wikidataId": "Q224033"
+      },
+      {
+        "name": "Marek Jankulovski",
+        "role": "fotbalista",
+        "birthYear": 1977,
+        "wikidataId": "Q200868"
+      },
+      {
+        "name": "Bohuslav Sobotka",
+        "role": "politician",
+        "birthYear": 1971,
+        "wikidataId": "Q890971"
+      },
+      {
+        "name": "Pavel Horváth",
+        "role": "coach",
+        "birthYear": 1975,
+        "wikidataId": "Q31377"
+      },
+      {
+        "name": "Eva Herzigová",
+        "role": "actor",
+        "birthYear": 1973,
+        "wikidataId": "Q229509"
+      },
+      {
+        "name": "Ivo Ulich",
+        "role": "fotbalista",
+        "birthYear": 1974,
+        "wikidataId": "Q31287"
+      },
+      {
+        "name": "Jaromír Jágr",
+        "role": "ice hockey player",
+        "birthYear": 1972,
+        "wikidataId": "Q295345"
+      },
+      {
+        "name": "Eduard Heger",
+        "role": "politician",
+        "birthYear": 1976,
+        "wikidataId": "Q46227987"
+      }
+    ]
+  },
+  {
+    "country": "CZ",
+    "decadeStart": 1980,
+    "people": [
+      {
+        "name": "Martina Hingisová",
+        "role": "tenista",
+        "birthYear": 1980,
+        "wikidataId": "Q134720"
+      },
+      {
+        "name": "Petr Čech",
+        "role": "association football player",
+        "birthYear": 1982,
+        "wikidataId": "Q483137"
+      },
+      {
+        "name": "Tomáš Rosický",
+        "role": "association football player",
+        "birthYear": 1980,
+        "wikidataId": "Q29162"
+      },
+      {
+        "name": "Milan Baroš",
+        "role": "fotbalista",
+        "birthYear": 1981,
+        "wikidataId": "Q180581"
+      },
+      {
+        "name": "Jaroslav Plašil",
+        "role": "fotbalista",
+        "birthYear": 1982,
+        "wikidataId": "Q193717"
+      },
+      {
+        "name": "Tomáš Berdych",
+        "role": "tenista",
+        "birthYear": 1985,
+        "wikidataId": "Q193665"
+      },
+      {
+        "name": "Petr Jiráček",
+        "role": "fotbalista",
+        "birthYear": 1986,
+        "wikidataId": "Q216147"
+      },
+      {
+        "name": "Karolína Kurková",
+        "role": "actor",
+        "birthYear": 1984,
+        "wikidataId": "Q152461"
+      },
+      {
+        "name": "Tomáš Necid",
+        "role": "association football player",
+        "birthYear": 1989,
+        "wikidataId": "Q299736"
+      },
+      {
+        "name": "Michal Kadlec",
+        "role": "association football player",
+        "birthYear": 1984,
+        "wikidataId": "Q294990"
+      },
+      {
+        "name": "Václav Pilař",
+        "role": "fotbalista",
+        "birthYear": 1988,
+        "wikidataId": "Q215800"
+      },
+      {
+        "name": "Zdeněk Grygera",
+        "role": "fotbalista",
+        "birthYear": 1980,
+        "wikidataId": "Q168997"
+      }
+    ]
+  }
+]

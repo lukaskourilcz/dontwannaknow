@@ -1,22 +1,32 @@
+import { readFileSync, readdirSync } from "node:fs";
+import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
 import { reportFor } from "./facts";
 import { makePerson } from "../test/factories";
 import { CITIES } from "../data/cityCatalog";
-import { COUNTRY_DECADES, COUNTRY_LABELS } from "../data/countryDecades";
-import { COUNTRY_EVENTS } from "../data/countryEvents";
-import { FAMOUS_PEOPLE } from "../data/famousPeople";
-import czechCityFacts from "../data/public/cityFacts.cz.json";
-import ukrainianCityFacts from "../data/public/cityFacts.ua.json";
+import { COUNTRY_LABELS } from "../data/countryDecades";
+
+const publicDir = resolve(process.cwd(), "src/data/public") + "/";
+const readPublic = (name: string) => JSON.parse(readFileSync(publicDir + name, "utf8"));
 
 describe("person-centric report composition", () => {
   it("keeps unsupported launch countries out of every public runtime dataset", () => {
     expect(CITIES.every((city) => ["CZ", "UA"].includes(city.country))).toBe(true);
-    expect(COUNTRY_DECADES.every((record) => ["CZ", "UA"].includes(record.country))).toBe(true);
-    expect(COUNTRY_EVENTS.every((record) => ["CZ", "UA"].includes(record.country))).toBe(true);
-    expect(FAMOUS_PEOPLE.every((record) => ["CZ", "UA"].includes(record.country))).toBe(true);
+    for (const filename of [
+      "countryDecades.cz.json", "countryDecades.ua.json",
+      "countryEvents.cz.json", "countryEvents.ua.json",
+      "famousPeople.cz.json", "famousPeople.ua.json",
+      "leaders.cz.json", "leaders.ua.json",
+      "wikidataPeople.cz.json", "wikidataPeople.ua.json",
+    ]) {
+      const records = readPublic(filename) as { country: string }[];
+      expect(records.every((record) => ["CZ", "UA"].includes(record.country)), filename).toBe(true);
+    }
     expect(Object.keys(COUNTRY_LABELS).sort()).toEqual(["CZ", "UA"]);
     const slugs = new Set(CITIES.map((city) => city.slug));
-    expect([...czechCityFacts, ...ukrainianCityFacts].every((record) => slugs.has(record.city))).toBe(true);
+    const cityFacts = readdirSync(publicDir + "cityFacts")
+      .flatMap((file) => readPublic(`cityFacts/${file}`) as { city: string }[]);
+    expect(cityFacts.every((record) => slugs.has(record.city))).toBe(true);
   });
 
   it("is deterministic, name-independent, and variant-aware", async () => {

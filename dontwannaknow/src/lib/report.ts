@@ -53,6 +53,8 @@ export type ReportItem = {
   metadata: EditorialMetadata;
   relevance?: RelevanceScores;
   source?: FactSource;
+  /** Strukturovaný profil lídra pro zobrazení „malé vizitky“. */
+  leader?: import("../data/leaders").Leader;
 };
 
 export type LifeMilestone = {
@@ -111,20 +113,30 @@ function scopeForCategory(category: FactCategory): GeographicScope {
   return "modern-country";
 }
 
+const SENSITIVITY_SEVERITY: Record<FactSensitivity, number> = { none: 0, mild: 1, difficult: 2 };
+
 export function annotateFact(
-  fact: Pick<Fact, "category" | "text" | "year" | "stage" | "relevance" | "source" | "sourceConfidence">,
+  fact: Pick<Fact, "category" | "text" | "year" | "stage" | "relevance" | "source" | "sourceConfidence" | "sensitivity" | "shareSafe" | "leader">,
   context: ResolvedHistoricalContext,
 ): Fact {
   const override = EDITORIAL_RULES.find(({ matcher }) => matcher.test(fact.text))?.rule;
-  const difficult = override?.sensitivity === "difficult";
-  const mild = override?.sensitivity === "mild";
+  // Citlivost daná daty (např. profil lídra) funguje jako podlaha — pravidla
+  // ani výchozí hodnoty ji nikdy nesmí snížit, jen zvýšit.
+  const ruleSensitivity = override?.sensitivity ?? "none";
+  const providedSensitivity = fact.sensitivity ?? "none";
+  const sensitivity = SENSITIVITY_SEVERITY[providedSensitivity] > SENSITIVITY_SEVERITY[ruleSensitivity]
+    ? providedSensitivity
+    : ruleSensitivity;
+  const difficult = sensitivity === "difficult";
   const seriousCategory = ["government", "illness", "world"].includes(fact.category);
   const positiveCategory = ["beautiful", "media", "food"].includes(fact.category);
   const metadata: EditorialMetadata = {
     tone: override?.tone ?? (difficult || seriousCategory ? "serious" : positiveCategory ? "warm" : fact.category === "bizarre" ? "playful" : "neutral"),
-    sensitivity: override?.sensitivity ?? (difficult ? "difficult" : mild ? "mild" : "none"),
+    sensitivity,
     chapter: override?.chapter ?? chapterForCategory[fact.category],
-    shareSafe: override?.shareSafe ?? (!difficult && !["illness", "government", "world"].includes(fact.category)),
+    // Datový zákaz sdílení (fact.shareSafe === false) nejde ničím přebít.
+    shareSafe: (override?.shareSafe ?? (!difficult && !["illness", "government", "world"].includes(fact.category)))
+      && (fact.shareSafe ?? true),
     featured: override?.featured ?? ["beautiful", "city", "daily", "food"].includes(fact.category),
     geographicScope: override?.geographicScope ?? scopeForCategory(fact.category),
     historicalEntityId: override?.historicalEntityId ?? (["city", "local", "government"].includes(fact.category)
@@ -152,6 +164,7 @@ function toItem(fact: Fact, birthYear: number): ReportItem {
     metadata: fact.metadata,
     relevance: fact.relevance,
     source: fact.source,
+    leader: fact.leader,
   };
 }
 

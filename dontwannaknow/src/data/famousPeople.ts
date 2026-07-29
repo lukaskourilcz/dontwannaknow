@@ -1,4 +1,3 @@
-import famousPeopleJson from "./public/famousPeople.json";
 import { regroupFamousPeople } from "./_grouped";
 
 // Famous people active in each country during each decade.
@@ -20,12 +19,21 @@ export type FamousByDecade = {
   people: FamousPerson[];
 };
 
-export const FAMOUS_PEOPLE: FamousByDecade[] = regroupFamousPeople(famousPeopleJson) as unknown as FamousByDecade[];
+const cache = new Map<string, FamousByDecade[]>();
+
+/** Líné načtení osobností jedné země; volá se před sestavením zprávy. */
+export async function loadFamousPeople(country: "CZ" | "UA"): Promise<void> {
+  if (cache.has(country)) return;
+  const module = country === "CZ"
+    ? await import("./public/famousPeople.cz.json")
+    : await import("./public/famousPeople.ua.json");
+  cache.set(country, regroupFamousPeople(module.default) as unknown as FamousByDecade[]);
+}
 
 export function famousFor(country: Country, year: number): FamousPerson[] {
-  if (country === "INTL") return [];
+  if (country !== "CZ" && country !== "UA") return [];
   const start = Math.floor(year / 10) * 10;
-  const entry = FAMOUS_PEOPLE.find((f) => f.country === country && f.decadeStart === start);
+  const entry = (cache.get(country) ?? []).find((f) => f.country === country && f.decadeStart === start);
   return entry?.people ?? [];
 }
 

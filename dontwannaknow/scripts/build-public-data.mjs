@@ -99,19 +99,41 @@ const bySupportedCountry = (records) =>
 
 const scoredCityFacts = await withExtras(cityFacts, "cityFacts");
 
+// ── Dělení na běhové řezy ───────────────────────────────────────────────
+// Zpráva načítá jen to, co potřebuje: městská fakta po městech, ostatní
+// sady po zemích. První vykreslení tak neplatí za data druhé země.
+const perCountry = (records, country) =>
+  records.filter((record) => String(record.country).toUpperCase() === country);
+
+const countryDecades = await withExtras(bySupportedCountry(await readJson("countryDecades.json")), "countryDecades");
+const countryEvents = await withExtras(bySupportedCountry(await readJson("countryEvents.json")), "countryEvents");
+const famousPeople = await withExtras(bySupportedCountry(await readJson("famousPeople.json")), "famousPeople");
+const leaders = await withExtras(bySupportedCountry(await readJson("leaders.json")), "leaders");
+const wikidataPeople = bySupportedCountry(await readJson("generated/wikidataPeople.json"));
+const worldBank = Object.fromEntries(
+  Object.entries(await readJson("generated/worldBank.json"))
+    .filter(([country]) => ["CZE", "UKR", "WLD"].includes(country)),
+);
+
 const generated = {
   "cities.json": cities,
   "cityCoords.json": cityCoordinates,
-  "cityFacts.cz.json": scoredCityFacts.filter((record) => cityCountries.get(record.city) === "CZ"),
-  "cityFacts.ua.json": scoredCityFacts.filter((record) => cityCountries.get(record.city) === "UA"),
-  "countryDecades.json": await withExtras(bySupportedCountry(await readJson("countryDecades.json")), "countryDecades"),
-  "countryEvents.json": await withExtras(bySupportedCountry(await readJson("countryEvents.json")), "countryEvents"),
-  "famousPeople.json": await withExtras(bySupportedCountry(await readJson("famousPeople.json")), "famousPeople"),
-  "wikidataPeople.json": bySupportedCountry(await readJson("generated/wikidataPeople.json")),
-  "worldBank.json": Object.fromEntries(
-    Object.entries(await readJson("generated/worldBank.json"))
-      .filter(([country]) => ["CZE", "UKR", "WLD"].includes(country)),
-  ),
+  ...Object.fromEntries([...citySlugs].sort().map((slug) => [
+    `cityFacts/${slug}.json`,
+    scoredCityFacts.filter((record) => record.city === slug),
+  ])),
+  "countryDecades.cz.json": perCountry(countryDecades, "CZ"),
+  "countryDecades.ua.json": perCountry(countryDecades, "UA"),
+  "countryEvents.cz.json": perCountry(countryEvents, "CZ"),
+  "countryEvents.ua.json": perCountry(countryEvents, "UA"),
+  "famousPeople.cz.json": perCountry(famousPeople, "CZ"),
+  "famousPeople.ua.json": perCountry(famousPeople, "UA"),
+  "leaders.cz.json": perCountry(leaders, "CZ"),
+  "leaders.ua.json": perCountry(leaders, "UA"),
+  "wikidataPeople.cz.json": perCountry(wikidataPeople, "CZ"),
+  "wikidataPeople.ua.json": perCountry(wikidataPeople, "UA"),
+  "worldBank.cz.json": { CZE: worldBank.CZE, WLD: worldBank.WLD },
+  "worldBank.ua.json": { UKR: worldBank.UKR, WLD: worldBank.WLD },
 };
 
 if (process.argv.includes("--check")) {
@@ -124,6 +146,7 @@ if (process.argv.includes("--check")) {
   console.log(`Veřejná datová vrstva je aktuální: ${cities.length} měst, pouze CZ/UA.`);
 } else {
   await mkdir(output, { recursive: true });
+  await mkdir(new URL("cityFacts/", output), { recursive: true });
   await Promise.all(
     Object.entries(generated).map(([filename, value]) =>
       writeFile(new URL(filename, output), serialized(value)),

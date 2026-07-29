@@ -114,7 +114,7 @@ for (const dataset of editorDatasets) {
 }
 const publicDatasets = [
   "editorialRules", "events", "countryEvents", "inventions", "cityFacts", "countryDecades",
-  "famousPeople", "media", "writers", "worldBank", "wikidataPeople", "artByDecade",
+  "famousPeople", "leaders", "media", "writers", "worldBank", "wikidataPeople", "artByDecade",
   "cityCatalog", "cityCoords", "countries", "stats", "stars", "worldPaths",
 ];
 for (const dataset of publicDatasets) {
@@ -191,43 +191,59 @@ for (const city of publicCities) {
 for (const slug of Object.keys(publicCityCoords)) {
   if (!publicCitySlugs.has(slug)) errors.push(`public/cityCoords.json: neznámé město ${slug}.`);
 }
-for (const filename of ["countryDecades.json", "countryEvents.json", "famousPeople.json", "wikidataPeople.json"]) {
+for (const filename of [
+  "countryDecades.cz.json", "countryDecades.ua.json",
+  "countryEvents.cz.json", "countryEvents.ua.json",
+  "famousPeople.cz.json", "famousPeople.ua.json",
+  "leaders.cz.json", "leaders.ua.json",
+  "wikidataPeople.cz.json", "wikidataPeople.ua.json",
+]) {
   const records = JSON.parse(await readFile(new URL(filename, publicDirectory), "utf8"));
+  const expected = filename.includes(".cz.") ? "CZ" : "UA";
   for (const record of records) {
-    if (!["CZ", "UA"].includes(String(record.country).toUpperCase())) {
-      errors.push(`public/${filename}: nepodporovaná země ${record.country}.`);
+    if (String(record.country).toUpperCase() !== expected) {
+      errors.push(`public/${filename}: nepatřičná země ${record.country}.`);
     }
   }
 }
-for (const country of ["cz", "ua"]) {
-  const cityFacts = JSON.parse(await readFile(new URL(`cityFacts.${country}.json`, publicDirectory), "utf8"));
-  const cityYearGroups = new Map();
-  for (const record of cityFacts) {
-    if (!publicCitySlugs.has(record.city)) errors.push(`public/cityFacts.${country}.json: neznámé město ${record.city}.`);
-    const city = publicCities.find((candidate) => candidate.slug === record.city);
-    if (city?.country.toLowerCase() !== country) errors.push(`public/cityFacts.${country}.json: město ${record.city} patří do jiné země.`);
-    const groupKey = `${record.city}:${record.year}`;
-    const group = cityYearGroups.get(groupKey) ?? [];
-    group.push(record);
-    cityYearGroups.set(groupKey, group);
-  }
-  for (const [groupKey, records] of cityYearGroups) {
-    for (let first = 0; first < records.length; first += 1) {
-      for (let second = first + 1; second < records.length; second += 1) {
-        const similarity = semanticSimilarity(
-          semanticTokens(records[first].text),
-          semanticTokens(records[second].text),
-        );
-        if (similarity >= 0.4) {
-          errors.push(`public/cityFacts.${country}.json: možné významové duplicity v ${groupKey} (${similarity.toFixed(2)}).`);
+{
+  const cityFactFiles = await readdir(new URL("cityFacts/", publicDirectory));
+  for (const filename of cityFactFiles) {
+    const slug = filename.replace(/\.json$/, "");
+    if (!publicCitySlugs.has(slug)) {
+      errors.push(`public/cityFacts/${filename}: neznámé město ${slug}.`);
+      continue;
+    }
+    const cityFacts = JSON.parse(await readFile(new URL(`cityFacts/${filename}`, publicDirectory), "utf8"));
+    const byYear = new Map();
+    for (const record of cityFacts) {
+      if (record.city !== slug) errors.push(`public/cityFacts/${filename}: záznam cizího města ${record.city}.`);
+      const group = byYear.get(record.year) ?? [];
+      group.push(record);
+      byYear.set(record.year, group);
+    }
+    for (const [year, records] of byYear) {
+      for (let first = 0; first < records.length; first += 1) {
+        for (let second = first + 1; second < records.length; second += 1) {
+          const similarity = semanticSimilarity(
+            semanticTokens(records[first].text),
+            semanticTokens(records[second].text),
+          );
+          if (similarity >= 0.4) {
+            errors.push(`public/cityFacts/${filename}: možné významové duplicity v roce ${year} (${similarity.toFixed(2)}).`);
+          }
         }
       }
     }
   }
+  const missingCityFiles = [...publicCitySlugs].filter((slug) => !cityFactFiles.includes(`${slug}.json`));
+  for (const slug of missingCityFiles) warnings.push(`public/cityFacts: město ${slug} nemá žádná městská fakta.`);
 }
-const publicWorldBank = JSON.parse(await readFile(new URL("worldBank.json", publicDirectory), "utf8"));
-for (const country of Object.keys(publicWorldBank)) {
-  if (!["CZE", "UKR", "WLD"].includes(country)) errors.push(`public/worldBank.json: nepodporovaná země ${country}.`);
+for (const filename of ["worldBank.cz.json", "worldBank.ua.json"]) {
+  const publicWorldBank = JSON.parse(await readFile(new URL(filename, publicDirectory), "utf8"));
+  for (const country of Object.keys(publicWorldBank)) {
+    if (!["CZE", "UKR", "WLD"].includes(country)) errors.push(`public/${filename}: nepodporovaná země ${country}.`);
+  }
 }
 for (const filename of ["cities.ts", "cityCatalog.ts", "cityCoords.ts", "countryDecades.ts", "countryEvents.ts", "famousPeople.ts", "worldBank.ts", "wikidataPeople.ts"]) {
   const moduleText = await readFile(new URL(`../src/data/${filename}`, import.meta.url), "utf8");
@@ -256,11 +272,12 @@ const difficultPatterns = editorialRules
   .map((rule) => new RegExp(rule.pattern, "i"));
 const relevanceAxes = Object.keys(AXES);
 const relevanceDatasets = {
-  cityFacts: ["cityFacts.cz.json", "cityFacts.ua.json"],
-  countryEvents: ["countryEvents.json"],
-  countryDecades: ["countryDecades.json"],
-  famousPeople: ["famousPeople.json"],
-  leaders: ["leaders.json"],
+  cityFacts: (await readdir(new URL("cityFacts/", publicDirectory)).catch(() => []))
+    .map((filename) => `cityFacts/${filename}`),
+  countryEvents: ["countryEvents.cz.json", "countryEvents.ua.json"],
+  countryDecades: ["countryDecades.cz.json", "countryDecades.ua.json"],
+  famousPeople: ["famousPeople.cz.json", "famousPeople.ua.json"],
+  leaders: ["leaders.cz.json", "leaders.ua.json"],
 };
 
 for (const [dataset, publicFiles] of Object.entries(relevanceDatasets)) {
@@ -369,6 +386,50 @@ for (const [dataset, publicFiles] of Object.entries(relevanceDatasets)) {
       }
       if (record.url && !/^https?:\/\//.test(record.url)) {
         errors.push(`${label}: URL nezačíná http(s).`);
+      }
+    }
+  }
+}
+
+// ── Lídři: úplnost profilů a datované, zdrojované vnímání ───────────────
+{
+  const leaders = [];
+  for (const filename of ["leaders.cz.json", "leaders.ua.json"]) {
+    const text = await readFile(new URL(`../src/data/public/${filename}`, import.meta.url), "utf8").catch(() => null);
+    if (text) leaders.push(...JSON.parse(text));
+  }
+  const leaderIds = new Set();
+  for (const [index, leader] of leaders.entries()) {
+    const label = `public/leaders[${index}] (${leader.name ?? "?"})`;
+    if (!leader.id || leaderIds.has(leader.id)) errors.push(`${label}: chybějící nebo duplicitní id.`);
+    leaderIds.add(leader.id);
+    if (leader.id && !leader.id.startsWith(`${String(leader.country).toLowerCase()}-`)) {
+      errors.push(`${label}: id neodpovídá zemi.`);
+    }
+    for (const field of ["name", "office"]) {
+      if (!String(leader[field] ?? "").trim()) errors.push(`${label}: chybí pole ${field}.`);
+    }
+    if (!Number.isFinite(leader.termStart)) errors.push(`${label}: chybí termStart.`);
+    if (!["none", "mild", "difficult"].includes(leader.sensitivity)) {
+      errors.push(`${label}: neplatná citlivost „${leader.sensitivity}“.`);
+    }
+    if (leader.shareSafe !== false) errors.push(`${label}: politický profil musí mít shareSafe: false.`);
+    if (!Array.isArray(leader.sources) || !leader.sources.length) {
+      errors.push(`${label}: chybí zdroje záznamu.`);
+    }
+    for (const source of leader.sources ?? []) {
+      for (const field of ["title", "url", "accessed", "licence"]) {
+        if (!String(source[field] ?? "").trim()) errors.push(`${label}: zdroj bez pole ${field}.`);
+      }
+    }
+    if (!Array.isArray(leader.reception) || !leader.reception.length) {
+      errors.push(`${label}: chybí doložené dobové vnímání.`);
+    }
+    for (const [noteIndex, note] of [...(leader.reception ?? []), ...(leader.reassessment ?? [])].entries()) {
+      if (!String(note.period ?? "").trim()) errors.push(`${label}: vnímání [${noteIndex}] bez datace.`);
+      if (!String(note.text ?? "").trim()) errors.push(`${label}: vnímání [${noteIndex}] bez textu.`);
+      if (!String(note.source?.title ?? "").trim() || !/^https?:\/\//.test(String(note.source?.url ?? ""))) {
+        errors.push(`${label}: vnímání [${noteIndex}] bez úplného zdroje.`);
       }
     }
   }

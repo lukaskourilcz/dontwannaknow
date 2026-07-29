@@ -19,6 +19,7 @@
   { "dataset": "sports", "source": "Interní kurátorovaná sportovní rešerše", "confidence": "review-needed", "publicRuntime": false },
   { "dataset": "countryDecades", "source": "Interní kurátorovaná rešerše každodennosti", "confidence": "review-needed", "publicRuntime": true },
   { "dataset": "famousPeople", "source": "Interní kurátorovaná biografická rešerše", "confidence": "review-needed", "publicRuntime": true },
+  { "dataset": "leaders", "source": "Webová rešerše s citacemi u jednotlivých záznamů (instituce, ÚSTR, Encyclopedia of Ukraine, Britannica, Wikipedie)", "confidence": "verified", "publicRuntime": true, "notes": "Každý záznam nese vlastní datované citace; vnímání je vždy zdrojované a datované." },
   { "dataset": "media", "source": "Interní kurátorovaná mediální rešerše", "confidence": "review-needed", "publicRuntime": true },
   { "dataset": "slang", "source": "Interní kurátorovaná jazyková rešerše", "confidence": "review-needed", "publicRuntime": false },
   { "dataset": "babyNames", "source": "Interní kurátorovaná demografická rešerše", "confidence": "review-needed", "publicRuntime": false },

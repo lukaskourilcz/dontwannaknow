@@ -3,8 +3,7 @@
 // "famous contemporaries" section — people born in the same decade and country
 // as the person in the report. Purely additive to the curated datasets.
 
-import json from "./public/wikidataPeople.json";
-import type { Country } from "./countryDecades";
+import type { Country, SupportedCountry } from "./countryDecades";
 
 export type WikidataPerson = {
   name: string;
@@ -110,13 +109,22 @@ export function czechRoleField(role: string): string | null {
 }
 
 type Entry = { country: string; decadeStart: number; people: WikidataPerson[] };
-const DATA = json as Entry[];
+const cache = new Map<SupportedCountry, Entry[]>();
+
+/** Líné načtení současníků jedné země; volá se před sestavením zprávy. */
+export async function loadWikidataPeople(country: SupportedCountry): Promise<void> {
+  if (cache.has(country)) return;
+  const module = country === "CZ"
+    ? await import("./public/wikidataPeople.cz.json")
+    : await import("./public/wikidataPeople.ua.json");
+  cache.set(country, module.default as Entry[]);
+}
 
 /** Culturally relevant people born in the same year and country. */
 export function contemporariesFor(country: Country, birthYear: number): WikidataPerson[] {
-  if (country === "INTL") return [];
+  if (country !== "CZ" && country !== "UA") return [];
   const decadeStart = Math.floor(birthYear / 10) * 10;
-  const entry = DATA.find((d) => d.country === country && d.decadeStart === decadeStart);
+  const entry = (cache.get(country) ?? []).find((d) => d.country === country && d.decadeStart === decadeStart);
   return (entry?.people ?? []).flatMap((person) => {
     const role = czechRoleField(person.role);
     return role && PUBLIC_FIELDS.has(role) && person.birthYear === birthYear

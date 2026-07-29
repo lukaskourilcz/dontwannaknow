@@ -1,7 +1,12 @@
-import { describe, expect, it } from "vitest";
-import { contemporariesFor } from "./wikidataPeople";
+import { beforeAll, describe, expect, it } from "vitest";
+import { contemporariesFor, loadWikidataPeople } from "./wikidataPeople";
 
 describe("Wikidata role normalization", () => {
+  beforeAll(async () => {
+    await loadWikidataPeople("CZ");
+    await loadWikidataPeople("UA");
+  });
+
   it("exposes only reviewed Czech role fields for supported countries", () => {
     for (const country of ["CZ", "UA"] as const) {
       for (let year = 1920; year <= 2020; year += 10) {

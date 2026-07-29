@@ -1,4 +1,3 @@
-import countryDecadesJson from "./public/countryDecades.json";
 import { regroupCountryDecades, type DecadeFact } from "./_grouped";
 
 export type { DecadeFact } from "./_grouped";
@@ -43,9 +42,18 @@ export type CountryDecade = {
   beautiful: DecadeFact[];
 };
 
-export const COUNTRY_DECADES: CountryDecade[] = regroupCountryDecades(countryDecadesJson) as unknown as CountryDecade[];
+const cache = new Map<SupportedCountry, CountryDecade[]>();
+
+/** Líné načtení dekádové textury jedné země; volá se před sestavením zprávy. */
+export async function loadCountryDecades(country: SupportedCountry): Promise<void> {
+  if (cache.has(country)) return;
+  const module = country === "CZ"
+    ? await import("./public/countryDecades.cz.json")
+    : await import("./public/countryDecades.ua.json");
+  cache.set(country, regroupCountryDecades(module.default) as unknown as CountryDecade[]);
+}
 
 export function decadeFactsFor(country: SupportedCountry, year: number): CountryDecade | null {
   const start = Math.floor(year / 10) * 10;
-  return COUNTRY_DECADES.find((d) => d.country === country && d.decadeStart === start) ?? null;
+  return (cache.get(country) ?? []).find((d) => d.country === country && d.decadeStart === start) ?? null;
 }
