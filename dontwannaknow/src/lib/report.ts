@@ -142,10 +142,11 @@ export function annotateFact(
     historicalEntityId: override?.historicalEntityId ?? (["city", "local", "government"].includes(fact.category)
       ? context.historicalStateId
       : undefined),
-    // Poctivost původu: redakční pravidlo může jistotu jen snížit; jinak platí
-    // per-record údaj z dat (doložený zdroj → verified, jinak review-needed).
-    sourceConfidence: override?.sourceConfidence
-      ?? fact.sourceConfidence
+    // Poctivost původu: výslovný per-record údaj z dat (World Bank, Wikidata,
+    // plně citovaní lídři) má přednost; redakční pravidla řídí heuristický
+    // zbytek a bez doloženého zdroje platí review-needed.
+    sourceConfidence: fact.sourceConfidence
+      ?? override?.sourceConfidence
       ?? (fact.source ? "verified" : "review-needed"),
     reviewRequired: override?.reviewRequired ?? difficult,
     ageFrom: override?.ageFrom,
