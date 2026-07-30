@@ -115,6 +115,8 @@ const worldBank = Object.fromEntries(
   Object.entries(await readJson("generated/worldBank.json"))
     .filter(([country]) => ["CZE", "UKR", "WLD"].includes(country)),
 );
+const vitalsCz = await withExtras(await readJson("vitals/cz.json"), "vitalsBackfill");
+const vitalsUa = await withExtras(await readJson("vitals/ua.json"), "vitalsBackfill");
 
 const generated = {
   "cities.json": cities,
@@ -136,6 +138,8 @@ const generated = {
   "wikidataPeople.ua.json": perCountry(wikidataPeople, "UA"),
   "worldBank.cz.json": { CZE: worldBank.CZE, WLD: worldBank.WLD },
   "worldBank.ua.json": { UKR: worldBank.UKR, WLD: worldBank.WLD },
+  "vitals.cz.json": vitalsCz,
+  "vitals.ua.json": vitalsUa,
 };
 
 if (process.argv.includes("--check")) {

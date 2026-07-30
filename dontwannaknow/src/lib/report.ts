@@ -42,6 +42,7 @@ export type EditorialMetadata = {
   reviewRequired: boolean;
   ageFrom?: number;
   ageTo?: number;
+  mayOpen?: boolean;
 };
 
 export type ReportItem = {
@@ -116,7 +117,7 @@ function scopeForCategory(category: FactCategory): GeographicScope {
 const SENSITIVITY_SEVERITY: Record<FactSensitivity, number> = { none: 0, mild: 1, difficult: 2 };
 
 export function annotateFact(
-  fact: Pick<Fact, "category" | "text" | "year" | "stage" | "relevance" | "source" | "sourceConfidence" | "sensitivity" | "shareSafe" | "leader">,
+  fact: Pick<Fact, "category" | "text" | "year" | "stage" | "relevance" | "source" | "sourceConfidence" | "sensitivity" | "shareSafe" | "mayOpen" | "leader">,
   context: ResolvedHistoricalContext,
 ): Fact {
   const override = EDITORIAL_RULES.find(({ matcher }) => matcher.test(fact.text))?.rule;
@@ -151,6 +152,7 @@ export function annotateFact(
     reviewRequired: override?.reviewRequired ?? difficult,
     ageFrom: override?.ageFrom,
     ageTo: override?.ageTo,
+    mayOpen: fact.mayOpen ?? true,
   };
   return { ...fact, metadata };
 }
@@ -219,8 +221,12 @@ function ensureMix(ordered: Fact[], count: number): Fact[] {
     }
   }
 
-  if (selected.length > 1 && selected[0].metadata.sensitivity === "difficult") {
-    const firstSafe = selected.findIndex((fact) => fact.metadata.sensitivity !== "difficult");
+  if (
+    selected.length > 1 &&
+    (selected[0].metadata.sensitivity === "difficult" || selected[0].metadata.mayOpen === false)
+  ) {
+    const firstSafe = selected.findIndex((fact) =>
+      fact.metadata.sensitivity !== "difficult" && fact.metadata.mayOpen !== false);
     if (firstSafe > 0) {
       const [safe] = selected.splice(firstSafe, 1);
       selected.unshift(safe);
@@ -299,6 +305,17 @@ function avoidConsecutiveDifficult(items: ReportItem[]): ReportItem[] {
   while (safe.length || difficult.length) {
     if (safe.length) out.push(safe.shift()!);
     if (difficult.length) out.push(difficult.shift()!);
+  }
+  if (
+    out.length > 1 &&
+    (out[0].metadata.sensitivity === "difficult" || out[0].metadata.mayOpen === false)
+  ) {
+    const firstOpenable = out.findIndex((item) =>
+      item.metadata.sensitivity !== "difficult" && item.metadata.mayOpen !== false);
+    if (firstOpenable > 0) {
+      const [openable] = out.splice(firstOpenable, 1);
+      out.unshift(openable);
+    }
   }
   return out;
 }

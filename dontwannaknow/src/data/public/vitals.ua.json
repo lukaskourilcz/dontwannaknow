@@ -1,0 +1,212 @@
+[
+  {
+    "country": "ua",
+    "series": "lifeExpectancy",
+    "year": 1950,
+    "value": 61.17,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO",
+    "rel": [
+      3,
+      3,
+      2,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "World Population Prospects",
+      "p": "United Nations",
+      "u": "https://population.un.org/wpp/downloads"
+    }
+  },
+  {
+    "country": "ua",
+    "series": "lifeExpectancy",
+    "year": 1951,
+    "value": 61.36,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO",
+    "rel": [
+      3,
+      3,
+      2,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "World Population Prospects",
+      "p": "United Nations",
+      "u": "https://population.un.org/wpp/downloads"
+    }
+  },
+  {
+    "country": "ua",
+    "series": "lifeExpectancy",
+    "year": 1952,
+    "value": 62.07,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO",
+    "rel": [
+      3,
+      3,
+      2,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "World Population Prospects",
+      "p": "United Nations",
+      "u": "https://population.un.org/wpp/downloads"
+    }
+  },
+  {
+    "country": "ua",
+    "series": "lifeExpectancy",
+    "year": 1953,
+    "value": 63.02,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO",
+    "rel": [
+      3,
+      3,
+      2,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "World Population Prospects",
+      "p": "United Nations",
+      "u": "https://population.un.org/wpp/downloads"
+    }
+  },
+  {
+    "country": "ua",
+    "series": "lifeExpectancy",
+    "year": 1954,
+    "value": 64.13,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO",
+    "rel": [
+      3,
+      3,
+      2,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "World Population Prospects",
+      "p": "United Nations",
+      "u": "https://population.un.org/wpp/downloads"
+    }
+  },
+  {
+    "country": "ua",
+    "series": "lifeExpectancy",
+    "year": 1955,
+    "value": 65.26,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO",
+    "rel": [
+      3,
+      3,
+      2,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "World Population Prospects",
+      "p": "United Nations",
+      "u": "https://population.un.org/wpp/downloads"
+    }
+  },
+  {
+    "country": "ua",
+    "series": "lifeExpectancy",
+    "year": 1956,
+    "value": 66.26,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO",
+    "rel": [
+      3,
+      3,
+      2,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "World Population Prospects",
+      "p": "United Nations",
+      "u": "https://population.un.org/wpp/downloads"
+    }
+  },
+  {
+    "country": "ua",
+    "series": "lifeExpectancy",
+    "year": 1957,
+    "value": 67.17,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO",
+    "rel": [
+      3,
+      3,
+      2,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "World Population Prospects",
+      "p": "United Nations",
+      "u": "https://population.un.org/wpp/downloads"
+    }
+  },
+  {
+    "country": "ua",
+    "series": "lifeExpectancy",
+    "year": 1958,
+    "value": 67.73,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO",
+    "rel": [
+      3,
+      3,
+      2,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "World Population Prospects",
+      "p": "United Nations",
+      "u": "https://population.un.org/wpp/downloads"
+    }
+  },
+  {
+    "country": "ua",
+    "series": "lifeExpectancy",
+    "year": 1959,
+    "value": 68.69,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO",
+    "rel": [
+      3,
+      3,
+      2,
+      3,
+      4,
+      3
+    ],
+    "src": {
+      "t": "World Population Prospects",
+      "p": "United Nations",
+      "u": "https://population.un.org/wpp/downloads"
+    }
+  }
+]
