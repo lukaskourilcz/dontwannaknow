@@ -4,7 +4,6 @@ import type { Person } from "../lib/person";
 import { displayName, reportTitle } from "../lib/person";
 import { uniqueReportItems, type ReportChapter, type ReportItem } from "../lib/report";
 import { CITY_COORDS } from "../data/cityCoords";
-import { artForBirthYear } from "../data/artByDecade";
 import { birthDateUTC, daysSince, weeksSince } from "../lib/datetime";
 import { czAgePhrase } from "../lib/czech";
 import LifeGrid from "./LifeGrid";
@@ -15,7 +14,7 @@ import { COPY } from "../copy";
 const WorldMap = lazy(() => import("./WorldMap"));
 const SkyMap = lazy(() => import("./SkyMap"));
 const LifeNumbers = lazy(() => import("./LifeNumbers"));
-const ArtStrip = lazy(() => import("./ArtStrip"));
+const CityArtStrip = lazy(() => import("./CityArtStrip"));
 
 type Props = {
   reports: PersonReport[];
@@ -355,17 +354,14 @@ function Timeline({ report }: { report: PersonReport }) {
 }
 
 function VisualExtras({ report, chapterId }: { report: PersonReport; chapterId: ReportChapter["id"] }) {
-  const art = artForBirthYear(report.person.birthYear);
-  if (chapterId === "teenage-years" && art.length) {
+  if (chapterId === "teenage-years") {
     return (
-      <Suspense fallback={<div className="visual-placeholder">Načítáme dobové umění…</div>}>
-        <div className="chapter-visual">
-          <div className="chapter-visual-head">
-            <h3>Umění, které už tehdy mělo svůj příběh</h3>
-            <span className="chapter-visual-note">Obrazům bylo kolem sta let</span>
-          </div>
-          <ArtStrip items={art} birthYear={report.person.birthYear} />
-        </div>
+      <Suspense fallback={<div className="visual-placeholder">Načítáme obraz města…</div>}>
+        <CityArtStrip
+          citySlug={report.person.citySlug}
+          cityName={report.historicalContext.cityLabel}
+          birthYear={report.person.birthYear}
+        />
       </Suspense>
     );
   }

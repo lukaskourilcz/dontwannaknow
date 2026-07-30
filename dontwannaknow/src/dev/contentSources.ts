@@ -37,6 +37,8 @@ export type ContentRecord = Record<string, unknown>;
 export type ContentSource = {
   /** Matches the JSON filename stem and the dev-API key. */
   key: string;
+  /** Dataset name in dataSources.json when it differs from the editor key. */
+  datasetKey?: string;
   label: string;
   category: Category;
   fields: Field[];
@@ -278,6 +280,43 @@ export const CONTENT_SOURCES: ContentSource[] = [
     summary: (r) => `${str(r.city)} ${num(r.year)} — ${str(r.text)}`,
     tags: (r) => [str(r.city), decadeTag(r.year)],
     blank: () => ({ city: "", year: CURRENT_YEAR, text: "" }),
+  },
+  {
+    key: "cityImagesSelection",
+    datasetKey: "cityImages",
+    label: "Dobové snímky měst",
+    category: "cities",
+    fields: [
+      { key: "id", label: "Stálý identifikátor", kind: "text", full: true },
+      { key: "city", label: "Identifikátor města", kind: "text" },
+      { key: "decade", label: "Dekáda", kind: "number" },
+      { key: "yearApprox", label: "Přibližný rok", kind: "text" },
+      { key: "dateCertainty", label: "Přesnost data", kind: "select", options: ["year", "decade"] },
+      { key: "commonsTitle", label: "Název souboru na Wikimedia Commons", kind: "text", full: true },
+      { key: "attributionOverride", label: "České uvedení autora (nepovinné)", kind: "text", full: true, optional: true },
+      { key: "alt", label: "Alternativní text", kind: "textarea", full: true },
+      { key: "caption", label: "Popisek", kind: "textarea", full: true },
+      { key: "excluded", label: "Vyřadit z veřejné vrstvy", kind: "boolean" },
+      { key: "exclusionReason", label: "Důvod vyřazení (nepovinný)", kind: "textarea", full: true, optional: true },
+    ],
+    summary: (r) => `${str(r.city)} · ${num(r.decade)} — ${str(r.caption) || str(r.commonsTitle)}`,
+    tags: (r) => [
+      str(r.city),
+      decadeTag(r.decade),
+      str(r.dateCertainty),
+      r.excluded ? "vyřazeno" : "veřejné",
+    ],
+    blank: () => ({
+      id: "",
+      city: "",
+      decade: Math.floor(CURRENT_YEAR / 10) * 10,
+      yearApprox: String(CURRENT_YEAR),
+      dateCertainty: "year",
+      commonsTitle: "",
+      alt: "",
+      caption: "",
+      excluded: false,
+    }),
   },
   {
     key: "sports",

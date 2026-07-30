@@ -8,15 +8,20 @@ import type { IncomingMessage, ServerResponse } from 'node:http'
 const rootDir = dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = resolve(rootDir, 'src/data')
 const SETTINGS_FILE = resolve(rootDir, 'src/config/productSettings.json')
+const CITY_IMAGES_SELECTION_FILE = resolve(DATA_DIR, 'cityImages/selection.json')
 
 // Map a content key from the /dev editor to a file on disk. `settings` is the
-// product-settings file; every other key is a JSON dataset in src/data. The regex +
-// prefix check keep this from being tricked into reading/writing outside those.
-function resolveContentFile(key: string): string | null {
-  if (key === 'settings') return SETTINGS_FILE
+// product-settings file and cityImagesSelection is the curated generator input;
+// every other key is a JSON dataset in src/data. The exact nested mapping, regex
+// and prefix check keep this from being tricked into reading/writing elsewhere.
+function resolveContentFile(key: string): { file: string; recordsEnvelope: boolean } | null {
+  if (key === 'settings') return { file: SETTINGS_FILE, recordsEnvelope: false }
+  if (key === 'cityImagesSelection') {
+    return { file: CITY_IMAGES_SELECTION_FILE, recordsEnvelope: true }
+  }
   if (!/^[a-zA-Z][a-zA-Z0-9]*$/.test(key)) return null
   const file = resolve(DATA_DIR, `${key}.json`)
-  return file.startsWith(DATA_DIR) ? file : null
+  return file.startsWith(DATA_DIR) ? { file, recordsEnvelope: false } : null
 }
 
 function readBody(req: IncomingMessage): Promise<string> {
@@ -41,8 +46,8 @@ function devContentApi(): Plugin {
         if (!url.startsWith('/__content/')) return next()
 
         const key = decodeURIComponent(url.slice('/__content/'.length).split('?')[0])
-        const file = resolveContentFile(key)
-        if (!file) {
+        const target = resolveContentFile(key)
+        if (!target) {
           res.statusCode = 400
           res.end('Invalid content key')
           return
@@ -54,14 +59,22 @@ function devContentApi(): Plugin {
         res.setHeader('Content-Type', 'application/json')
         try {
           if (req.method === 'GET') {
-            const text = await readFile(file, 'utf8').catch(() => 'null')
-            res.end(text)
+            const text = await readFile(target.file, 'utf8').catch(() => 'null')
+            const payload = JSON.parse(text)
+            res.end(JSON.stringify(target.recordsEnvelope ? payload?.records ?? [] : payload))
             return
           }
           if (req.method === 'POST' || req.method === 'PUT') {
             const body = await readBody(req)
-            JSON.parse(body) // reject malformed payloads before writing
-            await writeFile(file, body.endsWith('\n') ? body : body + '\n', 'utf8')
+            const payload = JSON.parse(body)
+            let persisted = payload
+            if (target.recordsEnvelope) {
+              if (!Array.isArray(payload)) throw new Error('Expected an array of city-image records')
+              const current = JSON.parse(await readFile(target.file, 'utf8'))
+              persisted = { ...current, records: payload }
+            }
+            const text = JSON.stringify(persisted, null, 2)
+            await writeFile(target.file, text + '\n', 'utf8')
             res.end(JSON.stringify({ ok: true }))
             return
           }
