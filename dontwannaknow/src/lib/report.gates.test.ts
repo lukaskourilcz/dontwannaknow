@@ -169,3 +169,20 @@ describe("hard gates beat maximum relevance scores", () => {
     expect(generationContext?.items[0]?.metadata.sensitivity).not.toBe("difficult");
   });
 });
+
+describe("chapter „Tehdy a dnes“ never ships bare product names", () => {
+  it("keeps modern gadget name-drops out of every report", async () => {
+    const { reportFor } = await import("./facts");
+    const gadget = /\b(iPad|iPhone|iPod|TikTok|Instagram|Spotify|Facebook|YouTube|ChatGPT|Wikipedie)\b/i;
+    const bareTemplate = /lidé ještě běžně nepoužívali/i;
+    for (const birthYear of [1953, 1968, 1985, 1995, 2000, 2005]) {
+      for (const variant of [0, 1, 2]) {
+        const report = await reportFor(makePerson({ birthYear, variant }));
+        const texts = report.chapters.flatMap((chapter) => chapter.items).map((item) => item.text);
+        expect(texts.filter((text) => bareTemplate.test(text)), `${birthYear}/${variant}`).toEqual([]);
+        const gadgetLines = texts.filter((text) => gadget.test(text) && /V roce narození/.test(text));
+        expect(gadgetLines, `${birthYear}/${variant}`).toEqual([]);
+      }
+    }
+  });
+});

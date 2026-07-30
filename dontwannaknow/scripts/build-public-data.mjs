@@ -110,6 +110,7 @@ const countryEvents = await withExtras(bySupportedCountry(await readJson("countr
 const famousPeople = await withExtras(bySupportedCountry(await readJson("famousPeople.json")), "famousPeople");
 const leaders = await withExtras(bySupportedCountry(await readJson("leaders.json")), "leaders");
 const wikidataPeople = bySupportedCountry(await readJson("generated/wikidataPeople.json"));
+const inventions = await withExtras(await readJson("inventions.json"), "inventions");
 const worldBank = Object.fromEntries(
   Object.entries(await readJson("generated/worldBank.json"))
     .filter(([country]) => ["CZE", "UKR", "WLD"].includes(country)),
@@ -128,6 +129,7 @@ const generated = {
   "countryEvents.ua.json": perCountry(countryEvents, "UA"),
   "famousPeople.cz.json": perCountry(famousPeople, "CZ"),
   "famousPeople.ua.json": perCountry(famousPeople, "UA"),
+  "inventions.json": inventions,
   "leaders.cz.json": perCountry(leaders, "CZ"),
   "leaders.ua.json": perCountry(leaders, "UA"),
   "wikidataPeople.cz.json": perCountry(wikidataPeople, "CZ"),

@@ -278,6 +278,7 @@ const relevanceDatasets = {
   countryDecades: ["countryDecades.cz.json", "countryDecades.ua.json"],
   famousPeople: ["famousPeople.cz.json", "famousPeople.ua.json"],
   leaders: ["leaders.cz.json", "leaders.ua.json"],
+  inventions: ["inventions.json"],
 };
 
 for (const [dataset, publicFiles] of Object.entries(relevanceDatasets)) {

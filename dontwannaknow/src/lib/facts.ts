@@ -147,19 +147,11 @@ function formativeInventions(birthYear: number) {
   );
 }
 
-const FEATURED_INVENTIONS = new Set([
-  "penicilin",
-  "barevná televize",
-  "magnetofonová kazeta",
-  "domácí mikrovlnná trouba",
-  "bankomat",
-  "kapesní kalkulačka",
-  "osobní počítač",
-  "Sony Walkman",
-  "World Wide Web",
-  "mobilní telefon pro běžné uživatele",
-  "iPhone",
-]);
+/** Kapitola „Tehdy a dnes“ žije z toho, co čtenáře ještě dokáže překvapit.
+ * Obecně známý moderní produkt („v roce narození se ještě nepoužíval iPad“)
+ * není dobová vzpomínka, jen truismus — proto musí záznam mít doloženou
+ * hodnotu objevu. Brána je deterministická a skóre ji nepřebije. */
+const INVENTION_MIN_DISCOVERY = 3;
 
 function decadePeriod(decadeStart: number): string {
   return `${decadeStart}–${decadeStart + 9}`;
@@ -349,21 +341,20 @@ function buildReport(person: Person, cityEvents: Awaited<ReturnType<typeof cityF
   }
 
   // ── Everyday contrasts: familiar things that did not exist yet ────────
-  const beforeStuff = formativeInventions(birthYear);
-  if (beforeStuff.length > 0) {
-    const big = beforeStuff.filter((i) =>
-      FEATURED_INVENTIONS.has(i.name),
-    );
-    const pool = big.length >= 2 ? big : beforeStuff;
-    pickN(pool, 2).forEach((inv) => {
-      facts.push({
-        category: "bizarre",
-        text: inv.detail
-          ? `V roce narození ${inv.detail}.`
-          : `V roce narození lidé ještě běžně nepoužívali: ${inv.name}.`,
-      });
+  // Brány: záznam musí nést dobovou větu (co se v běžném životě změnilo)
+  // a doloženou hodnotu objevu. Až pak rozhoduje skóre relevance.
+  const beforeStuff = formativeInventions(birthYear).filter((invention) => {
+    if (!invention.detail) return false;
+    const discovery = expandRelevance(invention.rel)?.discovery;
+    return discovery === undefined || discovery >= INVENTION_MIN_DISCOVERY;
+  });
+  pickRelevant(beforeStuff, 2, (invention) => expandRelevance(invention.rel)).forEach((inv) => {
+    facts.push({
+      category: "bizarre",
+      text: `V roce narození ${inv.detail}.`,
+      ...extras(inv),
     });
-  }
+  });
 
   // ── Changing borders: states that later disappeared ───────────────────
   const gone = goneCountriesAlive(birthYear).slice(0, 2);

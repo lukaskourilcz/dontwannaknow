@@ -40,6 +40,7 @@ async function loadRecords() {
   const decades = [...await readJson("countryDecades.cz.json"), ...await readJson("countryDecades.ua.json")];
   const famous = [...await readJson("famousPeople.cz.json"), ...await readJson("famousPeople.ua.json")];
   const leaders = [...await readJson("leaders.cz.json").catch(() => []), ...await readJson("leaders.ua.json").catch(() => [])];
+  const inventions = await readJson("inventions.json").catch(() => []);
 
   const records = [];
   for (const [country, list] of [["CZ", cityCz], ["UA", cityUa]]) {
@@ -67,6 +68,15 @@ async function loadRecords() {
       dataset: "famousPeople", key: recordKey("famousPeople", r),
       country: r.country, decadeStart: r.decadeStart, name: r.name,
       text: `${r.name} — ${r.role}${r.note ? `: ${r.note}` : ""}`,
+    });
+  }
+  for (const r of inventions) {
+    records.push({
+      dataset: "inventions", key: recordKey("inventions", r),
+      year: r.year, name: r.name,
+      text: r.detail
+        ? `${r.name} (${r.year}) — ${r.detail}`
+        : `${r.name} — v běžném životě od roku ${r.year}`,
     });
   }
   for (const r of leaders) {

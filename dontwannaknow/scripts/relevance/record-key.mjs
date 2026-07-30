@@ -12,6 +12,8 @@ export function recordKey(dataset, record) {
       return `${record.country}|${record.decadeStart}|${record.bucket}|${record.text}`;
     case "famousPeople":
       return `${record.country}|${record.decadeStart}|${record.name}`;
+    case "inventions":
+      return `${record.year}|${record.name}`;
     case "leaders":
       return record.id;
     default:

@@ -2,127 +2,157 @@
   {
     "year": 1928,
     "name": "krájený chléb",
-    "detail": "krájený chléb se v obchodech ještě neprodával"
+    "detail": "se chléb doma ukrajoval nožem z bochníku — nakrájený se v obchodech neprodával"
   },
   {
     "year": 1928,
-    "name": "penicilin"
+    "name": "penicilin",
+    "detail": "se zápal plic léčil i pouštěním žilou — ještě ve čtyřicátých letech to lékaři doporučovali"
   },
   {
     "year": 1935,
-    "name": "parkovací automat"
+    "name": "parkovací automat",
+    "detail": "se auto v Praze stavělo pod tabulkou s velkým P, jinde varovala tabule „Parkování zakázáno“"
   },
   {
     "year": 1938,
-    "name": "kuličkové pero"
+    "name": "kuličkové pero",
+    "detail": "se ve škole psalo inkoustem z kalamáře v lavici a od pera bývaly prsty modré"
   },
   {
     "year": 1947,
-    "name": "tranzistor"
+    "name": "tranzistor",
+    "detail": "rádio se po zapnutí muselo chvíli nahřát, než se elektronky rozžhavily a přijímač se rozezvučel"
   },
   {
     "year": 1948,
-    "name": "televize ve většině domácností"
+    "name": "televize ve většině domácností",
+    "detail": "se za obrazovými zprávami chodilo do kina; před hlavním filmem běžel filmový týdeník"
   },
   {
     "year": 1950,
-    "name": "platební karty"
+    "name": "platební karty",
+    "detail": "se výplata brala v hotovosti u okénka — dvakrát za měsíc, záloha a doplatek"
   },
   {
     "year": 1954,
-    "name": "barevná televize"
+    "name": "barevná televize",
+    "detail": "se televize sledovala černobíle a barevný přijímač šli lidé vidět k pár kusům vystaveným na veřejných místech"
   },
   {
     "year": 1955,
-    "name": "suchý zip"
+    "name": "suchý zip",
+    "detail": "se dětské boty zavazovaly na tkaničky a malým dětem je musel zavázat někdo dospělý"
   },
   {
     "year": 1958,
-    "name": "platební karta (jak ji známe dnes)"
+    "name": "platební karta (jak ji známe dnes)",
+    "detail": "se úspory vedly na vkladní knížce a platilo se hotově; běžný účet pro lidi ještě nebyl"
   },
   {
     "year": 1960,
-    "name": "antikoncepční pilulka"
+    "name": "antikoncepční pilulka",
+    "detail": "se plánování rodiny počítalo v kalendáři podle plodných a neplodných dnů metodou Ogina a Knause"
   },
   {
     "year": 1963,
-    "name": "magnetofonová kazeta"
+    "name": "magnetofonová kazeta",
+    "detail": "se doma nahrávalo na kotoučový magnetofon a pásek se mezi kotouče zaváděl ručně"
   },
   {
     "year": 1967,
-    "name": "domácí mikrovlnná trouba"
+    "name": "domácí mikrovlnná trouba",
+    "detail": "se jídlo přihřívalo v kastrolu na plotně nebo v troubě a chvíli se u něj muselo stát"
   },
   {
     "year": 1969,
-    "name": "bankomat"
+    "name": "bankomat",
+    "detail": "se peníze vybíraly proti vkladní knížce, a jen na té spořitelně, která knížku vydala"
   },
   {
     "year": 1971,
-    "name": "znak '@' v e-mailu"
+    "name": "znak '@' v e-mailu",
+    "detail": "se spěšná zpráva podávala na poště jako telegram a adresátovi ji doručili vytištěnou"
   },
   {
     "year": 1972,
-    "name": "kapesní kalkulačka"
+    "name": "kapesní kalkulačka",
+    "detail": "se ve škole i v technické praxi počítalo logaritmickým pravítkem a hodnoty se hledaly v tabulkách"
   },
   {
     "year": 1973,
-    "name": "mobilní telefon (prototyp)"
+    "name": "mobilní telefon (prototyp)",
+    "detail": "se na zavolání stály u telefonní budky fronty a do automatu se vhazovaly mince"
   },
   {
     "year": 1975,
-    "name": "domácí videorekordér"
+    "name": "domácí videorekordér",
+    "detail": "se k televizi sedalo přesně v čas vysílání, film se doma nedal nahrát ani zastavit"
   },
   {
     "year": 1977,
-    "name": "osobní počítač"
+    "name": "osobní počítač",
+    "detail": "se dopisy a formuláře psaly na psacím stroji, kopie přes kopírák a překlepy se přemazávaly bílým inkoustem"
   },
   {
     "year": 1979,
-    "name": "Sony Walkman"
+    "name": "Sony Walkman",
+    "detail": "hudba patřila k domácnosti; kdo ji chtěl mít venku, tahal na rameni kazeťák pro celou partu"
   },
   {
     "year": 1981,
-    "name": "MTV"
+    "name": "MTV",
+    "detail": "se na hudební klipy čekalo do vysílání Hitšarády v Československé televizi, která běžela od roku 1978"
   },
   {
     "year": 1982,
-    "name": "kompaktní disk"
+    "name": "kompaktní disk",
+    "detail": "se hudba nahrávala z rádia, z desek nebo z jiné kazety a mixy se dávaly jako dárek"
   },
   {
     "year": 1983,
-    "name": "mobilní telefon pro běžné uživatele"
+    "name": "mobilní telefon pro běžné uživatele",
+    "detail": "spěšná zpráva šla telegramem z pošty — platilo se za slova, tak místo tečky stálo „stop“"
   },
   {
     "year": 1985,
-    "name": "Windows"
+    "name": "Windows",
+    "detail": "se hry natahovaly do počítače z magnetofonové kazety a spouštěly se napsaným příkazem"
   },
   {
     "year": 1989,
-    "name": "Game Boy"
+    "name": "Game Boy",
+    "detail": "se kapesní hry hrály na sovětské Elektronice, kde vlk chytal do košíku padající vejce"
   },
   {
     "year": 1991,
-    "name": "World Wide Web"
+    "name": "World Wide Web",
+    "detail": "se odpovědi hledaly ručně v knihovním lístkovém katalogu, kartička po kartičce podle abecedy"
   },
   {
     "year": 1994,
-    "name": "první komerčně odeslaná SMS"
+    "name": "první komerčně odeslaná SMS",
+    "detail": "se z ulice volalo z telefonní budky, do které se místo mincí vkládala telefonní karta"
   },
   {
     "year": 1995,
-    "name": "DVD"
+    "name": "DVD",
+    "detail": "se filmy půjčovaly na videokazetách a před vrácením se musely přetočit na začátek"
   },
   {
     "year": 1995,
-    "name": "Amazon"
+    "name": "Amazon",
+    "detail": "se z domova nakupovalo listováním v papírovém katalogu zásilkového obchodu a zboží pak přinesl pošťák"
   },
   {
     "year": 1996,
-    "name": "Pokémon"
+    "name": "Pokémon",
+    "detail": "se ve škole kšeftovalo s obrázky ze žvýkaček: auta, zvířata, příběhy s Kačerem Donaldem"
   },
   {
     "year": 1998,
-    "name": "Google"
+    "name": "Google",
+    "detail": "se internet doma vytáčel po telefonní lince, platil se po minutách a čekalo se na večerní tarif"
   },
   {
     "year": 2001,
