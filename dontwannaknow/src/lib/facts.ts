@@ -14,6 +14,7 @@ import { cityFactsFor } from "../data/cities";
 import { findCity } from "../data/cityCatalog";
 import { loadWorldBank, worldBankFor, worldBankLatest } from "../data/worldBank";
 import { loadVitals, vitalsFor, type VitalRecord } from "../data/vitals";
+import { loadPricesWages, pricesWagesFor } from "../data/pricesWages";
 import { contemporariesFor, loadWikidataPeople } from "../data/wikidataPeople";
 import { mediaFor } from "../data/media";
 import { writersAtBirth } from "../data/writers";
@@ -508,6 +509,16 @@ function buildReport(person: Person, cityEvents: Awaited<ReturnType<typeof cityF
 
   // ── Country-specific texture, famous people, and local events ───────
   facts.push(...vitalsFor(person.country, birthYear).map(vitalSentence));
+  facts.push(...pricesWagesFor(person.country, birthYear).map((record) => ({
+    category: "money" as const,
+    year: record.yearFrom === record.yearTo ? record.yearFrom : undefined,
+    stage: record.yearTo <= birthYear + 7 ? "birth-era" as const : "teenage-era" as const,
+    text: record.sentence,
+    relevance: record.relevance,
+    source: record.source,
+    sourceConfidence: "verified" as const,
+    shareSafe: true,
+  })));
   facts.push(...countryFacts(person));
 
   // ── Hlavy státu a lídři formativních let (strukturované profily) ─────
@@ -568,6 +579,7 @@ export async function reportFor(person: Person, excludeWorld = false): Promise<P
     loadWikidataPeople(person.country),
     loadWorldBank(person.country),
     loadVitals(person.country),
+    loadPricesWages(person.country),
   ]);
   return withSeededRandom(seed, () => buildReport(person, cityEvents, leaders, excludeWorld));
 }

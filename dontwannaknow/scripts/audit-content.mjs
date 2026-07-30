@@ -280,6 +280,7 @@ const relevanceDatasets = {
   leaders: ["leaders.cz.json", "leaders.ua.json"],
   inventions: ["inventions.json"],
   vitalsBackfill: ["vitals.cz.json", "vitals.ua.json"],
+  pricesWages: ["pricesWages.cz.json", "pricesWages.ua.json"],
 };
 
 // Každá veřejná sada s dobovým textem musí projít skórováním. Sady, které
@@ -415,6 +416,41 @@ for (const [dataset, publicFiles] of Object.entries(relevanceDatasets)) {
       if (record.url && !/^https?:\/\//.test(record.url)) {
         errors.push(`${label}: URL nezačíná http(s).`);
       }
+    }
+  }
+}
+
+// ── P2: dobové ceny a mzdy ─────────────────────────────────────────────
+{
+  const pricesWages = [];
+  for (const filename of ["pricesWages.cz.json", "pricesWages.ua.json"]) {
+    const text = await readFile(new URL(`../src/data/public/${filename}`, import.meta.url), "utf8").catch(() => null);
+    if (text) pricesWages.push(...JSON.parse(text));
+  }
+  for (const country of ["cz", "ua"]) {
+    if (pricesWages.filter((record) => record.country === country).length > 200) {
+      errors.push(`pricesWages: země ${country.toUpperCase()} překračuje limit 200 záznamů.`);
+    }
+  }
+  for (const [index, record] of pricesWages.entries()) {
+    const label = `public/pricesWages[${index}]`;
+    if (!record.id || !["cz", "ua"].includes(record.country)) errors.push(`${label}: chybí id nebo podporovaná země.`);
+    if (!["price", "wage", "ratio"].includes(record.kind)) errors.push(`${label}: neznámý druh „${record.kind}“.`);
+    if (!Number.isInteger(record.yearFrom) || !Number.isInteger(record.yearTo) || record.yearFrom > record.yearTo) {
+      errors.push(`${label}: neplatný rozsah roků.`);
+    }
+    if (!String(record.sentence ?? "").trim() || !record.values || typeof record.values !== "object") {
+      errors.push(`${label}: chybí hotová věta nebo hodnoty.`);
+    }
+    if (
+      record.country === "ua" &&
+      ["price", "ratio"].includes(record.kind) &&
+      ((record.yearFrom <= 1934 && record.yearTo >= 1932) || (record.yearFrom <= 1947 && record.yearTo >= 1946))
+    ) {
+      errors.push(`${label}: cenový údaj protíná ukrajinské hladomorové okno.`);
+    }
+    if (record.country === "cz" && record.yearFrom <= 1953 && record.yearTo >= 1953 && !/měnové reform/i.test(record.note ?? "")) {
+      errors.push(`${label}: záznam u roku 1953 neuvádí kontext měnové reformy.`);
     }
   }
 }

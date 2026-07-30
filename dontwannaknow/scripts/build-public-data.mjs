@@ -117,6 +117,8 @@ const worldBank = Object.fromEntries(
 );
 const vitalsCz = await withExtras(await readJson("vitals/cz.json"), "vitalsBackfill");
 const vitalsUa = await withExtras(await readJson("vitals/ua.json"), "vitalsBackfill");
+const pricesWagesCz = await withExtras(await readJson("pricesWages/cz.json"), "pricesWages");
+const pricesWagesUa = await withExtras(await readJson("pricesWages/ua.json"), "pricesWages");
 
 const generated = {
   "cities.json": cities,
@@ -140,6 +142,8 @@ const generated = {
   "worldBank.ua.json": { UKR: worldBank.UKR, WLD: worldBank.WLD },
   "vitals.cz.json": vitalsCz,
   "vitals.ua.json": vitalsUa,
+  "pricesWages.cz.json": pricesWagesCz,
+  "pricesWages.ua.json": pricesWagesUa,
 };
 
 if (process.argv.includes("--check")) {

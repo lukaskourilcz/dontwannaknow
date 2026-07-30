@@ -47,6 +47,10 @@ async function loadRecords() {
     ...await readJson("vitals.cz.json").catch(() => []),
     ...await readJson("vitals.ua.json").catch(() => []),
   ];
+  const pricesWages = [
+    ...await readJson("pricesWages.cz.json").catch(() => []),
+    ...await readJson("pricesWages.ua.json").catch(() => []),
+  ];
 
   const records = [];
   for (const [country, list] of [["CZ", cityCz], ["UA", cityUa]]) {
@@ -107,6 +111,15 @@ async function loadRecords() {
       text,
     });
   }
+  for (const r of pricesWages) {
+    records.push({
+      dataset: "pricesWages",
+      key: recordKey("pricesWages", r),
+      country: r.country.toUpperCase(),
+      year: r.yearFrom,
+      text: r.sentence,
+    });
+  }
   return records;
 }
 
@@ -118,7 +131,7 @@ if (selectedDataset) {
 }
 if (onlyMissing) {
   const scored = new Set();
-  for (const dataset of ["cityFacts", "countryEvents", "countryDecades", "famousPeople", "leaders", "vitalsBackfill"]) {
+  for (const dataset of ["cityFacts", "countryEvents", "countryDecades", "famousPeople", "leaders", "vitalsBackfill", "pricesWages"]) {
     const sidecar = await readFile(new URL(`../../src/data/relevance/${dataset}.json`, import.meta.url), "utf8")
       .then(JSON.parse)
       .catch(() => null);

@@ -18,6 +18,8 @@ export function recordKey(dataset, record) {
       return record.id;
     case "vitalsBackfill":
       return `${record.country}|${record.series}|${record.year}|${record.value}|${record.upstream}`;
+    case "pricesWages":
+      return record.id;
     default:
       throw new Error(`Neznámá datová sada: ${dataset}`);
   }

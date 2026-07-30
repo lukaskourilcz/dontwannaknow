@@ -1,0 +1,309 @@
+{
+ "promptVersion": "relevance-v1",
+ "model": "codex-gpt-5",
+ "scoredAt": "2026-07-30",
+ "passes": {
+  "A": [
+   "livedProximity",
+   "everydayConsequence",
+   "consequenceHorizon"
+  ],
+  "B": [
+   "recognition",
+   "discovery"
+  ],
+  "C": [
+   "explanatoryPayload"
+  ]
+ },
+ "records": [
+  {
+   "key": "cz-1955-prumerna-mzda",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní mzdová hladina přímo určovala rozpočet domácností a charakterizuje několik poválečných let.",
+    "B": "Pamětníci rozpoznají řád částky; pro mladší čtenáře je konkrétní hladina objevná.",
+    "C": "Konkrétní mzda nese srozumitelný kus poválečné materiální reality."
+   }
+  },
+  {
+   "key": "cz-1970-prumerna-mzda",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Průměrná mzda zasahovala každodenní možnosti většiny pracujících a vystihuje delší dobové období.",
+    "B": "Dobový řád mzdy si část generace vybaví, přesná orientační hodnota běžného čtenáře překvapí.",
+    "C": "Konkrétní mzda nese srozumitelný kus normalizační materiální reality."
+   }
+  },
+  {
+   "key": "cz-1989-prumerna-mzda",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Mzdová hladina byla přímou zkušeností domácností a tvoří důležitou základnu pro pozdější změny.",
+    "B": "Mzda kolem tří tisíc patří ke sdíleným vzpomínkám konce socialismu, pro poučené není překvapivá.",
+    "C": "Částka dává měřítko ekonomickému světu těsně před změnou režimu."
+   }
+  },
+  {
+   "key": "cz-1999-prumerna-mzda",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní průměr rámuje běžné rodinné rozpočty na konci transformační dekády.",
+    "B": "Výši mzdy rozpozná značná část tehdejších pracujících; jde o běžně dohledatelný údaj.",
+    "C": "Částka dává měřítko ekonomickému světu konce transformační dekády."
+   }
+  },
+  {
+   "key": "cz-2000-prumerna-mzda",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní mzdová hladina se přímo promítala do každodenních možností domácností.",
+    "B": "Výši mzdy rozpozná značná část tehdejších pracujících; jde o běžně dohledatelný údaj.",
+    "C": "Částka dává čtenáři měřítko tehdejší každodenní ekonomiky."
+   }
+  },
+  {
+   "key": "cz-2005-prumerna-mzda",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní mzdová hladina se přímo promítala do každodenních možností domácností.",
+    "B": "Výši mzdy rozpozná značná část tehdejších pracujících; jde o běžně dohledatelný údaj.",
+    "C": "Částka dává čtenáři měřítko tehdejší každodenní ekonomiky."
+   }
+  },
+  {
+   "key": "cz-2010-prumerna-mzda",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní mzdová hladina se přímo promítala do každodenních možností domácností.",
+    "B": "Výši mzdy rozpozná značná část tehdejších pracujících; jde o běžně dohledatelný údaj.",
+    "C": "Částka dává čtenáři měřítko tehdejší každodenní ekonomiky."
+   }
+  },
+  {
+   "key": "cz-2015-prumerna-mzda",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní mzdová hladina se přímo promítala do každodenních možností domácností.",
+    "B": "Výši mzdy rozpozná značná část tehdejších pracujících; jde o běžně dohledatelný údaj.",
+    "C": "Částka dává čtenáři měřítko tehdejší každodenní ekonomiky."
+   }
+  },
+  {
+   "key": "cz-2020-prumerna-mzda",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní mzdová hladina se přímo promítala do každodenních možností domácností.",
+    "B": "Výši mzdy rozpozná značná část tehdejších pracujících; jde o běžně dohledatelný údaj.",
+    "C": "Částka dává čtenáři měřítko tehdejší každodenní ekonomiky."
+   }
+  },
+  {
+   "key": "cz-2025-chleb-mzda",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 5,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Cena základní potraviny vůči mzdě je bezprostřední celostátní zkušenost, významná hlavně pro dané období.",
+    "B": "Chléb zná každý, ale přepočet jeho ceny na minuty práce běžného čtenáře překvapí.",
+    "C": "Poměr ceny chleba a mzdy vysvětluje kupní sílu názorněji než samotná nominální částka."
+   }
+  },
+  {
+   "key": "cz-2025-prumerna-mzda",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní mzdová hladina se přímo promítala do každodenních možností domácností.",
+    "B": "Výši mzdy rozpozná značná část pracujících; aktuální oficiální údaj je široce dostupný.",
+    "C": "Částka dává čtenáři měřítko současné každodenní ekonomiky."
+   }
+  },
+  {
+   "key": "ua-1950-prumerna-mzda",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Mzdová hladina sovětské Ukrajiny přímo rámovala rozpočty domácností a několik let poválečné obnovy.",
+    "B": "Přesnou částku si vybaví menšina; údaj v ukrajinské řadě překvapí i sečtělého čtenáře.",
+    "C": "Částka dává měřítko poválečnému materiálnímu světu sovětské Ukrajiny."
+   }
+  },
+  {
+   "key": "ua-1955-prumerna-mzda",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Mzdová hladina sovětské Ukrajiny přímo rámovala rozpočty domácností a delší období.",
+    "B": "Přesnou částku si vybaví menšina; údaj v ukrajinské řadě překvapí i sečtělého čtenáře.",
+    "C": "Částka dává měřítko poválečnému materiálnímu světu sovětské Ukrajiny."
+   }
+  },
+  {
+   "key": "ua-1965-prumerna-mzda",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Mzdová hladina sovětské Ukrajiny přímo rámovala rozpočty domácností a delší období.",
+    "B": "Přesnou částku si vybaví menšina; údaj v ukrajinské řadě překvapí i sečtělého čtenáře.",
+    "C": "Částka dává měřítko materiálnímu světu sovětské Ukrajiny."
+   }
+  },
+  {
+   "key": "ua-1975-prumerna-mzda",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Mzdová hladina sovětské Ukrajiny přímo rámovala rozpočty domácností a delší období.",
+    "B": "Přesnou částku si vybaví menšina; údaj v ukrajinské řadě překvapí i sečtělého čtenáře.",
+    "C": "Částka dává měřítko materiálnímu světu sovětské Ukrajiny."
+   }
+  },
+  {
+   "key": "ua-1985-prumerna-mzda",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Mzdová hladina sovětské Ukrajiny přímo rámovala rozpočty domácností a pozdně sovětské období.",
+    "B": "Dobový řád mzdy část generace rozpozná, českého čtenáře konkrétní ukrajinská hodnota překvapí.",
+    "C": "Částka dává měřítko pozdně sovětskému materiálnímu světu."
+   }
+  },
+  {
+   "key": "ua-1991-prumerna-mzda",
+   "scores": {
+    "livedProximity": 4,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 3,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Mzda byla přímou zkušeností domácností v přelomovém roce a předcházela měnovému rozvratu.",
+    "B": "Pamětníci rozpoznají rychle se měnící nominální částky; českého čtenáře konkrétní hodnota výrazně překvapí.",
+    "C": "Nominální mzda a dobové označení měny ukazují ekonomický svět na prahu rozpadu SSSR."
+   }
+  },
+  {
+   "key": "ua-1995-prumerna-mzda",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 4,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 4,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Mzdová hladina rámovala rodinné rozpočty a přepočet souvisí s dlouhodobou měnovou změnou.",
+    "B": "Přepočtenou částku si vybaví menšina a způsob zpětného uvádění měny je málo známý.",
+    "C": "Zpětný měnový přepočet názorně ukazuje obtížnost čtení transformačních nominálních částek."
+   }
+  }
+ ]
+}

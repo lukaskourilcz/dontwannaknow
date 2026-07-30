@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-07-30",
+  "records": [
+    {
+      "key": "cz-1955-prumerna-mzda",
+      "title": "Od roku 2000 se průměrná mzda téměř zdvojnásobila",
+      "publisher": "Český statistický úřad",
+      "url": "https://statistikaamy.csu.gov.cz/od-roku-2000-se-prumerna-mzda-temer-zdvojnasobila",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Český statistický úřad; vlastní česká formulace a případný orientační přepočet."
+    },
+    {
+      "key": "cz-1970-prumerna-mzda",
+      "title": "Od roku 2000 se průměrná mzda téměř zdvojnásobila",
+      "publisher": "Český statistický úřad",
+      "url": "https://statistikaamy.csu.gov.cz/od-roku-2000-se-prumerna-mzda-temer-zdvojnasobila",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Český statistický úřad; vlastní česká formulace a případný orientační přepočet."
+    },
+    {
+      "key": "cz-1989-prumerna-mzda",
+      "title": "Od roku 2000 se průměrná mzda téměř zdvojnásobila",
+      "publisher": "Český statistický úřad",
+      "url": "https://statistikaamy.csu.gov.cz/od-roku-2000-se-prumerna-mzda-temer-zdvojnasobila",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Český statistický úřad; vlastní česká formulace a případný orientační přepočet."
+    },
+    {
+      "key": "cz-1999-prumerna-mzda",
+      "title": "Od roku 2000 se průměrná mzda téměř zdvojnásobila",
+      "publisher": "Český statistický úřad",
+      "url": "https://statistikaamy.csu.gov.cz/od-roku-2000-se-prumerna-mzda-temer-zdvojnasobila",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Český statistický úřad; vlastní česká formulace a případný orientační přepočet."
+    },
+    {
+      "key": "cz-2000-prumerna-mzda",
+      "title": "DataStat: průměrná hrubá měsíční mzda",
+      "publisher": "Český statistický úřad",
+      "url": "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/MZDRT1?format=CSV&kodZvlast=true",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Český statistický úřad; vlastní česká formulace a případný orientační přepočet."
+    },
+    {
+      "key": "cz-2005-prumerna-mzda",
+      "title": "DataStat: průměrná hrubá měsíční mzda",
+      "publisher": "Český statistický úřad",
+      "url": "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/MZDRT1?format=CSV&kodZvlast=true",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Český statistický úřad; vlastní česká formulace a případný orientační přepočet."
+    },
+    {
+      "key": "cz-2010-prumerna-mzda",
+      "title": "DataStat: průměrná hrubá měsíční mzda",
+      "publisher": "Český statistický úřad",
+      "url": "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/MZDRT1?format=CSV&kodZvlast=true",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Český statistický úřad; vlastní česká formulace a případný orientační přepočet."
+    },
+    {
+      "key": "cz-2015-prumerna-mzda",
+      "title": "DataStat: průměrná hrubá měsíční mzda",
+      "publisher": "Český statistický úřad",
+      "url": "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/MZDRT1?format=CSV&kodZvlast=true",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Český statistický úřad; vlastní česká formulace a případný orientační přepočet."
+    },
+    {
+      "key": "cz-2020-prumerna-mzda",
+      "title": "DataStat: průměrná hrubá měsíční mzda",
+      "publisher": "Český statistický úřad",
+      "url": "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/MZDRT1?format=CSV&kodZvlast=true",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Český statistický úřad; vlastní česká formulace a případný orientační přepočet."
+    },
+    {
+      "key": "cz-2025-chleb-mzda",
+      "title": "DataStat: průměrná cena chleba a průměrná mzda",
+      "publisher": "Český statistický úřad",
+      "url": "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/CEN0101DT01?format=CSV&kodZvlast=true",
+      "relatedUrls": [
+        "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/MZDRT1?format=CSV&kodZvlast=true",
+        "https://csu.gov.cz/zakladni-informace-pro-pouziti-api-datastatu"
+      ],
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Český statistický úřad; vlastní česká formulace a případný orientační přepočet."
+    },
+    {
+      "key": "cz-2025-prumerna-mzda",
+      "title": "DataStat: průměrná hrubá měsíční mzda",
+      "publisher": "Český statistický úřad",
+      "url": "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/MZDRT1?format=CSV&kodZvlast=true",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Český statistický úřad; vlastní česká formulace a případný orientační přepočet."
+    },
+    {
+      "key": "ua-1950-prumerna-mzda",
+      "title": "Statistický ročník Ukrajiny 2018, tabulky 3.24–3.25",
+      "publisher": "Státní statistická služba Ukrajiny",
+      "url": "https://www.ukrstat.gov.ua/druk/publicat/kat_u/2019/zb/11/zb_yearbook_2018.pdf",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Státní statistická služba Ukrajiny; vlastní česká formulace."
+    },
+    {
+      "key": "ua-1955-prumerna-mzda",
+      "title": "Statistický ročník Ukrajiny 2018, tabulky 3.24–3.25",
+      "publisher": "Státní statistická služba Ukrajiny",
+      "url": "https://www.ukrstat.gov.ua/druk/publicat/kat_u/2019/zb/11/zb_yearbook_2018.pdf",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Státní statistická služba Ukrajiny; vlastní česká formulace."
+    },
+    {
+      "key": "ua-1965-prumerna-mzda",
+      "title": "Statistický ročník Ukrajiny 2018, tabulky 3.24–3.25",
+      "publisher": "Státní statistická služba Ukrajiny",
+      "url": "https://www.ukrstat.gov.ua/druk/publicat/kat_u/2019/zb/11/zb_yearbook_2018.pdf",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Státní statistická služba Ukrajiny; vlastní česká formulace."
+    },
+    {
+      "key": "ua-1975-prumerna-mzda",
+      "title": "Statistický ročník Ukrajiny 2018, tabulky 3.24–3.25",
+      "publisher": "Státní statistická služba Ukrajiny",
+      "url": "https://www.ukrstat.gov.ua/druk/publicat/kat_u/2019/zb/11/zb_yearbook_2018.pdf",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Státní statistická služba Ukrajiny; vlastní česká formulace."
+    },
+    {
+      "key": "ua-1985-prumerna-mzda",
+      "title": "Statistický ročník Ukrajiny 2018, tabulky 3.24–3.25",
+      "publisher": "Státní statistická služba Ukrajiny",
+      "url": "https://www.ukrstat.gov.ua/druk/publicat/kat_u/2019/zb/11/zb_yearbook_2018.pdf",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Státní statistická služba Ukrajiny; vlastní česká formulace."
+    },
+    {
+      "key": "ua-1991-prumerna-mzda",
+      "title": "Statistický ročník Ukrajiny 2018, tabulky 3.24–3.25",
+      "publisher": "Státní statistická služba Ukrajiny",
+      "url": "https://www.ukrstat.gov.ua/druk/publicat/kat_u/2019/zb/11/zb_yearbook_2018.pdf",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Státní statistická služba Ukrajiny; vlastní česká formulace."
+    },
+    {
+      "key": "ua-1995-prumerna-mzda",
+      "title": "Statistický ročník Ukrajiny 2018, tabulky 3.24–3.25",
+      "publisher": "Státní statistická služba Ukrajiny",
+      "url": "https://www.ukrstat.gov.ua/druk/publicat/kat_u/2019/zb/11/zb_yearbook_2018.pdf",
+      "accessed": "2026-07-30",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Zdroj: Státní statistická služba Ukrajiny; vlastní česká formulace."
+    }
+  ]
+}

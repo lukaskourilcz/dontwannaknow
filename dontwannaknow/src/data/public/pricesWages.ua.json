@@ -1,0 +1,191 @@
+[
+  {
+    "id": "ua-1950-prumerna-mzda",
+    "country": "ua",
+    "yearFrom": 1950,
+    "yearTo": 1950,
+    "kind": "wage",
+    "sentence": "V roce 1950 činila na území dnešní Ukrajiny průměrná měsíční mzda zhruba 63 sovětských rublů, které ukrajinská ročenka uvádí jako karbovance.",
+    "values": {
+      "wage": 62.7,
+      "currency": "sovětský rubl (karbovanec)",
+      "referenceYear": 1950
+    },
+    "note": "Nominální údaj nelze bez zohlednění měnových reforem přímo porovnávat s jinými obdobími.",
+    "rel": [
+      4,
+      4,
+      2,
+      4,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Statistický ročník Ukrajiny 2018, tabulky 3.24–3.25",
+      "p": "Státní statistická služba Ukrajiny",
+      "u": "https://www.ukrstat.gov.ua/druk/publicat/kat_u/2019/zb/11/zb_yearbook_2018.pdf"
+    }
+  },
+  {
+    "id": "ua-1955-prumerna-mzda",
+    "country": "ua",
+    "yearFrom": 1955,
+    "yearTo": 1955,
+    "kind": "wage",
+    "sentence": "V roce 1955 činila na území dnešní Ukrajiny průměrná měsíční mzda zhruba 69 sovětských rublů, které ukrajinská ročenka uvádí jako karbovance.",
+    "values": {
+      "wage": 68.8,
+      "currency": "sovětský rubl (karbovanec)",
+      "referenceYear": 1955
+    },
+    "note": "Nominální údaj nelze bez zohlednění měnových reforem přímo porovnávat s jinými obdobími.",
+    "rel": [
+      4,
+      4,
+      2,
+      4,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Statistický ročník Ukrajiny 2018, tabulky 3.24–3.25",
+      "p": "Státní statistická služba Ukrajiny",
+      "u": "https://www.ukrstat.gov.ua/druk/publicat/kat_u/2019/zb/11/zb_yearbook_2018.pdf"
+    }
+  },
+  {
+    "id": "ua-1965-prumerna-mzda",
+    "country": "ua",
+    "yearFrom": 1965,
+    "yearTo": 1965,
+    "kind": "wage",
+    "sentence": "V roce 1965 činila na území dnešní Ukrajiny průměrná měsíční mzda zhruba 80 sovětských rublů, které ukrajinská ročenka uvádí jako karbovance.",
+    "values": {
+      "wage": 80.15,
+      "currency": "sovětský rubl (karbovanec)",
+      "referenceYear": 1965
+    },
+    "note": "Nominální údaj nelze bez zohlednění měnových reforem přímo porovnávat s jinými obdobími.",
+    "rel": [
+      4,
+      4,
+      2,
+      4,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Statistický ročník Ukrajiny 2018, tabulky 3.24–3.25",
+      "p": "Státní statistická služba Ukrajiny",
+      "u": "https://www.ukrstat.gov.ua/druk/publicat/kat_u/2019/zb/11/zb_yearbook_2018.pdf"
+    }
+  },
+  {
+    "id": "ua-1975-prumerna-mzda",
+    "country": "ua",
+    "yearFrom": 1975,
+    "yearTo": 1975,
+    "kind": "wage",
+    "sentence": "V roce 1975 činila na území dnešní Ukrajiny průměrná měsíční mzda zhruba 122 sovětských rublů, které ukrajinská ročenka uvádí jako karbovance.",
+    "values": {
+      "wage": 122.33,
+      "currency": "sovětský rubl (karbovanec)",
+      "referenceYear": 1975
+    },
+    "note": "Nominální údaj nelze bez zohlednění měnových reforem přímo porovnávat s jinými obdobími.",
+    "rel": [
+      4,
+      4,
+      2,
+      4,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Statistický ročník Ukrajiny 2018, tabulky 3.24–3.25",
+      "p": "Státní statistická služba Ukrajiny",
+      "u": "https://www.ukrstat.gov.ua/druk/publicat/kat_u/2019/zb/11/zb_yearbook_2018.pdf"
+    }
+  },
+  {
+    "id": "ua-1985-prumerna-mzda",
+    "country": "ua",
+    "yearFrom": 1985,
+    "yearTo": 1985,
+    "kind": "wage",
+    "sentence": "V roce 1985 činila na území dnešní Ukrajiny průměrná měsíční mzda zhruba 168 sovětských rublů, které ukrajinská ročenka uvádí jako karbovance.",
+    "values": {
+      "wage": 167.81,
+      "currency": "sovětský rubl (karbovanec)",
+      "referenceYear": 1985
+    },
+    "note": "Nominální údaj nelze bez zohlednění měnových reforem přímo porovnávat s jinými obdobími.",
+    "rel": [
+      4,
+      4,
+      3,
+      3,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Statistický ročník Ukrajiny 2018, tabulky 3.24–3.25",
+      "p": "Státní statistická služba Ukrajiny",
+      "u": "https://www.ukrstat.gov.ua/druk/publicat/kat_u/2019/zb/11/zb_yearbook_2018.pdf"
+    }
+  },
+  {
+    "id": "ua-1991-prumerna-mzda",
+    "country": "ua",
+    "yearFrom": 1991,
+    "yearTo": 1991,
+    "kind": "wage",
+    "sentence": "V roce 1991 činila na území dnešní Ukrajiny průměrná měsíční mzda zhruba 480 sovětských rublů, které ukrajinská ročenka uvádí jako karbovance.",
+    "values": {
+      "wage": 479.7,
+      "currency": "sovětský rubl (karbovanec)",
+      "referenceYear": 1991
+    },
+    "note": "Nominální údaj nelze bez zohlednění měnových reforem přímo porovnávat s jinými obdobími.",
+    "rel": [
+      4,
+      4,
+      3,
+      4,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Statistický ročník Ukrajiny 2018, tabulky 3.24–3.25",
+      "p": "Státní statistická služba Ukrajiny",
+      "u": "https://www.ukrstat.gov.ua/druk/publicat/kat_u/2019/zb/11/zb_yearbook_2018.pdf"
+    }
+  },
+  {
+    "id": "ua-1995-prumerna-mzda",
+    "country": "ua",
+    "yearFrom": 1995,
+    "yearTo": 1995,
+    "kind": "wage",
+    "sentence": "V roce 1995 uvádí ukrajinská statistická ročenka průměrnou měsíční mzdu zhruba 73 hřiven po přepočtu do měnové jednotky zavedené při reformě v roce 1996.",
+    "values": {
+      "wage": 73,
+      "currency": "hřivna (statistický přepočet)",
+      "referenceYear": 1995
+    },
+    "note": "Ročenka publikuje rok 1995 zpětně v hřivnách; nejde o tvrzení, že hřivnové bankovky byly v oběhu už v roce 1995.",
+    "rel": [
+      3,
+      4,
+      2,
+      4,
+      3,
+      4
+    ],
+    "src": {
+      "t": "Statistický ročník Ukrajiny 2018, tabulky 3.24–3.25",
+      "p": "Státní statistická služba Ukrajiny",
+      "u": "https://www.ukrstat.gov.ua/druk/publicat/kat_u/2019/zb/11/zb_yearbook_2018.pdf"
+    }
+  }
+]
