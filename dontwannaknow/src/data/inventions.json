@@ -7,12 +7,12 @@
   {
     "year": 1928,
     "name": "penicilin",
-    "detail": "se zápal plic léčil i pouštěním žilou — ještě ve čtyřicátých letech to lékaři doporučovali"
+    "detail": "se zápal plic léčil i pouštěním žilou — učebnice vnitřního lékařství to doporučovala ještě ve čtyřicátých letech"
   },
   {
     "year": 1935,
     "name": "parkovací automat",
-    "detail": "se auto v Praze stavělo pod tabulkou s velkým P, jinde varovala tabule „Parkování zakázáno“"
+    "detail": "se auto stavělo tam, kde parkoviště značila tabulka s velkým P; jinde varovala tabule „Parkování zakázáno“"
   },
   {
     "year": 1938,
@@ -22,7 +22,7 @@
   {
     "year": 1947,
     "name": "tranzistor",
-    "detail": "rádio se po zapnutí muselo chvíli nahřát, než se elektronky rozžhavily a přijímač se rozezvučel"
+    "detail": "se rádio po zapnutí muselo chvíli nahřívat, než se elektronky rozžhavily a přijímač se rozezvučel"
   },
   {
     "year": 1948,
@@ -32,12 +32,12 @@
   {
     "year": 1950,
     "name": "platební karty",
-    "detail": "se výplata brala v hotovosti u okénka — dvakrát za měsíc, záloha a doplatek"
+    "detail": "se výplata brala v hotovosti — dvakrát za měsíc se stála fronta na zálohu a doplatek"
   },
   {
     "year": 1954,
     "name": "barevná televize",
-    "detail": "se televize sledovala černobíle a barevný přijímač šli lidé vidět k pár kusům vystaveným na veřejných místech"
+    "detail": "se chodilo na televizi do kulturního domu, do závodního klubu nebo k sousedům; obraz byl černobílý"
   },
   {
     "year": 1955,
@@ -47,32 +47,32 @@
   {
     "year": 1958,
     "name": "platební karta (jak ji známe dnes)",
-    "detail": "se úspory vedly na vkladní knížce a platilo se hotově; běžný účet pro lidi ještě nebyl"
+    "detail": "se platilo hotově a úspory se nosily do spořitelny na vkladní knížku"
   },
   {
     "year": 1960,
     "name": "antikoncepční pilulka",
-    "detail": "se plánování rodiny počítalo v kalendáři podle plodných a neplodných dnů metodou Ogina a Knause"
+    "detail": "se počítaly plodné a neplodné dny v kalendáři podle metody Ogina a Knause"
   },
   {
     "year": 1963,
     "name": "magnetofonová kazeta",
-    "detail": "se doma nahrávalo na kotoučový magnetofon a pásek se mezi kotouče zaváděl ručně"
+    "detail": "se doma nahrávalo na kufříkový cívkový magnetofon Sonet — na jednu stranu cívky se vešlo třicet minut"
   },
   {
     "year": 1967,
     "name": "domácí mikrovlnná trouba",
-    "detail": "se jídlo přihřívalo v kastrolu na plotně nebo v troubě a chvíli se u něj muselo stát"
+    "detail": "se jídlo přihřívalo na plotně nebo v troubě a chvíli se u něj muselo stát"
   },
   {
     "year": 1969,
     "name": "bankomat",
-    "detail": "se peníze vybíraly proti vkladní knížce, a jen na té spořitelně, která knížku vydala"
+    "detail": "se peníze vybíraly ve spořitelně proti vkladní knížce, a jen v té pobočce, která ji vydala"
   },
   {
     "year": 1971,
     "name": "znak '@' v e-mailu",
-    "detail": "se spěšná zpráva podávala na poště jako telegram a adresátovi ji doručili vytištěnou"
+    "detail": "se spěšná zpráva podávala na poště jako telegram, platilo se za slova a místo tečky stálo „stop“"
   },
   {
     "year": 1972,
@@ -82,12 +82,12 @@
   {
     "year": 1973,
     "name": "mobilní telefon (prototyp)",
-    "detail": "se na zavolání stály u telefonní budky fronty a do automatu se vhazovaly mince"
+    "detail": "se na telefonát stály fronty u budky a do automatu se vhazovaly mince"
   },
   {
     "year": 1975,
     "name": "domácí videorekordér",
-    "detail": "se k televizi sedalo přesně v čas vysílání, film se doma nedal nahrát ani zastavit"
+    "detail": "se rodinné záběry točily na osmimilimetrový film — dovolená na chatě, svatba, první krůčky dětí"
   },
   {
     "year": 1977,
@@ -97,12 +97,12 @@
   {
     "year": 1979,
     "name": "Sony Walkman",
-    "detail": "hudba patřila k domácnosti; kdo ji chtěl mít venku, tahal na rameni kazeťák pro celou partu"
+    "detail": "se hudba poslouchala z kazeťáku, který se dal koupit jen v Tuzexu nebo dovézt ze Západu"
   },
   {
     "year": 1981,
     "name": "MTV",
-    "detail": "se na hudební klipy čekalo do vysílání Hitšarády v Československé televizi, která běžela od roku 1978"
+    "detail": "se na hudební klipy čekalo do Hitšarády, kterou Československá televize dávala jednou měsíčně"
   },
   {
     "year": 1982,
@@ -112,12 +112,12 @@
   {
     "year": 1983,
     "name": "mobilní telefon pro běžné uživatele",
-    "detail": "spěšná zpráva šla telegramem z pošty — platilo se za slova, tak místo tečky stálo „stop“"
+    "detail": "se na přidělení soukromého telefonu čekalo i mnoho let a mezitím se volalo z automatu"
   },
   {
     "year": 1985,
     "name": "Windows",
-    "detail": "se hry natahovaly do počítače z magnetofonové kazety a spouštěly se napsaným příkazem"
+    "detail": "se hry do počítače natahovaly z magnetofonové kazety a při načítání to pípalo a šumělo"
   },
   {
     "year": 1989,
@@ -142,17 +142,17 @@
   {
     "year": 1995,
     "name": "Amazon",
-    "detail": "se z domova nakupovalo listováním v papírovém katalogu zásilkového obchodu a zboží pak přinesl pošťák"
+    "detail": "se z domova nakupovalo z papírového katalogu Magnet, který se kupoval v trafice za deset korun"
   },
   {
     "year": 1996,
     "name": "Pokémon",
-    "detail": "se ve škole kšeftovalo s obrázky ze žvýkaček: auta, zvířata, příběhy s Kačerem Donaldem"
+    "detail": "se ve škole měnily obrázky ze žvýkaček — zvířata, stará auta, příběhy s Kačerem Donaldem"
   },
   {
     "year": 1998,
     "name": "Google",
-    "detail": "se internet doma vytáčel po telefonní lince, platil se po minutách a čekalo se na večerní tarif"
+    "detail": "se na internet vytáčelo po telefonní lince, platilo se po minutách a hledalo se až po šesté"
   },
   {
     "year": 2001,

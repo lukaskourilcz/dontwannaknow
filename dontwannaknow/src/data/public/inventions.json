@@ -12,7 +12,7 @@
   {
     "year": 1928,
     "name": "penicilin",
-    "detail": "se zápal plic léčil i pouštěním žilou — ještě ve čtyřicátých letech to lékaři doporučovali",
+    "detail": "se zápal plic léčil i pouštěním žilou — učebnice vnitřního lékařství to doporučovala ještě ve čtyřicátých letech",
     "src": {
       "t": "Léčba infekcí kdysi a dnes: od pouštění žilou k antibiotikům",
       "p": "Vitalia.cz",
@@ -22,7 +22,7 @@
   {
     "year": 1935,
     "name": "parkovací automat",
-    "detail": "se auto v Praze stavělo pod tabulkou s velkým P, jinde varovala tabule „Parkování zakázáno“",
+    "detail": "se auto stavělo tam, kde parkoviště značila tabulka s velkým P; jinde varovala tabule „Parkování zakázáno“",
     "src": {
       "t": "Protektorát přinesl jízdu vpravo. První den byly v Praze desítky nehod",
       "p": "Auto.cz",
@@ -42,7 +42,7 @@
   {
     "year": 1947,
     "name": "tranzistor",
-    "detail": "rádio se po zapnutí muselo chvíli nahřát, než se elektronky rozžhavily a přijímač se rozezvučel",
+    "detail": "se rádio po zapnutí muselo chvíli nahřívat, než se elektronky rozžhavily a přijímač se rozezvučel",
     "src": {
       "t": "Tranzistorový přijímač",
       "p": "Wikipedie",
@@ -62,7 +62,7 @@
   {
     "year": 1950,
     "name": "platební karty",
-    "detail": "se výplata brala v hotovosti u okénka — dvakrát za měsíc, záloha a doplatek",
+    "detail": "se výplata brala v hotovosti — dvakrát za měsíc se stála fronta na zálohu a doplatek",
     "src": {
       "t": "V Československu si zvykl na mzdu v hotovosti. Chodí si pro ni i dnes",
       "p": "Seznam Zprávy",
@@ -72,11 +72,11 @@
   {
     "year": 1954,
     "name": "barevná televize",
-    "detail": "se televize sledovala černobíle a barevný přijímač šli lidé vidět k pár kusům vystaveným na veřejných místech",
+    "detail": "se chodilo na televizi do kulturního domu, do závodního klubu nebo k sousedům; obraz byl černobílý",
     "src": {
-      "t": "To byla veliká událost! Před 55 lety v Československu poprvé vysílala barevná televize",
-      "p": "Reflex.cz",
-      "u": "https://www.reflex.cz/clanek/historie/99778/to-byla-velika-udalost-pred-55-lety-v-ceskoslovensku-poprve-vysilala-barevna-televize.html"
+      "t": "Vysílání v plenkách: Jak vypadaly počátky Československé televize?",
+      "p": "100+1 zahraniční zajímavost",
+      "u": "https://www.stoplusjednicka.cz/vysilani-v-plenkach-jak-vypadaly-pocatky-ceskoslovenske-televize"
     }
   },
   {
@@ -92,7 +92,7 @@
   {
     "year": 1958,
     "name": "platební karta (jak ji známe dnes)",
-    "detail": "se úspory vedly na vkladní knížce a platilo se hotově; běžný účet pro lidi ještě nebyl",
+    "detail": "se platilo hotově a úspory se nosily do spořitelny na vkladní knížku",
     "src": {
       "t": "Sporožiro",
       "p": "Wikipedie",
@@ -102,7 +102,7 @@
   {
     "year": 1960,
     "name": "antikoncepční pilulka",
-    "detail": "se plánování rodiny počítalo v kalendáři podle plodných a neplodných dnů metodou Ogina a Knause",
+    "detail": "se počítaly plodné a neplodné dny v kalendáři podle metody Ogina a Knause",
     "src": {
       "t": "Historie antikoncepce",
       "p": "LEVRET, gynekologická ambulance",
@@ -112,17 +112,17 @@
   {
     "year": 1963,
     "name": "magnetofonová kazeta",
-    "detail": "se doma nahrávalo na kotoučový magnetofon a pásek se mezi kotouče zaváděl ručně",
+    "detail": "se doma nahrávalo na kufříkový cívkový magnetofon Sonet — na jednu stranu cívky se vešlo třicet minut",
     "src": {
-      "t": "Magnetofonová kazeta",
+      "t": "Tesla řada Sonet",
       "p": "Wikipedie",
-      "u": "https://cs.wikipedia.org/wiki/Magnetofonov%C3%A1_kazeta"
+      "u": "https://cs.wikipedia.org/wiki/Tesla_%C5%99ada_Sonet"
     }
   },
   {
     "year": 1967,
     "name": "domácí mikrovlnná trouba",
-    "detail": "se jídlo přihřívalo v kastrolu na plotně nebo v troubě a chvíli se u něj muselo stát",
+    "detail": "se jídlo přihřívalo na plotně nebo v troubě a chvíli se u něj muselo stát",
     "src": {
       "t": "Znáte historii mikrovlnné trouby?",
       "p": "Bydlení.cz",
@@ -132,7 +132,7 @@
   {
     "year": 1969,
     "name": "bankomat",
-    "detail": "se peníze vybíraly proti vkladní knížce, a jen na té spořitelně, která knížku vydala",
+    "detail": "se peníze vybíraly ve spořitelně proti vkladní knížce, a jen v té pobočce, která ji vydala",
     "src": {
       "t": "Vrchol bankovnictví za socialismu? Vkladní knížky a novomanželské půjčky",
       "p": "Seznam Zprávy",
@@ -142,11 +142,11 @@
   {
     "year": 1971,
     "name": "znak '@' v e-mailu",
-    "detail": "se spěšná zpráva podávala na poště jako telegram a adresátovi ji doručili vytištěnou",
+    "detail": "se spěšná zpráva podávala na poště jako telegram, platilo se za slova a místo tečky stálo „stop“",
     "src": {
-      "t": "Telegram (zpráva)",
-      "p": "Wikipedie",
-      "u": "https://cs.wikipedia.org/wiki/Telegram_(zpr%C3%A1va)"
+      "t": "Co to Bůh stvořil? ptal se Morse před 170 lety, přitom stvořil telegram",
+      "p": "ČT24 / Česká televize",
+      "u": "https://ct24.ceskatelevize.cz/clanek/svet/co-to-buh-stvoril-ptal-se-morse-pred-170-lety-pritom-stvoril-telegram-331580"
     }
   },
   {
@@ -162,7 +162,7 @@
   {
     "year": 1973,
     "name": "mobilní telefon (prototyp)",
-    "detail": "se na zavolání stály u telefonní budky fronty a do automatu se vhazovaly mince",
+    "detail": "se na telefonát stály fronty u budky a do automatu se vhazovaly mince",
     "src": {
       "t": "Poslední telefonní budka končí. Historik: Stály se na ně fronty jak na maso",
       "p": "Deník.cz",
@@ -172,11 +172,11 @@
   {
     "year": 1975,
     "name": "domácí videorekordér",
-    "detail": "se k televizi sedalo přesně v čas vysílání, film se doma nedal nahrát ani zastavit",
+    "detail": "se rodinné záběry točily na osmimilimetrový film — dovolená na chatě, svatba, první krůčky dětí",
     "src": {
-      "t": "V 80. letech ho chtěl každý, dnes by stál 200 tisíc. Připomeňte si socialistický videorekordér Tesla",
-      "p": "Reflex.cz",
-      "u": "https://www.reflex.cz/clanek/video/88829/v-80-letech-ho-chtel-kazdy-dnes-by-stal-200-tisic-pripomente-si-legendarni-socialisticky-videorekorder-tesla.html"
+      "t": "Filmový kotouč z půdy: jak poznat formát a zda je vzácný",
+      "p": "EachMoment.cz",
+      "u": "https://www.eachmoment.cz/blog/nasli-jste-na-pude-stary-filmovy-kotouc-jak-poznat-format-a-zda-jde-o-vzacny"
     }
   },
   {
@@ -192,17 +192,17 @@
   {
     "year": 1979,
     "name": "Sony Walkman",
-    "detail": "hudba patřila k domácnosti; kdo ji chtěl mít venku, tahal na rameni kazeťák pro celou partu",
+    "detail": "se hudba poslouchala z kazeťáku, který se dal koupit jen v Tuzexu nebo dovézt ze Západu",
     "src": {
       "t": "S muzikou na rameni. Přelomové boomboxy alias kazeťáky přivedly hudbu do ulic",
-      "p": "ČT24, Česká televize",
+      "p": "ČT24 / Česká televize",
       "u": "https://ct24.ceskatelevize.cz/clanek/kultura/s-muzikou-na-rameni-prelomove-boomboxy-alias-kazetaky-privedly-hudbu-do-ulic-77777"
     }
   },
   {
     "year": 1981,
     "name": "MTV",
-    "detail": "se na hudební klipy čekalo do vysílání Hitšarády v Československé televizi, která běžela od roku 1978",
+    "detail": "se na hudební klipy čekalo do Hitšarády, kterou Československá televize dávala jednou měsíčně",
     "src": {
       "t": "Historie československého hudebního klipu do r. 1989",
       "p": "Česká televize, projekt Bigbít",
@@ -222,17 +222,17 @@
   {
     "year": 1983,
     "name": "mobilní telefon pro běžné uživatele",
-    "detail": "spěšná zpráva šla telegramem z pošty — platilo se za slova, tak místo tečky stálo „stop“",
+    "detail": "se na přidělení soukromého telefonu čekalo i mnoho let a mezitím se volalo z automatu",
     "src": {
-      "t": "Co to Bůh stvořil? ptal se Morse před 170 lety, přitom stvořil telegram",
-      "p": "ČT24, Česká televize",
-      "u": "https://ct24.ceskatelevize.cz/clanek/svet/co-to-buh-stvoril-ptal-se-morse-pred-170-lety-pritom-stvoril-telegram-331580"
+      "t": "Haló, haló: Jak vypadalo zavádění telefonů v českých zemích?",
+      "p": "100+1 zahraniční zajímavost",
+      "u": "https://www.stoplusjednicka.cz/halo-halo-jak-vypadalo-zavadeni-telefonu-v-ceskych-zemich"
     }
   },
   {
     "year": 1985,
     "name": "Windows",
-    "detail": "se hry natahovaly do počítače z magnetofonové kazety a spouštěly se napsaným příkazem",
+    "detail": "se hry do počítače natahovaly z magnetofonové kazety a při načítání to pípalo a šumělo",
     "src": {
       "t": "Počítačová éra za železnou oponou: PMD 85 a ZX Spectrum",
       "p": "Rádio Blaník",
@@ -244,9 +244,9 @@
     "name": "Game Boy",
     "detail": "se kapesní hry hrály na sovětské Elektronice, kde vlk chytal do košíku padající vejce",
     "src": {
-      "t": "Elektronika IM",
-      "p": "Wikipedie",
-      "u": "https://cs.wikipedia.org/wiki/Elektronika_IM"
+      "t": "Kapesní digitální hra, které nikdo neřekl jinak než vajíčka, byla digitálním snem dětí socialismu",
+      "p": "Seznam Médium",
+      "u": "https://medium.seznam.cz/clanek/michal-pohanka-kapesni-digitalni-hra-ktere-nikdo-nerekl-jinak-nez-vajicka-byla-digitalnim-snem-deti-socialismu-237340"
     }
   },
   {
@@ -282,7 +282,7 @@
   {
     "year": 1995,
     "name": "Amazon",
-    "detail": "se z domova nakupovalo listováním v papírovém katalogu zásilkového obchodu a zboží pak přinesl pošťák",
+    "detail": "se z domova nakupovalo z papírového katalogu Magnet, který se kupoval v trafice za deset korun",
     "src": {
       "t": "Zásilkový prodej má v Čechách tradici. První katalogový obchod slaví 50 let",
       "p": "Aktuálně.cz",
@@ -292,7 +292,7 @@
   {
     "year": 1996,
     "name": "Pokémon",
-    "detail": "se ve škole kšeftovalo s obrázky ze žvýkaček: auta, zvířata, příběhy s Kačerem Donaldem",
+    "detail": "se ve škole měnily obrázky ze žvýkaček — zvířata, stará auta, příběhy s Kačerem Donaldem",
     "src": {
       "t": "RETRO: Pod obaly žvýkaček i čokolád se dalo najít barevné překvapení",
       "p": "Jičínský deník",
@@ -302,7 +302,7 @@
   {
     "year": 1998,
     "name": "Google",
-    "detail": "se internet doma vytáčel po telefonní lince, platil se po minutách a čekalo se na večerní tarif",
+    "detail": "se na internet vytáčelo po telefonní lince, platilo se po minutách a hledalo se až po šesté",
     "src": {
       "t": "Internet v 90. letech. Pro koho a za kolik?",
       "p": "Nordic Telecom",
