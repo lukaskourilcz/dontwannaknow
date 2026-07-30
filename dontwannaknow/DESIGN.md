@@ -46,6 +46,7 @@ Mezery používají stupnici `0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4.5, 7rem`. Sémant
 - Dobový záznam je běžně jedna až dvě věty, proto se nikdy nesází přes celou šířku zprávy. Míra řádku zůstává v rozsahu ~45–55 znaků; zdůraznění nese typografie a zelená linka, ne šířka. Přes obě kolonky jdou jen citlivá vsuvka, poznámka o chybějících datech a osamocený záznam kapitoly — a i u nich text drží měřenou míru a metadata visí u pravého okraje, aby byla linka ukotvená obsahem na obou koncích.
 - Citlivý historický kontext je sbalený, jasně pojmenovaný a nikdy nesdílí vizuální skupinu s odlehčenou kartou.
 - Dobový detail, místní souvislost, kultura, kontrast, zvýraznění, obtížný kontext a chybějící data jsou varianty jednoho metadata-driven reportového prvku, ne samostatné konkurenční karty.
+- „Město těch let“ používá stávající kompozici `ArtStrip`. Přesný dobový snímek má český popisek a viditelnou licenci; když bezpečný snímek chybí, rozvržení se nemění a zobrazí místní umění. Fotografie není dekorativní pozadí, nesmí se ořezat tak, aby měnila význam, a nevstupuje do exportů.
 - Tmavé plochy používají explicitní `on-dark` role. Korálové primární tlačítko používá tmavý inkoust, aby běžný text splnil AA kontrast.
 
 ## Responzivní pravidla

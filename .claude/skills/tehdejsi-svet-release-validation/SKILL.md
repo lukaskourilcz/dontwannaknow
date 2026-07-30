@@ -20,11 +20,20 @@ If diagnosing failures, run `npm run typecheck`, `npm run lint`, `npm test`, `np
 
 Validate a Czech and Ukrainian report; full date and year-only; a historical transition; same and different comparison contexts; deterministic alternate selection; shared-fragment restoration; name excluded by default and included only after consent; safe share selection; every share-image size; PDF; missing sky/data; `/dev` development writes and production read-only explanation.
 
+For `cityImages`, verify one exact match (Praha 1953), one Ukrainian transition
+case (Charkov 1991), and one fallback. Confirm the browser loads only the
+selected city slice and same-origin image, displays licence/source links,
+does not request an excluded asset, and leaves share/PDF output photo-free.
+
 Inspect 320, 375, 390, 768, 1024, 1280, and a wide desktop. Check overflow, long Czech and historical names, keyboard order, focus, labels, errors, disclosures, status announcements, landmarks, contrast, non-color states, touch targets, accessible map/sky/canvas summaries, 200% zoom, landscape, and reduced motion.
 
 ## Inspect release integrity
 
 - Inspect production chunks; keep PDF, share generation, public data, art, sky, and `/dev` lazy where practical.
+- Enforce the documented 194,853 B / 61,373 B gzip entry-chunk cap and
+  city-image limits; inspect every
+  new derivative for misleading dates, unsuitable subjects, generated text,
+  distressing content, stereotypes and bad crops.
 - Search for old branding, public unsupported countries, placeholders, obvious `any` bypasses, unused generated assets, personal analytics parameters, stale documentation, and duplicate competing primitives.
 - Validate authentic product UI and confirm generated decoration is neither evidence nor fake UI.
 - Run `git diff --check`, review staged scope, and preserve unrelated user changes.

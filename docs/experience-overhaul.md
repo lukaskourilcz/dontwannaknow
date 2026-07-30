@@ -42,7 +42,11 @@ Hlavní cesty:
 - Sdílení je funkční, ale volby exportu nemají náhled struktury, skupinové popisky ani dost výraznou hierarchii ochrany jména.
 - Web, share canvas a PDF sdílejí barvy jen přibližně. Chybí jeden exportní brand kontrakt pro logo, typografické role, mezery a názvy souborů.
 - `/dev` má vlastní paralelní tokeny, tmavý režim a zřetelnější stíny než veřejná aplikace. Je použitelný a přístupný, ale potřebuje společnou sémantiku stavů a hustší, méně dekorativní řádky.
-- Testy už ve výchozím stavu dobře chránily produktovou integritu. První auditní běh narazil na časový limit dvou UI testů (44 z 46); následná oprava testovacího prostředí a privacy regrese stav uzavřela. Finální `npm run check` prošel se 14 soubory a 52 testy bez selhání.
+- Testy už ve výchozím stavu dobře chránily produktovou integritu. První
+  auditní běh narazil na časový limit dvou UI testů (44 z 46); následná oprava
+  testovacího prostředí a privacy regrese stav uzavřela. Po datových fázích P1
+  až P6 prochází `npm run check` s 28 Vitest soubory, 113 testy a třemi
+  samostatnými Node testy licenčních bran.
 
 ## Uplatněná reuse strategie
 
@@ -85,6 +89,11 @@ Bezpečné, vysokohodnotné příležitosti jsou: obecná hero kompozice s text-
 
 Higgsfield MCP nemělo produkční trial kredity, ale uživatel následně dodal dva výstupy z Higgsfield Web. Textový artefakt z prvního byl bezpečně odstraněn ořezem a druhý prošel kontrolou autenticity; oba nyní tvoří responzivní landing hero. Zbývající sloty mají funkční CSS/SVG fallbacky. Příští mediální session musí nejprve vyhledat aktuální levné nebo bezplatné generátory a ověřit jejich cenu, licenci, soukromí a exportní omezení podle `docs/generated-media.md`.
 
+Pozdější P6 vrstva přidala licencované dobové fotografie jako faktický městský
+vizuál, nikoli generovanou dekoraci. Načítá se jen přesný řez města a
+desetiletí, zachovává zdroj i licenci a bez bezpečného snímku používá původní
+umění. Kontrakt je v [`data-city-images.md`](./data-city-images.md).
+
 ## Implementační mapa (dokončeno)
 
 Všech osm kroků bylo realizováno v koherentních checkpoint commitech; konkrétní soubory a validační výsledky shrnuje `docs/NEXT-AGENT-HANDOFF.md`.
@@ -100,7 +109,10 @@ Všech osm kroků bylo realizováno v koherentních checkpoint commitech; konkr�
 
 ## Ověřovací strategie a výsledek
 
-Strategie níže byla provedena. Finální automatická kontrola dokončila typecheck, ESLint, 52 testů, content audit a produkční build; browser QA pokrylo veřejné CZ/UA cesty, porovnání, sdílení, PDF, responzivní šířky a `/dev`.
+Strategie níže byla provedena. Finální automatická kontrola dokončila
+typecheck, ESLint, 113 Vitest testů, tři Node testy, content audit a produkční
+build; browser QA pokrylo veřejné CZ/UA cesty, porovnání, sdílení, PDF,
+responzivní šířky a `/dev`.
 
 - Logika: strict typecheck, ESLint, Vitest, veřejná data a obsahový audit.
 - Produkce: Vite build, chunk report a kontrola, že `/dev`, PDF a velká data zůstávají lazy-loaded.

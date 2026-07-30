@@ -17,6 +17,7 @@ Never fabricate facts, quotes, sources, statistics, headlines, documents, photog
 - Preserve historical boundary tests and CZ/UA public scope.
 - Preserve editorial metadata for country, city, life stage, tone, sensitivity, confidence, share safety, and historical entity.
 - Preserve the P5 gates: Czech names only for an exact sourced year and matching `basis`, slang only at ages 8–25, and media milestones only in their declared early-childhood/everyday window.
+- Preserve the P6 image gates: fixed CZ/UA city scope, exact decade, allowed licence, visible attribution, Czech alt/caption, same-origin derivative, excluded-image isolation, art fallback, and no photo in share/PDF.
 - Keep war, occupation, repression, famine, disease, mortality, Crimea, and other difficult material in the deliberately secondary wider-context chapter.
 - Never select difficult content as the default share item.
 - Keep life-in-numbers reflective and elapsed-time based; never add life-expectancy countdowns, remaining meetings, or novelty physiology.
@@ -33,3 +34,8 @@ npm test
 ```
 
 Also run `npm run data:public` when public generation inputs or generator logic change, inspect the generated diff, and preserve valuable non-public archives. Use `$tehdejsi-svet-release-validation` before completion.
+
+When `cityImages` selection or generation changes, read
+`docs/data-city-images.md`, run `npm run data:city-images`, inspect every new
+pixel output rather than trusting metadata, then run the public-data build and
+audit.

@@ -15,6 +15,11 @@ Regenerate any of them by running the matching script and committing the diff:
 | `wikidataPeople.json` | `node scripts/gen-wikidata-people.mjs` | [Wikidata](https://query.wikidata.org) | Notable people born in each decade per country, ranked by Wikipedia sitelinks (Czech labels preferred). |
 | `artByDecade.json` + `public/art/*.jpg` | `node scripts/gen-art.mjs` | [The Met Open Access](https://metmuseum.github.io) | Public-domain (CC0) paintings created in each decade; thumbnails are downloaded and served same-origin. |
 
+Dobové snímky měst mají kvůli ruční kuraci a licenčním branám samostatnou
+pipeline `npm run data:city-images`. Její vstup, veřejné řezy, WebP deriváty a
+regeneraci popisuje
+[`docs/data-city-images.md`](../../../../docs/data-city-images.md).
+
 Notes:
 
 - All HTTP goes through `curl` (HTTP/1.1) inside the scripts for predictable

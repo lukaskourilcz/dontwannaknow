@@ -14,8 +14,11 @@ Stav k 22. červenci 2026. Soubor původně vznikl před restartem Codex CLI a n
   Slang má tvrdé věkové okno 8–25 a mediální milníky 3–10 nebo 0–18 podle
   cílové kapitoly.
 - Detailní kontrakt a regenerace jsou v `docs/data-formative-reserve.md`.
-- P6 `cityImages` se nesmí spustit bez výslovného rozhodnutí vlastníka o
-  přibližně až 32 MB commitnutých derivátů; otevřený úkol je v `NEEDED.md`.
+- P6 `cityImages` je dokončené: 19 licenčně ověřených snímků pro pevný rozsah
+  20 měst zabírá 1 221 744 B. Přesné desetiletí se načítá po městském řezu;
+  chybějící snímek má původní umělecký fallback. Kurátorský vstup je
+  editovatelný v `/dev` a po změně se regeneruje build-time příkazy. Kontrakt
+  je v `docs/data-city-images.md`.
 
 ## Kde navázat
 
@@ -67,6 +70,9 @@ Při budoucím navázání nejprve spusťte `git status --short`, přečtěte `C
 - `LifeGrid` už nevytváří přibližně 5 200 samostatných SVG uzlů; používá dvě path vrstvy a jeden aktuální týden.
 - Titul se jménem používá gramaticky bezpečný zápis „Tehdejší svět: Šárka“ místo předstírání českého skloňování.
 - Popisky skutečně vypočtené oblohy mají jednoduchou kolizní ochranu, která dává přednost planetám a zachovává čitelnost webu, obrázku i PDF.
+- P6 znovu používá `ArtStrip` jako „Město těch let“. Fotografická větev nese
+  český alt, popisek, atribuci, licenci a zdroj; obtížný vyřazený obraz se do
+  veřejné vrstvy nedostane a exporty fotografie nepřebírají.
 
 ### 5. Porovnání, sdílení a PDF
 
@@ -78,6 +84,9 @@ Při budoucím navázání nejprve spusťte `git status --short`, přečtěte `C
 ### 6. `/dev`, dokumentace a agentní infrastruktura
 
 - Redakční povrch byl sjednocen přes sémantické tokeny, ale zůstal hustý, provozní a explicitně odlišuje dev zápis od produkčního read-only/export režimu.
+- P6 přidalo do stejného editoru sadu „Dobové snímky měst“; development API
+  zachovává obálku `cityImages/selection.json`, produkce exportuje celou obálku
+  a editor po uložení připomene regeneraci odvozených dat.
 - Vznikly projektové skills, review agents a reálné workflow commands pod `.claude/`.
 - `CLAUDE.md`, `README.md`, `DOCS.md`, `DESIGN.md`, `NEEDED.md` a aplikační README byly průběžně reconciled.
 - Všechny nové skills prošly rychlým strukturálním validátorem; v systému chyběl PyYAML, proto byl validátor spuštěn s dočasnou instalací mimo repozitář.
@@ -94,6 +103,8 @@ Při budoucím navázání nejprve spusťte `git status --short`, přečtěte `C
 7. `5032255 docs: encode project-specific agent workflows`
 8. `3b2dd90 feat: refine report accessibility and performance`
 9. `54da87b fix: close release QA findings`
+10. `dee42b8 Přidává licenčně ověřené snímky měst`
+11. `1b77bf4 Zobrazuje město těch let v osobním vydání`
 
 Pozdější čistě dokumentační kontroly mohou být v historii nad tímto seznamem; aktuální revizi vždy ověřte pomocí `git log -1 --oneline`.
 
@@ -113,13 +124,22 @@ Pozdější čistě dokumentační kontroly mohou být v historii nad tímto sez
 ### Automatické kontroly
 
 - Autoritativní `npm run check` dokončil typecheck, kompletní ESLint, Vitest, veřejný datový/content audit a produkční Vite build s kódem 0.
-- Finální sada obsahuje 14 testovacích souborů a 52 testů; dřívější timeouty po restartu zmizely a regresní privacy test byl opraven tak, aby respektoval změnu názvu tlačítka po zkopírování.
-- Content audit ověřil 38 zdrojových a 12 veřejných souborů, 70 měst a jen CZ/UA; skončil s 0 chybami a dvěma očekávanými archivními varováními.
+- Finální sada obsahuje 28 Vitest souborů se 113 testy a tři samostatné Node
+  testy licenčních bran; všechny prošly.
+- Content audit ověřil 207 datových a 12 veřejných souborů, 70 měst a jen
+  CZ/UA; skončil s 0 chybami a třemi zdokumentovanými varováními
+  (archivní země, nekontrolovaný historický archiv a zatím neutrálně řazené
+  vynálezy).
 - `npm audit --audit-level=moderate` našel 0 zranitelností.
-- Produkční build má 8,1 MB na disku; veřejný shell 145 kB / 49 kB gzip, report 32 kB / 11 kB gzip, mapa 128 kB / 49 kB gzip a obloha 57 kB / 25 kB gzip. PDF i `/dev` zůstávají lazy.
+- Produkční build má 58 MB na disku: 49 MB tvoří po letech a městech dělené
+  počasí, 5,7 MB asset chunky a 1,2 MB P6 fotografie. Vstupní chunk má přesně
+  194 853 B / 61 286 B gzip a prochází tvrdým limitem 194 853 B /
+  61 373 B; report, PDF i `/dev` zůstávají lazy.
 - Strukturální validace všech pěti `.claude/skills/*/SKILL.md` prošla.
 - Vyhledávání nenašlo starý veřejný brand, placeholder copy ani zjevné `any`/TypeScript bypassy. Veřejný App chunk už neobsahuje nepoužívané labely nepodporovaných zemí.
-- Následný audit prošel všech 26 repozitářových Markdown souborů, ověřil všechny lokální odkazy, opravil zastaralé datové cesty a srovnal `NEEDED.md` i nákladový model s aktuálním GitHub/Vercel stavem.
+- Následný audit prošel všech 60 repozitářových Markdown souborů, ověřil
+  lokální odkazy a dokumentované npm skripty, opravil zastaralé datové cesty a
+  srovnal `README`, `DOCS`, `DESIGN`, `NEEDED`, handoff i nákladový model.
 
 ### Browser, přístupnost a responzivita
 
@@ -128,7 +148,7 @@ Pozdější čistě dokumentační kontroly mohou být v historii nad tímto sez
 - Prázdný submit přenesl fokus na datum a nastavil `aria-invalid` i `aria-describedby` pro datum a město.
 - Kontrast hlavního textu je 14,9:1, primárního CTA 4,78:1 a chybového textu proti formulářovému papíru 7,18:1.
 - Reduced-motion větev je pokryta `useReducedMotion`, nulovým Motion transition a CSS media queries ve veřejném i `/dev` povrchu; na kontrolním browseru nebyla preference aktivní.
-- Vygenerován český exact-date report (Praha, 12. 4. 1953) a ukrajinský year-only transition report (Kyjev, 1991). Ukrajinský report správně ukázal „Ukrajinská SSR / Ukrajina“ a poctivý missing-sky fallback.
+- Vygenerován český exact-date report (Praha, 12. 4. 1953) a ukrajinský year-only transition report (Charkov, 1991). Ukrajinský report správně ukázal „Ukrajinská SSR / Ukrajina“ a poctivý missing-sky fallback.
 - Obtížný obsah nebyl mimo kontextovou kapitolu; sbalené kapitoly nebyly v DOM. Porovnání Praha 1953 vs. Brno 1960 fungovalo na mobilu a citlivý comparison context zůstal zavřený a nemountnutý.
 - Všechna kontrolovaná browser okna skončila bez console warning/error.
 
@@ -138,7 +158,10 @@ Pozdější čistě dokumentační kontroly mohou být v historii nad tímto sez
 - Skutečně stažené PNG soubory měly přesně 1200×630, 1080×1350 a 1080×1920 px. Vizuální kontrola potvrdila čitelné zalomení, konzistentní brand a žádný ořez či artefakt; name-on varianta byla kontrolována samostatně.
 - Klientský PDF export vytvořil 4stránkové A4 o velikosti přibližně 192 kB. Všechny stránky byly vyrenderovány do PNG a zkontrolovány; titul, diakritika, page breaks, patičky, citlivý kontext i obloha jsou čitelné.
 - Kolizní kontrola skutečného SVG po opravě našla 0 překryvů mezi zobrazenými hvězdnými a planetárními popisky.
-- `/dev` v development režimu načetl 9 480 položek, auditní filtry a nastavení; produkční preview výslovně oznámilo režim jen pro čtení a JSON download fallback bez předstírání autentizované administrace.
+- `/dev` v development režimu načetl 9 825 položek, včetně 20 záznamů
+  „Dobové snímky měst“. GET i bezeztrátový zápis kurátorské obálky byly
+  ověřeny proti dev middleware; produkční preview zůstává v režimu jen pro
+  čtení s JSON download fallbackem bez předstírání autentizované administrace.
 
 ## Stav pro dalšího agenta
 

@@ -19,7 +19,7 @@ Hlavní kontrolní příkaz spustí strict TypeScript, ESLint, Vitest, redakčn�
 npm run check
 ```
 
-Samostatně jsou dostupné `npm run typecheck`, `npm run lint`, `npm test`, `npm run audit:content` a `npm run build`. `npm run data:public` z archivních zdrojů znovu vytvoří CZ/UA-only vrstvu v `src/data/public`; audit ověřuje, že je aktuální a neobsahuje nepodporované země. Přesné duplicity v JSON datech lze před ruční kontrolou odstranit pomocí `npm run fix:duplicates`.
+Samostatně jsou dostupné `npm run typecheck`, `npm run lint`, `npm test`, `npm run audit:content` a `npm run build`. `npm run data:city-images` ověří živá licenční metadata a vytvoří úsporné WebP deriváty dobových snímků; `npm run data:public` z archivních zdrojů znovu vytvoří CZ/UA-only vrstvu v `src/data/public`. Audit ověřuje, že jsou obě vrstvy aktuální, licenčně bezpečné a bez nepodporovaných zemí. Přesné duplicity v JSON datech lze před ruční kontrolou odstranit pomocí `npm run fix:duplicates`.
 
 ## Architektura
 
@@ -33,7 +33,8 @@ Samostatně jsou dostupné `npm run typecheck`, `npm run lint`, `npm test`, `npm
 - `src/data/leaders.json` nese zdrojované profily politických lídrů; `src/data/provenance/` per-record citace veřejných záznamů.
 - `src/data/filmPremieres/` obsahuje build-time výřez českých a ukrajinských filmů z Wikidat; běh aplikace načte jen zvolenou zemi a věkové i původové brány mají přednost před skóre.
 - `src/data/babyNames/`, `slang/` a `mediaMilestones/` drží malé citované sady P5; jména jsou jen česká, slang má věkové okno 8–25 a mediální milníky se dělí mezi první roky a běžný den.
-- `src/components/Results.tsx` vykresluje osobní cestu od narození po dospívání a znovu používá mapu, oblohu, umění i vizualizace času.
+- `src/data/cityImages/` a `public/data/images/` drží licenčně ověřenou P6 sadu; běh aplikace načte pouze město a přesné desetiletí, bez bezpečného snímku zůstane výtvarný fallback.
+- `src/components/Results.tsx` vykresluje osobní cestu od narození po dospívání a znovu používá mapu, oblohu, městský vizuál i vizualizace času.
 - `src/lib/share.ts`, `src/lib/shareImage.ts` a `src/lib/pdf.ts` zajišťují soukromé sdílení, obrázky a památeční PDF přímo v prohlížeči.
 - `src/data/editorialRules.json` obsahuje ručně kontrolovatelná pravidla citlivosti a zařazení.
 - `src/data/dataSources.json` eviduje původ, stav ověření a veřejné použití každé editovatelné sady.
@@ -48,7 +49,7 @@ Statický web nemůže bez serveru vytvořit osobní náhled odkazu pro sociáln
 
 ## Redakční konzole
 
-Na `/dev` je vývojová konzole pro procházení a úpravu JSON dat včetně redakčních pravidel a evidence zdrojů. Auditní filtry pokrývají zemi, město, kapitolu, tón, citlivost, chybějící metadata a zdroje, stav kontroly, bezpečnost sdílení i nepodporované země. Heslo je pouze lokální pojistka rozhraní, ne skutečné zabezpečení. Zápis na disk poskytuje jen middleware vývojového serveru; v produkci se změny stahují jako soubor.
+Na `/dev` je vývojová konzole pro procházení a úpravu JSON dat včetně redakčních pravidel a evidence zdrojů. Sada „Dobové snímky měst“ upravuje kurátorský vstup `src/data/cityImages/selection.json`, včetně českých popisků, alt textů a vyřazení; po změně je nutná nová build-time generace. Auditní filtry pokrývají zemi, město, kapitolu, tón, citlivost, chybějící metadata a zdroje, stav kontroly, bezpečnost sdílení i nepodporované země. Heslo je pouze lokální pojistka rozhraní, ne skutečné zabezpečení. Zápis na disk poskytuje jen middleware vývojového serveru; v produkci se změny stahují jako soubor.
 
 ## Nasazení
 
@@ -62,3 +63,5 @@ Metodiku a regeneraci nových build-time sad popisují také samostatné dokumen
 [`birthWeather`](../docs/data-birth-weather.md) a
 [`filmPremieres`](../docs/data-film-premieres.md) a
 [`formative reserve`](../docs/data-formative-reserve.md).
+Dobové snímky měst, jejich licence a velikostní brány popisuje
+[`city images`](../docs/data-city-images.md).

@@ -84,7 +84,7 @@ src/lib/person.ts            normalize + validate the person, supported year ran
 src/lib/historicalLocation.ts  city + year → the state that actually existed then
 src/lib/facts.ts             gather candidate facts from every dataset
 src/lib/report.ts            annotate each fact with editorial metadata, compose chapters
-src/components/Results.tsx   render chapters, maps, sky, art, timeline, share, PDF
+src/components/Results.tsx   render chapters, maps, sky, city visual, timeline, share, PDF
 ```
 
 **`historicalLocation.ts`** is a real strength: it resolves a modern city and a
@@ -112,7 +112,8 @@ default), `life-numbers` (collapsed).
 
 **Other real features:** two-person comparison; a birth-night star chart
 computed with `astronomy-engine` for the actual coordinates and date; a world
-map of the borders of the time; an art strip from Met/AIC collection data;
+map of the borders of the time; a licence-verified city image from the exact
+decade with a Met/AIC art fallback;
 life-in-numbers counters; canvas share images at 1200×630 / 1080×1350 /
 1080×1920; a client-side jsPDF export; a `/dev` editor that writes JSON through
 Vite middleware in development and is read-only/export-based in production.
@@ -141,7 +142,8 @@ long-form research awaiting editorial review), `monthlyEvents`, `cosmicEvents`,
 `plays`, `slang`, `babyNames`, `culture`, `education`, `sports`, `extinctions`.
 
 Verified external sources: **World Bank Open Data**, **Wikidata**, **The Met +
-Art Institute of Chicago**, **Natural Earth**. Everything else is registered in
+Art Institute of Chicago**, **Natural Earth** and **Wikimedia Commons** for
+curated city photographs. Everything else is registered in
 `src/data/dataSources.json` as *"Interní kurátorovaná rešerše"* — internal
 curated research — with confidence `review-needed`.
 
