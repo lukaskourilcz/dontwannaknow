@@ -20,6 +20,8 @@ export function recordKey(dataset, record) {
       return `${record.country}|${record.series}|${record.year}|${record.value}|${record.upstream}`;
     case "pricesWages":
       return record.id;
+    case "weatherTemplates":
+      return `${record.id}|${record.template}`;
     default:
       throw new Error(`Neznámá datová sada: ${dataset}`);
   }

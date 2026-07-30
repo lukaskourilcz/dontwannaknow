@@ -1,0 +1,371 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-30",
+  "source": "Open-Meteo Historical Weather API",
+  "sourceUrl": "https://open-meteo.com/en/docs/historical-weather-api",
+  "model": "ERA5",
+  "resolution": "0.25° (~25 km)",
+  "licence": "CC BY 4.0",
+  "licenceUrl": "https://open-meteo.com/en/licence",
+  "attribution": "Weather data by Open-Meteo.com; underlying reanalysis Copernicus C3S ERA5.",
+  "scoring": {
+    "status": "exempt",
+    "reason": "Denní řady a sezonní agregace jsou měření modelu, nikoli redakční záznamy; skórují se jen weatherTemplates."
+  },
+  "range": [
+    "1940-01-01",
+    "2026-07-25"
+  ],
+  "cities": [
+    {
+      "slug": "breclav",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "brno",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "ceska-lipa",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "ceske-budejovice",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "cesky-tesin",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "cheb",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "cherkasy",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "chernihiv",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "chernivtsi",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "chomutov",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "decin",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "dnipro",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "donetsk",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "frydek-mistek",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "havirov",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "havlickuv-brod",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "hodonin",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "hradec-kralove",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "jablonec",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "jihlava",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "karvina",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "kharkiv",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "kherson",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "khmelnytskyi",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "kladno",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "kolin",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "krnov",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "kromeriz",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "kryvyi-rih",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "kutna-hora",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "kyiv",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "liberec",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "litomerice",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "litvinov",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "luhansk",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "lviv",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "mariupol",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "mlada-boleslav",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "most",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "mykolaiv",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "novy-jicin",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "odesa",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "olomouc",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "opava",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "ostrava",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "pardubice",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "pisek",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "plzen",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "poltava",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "prague",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "prerov",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "pribram",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "prostejov",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "sevastopol",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "simferopol",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "sumperk",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "tabor",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "teplice",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "trebic",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "trinec",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "trutnov",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "uherske-hradiste",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "usti-nad-labem",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "valasske-mezirici",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "vinnytsia",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "vsetin",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "zaporizhzhia",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "zdar-nad-sazavou",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "zlin",
+      "years": 87,
+      "skipped": true
+    },
+    {
+      "slug": "znojmo",
+      "years": 87,
+      "skipped": true
+    }
+  ]
+}

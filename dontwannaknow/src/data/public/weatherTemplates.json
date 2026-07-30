@@ -1,0 +1,176 @@
+[
+  {
+    "id": "weather-day-frost-wave",
+    "scope": "day",
+    "class": "frost-wave",
+    "template": "{city} · V den narození bylo podle meteorologické rekonstrukce ERA5 mrazivo: teplota se pohybovala přibližně mezi {min} a {max} °C.",
+    "thresholds": {
+      "maximumTemperatureAtMost": -5
+    },
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      0,
+      2
+    ],
+    "src": {
+      "t": "Historical Weather API",
+      "p": "Open-Meteo",
+      "u": "https://open-meteo.com/en/docs/historical-weather-api"
+    }
+  },
+  {
+    "id": "weather-day-tropical",
+    "scope": "day",
+    "class": "tropical",
+    "template": "{city} · V den narození bylo podle meteorologické rekonstrukce ERA5 horko: teplota se pohybovala přibližně mezi {min} a {max} °C.",
+    "thresholds": {
+      "maximumTemperatureAtLeast": 30
+    },
+    "rel": [
+      5,
+      2,
+      3,
+      3,
+      0,
+      2
+    ],
+    "src": {
+      "t": "Historical Weather API",
+      "p": "Open-Meteo",
+      "u": "https://open-meteo.com/en/docs/historical-weather-api"
+    }
+  },
+  {
+    "id": "weather-day-snow",
+    "scope": "day",
+    "class": "snow",
+    "template": "{city} · V den narození připadlo podle meteorologické rekonstrukce ERA5 přibližně {snow} cm nového sněhu; teplota se pohybovala mezi {min} a {max} °C.",
+    "thresholds": {
+      "snowfallAtLeast": 1
+    },
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Historical Weather API",
+      "p": "Open-Meteo",
+      "u": "https://open-meteo.com/en/docs/historical-weather-api"
+    }
+  },
+  {
+    "id": "weather-day-rain",
+    "scope": "day",
+    "class": "rain",
+    "template": "{city} · V den narození byl podle meteorologické rekonstrukce ERA5 deštivý den: spadlo přibližně {precipitation} mm srážek a teplota se pohybovala mezi {min} a {max} °C.",
+    "thresholds": {
+      "precipitationAtLeast": 10
+    },
+    "rel": [
+      5,
+      2,
+      2,
+      3,
+      0,
+      2
+    ],
+    "src": {
+      "t": "Historical Weather API",
+      "p": "Open-Meteo",
+      "u": "https://open-meteo.com/en/docs/historical-weather-api"
+    }
+  },
+  {
+    "id": "weather-day-ordinary",
+    "scope": "day",
+    "class": "ordinary",
+    "template": "{city} · V den narození se podle meteorologické rekonstrukce ERA5 teplota pohybovala přibližně mezi {min} a {max} °C; srážky nepřesáhly {precipitation} mm.",
+    "thresholds": {},
+    "rel": [
+      5,
+      1,
+      1,
+      2,
+      0,
+      2
+    ],
+    "src": {
+      "t": "Historical Weather API",
+      "p": "Open-Meteo",
+      "u": "https://open-meteo.com/en/docs/historical-weather-api"
+    }
+  },
+  {
+    "id": "weather-year-cold-winter",
+    "scope": "year",
+    "class": "cold-winter",
+    "template": "{city} · Zimní měsíce roku {year} patřily podle meteorologické rekonstrukce ERA5 k nejchladnější pětině z předchozích 25 let.",
+    "thresholds": {
+      "minimumReferenceYears": 20,
+      "coldPercentileAtLeast": 80
+    },
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Historical Weather API",
+      "p": "Open-Meteo",
+      "u": "https://open-meteo.com/en/docs/historical-weather-api"
+    }
+  },
+  {
+    "id": "weather-year-hot-summer",
+    "scope": "year",
+    "class": "hot-summer",
+    "template": "{city} · Letní měsíce roku {year} patřily podle meteorologické rekonstrukce ERA5 k nejteplejší pětině z předchozích 25 let.",
+    "thresholds": {
+      "minimumReferenceYears": 20,
+      "heatPercentileAtLeast": 80
+    },
+    "rel": [
+      5,
+      3,
+      3,
+      3,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Historical Weather API",
+      "p": "Open-Meteo",
+      "u": "https://open-meteo.com/en/docs/historical-weather-api"
+    }
+  },
+  {
+    "id": "weather-year-seasonal",
+    "scope": "year",
+    "class": "seasonal",
+    "template": "{city} · Podle meteorologické rekonstrukce ERA5 měla v roce {year} zima průměrnou denní teplotu kolem {winter} °C a léto kolem {summer} °C.",
+    "thresholds": {},
+    "rel": [
+      5,
+      2,
+      2,
+      2,
+      1,
+      3
+    ],
+    "src": {
+      "t": "Historical Weather API",
+      "p": "Open-Meteo",
+      "u": "https://open-meteo.com/en/docs/historical-weather-api"
+    }
+  }
+]

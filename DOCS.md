@@ -19,6 +19,7 @@ Veřejné rozhraní je pouze česky. Podporovaný rozsah je od roku 1920 do aktu
 9. Lídři formativních let (`src/data/leaders.json`) se zobrazují jako strukturovaná vizitka s datovaným, citovaným dobovým vnímáním; politické profily se nikdy nesdílejí.
 10. Před-1960 demografický kontext se načítá z národního řezu `vitalsBackfill`; metodika, licence a záměrně vyřazené upstreamy jsou v [`docs/data-vitals-backfill.md`](./docs/data-vitals-backfill.md).
 11. Dobové ceny a mzdy se načítají z národního řezu `pricesWages`; měnové brány, zdroje a regenerace jsou v [`docs/data-prices-wages.md`](./docs/data-prices-wages.md).
+12. Počasí v době narození pochází ze statické build-time rekonstrukce ERA5: celé datum načte právě jeden roční soubor, samotný rok jen sezonní souhrn. Metodika, prahy, licence a výslovná přesnost ~25 km jsou v [`docs/data-birth-weather.md`](./docs/data-birth-weather.md).
 
 ## Historický kontext
 
@@ -43,7 +44,7 @@ Vercel Analytics nedostává vlastní události s profilem a `beforeSend` odstra
 
 ## Výkon
 
-Formulář načte samostatný malý katalog měst, ne velký městský archiv. Veřejné moduly používají generovanou `src/data/public` vrstvu pouze pro CZ/UA, dělenou na běhové řezy: městská fakta po městech (`public/cityFacts/<město>.json`) a národní sady po zemích (`<sada>.cz|ua.json`). Stejný vzor používají `vitalsBackfill` a `pricesWages`, takže se stáhne pouze soubor zvolené země. Zpráva tak načítá jen řezy dané osoby — datový chunk zprávy je ~25 kB místo dřívějších ~135 kB a vstupní chunk prvního vykreslení data neobsahuje vůbec. `Results`, mapa, obloha, umění a číselné vizualizace jsou lazy-loaded; PDF stack až při exportu. Produkční build vypisuje aktuální velikosti chunků, které je třeba sledovat při rozšiřování dat.
+Formulář načte samostatný malý katalog měst, ne velký městský archiv. Veřejné moduly používají generovanou `src/data/public` vrstvu pouze pro CZ/UA, dělenou na běhové řezy: městská fakta po městech (`public/cityFacts/<město>.json`) a národní sady po zemích (`<sada>.cz|ua.json`). Stejný vzor používají `vitalsBackfill` a `pricesWages`, takže se stáhne pouze soubor zvolené země. `birthWeather` jde ještě jemněji: celé datum načte z vlastního originu jen soubor města a roku, zatímco rok bez dne jen malý sezonní souhrn; prohlížeč nikdy nevolá Open-Meteo. Zpráva tak načítá jen řezy dané osoby — datový chunk zprávy je ~25 kB místo dřívějších ~135 kB a vstupní chunk prvního vykreslení data neobsahuje vůbec. `Results`, mapa, obloha, umění a číselné vizualizace jsou lazy-loaded; PDF stack až při exportu. Produkční build vypisuje aktuální velikosti chunků, které je třeba sledovat při rozšiřování dat.
 
 ## Redakční data a `/dev`
 
@@ -51,7 +52,7 @@ Datové zdroje jsou v `dontwannaknow/src/data`. `editorialRules.json` obsahuje r
 
 Starší globální `culture.json` a další nepodporované mezinárodní zdroje zůstávají zachované pro případnou budoucí redakční migraci, ale veřejná zpráva je nepoužívá: obsahovaly převážně americké návyky, které nebylo poctivé vydávat za českou nebo ukrajinskou zkušenost.
 
-Skóre relevance vzniká reprodukovatelnou pipeline v `scripts/relevance/`: `prompts.mjs` je jediný zdroj pravdy os i verze promptu, `gen-batches.mjs` připraví dávky (s `--only-missing` pro delta-skórování nových záznamů), `merge-results.mjs` slije výsledky do sidecarů `src/data/relevance/` se zdůvodněními a verzí. Per-record citace žijí v `src/data/provenance/<sada>.json` (title, publisher, url, accessed, licence, klíčované obsahem záznamu) a build je propisuje do veřejných dat jako kompaktní `src`. Jistota původu je věcí datové a auditní vrstvy — do čtenářské plochy se zdrojové značky nevykreslují; citace se zobrazují jen uvnitř vizitky lídra.
+Skóre relevance vzniká reprodukovatelnou pipeline v `scripts/relevance/`: `prompts.mjs` je jediný zdroj pravdy os i verze promptu, `gen-batches.mjs` připraví dávky (s `--only-missing` pro delta-skórování nových záznamů), `merge-results.mjs` slije výsledky do sidecarů `src/data/relevance/` se zdůvodněními a verzí. Per-record citace žijí v `src/data/provenance/<sada>.json` (title, publisher, url, accessed, licence, klíčované obsahem záznamu) a build je propisuje do veřejných dat jako kompaktní `src`. Jistota původu je věcí datové a auditní vrstvy — běžné čtenářské položky zdrojové značky nevykreslují; výjimkou je počasí, kde CC BY atribuce Open-Meteo stojí přímo u věty, a vizitka lídra s rozbalenými citacemi.
 
 `npm run audit:content` kontroluje aktuálnost a CZ/UA hranice veřejné datové vrstvy, evidenci zdrojů, syntaxi JSON, přesné duplicity, roky v budoucnosti, identifikátory a datové typy redakčních pravidel, bezpečnost složitého obsahu, starou veřejnou značku a podezřele absolutní formulace. Nad skóre a citacemi vynucuje rozsahy 0–5, úplné pokrytí, zdůvodnění a verzi promptu, žádné osiřelé klíče, úplnost citací a strukturu profilů lídrů (datované a zdrojované vnímání, `shareSafe: false`). `npm run fix:duplicates` provede pouze mechanickou deduplikaci identických JSON záznamů; významové duplicity vyžadují redakční kontrolu.
 

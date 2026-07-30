@@ -15,6 +15,7 @@ import { findCity } from "../data/cityCatalog";
 import { loadWorldBank, worldBankFor, worldBankLatest } from "../data/worldBank";
 import { loadVitals, vitalsFor, type VitalRecord } from "../data/vitals";
 import { loadPricesWages, pricesWagesFor } from "../data/pricesWages";
+import type { BirthWeatherFact } from "../data/birthWeather";
 import { contemporariesFor, loadWikidataPeople } from "../data/wikidataPeople";
 import { mediaFor } from "../data/media";
 import { writersAtBirth } from "../data/writers";
@@ -64,6 +65,7 @@ export type FactCategory =
     | "daily"
     | "food"
     | "money"
+    | "weather"
     | "famous"
     | "local"
     | "city"
@@ -321,7 +323,13 @@ function leaderFacts(person: Person, leaders: Leader[]): RawFact[] {
   });
 }
 
-function buildReport(person: Person, cityEvents: Awaited<ReturnType<typeof cityFactsFor>>, leaders: Leader[], excludeWorld = false): PersonReport {
+function buildReport(
+  person: Person,
+  cityEvents: Awaited<ReturnType<typeof cityFactsFor>>,
+  leaders: Leader[],
+  birthWeather: BirthWeatherFact | undefined,
+  excludeWorld = false,
+): PersonReport {
   const { birthYear } = person;
   const birthStats = statsForYear(birthYear);
   const countryLabel = countryLabelFor(person.country, birthYear);
@@ -519,6 +527,18 @@ function buildReport(person: Person, cityEvents: Awaited<ReturnType<typeof cityF
     sourceConfidence: "verified" as const,
     shareSafe: true,
   })));
+  if (birthWeather) {
+    facts.push({
+      category: "weather",
+      year: birthYear,
+      text: birthWeather.text,
+      relevance: birthWeather.relevance,
+      source: birthWeather.source,
+      sourceConfidence: "verified",
+      shareSafe: true,
+      mayOpen: false,
+    });
+  }
   facts.push(...countryFacts(person));
 
   // ── Hlavy státu a lídři formativních let (strukturované profily) ─────
@@ -570,9 +590,10 @@ export async function reportFor(person: Person, excludeWorld = false): Promise<P
     Number(excludeWorld),
   ].join(":");
   // Načtou se jen řezy dané osoby: fakta jejího města a data její země.
-  const [cityEvents, leaders] = await Promise.all([
+  const [cityEvents, leaders, birthWeather] = await Promise.all([
     cityFactsFor(person.citySlug, person.birthYear),
     leadersOverlapping(person.country, person.birthYear, Math.min(CURRENT_YEAR, person.birthYear + 18)),
+    import("../data/birthWeather").then(({ loadBirthWeather }) => loadBirthWeather(person)),
     loadCountryDecades(person.country),
     loadCountryEvents(person.country),
     loadFamousPeople(person.country),
@@ -581,5 +602,8 @@ export async function reportFor(person: Person, excludeWorld = false): Promise<P
     loadVitals(person.country),
     loadPricesWages(person.country),
   ]);
-  return withSeededRandom(seed, () => buildReport(person, cityEvents, leaders, excludeWorld));
+  return withSeededRandom(
+    seed,
+    () => buildReport(person, cityEvents, leaders, birthWeather, excludeWorld),
+  );
 }

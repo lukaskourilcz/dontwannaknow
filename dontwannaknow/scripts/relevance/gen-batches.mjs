@@ -51,6 +51,7 @@ async function loadRecords() {
     ...await readJson("pricesWages.cz.json").catch(() => []),
     ...await readJson("pricesWages.ua.json").catch(() => []),
   ];
+  const weatherTemplates = await readJson("weatherTemplates.json").catch(() => []);
 
   const records = [];
   for (const [country, list] of [["CZ", cityCz], ["UA", cityUa]]) {
@@ -120,6 +121,13 @@ async function loadRecords() {
       text: r.sentence,
     });
   }
+  for (const r of weatherTemplates) {
+    records.push({
+      dataset: "weatherTemplates",
+      key: recordKey("weatherTemplates", r),
+      text: r.template,
+    });
+  }
   return records;
 }
 
@@ -131,7 +139,7 @@ if (selectedDataset) {
 }
 if (onlyMissing) {
   const scored = new Set();
-  for (const dataset of ["cityFacts", "countryEvents", "countryDecades", "famousPeople", "leaders", "vitalsBackfill", "pricesWages"]) {
+  for (const dataset of ["cityFacts", "countryEvents", "countryDecades", "famousPeople", "leaders", "vitalsBackfill", "pricesWages", "weatherTemplates"]) {
     const sidecar = await readFile(new URL(`../../src/data/relevance/${dataset}.json`, import.meta.url), "utf8")
       .then(JSON.parse)
       .catch(() => null);

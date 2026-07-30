@@ -96,6 +96,7 @@ const chapterForCategory: Record<FactCategory, ReportChapterId> = {
   clothes: "early-childhood",
   illness: "generation-context",
   money: "different-from-today",
+  weather: "birth",
   media: "teenage-years",
   writers: "teenage-years",
   famous: "teenage-years",
@@ -108,7 +109,7 @@ const chapterForCategory: Record<FactCategory, ReportChapterId> = {
 };
 
 function scopeForCategory(category: FactCategory): GeographicScope {
-  if (category === "city") return "city";
+  if (category === "city" || category === "weather") return "city";
   if (category === "local" || category === "government") return "historical-state";
   if (category === "world" || category === "everyday" || category === "beautiful") return "global";
   return "modern-country";
@@ -372,12 +373,21 @@ export function composeChapters(
     return selected;
   };
 
-  const birth = choose("birth", ["city", "beautiful", "everyday"], 4, {
+  const birthWeather = choose("birth", ["weather"], 1, {
     safeOnly: true,
     predicate: (fact) =>
       fact.stage === undefined &&
       (fact.year === undefined || Math.abs(fact.year - person.birthYear) <= 1),
   });
+  const birth = [
+    ...choose("birth", ["city", "beautiful", "everyday"], 4 - birthWeather.length, {
+      safeOnly: true,
+      predicate: (fact) =>
+        fact.stage === undefined &&
+        (fact.year === undefined || Math.abs(fact.year - person.birthYear) <= 1),
+    }),
+    ...birthWeather,
+  ];
   const early = choose("early-childhood", ["city", "clothes"], 5, {
     safeOnly: true,
     predicate: (fact) =>
