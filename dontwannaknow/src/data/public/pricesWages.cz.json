@@ -1,0 +1,293 @@
+[
+  {
+    "id": "cz-1955-prumerna-mzda",
+    "country": "cz",
+    "yearFrom": 1953,
+    "yearTo": 1957,
+    "kind": "wage",
+    "sentence": "V polovině padesátých let činila průměrná měsíční mzda v Československu zhruba 1 190 Kčs.",
+    "values": {
+      "wage": 1192,
+      "currency": "Kčs",
+      "referenceYear": 1955
+    },
+    "note": "Referenční hodnota je z roku 1955, tedy po měnové reformě z 1. června 1953; předreformní částky s ní nelze přímo porovnávat.",
+    "rel": [
+      4,
+      4,
+      3,
+      3,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Od roku 2000 se průměrná mzda téměř zdvojnásobila",
+      "p": "Český statistický úřad",
+      "u": "https://statistikaamy.csu.gov.cz/od-roku-2000-se-prumerna-mzda-temer-zdvojnasobila"
+    }
+  },
+  {
+    "id": "cz-1970-prumerna-mzda",
+    "country": "cz",
+    "yearFrom": 1968,
+    "yearTo": 1972,
+    "kind": "wage",
+    "sentence": "Kolem roku 1970 činila průměrná měsíční mzda v Československu zhruba 1 920 Kčs.",
+    "values": {
+      "wage": 1915,
+      "currency": "Kčs",
+      "referenceYear": 1970
+    },
+    "rel": [
+      4,
+      4,
+      3,
+      3,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Od roku 2000 se průměrná mzda téměř zdvojnásobila",
+      "p": "Český statistický úřad",
+      "u": "https://statistikaamy.csu.gov.cz/od-roku-2000-se-prumerna-mzda-temer-zdvojnasobila"
+    }
+  },
+  {
+    "id": "cz-1989-prumerna-mzda",
+    "country": "cz",
+    "yearFrom": 1987,
+    "yearTo": 1991,
+    "kind": "wage",
+    "sentence": "Na konci osmdesátých let činila průměrná měsíční mzda v Československu zhruba 3 170 Kčs.",
+    "values": {
+      "wage": 3170,
+      "currency": "Kčs",
+      "referenceYear": 1989
+    },
+    "rel": [
+      4,
+      4,
+      4,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Od roku 2000 se průměrná mzda téměř zdvojnásobila",
+      "p": "Český statistický úřad",
+      "u": "https://statistikaamy.csu.gov.cz/od-roku-2000-se-prumerna-mzda-temer-zdvojnasobila"
+    }
+  },
+  {
+    "id": "cz-1999-prumerna-mzda",
+    "country": "cz",
+    "yearFrom": 1997,
+    "yearTo": 1999,
+    "kind": "wage",
+    "sentence": "Na konci devadesátých let činila průměrná hrubá měsíční mzda v Česku zhruba 12 670 korun.",
+    "values": {
+      "wage": 12666,
+      "currency": "Kč",
+      "referenceYear": 1999
+    },
+    "rel": [
+      3,
+      4,
+      3,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "Od roku 2000 se průměrná mzda téměř zdvojnásobila",
+      "p": "Český statistický úřad",
+      "u": "https://statistikaamy.csu.gov.cz/od-roku-2000-se-prumerna-mzda-temer-zdvojnasobila"
+    }
+  },
+  {
+    "id": "cz-2000-prumerna-mzda",
+    "country": "cz",
+    "yearFrom": 2000,
+    "yearTo": 2000,
+    "kind": "wage",
+    "sentence": "V roce 2000 činila průměrná hrubá měsíční mzda v Česku zhruba 13 219 korun.",
+    "values": {
+      "wage": 13219,
+      "currency": "Kč",
+      "referenceYear": 2000
+    },
+    "rel": [
+      3,
+      4,
+      3,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "DataStat: průměrná hrubá měsíční mzda",
+      "p": "Český statistický úřad",
+      "u": "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/MZDRT1?format=CSV&kodZvlast=true"
+    }
+  },
+  {
+    "id": "cz-2005-prumerna-mzda",
+    "country": "cz",
+    "yearFrom": 2005,
+    "yearTo": 2005,
+    "kind": "wage",
+    "sentence": "V roce 2005 činila průměrná hrubá měsíční mzda v Česku zhruba 18 344 korun.",
+    "values": {
+      "wage": 18344,
+      "currency": "Kč",
+      "referenceYear": 2005
+    },
+    "rel": [
+      3,
+      4,
+      3,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "DataStat: průměrná hrubá měsíční mzda",
+      "p": "Český statistický úřad",
+      "u": "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/MZDRT1?format=CSV&kodZvlast=true"
+    }
+  },
+  {
+    "id": "cz-2010-prumerna-mzda",
+    "country": "cz",
+    "yearFrom": 2010,
+    "yearTo": 2010,
+    "kind": "wage",
+    "sentence": "V roce 2010 činila průměrná hrubá měsíční mzda v Česku zhruba 23 864 korun.",
+    "values": {
+      "wage": 23864,
+      "currency": "Kč",
+      "referenceYear": 2010
+    },
+    "rel": [
+      3,
+      4,
+      3,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "DataStat: průměrná hrubá měsíční mzda",
+      "p": "Český statistický úřad",
+      "u": "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/MZDRT1?format=CSV&kodZvlast=true"
+    }
+  },
+  {
+    "id": "cz-2015-prumerna-mzda",
+    "country": "cz",
+    "yearFrom": 2015,
+    "yearTo": 2015,
+    "kind": "wage",
+    "sentence": "V roce 2015 činila průměrná hrubá měsíční mzda v Česku zhruba 26 591 korun.",
+    "values": {
+      "wage": 26591,
+      "currency": "Kč",
+      "referenceYear": 2015
+    },
+    "rel": [
+      3,
+      4,
+      3,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "DataStat: průměrná hrubá měsíční mzda",
+      "p": "Český statistický úřad",
+      "u": "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/MZDRT1?format=CSV&kodZvlast=true"
+    }
+  },
+  {
+    "id": "cz-2020-prumerna-mzda",
+    "country": "cz",
+    "yearFrom": 2020,
+    "yearTo": 2020,
+    "kind": "wage",
+    "sentence": "V roce 2020 činila průměrná hrubá měsíční mzda v Česku zhruba 36 176 korun.",
+    "values": {
+      "wage": 36176,
+      "currency": "Kč",
+      "referenceYear": 2020
+    },
+    "rel": [
+      3,
+      4,
+      3,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "DataStat: průměrná hrubá měsíční mzda",
+      "p": "Český statistický úřad",
+      "u": "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/MZDRT1?format=CSV&kodZvlast=true"
+    }
+  },
+  {
+    "id": "cz-2025-chleb-mzda",
+    "country": "cz",
+    "yearFrom": 2025,
+    "yearTo": 2025,
+    "kind": "ratio",
+    "sentence": "V roce 2025 stál kilogram konzumního kmínového chleba v průměru kolem 15 korun; při tehdejší průměrné hrubé mzdě to odpovídalo přibližně 3 minutám práce.",
+    "values": {
+      "item": "konzumní kmínový chléb, 1 kg",
+      "price": 14.63,
+      "wage": 48670,
+      "currency": "Kč",
+      "workMinutes": 3,
+      "referenceYear": 2025
+    },
+    "note": "Cena je průměrem dostupných měsíčních hodnot ČSÚ; pracovní čas je orientační přepočet z průměrné hrubé mzdy při 21,74 pracovních dnech po osmi hodinách.",
+    "rel": [
+      3,
+      5,
+      4,
+      3,
+      2,
+      4
+    ],
+    "src": {
+      "t": "DataStat: průměrná cena chleba a průměrná mzda",
+      "p": "Český statistický úřad",
+      "u": "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/CEN0101DT01?format=CSV&kodZvlast=true"
+    }
+  },
+  {
+    "id": "cz-2025-prumerna-mzda",
+    "country": "cz",
+    "yearFrom": 2025,
+    "yearTo": 2025,
+    "kind": "wage",
+    "sentence": "V roce 2025 činila průměrná hrubá měsíční mzda v Česku zhruba 48 670 korun.",
+    "values": {
+      "wage": 48670,
+      "currency": "Kč",
+      "referenceYear": 2025
+    },
+    "rel": [
+      3,
+      4,
+      3,
+      2,
+      3,
+      3
+    ],
+    "src": {
+      "t": "DataStat: průměrná hrubá měsíční mzda",
+      "p": "Český statistický úřad",
+      "u": "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/MZDRT1?format=CSV&kodZvlast=true"
+    }
+  }
+]

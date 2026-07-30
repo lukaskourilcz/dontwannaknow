@@ -16,6 +16,7 @@
     "audit:content": "node scripts/build-public-data.mjs --check && node scripts/audit-content.mjs",
     "data:public": "node scripts/build-public-data.mjs",
     "data:vitals": "node scripts/gen-vitals.mjs",
+    "data:prices": "node scripts/gen-prices-csu.mjs",
     "relevance:batches": "node scripts/relevance/gen-batches.mjs",
     "relevance:merge": "node scripts/relevance/merge-results.mjs",
     "relevance:prompt": "node scripts/relevance/print-prompt.mjs",
