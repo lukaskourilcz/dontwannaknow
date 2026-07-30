@@ -2,6 +2,8 @@
 
 Tehdejší svět is a Czech-only, person-centric publication that reconstructs the environment in which someone grew up. The main question is **„Čí svět chcete poznat?“** Its core audience is people seeking context for parents, grandparents, partners, friends, themselves, and Czech-Ukrainian family relationships.
 
+**Shared contract:** every assistant in this repo — Claude, Codex, Cursor, Copilot — follows the same rules, kept in [`AGENTS.md`](AGENTS.md). This file adds Claude-specific workflow (skills, agents, commands) on top; it never contradicts `AGENTS.md`. Fact selection is governed by [`docs/fact-scoring.md`](docs/fact-scoring.md): never invent a scoring rubric, print the real one with `npm run relevance:prompt -- A`, and remember that deterministic gates always outrank scores.
+
 ## Non-negotiable product contract
 
 - Public scope is Czechia and Ukraine only (`CZ`, `UA`). Preserve archived non-public data, but never ship it in public runtime bundles.
@@ -24,6 +26,10 @@ Keep the public app and `/dev` lazy surfaces separate. `/dev` writes only throug
 Search before creating. Extend or generalize existing components, utilities, types, styles, skills, agents, and commands before adding another system. Use semantic tokens from `dontwannaknow/src/styles.css`; follow `dontwannaknow/DESIGN.md`. Preserve authentic UI, data, maps, and stars. Generated media may be decorative only and never evidence or fake UI. Before producing a missing media slot, read `docs/generated-media.md` and search current official pricing, licensing, privacy, watermark, and export limits for cheap or free generators. Prefer the least expensive safe option; never add a placeholder, purchase a plan, create an account, or submit personal data without the required authority.
 
 Validate mobile widths, long Czech strings, error/missing/loading/success states, keyboard use, visible focus, reduced motion, 200% zoom/reflow, WCAG AA contrast, and accessible map/sky/canvas summaries. For large autonomous work, make coherent incremental commits and continue automatically after each commit.
+
+## Fact scoring
+
+Records are ranked by six independent, build-time relevance axes committed as JSON in `dontwannaknow/src/data/relevance/`, with per-record citations in `src/data/provenance/`. The rubric lives in `scripts/relevance/prompts.mjs` and must never be restated from memory. `npm run audit:content` fails the build on malformed scores, orphaned keys, incomplete coverage, and on any new public dataset that skips scoring without a declared reason. Full contract and the add-a-dataset checklist: [`docs/fact-scoring.md`](docs/fact-scoring.md).
 
 ## Essential paths
 

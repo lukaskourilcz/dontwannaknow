@@ -1,0 +1,25 @@
+---
+description: Shared contract for Tehdejší svět — scope, scoring, privacy, Czech voice
+alwaysApply: true
+---
+
+All assistants in this repository follow one shared contract: `AGENTS.md` at the
+repository root. Read it first; tool-specific files only point there so nothing
+drifts.
+
+Load-bearing rules:
+
+- The shipped app calls **no model** and fetches **no historical data** at
+  runtime. AI runs only at build time and its output is committed JSON.
+- The same person must always yield the same report — all randomness goes
+  through the seeded PRNG in `src/lib/random.ts`.
+- Facts are chosen by **scored editorial relevance**, and **deterministic gates
+  (sensitivity, share-safety, age window, CZ/UA scope) always outrank scores.**
+  Never invent a rubric: print the real one with
+  `npm run relevance:prompt -- A` and follow `docs/fact-scoring.md`.
+- Public scope is Czechia and Ukraine only. Form values never leave the browser.
+- Czech voice: formal `vy / vás / vaše`, concrete, honest uncertainty, no
+  overclaiming. `npm run audit:content` fails the build on forbidden phrasing.
+- Anything that renders pixels must be run and looked at, not reviewed by diff.
+
+Verify with `npm run check` from `dontwannaknow/` on Node 22. Commit in Czech.

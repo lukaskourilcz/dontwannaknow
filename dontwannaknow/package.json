@@ -17,6 +17,7 @@
     "data:public": "node scripts/build-public-data.mjs",
     "relevance:batches": "node scripts/relevance/gen-batches.mjs",
     "relevance:merge": "node scripts/relevance/merge-results.mjs",
+    "relevance:prompt": "node scripts/relevance/print-prompt.mjs",
     "fix:duplicates": "node scripts/dedupe-content.mjs",
     "check": "npm run typecheck && npm run lint && npm test && npm run audit:content && npm run build",
     "preview": "vite preview"

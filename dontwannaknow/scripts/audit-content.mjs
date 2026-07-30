@@ -281,6 +281,32 @@ const relevanceDatasets = {
   inventions: ["inventions.json"],
 };
 
+// Každá veřejná sada s dobovým textem musí projít skórováním. Sady, které
+// text nenesou, patří do výjimek — a to vědomě, s důvodem. Bez tohoto
+// pravidla může nová sada nepozorovaně obejít relevanci (přesně tak se do
+// zprávy dostaly řádky „ještě běžně nepoužívali: iPad“).
+const scoringExempt = {
+  "cities.json": "katalog měst, ne dobový záznam",
+  "cityCoords.json": "souřadnice středů měst",
+  "wikidataPeople.cz.json": "generováno z Wikidat, filtruje se seznamem oborů",
+  "wikidataPeople.ua.json": "generováno z Wikidat, filtruje se seznamem oborů",
+  "worldBank.cz.json": "číselné řady World Bank",
+  "worldBank.ua.json": "číselné řady World Bank",
+};
+{
+  const covered = new Set(Object.values(relevanceDatasets).flat());
+  const entries = await readdir(publicDirectory, { withFileTypes: true });
+  for (const entry of entries) {
+    if (entry.isDirectory()) continue;
+    const name = entry.name;
+    if (covered.has(name) || scoringExempt[name]) continue;
+    errors.push(
+      `public/${name}: veřejná sada není ve skórování relevance ani ve výjimkách. `
+      + `Zaregistrujte ji v relevanceDatasets (a v recordKey/gen-batches), nebo doplňte důvod do scoringExempt.`,
+    );
+  }
+}
+
 for (const [dataset, publicFiles] of Object.entries(relevanceDatasets)) {
   const sidecarUrl = new URL(`../src/data/relevance/${dataset}.json`, import.meta.url);
   const sidecarText = await readFile(sidecarUrl, "utf8").catch(() => null);
