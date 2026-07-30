@@ -1,13 +1,11 @@
 # Tehdejší svět — monetizace
 
-Osobní, převážně nekomerční web (historie/astronomie). Monetizace není cílem.
+Produkt zůstává zdarma. Současná aplikace nemá reklamy, předplatné, placené
+úrovně ani zamčené funkce a žádná z těchto forem není součástí potvrzeného
+směru.
 
-| Možnost | Pravděpodobnost příjmu | Možný výdělek | Výhody | Nevýhody |
-|---|---|---|---|---|
-| **Dobrovolné příspěvky / „Buy me a coffee"** | Nízká | 0–80 $/měs | Nulové nastavení; nenarušuje UX | Malý a nepravidelný |
-| **Nenápadné privacy-friendly reklamy** | Nízká | 0–150 $/měs | Pasivní | Vyžaduje návštěvnost; zhoršuje dojem |
-| **Prodej tisků / suvenýrů (PDF, plakáty)** | Nízká | 0–100 $/měs | Navazuje na obsah | Logistika; malá poptávka |
-| Předplatné | n/a | — | — | Pro tento obsah nedává smysl |
-
-**Doporučení:** ponechat zdarma; nanejvýš nenápadný odkaz na příspěvek. Reklamy
-jen pokud návštěvnost výrazně poroste.
+Jediným přijatelným budoucím rozšířením je nenápadný odkaz na dobrovolnou
+podporu, pokud nebude používat sledovací skripty, nátlakové vzory ani
+zasahovat do tvorby zprávy. Prodej tisku nebo placené digitální vydání by
+vyžadovaly nové produktové, právní a provozní rozhodnutí; samotná existence
+PDF není souhlasem s jejich zavedením.

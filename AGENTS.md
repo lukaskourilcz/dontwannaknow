@@ -46,6 +46,13 @@ Breaking any of these makes a change wrong even if it is otherwise excellent.
 9. **Design system.** Semantic tokens in `src/styles.css`, rules in
    `dontwannaknow/DESIGN.md`. No random gradients, glass cards, glows, sepia,
    national flags as identity, or decorative "AI shine".
+10. **Factual city images.** `cityImages` is a curated build-time evidence
+    layer, not generated decoration. Preserve exact city/decade matching,
+    visible attribution, the licence allowlist, excluded-image isolation,
+    same-origin lazy loading, and the art fallback. Never add these photographs
+    to share images or PDF. Edit curated copy and exclusions through the
+    existing `/dev` `cityImagesSelection` source, then regenerate
+    `data:city-images` and `data:public`.
 
 ## How facts get selected — read this before touching data
 
@@ -75,6 +82,7 @@ npm run typecheck
 npm run lint
 npm test
 npm run audit:content     # editorial, privacy, scope, scoring and citation gates
+npm run data:city-images # only when curated image inputs or generator change
 npm run build
 npm run check             # all of the above, in order — must pass
 ```
@@ -105,4 +113,5 @@ inspect the generated diff.
 | [`DOCS.md`](DOCS.md) | Architecture, report pipeline, privacy, performance |
 | [`README.md`](README.md) | Product overview and stack |
 | [`docs/generated-media.md`](docs/generated-media.md) | Rules for decorative generated assets |
+| [`docs/data-city-images.md`](docs/data-city-images.md) | City-image scope, licences, generation and audit gates |
 | [`NEEDED.md`](NEEDED.md) | Open tasks, marked by owner |

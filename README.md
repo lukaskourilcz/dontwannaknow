@@ -12,7 +12,7 @@ Nejde o životopis ani AI-generovaný příběh. Výsledek je deterministicky se
 - Přijme celý den narození i samotný rok; jméno je nepovinné.
 - Rozliší dnešní místo od tehdejšího města, státu a širšího politického celku.
 - Vypráví chronologicky o narození, prvních letech, každodennosti, dospívání, rozdílech oproti dnešku, proměnách a událostech formujících generaci.
-- Ukáže věkové milníky, změny hranic, dobové umění a při celém datu narození skutečně vypočtenou oblohu.
+- Ukáže věkové milníky, změny hranic, licencovaný snímek města z přesného desetiletí (nebo poctivý výtvarný fallback) a při celém datu narození skutečně vypočtenou oblohu.
 - Ukáže, kdo stál v čele státu při narození a v dospívání — s doloženým, datovaným dobovým vnímáním, výsledky i kontroverzemi.
 - Řadí obsah podle redakčního skóre relevance (blízkost prožitku, dopad na všední den, rozpoznání, objev) vzniklého mimo běh aplikace; citlivostní a sdílecí pravidla mají vždy přednost.
 - Úplné citace záznamů jsou vedené v datové a auditní vrstvě; čtenářská plocha ukazuje jen atribuce, které licence nebo metodika potřebují.
@@ -22,7 +22,7 @@ Nejde o životopis ani AI-generovaný příběh. Výsledek je deterministicky se
 - Nabídne jiný, ale stále reprodukovatelný výběr faktů.
 - Vytvoří památeční PDF a osobní obrázky pro krajinu, příspěvek i příběh přímo v prohlížeči.
 - Obnoví zprávu ze sdíleného odkazu; jméno do něj zahrne jen po výslovném souhlasu.
-- Poskytuje vývojovou konzoli `/dev` pro audit zdrojů, citlivosti, zemí, měst, kapitol a redakčního stavu dat.
+- Poskytuje vývojovou konzoli `/dev` pro audit zdrojů, citlivosti, zemí, měst, kapitol a redakčního stavu dat; kurátorský výběr městských snímků v ní zpřístupňuje české popisky, alt texty a explicitní vyřazení.
 
 Veřejné rozhraní je pouze česky a veřejná datová vrstva podporuje pouze Česko a Ukrajinu. Starší výzkumné datasety jiných zemí zůstávají archivované pro budoucí redakční práci, ale nejsou součástí generátoru veřejné zprávy.
 
@@ -67,7 +67,7 @@ dontwannaknow/
 
 Tok zprávy je rozdělený do samostatných vrstev: normalizace osoby → historický kontext → výběr kandidátních faktů → redakční anotace → složení kapitol → vykreslení a export. Jméno není součástí seedu, takže nemění výběr faktů.
 
-Velká data a vizuální moduly se načítají až po vytvoření zprávy. Městské fakty jsou rozdělené podle země a PDF knihovna se stáhne až při exportu. Archivní datasety jsou dostupné redakční konzoli, ale nevstupují do veřejného generátoru.
+Velká data a vizuální moduly se načítají až po vytvoření zprávy. Městské fakty jsou rozdělené podle země, dobové snímky do samostatných řezů pro 20 měst a PDF knihovna se stáhne až při exportu. Archivní datasety jsou dostupné redakční konzoli, ale nevstupují do veřejného generátoru.
 
 ## Lokální vývoj
 
@@ -92,12 +92,13 @@ npm run typecheck
 npm run lint
 npm test
 npm run audit:content
+npm run data:city-images
 npm run data:public
 npm run build
 npm run preview
 ```
 
-`npm run data:public` znovu vytvoří CZ/UA-only runtime data. `npm run fix:duplicates` mechanicky odstraní přesné JSON duplicity; významové duplicity a citlivý obsah stále vyžadují redakční kontrolu.
+`npm run data:city-images` ověří živá metadata Wikimedia Commons a znovu vytvoří licenčně bezpečné WebP deriváty. `npm run data:public` znovu vytvoří CZ/UA-only runtime data. `npm run fix:duplicates` mechanicky odstraní přesné JSON duplicity; významové duplicity a citlivý obsah stále vyžadují redakční kontrolu.
 
 ## Nasazení
 
@@ -123,4 +124,5 @@ Soubor `vercel.json` zajišťuje SPA přesměrování a bezpečnostní hlavičky
 - [Aktuální stack, kapacita a náklady](./scaling.md)
 - [Metodika filmových premiér](./docs/data-film-premieres.md)
 - [Metodika jmen, řeči generace a milníků vysílání](./docs/data-formative-reserve.md)
+- [Metodika dobových snímků měst](./docs/data-city-images.md)
 - [Kroky vyžadující zásah vlastníka](./NEEDED.md)

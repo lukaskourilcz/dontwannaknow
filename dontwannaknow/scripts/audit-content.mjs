@@ -1,7 +1,8 @@
-import { readFile, readdir } from "node:fs/promises";
+import { readFile, readdir, stat } from "node:fs/promises";
 import { extname, join, relative } from "node:path";
 import { recordKey } from "./relevance/record-key.mjs";
 import { AXES, PASSES, PROMPT_VERSION } from "./relevance/prompts.mjs";
+import { validateCityImageRecord } from "./city-images/validate.mjs";
 
 const root = new URL("../", import.meta.url);
 const dataDirectory = new URL("../src/data/", import.meta.url);
@@ -118,6 +119,7 @@ const publicDatasets = [
   "cityCatalog", "cityCoords", "countries", "stats", "stars", "worldPaths",
   "weatherTemplates", "birthWeather",
   "filmPremieres", "babyNames", "slang", "mediaMilestones",
+  "cityImages",
 ];
 for (const dataset of publicDatasets) {
   const source = sourceManifest.get(dataset);
@@ -209,6 +211,109 @@ for (const filename of [
     if (String(record.country).toUpperCase() !== expected) {
       errors.push(`public/${filename}: nepatřičná země ${record.country}.`);
     }
+  }
+}
+
+// ── P6: dobové snímky měst jako neskórovaný obrazový pás ───────────────
+{
+  const scope = JSON.parse(
+    await readFile(new URL("../src/data/cityImages/scope.json", import.meta.url), "utf8"),
+  );
+  if (scope.length !== 20 || new Set(scope.map((city) => city.slug)).size !== 20) {
+    errors.push("cityImages/scope.json: rozsah P6 musí obsahovat právě dvacet jedinečných měst.");
+  }
+  for (const city of scope) {
+    if (!publicCitySlugs.has(city.slug)) errors.push(`cityImages/scope.json: neznámé město ${city.slug}.`);
+    if (!["CZ", "UA"].includes(city.country)) errors.push(`cityImages/scope.json: nepodporovaná země ${city.country}.`);
+  }
+
+  const provenancePayload = JSON.parse(
+    await readFile(new URL("../src/data/provenance/cityImages.json", import.meta.url), "utf8"),
+  );
+  const provenanceByKey = new Map(
+    (provenancePayload.records ?? []).map((record) => [record.key, record]),
+  );
+  const expectedAssets = new Set();
+  const allRawIds = new Set();
+  const allPublicIds = new Set();
+
+  for (const { slug } of scope) {
+    const raw = JSON.parse(
+      await readFile(new URL(`../src/data/cityImages/${slug}.json`, import.meta.url), "utf8"),
+    );
+    const publicRecords = JSON.parse(
+      await readFile(new URL(`cityImages/${slug}.json`, publicDirectory), "utf8"),
+    );
+    for (const record of raw) {
+      if (allRawIds.has(record.id)) errors.push(`cityImages: duplicitní id ${record.id}.`);
+      allRawIds.add(record.id);
+      if (record.city !== slug) errors.push(`cityImages/${slug}.json: záznam patří městu ${record.city}.`);
+      const source = provenanceByKey.get(record.id);
+      if (!source) {
+        errors.push(`provenance/cityImages.json: chybí záznam ${record.id}.`);
+      } else {
+        for (const field of ["title", "publisher", "url", "dateAccessed", "licence", "attribution"]) {
+          if (!String(source[field] ?? "").trim()) {
+            errors.push(`provenance/cityImages.json (${record.id}): chybí ${field}.`);
+          }
+        }
+      }
+      if (record.excluded === true && !String(record.exclusionReason ?? "").trim()) {
+        errors.push(`cityImages/${slug}.json (${record.id}): vyřazený motiv nemá důvod.`);
+      }
+    }
+    for (const record of publicRecords) {
+      if (record.excluded === true) errors.push(`public/cityImages/${slug}.json: obsahuje excluded ${record.id}.`);
+      if (allPublicIds.has(record.id)) errors.push(`public/cityImages: duplicitní id ${record.id}.`);
+      allPublicIds.add(record.id);
+      if (!raw.some((candidate) => candidate.id === record.id && candidate.excluded !== true)) {
+        errors.push(`public/cityImages/${slug}.json (${record.id}): nemá bezpečný zdrojový záznam.`);
+      }
+      if (record.city !== slug) errors.push(`public/cityImages/${slug}.json: záznam patří městu ${record.city}.`);
+      if (String(record.file).includes("..") || String(record.file).startsWith("/")) {
+        errors.push(`public/cityImages/${slug}.json (${record.id}): nebezpečná cesta k souboru.`);
+        continue;
+      }
+      const imageUrl = new URL(`../public/data/images/${record.file}`, import.meta.url);
+      const imageStats = await stat(imageUrl).catch(() => null);
+      const recordErrors = validateCityImageRecord(record, {
+        label: `public/cityImages/${slug}.json (${record.id})`,
+        fileSize: imageStats?.size,
+      });
+      errors.push(...recordErrors);
+      if (!imageStats) errors.push(`public/cityImages/${slug}.json (${record.id}): derivát neexistuje.`);
+      expectedAssets.add(record.file);
+    }
+    const excludedIds = new Set(raw.filter((record) => record.excluded === true).map((record) => record.id));
+    for (const id of excludedIds) {
+      if (publicRecords.some((record) => record.id === id)) {
+        errors.push(`public/cityImages/${slug}.json: vyřazený motiv ${id} pronikl do veřejné vrstvy.`);
+      }
+    }
+  }
+  for (const key of provenanceByKey.keys()) {
+    if (!allRawIds.has(key)) errors.push(`provenance/cityImages.json: osiřelý záznam ${key}.`);
+  }
+
+  async function imageFiles(directory, prefix = "") {
+    const entries = await readdir(directory, { withFileTypes: true }).catch(() => []);
+    const outputFiles = [];
+    for (const entry of entries) {
+      const nextPrefix = prefix ? `${prefix}/${entry.name}` : entry.name;
+      if (entry.isDirectory()) {
+        outputFiles.push(...await imageFiles(new URL(`${entry.name}/`, directory), nextPrefix));
+      } else if (entry.name.endsWith(".webp")) {
+        outputFiles.push(nextPrefix);
+      }
+    }
+    return outputFiles;
+  }
+  const committedAssets = await imageFiles(new URL("../public/data/images/", import.meta.url));
+  for (const file of committedAssets) {
+    if (!expectedAssets.has(file)) errors.push(`public/data/images/${file}: nepoužitý městský derivát.`);
+  }
+  if (allPublicIds.size !== 19) {
+    errors.push(`public/cityImages: očekáváno 19 bezpečných derivátů, nalezeno ${allPublicIds.size}.`);
   }
 }
 
@@ -408,11 +513,18 @@ const scoringExempt = {
   "worldBank.cz.json": "číselné řady World Bank",
   "worldBank.ua.json": "číselné řady World Bank",
 };
+const scoringExemptDirectories = {
+  cityImages: "neskórovaný obrazový pás; záznamy nevstupují do kapitol ani jejich rozpočtů",
+};
 {
   const covered = new Set(Object.values(relevanceDatasets).flat());
   const entries = await readdir(publicDirectory, { withFileTypes: true });
   for (const entry of entries) {
-    if (entry.isDirectory()) continue;
+    if (entry.isDirectory()) {
+      if (entry.name === "cityFacts" || scoringExemptDirectories[entry.name]) continue;
+      errors.push(`public/${entry.name}/: veřejný adresář není ve skórování ani v odůvodněné výjimce.`);
+      continue;
+    }
     const name = entry.name;
     if (covered.has(name) || scoringExempt[name]) continue;
     errors.push(

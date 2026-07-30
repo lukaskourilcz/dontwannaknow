@@ -84,6 +84,6 @@ Při změně věty, rozsahu, metody nebo kontrolního bodu se změní obsahový
 
 - Ukrajinská jména čekají na otevřený kohortní zdroj.
 - Původní americký slang a interní mediální archiv zůstávají jen v `/dev`.
-- Fotografie měst (`cityImages`, P6) mají samostatnou vlastnickou bránu kvůli
-  odhadovaným až 32 MB commitnutých derivátů. Bez výslovného souhlasu se
-  negenerují ani nestahují.
+- Fotografie měst (`cityImages`, P6) byly dokončeny jako samostatná licenčně
+  kontrolovaná pipeline. Její rozsah, regeneraci a skutečnou velikost popisuje
+  [`data-city-images.md`](./data-city-images.md).

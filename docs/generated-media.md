@@ -26,7 +26,7 @@ Produkční asset nesmí být vydáván za historický doklad. Veškerý text, d
 | `og-foundation` | `public/media/og-foundation.*`, podklad `og-image-source.svg` | 1200×630; bezpečný střed a levá textová třetina | Obecný sociální náhled bez osobních dat. Text a logo budou přidány deterministicky. |
 | `chapter-birth` | volitelný background motif obálky/začátku | 16:9 + 4:5 crop, pravá polovina bezpečná | Abstraktní kalendář a souhvězdí; fallback tvoří skutečný SkyMap nebo typografický rok. |
 | `chapter-everyday` | dělicí pás běžného dne | 3:1 + 1:1 crop | Neidentifikující fragmenty běžných materiálů; fallback je hairline/editorial rhythm. |
-| `chapter-culture` | dospívání a kultura | 3:1 + 1:1 crop | Abstraktní tiskové vrstvy bez děl, obalů a osob; fallback je reálný ArtStrip. |
+| `chapter-culture` | dospívání a kultura | 3:1 + 1:1 crop | Abstraktní tiskové vrstvy bez děl, obalů a osob; fallback je licencovaný dobový snímek města nebo reálný ArtStrip. |
 | `chapter-borders` | proměny států | 3:1 + 1:1 crop | Nefaktické abstraktní kontury; fallback je skutečný WorldMap. |
 | `comparison-divider` | Dva tehdejší světy | 3:1 + 1:1 crop | Dvě proplétající se časové osy bez národních systémů; fallback je typografická dvojice. |
 | `share-paper` | canvas share cards | bezešvá/velká 2400×1800 textura | Velmi jemná textura pod kódovým textem. Bez assetu canvas používá plnou papírovou barvu a kódové linky. |

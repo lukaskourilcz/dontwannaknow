@@ -131,7 +131,7 @@ export default function ContentEditor() {
         if (tone !== "all" && String(record.tone ?? "") !== tone) return;
         if (sensitivity !== "all" && String(record.sensitivity ?? "") !== sensitivity) return;
         if (issue !== "all") {
-          const sourceInfo = sourceManifest.get(source.key);
+          const sourceInfo = sourceManifest.get(source.datasetKey ?? source.key);
           const missingMetadata = source.key === "editorialRules" &&
             ["tone", "sensitivity", "shareSafe", "sourceConfidence", "reviewRequired"]
               .some((key) => record[key] === undefined || record[key] === "");
@@ -166,8 +166,16 @@ export default function ContentEditor() {
   async function persist(key: string, list: ContentRecord[]) {
     setData((prev) => ({ ...(prev ?? {}), [key]: list }));
     const res = await saveContent(key, list);
-    if (!res.persisted && res.ok) setStatus(`Stažen soubor ${key}.json — přesuňte jej do src/data, aby se změna zachovala.`);
-    else if (res.ok) setStatus(`Uloženo do ${key}.json`);
+    const regeneration = key === "cityImagesSelection"
+      ? " Poté spusťte npm run data:city-images a npm run data:public."
+      : "";
+    if (!res.persisted && res.ok) {
+      setStatus(
+        `Stažen soubor ${res.filename ?? `${key}.json`} — nahraďte jím ${res.destination ?? "odpovídající datový soubor"}.${regeneration}`,
+      );
+    } else if (res.ok) {
+      setStatus(`Uloženo do ${res.destination ?? `${key}.json`}.${regeneration}`);
+    }
     else setStatus(`Uložení selhalo: ${res.error ?? "neznámá chyba"}`);
   }
 

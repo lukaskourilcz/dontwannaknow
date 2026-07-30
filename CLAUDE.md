@@ -21,6 +21,15 @@ The application is in `dontwannaknow/`. Reuse the existing pipeline:
 
 Keep the public app and `/dev` lazy surfaces separate. `/dev` writes only through Vite development middleware; production is read-only/export based and is not authenticated administration. Keep PDF and heavy features lazy. Keep real astronomy, maps, art data, source registry, public-data generation, sensitivity rules, share-safe selection, and duplicate protections.
 
+`cityImages` is a separate curated evidence layer. It may show only an exact
+city/decade match from the fixed public scope with an allowed licence, visible
+attribution and same-origin lazy asset; otherwise it falls back to real art.
+Excluded images never enter the public layer. City photographs do not enter
+share images or PDF. Curated records, Czech alts, captions and exclusions are
+edited through the existing `/dev` source `cityImagesSelection`; regenerate
+both city-image derivatives and public data after saving. The full contract is
+[`docs/data-city-images.md`](docs/data-city-images.md).
+
 ## Working rules
 
 Search before creating. Extend or generalize existing components, utilities, types, styles, skills, agents, and commands before adding another system. Use semantic tokens from `dontwannaknow/src/styles.css`; follow `dontwannaknow/DESIGN.md`. Preserve authentic UI, data, maps, and stars. Generated media may be decorative only and never evidence or fake UI. Before producing a missing media slot, read `docs/generated-media.md` and search current official pricing, licensing, privacy, watermark, and export limits for cheap or free generators. Prefer the least expensive safe option; never add a placeholder, purchase a plan, create an account, or submit personal data without the required authority.
@@ -42,6 +51,7 @@ Records are ranked by six independent, build-time relevance axes committed as JS
 - Product/design audit: `docs/experience-overhaul.md`
 - Generated-media contract: `docs/generated-media.md`
 - Build-time names, slang, and broadcast milestones: `docs/data-formative-reserve.md`
+- Build-time city photographs: `docs/data-city-images.md`
 - Completed overhaul handoff: `docs/NEXT-AGENT-HANDOFF.md`
 - Next-phase brief (relevance scoring, sources, report modernization): `docs/fable-brief.md`
 - Architecture and operations: `README.md`, `DOCS.md`, `scaling.md`, `NEEDED.md`
@@ -56,6 +66,7 @@ npm run typecheck
 npm run lint
 npm test
 npm run audit:content
+npm run data:city-images
 npm run build
 npm run check
 ```

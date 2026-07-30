@@ -9,9 +9,13 @@
 // unreachable, so editing files in dev doesn't reload this page).
 const bundledData = import.meta.glob("../data/*.json");
 const bundledConfig = import.meta.glob("../config/*.json");
+const CITY_IMAGES_SELECTION_KEY = "cityImagesSelection";
 
 function bundledImporter(key: string): (() => Promise<unknown>) | undefined {
   if (key === "settings") return bundledConfig["../config/productSettings.json"];
+  if (key === CITY_IMAGES_SELECTION_KEY) {
+    return () => import("../data/cityImages/selection.json");
+  }
   return bundledData[`../data/${key}.json`];
 }
 
@@ -37,13 +41,22 @@ export async function loadContent<T = unknown>(key: string): Promise<T> {
   }
   const importer = bundledImporter(key);
   if (importer) {
-    const mod = (await importer()) as { default: T };
-    return mod.default;
+    const mod = (await importer()) as { default: T | { records: T } };
+    if (key === CITY_IMAGES_SELECTION_KEY) {
+      return (mod.default as { records: T }).records;
+    }
+    return mod.default as T;
   }
   return null as T;
 }
 
-export type SaveResult = { ok: boolean; persisted: boolean; error?: string };
+export type SaveResult = {
+  ok: boolean;
+  persisted: boolean;
+  filename?: string;
+  destination?: string;
+  error?: string;
+};
 
 export async function saveContent(key: string, data: unknown): Promise<SaveResult> {
   const body = JSON.stringify(data, null, 2);
@@ -53,13 +66,34 @@ export async function saveContent(key: string, data: unknown): Promise<SaveResul
       headers: { "Content-Type": "application/json" },
       body,
     });
-    if (isDevResponse(res)) return { ok: true, persisted: true };
+    if (isDevResponse(res)) {
+      return {
+        ok: true,
+        persisted: true,
+        destination: key === CITY_IMAGES_SELECTION_KEY
+          ? "src/data/cityImages/selection.json"
+          : key === "settings"
+            ? "src/config/productSettings.json"
+            : `src/data/${key}.json`,
+      };
+    }
   } catch {
     /* fall through to the download fallback */
   }
   // No dev server: hand the file to the user to drop into the repo.
-  downloadJson(key === "settings" ? "productSettings.json" : `${key}.json`, body);
-  return { ok: true, persisted: false };
+  let filename = key === "settings" ? "productSettings.json" : `${key}.json`;
+  let destination = key === "settings"
+    ? "src/config/productSettings.json"
+    : `src/data/${key}.json`;
+  let downloadBody = body;
+  if (key === CITY_IMAGES_SELECTION_KEY) {
+    const mod = await import("../data/cityImages/selection.json");
+    downloadBody = JSON.stringify({ ...mod.default, records: data }, null, 2);
+    filename = "city-images-selection.json";
+    destination = "src/data/cityImages/selection.json";
+  }
+  downloadJson(filename, downloadBody);
+  return { ok: true, persisted: false, filename, destination };
 }
 
 function downloadJson(filename: string, text: string) {

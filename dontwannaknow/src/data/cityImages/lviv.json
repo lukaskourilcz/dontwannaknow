@@ -1,0 +1,33 @@
+[
+  {
+    "id": "lviv-1957-namesti-rynok",
+    "city": "lviv",
+    "decade": 1950,
+    "yearApprox": "1957",
+    "dateCertainty": "year",
+    "alt": "Černobílý pohled přes náměstí Rynok ve Lvově s chodci, automobily a radniční věží.",
+    "caption": "Náměstí Rynok ve Lvově zachycené v roce 1957.",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "FOTO:FORTEPAN / Répay András, Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rynok_Square_1957.jpg",
+    "file": "lviv/1950/lviv-1957-namesti-rynok.webp",
+    "width": 1000,
+    "height": 634
+  },
+  {
+    "id": "lviv-1955-povalecne-trosky",
+    "city": "lviv",
+    "decade": 1950,
+    "yearApprox": "1955",
+    "dateCertainty": "decade",
+    "alt": "Černobílá fotografie trosek někdejší židovské čtvrti ve Lvově po druhé světové válce.",
+    "caption": "Poválečné trosky předměstské židovské čtvrti ve Lvově kolem roku 1955.",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Mria777, Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lw%C3%B3w-_pl.Zbo%C5%BCowy,_ul.Pe%C5%82tewna._Zrujnowana_przedmiejska_dzielnica_%C5%BCydowska.jpg",
+    "excluded": true,
+    "exclusionReason": "Válečné škody patří do textového citlivého kontextu, ne do lehkého obrazového pásu."
+  }
+]

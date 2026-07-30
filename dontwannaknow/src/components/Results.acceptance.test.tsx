@@ -11,7 +11,7 @@ vi.mock("./SharePanel", () => ({ default: () => null }));
 vi.mock("./WorldMap", () => ({ default: () => <div data-testid="world-map" /> }));
 vi.mock("./SkyMap", () => ({ default: () => <div data-testid="sky-map" /> }));
 vi.mock("./LifeNumbers", () => ({ default: () => <div data-testid="life-numbers" /> }));
-vi.mock("./ArtStrip", () => ({ default: () => <div data-testid="art-strip" /> }));
+vi.mock("./CityArtStrip", () => ({ default: () => <div data-testid="art-strip" /> }));
 
 describe("acceptance: Praha 1953 a Charkov 1991", () => {
   const prague = makePerson({ country: "CZ", citySlug: "prague", birthYear: 1953, birthMonth: 4, birthDay: 12 });

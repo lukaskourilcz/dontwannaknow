@@ -1,0 +1,188 @@
+{
+  "dataset": "cityImages",
+  "source": "Wikimedia Commons API",
+  "dateAccessed": "2026-07-30",
+  "europeana": "EUROPEANA_KEY nebyl při tomto vydání dostupný.",
+  "records": [
+    {
+      "key": "prague-1950-kulicky-u-rudolfina",
+      "title": "Bucina Praha kulicky",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Bucina_Praha_kulicky.jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY-SA 3.0",
+      "attribution": "Ferdinand Bučina, Wikimedia Commons"
+    },
+    {
+      "key": "brno-1958-namesti-svobody",
+      "title": "Namesti Svobody. Fortepan 51282",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Namesti_Svobody._Fortepan_51282.jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY-SA 3.0",
+      "attribution": "FOTO:FORTEPAN / Nagy Gyula, Wikimedia Commons"
+    },
+    {
+      "key": "ostrava-1998-uhelna-souprava",
+      "title": "740 425+552 OKDD Josefova jama",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:740_425%2B552_OKDD_Josefova_jama.jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 3.0",
+      "attribution": "Petr Štefek, Wikimedia Commons"
+    },
+    {
+      "key": "plzen-1978-vystavba-skvrnany",
+      "title": "The rise of Skvrňany projects - west view",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:The_rise_of_Skvr%C5%88any_projects_-_west_view.jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Josef Hejna, Wikimedia Commons"
+    },
+    {
+      "key": "liberec-1938-ulice-s-automobilem",
+      "title": "Reichenberg (Tschechien)- Straße, Vordergrund Auto - LABW - Staatsarchiv Freiburg W 134 Nr. 002953",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Reichenberg_(Tschechien)-_Stra%C3%9Fe,_Vordergrund_Auto_-_LABW_-_Staatsarchiv_Freiburg_W_134_Nr._002953.jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Landesarchiv Baden-Württemberg, Staatsarchiv Freiburg W 134 Nr. 002953 / Fotograf: Willy Pragher, Wikimedia Commons"
+    },
+    {
+      "key": "olomouc-1920-masarykova-trida",
+      "title": "Masarykova třída in Olomouc, historical photo",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Masarykova_t%C5%99%C3%ADda_in_Olomouc,_historical_photo.jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "PDM 1.0",
+      "attribution": "Neznámý autor, Wikimedia Commons"
+    },
+    {
+      "key": "ceske-budejovice-1951-cyklisticky-dojezd",
+      "title": "Bundesarchiv Bild 183-10537-0005, Friedensfahrt, Dimov, Zieleinfahrt",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-10537-0005,_Friedensfahrt,_Dimov,_Zieleinfahrt.jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY-SA 3.0",
+      "attribution": "Bundesarchiv, Bild 183-10537-0005 / CC-BY-SA 3.0, Wikimedia Commons"
+    },
+    {
+      "key": "hradec-kralove-1960-hlavni-nadrazi",
+      "title": "Hradec Králové hl.n., konec 60. let",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Hradec_Kr%C3%A1lov%C3%A9_hl.n.,_konec_60._let.jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY-SA 3.0",
+      "attribution": "Jaroslav Rajzík, archiv DPmHK, Wikimedia Commons"
+    },
+    {
+      "key": "pardubice-1930-lokomotiva-semtin",
+      "title": "Orenstein & Koppel fireless locomotive, Semtín, 1930, photo from the collection of Mr. Ladislav Lehký. Archive of the Slovak Railways (ŽM ŽSR)",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Orenstein_%26_Koppel_fireless_locomotive,_Semt%C3%ADn,_1930,_photo_from_the_collection_of_Mr._Ladislav_Lehk%C3%BD._Archive_of_the_Slovak_Railways_(%C5%BDM_%C5%BDSR).jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "PDM 1.0",
+      "attribution": "Neznámý autor, Wikimedia Commons"
+    },
+    {
+      "key": "kyiv-1940-letiste-zuljany",
+      "title": "Aeroflot Lisunov Li-2 at Kiev Zhulyany Airport",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Aeroflot_Lisunov_Li-2_at_Kiev_Zhulyany_Airport.jpeg",
+      "dateAccessed": "2026-07-30",
+      "licence": "PDM 1.0",
+      "attribution": "Neznámý autor, Wikimedia Commons"
+    },
+    {
+      "key": "kharkiv-1956-detska-zeleznice",
+      "title": "Hammond Slides 13",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Hammond_Slides_13.jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY-SA 4.0",
+      "attribution": "Thomas Taylor Hammond (1920-1993), Wikimedia Commons"
+    },
+    {
+      "key": "odesa-1950-katedralni-namesti",
+      "title": "Place de la Cathédrale - Odessa (1950) 01",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Place_de_la_Cath%C3%A9drale_-_Odessa_(1950)_01.jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY-SA 4.0",
+      "attribution": "Kazakov Vladimir Mikhailovich, Wikimedia Commons"
+    },
+    {
+      "key": "dnipro-1970-letiste",
+      "title": "1970s Dnipropetrovsk airport",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:1970s_Dnipropetrovsk_airport.png",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY-SA 4.0",
+      "attribution": "Městský web Dnipra gorod.dp.ua, Wikimedia Commons"
+    },
+    {
+      "key": "donetsk-1953-obchod-potravin",
+      "title": "1953 Гастроном № 1 в городе Сталино",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:1953_%D0%93%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%BD%D0%BE%D0%BC_%E2%84%96_1_%D0%B2_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5_%D0%A1%D1%82%D0%B0%D0%BB%D0%B8%D0%BD%D0%BE.jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "PDM 1.0",
+      "attribution": "Neznámý autor, Wikimedia Commons"
+    },
+    {
+      "key": "zaporizhzhia-2009-hlavni-nadrazi",
+      "title": "01 vokz 1500",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:01_vokz_1500.jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY-SA 4.0",
+      "attribution": "Voky89, Wikimedia Commons"
+    },
+    {
+      "key": "lviv-1957-namesti-rynok",
+      "title": "Rynok Square 1957",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Rynok_Square_1957.jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY-SA 3.0",
+      "attribution": "FOTO:FORTEPAN / Répay András, Wikimedia Commons"
+    },
+    {
+      "key": "kryvyi-rih-1970-trolejbusova-smycka",
+      "title": "Кольцо троллейбуса возле мостика на шахту \"Гигант\" (70-е) - panoramio",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BB%D1%8C%D1%86%D0%BE_%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D0%B9%D0%B1%D1%83%D1%81%D0%B0_%D0%B2%D0%BE%D0%B7%D0%BB%D0%B5_%D0%BC%D0%BE%D1%81%D1%82%D0%B8%D0%BA%D0%B0_%D0%BD%D0%B0_%D1%88%D0%B0%D1%85%D1%82%D1%83_%22%D0%93%D0%B8%D0%B3%D0%B0%D0%BD%D1%82%22_(70-%D0%B5)_-_panoramio.jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY-SA 3.0",
+      "attribution": "geka_b, Wikimedia Commons"
+    },
+    {
+      "key": "mykolaiv-1998-centralni-prospekt",
+      "title": "Prospekt Lenina (Mykolaiv)",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Prospekt_Lenina_(Mykolaiv).jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "PDM 1.0",
+      "attribution": "Neznámý autor, Wikimedia Commons"
+    },
+    {
+      "key": "mariupol-1950-zeleznicni-nadrazi",
+      "title": "Mariupol-Vokzal-50-60",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Mariupol-Vokzal-50-60.jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY-SA 3.0",
+      "attribution": "SashokA, Wikimedia Commons"
+    },
+    {
+      "key": "lviv-1955-povalecne-trosky",
+      "title": "Lwów- pl.Zbożowy, ul.Pełtewna. Zrujnowana przedmiejska dzielnica żydowska",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Lw%C3%B3w-_pl.Zbo%C5%BCowy,_ul.Pe%C5%82tewna._Zrujnowana_przedmiejska_dzielnica_%C5%BCydowska.jpg",
+      "dateAccessed": "2026-07-30",
+      "licence": "CC BY-SA 3.0",
+      "attribution": "Mria777, Wikimedia Commons"
+    }
+  ]
+}

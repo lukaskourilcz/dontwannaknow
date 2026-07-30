@@ -134,6 +134,13 @@ const slangCz = await withExtras(await readJson("slang/cz.json"), "slang", true)
 const slangUa = await withExtras(await readJson("slang/ua.json"), "slang", true);
 const mediaMilestonesCz = await withExtras(await readJson("mediaMilestones/cz.json"), "mediaMilestones", true);
 const mediaMilestonesUa = await withExtras(await readJson("mediaMilestones/ua.json"), "mediaMilestones", true);
+const cityImageScope = await readJson("cityImages/scope.json");
+const cityImages = Object.fromEntries(
+  await Promise.all(cityImageScope.map(async ({ slug }) => [
+    slug,
+    (await readJson(`cityImages/${slug}.json`)).filter((record) => record.excluded !== true),
+  ])),
+);
 
 const generated = {
   "cities.json": cities,
@@ -141,6 +148,10 @@ const generated = {
   ...Object.fromEntries([...citySlugs].sort().map((slug) => [
     `cityFacts/${slug}.json`,
     scoredCityFacts.filter((record) => record.city === slug),
+  ])),
+  ...Object.fromEntries(cityImageScope.map(({ slug }) => [
+    `cityImages/${slug}.json`,
+    cityImages[slug],
   ])),
   "countryDecades.cz.json": perCountry(countryDecades, "CZ"),
   "countryDecades.ua.json": perCountry(countryDecades, "UA"),
@@ -180,6 +191,7 @@ if (process.argv.includes("--check")) {
 } else {
   await mkdir(output, { recursive: true });
   await mkdir(new URL("cityFacts/", output), { recursive: true });
+  await mkdir(new URL("cityImages/", output), { recursive: true });
   await Promise.all(
     Object.entries(generated).map(([filename, value]) =>
       writeFile(new URL(filename, output), serialized(value)),
