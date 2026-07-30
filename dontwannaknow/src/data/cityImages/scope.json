@@ -1,0 +1,22 @@
+[
+  { "slug": "prague", "name": "Praha", "country": "CZ" },
+  { "slug": "brno", "name": "Brno", "country": "CZ" },
+  { "slug": "ostrava", "name": "Ostrava", "country": "CZ" },
+  { "slug": "plzen", "name": "Plzeň", "country": "CZ" },
+  { "slug": "liberec", "name": "Liberec", "country": "CZ" },
+  { "slug": "olomouc", "name": "Olomouc", "country": "CZ" },
+  { "slug": "ceske-budejovice", "name": "České Budějovice", "country": "CZ" },
+  { "slug": "hradec-kralove", "name": "Hradec Králové", "country": "CZ" },
+  { "slug": "pardubice", "name": "Pardubice", "country": "CZ" },
+  { "slug": "usti-nad-labem", "name": "Ústí nad Labem", "country": "CZ" },
+  { "slug": "kyiv", "name": "Kyjev", "country": "UA" },
+  { "slug": "kharkiv", "name": "Charkov", "country": "UA" },
+  { "slug": "odesa", "name": "Oděsa", "country": "UA" },
+  { "slug": "dnipro", "name": "Dnipro", "country": "UA" },
+  { "slug": "donetsk", "name": "Doněck", "country": "UA" },
+  { "slug": "zaporizhzhia", "name": "Záporoží", "country": "UA" },
+  { "slug": "lviv", "name": "Lvov", "country": "UA" },
+  { "slug": "kryvyi-rih", "name": "Kryvyj Rih", "country": "UA" },
+  { "slug": "mykolaiv", "name": "Mykolajiv", "country": "UA" },
+  { "slug": "mariupol", "name": "Mariupol", "country": "UA" }
+]
