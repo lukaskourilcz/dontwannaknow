@@ -47,6 +47,7 @@ function itemKind(item: ReportItem): string {
   if (item.metadata.sensitivity === "difficult") return "Citlivý historický kontext";
   if (item.category === "city") return "Místní souvislost";
   if (item.category === "local") return "Souvislost ze země";
+  if (item.category === "weather") return "Počasí v době narození";
   if (["media", "writers", "famous", "contemporaries"].includes(item.category)) return "Kultura";
   const labels: Partial<Record<ReportItem["category"], string>> = {
     daily: "Domácnost a rytmus dne",
@@ -103,6 +104,15 @@ function ItemCard({ item }: { item: ReportItem }) {
         {time && <span className="item-year">{time}</span>}
       </div>
       <p>{richText(item.text)}</p>
+      {item.category === "weather" && item.source?.url && (
+        <small className="item-source">
+          Zdroj:{" "}
+          <a href={item.source.url} target="_blank" rel="noreferrer">
+            {item.source.publisher ?? item.source.title}
+          </a>
+          {" "}· rekonstrukce Copernicus C3S ERA5
+        </small>
+      )}
       <ItemDepth item={item} />
     </li>
   );

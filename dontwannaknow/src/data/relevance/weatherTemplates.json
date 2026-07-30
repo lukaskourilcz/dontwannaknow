@@ -1,0 +1,149 @@
+{
+  "promptVersion": "relevance-v1",
+  "model": "codex-gpt-5",
+  "scoredAt": "2026-07-30",
+  "passes": {
+    "A": [
+      "livedProximity",
+      "everydayConsequence",
+      "consequenceHorizon"
+    ],
+    "B": [
+      "recognition",
+      "discovery"
+    ],
+    "C": [
+      "explanatoryPayload"
+    ]
+  },
+  "records": [
+    {
+      "key": "weather-day-frost-wave|{city} · V den narození bylo podle meteorologické rekonstrukce ERA5 mrazivo: teplota se pohybovala přibližně mezi {min} a {max} °C.",
+      "scores": {
+        "livedProximity": 5,
+        "everydayConsequence": 2,
+        "consequenceHorizon": 0,
+        "recognition": 3,
+        "discovery": 3,
+        "explanatoryPayload": 2
+      },
+      "rationales": {
+        "A": "Místní mrazivý den byl bezprostřední podmínkou, ale jeho důsledek obvykle nepřesáhl několik dnů.",
+        "B": "Mrazivý den může odpovídat rodinnému vyprávění; konkrétní rekonstruovaný rozsah bývá nový.",
+        "C": "Teplotní rozsah zpřítomňuje podmínky jediného dne, nevysvětluje však celou dobu."
+      }
+    },
+    {
+      "key": "weather-day-tropical|{city} · V den narození bylo podle meteorologické rekonstrukce ERA5 horko: teplota se pohybovala přibližně mezi {min} a {max} °C.",
+      "scores": {
+        "livedProximity": 5,
+        "everydayConsequence": 2,
+        "consequenceHorizon": 0,
+        "recognition": 3,
+        "discovery": 3,
+        "explanatoryPayload": 2
+      },
+      "rationales": {
+        "A": "Místní horký den přímo ovlivnil denní podmínky, ale nezanechal dlouhodobý důsledek.",
+        "B": "Neobvyklé horko může být rozpoznatelné; rekonstruovaný teplotní rozsah běžný čtenář zpravidla nezná.",
+        "C": "Teplotní rozsah zpřítomňuje konkrétní den bez širšího mechanismu doby."
+      }
+    },
+    {
+      "key": "weather-day-snow|{city} · V den narození připadlo podle meteorologické rekonstrukce ERA5 přibližně {snow} cm nového sněhu; teplota se pohybovala mezi {min} a {max} °C.",
+      "scores": {
+        "livedProximity": 5,
+        "everydayConsequence": 3,
+        "consequenceHorizon": 1,
+        "recognition": 3,
+        "discovery": 3,
+        "explanatoryPayload": 3
+      },
+      "rationales": {
+        "A": "Nový sníh byl přímo místní a mohl krátce měnit dopravu i denní rutinu.",
+        "B": "Sníh se může objevit v rodinné paměti, přesná rekonstruovaná vrstva bývá překvapivá.",
+        "C": "Sníh s teplotou vytváří názorný, byť krátký obraz podmínek dne narození."
+      }
+    },
+    {
+      "key": "weather-day-rain|{city} · V den narození byl podle meteorologické rekonstrukce ERA5 deštivý den: spadlo přibližně {precipitation} mm srážek a teplota se pohybovala mezi {min} a {max} °C.",
+      "scores": {
+        "livedProximity": 5,
+        "everydayConsequence": 2,
+        "consequenceHorizon": 0,
+        "recognition": 2,
+        "discovery": 3,
+        "explanatoryPayload": 2
+      },
+      "rationales": {
+        "A": "Silnější déšť ovlivnil místní denní pohyb, zpravidla však bez delšího důsledku.",
+        "B": "Konkrétní déšť si vybaví menšina, rekonstruovaný úhrn je pro většinu nový.",
+        "C": "Úhrn srážek dokresluje jeden den, nikoli širší fungování doby."
+      }
+    },
+    {
+      "key": "weather-day-ordinary|{city} · V den narození se podle meteorologické rekonstrukce ERA5 teplota pohybovala přibližně mezi {min} a {max} °C; srážky nepřesáhly {precipitation} mm.",
+      "scores": {
+        "livedProximity": 5,
+        "everydayConsequence": 1,
+        "consequenceHorizon": 0,
+        "recognition": 1,
+        "discovery": 2,
+        "explanatoryPayload": 2
+      },
+      "rationales": {
+        "A": "Jde o přesně místní, ale běžné podmínky jediného dne bez trvalého dopadu.",
+        "B": "Obyčejné počasí si málokdo vybaví; konkrétní rozsah má mírnou objevnou hodnotu.",
+        "C": "Údaj ukotvuje den narození, ale nenese širší příběh."
+      }
+    },
+    {
+      "key": "weather-year-cold-winter|{city} · Zimní měsíce roku {year} patřily podle meteorologické rekonstrukce ERA5 k nejchladnější pětině z předchozích 25 let.",
+      "scores": {
+        "livedProximity": 5,
+        "everydayConsequence": 3,
+        "consequenceHorizon": 1,
+        "recognition": 3,
+        "discovery": 3,
+        "explanatoryPayload": 3
+      },
+      "rationales": {
+        "A": "Místní mimořádně chladná sezona ovlivňovala rutiny po měsíce, nikoli další roky.",
+        "B": "Nápadná zima může být generačně rozpoznatelná; její percentilové zařazení bývá nové.",
+        "C": "Srovnání s 25 lety dává sezoně srozumitelné historické měřítko."
+      }
+    },
+    {
+      "key": "weather-year-hot-summer|{city} · Letní měsíce roku {year} patřily podle meteorologické rekonstrukce ERA5 k nejteplejší pětině z předchozích 25 let.",
+      "scores": {
+        "livedProximity": 5,
+        "everydayConsequence": 3,
+        "consequenceHorizon": 1,
+        "recognition": 3,
+        "discovery": 3,
+        "explanatoryPayload": 3
+      },
+      "rationales": {
+        "A": "Místní mimořádně horká sezona ovlivňovala rutiny po měsíce, nikoli další roky.",
+        "B": "Nápadné léto může být generačně rozpoznatelné; jeho percentilové zařazení bývá nové.",
+        "C": "Srovnání s 25 lety dává sezoně srozumitelné historické měřítko."
+      }
+    },
+    {
+      "key": "weather-year-seasonal|{city} · Podle meteorologické rekonstrukce ERA5 měla v roce {year} zima průměrnou denní teplotu kolem {winter} °C a léto kolem {summer} °C.",
+      "scores": {
+        "livedProximity": 5,
+        "everydayConsequence": 2,
+        "consequenceHorizon": 1,
+        "recognition": 2,
+        "discovery": 2,
+        "explanatoryPayload": 3
+      },
+      "rationales": {
+        "A": "Místní sezonní podmínky rámovaly všední rok, ale samy nezpůsobily dlouhodobou změnu.",
+        "B": "Obecný charakter ročních období část generace rozpozná; přesné průměry jsou mírně objevné.",
+        "C": "Dvě sezonní hodnoty vytvářejí stručný klimatický rámec roku narození."
+      }
+    }
+  ]
+}

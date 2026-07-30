@@ -116,6 +116,7 @@ const publicDatasets = [
   "editorialRules", "events", "countryEvents", "inventions", "cityFacts", "countryDecades",
   "famousPeople", "leaders", "media", "writers", "worldBank", "wikidataPeople", "artByDecade",
   "cityCatalog", "cityCoords", "countries", "stats", "stars", "worldPaths",
+  "weatherTemplates", "birthWeather",
 ];
 for (const dataset of publicDatasets) {
   const source = sourceManifest.get(dataset);
@@ -281,6 +282,7 @@ const relevanceDatasets = {
   inventions: ["inventions.json"],
   vitalsBackfill: ["vitals.cz.json", "vitals.ua.json"],
   pricesWages: ["pricesWages.cz.json", "pricesWages.ua.json"],
+  weatherTemplates: ["weatherTemplates.json"],
 };
 
 // Každá veřejná sada s dobovým textem musí projít skórováním. Sady, které
@@ -416,6 +418,82 @@ for (const [dataset, publicFiles] of Object.entries(relevanceDatasets)) {
       if (record.url && !/^https?:\/\//.test(record.url)) {
         errors.push(`${label}: URL nezačíná http(s).`);
       }
+    }
+  }
+}
+
+// ── P3: meteorologická rekonstrukce narození ──────────────────────────
+{
+  const templates = JSON.parse(
+    await readFile(new URL("../src/data/public/weatherTemplates.json", import.meta.url), "utf8"),
+  );
+  const expectedClasses = new Set([
+    "frost-wave", "tropical", "snow", "rain", "ordinary",
+    "cold-winter", "hot-summer", "seasonal",
+  ]);
+  for (const [index, template] of templates.entries()) {
+    const label = `public/weatherTemplates.json[${index}]`;
+    if (!template.id || !["day", "year"].includes(template.scope)) {
+      errors.push(`${label}: chybí id nebo platný rozsah.`);
+    }
+    if (!expectedClasses.delete(template.class)) {
+      errors.push(`${label}: neznámá nebo duplicitní třída „${template.class}“.`);
+    }
+    if (!/meteorologické rekonstrukce ERA5/i.test(template.template ?? "")) {
+      errors.push(`${label}: věta neoznačuje meteorologickou rekonstrukci ERA5.`);
+    }
+    if (/naměřen|meteorologové naměřili/i.test(template.template ?? "")) {
+      errors.push(`${label}: rekonstrukce se vydává za přímé měření.`);
+    }
+  }
+  if (templates.length !== 8 || expectedClasses.size) {
+    errors.push(`weatherTemplates: očekáváno osm tříd, chybí ${[...expectedClasses].join(", ") || "žádná"}.`);
+  }
+  const templateProvenance = JSON.parse(
+    await readFile(new URL("../src/data/provenance/weatherTemplates.json", import.meta.url), "utf8"),
+  );
+  if ((templateProvenance.records ?? []).some((record) =>
+    !/Open-Meteo.*Copernicus C3S ERA5/i.test(record.attribution ?? ""))) {
+    errors.push("weatherTemplates: každý CC BY záznam musí nést atribuci Open-Meteo a Copernicus C3S ERA5.");
+  }
+
+  const weatherRoot = new URL("../public/data/weather/", import.meta.url);
+  const manifest = JSON.parse(
+    await readFile(new URL("manifest.json", weatherRoot), "utf8").catch(() => "{}"),
+  );
+  if (manifest.model !== "ERA5" || manifest.licence !== "CC BY 4.0") {
+    errors.push("birthWeather: manifest musí uvádět ERA5 a CC BY 4.0.");
+  }
+  if (manifest.range?.[0] !== "1940-01-01") {
+    errors.push("birthWeather: denní řada musí začínat 1. 1. 1940.");
+  }
+  if (manifest.scoring?.status !== "exempt" || !/měření modelu/i.test(manifest.scoring?.reason ?? "")) {
+    errors.push("birthWeather: manifest musí výslovně zdůvodnit výjimku denních měření ze skórování.");
+  }
+  if (manifest.cities?.length !== publicCities.length) {
+    errors.push(`birthWeather: manifest pokrývá ${manifest.cities?.length ?? 0} z ${publicCities.length} měst.`);
+  }
+  for (const city of publicCities) {
+    const content = await readFile(new URL(`${city.slug}/summary.json`, weatherRoot), "utf8")
+      .catch(() => null);
+    if (!content) {
+      errors.push(`birthWeather: chybí souhrn pro ${city.slug}.`);
+      continue;
+    }
+    const summary = JSON.parse(content);
+    if (
+      summary.source !== "ERA5 via Open-Meteo" ||
+      summary.licence !== "CC BY 4.0" ||
+      summary.range?.[0] !== "1940-01-01"
+    ) {
+      errors.push(`birthWeather/${city.slug}: neplatný zdroj, licence nebo začátek řady.`);
+    }
+    if ((summary.years ?? []).some((record) => record.y < 1940)) {
+      errors.push(`birthWeather/${city.slug}: obsahuje rok před 1940.`);
+    }
+    if ((summary.years ?? []).some((record) =>
+      record.c !== true && (record.cp !== null || record.hp !== null))) {
+      errors.push(`birthWeather/${city.slug}: neuzavřený rok nese percentilové tvrzení.`);
     }
   }
 }

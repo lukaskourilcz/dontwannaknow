@@ -112,6 +112,12 @@ in `scoringExempt` with a reason. To register a new dataset:
   in the wider-context chapter, and every reception claim must be dated and
   cited. Two slots in that chapter are reserved for them so a higher-scoring
   event cannot crowd out the reader's main question.
+- **`birthWeather`** — packed daily values and seasonal aggregates are model
+  measurements, not editorial records, and are explicitly scoring-exempt in
+  their manifest. The eight reader-facing `weatherTemplates` are scored in
+  full. A weather item is capped at one, cannot open the birth chapter, is
+  absent before 1940, and seasonal superlatives require a complete year,
+  twenty reference years and the committed percentile threshold.
 
 ## Changing the rubric
 

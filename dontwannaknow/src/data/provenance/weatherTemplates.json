@@ -1,0 +1,77 @@
+{
+  "dataset": "weatherTemplates",
+  "records": [
+    {
+      "key": "weather-day-frost-wave|{city} · V den narození bylo podle meteorologické rekonstrukce ERA5 mrazivo: teplota se pohybovala přibližně mezi {min} a {max} °C.",
+      "title": "Historical Weather API",
+      "publisher": "Open-Meteo",
+      "url": "https://open-meteo.com/en/docs/historical-weather-api",
+      "accessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Weather data by Open-Meteo.com; underlying reanalysis Copernicus C3S ERA5."
+    },
+    {
+      "key": "weather-day-tropical|{city} · V den narození bylo podle meteorologické rekonstrukce ERA5 horko: teplota se pohybovala přibližně mezi {min} a {max} °C.",
+      "title": "Historical Weather API",
+      "publisher": "Open-Meteo",
+      "url": "https://open-meteo.com/en/docs/historical-weather-api",
+      "accessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Weather data by Open-Meteo.com; underlying reanalysis Copernicus C3S ERA5."
+    },
+    {
+      "key": "weather-day-snow|{city} · V den narození připadlo podle meteorologické rekonstrukce ERA5 přibližně {snow} cm nového sněhu; teplota se pohybovala mezi {min} a {max} °C.",
+      "title": "Historical Weather API",
+      "publisher": "Open-Meteo",
+      "url": "https://open-meteo.com/en/docs/historical-weather-api",
+      "accessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Weather data by Open-Meteo.com; underlying reanalysis Copernicus C3S ERA5."
+    },
+    {
+      "key": "weather-day-rain|{city} · V den narození byl podle meteorologické rekonstrukce ERA5 deštivý den: spadlo přibližně {precipitation} mm srážek a teplota se pohybovala mezi {min} a {max} °C.",
+      "title": "Historical Weather API",
+      "publisher": "Open-Meteo",
+      "url": "https://open-meteo.com/en/docs/historical-weather-api",
+      "accessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Weather data by Open-Meteo.com; underlying reanalysis Copernicus C3S ERA5."
+    },
+    {
+      "key": "weather-day-ordinary|{city} · V den narození se podle meteorologické rekonstrukce ERA5 teplota pohybovala přibližně mezi {min} a {max} °C; srážky nepřesáhly {precipitation} mm.",
+      "title": "Historical Weather API",
+      "publisher": "Open-Meteo",
+      "url": "https://open-meteo.com/en/docs/historical-weather-api",
+      "accessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Weather data by Open-Meteo.com; underlying reanalysis Copernicus C3S ERA5."
+    },
+    {
+      "key": "weather-year-cold-winter|{city} · Zimní měsíce roku {year} patřily podle meteorologické rekonstrukce ERA5 k nejchladnější pětině z předchozích 25 let.",
+      "title": "Historical Weather API",
+      "publisher": "Open-Meteo",
+      "url": "https://open-meteo.com/en/docs/historical-weather-api",
+      "accessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Weather data by Open-Meteo.com; underlying reanalysis Copernicus C3S ERA5."
+    },
+    {
+      "key": "weather-year-hot-summer|{city} · Letní měsíce roku {year} patřily podle meteorologické rekonstrukce ERA5 k nejteplejší pětině z předchozích 25 let.",
+      "title": "Historical Weather API",
+      "publisher": "Open-Meteo",
+      "url": "https://open-meteo.com/en/docs/historical-weather-api",
+      "accessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Weather data by Open-Meteo.com; underlying reanalysis Copernicus C3S ERA5."
+    },
+    {
+      "key": "weather-year-seasonal|{city} · Podle meteorologické rekonstrukce ERA5 měla v roce {year} zima průměrnou denní teplotu kolem {winter} °C a léto kolem {summer} °C.",
+      "title": "Historical Weather API",
+      "publisher": "Open-Meteo",
+      "url": "https://open-meteo.com/en/docs/historical-weather-api",
+      "accessed": "2026-07-30",
+      "licence": "CC BY 4.0",
+      "attribution": "Weather data by Open-Meteo.com; underlying reanalysis Copernicus C3S ERA5."
+    }
+  ]
+}

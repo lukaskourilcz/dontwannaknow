@@ -119,6 +119,7 @@ const vitalsCz = await withExtras(await readJson("vitals/cz.json"), "vitalsBackf
 const vitalsUa = await withExtras(await readJson("vitals/ua.json"), "vitalsBackfill");
 const pricesWagesCz = await withExtras(await readJson("pricesWages/cz.json"), "pricesWages");
 const pricesWagesUa = await withExtras(await readJson("pricesWages/ua.json"), "pricesWages");
+const weatherTemplates = await withExtras(await readJson("weatherTemplates.json"), "weatherTemplates");
 
 const generated = {
   "cities.json": cities,
@@ -144,6 +145,7 @@ const generated = {
   "vitals.ua.json": vitalsUa,
   "pricesWages.cz.json": pricesWagesCz,
   "pricesWages.ua.json": pricesWagesUa,
+  "weatherTemplates.json": weatherTemplates,
 };
 
 if (process.argv.includes("--check")) {
