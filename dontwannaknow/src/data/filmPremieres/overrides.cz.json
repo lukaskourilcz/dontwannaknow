@@ -1,0 +1,27 @@
+[
+  {
+    "wikidataId": "Q1146063",
+    "sentence": "V roce 1959 přišla do kin filmová pohádka **Princezna se zlatou hvězdou**."
+  },
+  {
+    "wikidataId": "Q3493011",
+    "sentence": "V roce 1957 přišla do kin filmová pohádka **Hrátky s čertem**."
+  },
+  {
+    "wikidataId": "Q738526",
+    "sentence": "V roce 1966 přišel do kin film **Ostře sledované vlaky**."
+  },
+  {
+    "wikidataId": "Q1214524",
+    "sentence": "V roce 1965 přišel do kin film **Lásky jedné plavovlásky**."
+  },
+  {
+    "wikidataId": "Q595196",
+    "sentence": "V roce 1965 přišel do kin film **Obchod na korze**, zasazený do období deportací za druhé světové války.",
+    "sensitivity": "difficult"
+  },
+  {
+    "wikidataId": "Q140447",
+    "sentence": "V roce 1973 přišla do kin filmová pohádka **Tři oříšky pro Popelku**."
+  }
+]

@@ -16,6 +16,7 @@ Nejde o životopis ani AI-generovaný příběh. Výsledek je deterministicky se
 - Ukáže, kdo stál v čele státu při narození a v dospívání — s doloženým, datovaným dobovým vnímáním, výsledky i kontroverzemi.
 - Řadí obsah podle redakčního skóre relevance (blízkost prožitku, dopad na všední den, rozpoznání, objev) vzniklého mimo běh aplikace; citlivostní a sdílecí pravidla mají vždy přednost.
 - Úplné citace záznamů jsou vedené v datové a auditní vrstvě; čtenářská plocha zůstává bez zdrojových značek.
+- Filmové premiéry z Wikidat přibližují dětské pohádky a kulturu dospívání; české názvy a původové brány zabraňují databázové nebo kulturně nepřesné výplni.
 - Porovná dva tehdejší světy vedle sebe bez soutěžního hodnocení.
 - Nabídne jiný, ale stále reprodukovatelný výběr faktů.
 - Vytvoří památeční PDF a osobní obrázky pro krajinu, příspěvek i příběh přímo v prohlížeči.
@@ -118,5 +119,6 @@ Soubor `vercel.json` zajišťuje SPA přesměrování a bezpečnostní hlavičky
 - [Kontrakt a stav Higgsfield médií](./docs/generated-media.md)
 - [Dokončené předání overhaul session](./docs/NEXT-AGENT-HANDOFF.md)
 - [Řídicí dokument pro vývojové agenty](./CLAUDE.md)
-- [Aktuální stack, kapacita a náklady](./stack-and-scaling.md)
+- [Aktuální stack, kapacita a náklady](./scaling.md)
+- [Metodika filmových premiér](./docs/data-film-premieres.md)
 - [Kroky vyžadující zásah vlastníka](./NEEDED.md)

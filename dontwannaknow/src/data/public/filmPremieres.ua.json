@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "ua-q4449768-1941",
+    "country": "ua",
+    "wikidataId": "Q4449768",
+    "title": "Tajuplný ostrov",
+    "year": 1941,
+    "decadeStart": 1940,
+    "originIds": [
+      "Q15180"
+    ],
+    "studioIds": [
+      "Q2628487"
+    ],
+    "genreIds": [
+      "Q319221",
+      "Q471839",
+      "Q2143665"
+    ],
+    "fairyTale": false,
+    "sitelinks": 10,
+    "sentence": "V roce 1941 přišel do kin film **Tajuplný ostrov**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Tajuplný ostrov",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4449768"
+    }
+  },
+  {
+    "id": "ua-q833579-1947",
+    "country": "ua",
+    "wikidataId": "Q833579",
+    "title": "Tajemství vyzvédace",
+    "year": 1947,
+    "decadeStart": 1940,
+    "originIds": [
+      "Q15180"
+    ],
+    "studioIds": [
+      "Q577589"
+    ],
+    "genreIds": [
+      "Q186424",
+      "Q369747",
+      "Q2484376"
+    ],
+    "fairyTale": false,
+    "sitelinks": 14,
+    "sentence": "V roce 1947 přišel do kin film **Tajemství vyzvédace**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Tajemství vyzvédace",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q833579"
+    }
+  },
+  {
+    "id": "ua-q4109512-1956",
+    "country": "ua",
+    "wikidataId": "Q4109512",
+    "title": "Jaro v Zarečné ulici",
+    "year": 1956,
+    "decadeStart": 1950,
+    "originIds": [
+      "Q15180"
+    ],
+    "studioIds": [
+      "Q2628487"
+    ],
+    "genreIds": [
+      "Q130232",
+      "Q1054574"
+    ],
+    "fairyTale": false,
+    "sitelinks": 15,
+    "sentence": "V roce 1956 přišel do kin film **Jaro v Zarečné ulici**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Jaro v Zarečné ulici",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4109512"
+    }
+  },
+  {
+    "id": "ua-q4349908-1963",
+    "country": "ua",
+    "wikidataId": "Q4349908",
+    "title": "První trolejbus",
+    "year": 1963,
+    "decadeStart": 1960,
+    "originIds": [
+      "Q15180"
+    ],
+    "studioIds": [
+      "Q1012251",
+      "Q2628487"
+    ],
+    "genreIds": [
+      "Q1054574",
+      "Q1146335"
+    ],
+    "fairyTale": false,
+    "sitelinks": 12,
+    "sentence": "V roce 1963 přišel do kin film **První trolejbus**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — První trolejbus",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4349908"
+    }
+  },
+  {
+    "id": "ua-q1409627-1964",
+    "country": "ua",
+    "wikidataId": "Q1409627",
+    "title": "Stíny zapomenutých předků",
+    "year": 1964,
+    "decadeStart": 1960,
+    "originIds": [
+      "Q15180"
+    ],
+    "studioIds": [
+      "Q577589"
+    ],
+    "genreIds": [
+      "Q130232",
+      "Q1054574",
+      "Q1135802"
+    ],
+    "fairyTale": false,
+    "sitelinks": 37,
+    "sentence": "V roce 1964 přišel do kin film **Stíny zapomenutých předků**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      5,
+      1,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Stíny zapomenutých předků",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q1409627"
+    }
+  },
+  {
+    "id": "ua-q2369914-1978",
+    "country": "ua",
+    "wikidataId": "Q2369914",
+    "title": "Zkouška pilota Pirxe",
+    "year": 1978,
+    "decadeStart": 1970,
+    "originIds": [
+      "Q15180"
+    ],
+    "studioIds": [
+      "Q577589",
+      "Q719998",
+      "Q8069684",
+      "Q9380471"
+    ],
+    "genreIds": [
+      "Q471839",
+      "Q2484376"
+    ],
+    "fairyTale": false,
+    "sitelinks": 19,
+    "sentence": "V roce 1978 přišel do kin film **Zkouška pilota Pirxe**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Zkouška pilota Pirxe",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q2369914"
+    }
+  },
+  {
+    "id": "ua-q4178563-1979",
+    "country": "ua",
+    "wikidataId": "Q4178563",
+    "title": "Žditě svjaznogo",
+    "year": 1979,
+    "decadeStart": 1970,
+    "originIds": [
+      "Q15180"
+    ],
+    "studioIds": [
+      "Q36824",
+      "Q577589"
+    ],
+    "genreIds": [
+      "Q130232",
+      "Q369747"
+    ],
+    "fairyTale": false,
+    "sitelinks": 3,
+    "sentence": "V roce 1979 přišel do kin film **Žditě svjaznogo**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      1,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Žditě svjaznogo",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4178563"
+    }
+  },
+  {
+    "id": "ua-q383581-1999",
+    "country": "ua",
+    "wikidataId": "Q383581",
+    "title": "Východ-Západ",
+    "year": 1999,
+    "decadeStart": 1990,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q130232",
+      "Q1054574",
+      "Q17013749"
+    ],
+    "fairyTale": false,
+    "sitelinks": 23,
+    "sentence": "V roce 1999 přišel do kin film **Východ-Západ**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Východ-Západ",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q383581"
+    }
+  },
+  {
+    "id": "ua-q4193712-2002",
+    "country": "ua",
+    "wikidataId": "Q4193712",
+    "title": "Popelka",
+    "year": 2002,
+    "decadeStart": 2000,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q157443",
+      "Q842256"
+    ],
+    "fairyTale": false,
+    "sitelinks": 7,
+    "sentence": "V roce 2002 přišel do kin film **Popelka**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      2,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Popelka",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4193712"
+    }
+  },
+  {
+    "id": "ua-q6745475-2003",
+    "country": "ua",
+    "wikidataId": "Q6745475",
+    "title": "Mamaj",
+    "year": 2003,
+    "decadeStart": 2000,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [
+      "Q577589"
+    ],
+    "genreIds": [
+      "Q17013749"
+    ],
+    "fairyTale": false,
+    "sitelinks": 9,
+    "sentence": "V roce 2003 přišel do kin ukrajinský film **Mamaj**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": true,
+    "rel": [
+      3,
+      2,
+      3,
+      2,
+      2,
+      1
+    ],
+    "src": {
+      "t": "Wikidata — Mamaj",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q6745475"
+    }
+  },
+  {
+    "id": "ua-q718475-2004",
+    "country": "ua",
+    "wikidataId": "Q718475",
+    "title": "Řidič pro Věru",
+    "year": 2004,
+    "decadeStart": 2000,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [
+      "Q161257",
+      "Q330067",
+      "Q4341103"
+    ],
+    "genreIds": [
+      "Q130232"
+    ],
+    "fairyTale": false,
+    "sitelinks": 18,
+    "sentence": "V roce 2004 přišel do kin film **Řidič pro Věru**, natočený v ukrajinské produkci.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": true,
+    "rel": [
+      3,
+      2,
+      5,
+      2,
+      2,
+      1
+    ],
+    "src": {
+      "t": "Wikidata — Řidič pro Věru",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q718475"
+    }
+  },
+  {
+    "id": "ua-q4335647-2006",
+    "country": "ua",
+    "wikidataId": "Q4335647",
+    "title": "Oranžové nebe",
+    "year": 2006,
+    "decadeStart": 2000,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q1919632"
+    ],
+    "fairyTale": false,
+    "sitelinks": 8,
+    "sentence": "V roce 2006 přišel do kin film **Oranžové nebe**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      2,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Oranžové nebe",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4335647"
+    }
+  },
+  {
+    "id": "ua-q4290526-2008",
+    "country": "ua",
+    "wikidataId": "Q4290526",
+    "title": "Las Meninas",
+    "year": 2008,
+    "decadeStart": 2000,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q459290"
+    ],
+    "fairyTale": false,
+    "sitelinks": 8,
+    "sentence": "V roce 2008 přišel do kin film **Las Meninas**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      2,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Las Meninas",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4290526"
+    }
+  },
+  {
+    "id": "ua-q7719390-2009",
+    "country": "ua",
+    "wikidataId": "Q7719390",
+    "title": "Hranice",
+    "year": 2009,
+    "decadeStart": 2000,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q93204"
+    ],
+    "fairyTale": false,
+    "sitelinks": 5,
+    "sentence": "V roce 2009 přišel do kin film **Hranice**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      1,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Hranice",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q7719390"
+    }
+  },
+  {
+    "id": "ua-q12062955-2013",
+    "country": "ua",
+    "wikidataId": "Q12062955",
+    "title": "Delirium",
+    "year": 2013,
+    "decadeStart": 2010,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q130232",
+      "Q2484376"
+    ],
+    "fairyTale": false,
+    "sitelinks": 6,
+    "sentence": "V roce 2013 přišel do kin film **Delirium**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      2,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Delirium",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q12062955"
+    }
+  },
+  {
+    "id": "ua-q4110928-2014",
+    "country": "ua",
+    "wikidataId": "Q4110928",
+    "title": "Zakázaná říše",
+    "year": 2014,
+    "decadeStart": 2010,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q157394",
+      "Q200092",
+      "Q319221",
+      "Q794912",
+      "Q1200678"
+    ],
+    "fairyTale": false,
+    "sitelinks": 21,
+    "sentence": "V roce 2014 přišel do kin film **Zakázaná říše**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Zakázaná říše",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4110928"
+    }
+  },
+  {
+    "id": "ua-q16692754-2015",
+    "country": "ua",
+    "wikidataId": "Q16692754",
+    "title": "Bitva o Sevastopol",
+    "year": 2015,
+    "decadeStart": 2010,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q130232",
+      "Q369747",
+      "Q645928",
+      "Q17013749"
+    ],
+    "fairyTale": false,
+    "sitelinks": 32,
+    "sentence": "V roce 2015 přišel do kin film **Bitva o Sevastopol**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      5,
+      1,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Bitva o Sevastopol",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q16692754"
+    }
+  },
+  {
+    "id": "ua-q22570084-2015",
+    "country": "ua",
+    "wikidataId": "Q22570084",
+    "title": "V paprscích slunce",
+    "year": 2015,
+    "decadeStart": 2010,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q93204"
+    ],
+    "fairyTale": false,
+    "sitelinks": 12,
+    "sentence": "V roce 2015 přišel do kin film **V paprscích slunce**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — V paprscích slunce",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q22570084"
+    }
+  },
+  {
+    "id": "ua-q25437054-2016",
+    "country": "ua",
+    "wikidataId": "Q25437054",
+    "title": "Podzimní vzpomínky",
+    "year": 2016,
+    "decadeStart": 2010,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q130232",
+      "Q1054574"
+    ],
+    "fairyTale": false,
+    "sitelinks": 3,
+    "sentence": "V roce 2016 přišel do kin film **Podzimní vzpomínky**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      1,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Podzimní vzpomínky",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q25437054"
+    }
+  },
+  {
+    "id": "ua-q29549882-2017",
+    "country": "ua",
+    "wikidataId": "Q29549882",
+    "title": "Mráz",
+    "year": 2017,
+    "decadeStart": 2010,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q130232",
+      "Q369747"
+    ],
+    "fairyTale": false,
+    "sitelinks": 19,
+    "sentence": "V roce 2017 přišel do kin film **Mráz**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Mráz",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q29549882"
+    }
+  },
+  {
+    "id": "ua-q30964038-2017",
+    "country": "ua",
+    "wikidataId": "Q30964038",
+    "title": "Čára",
+    "year": 2017,
+    "decadeStart": 2010,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q130232",
+      "Q959790",
+      "Q2484376"
+    ],
+    "fairyTale": false,
+    "sitelinks": 7,
+    "sentence": "V roce 2017 přišel do kin film **Čára**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      2,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Čára",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q30964038"
+    }
+  },
+  {
+    "id": "ua-q53717659-2018",
+    "country": "ua",
+    "wikidataId": "Q53717659",
+    "title": "Žena na válečné stezce",
+    "year": 2018,
+    "decadeStart": 2010,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q2484376",
+      "Q5778924"
+    ],
+    "fairyTale": false,
+    "sitelinks": 21,
+    "sentence": "V roce 2018 přišel do kin film **Žena na válečné stezce**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Žena na válečné stezce",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q53717659"
+    }
+  },
+  {
+    "id": "ua-q30963297-2019",
+    "country": "ua",
+    "wikidataId": "Q30963297",
+    "title": "Pan Jones",
+    "year": 2019,
+    "decadeStart": 2010,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q130232",
+      "Q645928",
+      "Q2484376",
+      "Q2973201"
+    ],
+    "fairyTale": false,
+    "sitelinks": 29,
+    "sentence": "V roce 2019 přišel do kin film **Pan Jones**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Pan Jones",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q30963297"
+    }
+  },
+  {
+    "id": "ua-q33101290-2019",
+    "country": "ua",
+    "wikidataId": "Q33101290",
+    "title": "Nabarvené ptáče",
+    "year": 2019,
+    "decadeStart": 2010,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [
+      "Q341134"
+    ],
+    "genreIds": [
+      "Q130232",
+      "Q369747"
+    ],
+    "fairyTale": false,
+    "sitelinks": 25,
+    "sentence": "V roce 2019 přišel do kin film **Nabarvené ptáče**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Nabarvené ptáče",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q33101290"
+    }
+  },
+  {
+    "id": "ua-q80963748-2019",
+    "country": "ua",
+    "wikidataId": "Q80963748",
+    "title": "Mé tiché myšlenky",
+    "year": 2019,
+    "decadeStart": 2010,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q130232",
+      "Q157443",
+      "Q628165"
+    ],
+    "fairyTale": false,
+    "sitelinks": 22,
+    "sentence": "V roce 2019 přišel do kin film **Mé tiché myšlenky**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Mé tiché myšlenky",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q80963748"
+    }
+  },
+  {
+    "id": "ua-q67195632-2019",
+    "country": "ua",
+    "wikidataId": "Q67195632",
+    "title": "Atlantida",
+    "year": 2019,
+    "decadeStart": 2010,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q130232"
+    ],
+    "fairyTale": false,
+    "sitelinks": 21,
+    "sentence": "V roce 2019 přišel do kin film **Atlantida**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Atlantida",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q67195632"
+    }
+  },
+  {
+    "id": "ua-q47400775-2019",
+    "country": "ua",
+    "wikidataId": "Q47400775",
+    "title": "Zlatá horda",
+    "year": 2019,
+    "decadeStart": 2010,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [
+      "Q56361714"
+    ],
+    "genreIds": [
+      "Q130232",
+      "Q319221"
+    ],
+    "fairyTale": false,
+    "sitelinks": 13,
+    "sentence": "V roce 2019 přišel do kin film **Zlatá horda**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Zlatá horda",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q47400775"
+    }
+  },
+  {
+    "id": "ua-q84267513-2020",
+    "country": "ua",
+    "wikidataId": "Q84267513",
+    "title": "Země je modrá jako pomeranč",
+    "year": 2020,
+    "decadeStart": 2020,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q93204"
+    ],
+    "fairyTale": false,
+    "sitelinks": 13,
+    "sentence": "V roce 2020 přišel do kin film **Země je modrá jako pomeranč**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Země je modrá jako pomeranč",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q84267513"
+    }
+  },
+  {
+    "id": "ua-q116542843-2023",
+    "country": "ua",
+    "wikidataId": "Q116542843",
+    "title": "20 dní v Mariupolu",
+    "year": 2023,
+    "decadeStart": 2020,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q93204",
+      "Q369747"
+    ],
+    "fairyTale": false,
+    "sitelinks": 41,
+    "sentence": "V roce 2023 přišel do kin film **20 dní v Mariupolu**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      5,
+      1,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — 20 dní v Mariupolu",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q116542843"
+    }
+  },
+  {
+    "id": "ua-q28704028-2023",
+    "country": "ua",
+    "wikidataId": "Q28704028",
+    "title": "Mavka: Strážkyně lesa",
+    "year": 2023,
+    "decadeStart": 2020,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [
+      "Q12116493",
+      "Q25432532"
+    ],
+    "genreIds": [
+      "Q157394",
+      "Q157443",
+      "Q319221",
+      "Q842256",
+      "Q1361932",
+      "Q2973181"
+    ],
+    "fairyTale": false,
+    "sitelinks": 24,
+    "sentence": "V roce 2023 přišel do kin film **Mavka: Strážkyně lesa**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Mavka: Strážkyně lesa",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q28704028"
+    }
+  },
+  {
+    "id": "ua-q122740889-2023",
+    "country": "ua",
+    "wikidataId": "Q122740889",
+    "title": "Světloplachost",
+    "year": 2023,
+    "decadeStart": 2020,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q93204"
+    ],
+    "fairyTale": false,
+    "sitelinks": 6,
+    "sentence": "V roce 2023 přišel do kin film **Světloplachost**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      2,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Světloplachost",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q122740889"
+    }
+  },
+  {
+    "id": "ua-q125999766-2024",
+    "country": "ua",
+    "wikidataId": "Q125999766",
+    "title": "Putin",
+    "year": 2024,
+    "decadeStart": 2020,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q130232",
+      "Q188473",
+      "Q959790"
+    ],
+    "fairyTale": false,
+    "sitelinks": 10,
+    "sentence": "V roce 2024 přišel do kin film **Putin**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Putin",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q125999766"
+    }
+  },
+  {
+    "id": "ua-q124445613-2024",
+    "country": "ua",
+    "wikidataId": "Q124445613",
+    "title": "Redakce",
+    "year": 2024,
+    "decadeStart": 2020,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [],
+    "fairyTale": false,
+    "sitelinks": 4,
+    "sentence": "V roce 2024 přišel do kin film **Redakce**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      1,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Redakce",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q124445613"
+    }
+  },
+  {
+    "id": "ua-q131785610-2025",
+    "country": "ua",
+    "wikidataId": "Q131785610",
+    "title": "2000 metrů do Andrijivky",
+    "year": 2025,
+    "decadeStart": 2020,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [
+      "Q40469"
+    ],
+    "genreIds": [
+      "Q93204"
+    ],
+    "fairyTale": false,
+    "sitelinks": 24,
+    "sentence": "V roce 2025 přišel do kin film **2000 metrů do Andrijivky**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — 2000 metrů do Andrijivky",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q131785610"
+    }
+  },
+  {
+    "id": "ua-q135298272-2025",
+    "country": "ua",
+    "wikidataId": "Q135298272",
+    "title": "Velký vlastenecký výlet",
+    "year": 2025,
+    "decadeStart": 2020,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [],
+    "genreIds": [
+      "Q93204",
+      "Q369747",
+      "Q628165"
+    ],
+    "fairyTale": false,
+    "sitelinks": 8,
+    "sentence": "V roce 2025 přišel do kin film **Velký vlastenecký výlet**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      2,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Velký vlastenecký výlet",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q135298272"
+    }
+  },
+  {
+    "id": "ua-q137562866-2026",
+    "country": "ua",
+    "wikidataId": "Q137562866",
+    "title": "Mavka: Pravdivá legenda",
+    "year": 2026,
+    "decadeStart": 2020,
+    "originIds": [
+      "Q212"
+    ],
+    "studioIds": [
+      "Q12116493"
+    ],
+    "genreIds": [
+      "Q517386",
+      "Q775344",
+      "Q930383",
+      "Q3634883"
+    ],
+    "fairyTale": false,
+    "sitelinks": 6,
+    "sentence": "V roce 2026 přišel do kin film **Mavka: Pravdivá legenda**.",
+    "sensitivity": "none",
+    "shareSafe": true,
+    "licence": "CC0 1.0",
+    "curated": false,
+    "rel": [
+      3,
+      1,
+      2,
+      2,
+      1,
+      0
+    ],
+    "src": {
+      "t": "Wikidata — Mavka: Pravdivá legenda",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q137562866"
+    }
+  }
+]

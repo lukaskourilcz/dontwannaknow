@@ -31,6 +31,7 @@ Samostatně jsou dostupné `npm run typecheck`, `npm run lint`, `npm test`, `npm
 - `src/lib/facts.ts` vybírá kandidátní data; `src/lib/report.ts` je skládá do kapitol a vynucuje redakční pravidla.
 - `src/lib/relevance.ts` čte build-time skóre relevance (`src/data/relevance/`, pipeline ve `scripts/relevance/`); brány citlivosti, sdílení a věku skóre vždy přebijí.
 - `src/data/leaders.json` nese zdrojované profily politických lídrů; `src/data/provenance/` per-record citace veřejných záznamů.
+- `src/data/filmPremieres/` obsahuje build-time výřez českých a ukrajinských filmů z Wikidat; běh aplikace načte jen zvolenou zemi a věkové i původové brány mají přednost před skóre.
 - `src/components/Results.tsx` vykresluje osobní cestu od narození po dospívání a znovu používá mapu, oblohu, umění i vizualizace času.
 - `src/lib/share.ts`, `src/lib/shareImage.ts` a `src/lib/pdf.ts` zajišťují soukromé sdílení, obrázky a památeční PDF přímo v prohlížeči.
 - `src/data/editorialRules.json` obsahuje ručně kontrolovatelná pravidla citlivosti a zařazení.
@@ -53,3 +54,9 @@ Na `/dev` je vývojová konzole pro procházení a úpravu JSON dat včetně red
 Aplikace je statický Vite projekt. Na Vercelu nastavte Root Directory na tuto složku (`dontwannaknow/`), build command `npm run build` a output `dist/`. Pro jiný statický hosting je nutné směrovat neznámé cesty na `index.html`.
 
 Řídicí produktová pravidla, reviewer agenti a příkazy jsou v kořenovém [`CLAUDE.md`](../CLAUDE.md). Audit redesignu a manifest nasazeného responzivního hero i zbývajících mediálních slotů jsou v [`docs/experience-overhaul.md`](../docs/experience-overhaul.md) a [`docs/generated-media.md`](../docs/generated-media.md); dokončené implementační předání je v [`docs/NEXT-AGENT-HANDOFF.md`](../docs/NEXT-AGENT-HANDOFF.md).
+
+Metodiku a regeneraci nových build-time sad popisují také samostatné dokumenty
+[`vitalsBackfill`](../docs/data-vitals-backfill.md),
+[`pricesWages`](../docs/data-prices-wages.md),
+[`birthWeather`](../docs/data-birth-weather.md) a
+[`filmPremieres`](../docs/data-film-premieres.md).
