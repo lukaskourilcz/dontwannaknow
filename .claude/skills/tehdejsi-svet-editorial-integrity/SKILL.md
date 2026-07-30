@@ -16,6 +16,7 @@ Never fabricate facts, quotes, sources, statistics, headlines, documents, photog
 - Keep political-state resolution separate from cultural and local relevance.
 - Preserve historical boundary tests and CZ/UA public scope.
 - Preserve editorial metadata for country, city, life stage, tone, sensitivity, confidence, share safety, and historical entity.
+- Preserve the P5 gates: Czech names only for an exact sourced year and matching `basis`, slang only at ages 8–25, and media milestones only in their declared early-childhood/everyday window.
 - Keep war, occupation, repression, famine, disease, mortality, Crimea, and other difficult material in the deliberately secondary wider-context chapter.
 - Never select difficult content as the default share item.
 - Keep life-in-numbers reflective and elapsed-time based; never add life-expectancy countdowns, remaining meetings, or novelty physiology.

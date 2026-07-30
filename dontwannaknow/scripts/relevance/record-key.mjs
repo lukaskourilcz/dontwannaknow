@@ -24,6 +24,12 @@ export function recordKey(dataset, record) {
       return `${record.id}|${record.template}`;
     case "filmPremieres":
       return `${record.country}|${record.wikidataId}|${record.year}|${record.title}|${record.sentence}`;
+    case "babyNames":
+      return `${record.country}|${record.year}|${record.basis}|${record.sentence}`;
+    case "slang":
+      return `${record.country}|${record.yearFrom}|${record.yearTo}|${record.phrase}|${record.sentence}`;
+    case "mediaMilestones":
+      return `${record.country}|${record.year}|${record.placement}|${record.wikidataId}|${record.sentence}`;
     default:
       throw new Error(`Neznámá datová sada: ${dataset}`);
   }

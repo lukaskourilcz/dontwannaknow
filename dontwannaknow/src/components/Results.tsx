@@ -48,6 +48,8 @@ function itemKind(item: ReportItem): string {
   if (item.category === "city") return "Místní souvislost";
   if (item.category === "local") return "Souvislost ze země";
   if (item.category === "weather") return "Počasí v době narození";
+  if (item.category === "names") return "Jména ročníku";
+  if (item.category === "slang") return "Řeč generace";
   if (["media", "film", "writers", "famous", "contemporaries"].includes(item.category)) return "Kultura";
   const labels: Partial<Record<ReportItem["category"], string>> = {
     daily: "Domácnost a rytmus dne",
@@ -68,10 +70,16 @@ function itemVariant(item: ReportItem): string {
   if (item.id.startsWith("fallback-")) return "missing";
   if (item.metadata.sensitivity === "difficult") return "difficult";
   if (item.category === "city") return "local";
-  if (["media", "film", "writers", "famous", "contemporaries"].includes(item.category)) return "culture";
+  if (["media", "film", "slang", "writers", "famous", "contemporaries"].includes(item.category)) return "culture";
   if (item.metadata.chapter === "different-from-today") return "contrast";
   if (item.metadata.featured) return "featured";
   return "standard";
+}
+
+function sourceLicenceUrl(licence: string | undefined): string | undefined {
+  if (licence === "CC BY 4.0") return "https://creativecommons.org/licenses/by/4.0/";
+  if (licence === "CC BY-SA 4.0") return "https://creativecommons.org/licenses/by-sa/4.0/";
+  return undefined;
 }
 
 /** Hloubka na vyžádání jen u lídrů: řádek se rozbalí do strukturovaného
@@ -111,6 +119,32 @@ function ItemCard({ item }: { item: ReportItem }) {
             {item.source.publisher ?? item.source.title}
           </a>
           {" "}· rekonstrukce Copernicus C3S ERA5
+        </small>
+      )}
+      {(
+        ["names", "slang"].includes(item.category) ||
+        (item.category === "media" && item.source?.licence?.startsWith("CC BY"))
+      ) && item.source?.url && (
+        <small className="item-source">
+          Zdroj:{" "}
+          <a href={item.source.url} target="_blank" rel="noreferrer">
+            {item.source.publisher ?? item.source.title}
+          </a>
+          {item.source.attribution ? ` · ${item.source.attribution}` : ""}
+          {item.source.licence && (
+            <>
+              {" · "}
+              {sourceLicenceUrl(item.source.licence) ? (
+                <a
+                  href={sourceLicenceUrl(item.source.licence)}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {item.source.licence}
+                </a>
+              ) : item.source.licence}
+            </>
+          )}
         </small>
       )}
       <ItemDepth item={item} />

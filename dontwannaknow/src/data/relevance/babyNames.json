@@ -1,0 +1,197 @@
+{
+ "promptVersion": "relevance-v1",
+ "model": "codex-gpt-5",
+ "scoredAt": "2026-07-30",
+ "passes": {
+  "A": [
+   "livedProximity",
+   "everydayConsequence",
+   "consequenceHorizon"
+  ],
+  "B": [
+   "recognition",
+   "discovery"
+  ],
+  "C": [
+   "explanatoryPayload"
+  ]
+ },
+ "records": [
+  {
+   "key": "cz|2010|hlášení|Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jan, Jakub a Tomáš nebo Tereza, Eliška a Adéla.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Celostátní jmenný vzorec byl generačně blízký, ale každodennost určoval jen okrajově.",
+    "B": "Známá jména ročník rozpozná; jejich přesné pořadí je méně známý detail.",
+    "C": "Pořadí jmen dokresluje ročník, ale nevysvětluje širší mechanismus každodennosti."
+   }
+  },
+  {
+   "key": "cz|2011|hlášení|Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Tomáš nebo Tereza, Eliška a Adéla.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Celostátní jmenný vzorec byl generačně blízký, ale každodennost určoval jen okrajově.",
+    "B": "Známá jména ročník rozpozná; jejich přesné pořadí je méně známý detail.",
+    "C": "Pořadí jmen dokresluje ročník, ale nevysvětluje širší mechanismus každodennosti."
+   }
+  },
+  {
+   "key": "cz|2012|hlášení|Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Tomáš nebo Eliška, Tereza a Adéla.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Celostátní jmenný vzorec byl generačně blízký, ale každodennost určoval jen okrajově.",
+    "B": "Známá jména ročník rozpozná; jejich přesné pořadí je méně známý detail.",
+    "C": "Pořadí jmen dokresluje ročník, ale nevysvětluje širší mechanismus každodennosti."
+   }
+  },
+  {
+   "key": "cz|2013|hlášení|Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Tomáš nebo Eliška, Tereza a Adéla.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Celostátní jmenný vzorec byl generačně blízký, ale každodennost určoval jen okrajově.",
+    "B": "Známá jména ročník rozpozná; jejich přesné pořadí je méně známý detail.",
+    "C": "Pořadí jmen dokresluje ročník, ale nevysvětluje širší mechanismus každodennosti."
+   }
+  },
+  {
+   "key": "cz|2014|hlášení|Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Tomáš nebo Eliška, Tereza a Anna.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Celostátní jmenný vzorec byl generačně blízký, ale každodennost určoval jen okrajově.",
+    "B": "Známá jména ročník rozpozná; jejich přesné pořadí je méně známý detail.",
+    "C": "Pořadí jmen dokresluje ročník, ale nevysvětluje širší mechanismus každodennosti."
+   }
+  },
+  {
+   "key": "cz|2015|hlášení|Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Adam nebo Eliška, Tereza a Anna.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Celostátní jmenný vzorec byl generačně blízký, ale každodennost určoval jen okrajově.",
+    "B": "Známá jména ročník rozpozná; jejich přesné pořadí je méně známý detail.",
+    "C": "Pořadí jmen dokresluje ročník, ale nevysvětluje širší mechanismus každodennosti."
+   }
+  },
+  {
+   "key": "cz|2016|hlášení|Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Adam nebo Eliška, Tereza a Anna.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Celostátní jmenný vzorec byl generačně blízký, ale každodennost určoval jen okrajově.",
+    "B": "Známá jména ročník rozpozná; jejich přesné pořadí je méně známý detail.",
+    "C": "Pořadí jmen dokresluje ročník, ale nevysvětluje širší mechanismus každodennosti."
+   }
+  },
+  {
+   "key": "cz|2017|hlášení|Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Adam nebo Eliška, Anna a Tereza.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Celostátní jmenný vzorec byl generačně blízký, ale každodennost určoval jen okrajově.",
+    "B": "Známá jména ročník rozpozná; jejich přesné pořadí je méně známý detail.",
+    "C": "Pořadí jmen dokresluje ročník, ale nevysvětluje širší mechanismus každodennosti."
+   }
+  },
+  {
+   "key": "cz|2018|hlášení|Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Matyáš nebo Eliška, Anna a Tereza.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Celostátní jmenný vzorec byl generačně blízký, ale každodennost určoval jen okrajově.",
+    "B": "Známá jména ročník rozpozná; jejich přesné pořadí je méně známý detail.",
+    "C": "Pořadí jmen dokresluje ročník, ale nevysvětluje širší mechanismus každodennosti."
+   }
+  },
+  {
+   "key": "cz|2019|hlášení|Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Matyáš nebo Eliška, Anna a Tereza.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Celostátní jmenný vzorec byl generačně blízký, ale každodennost určoval jen okrajově.",
+    "B": "Známá jména ročník rozpozná; jejich přesné pořadí je méně známý detail.",
+    "C": "Pořadí jmen dokresluje ročník, ale nevysvětluje širší mechanismus každodennosti."
+   }
+  },
+  {
+   "key": "cz|2023|registr|Mezi lidmi narozenými na území Česka v roce 2023 dnes nejčastěji potkáte nositele jmen Jakub, Matyáš a Jan nebo Eliška, Viktorie a Anna.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 1,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 2
+   },
+   "rationales": {
+    "A": "Celostátní jmenný vzorec byl generačně blízký, ale každodennost určoval jen okrajově.",
+    "B": "Známá jména ročník rozpozná; jejich přesné pořadí je méně známý detail.",
+    "C": "Pořadí jmen dokresluje ročník, ale nevysvětluje širší mechanismus každodennosti."
+   }
+  }
+ ]
+}

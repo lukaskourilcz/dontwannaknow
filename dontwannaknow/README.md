@@ -32,6 +32,7 @@ Samostatně jsou dostupné `npm run typecheck`, `npm run lint`, `npm test`, `npm
 - `src/lib/relevance.ts` čte build-time skóre relevance (`src/data/relevance/`, pipeline ve `scripts/relevance/`); brány citlivosti, sdílení a věku skóre vždy přebijí.
 - `src/data/leaders.json` nese zdrojované profily politických lídrů; `src/data/provenance/` per-record citace veřejných záznamů.
 - `src/data/filmPremieres/` obsahuje build-time výřez českých a ukrajinských filmů z Wikidat; běh aplikace načte jen zvolenou zemi a věkové i původové brány mají přednost před skóre.
+- `src/data/babyNames/`, `slang/` a `mediaMilestones/` drží malé citované sady P5; jména jsou jen česká, slang má věkové okno 8–25 a mediální milníky se dělí mezi první roky a běžný den.
 - `src/components/Results.tsx` vykresluje osobní cestu od narození po dospívání a znovu používá mapu, oblohu, umění i vizualizace času.
 - `src/lib/share.ts`, `src/lib/shareImage.ts` a `src/lib/pdf.ts` zajišťují soukromé sdílení, obrázky a památeční PDF přímo v prohlížeči.
 - `src/data/editorialRules.json` obsahuje ručně kontrolovatelná pravidla citlivosti a zařazení.
@@ -59,4 +60,5 @@ Metodiku a regeneraci nových build-time sad popisují také samostatné dokumen
 [`vitalsBackfill`](../docs/data-vitals-backfill.md),
 [`pricesWages`](../docs/data-prices-wages.md),
 [`birthWeather`](../docs/data-birth-weather.md) a
-[`filmPremieres`](../docs/data-film-premieres.md).
+[`filmPremieres`](../docs/data-film-premieres.md) a
+[`formative reserve`](../docs/data-formative-reserve.md).

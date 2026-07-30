@@ -1,0 +1,7 @@
+[
+  { "id": "ua-kruto", "country": "ua", "yearFrom": 1990, "yearTo": 2026, "phrase": "kruto", "sentence": "Slovo „kruto“ mohlo v neformální ukrajinštině vyjadřovat obdiv: něco bylo velmi dobré nebo působivé.", "evidence": "published-meaning-editorial-period", "licence": "CC BY-SA 4.0" },
+  { "id": "ua-chuvak", "country": "ua", "yearFrom": 1990, "yearTo": 2026, "phrase": "čuvak", "sentence": "Neformální oslovení „čuvak“ odpovídalo českému „týpek“ nebo „kámoš“.", "evidence": "published-meaning-editorial-period", "licence": "CC BY-SA 4.0" },
+  { "id": "ua-mobilka", "country": "ua", "yearFrom": 2000, "yearTo": 2026, "phrase": "mobilka", "sentence": "Mobilnímu telefonu se v neformální ukrajinštině říkalo zkráceně „mobilka“.", "evidence": "published-meaning-editorial-period", "licence": "CC BY-SA 4.0" },
+  { "id": "ua-selfi", "country": "ua", "yearFrom": 2012, "yearTo": 2026, "phrase": "selfi", "sentence": "V době chytrých telefonů se pro vlastní fotografii rozšířilo slovo „selfi“.", "evidence": "published-meaning-editorial-period", "licence": "CC BY-SA 4.0" },
+  { "id": "ua-mem", "country": "ua", "yearFrom": 2010, "yearTo": 2026, "phrase": "mem", "sentence": "Internetový obrázek nebo nápad, který se rychle šířil a obměňoval, se označoval slovem „mem“.", "evidence": "published-meaning-editorial-period", "licence": "CC BY-SA 4.0" }
+]

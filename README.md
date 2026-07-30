@@ -15,8 +15,9 @@ Nejde o životopis ani AI-generovaný příběh. Výsledek je deterministicky se
 - Ukáže věkové milníky, změny hranic, dobové umění a při celém datu narození skutečně vypočtenou oblohu.
 - Ukáže, kdo stál v čele státu při narození a v dospívání — s doloženým, datovaným dobovým vnímáním, výsledky i kontroverzemi.
 - Řadí obsah podle redakčního skóre relevance (blízkost prožitku, dopad na všední den, rozpoznání, objev) vzniklého mimo běh aplikace; citlivostní a sdílecí pravidla mají vždy přednost.
-- Úplné citace záznamů jsou vedené v datové a auditní vrstvě; čtenářská plocha zůstává bez zdrojových značek.
+- Úplné citace záznamů jsou vedené v datové a auditní vrstvě; čtenářská plocha ukazuje jen atribuce, které licence nebo metodika potřebují.
 - Filmové premiéry z Wikidat přibližují dětské pohádky a kulturu dospívání; české názvy a původové brány zabraňují databázové nebo kulturně nepřesné výplni.
+- České ročníky jmen, doložená řeč generace a milníky vysílání doplňují osobní kontext; metoda ČSÚ, věkové brány a národní řezy brání nepřesnému zobecnění.
 - Porovná dva tehdejší světy vedle sebe bez soutěžního hodnocení.
 - Nabídne jiný, ale stále reprodukovatelný výběr faktů.
 - Vytvoří památeční PDF a osobní obrázky pro krajinu, příspěvek i příběh přímo v prohlížeči.
@@ -121,4 +122,5 @@ Soubor `vercel.json` zajišťuje SPA přesměrování a bezpečnostní hlavičky
 - [Řídicí dokument pro vývojové agenty](./CLAUDE.md)
 - [Aktuální stack, kapacita a náklady](./scaling.md)
 - [Metodika filmových premiér](./docs/data-film-premieres.md)
+- [Metodika jmen, řeči generace a milníků vysílání](./docs/data-formative-reserve.md)
 - [Kroky vyžadující zásah vlastníka](./NEEDED.md)

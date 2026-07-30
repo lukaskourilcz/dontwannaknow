@@ -2,6 +2,21 @@
 
 Stav k 22. červenci 2026. Soubor původně vznikl před restartem Codex CLI a navazující relace podle něj dokončila testy, exportní QA, browser kontrolu, výkonovou dokumentaci i závěrečné opravy. Dva ručně dodané Higgsfield Web výstupy byly následně bezpečně optimalizovány a nasazeny jako responzivní landing hero.
 
+## Aktualizace datových fází k 30. červenci 2026
+
+- P1 `vitalsBackfill`, P2 `pricesWages`, P3 `birthWeather`, P4
+  `filmPremieres` a P5 `babyNames`/`slang`/`mediaMilestones` jsou dokončené
+  build-time sady s veřejnými řezy, skóre, per-record citacemi, auditem a
+  testy.
+- P5 odstranilo z veřejného běhu staticky importovaný interní `media.json`.
+  Původní americký slang i globální jména zůstávají zachované jen jako archiv.
+- Česká jména rozlišují hlášení a registr, Ukrajina nemá vymyšlenou náhradu.
+  Slang má tvrdé věkové okno 8–25 a mediální milníky 3–10 nebo 0–18 podle
+  cílové kapitoly.
+- Detailní kontrakt a regenerace jsou v `docs/data-formative-reserve.md`.
+- P6 `cityImages` se nesmí spustit bez výslovného rozhodnutí vlastníka o
+  přibližně až 32 MB commitnutých derivátů; otevřený úkol je v `NEEDED.md`.
+
 ## Kde navázat
 
 - Git repozitář: kořen tohoto repozitáře

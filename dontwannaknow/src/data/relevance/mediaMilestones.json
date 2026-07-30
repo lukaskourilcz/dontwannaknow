@@ -1,0 +1,981 @@
+{
+ "promptVersion": "relevance-v1",
+ "model": "codex-gpt-5",
+ "scoredAt": "2026-07-30",
+ "passes": {
+  "A": [
+   "livedProximity",
+   "everydayConsequence",
+   "consequenceHorizon"
+  ],
+  "B": [
+   "recognition",
+   "discovery"
+  ],
+  "C": [
+   "explanatoryPayload"
+  ]
+ },
+ "records": [
+  {
+   "key": "cz|1953|everyday-day|Q98280808|Od roku 1953 se k rozhlasu a kinu přidalo pravidelné televizní vysílání; zpočátku šlo o jediný program a přijímač měla jen část domácností.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Počátek vysílání je generačně rozpoznatelný a jeho konkrétní uspořádání může překvapit.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "cz|1958|everyday-day|Q9356534|Od roku 1958 přinesly Televizní noviny pravidelný večerní obraz domácích i zahraničních událostí přímo do obývacích pokojů.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Značku či pořad si velká část generace vybaví; přesné datum spuštění bývá méně známé.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "cz|1965|early-childhood|Q662197|Od roku 1965 uzavíral dětský televizní čas Večerníček; krátká pohádka dostala stálé místo před večerním programem.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Značku či pořad si velká část generace vybaví; přesné datum spuštění bývá méně známé.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "cz|1970|everyday-day|Q98280809|V roce 1970 přibyl druhý televizní program, takže si domácnosti poprvé mohly vybírat mezi dvěma souběžnými nabídkami.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Počátek vysílání je generačně rozpoznatelný a jeho konkrétní uspořádání může překvapit.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "cz|1973|everyday-day|Q98280809|V roce 1973 začal druhý program vysílat barevně; barevný přijímač se pak do domácností šířil postupně, nikoli naráz.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Počátek vysílání je generačně rozpoznatelný a jeho konkrétní uspořádání může překvapit.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "cz|1981|early-childhood|Q12056751|Studio Kamarád od roku 1981 spojovalo o víkendových ránech pohádky, seriály a živé vstupy do jednoho dětského bloku.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Značku či pořad si velká část generace vybaví; přesné datum spuštění bývá méně známé.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "cz|1984|early-childhood|Q12034888|Dětský Magion od poloviny osmdesátých let propojoval soutěže, scénky a seriály v pravidelném televizním magazínu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Značku či pořad si velká část generace vybaví; přesné datum spuštění bývá méně známé.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "cz|1990|everyday-day|Q13427203|V roce 1990 začal vysílat okruh OK3 a televizní nabídka se rozšířila o další program sestavený i ze zahraničních pořadů.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|1990|everyday-day|Q13427205|Česká televize ČTV od roku 1990 oddělila český program od federálního okruhu a změnila večerní volbu domácností.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|1990|everyday-day|Q13427207|Federální program F1 od roku 1990 doplnil nově uspořádanou nabídku Československé televize.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|1993|everyday-day|Q2109750|V roce 1993 přibyla do české televizní nabídky dnešní Prima a rozšířila výběr mimo veřejnoprávní programy.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|1993|everyday-day|Q3101530|Od roku 1993 nesl druhý veřejnoprávní okruh název ČT2 a soustředil se více na dokumenty, kulturu a menšinové žánry.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Značku či pořad si velká část generace vybaví; přesné datum spuštění bývá méně známé.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|1993|everyday-day|Q3176909|Od roku 1993 pokračoval hlavní veřejnoprávní program jako ČT1, už v samostatné České republice.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Značku či pořad si velká část generace vybaví; přesné datum spuštění bývá méně známé.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|1994|everyday-day|Q605419|Start TV Nova v roce 1994 výrazně rozšířil celoplošné komerční vysílání a proměnil skladbu hlavního večerního času.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Značku či pořad si velká část generace vybaví; přesné datum spuštění bývá méně známé.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "cz|2000|everyday-day|Q7672102|TV3 od roku 2000 krátce rozšířila výběr celoplošně zaměřených komerčních programů.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|2002|everyday-day|Q293543|Hudební stanice Óčko od roku 2002 nabízela videoklipy a pořady zaměřené hlavně na mladší publikum po celý den.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|2002|everyday-day|Q3503899|Od roku 2002 se část sportovních přenosů přesouvala na samostatný placený kanál, později známý jako Nova Sport.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|2005|everyday-day|Q3593801|ČT24 od roku 2005 zpřístupnila průběžné televizní zpravodajství i mimo pevně stanovené večerní relace.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Značku či pořad si velká část generace vybaví; přesné datum spuštění bývá méně známé.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "cz|2006|everyday-day|Q3494350|ČT sport od roku 2006 soustředil přenosy na samostatný veřejnoprávní program a uvolnil místo na hlavních kanálech.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|2007|everyday-day|Q7064030|Nova Cinema od roku 2007 nabídla samostatný filmový program místo čekání na film v hlavním vysílacím schématu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|2009|everyday-day|Q3290902|TV Barrandov od roku 2009 přidala další celoplošně dostupný komerční program.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|2009|everyday-day|Q3502739|Prima Cool od roku 2009 vyčlenila seriály, filmy a zábavu pro mladší publikum na samostatný kanál.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|2009|everyday-day|Q8079652|Spuštění ČT HD v roce 2009 přineslo části domácností veřejnoprávní pořady ve vysokém rozlišení.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|2010|everyday-day|Q16532129|Od roku 2010 byl hlavní program ČT1 dostupný také ve vysokém rozlišení, pokud na něj domácí příjem dosáhl.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 3,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Značku či pořad si velká část generace vybaví; přesné datum spuštění bývá méně známé.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|2011|everyday-day|Q7243012|Prima Love od roku 2011 soustředila romantické seriály a filmy na tematický kanál.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|2012|everyday-day|Q5357944|Od roku 2012 přibyl tematický kanál dnešní Nova Action se sportem, seriály a akční zábavou.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|2013|early-childhood|Q7070286|Dětský kanál ČT :D od roku 2013 nabídl dětem vlastní denní program oddělený od vysílání pro dospělé.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "cz|2013|everyday-day|Q7070408|Večerní ČT art od roku 2013 vyhradil samostatný prostor divadlu, hudbě, filmu a výtvarnému umění.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|2013|everyday-day|Q7360758|Prima Zoom od roku 2013 zpřístupnila dokumentární pořady v samostatném celodenním programu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "cz|2020|everyday-day|Q88361978|Na jaře 2020 spustila Česká televize dočasnou ČT3 se staršími pořady, určenou zejména lidem trávícím více času doma.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|1924|everyday-day|Q848966|Pravidelné Ukrajinské rádio začalo v roce 1924 vysílat z Charkova; společné zprávy, hudba a mluvené pořady tak mohly vstoupit do domácností.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Regionální vysílání mělo přímý místní dosah, mimo danou oblast ale slabší dopad.",
+    "B": "Počátek vysílání je generačně rozpoznatelný a jeho konkrétní uspořádání může překvapit.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "ua|1951|everyday-day|Q2113961|Také kyjevské profesionální televizní centrum začalo vysílat v roce 1951; první programy měly jen omezený místní dosah.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Regionální vysílání mělo přímý místní dosah, mimo danou oblast ale slabší dopad.",
+    "B": "Počátek vysílání je generačně rozpoznatelný a jeho konkrétní uspořádání může překvapit.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|1951|everyday-day|Q2113961|V roce 1951 se v Charkově uskutečnilo rané místní televizní vysílání, ještě dříve než vznikla propojená celoukrajinská síť.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Regionální vysílání mělo přímý místní dosah, mimo danou oblast ale slabší dopad.",
+    "B": "Počátek vysílání je generačně rozpoznatelný a jeho konkrétní uspořádání může překvapit.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|1960|everyday-day|Q2113961|Na začátku šedesátých let fungovalo na Ukrajině jedenáct televizních studií, ale bez společné sítě připravovala každá hlavně vlastní místní program.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Regionální vysílání mělo přímý místní dosah, mimo danou oblast ale slabší dopad.",
+    "B": "Počátek vysílání je generačně rozpoznatelný a jeho konkrétní uspořádání může překvapit.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|1964|early-childhood|Q12089047|Od roku 1964 provázela děti ukrajinsky vyprávěná Večerní pohádka s dědou Panasem, pravidelný klidný bod před spaním.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Značku či pořad si velká část generace vybaví; přesné datum spuštění bývá méně známé.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "ua|1965|everyday-day|Q2113961|V roce 1965 propojilo Ukrajinské televizní vysílání studia ve dvaceti oblastech a místní obrazovky poprvé dostaly společný republikový program.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 3,
+    "discovery": 3,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Regionální vysílání mělo přímý místní dosah, mimo danou oblast ale slabší dopad.",
+    "B": "Počátek vysílání je generačně rozpoznatelný a jeho konkrétní uspořádání může překvapit.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "ua|1989|everyday-day|Q4051576|Stanice Tonis od konce osmdesátých let předznamenala pestřejší televizní nabídku mimo tradiční státní okruhy.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|1991|everyday-day|Q2113961|Po vyhlášení nezávislosti pokračoval hlavní celostátní program jako UT-1 a začal se měnit v televizi samostatné Ukrajiny.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Značku či pořad si velká část generace vybaví; přesné datum spuštění bývá méně známé.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "ua|1991|everyday-day|Q4500204|Záporožský kanál Chortycja od roku 1991 rozšířil místní televizní nabídku mimo kyjevské vysílání.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Regionální vysílání mělo přímý místní dosah, mimo danou oblast ale slabší dopad.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|1992|everyday-day|Q4041002|ICTV od roku 1992 rozšiřovala soukromé televizní vysílání o filmy, seriály a zpravodajství.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|1992|everyday-day|Q4448952|TET začal v roce 1992 jako kyjevská stanice a přidal k veřejným okruhům další zábavní program.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Regionální vysílání mělo přímý místní dosah, mimo danou oblast ale slabší dopad.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|1992|everyday-day|Q4468391|V roce 1992 přibyl druhý státní program UT-2, takže domácnosti získaly další ukrajinskou programovou volbu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Druhý státní program rozšířil celostátní nabídku; dopad se týkal hlavně domácností sledujících televizní vysílání.",
+    "B": "UT-2 si vybaví část tehdejšího publika; rok spuštění je pro běžného čtenáře méně známý detail.",
+    "C": "Rozšíření na dva státní programy ukazuje proměnu domácí mediální nabídky po vzniku samostatného státu."
+   }
+  },
+  {
+   "key": "ua|1993|everyday-day|Q7878580|Kanál Ukraina od roku 1993 rozvíjel komerční vysílání nejprve regionálně a později pro širší publikum.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|1994|everyday-day|Q4448884|Záporožská TV5 od roku 1994 rozšířila regionální zpravodajství a pořady dostupné místním domácnostem.",
+   "scores": {
+    "livedProximity": 2,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Regionální vysílání mělo přímý místní dosah, mimo danou oblast ale slabší dopad.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|1995|everyday-day|Q161257|Televize 1+1 od roku 1995 přinesla do hlavního vysílacího času další soukromou nabídku filmů, seriálů a publicistiky.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Značku či pořad si velká část generace vybaví; přesné datum spuštění bývá méně známé.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "ua|1996|everyday-day|Q2914786|Inter od roku 1996 posílil soutěž celostátních komerčních televizí o večerní publikum.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Značku či pořad si velká část generace vybaví; přesné datum spuštění bývá méně známé.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "ua|1997|everyday-day|Q2032137|STB od roku 1997 rozšířila celostátní televizní výběr o další zpravodajské a zábavní pořady.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|1998|everyday-day|Q2638833|Nový kanál od roku 1998 zaměřoval velkou část seriálů a zábavy na mladší publikum.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|1999|everyday-day|Q7279927|Parlamentní kanál Rada od roku 1999 umožnil televizně sledovat jednání a dění v zákonodárném sboru.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|2001|everyday-day|Q4273254|Hudební M1 od roku 2001 nabízel videoklipy a pořady pro mladé publikum v samostatném programu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|2003|everyday-day|Q2987894|Pátý kanál od roku 2003 rozšířil průběžné televizní zpravodajství mimo tradiční večerní relace.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|2003|everyday-day|Q4246615|Veřejnoprávní Kultura od roku 2003 vyhradila samostatný prostor divadlu, hudbě, literatuře a dokumentům.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|2005|everyday-day|Q4206192|K2 od roku 2005 přidala další tematickou nabídku seriálů, pořadů pro domácnost a zábavy.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|2006|everyday-day|Q2078431|Kanál 2+2 od roku 2006 soustředil část sportu, seriálů a filmů do samostatné programové nabídky.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|2006|everyday-day|Q4030314|Kanál 24 od roku 2006 zpřístupnil nepřetržitější televizní zpravodajství během celého dne.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|2007|everyday-day|Q7232088|Hudební M2 od roku 2007 vyhradil samostatný prostor ukrajinské i zahraniční populární hudbě.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|2010|everyday-day|Q4286576|Mega od roku 2010 soustředila dokumentární a poznávací pořady na tematický kanál.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  },
+  {
+   "key": "ua|2012|early-childhood|Q4334737|Dětský kanál PlusPlus od roku 2012 nabídl animované a vzdělávací pořady v samostatném denním programu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "ua|2013|everyday-day|Q15280975|Internetová televize Hromadske od roku 2013 ukázala, že živé zpravodajství lze sledovat mimo klasické vysílací frekvence.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 4
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Značku či pořad si velká část generace vybaví; přesné datum spuštění bývá méně známé.",
+    "C": "Věta vysvětluje, jak nový pořad či síť změnily rytmus domácího sledování."
+   }
+  },
+  {
+   "key": "ua|2013|everyday-day|Q15689802|Espreso od roku 2013 rozšířilo nabídku průběžných zpráv v televizi i na internetu.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 2,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní vysílání rozšířilo domácí programovou volbu a působilo nejméně několik let.",
+    "B": "Tematický kanál zná část publika; rok vzniku přináší jen dílčí nový detail.",
+    "C": "Milník ukazuje přesun konkrétního obsahu na samostatný program a proměnu nabídky."
+   }
+  }
+ ]
+}

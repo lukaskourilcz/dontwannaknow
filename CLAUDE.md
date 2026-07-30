@@ -41,9 +41,10 @@ Records are ranked by six independent, build-time relevance axes committed as JS
 - Generators and audits: `dontwannaknow/scripts/`
 - Product/design audit: `docs/experience-overhaul.md`
 - Generated-media contract: `docs/generated-media.md`
+- Build-time names, slang, and broadcast milestones: `docs/data-formative-reserve.md`
 - Completed overhaul handoff: `docs/NEXT-AGENT-HANDOFF.md`
 - Next-phase brief (relevance scoring, sources, report modernization): `docs/fable-brief.md`
-- Architecture and operations: `README.md`, `DOCS.md`, `stack-and-scaling.md`, `NEEDED.md`
+- Architecture and operations: `README.md`, `DOCS.md`, `scaling.md`, `NEEDED.md`
 
 ## Commands
 

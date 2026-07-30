@@ -1,0 +1,309 @@
+{
+ "promptVersion": "relevance-v1",
+ "model": "codex-gpt-5",
+ "scoredAt": "2026-07-30",
+ "passes": {
+  "A": [
+   "livedProximity",
+   "everydayConsequence",
+   "consequenceHorizon"
+  ],
+  "B": [
+   "recognition",
+   "discovery"
+  ],
+  "C": [
+   "explanatoryPayload"
+  ]
+ },
+ "records": [
+  {
+   "key": "cz|1920|1995|čundr|V neformální češtině se výpravě do přírody s batohem říkalo „čundr“; výraz patřil hlavně k trampskému prostředí.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "cz|1920|2026|prachy|V běžné neformální řeči se penězům říkalo „prachy“ — výraz přežil několik měn i generací.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "cz|1945|2026|fajn|Krátké „fajn“ v neformální češtině znamenalo, že je něco dobré nebo v pořádku.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "cz|1950|2026|kámoš|Kamarádovi se v neformální řeči často říkalo „kámoš“; podoba patřila hlavně do mluveného jazyka.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "cz|1950|2026|šprt|Školní slang označoval slovem „šprt“ spolužáka, který se učil nápadně pilně.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "cz|1960|2026|borec|Slovo „borec“ se v neformální řeči posunulo od zápasníka také k obdivnému označení schopného člověka.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "cz|1960|2026|vejška|Studenti a mladí lidé říkali vysoké škole zkráceně „vejška“.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "cz|1980|2026|pecka|V neformální řeči mohla být „pecka“ také povedená píseň, film nebo jiná výrazná věc.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "cz|1980|2026|trapas|Nepříjemné nebo zahanbující situaci se mezi mladými běžně říkalo „trapas“.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "cz|1985|2026|pařba|Výraz „pařba“ označoval hlučnější večírek, později také dlouhé hraní počítačových her.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "cz|1990|2020|hustý|Od devadesátých let mohlo „hustý“ v řeči mladých znamenat nejen opak řídkého, ale i něco výrazného nebo obdivuhodného.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "cz|1995|2026|haluz|Překvapivé náhodě nebo bizarní situaci se v části neformální řeči říkalo „haluz“.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "cz|1995|2026|socka|Slovo „socka“ se v neformální řeči používalo pro sociální dávku, sociální síť i znevažující označení člověka; význam určoval kontext.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 4,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "ua|1990|2026|kruto|Slovo „kruto“ mohlo v neformální ukrajinštině vyjadřovat obdiv: něco bylo velmi dobré nebo působivé.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "ua|1990|2026|čuvak|Neformální oslovení „čuvak“ odpovídalo českému „týpek“ nebo „kámoš“.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "ua|2000|2026|mobilka|Mobilnímu telefonu se v neformální ukrajinštině říkalo zkráceně „mobilka“.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "ua|2010|2026|mem|Internetový obrázek nebo nápad, který se rychle šířil a obměňoval, se označoval slovem „mem“.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  },
+  {
+   "key": "ua|2012|2026|selfi|V době chytrých telefonů se pro vlastní fotografii rozšířilo slovo „selfi“.",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 2,
+    "consequenceHorizon": 2,
+    "recognition": 3,
+    "discovery": 2,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní neformální výraz vstupoval do běžné řeči, jeho generační trvání však bylo omezené.",
+    "B": "Výraz je pro místní generaci rozpoznatelný, vysvětlení významu přináší spíše mírný objev.",
+    "C": "Význam jednoho výrazu zpřítomňuje neformální řeč dané generace."
+   }
+  }
+ ]
+}

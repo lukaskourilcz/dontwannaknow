@@ -139,6 +139,42 @@ describe("hard gates beat maximum relevance scores", () => {
     expect(day?.items.some((item) => (item.relevance?.discovery ?? 0) >= 4)).toBe(true);
   });
 
+  it("guarantees a money or media item in everyday-day when one passed the gates", () => {
+    const daily: Fact[] = Array.from({ length: 7 }, (_, index) => ({
+      category: "daily",
+      text: `Silný každodenní kandidát ${index + 1}.`,
+      metadata: metadata(),
+      relevance: scores(4),
+    }));
+    const money: Fact = {
+      category: "money",
+      text: "Níže skórovaný, ale doložený cenový kontext.",
+      metadata: metadata({ chapter: "different-from-today" }),
+      relevance: scores(0),
+    };
+    const chapters = withSeededRandom("money-media-mix-test", () =>
+      composeChapters(person, [...daily, money], context),
+    );
+    const day = chapters.find((chapter) => chapter.id === "everyday-day");
+    expect(day?.items).toHaveLength(6);
+    expect(day?.items.some((item) => ["money", "media"].includes(item.category))).toBe(true);
+  });
+
+  it("degrades silently when no money or media candidate passed the gates", () => {
+    const daily: Fact[] = Array.from({ length: 6 }, (_, index) => ({
+      category: "daily",
+      text: `Každodenní kandidát bez zvláštního mixu ${index + 1}.`,
+      metadata: metadata(),
+      relevance: scores(3),
+    }));
+    const chapters = withSeededRandom("missing-money-media-test", () =>
+      composeChapters(person, daily, context),
+    );
+    const day = chapters.find((chapter) => chapter.id === "everyday-day");
+    expect(day?.items).toHaveLength(6);
+    expect(day?.items.every((item) => !["money", "media"].includes(item.category))).toBe(true);
+  });
+
   it("never opens the context chapter with a difficult record, whatever its score", () => {
     const difficult = annotateFact(
       { category: "world", year: 1968, text: "Zemi zasáhla invaze a okupace armád." },

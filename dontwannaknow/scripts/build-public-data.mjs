@@ -39,6 +39,8 @@ async function loadProvenance(dataset) {
         t: record.title,
         ...(record.publisher ? { p: record.publisher } : {}),
         ...(record.url ? { u: record.url } : {}),
+        ...(record.licence ? { l: record.licence } : {}),
+        ...(record.attribution ? { a: record.attribution } : {}),
       },
     ]));
   } catch {
@@ -46,14 +48,19 @@ async function loadProvenance(dataset) {
   }
 }
 
-async function withExtras(records, dataset) {
+async function withExtras(records, dataset, includeSourceDetail = false) {
   const relevance = await loadRelevance(dataset);
   const provenance = await loadProvenance(dataset);
   return records.map((record) => {
     const key = recordKey(dataset, record);
     const rel = relevance.get(key);
     const src = provenance.get(key);
-    return { ...record, ...(rel ? { rel } : {}), ...(src ? { src } : {}) };
+    const compactSource = src
+      ? includeSourceDetail
+        ? src
+        : { t: src.t, ...(src.p ? { p: src.p } : {}), ...(src.u ? { u: src.u } : {}) }
+      : undefined;
+    return { ...record, ...(rel ? { rel } : {}), ...(compactSource ? { src: compactSource } : {}) };
   });
 }
 
@@ -122,6 +129,11 @@ const pricesWagesUa = await withExtras(await readJson("pricesWages/ua.json"), "p
 const weatherTemplates = await withExtras(await readJson("weatherTemplates.json"), "weatherTemplates");
 const filmPremieresCz = await withExtras(await readJson("filmPremieres/cz.json"), "filmPremieres");
 const filmPremieresUa = await withExtras(await readJson("filmPremieres/ua.json"), "filmPremieres");
+const babyNamesCz = await withExtras(await readJson("babyNames/cz.json"), "babyNames", true);
+const slangCz = await withExtras(await readJson("slang/cz.json"), "slang", true);
+const slangUa = await withExtras(await readJson("slang/ua.json"), "slang", true);
+const mediaMilestonesCz = await withExtras(await readJson("mediaMilestones/cz.json"), "mediaMilestones", true);
+const mediaMilestonesUa = await withExtras(await readJson("mediaMilestones/ua.json"), "mediaMilestones", true);
 
 const generated = {
   "cities.json": cities,
@@ -150,6 +162,11 @@ const generated = {
   "weatherTemplates.json": weatherTemplates,
   "filmPremieres.cz.json": filmPremieresCz,
   "filmPremieres.ua.json": filmPremieresUa,
+  "babyNames.cz.json": babyNamesCz,
+  "slang.cz.json": slangCz,
+  "slang.ua.json": slangUa,
+  "mediaMilestones.cz.json": mediaMilestonesCz,
+  "mediaMilestones.ua.json": mediaMilestonesUa,
 };
 
 if (process.argv.includes("--check")) {
