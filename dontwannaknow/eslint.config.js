@@ -5,6 +5,14 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 import tseslint from 'typescript-eslint'
 import { globalIgnores } from 'eslint/config'
 
+const reactHooksCoreRules = {
+  plugins: { 'react-hooks': reactHooks },
+  rules: {
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
+  },
+}
+
 export default tseslint.config([
   globalIgnores(['dist']),
   {
@@ -12,7 +20,7 @@ export default tseslint.config([
     extends: [
       js.configs.recommended,
       tseslint.configs.recommended,
-      reactHooks.configs['recommended-latest'],
+      reactHooksCoreRules,
       reactRefresh.configs.vite,
     ],
     languageOptions: {
