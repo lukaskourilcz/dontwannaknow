@@ -17,6 +17,7 @@ Veřejné rozhraní je pouze česky. Podporovaný rozsah je od roku 1920 do aktu
 7. Složitý obsah se nevyskytuje v prvních položkách, není za sebou, zůstává v samostatné sbalené kapitole a nesmí být výchozí sdílenou kartou.
 8. Varianta zprávy je součástí seedu i sdíleného stavu, takže „Ukázat jiný výběr“ zůstává reprodukovatelné.
 9. Lídři formativních let (`src/data/leaders.json`) se zobrazují jako strukturovaná vizitka s datovaným, citovaným dobovým vnímáním; politické profily se nikdy nesdílejí.
+10. Před-1960 demografický kontext se načítá z národního řezu `vitalsBackfill`; metodika, licence a záměrně vyřazené upstreamy jsou v [`docs/data-vitals-backfill.md`](./docs/data-vitals-backfill.md).
 
 ## Historický kontext
 
@@ -41,7 +42,7 @@ Vercel Analytics nedostává vlastní události s profilem a `beforeSend` odstra
 
 ## Výkon
 
-Formulář načte samostatný malý katalog měst, ne velký městský archiv. Veřejné moduly používají generovanou `src/data/public` vrstvu pouze pro CZ/UA, dělenou na běhové řezy: městská fakta po městech (`public/cityFacts/<město>.json`) a národní sady po zemích (`<sada>.cz|ua.json`). Zpráva tak načítá jen řezy dané osoby — datový chunk zprávy je ~25 kB místo dřívějších ~135 kB a vstupní chunk prvního vykreslení data neobsahuje vůbec. `Results`, mapa, obloha, umění a číselné vizualizace jsou lazy-loaded; PDF stack až při exportu. Produkční build vypisuje aktuální velikosti chunků, které je třeba sledovat při rozšiřování dat.
+Formulář načte samostatný malý katalog měst, ne velký městský archiv. Veřejné moduly používají generovanou `src/data/public` vrstvu pouze pro CZ/UA, dělenou na běhové řezy: městská fakta po městech (`public/cityFacts/<město>.json`) a národní sady po zemích (`<sada>.cz|ua.json`). Stejný vzor používá `vitalsBackfill`, takže se stáhne pouze soubor zvolené země. Zpráva tak načítá jen řezy dané osoby — datový chunk zprávy je ~25 kB místo dřívějších ~135 kB a vstupní chunk prvního vykreslení data neobsahuje vůbec. `Results`, mapa, obloha, umění a číselné vizualizace jsou lazy-loaded; PDF stack až při exportu. Produkční build vypisuje aktuální velikosti chunků, které je třeba sledovat při rozšiřování dat.
 
 ## Redakční data a `/dev`
 

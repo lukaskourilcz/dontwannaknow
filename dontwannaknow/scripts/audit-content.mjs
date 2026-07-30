@@ -279,6 +279,7 @@ const relevanceDatasets = {
   famousPeople: ["famousPeople.cz.json", "famousPeople.ua.json"],
   leaders: ["leaders.cz.json", "leaders.ua.json"],
   inventions: ["inventions.json"],
+  vitalsBackfill: ["vitals.cz.json", "vitals.ua.json"],
 };
 
 // Každá veřejná sada s dobovým textem musí projít skórováním. Sady, které
@@ -415,6 +416,33 @@ for (const [dataset, publicFiles] of Object.entries(relevanceDatasets)) {
         errors.push(`${label}: URL nezačíná http(s).`);
       }
     }
+  }
+}
+
+// ── P1: dlouhé řady životních podmínek ────────────────────────────────
+{
+  const allowedLicences = new Set(["CC BY 3.0 IGO", "CC BY 4.0"]);
+  const allowedUpstreams = new Set(["UN WPP", "HMD", "Gapminder"]);
+  const vitals = [];
+  for (const filename of ["vitals.cz.json", "vitals.ua.json"]) {
+    const content = await readFile(new URL(`../src/data/public/${filename}`, import.meta.url), "utf8").catch(() => null);
+    if (content) vitals.push(...JSON.parse(content));
+  }
+  for (const [index, record] of vitals.entries()) {
+    const label = `public/vitals[${index}]`;
+    if (!["cz", "ua"].includes(record.country)) errors.push(`${label}: nepodporovaná země.`);
+    if (!["lifeExpectancy", "childMortality"].includes(record.series)) {
+      errors.push(`${label}: neznámá řada „${record.series}“.`);
+    }
+    if (!Number.isInteger(record.year) || record.year < 1920 || record.year >= 1960) {
+      errors.push(`${label}: rok neleží v rozsahu backfillu 1920–1959.`);
+    }
+    if (record.country === "ua" && record.year < 1950) {
+      errors.push(`${label}: ukrajinská řada nesmí obsahovat hodnotu před rokem 1950.`);
+    }
+    if (!Number.isFinite(record.value)) errors.push(`${label}: hodnota není číslo.`);
+    if (!allowedUpstreams.has(record.upstream)) errors.push(`${label}: upstream není v allowlistu P1.`);
+    if (!allowedLicences.has(record.licence)) errors.push(`${label}: licence není v allowlistu P1.`);
   }
 }
 

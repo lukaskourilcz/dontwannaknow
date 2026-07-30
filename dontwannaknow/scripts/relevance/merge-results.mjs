@@ -24,6 +24,7 @@ function args(flag) {
 const batchesDirs = args("--batches");
 const resultsDirs = args("--results");
 const scoredAt = arg("--scored-at") ?? new Date().toISOString().slice(0, 10);
+const model = arg("--model") ?? "claude-fable-5";
 const keepExisting = process.argv.includes("--keep-existing");
 if (!batchesDirs.length || batchesDirs.length !== resultsDirs.length) {
   console.error("Použití: merge-results.mjs --batches <dir> --results <dir> [--batches … --results …]");
@@ -123,7 +124,7 @@ for (const [dataset, list] of byDataset) {
     new URL(`${dataset}.json`, outDir),
     `${JSON.stringify({
       promptVersion: PROMPT_VERSION,
-      model: "claude-fable-5",
+      model,
       scoredAt,
       passes: Object.fromEntries(Object.entries(PASSES).map(([id, pass]) => [id, pass.axes])),
       records: combined,

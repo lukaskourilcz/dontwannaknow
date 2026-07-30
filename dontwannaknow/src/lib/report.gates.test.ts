@@ -168,6 +168,40 @@ describe("hard gates beat maximum relevance scores", () => {
     expect(generationContext?.items.length).toBeGreaterThan(1);
     expect(generationContext?.items[0]?.metadata.sensitivity).not.toBe("difficult");
   });
+
+  it("keeps a 1947 child-mortality item out of sharing and away from index zero", () => {
+    const mortality: Fact = {
+      category: "illness",
+      year: 1947,
+      text: "Z dětí narozených v roce 1947 se části nepodařilo dožít pěti let.",
+      metadata: metadata({
+        chapter: "generation-context",
+        sensitivity: "mild",
+        tone: "serious",
+        shareSafe: false,
+        mayOpen: false,
+      }),
+      relevance: scores(5),
+      shareSafe: false,
+      sensitivity: "mild",
+      mayOpen: false,
+    };
+    const lead: Fact = {
+      category: "government",
+      year: 1947,
+      text: "První položka širších souvislostí bez citlivého zdravotního údaje.",
+      metadata: metadata({ chapter: "generation-context", shareSafe: false }),
+      relevance: scores(1),
+    };
+    const reportPerson = makePerson({ birthYear: 1947 });
+    const chapters = withSeededRandom("mortality-gate-test", () =>
+      composeChapters(reportPerson, [mortality, lead], context),
+    );
+    const contextItems = chapters.find((chapter) => chapter.id === "generation-context")?.items ?? [];
+    expect(contextItems.map((item) => item.text)).toContain(mortality.text);
+    expect(contextItems[0]?.text).not.toBe(mortality.text);
+    expect(selectShareItem(chapters)?.text).not.toBe(mortality.text);
+  });
 });
 
 describe("chapter „Tehdy a dnes“ never ships bare product names", () => {

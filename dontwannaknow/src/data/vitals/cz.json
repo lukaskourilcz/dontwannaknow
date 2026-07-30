@@ -1,0 +1,82 @@
+[
+  {
+    "country": "cz",
+    "series": "lifeExpectancy",
+    "year": 1950,
+    "value": 64.41,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO"
+  },
+  {
+    "country": "cz",
+    "series": "lifeExpectancy",
+    "year": 1951,
+    "value": 65.27,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO"
+  },
+  {
+    "country": "cz",
+    "series": "lifeExpectancy",
+    "year": 1952,
+    "value": 66.86,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO"
+  },
+  {
+    "country": "cz",
+    "series": "lifeExpectancy",
+    "year": 1953,
+    "value": 67.55,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO"
+  },
+  {
+    "country": "cz",
+    "series": "lifeExpectancy",
+    "year": 1954,
+    "value": 68.05,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO"
+  },
+  {
+    "country": "cz",
+    "series": "lifeExpectancy",
+    "year": 1955,
+    "value": 68.98,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO"
+  },
+  {
+    "country": "cz",
+    "series": "lifeExpectancy",
+    "year": 1956,
+    "value": 69.37,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO"
+  },
+  {
+    "country": "cz",
+    "series": "lifeExpectancy",
+    "year": 1957,
+    "value": 69.03,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO"
+  },
+  {
+    "country": "cz",
+    "series": "lifeExpectancy",
+    "year": 1958,
+    "value": 69.97,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO"
+  },
+  {
+    "country": "cz",
+    "series": "lifeExpectancy",
+    "year": 1959,
+    "value": 69.89,
+    "upstream": "UN WPP",
+    "licence": "CC BY 3.0 IGO"
+  }
+]

@@ -16,6 +16,8 @@ export function recordKey(dataset, record) {
       return `${record.year}|${record.name}`;
     case "leaders":
       return record.id;
+    case "vitalsBackfill":
+      return `${record.country}|${record.series}|${record.year}|${record.value}|${record.upstream}`;
     default:
       throw new Error(`Neznámá datová sada: ${dataset}`);
   }

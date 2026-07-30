@@ -13,6 +13,7 @@ import { eventsForCountry, loadCountryEvents } from "../data/countryEvents";
 import { cityFactsFor } from "../data/cities";
 import { findCity } from "../data/cityCatalog";
 import { loadWorldBank, worldBankFor, worldBankLatest } from "../data/worldBank";
+import { loadVitals, vitalsFor, type VitalRecord } from "../data/vitals";
 import { contemporariesFor, loadWikidataPeople } from "../data/wikidataPeople";
 import { mediaFor } from "../data/media";
 import { writersAtBirth } from "../data/writers";
@@ -85,11 +86,13 @@ export type Fact = {
   sensitivity?: "none" | "mild" | "difficult";
   /** Datový zákaz sdílení (false nejde ničím přebít). */
   shareSafe?: boolean;
+  /** Datový zákaz otevření kapitoly (např. statistika dětské úmrtnosti). */
+  mayOpen?: boolean;
   /** Strukturovaný profil lídra pro „malou vizitku“ ve zprávě. */
   leader?: Leader;
 };
 
-type RawFact = Pick<Fact, "category" | "text" | "year" | "stage" | "relevance" | "source" | "sourceConfidence" | "sensitivity" | "shareSafe" | "leader">;
+type RawFact = Pick<Fact, "category" | "text" | "year" | "stage" | "relevance" | "source" | "sourceConfidence" | "sensitivity" | "shareSafe" | "mayOpen" | "leader">;
 
 /** Převod kompaktních běhových metadat záznamu (rel/src) na tvar Fact. */
 function extras(record: { rel?: number[]; src?: { t: string; p?: string; u?: string } }): Pick<Fact, "relevance" | "source"> {
@@ -325,6 +328,38 @@ function buildReport(person: Person, cityEvents: Awaited<ReturnType<typeof cityF
 
   const facts: RawFact[] = [];
 
+  const vitalSentence = (record: VitalRecord): RawFact => {
+    const territory = person.country === "CZ"
+      ? "na území dnešního Česka"
+      : "na území dnešní Ukrajiny";
+    if (record.series === "childMortality") {
+      return {
+        category: "illness",
+        year: record.year,
+        text: `Z dětí narozených v roce ${record.year} ${territory} se podle dlouhodobé demografické řady věku pěti let nedožilo zhruba ${record.value.toLocaleString("cs-CZ", { maximumFractionDigits: 1 })} procenta.`,
+        relevance: record.relevance,
+        source: record.source,
+        sourceConfidence: "verified",
+        sensitivity: "mild",
+        shareSafe: false,
+        mayOpen: false,
+      };
+    }
+    const latest = worldBankLatest(person.country, "lifeExp");
+    const comparison = latest
+      ? ` Nejnovější dostupná hodnota Světové banky je zhruba ${Math.round(latest.value)} let.`
+      : "";
+    return {
+      category: "local",
+      year: record.year,
+      text: `V roce ${record.year} byla ${territory} naděje dožití při narození podle tehdejších demografických poměrů zhruba ${Math.round(record.value)} let.${comparison}`,
+      relevance: record.relevance,
+      source: record.source,
+      sourceConfidence: "verified",
+      shareSafe: true,
+    };
+  };
+
   // ── City-specific events during the formative years ─────────────────
   if (city) {
     const formativeCityEvents = cityEvents.filter((event) => event.year <= birthYear + 18);
@@ -472,6 +507,7 @@ function buildReport(person: Person, cityEvents: Awaited<ReturnType<typeof cityF
   }
 
   // ── Country-specific texture, famous people, and local events ───────
+  facts.push(...vitalsFor(person.country, birthYear).map(vitalSentence));
   facts.push(...countryFacts(person));
 
   // ── Hlavy státu a lídři formativních let (strukturované profily) ─────
@@ -531,6 +567,7 @@ export async function reportFor(person: Person, excludeWorld = false): Promise<P
     loadFamousPeople(person.country),
     loadWikidataPeople(person.country),
     loadWorldBank(person.country),
+    loadVitals(person.country),
   ]);
   return withSeededRandom(seed, () => buildReport(person, cityEvents, leaders, excludeWorld));
 }

@@ -21,6 +21,8 @@ if (outFlag === -1 || !process.argv[outFlag + 1]) {
 }
 const outDir = process.argv[outFlag + 1];
 const onlyMissing = process.argv.includes("--only-missing");
+const datasetFlag = process.argv.indexOf("--dataset");
+const selectedDataset = datasetFlag === -1 ? undefined : process.argv[datasetFlag + 1];
 
 const publicDir = new URL("../../src/data/public/", import.meta.url);
 const readJson = async (name) => JSON.parse(await readFile(new URL(name, publicDir), "utf8"));
@@ -41,6 +43,10 @@ async function loadRecords() {
   const famous = [...await readJson("famousPeople.cz.json"), ...await readJson("famousPeople.ua.json")];
   const leaders = [...await readJson("leaders.cz.json").catch(() => []), ...await readJson("leaders.ua.json").catch(() => [])];
   const inventions = await readJson("inventions.json").catch(() => []);
+  const vitals = [
+    ...await readJson("vitals.cz.json").catch(() => []),
+    ...await readJson("vitals.ua.json").catch(() => []),
+  ];
 
   const records = [];
   for (const [country, list] of [["CZ", cityCz], ["UA", cityUa]]) {
@@ -86,15 +92,33 @@ async function loadRecords() {
       text: `${r.name} — ${r.office}${r.summary ? `: ${r.summary}` : ""}`,
     });
   }
+  for (const r of vitals) {
+    const territory = r.country === "cz"
+      ? "na území dnešního Česka"
+      : "na území dnešní Ukrajiny";
+    const text = r.series === "lifeExpectancy"
+      ? `V roce ${r.year} byla ${territory} naděje dožití při narození podle tehdejších demografických poměrů zhruba ${Math.round(r.value)} let.`
+      : `Z dětí narozených v roce ${r.year} ${territory} se věku pěti let nedožilo zhruba ${r.value.toLocaleString("cs-CZ")} procenta.`;
+    records.push({
+      dataset: "vitalsBackfill",
+      key: recordKey("vitalsBackfill", r),
+      country: r.country.toUpperCase(),
+      year: r.year,
+      text,
+    });
+  }
   return records;
 }
 
 const BATCH_SIZES = { A: 50, B: 60, C: 100 };
 
 let records = await loadRecords();
+if (selectedDataset) {
+  records = records.filter((record) => record.dataset === selectedDataset);
+}
 if (onlyMissing) {
   const scored = new Set();
-  for (const dataset of ["cityFacts", "countryEvents", "countryDecades", "famousPeople", "leaders"]) {
+  for (const dataset of ["cityFacts", "countryEvents", "countryDecades", "famousPeople", "leaders", "vitalsBackfill"]) {
     const sidecar = await readFile(new URL(`../../src/data/relevance/${dataset}.json`, import.meta.url), "utf8")
       .then(JSON.parse)
       .catch(() => null);

@@ -27,6 +27,7 @@
   { "dataset": "education", "source": "Historické řady UNESCO, OECD a národních statistických úřadů", "confidence": "review-needed", "publicRuntime": false },
   { "dataset": "writers", "source": "Interní kurátorovaná literární rešerše", "confidence": "review-needed", "publicRuntime": true },
   { "dataset": "worldBank", "source": "World Bank Open Data", "url": "https://data.worldbank.org/", "confidence": "verified", "publicRuntime": true },
+  { "dataset": "vitalsBackfill", "source": "UN World Population Prospects, Human Mortality Database a Gapminder; zpracování Our World in Data", "url": "https://ourworldindata.org/grapher/life-expectancy", "confidence": "verified", "publicRuntime": true, "notes": "Pouze upstreamy s ověřenou otevřenou licencí; ukrajinská řada začíná rokem 1950." },
   { "dataset": "wikidataPeople", "source": "Wikidata", "url": "https://www.wikidata.org/", "confidence": "verified", "publicRuntime": true },
   { "dataset": "artByDecade", "source": "The Metropolitan Museum of Art a Art Institute of Chicago", "url": "https://www.metmuseum.org/art/collection", "confidence": "verified", "publicRuntime": true },
   { "dataset": "cityCatalog", "source": "Interní katalog dnešních měst a dobových názvů", "confidence": "review-needed", "publicRuntime": true },

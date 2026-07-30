@@ -1,0 +1,341 @@
+{
+ "promptVersion": "relevance-v1",
+ "model": "codex-gpt-5",
+ "scoredAt": "2026-07-30",
+ "passes": {
+  "A": [
+   "livedProximity",
+   "everydayConsequence",
+   "consequenceHorizon"
+  ],
+  "B": [
+   "recognition",
+   "discovery"
+  ],
+  "C": [
+   "explanatoryPayload"
+  ]
+ },
+ "records": [
+  {
+   "key": "cz|lifeExpectancy|1950|64.41|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "cz|lifeExpectancy|1951|65.27|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "cz|lifeExpectancy|1952|66.86|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "cz|lifeExpectancy|1953|67.55|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "cz|lifeExpectancy|1954|68.05|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "cz|lifeExpectancy|1955|68.98|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "cz|lifeExpectancy|1956|69.37|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "cz|lifeExpectancy|1957|69.03|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "cz|lifeExpectancy|1958|69.97|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "cz|lifeExpectancy|1959|69.89|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "ua|lifeExpectancy|1950|61.17|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "ua|lifeExpectancy|1951|61.36|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "ua|lifeExpectancy|1952|62.07|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "ua|lifeExpectancy|1953|63.02|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "ua|lifeExpectancy|1954|64.13|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "ua|lifeExpectancy|1955|65.26|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "ua|lifeExpectancy|1956|66.26|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "ua|lifeExpectancy|1957|67.17|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "ua|lifeExpectancy|1958|67.73|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  },
+  {
+   "key": "ua|lifeExpectancy|1959|68.69|UN WPP",
+   "scores": {
+    "livedProximity": 3,
+    "everydayConsequence": 3,
+    "consequenceHorizon": 4,
+    "recognition": 2,
+    "discovery": 3,
+    "explanatoryPayload": 3
+   },
+   "rationales": {
+    "A": "Celostátní demografická podmínka přímo rámovala zdraví ročníku a její dlouhodobá proměna zasáhla společnost.",
+    "B": "Přesnou hodnotu zná spíše menšina; konkrétní srovnání proto běžnému čtenáři přináší objev.",
+    "C": "Číslo zasazuje zdravotní podmínky ročníku do srozumitelného dlouhodobého příběhu."
+   }
+  }
+ ]
+}
