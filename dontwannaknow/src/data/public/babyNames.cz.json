@@ -1,0 +1,365 @@
+[
+  {
+    "id": "cz-2010",
+    "country": "cz",
+    "year": 2010,
+    "basis": "hlášení",
+    "boys": [
+      "Jan",
+      "Jakub",
+      "Tomáš"
+    ],
+    "girls": [
+      "Tereza",
+      "Eliška",
+      "Adéla"
+    ],
+    "sentence": "Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jan, Jakub a Tomáš nebo Tereza, Eliška a Adéla.",
+    "licence": "CC BY 4.0",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Statistika dětských jmen — tisková konference 30. května 2024",
+      "p": "Český statistický úřad",
+      "u": "https://statistikaamy.csu.gov.cz/soubory/statistika-a-my/2024/05/CSU-TK-Detska-jmena-prezentace.pdf",
+      "l": "CC BY 4.0",
+      "a": "Pořadí převzato beze změny; věta projektu rozlišuje hlášení a registr."
+    }
+  },
+  {
+    "id": "cz-2011",
+    "country": "cz",
+    "year": 2011,
+    "basis": "hlášení",
+    "boys": [
+      "Jakub",
+      "Jan",
+      "Tomáš"
+    ],
+    "girls": [
+      "Tereza",
+      "Eliška",
+      "Adéla"
+    ],
+    "sentence": "Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Tomáš nebo Tereza, Eliška a Adéla.",
+    "licence": "CC BY 4.0",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Statistika dětských jmen — tisková konference 30. května 2024",
+      "p": "Český statistický úřad",
+      "u": "https://statistikaamy.csu.gov.cz/soubory/statistika-a-my/2024/05/CSU-TK-Detska-jmena-prezentace.pdf",
+      "l": "CC BY 4.0",
+      "a": "Pořadí převzato beze změny; věta projektu rozlišuje hlášení a registr."
+    }
+  },
+  {
+    "id": "cz-2012",
+    "country": "cz",
+    "year": 2012,
+    "basis": "hlášení",
+    "boys": [
+      "Jakub",
+      "Jan",
+      "Tomáš"
+    ],
+    "girls": [
+      "Eliška",
+      "Tereza",
+      "Adéla"
+    ],
+    "sentence": "Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Tomáš nebo Eliška, Tereza a Adéla.",
+    "licence": "CC BY 4.0",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Statistika dětských jmen — tisková konference 30. května 2024",
+      "p": "Český statistický úřad",
+      "u": "https://statistikaamy.csu.gov.cz/soubory/statistika-a-my/2024/05/CSU-TK-Detska-jmena-prezentace.pdf",
+      "l": "CC BY 4.0",
+      "a": "Pořadí převzato beze změny; věta projektu rozlišuje hlášení a registr."
+    }
+  },
+  {
+    "id": "cz-2013",
+    "country": "cz",
+    "year": 2013,
+    "basis": "hlášení",
+    "boys": [
+      "Jakub",
+      "Jan",
+      "Tomáš"
+    ],
+    "girls": [
+      "Eliška",
+      "Tereza",
+      "Adéla"
+    ],
+    "sentence": "Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Tomáš nebo Eliška, Tereza a Adéla.",
+    "licence": "CC BY 4.0",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Statistika dětských jmen — tisková konference 30. května 2024",
+      "p": "Český statistický úřad",
+      "u": "https://statistikaamy.csu.gov.cz/soubory/statistika-a-my/2024/05/CSU-TK-Detska-jmena-prezentace.pdf",
+      "l": "CC BY 4.0",
+      "a": "Pořadí převzato beze změny; věta projektu rozlišuje hlášení a registr."
+    }
+  },
+  {
+    "id": "cz-2014",
+    "country": "cz",
+    "year": 2014,
+    "basis": "hlášení",
+    "boys": [
+      "Jakub",
+      "Jan",
+      "Tomáš"
+    ],
+    "girls": [
+      "Eliška",
+      "Tereza",
+      "Anna"
+    ],
+    "sentence": "Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Tomáš nebo Eliška, Tereza a Anna.",
+    "licence": "CC BY 4.0",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Statistika dětských jmen — tisková konference 30. května 2024",
+      "p": "Český statistický úřad",
+      "u": "https://statistikaamy.csu.gov.cz/soubory/statistika-a-my/2024/05/CSU-TK-Detska-jmena-prezentace.pdf",
+      "l": "CC BY 4.0",
+      "a": "Pořadí převzato beze změny; věta projektu rozlišuje hlášení a registr."
+    }
+  },
+  {
+    "id": "cz-2015",
+    "country": "cz",
+    "year": 2015,
+    "basis": "hlášení",
+    "boys": [
+      "Jakub",
+      "Jan",
+      "Adam"
+    ],
+    "girls": [
+      "Eliška",
+      "Tereza",
+      "Anna"
+    ],
+    "sentence": "Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Adam nebo Eliška, Tereza a Anna.",
+    "licence": "CC BY 4.0",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Statistika dětských jmen — tisková konference 30. května 2024",
+      "p": "Český statistický úřad",
+      "u": "https://statistikaamy.csu.gov.cz/soubory/statistika-a-my/2024/05/CSU-TK-Detska-jmena-prezentace.pdf",
+      "l": "CC BY 4.0",
+      "a": "Pořadí převzato beze změny; věta projektu rozlišuje hlášení a registr."
+    }
+  },
+  {
+    "id": "cz-2016",
+    "country": "cz",
+    "year": 2016,
+    "basis": "hlášení",
+    "boys": [
+      "Jakub",
+      "Jan",
+      "Adam"
+    ],
+    "girls": [
+      "Eliška",
+      "Tereza",
+      "Anna"
+    ],
+    "sentence": "Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Adam nebo Eliška, Tereza a Anna.",
+    "licence": "CC BY 4.0",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Statistika dětských jmen — tisková konference 30. května 2024",
+      "p": "Český statistický úřad",
+      "u": "https://statistikaamy.csu.gov.cz/soubory/statistika-a-my/2024/05/CSU-TK-Detska-jmena-prezentace.pdf",
+      "l": "CC BY 4.0",
+      "a": "Pořadí převzato beze změny; věta projektu rozlišuje hlášení a registr."
+    }
+  },
+  {
+    "id": "cz-2017",
+    "country": "cz",
+    "year": 2017,
+    "basis": "hlášení",
+    "boys": [
+      "Jakub",
+      "Jan",
+      "Adam"
+    ],
+    "girls": [
+      "Eliška",
+      "Anna",
+      "Tereza"
+    ],
+    "sentence": "Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Adam nebo Eliška, Anna a Tereza.",
+    "licence": "CC BY 4.0",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Statistika dětských jmen — tisková konference 30. května 2024",
+      "p": "Český statistický úřad",
+      "u": "https://statistikaamy.csu.gov.cz/soubory/statistika-a-my/2024/05/CSU-TK-Detska-jmena-prezentace.pdf",
+      "l": "CC BY 4.0",
+      "a": "Pořadí převzato beze změny; věta projektu rozlišuje hlášení a registr."
+    }
+  },
+  {
+    "id": "cz-2018",
+    "country": "cz",
+    "year": 2018,
+    "basis": "hlášení",
+    "boys": [
+      "Jakub",
+      "Jan",
+      "Matyáš"
+    ],
+    "girls": [
+      "Eliška",
+      "Anna",
+      "Tereza"
+    ],
+    "sentence": "Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Matyáš nebo Eliška, Anna a Tereza.",
+    "licence": "CC BY 4.0",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Statistika dětských jmen — tisková konference 30. května 2024",
+      "p": "Český statistický úřad",
+      "u": "https://statistikaamy.csu.gov.cz/soubory/statistika-a-my/2024/05/CSU-TK-Detska-jmena-prezentace.pdf",
+      "l": "CC BY 4.0",
+      "a": "Pořadí převzato beze změny; věta projektu rozlišuje hlášení a registr."
+    }
+  },
+  {
+    "id": "cz-2019",
+    "country": "cz",
+    "year": 2019,
+    "basis": "hlášení",
+    "boys": [
+      "Jakub",
+      "Jan",
+      "Matyáš"
+    ],
+    "girls": [
+      "Eliška",
+      "Anna",
+      "Tereza"
+    ],
+    "sentence": "Ve vašem ročníku dostávaly děti v lednovém hlášení nejčastěji jména Jakub, Jan a Matyáš nebo Eliška, Anna a Tereza.",
+    "licence": "CC BY 4.0",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Statistika dětských jmen — tisková konference 30. května 2024",
+      "p": "Český statistický úřad",
+      "u": "https://statistikaamy.csu.gov.cz/soubory/statistika-a-my/2024/05/CSU-TK-Detska-jmena-prezentace.pdf",
+      "l": "CC BY 4.0",
+      "a": "Pořadí převzato beze změny; věta projektu rozlišuje hlášení a registr."
+    }
+  },
+  {
+    "id": "cz-2023",
+    "country": "cz",
+    "year": 2023,
+    "basis": "registr",
+    "boys": [
+      "Jakub",
+      "Matyáš",
+      "Jan"
+    ],
+    "girls": [
+      "Eliška",
+      "Viktorie",
+      "Anna"
+    ],
+    "sentence": "Mezi lidmi narozenými na území Česka v roce 2023 dnes nejčastěji potkáte nositele jmen Jakub, Matyáš a Jan nebo Eliška, Viktorie a Anna.",
+    "licence": "CC BY 4.0",
+    "rel": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      2
+    ],
+    "src": {
+      "t": "Statistika dětských jmen — tisková konference 30. května 2024",
+      "p": "Český statistický úřad",
+      "u": "https://statistikaamy.csu.gov.cz/soubory/statistika-a-my/2024/05/CSU-TK-Detska-jmena-prezentace.pdf",
+      "l": "CC BY 4.0",
+      "a": "Pořadí převzato beze změny; věta projektu rozlišuje hlášení a registr."
+    }
+  }
+]

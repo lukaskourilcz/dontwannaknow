@@ -125,6 +125,16 @@ in `scoringExempt` with a reason. To register a new dataset:
   ages 3–9; teenage placement accepts films only at ages 10–17. A Czech title
   is mandatory, and an override that mentions occupation context is difficult
   and not share-safe.
+- **`babyNames`** — only exact Czech years are eligible. `basis: "hlášení"`
+  requires the birth-report sentence; `basis: "registr"` requires the
+  survivorship-safe present-register sentence. Ukraine has no runtime slice.
+- **`slang`** — a published dictionary meaning and an editorial period are
+  recorded separately. A term is eligible only when its period intersects the
+  person's ages 8–25; public reader text never carries Cyrillic.
+- **`mediaMilestones`** — child programming is eligible only at ages 3–10;
+  other broadcast milestones at ages 0–18. Records land only in
+  `early-childhood` or `everyday-day`. The latter keeps its item budget and,
+  when gated candidates exist, includes at least one money or media item.
 
 ## Changing the rubric
 

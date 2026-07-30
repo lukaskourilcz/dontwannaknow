@@ -114,10 +114,10 @@ for (const dataset of editorDatasets) {
 }
 const publicDatasets = [
   "editorialRules", "events", "countryEvents", "inventions", "cityFacts", "countryDecades",
-  "famousPeople", "leaders", "media", "writers", "worldBank", "wikidataPeople", "artByDecade",
+  "famousPeople", "leaders", "writers", "worldBank", "wikidataPeople", "artByDecade",
   "cityCatalog", "cityCoords", "countries", "stats", "stars", "worldPaths",
   "weatherTemplates", "birthWeather",
-  "filmPremieres",
+  "filmPremieres", "babyNames", "slang", "mediaMilestones",
 ];
 for (const dataset of publicDatasets) {
   const source = sourceManifest.get(dataset);
@@ -200,12 +200,117 @@ for (const filename of [
   "leaders.cz.json", "leaders.ua.json",
   "wikidataPeople.cz.json", "wikidataPeople.ua.json",
   "filmPremieres.cz.json", "filmPremieres.ua.json",
+  "slang.cz.json", "slang.ua.json",
+  "mediaMilestones.cz.json", "mediaMilestones.ua.json",
 ]) {
   const records = JSON.parse(await readFile(new URL(filename, publicDirectory), "utf8"));
   const expected = filename.includes(".cz.") ? "CZ" : "UA";
   for (const record of records) {
     if (String(record.country).toUpperCase() !== expected) {
       errors.push(`public/${filename}: nepatřičná země ${record.country}.`);
+    }
+  }
+}
+
+// ── P5: jména, řeč generace a milníky vysílání ───────────────────────
+{
+  const allowedLicences = new Set(["CC0 1.0", "CC BY 4.0", "CC BY-SA 4.0"]);
+  const readPublic = async (filename) =>
+    JSON.parse(await readFile(new URL(filename, publicDirectory), "utf8"));
+
+  const names = await readPublic("babyNames.cz.json");
+  for (const [index, record] of names.entries()) {
+    const label = `public/babyNames.cz.json[${index}]`;
+    if (record.country !== "cz" || !Number.isInteger(record.year)) {
+      errors.push(`${label}: jména musí patřit českému ročníku.`);
+    }
+    if (record.basis === "hlášení") {
+      if (!/Ve vašem ročníku.*hlášení/i.test(record.sentence ?? "") || /dnes nejčastěji potkáte/i.test(record.sentence ?? "")) {
+        errors.push(`${label}: věta z hlášení neodpovídá metodě.`);
+      }
+    } else if (record.basis === "registr") {
+      if (!/Mezi lidmi narozenými.*dnes nejčastěji potkáte/i.test(record.sentence ?? "") || /dostávaly děti/i.test(record.sentence ?? "")) {
+        errors.push(`${label}: věta z registru neodpovídá metodě.`);
+      }
+    } else {
+      errors.push(`${label}: neznámý základ „${record.basis}“.`);
+    }
+    if (!Array.isArray(record.boys) || !record.boys.length || !Array.isArray(record.girls) || !record.girls.length) {
+      errors.push(`${label}: chybí chlapecká nebo dívčí jména.`);
+    }
+    if (record.licence !== "CC BY 4.0") errors.push(`${label}: ČSÚ záznam nemá CC BY 4.0.`);
+  }
+
+  const slang = [
+    ...await readPublic("slang.cz.json"),
+    ...await readPublic("slang.ua.json"),
+  ];
+  for (const [index, record] of slang.entries()) {
+    const label = `public/slang[${index}]`;
+    if (!["cz", "ua"].includes(record.country) || !Number.isInteger(record.yearFrom) ||
+      !Number.isInteger(record.yearTo) || record.yearFrom > record.yearTo) {
+      errors.push(`${label}: neplatná země nebo časové okno.`);
+    }
+    if (record.evidence !== "published-meaning-editorial-period") {
+      errors.push(`${label}: slovníkový význam a redakční datace nejsou oddělené.`);
+    }
+    if (!String(record.phrase ?? "").trim() || !String(record.sentence ?? "").trim()) {
+      errors.push(`${label}: chybí výraz nebo česká věta.`);
+    }
+    if (/[\u0400-\u04ff]/u.test(`${record.phrase ?? ""} ${record.sentence ?? ""}`)) {
+      errors.push(`${label}: veřejný záznam obsahuje cyrilici místo české redakční vrstvy.`);
+    }
+    if (record.licence !== "CC BY-SA 4.0") errors.push(`${label}: slovníkový záznam nemá CC BY-SA 4.0.`);
+  }
+
+  const milestones = [
+    ...await readPublic("mediaMilestones.cz.json"),
+    ...await readPublic("mediaMilestones.ua.json"),
+  ];
+  for (const country of ["cz", "ua"]) {
+    const count = milestones.filter((record) => record.country === country).length;
+    if (count < 30 || count > 40) {
+      errors.push(`mediaMilestones ${country.toUpperCase()}: očekáváno 30–40 záznamů, nalezeno ${count}.`);
+    }
+  }
+  for (const [index, record] of milestones.entries()) {
+    const label = `public/mediaMilestones[${index}]`;
+    if (!["cz", "ua"].includes(record.country) || !Number.isInteger(record.year)) {
+      errors.push(`${label}: neplatná země nebo rok.`);
+    }
+    if (!["early-childhood", "everyday-day"].includes(record.placement)) {
+      errors.push(`${label}: neplatné umístění kapitoly.`);
+    }
+    if (!/^Q\d+$/.test(String(record.wikidataId ?? ""))) {
+      errors.push(`${label}: chybí Wikidata kontrolní bod.`);
+    }
+    if (!String(record.sentence ?? "").trim() || /[\u0400-\u04ff]/u.test(record.sentence ?? "")) {
+      errors.push(`${label}: chybí česká redakční věta nebo obsahuje cyrilici.`);
+    }
+    if (!allowedLicences.has(record.licence)) errors.push(`${label}: licence není v allowlistu.`);
+    if (record.shareSafe !== true) errors.push(`${label}: lehký mediální milník musí mít výslovnou sdílecí klasifikaci.`);
+  }
+
+  for (const dataset of ["babyNames", "slang", "mediaMilestones"]) {
+    const provenance = JSON.parse(
+      await readFile(new URL(`../src/data/provenance/${dataset}.json`, import.meta.url), "utf8")
+        .catch(() => "{\"records\":[]}"),
+    );
+    const records = dataset === "babyNames" ? names : dataset === "slang" ? slang : milestones;
+    const expectedKeys = new Set(records.map((record) => recordKey(dataset, record)));
+    const citations = new Map((provenance.records ?? []).map((record) => [record.key, record]));
+    for (const key of expectedKeys) {
+      const citation = citations.get(key);
+      if (!citation) {
+        errors.push(`provenance/${dataset}.json: chybí citace záznamu ${key.slice(0, 60)}….`);
+        continue;
+      }
+      if (!allowedLicences.has(citation.licence)) {
+        errors.push(`provenance/${dataset}.json: licence „${citation.licence}“ není v allowlistu.`);
+      }
+      if (/^CC BY(?:-SA)? /.test(citation.licence) && !String(citation.attribution ?? "").trim()) {
+        errors.push(`provenance/${dataset}.json: licence ${citation.licence} vyžaduje atribuci.`);
+      }
     }
   }
 }
@@ -286,6 +391,9 @@ const relevanceDatasets = {
   pricesWages: ["pricesWages.cz.json", "pricesWages.ua.json"],
   weatherTemplates: ["weatherTemplates.json"],
   filmPremieres: ["filmPremieres.cz.json", "filmPremieres.ua.json"],
+  babyNames: ["babyNames.cz.json"],
+  slang: ["slang.cz.json", "slang.ua.json"],
+  mediaMilestones: ["mediaMilestones.cz.json", "mediaMilestones.ua.json"],
 };
 
 // Každá veřejná sada s dobovým textem musí projít skórováním. Sady, které

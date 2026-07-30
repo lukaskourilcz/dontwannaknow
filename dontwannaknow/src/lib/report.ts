@@ -10,6 +10,8 @@ export type FactSource = {
   title: string;
   publisher?: string;
   url?: string;
+  licence?: string;
+  attribution?: string;
 };
 
 export type FactTone = "warm" | "playful" | "neutral" | "serious";
@@ -99,6 +101,8 @@ const chapterForCategory: Record<FactCategory, ReportChapterId> = {
   weather: "birth",
   film: "teenage-years",
   media: "teenage-years",
+  names: "early-childhood",
+  slang: "teenage-years",
   writers: "teenage-years",
   famous: "teenage-years",
   contemporaries: "teenage-years",
@@ -119,7 +123,7 @@ function scopeForCategory(category: FactCategory): GeographicScope {
 const SENSITIVITY_SEVERITY: Record<FactSensitivity, number> = { none: 0, mild: 1, difficult: 2 };
 
 export function annotateFact(
-  fact: Pick<Fact, "category" | "text" | "year" | "stage" | "relevance" | "source" | "sourceConfidence" | "sensitivity" | "shareSafe" | "mayOpen" | "leader">,
+  fact: Pick<Fact, "category" | "text" | "year" | "stage" | "chapterHint" | "relevance" | "source" | "sourceConfidence" | "sensitivity" | "shareSafe" | "mayOpen" | "leader">,
   context: ResolvedHistoricalContext,
 ): Fact {
   const override = EDITORIAL_RULES.find(({ matcher }) => matcher.test(fact.text))?.rule;
@@ -136,7 +140,7 @@ export function annotateFact(
   const metadata: EditorialMetadata = {
     tone: override?.tone ?? (difficult || seriousCategory ? "serious" : positiveCategory ? "warm" : fact.category === "bizarre" ? "playful" : "neutral"),
     sensitivity,
-    chapter: override?.chapter ?? chapterForCategory[fact.category],
+    chapter: fact.chapterHint ?? override?.chapter ?? chapterForCategory[fact.category],
     // Datový zákaz sdílení (fact.shareSafe === false) nejde ničím přebít.
     shareSafe: (override?.shareSafe ?? (!difficult && !["illness", "government", "world"].includes(fact.category)))
       && (fact.shareSafe ?? true),
@@ -203,20 +207,31 @@ const MIX_THRESHOLD = 4;
  * nevěděl/a“), pokud je brány vůbec pustily. Nikdy nezačíná obtížným záznamem,
  * existuje-li jiná možnost. Pracuje výhradně nad množinou, která už prošla
  * všemi filtry — záruka nikdy neobejde brány. */
-function ensureMix(ordered: Fact[], count: number): Fact[] {
+function ensureMix(
+  ordered: Fact[],
+  count: number,
+  requiredCategoryGroups: FactCategory[][] = [],
+): Fact[] {
   const selected = ordered.slice(0, count);
-  const rest = ordered.slice(count);
-  const has = (axis: "recognition" | "discovery", list: Fact[] = selected) =>
-    list.some((fact) => (fact.relevance?.[axis] ?? 0) >= MIX_THRESHOLD);
+  const guarantees: Array<(fact: Fact) => boolean> = [
+    (fact) => (fact.relevance?.recognition ?? 0) >= MIX_THRESHOLD,
+    (fact) => (fact.relevance?.discovery ?? 0) >= MIX_THRESHOLD,
+    ...requiredCategoryGroups.map((categories) => {
+      const allowed = new Set(categories);
+      return (fact: Fact) => allowed.has(fact.category);
+    }),
+  ];
 
-  for (const axis of ["recognition", "discovery"] as const) {
-    if (has(axis)) continue;
-    const candidate = rest.find((fact) => (fact.relevance?.[axis] ?? 0) >= MIX_THRESHOLD);
+  for (const guarantee of guarantees) {
+    if (selected.some(guarantee)) continue;
+    const candidate = ordered.find((fact) => !selected.includes(fact) && guarantee(fact));
     if (!candidate) continue;
-    const other = axis === "recognition" ? "discovery" : "recognition";
     for (let index = selected.length - 1; index >= 0; index -= 1) {
-      const withoutIndex = selected.filter((_, position) => position !== index);
-      if (!has(other) || has(other, withoutIndex)) {
+      const replacement = selected.map((fact, position) =>
+        position === index ? candidate : fact);
+      const preservesSatisfiedGuarantees = guarantees.every((otherGuarantee) =>
+        !selected.some(otherGuarantee) || replacement.some(otherGuarantee));
+      if (preservesSatisfiedGuarantees) {
         selected[index] = candidate;
         break;
       }
@@ -248,6 +263,7 @@ function take(
     exclude?: Set<string>;
     predicate?: (fact: Fact) => boolean;
     chapter?: ReportChapterId;
+    requiredCategoryGroups?: FactCategory[][];
   } = {},
 ): ReportItem[] {
   const rank = new Map(categories.map((category, index) => [category, index]));
@@ -293,7 +309,8 @@ function take(
     .sort((a, b) => b.sortKey - a.sortKey)
     .map((entry) => entry.fact);
 
-  return ensureMix(orderedPool, count).map((fact) => toItem(fact, birthYear));
+  return ensureMix(orderedPool, count, options.requiredCategoryGroups)
+    .map((fact) => toItem(fact, birthYear));
 }
 
 function avoidConsecutiveDifficult(items: ReportItem[]): ReportItem[] {
@@ -389,19 +406,21 @@ export function composeChapters(
     }),
     ...birthWeather,
   ];
-  const early = choose("early-childhood", ["city", "clothes", "film"], 5, {
+  const early = choose("early-childhood", ["city", "clothes", "film", "media", "names"], 5, {
     safeOnly: true,
+    requiredCategoryGroups: [["names"]],
     predicate: (fact) =>
       fact.stage !== "teenage-era" &&
       (fact.category !== "film" || fact.stage === "birth-era") &&
       (fact.year === undefined ||
         (fact.year >= person.birthYear && fact.year <= person.birthYear + 10)),
   });
-  const day = choose("everyday-day", ["daily", "food", "money", "clothes"], 6, {
+  const day = choose("everyday-day", ["daily", "food", "money", "media", "clothes"], 6, {
     predicate: (fact) => fact.stage !== "teenage-era",
+    requiredCategoryGroups: [["money", "media"]],
   });
   const teen = [
-    ...choose("teenage-years", ["media", "film"], 3, {
+    ...choose("teenage-years", ["slang", "film"], 3, {
       predicate: (fact) => fact.stage !== "birth-era",
     }),
     ...choose("teenage-years", ["famous", "contemporaries", "writers"], 4, {

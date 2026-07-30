@@ -29,11 +29,12 @@ jazycích a animovaný náhled byl nahraný znovu z aktuálního designu.
 
 ## Právní a redakční rozhodnutí
 
+- [ ] **Rozhodnout o městských fotografiích P6** — Potvrdit nebo odmítnout commitnutí odvozených fotografií pro zhruba 20 měst; horní odhad je 32 MB. Bez výslovného souhlasu se P6 nespouští. `[imp:3]` `[owner:me]` `[time:30m]` `[kind:decision]`
 
 ## Volitelné po získání reálného provozu
 
 
-Aktuální cenový a kapacitní model je v [`stack-and-scaling.md`](./stack-and-scaling.md). Částky jsou odhady, dokud v něm nedoplníte skutečný Vercel tarif, cenu domény a produkční spotřebu.
+Aktuální cenový a kapacitní model je v [`scaling.md`](./scaling.md). Částky jsou odhady, dokud v něm nedoplníte skutečný Vercel tarif, cenu domény a produkční spotřebu.
 
 ## Vývojářské nástroje
 

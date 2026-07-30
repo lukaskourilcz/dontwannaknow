@@ -1,0 +1,725 @@
+[
+  {
+    "id": "ua-1924-radio",
+    "country": "ua",
+    "year": 1924,
+    "placement": "everyday-day",
+    "wikidataId": "Q848966",
+    "sentence": "Pravidelné Ukrajinské rádio začalo v roce 1924 vysílat z Charkova; společné zprávy, hudba a mluvené pořady tak mohly vstoupit do domácností.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      2,
+      3,
+      3,
+      3,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Wikidata: Q848966",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q848966",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-1951-kharkiv-tv",
+    "country": "ua",
+    "year": 1951,
+    "placement": "everyday-day",
+    "wikidataId": "Q2113961",
+    "sentence": "V roce 1951 se v Charkově uskutečnilo rané místní televizní vysílání, ještě dříve než vznikla propojená celoukrajinská síť.",
+    "licence": "CC BY-SA 4.0",
+    "shareSafe": true,
+    "rel": [
+      2,
+      2,
+      3,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Televize na Ukrajině",
+      "p": "Přispěvatelé Wikipedie",
+      "u": "https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BB%D0%B5%D0%B1%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B2_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%96",
+      "l": "CC BY-SA 4.0",
+      "a": "Fakta parafrázována v české redakční větě projektu."
+    }
+  },
+  {
+    "id": "ua-1951-kyiv-tv",
+    "country": "ua",
+    "year": 1951,
+    "placement": "everyday-day",
+    "wikidataId": "Q2113961",
+    "sentence": "Také kyjevské profesionální televizní centrum začalo vysílat v roce 1951; první programy měly jen omezený místní dosah.",
+    "licence": "CC BY-SA 4.0",
+    "shareSafe": true,
+    "rel": [
+      2,
+      2,
+      3,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Televize na Ukrajině",
+      "p": "Přispěvatelé Wikipedie",
+      "u": "https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BB%D0%B5%D0%B1%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B2_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%96",
+      "l": "CC BY-SA 4.0",
+      "a": "Fakta parafrázována v české redakční větě projektu."
+    }
+  },
+  {
+    "id": "ua-1960-regional-studios",
+    "country": "ua",
+    "year": 1960,
+    "placement": "everyday-day",
+    "wikidataId": "Q2113961",
+    "sentence": "Na začátku šedesátých let fungovalo na Ukrajině jedenáct televizních studií, ale bez společné sítě připravovala každá hlavně vlastní místní program.",
+    "licence": "CC BY-SA 4.0",
+    "shareSafe": true,
+    "rel": [
+      2,
+      2,
+      3,
+      3,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Televize na Ukrajině",
+      "p": "Přispěvatelé Wikipedie",
+      "u": "https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BB%D0%B5%D0%B1%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B2_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%96",
+      "l": "CC BY-SA 4.0",
+      "a": "Fakta parafrázována v české redakční větě projektu."
+    }
+  },
+  {
+    "id": "ua-1964-evening-tale",
+    "country": "ua",
+    "year": 1964,
+    "placement": "early-childhood",
+    "wikidataId": "Q12089047",
+    "sentence": "Od roku 1964 provázela děti ukrajinsky vyprávěná Večerní pohádka s dědou Panasem, pravidelný klidný bod před spaním.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      3,
+      4,
+      3,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Wikidata: Q12089047",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q12089047",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-1965-ut",
+    "country": "ua",
+    "year": 1965,
+    "placement": "everyday-day",
+    "wikidataId": "Q2113961",
+    "sentence": "V roce 1965 propojilo Ukrajinské televizní vysílání studia ve dvaceti oblastech a místní obrazovky poprvé dostaly společný republikový program.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      2,
+      3,
+      3,
+      3,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Wikidata: Q2113961",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q2113961",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-1989-tonis",
+    "country": "ua",
+    "year": 1989,
+    "placement": "everyday-day",
+    "wikidataId": "Q4051576",
+    "sentence": "Stanice Tonis od konce osmdesátých let předznamenala pestřejší televizní nabídku mimo tradiční státní okruhy.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q4051576",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4051576",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-1991-first-national",
+    "country": "ua",
+    "year": 1991,
+    "placement": "everyday-day",
+    "wikidataId": "Q2113961",
+    "sentence": "Po vyhlášení nezávislosti pokračoval hlavní celostátní program jako UT-1 a začal se měnit v televizi samostatné Ukrajiny.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      3,
+      4,
+      2,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Wikidata: Q2113961",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q2113961",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-1991-khortytsia",
+    "country": "ua",
+    "year": 1991,
+    "placement": "everyday-day",
+    "wikidataId": "Q4500204",
+    "sentence": "Záporožský kanál Chortycja od roku 1991 rozšířil místní televizní nabídku mimo kyjevské vysílání.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q4500204",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4500204",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-1992-ut2",
+    "country": "ua",
+    "year": 1992,
+    "placement": "everyday-day",
+    "wikidataId": "Q4468391",
+    "sentence": "V roce 1992 přibyl druhý státní program UT-2, takže domácnosti získaly další ukrajinskou programovou volbu.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q4468391",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4468391",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-1992-ictv",
+    "country": "ua",
+    "year": 1992,
+    "placement": "everyday-day",
+    "wikidataId": "Q4041002",
+    "sentence": "ICTV od roku 1992 rozšiřovala soukromé televizní vysílání o filmy, seriály a zpravodajství.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q4041002",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4041002",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-1992-tet",
+    "country": "ua",
+    "year": 1992,
+    "placement": "everyday-day",
+    "wikidataId": "Q4448952",
+    "sentence": "TET začal v roce 1992 jako kyjevská stanice a přidal k veřejným okruhům další zábavní program.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q4448952",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4448952",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-1993-ukraina",
+    "country": "ua",
+    "year": 1993,
+    "placement": "everyday-day",
+    "wikidataId": "Q7878580",
+    "sentence": "Kanál Ukraina od roku 1993 rozvíjel komerční vysílání nejprve regionálně a později pro širší publikum.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q7878580",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q7878580",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-1994-tv5",
+    "country": "ua",
+    "year": 1994,
+    "placement": "everyday-day",
+    "wikidataId": "Q4448884",
+    "sentence": "Záporožská TV5 od roku 1994 rozšířila regionální zpravodajství a pořady dostupné místním domácnostem.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q4448884",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4448884",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-1995-1plus1",
+    "country": "ua",
+    "year": 1995,
+    "placement": "everyday-day",
+    "wikidataId": "Q161257",
+    "sentence": "Televize 1+1 od roku 1995 přinesla do hlavního vysílacího času další soukromou nabídku filmů, seriálů a publicistiky.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      3,
+      4,
+      2,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Wikidata: Q161257",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q161257",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-1996-inter",
+    "country": "ua",
+    "year": 1996,
+    "placement": "everyday-day",
+    "wikidataId": "Q2914786",
+    "sentence": "Inter od roku 1996 posílil soutěž celostátních komerčních televizí o večerní publikum.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      3,
+      4,
+      2,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Wikidata: Q2914786",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q2914786",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-1997-stb",
+    "country": "ua",
+    "year": 1997,
+    "placement": "everyday-day",
+    "wikidataId": "Q2032137",
+    "sentence": "STB od roku 1997 rozšířila celostátní televizní výběr o další zpravodajské a zábavní pořady.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q2032137",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q2032137",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-1998-new-channel",
+    "country": "ua",
+    "year": 1998,
+    "placement": "everyday-day",
+    "wikidataId": "Q2638833",
+    "sentence": "Nový kanál od roku 1998 zaměřoval velkou část seriálů a zábavy na mladší publikum.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q2638833",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q2638833",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-1999-rada",
+    "country": "ua",
+    "year": 1999,
+    "placement": "everyday-day",
+    "wikidataId": "Q7279927",
+    "sentence": "Parlamentní kanál Rada od roku 1999 umožnil televizně sledovat jednání a dění v zákonodárném sboru.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q7279927",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q7279927",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-2001-m1",
+    "country": "ua",
+    "year": 2001,
+    "placement": "everyday-day",
+    "wikidataId": "Q4273254",
+    "sentence": "Hudební M1 od roku 2001 nabízel videoklipy a pořady pro mladé publikum v samostatném programu.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q4273254",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4273254",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-2003-channel5",
+    "country": "ua",
+    "year": 2003,
+    "placement": "everyday-day",
+    "wikidataId": "Q2987894",
+    "sentence": "Pátý kanál od roku 2003 rozšířil průběžné televizní zpravodajství mimo tradiční večerní relace.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q2987894",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q2987894",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-2003-culture",
+    "country": "ua",
+    "year": 2003,
+    "placement": "everyday-day",
+    "wikidataId": "Q4246615",
+    "sentence": "Veřejnoprávní Kultura od roku 2003 vyhradila samostatný prostor divadlu, hudbě, literatuře a dokumentům.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q4246615",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4246615",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-2005-k2",
+    "country": "ua",
+    "year": 2005,
+    "placement": "everyday-day",
+    "wikidataId": "Q4206192",
+    "sentence": "K2 od roku 2005 přidala další tematickou nabídku seriálů, pořadů pro domácnost a zábavy.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q4206192",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4206192",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-2006-2plus2",
+    "country": "ua",
+    "year": 2006,
+    "placement": "everyday-day",
+    "wikidataId": "Q2078431",
+    "sentence": "Kanál 2+2 od roku 2006 soustředil část sportu, seriálů a filmů do samostatné programové nabídky.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q2078431",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q2078431",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-2006-channel24",
+    "country": "ua",
+    "year": 2006,
+    "placement": "everyday-day",
+    "wikidataId": "Q4030314",
+    "sentence": "Kanál 24 od roku 2006 zpřístupnil nepřetržitější televizní zpravodajství během celého dne.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q4030314",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4030314",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-2007-m2",
+    "country": "ua",
+    "year": 2007,
+    "placement": "everyday-day",
+    "wikidataId": "Q7232088",
+    "sentence": "Hudební M2 od roku 2007 vyhradil samostatný prostor ukrajinské i zahraniční populární hudbě.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q7232088",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q7232088",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-2010-mega",
+    "country": "ua",
+    "year": 2010,
+    "placement": "everyday-day",
+    "wikidataId": "Q4286576",
+    "sentence": "Mega od roku 2010 soustředila dokumentární a poznávací pořady na tematický kanál.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q4286576",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4286576",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-2012-plusplus",
+    "country": "ua",
+    "year": 2012,
+    "placement": "early-childhood",
+    "wikidataId": "Q4334737",
+    "sentence": "Dětský kanál PlusPlus od roku 2012 nabídl animované a vzdělávací pořady v samostatném denním programu.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      3,
+      2,
+      2,
+      2,
+      4
+    ],
+    "src": {
+      "t": "Wikidata: Q4334737",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q4334737",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-2013-hromadske",
+    "country": "ua",
+    "year": 2013,
+    "placement": "everyday-day",
+    "wikidataId": "Q15280975",
+    "sentence": "Internetová televize Hromadske od roku 2013 ukázala, že živé zpravodajství lze sledovat mimo klasické vysílací frekvence.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      3,
+      4,
+      2,
+      4,
+      4
+    ],
+    "src": {
+      "t": "Wikidata: Q15280975",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q15280975",
+      "l": "CC0 1.0"
+    }
+  },
+  {
+    "id": "ua-2013-espreso",
+    "country": "ua",
+    "year": 2013,
+    "placement": "everyday-day",
+    "wikidataId": "Q15689802",
+    "sentence": "Espreso od roku 2013 rozšířilo nabídku průběžných zpráv v televizi i na internetu.",
+    "licence": "CC0 1.0",
+    "shareSafe": true,
+    "rel": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "src": {
+      "t": "Wikidata: Q15689802",
+      "p": "Wikidata",
+      "u": "https://www.wikidata.org/wiki/Q15689802",
+      "l": "CC0 1.0"
+    }
+  }
+]

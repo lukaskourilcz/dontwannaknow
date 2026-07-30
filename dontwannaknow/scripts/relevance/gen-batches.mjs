@@ -56,6 +56,15 @@ async function loadRecords() {
     ...await readJson("filmPremieres.cz.json").catch(() => []),
     ...await readJson("filmPremieres.ua.json").catch(() => []),
   ];
+  const babyNames = await readJson("babyNames.cz.json").catch(() => []);
+  const slang = [
+    ...await readJson("slang.cz.json").catch(() => []),
+    ...await readJson("slang.ua.json").catch(() => []),
+  ];
+  const mediaMilestones = [
+    ...await readJson("mediaMilestones.cz.json").catch(() => []),
+    ...await readJson("mediaMilestones.ua.json").catch(() => []),
+  ];
 
   const records = [];
   for (const [country, list] of [["CZ", cityCz], ["UA", cityUa]]) {
@@ -141,6 +150,33 @@ async function loadRecords() {
       text: r.sentence,
     });
   }
+  for (const r of babyNames) {
+    records.push({
+      dataset: "babyNames",
+      key: recordKey("babyNames", r),
+      country: "CZ",
+      year: r.year,
+      text: r.sentence,
+    });
+  }
+  for (const r of slang) {
+    records.push({
+      dataset: "slang",
+      key: recordKey("slang", r),
+      country: r.country.toUpperCase(),
+      year: r.yearFrom,
+      text: r.sentence,
+    });
+  }
+  for (const r of mediaMilestones) {
+    records.push({
+      dataset: "mediaMilestones",
+      key: recordKey("mediaMilestones", r),
+      country: r.country.toUpperCase(),
+      year: r.year,
+      text: r.sentence,
+    });
+  }
   return records;
 }
 
@@ -152,7 +188,7 @@ if (selectedDataset) {
 }
 if (onlyMissing) {
   const scored = new Set();
-  for (const dataset of ["cityFacts", "countryEvents", "countryDecades", "famousPeople", "leaders", "vitalsBackfill", "pricesWages", "weatherTemplates", "filmPremieres"]) {
+  for (const dataset of ["cityFacts", "countryEvents", "countryDecades", "famousPeople", "inventions", "leaders", "vitalsBackfill", "pricesWages", "weatherTemplates", "filmPremieres", "babyNames", "slang", "mediaMilestones"]) {
     const sidecar = await readFile(new URL(`../../src/data/relevance/${dataset}.json`, import.meta.url), "utf8")
       .then(JSON.parse)
       .catch(() => null);

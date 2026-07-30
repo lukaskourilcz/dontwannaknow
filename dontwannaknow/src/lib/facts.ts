@@ -16,9 +16,11 @@ import { loadWorldBank, worldBankFor, worldBankLatest } from "../data/worldBank"
 import { loadVitals, vitalsFor, type VitalRecord } from "../data/vitals";
 import { loadPricesWages, pricesWagesFor } from "../data/pricesWages";
 import { filmPremieresFor, loadFilmPremieres } from "../data/filmPremieres";
+import { babyNamesFor, loadBabyNames } from "../data/babyNames";
+import { loadSlang, slangFor } from "../data/slang";
+import { loadMediaMilestones, mediaMilestonesFor } from "../data/mediaMilestones";
 import type { BirthWeatherFact } from "../data/birthWeather";
 import { contemporariesFor, loadWikidataPeople } from "../data/wikidataPeople";
-import { mediaFor } from "../data/media";
 import { writersAtBirth } from "../data/writers";
 import { pickN } from "./random";
 import { expandRelevance, pickRelevant, type RelevanceScores } from "./relevance";
@@ -36,6 +38,7 @@ import {
   type FactSource,
   type LifeMilestone,
   type ReportChapter,
+  type ReportChapterId,
   type ReportItem,
 } from "./report";
 import { resolveHistoricalLocation, type ResolvedHistoricalContext } from "./historicalLocation";
@@ -72,6 +75,8 @@ export type FactCategory =
     | "local"
     | "city"
     | "media"
+    | "names"
+    | "slang"
     | "writers"
     | "contemporaries";
 
@@ -80,6 +85,8 @@ export type Fact = {
   text: string;
   year?: number;
   stage?: "birth-era" | "teenage-era";
+  /** Výslovné umístění z datové sady; nepoužívá textové prefixy. */
+  chapterHint?: ReportChapterId;
   metadata: EditorialMetadata;
   /** Build-time skóre relevance (commitnutý JSON); běh je jen čte a řadí. */
   relevance?: RelevanceScores;
@@ -97,7 +104,7 @@ export type Fact = {
   leader?: Leader;
 };
 
-type RawFact = Pick<Fact, "category" | "text" | "year" | "stage" | "relevance" | "source" | "sourceConfidence" | "sensitivity" | "shareSafe" | "mayOpen" | "leader">;
+type RawFact = Pick<Fact, "category" | "text" | "year" | "stage" | "chapterHint" | "relevance" | "source" | "sourceConfidence" | "sensitivity" | "shareSafe" | "mayOpen" | "leader">;
 
 /** Převod kompaktních běhových metadat záznamu (rel/src) na tvar Fact. */
 function extras(record: { rel?: number[]; src?: { t: string; p?: string; u?: string } }): Pick<Fact, "relevance" | "source"> {
@@ -220,20 +227,6 @@ function countryFacts(person: Person): RawFact[] {
       facts.push({ category: "beautiful", text: f.text, stage, ...extras(f) }),
     );
   }
-
-  // What people read and watched — magazines, books and TV channels of the
-  // birth decade and the teenage decade. Covers 1940s–2020s (CZ & UA only).
-  const mediaSeen = new Set<number>();
-  [
-    { year: birthYear, stage: "birth-era" as const },
-    { year: birthYear + 15, stage: "teenage-era" as const },
-  ].forEach(({ year: y, stage }) => {
-    const m = mediaFor(country, y);
-    if (!m || mediaSeen.has(m.decadeStart)) return;
-    mediaSeen.add(m.decadeStart);
-    pickN(m.read, 1).forEach((t) => facts.push({ category: "media", text: t, stage }));
-    pickN(m.watch, 1).forEach((t) => facts.push({ category: "media", text: t, stage }));
-  });
 
   // Writers who were alive when this person was born, with age, residence and
   // publication context. We do not infer what they were privately writing.
@@ -540,6 +533,37 @@ function buildReport(
     sensitivity: record.sensitivity,
     shareSafe: record.shareSafe,
   })));
+  facts.push(...babyNamesFor(person.country, birthYear).map((record) => ({
+    category: "names" as const,
+    year: record.year,
+    stage: "birth-era" as const,
+    text: record.sentence,
+    relevance: record.relevance,
+    source: record.source,
+    sourceConfidence: "verified" as const,
+    shareSafe: true,
+  })));
+  facts.push(...slangFor(person.country, birthYear).map((record) => ({
+    category: "slang" as const,
+    year: record.year,
+    stage: "teenage-era" as const,
+    text: record.sentence,
+    relevance: record.relevance,
+    source: record.source,
+    sourceConfidence: "verified" as const,
+    shareSafe: true,
+  })));
+  facts.push(...mediaMilestonesFor(person.country, birthYear).map((record) => ({
+    category: "media" as const,
+    year: record.year,
+    chapterHint: record.chapter,
+    stage: record.placement === "early-childhood" ? "birth-era" as const : undefined,
+    text: record.sentence,
+    relevance: record.relevance,
+    source: record.source,
+    sourceConfidence: "verified" as const,
+    shareSafe: record.shareSafe,
+  })));
   if (birthWeather) {
     facts.push({
       category: "weather",
@@ -615,6 +639,9 @@ export async function reportFor(person: Person, excludeWorld = false): Promise<P
     loadVitals(person.country),
     loadPricesWages(person.country),
     loadFilmPremieres(person.country),
+    loadBabyNames(person.country),
+    loadSlang(person.country),
+    loadMediaMilestones(person.country),
   ]);
   return withSeededRandom(
     seed,

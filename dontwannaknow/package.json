@@ -19,6 +19,7 @@
     "data:prices": "node scripts/gen-prices-csu.mjs",
     "data:weather": "node scripts/gen-weather.mjs",
     "data:films": "node scripts/gen-films.mjs",
+    "data:p5-provenance": "node scripts/gen-p5-provenance.mjs",
     "relevance:batches": "node scripts/relevance/gen-batches.mjs",
     "relevance:merge": "node scripts/relevance/merge-results.mjs",
     "relevance:prompt": "node scripts/relevance/print-prompt.mjs",

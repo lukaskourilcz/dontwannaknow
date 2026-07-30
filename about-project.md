@@ -25,4 +25,6 @@ friendly, with no accounts, no report storage, and no runtime AI.
 ## Data provenance
 
 Public historical/reference data is generated at build time from vetted sources
-(e.g. Wikidata, World Bank, museum collections); nothing is fetched at runtime.
+(e.g. Wikidata, World Bank, ČSÚ, open dictionaries, museum collections);
+nothing is fetched at runtime. Public country slices cover only Czechia and
+Ukraine; Czech baby-name cohorts intentionally have no Ukrainian substitute.
