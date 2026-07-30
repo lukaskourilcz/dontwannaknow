@@ -24,7 +24,7 @@ Skutečný tok zprávy odpovídá dokumentaci: `normalizePerson` → `resolveHis
 
 Hlavní cesty:
 
-1. Jeden člověk: vztah, volitelné jméno, datum nebo rok, dnešní země a podporované město.
+1. Jeden člověk: volitelné jméno, datum nebo rok, dnešní země a podporované město.
 2. Dva lidé: stejný model pro druhého člověka, deduplikované společné souvislosti, žádné soutěžení.
 3. Zpráva: obálka, sedm obsahových kapitol, sekundární širší kontext a život v číslech.
 4. Uchování: fragmentový odkaz, volitelné zahrnutí jména, tři formáty obrázku a klientské PDF.
@@ -34,7 +34,7 @@ Hlavní cesty:
 
 - Stávající paleta, lokální písma a jednoduchý T-mark jsou silný základ, ale tokeny pokrývají jen část stavů; chyby, obtížný obsah, informační stavy a fokus používají místy přímé barvy.
 - Landing má správné pořadí obsahu, ale chybí mu jeden zapamatovatelný, produktově vlastní archivní motiv a klidná souhrnná věta o rozsahu CZ/UA.
-- Formulář používá mnoho kapslí a velkou zaoblenou plochu; vztah je dobře přístupný, ale působí více jako sada filtrů než jako úvod osobní publikace.
+- Formulář původně používal rozsáhlou sadu kapslí pro volbu vztahu. Pozdější zjednodušení ji odstranilo z rozhraní i datového modelu, protože neměnila faktický kontext zprávy.
 - Obálka má vysokou emoční hodnotu a autentickou oblohu, ale rok bez úplného data je jen velký kruh. Chybí ediční číslo, jasnější časový rozsah a typografická vazba věk–místo–období.
 - Navigace kapitol je mřížka podobně důležitých tlačítek. Na mobilu zabírá příliš mnoho prostoru a nevyjadřuje pořadí ani stav sbalených kapitol.
 - Většina faktů je vykreslena stejnou zaoblenou kartou. Metadata přitom umožňují udržovatelnou variaci podle tónu, citlivosti, místního rozsahu a kapitoly.
@@ -81,7 +81,7 @@ Výzkum byl omezen na problémy, které aplikace skutečně řeší. Refero bylo
 | [Refero, Flatfile](https://styles.refero.design/style/1ded7f89-3df0-4e7c-9cac-28218d038575) | Teplá základní plocha + několik blízkých papírových vrstev vytváří hloubku bez elevace. | Papír, zvýšený list, wash a sunk surface budou sémantické tokeny sdílené webem a `/dev`. | SaaS dashboardové bloky a marketingové komponenty. | Povrchy musí držet AA kontrast a nesmějí ztratit hranice při 200% zoomu. |
 | [Refero, V–A–C / kulturní katalog](https://styles.refero.design/style/40154dc4-e681-4df9-be01-a6681d5887a6) | Rejstříkové značky a captions proměňují mřížku obsahu v editovaný katalog. | Umění, mapa a zdroje dostanou přesné captions; kapitoly použijí pořadové číslo a letopočty. | Extrémní prázdno, nulovou barvu a navigaci závislou na layoutu. | Katalogové mřížky se skládají do logického DOM pořadí bez horizontálního scrollu. |
 | [Refero, Nofilter.space](https://styles.refero.design/style/4235ebdc-a070-46ef-abbf-692151449bea) | Hairline struktura a textové štítky omezují potřebu plovoucích karet. | Report itemy se stanou řádky/editorial notes s několika významovými variantami. | Brutalistní nulové odsazení, malé ovládání a checkboxy použité jen jako metafora. | Focus, stav a typ položky budou explicitní textem i tvarem. |
-| [Collect UI](https://collectui.com/), onboarding/form/timeline/share/admin | Plánované kategorie: vztahový výběr, datum a místo, časová osa, porovnání, export, provozní editor. | Nedostupné; rozhodnutí vycházejí z aktuálního produktu a dostupných Refero principů. | Žádné obrazovky ani vzory nejsou citovány nebo kopírovány. | Omezení zdroje bude zachováno v dokumentaci pro pozdější doplnění. |
+| [Collect UI](https://collectui.com/), onboarding/form/timeline/share/admin | Plánované kategorie: přístupný vstup osoby, datum a místo, časová osa, porovnání, export, provozní editor. | Nedostupné; rozhodnutí vycházejí z aktuálního produktu a dostupných Refero principů. | Žádné obrazovky ani vzory nejsou citovány nebo kopírovány. | Omezení zdroje bude zachováno v dokumentaci pro pozdější doplnění. |
 
 ## Vizuální příležitosti a generativní média
 

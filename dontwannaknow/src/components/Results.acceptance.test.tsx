@@ -15,7 +15,7 @@ vi.mock("./CityArtStrip", () => ({ default: () => <div data-testid="art-strip" /
 
 describe("acceptance: Praha 1953 a Charkov 1991", () => {
   const prague = makePerson({ country: "CZ", citySlug: "prague", birthYear: 1953, birthMonth: 4, birthDay: 12 });
-  const kharkiv = makePerson({ country: "UA", citySlug: "kharkiv", birthYear: 1991, relationship: "father" });
+  const kharkiv = makePerson({ country: "UA", citySlug: "kharkiv", birthYear: 1991 });
   let pragueReport: Awaited<ReturnType<typeof reportFor>>;
   let kharkivReport: Awaited<ReturnType<typeof reportFor>>;
 

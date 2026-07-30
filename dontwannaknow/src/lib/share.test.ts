@@ -12,6 +12,7 @@ describe("private report links", () => {
     const person = makePerson({ name: "Šárka" });
     const privateState = encodeReportState([person]);
     expect(decodeReportState(privateState)?.[0]?.label).toBe("");
+    expect(decodeReportState(privateState)?.[0]).not.toHaveProperty("relationship");
     expect(privateState).not.toContain("Šárka");
 
     const namedState = encodeReportState([person], { includeNames: true });
@@ -21,7 +22,7 @@ describe("private report links", () => {
   it("round-trips two supported people and rejects malformed state", () => {
     const people = [
       makePerson({ birthYear: 1953, citySlug: "prague" }),
-      makePerson({ relationship: "grandmother", country: "UA", citySlug: "kyiv", birthYear: 1948 }),
+      makePerson({ country: "UA", citySlug: "kyiv", birthYear: 1948 }),
     ];
     expect(decodeReportState(encodeReportState(people))).toHaveLength(2);
     expect(decodeReportState("not-valid-base64")).toBeNull();
@@ -31,8 +32,21 @@ describe("private report links", () => {
   it("rejects a syntactically valid fragment with unsupported personal data", () => {
     const invalid = btoa(JSON.stringify({
       z: 1,
-      p: [{ y: 1953, m: 2, d: 30, c: "CZ", s: "prague", r: "self" }],
+      p: [{ y: 1953, m: 2, d: 30, c: "CZ", s: "prague" }],
     })).replace(/=+$/, "");
     expect(decodeReportState(invalid)).toBeNull();
+  });
+
+  it("restores older links while ignoring their removed relationship field", () => {
+    const legacy = btoa(JSON.stringify({
+      z: 1,
+      p: [{ y: 1953, c: "CZ", s: "prague", r: "mother" }],
+    })).replace(/=+$/, "");
+
+    expect(decodeReportState(legacy)?.[0]).toMatchObject({
+      birthYear: 1953,
+      country: "CZ",
+      citySlug: "prague",
+    });
   });
 });

@@ -58,7 +58,7 @@ Při budoucím navázání nejprve spusťte `git status --short`, přečtěte `C
 ### 3. Landing, formulář a shell
 
 - Landing má jasnou person-centric hierarchii, stručný CZ/UA rozsah a jednu primární akci.
-- Formulář zachovává stávající validaci, flexibilní datum/rok, vztah, volitelné jméno, město a sekundární porovnání.
+- Formulář zachovává validaci, flexibilní datum/rok, volitelné jméno, zemi, město a sekundární porovnání. Dřívější volba vztahu byla z formuláře i modelu osoby odstraněna.
 - Vylepšeny přístupné popisky, skupiny voleb, privacy messaging, loading/error stavy a mobilní skládání.
 
 ### 4. Jedno osobní vydání

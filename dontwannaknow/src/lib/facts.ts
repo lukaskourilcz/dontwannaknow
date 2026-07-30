@@ -622,7 +622,6 @@ export async function reportFor(person: Person, excludeWorld = false): Promise<P
     person.birthDay ?? 0,
     person.country,
     person.citySlug,
-    person.relationship,
     person.variant,
     Number(excludeWorld),
   ].join(":");

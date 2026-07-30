@@ -4,11 +4,15 @@ import { describe, expect, it, vi } from "vitest";
 import NewForm from "./NewForm";
 
 describe("NewForm", () => {
-  it("shows the hero question once and gives the relationship control its own label", () => {
+  it("shows the hero question once and only the four person inputs", () => {
     render(<NewForm onSubmit={vi.fn()} />);
 
     expect(screen.getAllByText("Čí svět chcete poznat?")).toHaveLength(1);
-    expect(screen.getByText("Jaký je váš vztah k tomuto člověku?")).toBeInTheDocument();
+    expect(screen.queryByText("Jaký je váš vztah k tomuto člověku?")).not.toBeInTheDocument();
+    expect(screen.getByLabelText(/Jak se tento člověk jmenuje\?/)).toBeInTheDocument();
+    expect(screen.getByLabelText(/Kdy se narodil\?/)).toBeInTheDocument();
+    expect(screen.getByRole("group", { name: "Ve které dnešní zemi se narodil?" })).toBeInTheDocument();
+    expect(screen.getByRole("combobox", { name: "Ve kterém městě?" })).toBeInTheDocument();
   });
 
   it("art-directs the decorative hero without exposing generated text", () => {

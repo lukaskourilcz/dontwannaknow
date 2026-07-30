@@ -32,7 +32,7 @@ Breaking any of these makes a change wrong even if it is otherwise excellent.
 4. **Public scope is CZ and UA only.** Archived data for other countries stays
    in the repo but must never enter a public runtime bundle.
 5. **Privacy.** Form values never leave the browser. Name, date, country, city,
-   relationship, variant and report content are never sent to analytics. Shared
+   variant and report content are never sent to analytics. Shared
    state lives in a URL fragment; names are excluded unless the user opts in.
 6. **Czech voice.** Formal `vy / vás / vaše`, sentence case, concrete language,
    honest uncertainty. Never overclaim — the audit greps for the exact

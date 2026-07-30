@@ -53,7 +53,7 @@ them is wrong even if it is otherwise excellent.
    in the repo but must never enter a public runtime bundle. `npm run
    audit:content` enforces this.
 5. **Privacy.** Form values never leave the browser. Name, date, country, city,
-   relationship, variant, and report content are never sent to analytics.
+   variant, and report content are never sent to analytics.
    Shared state lives in a URL fragment (`#r=…`) that is not transmitted in the
    HTTP request. Names are excluded from share fragments unless the user
    explicitly opts in.

@@ -3,7 +3,6 @@ import {
   normalizePerson,
   validatePerson,
   type Person,
-  type SubjectRelation,
 } from "./person";
 
 type CompactPerson = {
@@ -12,7 +11,6 @@ type CompactPerson = {
   d?: number;
   c: SupportedCountry;
   s: string;
-  r: SubjectRelation;
   v?: number;
   n?: string;
 };
@@ -21,17 +19,6 @@ type CompactState = {
   z: 1;
   p: CompactPerson[];
 };
-
-const RELATIONS = new Set<SubjectRelation>([
-  "self",
-  "mother",
-  "father",
-  "grandmother",
-  "grandfather",
-  "partner",
-  "friend",
-  "other",
-]);
 
 function toBase64Url(input: string): string {
   const bytes = new TextEncoder().encode(input);
@@ -59,7 +46,6 @@ export function encodeReportState(
       d: person.birthDay,
       c: person.country,
       s: person.citySlug,
-      r: person.relationship,
       v: person.variant || undefined,
       n: options.includeNames && person.label.trim() ? person.label.trim() : undefined,
     })),
@@ -81,13 +67,11 @@ export function decodeReportState(encoded: string): Person[] | null {
         !raw ||
         typeof raw.y !== "number" ||
         !isSupportedCountry(raw.c) ||
-        typeof raw.s !== "string" ||
-        !RELATIONS.has(raw.r)
+        typeof raw.s !== "string"
       ) {
         return null;
       }
       const person = normalizePerson({
-        relationship: raw.r,
         name: typeof raw.n === "string" ? raw.n.slice(0, 60) : undefined,
         birthYear: raw.y,
         birthMonth: typeof raw.m === "number" ? raw.m : undefined,

@@ -3,15 +3,14 @@ import { displayName, normalizePerson, reportTitle, SUPPORTED_YEAR_RANGE, valida
 import { makePerson } from "../test/factories";
 
 describe("person model", () => {
-  it("keeps the name optional and supplies a relationship-aware fallback", () => {
-    const person = makePerson({ relationship: "grandmother", name: "  " });
-    expect(displayName(person)).toBe("babička");
+  it("keeps the name optional and supplies a neutral fallback", () => {
+    const person = makePerson({ name: "  " });
+    expect(displayName(person)).toBe("tento člověk");
     expect(reportTitle(person)).toContain(String(person.birthYear));
   });
 
   it("normalizes labels and variants", () => {
     expect(normalizePerson({
-      relationship: "self",
       name: "  Marie  ",
       birthYear: 1953,
       country: "CZ",

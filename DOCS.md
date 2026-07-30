@@ -2,7 +2,7 @@
 
 ## Produkt a hranice
 
-Subjektem zprávy je konkrétní člověk, nikoli samotný historický rok. Formulář začíná vztahem, přijímá volitelné křestní jméno, datum nebo rok narození a podporované město v Česku či na Ukrajině. Výsledek opatrně rekonstruuje prostředí; netvrdí, že zná osobní vzpomínky nebo životopis.
+Subjektem zprávy je konkrétní člověk, nikoli samotný historický rok. Formulář přijímá pouze volitelné křestní jméno, datum nebo rok narození, dnešní zemi a podporované město v Česku či na Ukrajině. Výsledek opatrně rekonstruuje prostředí; netvrdí, že zná osobní vzpomínky nebo životopis.
 
 Veřejné rozhraní je pouze česky. Podporovaný rozsah je od roku 1920 do aktuálního roku a aplikace poctivě zobrazuje náhradní vysvětlení, když pro dílčí kapitolu chybějí podklady. Data jiných zemí nebyla smazána, ale jsou nepodporovaný archiv a veřejné typy i dekodér je odmítnou.
 
@@ -43,7 +43,7 @@ Politická příslušnost je oddělena od kulturní relevance. Ukrajinská kultu
 
 ## Soukromí a sdílení
 
-Profil se zpracovává jen klientsky. Fragment `#r=…` obsahuje nejvýše dva kompaktní profily a variantu; server jej v HTTP požadavku nedostane. Volitelné jméno je vynecháno, dokud uživatel nezapne explicitní volbu. Dekodér odmítá chybnou verzi, nepodporovanou zemi, neznámý vztah, město mimo zemi a rok mimo rozsah.
+Profil se zpracovává jen klientsky. Fragment `#r=…` obsahuje nejvýše dva kompaktní profily a variantu; server jej v HTTP požadavku nedostane. Volitelné jméno je vynecháno, dokud uživatel nezapne explicitní volbu. Dekodér odmítá chybnou verzi, nepodporovanou zemi, město mimo zemi a rok mimo rozsah. Starší odkazy mohou obsahovat dřívější pole vztahu; dekodér ho ignoruje a do modelu osoby ho nepřenáší.
 
 Vercel Analytics nedostává vlastní události s profilem a `beforeSend` odstraňuje query i fragment z URL. Statický OG obrázek je obecný; osobní obálka, dobový detail, obloha, kultura dospívání, kontrast s dneškem a porovnání vznikají klientsky v rozměrech 1200×630, 1080×1350 a 1080×1920.
 

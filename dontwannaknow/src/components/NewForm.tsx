@@ -5,26 +5,22 @@ import { COPY } from "../copy";
 import HeroArchive from "./HeroArchive";
 import { parseDate } from "../lib/parseDate";
 import {
-  RELATIONSHIPS,
   SUPPORTED_YEAR_RANGE,
   normalizePerson,
   validatePerson,
   type Person,
-  type SubjectRelation,
 } from "../lib/person";
 
 type Props = { onSubmit: (people: Person[]) => void };
 
 type Draft = {
-  relationship: SubjectRelation;
   name: string;
   birthDate: string;
   country: SupportedCountry;
   citySlug: string;
 };
 
-const emptyDraft = (relationship: SubjectRelation = "mother"): Draft => ({
-  relationship,
+const emptyDraft = (): Draft => ({
   name: "",
   birthDate: "",
   country: "CZ",
@@ -55,28 +51,6 @@ function PersonFields({
   return (
     <fieldset className="person-fields">
       {heading && <legend>{heading}</legend>}
-
-      <fieldset className="form-section choice-fieldset relationship-section">
-        <legend className="field-label">Jaký je váš vztah k tomuto člověku?</legend>
-        <div className="relationship-grid">
-          {RELATIONSHIPS.map((relation) => (
-            <label
-              key={relation.value}
-              className={`relationship-chip${draft.relationship === relation.value ? " active" : ""}`}
-            >
-              <input
-                className="choice-input"
-                type="radio"
-                name={`${prefix}-relationship`}
-                value={relation.value}
-                checked={draft.relationship === relation.value}
-                onChange={() => onChange({ ...draft, relationship: relation.value })}
-              />
-              <span>{relation.label}</span>
-            </label>
-          ))}
-        </div>
-      </fieldset>
 
       <div className="form-grid">
         <label className="form-field" htmlFor={`${prefix}-name`}>
@@ -164,7 +138,6 @@ function personFromDraft(draft: Draft): { person?: Person; errors: DraftErrors }
   if (!parsed || Object.keys(errors).length) return { errors };
 
   const person = normalizePerson({
-    relationship: draft.relationship,
     name: draft.name,
     birthYear: parsed.year,
     birthMonth: parsed.month,
@@ -180,7 +153,7 @@ function personFromDraft(draft: Draft): { person?: Person; errors: DraftErrors }
 export default function NewForm({ onSubmit }: Props) {
   const formId = useId();
   const [primary, setPrimary] = useState<Draft>(emptyDraft());
-  const [secondary, setSecondary] = useState<Draft>(emptyDraft("grandmother"));
+  const [secondary, setSecondary] = useState<Draft>(emptyDraft());
   const [comparison, setComparison] = useState(false);
   const [primaryErrors, setPrimaryErrors] = useState<DraftErrors>({});
   const [secondaryErrors, setSecondaryErrors] = useState<DraftErrors>({});

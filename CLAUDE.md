@@ -9,7 +9,7 @@ Tehdejší svět is a Czech-only, person-centric publication that reconstructs t
 - Public scope is Czechia and Ukraine only (`CZ`, `UA`). Preserve archived non-public data, but never ship it in public runtime bundles.
 - The report is not a biography. Never invent private experience, memories, routine, preferences, family circumstances, facts, quotes, sources, or historical evidence.
 - Keep the application deterministic, client-side, static-hosting friendly, and free of runtime AI, accounts, report storage, or external runtime historical APIs.
-- Form values stay in the browser. Never send name, date/year, country, city, relationship, variant, fragments, facts, or chapter content to analytics.
+- Form values stay in the browser. Never send name, date/year, country, city, variant, fragments, facts, or chapter content to analytics.
 - Names remain out of share fragments by default and are included only after explicit consent.
 - Use formal Czech `vy / vás / vaše`, sentence case, concrete language, and honest uncertainty.
 

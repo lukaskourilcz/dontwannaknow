@@ -73,17 +73,16 @@ function AppInner() {
   };
 
   const showReport = Boolean(reports && people && !loading);
-  const editionLabel = showReport && reports?.[0]
-    ? `TS/${reports[0].person.birthYear}/${reports[0].person.variant + 1}`
-    : "Česko a Ukrajina · 1920–2026";
 
   return (
     <div className="page site-shell">
       <a className="skip-link" href="#main-content">Přeskočit na hlavní obsah</a>
-      <div className="masthead-strip">
-        <span>Osobní vydání z ověřených dobových dat</span>
-        <span>{editionLabel}</span>
-      </div>
+      {showReport && reports?.[0] && (
+        <div className="masthead-strip">
+          <span>Osobní vydání z ověřených dobových dat</span>
+          <span>{`TS/${reports[0].person.birthYear}/${reports[0].person.variant + 1}`}</span>
+        </div>
+      )}
       <header className="site-header">
         <button type="button" className="brand-wordmark" onClick={reset} aria-label="Tehdejší svět — domů">
           <BrandMark className="brand-mark" />

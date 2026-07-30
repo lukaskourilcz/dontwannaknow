@@ -1,6 +1,6 @@
 # Tehdejší svět
 
-Tehdejší svět vytváří osobní, časově řazený portrét prostředí, ve kterém člověk vyrůstal. Uživatel zvolí vztah, volitelné křestní jméno, datum nebo rok narození a podporované město v Česku či na Ukrajině. Výsledek propojí každodennost, kulturu, místní dění, proměny hranic, narozeninovou oblohu a širší historické souvislosti.
+Tehdejší svět vytváří osobní, časově řazený portrét prostředí, ve kterém člověk vyrůstal. Uživatel zadá volitelné křestní jméno, datum nebo rok narození, dnešní zemi a podporované město v Česku či na Ukrajině. Výsledek propojí každodennost, kulturu, místní dění, proměny hranic, narozeninovou oblohu a širší historické souvislosti.
 
 Nejde o životopis ani o generovaný příběh. Zpráva vzniká deterministicky v prohlížeči z kurátorovaných statických dat. Formulářové údaje se neposílají na server a aplikace nepoužívá runtime AI, účet ani databázi osobních profilů.
 
@@ -26,7 +26,7 @@ Samostatně jsou dostupné `npm run typecheck`, `npm run lint`, `npm test`, `npm
 - `src/App.tsx` drží pouze stav cesty, obnovu fragmentu a lazy-loading výsledku.
 - `src/components/NewForm.tsx` obsluhuje jeden nebo dva profily a klientskou validaci.
 - `src/components/HeroArchive.tsx` drží statický hero poster a rozhoduje, zda prohlížeč dostane i WebGL vrstvu; `src/components/HeroScene.tsx` je ta vrstva a načítá se až po prvním vykreslení.
-- `src/lib/person.ts` je zdroj typu osoby, vztahů, normalizace a podporovaného rozsahu.
+- `src/lib/person.ts` je zdroj typu osoby, normalizace a podporovaného rozsahu.
 - `src/lib/historicalLocation.ts` převádí moderní město a rok na tehdejší politický kontext.
 - `src/lib/facts.ts` vybírá kandidátní data; `src/lib/report.ts` je skládá do kapitol a vynucuje redakční pravidla.
 - `src/lib/relevance.ts` čte build-time skóre relevance (`src/data/relevance/`, pipeline ve `scripts/relevance/`); brány citlivosti, sdílení a věku skóre vždy přebijí.

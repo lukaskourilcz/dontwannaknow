@@ -477,7 +477,6 @@ button.secondary:hover,
   font: 560 2rem/1.1 var(--display);
 }
 
-.form-section { margin-bottom: 2rem; }
 .choice-fieldset { min-width: 0; margin-inline: 0; padding: 0; border: 0; }
 .field-label {
   display: block;
@@ -489,13 +488,6 @@ button.secondary:hover,
   font-weight: 720;
 }
 
-.relationship-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-}
-
-.relationship-chip,
 .country-option {
   min-height: 44px;
   border: 1px solid var(--rule-strong);
@@ -515,22 +507,11 @@ button.secondary:hover,
   pointer-events: none;
 }
 
-.relationship-chip:has(.choice-input:focus-visible),
 .country-option:has(.choice-input:focus-visible) {
   outline: 3px solid var(--focus);
   outline-offset: 3px;
 }
 
-.relationship-chip {
-  max-width: 100%;
-  padding: 0.68rem 1rem;
-  border-radius: var(--radius-control);
-  white-space: normal;
-}
-
-.relationship-chip > span { display: block; }
-
-.relationship-chip.active,
 .country-option.active {
   border-color: var(--green);
   background: var(--green);
@@ -1170,12 +1151,12 @@ details[open] > summary .summary-action-close { display: inline; }
    the copy leaves over — so the scene is as tall as the form card allows and
    grows on taller screens instead of pushing the form out of view. */
 @media (min-width: 981px) {
-  .page { padding-bottom: 1.5rem; }
-  .site-header { padding-bottom: clamp(1.75rem, 2.6vw, 2.4rem); }
+  .page { padding-bottom: 0; }
+  .site-header { padding: 0.75rem 0; }
 
   .onboarding {
     padding-top: clamp(0.5rem, 1.4vw, 1.1rem);
-    padding-bottom: 1.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .site-footer { margin-top: 1.75rem; }
@@ -1205,10 +1186,7 @@ details[open] > summary .summary-action-close { display: inline; }
   .form-introduction { margin-bottom: 1.15rem; padding-bottom: 0.95rem; }
   .form-introduction h2 { font-size: clamp(1.5rem, 2.3vw, 1.85rem); }
   .form-introduction > p:last-child { margin-top: 0.4rem; font-size: 0.88rem; }
-  .form-section { margin-bottom: 1.15rem; }
   .field-label { margin-bottom: 0.45rem; font-size: 0.82rem; }
-  .relationship-grid { gap: 0.4rem; }
-  .relationship-chip { padding: 0.5rem 0.8rem; font-size: 0.85rem; }
   .form-grid { gap: 0.85rem 1.1rem; }
   .form-field input:not(.choice-input),
   .form-field select { min-height: 46px; padding: 0.6rem 0.85rem; }
@@ -1251,6 +1229,7 @@ details[open] > summary .summary-action-close { display: inline; }
   .comparison-people,
   .comparison-columns,
   .art-strip { grid-template-columns: 1fr; }
+  .form-grid { grid-template-columns: 1fr; }
   .life-numbers { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .report-cover { padding-top: 2.5rem; }
   .cover-details { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -1265,7 +1244,6 @@ details[open] > summary .summary-action-close { display: inline; }
 }
 
 @media (max-width: 390px) {
-  .relationship-chip { width: 100%; text-align: left; }
   .country-options,
   .life-numbers { grid-template-columns: 1fr; }
   .report-toolbar { align-items: stretch; flex-direction: column; }

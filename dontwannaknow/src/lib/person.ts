@@ -3,19 +3,8 @@ import type { SupportedCountry } from "../data/countryDecades";
 import { findCity } from "../data/cityCatalog";
 import { settings } from "../config/settings";
 
-export type SubjectRelation =
-  | "self"
-  | "mother"
-  | "father"
-  | "grandmother"
-  | "grandfather"
-  | "partner"
-  | "friend"
-  | "other";
-
 export type Person = {
   label: string;
-  relationship: SubjectRelation;
   birthYear: number;
   country: SupportedCountry;
   citySlug: string;
@@ -24,30 +13,11 @@ export type Person = {
   variant: number;
 };
 
-export const RELATIONSHIPS: ReadonlyArray<{
-  value: SubjectRelation;
-  label: string;
-  fallbackName: string;
-}> = [
-  { value: "self", label: "Svůj", fallbackName: "tento člověk" },
-  { value: "mother", label: "Maminky", fallbackName: "maminka" },
-  { value: "father", label: "Tatínka", fallbackName: "tatínek" },
-  { value: "grandmother", label: "Babičky", fallbackName: "babička" },
-  { value: "grandfather", label: "Dědečka", fallbackName: "dědeček" },
-  { value: "partner", label: "Partnera či partnerky", fallbackName: "blízký člověk" },
-  { value: "friend", label: "Kamaráda či kamarádky", fallbackName: "blízký člověk" },
-  { value: "other", label: "Někoho jiného", fallbackName: "tento člověk" },
-];
-
-export function relationshipInfo(relation: SubjectRelation) {
-  return RELATIONSHIPS.find((item) => item.value === relation) ?? RELATIONSHIPS[7];
+export function displayName(person: Pick<Person, "label">): string {
+  return person.label.trim() || "tento člověk";
 }
 
-export function displayName(person: Pick<Person, "label" | "relationship">): string {
-  return person.label.trim() || relationshipInfo(person.relationship).fallbackName;
-}
-
-export function reportTitle(person: Pick<Person, "label" | "relationship" | "birthYear">): string {
+export function reportTitle(person: Pick<Person, "label" | "birthYear">): string {
   const name = person.label.trim();
   return name
     ? `Tehdejší svět: ${name}`
@@ -60,7 +30,6 @@ export const SUPPORTED_YEAR_RANGE = {
 } as const;
 
 export type PersonInput = {
-  relationship: SubjectRelation;
   name?: string;
   birthYear: number;
   birthMonth?: number;
@@ -73,7 +42,6 @@ export type PersonInput = {
 export function normalizePerson(input: PersonInput): Person {
   return {
     label: input.name?.trim() ?? "",
-    relationship: input.relationship,
     birthYear: input.birthYear,
     birthMonth: input.birthMonth,
     birthDay: input.birthDay,
