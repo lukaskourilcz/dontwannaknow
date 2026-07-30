@@ -118,6 +118,13 @@ in `scoringExempt` with a reason. To register a new dataset:
   full. A weather item is capped at one, cannot open the birth chapter, is
   absent before 1940, and seasonal superlatives require a complete year,
   twenty reference years and the committed percentile threshold.
+- **`filmPremieres`** — a record must pass its country-of-origin gate before
+  scoring: CZ accepts only Czechoslovakia/Czechia; UA accepts Ukraine, or a
+  USSR record tied to one of four allowlisted Ukrainian studios. A generic
+  Mosfilm title is never enough. Childhood accepts fairy-tale films only at
+  ages 3–9; teenage placement accepts films only at ages 10–17. A Czech title
+  is mandatory, and an override that mentions occupation context is difficult
+  and not share-safe.
 
 ## Changing the rubric
 

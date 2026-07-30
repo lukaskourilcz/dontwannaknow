@@ -20,6 +20,7 @@ Veřejné rozhraní je pouze česky. Podporovaný rozsah je od roku 1920 do aktu
 10. Před-1960 demografický kontext se načítá z národního řezu `vitalsBackfill`; metodika, licence a záměrně vyřazené upstreamy jsou v [`docs/data-vitals-backfill.md`](./docs/data-vitals-backfill.md).
 11. Dobové ceny a mzdy se načítají z národního řezu `pricesWages`; měnové brány, zdroje a regenerace jsou v [`docs/data-prices-wages.md`](./docs/data-prices-wages.md).
 12. Počasí v době narození pochází ze statické build-time rekonstrukce ERA5: celé datum načte právě jeden roční soubor, samotný rok jen sezonní souhrn. Metodika, prahy, licence a výslovná přesnost ~25 km jsou v [`docs/data-birth-weather.md`](./docs/data-birth-weather.md).
+13. Filmové premiéry se načítají z národního řezu `filmPremieres`; věkové, původové a jazykové brány i kurátorské výjimky popisuje [`docs/data-film-premieres.md`](./docs/data-film-premieres.md).
 
 ## Historický kontext
 
@@ -44,7 +45,7 @@ Vercel Analytics nedostává vlastní události s profilem a `beforeSend` odstra
 
 ## Výkon
 
-Formulář načte samostatný malý katalog měst, ne velký městský archiv. Veřejné moduly používají generovanou `src/data/public` vrstvu pouze pro CZ/UA, dělenou na běhové řezy: městská fakta po městech (`public/cityFacts/<město>.json`) a národní sady po zemích (`<sada>.cz|ua.json`). Stejný vzor používají `vitalsBackfill` a `pricesWages`, takže se stáhne pouze soubor zvolené země. `birthWeather` jde ještě jemněji: celé datum načte z vlastního originu jen soubor města a roku, zatímco rok bez dne jen malý sezonní souhrn; prohlížeč nikdy nevolá Open-Meteo. Zpráva tak načítá jen řezy dané osoby — datový chunk zprávy je ~25 kB místo dřívějších ~135 kB a vstupní chunk prvního vykreslení data neobsahuje vůbec. `Results`, mapa, obloha, umění a číselné vizualizace jsou lazy-loaded; PDF stack až při exportu. Produkční build vypisuje aktuální velikosti chunků, které je třeba sledovat při rozšiřování dat.
+Formulář načte samostatný malý katalog měst, ne velký městský archiv. Veřejné moduly používají generovanou `src/data/public` vrstvu pouze pro CZ/UA, dělenou na běhové řezy: městská fakta po městech (`public/cityFacts/<město>.json`) a národní sady po zemích (`<sada>.cz|ua.json`). Stejný vzor používají `vitalsBackfill`, `pricesWages` a `filmPremieres`, takže se stáhne pouze soubor zvolené země. `birthWeather` jde ještě jemněji: celé datum načte z vlastního originu jen soubor města a roku, zatímco rok bez dne jen malý sezonní souhrn; prohlížeč nikdy nevolá Open-Meteo. Zpráva tak načítá jen řezy dané osoby — vstupní chunk prvního vykreslení historická data neobsahuje. `Results`, mapa, obloha, umění a číselné vizualizace jsou lazy-loaded; PDF stack až při exportu. Produkční build vypisuje aktuální velikosti chunků, které je třeba sledovat při rozšiřování dat.
 
 ## Redakční data a `/dev`
 

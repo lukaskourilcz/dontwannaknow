@@ -48,7 +48,7 @@ function itemKind(item: ReportItem): string {
   if (item.category === "city") return "Místní souvislost";
   if (item.category === "local") return "Souvislost ze země";
   if (item.category === "weather") return "Počasí v době narození";
-  if (["media", "writers", "famous", "contemporaries"].includes(item.category)) return "Kultura";
+  if (["media", "film", "writers", "famous", "contemporaries"].includes(item.category)) return "Kultura";
   const labels: Partial<Record<ReportItem["category"], string>> = {
     daily: "Domácnost a rytmus dne",
     food: "Jídlo",
@@ -68,7 +68,7 @@ function itemVariant(item: ReportItem): string {
   if (item.id.startsWith("fallback-")) return "missing";
   if (item.metadata.sensitivity === "difficult") return "difficult";
   if (item.category === "city") return "local";
-  if (["media", "writers", "famous", "contemporaries"].includes(item.category)) return "culture";
+  if (["media", "film", "writers", "famous", "contemporaries"].includes(item.category)) return "culture";
   if (item.metadata.chapter === "different-from-today") return "contrast";
   if (item.metadata.featured) return "featured";
   return "standard";

@@ -97,6 +97,7 @@ const chapterForCategory: Record<FactCategory, ReportChapterId> = {
   illness: "generation-context",
   money: "different-from-today",
   weather: "birth",
+  film: "teenage-years",
   media: "teenage-years",
   writers: "teenage-years",
   famous: "teenage-years",
@@ -131,7 +132,7 @@ export function annotateFact(
     : ruleSensitivity;
   const difficult = sensitivity === "difficult";
   const seriousCategory = ["government", "illness", "world"].includes(fact.category);
-  const positiveCategory = ["beautiful", "media", "food"].includes(fact.category);
+  const positiveCategory = ["beautiful", "media", "film", "food"].includes(fact.category);
   const metadata: EditorialMetadata = {
     tone: override?.tone ?? (difficult || seriousCategory ? "serious" : positiveCategory ? "warm" : fact.category === "bizarre" ? "playful" : "neutral"),
     sensitivity,
@@ -388,10 +389,11 @@ export function composeChapters(
     }),
     ...birthWeather,
   ];
-  const early = choose("early-childhood", ["city", "clothes"], 5, {
+  const early = choose("early-childhood", ["city", "clothes", "film"], 5, {
     safeOnly: true,
     predicate: (fact) =>
       fact.stage !== "teenage-era" &&
+      (fact.category !== "film" || fact.stage === "birth-era") &&
       (fact.year === undefined ||
         (fact.year >= person.birthYear && fact.year <= person.birthYear + 10)),
   });
@@ -399,7 +401,7 @@ export function composeChapters(
     predicate: (fact) => fact.stage !== "teenage-era",
   });
   const teen = [
-    ...choose("teenage-years", ["media"], 3, {
+    ...choose("teenage-years", ["media", "film"], 3, {
       predicate: (fact) => fact.stage !== "birth-era",
     }),
     ...choose("teenage-years", ["famous", "contemporaries", "writers"], 4, {

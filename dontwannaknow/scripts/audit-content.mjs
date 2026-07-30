@@ -117,6 +117,7 @@ const publicDatasets = [
   "famousPeople", "leaders", "media", "writers", "worldBank", "wikidataPeople", "artByDecade",
   "cityCatalog", "cityCoords", "countries", "stats", "stars", "worldPaths",
   "weatherTemplates", "birthWeather",
+  "filmPremieres",
 ];
 for (const dataset of publicDatasets) {
   const source = sourceManifest.get(dataset);
@@ -198,6 +199,7 @@ for (const filename of [
   "famousPeople.cz.json", "famousPeople.ua.json",
   "leaders.cz.json", "leaders.ua.json",
   "wikidataPeople.cz.json", "wikidataPeople.ua.json",
+  "filmPremieres.cz.json", "filmPremieres.ua.json",
 ]) {
   const records = JSON.parse(await readFile(new URL(filename, publicDirectory), "utf8"));
   const expected = filename.includes(".cz.") ? "CZ" : "UA";
@@ -283,6 +285,7 @@ const relevanceDatasets = {
   vitalsBackfill: ["vitals.cz.json", "vitals.ua.json"],
   pricesWages: ["pricesWages.cz.json", "pricesWages.ua.json"],
   weatherTemplates: ["weatherTemplates.json"],
+  filmPremieres: ["filmPremieres.cz.json", "filmPremieres.ua.json"],
 };
 
 // Každá veřejná sada s dobovým textem musí projít skórováním. Sady, které
@@ -419,6 +422,70 @@ for (const [dataset, publicFiles] of Object.entries(relevanceDatasets)) {
         errors.push(`${label}: URL nezačíná http(s).`);
       }
     }
+  }
+}
+
+// ── P4: filmové premiéry z Wikidat ────────────────────────────────────
+{
+  const czechOrigins = new Set(["Q33946", "Q213"]);
+  const ukrainianStudios = new Set(["Q577589", "Q2628487", "Q16852254", "Q4470719"]);
+  const films = [];
+  for (const filename of ["filmPremieres.cz.json", "filmPremieres.ua.json"]) {
+    const content = await readFile(new URL(`../src/data/public/${filename}`, import.meta.url), "utf8")
+      .catch(() => null);
+    if (content) films.push(...JSON.parse(content));
+  }
+  const perYear = new Map();
+  for (const [index, film] of films.entries()) {
+    const label = `public/filmPremieres[${index}]`;
+    if (!["cz", "ua"].includes(film.country)) errors.push(`${label}: nepodporovaná země.`);
+    if (!/^Q\d+$/.test(String(film.wikidataId ?? ""))) errors.push(`${label}: neplatné Wikidata ID.`);
+    if (!Number.isInteger(film.year) || film.decadeStart !== Math.floor(film.year / 10) * 10) {
+      errors.push(`${label}: neplatný rok nebo dekáda.`);
+    }
+    if (!String(film.title ?? "").trim() || !String(film.sentence ?? "").trim()) {
+      errors.push(`${label}: chybí český název nebo věta.`);
+    }
+    if (/[\u0400-\u04ff]/u.test(`${film.title ?? ""} ${film.sentence ?? ""}`)) {
+      errors.push(`${label}: veřejný záznam obsahuje cyrilici místo české redakční vrstvy.`);
+    }
+    if (film.licence !== "CC0 1.0") errors.push(`${label}: licence není CC0 1.0.`);
+    if (!Array.isArray(film.originIds) || !Array.isArray(film.studioIds)) {
+      errors.push(`${label}: chybí strukturovaný původ nebo studio.`);
+    } else if (film.country === "cz") {
+      if (!film.originIds.length || film.originIds.some((origin) => !czechOrigins.has(origin))) {
+        errors.push(`${label}: český film má nepovolený původ.`);
+      }
+    } else {
+      const allowed = film.originIds.includes("Q212")
+        || (
+          film.originIds.includes("Q15180")
+          && film.studioIds.some((studio) => ukrainianStudios.has(studio))
+        );
+      if (!allowed) errors.push(`${label}: ukrajinský film neprošel původovou branou.`);
+      if (
+        film.originIds.includes("Q15180")
+        && film.studioIds.includes("Q141336")
+        && !film.studioIds.some((studio) => ukrainianStudios.has(studio))
+      ) {
+        errors.push(`${label}: obecný titul Mosfilmu nesmí projít jako ukrajinský.`);
+      }
+    }
+    if (
+      film.curated
+      && /okupac|protektorát|deportac/i.test(film.sentence)
+      && (film.sensitivity !== "difficult" || film.shareSafe !== false)
+    ) {
+      errors.push(`${label}: override s okupačním kontextem musí být obtížný a nesdílený.`);
+    }
+    if (film.sensitivity === "difficult" && film.shareSafe !== false) {
+      errors.push(`${label}: obtížný filmový kontext nesmí být bezpečný pro sdílení.`);
+    }
+    const yearKey = `${film.country}|${film.year}`;
+    perYear.set(yearKey, (perYear.get(yearKey) ?? 0) + 1);
+  }
+  for (const [yearKey, count] of perYear) {
+    if (count > 8) errors.push(`filmPremieres ${yearKey}: ${count} záznamů překračuje limit osmi.`);
   }
 }
 

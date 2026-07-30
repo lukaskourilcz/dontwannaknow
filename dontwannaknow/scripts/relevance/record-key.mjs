@@ -22,6 +22,8 @@ export function recordKey(dataset, record) {
       return record.id;
     case "weatherTemplates":
       return `${record.id}|${record.template}`;
+    case "filmPremieres":
+      return `${record.country}|${record.wikidataId}|${record.year}|${record.title}|${record.sentence}`;
     default:
       throw new Error(`Neznámá datová sada: ${dataset}`);
   }

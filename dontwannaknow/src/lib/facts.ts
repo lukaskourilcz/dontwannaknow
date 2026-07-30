@@ -15,6 +15,7 @@ import { findCity } from "../data/cityCatalog";
 import { loadWorldBank, worldBankFor, worldBankLatest } from "../data/worldBank";
 import { loadVitals, vitalsFor, type VitalRecord } from "../data/vitals";
 import { loadPricesWages, pricesWagesFor } from "../data/pricesWages";
+import { filmPremieresFor, loadFilmPremieres } from "../data/filmPremieres";
 import type { BirthWeatherFact } from "../data/birthWeather";
 import { contemporariesFor, loadWikidataPeople } from "../data/wikidataPeople";
 import { mediaFor } from "../data/media";
@@ -66,6 +67,7 @@ export type FactCategory =
     | "food"
     | "money"
     | "weather"
+    | "film"
     | "famous"
     | "local"
     | "city"
@@ -527,6 +529,17 @@ function buildReport(
     sourceConfidence: "verified" as const,
     shareSafe: true,
   })));
+  facts.push(...filmPremieresFor(person.country, birthYear).map((record) => ({
+    category: "film" as const,
+    year: record.year,
+    stage: record.placement === "childhood" ? "birth-era" as const : "teenage-era" as const,
+    text: record.sentence,
+    relevance: record.relevance,
+    source: record.source,
+    sourceConfidence: "verified" as const,
+    sensitivity: record.sensitivity,
+    shareSafe: record.shareSafe,
+  })));
   if (birthWeather) {
     facts.push({
       category: "weather",
@@ -601,6 +614,7 @@ export async function reportFor(person: Person, excludeWorld = false): Promise<P
     loadWorldBank(person.country),
     loadVitals(person.country),
     loadPricesWages(person.country),
+    loadFilmPremieres(person.country),
   ]);
   return withSeededRandom(
     seed,
